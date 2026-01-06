@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T134452Z</fecha_actualizacion>
+      <identificador>BOE-A-1995-27965</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5130">Ministerio de Economía y Hacienda</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19951228</fecha_disposicion>
+      <numero_oficial>2187/1995</numero_oficial>
+      <titulo>Real Decreto 2187/1995, de 28 de diciembre, por el que se determina el alcance y concesión de la exención establecida en el impuesto sobre bienes inmuebles a los centros educativos concertados y se determina el procedimiento para satisfacer las compensaciones a favor de los Ayuntamientos, previstas en el apartado 2 del artículo 7 de la Ley 22/1993, de 29 de diciembre.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19951230</fecha_publicacion>
+      <diario_numero>312</diario_numero>
+      <fecha_vigencia>19951231</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1995/12/28/2187</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1995-27965</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="421">Ayuntamientos</materia>
+        <materia codigo="784">Centros de enseñanza</materia>
+        <materia codigo="4096">Impuesto sobre Bienes Inmuebles</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1993-31153</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 7 de la Ley 22/1993, de 29 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1988-29623</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 39/1988, de 28 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-26788</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 2377/1985, de 18 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12978</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 8/1985, de 3 de julio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-27965</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-12-28</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2187</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/421"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4096"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-27965</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-12-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2187</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/421"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4096"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/con/19951230"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2187/1995, de 28 de diciembre, por el que se determina el alcance y concesión de la exención establecida en el impuesto sobre bienes inmuebles a los centros educativos concertados y se determina el procedimiento para satisfacer las compensaciones a favor de los Ayuntamientos, previstas en el apartado 2 del artículo 7 de la Ley 22/1993, de 29 de diciembre.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-12-30</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/con/19951230">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-27965</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-12-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2187</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/421"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4096"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-12-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/con/19951230/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2187/1995, de 28 de diciembre, por el que se determina el alcance y concesión de la exención establecida en el impuesto sobre bienes inmuebles a los centros educativos concertados y se determina el procedimiento para satisfacer las compensaciones a favor de los Ayuntamientos, previstas en el apartado 2 del artículo 7 de la Ley 22/1993, de 29 de diciembre.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/con/19951230"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/12/28/2187/con/19951230/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/12/28/2187/con/19951230/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="parrafo">El artículo 7.1 de la Ley 22/1993, de 29 de diciembre, de medidas fiscales, de reforma del régimen jurídico de la función pública y de la protección por desempleo, dispone que con efectos del 1 de enero de 1994 se modifica el artículo 64 de la Ley 39/1988, de 28 de diciembre, reguladora de las Haciendas Locales, en el sentido de establecer una nueva exención en el Impuesto sobre Bienes Inmuebles a favor de los centros docentes privados acogidos al régimen de conciertos educativos, en tanto mantengan su condición de centros total o parcialmente concertados.</p>
+          <p class="parrafo">A su vez el apartado 2 prevé que el importe de la exención será compensado a los Ayuntamientos en los términos que reglamentariamente se establezcan.</p>
+          <p class="parrafo">Para dar cumplimiento al precepto citado, de conformidad con lo establecido en la disposición final primera de la Ley 39/1988, de 28 de diciembre, reguladora de las Haciendas Locales, se hace preciso determinar el alcance de la exención sobre la base de que haya que entender que el beneficio fiscal debe tener como destinatarios exclusivos a los sujetos pasivos titulares de los centros concertados que presten el servicio de enseñanza; asimismo debe regularse el procedimiento, tanto para reconocer las exenciones como para hacer efectivas las compensaciones pertinentes.</p>
+          <p class="parrafo">Por su parte el Real Decreto 2377/1985, de 18 de diciembre, que desarrolla la Ley Orgánica 8/1985, de 3 de julio, Reguladora del Derecho a la Educación, reglamenta las normas básicas sobre el régimen de los conciertos educativos sobre la base de una duración inicial de dichos conciertos de cuatro años, renovables sucesivamente por períodos de igual duración siempre que el centro siga cumpliendo los requisitos que determinaron su aprobación, pudiendo, a su vez, ser objeto de extinción o rescisión en determinados supuestos previstos taxativamente, lo que condiciona el alcance temporal del nuevo supuesto de exención tributaria.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Economía y Hacienda, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 28 de diciembre de 1995,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Artículo 1. Alcance de la exención en el Impuesto sobre Bienes Inmuebles.</p>
+          <p class="parrafo">Gozarán de la exención prevista en el artículo 7 de la Ley 22/1993, la unidad o unidades sometidas a tributación por el Impuesto de Bienes Inmuebles que se integren en los centros docentes privados afectadas a las actividades de enseñanza protegibles en régimen de concierto, siempre que aquéllos:</p>
+          <p class="parrafo_2">a) Mantengan en el momento de devengo del tributo su condición de centros total o parcialmente concertados y no hayan sido privados efectivamente de tal condición por haber incurrido en alguna de las causas de extinción o rescisión previstas en el Real Decreto 2377/1985, de 18 de diciembre, ni desafectadas las unidades objeto de exención a los fines de la enseñanza protegible en régimen de concierto.</p>
+          <p class="parrafo">b) Ostenten la condición de sujetos pasivos a efectos de la exacción del Impuesto de Bienes Inmuebles en relación con los edificios ocupados por cada centro de referencia.</p>
+          <p class="parrafo_2">A tal efecto, la titularidad de los bienes o derechos objeto de exención deberá estar necesariamente vinculada con la finalidad educativa del centro acogido al correspondiente concierto educativo.</p>
+          <p class="parrafo">Entre las finalidades educativas se comprenderán no sólo las docentes, sino los servicios complementarios de comedor escolar, de asistencia sanitaria al alumno y los demás que sean declarados de carácter necesario en virtud de una norma de rango suficiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Artículo 2. Solicitud de la exención.</p>
+          <p class="parrafo">Los titulares de los centros concertados con derecho a la exención deberán dirigirse a los Ayuntamientos respectivos o, en su caso, a las administraciones que gestionen por cuenta de aquéllos el tributo, a fin de que se proceda a la concesión expresa del beneficio fiscal, acompañando la siguiente documentación:</p>
+          <p class="parrafo_2">a) Certificado de la administración educativa correspondiente acreditativa de la calidad de centro concertado asignable a los edificios e instalaciones destinadas directa y exclusivamente a las actividades docentes objeto de exención.</p>
+          <p class="parrafo">b) Informe de la Dirección General del Centro de Gestión Catastral y Cooperación Tributaria acreditativo de las superficies de los edificios o conjuntos urbanísticos adscritos exclusivamente a la actividad educativa o a servicios complementarios de enseñanza y de asistencia docente de carácter necesario, con indicación del valor catastral asignado a cada uno de los elementos citados.</p>
+          <p class="parrafo">c) Cualquier otra documentación reglamentariamente exigible por el Ayuntamiento o la Administración encargada de la gestión.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Artículo 3. Iniciación del procedimiento de compensación.</p>
+          <p class="parrafo">Una vez declarada la exención, con fijación de las cuotas tributarias aplicables a las bases imponibles vinculadas al servicio de la enseñanza, con la extensión determinada en el párrafo b) del artículo anterior, el Ayuntamiento, resueltas las reclamaciones que, en su caso, hubieran formulado los interesados contra dicha declaración en vía administrativa, remitirá a la Dirección General de Coordinación con las Haciendas Territoriales la siguiente documentación:</p>
+          <p class="parrafo_2">a) Solicitud de la compensación a realizar, con indicación de las cuotas objeto de exención.</p>
+          <p class="parrafo">b) Copia autenticada de la declaración de exención con indicación de su carácter firme en vía administrativa.</p>
+          <p class="parrafo">c) Copia autenticada del informe emitido por la Dirección General del Centro de Gestión Catastral y Cooperación Tributaria.</p>
+          <p class="parrafo">d) Copia autenticada del certificado de la administración educativa a que se refiere el párrafo a) del artículo 2.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Artículo 4. Resolución del expediente.</p>
+          <p class="parrafo">A la vista de los antecedentes señalados y de los que previo requerimiento en forma y se estimen pertinentes en su caso a efectos de aclarar el alcance de la compensación, por la Dirección General de Coordinación se dictará la resolución correspondiente, que se notificará al Ayuntamiento respectivo señalando los recursos que sean pertinentes en aplicación de lo dispuesto en la Ley 30/1992, de 26 de noviembre, que además se considerará supletoria en relación con lo no previsto en el presente Real Decreto.</p>
+          <p class="parrafo">No obstante a lo dispuesto en los artículos 2 y 3 anteriores y una vez concedida la exención con relación al primero de los ejercicios económicos en que aquélla haya de ser efectiva, para los sucesivos períodos impositivos, podrá simplificarse la documentación a aportar siempre que por parte de los Ayuntamientos respectivos y bajo la responsabilidad de la propia Corporación se hagan constar de forma fehaciente los siguientes extremos:</p>
+          <p class="parrafo_2">a) Base imponible asignada al centro educativo correspondiente, incluyendo a estos efectos de las variaciones en los valores catastrales de carácter automático establecidas por las respectivas Leyes de Presupuestos Generales del Estado, así como las de orden físico y económico que tengan incidencia en el respectivo período impositivo.</p>
+          <p class="parrafo">b) Inalterabilidad del tipo impositivo aplicable o determinación, en su caso, de otro nuevo, con indicación expresa de la fecha del acuerdo de modificación de la respectiva ordenanza fiscal por parte del Pleno de la Corporación.</p>
+          <p class="parrafo_2">En cualquier caso, deberá aportarse un certificado de la Administración educativa correspondiente en el que conste que el centro docente beneficiario de la exención sigue manteniendo la condición de centro total o parcialmente concertado con referencia al curso escolar vigente en el momento de devengo del tributo.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Artículo 5. Transferencias de fondos.</p>
+          <p class="parrafo">Las cantidades reconocidas a los Ayuntamientos en concepto de compensación por los beneficios fiscales concedidos, en la forma expuesta, serán objeto de transferencia a los respectivos Ayuntamientos una vez se concluya el oportuno expediente de gasto con cargo a los créditos habilitados al efecto en los Presupuestos Generales del Estado en el ejercicio económico correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Disposición final primera. Facultad de desarrollo.</p>
+          <p class="parrafo">Se faculta al Ministro de Economía y Hacienda a efectos de dictar las normas que sean precisas para el desarrollo del presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1995-27965" fecha_publicacion="19951230" fecha_vigencia="19951231">
+          <p class="parrafo_2">Dado en Madrid a 28 de diciembre de 1995.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Economía y Hacienda,</p>
+          <p class="firma_ministro">PEDRO SOLBES MIRA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

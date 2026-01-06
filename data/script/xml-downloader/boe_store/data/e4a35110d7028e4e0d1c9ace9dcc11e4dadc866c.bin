@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165949Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-17041</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4240">Ministerio de Educación y Cultura</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19980703</fecha_disposicion>
+      <numero_oficial>1424/1998</numero_oficial>
+      <titulo>Real Decreto 1424/1998, de 3 de julio, por el que se constituye y organiza el Real Patronato de la Ciudad de Toledo.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980717</fecha_publicacion>
+      <diario_numero>170</diario_numero>
+      <fecha_vigencia>19980718</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1998/07/03/1424</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-17041</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4976">Ministerio de Educación y Cultura</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="5871">Real Patronato de la Ciudad de Toledo</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12534</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 16/1985, de 25 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2000-17127</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 4, por Real Decreto 1603/2000, de 15 de septiembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-124</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 4, por Real Decreto 2063/1999, de 30 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-17041</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1424</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4976"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5871"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-17041</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1424</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4976"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5871"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000922"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000105"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/19980717"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1424/1998, de 3 de julio, por el que se constituye y organiza el Real Patronato de la Ciudad de Toledo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000922">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-17041</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1424</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4976"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5871"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-09-22</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000922/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1424/1998, de 3 de julio, por el que se constituye y organiza el Real Patronato de la Ciudad de Toledo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000922"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000922/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000922/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000105">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-17041</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1424</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4976"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5871"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000105/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1424/1998, de 3 de julio, por el que se constituye y organiza el Real Patronato de la Ciudad de Toledo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000105"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000105/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/20000105/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/19980717">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-17041</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1424</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4976"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5871"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/19980717/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1424/1998, de 3 de julio, por el que se constituye y organiza el Real Patronato de la Ciudad de Toledo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/19980717"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/19980717/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/07/03/1424/con/19980717/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="parrafo">La ciudad de Toledo es uno de los principales conjuntos monumentales de España, con una gran importancia simbólica por la convivencia en ella de las tres grandes culturas monoteístas que han forjado nuestra civilización; y con una proyección internacional que hizo que fuera declarada, por la UNESCO en 1986, Patrimonio de la Humanidad.</p>
+          <p class="parrafo">Para fortalecer y potenciar sus posibilidades de desarrollo cultural y turístico, resulta conveniente constituir un Real Patronato que facilite la promoción y coordinación de las actividades en que participen las entidades estatales, autonómicas y locales directamente vinculadas a la ciudad de Toledo. La labor del Real Patronato se verá facilitada por la existencia del Plan Especial del Casco Histórico de la Ciudad de Toledo, aprobado por Acuerdo del Pleno del Ayuntamiento de Toledo de 17 de febrero de 1997 («Boletín Oficial de la Provincia de Toledo» de 10 de marzo de 1997) y realizado en cumplimiento de lo dispuesto en el artículo 20.1 de la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Educación y Cultura, con la aprobación del Ministro de Administraciones Públicas y previa deliberación del Consejo de Ministros en su reunión del día 3 de julio de 1998,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Artículo 1. Constitución.</p>
+          <p class="parrafo">Se constituye el Real Patronato de la Ciudad de Toledo, que funcionará como órgano permanente colegiado, con el fin de promover y coordinar todas aquellas acciones que deban realizar en Toledo las Administraciones y entidades que lo componen, orientadas a la conservación y revitalización del Patrimonio Cultural de la ciudad de Toledo, a la difusión de los valores que simboliza, así como al desarrollo y potenciación de las actividades culturales y turísticas vinculadas a la ciudad.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Artículo 2. Atribuciones.</p>
+          <p class="parrafo">Para la consecución de los fines previstos en el artículo anterior, serán atribuciones específicas del Real Patronato las siguientes:</p>
+          <p class="parrafo_2">a)	Promover la ejecución de obras, servicios e instalaciones en general, así como la construcción y establecimiento de medios adecuados de transportes y comunicaciones urbanos e interurbanos relacionados con los objetivos del Real Patronato.</p>
+          <p class="parrafo">b)	Impulsar la coordinación de las inversiones que se proyecten por las Administraciones públicas para la realización de las obras, servicios e instalaciones antes referidos.</p>
+          <p class="parrafo">c)	Promover iniciativas y proyectos culturales orientados a la conservación del patrimonio histórico y a la potenciación de la ciudad de Toledo como lugar de encuentro de culturas diversas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Artículo 3. Adscripción.</p>
+          <p class="parrafo">El Real Patronato estará adscrito administrativamente al Ministerio de Educación y Cultura y se reunirá en la ciudad de Toledo.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Artículo 4. Composición.</p>
+          <p class="parrafo">1. Bajo la Presidencia de Honor de Su Majestad el Rey, el Real Patronato tendrá la siguiente composición:</p>
+          <p class="parrafo_2">Presidente: El Presidente del Gobierno.</p>
+          <p class="parrafo">Vicepresidente: El Ministro de Educación y Cultura, que sustituirá al Presidente en casos de vacante, ausencia, enfermedad u otra causa legalmente establecida.</p>
+          <p class="parrafo">Vocales:</p>
+          <p class="parrafo_2">El Ministro de Asuntos Exteriores.</p>
+          <p class="parrafo">El Ministro de Economía y Hacienda.</p>
+          <p class="parrafo">El Ministro de Fomento.</p>
+          <p class="parrafo">El Ministro de Administraciones Públicas.</p>
+          <p class="parrafo">El Secretario de Estado de Cultura.</p>
+          <p class="parrafo">El Delegado del Gobierno en Castilla-La Mancha.</p>
+          <p class="parrafo">El Alcalde de Toledo.</p>
+          <p class="parrafo_2">Además, tendrán derecho a formar parte como Vocales, previa comunicación por escrito de su aceptación, las siguientes autoridades y cargos:</p>
+          <p class="parrafo_2">El Presidente de la Junta de Comunidades de Castilla-La Mancha.</p>
+          <p class="parrafo">El Presidente de la Diputación Provincial de Toledo.</p>
+          <p class="parrafo">El Arzobispo de Toledo.</p>
+          <p class="parrafo">El Rector de la Universidad de Castilla-La Mancha.</p>
+          <p class="parrafo">El Director de la Real Academia de Bellas Artes y Ciencias Históricas de Toledo.</p>
+          <p class="parrafo">Un representante de la Real Fundación de Toledo.</p>
+          <p class="parrafo">Secretario: El Subsecretario del Ministerio de Educación y Cultura.</p>
+          <p class="parrafo_2">2. A las sesiones del Real Patronato podrán asistir, con voz pero sin voto, aquellas personas que sean expresamente convocadas al efecto por el Presidente.</p>
+        </version>
+        <version id_norma="BOE-A-2000-124" fecha_publicacion="20000105" fecha_vigencia="20000105">
+          <p class="articulo">Artículo 4. Composición.</p>
+          <p class="parrafo">1. Bajo la Presidencia de Honor de Su Majestad el Rey, el Real Patronato tendrá la siguiente composición:</p>
+          <p class="parrafo">Presidente: el Presidente del Gobierno.</p>
+          <p class="parrafo">Vicepresidente: el Ministro de Educación y Cultura, que sustituirá al Presidente en casos de vacante, ausencia, enfermedad u otra causa legalmente establecida.</p>
+          <p class="parrafo">Vocales:</p>
+          <p class="parrafo">El Ministro de Asuntos Exteriores.</p>
+          <p class="parrafo">El Ministro de Economía y Hacienda.</p>
+          <p class="parrafo">El Ministro de Fomento.</p>
+          <p class="parrafo">El Ministro de Administraciones Públicas.</p>
+          <p class="parrafo">El Presidente de la Junta de Comunidades de Castilla-La Mancha.</p>
+          <p class="parrafo">El Secretario de Estado de Cultura.</p>
+          <p class="parrafo">El Delegado del Gobierno en Castilla-La Mancha.</p>
+          <p class="parrafo">El Alcalde de Toledo.</p>
+          <p class="parrafo">El Presidente de la Diputación Provincial de Toledo.</p>
+          <p class="parrafo">El Arzobispo de Toledo.</p>
+          <p class="parrafo">El Rector de la Universidad de Castilla-La Mancha.</p>
+          <p class="parrafo">El Director de la Real Academia de Bellas Artes y Ciencias Históricas de Toledo.</p>
+          <p class="parrafo">Un representante de la Real Fundación de Toledo.</p>
+          <p class="parrafo">Secretario: el Subsecretario de Educación y Cultura.</p>
+          <p class="parrafo">2. A las sesiones del Real Patronato podrán asistir, con voz pero sin voto, aquellas personas que sean expresamente convocadas al efecto por el Presidente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 2063/1999, de 30 de diciembre. <a class="refPost">Ref. BOE-A-2000-124</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2000-17127" fecha_publicacion="20000922" fecha_vigencia="20000922">
+          <p class="articulo">Artículo 4. Composición.</p>
+          <p class="parrafo">1. Bajo la Presidencia de Honor de Su Majestad el Rey, el Real Patronato tendrá la siguiente composición:</p>
+          <p class="parrafo">A) Presidente: el Presidente del Gobierno.</p>
+          <p class="parrafo">B) Vicepresidente: el Ministro de Educación, Cultura y Deporte, que sustituirá al Presidente en casos de vacante, ausencia, enfermedad u otra causa legalmente establecida.</p>
+          <p class="parrafo">C) Vocales:</p>
+          <p class="parrafo">a) El Vicepresidente Segundo del Gobierno para Asuntos Económicos y Ministro de Economía.</p>
+          <p class="parrafo">b) El Ministro de Asuntos Exteriores.</p>
+          <p class="parrafo">c) El Ministro de Hacienda.</p>
+          <p class="parrafo">d) El Ministro de Fomento.</p>
+          <p class="parrafo">e) El Ministro de Administraciones Públicas.</p>
+          <p class="parrafo">f) El Presidente de la Junta de Comunidades de Castilla-La Mancha.</p>
+          <p class="parrafo">g) El Secretario de Estado de Cultura.</p>
+          <p class="parrafo">h) El Delegado del Gobierno en Castilla-La Mancha.</p>
+          <p class="parrafo">i) El Alcalde de Toledo.</p>
+          <p class="parrafo">j) El Presidente de la Diputación Provincial de Toledo.</p>
+          <p class="parrafo">k) El Arzobispo de Toledo.</p>
+          <p class="parrafo">l) El Rector de la Universidad de Castilla-La Mancha.</p>
+          <p class="parrafo">m) El Director de la Real Academia de Bellas Artes y Ciencias HIstóricas de Toledo.</p>
+          <p class="parrafo">n) Un representante de la Real Fundación de Toledo.</p>
+          <p class="parrafo">D) Secretario: el Subsecretario de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">2. A las sesiones del Real Patronato podrán asistir, con voz pero sin voto, aquellas personas que sean expresamente convocadas al efecto por el Presidente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 1603/2000, de 15 de septiembre. <a class="refPost">Ref. BOE-A-2000-17127</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 2063/1999, de 30 de diciembre. <a class="refPost">Ref. BOE-A-2000-124</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Artículo 5. Funcionamiento.</p>
+          <p class="parrafo">1. El Real Patronato ajustará su funcionamiento a lo dispuesto en el capítulo II, Título II, de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. Todos los cargos del Real Patronato serán honoríficos, sin derecho a percibir retribución alguna. El Ministerio de Educación y Cultura facilitará al Real Patronato los recursos humanos y materiales necesarios para su funcionamiento sin que se produzca, en ningún caso, aumento del gasto público.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Artículo 6. Cooperación.</p>
+          <p class="parrafo">Para la coordinación institucional derivada de las atribuciones del Real Patronato, así como para la mejor aplicación y desarrollo de sus acuerdos, las Administraciones y entidades que en él participan podrán constituir un consorcio, de conformidad con lo establecido en la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Disposición final primera. Facultades de desarrollo.</p>
+          <p class="parrafo">Se autoriza a la Ministra de Educación y Cultura para dictar previa aprobación, en su caso, del Ministro de Administraciones Públicas, cuantas disposiciones exija el desarrollo y aplicación de este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1998-17041" fecha_publicacion="19980717" fecha_vigencia="19980718">
+          <p class="parrafo_2">Dado en Madrid a 3 de julio de 1998.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Ministra de Educación y Cultura,</p>
+          <p class="firma_ministro">ESPERANZA AGUIRRE Y GIL DE BIEDMA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130628Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-10783</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4210">Ministerio de Educación</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20110527</fecha_disposicion>
+      <numero_oficial>750/2011</numero_oficial>
+      <titulo>Real Decreto 750/2011, de 27 de mayo, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110621</fecha_publicacion>
+      <diario_numero>147</diario_numero>
+      <fecha_vigencia>20110622</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2011/05/27/750</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-10783</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="30">Academias</materia>
+        <materia codigo="5848">Real Academia Nacional de Medicina</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1968-52</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Decreto 3150/1967, de 27 de mayo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2017-12041</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>determinados preceptos, las referencias indicadas del Estatuto y el artículo único, por Real Decreto 896/2017, de 6 de octubre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-10783</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-27</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5848"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-10783</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5848"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20171021"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20110621"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 750/2011, de 27 de mayo, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-06-21</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20171021">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-10783</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5848"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20171021/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 750/2011, de 27 de mayo, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20171021"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20171021/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20171021/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20110621">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-10783</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">750</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5848"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-06-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20110621/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 750/2011, de 27 de mayo, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20110621"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20110621/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/05/27/750/con/20110621/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="parrafo">Los antecedentes de la Real Academia Nacional de Medicina se remontan a la tertulia de médicos, cirujanos y farmacéuticos que empezó a reunirse a comienzos del siglo XVIII en la rebotica de una oficina de farmacia madrileña, donde estos ilustrados conversaban sobre el progreso y la renovación de las ciencias de la salud. Esta iniciativa se formalizó el 12 de julio de 1733 con el nombre de Tertulia Literaria Médica Matritense. Y el 13 de septiembre de 1734, por Real Cédula de Felipe V, se convirtió en Academia Médica Matritense y se aprobaron sus primeros Estatutos, que le encomendaban el fin de promover el estudio y progreso de las ciencias médicas. Por otra Real Cédula de 1831 entró a formar parte, junto con las provinciales, de la administración y gobierno de las profesiones médicas, higiene pública y policía médica, bajo la dirección de la Junta Superior de Medicina, Cirugía y Farmacia.</p>
+          <p class="parrafo">Ya bajo reinado de Isabel II, y por Real Decreto de 28 de abril de 1861, se reorganizó como Real Academia de Medicina de Madrid y se aprobó su Reglamento. Al haber variado el régimen sanitario y haber menguado las facultades de las corporaciones médicas, la Real Academia de Medicina fue reformada según el modelo de los demás centros superiores científicos. No obstante, mantuvo limitadas funciones administrativas, como la de velar por el buen orden en el ejercicio de las profesiones médicas, con el auxilio de los Subdelegados de Sanidad. Esas funciones administrativas le fueron suprimidas por Real Decreto de 29 de noviembre de 1876, que aprobó unos nuevos Estatutos de la Real Academia de Medicina, equiparándola en su organización a las demás Reales Academias.</p>
+          <p class="parrafo">Por Real Decreto de 25 de enero de 1917, se aprobaron unos nuevos Estatutos, en los que se consagraba la denominación de Real Academia Nacional de Medicina y cuyo propósito era ampliar las funciones de este ilustre cuerpo científico, respetar y proteger sus iniciativas y vigorizar su régimen interior. Posteriormente, se aprobaron nuevos Estatutos por los Decretos de 29 de marzo de 1941 y 21 de mayo de 1954. Finalmente, los Estatutos vigentes de la Real Academia Nacional de Medicina fueron aprobados por Decreto 3150/1967, de 7 de diciembre, y han sido modificados parcialmente por los Reales Decretos 3432/1983, de 14 de diciembre, 2158/1993, de 10 diciembre, 1625/1997, de 24 de octubre, y 1653/1998, de 24 de julio.</p>
+          <p class="parrafo">El tiempo transcurrido desde la aprobación de los actuales Estatutos, el aumento de las actividades de la Real Academia Nacional de Medicina, la evolución de las ciencias médicas, y los cambios de todo orden experimentados por la sociedad española, aconsejan la aprobación de unos nuevos Estatutos, más adecuados a la realidad actual.</p>
+          <p class="parrafo">El apartado primero de la disposición adicional segunda del Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España, establece el contenido mínimo de los Estatutos de las Reales Academias de ámbito nacional, que será el siguiente: su denominación, objetivos y funciones, organización, derechos y deberes de los académicos y académicas, y medios económicos para funcionamiento. Por otra parte, el apartado quinto de la misma disposición establece que las modificaciones de los Estatutos de las Academias de ámbito nacional se propondrán por la Academia de que se trate y se aprobarán por Real Decreto del Gobierno, a propuesta del Ministerio de Educación, previo informe del Instituto de España.</p>
+          <p class="parrafo">Estos nuevos Estatutos han sido propuestos por la Real Academia Nacional de Medicina y han sido informados favorablemente por el Instituto de España.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Educación, y previa deliberación del Consejo de Ministros en su reunión del día 27 de mayo de 2011,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos de la Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">Se aprueban los Estatutos de la Real Academia Nacional de Medicina, que se insertan como Anexo de este real decreto.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos de la Real Academia Nacional de Medicina de España.</p>
+          <p class="parrafo">Se aprueban los Estatutos de la Real Academia Nacional de Medicina de España, que se insertan como anexo de este real decreto.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.1 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Disposición adicional primera. Adscripción a Secciones.</p>
+          <p class="parrafo">A partir de la entrada en vigor del presente real decreto, los Académicos y Académicas serán asignados a una de las Secciones establecidas en el artículo 32 de los Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Disposición adicional segunda. Promoción de la mujer.</p>
+          <p class="parrafo">En el reglamento interno de la Academia se procurará la inclusión de medidas dirigidas a promover una mayor presencia de mujeres tanto en los órganos de gobierno como en la comunidad académica.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Disposición transitoria única. Actuales cargos de la Junta Directiva.</p>
+          <p class="parrafo">Las personas que, a la entrada en vigor del presente real decreto, ostenten los cargos que forman parte de la Junta Directiva, seguirán desempeñándolos hasta la terminación de la duración del mandato para el que fueron elegidas. La renovación de dichos cargos se producirá de acuerdo con las normas de los Estatutos que se aprueban.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogados los Estatutos de la Real Academia Nacional de Medicina, aprobados por Decreto 3150/1967, de 7 de diciembre, así como las demás normas de igual o inferior rango que se opongan a lo dispuesto en el presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="parrafo_2">Dado en Madrid, el 27 de mayo de 2011.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Educación,</p>
+          <p class="firma_ministro">ÁNGEL GABILONDO PUJOL</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatutos de la Real Academia Nacional de Medicina</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatutos de la Real Academia Nacional de Medicina de España</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el título por el art. único.2.1 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Denominación, naturaleza, ámbito, sede y símbolos</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 1. Denominación y naturaleza.</p>
+          <p class="parrafo">La denominación de la Real Academia es la de Real Academia Nacional de Medicina, y tiene el Alto Patronazgo de S.M. el Rey, según el artículo 62 de la Constitución Española. Es una corporación científica de derecho público, dotada de personalidad jurídica y capacidad de obrar, integrada en el Instituto de España.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 1. Denominación y naturaleza.</p>
+          <p class="parrafo">La denominación de la Real Academia es la de Real Academia Nacional de Medicina de España, y tiene el alto Patronazgo de S.M. el Rey, según el artículo 62 de la Constitución Española. Es una corporación científica de derecho público, dotada de personalidad jurídica y capacidad de obrar, integrada en el Instituto de España.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.2 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 2. Régimen jurídico y relación administrativa.</p>
+          <p class="parrafo">1. La Real Academia Nacional de Medicina se rige por estos Estatutos así como por un Reglamento interno aprobado por la Junta de Gobierno.</p>
+          <p class="parrafo">2. La Real Academia se relaciona administrativamente con el Ministerio de Educación.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 2. Régimen jurídico y relación administrativa.</p>
+          <p class="parrafo">1. La Real Academia Nacional de Medicina de España se rige por estos Estatutos así como por un Reglamento interno aprobado por la Junta de Gobierno.</p>
+          <p class="parrafo">2. La Real Academia se relaciona administrativamente con el Ministerio de Educación.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.2.3 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 3. Ámbito personal y territorial y sede.</p>
+          <p class="parrafo">1. El cuerpo académico de la Real Academia Nacional de Medicina se compone de Académicos y Académicas de Número, Supernumerarios, de Honor, y Correspondientes.</p>
+          <p class="parrafo">2. El ámbito territorial de la Real Academia Nacional de Medicina es el Reino de España. Su sede social, legal y propia, radica en Madrid, en la calle de Arrieta n° 12.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 3. Ámbito personal y territorial y sede.</p>
+          <p class="parrafo">1. El cuerpo académico de la Real Academia Nacional de Medicina de España se compone de Académicos y Académicas de Número, Supernumerarios, de Honor, y Correspondientes.</p>
+          <p class="parrafo">2. El ámbito territorial de la Real Academia Nacional de Medicina de España es el Reino de España. Su sede social, legal y propia, radica en Madrid, en la calle Arrieta, número 12.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.4 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 4. Defensa.</p>
+          <p class="parrafo">La defensa de la corporación ante cualquier órgano o personas será asumida por los abogados que libremente designe. En casos especiales, la Real Academia Nacional de Medicina podrá solicitar la colaboración de la Abogacía General del Estado - Dirección General del Servicio Jurídico del Estado, de conformidad con lo dispuesto en la Ley 52/1997, de 27 de noviembre, de Asistencia Jurídica al Estado e Instituciones Públicas, y en su normativa complementaria, suscribiendo el oportuno convenio.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 4. Defensa.</p>
+          <p class="parrafo">La defensa de la corporación ante cualquier órgano o personas será asumida por los abogados que libremente designe. En casos especiales, la Real Academia Nacional de Medicina de España podrá solicitar la colaboración de la Abogacía General del Estado-Dirección General del Servicio Jurídico del Estado, de conformidad con lo dispuesto en la Ley 52/1997, de 27 de noviembre, de Asistencia Jurídica al Estado e Instituciones Públicas, y en su normativa complementaria, suscribiendo el oportuno convenio.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.5 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 5. Emblemas y distintivos.</p>
+          <p class="parrafo">1. La Real Academia dispondrá de un sello propio en el que se representa un espejo ustorio, evocando el descubrimiento de Arquímedes, que recoge los rayos del sol y prende fuego a un haz de leña, rodeado todo ello por una corona de hojas de roble y laurel con la divisa: "“Major collectis viribus exit”". Este sello figurará en todas las comunicaciones y escritos oficiales de la Real Academia.</p>
+          <p class="parrafo">2. Los Académicos y Académicas de Número usarán como distintivo una medalla similar a las adoptadas por las Reales Academias integrantes del Instituto de España. Estará configurada del modo siguiente: bajo una corona real, en su anverso entre ramas de laurel, y dentro de una orla en la que figurará la leyenda «Ars cum natura ad salutem conspirans», tiene la alegoría de una matrona que simboliza la Medicina. En su reverso figura el nombre de Real Academia Nacional de Medicina y el número que posee el Académico o Académica de Número. Va colgada de un cordón amarillo y verde.</p>
+          <p class="parrafo">3. Los Académicos y Académicas Correspondientes y de Honor tendrán, como distintivo, una medalla similar a la descrita en el punto 2 de este mismo artículo, que se diferenciará de ella al ser toda dorada y en su reverso, además del nombre de la Real Academia, figura la leyenda de «Académico/a Correspondiente o de Honor». Va colgada de un cordón amarillo.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 5. Emblemas y distintivos.</p>
+          <p class="parrafo">1. La Real Academia dispondrá de un sello propio en el que se representa un espejo ustorio, evocando el descubrimiento de Arquímedes, que recoge los rayos del sol y prende fuego a un haz de leña, rodeado todo ello por una corona de hojas de roble y laurel con la divisa: “Major collectis viribus exit”. Este sello figurará en todas las comunicaciones y escritos oficiales de la Real Academia.</p>
+          <p class="parrafo">2. Los Académicos y Académicas de Número usarán como distintivo una medalla similar a las adoptadas por las Reales Academias integrantes del Instituto de España. Estará configurada del modo siguiente: bajo una corona real, en su anverso entre ramas de laurel, y dentro de una orla en la que figurará la leyenda “Ars cum natura ad salutem conspirans”, tiene la alegoría de una matrona que simboliza la Medicina. En su reverso figura el nombre de Real Academia Nacional de Medicina de España y el número que posee el Académico o Académica de Número. Va colgada de un cordón amarillo y verde.</p>
+          <p class="parrafo">3. Los Académicos y Académicas Correspondientes y de Honor tendrán, como distintivo, una medalla similar a la descrita en el punto 2 de este mismo artículo, que se diferenciará de ella al ser toda dorada y en su reverso, además del nombre de la Real Academia, figura la leyenda de «Académico/a Correspondiente o de Honor». Va colgada de un cordón amarillo.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por el art. único.2.6 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Objetivos y funciones</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 6. Fines.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina tendrá los siguientes fines:</p>
+          <p class="parrafo_2">a) Asesorar a S.M. el Rey, al Gobierno de España y al resto de las Instituciones del Estado, de las Comunidades Autónomas, Gobiernos Locales y de la Administración Institucional, en todos aquellos asuntos que se relacionen con la Medicina, la Salud y la Sanidad, evacuando cuantas consultas se le hagan oficialmente en todos aquellos casos en los que sean solicitados los conocimientos científicos especiales de la Corporación.</p>
+          <p class="parrafo">b) También podrá dirigirse la Real Academia a S.M. el Rey, al Gobierno y al conjunto de las Instituciones del Estado Español, tanto estatales como autonómicas y locales, para exponerles todas las sugerencias e iniciativas que considere oportunas en relación con aspectos concernientes a la Medicina como ciencia, a la Salud, a la asistencia médica, a la prevención y rehabilitación de las enfermedades, a la discapacidad, a la investigación científico-médica, a la formación médica de grado y postgrado y a la actividad profesional.</p>
+          <p class="parrafo">c) Emitir informes periciales de carácter científico-médico de referencia al servicio de las distintas Instituciones del Poder Judicial.</p>
+          <p class="parrafo">d) Evacuar informes sobre problemas medico-deontológicos solicitados por Corporaciones Oficiales o, en su caso, por entidades privadas.</p>
+          <p class="parrafo">e) Contribuir, fomentar, velar por el progreso, la investigación, la docencia y el mejor y mayor conocimiento de la ciencia médica, haciendo llegar a la sociedad en general, a través de los distintos medios de comunicación, información y opinión documentada y contrastada sobre cuestiones de índole médica y sanitaria que sean de conveniente difusión.</p>
+          <p class="parrafo">f) Participar en la evaluación de proyectos de investigación y docencia al servicio de otros organismos e instituciones públicas y privadas nacionales e internacionales.</p>
+          <p class="parrafo">g) Evaluar proyectos de cooperación sanitaria de colaboración para países receptores de aquélla.</p>
+          <p class="parrafo">h) Desarrollar programas de fomento intercultural en el seno del Instituto de España, con otras Reales Academias de Medicina e Instituciones culturales españolas y extranjeras.</p>
+          <p class="parrafo">i) Impulsar y desarrollar un Museo Español de la Medicina y contribuir a la preservación, mantenimiento y acrecentamiento del patrimonio documental e instrumental de la Ciencia Médica realizada en España.</p>
+          <p class="parrafo">j) Elaborar, actualizar y publicar con periodicidad un Diccionario de Términos Médicos, así como vigilar y difundir el uso correcto del lenguaje médico.</p>
+          <p class="parrafo">k) Proponer candidatos a Premios de ámbito Estatal e Internacional de la Ciencia en general y de las Ciencias Médicas en particular.</p>
+          <p class="parrafo">l) Asesorar e informar a fundaciones y entidades públicas y privadas relacionadas con la Medicina, y Asociaciones de Pacientes, así como contribuir y cooperar en cuantas cuestiones relacionadas con las Ciencias Médicas y de la Salud sean necesarias.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 6. Fines.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina de España tendrá los siguientes fines:</p>
+          <p class="parrafo_2">a) Asesorar a S.M. el Rey, al Gobierno de España y al resto de las Instituciones del Estado, de las Comunidades Autónomas, Gobiernos Locales y de la Administración Institucional, en todos aquellos asuntos que se relacionen con la Medicina, la Salud y la Sanidad, evacuando cuantas consultas se le hagan oficialmente en todos aquellos casos en los que sean solicitados los conocimientos científicos especiales de la Corporación.</p>
+          <p class="parrafo">b) También podrá dirigirse la Real Academia a S.M. el Rey, al Gobierno y al conjunto de las Instituciones del Estado Español, tanto estatales como autonómicas y locales, para exponerles todas las sugerencias e iniciativas que considere oportunas en relación con aspectos concernientes a la Medicina como ciencia, a la Salud, a la asistencia médica, a la prevención y rehabilitación de las enfermedades, a la discapacidad, a la investigación científico-médica, a la formación médica de grado y postgrado y a la actividad profesional.</p>
+          <p class="parrafo">c) Emitir informes periciales de carácter científico-médico de referencia al servicio de las distintas Instituciones del Poder Judicial.</p>
+          <p class="parrafo">d) Evacuar informes sobre problemas medico-deontológicos solicitados por Corporaciones Oficiales o, en su caso, por entidades privadas.</p>
+          <p class="parrafo">e) Contribuir, fomentar, velar por el progreso, la investigación, la docencia y el mejor y mayor conocimiento de la ciencia médica, haciendo llegar a la sociedad en general, a través de los distintos medios de comunicación, información y opinión documentada y contrastada sobre cuestiones de índole médica y sanitaria que sean de conveniente difusión.</p>
+          <p class="parrafo">f) Participar en la evaluación de proyectos de investigación y docencia al servicio de otros organismos e instituciones públicas y privadas nacionales e internacionales.</p>
+          <p class="parrafo">g) Evaluar proyectos de cooperación sanitaria de colaboración para países receptores de aquélla.</p>
+          <p class="parrafo">h) Desarrollar programas de fomento intercultural en el seno del Instituto de España, con otras Reales Academias de Medicina e Instituciones culturales españolas y extranjeras.</p>
+          <p class="parrafo">i) Impulsar y desarrollar un Museo Español de la Medicina y contribuir a la preservación, mantenimiento y acrecentamiento del patrimonio documental e instrumental de la Ciencia Médica realizada en España.</p>
+          <p class="parrafo">j) Elaborar, actualizar y publicar con periodicidad un Diccionario de Términos Médicos, así como vigilar y difundir el uso correcto del lenguaje médico.</p>
+          <p class="parrafo">k) Proponer candidatos a Premios de ámbito Estatal e Internacional de la Ciencia en general y de las Ciencias Médicas en particular.</p>
+          <p class="parrafo">l) Asesorar e informar a fundaciones y entidades públicas y privadas relacionadas con la Medicina, y Asociaciones de Pacientes, así como contribuir y cooperar en cuantas cuestiones relacionadas con las Ciencias Médicas y de la Salud sean necesarias.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el primer párrafo por el art. único.2.7 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Cuerpo académico</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 7. Composición de la Academia.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina se compone de:</p>
+          <p class="parrafo_2">a) Académicos y Académicas de Número.</p>
+          <p class="parrafo">b) Académicos y Académicas Supernumerarios.</p>
+          <p class="parrafo">c) Académicos y Académicas de Honor.</p>
+          <p class="parrafo">d) Académicos y Académicas Correspondientes Españoles.</p>
+          <p class="parrafo">e) Académicos y Académicas Correspondientes Extranjeros.</p>
+          <p class="parrafo">f) Académicos y Académicas Correspondientes Honorarios.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 7. Composición de la Academia.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina de España se compone de:</p>
+          <p class="parrafo_2">a) Académicos y Académicas de Número.</p>
+          <p class="parrafo">b) Académicos y Académicas Supernumerarios.</p>
+          <p class="parrafo">c) Académicos y Académicas de Honor.</p>
+          <p class="parrafo">d) Académicos y Académicas Correspondientes Españoles.</p>
+          <p class="parrafo">e) Académicos y Académicas Correspondientes Extranjeros.</p>
+          <p class="parrafo">f) Académicos y Académicas Correspondientes Honorarios.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el primer párrafo por el art. único.2.8 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 8. Académicos y Académicas de Número.</p>
+          <p class="parrafo">Los Académicos y Académicas de Número serán de nacionalidad española y podrán residir en cualquier lugar de España. Deberán tener el título de Doctor en Medicina o en aquellas otras Ciencias afines a que se refiera la vacante, expresadas en la convocatoria. Poseerán un relevante y acreditado prestigio científico y profesional, avalado por sus responsabilidades, investigaciones, publicaciones o trabajos científicos originales. El número máximo de Académicos y Académicas de Número será de 50. Su elección se realizará siguiendo lo establecido en el artículo 14 de los presentes Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 9. Académicos y Académicas Supernumerarios.</p>
+          <p class="parrafo">Alcanzarán la condición de Supernumerarios los Académicos de Número que voluntariamente opten a la misma. Igualmente, se entenderá que un Académico de Número opta de forma automática para su pase a Supernumerario por incumplimiento de sus obligaciones reglamentarias.</p>
+          <p class="parrafo">Pasarán, por último, a Supernumerarios, aquellos Académicos Electos que no hayan leído su preceptivo discurso de ingreso en el término de dos años, como máximo, contado a partir del día de su elección. Los Académicos Supernumerarios gozarán de todas las prerrogativas de los Académicos de número, aunque no podrán ser elegidos para cargos Directivos, ni gozarán del derecho a voto en las elecciones que se celebren.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 10. Académicos y Académicas de Honor.</p>
+          <p class="parrafo">Los Académicos de Honor serán científicos españoles o extranjeros de universal y reconocido renombre, y no podrán exceder de 4 españoles y 15 extranjeros.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 11. Académicos y Académicas Correspondientes Españoles.</p>
+          <p class="parrafo">1. Los Académicos Correspondientes Españoles serán los Doctores que hayan obtenido el premio o premios oficiales de la Real Academia que conlleven dicha distinción y hasta cien más cuyos trabajos científicos presentados en la oportuna convocatoria fueran merecedores de tal nombramiento.</p>
+          <p class="parrafo">2. Igualmente son Académicos Correspondientes todos los Académicos de Número pertenecientes a las Reales Academias de Medicina asociadas al Instituto de España. No obstante, a partir de la entrada en vigor de los presentes Estatutos, los nuevos Académicos de dichas Reales Academias, para ser Académicos Correspondientes de la Real Academia Nacional de Medicina, deberán cumplimentar la normativa que se expresa en el artículo 23.</p>
+          <p class="parrafo">3. La condición de Académico Correspondiente se perderá:</p>
+          <p class="parrafo_2">a) Por renuncia expresa.</p>
+          <p class="parrafo">b) Por usar el título que corresponda de modo incompleto o que induzca a error, a juicio de la Junta de Gobierno.</p>
+          <p class="parrafo">c) Por incumplimiento de sus obligaciones.</p>
+          <p class="parrafo_2">4. Con carácter excepcional, y en personas en quienes recaigan especiales merecimientos, se podrán nombrar, a propuesta de tres Académicos numerarios y de la Junta Directiva, con la aprobación de la Junta de Gobierno y conforme a lo establecido en el artículo 22, Académicos Correspondientes Honorarios españoles.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 11. Académicos y Académicas Correspondientes Españoles.</p>
+          <p class="parrafo">1. Los Académicos Correspondientes Españoles serán los Doctores que hayan obtenido el premio o premios oficiales de la Real Academia que conlleven dicha distinción y hasta cien más cuyos trabajos científicos presentados en la oportuna convocatoria fueran merecedores de tal nombramiento.</p>
+          <p class="parrafo">2. Igualmente son Académicos Correspondientes todos los Académicos de Número pertenecientes a las Reales Academias de Medicina asociadas al Instituto de España. No obstante, a partir de la entrada en vigor de los presentes Estatutos, los nuevos Académicos de dichas Reales Academias, para ser Académicos Correspondientes de la Real Academia Nacional de Medicina de España, deberán cumplimentar la normativa que se expresa en el artículo 23.</p>
+          <p class="parrafo">3. La condición de Académico Correspondiente se perderá:</p>
+          <p class="parrafo_2">a) Por renuncia expresa.</p>
+          <p class="parrafo">b) Por usar el título que corresponda de modo incompleto o que induzca a error, a juicio de la Junta de Gobierno.</p>
+          <p class="parrafo">c) Por incumplimiento de sus obligaciones.</p>
+          <p class="parrafo_2">4. Con carácter excepcional, y en personas en quienes recaigan especiales merecimientos, se podrán nombrar, a propuesta de tres Académicos numerarios y de la Junta Directiva, con la aprobación de la Junta de Gobierno y conforme a lo establecido en el artículo 22, Académicos Correspondientes Honorarios españoles.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por el art. único.2.9 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 12. Académicos y Académicas Correspondientes Extranjeros.</p>
+          <p class="parrafo">Podrán ser nombrados Académicos Correspondientes extranjeros científicos de gran prestigio, a propuesta de tres Académicos numerarios y la Junta Directiva, y con la aprobación de la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Requisitos, provisión, posesión, continuidad, derechos y deberes de la condición de Académico o Académica</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 13. Requisitos de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Para ser Académico o Académica de Número se requiere:</p>
+          <p class="parrafo_2">a) Tener nacionalidad española.</p>
+          <p class="parrafo">b) Tener un título de Doctor en Medicina o de Doctor en la materia a que se refiera la vacante.</p>
+          <p class="parrafo">c) Contar con quince años, al menos, de antigüedad en el ejercicio de la profesión respectiva.</p>
+          <p class="parrafo">d) Haberse distinguido notablemente en la materia a que pertenezca la vacante, por medio de investigaciones, publicaciones, o por una práctica meritoria que le haya granjeado un reconocido prestigio.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 14. Provisión de vacantes de Académico de Número.</p>
+          <p class="parrafo">La provisión de vacantes de Académico de Número se ajustará a las siguientes normas:</p>
+          <p class="parrafo_2">1.ª Ocurrida una vacante, y tras haberse recibido el informe de la Sección correspondiente y de la Junta Directiva, se producirá una deliberación por la Junta de Gobierno en sesión ordinaria o extraordinaria, comunicándose al Ministerio de Educación la denominación bajo la que deberá anunciarse su convocatoria en el “Boletín Oficial del Estado”, la cual debe producirse antes de seis meses a partir del momento de haberse originado la vacante. De este anuncio se dará conocimiento de inmediato, por escrito, a los Académicos de número.</p>
+          <p class="parrafo">2.ª Entre la fecha del anuncio de la vacante y la elección del nuevo Académico habrán de transcurrir como mínimo tres meses y como máximo seis.</p>
+          <p class="parrafo">3.ª Nadie podrá presentar personalmente su candidatura al puesto de Académico. Las propuestas podrán ser formuladas por una de las Secciones de la Real Academia o por tres Académicos de Número, de los cuales uno, al menos, deberá pertenecer a la Sección correspondiente en la que esté incluida la vacante. No se tramitará ninguna propuesta que lleve más de tres firmas ni las que lleven firmas que obren ya en otra candidatura. Las propuestas deberán ir acompañadas de un «curriculum vitae» del candidato.</p>
+          <p class="parrafo">4.ª Para ser elegido en primera votación, el candidato o candidata habrá de obtener el voto favorable de las dos terceras partes de los Académicos de Número en posesión del cargo y derecho a voto, admitiéndose el voto mediante carta identificada de los que no puedan asistir a la sesión.</p>
+          <p class="parrafo">5.ª Si en la primera votación ningún candidato resultara elegido, se procederá en la misma sesión, a una segunda votación, siendo elegido el que tenga el voto favorable de las dos terceras partes de los Académicos presentes con derecho a voto.</p>
+          <p class="parrafo">6.ª Si tampoco se produjera elección en segunda votación, se procederá en la misma sesión a una tercera votación entre los dos candidatos más votados en la segunda votación. En caso de que se produjera empate en la segunda votación, pasarán a la tercera y última votación el más votado y aquellos que hayan obtenido el mismo número de votos. En ésta, resultará elegido el que logre los votos favorables de la mitad más uno de los Académicos presentes con derecho a voto. Si ninguno los obtuviere, quedará la plaza vacante y se procederá a una nueva convocatoria.</p>
+          <p class="parrafo">7.ª Los Académicos cuya elección fuese aprobada, serán de inmediato proclamados Electos y se comunicará al Ministerio de Educación esta resolución.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 15. Toma de posesión y discurso de ingreso.</p>
+          <p class="parrafo">Para la toma de posesión de su plaza, el Académico Electo presentará a la Junta Directiva, en el término de dos años, como máximo, a partir del día de su elección, un discurso que habrá de versar precisamente sobre algún aspecto de la materia propia de la vacante que vaya a ocupar, debiendo ser previamente informado favorablemente por la Sección correspondiente y ratificado por la Junta Directiva. El discurso deberá ser redactado cumpliendo la tradicional norma académica acorde con la solemnidad de la ceremonia.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 16. Contestación al discurso de ingreso.</p>
+          <p class="parrafo">1. El discurso presentado por el Académico Electo para la toma de posesión de su plaza pasará a la Junta Directiva que designará el Académico de Número que haya de contestar, el cual, como norma general, pertenecerá a la Sección a que corresponda la vacante, y a quien se le remitirá el expresado discurso para que componga el discurso de contestación.</p>
+          <p class="parrafo">2. La impresión del documento debe atenerse a las normas que establezca la Comisión de Publicaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 17. Deberes de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Los Académicos y Académicas de Número deberán estar presentes en las sesiones, y desempeñar los cargos que la Real Academia les confiera en las Secciones y Comisiones a que pertenezcan, asistiendo asiduamente, salvo imposibilidad por causas debidamente justificadas ante el Presidente, y debiendo igualmente contribuir con sus trabajos científicos a los fines de la Corporación.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 18. Baja de Académicos de Número o Electos por pase a Supernumerarios.</p>
+          <p class="parrafo">En todos los casos en que se produzca baja de Académico de Número o Electo por su pase a Supernumerario, la Real Academia propondrá cubrir la vacante resultante mediante una nueva convocatoria. En el caso de los Académicos Electos declarados Supernumerarios, les asistirá el derecho a ocupar la siguiente vacante que se produzca en su especialidad, con tan solo presentar junto con su solicitud, y en un plazo no superior a seis meses, el texto de su preceptivo discurso de ingreso.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 19. Derechos de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Los Académicos de número tienen las siguientes prerrogativas:</p>
+          <p class="parrafo_2">a) Formar parte de la Junta de Gobierno con todos los derechos y responsabilidades.</p>
+          <p class="parrafo">b) Proponer iniciativas en el ámbito académico que deberán ser obligatoriamente estudiadas y valoradas por la Junta Directiva para su inclusión en los programas generales de la Real Academia.</p>
+          <p class="parrafo">c) Tratamiento de Excelencia, inherente a su condición de Académico de número de la Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">d) Usar como símbolo distintivo el descrito en el artículo 5. Podrán utilizar el uniforme que está señalado en el título tercero del capítulo tercero de la Real Cédula de 13 de enero de 1831.</p>
+          <p class="parrafo">e) Percibir, con cargo a los fondos de la Corporación, las dietas, indemnizaciones o retribuciones que correspondan por comisiones, asistencias y otras actividades que determine la Junta Directiva.</p>
+          <p class="parrafo">f) Obtener respuesta escrita por parte del Presidente a las peticiones que le dirijan.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 19. Derechos de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Los Académicos de número tienen las siguientes prerrogativas:</p>
+          <p class="parrafo_2">a) Formar parte de la Junta de Gobierno con todos los derechos y responsabilidades.</p>
+          <p class="parrafo">b) Proponer iniciativas en el ámbito académico que deberán ser obligatoriamente estudiadas y valoradas por la Junta Directiva para su inclusión en los programas generales de la Real Academia.</p>
+          <p class="parrafo">c) Tratamiento de Excelencia, inherente a su condición de Académico de número de la Real Academia Nacional de Medicina de España.</p>
+          <p class="parrafo">d) Usar como símbolo distintivo el descrito en el artículo 5. Podrán utilizar el uniforme que está señalado en el título tercero del capítulo tercero de la Real Cédula de 13 de enero de 1831.</p>
+          <p class="parrafo">e) Percibir, con cargo a los fondos de la Corporación, las dietas, indemnizaciones o retribuciones que correspondan por comisiones, asistencias y otras actividades que determine la Junta Directiva.</p>
+          <p class="parrafo">f) Obtener respuesta escrita por parte del Presidente a las peticiones que le dirijan.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra c) por el art. único.2.10 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 20. Condiciones y elección de Académicos y Académicas de Honor.</p>
+          <p class="parrafo">1. Los Académicos de Honor deberán reunir las condiciones expresadas en el artículo 10.</p>
+          <p class="parrafo">2. Podrán ser elegidos por la Junta de Gobierno, previa propuesta de la Junta Directiva o de cinco Académicos de número acompañada de una relación de los méritos del candidato o de los candidatos si los hubiere.</p>
+          <p class="parrafo">3. La elección se realizará mediante votación única y secreta en sesión convocada al efecto, a la que concurran, por lo menos, la mitad más uno de los Académicos y Académicas de Número en posesión del cargo. Será necesaria para su elección la obtención del voto favorable, como mínimo, de las dos terceras partes de los votos emitidos, admitiéndose el voto mediante carta identificada de los que no puedan asistir a la sesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 21. Derechos de los Académicos y Académicas Supernumerarios.</p>
+          <p class="parrafo">1. Los Académicos Supernumerarios procedentes de la condición de Académicos de Número tendrán las prerrogativas de estos últimos descritas en las letras b), c), d) y f) del artículo 19.</p>
+          <p class="parrafo">2. Los Académicos Supernumerarios procedentes de la condición de Académicos Electos tendrán las prerrogativas de la letra b) del artículo 19.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 22. Requisitos y elección de Académicos y Académicas Correspondientes Españoles.</p>
+          <p class="parrafo">1. Para ser Académico Correspondiente Español se necesita poseer la nacionalidad española, llevar diez años como mínimo en el ejercicio de la profesión, y tener alguno de los títulos que se requieren para ser Numerario.</p>
+          <p class="parrafo">2. Las vacantes de los Académicos Correspondientes serán anunciadas en el «Boletín Oficial del Estado». La Junta de Gobierno, a propuesta de las Secciones, decidirá el número y el perfil de las plazas a convocar. Cada plaza estará siempre vinculada a una determinada especialidad, y como tal, se hallará especificada en la oportuna convocatoria, así como la Sección a la que vaya a ser adscrita.</p>
+          <p class="parrafo">3. Anunciada una vacante, podrán optar a ella los candidatos directamente, por medio de instancia dirigida al Presidente de la Corporación, acompañada de una relación en la que se especifiquen sus méritos científicos y profesionales, así como de un Trabajo científico sobre un tema de la vacante. La relación de méritos y el Trabajo científico pasarán a la correspondiente Sección que emitirá su pertinente informe junto a una orden de prelación de los candidatos, si hubiera varios.</p>
+          <p class="parrafo">4. La elección de los Académicos Correspondientes será hecha por la Junta de Gobierno, mediante votación secreta, siempre que se encuentren presentes la mitad más uno de los Académicos de número con derecho a voto. Serán elegidos aquel o aquellos, si hubiera varias plazas, que obtuvieren el mayor número de votos. En cualquier caso, para resultar elegido un candidato será preciso que obtenga, como mínimo, la mitad más uno de los votos de los Académicos con derecho a voto.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 23. Académicos numerarios de las Reales Academias de Medicina asociadas al Instituto de España.</p>
+          <p class="parrafo">A partir de la entrada en vigor de los presentes Estatutos, los Académicos y Académicas que se incorporen, después de ese momento, como numerarios en las Reales Academias de Medicina asociadas al Instituto de España podrán vincularse como Académicos Correspondientes a las Secciones de la Real Academia Nacional de Medicina. Para ello, los interesados deberán dirigir al Presidente de la Real Academia Nacional de Medicina la correspondiente solicitud.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 23. Académicos numerarios de las Reales Academias de Medicina asociadas al Instituto de España.</p>
+          <p class="parrafo">A partir de la entrada en vigor de los presentes Estatutos, los Académicos y Académicas que se incorporen, después de ese momento, como numerarios en las Reales Academias de Medicina asociadas al Instituto de España podrán vincularse como Académicos Correspondientes a las Secciones de la Real Academia Nacional de Medicina de España. Para ello, los interesados deberán dirigir al Presidente de la Real Academia Nacional de Medicina de España la correspondiente solicitud.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.11 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 24. Requisitos y elección de Académicos Correspondientes Extranjeros u Honorarios.</p>
+          <p class="parrafo">Para ser Académico Correspondiente Extranjero o Académico Correspondiente Honorario será preciso tener el título de Doctor, acompañando al escrito de presentación el «curriculum vitae». Su elección se efectuará de igual forma que la que se estipula en el artículo 22.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 25. Derechos de los Académicos y Académicas Correspondientes y Correspondientes Honorarios.</p>
+          <p class="parrafo">Todos los Académicos Correspondientes y Correspondientes Honorarios gozarán de las siguientes prerrogativas:</p>
+          <p class="parrafo_2">a) Capacidad para proponer iniciativas en el ámbito académico, que deberán ser estudiadas y valoradas por la Sección correspondiente.</p>
+          <p class="parrafo">b) Tratamiento de Ilustrísimo, inherente a su condición de Académico Correspondiente de una Real Academia integrada en el Instituto de España.</p>
+          <p class="parrafo">c) Usar como símbolo distintivo el descrito en el artículo 5 de los presentes Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 26. Empleo del título de Académico o Académica.</p>
+          <p class="parrafo">Los Académicos y Académicas podrán hacer referencia a su pertenencia a la Real Academia Nacional de Medicina en sus escritos, obras o cualquier otro tipo de actividad, pero con la obligación ineludible de expresar el grado académico a que pertenezcan. Solamente podrán titularse Académicos los que sean de Número y los Supernumerarios procedentes de la condición de Académicos de Número.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 26. Empleo del título de Académico o Académica.</p>
+          <p class="parrafo">Los Académicos y Académicas podrán hacer referencia a su pertenencia a la Real Academia Nacional de Medicina de España en sus escritos, obras o cualquier otro tipo de actividad, pero con la obligación ineludible de expresar el grado académico a que pertenezcan. Solamente podrán titularse Académicos los que sean de Número y los Supernumerarios procedentes de la condición de Académicos de Número.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.12 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 27. Publicaciones de los Académicos y Académicas.</p>
+          <p class="parrafo">Todos los Académicos y Académicas están obligados a remitir, para la biblioteca de la Real Academia, un ejemplar de las publicaciones realizadas.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Organización</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 28. Organización de la Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina se estructura en Secciones y Comisiones.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 28. Organización de la Real Academia Nacional de Medicina de España.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina de España se estructura en Secciones y Comisiones.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.13 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 29. Secciones.</p>
+          <p class="parrafo">Las Secciones estarán constituidas por Académicos y Académicas de Número y por aquellos Académicos Correspondientes que hayan sido adscritos a las mismas de la forma que reglamentariamente se establezca.</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 30. Participación de los Académicos Correspondientes.</p>
+          <p class="parrafo">La participación de los Académicos y Académicas Correspondientes en tareas o actividades de la Sección será exclusivamente de tipo científico o técnico.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 31. Organización y fines de las Secciones.</p>
+          <p class="parrafo">1. Cada Sección tendrá una Presidencia y una Secretaría, que se designarán por votación secreta entre los Académicos y Académicas de número con idéntica periodicidad de los restantes cargos Académicos.</p>
+          <p class="parrafo">2. Las Secciones tienen como misión elaborar para su aprobación por la Junta Directiva y de Gobierno el programa de actividades en el ámbito de su competencia a desarrollar por la Corporación, en relación con los fines establecidos en el Capítulo II, de acuerdo con lo que establezca el Reglamento. Asimismo, elaborarán cuantos informes técnicos o de evaluación científica o de personal le sean encomendados.</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 32. Número y denominación de las Secciones.</p>
+          <p class="parrafo">Se establecen cuatro Secciones:</p>
+          <p class="parrafo_2">1.ª Sección de Ciencias Básicas.</p>
+          <p class="parrafo">2.ª Sección de Medicina.</p>
+          <p class="parrafo">3.ª Sección de Cirugía.</p>
+          <p class="parrafo">4.ª Sección de Medicina Social y Salud Pública.</p>
+          <p class="parrafo_2">La composición de las Secciones en sus materias integrantes deberá ser definida, ante cada vacante producida, por la Junta de Gobierno previa sugerencia de la Sección correspondiente, en consonancia con los avances científicos y con las necesidades de la Real Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a33" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 33. Reuniones de las Secciones.</p>
+          <p class="parrafo">Las Secciones celebrarán cuantas reuniones consideren precisas para el desempeño de sus trabajos, si bien deberán producirse, como mínimo, una vez al trimestre durante los meses del curso académico. Serán convocadas por sus Presidentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a34" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 34. Comisiones.</p>
+          <p class="parrafo">Las Comisiones se establecerán para desarrollar cometidos específicos conforme a lo regulado en el Reglamento.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Órganos de gobierno y dirección</p>
+        </version>
+      </bloque>
+      <bloque id="a35" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 35. Junta de Gobierno.</p>
+          <p class="parrafo">La Junta de Gobierno es el órgano supremo de la Real Academia. Está constituida por los Académicos y Académicas de Número. Su Presidente es el de la Real Academia, que a su vez, es el de la Junta Directiva. El Secretario es el Secretario General de la Real Academia, que a su vez, lo es de la Junta Directiva.</p>
+          <p class="parrafo">Son funciones y obligaciones de la Junta de Gobierno:</p>
+          <p class="parrafo_2">1.ª Elegir a los Miembros de la Junta Directiva</p>
+          <p class="parrafo">2.ª Elegir Presidente y Presidentes de Honor.</p>
+          <p class="parrafo">3.ª Elegir el cuerpo académico.</p>
+          <p class="parrafo">4.ª Designar al Académico o Académica de Número que deba pronunciar el discurso inaugural anual de la Real Academia, que salvo por impedimento, será sucesivo por antigüedad.</p>
+          <p class="parrafo">5.ª Tener conocimiento de las propuestas que sean formuladas por la Junta Directiva para representar a la Real Academia en las Instituciones y Organismos Oficiales.</p>
+          <p class="parrafo">6.ª Modificar o adaptar la composición por materias del cuerpo académico y Secciones, según el avance del conocimiento tanto en los aspectos científico-técnicos como sociales.</p>
+          <p class="parrafo">7.ª Conocer los acuerdos y actuaciones de la Junta Directiva y las Secciones.</p>
+          <p class="parrafo">8.ª Velar por la aplicación estricta de los Estatutos, y decidir según su espíritu, sobre aquellos aspectos que no estuvieran definidos en los mismos.</p>
+          <p class="parrafo">9.ª Estudiar y aprobar, en su caso, los presupuestos anuales de la Real Academia y Fundaciones así como los resultados de ingresos y gastos.</p>
+          <p class="parrafo">10.ª Decidir sobre las convocatorias de premios y demás concursos, así como su adjudicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a36" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 36. Reuniones de la Junta de Gobierno.</p>
+          <p class="parrafo">La Junta de Gobierno se reunirá, al menos, dos veces al año. No obstante, el Secretario General, a instancia del Presidente, podrá convocarla tantas veces como lo considere necesario. La Junta de Gobierno podrá ser asimismo convocada cuando lo solicite un tercio de los Académicos de número debiendo éstos haber manifestado, en su petición al Presidente, las cuestiones que desean ser sometidas a estudio. El Presidente deberá cumplimentar la solicitud en un plazo no superior a dos meses incluyendo en el específico orden del día los temas que los peticionarios consideran que deben ser debatidos. La Junta de Gobierno no podrá adoptar acuerdos sobre asuntos que no figuren en el orden del día, ni por el sistema de aclamación en materia de nombramientos.</p>
+        </version>
+      </bloque>
+      <bloque id="a37" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 37. Votaciones y deliberaciones en la Junta de Gobierno.</p>
+          <p class="parrafo">1. Todos los componentes Académicos de Número de la Junta de Gobierno tienen derecho a voz y voto. El derecho a voto se mantendrá en todas las ocasiones en que se desarrolle una votación, cualquiera que sea su naturaleza, en el seno de la corporación. Para aquellas votaciones en que se elijan cargos académicos, representantes o nominaciones específicas, deberá existir un plazo previo de, al menos, un mes para que durante el mismo pueda hacerse presentación de candidaturas por parte de los Académicos y Académicas de Número que lo deseen. Todas las votaciones de la Junta de Gobierno se efectuarán mediante voto secreto.</p>
+          <p class="parrafo">2. Las sesiones de la Junta de Gobierno serán de carácter confidencial y todos los temas y discusiones tratados en ellas tendrán esta condición, debiéndose mantener la reserva no sólo por los Académicos, sino por el personal de la corporación, a los que les estará prohibido facilitar datos o noticias de cualquier asunto sin autorización expresa del Secretario General, quien consultará previamente con el Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a38" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 38. Junta Directiva.</p>
+          <p class="parrafo">1. La Junta Directiva es el órgano de dirección, gobierno y representación de la Real Academia. Está formada por: Presidente, Vicepresidente, Secretario General, Secretario de Actas, Tesorero, Contador y Bibliotecario.</p>
+          <p class="parrafo">2. El Presidente o Presidentes de Honor formarán también parte de la misma en labores de asesoramiento.</p>
+          <p class="parrafo">3. Son misiones de la Junta Directiva:</p>
+          <p class="parrafo_2">1.ª Velar por el cumplimiento de los Estatutos.</p>
+          <p class="parrafo">2.ª Elaborar el Orden del Día de las Juntas de Gobierno.</p>
+          <p class="parrafo">3.ª Ejecutar los acuerdos y directrices de la Junta de Gobierno.</p>
+          <p class="parrafo">4.ª Realizar los trámites administrativos para la provisión, elección, nombramiento y posesión del cuerpo académico.</p>
+          <p class="parrafo">5.ª Designar al Académico o Académica de Número responsable, o Director, del Diccionario.</p>
+          <p class="parrafo">6.ª Designar al Académico o Académica de Número que deba contestar el discurso de ingreso en la toma de posesión de un nuevo Académico.</p>
+          <p class="parrafo">7.ª Designar al Académico o Académicos de Número que deban elaborar un informe o dictamen oída la Sección correspondiente.</p>
+          <p class="parrafo">8.ª Elaborar la convocatoria de premios anuales de la Real Academia y Fundaciones.</p>
+          <p class="parrafo">9.ª Nombrar los jurados que han de juzgar los diferentes premios anuales convocados por la Real Academia.</p>
+          <p class="parrafo">10.ª Elaborar el presupuesto anual de ingresos y gastos, y los de las Fundaciones y patrimonios si los hubiera. Una vez elaborado el presupuesto por la Junta Directiva, será presentado a la Junta de Gobierno.</p>
+          <p class="parrafo">11.ª Ejecutar la aplicación de los presupuestos, una vez aprobados por la Junta de Gobierno.</p>
+          <p class="parrafo">12ª. Organizar las actividades de la Real Academia.</p>
+          <p class="parrafo">13.ª Presentar a la Junta de Gobierno, anualmente, el balance económico del año y la memoria de las actividades desarrolladas.</p>
+          <p class="parrafo">14.ª Resolver por sí misma cuanto se refiere al gobierno interior y orden administrativo de la Real Academia, nombramiento y separación de personal de administración y servicio, mobiliario, obras en el edificio, gratificaciones, ayudas y cumplimiento de lo establecido respecto de las donaciones recibidas y de los acuerdos adoptados por las Fundaciones constituidas en favor de la Real Academia.</p>
+          <p class="parrafo">15.ª Crear Comisiones no permanentes necesarias para atender problemas no contemplados en los presentes Estatutos o en el Reglamento.</p>
+          <p class="parrafo">16.ª Informar los asuntos que en su criterio se considere a Secciones y Junta de Gobierno.</p>
+          <p class="parrafo">17.ª Representar a la Real Academia y acordar su representación según los Estatutos.</p>
+          <p class="parrafo">18.ª Dirigir todo lo referente a las relaciones que puedan existir entre la Real Academia y otras Corporaciones médicas nacionales o extranjeras.</p>
+          <p class="parrafo">19.ª Ejecutar las resoluciones de la Real Academia, sin otros estudios previos, cuando la urgencia y exigencia del tema así lo hiciera necesario.</p>
+          <p class="parrafo">20.ª Las que le atribuya el Reglamento interno.</p>
+          <p class="parrafo_2">4. Todos los acuerdos de la Junta Directiva se tomarán por mayoría de votos.</p>
+        </version>
+      </bloque>
+      <bloque id="a39" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 39. Elección de las personas integrantes de la Junta Directiva.</p>
+          <p class="parrafo">1. La elección de las personas integrantes de la Junta Directiva se efectuará entre los Académicos y Académicas de Número que se hayan presentado voluntariamente como candidatos al puesto o cargo vacante. La elección se hará por votación secreta entre los Académicos y Académicas de Número con derecho a voto y en sesión convocada al efecto, exigiéndose la concurrencia de la mitad más uno de éstos últimos. Si no ocurriese así se hará una nueva convocatoria celebrándose entonces la elección sea cualquiera el número de asistentes.</p>
+          <p class="parrafo">2. El candidato o candidata habrá de obtener el voto favorable de las dos terceras partes de los Académicos y Académicas de Número con derecho a voto, admitiéndose éste mediante carta identificada de quienes no puedan asistir a la sesión y lo justifiquen debidamente ante el Presidente. Si en esta primera votación ningún candidato resultara elegido se procederá en la misma sesión a una nueva votación, y será elegido el que tenga el voto favorable de las dos terceras partes de los Académicos presentes con derecho a voto; si tampoco en la segunda votación ningún candidato resultara elegido se procederá a una tercera votación entre los dos candidatos más votados, en la que será elegido el que tuviese mayor número de votos.</p>
+          <p class="parrafo">3. En caso de que dos o más candidatos obtuvieran igual número de votos, el resto de los miembros de la Junta Directiva designará al que estime más conveniente, en sesión convocada expresamente para ello y a la vista de las circunstancias de todo orden y para el mejor gobierno de la Corporación.</p>
+          <p class="parrafo">4. La duración del mandato de los cargos Académicos será de cuatro años, pudiendo ser reelegidos por una sola vez y por idéntico procedimiento que para la primera elección.</p>
+          <p class="parrafo">5. La renovación de los cargos Académicos se hará por mitades siempre que sea posible. La primera afectará a la Presidente, Secretario de Actas y Tesorero; la segunda al Vicepresidente, al Secretario General, Contador y Bibliotecario. En caso de renuncia, o cese por enfermedad o defunción, se procederá a la elección del cargo vacante tras una votación que seguirá las mismas normas expresadas más arriba en el presente artículo; en cualquier caso, la elección deberá tener lugar antes de que hayan transcurrido seis meses desde que se produjera la vacante.</p>
+        </version>
+      </bloque>
+      <bloque id="a40" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 40. Régimen de suplencias en la Junta Directiva.</p>
+          <p class="parrafo">Las ausencias o enfermedades de los cargos de la Junta Directiva se suplirán de la forma siguiente: al Presidente le sustituirá el Vicepresidente; al Secretario General le sustituirá el Secretario de Actas. Los restantes miembros de la Junta Directiva serán sustituidos entre ellos mismos considerando la antigüedad académica.</p>
+        </version>
+      </bloque>
+      <bloque id="a41" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 41. Reuniones de la Junta Directiva.</p>
+          <p class="parrafo">La Junta Directiva se reunirá, como mínimo, una vez al mes, durante el curso académico.</p>
+        </version>
+      </bloque>
+      <bloque id="a42" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 42. Presidencia.</p>
+          <p class="parrafo">La Presidencia es el máximo cargo Académico de la Real Academia Nacional de Medicina. Le corresponderán los siguientes cometidos:</p>
+          <p class="parrafo_2">1.º Presidir las sesiones de la Junta de Gobierno, de la Junta Directiva y de todas las reuniones académicas en que su presencia sea requerida.</p>
+          <p class="parrafo">2.º Convocar a la Junta de Gobierno y a la Junta Directiva para la celebración de sus respectivas reuniones.</p>
+          <p class="parrafo">3.º Disponer los asuntos sobre los que tenga que deliberar la Junta Directiva y la de Gobierno, con la prelación que estime oportuna, incluyéndolos en el orden del día.</p>
+          <p class="parrafo">4.º Autorizar las actas con su visto bueno.</p>
+          <p class="parrafo">5.º Velar por el más exacto cumplimiento, en las sesiones y fuera de ellas, de los Estatutos y Reglamento así como de los acuerdos de la Corporación.</p>
+          <p class="parrafo">6.º Dar lectura de los votos recogidos en las urnas en las diferentes votaciones.</p>
+          <p class="parrafo">7.º Disponer provisionalmente, en los casos imprevistos y urgentes, lo que estime más oportuno para el buen orden y gobierno de la Corporación, siempre que no se oponga a los Estatutos, hasta que, reunida la Junta Directiva o de Gobierno, con la posible brevedad, resuelvan por sí mismas.</p>
+          <p class="parrafo">8.º Proponer a la Real Academia todas las iniciativas y proyectos que estime conducentes al cumplimiento y ampliación de los fines de la Corporación.</p>
+          <p class="parrafo">9.º Firmar los títulos de Académico que se expidan.</p>
+          <p class="parrafo">10.º Dirigir a S.M. el Rey, al Gobierno de España, a las autoridades correspondientes y a cualquier otra instancia los informes de la Corporación.</p>
+          <p class="parrafo">11.º Representar a la Junta Directiva.</p>
+          <p class="parrafo">12.º Realizar cuantas gestiones considere oportunas para el desarrollo de la Real Academia, dando cuenta de ellas a la Junta Directiva.</p>
+          <p class="parrafo">13.º Las demás funciones que se le atribuyan en el Reglamento interno.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 42. Presidencia.</p>
+          <p class="parrafo">La Presidencia es el máximo cargo Académico de la Real Academia Nacional de Medicina de España. Le corresponderán los siguientes cometidos:</p>
+          <p class="parrafo_2">1.º Presidir las sesiones de la Junta de Gobierno, de la Junta Directiva y de todas las reuniones académicas en que su presencia sea requerida.</p>
+          <p class="parrafo">2.º Convocar a la Junta de Gobierno y a la Junta Directiva para la celebración de sus respectivas reuniones.</p>
+          <p class="parrafo">3.º Disponer los asuntos sobre los que tenga que deliberar la Junta Directiva y la de Gobierno, con la prelación que estime oportuna, incluyéndolos en el orden del día.</p>
+          <p class="parrafo">4.º Autorizar las actas con su visto bueno.</p>
+          <p class="parrafo">5.º Velar por el más exacto cumplimiento, en las sesiones y fuera de ellas, de los Estatutos y Reglamento así como de los acuerdos de la Corporación.</p>
+          <p class="parrafo">6.º Dar lectura de los votos recogidos en las urnas en las diferentes votaciones.</p>
+          <p class="parrafo">7.º Disponer provisionalmente, en los casos imprevistos y urgentes, lo que estime más oportuno para el buen orden y gobierno de la Corporación, siempre que no se oponga a los Estatutos, hasta que, reunida la Junta Directiva o de Gobierno, con la posible brevedad, resuelvan por sí mismas.</p>
+          <p class="parrafo">8.º Proponer a la Real Academia todas las iniciativas y proyectos que estime conducentes al cumplimiento y ampliación de los fines de la Corporación.</p>
+          <p class="parrafo">9.º Firmar los títulos de Académico que se expidan.</p>
+          <p class="parrafo">10.º Dirigir a S.M. el Rey, al Gobierno de España, a las autoridades correspondientes y a cualquier otra instancia los informes de la Corporación.</p>
+          <p class="parrafo">11.º Representar a la Junta Directiva.</p>
+          <p class="parrafo">12.º Realizar cuantas gestiones considere oportunas para el desarrollo de la Real Academia, dando cuenta de ellas a la Junta Directiva.</p>
+          <p class="parrafo">13.º Las demás funciones que se le atribuyan en el Reglamento interno.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el primer párrafo por el art. único.2.14 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a43" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 43. Vicepresidencia.</p>
+          <p class="parrafo">El Vicepresidente sustituirá al Presidente en todas sus funciones durante sus ausencias o enfermedades, por delegación de éste en casos urgentes, o de coincidencia con otras actividades. De igual forma sustituirá al Presidente en caso de vacante, hasta que se proceda a la nueva elección según lo señalado en los presentes Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a44" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 44. Secretaría General.</p>
+          <p class="parrafo">La persona titular de la Secretaría General tiene los siguientes cometidos:</p>
+          <p class="parrafo_2">1.º Comunicar a los Académicos, mediante oficio, las sesiones a que deben asistir y los asuntos que figuren en el orden del día.</p>
+          <p class="parrafo">2.º Actuar en las sesiones con el carácter que le corresponda, dando cuenta de los asuntos en el orden que el Presidente determine y procurando hacer a éste las indicaciones precisas respecto a las disposiciones de Estatutos y Reglamento.</p>
+          <p class="parrafo">3.º En las votaciones que se produzcan, recoger los votos, y dar fe.</p>
+          <p class="parrafo">4.º Extender y autorizar con su firma, en los libros correspondientes, las actas de las sesiones.</p>
+          <p class="parrafo">5.º Conservar en buen orden y estado los documentos de su pertenencia hasta pasarlos al archivo.</p>
+          <p class="parrafo">6.º Tener en su poder los sellos y los troqueles de la Corporación.</p>
+          <p class="parrafo">7.º Comunicar los acuerdos cuando no le corresponda hacerlo al Presidente.</p>
+          <p class="parrafo">8.º Remitir a las Secciones, así como a los Académicos, los asuntos sobre los que deba informar.</p>
+          <p class="parrafo">9.º Redactar la Memoria que cada año ha de leer en la sesión pública inaugural, presentando en ella un resumen de las tareas en que se ha ocupado la Real Academia durante el año anterior.</p>
+          <p class="parrafo">10.º Expedir las certificaciones y copias de documentos que la Corporación acuerde o se le pidan por la superioridad.</p>
+          <p class="parrafo">11.º Llevar los libros necesarios en los que se reseñe los expedientes de cada Académico de número, Supernumerarios, de Honor, y Correspondientes, además, de las sesiones de las Juntas de Gobierno, Directiva y otras, así como para las comunicaciones oficiales y dictámenes. Los expedientes de los Académicos serán depositados en el archivo a su fallecimiento.</p>
+          <p class="parrafo">12.º Organizar las sesiones ordinarias de la Real Academia.</p>
+          <p class="parrafo">13.º Ser el Jefe inmediato del personal de administración y servicio de la Real Academia.</p>
+          <p class="parrafo">14.º Mantener el normal funcionamiento de la sede.</p>
+          <p class="parrafo">15.º Conservar en buen estado el patrimonio de la Real Academia.</p>
+          <p class="parrafo">16.º Controlar las posibles obras de ampliación, mejora, mantenimiento y restauración a realizar en la sede de la Real Academia, que deberán ser aprobadas antes de su iniciación por la Junta Directiva.</p>
+          <p class="parrafo">17.º Organizar los Actos sociales.</p>
+          <p class="parrafo">18.º Asumir cuantas delegaciones le sean encomendadas.</p>
+          <p class="parrafo">19.º Las demás funciones que se le atribuyan en el Reglamento interno.</p>
+        </version>
+      </bloque>
+      <bloque id="a45" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 45. Secretaría de Actas.</p>
+          <p class="parrafo">El Secretario de Actas, además de sustituir al Secretario General en sus ausencias y enfermedades, colaborará en la redacción de las actas y velará por la trascripción de todos los acuerdos que puedan adoptarse.</p>
+        </version>
+      </bloque>
+      <bloque id="a46" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 46. Tesorería.</p>
+          <p class="parrafo">1. El Tesorero tendrá a su cargo la recaudación y conservación de los fondos de la Real Academia, e igualmente la gestión de los pagos que, por acuerdo de la Junta Directiva, se hayan de efectuar, según la legislación aplicable En la entrada o salida de cualquier cantidad tomará oportuna razón en el libro correspondiente, siendo visada por el Presidente y Contador.</p>
+          <p class="parrafo">2. Estará asimismo encargado de presentar cada año el balance de ingresos y gastos, y el proyecto de presupuesto del año siguiente, que someterá su aprobación a la Junta Directiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a47" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 47. Contaduría.</p>
+          <p class="parrafo">El Contador estará encargado de todo lo referente a la contabilidad de los fondos de la Real Academia, que gestionará de acuerdo con la legislación aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="a48" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 48. Bibliotecario.</p>
+          <p class="parrafo">El Bibliotecario es el responsable de la Biblioteca y Archivo de la corporación. Asimismo será responsable de las publicaciones y actividades de difusión de la Real Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="cvii" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Vida académica</p>
+        </version>
+      </bloque>
+      <bloque id="a49" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 49. Períodos de actividad académica.</p>
+          <p class="parrafo">La actividad académica se desarrollará de acuerdo con el año natural. El período vacacional se extenderá desde el 15 de julio al 15 de septiembre. En este período no lectivo, la Junta Directiva acordará qué cargo o cargos Académicos actuarán de jornada para resolver aquellos asuntos que por su urgencia no admitan dilación.</p>
+        </version>
+      </bloque>
+      <bloque id="a50" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 50. Comienzo y final de la actividad académica anual.</p>
+          <p class="parrafo">1. La actividad académica comenzará anualmente con una sesión pública y solemne de inauguración del curso académico dentro de la primera quincena del mes de enero. En ella, el Secretario dará lectura a la Memoria anual, e irá seguida de un discurso científico que será compuesto por un Académico de número. A continuación se hará pública la entrega de los premios y distinciones de la Real Academia y de las distintas Fundaciones si las hubiera. El Presidente de la Real Academia declarará abierto en nombre de S.M. el Rey el curso académico.</p>
+          <p class="parrafo">2. La actividad académica finalizará anualmente con una sesión pública y solemne que tendrá lugar en el mes de diciembre. En ella, pronunciará una conferencia una personalidad elegida por la Junta Directiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a51" tipo="precepto" titulo="Artículo 51">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 51. Recepción de nuevos Académicos y Académicas de Número.</p>
+          <p class="parrafo">La recepción de un nuevo Académico o Académica de Número se hará en sesión pública y solemne. En las sesiones de recepción se dará cuenta por el Secretario del acta especial de nombramiento, procediendo después el nuevo Académico a leer su discurso de ingreso. El Presidente conferirá a continuación en nombre de S.M. el Rey la medalla y el título correspondientes. Seguidamente el Secretario General le asignará el sillón propio del número y le dará el abrazo de bienvenida en nombre de los Académicos y del suyo mismo. A continuación, se dará lectura al discurso de contestación por el Académico de número que hubiera sido oportunamente designado. El Presidente cerrará el acto.</p>
+        </version>
+      </bloque>
+      <bloque id="a52" tipo="precepto" titulo="Artículo 52">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 52. Recepción de nuevos Académicos y Académicas de Honor.</p>
+          <p class="parrafo">La sesión de recepción de los Académicos y Académicas de Honor irá precedida de la lectura del acta especial del nombramiento por parte del Secretario General. A continuación, el Académico de número propuesto por la Junta Directiva, oída la Sección correspondiente, hará la «laudatio» del nuevo Académico de Honor, quien seguidamente pronunciará un discurso científico. Finalmente, el Presidente le hará entrega de la medalla y del título correspondientes, dando por finalizado el acto.</p>
+        </version>
+      </bloque>
+      <bloque id="a53" tipo="precepto" titulo="Artículo 53">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 53. Sesiones necrológicas.</p>
+          <p class="parrafo">Las sesiones necrológicas tendrán el mismo procedimiento que las sesiones de recepción, siendo públicas y solemnes. Deberán realizarse entre dos y tres meses después del fallecimiento del Académico o Académica. Tras el discurso necrológico institucional podrán intervenir cuantos Académicos lo soliciten. El Académico que realice el discurso necrológico será designado por la Junta Directiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a54" tipo="precepto" titulo="Artículo 54">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 54. Sesiones científicas ordinarias.</p>
+          <p class="parrafo">Las sesiones científicas ordinarias serán de carácter público y periodicidad semanal. Los Académicos y Académicas de Número, de Honor y Correspondientes podrán pronunciar conferencias sobre temas científicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a55" tipo="precepto" titulo="Artículo 55">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 55. Sesiones extraordinarias.</p>
+          <p class="parrafo">La Real Academia podrá celebrar cuantas sesiones extraordinarias sean precisas para tratar algún asunto de urgencia o interés, o para que alguna personalidad científica pueda pronunciar una conferencia, previa invitación. Igualmente la Real Academia podrá organizar o auspiciar otras sesiones, reuniones, simposios, mesas redondas, o actividades análogas, tanto sola como conjuntamente con Instituciones de carácter público o privado.</p>
+        </version>
+      </bloque>
+      <bloque id="a56" tipo="precepto" titulo="Artículo 56">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 56. Protocolo de las sesiones.</p>
+          <p class="parrafo">Las sesiones públicas a las que concurran SS.MM. los Reyes, SS.AA.RR. los Príncipes de Asturias, el Presidente del Gobierno, el Ministro de Educación o el Subsecretario de Educación, serán presididas por dichas autoridades, situándose el Presidente de la Real Academia a la derecha de la persona que presida; en todos los demás casos, la presidirá el Presidente y a falta de él y del Vicepresidente, el Académico o Académica de Número más antiguo.</p>
+        </version>
+      </bloque>
+      <bloque id="cviii" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Premios y distinciones</p>
+        </version>
+      </bloque>
+      <bloque id="a57" tipo="precepto" titulo="Artículo 57">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 57. Premios y distinciones.</p>
+          <p class="parrafo">La Real Academia convocará anualmente premios y distinciones de acuerdo a lo regulado en el Reglamento de régimen interno.</p>
+        </version>
+      </bloque>
+      <bloque id="a58" tipo="precepto" titulo="Artículo 58">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 58. Premio de la Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">1. El Premio de la Real Academia Nacional de Medicina, conllevará el nombramiento de Académico Correspondiente y aquellas otras distinciones reguladas en el Reglamento de régimen interno.</p>
+          <p class="parrafo">2. Las personas que aspiren al Premio de la Real Academia Nacional de Medicina deberán reunir todos los requisitos que se exigen para los Académicos Correspondientes y aquellos otros que se establezcan en el Reglamento de régimen interno.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 58. Premio de la Real Academia Nacional de Medicina de España.</p>
+          <p class="parrafo">1. El Premio de la Real Academia Nacional de Medicina de España, conllevará el nombramiento de Académico Correspondiente y aquellas otras distinciones reguladas en el Reglamento de régimen interno.</p>
+          <p class="parrafo">2. Las personas que aspiren al Premio de la Real Academia Nacional de Medicina de España deberán reunir todos los requisitos que se exigen para los Académicos Correspondientes y aquellos otros que se establezcan en el Reglamento de régimen interno.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.15 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a59" tipo="precepto" titulo="Artículo 59">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 59. Premios establecidos por fundaciones y legados.</p>
+          <p class="parrafo">Se podrán conceder los premios que por las fundaciones y legados hayan sido establecidos y convocados, según sean considerados reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a60" tipo="precepto" titulo="Artículo 60">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 60. Medallas de Honor.</p>
+          <p class="parrafo">La Real Academia podrá otorgar Medallas de Honor a personalidades destacadas por su labor científica, académica y sanitaria, o que se hayan distinguido por su labor de mecenazgo a la Real Academia, a propuesta de la Junta Directiva y de la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="cix" tipo="encabezado" titulo="CAPÍTULO IX">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Publicaciones</p>
+        </version>
+      </bloque>
+      <bloque id="a61" tipo="precepto" titulo="Artículo 61">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 61. Publicaciones.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina realizará cuantas publicaciones considere oportunas, así como la Memoria Anual, Anuario y Órganos de Expresión Científica.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 61. Publicaciones.</p>
+          <p class="parrafo">La Real Academia Nacional de Medicina de España realizará cuantas publicaciones considere oportunas, así como la Memoria Anual, Anuario y Órganos de Expresión Científica.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2.16 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cx" tipo="encabezado" titulo="CAPÍTULO X">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO X</p>
+          <p class="capitulo_tit">Medios y régimen económico de la Real Academia</p>
+        </version>
+      </bloque>
+      <bloque id="a62" tipo="precepto" titulo="Artículo 62">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 62. Fondos de la Real Academia.</p>
+          <p class="parrafo">Los fondos de la Real Academia Nacional de Medicina provendrán:</p>
+          <p class="parrafo_2">a) De las cantidades asignadas en los presupuestos del Estado.</p>
+          <p class="parrafo">b) De las aportaciones extraordinarias que el Gobierno, las Comunidades Autónomas, la Administración Local y los particulares le concedan, en su caso.</p>
+          <p class="parrafo">c) Del producto de sus publicaciones y servicios, de las donaciones y legados que reciba, o de cualquier otro recurso obtenido para el cumplimiento de sus fines.</p>
+        </version>
+        <version id_norma="BOE-A-2017-12041" fecha_publicacion="20171021" fecha_vigencia="20171022">
+          <p class="articulo">Artículo 62. Fondos de la Real Academia.</p>
+          <p class="parrafo">Los fondos de la Real Academia Nacional de Medicina de España provendrán:</p>
+          <p class="parrafo_2">a) De las cantidades asignadas en los presupuestos del Estado.</p>
+          <p class="parrafo">b) De las aportaciones extraordinarias que el Gobierno, las Comunidades Autónomas, la Administración Local y los particulares le concedan, en su caso.</p>
+          <p class="parrafo">c) Del producto de sus publicaciones y servicios, de las donaciones y legados que reciba, o de cualquier otro recurso obtenido para el cumplimiento de sus fines.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el primer párrafo por el art. único.2.17 del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a63" tipo="precepto" titulo="Artículo 63">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 63. Aplicación de los fondos.</p>
+          <p class="parrafo">La Real Academia aplicará sus fondos:</p>
+          <p class="parrafo_2">a) A los gastos de sostenimiento y desarrollo de actividades de la corporación, en cumplimiento de sus fines.</p>
+          <p class="parrafo">b) Al pago de retribuciones de su personal, incluyendo las posibles gratificaciones que acuerde la Junta Directiva.</p>
+          <p class="parrafo">c) A la impresión de las obras que acuerde.</p>
+          <p class="parrafo">d) Al fomento de la Biblioteca.</p>
+          <p class="parrafo">e) A la concesión de Premios.</p>
+          <p class="parrafo">f) A satisfacer a los Académicos y Académicas de Número los honorarios de asistencia y los de las colaboraciones que se soliciten para las publicaciones, trabajos y conferencias de la Real Academia.</p>
+          <p class="parrafo">g) A las indemnizaciones que se acuerden por la Junta Directiva a las personalidades científicas nacionales o extranjeras que hayan sido invitadas a pronunciar conferencias.</p>
+        </version>
+      </bloque>
+      <bloque id="a64" tipo="precepto" titulo="Artículo 64">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 64. Honorarios por asistencia.</p>
+          <p class="parrafo">Los honorarios por asistencia se computarán a todos los Académicos y Académicas de Número que hayan asistido a una sesión pública, o de Junta de Gobierno, Directiva o de Sección y se determinarán cada año al confeccionarse el presupuesto.</p>
+        </version>
+      </bloque>
+      <bloque id="a65" tipo="precepto" titulo="Artículo 65">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 65. Justificación de subvenciones.</p>
+          <p class="parrafo">La obtención y justificación de subvenciones públicas se someterán a las condiciones de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y a su normativa de desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="cxi" tipo="encabezado" titulo="CAPÍTULO XI">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="capitulo_num">CAPÍTULO XI</p>
+          <p class="capitulo_tit">Modificación de los Estatutos</p>
+        </version>
+      </bloque>
+      <bloque id="a66" tipo="precepto" titulo="Artículo 66">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <p class="articulo">Artículo 66. Procedimiento de modificación de Estatutos.</p>
+          <p class="parrafo">La propuesta de modificación de los presentes Estatutos se aprobará por la Junta de Gobierno y se aprobará por Real Decreto del Gobierno, a propuesta del Ministerio de Educación, el cual recabará previamente el informe del Instituto de España.</p>
+        </version>
+      </bloque>
+      <bloque id="ir" tipo="encabezado" titulo="[Información relacionada]">
+        <version id_norma="BOE-A-2011-10783" fecha_publicacion="20110621" fecha_vigencia="20110622">
+          <blockquote class="docrel">
+            <p class="inforel">Información relacionada</p>
+            <p class="nota_pie">Téngase en cuenta que todas las referencias del ordenamiento jurídico a la Real Academia Nacional de Medicina se entenderán realizadas a la Real Academia Nacional de Medicina de España, según establece la disposición adicional única del Real Decreto 896/2017, de 6 de octubre. <a class="refPost">Ref. BOE-A-2017-12041</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

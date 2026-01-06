@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180331Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-4967</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4810">Ministerio de Justicia</departamento>
+      <rango codigo="1410">Instrucción</rango>
+      <fecha_disposicion>19990215</fecha_disposicion>
+      <titulo>Instrucción de 15 de febrero de 1999, de la Dirección General de los Registros y del Notariado, sobre constancia registral de la adopción.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990302</fecha_publicacion>
+      <diario_numero>52</diario_numero>
+      <fecha_vigencia>19990302</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/ins/1999/02/15/(1)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-4967</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="97">Adopción</materia>
+        <materia codigo="5955">Registro Civil</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1958-18486</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento del Registro Civil, aprobado por Decreto de 14 de noviembre de 1958 (GAZETA)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1957-7537</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley del Registro Civil, de 8 de junio de 1957 (GAZETA)</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2004-12542</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la regla primera, por Instrucción de 1 de julio de 2004</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4967</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-02-15</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5955"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4967</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-02-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5955"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/20040705"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/19990302"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción de 15 de febrero de 1999, de la Dirección General de los Registros y del Notariado, sobre constancia registral de la adopción.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-03-02</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/20040705">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4967</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-02-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5955"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/20040705/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción de 15 de febrero de 1999, de la Dirección General de los Registros y del Notariado, sobre constancia registral de la adopción.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/20040705"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/20040705/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/20040705/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/19990302">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4967</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-02-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5955"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-03-02</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/19990302/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción de 15 de febrero de 1999, de la Dirección General de los Registros y del Notariado, sobre constancia registral de la adopción.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/19990302"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/19990302/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1999/02/15/(1)/con/19990302/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="siempreSeVe">Téngase en cuenta en esta materia el sistema de inscripción y la publicidad restringida de los arts. 83.1.a) y 84 de la Ley 20/2011, de 21 de julio, del Registro Civil. <a class="refPost">Ref. BOE-A-2011-12628#a83</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="parrafo">La adopción da lugar en el Registro Civil español a una inscripción marginal en el asiento de nacimiento del adoptado (cfr. artículo 46 de la Ley del Registro Civil). Ello supone que en el mismo folio registral aparece reflejada la filiación anterior, o la ausencia de filiación, del adoptado −que normalmente carecerá ya de relevancia jurídica− y la nueva filiación adoptiva destinada a desplegar la plenitud de efectos. Obviamente esta superposición de filiaciones puede dar origen a molestas confusiones y a que irregularmente se dé publicidad a través de una certificación literal a datos que afectan a la intimidad familiar.</p>
+          <p class="parrafo">Estos inconvenientes desaparecían en gran parte si la filiación adoptiva fuera objeto de una inscripción principal de nacimiento que reflejara sólo los datos sobrevenidos por la adopción, con referencia a la inscripción previa de nacimiento y adopción en la que se comprende todo el historial jurídico del adoptado.</p>
+          <p class="parrafo">Si en una Resolución de la Dirección General de los Registros puede ordenarse, para mayor claridad, que se extienda un nuevo asiento que recoja los datos rectificados y la cancelación del antiguo asiento (cfr. artículo 307, I, del Reglamento del Registro Civil), también ha de ser posible, concurriendo las mismas razones de claridad, junto a otras de mayor entidad como la de evitar la publicidad irregular de las adopciones, que este centro directivo ordene con carácter general que se emplee análogo sistema para determinadas adopciones, si se dan circunstancias que lo permitan.</p>
+          <p class="parrafo">En su virtud, esta Dirección General, en uso de las facultades que tiene conferidas, ha acordado las siguientes reglas:</p>
+        </version>
+      </bloque>
+      <bloque id="pr-2" tipo="precepto" titulo="Primera">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="articulo">Primera.</p>
+          <p class="parrafo_2">Una vez extendidas en el Registro competente la inscripción principal de nacimiento y la marginal de adopción, si el matrimonio adoptante lo solicita durante la minoría de edad del adoptado, podrá extenderse en el folio que entonces corresponda, una nueva inscripción de nacimiento en la que constarán solamente, además de los datos del nacimiento y del nacido, las circunstancias personales de los padres adoptivos y la oportuna referencia al matrimonio de éstos.</p>
+        </version>
+        <version id_norma="BOE-A-2004-12542" fecha_publicacion="20040705" fecha_vigencia="20040705">
+          <p class="articulo">Primera.</p>
+          <p class="parrafo_2">Una vez extendidas en el Registro competente la inscripción principal de nacimiento y la marginal de adopción, si el matrimonio adoptante lo solicita durante la minoría de edad del adoptado, podrá extenderse en el folio que entonces corresponda, una nueva inscripción de nacimiento en la que constarán solamente, además de los datos del nacimiento y del nacido, las circunstancias personales de los padres adoptivos y la oportuna referencia al matrimonio de éstos.</p>
+          <p class="parrafo">En los casos de adopción internacional, el adoptante o los adoptantes de común acuerdo, pueden solicitar que en la nueva inscripción, conste su domicilio como lugar de nacimiento del adoptado.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el segundo párrafo por la Instrucción de 1 de julio de 2004. <a class="refPost">Ref. BOE-A-2004-12542</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="se" tipo="precepto" titulo="Segunda">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="articulo">Segunda.</p>
+          <p class="parrafo">En la nueva inscripción se hará referencia en la casilla destinada a observaciones, exclusivamente, a los datos registrales de la inscripción anterior (libro número, folio número, página número), la cual será cancelada formalmente.</p>
+        </version>
+      </bloque>
+      <bloque id="te" tipo="precepto" titulo="Tercera">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="articulo">Tercera.</p>
+          <p class="parrafo">De la nueva inscripción se podrán expedir certificaciones literales en favor de cualquier persona con interés en conocer el asiento.</p>
+        </version>
+      </bloque>
+      <bloque id="cu" tipo="precepto" titulo="Cuarta">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="articulo">Cuarta.</p>
+          <p class="parrafo">La publicidad del asiento anterior cancelado quedará limitada a los adoptantes, al adoptado mayor de edad y a los terceros que obtengan la autorización especial a que se refiere el último párrafo del artículo 21 del Reglamento del Registro Civil.</p>
+        </version>
+      </bloque>
+      <bloque id="qu" tipo="precepto" titulo="Quinta">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="articulo">Quinta.</p>
+          <p class="parrafo">A solicitud de los adoptantes, y respecto de las inscripciones ya practicadas, se procederá conforme a las reglas anteriores.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1999-4967" fecha_publicacion="19990302" fecha_vigencia="19990302">
+          <p class="parrafo_2">Madrid, 15 de febrero de 1999.−El Director general, Luis María Cabello de los Cobos y Mancha.</p>
+          <p class="parrafo_2">Sres. Jueces y Cónsules encargados de los Registros Civiles.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

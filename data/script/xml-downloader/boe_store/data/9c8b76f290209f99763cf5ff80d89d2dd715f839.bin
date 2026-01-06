@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183844Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-10491</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4810">Ministerio de Justicia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20150928</fecha_disposicion>
+      <numero_oficial>845/2015</numero_oficial>
+      <titulo>Real Decreto 845/2015, de 28 de septiembre, por el que se aprueban los Estatutos de la Comisión General de Codificación.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20151001</fecha_publicacion>
+      <diario_numero>235</diario_numero>
+      <fecha_vigencia>20151002</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2015/09/28/845</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-10491</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1108">Comisión General de Codificación</materia>
+        <materia codigo="4983">Ministerio de Justicia</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="9012">Secretarías generales técnicas ministeriales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1997-4146</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 160/1997, de 7 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-10491</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-28</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">845</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1108"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/9012"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-10491</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">845</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1108"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/9012"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/con/20151001"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 845/2015, de 28 de septiembre, por el que se aprueban los Estatutos de la Comisión General de Codificación.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/con/20151001">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-10491</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">845</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1108"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/9012"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-01</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/con/20151001/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 845/2015, de 28 de septiembre, por el que se aprueban los Estatutos de la Comisión General de Codificación.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/con/20151001"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/09/28/845/con/20151001/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/09/28/845/con/20151001/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="parrafo">El movimiento codificador que irrumpió en Europa a finales del siglo XVIII dio lugar, en España, a la creación de un órgano específico, altamente especializado y al margen de los cambios políticos, que abordó la importante tarea de elaborar y mantener actualizados los nuevos códigos que requería la sociedad española. De ahí que se instaurara en 1843 la Comisión de Codificación, de carácter técnico e integrada por los juristas más relevantes.</p>
+          <p class="parrafo">A lo largo de sus más de ciento setenta años de existencia, la Comisión de Codificación ha desarrollado ininterrumpidamente su labor prelegislativa, redactando propuestas de códigos y de leyes especiales. La vitalidad demostrada por la Comisión y la excelencia de sus trabajos revelan su aptitud para preparar las reformas jurídicas que vayan resultando necesarias en el futuro.</p>
+          <p class="parrafo">La codificación es una técnica legislativa que ordena, sistematiza y clarifica el ordenamiento jurídico, a la vez que contribuye a simplificarlo mediante la reunión de normas dispersas en un texto único. La utilidad de los códigos no se proyecta únicamente sobre la actividad de los profesionales del Derecho, sino también sobre la vida de los ciudadanos, porque facilita a unos y a otros la localización de las normas que rigen las relaciones sociales, e incluso sobre la economía de la nación, porque la claridad del ordenamiento y la seguridad jurídica estimulan el comercio internacional y las inversiones, constituyendo indicadores relevantes en materia de competitividad económica.</p>
+          <p class="parrafo">Además, los principios constitucionales que perfilan el Estado de Derecho –la legalidad, la jerarquía normativa, la seguridad jurídica, la interdicción de la arbitrariedad de los poderes públicos– exigen la clarificación y simplificación del ordenamiento, y la vía más adecuada para obtener esas metas es precisamente la codificación. Unas exigencias que también deben atender a la finalidad de acercar el Derecho a los ciudadanos a través de un lenguaje jurídico accesible y comprensible, adaptado a la realidad social en cada momento.</p>
+          <p class="parrafo">La actualidad de la labor racionalizadora en el ámbito normativo se pone también de manifiesto en los trabajos de consolidación y codificación del Derecho de la Unión Europea que están llevando a cabo sus instituciones y en los intensos esfuerzos codificadores de los Derechos nacionales que están abordando, y en algún caso culminando, diversos Estados de la Unión.</p>
+          <p class="parrafo">Con los presentes Estatutos se pretende actualizar y agilizar el funcionamiento de la Comisión General de Codificación, para el cumplimiento más eficaz de sus cometidos, sin merma del rigor que debe presidir su actuación.</p>
+          <p class="parrafo">En relación con los vocales, se acentúa su independencia y el carácter estrictamente técnico de su función, lo que ha llevado suprimir la facultad de libre separación de los mismos que contemplaban los Estatutos contenidos en el Real Decreto 160/1997, de 7 de febrero, que ahora se derogan.</p>
+          <p class="parrafo">Los presentes Estatutos precisan también la regulación del derecho de los ciudadanos de acceder al Archivo de la Comisión General de Codificación, y los deberes de custodia y conservación de sus fondos.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Justicia, con la aprobación previa del Ministro de Hacienda y Administraciones Publicas y previa deliberación del Consejo de Ministros en su reunión del día 25 de septiembre de 2015,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos de la Comisión General de Codificación.</p>
+          <p class="parrafo">Se aprueban los Estatutos de la Comisión General de Codificación, cuyo texto se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Disposición derogatoria única. Derogación de normas.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 160/1997, de 7 de febrero, por el que se aprueban los Estatutos de la Comisión General de Codificación, así como cuantas otras disposiciones de igual o inferior rango se opongan a lo dispuesto en el presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Disposición final primera. Habilitación de desarrollo normativo.</p>
+          <p class="parrafo">Se habilita al Ministro de Justicia para dictar cuantas disposiciones sean precisas para el desarrollo del presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto y los Estatutos de la Comisión General de Codificación entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="parrafo_2">Dado en Madrid, el 28 de septiembre de 2015.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">El Ministro de Justicia,</p>
+          <p class="firma_ministro">RAFAEL CATALÁ POLO</p>
+        </version>
+      </bloque>
+      <bloque id="es" tipo="encabezado" titulo="ESTATUTOS">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="anexo">ESTATUTOS DE LA COMISIÓN GENERAL DE CODIFICACIÓN</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 1. Concepto.</p>
+          <p class="parrafo">1.<em> </em>La Comisión General de Codificación es el órgano superior colegiado de asesoramiento al Ministro de Justicia al que corresponde, en el ámbito de las competencias propias del departamento ministerial al que está adscrito, la preparación de los textos prelegislativos y de carácter reglamentario y cuantas otras tareas se le encomienden para la mejor orientación, preservación y tutela del ordenamiento jurídico.</p>
+          <p class="parrafo">2. La Comisión también podrá asumir dichas funciones en materias que sean competencia de otros Ministerios, previa solicitud expresa de estos al Ministro de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 2. Adscripción orgánica y régimen jurídico.</p>
+          <p class="parrafo">1.<em> </em>La Comisión General de Codificación está adscrita al Ministerio de Justicia a través de la Secretaría General Técnica, de conformidad con las normas vigentes relativas a la estructura orgánica de dicho Departamento.</p>
+          <p class="parrafo">2. La Comisión se regirá por los presentes Estatutos y, supletoriamente, por lo dispuesto en la legislación sobre régimen jurídico y procedimiento de las Administraciones Públicas en relación con el funcionamiento de los órganos colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 3. Funciones.</p>
+          <p class="parrafo">La Comisión General de Codificación tiene encomendadas las siguientes funciones:</p>
+          <p class="parrafo_2">1.ª La preparación de la legislación codificada u otras propuestas normativas que expresamente le encomiende el Ministro de Justicia.</p>
+          <p class="parrafo">2.ª La revisión de los cuerpos legales y leyes vigentes en las diversas ramas del Derecho y la exposición al Ministro de Justicia del resultado de sus estudios, con especial atención a la conveniencia de promover delegaciones legislativas conducentes a textos legales refundidos o iniciativas para consolidar, armonizar y simplificar disposiciones reglamentarias.</p>
+          <p class="parrafo">3.ª La elaboración de proyectos que se relacionen con las actividades propias de su función, así como su propuesta al Ministro de Justicia.</p>
+          <p class="parrafo">4.ª La elaboración de dictámenes o informes en aquellos asuntos de carácter jurídico que el Ministro de Justicia, otros departamentos ministeriales o el Gobierno sometan a su consideración.</p>
+          <p class="parrafo">5.ª La corrección técnica, de claridad del lenguaje jurídico y de estilo de los anteproyectos de ley y proyectos de disposiciones que le sea encomendada por el Ministro de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 4. Sede y tratamiento.</p>
+          <p class="parrafo">La Comisión General de Codificación tiene su sede en la villa de Madrid y goza de los honores que según la tradición le corresponden.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 5. Relaciones externas.</p>
+          <p class="parrafo">La Comisión General de Codificación estará en comunicación con todos aquellos institutos y centros de estudio, información e investigación del Derecho que considere de interés para el cumplimiento de sus fines.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Composición</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 6. Composición y miembros.</p>
+          <p class="parrafo">Integran la Comisión General de Codificación, su Presidente, el Vicepresidente, los Presidentes de Sección, los vocales y el Secretario general.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 7. Presidente de la Comisión.</p>
+          <p class="parrafo">El Ministro de Justicia es el Presidente de la Comisión General de Codificación y, en tal condición, le corresponde:</p>
+          <p class="parrafo_2">a) Ostentar la representación de la Comisión.</p>
+          <p class="parrafo">b) Encargar al Presidente de la Sección que corresponda la elaboración de propuestas normativas, dictámenes o informes.</p>
+          <p class="parrafo">c) Presidir las reuniones de la Comisión a las que asista.</p>
+          <p class="parrafo">d) Convocar las reuniones del Pleno y de la Comisión Permanente.</p>
+          <p class="parrafo">e) Dirimir con su voto los empates que se produjeren en las reuniones que presida.</p>
+          <p class="parrafo">f) Dar posesión a los miembros de la Comisión.</p>
+          <p class="parrafo">g) Asignar los vocales a las distintas Secciones.</p>
+          <p class="parrafo">h) Ordenar la publicación de las propuestas, estudios o informes elaborados por las Secciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 8. Vicepresidente de la Comisión.</p>
+          <p class="parrafo">El Secretario General Técnico del Ministerio de Justicia es el Vicepresidente de la Comisión General de Codificación y, en tal condición, le corresponde:</p>
+          <p class="parrafo_2">a) Cursar las órdenes, instrucciones y encargos de propuestas, dictámenes o informes emanados del Presidente de la Comisión.</p>
+          <p class="parrafo">b) Coordinar las relaciones externas e institucionales de la Comisión.</p>
+          <p class="parrafo">c) Sustituir al Presidente de la Comisión en los supuestos de vacante, ausencia o enfermedad.</p>
+          <p class="parrafo">d) Designar al vocal de la Sección que haya de sustituir temporalmente a su Presidente en los casos de vacante o ausencia prolongada.</p>
+          <p class="parrafo">e) Proveer, a través de la Secretaría general, los medios que precisen las Secciones, ponencias y grupos de trabajo para su buen funcionamiento.</p>
+          <p class="parrafo">f) Ejercer aquellas otras funciones que el Presidente le delegue y las no atribuidas expresamente a otro órgano.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 9. Presidentes de Sección.</p>
+          <p class="parrafo">1.<em> </em>Los Presidentes de Sección de la Comisión General de Codificación serán nombrados y separados libremente por real decreto, a propuesta del Ministro de Justicia. Su nombramiento se hará en consideración a los méritos relevantes en el orden científico y profesional de los designados.</p>
+          <p class="parrafo">2. Corresponde a los Presidentes de Sección convocar y presidir las reuniones de sus respectivas Secciones, así como señalar el orden del día de estas, establecer su régimen de trabajo y dirigir los debates y votaciones, cuidando de cuanto el orden de las sesiones requiera, concediendo o retirando la palabra a los reunidos y decidiendo con su voto los casos de empate.</p>
+          <p class="parrafo">En el ejercicio de estas funciones, los Presidentes de Sección están investidos de las facultades necesarias para resolver las dudas que se planteen.</p>
+          <p class="parrafo">Igualmente, podrán solicitar la publicación de las propuestas, estudios o informes elaborados por sus respectivas Secciones.</p>
+          <p class="parrafo">3. Cuando por cualquier causa el Presidente no asista a la reunión, será sustituido por el vocal de más antigüedad en la Sección y, en igualdad de circunstancias, por el de más edad.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 10. Vocales.</p>
+          <p class="parrafo">1.<em> </em>La Comisión General de Codificación está integrada por vocales natos, vocales permanentes, vocales adscritos y vocales honorarios.</p>
+          <p class="parrafo">2. Los vocales actuarán, en el cumplimiento de su función, con objetividad e independencia, de acuerdo con la Constitución y las leyes.</p>
+          <p class="parrafo">3. Serán vocales natos el Presidente del Consejo General de la Abogacía Española, el Presidente del Consejo General de Procuradores de España, el Presidente del Consejo General del Notariado, el Decano-Presidente del Colegio Nacional de Registradores de la Propiedad, Mercantiles y de Bienes Muebles de España, el Presidente del Consejo General de Colegios de Economistas, el Presidente del Colegio Nacional de Secretarios Judiciales, el Presidente de la Comisión Nacional de los Mercados y la Competencia, los altos cargos del Ministerio de Justicia, el Director del Centro de Estudios Jurídicos del Ministerio de Justicia, el Director de la Agencia Española de Protección de Datos, el Presidente del Instituto de Contabilidad y Auditoría de Cuentas, el jefe de la Asesoría Jurídica Internacional del Ministerio de Asuntos Exteriores y de Cooperación, el Asesor Jurídico General de la Defensa del Ministerio de Defensa y el Secretario General Técnico de cada uno de los restantes Departamentos ministeriales.</p>
+          <p class="parrafo">Los vocales natos, además de participar en el Pleno, podrán incorporarse a las Secciones, ponencias o grupos de trabajo para asuntos concretos por decisión del Presidente de la Comisión.</p>
+          <p class="parrafo">4. Los vocales permanentes serán nombrados libremente por el Ministro de Justicia entre juristas de reconocido prestigio que acrediten, al menos, quince años de dedicación científica al Derecho o ejercicio profesional en el ámbito jurídico. Se procurará en su designación asegurar la pluralidad de profesionales del Derecho y de procedencia geográfica dentro de España.</p>
+          <p class="parrafo">Los vocales permanentes serán necesariamente asignados a una de las Secciones de la Comisión. El número de vocales permanentes en cada Sección no podrá exceder de treinta.</p>
+          <p class="parrafo">Los vocales permanentes cesarán en el cargo por renuncia, por incapacidad permanente o por inasistencia prolongada a las sesiones de la Sección a que estuvieren adscritos.</p>
+          <p class="parrafo">En el caso de cese por renuncia podrán ser designados vocales honorarios, y seguir asistiendo a la Sección que corresponda e intervenir en sus deliberaciones.</p>
+          <p class="parrafo">El cese de un vocal permanente por la inasistencia prolongada a las sesiones de su Sección se producirá a petición razonada del Presidente de la misma cuando, al menos, no haya concurrido a la mitad de las reuniones convocadas en un año.</p>
+          <p class="parrafo">El Secretario general de la Comisión mantendrá una relación actualizada de los vocales permanentes, que será pública a través de la página web del Ministerio de Justicia.</p>
+          <p class="parrafo">5. Cuando se trate de asuntos para los que se considere conveniente la colaboración de otras personas por su especial competencia, aquellas podrán ser nombradas por el Ministro de Justicia vocales adscritos de la Comisión, incorporándose a una Sección, ponencia o grupo de trabajo, con el fin de colaborar en estos durante el tiempo que sea preciso y que se determine en el nombramiento. Los vocales adscritos podrán asistir a las reuniones de la Comisión con voz y voto.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 11. Derechos y facultades de los vocales.</p>
+          <p class="parrafo">Los vocales de la Comisión General de Codificación tienen los siguientes derechos y facultades:</p>
+          <p class="parrafo_2">a) Debatir y votar sobre los asuntos sometidos a su consideración, bajo la dirección del Presidente de la Sección.</p>
+          <p class="parrafo">b) Presentar mociones y propuestas sobre modificación del ordenamiento jurídico que consideren deben ser elevadas al Ministro de Justicia.</p>
+          <p class="parrafo">c) Proponer al Presidente de la Sección que se realicen en la Comisión estudios que consideren convenientes sobre los distintos aspectos del ordenamiento jurídico.</p>
+          <p class="parrafo">d) Ser asignados a una de las Secciones constituidas y asistir a las sesiones ordinarias de la Sección a que pertenezcan, así como participar en los debates de las otras Secciones, respecto de una materia determinada, siempre que así lo soliciten y sean debidamente autorizados por el Presidente de la Sección correspondiente.</p>
+          <p class="parrafo">e) Recibir el tratamiento de excelentísimo señor y los honores tradicionales, así como a disponer de los documentos que acrediten la condición de vocal permanente de la Comisión.</p>
+          <p class="parrafo">f) Percibir las indemnizaciones por asistir a las sesiones de la Sección, de conformidad con lo dispuesto en el real decreto que regule las indemnizaciones por razón del servicio, cuando se trate de los vocales permanentes y adscritos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 12. Secretario general.</p>
+          <p class="parrafo">1. Bajo la dependencia del Presidente y del Vicepresidente de la Comisión ejercerá sus funciones un Secretario general, encargado de coordinar y prestar asistencia en los trabajos de la Comisión, así como de facilitar los servicios administrativos precisos, que se desempeñarán por personal adscrito a la Secretaría General Técnica del Ministerio de Justicia.</p>
+          <p class="parrafo">El Secretario general estará auxiliado en el ejercicio de su función por los secretarios a los que se refiere el artículo 13 de los presentes Estatutos.</p>
+          <p class="parrafo">2. El cargo de Secretario general de la Comisión General de Codificación será desempeñado por el Subdirector General de Política Legislativa de la Secretaría General Técnica del Ministerio de Justicia, y lleva aneja la condición de vocal de la Comisión. En caso de vacante, ausencia o enfermedad será sustituido por el secretario de Sección más antiguo o, en igualdad de condiciones, por el de mayor edad.</p>
+          <p class="parrafo">3. Corresponde al Secretario general de la Comisión:</p>
+          <p class="parrafo_2">a) Cuidar del adecuado desenvolvimiento de su trabajo por parte del personal que auxilie y colabore en las funciones de la Comisión.</p>
+          <p class="parrafo">b) Cursar las convocatorias para las reuniones del Pleno, de la Comisión Permanente y de las Secciones, según las instrucciones que reciba de los respectivos Presidentes.</p>
+          <p class="parrafo">c) Redactar y autorizar por sí las actas de las sesiones del Pleno y de la Comisión Permanente, y comunicar a los secretarios las instrucciones necesarias para que las actas de las reuniones celebradas por las Secciones, ponencias o grupos de trabajo sean redactadas según criterios homogéneos.</p>
+          <p class="parrafo">d) Expedir y autorizar, a todos los efectos, las certificaciones relacionadas con la Comisión General de Codificación.</p>
+          <p class="parrafo">e) Cuidar de que se lleven los libros-registro necesarios para el buen orden de la secretaría y su conservación.</p>
+          <p class="parrafo">f) Formalizar, documentándolos suficientemente, toda clase de propuestas para su posterior tramitación.</p>
+          <p class="parrafo">g) Organizar y cuidar del mejor funcionamiento del Archivo de la Comisión, prestando especial atención a asegurar la ordenada conservación de cuantos antecedentes y datos se relacionen con cada asunto que haya sido objeto de estudio en la Comisión.</p>
+          <p class="parrafo">h) Llevar el control periódico de las asignaciones que, con cargo al crédito presupuestario, correspondan a los miembros de la Comisión en concepto de asistencias a las reuniones de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 13. Secretarios.</p>
+          <p class="parrafo">1. Las Secciones de la Comisión dispondrán de un secretario. Su nombramiento, acordado por el Vicepresidente de la Comisión a propuesta del Secretario general, recaerá en funcionarios destinados en el Ministerio de Justicia que sean licenciados o graduados en Derecho.</p>
+          <p class="parrafo">Los secretarios asistirán a las reuniones sin voz ni voto, salvo que ostenten la condición de vocal, y tendrán encomendada la redacción de las actas de conformidad con las instrucciones del Secretario general.</p>
+          <p class="parrafo">2. Podrán adscribirse secretarios a las ponencias o grupos de trabajo, con carácter temporal o permanente, para cuyos nombramientos se observará el procedimiento descrito en el apartado anterior.</p>
+          <p class="parrafo">3. También podrá actuar como secretario, cuando fuere preciso, alguno de los vocales de la Sección, ponencia o grupo de trabajo, al que corresponderá la redacción de las actas y su remisión al Secretario general de la Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Funcionamiento</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="seccion">Sección 1.ª Régimen de la comisión</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 14. Funcionamiento de la Comisión.</p>
+          <p class="parrafo">1. La Comisión General de Codificación funcionará en Pleno, en Comisión Permanente y en Secciones.</p>
+          <p class="parrafo">2. También podrá funcionar en régimen de Secciones mixtas, con la concurrencia de los miembros de más de una Sección, cuando así lo decida el Presidente de la Comisión, quien designará al que haya de ejercer la presidencia de las mismas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 15. Pleno.</p>
+          <p class="parrafo">1. El Pleno de la Comisión estará constituido por todos los miembros enumerados en el artículo 6.</p>
+          <p class="parrafo">2. Para reunirse válidamente el Pleno deberán concurrir, además del Presidente, el Vicepresidente y el Secretario, la mitad al menos de los miembros que lo integran. En segunda convocatoria, se reunirá válidamente sea cual fuere el número de asistentes.</p>
+          <p class="parrafo">3. Los acuerdos se tomarán por mayoría de votos de los presentes, con el voto dirimente, en su caso, del Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 16. Atribuciones del Pleno.</p>
+          <p class="parrafo">El Pleno se convocará por iniciativa del Presidente de la Comisión cuando lo estime oportuno y, en particular, para conocer de aquellos asuntos y expedientes que, después de haber sido objeto de consideración por la Comisión Permanente o por las Secciones, considere que deban serlo por razón de su importancia.</p>
+          <p class="parrafo">El Presidente podrá dirigirse al Pleno para el establecimiento del «Plan de trabajo de la Comisión», que se integrará por los encargos que le formule ya sea a iniciativa propia o a partir de las propuestas de la Comisión Permanente y Secciones y de las mociones formuladas por los vocales.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 17. Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente la componen el Presidente de la Comisión General de Codificación, el Vicepresidente, los Presidentes de Sección y el Secretario general.</p>
+          <p class="parrafo">2. Asimismo, se incorporarán a las reuniones de la Comisión Permanente con voz y voto aquellos vocales de la Comisión General de Codificación acreditados en cada caso por el Presidente en razón a su participación en los asuntos que formen parte del orden del día de la reunión correspondiente.</p>
+          <p class="parrafo">3. Los acuerdos se adoptarán por mayoría de votos de los asistentes a la sesión, con el voto dirimente, en su caso, del Presidente.</p>
+          <p class="parrafo">4. La Comisión Permanente se reunirá como mínimo una vez al año para la apertura del curso, a menos que esta tuviere lugar mediante Pleno convocado al efecto, y para aprobar la «Memoria de actividades» del curso anterior, que será formulada por el Secretario general.</p>
+          <p class="parrafo">5. Corresponde a la Comisión Permanente coordinar las tareas de preparación de textos normativos entre las distintas Secciones, ponencias y grupos de trabajo cuando así lo requiera la materia de que se trate.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 18. Atribuciones de la Comisión Permanente.</p>
+          <p class="parrafo">Son funciones de la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Asesorar al Presidente de la Comisión en los casos en que este requiera su dictamen.</p>
+          <p class="parrafo">b) Informar, a requerimiento del Presidente de la Comisión, sobre la distribución de asuntos entre las Secciones con arreglo a la competencia atribuida a cada una de ellas. Cuando el Presidente de la Comisión estime que, por la naturaleza del proyecto que haya de prepararse o por la índole de la consulta o dictamen que hubiere de emitirse, es conveniente que los trabajos se realicen conjuntamente por varias Secciones determinadas, la Comisión Permanente informará sobre las que han de intervenir y sobre los vocales que deban integrar esta Sección mixta.</p>
+          <p class="parrafo">c) Designar los componentes de los grupos de trabajo cuando la materia afecte a varias Secciones.</p>
+          <p class="parrafo">d) Conocer y aprobar los textos definitivos de los informes o propuestas elaborados por las ponencias o grupos de trabajo, cuando por razones de urgencia o cualquier otra circunstancia así se decida por el Presidente de la Comisión, a su propia iniciativa o a propuesta del respectivo Presidente de Sección.</p>
+          <p class="parrafo">e) En general, tratar de cuantas cuestiones sean de competencia de la Comisión General de Codificación y no estén específicamente atribuidas a los restantes órganos de esta.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 19. Secciones.</p>
+          <p class="parrafo">1. Las Secciones de la Comisión General de Codificación serán cinco: la primera, de Derecho Civil; la segunda, de Derecho Mercantil; la tercera, de Derecho Público; la cuarta, de Derecho Penal, y la quinta, de Derecho Procesal.</p>
+          <p class="parrafo">2. Cada Sección estará integrada por su Presidente y los vocales que se le asignen.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 20. Ponencias y grupos de trabajo.</p>
+          <p class="parrafo">1. El Presidente de la Comisión, a propuesta del Presidente de la Sección correspondiente, podrá constituir, en el seno de las Secciones, ponencias para el estudio de temas concretos, designando para integrarlas a los vocales de la Sección que parezca procedente, así como a los vocales adscritos a tal efecto. Las ponencias estudiarán la materia encomendada y presentarán, en el plazo señalado, el resultado del trabajo al Presidente de la Sección.</p>
+          <p class="parrafo">2. Cuando el Presidente de la Comisión considere conveniente la constitución de grupos de trabajo designará a los vocales de las Secciones que hayan de integrarse en los mismos, así como a los vocales adscritos a tal efecto. Los grupos de trabajo estudiarán la materia encomendada y presentarán, en el plazo señalado, los resultados del trabajo directamente al Presidente de la Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 21. Secciones especiales.</p>
+          <p class="parrafo">1. Para la revisión de textos normativos o la preparación de propuestas normativas se podrá acordar por el Presidente de la Comisión la constitución de Secciones especiales señalando un plazo para cumplimentar el encargo a cuyo término, o el de la prórroga, en su caso, quedarán automáticamente disueltas.</p>
+          <p class="parrafo">2. Constituirán las Secciones especiales los vocales designados por el Presidente de la Comisión.</p>
+          <p class="parrafo">De entre ellos se podrán nombrar uno o varios ponentes por el Presidente de la Comisión.</p>
+          <p class="parrafo">3. Aprobada la propuesta, se elevará directamente al Presidente de la Comisión por la Sección especial.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="seccion">Sección 2.ª Régimen de trabajo de las secciones</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 22. Procedimiento.</p>
+          <p class="parrafo">1.<em> </em>El Presidente de la Comisión encargará por escrito la elaboración de una propuesta normativa o informe a la correspondiente Sección, ponencia o grupo de trabajo. En el escrito se harán constar el objeto del encargo, el plazo máximo en que el resultado deba ser entregado, los vocales que integrarán la correspondiente ponencia o grupo de trabajo y, en su caso, los criterios, bases o directrices, así como los documentos de trabajo pertinentes.</p>
+          <p class="parrafo">2. El plazo de entrega se fijará teniendo en cuenta la especial complejidad o dificultad técnica del trabajo encargado, así como, en su caso, la premura que imponga el cumplimiento de los programas o compromisos normativos. El encargo deberá ejecutarse dentro del plazo máximo determinado al objeto.</p>
+          <p class="parrafo">3. Comunicado el encargo realizado por el Presidente de la Comisión, el Presidente de la Sección encargará la elaboración de un borrador de propuesta normativa, dictamen o informe al vocal o vocales que considere adecuados, y que actuarán como ponentes.</p>
+          <p class="parrafo">4. Una vez que el Presidente de la Sección reciba el borrador de propuesta, dictamen o informe encargado, se remitirá una copia a los vocales integrantes de aquella, a fin de que, en el plazo que al efecto señale, presenten por escrito y de forma razonada las enmiendas que consideren oportunas. El borrador y las enmiendas serán objeto de debate en las reuniones posteriores de la Sección.</p>
+          <p class="parrafo">5. En el seno de las Secciones, ponencias o grupos de trabajo se podrá acordar la audiencia de representantes de los sectores sociales, profesionales o económicos, cuyos derechos o intereses puedan verse singularmente afectados por la propuesta normativa o informe de que se trate.</p>
+          <p class="parrafo">6. Finalizado el procedimiento de elaboración del correspondiente trabajo y aprobado por el órgano encargado, el Secretario general expedirá certificación de tales extremos y dará traslado de la misma, junto con el informe o propuesta objeto del encargo, al Presidente de la Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 23. Convocatoria y orden del día.</p>
+          <p class="parrafo">1. Las Secciones de la Comisión General de Codificación serán convocadas por el Presidente correspondiente, a través de su secretario y con una antelación mínima de cuarenta y ocho horas a la fecha prevista para la celebración de la reunión.</p>
+          <p class="parrafo">2. En la convocatoria figurará el orden del día, lugar fecha y hora de la sesión, así como copia de la propuesta, dictamen o informe que, en su caso, se someta a su consideración, con indicación de la forma y plazo de presentación y admisión de enmiendas. La convocatoria, así como las demás comunicaciones o remisión de documentos entre la secretaría general de la Comisión y las Secciones, ponencias o grupos de trabajo se realizarán por medios electrónicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 24. Enmiendas.</p>
+          <p class="parrafo">1. Las enmiendas no serán tomadas en consideración si no han sido presentadas dentro del plazo señalado al efecto por el Presidente de la Sección, y deberán estar escritas, firmadas y razonadas.</p>
+          <p class="parrafo">2. La secretaría de la Sección, con la conformidad de su Presidente, dará traslado a los vocales de las enmiendas presentadas por escrito y con la suficiente antelación.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 25. Sesiones y debates.</p>
+          <p class="parrafo">1. Constituida válidamente la sesión, el Presidente procederá a su apertura. Los debates sobre los informes o propuestas normativas se ceñirán estrictamente al texto objeto de la sesión y a las enmiendas presentadas con arreglo al artículo anterior.</p>
+          <p class="parrafo">2. Durante el desarrollo del debate, el Presidente de la Sección ejercerá las atribuciones que le confiere el artículo 9 y otorgará los turnos de intervención de réplica y dúplica a los vocales ponentes y enmendantes, pudiendo limitar el número y duración de los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 26. Acuerdos y votos particulares.</p>
+          <p class="parrafo">1. Los acuerdos serán adoptados por mayoría de votos de los asistentes, decidiendo, en caso de empate, el voto del Presidente.</p>
+          <p class="parrafo">2. Podrán formularse votos particulares por los vocales cuando discrepen del acuerdo mayoritario, siempre que se anuncien antes de ser levantada la sesión y sean formulados por escrito en el plazo de cuarenta y ocho horas. Al voto anunciado podrán adherirse los vocales que hayan disentido del parecer de la mayoría.</p>
+          <p class="parrafo">3. Los vocales que, sin discrepar del parecer mayoritario, deseen dejar constancia de criterios adicionales o complementarios podrán formular votos concurrentes, cumpliendo las condiciones indicadas en el apartado precedente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 27. Actas.</p>
+          <p class="parrafo">1. De todas las reuniones que se celebren se levantará acta por el secretario, con detalle de los asistentes, el orden del día, las circunstancias de lugar y tiempo, los puntos principales de las deliberaciones, así como del contenido de los acuerdos adoptados con expresión de los resultados de las votaciones y, en su caso, de la formulación de votos favorables, contrarios, concurrentes y abstenciones.</p>
+          <p class="parrafo">El acta será firmada por el secretario con el visto bueno del Presidente.</p>
+          <p class="parrafo">2. Cualquier vocal podrá solicitar la transcripción íntegra de su intervención, propuesta o motivación del voto, siempre que aporte en el curso de la sesión o en un plazo de cuarenta y ocho horas el texto correspondiente, haciéndose así constar en el acta.</p>
+          <p class="parrafo">3. Las actas se aprobarán en la misma o en la siguiente sesión, pudiendo, no obstante, emitir el secretario certificación sobre los acuerdos adoptados y ordenar su traslado al solicitante, sin perjuicio de la ulterior aprobación del acta.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 28. Obligación de sigilo.</p>
+          <p class="parrafo">Los miembros de la Comisión están obligados a guardar sigilo sobre el estado de las propuestas, dictámenes e informes que se adopten hasta la aprobación de la norma que corresponda y, si no fueran objeto de tramitación, mientras que el Presidente de la Comisión no autorice lo contrario. Esta obligación abarca también el estado de los trabajos, y las deliberaciones, pareceres y votos emitidos en cualquiera de las reuniones.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 29. Publicidad de las propuestas normativas e informes de las Secciones.</p>
+          <p class="parrafo">Una vez aprobada y elevada por la Sección correspondiente una propuesta normativa o informe al Presidente de la Comisión, este podrá decidir su publicación en la página web del Ministerio de Justicia y, en su caso, la apertura de un período de consulta pública. En su defecto, la publicación de las propuestas normativas se producirá con posterioridad a la tramitación y aprobación de la norma que corresponda y, si no fueran objeto de tramitación, cuando así lo decida el Presidente de la Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Archivo de la Comisión</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 30. Custodia del Archivo.</p>
+          <p class="parrafo">El Archivo de la Comisión General de Codificación estará bajo la custodia y vigilancia del Secretario general, que cuidará de su ordenada catalogación y de su debida conservación, atendiendo a lo dispuesto en esta materia por la legislación general en materia de archivos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 31. Consulta del Archivo.</p>
+          <p class="parrafo">El Archivo podrá ser consultado por los vocales de la Comisión. Cuando el Presidente de la Comisión o los Presidentes de la Sección lo interesen, la Secretaría General expedirá copia de los documentos que soliciten y que hayan de servir como antecedentes a trabajos en preparación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 32. Derecho de acceso al Archivo.</p>
+          <p class="parrafo">Los ciudadanos tienen derecho de acceso al Archivo de la Comisión General de Codificación en los términos que establezca la legislación de régimen jurídico de las Administración Públicas y del procedimiento administrativo.</p>
+          <p class="parrafo">El acceso podrá llevarse a cabo presencialmente, por correo o por medios electrónicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 33. Solicitud de acceso.</p>
+          <p class="parrafo">1. La solicitud de acceso al Archivo se dirigirá al Secretario general de la Comisión General de Codificación y deberá contener, al menos:</p>
+          <p class="parrafo_2">a) El nombre y apellidos del interesado y, en su caso, de la persona que lo represente, así como la identificación del medio preferente y del lugar que se señale a efectos de notificaciones.</p>
+          <p class="parrafo">Cuando el interesado actúe representado, habrá de aportarse con la solicitud el documento que acredite el poder de representación.</p>
+          <p class="parrafo">b) Cuantos extremos sirvan para acreditar la condición de investigador del solicitante y su interés en el acceso al Archivo.</p>
+          <p class="parrafo">c) La relación de documentos cuyo examen o consulta se solicita.</p>
+          <p class="parrafo_2">2. La resolución sobre la solicitud a la que se refiere el apartado anterior se adoptará por el Secretario general de la Comisión General de Codificación en el plazo de quince días y será susceptible de recurso de alzada ante el Vicepresidente.</p>
+          <p class="parrafo">3. La solicitud de acceso será inadmitida o denegada cuando proceda de conformidad con lo dispuesto por la ley en materia de transparencia, acceso a la información pública y buen gobierno y demás normas que resulten de aplicación.</p>
+          <p class="parrafo">La denegación de la solicitud de acceso al Archivo será motivada.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 34. Obtención de copias.</p>
+          <p class="parrafo">El derecho de acceso conllevará el de obtener copias de los documentos cuyo examen haya sido autorizado, previo pago, en su caso, de las exacciones que se hallen legalmente establecidas. Únicamente podrá denegarse la obtención de copias cuando, dada la antigüedad o el estado de conservación del documento original, su manipulación y reproducción por medios fotocomecánicos suponga un riesgo cierto de deterioro del documento. En estos supuestos, los interesados podrán ser autorizados para obtener, a sus expensas, la información contenida en el documento por cualquier medio que no suponga deterioro del original.</p>
+          <p class="parrafo">La resolución administrativa que autorice el acceso del interesado a los documentos integrantes del Archivo de la Comisión General de Codificación, podrá denegar de forma motivada la obtención de copias, de concurrir los supuestos expresados en el párrafo anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2015-10491" fecha_publicacion="20151001" fecha_vigencia="20151002">
+          <p class="articulo">Artículo 35. Alcance de la autorización.</p>
+          <p class="parrafo">La autorización será válida sólo para los documentos solicitados y se otorgará para un período de tiempo determinado. Los investigadores autorizados estarán obligados a respetar el horario y normas de régimen interno del Archivo.</p>
+          <p class="parrafo">En ningún caso se permitirá la salida de documentos del Archivo de la Comisión General de Codificación.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

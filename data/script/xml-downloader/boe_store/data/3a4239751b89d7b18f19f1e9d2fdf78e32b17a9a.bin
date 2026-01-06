@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130537Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-5202</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8020">Comunidad Autónoma de Aragón</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20110210</fecha_disposicion>
+      <numero_oficial>1/2011</numero_oficial>
+      <titulo>Ley 1/2011, de 10 de febrero, de convenios de la Comunidad Autónoma de Aragón.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110322</fecha_publicacion>
+      <diario_numero>69</diario_numero>
+      <fecha_vigencia>20110326</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20211002</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ar/l/2011/02/10/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-5202</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="265">Aragón</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOA núm. 39, de 24 de febrero de 2011.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOA-d-2001-90001</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>los arts. 44 a 48 del Decreto Legislativo 1/2001, de 3 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-8444</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 92 y 98 del Estatuto aprobado por Ley Orgánica 5/2007, de 20 de abril</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2021-12701</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>con efectos desde el 2 de octubre de 2021, por Ley 5/2021, de 29 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5202</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-02-10</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5202</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-02-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20210702"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20110224"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/2011, de 10 de febrero, de convenios de la Comunidad Autónoma de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-22</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20210702">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5202</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-02-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-07-02</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20210702/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/2011, de 10 de febrero, de convenios de la Comunidad Autónoma de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20210702"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20210702/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20210702/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20110224">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5202</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-02-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-02-24</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20110224/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/2011, de 10 de febrero, de convenios de la Comunidad Autónoma de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20110224"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20110224/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2011/02/10/1/con/20110224/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version fpub="20210729" id_norma="BOE-A-2021-12701" fecha_publicacion="20210702" fecha_vigencia="20211002">
+          <p class="siempreSeVe">Norma derogada, con efectos desde el 2 de octubre de 2021, por la disposición derogatoria única.c) de la Ley 5/2021, de 29 de junio. <a class="refPost">Ref. BOE-A-2021-12701#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="parrafo">En nombre del Rey y como Presidente de la Comunidad Autónoma de Aragón, promulgo la presente Ley, aprobada por las Cortes de Aragón, y ordeno se publique en el «Boletín Oficial de Aragón» y en el «Boletín Oficial del Estado», todo ello de conformidad con lo dispuesto en el artículo 45 del Estatuto de Autonomía de Aragón.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo">El Estatuto de Autonomía de Aragón, aprobado por Ley Orgánica 5/2007, de 20 de abril, dedica su Título VII, bajo la rúbrica «Cooperación Institucional y Acción Exterior», a la regulación de las relaciones de colaboración que la Comunidad Autónoma de Aragón puede establecer con el Estado, con otras Comunidades Autónomas, con la Unión Europea y en el ámbito de la acción exterior.</p>
+          <p class="parrafo">Concretamente, tratándose de las relaciones con el Estado y con otras Comunidades Autónomas, indica expresamente el Estatuto de Autonomía en sus artículos 88 y 91 que, en su ámbito propio de actuación, el régimen jurídico de los convenios será establecido por ley de Cortes de Aragón. Por su parte, los artículos 92 y 98 prevén la participación de Aragón y la promoción de sus intereses en los ámbitos europeo y de cooperación exterior.</p>
+          <p class="parrafo">La importancia que en el desarrollo del Estado de las Autonomías ha tenido el principio de colaboración como criterio informador imprescindible de las relaciones institucionales y su creciente desarrollo práctico no se ha visto correspondido con un suficiente apoyo normativo.</p>
+          <p class="parrafo">Así, la Constitución española de 1978 únicamente se refiere a las relaciones entre Comunidades Autónomas en su artículo 145, distinguiendo entre convenios y acuerdos de cooperación. Por su parte, la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, establece con carácter general determinados principios orientadores de estas relaciones y regula, con un marco normativo mínimo, las técnicas a través de las cuales se puede dar cauce a las mismas. Entre ellas, recoge los convenios que la Administración General del Estado puede celebrar con las Administraciones de las Comunidades Autónomas. Se centra en este caso, artículos 6 y 8, en su ámbito externo relativo a su origen, contenido y efectos.</p>
+          <p class="parrafo">En las Comunidades Autónomas, la regulación de las relaciones de colaboración y de los convenios viene circunscrita a cuestiones de ámbito interno de la formación de su voluntad, como las referentes al procedimiento en el que ésta se articula, órganos que intervienen y regulación del Registro. En Aragón, esta materia se encuentra recogida en el Texto Refundido de la Ley del Presidente y del Gobierno de Aragón, aprobado por Decreto Legislativo 2/2001, artículos 44 a 48, complementada con el Decreto 151/1988, de 4 de octubre, por el que se regula el funcionamiento del Registro de convenios. Por su parte, la Ley 2/2009, de 11 de mayo, del Presidente y del Gobierno de Aragón, atribuye al Presidente, en su artículo 4.1), la función de firmar los convenios y acuerdos de cooperación en los que la Comunidad Autónoma sea parte, atribución que puede delegar en los Vicepresidentes o Consejeros, según dispone en el artículo 5.1); y al Gobierno de Aragón, autorizar los acuerdos de colaboración en el ámbito de la Unión Europea y acción exterior y los convenios con el Estado y con otras Comunidades Autónomas, de conformidad con el artículo 12, apartados 12), 24) y 28).</p>
+          <p class="parrafo">De conformidad con la base constitucional y estatutaria expuesta, con respeto a la normativa básica estatal y en el ámbito propio de la formación de la voluntad negocial de la Comunidad Autónoma de Aragón, la presente ley tiene por finalidad potenciar y facilitar al máximo, en los distintos niveles de relación, el uso de los convenios. Para ello, se aborda la regulación de la materia desde un punto de vista global, de manera que, además de los convenios con el Estado y con otras Comunidades Autónomas y los acuerdos de colaboración celebrados en el ámbito de la Unión Europea y de la acción exterior, se recogen los que se celebren con universidades públicas y con las corporaciones de derecho público.</p>
+          <p class="parrafo">Por otra parte, la ley tiene como objetivo aportar sistematicidad, claridad y transparencia a la actividad convencional que en el futuro se desarrolle por la Comunidad Autónoma de Aragón, al efecto de aportar instrumentos útiles de información para los ciudadanos y para todas las entidades que forman parte del sector público aragonés, en el ejercicio de su actividad.</p>
+          <p class="parrafo">La ley se estructura en siete Capítulos, dos disposiciones adicionales, una derogatoria y dos finales.</p>
+          <p class="parrafo">El Capítulo I, bajo la rúbrica «Disposiciones generales», centra el objeto de la ley en la regulación del ámbito interno de los convenios de naturaleza institucional, que se pretende abordar desde una visión amplia, que se manifiesta, por un lado, en su alcance subjetivo, referido a todos los celebrados por las entidades que puedan incluirse en el sector público de la Comunidad Autónoma de Aragón y, por otro, en el plano material, al poder considerar convenio lo que tenga por objeto un acuerdo de voluntades que afecte al ejercicio de las competencias, cualquiera que sea su denominación. No obstante, por motivos de especificidad material, quedan fuera de la aplicación directa de la ley, y solo lo es con carácter supletorio, los celebrados con las entidades locales y, fuera de su ámbito, los regidos por la normativa de contratos, urbanismo y en materia de seguridad pública.</p>
+          <p class="parrafo">En lo demás, en este Capítulo se regulan cuestiones de ámbito general relativas a los principios informadores que orientan la celebración de los convenios y su contenido mínimo, teniendo presente como referencia los principios estatutarios y la normativa básica estatal.</p>
+          <p class="parrafo">El Capítulo II se dedica a los convenios que se celebren con el Estado, incluyendo en este ámbito los órganos constitucionales y estatales con autonomía funcional, tales como el Consejo General del Poder Judicial, el Ministerio Fiscal o el Banco de España. La regulación parte de los criterios que deben presidir las relaciones institucionales en la celebración de los convenios, buscando el adecuado equilibrio entre la defensa de Aragón y la cohesión del Estado autonómico.</p>
+          <p class="parrafo">En este ámbito, la utilización del convenio como instrumento de colaboración ha dado lugar a diferentes denominaciones, utilizadas de forma indistinta, situación que, teniendo en cuenta la importancia numérica que los convenios verticales han alcanzado, es preciso concretar a efectos internos, con fin de conseguir la sistemática necesaria. Para ello, siguiendo la tipología mínima establecida en la normativa básica estatal, se distingue, en función de su grado de vinculación, entre protocolo general, convenio marco y convenio de colaboración.</p>
+          <p class="parrafo">La práctica en este espacio de relación hace necesaria la diferenciación entre la actuación en marcos multilaterales y bilaterales. La ley, teniendo la referencia del Estatuto de Autonomía de Aragón, remarca con especial significación este segundo, al indicar una serie de materias de singular importancia para Aragón y cuyo desarrollo mediante la formalización de convenios bilaterales se impone como uno de los objetivos fundamentales de la ley.</p>
+          <p class="parrafo">Los convenios con otras Comunidades Autónomas se regulan en el Capítulo III. Se pretende potenciar el uso de los instrumentos horizontales como un elemento básico para el desarrollo del Estado autonómico y que hasta el momento es casi inexistente. Para ello, junto con la distinción normativa de los instrumentos regulados en la Constitución y en el Estatuto de Autonomía, se introduce otra, como son los protocolos o acuerdos de coordinación, regulando la posibilidad, muy utilizada en la práctica, de formalizar estas relaciones interautonómicas en asuntos de naturaleza política y que, si bien están desprovistas de eficacia vinculante, tienen indudable utilidad para la coordinación y cooperación entre las Comunidades Autónomas.</p>
+          <p class="parrafo">Además, dentro de los márgenes que posibilita la Constitución y el Estatuto de Autonomía de Aragón, se dota a estos instrumentos de la mayor flexibilidad posible en su tramitación. Así, mientras los acuerdos de cooperación requieren ratificación de las Cortes de Aragón, en los convenios de colaboración se establece su comunicación, a efectos informativos, a las Cortes de Aragón y a las Cortes Generales. Por su parte, para los protocolos o acuerdos de coordinación, de conformidad con lo declarado por el Tribunal Constitucional en su Sentencia 44/1986, de 17 de abril, no es necesaria comunicación o ratificación posterior.</p>
+          <p class="parrafo">El Capítulo IV plasma normativamente las posibilidades que en el ámbito de la Unión Europea y de la acción exterior establece el Estatuto de Autonomía, siguiendo en las relaciones transfronterizas, interterritoriales y transnacionales los dictados del Tribunal Constitucional y los tratados internacionales. En este marco, es preciso distinguir los convenios y acuerdos que pueden derivarse de la normativa comunitaria, como es el caso de las Agrupaciones Europeas de Cooperación Territorial, de los que lo hagan de convenios o tratados internacionales, como el Tratado de Bayona sobre cooperación transfronteriza entre entidades territoriales del Reino de España y la República Francesa. En ambos casos, se destacan las materias que pueden ser objeto de acuerdo y se disponen los límites de actuación.</p>
+          <p class="parrafo">Los Capítulos V y VI regulan, respectivamente, los convenios que se celebran con las universidades públicas y las corporaciones de derecho público. El ámbito de actuación que para estos casos recoge la ley se incorpora, a efectos sistemáticos, a partir de lo que ya venía regulado en la normativa aragonesa, como la Ley 26/2003, de 30 de diciembre, de medidas tributarias y administrativas, la Ley 2/1998, de 12 de marzo, de Colegios Profesionales de Aragón, o la Ley 5/2005, de 14 de junio, de Ordenación del Sistema Universitario de Aragón. Se pretende fomentar el uso de los convenios al objeto de facilitar el cumplimiento de los fines que son propios de las universidades públicas o la participación de las corporaciones de derecho público en la actuación de la Administración autonómica.</p>
+          <p class="parrafo">Por último, el Capítulo VII lleva por rúbrica «Procedimiento». Su regulación viene motivada, por un lado, por la intención de flexibilizar los trámites internos al objeto de facilitar el desarrollo de la actividad convencional. En este sentido, la ley se limita a regular la necesidad de elaborar una memoria justificativa y, en su caso, económica, por el centro directivo promotor, la autorización para su celebración y la firma. En el caso de la autorización, al igual que establece la Ley 2/2009, de 11 de mayo, del Presidente y del Gobierno de Aragón, corresponde otorgarla al Gobierno de Aragón, si bien en la presente norma se generaliza esta autorización para todos los supuestos regulados en la misma y se deja abierta la posibilidad de que sea otorgada por órganos distintos. Además, en los protocolos o acuerdos de coordinación que se suscriban en el ámbito de órganos e instrumentos de colaboración, tales como las Conferencias Sectoriales o los Encuentros entre Comunidades Autónomas, no será necesaria previa autorización para su firma por el representante designado por el Gobierno, nombramiento que por sí mismo y para estos supuestos le permite ostentar este poder de decisión.</p>
+          <p class="parrafo">Por otro lado, la transparencia y la publicidad que debe darse a los convenios caracterizan esta regulación. Para ello, se proclama la naturaleza pública del Registro y se establece la obligatoriedad de inscribir todos los convenios en un plazo determinado y de publicarlos.</p>
+          <p class="parrafo">En cuanto a las disposiciones de la parte final, destaca la regulación de las disposiciones adicionales. Se trata de ofrecer adecuado apoyo normativo, ausente actualmente, tanto a los convenios que pueda celebrar el Gobierno de Aragón con las otras instituciones de la Comunidad Autónoma y con los órganos estatutarios con autonomía funcional, como a los convenios que puedan celebrar entre sí los entes del sector público de la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones Generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La presente ley tiene por objeto regular los convenios y acuerdos que suscriba la Comunidad Autónoma de Aragón en el ámbito propio de su actuación.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 2. Ámbito subjetivo.</p>
+          <p class="parrafo">1. La presente ley será de aplicación a los convenios y acuerdos que celebren el Gobierno de Aragón, la Administración de la Comunidad Autónoma y las restantes entidades del sector público autonómico con:</p>
+          <p class="parrafo_2">a) El Estado.</p>
+          <p class="parrafo">b) Las Comunidades Autónomas.</p>
+          <p class="parrafo">c) Los entes públicos e instituciones de otros Estados u organismos internacionales en el ámbito de la Unión Europea y de la acción exterior.</p>
+          <p class="parrafo">d) Las universidades públicas.</p>
+          <p class="parrafo">e) Las corporaciones de derecho público.</p>
+          <p class="parrafo_2">2. Los convenios y acuerdos que celebre la Comunidad Autónoma de Aragón con las entidades locales se regularán por la normativa propia del régimen local de Aragón, sin perjuicio de la aplicación supletoria de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 3. Ámbito material.</p>
+          <p class="parrafo">1. Los convenios y acuerdos que suscriba la Comunidad Autónoma de Aragón podrán tener por objeto todo acuerdo de voluntades, adoptado por escrito, que tenga por finalidad el adecuado ejercicio de sus competencias para la consecución de fines de interés público, cualquiera que sea su denominación.</p>
+          <p class="parrafo">2. Quedan fuera del ámbito de aplicación de la ley y se regirán por su normativa específica los siguientes convenios y acuerdos:</p>
+          <p class="parrafo_2">a) Los convenios que por su naturaleza tengan la consideración de contratos sometidos a la legislación de contratos del sector público.</p>
+          <p class="parrafo">b) Los convenios urbanísticos.</p>
+          <p class="parrafo">c) Los acuerdos adoptados en materia de seguridad pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 4. Colaboración privada.</p>
+          <p class="parrafo">Las personas físicas y las jurídicas privadas podrán colaborar, sin ánimo de lucro, en los convenios y acuerdos sometidos a la presente ley, siempre que el objeto de su actuación no entre dentro del ámbito de aplicación de la normativa reguladora de los contratos del sector público o normas administrativas especiales.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 5. Principios informadores generales.</p>
+          <p class="parrafo">1. Las relaciones de colaboración y cooperación que la Comunidad Autónoma de Aragón establezca a través de los convenios y acuerdos regulados en esta ley vendrán orientadas por los principios de lealtad institucional, coordinación y ayuda mutua, con el fin de propiciar un mejor servicio a los ciudadanos y una utilización racional de los recursos públicos.</p>
+          <p class="parrafo">2. La suscripción de convenios y acuerdos no podrá suponer en ningún caso la renuncia de la titularidad de las competencias que correspondan a la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 6. Contenido.</p>
+          <p class="parrafo">1. Los convenios y acuerdos que celebre la Comunidad Autónoma de Aragón podrán incluir cualesquiera pactos, cláusulas y condiciones, siempre que sean conformes con el interés público, el orden constitucional y estatutariamente establecido y con el resto del ordenamiento jurídico.</p>
+          <p class="parrafo">2. En todo caso, deberán especificar, como mínimo, el contenido siguiente:</p>
+          <p class="parrafo_2">a) Los órganos firmantes del convenio o acuerdo.</p>
+          <p class="parrafo">b) La competencia o capacidad que habilitan la actuación.</p>
+          <p class="parrafo">c) Las razones de interés público que lo motivan.</p>
+          <p class="parrafo">d) la clase y tipo de convenio o acuerdo.</p>
+          <p class="parrafo">e) El objeto del convenio o acuerdo y las actuaciones que se acuerden desarrollar para su cumplimiento.</p>
+          <p class="parrafo">f) Su financiación, en el caso de que se deriven obligaciones económicas para las partes.</p>
+          <p class="parrafo">g) Las garantías, si procede, del cumplimiento de las obligaciones.</p>
+          <p class="parrafo">h) El plazo de vigencia, sin perjuicio de la posibilidad de prórroga, si así lo acuerdan las partes firmantes del convenio o acuerdo.</p>
+          <p class="parrafo">i) Las causas de extinción que sean diferentes a la establecida en la letra anterior, y si procede, la forma de finalizar las actuaciones en curso.</p>
+          <p class="parrafo">j) La necesidad o no de establecer una organización para su gestión.</p>
+          <p class="parrafo">k) Los mecanismos de denuncia y solución de controversias.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Convenios con el Estado</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 7. Criterios de relación.</p>
+          <p class="parrafo">Los convenios que la Comunidad Autónoma de Aragón suscriba con el Estado para cumplir objetivos de interés común estarán presididos por la defensa de los intereses de Aragón y la cohesión del Estado autonómico, con respeto en todo caso a las singularidades derivadas de la identidad propia de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 8. Tipología.</p>
+          <p class="parrafo">Los instrumentos de formalización de los convenios suscritos con el Estado adoptarán las denominaciones siguientes:</p>
+          <p class="parrafo_2">a) Protocolo General: instrumento en el que se establecen acuerdos de orientación política o de carácter programático o declarativo sin contenido vinculante y cuyo cumplimiento no resulta jurídicamente exigible.</p>
+          <p class="parrafo">b) Convenio Marco: instrumento en el que se establecen acuerdos susceptibles de generar obligaciones jurídicas entre las partes, cuya efectividad requiere la posterior formalización de convenios de colaboración en los que, respetando el contenido y los límites del convenio marco, se concreten las mencionadas obligaciones.</p>
+          <p class="parrafo">c) Convenio de Colaboración: instrumento en el que se establecen obligaciones concretas delimitadas por las partes directa e inmediatamente exigibles.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 9. Objeto.</p>
+          <p class="parrafo">Los convenios que se suscriban con el Estado podrán tener por objeto:</p>
+          <p class="parrafo_2">a) Acuerdos adoptados conjuntamente en el desarrollo de ámbitos competenciales concurrentes.</p>
+          <p class="parrafo">b) Acuerdos en los que la Comunidad Autónoma de Aragón, por su interés específico en el asunto, participa en el ejercicio de las competencias del Estado.</p>
+          <p class="parrafo">c) Acuerdos que formalicen el ejercicio de competencias propias cuyos efectos se extiendan a otras Comunidades Autónomas en los supuestos en los que corresponda al Estado los mecanismos de coordinación.</p>
+          <p class="parrafo">d) Acuerdos adoptados para canalizar las subvenciones previstas nominativamente en los Presupuestos Generales del Estado o impuestas a la Administración General del Estado por norma de rango legal.</p>
+          <p class="parrafo">e) Cualesquiera otros acuerdos que coadyuven a los fines de cooperación entre ambas Administraciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 10. Multilateralidad.</p>
+          <p class="parrafo">1. Los acuerdos y decisiones que se adopten con el Estado en el ámbito de las relaciones multilaterales permitirán a la Comunidad Autónoma de Aragón formalizar los convenios que sean necesarios para ejecutar o completar el contenido de dichos acuerdos o decisiones.</p>
+          <p class="parrafo">2. Los convenios celebrados en este ámbito tendrán por finalidad la participación efectiva de la Comunidad Autónoma en la realización, aprobación y seguimiento de planes y programas conjuntos de actuación y, en su caso, la concreción de las circunstancias que deban ser especificadas de forma bilateral.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 11. Bilateralidad.</p>
+          <p class="parrafo">1. En el ámbito de las relaciones bilaterales, la Comunidad Autónoma de Aragón formalizará convenios con el Estado que sean de interés específico para Aragón.</p>
+          <p class="parrafo">2. La Comunidad Autónoma tendrá especial interés en la celebración de convenios cuando se refieran a las siguientes materias:</p>
+          <p class="parrafo_2">a) Acuerdo bilateral económico-financiero con el Estado, previsto en el artículo 108 del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo">b) Relaciones financieras, fiscales y de gestión tributaria.</p>
+          <p class="parrafo">c) Gestión, ejecución y explotación de las obras hidráulicas de titularidad estatal.</p>
+          <p class="parrafo">d) Realización y gestión de obras públicas de interés general.</p>
+          <p class="parrafo">e) Planificación, programación y gestión de infraestructuras de transporte de titularidad estatal o que estén calificadas de interés general.</p>
+          <p class="parrafo">f) Desarrollo de las políticas que contribuyan a mitigar el cambio climático.</p>
+          <p class="parrafo">g) Políticas de inmigración y flujos migratorios.</p>
+          <p class="parrafo">h) Innovación y desarrollo científico y tecnológico.</p>
+          <p class="parrafo">i) Gestión y tramitación de subvenciones no territorializables.</p>
+          <p class="parrafo">j) Comunicaciones transfronterizas.</p>
+          <p class="parrafo">k) Cualesquiera otras que faciliten el desarrollo económico y social de Aragón.</p>
+          <p class="parrafo_2">3. En los convenios que se celebren con el Estado referidos a las materias de su competencia, deberá fijarse la financiación estatal y los plazos de ejecución.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 12. Comisión Bilateral de Cooperación Aragón-Estado.</p>
+          <p class="parrafo">1. Con arreglo a lo previsto en el artículo 90 del Estatuto de Autonomía de Aragón, la Comisión Bilateral de Cooperación se configura como el instrumento principal de relación entre la Comunidad Autónoma y el Estado, sin perjuicio de las funciones atribuidas a otros órganos concretos de cooperación bilateral o multilateral.</p>
+          <p class="parrafo">2. A tales efectos, la Comisión Bilateral de Cooperación debe impulsar la realización de actuaciones y planes conjuntos para el desarrollo de políticas comunes y, en su virtud, suscribir los oportunos convenios de colaboración.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 13. Órganos constitucionales y estatales.</p>
+          <p class="parrafo">Los convenios que la Comunidad Autónoma de Aragón celebre con órganos constitucionales y estatales con autonomía funcional se regirán por lo que se dispone en el presente Capítulo.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Convenios y acuerdos con otras Comunidades Autónomas</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 14. Ámbito de actuación.</p>
+          <p class="parrafo">1. La Comunidad Autónoma de Aragón suscribirá con otras Comunidades Autónomas convenios con la finalidad de fijar políticas comunes y tratar de asuntos de interés recíproco en beneficio de sus ciudadanos.</p>
+          <p class="parrafo">2. La Comunidad Autónoma de Aragón fomentará relaciones multilaterales de colaboración con otras Comunidades Autónomas para facilitar el ejercicio eficaz de sus competencias, especialmente cuando sus efectos tengan un alcance territorial supraautonómico.</p>
+          <p class="parrafo">3. Asimismo, podrá establecer relaciones específicas de colaboración con las Comunidades Autónomas con las que tenga vínculos culturales, históricos o geográficos comunes y, en particular, con las que formaron parte de la Corona de Aragón.</p>
+          <p class="parrafo">4. La Comunidad Autónoma de Aragón, junto con otras Comunidades Autónomas, podrá promover la creación y el establecimiento de órganos e instrumentos de coordinación, proyectos, planes y programas conjuntos.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 15. Tipología.</p>
+          <p class="parrafo">Los convenios suscritos con otras Comunidades Autónomas podrán adoptar las modalidades de protocolo o acuerdo de coordinación, convenio de colaboración, o acuerdo de cooperación.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 16. Protocolos o acuerdos de coordinación.</p>
+          <p class="parrafo">1. La Comunidad Autónoma de Aragón podrá celebrar protocolos o acuerdos de coordinación con otras Comunidades Autónomas cuando tengan por objeto la declaración conjunta de intenciones o líneas de actuación política, el intercambio de información o la creación de órganos conjuntos de colaboración o coordinación.</p>
+          <p class="parrafo">2. Los protocolos o acuerdos de coordinación tendrán plena validez para la Comunidad Autónoma de Aragón desde el día de la firma y no crearán obligaciones jurídicas exigibles para las partes.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 17. Convenios de colaboración.</p>
+          <p class="parrafo">1. Los convenios de colaboración tendrán por objeto la gestión y prestación de servicios propios, derivados de las competencias autonómicas.</p>
+          <p class="parrafo">2. Los convenios de colaboración que se suscriban con otras Comunidades Autónomas tendrán plena validez y obligarán a la Comunidad Autónoma de Aragón desde el día de la firma, y se informará de su celebración a las Cortes de Aragón y a las Cortes Generales en el plazo de un mes a contar desde ese día.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 18. Acuerdos de cooperación.</p>
+          <p class="parrafo">1. Los acuerdos de cooperación vendrán referidos a actuaciones que no sean objeto de los instrumentos anteriormente mencionados.</p>
+          <p class="parrafo">2. Los acuerdos de cooperación, previamente a su suscripción, serán autorizados por las Cortes Generales y tendrán validez y obligarán a la Comunidad Autónoma de Aragón cuando hayan sido ratificados por las Cortes de Aragón, en la forma y plazo que determine el Reglamento de la Cámara.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Acuerdos en el ámbito de la Unión Europea y de la acción exterior</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 19. Acuerdos en el ámbito de la Unión Europea.</p>
+          <p class="parrafo">1. La Comunidad Autónoma de Aragón promoverá la celebración de acuerdos de colaboración con entidades públicas de otras regiones de la Unión Europea en aquellos asuntos que sean de interés común.</p>
+          <p class="parrafo">2. En particular, la Comunidad Autónoma de Aragón podrá suscribir acuerdos o convenios con las entidades públicas de las regiones europeas limítrofes con las que tenga vínculos culturales e históricos, al objeto de gestionar equipamientos y servicios públicos comunes y de coordinar sus decisiones.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 20. Acuerdos en el ámbito de la acción exterior.</p>
+          <p class="parrafo">1. La Comunidad Autónoma de Aragón podrá suscribir acuerdos de colaboración con entes públicos de otros Estados o con organismos internacionales para la promoción y defensa de los intereses de Aragón en el exterior.</p>
+          <p class="parrafo">2. Especialmente, se promoverán acuerdos en materia de investigación, desarrollo tecnológico, protección del medio ambiente, ayuda al desarrollo y apertura exterior de la economía aragonesa.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 21. Límite de los acuerdos.</p>
+          <p class="parrafo">Los acuerdos objeto de regulación del presente Capítulo no podrán incidir en la política exterior del Estado ni generar responsabilidades de éste frente a Estados extranjeros u organizaciones inter o supranacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Convenios con las universidades públicas</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 22. Principio general.</p>
+          <p class="parrafo">La Comunidad Autónoma de Aragón podrá celebrar convenios con las universidades públicas con los requisitos establecidos en la presente ley, respetando en todo caso lo que disponga la normativa sectorial de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 23. Ámbito de actuación.</p>
+          <p class="parrafo">1. Los convenios que se celebren con las universidades públicas tratarán de concretar las actuaciones necesarias para el fomento de la calidad docente, la investigación y la participación de las mismas en el desarrollo cultural, económico y social de Aragón.</p>
+          <p class="parrafo">2. A través de los correspondientes convenios, la Comunidad Autónoma establecerá las relaciones que el sistema universitario de Aragón formalice con los centros asociados de la Universidad Nacional de Educación a Distancia.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Convenios con las corporaciones de derecho público</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 24. Principio general.</p>
+          <p class="parrafo">La Comunidad Autónoma de Aragón podrá celebrar convenios con corporaciones de derecho público en los términos establecidos en la presente ley, respetando en todo caso lo dispuesto en su normativa general y en la propia de cada corporación.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 25. Ámbito de actuación.</p>
+          <p class="parrafo">1. La Administración de la Comunidad Autónoma, para el mejor cumplimiento de sus competencias, podrá celebrar convenios con corporaciones de derecho público en aquellos asuntos que afecten al contenido de su ámbito corporativo de actuación.</p>
+          <p class="parrafo">2. Los convenios podrán tener por objeto la realización de asuntos de interés común, la delegación de competencias que la Administración autonómica efectúe a favor de las corporaciones de derecho público, o facilitar su participación en los procedimientos administrativos y en la adopción de decisiones por la Administración de la Comunidad Autónoma.</p>
+        </version>
+      </bloque>
+      <bloque id="cvii" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Procedimiento</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 26. Actuaciones previas.</p>
+          <p class="parrafo">El proyecto de convenio irá acompañado de una memoria firmada por el titular del centro directivo promotor, en la que se hará constar los antecedentes, objetivos, los compromisos que se adquieran y las razones que motivan su celebración. Igualmente, se indicará si del mismo se derivan o no efectos económicos para la Comunidad Autónoma.</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 27. Designación de representante en órganos e instrumentos de colaboración.</p>
+          <p class="parrafo">1. La participación de la Comunidad Autónoma de Aragón en los órganos e instrumentos de colaboración que se establezcan para el desarrollo de las relaciones verticales y horizontales previstas en la presente ley, requerirá acuerdo del Gobierno de Aragón por el que se designe el miembro del mismo que le represente.</p>
+          <p class="parrafo">2. El representante designado en órganos e instrumentos de colaboración estará facultado, en virtud de su designación, para suscribir protocolos o acuerdos de coordinación. En los demás casos, será requisito previo el acuerdo de autorización correspondiente. Dicho acuerdo podrá, en su caso, otorgarse sobre el contenido de proyecto de convenio o acuerdo que deba someterse a la aprobación del órgano o instrumento de colaboración.</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 28. Autorización.</p>
+          <p class="parrafo">1. La suscripción de los convenios y los acuerdos objeto de la presente ley, a salvo de lo dispuesto en la legislación específica, deberán ser autorizados mediante acuerdo del Gobierno de Aragón.</p>
+          <p class="parrafo">2. La competencia de autorización indicada en el apartado anterior podrá ser atribuida por el Gobierno de Aragón a otros órganos, en los términos y supuestos que se establezcan reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 29. Firma.</p>
+          <p class="parrafo">El Gobierno de Aragón, en el acuerdo de autorización, designará el titular del órgano o representante firmante del convenio o acuerdo. A falta de designación, se firmará por el Presidente o miembro del Gobierno en quien delegue.</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 30. Modificación y prórroga.</p>
+          <p class="parrafo">1. La modificación del convenio o acuerdo se llevará a cabo mediante adenda al mismo.</p>
+          <p class="parrafo">2. Salvo que el convenio o acuerdo disponga otra cosa, su modificación sustancial requerirá nueva autorización.</p>
+          <p class="parrafo">Se entenderá por modificación sustancial, en todo caso, aquella que suponga una mayor colaboración financiera de la Comunidad Autónoma en la consecución de los fines pretendidos por el convenio o acuerdo.</p>
+          <p class="parrafo">3. La modificación no sustancial podrá suscribirse por el titular del órgano o representante firmante del convenio o acuerdo, dando posterior comunicación al Gobierno u órgano que los haya autorizado.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 31. Registro.</p>
+          <p class="parrafo">1. Los convenios y acuerdos deberán ser inscritos, a efectos de su publicidad, en el Registro de Convenios de la Comunidad Autónoma de Aragón, en el plazo de dos meses a partir de la firma del convenio.</p>
+          <p class="parrafo">Serán igualmente inscritos los acuerdos o adendas que tengan por objeto la modificación, prórroga o extinción de los mismos.</p>
+          <p class="parrafo">2. El Registro de convenios tiene carácter público y se podrá consultar en la forma que se determine reglamentariamente. En todo caso, el acceso estará sujeto a las limitaciones que para el acceso a registros establece la normativa reguladora del régimen jurídico de las Administraciones Públicas y a las establecidas por la normativa en materia de protección de datos de carácter personal.</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Artículo 32. Publicidad.</p>
+          <p class="parrafo">Una vez inscrito el convenio o acuerdo en el Registro o, en su caso, la modificación, prórroga o extinción del mismo, el órgano responsable del mismo ordenará su publicación en el «Boletín Oficial de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Disposición adicional primera. Convenios con instituciones estatutarias y órganos con autonomía funcional.</p>
+          <p class="parrafo">El Gobierno de Aragón se regirá por la presente ley para la formalización de los convenios que celebre con las Cortes de Aragón y el Justicia de Aragón, así como con los órganos estatutarios con autonomía funcional cuando sus leyes reguladoras lo permitan.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Disposición adicional segunda. Convenios entre entes del sector público autonómico.</p>
+          <p class="parrafo">Los entes del sector público de la Comunidad Autónoma de Aragón podrán celebrar convenios entre sí de acuerdo con lo dispuesto en la presente ley, sin perjuicio de lo dispuesto en la normativa reguladora de la Administración de la Comunidad Autónoma y de los contratos del sector público.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogados los artículos 44 a 48 del Texto Refundido de la Ley del Presidente y del Gobierno de Aragón, aprobado por Decreto Legislativo 1/2001, de 3 de julio, del Gobierno de Aragón, y cuantas disposiciones legales o reglamentarias se opongan a lo establecido en la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Disposición final primera. Desarrollo reglamentario.</p>
+          <p class="parrafo">El Gobierno de Aragón podrá dictar las disposiciones que sean necesarias para desarrollar lo dispuesto en la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente ley entrará en vigor a los treinta días de su publicación en el Boletín Oficial de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2011-5202" fecha_publicacion="20110224" fecha_vigencia="20110326">
+          <p class="parrafo_2">Así lo dispongo a los efectos del artículo 9.1 de la Constitución y los correspondientes del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo_2">Zaragoza, 10 de febrero de 2011.–</p>
+          <p class="firma_ministro">El Presidente del Gobierno de Aragón,</p>
+          <p class="firma_ministro">Marcelino Iglesias Ricou.</p>
+          <p class="publicado"> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

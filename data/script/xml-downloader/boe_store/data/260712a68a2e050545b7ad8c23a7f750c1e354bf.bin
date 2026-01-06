@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T174441Z</fecha_actualizacion>
+      <identificador>BOE-A-2013-7537</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4220">Ministerio de Educación, Cultura y Deporte</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20130607</fecha_disposicion>
+      <numero_oficial>397/2013</numero_oficial>
+      <titulo>Real Decreto 397/2013, de 7 de junio, por el que se aprueban los Estatutos de la Real Academia de Ingeniería.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20130710</fecha_publicacion>
+      <diario_numero>164</diario_numero>
+      <fecha_vigencia>20130711</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2013/06/07/397</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2013-7537</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="30">Academias</materia>
+        <materia codigo="4173">Ingenieros</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1994-11649</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 859/1994, de 29 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2010-14304</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Real Decreto 1160/2010, de 17 de septiembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-7537</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-07</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4173"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-7537</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4173"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/con/20130710"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 397/2013, de 7 de junio, por el que se aprueban los Estatutos de la Real Academia de Ingeniería.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-10</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/con/20130710">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-7537</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4173"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/con/20130710/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 397/2013, de 7 de junio, por el que se aprueban los Estatutos de la Real Academia de Ingeniería.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/con/20130710"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/06/07/397/con/20130710/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/06/07/397/con/20130710/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="parrafo">La Academia de Ingeniería se creó por Real Decreto 859/1994, de 29 de abril, que también aprobaba sus primeros Estatutos, para responder a la conveniencia de establecer una institución de ámbito nacional capaz de aconsejar y orientar con la mayor competencia al Estado y a la sociedad en materias tecnológicas. Su necesidad se justificaba porque la Ingeniería es un campo de la actividad humana con influencia decisiva en el bienestar de la sociedad.</p>
+          <p class="parrafo">Desde su creación, la Academia ha venido trabajando con continuidad y rigor, en cumplimiento de los fines que entonces se encomendaron: promover la calidad y competencia de la Ingeniería española, fomentando el estudio, la investigación, la discusión y la difusión de las técnicas y de sus fundamentos científicos y sociales. El 14 de julio de 2003, le fue concedido el título de Real, quedando así amparada por el Alto Patronazgo del Rey, que se consagra en el artículo 62.j) de la Constitución.</p>
+          <p class="parrafo">Resulta obvio que, en los años transcurridos desde 1994, la presencia de la tecnología en la vida humana y su relevancia económica, social, educativa y cultural, no han hecho sino crecer de manera constante. Ese crecimiento, junto a los cambios de diversa índole en el funcionamiento de la Real Academia de Ingeniería y a la ampliación de sus actividades, justifica la necesidad de aprobar una nueva redacción de sus Estatutos, más acorde con la situación actual.</p>
+          <p class="parrafo">El apartado primero de la disposición adicional segunda del Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España, establece el siguiente contenido mínimo de los Estatutos de las Reales Academias de ámbito nacional: denominación, objetivos y funciones, organización, derechos y deberes de los Académicos y medios económicos para su funcionamiento. Por otra parte, el apartado quinto de la misma norma dispone que las modificaciones de los Estatutos de las Academias de ámbito nacional se deben proponer por la Academia de la que se trate y se aprobarán por Real Decreto del Gobierno, a propuesta del Ministerio de Educación, previo informe del Instituto de España.</p>
+          <p class="parrafo">Estos nuevos Estatutos han sido propuestos por la Real Academia de Ingeniería y han sido informados favorablemente por el Instituto de España.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Educación, Cultura y Deporte y previa deliberación del Consejo de Ministros en su reunión del día 7 de junio de 2013,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos de la Real Academia de Ingeniería.</p>
+          <p class="parrafo">Se aprueban los Estatutos de la Real Academia de Ingeniería, cuyo texto se incluye a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Disposición adicional única. Promoción de las mujeres.</p>
+          <p class="parrafo">1. En el Reglamento interno de la Academia se procurará la inclusión de medidas dirigidas a promover una mayor presencia de mujeres tanto en la comunidad académica como en los órganos de gobierno.</p>
+          <p class="parrafo">2. Todos los preceptos de los Estatutos deben interpretarse en el sentido de que la condición académica y los cargos académicos pueden ser ostentados tanto por hombres como por mujeres.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Disposición transitoria única. Cargos actuales de la Junta de Gobierno.</p>
+          <p class="parrafo_2">Los Académicos y Académicas que, a la entrada en vigor del presente real decreto, formen parte de la Junta de Gobierno, seguirán desempeñando sus cargos hasta terminar el mandato para el que fueron elegidos. La renovación de los cargos se hará de acuerdo con lo que disponen estos nuevos Estatutos que se aprueban, así como el Reglamento de Régimen Interior que lo desarrolle.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogados los Estatutos de la Real Academia de Ingeniería, aprobados por Real Decreto 859/1994, de 29 de abril, así como las demás normas de igual o inferior rango que se opongan a lo dispuesto en el presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="parrafo_2">Dado en Madrid, el 7 de junio de 2013.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Educación, Cultura y Deporte,</p>
+          <p class="firma_ministro">JOSÉ IGNACIO WERT ORTEGA.</p>
+        </version>
+      </bloque>
+      <bloque id="es" tipo="encabezado" titulo="Estatutos">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="anexo">Estatutos de la Real Academia de Ingeniería</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Naturaleza y ámbito</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 1. Naturaleza y régimen jurídico.</p>
+          <p class="parrafo">La Real Academia de Ingeniería constituye una corporación de derecho público, con personalidad jurídica propia, que se rige por los presentes Estatutos y por el Reglamento de Régimen Interior que los desarrolla.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 2. Capacidad de obrar y relación administrativa.</p>
+          <p class="parrafo">1. La Academia tiene plena capacidad de obrar en el cumplimiento de sus fines, sin perjuicio de las competencias que la legislación vigente atribuya a otros órganos o entidades.</p>
+          <p class="parrafo">2. La Academia se relaciona administrativamente con el Ministerio de Educación, Cultura y Deporte.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 3. Ámbito material y territorial.</p>
+          <p class="parrafo">1. El campo de actividad de la Academia comprende el estudio y la investigación de los fundamentos científicos y técnicos de la Ingeniería, sus aplicaciones tecnológicas y sus técnicas operativas, así como todo lo relativo al proyecto, desarrollo y explotación de sus realizaciones.</p>
+          <p class="parrafo">2. El ámbito territorial de la Real Academia de Ingeniería es el Reino de España, sin perjuicio de la posibilidad de realizar actividades en el exterior o establecer relaciones de colaboración con entidades extranjeras.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Fines y actividades</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 4. Fines de la Academia.</p>
+          <p class="parrafo">La Real Academia de Ingeniería tiene como fines promover la calidad y la competencia de la Ingeniería española y fomentar el estudio, la investigación, la discusión y la difusión de las técnicas y de sus fundamentos científicos y sociales.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 5. Actividades de la Academia.</p>
+          <p class="parrafo">Para cumplir esos fines, la Academia desarrolla, entre otras, las siguientes actividades:</p>
+          <p class="parrafo_2">a) Emitir declaraciones, informes y dictámenes, realizar estudios y aconsejar dentro de su ámbito a las instancias que lo soliciten o cuando el interés público lo requiera.</p>
+          <p class="parrafo">b) Patrocinar homenajes a figuras y realizaciones de relevancia histórica, conceder premios y distinciones a personas e instituciones actuales y organizar concursos.</p>
+          <p class="parrafo">c) Elaborar y mantener actualizado un diccionario español de términos relativos a la Ingeniería.</p>
+          <p class="parrafo">d) Celebrar sesiones en las que se expongan, analicen y debatan los avances científicos y técnicos.</p>
+          <p class="parrafo">e) Publicar monografías, actas y otros documentos.</p>
+          <p class="parrafo">f) Colaborar con otras Academias y entidades de carácter análogo o complementario, tanto españolas como extranjeras o internacionales, en materias y programas de interés común.</p>
+          <p class="parrafo">g) Allegar y usar los recursos necesarios para las actividades orientadas al cumplimiento de sus fines.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Académicos y Académicas</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 6. Requisitos para la incorporación a la Academia.</p>
+          <p class="parrafo">1. Para ser miembro de la Academia se requiere una cualificación relevante, además de una reconocida integridad profesional, así como reunir alguna de las condiciones siguientes:</p>
+          <p class="parrafo_2">a) Haber realizado aportaciones de destacada importancia en materias teóricas o aplicadas vinculadas a la Ingeniería, que estén reflejadas en patentes o publicaciones del pertinente nivel.</p>
+          <p class="parrafo">b) Haber demostrado excepcional competencia para lograr avances significativos en nuevos campos tecnológicos o en su desarrollo empresarial.</p>
+          <p class="parrafo_2">2. Constituirán méritos adicionales para la incorporación a la Academia el haberse mostrado eficaz en la dirección de empresas e instituciones, poniendo de manifiesto capacidad para afrontar y resolver problemas nuevos o complejos y contribuir a la innovación, así como haber prestado servicios relevantes para la docencia y formación de ingenieros.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 7. Clases de Académicos y Académicas.</p>
+          <p class="parrafo">La Academia se compone de las siguientes clases de Académicos y Académicas: de Número, Supernumerarios, Correspondientes y de Honor.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 8. Requisitos de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Además de lo establecido en el Artículo 6, para ser Académico de Número se precisa:</p>
+          <p class="parrafo_2">a) Ser español.</p>
+          <p class="parrafo">b) Comprometerse a cumplir los Estatutos, las obligaciones asociadas a su nombramiento y desempeñar las tareas que le sean encomendadas en beneficio de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 9. Obligaciones de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Los Académicos y Académicas de Número están obligados a contribuir con trabajos científicos o técnicos relacionados con los fines de la Academia, así como a participar en las sesiones de la Academia y en las elecciones en la forma en que establezca el Reglamento de Régimen Interior.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 10. Derechos de los Académicos y Académicas de Número.</p>
+          <p class="parrafo">Los Académicos y Académicas de Número tienen derecho de voz y voto en las Sesiones de la Academia así como a presentar candidatos a nuevos Académicos; pueden proponer estudios a la Academia y presentar trabajos auspiciados o publicados por la misma. Les corresponde siempre el tratamiento de Académicos y pueden usar los títulos y distintivos según se establezca en el Reglamento de Régimen Interior.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 11. Académicos y Académicas Supernumerarios.</p>
+          <p class="parrafo">Los Académicos y Académicas de Número adquirirán la condición de Supernumerarios, causando vacante en la plaza que estén ocupando, en las condiciones y circunstancias establecidas en el Reglamento de Régimen Interior de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 12. Derechos y obligaciones de los Académicos y Académicas Supernumerarios.</p>
+          <p class="parrafo">Los Académicos y Académicas Supernumerarios tendrán los mismos derechos y obligaciones que los Académicos y Académicas de Número, excepto los relacionados con el derecho de voto y presentación de candidatos a nuevos Académicos. No serán elegibles para los cargos de Presidente, Vicepresidente o Secretario, pero sí como otros miembros de la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 13. Académicos y Académicas Correspondientes.</p>
+          <p class="parrafo">Los Académicos y Académicas Correspondientes, cuyo número y procedimiento de elección se establecerán en el Reglamento de Régimen Interior, serán elegidos y nombrados entre personalidades no residentes en España que se hayan hecho acreedoras a tal distinción por méritos análogos a los requeridos para ocupar plaza de Académico de Número.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 14. Derechos y obligaciones de los Académicos y Académicas Correspondientes.</p>
+          <p class="parrafo">1. Los Académicos y Académicas Correspondientes tendrán derecho de participación en las Comisiones y Secciones a las que pertenezcan o sean invitados, así como a proponer estudios y presentar trabajos auspiciados o publicados por la Academia. Pueden asimismo usar los títulos y distintivos según se establezca en el Reglamento de Régimen Interior.</p>
+          <p class="parrafo">2. Los Académicos y Académicas Correspondientes colaborarán en las tareas que realice la Academia, teniendo una relación estable con la corporación y cumpliendo los encargos y cometidos que acuerden con la Academia, según se detalle en el Reglamento de Régimen Interior.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 15. Académicos y Académicas de Honor.</p>
+          <p class="parrafo">Los Académicos y Académicas de Honor serán elegidos y nombrados entre personalidades de excepcional prestigio y relevancia que se hayan significado por sus contribuciones científicas y técnicas o por los servicios desempeñados en campos relevantes para la Ingeniería.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 16. Derechos y obligaciones de los Académicos y Académicas de Honor.</p>
+          <p class="parrafo">Los Académicos y Académicas de Honor tendrán los mismos derechos que los Académicos de Número excepto los relacionados con el derecho de voto<em>,</em> de acuerdo con lo regulado en el Reglamento de Régimen Interior</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 17. Elección y nombramiento de los Académicos.</p>
+          <p class="parrafo">El Reglamento de Régimen Interior establecerá las condiciones y procedimientos de elección y nombramiento de Académicos dentro del marco fijado por estos Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Gobierno y gestión de la Academia</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="seccion">Sección 1.ª El Pleno y la Junta de Gobierno</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 18. Pleno.</p>
+          <p class="parrafo">El órgano supremo de la Academia es el Pleno, que está constituido por un máximo de 60 Académicos y Académicas de Número, los Supernumerarios y los de Honor.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 19. Competencias del Pleno.</p>
+          <p class="parrafo">Compete al Pleno de la Academia todo cuanto se refiere a su gobierno, actividades, funcionamiento y administración de sus bienes. En particular estará facultado para:</p>
+          <p class="parrafo_2">a) Elegir a los Académicos y Académicas con arreglo a los procedimientos establecidos por estos Estatutos y el Reglamento de Régimen Interior que los desarrolle.</p>
+          <p class="parrafo">b) Elegir a los Académicos para ostentar los cargos de la Academia y nombrar a los miembros de sus órganos ejecutivos, así como autorizar la contratación de directivos y ser informado respecto a la del personal técnico, administrativo y subalterno que la gestión requiera.</p>
+          <p class="parrafo">c) Aprobar los presupuestos.</p>
+          <p class="parrafo">d) Aprobar la Memoria de Actividades, la Cuenta de Resultados, el Balance de Situación y la Memoria de la Gestión Económica.</p>
+          <p class="parrafo">e) Verificar el nivel de cumplimiento de los fines estatutarios.</p>
+          <p class="parrafo">f) Verificar la buena administración del patrimonio y demás bienes de que disponga la Academia para cumplir los fines y alcanzar sus objetivos.</p>
+          <p class="parrafo">g) Proponer la modificación de los Estatutos y aprobarla.</p>
+          <p class="parrafo">h) Elaborar y aprobar el Reglamento de Régimen Interior y proponer y aprobar su modificación.</p>
+          <p class="parrafo">i) Adoptar, modificar y usar los distintivos propios.</p>
+          <p class="parrafo">j) Velar por el debido mantenimiento de la sede de la Academia.</p>
+          <p class="parrafo">k) Realizar cualquier otro acto o disposición que, de conformidad con los presentes Estatutos y la legislación vigente, sea necesario o conveniente para el buen desarrollo de los asuntos de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 20. Junta de Gobierno.</p>
+          <p class="parrafo">1. El órgano encargado de la gestión general y del desarrollo de las actividades de la Academia es la Junta de Gobierno, que responderá ante el Pleno del cumplimiento de sus funciones.</p>
+          <p class="parrafo">2. La Junta de Gobierno estará compuesta por el Presidente de la Academia, que la presidirá, el Vicepresidente o los Vicepresidentes, el Secretario General, el Tesorero, el Interventor, el Bibliotecario y los Presidentes de las Secciones.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="seccion">Sección 2.ª Comisiones y Secciones</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 21. Comisiones y Secciones.</p>
+          <p class="parrafo">1. Para el desempeño de funciones concretas de la Academia el Pleno, a propuesta de la Junta de Gobierno, constituirá Comisiones permanentes, Comisiones temporales y Secciones.</p>
+          <p class="parrafo">2. Las Comisiones permanentes son, como máximo, las de:</p>
+          <p class="parrafo_2">a) Gobierno.</p>
+          <p class="parrafo">b) Hacienda.</p>
+          <p class="parrafo">c) Biblioteca y Publicaciones.</p>
+          <p class="parrafo">d) Relaciones Exteriores.</p>
+          <p class="parrafo">e) Candidaturas.</p>
+          <p class="parrafo">f) Premios.</p>
+          <p class="parrafo">g) Diccionario.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 22. Composición y funciones de las Comisiones.</p>
+          <p class="parrafo">El Pleno de la Academia, a propuesta de la Junta de Gobierno, establecerá la composición y funciones de las Comisiones permanentes y aprobará la creación, duración, composición y funciones de las Comisiones que no lo sean.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 23. Incorporación de expertos a las Comisiones.</p>
+          <p class="parrafo">Todas las Comisiones, con excepción de las de Gobierno, Hacienda y Candidaturas, podrán incorporar expertos que no sean Académicos cuando la naturaleza de sus trabajos así lo aconseje.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 24. Secciones.</p>
+          <p class="parrafo">Las actividades específicas de la Academia, tanto en el orden científico-técnico como de formación, pueden dar lugar a tareas encomendadas a las Secciones cuyo funcionamiento se establecerá en el Reglamento de Régimen Interior.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="seccion">Sección 3.ª Cargos de la Academia</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 25. Cargos directivos de la Academia.</p>
+          <p class="parrafo">1. Los cargos directivos de la Academia serán, al menos, los siguientes:</p>
+          <p class="parrafo_2">a) Presidente de la Academia. Es la máxima autoridad rectora de la Academia y la representa.</p>
+          <p class="parrafo">b) Vicepresidente o Vicepresidentes. Asisten al Presidente en sus funciones, y le sustituyen en caso de enfermedad, ausencia o delegación.</p>
+          <p class="parrafo">c) Secretario General. Convoca las reuniones de las sesiones del Pleno y de la Junta de Gobierno, levanta acta de las mismas, organiza las votaciones a que haya lugar y redacta la Memoria Anual de Actividades, siendo fedatario de todas las actuaciones realizadas y decisiones tomadas.</p>
+          <p class="parrafo">d) Tesorero. Custodia los fondos de la Academia, presenta los presupuestos para su aprobación y supervisa la administración contable de la corporación.</p>
+          <p class="parrafo">e) Interventor. Tiene la responsabilidad de la censura de cuentas.</p>
+          <p class="parrafo">f) Bibliotecario. Dirige, organiza y supervisa la gestión de la Biblioteca, de las publicaciones y del centro de documentación.</p>
+          <p class="parrafo">g) Presidentes de Secciones. Organizan y presiden las Secciones de la Academia.</p>
+          <p class="parrafo_2">2. El Reglamento de Régimen Interior establecerá la denominación y funciones de los demás cargos directivos que pudieran ser necesarios para el funcionamiento de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 26. Requisitos para ocupar cargos directivos.</p>
+          <p class="parrafo">Los titulares de la Presidencia, Vicepresidencias y Secretaría han de ser Académicos o Académicas de Número. Los demás cargos podrán ser desempeñados por Académicos o Académicas de Número o Supernumerarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 27. Gerente.</p>
+          <p class="parrafo">1. Habrá un Gerente, cargo para el que no se precisa la condición de Académico. Si lo fuera, su función podría ser compatible con otros cargos comunicándolo la Junta de Gobierno al Pleno.</p>
+          <p class="parrafo">2. El Gerente dirigirá, bajo la tutela de la Junta de Gobierno, la organización de las actividades de la Academia, se ocupará del mantenimiento y funcionamiento de la Sede y ejecutará los acuerdos tomados por la Junta de Gobierno y por el Pleno. Será propuesto por el Presidente y ratificado por el Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Sesiones de la Academia</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 28. Actos de la Academia.</p>
+          <p class="parrafo">Los actos organizados por la Academia serán, al menos, los siguientes:</p>
+          <p class="parrafo_2">a) Sesiones públicas solemnes de inauguración del Año Académico.</p>
+          <p class="parrafo">b) Sesiones públicas solemnes de recepción de Nuevos Académicos.</p>
+          <p class="parrafo">c) Sesiones plenarias ordinarias o extraordinarias.</p>
+          <p class="parrafo">d) Reuniones de la Junta de Gobierno y de las Secciones y Comisiones.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 29. Ingresos de la Academia.</p>
+          <p class="parrafo">Los ingresos de la Academia proceden:</p>
+          <p class="parrafo_2">a) De las subvenciones que se concedan con cargo a los Presupuestos Generales del Estado, en su caso.</p>
+          <p class="parrafo">b) De las subvenciones, donaciones, aportaciones, herencias, legados, y otros actos de liberalidad procedentes de entidades públicas o privadas.</p>
+          <p class="parrafo">c) De los honorarios que procedan de informes, estudios o dictámenes.</p>
+          <p class="parrafo">d) Del producto de sus bienes, de la venta de sus publicaciones y de las retribuciones o compensaciones procedentes de sus actividades.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 30. Gastos de la Academia.</p>
+          <p class="parrafo">Dentro de los límites presupuestarios, la Academia aplicará sus recursos:</p>
+          <p class="parrafo_2">a) Al pago de retribuciones y gratificaciones a su personal, así como al de los gastos del mantenimiento de sus locales e instalaciones y de la gestión administrativa.</p>
+          <p class="parrafo">b) A los gastos de asistencia y dietas devengados por los Académicos en particular los que corresponden a sus desplazamientos para asistir a sesiones y reuniones, así como a los honorarios que se fijen por los trabajos, publicaciones o conferencias de la Academia en los que colaboren.</p>
+          <p class="parrafo">c) A los abonos a los proveedores de bienes y servicios.</p>
+          <p class="parrafo">d) A la adquisición de material bibliográfico y a la gestión y mantenimiento de la Biblioteca</p>
+          <p class="parrafo">e) A la edición de las publicaciones que se acuerden.</p>
+          <p class="parrafo">f) A la dotación de premios y concursos.</p>
+          <p class="parrafo">g) A las gratificaciones y dietas que apruebe la Junta de Gobierno con destino a personalidades invitadas por dictar conferencias o participar en reuniones de trabajo.</p>
+          <p class="parrafo">h) A otros gastos que hayan sido debidamente aprobados por la Junta de Gobierno, directamente relacionados con el cumplimiento de los fines de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 31. Presupuestos anuales.</p>
+          <p class="parrafo">1. La Comisión de Hacienda examinará, en tiempo y debida forma, los presupuestos anuales ordinarios y, en su caso, extraordinarios, de ingresos y gastos, así como el de cobros y pagos, y comprobará su coherencia con el programa de actividades previsto para el ejercicio por la Junta de Gobierno, a la que informará.</p>
+          <p class="parrafo">2. Antes de comenzar el ejercicio correspondiente, la Junta de Gobierno presentará los presupuestos al Pleno de la Academia para su conocimiento y aprobación.</p>
+          <p class="parrafo">3. Junto a los presupuestos, la Comisión de Hacienda presentará el informe de resultados de gastos e ingresos habidos durante el año en curso.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 32. Justificación de subvenciones públicas.</p>
+          <p class="parrafo">La Junta de Gobierno presentará a las Administraciones correspondientes la justificación de las subvenciones públicas obtenidas, de acuerdo con la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 33. Otros instrumentos.</p>
+          <p class="parrafo">La Academia podrá dotarse de cuantos instrumentos considere convenientes para desarrollar sus fines fundacionales y estatutarios. En particular, podrá crear o participar en Fundaciones y otras entidades sin ánimo de lucro.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-3" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Modificación y desarrollo de los Estatutos</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 34. Modificación de los Estatutos.</p>
+          <p class="parrafo">1. Las propuestas de modificación de los Estatutos deben ser aprobadas en una Sesión extraordinaria del Pleno de la Academia, de acuerdo con lo especificado en el Reglamento de Régimen Interior. La iniciativa para la modificación de los Estatutos partirá del Pleno, de la Junta de Gobierno o de la Comisión de Gobierno.</p>
+          <p class="parrafo">2. Una vez aprobada una propuesta de modificación de Estatutos, se remitirá por el Presidente de la Academia al Ministerio de Educación, Cultura y Deporte, acompañada de una memoria explicativa de la modificación propuesta, para su tramitación de acuerdo con el apartado 5 de la disposición adicional segunda del Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 35. Reglamento de Régimen Interior.</p>
+          <p class="parrafo">El Reglamento de Régimen Interior desarrollará la regulación de las materias que se remiten expresamente por estos Estatutos y establecerá las normas complementarias a los mismos que sean necesarias para el funcionamiento de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2013-7537" fecha_publicacion="20130710" fecha_vigencia="20130711">
+          <p class="articulo">Artículo 36. Aprobación y modificación del Reglamento de Régimen Interior.</p>
+          <p class="parrafo">1. El Reglamento de Régimen Interior se aprobará por el Pleno, a propuesta de la Junta de Gobierno.</p>
+          <p class="parrafo">2. La iniciativa para la modificación del Reglamento de Régimen Interior corresponde al Pleno, a la Junta de Gobierno o la Comisión de Gobierno. En todo caso, la Junta de Gobierno, una vez la haya estudiado, someterá la modificación a la aprobación del Pleno.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200311Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-7530</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8110">Comunidad Autónoma de La Rioja</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20030326</fecha_disposicion>
+      <numero_oficial>6/2003</numero_oficial>
+      <titulo>Ley 6/2003, de 26 de marzo, del Consejo Social de la Universidad de La Rioja.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030411</fecha_publicacion>
+      <diario_numero>87</diario_numero>
+      <fecha_vigencia>20030423</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ri/l/2003/03/26/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-7530</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1600">Consejos Sociales de las Universidades</materia>
+        <materia codigo="6244">La Rioja</materia>
+        <materia codigo="7040">Universidad de La Rioja</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOR núm. 40, de 3 de abril de 2003.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1996-25167</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Ley 2/1996, de 17 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-24515</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Ley Orgánica 6/2001, de 21 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-15030</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Estatuto aprobado por Ley Orgánica 3/1982, de 9 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-7530</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-26</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1600"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7040"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-7530</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1600"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7040"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/con/20030403"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/2003, de 26 de marzo, del Consejo Social de la Universidad de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-04-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/con/20030403">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-7530</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1600"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7040"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-04-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/con/20030403/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/2003, de 26 de marzo, del Consejo Social de la Universidad de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/con/20030403"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2003/03/26/6/con/20030403/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2003/03/26/6/con/20030403/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA RIOJA</p>
+          <p class="parrafo_2">Sepan todos los ciudadanos que el Parlamento de La Rioja ha aprobado, y yo, en nombre de su Majestad el Rey y de acuerdo con lo que establece la Constitución y el Estatuto de Autonomía, promulgo la siguiente Ley.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">La promulgación de la Constitución Española de 1978, hizo imperativa la reforma de la regulación de las Universidades, para adecuar ésta a la anterior. La Constitución Española, en el art. 27.10 consagraba, por primera vez en nuestro Derecho, la autonomía de las Universidades, que, junto al resto de acomodaciones legales, se materializó a través de la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria.</p>
+          <p class="parrafo">En lo que al Consejo Social se refiere, como órgano colegiado de participación del conjunto de la sociedad en la Universidad, fue regulado en la Comunidad Autónoma de La Rioja mediante la Ley 2/1996, de 17 de octubre, en cumplimiento de la remisión que la Ley Orgánica de Reforma Universitaria hacía a la concreción de su regulación por las Leyes de las Comunidades Autónomas correspondientes. Todo esto se realizó, por tanto, en el marco normativo establecido por la Constitución Española, la Ley de Reforma Universitaria, el RD 95/1996, de 26 de enero, de traspaso de competencias en materia de Universidades a la Comunidad Autónoma de La Rioja y el Decreto 8/1996, de 1 de marzo, de asunción de estas competencias.</p>
+          <p class="parrafo">Debido a los profundos cambios acaecidos en los últimos veinte años, tanto en la sociedad española como en su Universidad, se dictó la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, que deroga la Ley Orgánica de Reforma Universitaria y hace imperativa la reforma de las normas de desarrollo de esta última, entre las que se encuentra la Ley del Consejo Social de la Universidad de La Rioja.</p>
+          <p class="parrafo">Por la importancia de las modificaciones en cuanto a composición y funciones, principalmente, del Consejo Social y para fortalecer las relaciones y vinculaciones recíprocas entre la Universidad y la sociedad, se ha procedido a la elaboración de un nuevo texto normativo regulador de tal órgano colegiado.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Naturaleza y funciones del Consejo Social</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 1. Naturaleza del Consejo Social.</p>
+          <p class="parrafo">El Consejo Social de La Universidad de La Rioja es el órgano colegiado de participación de la sociedad riojana en su Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 2. Funciones del Consejo Social.</p>
+          <p class="parrafo">Corresponde al Consejo Social la supervisión de las actividades de carácter económico de la Universidad y del rendimiento de sus servicios; promover la colaboración de la sociedad en la financiación de la Universidad, y las relaciones entre ésta y su entorno cultural, profesional, económico y social al servicio de la calidad de la actividad universitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 3. Competencias de carácter económico, financiero y patrimonial.</p>
+          <p class="parrafo">El Consejo Social ejercerá las siguientes competencias de carácter económico, financiero y patrimonial:</p>
+          <p class="parrafo_2">1. Aprobar las líneas básicas que regirán la elaboración de los presupuestos de la Universidad, en el primer semestre del ejercicio anterior al de su ejecución.</p>
+          <p class="parrafo">2. Aprobar, a propuesta del Consejo de Gobierno, el presupuesto y, en su caso, la programación plurianual de la universidad, así como la participación en ingresos y gastos de las sociedades, fundaciones u otras entidades que de ella dependan o en las que participe mayoritariamente, así como sus modificaciones. Para ello la Universidad remitirá al Consejo Social el anteproyecto de presupuesto antes del 1 de noviembre del año anterior al que deba surtir efecto, para que realice las manifestaciones que crea conveniente, y antes del 1 de diciembre, el proyecto de presupuesto.</p>
+          <p class="parrafo">3. Supervisar el desarrollo y ejecución del presupuesto de la Universidad y de las entidades a que se refiere el apartado anterior. Para ello deberá ser informado, con periodicidad cuatrimestral, de su estado de ejecución.</p>
+          <p class="parrafo">4. Supervisar las actividades de carácter económico de la Universidad y el rendimiento de sus servicios.</p>
+          <p class="parrafo">5. Con carácter previo al trámite de rendición de cuentas a que se refieren los artículos 81 y 84 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, le corresponde aprobar las cuentas anuales de la Universidad y las de las entidades que de ella puedan depender y sin perjuicio del cumplimiento de la legislación mercantil u otras a las que dichas entidades puedan estar sometidas en función de su personalidad jurídica. A estos efectos, los plazos y procedimiento para la presentación de cuentas serán los fijados por la Comunidad Autónoma en la Ley de Presupuestos.</p>
+          <p class="parrafo">6. Aprobar, de conformidad con las normas que determine a este respecto la Comunidad Autónoma, los actos de disposición de los bienes inmuebles y de los muebles de extraordinario valor que sean acordados por la Universidad. Todo ello sin perjuicio de lo dispuesto en la legislación sobre Patrimonio Histórico Español.</p>
+          <p class="parrafo">7. Establecer los precios de enseñanzas propias, cursos de especialización y los referentes a las demás actividades autorizadas a la Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 4. Competencias de promoción y estímulo de actividades universitarias.</p>
+          <p class="parrafo">El Consejo Social ejercerá las siguientes competencias de promoción y estímulo de actividades universitarias:</p>
+          <p class="parrafo_2">1. Promover las relaciones entre la Universidad y su entorno cultural, profesional, económico y social al servicio de la calidad de la actividad universitaria, a cuyo fin podrá disponer de la oportuna información y asesoramiento de la Agencia Nacional de Evaluación de la Calidad y Acreditación y otras Agencias con las que se establezcan los Acuerdos correspondientes, o cualquier otra institución que se estime oportuna.</p>
+          <p class="parrafo">2. Promocionar y estimular la actividad investigadora de la Universidad propiciando proyectos de investigación y desarrollo compartidos entre la Universidad y las empresas, así como las políticas de transferencia y difusión de los resultados obtenidos en las investigaciones universitarias.</p>
+          <p class="parrafo">3. Promover la colaboración de la sociedad en la financiación de la Universidad.</p>
+          <p class="parrafo">4. Aprobar con carácter anual una memoria de sus actividades, la cual se remitirá al Parlamento de La Rioja y al Gobierno de La Rioja, a través de la Consejería competente en materia de enseñanza universitaria.</p>
+          <p class="parrafo">5. Realizar estudios sobre materias de su competencia y, en particular, sobre la adecuación de la oferta de titulaciones y contenido de los planes de estudio a las necesidades sociales; sobre el progreso y permanencia del alumnado, inserción laboral de los titulados universitarios, y sobre la investigación desarrollada en la Universidad y la transferencia a la sociedad de los resultados de ésta.</p>
+          <p class="parrafo">6. Impulsar aquellas actuaciones que permitan un mayor acercamiento de los estudiantes universitarios a las demandas del mercado laboral y, en especial, la celebración de convenios entre la Universidad y otras entidades públicas y privadas, orientados a completar la formación de los alumnos y titulados de la Universidad y facilitar su acceso al mundo profesional.</p>
+          <p class="parrafo">7. Cualesquiera otras que le sean encomendadas por la legislación vigente o por los Estatutos de la Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 5. Competencias sobre centros y titulaciones.</p>
+          <p class="parrafo_2">El Consejo Social ejercerá las siguientes competencias en relación a los centros y titulaciones:</p>
+          <p class="parrafo_2">1. Proponer a la Comunidad Autónoma, o acordar, a iniciativa de aquélla, previo informe del Consejo de Gobierno de la Universidad:</p>
+          <p class="parrafo_2">a) La creación, modificación y supresión de las Facultades, Escuelas Técnicas o Politécnicas Superiores, Escuelas Universitarias y Escuelas Universitarias Politécnicas, así como, en su caso, de otros centros dependientes de la Universidad sitos en el extranjero, que impartan enseñanzas conducentes a la obtención de títulos universitarios de carácter oficial y validez en todo el territorio nacional.</p>
+          <p class="parrafo">b) La implantación y supresión de enseñanzas conducentes a la obtención de títulos universitarios de carácter oficial y validez en todo el territorio nacional</p>
+          <p class="parrafo">c) La creación y supresión de los Institutos Universitarios de Investigación.</p>
+          <p class="parrafo">d) La adscripción o desadscripción a la Universidad de La Rioja como Institutos Universitarios de Investigación, de instituciones o centros de investigación de carácter público o privado.</p>
+          <p class="parrafo">e) La adscripción a la Universidad, mediante convenio, de centros docentes de titularidad pública o privada para impartir estudios conducentes a la obtención de títulos de carácter oficial y validez en todo el territorio nacional.</p>
+          <p class="parrafo_2">2. Aprobar las normas que regulen el progreso y la permanencia en la Universidad de los estudiantes, de acuerdo con las características de los respectivos estudios, previo informe del Consejo de Coordinación Universitaria.</p>
+          <p class="parrafo">3. Aprobación de la creación por parte de la Universidad, por sí sola o en colaboración con otras entidades públicas o privadas, de empresas, fundaciones u otras personas jurídicas de acuerdo con la legislación general aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 6. Otras competencias.</p>
+          <p class="parrafo">El Consejo Social ejercerá las siguientes competencias:</p>
+          <p class="parrafo_2">1. Acordar, a propuesta del Rector, el nombramiento del Gerente.</p>
+          <p class="parrafo">2. A propuesta de su Presidente, designar como miembros del Consejo de Gobierno de la Universidad de La Rioja a tres vocales dentro de los representantes de la sociedad riojana y personalidades de la vida cultural, profesional, económica, laboral y social, no pertenecientes a la comunidad universitaria.</p>
+          <p class="parrafo">3. Acordar la asignación singular e individual de complementos retributivos, ligados a méritos individuales docentes, investigadores y de gestión del personal docente e investigador contratado y del personal docente e investigador funcionario, a propuesta del Consejo de Gobierno de la Universidad. Dichos complementos, estarán dentro de los límites establecidos por la Comunidad Autónoma y siempre ligados a los criterios que fije la misma, previa valoración de los méritos por la Agencia Nacional de Evaluación de la Calidad y Acreditación o por el órgano de evaluación externa que la Ley de la Comunidad Autónoma determine.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Composición, organización y funcionamiento del Consejo Social</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 7. Composición del Consejo Social.</p>
+          <p class="parrafo">El Consejo Social de la Universidad de La Rioja estará integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">1. Por la propia Comunidad Universitaria: El Rector, el Secretario General y el Gerente, así como un profesor, un estudiante y un representante de personal de administración y de servicios elegidos por el Consejo de Gobierno de entre sus miembros.</p>
+          <p class="parrafo">2. Por la sociedad riojana y entre personalidades de la vida cultural, profesional, económica, laboral y social, ajenos a la comunidad universitaria, serán designados 14 miembros por las organizaciones sociales y las entidades locales:</p>
+          <p class="parrafo_2">a) Tres por el Parlamento, representantes respectivamente del ámbito cultural, profesional y laboral.</p>
+          <p class="parrafo">b) Tres por el Gobierno de La Rioja.</p>
+          <p class="parrafo">c) El Alcalde de Logroño o persona en quien delegue.</p>
+          <p class="parrafo">d) El Director Gerente de la Agencia de Desarrollo Económico de La Rioja o persona en quien delegue.</p>
+          <p class="parrafo">e) Un representante de la Cámara de Comercio de La Rioja.</p>
+          <p class="parrafo">f) El Presidente del Consejo Escolar de La Rioja.</p>
+          <p class="parrafo">g) Dos representantes de los sindicatos más representativos en la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">h) Dos por las asociaciones empresariales más representativas en la Comunidad Autónoma de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 8. Estructura y Funcionamiento.</p>
+          <p class="parrafo">1.<em> </em>El Consejo Social podrá funcionar en Pleno y en Comisiones. Sus sesiones podrán ser ordinarias o extraordinarias.</p>
+          <p class="parrafo">2. El Pleno, máximo órgano de Gobierno del Consejo Social, está compuesto por el Presidente, el Secretario y los Vocales. Su composición y funciones vendrán determinados por el Reglamento de Organización y Funcionamiento del Consejo Social, que establecerá el quórum preciso para la adopción de los acuerdos y la mayoría requerida en cada caso. La representación de los vocales designados es indelegable.</p>
+          <p class="parrafo">3. Para el estudio e informe de los asuntos que hayan de someterse a la consideración del Pleno, éste creará Comisiones como órganos de apoyo para el seguimiento e informe al Pleno de las actividades relevantes de la Universidad. Su composición y funciones vendrán determinados, asimismo, por el Reglamento de Organización y Funcionamiento del Consejo Social.</p>
+          <p class="parrafo">4. El Presidente, cuyo voto de calidad dirimirá los empates, será nombrado y en su caso cesado por el Gobierno de la Comunidad Autónoma, de acuerdo con lo preceptuado en el artículo 13.1 de la presente Ley.</p>
+          <p class="parrafo">5. El Secretario, será nombrado y cesado por el Presidente y podrá no ser Vocal del Consejo, en cuyo caso actuará con voz y sin voto. A él le corresponde la dirección de la Secretaría del Consejo Social. Deberá levantar actas y dar fe de los acuerdos tomados por el Pleno, así como cuantas atribuciones le encomiende el Presidente y el Reglamento de Organización y Funcionamiento del Consejo Social.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 9. El Presidente.</p>
+          <p class="parrafo">1.<em> </em>El Presidente del Consejo Social será nombrado y cesado, en su caso, por el Gobierno de la Comunidad Autónoma, de entre los miembros representantes de la sociedad riojana, pertenecientes a los sectores indicados en el artículo 7.2 de esta Ley, a propuesta del Consejero competente en materia de enseñanza universitaria, mediante Decreto.</p>
+          <p class="parrafo">2. Su mandato será por cuatro años, pudiendo ser renovado por una sola vez por un período de la misma duración, siéndole de aplicación las disposiciones establecidas en los artículos 10 a 13 de la presente Ley.</p>
+          <p class="parrafo">3. Corresponden al Presidente las siguientes funciones:</p>
+          <p class="parrafo_2">a) Ostentar la máxima representación del Consejo Social.</p>
+          <p class="parrafo">b) Convocar y presidir el Consejo.</p>
+          <p class="parrafo">c) Velar por el cumplimiento de la normativa vigente.</p>
+          <p class="parrafo">d) Cualesquiera otras que le asigne la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 10. Vocales.</p>
+          <p class="parrafo">1.<em> </em>Los Vocales del Consejo Social serán nombrados y cesados mediante Resolución del Consejero competente en materia de enseñanza universitaria. El nombramiento se publicará en el «Boletín Oficial de la Comunidad Autónoma de La Rioja».</p>
+          <p class="parrafo">2. Los Vocales designados en virtud de lo previsto en el artículo 7.2 de la presente Ley, lo serán para un mandato de cuatro años. Cada vocal podrá ser renovado por una sola vez por un período de la misma duración, salvo que perdiera la representación por la que fue elegido, en cuyo caso será nombrado un nuevo representante por el tiempo restante.</p>
+          <p class="parrafo">3. No obstante, la celebración de procesos electorales correspondientes a los sectores a los que representaran los Vocales designados, conllevará que los mismos continúen en funciones hasta el nombramiento de sus respectivos sustitutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 11. Incompatibilidades.</p>
+          <p class="parrafo">1.<em> </em>La condición de miembro del Consejo Social es incompatible con el desempeño por sí o por persona interpuesta, de cargos directivos en empresas o sociedades que contraten con la Universidad obras, servicios o suministros, así como con la participación superior al 10 por ciento en el capital social de las mismas.</p>
+          <p class="parrafo">Se exceptúan los contratos celebrados al amparo del artículo 83 de la Ley Orgánica 6/2001, de 21 de diciembre.</p>
+          <p class="parrafo">2. Los representantes de la sociedad riojana del artículo 7.2 de la presente Ley, no podrán ser miembros de la Comunidad Universitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 12. Pérdida de la condición de miembro del Consejo Social.</p>
+          <p class="parrafo">1.<em> </em>Los miembros del Consejo Social cesarán como tales:</p>
+          <p class="parrafo_2">a) Por finalización del período de su mandato. Continuarán en funciones hasta la toma de posesión de los nuevos miembros.</p>
+          <p class="parrafo">b) Por renuncia o fallecimiento.</p>
+          <p class="parrafo">c) Por incompatibilidad señalada en el artículo 11 de la presente Ley.</p>
+          <p class="parrafo">d) Por revocación de la representación que ostenten por decisión de la autoridad, entidad o institución que los hubiese designado.</p>
+          <p class="parrafo">e) Por condena judicial firme que conlleve la inhabilitación o suspensión de empleo o cargo público.</p>
+          <p class="parrafo">f) Por pérdida de la condición por la que forman parte del Consejo.</p>
+          <p class="parrafo_2">2. En caso de que se produzca una vacante antes de finalizar el mandato, deberá cubrirse por el procedimiento establecido para su designación y nombramiento, en el plazo máximo de tres meses. El nuevo Vocal será nombrado por el período de tiempo que reste del mandato correspondiente al anterior titular de la vacante.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 13. Derechos y deberes de los miembros.</p>
+          <p class="parrafo">Los Vocales tendrán, además de los derechos y deberes establecidos en la normativa aplicable, los que se recojan en el Reglamento de Organización y Funcionamiento del Consejo Social para el desarrollo de sus competencias.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 14. Retribuciones.</p>
+          <p class="parrafo">1.<em> </em>El Presidente y el Secretario podrán percibir las retribuciones que determine el Consejo Social, en función del grado de dedicación que se establezca para dichos cargos en el Reglamento de Organización y Funcionamiento del propio Consejo Social.</p>
+          <p class="parrafo">2. Los restantes miembros del Consejo Social sólo percibirán como compensación por el ejercicio de sus funciones las indemnizaciones por dietas y gastos que se prevean en dicho Reglamento.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 15. Organización de apoyo.</p>
+          <p class="parrafo">El Consejo Social tendrá su sede y ubicación física en la propia Universidad, donde habitualmente celebrará sus sesiones y realizará sus actividades, sin perjuicio de que se pueda constituir válidamente en otro lugar. La Universidad proporcionará los locales y servicios que sean necesarios para su adecuado funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 16. Reglamento de Organización y Funcionamiento.</p>
+          <p class="parrafo">El Consejo Social elaborará su Reglamento de Organización y Funcionamiento, que someterá a la aprobación del Consejo de Gobierno de la Comunidad Autónoma de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 17. Recursos.</p>
+          <p class="parrafo">1.<em> </em>Los acuerdos del Pleno del Consejo Social agotarán la vía administrativa y serán impugnables directamente ante la Jurisdicción Contencioso Administrativa, pudiendo interponer con carácter previo y potestativo recurso de reposición ante el mismo órgano que los ha dictado, en los términos establecidos en la legislación básica del Estado sobre el procedimiento administrativo común.</p>
+          <p class="parrafo">2. Corresponde al Pleno del Consejo la revisión de oficio de sus acuerdos en los términos previstos en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">3. Compete al Pleno la resolución de los recursos extraordinarios de revisión de sus propios acuerdos.</p>
+          <p class="parrafo">4. El Pleno del Consejo Social podrá solicitar informe de la asesoría jurídica de la Universidad, sobre los recursos presentados contra sus actos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Artículo 18. Ejecución de los acuerdos.</p>
+          <p class="parrafo">Corresponde al Rector de la Universidad la ejecución de los acuerdos adoptados por el Consejo Social. A tal fin, el Secretario remitirá, con el visto bueno del Presidente, certificación de los acuerdos adoptados.</p>
+          <p class="parrafo">Aquellos acuerdos, que de conformidad con la normativa vigente, requieran publicidad y aquellos otros cuya publicación se estime conveniente por el Consejo Social, serán publicados en el «Boletín Oficial de La Rioja».</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Disposición transitoria primera. Constitución del Consejo Social.</p>
+          <p class="parrafo">1.<em> </em>En el plazo máximo de tres meses desde la entrada en vigor de la presente Ley, las autoridades, entidades e instituciones señaladas en el artículo 7.2 de la presente Ley, deberán comunicar a la Consejería competente en materia de enseñanza universitaria sus representantes en el Consejo Social.</p>
+          <p class="parrafo">En el mismo plazo deberá hacerlo la Universidad, en cuanto a los representantes señalados en el artículo 7.1 de la presente Ley.</p>
+          <p class="parrafo"><em>2.</em> En tanto no se produzca la renovación del Consejo Social, continuarán en funciones sus actuales miembros.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Disposición transitoria segunda. Elaboración del Reglamento de Organización y Funcionamiento.</p>
+          <p class="parrafo_2">El Consejo Social de la Universidad de La Rioja, en el plazo máximo de tres meses desde su constitución, elaborará y elevará para su aprobación su Reglamento de Organización y Funcionamiento.</p>
+          <p class="parrafo">En tanto no se produzca la aprobación del nuevo Reglamento de Organización y Funcionamiento, mantendrá su vigencia el actual en cuanto no se oponga a lo dispuesto en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Disposición derogatoria única. Normativa derogada.</p>
+          <p class="parrafo">Queda derogada la Ley 2/1996, de 17 de octubre, de creación del Consejo Social de la Universidad de La Rioja, así como todas las disposiciones de igual o inferior rango en cuanto se opongan a lo establecido en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Disposición final primera. Habilitación normativa.</p>
+          <p class="parrafo">Se autoriza al Gobierno de La Rioja para dictar, en el ámbito de sus competencias, cuantas disposiciones sean necesarias para el desarrollo y aplicación de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de La Rioja».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2003-7530" fecha_publicacion="20030403" fecha_vigencia="20030423">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos cumplan y cooperen al cumplimiento de la presente Ley y a los Tribunales y Autoridades la hagan cumplir.</p>
+          <p class="parrafo_2">Logroño, 26 de marzo de 2003.</p>
+          <p class="firma_ministro">PEDRO SANZ ALONSO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

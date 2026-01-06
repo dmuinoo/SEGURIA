@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130551Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-6872</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9529">Ministerio de Política Territorial y Administración Pública</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20110401</fecha_disposicion>
+      <numero_oficial>464/2011</numero_oficial>
+      <titulo>Real Decreto 464/2011, de 1 de abril, por el que se aprueba el Estatuto del Instituto Nacional de Administración Pública.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110416</fecha_publicacion>
+      <diario_numero>91</diario_numero>
+      <fecha_vigencia>20110417</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2011/04/01/464</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-6872</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4395">Instituto Nacional de Administración Pública</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2000-18294</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 1661/2000, de 29 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2010-16869</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1366/2010, de 29 de octubre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2017-9012</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 3.d, 5.2, 6.1 y 4 y 7, por Real Decreto 769/2017, de 28 de julio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-6872</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">464</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4395"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-6872</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4395"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20170729"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20110416"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 464/2011, de 1 de abril, por el que se aprueba el Estatuto del Instituto Nacional de Administración Pública.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20170729">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-6872</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4395"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20170729/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 464/2011, de 1 de abril, por el que se aprueba el Estatuto del Instituto Nacional de Administración Pública.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20170729"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20170729/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20170729/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20110416">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-6872</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4395"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20110416/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 464/2011, de 1 de abril, por el que se aprueba el Estatuto del Instituto Nacional de Administración Pública.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20110416"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20110416/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/04/01/464/con/20110416/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="parrafo">El Instituto Nacional de Administración Pública (INAP) es un organismo público dedicado a la selección, formación y perfeccionamiento de empleados públicos, así como a la realización de estudios y publicaciones en el ámbito de la Administración y de la Función Pública. Su ya dilatada trayectoria arranca formalmente en 1958, con la creación del Centro de Formación y Perfeccionamiento de Funcionarios. Sin embargo, en realidad sus actividades principian varios años antes, dado que en 1987 fue refundido con el Instituto de Estudios de Administración Local –que había sido creado por Ley en 1940– prosiguiendo las actividades y fines fundacionales de éste. A lo largo de estos más de setenta años de actividades de estudio y formación de funcionarios, el organismo ha pasado por varias etapas y formatos organizativos, estando hasta la fecha su estructura orgánica plasmada en el Real Decreto 1661/2000, de 29 de septiembre, por el que se aprueba el Estatuto del Instituto Nacional de Administración Pública.</p>
+          <p class="parrafo">Desde su aprobación, esta norma reglamentaria ha sufrido numerosas modificaciones orgánicas de detalle, al tiempo que ha habido mudanza en el régimen de adscripción del organismo al órgano superior correspondiente de la Administración territorial matriz.</p>
+          <p class="parrafo">En este sentido, la fuerza combinada del Real Decreto 1313/2010, de 20 de octubre, por el que se reestructuran los departamentos ministeriales, y del Real Decreto 1366/2010, de 29 de octubre, por el que se aprueba la estructura orgánica básica de los departamentos ministeriales, supuso la adscripción del Instituto al nuevo Ministerio de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">Las precitadas circunstancias aconsejaban la promulgación de una disposición reglamentaria que reflejara, de manera armónica y actualizada, la estructura orgánica del veterano organismo, al tiempo que se completaba su necesaria racionalización, simplificación y modernización.</p>
+          <p class="parrafo">El resultado es una estructura organizativa más clara y sencilla, al tiempo que operativa y dinámica, con la que el Instituto podrá seguir desempeñando sus funciones y cometidos tradicionales con las más altas cotas de excelencia que exige un servicio público de calidad, en el contexto cambiante que suscitan los constantemente renovados retos de nuestro tiempo.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Política Territorial y Administración Pública, y previa deliberación del Consejo de Ministros en su reunión del día 1 de abril de 2011,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo único. Aprobación del Estatuto del INAP.</p>
+          <p class="parrafo">Se aprueba el Estatuto del Instituto Nacional de Administración Pública (INAP), cuyo texto se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición adicional primera. Supresión de órganos y unidades.</p>
+          <p class="parrafo">1. Quedan suprimidos los siguientes órganos del INAP con nivel orgánico de subdirección general:</p>
+          <p class="parrafo_2">a) La Secretaría General.</p>
+          <p class="parrafo">b) El Centro de Estudios Superiores de la Función Pública.</p>
+          <p class="parrafo">c) La Escuela de Selección y Formación.</p>
+          <p class="parrafo">d) El Centro de Estudios Locales y Territoriales.</p>
+          <p class="parrafo_2">2. Quedan suprimidas las siguientes unidades, con el nivel establecido en la relación de puestos de trabajo del Organismo:</p>
+          <p class="parrafo_2">a) El Centro de Nuevas Estrategias de Gobernanza Pública (GOBERNA).</p>
+          <p class="parrafo">b) El Centro de Cooperación Institucional.</p>
+          <p class="parrafo">c) El Centro de Publicaciones.</p>
+          <p class="parrafo_2">3. Las referencias del ordenamiento jurídico a los órganos y unidades suprimidos por este real decreto se entenderán realizadas a los que por esta misma norma se crean, los sustituyen o asumen sus competencias.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición adicional segunda. No incremento del gasto público.</p>
+          <p class="parrafo">La aprobación del presente real decreto no supondrá, en ningún caso, aumento del gasto público.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición transitoria única. Unidades y puestos de trabajo con nivel inferior a subdirección general.</p>
+          <p class="parrafo">1. Las actuales unidades y puestos de trabajo con nivel inferior a subdirección general continuarán subsistentes y los empleados que los desempeñen serán retribuidos con cargo a los mismos créditos presupuestarios, hasta que se apruebe la relación de puestos de trabajo del organismo, adaptada al estatuto que aprueba este real decreto. Dicha adaptación, en ningún caso, podrá suponer incremento del gasto público.</p>
+          <p class="parrafo">2. Las unidades y puestos de trabajo encuadrados en los órganos suprimidos por este real decreto se adscribirán, a través de la oportuna relación de puestos de trabajo, a los órganos que se crean en virtud de esta misma disposición reglamentaria.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en el presente real decreto y, en particular, el Real Decreto 1661/2000, de 29 de septiembre, por el que se aprueba el Estatuto del Instituto Nacional de Administración Pública, con sus modificaciones posteriores.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición final primera. Facultades de desarrollo.</p>
+          <p class="parrafo">Se autoriza al Ministro de Política Territorial y Administración Pública a dictar las disposiciones necesarias para el desarrollo del presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición final segunda. Adaptaciones presupuestarias.</p>
+          <p class="parrafo">Para dar cumplimiento a lo previsto en este real decreto, se realizarán las modificaciones presupuestarias que sean necesarias de conformidad con lo previsto en la Ley 47/2003, de 26 de noviembre, General Presupuestaria.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="parrafo_2">Dado en Madrid, el 1 abril de 2011.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Tercero del Gobierno y Ministro de Política Territorial y Administración Pública,</p>
+          <p class="firma_ministro">MANUEL CHAVES GONZÁLEZ</p>
+        </version>
+      </bloque>
+      <bloque id="estatuto" tipo="encabezado" titulo="ESTATUTO">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="anexo">ESTATUTO DEL INSTITUTO NACIONAL DE ADMINISTRACIÓN PÚBLICA</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 1. Naturaleza y régimen jurídico.</p>
+          <p class="parrafo">1. El Instituto Nacional de Administración Pública es un organismo autónomo de los previstos en la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, adscrito al Ministerio de Política Territorial y Administración Pública, a través de la Secretaría de Estado para la Función Pública.</p>
+          <p class="parrafo">2. Como organismo autónomo, el Instituto tiene personalidad jurídica pública diferenciada, patrimonio y tesorería propios, así como autonomía de gestión, rigiéndose por lo establecido en la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, en la Ley 47/2003, de 26 de noviembre, General Presupuestaria y en las demás disposiciones aplicables a los organismos autónomos vinculados a la Administración General del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 2. Fines.</p>
+          <p class="parrafo">Son fines esenciales del Instituto Nacional de Administración Pública, sin perjuicio de las competencias específicas que se reconozcan sobre estas materias a otros centros, institutos o escuelas de la Administración General del Estado, los siguientes:</p>
+          <p class="parrafo_2">a) Desarrollar y ejecutar las políticas de selección y de formación de los empleados públicos en el ámbito de sus competencias.</p>
+          <p class="parrafo">b) Promover y realizar estudios, publicaciones e investigaciones en materias relacionadas con la Administración Pública.</p>
+          <p class="parrafo">c) Mantener relaciones de cooperación y colaboración con otras Administraciones y centros de formación de empleados públicos, nacionales e internacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 3. Funciones.</p>
+          <p class="parrafo">Son funciones del Instituto:</p>
+          <p class="parrafo_2">a) La selección de los funcionarios de los cuerpos y escalas de la Administración General del Estado adscritos al Ministerio de Política Territorial y Administración Pública, así como la participación, en su caso, en los procesos de selección de los cuerpos y escalas que las disposiciones vigentes encomienden a otros centros u órganos especializados.</p>
+          <p class="parrafo">b) La formación y perfeccionamiento de los empleados públicos de la Administración General del Estado y de sus organismos públicos, así como del resto de entidades del sector público estatal, salvo en los supuestos en que otras disposiciones encomienden estas funciones a otros centros especializados. La formación, en el marco de los planes de formación interadministrativa y en los términos previstos por las disposiciones vigentes, del personal de otras Administraciones. Los cursos selectivos de los funcionarios en prácticas de los cuerpos y escalas de la Administración General del Estado adscritos al Ministerio de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">c) La formación para el ejercicio de la función directiva pública en la Administración General del Estado y en los organismos públicos de ella dependientes, en colaboración, en su caso, con otros centros de formación especializados.</p>
+          <p class="parrafo">d) La formación y perfeccionamiento, en el marco de los planes de formación interadministrativa y en los términos previstos por las disposiciones vigentes, de los empleados públicos de las entidades integrantes de la Administración local.</p>
+          <p class="parrafo">e) El establecimiento de criterios para que las actividades formativas realizadas por otros centros de formación se homologuen con las acciones formativas del Instituto.</p>
+          <p class="parrafo">f)	La participación en la gestión del Programa de Formación para el Empleo (Formación Continua) en las Administraciones Públicas, en los términos resultantes de los Acuerdos de Formación Continua en las Administraciones Públicas y de las demás disposiciones de pertinente aplicación.</p>
+          <p class="parrafo">g) La gestión y ejecución del Programa de Formación para el Empleo (Formación Continua) en la Administración General del Estado, especialmente en lo referente al Sistema Nacional de las Cualificaciones.</p>
+          <p class="parrafo">h) La coordinación, colaboración y cooperación con los demás centros, institutos o escuelas de la Administración General del Estado o de sus organismos públicos que realicen tareas de selección, formación y perfeccionamiento de empleados públicos.</p>
+          <p class="parrafo">i)	La colaboración y la cooperación en actividades formativas con las escuelas, institutos y centros de formación de empleados públicos de las comunidades autónomas y de las entidades de la Administración local, así como de sus asociaciones.</p>
+          <p class="parrafo">j)	La realización de estudios e investigaciones multidisciplinares sobre las instituciones del Estado, de las Administraciones Públicas y de la función pública, con especial atención a las materias relacionadas con la Administración local. Esta función podrá realizarse mediante la colaboración con universidades, fundaciones y demás instituciones públicas y privadas que puedan contribuir al desarrollo del conocimiento sobre este campo temático.</p>
+          <p class="parrafo">k) La edición de publicaciones, unitarias y periódicas, en formato electrónico y convencional, relacionadas con el campo temático identificado en la letra precedente.</p>
+          <p class="parrafo">l)	La concesión de becas, ayudas y premios a las actividades de investigación sobre materias de la Administración Pública.</p>
+          <p class="parrafo">m)	La concesión de becas y ayudas a empleados públicos de la Administración General del Estado y de sus organismos públicos, destinadas a estancias formativas en escuelas de administración pública e instituciones educativas extranjeras.</p>
+          <p class="parrafo">n) La gestión y el mantenimiento de los servicios de biblioteca y documentación propios del Instituto, así como la conservación y acrecentamiento de su patrimonio bibliográfico.</p>
+          <p class="parrafo">ñ) La participación en la definición de los perfiles de los directivos públicos y el asesoramiento técnico en el desarrollo de las políticas de directivos de las Administraciones Públicas.</p>
+          <p class="parrafo">o) La cooperación técnica internacional, en especial con los países de Iberoamérica, en materia de función pública, desarrollo institucional, políticas públicas, así como en el estudio e investigación de aspectos propios de la Administración Pública.</p>
+          <p class="parrafo">p) La cooperación con las escuelas e institutos europeos de formación de empleados públicos.</p>
+          <p class="parrafo">q) La formación de funcionarios de otros países, especialmente los iberoamericanos, y de organismos internacionales.</p>
+        </version>
+        <version id_norma="BOE-A-2017-9012" fecha_publicacion="20170729" fecha_vigencia="20170729">
+          <p class="articulo">Artículo 3. Funciones.</p>
+          <p class="parrafo">Son funciones del Instituto:</p>
+          <p class="parrafo_2">a) La selección de los funcionarios de los cuerpos y escalas de la Administración General del Estado adscritos al Ministerio de Política Territorial y Administración Pública, así como la participación, en su caso, en los procesos de selección de los cuerpos y escalas que las disposiciones vigentes encomienden a otros centros u órganos especializados.</p>
+          <p class="parrafo">b) La formación y perfeccionamiento de los empleados públicos de la Administración General del Estado y de sus organismos públicos, así como del resto de entidades del sector público estatal, salvo en los supuestos en que otras disposiciones encomienden estas funciones a otros centros especializados. La formación, en el marco de los planes de formación interadministrativa y en los términos previstos por las disposiciones vigentes, del personal de otras Administraciones. Los cursos selectivos de los funcionarios en prácticas de los cuerpos y escalas de la Administración General del Estado adscritos al Ministerio de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">c) La formación para el ejercicio de la función directiva pública en la Administración General del Estado y en los organismos públicos de ella dependientes, en colaboración, en su caso, con otros centros de formación especializados.</p>
+          <p class="parrafo">d) La formación y perfeccionamiento, en el marco de los planes de formación interadministrativa y en los términos previstos por las disposiciones vigentes, de los empleados públicos de las entidades integrantes de la Administración local, así como la selección de los funcionarios de la Escala de Administración local con habilitación de carácter nacional y los cursos selectivos de dicha escala.</p>
+          <p class="parrafo">e) El establecimiento de criterios para que las actividades formativas realizadas por otros centros de formación se homologuen con las acciones formativas del Instituto.</p>
+          <p class="parrafo">f) La participación en la gestión del Programa de Formación para el Empleo (Formación Continua) en las Administraciones Públicas, en los términos resultantes de los Acuerdos de Formación Continua en las Administraciones Públicas y de las demás disposiciones de pertinente aplicación.</p>
+          <p class="parrafo">g) La gestión y ejecución del Programa de Formación para el Empleo (Formación Continua) en la Administración General del Estado, especialmente en lo referente al Sistema Nacional de las Cualificaciones.</p>
+          <p class="parrafo">h) La coordinación, colaboración y cooperación con los demás centros, institutos o escuelas de la Administración General del Estado o de sus organismos públicos que realicen tareas de selección, formación y perfeccionamiento de empleados públicos.</p>
+          <p class="parrafo">i) La colaboración y la cooperación en actividades formativas con las escuelas, institutos y centros de formación de empleados públicos de las comunidades autónomas y de las entidades de la Administración local, así como de sus asociaciones.</p>
+          <p class="parrafo">j) La realización de estudios e investigaciones multidisciplinares sobre las instituciones del Estado, de las Administraciones Públicas y de la función pública, con especial atención a las materias relacionadas con la Administración local. Esta función podrá realizarse mediante la colaboración con universidades, fundaciones y demás instituciones públicas y privadas que puedan contribuir al desarrollo del conocimiento sobre este campo temático.</p>
+          <p class="parrafo">k) La edición de publicaciones, unitarias y periódicas, en formato electrónico y convencional, relacionadas con el campo temático identificado en la letra precedente.</p>
+          <p class="parrafo">l) La concesión de becas, ayudas y premios a las actividades de investigación sobre materias de la Administración Pública.</p>
+          <p class="parrafo">m) La concesión de becas y ayudas a empleados públicos de la Administración General del Estado y de sus organismos públicos, destinadas a estancias formativas en escuelas de administración pública e instituciones educativas extranjeras.</p>
+          <p class="parrafo">n) La gestión y el mantenimiento de los servicios de biblioteca y documentación propios del Instituto, así como la conservación y acrecentamiento de su patrimonio bibliográfico.</p>
+          <p class="parrafo">ñ) La participación en la definición de los perfiles de los directivos públicos y el asesoramiento técnico en el desarrollo de las políticas de directivos de las Administraciones Públicas.</p>
+          <p class="parrafo">o) La cooperación técnica internacional, en especial con los países de Iberoamérica, en materia de función pública, desarrollo institucional, políticas públicas, así como en el estudio e investigación de aspectos propios de la Administración Pública.</p>
+          <p class="parrafo">p) La cooperación con las escuelas e institutos europeos de formación de empleados públicos.</p>
+          <p class="parrafo">q) La formación de funcionarios de otros países, especialmente los iberoamericanos, y de organismos internacionales.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra d) por la disposición final 4.1 del Real Decreto 769/2017, de 28 de julio. <a class="refPost">Ref. BOE-A-2017-9012#df-4</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 4. Órganos rectores.</p>
+          <p class="parrafo">Los órganos rectores del Instituto Nacional de Administración Pública son el Consejo Rector y la Dirección.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 5. Del Consejo Rector.</p>
+          <p class="parrafo">1. El Consejo Rector del Instituto Nacional de Administración Pública es un órgano colegiado de dirección estratégica y de supervisión del Instituto. Su régimen de funcionamiento es el previsto en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. El Consejo Rector estará compuesto por los siguientes miembros:</p>
+          <p class="parrafo_2">A) Presidente: el Ministro de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">B) Vicepresidente: la Secretaria de Estado para la Función Pública.</p>
+          <p class="parrafo">C) Vocales:</p>
+          <p class="parrafo_2">a) El Subsecretario del Ministerio de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">b) El Director del Instituto Nacional de Administración Pública.</p>
+          <p class="parrafo">c) El Director del Gabinete del Ministro de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">d) El Secretario General Técnico del Ministerio de Política Territorial y Administración Pública.</p>
+          <p class="parrafo">e) Un representante propuesto por la Secretaría de Estado para la Función Pública, con rango de Director General y nombrado por el Presidente del Consejo Rector.</p>
+          <p class="parrafo">f)	Tres representantes, con rango de Director o Subdirector General, competentes en las áreas de recursos humanos o formación, de los restantes departamentos ministeriales, quienes serán designados por el Presidente del Consejo Rector.</p>
+          <p class="parrafo_2">D) Secretario: El titular de la unidad con nivel orgánico de Subdirector General del Instituto Nacional de Administración Pública que designe su Director.</p>
+          <p class="parrafo">A propuesta del Presidente o Vicepresidente del Consejo Rector o del Director del Instituto Nacional de Administración Pública, podrán asistir a las reuniones del mismo expertos y profesionales de reconocido prestigio en materias relevantes para los objetivos y funciones del Instituto.</p>
+          <p class="parrafo_2">3. El Consejo Rector deberá conocer y aprobar:</p>
+          <p class="parrafo_2">a) Las directrices generales de actuación del Organismo.</p>
+          <p class="parrafo">b) El plan anual de actividades.</p>
+          <p class="parrafo">c) La memoria de gestión del Instituto.</p>
+          <p class="parrafo">d) Los restantes asuntos cuyo conocimiento y aprobación se estime oportunos por el propio Consejo o por el Director del Instituto.</p>
+          <p class="parrafo_2">4. Asimismo el Consejo Rector deberá ser informado acerca de:</p>
+          <p class="parrafo_2">a) El anteproyecto de presupuesto del Instituto.</p>
+          <p class="parrafo">b) La liquidación presupuestaria.</p>
+          <p class="parrafo">c) Los convenios de colaboración y cooperación suscritos.</p>
+          <p class="parrafo_2">5. El Consejo se reunirá, con carácter ordinario, una vez al año. La asistencia a sus sesiones no será remunerada.</p>
+        </version>
+        <version id_norma="BOE-A-2017-9012" fecha_publicacion="20170729" fecha_vigencia="20170729">
+          <p class="articulo">Artículo 5. Del Consejo Rector.</p>
+          <p class="parrafo">1. El Consejo Rector del Instituto Nacional de Administración Pública es un órgano colegiado de dirección estratégica y de supervisión del Instituto. Su régimen de funcionamiento es el previsto en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. El Consejo Rector estará compuesto por los siguientes miembros:</p>
+          <p class="parrafo_2">A) Presidente: el Ministro de Hacienda y Función Pública.</p>
+          <p class="parrafo">B) Vicepresidente: la Secretaria de Estado para la Función Pública.</p>
+          <p class="parrafo">C) Vocales:</p>
+          <p class="parrafo_2">a) El Subsecretario del Ministerio de Hacienda y Función Pública.</p>
+          <p class="parrafo">b) El Director del Instituto Nacional de Administración Pública.</p>
+          <p class="parrafo">c) El Director del Gabinete del Ministro de Hacienda y Función Pública.</p>
+          <p class="parrafo">d) El Secretario General Técnico del Ministerio de Hacienda y Función Pública.</p>
+          <p class="parrafo">e) El Director General de Función Pública.</p>
+          <p class="parrafo">f) El titular de la Secretaría General de Administración Digital.</p>
+          <p class="parrafo_2">D) Secretario: El titular de la unidad con nivel orgánico de Subdirector General del Instituto Nacional de Administración Pública que designe su Director.</p>
+          <p class="parrafo">A propuesta del Presidente o Vicepresidente del Consejo Rector o del Director del Instituto Nacional de Administración Pública, podrán asistir a las reuniones del mismo expertos y profesionales de reconocido prestigio en materias relevantes para los objetivos y funciones del Instituto. El número de expertos y profesionales no podrá ser superior al número de miembros del Consejo Rector que asistan a las correspondientes reuniones. Asimismo, no podrán percibir asistencias, ni en ningún caso podrán participar en procesos de aprobación de actos administrativos u otros procesos decisorios.</p>
+          <p class="parrafo_2">3. El Consejo Rector deberá conocer y aprobar:</p>
+          <p class="parrafo_2">a) Las directrices generales de actuación del Organismo.</p>
+          <p class="parrafo">b) El plan anual de actividades.</p>
+          <p class="parrafo">c) La memoria de gestión del Instituto.</p>
+          <p class="parrafo">d) Los restantes asuntos cuyo conocimiento y aprobación se estime oportunos por el propio Consejo o por el Director del Instituto.</p>
+          <p class="parrafo_2">4. Asimismo el Consejo Rector deberá ser informado acerca de:</p>
+          <p class="parrafo_2">a) El anteproyecto de presupuesto del Instituto.</p>
+          <p class="parrafo">b) La liquidación presupuestaria.</p>
+          <p class="parrafo">c) Los convenios de colaboración y cooperación suscritos.</p>
+          <p class="parrafo_2">5. El Consejo se reunirá, con carácter ordinario, una vez al año. La asistencia a sus sesiones no será remunerada.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por la disposición final 4.2 del Real Decreto 769/2017, de 28 de julio. <a class="refPost">Ref. BOE-A-2017-9012#df-4</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 6. De la Dirección.</p>
+          <p class="parrafo">1. El Director del Instituto, con nivel orgánico de Subdirector General, será nombrado y cesado por el Ministerio de adscripción en los términos previstos en la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado.</p>
+          <p class="parrafo">2. Corresponden al Director las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Ejecutar las políticas del Departamento de adscripción en materia de formación de empleados públicos de la Administración General del Estado y de sus organismos públicos y, cuando proceda, de otras Administraciones públicas.</p>
+          <p class="parrafo">b) Dirigir, impulsar y coordinar los servicios del Instituto.</p>
+          <p class="parrafo">c) La representación ordinaria del Instituto en sus relaciones con los organismos públicos y privados.</p>
+          <p class="parrafo">d) La disposición del gasto y la ordenación de pagos, correspondientes a la ejecución del presupuesto del Instituto.</p>
+          <p class="parrafo">e) El ejercicio, como órgano de contratación, de las competencias y facultades previstas en la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+          <p class="parrafo">f)	La celebración de convenios y acuerdos con entidades públicas y privadas que sean precisos para el cumplimiento de los fines del Instituto.</p>
+          <p class="parrafo">g) Ejercer la dirección, gestión y régimen disciplinario del personal que preste servicios en el Instituto.</p>
+          <p class="parrafo">h) El nombramiento del profesorado que imparta las acciones formativas que organice el Instituto, tanto en España como las que se inscriban en programas de organismos internacionales o de cooperación internacional en los que participe el Instituto.</p>
+          <p class="parrafo">i)	La expedición de diplomas y certificados acreditativos de las actividades docentes efectuadas por el Organismo.</p>
+          <p class="parrafo">j)	El asesoramiento y asistencia al Ministerio de Política Territorial y Administración Pública en la elaboración de los programas ministeriales de actuación. Asimismo, someter al Consejo Rector del Instituto las propuestas de actuación en materia de formación.</p>
+          <p class="parrafo">k) Elevar a la Secretaría de Estado para la Función Pública, para su tramitación, el proyecto de presupuesto del organismo, así como las propuestas que estime convenientes para el desarrollo de las actividades del Instituto.</p>
+          <p class="parrafo">l)	Proponer a la Secretaría de Estado para la Función Pública el nombramiento de los vocales de la Comisión Permanente de Selección.</p>
+          <p class="parrafo">m)	Nombrar al presidente y a los vocales de las Unidades que, en su caso, se puedan constituir para colaborar con la Comisión Permanente de Selección.</p>
+          <p class="parrafo">n) Interesar y recibir de la Comisión Permanente de Selección la información relativa al desarrollo de las pruebas selectivas que le sean encomendadas.</p>
+          <p class="parrafo">ñ) Adoptar, a propuesta de la Comisión Permanente de Selección, las actuaciones pertinentes para un mejor desarrollo de las pruebas selectivas encomendadas a aquella.</p>
+          <p class="parrafo">o) Dictar las resoluciones e instrucciones de carácter organizativo y de régimen interior precisas para el buen funcionamiento del Instituto.</p>
+          <p class="parrafo">p) Con carácter general, el ejercicio de las facultades y atribuciones legalmente atribuidas a los Presidentes o Directores de los organismos autónomos por la legislación administrativa.</p>
+          <p class="parrafo_2">3. Con observancia de los requisitos y límites establecidos en la legislación administrativa, el Director podrá delegar el ejercicio de alguna de las competencias señaladas en el apartado anterior, en los órganos y unidades que se regulan en el artículo 7.</p>
+          <p class="parrafo">4. El Director del Instituto está asistido por una unidad de apoyo, a la que corresponde la realización de las actividades y trabajos que aquél le encomiende, así como la coordinación en el desarrollo de los planes y programas de la Dirección del Instituto. A la unidad de apoyo podrá adscribirse un número de puestos de trabajo cuya denominación y nivel se determinará en la correspondiente relación de puestos de trabajo para el desarrollo de las tareas que se le encomiende.</p>
+        </version>
+        <version id_norma="BOE-A-2017-9012" fecha_publicacion="20170729" fecha_vigencia="20170729">
+          <p class="articulo">Artículo 6. De la Dirección.</p>
+          <p class="parrafo">1. El Director del Instituto, con nivel orgánico de Director General, será nombrado y separado por Real Decreto del Consejo de Ministros a propuesta del titular del Departamento en los términos previstos en el artículo 66 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+          <p class="parrafo">2. Corresponden al Director las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Ejecutar las políticas del Departamento de adscripción en materia de formación de empleados públicos de la Administración General del Estado y de sus organismos públicos y, cuando proceda, de otras Administraciones públicas.</p>
+          <p class="parrafo">b) Dirigir, impulsar y coordinar los servicios del Instituto.</p>
+          <p class="parrafo">c) La representación ordinaria del Instituto en sus relaciones con los organismos públicos y privados.</p>
+          <p class="parrafo">d) La disposición del gasto y la ordenación de pagos, correspondientes a la ejecución del presupuesto del Instituto.</p>
+          <p class="parrafo">e) El ejercicio, como órgano de contratación, de las competencias y facultades previstas en la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+          <p class="parrafo">f) La celebración de convenios y acuerdos con entidades públicas y privadas que sean precisos para el cumplimiento de los fines del Instituto.</p>
+          <p class="parrafo">g) Ejercer la dirección, gestión y régimen disciplinario del personal que preste servicios en el Instituto.</p>
+          <p class="parrafo">h) El nombramiento del profesorado que imparta las acciones formativas que organice el Instituto, tanto en España como las que se inscriban en programas de organismos internacionales o de cooperación internacional en los que participe el Instituto.</p>
+          <p class="parrafo">i) La expedición de diplomas y certificados acreditativos de las actividades docentes efectuadas por el Organismo.</p>
+          <p class="parrafo">j) El asesoramiento y asistencia al Ministerio de Política Territorial y Administración Pública en la elaboración de los programas ministeriales de actuación. Asimismo, someter al Consejo Rector del Instituto las propuestas de actuación en materia de formación.</p>
+          <p class="parrafo">k) Elevar a la Secretaría de Estado para la Función Pública, para su tramitación, el proyecto de presupuesto del organismo, así como las propuestas que estime convenientes para el desarrollo de las actividades del Instituto.</p>
+          <p class="parrafo">l) Proponer a la Secretaría de Estado para la Función Pública el nombramiento de los vocales de la Comisión Permanente de Selección.</p>
+          <p class="parrafo">m) Nombrar al presidente y a los vocales de las Unidades que, en su caso, se puedan constituir para colaborar con la Comisión Permanente de Selección.</p>
+          <p class="parrafo">n) Interesar y recibir de la Comisión Permanente de Selección la información relativa al desarrollo de las pruebas selectivas que le sean encomendadas.</p>
+          <p class="parrafo">ñ) Adoptar, a propuesta de la Comisión Permanente de Selección, las actuaciones pertinentes para un mejor desarrollo de las pruebas selectivas encomendadas a aquella.</p>
+          <p class="parrafo">o) Dictar las resoluciones e instrucciones de carácter organizativo y de régimen interior precisas para el buen funcionamiento del Instituto.</p>
+          <p class="parrafo">p) Con carácter general, el ejercicio de las facultades y atribuciones legalmente atribuidas a los Presidentes o Directores de los organismos autónomos por la legislación administrativa.</p>
+          <p class="parrafo_2">3. Con observancia de los requisitos y límites establecidos en la legislación administrativa, el Director podrá delegar el ejercicio de alguna de las competencias señaladas en el apartado anterior, en los órganos y unidades que se regulan en el artículo 7.</p>
+          <p class="parrafo">4. El Director del Instituto está asistido por una unidad de apoyo, a la que corresponde la realización de las actividades y trabajos que aquél le encomiende, así como la coordinación en el desarrollo de los planes y programas de la Dirección del Instituto. La unidad de apoyo asistirá al Director en la proyección en el exterior del Instituto y en las funciones derivadas de la cooperación y asistencia técnica internacional. En particular, le corresponden las atribuciones señaladas en los párrafos o) y p) del artículo 3 de este Estatuto. A la Unidad de Apoyo podrá adscribirse un número de puestos de trabajo cuya denominación y nivel se determinará en la correspondiente relación de puestos de trabajo.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 1 y 4 por la disposición final 4.3 del Real Decreto 769/2017, de 28 de julio. <a class="refPost">Ref. BOE-A-2017-9012#df-4</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 7. Estructura orgánica.</p>
+          <p class="parrafo">1. Dependen de la Dirección del Instituto los siguientes órganos con nivel orgánico de Subdirección General:</p>
+          <p class="parrafo_2">a) La Gerencia.</p>
+          <p class="parrafo">b) La Subdirección de Selección.</p>
+          <p class="parrafo">c) La Subdirección de Formación.</p>
+          <p class="parrafo">d) La Subdirección de Programas Formativos en Administración Local.</p>
+          <p class="parrafo_2">2. Asimismo dependen de la Dirección del Instituto las siguientes unidades con el nivel que se determine en la correspondiente relación de puestos de trabajo:</p>
+          <p class="parrafo_2">a) El Departamento de Publicaciones, Estudios y Documentación.</p>
+          <p class="parrafo">b) El Departamento de Relaciones Internacionales.</p>
+          <p class="parrafo_2">4. La Gerencia, que desempeña las competencias atribuidas hasta la fecha a la suprimida Secretaría General, es el órgano al que le corresponde la dirección y coordinación de los servicios comunes del Instituto. Su titular, con la denominación de Gerente, ejerce las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) La elaboración, seguimiento y ejecución del presupuesto del organismo.</p>
+          <p class="parrafo">b) La gestión financiera de ingresos y gastos y de tesorería de los créditos presupuestarios del Instituto.</p>
+          <p class="parrafo">c) La administración de sus bienes patrimoniales.</p>
+          <p class="parrafo">d) La tramitación de los expedientes de adquisición de bienes y servicios y la habilitación de material.</p>
+          <p class="parrafo">e) La seguridad, régimen interior, asuntos generales y la coordinación e inspección de las unidades y servicios del Instituto.</p>
+          <p class="parrafo">f)	La gestión de los recursos humanos del organismo.</p>
+          <p class="parrafo">g) La gestión de los sistemas informáticos y de comunicaciones.</p>
+          <p class="parrafo">h) En colaboración con la Subdirección de Formación, le corresponde el ejercicio de las atribuciones recogidas en los párrafos f) y g) del artículo 3 de este Estatuto.</p>
+          <p class="parrafo">El Gerente suplirá temporalmente al Director en caso de ausencia, vacante o enfermedad de éste.</p>
+          <p class="parrafo_2">5. La Subdirección de Selección tiene las atribuciones señaladas en el párrafo a) del artículo 3 de este Estatuto, sin perjuicio de lo establecido en su artículo 8.</p>
+          <p class="parrafo">6. La Subdirección de Formación, cuyo titular coordinará los programas de formación de todos los órganos y unidades del INAP, tiene las atribuciones que se recogen en los párrafos b), c), e), e i) del artículo 3 de este Estatuto.</p>
+          <p class="parrafo">Asimismo, y en colaboración con la Gerencia del Instituto, le corresponde el ejercicio de las funciones f) y g) del artículo 3 de este Estatuto.</p>
+          <p class="parrafo">7. La Subdirección de Programas Formativos en Administración Local, tiene las atribuciones que se recogen en el apartado d) del artículo 3 de este Estatuto.</p>
+          <p class="parrafo">8. El Departamento de Publicaciones, Estudios y Documentación, que desempeña las competencias asignadas hasta la fecha al suprimido Centro de Publicaciones, tiene las atribuciones señaladas en los párrafos j), k), l), m), n) y ñ) del artículo 3 de este Estatuto.</p>
+          <p class="parrafo">9. El Departamento de Relaciones Internacionales, que desempeña las competencias conferidas hasta la fecha al suprimido Centro de Cooperación Institucional, asistirá al Director del Instituto en el diseño y desarrollo de las actividades de formación o relacionales que impliquen una proyección en el exterior del Instituto y las derivadas de la cooperación internacional. En particular, le corresponden las atribuciones señaladas en los párrafos o), p) y q), del artículo 3 de este Estatuto.</p>
+        </version>
+        <version id_norma="BOE-A-2017-9012" fecha_publicacion="20170729" fecha_vigencia="20170729">
+          <p class="articulo">Artículo 7. Estructura orgánica.</p>
+          <p class="parrafo">1. Dependen de la Dirección del Instituto los siguientes órganos con nivel orgánico de subdirección general:</p>
+          <p class="parrafo_2">a) La Gerencia.</p>
+          <p class="parrafo">b) La Subdirección de Aprendizaje.</p>
+          <p class="parrafo">c) La Subdirección de Formación Local.</p>
+          <p class="parrafo">d) La Subdirección de Selección.</p>
+          <p class="parrafo_2">2. Asimismo dependen de la Dirección del Instituto las siguientes unidades con el nivel que se determine en la correspondiente relación de puestos de trabajo:</p>
+          <p class="parrafo_2">a) El Centro de Estudios y Gestión del Conocimiento.</p>
+          <p class="parrafo">b) El Departamento de Innovación Pública.</p>
+          <p class="parrafo_2">3. La Gerencia es el órgano al que le corresponde la dirección y coordinación de los servicios comunes del Instituto. Su titular, con la denominación de Gerente, ejerce las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) La elaboración, seguimiento y ejecución del presupuesto del organismo.</p>
+          <p class="parrafo">b) La gestión financiera de ingresos y gastos y de tesorería de los créditos presupuestarios del Instituto.</p>
+          <p class="parrafo">c) La administración de sus bienes patrimoniales.</p>
+          <p class="parrafo">d) La tramitación de los expedientes de adquisición de bienes y servicios y la habilitación de material.</p>
+          <p class="parrafo">e) La seguridad, la prevención de riesgos laborales, el régimen interior, asuntos generales y la coordinación e inspección de las unidades y servicios del Instituto.</p>
+          <p class="parrafo">f) La gestión de los recursos humanos del organismo.</p>
+          <p class="parrafo">g) La gestión de la política de responsabilidad social de la institución.</p>
+          <p class="parrafo">h) En colaboración con la Subdirección de Aprendizaje y el Departamento de Innovación Pública, le corresponde el ejercicio de las atribuciones recogidas en los párrafos f) y g) del artículo 3 de este Estatuto.</p>
+          <p class="parrafo">El Gerente suplirá temporalmente al Director en caso de ausencia, vacante o enfermedad de éste.</p>
+          <p class="parrafo_2">4. La Subdirección de Aprendizaje tiene las atribuciones que se recogen en los párrafos b), c), i) y q) del artículo 3.</p>
+          <p class="parrafo">Asimismo, y en colaboración con la Gerencia del Instituto y el Departamento de Innovación Pública, le corresponde el ejercicio de las funciones previstas en los párrafos f) y g) del artículo 3.</p>
+          <p class="parrafo">5. La Subdirección de Formación Local tiene las atribuciones que se recogen en los párrafos d), i) y q) del artículo 3.</p>
+          <p class="parrafo">6. La Subdirección de Selección tiene las atribuciones señaladas en el párrafo a) del artículo 3 de este Estatuto, sin perjuicio de lo establecido en su artículo 8.</p>
+          <p class="parrafo">7. El Centro de Estudios y Gestión del Conocimiento tiene las atribuciones señaladas en los párrafos j), k), l), m) y n) del artículo 3.</p>
+          <p class="parrafo">8. El Departamento de Innovación Pública asistirá al Director del Instituto en el diseño de programas de innovación, certificación y acreditación de la formación, y programas de evaluación. Asimismo, tiene las atribuciones que se recogen en los párrafos e) y ñ) del artículo 3.</p>
+          <p class="parrafo">9. El Instituto Nacional de Administración Pública actuará en coordinación con la Dirección General de Función Pública en el desarrollo de las competencias concurrentes en materia de selección y formación de los empleados públicos.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición final 4.4 del Real Decreto 769/2017, de 28 de julio. <a class="refPost">Ref. BOE-A-2017-9012#df-4</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 8. La Comisión Permanente de Selección.</p>
+          <p class="parrafo">1. La Comisión Permanente de Selección es el órgano colegiado encargado de la realización de los procesos selectivos para ingreso en los cuerpos y escalas de funcionarios de la Administración General del Estado que se determinan en la Orden Ministerial de 7 de febrero de 2005 y sus modificaciones posteriores. Está adscrita al Instituto Nacional de Administración Pública.</p>
+          <p class="parrafo">2. La Subdirección de Selección del Instituto Nacional de Administración Pública constituye el órgano de apoyo a la Comisión Permanente de Selección en la organización y ejecución de los procesos selectivos encomendados a la misma. Corresponde al titular de dicha subdirección la presidencia de la Comisión Permanente de Selección, cesando en el desempeño de esa función al hacerlo en el puesto de trabajo que determinó su nombramiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 9. Régimen de personal.</p>
+          <p class="parrafo">El personal funcionario o laboral del Instituto Nacional de Administración Pública se regirá por la normativa sobre función pública y legislación laboral aplicable al resto del personal de la Administración General del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 10. Recursos económicos y patrimonio.</p>
+          <p class="parrafo">1. Los bienes y medios económicos del Instituto son los siguientes:</p>
+          <p class="parrafo_2">a) Los bienes y valores que constituyan su patrimonio, así como los productos y rentas del mismo.</p>
+          <p class="parrafo">b) Las transferencias y subvenciones que anualmente se consignen en los Presupuestos Generales del Estado, o en los de otros organismos públicos.</p>
+          <p class="parrafo">c) Los ingresos de derecho público o privado que le correspondan y, en particular, los que procedan del desarrollo de las actividades relacionadas con los fines del Instituto.</p>
+          <p class="parrafo">d) Las subvenciones, aportaciones voluntarias o donaciones que se otorguen a su favor por personas públicas o privadas.</p>
+          <p class="parrafo">e) Cualesquiera otros recursos económicos, ordinarios o extraordinarios que esté legalmente autorizado a percibir.</p>
+          <p class="parrafo_2">2. El régimen de sus bienes y derechos será el dispuesto en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 11. Régimen de contratación y celebración de convenios interadministrativos.</p>
+          <p class="parrafo">1. El régimen jurídico aplicable para la contratación del organismo autónomo será el establecido en la Ley de Contratos del Sector Público y demás normativa de desarrollo.</p>
+          <p class="parrafo">2. En el marco del ordenamiento administrativo, y en particular del artículo 6 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, el Instituto Nacional de Administración Pública podrá celebrar convenios con otras Administraciones, Organismos públicos y Entidades de derecho público, para la realización conjunta de actividades propias del Instituto, a los que será de aplicación lo dispuesto en el artículo 4.1.c) de la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 12. Régimen económico-financiero.</p>
+          <p class="parrafo">1. El régimen presupuestario, económico-financiero, de intervención, control financiero y contabilidad del Instituto será el establecido en la Ley 47/2003, de 26 de noviembre, General Presupuestaria.</p>
+          <p class="parrafo">2. El Instituto Nacional de Administración Pública estará sometido al control interno de su gestión económico-financiera, que llevará a cabo la Intervención General de la Administración del Estado, a través de la Intervención Delegada que existirá en el citado Instituto.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2011-6872" fecha_publicacion="20110416" fecha_vigencia="20110417">
+          <p class="articulo">Artículo 13. Actos que ponen fin a la vía administrativa y recursos frente a los mismos.</p>
+          <p class="parrafo">1. Ponen fin a la vía administrativa todos los actos, acuerdos y resoluciones del Director del Instituto Nacional de Administración Pública, de conformidad con lo establecido en la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado.</p>
+          <p class="parrafo">2. Contra los actos, acuerdos y resoluciones del Director del Instituto cabrá interponer por los interesados recurso contencioso-administrativo ante el órgano jurisdiccional contencioso-administrativo competente, sin perjuicio de la formulación del recurso potestativo de reposición previsto en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

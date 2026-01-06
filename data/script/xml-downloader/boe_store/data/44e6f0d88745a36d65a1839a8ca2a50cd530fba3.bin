@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T194452Z</fecha_actualizacion>
+      <identificador>BOE-A-2017-15714</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20171228</fecha_disposicion>
+      <numero_oficial>11/2017</numero_oficial>
+      <titulo>Ley 11/2017, de 28 de diciembre, por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2017-2021.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20171229</fecha_publicacion>
+      <diario_numero>316</diario_numero>
+      <fecha_vigencia>20171230</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20230405</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/2017/12/28/11</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2017-15714</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="2451">Derecho Foral</materia>
+        <materia codigo="7878">Haciendas de las Comunidades Autónomas</materia>
+        <materia codigo="4102">Impuesto sobre el Valor Añadido</materia>
+        <materia codigo="4121">Impuestos Especiales</materia>
+        <materia codigo="5345">País Vasco</materia>
+        <materia codigo="5876">Recaudación</materia>
+        <materia codigo="6658">Sistema tributario</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-9969</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 50 del concierto aprobado por Ley 12/2002, de 23 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-30177</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 41.2 del estatuto aprobado por Ley Orgánica 3/1979, de 18 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2023-8456</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Ley 10/2023, de 3 de abril</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-15714</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-28</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2451"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4102"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4121"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6658"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7878"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-15714</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2451"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4102"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4121"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6658"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7878"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/con/20230404"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/con/20171229"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/2017, de 28 de diciembre, por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2017-2021.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 11/2017, de 28 de desembre, per la qual s'aprova la metodologia d'assenyalament de la quota del País Basc per al quinquenni 2017-2021.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei 11/2017, do 28 de decembro, pola que se aproba a metodoloxía de sinalamento da cota do País Vasco para o quinquenio 2017-2021.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/eus">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/eus"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/2017 Legea, abenduaren 28koa, Euskadiko Kupoa zehazteko metodologia onartzen duena 2017-2021 bosturterako.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/dof/eus/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof/eus"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/con/20230404">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-15714</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2451"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4102"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4121"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6658"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7878"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-04-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/con/20230404/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/2017, de 28 de diciembre, por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2017-2021.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/con/20230404"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/con/20230404/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/con/20230404/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/con/20171229">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-15714</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2451"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4102"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4121"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6658"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7878"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/con/20171229/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/2017, de 28 de diciembre, por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2017-2021.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/con/20171229"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2017/12/28/11/con/20171229/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2017/12/28/11/con/20171229/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2023-8456" fecha_publicacion="20230404" fecha_vigencia="20230405">
+          <p class="siempreSeVe">Norma derogada, con efectos desde el 5 de abril de 2023, por la disposición derogatoria única de la Ley 10/2023, de 3 de abril de 2023. <a class="refPost">Ref. BOE-A-2023-8456#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="centro_redonda">FELIPE VI</p>
+          <p class="centro_redonda">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley:</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Constitución Española, en su disposición adicional primera, declara el amparo y respeto de los derechos históricos de los territorios forales y ordena que la actualización de dicho régimen foral se llevará a cabo, en su caso, en el marco de la propia Constitución y de los Estatutos de Autonomía.</p>
+          <p class="parrafo">El Estatuto de Autonomía del País Vasco, aprobado por la Ley Orgánica 3/1979, de 18 de diciembre, establece, en su artículo 41, apartado 1, que las relaciones de orden tributario entre el Estado y la Comunidad Autónoma del País Vasco se regularán por el sistema tradicional de Concierto Económico, y el apartado 2.d) de dicho artículo dispone que el País Vasco contribuirá al sostenimiento de las cargas generales del Estado mediante la aportación de un cupo global integrado por los correspondientes a cada uno de sus Territorios Históricos.</p>
+          <p class="parrafo">Finalmente, el apartado 2.e) del citado artículo 41 prevé que una Comisión Mixta procederá al señalamiento de los cupos correspondientes a cada Territorio Histórico y que el cupo global resultante se aprobará por Ley con la periodicidad que se fije en el Concierto Económico.</p>
+          <p class="parrafo">El Concierto Económico entre el Estado y el País Vasco, aprobado por Ley 12/2002, de 23 de mayo, establece en su artículo 50, apartado uno, que cada cinco años, mediante Ley de las Cortes Generales y previo acuerdo de la Comisión Mixta del Concierto Económico, se procederá a aprobar la metodología de señalamiento del cupo que ha de regir en el quinquenio, conforme a los principios generales establecidos en el Concierto Económico, así como a aprobar el cupo del primer año del quinquenio.</p>
+          <p class="parrafo">En cumplimiento de estos preceptos, ambas Administraciones, de común acuerdo, han procedido a determinar la metodología de señalamiento del cupo que ha de aplicarse durante el quinquenio 2017-2021 y a fijar el cupo líquido provisional del año 2017, año base del quinquenio, habiendo adoptado la Comisión Mixta del Concierto Económico los correspondientes acuerdos en su reunión de 19 de julio de 2017.</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo único. Aprobación de la metodología de señalamiento del cupo del País Vasco para el quinquenio 2017-2021</p>
+          <p class="parrafo">Se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2017-2021, a la que se refieren el artículo 50 del Concierto Económico entre el Estado y el País Vasco y el artículo 41.2.e) del Estatuto de Autonomía del País Vasco, que figura como anejo a la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y surtirá efectos desde el 1 de enero de 2017.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo_2">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley.</p>
+          <p class="parrafo_2">Madrid, 28 de diciembre de 2017.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">MARIANO RAJOY BREY</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEJO">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="anexo">ANEJO</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Régimen jurídico y vigencia de la metodología</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 1. Régimen jurídico y vigencia de la metodología.</p>
+          <p class="parrafo">Los Cupos del País Vasco correspondientes a los ejercicios 2017-2021, ambos inclusive, se determinarán por la metodología regulada en los artículos siguientes, normativa que aplica la establecida en la Sección 2.ª del capítulo II del Concierto Económico con la Comunidad Autónoma del País Vasco, aprobado por Ley 12/2002.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 2. Sistemática.</p>
+          <p class="parrafo">A efectos de lo dispuesto en el artículo anterior se determinará el cupo líquido del año base del quinquenio, que será actualizado para los ejercicios siguientes.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Determinación del cupo líquido del año base</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 3. Determinación del cupo del año base.</p>
+          <p class="parrafo">El cupo líquido del año base del quinquenio 2017-2021 se determinará por la aplicación del índice de imputación al importe total de las cargas no asumidas por la Comunidad Autónoma y mediante la práctica de los correspondientes ajustes y compensaciones, todo ello en los términos previstos en los artículos siguientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 4. Cargas del Estado no asumidas por la Comunidad Autónoma.</p>
+          <p class="parrafo">Uno. Se consideran cargas del Estado no asumidas por la Comunidad Autónoma las que correspondan a competencias cuyo ejercicio no haya sido asumido efectivamente por aquélla.</p>
+          <p class="parrafo">Dos. Para la determinación del importe total de dichas cargas se deducirá del total de gastos del presupuesto del Estado, la asignación presupuestaria íntegra que, a nivel estatal, corresponda a las competencias asumidas por la Comunidad Autónoma, desde la fecha de efectividad de la transferencia fijada en los correspondientes Reales Decretos.</p>
+          <p class="parrafo">Tres. Entre otras, tendrán el carácter de cargas no asumidas por la Comunidad Autónoma las siguientes:</p>
+          <p class="parrafo_2">a) Las cantidades asignadas en los Presupuestos Generales del Estado a los Fondos de Compensación Interterritorial.</p>
+          <p class="parrafo">b) Las transferencias o subvenciones que haga el Estado a favor de entes públicos en la medida en que las competencias desempeñadas por los mismos no estén asumidas por la Comunidad Autónoma del País Vasco.</p>
+          <p class="parrafo">c) Los intereses y cuotas de amortización de las deudas del Estado.</p>
+          <p class="parrafo_2">Cuatro. La imputación a los Territorios Históricos de la parte correspondiente por cargas no asumidas se efectuará por aplicación del índice de imputación al que se refiere el artículo 7 siguiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 5. Ajustes.</p>
+          <p class="parrafo">Uno. Sin perjuicio de lo dispuesto en los artículos 14 y 15 siguientes, las cifras que resulten de la imputación a que se refiere el número cuatro del artículo anterior se ajustarán para perfeccionar la estimación de los ingresos por impuestos directos imputables al País Vasco y al resto del Estado según lo establecido en el artículo 55 del Concierto.</p>
+          <p class="parrafo">Dos. Las cantidades que resulten de la práctica del ajuste regulado en el número uno anterior constituirán el Cupo de cada Territorio Histórico.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 6. Compensaciones.</p>
+          <p class="parrafo">Uno. Del cupo correspondiente a cada Territorio Histórico se restarán por compensación los siguientes conceptos:</p>
+          <p class="parrafo_2">a) La parte imputable de los tributos no concertados.</p>
+          <p class="parrafo">b) La parte imputable de los ingresos presupuestarios de naturaleza no tributaria.</p>
+          <p class="parrafo">c) La parte imputable del déficit que presenten los Presupuestos Generales del Estado.</p>
+          <p class="parrafo_2">Dos. La imputación de los conceptos señalados en el número anterior se efectuará aplicando el índice establecido en el artículo 7 siguiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 7. Índice de imputación.</p>
+          <p class="parrafo">El índice de imputación al que se refieren los artículos 4 y 6 precedentes, determinado básicamente en función de la renta de los Territorios Históricos en relación con el Estado, es el 6,24 por 100 para el quinquenio en curso.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 8. Cupo líquido.</p>
+          <p class="parrafo">Uno. La cantidad que resulte tras la práctica de los ajustes regulados en el artículo 5 y las compensaciones reguladas en el artículo 6.Uno anteriores constituye el cupo líquido del País Vasco correspondiente al ejercicio 2017, año base del quinquenio.</p>
+          <p class="parrafo">Dicho Cupo líquido, una vez determinado, se minorará en la cantidad resultante de aplicar la Disposición Transitoria Cuarta del Concierto Económico.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Determinación del cupo líquido de los años siguientes del quinquenio y liquidación definitiva de los cupos</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 9. Método de determinación.</p>
+          <p class="parrafo">El cupo líquido correspondiente a los años del quinquenio posteriores al año base se determinará provisionalmente por aplicación de un índice de actualización a dicho concepto.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 10. Índice de actualización.</p>
+          <p class="parrafo">El índice de actualización es el cociente entre la previsión de ingresos por tributos concertados, excluidos los tributos cedidos en su totalidad a las Comunidades Autónomas, que figure en los capítulos I y II del Presupuesto de Ingresos del Estado del ejercicio al que se refiera el cupo líquido y los ingresos, debidamente homogeneizados, previstos por el Estado por los mismos conceptos tributarios en el año base del quinquenio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 11. Efectos por variación en las competencias asumidas.</p>
+          <p class="parrafo">Uno. Si durante cualquiera de los años del quinquenio, la Comunidad Autónoma del País Vasco asumiese nuevas competencias cuyo coste anual a nivel estatal hubiese sido incluido dentro de las cargas del Estado que se computaron para la determinación del cupo del año base del quinquenio recogido en el artículo 8, se procederá a calcular el coste total anual a nivel estatal asociado al traspaso en el ejercicio en que éste se produzca, según se deduzca de los Presupuestos Generales del Estado para el referido ejercicio.</p>
+          <p class="parrafo">En el supuesto de que la efectividad del nuevo traspaso no coincidiese con el 1 de enero del ejercicio, se procederá a prorratear el coste total anual a nivel estatal asociado al traspaso en dicho ejercicio proporcionalmente a la parte del año en que el País Vasco hubiera asumido tales competencias, con efectos exclusivos para la determinación del cupo del ejercicio en que se produzca el traspaso.</p>
+          <p class="parrafo">La citada reducción proporcional tendrá en cuenta la periodicidad real de los gastos corrientes, así como el efectivo grado de realización de las inversiones del Estado.</p>
+          <p class="parrafo">Dos. En el caso de producirse la circunstancia señalada en el apartado anterior, se procederá a minorar el cupo liquido del año base del quinquenio en el importe que resulte de aplicar al coste total anual a nivel estatal en el ejercicio en que se produzca el traspaso, dividido por el índice de actualización regulado en el artículo 10, el índice de imputación regulado en el artículo 7.</p>
+          <p class="parrafo">El cupo líquido del año base del quinquenio, así revisado, será el que se utilice para la determinación del cupo del ejercicio en que se produce el traspaso y de los ejercicios posteriores.</p>
+          <p class="parrafo">Tres. El mecanismo descrito se aplicará de manera inversa en el caso de que la Comunidad Autónoma del País Vasco dejase de ejercer competencias que tuviera asumidas.</p>
+          <p class="parrafo">Cuatro. Si durante cualquiera de los años del quinquenio, el Estado se reservara o asumiera nuevos compromisos de financiación derivados de medidas legislativas, de interés general o de acuerdos interinstitucionales, sobre materias cuya ejecución corresponda a las Comunidades Autónomas, se reunirá la Comisión Mixta del Concierto Económico para analizar y determinar la participación financiera que, en su caso, corresponda al País Vasco.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 12. Liquidación definitiva.</p>
+          <p class="parrafo">Uno. Los cupos fijados provisionalmente conforme a lo dispuesto en los artículos anteriores se liquidarán definitivamente aplicando el valor real del índice de actualización definido en el artículo 10, que se deduzca de la recaudación líquida realmente obtenida por el Estado, tanto en el ejercicio a que se refiere el cupo como su homogénea en el año base del quinquenio, al cupo líquido definitivo homogéneo del año base.</p>
+          <p class="parrafo">Dos. Excepcionalmente, la liquidación definitiva del cupo líquido correspondiente al año base del quinquenio, se efectuará considerando el valor real del índice de actualización, definido en el artículo 10, que se deduzca de la recaudación líquida realmente obtenida por el Estado en el año base del quinquenio, respecto a la previsión homogénea de recaudación para ese mismo ejercicio que figure en el Presupuesto de Ingresos del Estado.</p>
+          <p class="parrafo">Tres. La recaudación líquida obtenida por el Estado en cada ejercicio será la que se deduzca de la certificación expedida por la Intervención General de la Administración del Estado a estos efectos, computándose como tal la obtenida en el año al que se refiere la certificación cualquiera que sea el del devengo.</p>
+          <p class="parrafo">Cuatro. La liquidación definitiva se efectuará en el mes de mayo del ejercicio siguiente al que se refieren el cupo y la compensación objeto de la misma y las diferencias que origine con el cupo líquido fijado provisionalmente para el citado ejercicio se regularizarán en el citado mes de mayo, computándose, en su caso, con el ingreso a efectuar previsto en el artículo siguiente, en el citado mes.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Normas comunes</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 13. Ingreso del cupo.</p>
+          <p class="parrafo">La cantidad a ingresar por la Comunidad Autónoma del País Vasco en cada ejercicio se abonará a la Hacienda Pública del Estado en tres plazos iguales, durante los meses de mayo, septiembre y diciembre del mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 14. Ajuste por el Impuesto sobre el Valor Añadido.</p>
+          <p class="parrafo">Uno. A la recaudación real del País Vasco por el Impuesto sobre el Valor Añadido se le añadirán:</p>
+          <p class="parrafo_2">a) El 6,875 por 100 de la recaudación por el Impuesto sobre el Valor Añadido obtenida en las Aduanas.</p>
+          <p class="parrafo">b) El 1,110 por 100 de la recaudación real del territorio común dividida por el 94,235 por 100, o de la recaudación real del País Vasco dividida por el 5,765 por 100, según que el porcentaje de recaudación del País Vasco con respecto a la total estatal, excluida la obtenida en las Aduanas, sea superior o inferior respectivamente, al 5,765 por 100.</p>
+          <p class="parrafo_2">Dos. La imputación provisional del ajuste anterior y su regularización como definitivo en el ejercicio inmediato siguiente, se efectuará conforme al procedimiento vigente en cada momento aprobado por la Comisión Mixta del Concierto Económico.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Artículo 15. Ajuste por los Impuestos Especiales de Fabricación.</p>
+          <p class="parrafo">Uno. A la recaudación real del País Vasco por los Impuestos Especiales de Fabricación, sobre Alcohol y Bebidas Derivadas, Productos Intermedios, Cerveza, Hidrocarburos y Labores del Tabaco, se le añadirán:</p>
+          <p class="parrafo_2">a) 1. El 7,130 por 100 de la recaudación por los Impuestos sobre Alcohol y Bebidas Derivadas y sobre Productos Intermedios obtenida en las Aduanas.</p>
+          <p class="parrafo_2">2. El 5,198 por 100 de la recaudación real por los Impuestos sobre Alcohol y Bebidas Derivadas y sobre Productos Intermedios del territorio común dividida por el 98,068 por 100, o de la recaudación real del País Vasco por los mismos conceptos tributarios dividida por el 1,932 por 100, según que el porcentaje de recaudación del País Vasco con respecto a la total estatal, excluida la obtenida en las Aduanas, sea superior o inferior respectivamente, al 1,932 por 100.</p>
+          <p class="parrafo_2">b) 1. El 7,130 por 100 de la recaudación por el Impuesto sobre la Cerveza obtenida en las Aduanas.</p>
+          <p class="parrafo_2">2. El 5,399 por 100 de la recaudación real por el Impuesto sobre la Cerveza del territorio común dividida por el 98,269 por 100, o de la recaudación real del País Vasco por el mismo concepto tributario dividida por el 1,731 por 100, según que el porcentaje de recaudación del País Vasco con respecto a la total estatal, excluida la obtenida en las Aduanas, sea superior o inferior respectivamente, al 1,731 por 100.</p>
+          <p class="parrafo_2">c) 1. El 6,560 por 100 de la recaudación por el Impuesto sobre Hidrocarburos obtenida en las Aduanas.</p>
+          <p class="parrafo_2">2. Con signo negativo, el 1,700 por 100 de la recaudación real por el Impuesto sobre Hidrocarburos del territorio común, excluida la derivada de la aplicación de los tipos impositivos autonómicos, dividida por el 91,740 por 100, o de la recaudación real del País Vasco por el mismo concepto tributario dividida por el 8,260 por 100, según que el porcentaje de recaudación del País Vasco con respecto a la total estatal, excluida la obtenida en las Aduanas sea superior o inferior respectivamente, al 8,260 por 100.</p>
+          <p class="parrafo">3. La diferencia entre la recaudación real anual obtenida en territorio común por aplicación de los tipos impositivos autonómicos aprobados por las instituciones competentes del País Vasco y la obtenida en el País Vasco por aplicación de los tipos impositivos autonómicos aprobados por otras Comunidades Autónomas.</p>
+          <p class="parrafo_2">d) La diferencia entre el resultado de aplicar a la recaudación real en el territorio común por el Impuesto sobre las Labores del Tabaco, el porcentaje que corresponda anualmente al valor de las labores suministradas a Expendedurías de Tabaco y Timbre situadas en el País Vasco, sobre el valor de las labores suministradas a dichos establecimientos en el territorio de aplicación de este impuesto, y el resultado de aplicar el complementario a cien del porcentaje anteriormente definido a la recaudación real por el mismo concepto tributario en el País Vasco.</p>
+          <p class="parrafo_2">Dos. En el caso de que la recaudación real obtenida por el País Vasco, excluida la derivada del tramo autonómico, difiera, por el Impuesto sobre Hidrocarburos en más del 7 por 100, y por los Impuestos sobre Alcohol y Bebidas Derivadas, Productos Intermedios y Cerveza en más del 10 por 100, de la cifra que resulte de aplicar los índices contenidos en el último inciso de las letras a) 2, b) 2 y c) 2 del apartado Uno de este artículo a la recaudación real del conjunto del Estado por cada uno de los mismos, se corregirán dichos índices para efectuar los ajustes del año en que se produzcan las diferencias citadas.</p>
+          <p class="parrafo">Dicha corrección se realizará por aplicación del porcentaje de variación, positivo o negativo, que exceda sobre los respectivos límites establecidos en el párrafo anterior a los correspondientes índices contenidos en el último inciso de las letras a) 2, b) 2 y c) 2 del apartado Uno anterior.</p>
+          <p class="parrafo">Tres. La imputación provisional del ajuste anterior, para cada uno de los Impuestos, y su regularización como definitivo, en el ejercicio inmediato siguiente, se efectuará conforme al procedimiento vigente en cada momento aprobado por la Comisión Mixta del Concierto Económico.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">Para el quinquenio 2017-2021 se mantiene vigente lo establecido en la Disposición Adicional Primera de la Ley 37/1997, de 4 de agosto.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Se aprueba el cupo líquido del País Vasco para el año base del quinquenio 2017-2021 que figura en el Anexo I de esta metodología.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">La financiación que corresponda al País Vasco por su participación en el coste asociado a los programas y actuaciones públicas en el ámbito del trabajo, el empleo y la formación profesional de acuerdo con lo establecido en el Real Decreto 1441/2010, de 5 de noviembre, se deducirá por compensación del cupo líquido a pagar en cada ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="da-4" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional cuarta.</p>
+          <p class="parrafo">En el caso de que se produjese una reforma en el ordenamiento jurídico tributario del Estado que afectase a la concertación de los tributos, se produjese una alteración en la distribución de las competencias normativas que afecte al ámbito de la imposición indirecta o se crearan nuevas figuras tributarias o pagos a cuenta, se procederá por ambas Administraciones, de común acuerdo, a la pertinente revisión del cupo líquido del año base del quinquenio y del índice de actualización del mismo, en la forma y cuantía que resulte procedente, surtiendo todo ello efectos a partir del año en que se produzca dicha reforma.</p>
+          <p class="parrafo">Ambas Administraciones acordarán, en su caso, el establecimiento de los ajustes o compensaciones que, dada la naturaleza de la figura tributaria concertada, sean procedentes.</p>
+        </version>
+      </bloque>
+      <bloque id="da-5" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional quinta.</p>
+          <p class="parrafo">En el caso de que se produjese una reforma del régimen de cesión de tributos del Estado o una modificación sustancial en los Presupuestos Generales del Estado como consecuencia de la reforma del sistema de financiación de las Comunidades Autónomas o de los Entes Locales, se reunirá la Comisión Mixta del Concierto Económico para analizar y determinar, si procede, la revisión del cupo líquido del año base del quinquenio y/o del índice de actualización del mismo, surtiendo en su caso la revisión efectos a partir del año en que se produzca dicha reforma.</p>
+        </version>
+      </bloque>
+      <bloque id="da-6" tipo="precepto" titulo="Disposición adicional sexta">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional sexta.</p>
+          <p class="parrafo">En el supuesto de que se modifique el actual régimen de fabricación y comercio de labores del tabaco, se procederá por ambas Administraciones, de común acuerdo, a la revisión de la letra d) del artículo 15.Uno.</p>
+        </version>
+      </bloque>
+      <bloque id="da-7" tipo="precepto" titulo="Disposición adicional séptima">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional séptima.</p>
+          <p class="parrafo">Excepcionalmente, se declara definitiva la metodología seguida para el señalamiento de los cupos definitivos correspondientes al quinquenio 2012-2016, contenida en la ley 29/2007, de 25 de octubre, por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2007-2011, en los términos aprobados por la Comisión Mixta del Concierto Económico.</p>
+        </version>
+      </bloque>
+      <bloque id="da-8" tipo="precepto" titulo="Disposición adicional octava">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición adicional octava.</p>
+          <p class="parrafo">Exclusivamente para los ejercicios 2017-2021 se aplicará por compensación en el Cupo líquido a pagar por el País Vasco en cada ejercicio, el resultado de la liquidación del quinquenio 2007-2011, del quinquenio 2012-2016 y de los restantes acuerdos adoptados en la Comisión Mixta del Concierto Económico de 17 de mayo de 2017, en los términos acordados en ésta.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Excepcionalmente, si transcurrido el plazo de vigencia de la presente Ley no se hubiera promulgado una nueva Ley reguladora de la metodología de señalamiento del cupo para los ejercicios siguientes, la metodología recogida en la presente Ley será de aplicación en todos sus términos para el señalamiento provisional de los cupos líquidos y de las compensaciones a que se refieren la Disposición Adicional Primera de la presente metodología y la Disposición Transitoria Cuarta del Concierto Económico en el ejercicio 2022 y siguientes.</p>
+          <p class="parrafo">Los cupos y compensaciones así determinados se sustituirán por los que resulten procedentes de aplicar la Ley que los regule citada en el párrafo anterior, una vez que ésta sea aprobada.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Lo dispuesto en la presente metodología se entiende sin perjuicio de la normativa contenida en las disposiciones adicionales, transitorias y finales del Concierto Económico con el País Vasco, que permanecen vigentes en la medida en que sean de aplicación en sus propios términos.</p>
+        </version>
+      </bloque>
+      <bloque id="ai" tipo="encabezado" titulo="ANEXO I">
+        <version id_norma="BOE-A-2017-15714" fecha_publicacion="20171229" fecha_vigencia="20171230">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Cupo de la Comunidad Autónoma del País Vasco para 2017</p>
+          <p class="centro_redonda">(Presupuestos Generales del Estado para 2017)</p>
+          <table class="tabla_b_sica">
+            <colgroup>
+              <col class="row_column_1"/>
+              <col class="row_column_2"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_3">
+                <td> </td>
+                <td>
+                  <p class="cabeza_tabla">Miles de euros</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">PRESUPUESTO DEL ESTADO. GASTOS	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">276.152.254,24</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">CARGAS ASUMIDAS POR LA C.A.P.V. </p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">89.966.505,13</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">TOTAL CARGAS NO ASUMIDAS	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">186.185.749,11</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">IMPUTACIÓN DEL ÍNDICE (6,24%) </p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">11.617.990,74</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">COMPENSACIONES Y AJUSTES </p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">-10.313.455,24</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">– Por Tributos no Concertados	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">-539.702,10</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">– Por Ingresos no Tributarios </p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">-595.209,88</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">– Por Déficit Presupuestario	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">-8.781.465,54</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">– Por Imptos. Directos Concertados	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">-397.077,72</p>
+                </td>
+              </tr>
+              <tr class="row_column_3">
+                <td>
+                  <p class="cuerpo_tabla_izq">CUPO LÍQUIDO	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">1.304.535,50</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">Compensaciones Álava	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">-4.426,53</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_izq">LÍQUIDO A PAGAR	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">1.300.108,97</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cita_con_pleca">(*) En este importe no está integrada como Carga Asumida la valoración provisional del coste asociado a los programas y actuaciones públicas en el ámbito del trabajo, el empleo y la formación profesional traspasados al País Vasco por el Real Decreto 1441/2010, de 5 de noviembre (Apartado G.2).</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

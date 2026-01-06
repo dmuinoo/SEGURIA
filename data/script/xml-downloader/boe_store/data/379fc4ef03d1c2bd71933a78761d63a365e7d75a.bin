@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190451Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-4294</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20010216</fecha_disposicion>
+      <numero_oficial>140/2001</numero_oficial>
+      <titulo>Real Decreto 140/2001, de 16 de febrero, por el que se aprueban los Estatutos del Colegio de Ingenieros Técnicos de Obras Públicas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20010303</fecha_publicacion>
+      <diario_numero>54</diario_numero>
+      <fecha_vigencia>20010304</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2001/02/16/140</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-4294</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="895">Colegio de Ingenieros Técnicos de Obras Públicas</materia>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="4200">Ingenieros Técnicos de Obras Públicas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1959-3753</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el art. 2 del Decreto 328/1959, de 12 de marzo (GAZETA)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1974-289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>con el art. 6 de la Ley 2/1974, de 13 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-4294</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-02-16</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/895"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4200"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-4294</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-02-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/895"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4200"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/con/20010303"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 140/2001, de 16 de febrero, por el que se aprueban los Estatutos del Colegio de Ingenieros Técnicos de Obras Públicas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-03-03</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/con/20010303">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-4294</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-02-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/895"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4200"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-03-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/con/20010303/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 140/2001, de 16 de febrero, por el que se aprueban los Estatutos del Colegio de Ingenieros Técnicos de Obras Públicas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/con/20010303"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/02/16/140/con/20010303/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/02/16/140/con/20010303/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="parrafo">Por Decreto 328/1959, de 12 de marzo, se aprobaron los Estatutos del Colegio de Ayudantes de Obras Públicas, cuya denominación fue sustituida por la de Colegio de Ingenieros Técnicos de Obras Públicas, en virtud del Real Decreto 743/1977, de 4 de marzo.</p>
+          <p class="parrafo">Los cambios producidos desde entonces han motivado que la Asamblea General del Colegio adoptara el acuerdo de someter a la aprobación del Gobierno unos nuevos Estatutos, elaborados de acuerdo con lo previsto en el artículo 6 de la Ley 2/1974, de 13 de febrero, de Colegios Profesionales.</p>
+          <p class="parrafo">Por otra parte, la disposición adicional única de la Ley 7/1997, de 14 de abril, de Medidas Liberalizadoras en Materia de Suelo y de Colegios Profesionales, establece que éstos deberán adaptar sus Estatutos a las modificaciones introducidas por dicha Ley, encaminadas a garantizar que las profesiones colegiadas se desarrollen en régimen de libre competencia, a delimitar el carácter meramente orientativo de los baremos de honorarios y la voluntariedad de su percepción a través de los servicios colegiales, así como a evitar que el visado comprenda condiciones contractuales, cuya determinación se deja al libre acuerdo de las partes. Esta legislación se ha complementado con el artículo 39 del Real Decreto-ley 6/2000, de 23 de junio, de medidas urgentes de intensificación de la competencia en mercados de bienes y servicios.</p>
+          <p class="parrafo">Para dar cumplimiento a esta exigencia legal y al propio tiempo actualizar sus normas de organización, el Colegio de Ingenieros Técnicos de Obras Públicas ha remitido al Ministerio de Fomento, al que corresponde la relación con dicha corporación, una propuesta de nuevos Estatutos para su aprobación por el Gobierno.</p>
+          <p class="parrafo">En su virtud, de conformidad con lo establecido en el artículo 6.5 de la citada Ley de Colegios Profesionales, en relación con el apartado 2 del mismo artículo, a propuesta del Ministro de Fomento, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 16 de febrero de 2001,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo único.</p>
+          <p class="parrafo">Se aprueban los Estatutos del Colegio de Ingenieros Técnicos de Obras Públicas, que figuran como anexo al presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Queda derogado el artículo 2 del Decreto 328/1959, de 12 de marzo, por el que se constituye el Colegio de Ayudantes de Obras Públicas y se aprueban sus Estatutos, así como cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">El presente Real Decreto y los Estatutos por él aprobados entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="parrafo_2">Dado en Madrid a 16 de febrero de 2001.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Fomento,</p>
+          <p class="firma_ministro">FRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatutos del Colegio de Ingenieros Técnicos de Obras Públicas</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 1. Naturaleza, principios, ámbito y estructura.</p>
+          <p class="parrafo">1. El Colegio de Ingenieros Técnicos de Obras Públicas es una corporación de derecho público, con personalidad jurídica propia y plena capacidad y autonomía para el cumplimiento de sus fines y el ejercicio de sus funciones.</p>
+          <p class="parrafo">2. El Colegio, en su estructura interna y dinámica funcional, se regirá por principios democráticos y de solidaridad, con pluralismo participativo e igualitario.</p>
+          <p class="parrafo">3. El ámbito territorial del Colegio abarca la totalidad del Estado español, teniendo como principio fundamental el de unidad colegial, presupuestaria y patrimonial, todo lo cual se entenderá aplicable en tanto no se constituyan por las Comunidades Autónomas los correspondientes Colegios en sus ámbitos territoriales. Su sede radica en Madrid.</p>
+          <p class="parrafo">4. El emblema del Colegio está constituido por un puente sobre un río canalizado, con un ancla cruzada entre dos ramas; una de roble a la izquierda y otra de palma a la derecha, atadas en su parte inferior y abiertas en la superior.</p>
+          <p class="parrafo">5. A los efectos previstos en la sección 2.ª del capítulo III siguiente, el Colegio se divide en zonas, cuyo ámbito vendrá determinado en el Reglamento General, pudiendo su número ampliarse o reducirse de acuerdo con lo establecido en el mismo, en estos Estatutos y en la legislación aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 2. Fines.</p>
+          <p class="parrafo">Los fines fundamentales del Colegio serán, entre otros, los siguientes:</p>
+          <p class="parrafo_2">1. La ordenación, en el marco de las Leyes, del ejercicio de la profesión orientada a su perfeccionamiento y progreso al servicio de la sociedad.</p>
+          <p class="parrafo">2. La representación exclusiva de la profesión.</p>
+          <p class="parrafo">3. La defensa de los intereses profesionales de los colegiados, dentro del estricto respeto a la Constitución, al resto del ordenamiento jurídico, a la libertad de afiliación y acción sindical, y todo ello sin perjuicio de la competencia de la Administración pública por razón de la relación funcionarial.</p>
+          <p class="parrafo">4. La promoción de la profesión de ingeniero técnico de obras públicas, y del reconocimiento de su prestigio, dignidad y contenido esencial, velando por la deontología profesional del Ingeniero en el respeto a los derechos de los particulares.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 3. Funciones.</p>
+          <p class="parrafo">Corresponde al Colegio de Ingenieros Técnicos de Obras Públicas, para el cumplimiento de sus fines, el ejercicio de las siguientes funciones:</p>
+          <p class="parrafo_2">1. Ostentar la representación y defensa de la profesión para el cumplimiento de sus fines ante las distintas Administraciones, instituciones, Tribunales, entidades y particulares, con legitimación para ser parte en cuantos litigios afecten a los intereses profesionales y para informar en procedimientos judiciales y administrativos, de acuerdo con lo dispuesto en el artículo 5 de la Ley de Colegios Profesionales.</p>
+          <p class="parrafo">2. Apoyar y facilitar a los colegiados el ejercicio de la profesión, garantizando en el ámbito colegial la igualdad de trato de los mismos y procurando el respeto a su derecho a la propiedad intelectual.</p>
+          <p class="parrafo">3. Prestar asistencia jurídica a los colegiados en el ejercicio de la profesión y a los cargos del Consejo y de las zonas en lo relativo a sus funciones.</p>
+          <p class="parrafo">4. Fomentar el pleno empleo entre los colegiados, colaborando, cuando fuere necesario, con la Administración y la iniciativa privada.</p>
+          <p class="parrafo">5. Procurar la armonía y colaboración entre los colegiados, adoptando las medidas conducentes a evitar la competencia desleal entre los mismos.</p>
+          <p class="parrafo">6. Asesorar a los colegiados en cuanto pueda ayudarles en el ejercicio de su profesión, en especial, en sus relaciones con los organismos y entidades públicas.</p>
+          <p class="parrafo">7. Intervenir, en vía de conciliación o arbitraje, en las cuestiones que, por motivos profesionales, se susciten entre los colegiados.</p>
+          <p class="parrafo">8. Adoptar las medidas conducentes a evitar el intrusismo profesional.</p>
+          <p class="parrafo">9. Establecer los baremos de honorarios, que tendrán carácter meramente orientativo.</p>
+          <p class="parrafo">10. Visar los documentos correspondientes a los trabajos profesionales de los colegiados y exigirles este visado en todos los casos en que actúen como tales. El visado tiene por objeto acreditar:</p>
+          <p class="parrafo_2">a) Que el firmante está colegiado y ostenta la titulación profesional necesaria, puede ejercer la profesión y realizar el trabajo en cuestión, de acuerdo con las Leyes y la ordenación corporativa.</p>
+          <p class="parrafo">b) Que la documentación integrante del trabajo cumple los requisitos de corrección formal exigibles legal y reglamentariamente.</p>
+          <p class="parrafo">c) El registro y constancia oficial de los documentos que integran el trabajo.</p>
+          <p class="parrafo_2">11. Gestionar el cobro de los honorarios profesionales cuando el colegiado lo solicite libre y expresamente.</p>
+          <p class="parrafo">12. Fijar las cuotas o aportaciones económicas de los colegiados y exigir su cobro por los medios legales pertinentes.</p>
+          <p class="parrafo">13. Organizar y promover actividades y servicios de interés para los colegiados de carácter profesional, formativo, cultural, asistencial, de previsión y otros análogos.</p>
+          <p class="parrafo">14. Cooperar activamente en el desarrollo de la enseñanza de la Ingeniería en la formación permanente.</p>
+          <p class="parrafo">15. Informar preceptivamente los proyectos de Ley o disposiciones de cualquier rango que se refieran a las condiciones generales de las funciones profesionales.</p>
+          <p class="parrafo">16. Participar en la elaboración de los planes de estudio e informar las normas de organización de los centros docentes correspondientes a la profesión, estar representado, en su caso, en sus órganos de gobierno, mantener permanente contacto con los mismos, así como preparar la información necesaria para facilitar el acceso a la vida profesional de los nuevos titulados.</p>
+          <p class="parrafo">17. Participar en los Consejos y órganos consultivos de la Administración en la materia de competencia de la profesión.</p>
+          <p class="parrafo">18. Ordenar, en el ámbito de su competencia, la actividad profesional de los colegiados y establecer la normativa deontológica, velando por la ética y dignidad profesional, así como por el respeto debido a los derechos de los particulares y ejercer la facultad disciplinaria en el orden profesional y colegial.</p>
+          <p class="parrafo">19. Cumplir y hacer cumplir a los colegiados las Leyes y disposiciones generales relacionadas con la profesión, los presentes Estatutos y sus Reglamentos, así como las normas generales adoptadas por los órganos colegiales en el ámbito de su competencia.</p>
+          <p class="parrafo">20. Las demás funciones encomendadas por las Leyes y aquellas que redunden en beneficio de los intereses profesionales, culturales, sociales y económicos de los colegiados o de la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 4. Colegiación.</p>
+          <p class="parrafo">Es requisito indispensable para el ejercicio de la profesión de ingeniero técnico de obras públicas estar incorporado al Colegio de Ingenieros Técnicos de Obras Públicas como colegiado de número.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 5. Requisitos de inscripción.</p>
+          <p class="parrafo">Para la incorporación al Colegio se requiere:</p>
+          <p class="parrafo_2">1. Ostentar la titulación legalmente requerida para el ejercicio de la profesión.</p>
+          <p class="parrafo">2. No hallarse incapacitado o inhabilitado legalmente para el ejercicio de la profesión.</p>
+          <p class="parrafo">3. Abonar la cuota de incorporación.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 6. Clases de miembros.</p>
+          <p class="parrafo">1. El Colegio estará integrado por tres clases de miembros:</p>
+          <p class="parrafo_2">a) Colegiados de honor.</p>
+          <p class="parrafo">b) Colegiados de número.</p>
+          <p class="parrafo">c) Colegiados vitalicios.</p>
+          <p class="parrafo_2">2. Son colegiados de honor aquellas personas a las que se otorgue tal título, sean o no ingenieros técnicos de obras públicas, por los servicios que rindan o hayan prestado a favor de la profesión.</p>
+          <p class="parrafo">Esta distinción se otorgará en la forma que se determine en el Reglamento General.</p>
+          <p class="parrafo">3. Son colegiados de número las personas físicas que reúnan los requisitos legalmente exigidos para el ejercicio de la profesión y estén incorporados al Colegio.</p>
+          <p class="parrafo">4. Son colegiados vitalicios aquellos colegiados que, habiendo cumplido sesenta y cinco años o estando en situación de jubilado o de incapacidad laboral permanente, lo soliciten por escrito.</p>
+          <p class="parrafo_2">Gozarán de los mismos deberes y derechos que los colegiados de número, pero estarán exentos del pago de la cuota periódica.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 7. Distinciones.</p>
+          <p class="parrafo">Para el reconocimiento de los méritos de aquellas personas que hayan prestado servicios destacados al Colegio o contribuido notablemente al prestigio de la profesión, se establecen las siguientes distinciones:</p>
+          <p class="parrafo_2">a) Título de colegiado de honor.</p>
+          <p class="parrafo">b) Presidente de honor.</p>
+          <p class="parrafo">c) Consejero de honor.</p>
+          <p class="parrafo">d) Medallas de honor.</p>
+          <p class="parrafo_2">La forma y condiciones para otorgar estas distinciones se establecerán en el Reglamento General.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 8. Pérdida de la condición de colegiado.</p>
+          <p class="parrafo">Se pierde la condición de colegiado:</p>
+          <p class="parrafo_2">a) A petición propia, por cese de la actividad profesional, siempre que no se tengan obligaciones personales o corporativas pendientes de cumplimiento.</p>
+          <p class="parrafo">b) Por inhabilitación para el ejercicio profesional como consecuencia de condena en virtud de sentencia firme, por el tiempo de duración de la pena impuesta, salvo casos de expulsión.</p>
+          <p class="parrafo">c) Por expulsión del Colegio, previa la incoación del oportuno expediente disciplinario, de conformidad con lo dispuesto en estos Estatutos y en el Reglamento General.</p>
+          <p class="parrafo">d) Por fallecimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 9. Derechos.</p>
+          <p class="parrafo">La colegiación confiere los siguientes derechos:</p>
+          <p class="parrafo_2">1. Ejercer la profesión en el territorio del Estado español y en el extranjero de acuerdo con la legislación comunitaria o los acuerdos internacionales.</p>
+          <p class="parrafo">2. Ser asistido, asesorado y defendido por el Colegio en las cuestiones que se susciten en relación con sus derechos e intereses legítimos de carácter profesional, especialmente cuando se vea obstaculizado en el pleno ejercicio de sus atribuciones profesionales.</p>
+          <p class="parrafo">3. Participar activamente en la vida corporativa, formular peticiones o quejas, asistir a las distintas Asambleas, con voz y voto, y ser elector y candidato para los cargos del Colegio y sus instituciones, siempre que no estén incursos en causa de prohibición o incapacidad.</p>
+          <p class="parrafo">4. Utilizar los servicios que el Colegio tenga establecidos, en la forma y condiciones que se determinen en estos Estatutos y en el Reglamento General.</p>
+          <p class="parrafo">5. Dejar constancia de los documentos relacionados con los trabajos profesionales, presentados para registro y/o visado.</p>
+          <p class="parrafo">6. Ser reconocido como autor de los trabajos profesionales que presente para su visado al Colegio, en los términos que determinan las Leyes.</p>
+          <p class="parrafo">7. Cobrar, a través del Colegio, los honorarios de los trabajos profesionales visados.</p>
+          <p class="parrafo">8. Recibir información regular sobre la actividad corporativa y de interés profesional, mediante los instrumentos informativos que se creen al efecto.</p>
+          <p class="parrafo">9. Interponer recursos contra los acuerdos adoptados por los distintos órganos colegiales, en los términos que en el ámbito corporativo establezcan estos Estatutos y normas reglamentarias que los desarrollen, sin perjuicio del ulterior recurso contencioso-administrativo.</p>
+          <p class="parrafo">10. Ejercer cuantos derechos se deduzcan de los presentes Estatutos y demás normas de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 10. Deberes.</p>
+          <p class="parrafo">Son deberes de los colegiados:</p>
+          <p class="parrafo_2">1. Asistir a los actos corporativos y participar en la vida colegial en la forma establecida en estos Estatutos y en el Reglamento General, aceptando los cargos para los que sean elegidos, salvo causa justificada.</p>
+          <p class="parrafo">2. Denunciar ante el Colegio los casos de intrusismo profesional o de ejercicio ilegal de la profesión.</p>
+          <p class="parrafo">3. Pagar puntualmente las cuotas y exacciones, ordinarias o extraordinarias, aprobadas por los órganos del Colegio.</p>
+          <p class="parrafo">4. Observar en su actuación la deontología profesional.</p>
+          <p class="parrafo">5. Someter al visado colegial los trabajos profesionales.</p>
+          <p class="parrafo">6. Respetar los derechos profesionales o corporativos de otros colegiados, evitando la competencia desleal y guardando el debido espíritu de compañerismo que entre ellos debe existir.</p>
+          <p class="parrafo">7. Aceptar lo resuelto en laudo arbitral por el Colegio, cuando hayan sometido al mismo la resolución de conflictos suscitados por motivos profesionales.</p>
+          <p class="parrafo">8. Guardar debido sigilo respecto a las informaciones declaradas confidenciales, de acuerdo con la normativa colegial.</p>
+          <p class="parrafo">9. Cumplir diligentemente la normativa vigente, los presentes Estatutos, normas reglamentarias que los desarrollen, conforme prevé su capítulo VIII, y demás disposiciones emanadas de los órganos de gobierno colegiales.</p>
+          <p class="parrafo">10. Facilitar al Colegio los datos que se precisen para el adecuado funcionamiento de éste, sin que ello pueda dar lugar a injerencia en el libre ejercicio de la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De la organización y funcionamiento</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="seccion">Sección 1.ª Organización general</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 11. Estructura en el ámbito estatal.</p>
+          <p class="parrafo">El Colegio, en su ámbito estatal, se organiza, según lo establecido en los artículos siguientes de esta sección, por medio de:</p>
+          <p class="parrafo_2">a) La Asamblea General.</p>
+          <p class="parrafo">b) El Consejo.</p>
+          <p class="parrafo">c) La Comisión Permanente.</p>
+          <p class="parrafo">d) El Presidente.</p>
+          <p class="parrafo">e) Los Vicepresidentes.</p>
+          <p class="parrafo">f) El Secretario general.</p>
+          <p class="parrafo">g) El Tesorero general.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 12. La Asamblea General.</p>
+          <p class="parrafo">La Asamblea General es el órgano supremo de expresión de la voluntad del Colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 13. Composición.</p>
+          <p class="parrafo">1. La Asamblea General está integrada por todos los colegiados de número y vitalicios, y la preside el Presidente del Colegio, que podrá delegar en un Vicepresidente o en un Decano.</p>
+          <p class="parrafo">2. Cada asistente a la Asamblea General podrá ostentar, como máximo, la representación de 25 colegiados.</p>
+          <p class="parrafo">3. No obstante lo anterior, los colegiados de una misma zona podrán designar un Delegado expreso para la Asamblea General, al objeto de que pueda ostentar su representación y exponer los problemas propios de la misma.</p>
+          <p class="parrafo">4. Los Delegados nombrados colectivamente por los colegiados de una misma zona podrán representar hasta un máximo de 100 colegiados, siempre que pertenezcan a su ámbito territorial.</p>
+          <p class="parrafo">5. Las representaciones deberán ser acreditadas por certificación del secretario correspondiente, o cualquier otro medio documental válido en derecho, que se determinará en el Reglamento General.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 14. Sesiones.</p>
+          <p class="parrafo">1. La Asamblea General se reunirá en sesión ordinaria, previa convocatoria del Presidente, con dos meses de antelación, una vez cada dos años.</p>
+          <p class="parrafo">2. En sesión extraordinaria podrá reunirse por acuerdo expreso de la Asamblea General o cuando el Presidente la convoque, a propuesta del Consejo o del 5 por 100 de los colegiados, con una antelación mínima de quince días, salvo casos de reconocida urgencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 15. Constitución y adopción de acuerdos.</p>
+          <p class="parrafo">1. La Asamblea General quedará válidamente constituida en primera convocatoria cuando, entre presentes y representados, hubiera mayoría absoluta de los colegiados de número y vitalicios. En segunda convocatoria, que podrá formularse en la misma citación con un intervalo mínimo de media hora, quedará válidamente constituida cualquiera que sea el número de asistentes.</p>
+          <p class="parrafo">2. Los acuerdos se adoptarán por mayoría absoluta, de asistentes y representados, excepto en aquellos asuntos que requieran mayoría cualificada de acuerdo con estos Estatutos.</p>
+          <p class="parrafo">3. Sólo podrá adoptarse acuerdo sobre los asuntos que figuren en el orden del día.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 16. Atribuciones.</p>
+          <p class="parrafo">Son atribuciones de la Asamblea General:</p>
+          <p class="parrafo_2">1. Aprobar el acta de la sesión anterior.</p>
+          <p class="parrafo">2. Aprobar o censurar la gestión del Consejo.</p>
+          <p class="parrafo">3. Aprobar o modificar los Estatutos del Colegio y el Reglamento General.</p>
+          <p class="parrafo">4. Definir las líneas de actuación tanto de carácter general cono económica del Colegio.</p>
+          <p class="parrafo">5. Aprobar los presupuestos generales y sus liquidaciones.</p>
+          <p class="parrafo">6. Aprobar las cuotas ordinarias del Colegio, así como cualquiera otras exacciones colegiales.</p>
+          <p class="parrafo">7. Aprobar o modificar las normas de deontología profesional.</p>
+          <p class="parrafo">8. Decidir sobre las propuestas del Consejo y de los órganos rectores de las zonas.</p>
+          <p class="parrafo">9. Conocer y proclamar el resultado de las elecciones para los cargos electivos del Colegio.</p>
+          <p class="parrafo">10. Aprobar la creación, modificación, fusión o segregación de zonas.</p>
+          <p class="parrafo">11. Cualquier otra facultad que no esté expresamente atribuida a otro órgano colegial.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 17. El Consejo.</p>
+          <p class="parrafo">El Consejo es el órgano que administra, dirige y orienta la actuación del Colegio en el período entre Asambleas y ejerce el control, el asesoramiento y la coordinación de las zonas. Su sede radica en Madrid.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 18. Composición.</p>
+          <p class="parrafo">1. El Consejo está formado por el Presidente del Colegio, que lo presidirá, los Vicepresidentes y los Decanos de las zonas, el Tesorero general y el Secretario general, que actuará como Secretario. Los Decanos podrán delegar su asistencia en otro miembro de su Junta de Gobierno.</p>
+          <p class="parrafo">2. A las sesiones del Consejo podrán asistir, cuando sean convocados al efecto, los Directores de las instituciones, Presidentes de Comités, colegiados y otros, todos ellos con voz pero sin voto.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 19. Sesiones.</p>
+          <p class="parrafo">1. El Consejo se reunirá, en sesión ordinaria, una vez al cuatrimestre, y en sesión extraordinaria, cuando lo solicite el Presidente, la cuarta parte de los consejeros o la Comisión Permanente.</p>
+          <p class="parrafo">2. Será convocado por el Presidente con una antelación mínima de quince días, con remisión del orden del día.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 20. Constitución y adopción de acuerdos.</p>
+          <p class="parrafo">1. El Consejo se considerará válidamente constituido, en primera convocatoria, si estuviesen presentes, al menos, la mitad de los consejeros, pudiendo celebrar sesión, en segunda convocatoria, una vez transcurrido el plazo de media hora, con la asistencia de un mínimo de seis de sus miembros, entre los que debe figurar el Presidente o Vicepresidente en quien delegue y el secretario o quien reglamentariamente le sustituya.</p>
+          <p class="parrafo">2. Los acuerdos se adoptarán por mayoría absoluta de los presentes. En caso de empate, decidirá el voto de calidad del Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 21. Funciones.</p>
+          <p class="parrafo">Son funciones del Consejo:</p>
+          <p class="parrafo_2">1. Elaborar los Estatutos del Colegio y los Reglamentos Generales, así como los proyectos de modificación.</p>
+          <p class="parrafo">2. Informar los Reglamentos propios de las zonas.</p>
+          <p class="parrafo">3. Resolver los recursos que se interpongan contra resoluciones de la Comisión Permanente o de los órganos propios de las zonas.</p>
+          <p class="parrafo">4. Adoptar las medidas necesarias para el correcto funcionamiento y la actuación coordinada de las zonas, y entre éstas y el Consejo, dirimir los conflictos que surjan entre ellas, velar por que cumplan las normas legales y estatutarias, y asesorar las actuaciones de sus órganos rectores.</p>
+          <p class="parrafo">5. Elaborar los informes que deba emitir el Colegio, por disposición legal o a requerimiento de cualquier autoridad administrativa o judicial.</p>
+          <p class="parrafo">6. Recaudar las cuotas ordinarias del Colegio.</p>
+          <p class="parrafo">7. Aprobar el presupuesto bienal del Consejo General y la liquidación del mismo para su ratificación en la Asamblea General.</p>
+          <p class="parrafo">8. Aprobar las cuentas anuales del Colegio.</p>
+          <p class="parrafo">9. Elaborar el presupuesto del Colegio, recabando los de las zonas a efectos de someterlos a la aprobación de la Asamblea General.</p>
+          <p class="parrafo">10. Organizar, en el ámbito estatal, servicios de asistencia, previsión, formación, de acceso al mercado de trabajo, colaborando con la Administración en lo que resulte necesario.</p>
+          <p class="parrafo">11. Acordar la convocatoria de Asamblea General de carácter ordinario y con carácter extraordinario, con los votos favorables de los dos tercios de los consejeros, aprobando el orden del día de la misma.</p>
+          <p class="parrafo">12. Orientar, dirigir y gestionar la actuación del Colegio para el cumplimiento de sus fines, pudiendo acordar la adquisición, gravamen y enajenación de bienes muebles o inmuebles y celebrar toda clase de contratos, dando cuenta a la Asamblea General.</p>
+          <p class="parrafo">13. Conocer y ratificar los acuerdos de la Comisión Permanente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 22. La Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente está integrada por el Presidente, los Vicepresidentes y tres consejeros elegidos por el Consejo entre sus miembros, el Tesorero general y el Secretario general, que actuará como Secretario. Quedará legalmente constituida cuando asista, al menos, la mitad de sus miembros, entre los que debe figurar el Presidente o un Vicepresidente y el Secretario general o quien reglamentariamente le sustituya.</p>
+          <p class="parrafo">2. Se reunirá con carácter ordinario, una vez cada dos meses, y con carácter extraordinario, cuando lo disponga el Presidente o a solicitud de tres de sus miembros. La convocatoria, que se remitirá con una antelación mínima de quince días, salvo casos de urgencia, la suscribirá el Presidente, que fijará el orden del día.</p>
+          <p class="parrafo">3. La Comisión Permanente dirige y gestiona los asuntos ordinarios de gobierno del Colegio y desarrolla las funciones propias del Consejo, entre sesiones de éste, sin perjuicio de su ulterior ratificación. En particular, le corresponde:</p>
+          <p class="parrafo_2">a) Adoptar las medidas, ejercer las acciones o interponer los recursos que estime procedentes, en defensa de los intereses del Colegio o de la profesión, dando cuenta al Consejo. Cuando estas actuaciones afecten exclusivamente a una zona, se llevarán a efecto de forma coordinada con la misma.</p>
+          <p class="parrafo">b) Administrar y ejercitar las acciones que procedan en defensa de los bienes del Colegio.</p>
+          <p class="parrafo">c) Designar, en caso de litigio, a los abogados y procuradores que hayan de defender y representar al Colegio, facultando al Presidente para el otorgamiento de los correspondientes poderes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 23. El Presidente.</p>
+          <p class="parrafo">Corresponden al Presidente las siguientes atribuciones:</p>
+          <p class="parrafo_2">1. Ostentar la representación legal del Colegio ante todo tipo de organismos o de los particulares, ejerciendo las facultades que le otorgue el Consejo.</p>
+          <p class="parrafo">2. Presidir la Asamblea General, el Consejo y la Comisión Permanente, convocando sus reuniones, dirigiendo los debates y pudiendo ejercer el voto de calidad. Es Presidente nato de cualquier otro órgano, institución o Comité colegial.</p>
+          <p class="parrafo">3. Decidir, en caso de urgencia, previa consulta con la zona afectada, las actuaciones precisas, presentación de escritos de alegaciones o recursos de cualquier índole, dando cuenta a la Comisión Permanente y al Consejo.</p>
+          <p class="parrafo">4. Dirigir y coordinar la acción de la Comisión Permanente, del Consejo y de los diferentes órganos y servicios del Colegio.</p>
+          <p class="parrafo">5. Fijar el orden del día del Consejo y de la Comisión Permanente.</p>
+          <p class="parrafo">6. Velar por el cumplimiento de los acuerdos de los diferentes órganos colegiales.</p>
+          <p class="parrafo">7. Convocar las elecciones para cargos del Consejo.</p>
+          <p class="parrafo">8. Autorizar con su firma las actas de las reuniones de los diferentes órganos colegiales que presida, visar las certificaciones que expida el Secretario general, los libramientos u órdenes de pago, los informes que se remitan a autoridades, organismos y corporaciones y cualquier otro documento de carácter oficial.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 24. Los Vicepresidentes.</p>
+          <p class="parrafo">Los Vicepresidentes, con un máximo de tres, ejercerán las funciones que les delegue el Presidente y le sustituirán, por su orden, en caso de ausencia, enfermedad, suspensión, dimisión, cese o fallecimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 25. El Secretario general.</p>
+          <p class="parrafo">Corresponde al Secretario:</p>
+          <p class="parrafo_2">1. Levantar acta de las sesiones de los diferentes órganos colegiales y llevar y custodiar el libro de actas.</p>
+          <p class="parrafo">2. Ejecutar los acuerdos del Consejo y la Comisión Permanente.</p>
+          <p class="parrafo">3. Librar certificaciones.</p>
+          <p class="parrafo">4. Custodiar el archivo de documentos del Colegio y llevar el Registro General, Censo de Colegiados y Libro de Distinciones del Colegio.</p>
+          <p class="parrafo">5. Firmar las actuaciones, comunicaciones, notificaciones, correspondencia de trámite y demás documentos administrativos.</p>
+          <p class="parrafo">6. Dar cuenta al Presidente, Consejo y Comisión Permanente de los asuntos propios de sus respectivas competencias.</p>
+          <p class="parrafo">7. Redactar la memoria anual del Colegio.</p>
+          <p class="parrafo">8. Ejercer la autoridad directa sobre el personal administrativo y subalterno que preste servicio en el Consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 26. El Tesorero general.</p>
+          <p class="parrafo">Será misión del Tesorero general:</p>
+          <p class="parrafo_2">1. Gestionar la recaudación de las cuotas ordinarias de los colegiados, dando cuenta al Consejo de los impagos para que se adopten las medidas que procedan.</p>
+          <p class="parrafo">2. Administrar y custodiar los fondos que correspondan al Consejo.</p>
+          <p class="parrafo">3. Autorizar con su firma, juntamente con el Presidente, los cobros y los pagos.</p>
+          <p class="parrafo">4. Redactar la propuesta de presupuestos del Colegio, recabando los de las zonas para su elevación al Consejo. Informar periódicamente al Consejo de su ejecución.</p>
+          <p class="parrafo">5. Formar la correspondiente cuenta de gastos e ingresos y elevarla al Consejo.</p>
+          <p class="parrafo">6. Llevar los libros de contabilidad exigidos legalmente.</p>
+          <p class="parrafo">7. Redactar la memoria sobre la situación económica del Colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="seccion">Sección 2.ª Organización territorial</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 27. Las zonas.</p>
+          <p class="parrafo">1. El Colegio se organiza territorialmente en zonas, a efectos de la gestión que se les encomiende para el cumplimiento en su ámbito de los fines colegiales.</p>
+          <p class="parrafo">2. Las zonas se delimitarán, denominarán y actuarán según determine el Reglamento General.</p>
+          <p class="parrafo">3. En las zonas que abarquen más de una provincia se designarán Delegados provinciales. En las insulares podrán designarse Delegados en las islas.</p>
+          <p class="parrafo">4. Los colegiados quedan adscritos a la zona que les corresponda, por razón de su residencia o lugar de trabajo, y los residentes en el extranjero a la que elijan, sin que ello implique requisito especial alguno para ejercer la profesión en cualquier otro territorio del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 28. Sede.</p>
+          <p class="parrafo">1. Las zonas tendrán su sede según determine el Reglamento General.</p>
+          <p class="parrafo">2. Las sedes de las zonas dispondrán de local y personal para el desarrollo de sus competencias y servicios, siguiendo criterios de eficacia y rentabilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 29. Creación, modificación, absorción y segregación.</p>
+          <p class="parrafo">La creación, modificación, absorción o segregación de zonas deberá ser aprobada por la Asamblea General, sin perjuicio de los requisitos y trámites que establezca el Reglamento General.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 30. Organización de las zonas.</p>
+          <p class="parrafo">Las zonas en su ámbito territorial se organizan según lo establecido en los artículos siguientes de esta sección, por medio de:</p>
+          <p class="parrafo_2">a) La Asamblea Territorial.</p>
+          <p class="parrafo">b) La Junta de Gobierno.</p>
+          <p class="parrafo">c) El Decano.</p>
+          <p class="parrafo">d) El Vicedecano.</p>
+          <p class="parrafo">e) Los Delegados provinciales.</p>
+          <p class="parrafo">f) El Secretario.</p>
+          <p class="parrafo">g) El Tesorero.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 31. Asamblea Territorial.</p>
+          <p class="parrafo">La Asamblea Territorial constituye el cauce indispensable de expresión colegial dentro de la zona. Adecuará su actuación a lo dispuesto en estos Estatutos y en el Reglamento General.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 32. Composición.</p>
+          <p class="parrafo">1. La Asamblea Territorial está compuesta por todos los colegiados pertenecientes a su zona. La preside el Decano, acompañado por los miembros de la Junta de Gobierno.</p>
+          <p class="parrafo">2. Cada asistente podrá ostentar, como máximo, la representación de 20 colegiados, de conformidad con lo señalado para la Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 33. Sesiones.</p>
+          <p class="parrafo">1. La Asamblea Territorial se reunirá, con carácter ordinario, previa convocatoria del Decano, en el primer trimestre de cada año natural, para aprobar, en su caso, el presupuesto, su liquidación y la renovación de cargos de la Junta de Gobierno, si procede.</p>
+          <p class="parrafo">2. Con carácter extraordinario se reunirá, previa convocatoria del Decano, en virtud de acuerdo de la Junta de Gobierno o a petición de un número no inferior al 10 por 100 de los colegiados de la zona respectiva.</p>
+          <p class="parrafo">3. No podrá adoptarse acuerdo alguno que no figure en el orden del día.</p>
+          <p class="parrafo">4. La convocatoria deberá notificarse, al menos, con quince días de antelación.</p>
+          <p class="parrafo">5. La Asamblea Territorial quedará válidamente constituida con el quórum señalado para la Asamblea General.</p>
+          <p class="parrafo">6. El acta se remitirá al Consejo para su conocimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 34. Atribuciones.</p>
+          <p class="parrafo">Son atribuciones de la Asamblea Territorial:</p>
+          <p class="parrafo_2">1. La aprobación del acta de la sesión anterior.</p>
+          <p class="parrafo">2. La formulación de propuestas sobre normas colegiales que le afecten, dirigiéndolas a la Asamblea General.</p>
+          <p class="parrafo">3. La aprobación del presupuesto bienal y liquidación de las cuentas anuales.</p>
+          <p class="parrafo">4. La aprobación o censura de la gestión de la Junta de Gobierno.</p>
+          <p class="parrafo">5. La implantación, modificación o supresión de servicios corporativos en su ámbito territorial.</p>
+          <p class="parrafo">6. Aprobación de cuotas o derramas extraordinarias en su ámbito territorial.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 35. Junta de Gobierno.</p>
+          <p class="parrafo">Al frente de cada zona habrá una Junta de Gobierno, formada por el Decano, el Vicedecano, el Secretario, el Tesorero y los Delegados provinciales.</p>
+          <p class="parrafo">En el Reglamento General podrá ampliarse el número de miembros, estableciendo las Vocalías o Delegaciones que se estimen convenientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 36. Convocatoria y sesiones.</p>
+          <p class="parrafo">1. La convocatoria de la Junta de Gobierno se hará por el Decano, que fijará el orden del día con, al menos, quince días de antelación, salvo casos de extraordinaria urgencia, en que se comunicará con el tiempo imprescindible para la concurrencia.</p>
+          <p class="parrafo">2. Se reunirá en sesión ordinaria, al menos, una vez al trimestre y con carácter extraordinario cuando lo acuerde el Decano o a petición de, al menos, la tercera parte de sus miembros.</p>
+          <p class="parrafo_2">No podrá adoptarse acuerdo sobre asuntos que no figuren en el orden del día, salvo casos de extraordinaria urgencia, apreciada por los dos tercios de sus miembros.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 37. Funciones.</p>
+          <p class="parrafo_2">Corresponden a la Junta de Gobierno las siguientes funciones, dentro de su ámbito territorial:</p>
+          <p class="parrafo_2">1. Elaborar, de conformidad con la normativa de la Comunidad Autónoma y en el marco de estos Estatutos y del Reglamento General, las normas reglamentarias propias de su zona.</p>
+          <p class="parrafo">2. Organizar, en su ámbito territorial, servicios de asistencia, previsión, formación, de acceso al mercado de trabajo, colaborando con la Administración en lo que fuera necesario.</p>
+          <p class="parrafo">3. Facilitar a los colegiados el ejercicio de la profesión, procurar la armonía y colaboración entre ellos, y adoptar las medidas conducentes a evitar la competencia desleal.</p>
+          <p class="parrafo">4. Intervenir, en vía de conciliación o arbitraje, en las cuestiones que, por motivos profesionales, se susciten entre los colegiados.</p>
+          <p class="parrafo">5. Adoptar las medidas conducentes a evitar el intrusismo profesional.</p>
+          <p class="parrafo">6. Exigir a los colegiados el visado de los trabajos profesionales que realicen y organizar los servicios oportunos para su otorgamiento. El visado sólo podrá denegarse por la falta de los requisitos señalados en el artículo 3.10 de estos Estatutos o por no hallarse el colegiado al corriente del pago de las cuotas, y suspenderse por un plazo máximo de tres meses, cuando ello sea imprescindible para la comprobación o subsanación de aquéllos.</p>
+          <p class="parrafo">7. Gestionar y administrar el cobro de los honorarios profesionales y de los derechos de visado de acuerdo con lo establecido en estos Estatutos.</p>
+          <p class="parrafo">8. Elaborar, en su ámbito territorial, los informes que deba emitir el Colegio, por disposición legal o a requerimiento de cualquier autoridad, administrativa o judicial.</p>
+          <p class="parrafo">9. Elaborar el presupuesto, así como la liquidación de los presupuestos anteriores y elevarlos a la Asamblea Territorial.</p>
+          <p class="parrafo">10. Acordar la convocatoria de Asamblea Territorial con el voto favorable de, al menos, la mitad de sus miembros.</p>
+          <p class="parrafo">11. Fijar el orden del día de la Asamblea Territorial.</p>
+          <p class="parrafo">12. Interpretar y vigilar el cumplimiento de los acuerdos de la Asamblea Territorial.</p>
+          <p class="parrafo">13. En general, el cumplimiento de los fines y funciones del Colegio en su ámbito territorial.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 38. Constitución.</p>
+          <p class="parrafo">1. Se considerará válidamente constituida la Junta de Gobierno, en primera convocatoria, si estuviesen presentes, al menos, la mitad de sus miembros, pudiendo celebrar sesión, en segunda convocatoria, una vez transcurrido el plazo de media hora, con la asistencia de un mínimo de tres de sus miembros, entre los que deben figurar el Decano o el Vicedecano y el Secretario o quien legalmente le sustituya.</p>
+          <p class="parrafo">2. Los acuerdos serán adoptados por mayoría absoluta de asistentes, resolviendo el Decano, en caso de empate, con voto de calidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 39. Decano.</p>
+          <p class="parrafo">El Decano tiene las siguientes atribuciones:</p>
+          <p class="parrafo_2">1. Ostentar la representación legal del Colegio dentro de su ámbito territorial, pudiendo ejercitar las acciones, recursos o reclamaciones que sean precisas para su defensa o de los fines y funciones propios de la profesión, cumpliendo lo acordado por la Junta de Gobierno o, en caso de urgencia, adoptando las medidas oportunas, dando cuenta a ésta.</p>
+          <p class="parrafo">2. Convocar las reuniones de la Asamblea Territorial y de la Junta de Gobierno, fijando el orden del día de esta última.</p>
+          <p class="parrafo">3. Presidir las reuniones de la Asamblea Territorial y de la Junta de Gobierno.</p>
+          <p class="parrafo">4. Decidir, en caso de urgencia, las actuaciones precisas, presentación de escritos de alegaciones o recursos de cualquier índole, dando cuenta a la Junta de Gobierno.</p>
+          <p class="parrafo">5. Dirigir y coordinar la acción de la Junta de Gobierno y Delegaciones de la zona.</p>
+          <p class="parrafo">6. Velar por el cumplimiento de los acuerdos de los órganos colegiales en su ámbito territorial.</p>
+          <p class="parrafo">7. Convocar las elecciones de la Junta de Gobierno de la zona.</p>
+          <p class="parrafo">8. Autorizar con su firma las actas de las reuniones de los diferentes órganos colegiales de ámbito territorial, visar las certificaciones que expida el secretario, libramientos u órdenes de pago, los informes que se emitan y, en general, cualquier otro documento oficial que deba surtir efecto en su ámbito territorial.</p>
+          <p class="parrafo">9. Dar posesión a los miembros de la Junta de Gobierno y extender las correspondientes credenciales.</p>
+          <p class="parrafo">10. Representar jurídicamente al Colegio en su zona, con poderes conferidos por el Consejo para comprar, vender, enajenar y cualquier otro acto de disposición. Asimismo, podrán abrir cuentas bancarias y realizar cualquier acto de administración respecto a los bienes propios del Colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 40. Vicedecano.</p>
+          <p class="parrafo">El Vicedecano ejercerá las funciones que le delegue el Decano y le sustituirá en caso de ausencia, enfermedad, suspensión, dimisión, cese o fallecimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 41. Secretario.</p>
+          <p class="parrafo">Corresponde al Secretario desarrollar, en su ámbito territorial, las funciones propias del Secretario general.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 42. Tesorero.</p>
+          <p class="parrafo">Será misión del Tesorero desempeñar, en la esfera territorial, los mismos cometidos que desarrolla el Tesorero general, salvo la de gestionar la recaudación de cuotas ordinarias, dando cuenta a la Junta de Gobierno. Asimismo, llevará y custodiará el registro de visados, gestionará el cobro de los mismos y de los honorarios profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-5" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 43. Delegado provincial.</p>
+          <p class="parrafo">En las provincias que no sean sede de zona habrá un Delegado provincial, que formará parte de la Junta de Gobierno respectiva y será representante del Colegio en la provincia.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="seccion">Sección 3.ª Organización administrativa</p>
+        </version>
+      </bloque>
+      <bloque id="a4-6" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 44. Jefatura de personal.</p>
+          <p class="parrafo">1. El Secretario general ostenta la jefatura de personal, de los servicios administrativos dependientes del Consejo, desarrollando la dirección de los mismos. El personal de los servicios generales depende orgánica y funcionalmente del Secretario general, que coordina y ejerce la gerencia de su organización y actividad.</p>
+          <p class="parrafo">2. Idénticas funciones desarrollarán los secretarios de la zonas en su ámbito de actuación.</p>
+          <p class="parrafo">3. En el Reglamento General y, según los acuerdos que al efecto se adopten por los diversos órganos colegiales, se desarrollará la estructura administrativa de los diferentes servicios.</p>
+        </version>
+      </bloque>
+      <bloque id="s4" tipo="encabezado" titulo="Sección 4">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="seccion">Sección 4.ª Elecciones y referéndum</p>
+        </version>
+      </bloque>
+      <bloque id="a4-7" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 45. Elección de cargos colegiados.</p>
+          <p class="parrafo">1. Serán elegidos democráticamente, mediante elecciones generales libres, por sufragio directo, igual, secreto y universal, y por mandatos de cuatro años:</p>
+          <p class="parrafo_2">a) El Presidente, Vicepresidente, Secretario general y Tesorero general del Colegio.</p>
+          <p class="parrafo">b) Los Decanos, Vicedecanos, Secretarios, Tesoreros y Delegados provinciales de las zonas.</p>
+          <p class="parrafo_2">2. El ejercicio de los cargos anteriores será incompatible con cualquier otro cargo electivo del Colegio.</p>
+          <p class="parrafo">3. Son elegibles todos los colegiados de número.</p>
+          <p class="parrafo">4. En el Reglamento General se regulará el desarrollo de las elecciones mencionadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-8" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 46. Referéndum.</p>
+          <p class="parrafo">Podrán someterse a referéndum aquellos asuntos que determinen el Consejo General o las Juntas de Gobierno, por acuerdo adoptado con los votos favorables de los dos tercios de sus miembros.</p>
+          <p class="parrafo">En el Reglamento General se establecerán las normas para el desarrollo y difusión de sus resultados.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen disciplinario</p>
+        </version>
+      </bloque>
+      <bloque id="a4-9" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 47. Régimen de las infracciones y sanciones.</p>
+          <p class="parrafo">1. El ejercicio profesional supone el sometimiento al régimen disciplinario establecido en estos Estatutos y las normas reglamentarias que los desarrollan.</p>
+          <p class="parrafo">2. Sólo tendrán la condición de faltas disciplinarias las infracciones de los deberes colegiales expresamente tipificadas en estos Estatutos.</p>
+          <p class="parrafo">3. No podrá imponerse sanción alguna que no esté debidamente tipificada en estos Estatutos ni sin la previa instrucción de expediente disciplinario, con audiencia del interesado. En el Reglamento General se establecerán las reglas necesarias para designación de instructor, tramitación del expediente y contenido de la resolución definitiva.</p>
+          <p class="parrafo">4. En la imposición de sanciones se deberá guardar la debida adecuación entre la gravedad del hecho y la sanción aplicada, considerándose especialmente los criterios de: existencia de intencionalidad, naturaleza de los perjuicios causados y la reincidencia, por comisión en el término de un año de más de una infracción de la misma naturaleza y haya sido declarada por resolución firme.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-10" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 48. Faltas.</p>
+          <p class="parrafo">1. Las faltas que puedan dar origen a sanción disciplinaria se clasifican en muy graves, graves y leves.</p>
+          <p class="parrafo">2. Son faltas muy graves:</p>
+          <p class="parrafo_2">a) El ejercicio profesional cuando concurriera causa de incompatibilidad, inhabilitación o suspensión, de acuerdo con lo establecido en estos Estatutos.</p>
+          <p class="parrafo">b) Los actos y omisiones que constituyan ofensa grave a la dignidad de la profesión o vulneren manifiestamente las reglas éticas y deontológicas que la rigen, establecidas en estos Estatutos.</p>
+          <p class="parrafo">c) Desempeño de cargos colegiales con infidelidad.</p>
+          <p class="parrafo">d) Comisión de delitos, en cualquier grado de participación, como consecuencia del ejercicio de la profesión, siempre que hubiera recaído sentencia judicial firme.</p>
+          <p class="parrafo">e) La constitución de asociaciones o pertenencia a ellas, que tengan como fines o realicen funciones que sean propias de los Colegios y la realización de actividades de esta índole.</p>
+          <p class="parrafo">f) Favorecer, cooperar o encubrir el intrusismo profesional en el ámbito propio del Colegio.</p>
+          <p class="parrafo">g) La usurpación de trabajos profesionales realizados por otros colegiados.</p>
+          <p class="parrafo_2">3. Son faltas graves:</p>
+          <p class="parrafo_2">a) El incumplimiento de las normas estatutarias o de los acuerdos adoptados por los órganos de gobierno colegiales.</p>
+          <p class="parrafo">b) Desempeño de cargos colegiales con grave negligencia.</p>
+          <p class="parrafo">c) La falta de respeto, por acción u omisión, a los que ocupan cargos electivos, cuando actúan en el ejercicio de sus funciones.</p>
+          <p class="parrafo">d) Los actos de desconsideración manifiesta hacia otros colegiados en el ejercicio de la actividad profesional.</p>
+          <p class="parrafo">e) Los actos realizados en el ejercicio de la profesión que constituyan competencia desleal declarada por resolución de la jurisdicción competente.</p>
+          <p class="parrafo">f) El ejercicio profesional bajo el influjo de bebidas alcohólicas, drogas tóxicas, estupefacientes o sustancias psicotrópicas.</p>
+          <p class="parrafo">g) El impago de las cuotas colegiales de forma reiterada.</p>
+          <p class="parrafo_2">4. Son faltas leves:</p>
+          <p class="parrafo_2">a) La falta de respeto a los que ocupan cargos electivos o a otros colegiados, cuando no constituya falta muy grave o grave.</p>
+          <p class="parrafo">b) La negligencia en el cumplimiento de las normas estatutarias.</p>
+          <p class="parrafo">c) La infracción leve de los deberes profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-11" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 49. Sanciones.</p>
+          <p class="parrafo">Las sanciones que pueden imponerse son:</p>
+          <p class="parrafo_2">1. Por faltas muy graves:</p>
+          <p class="parrafo_2">a) Suspensión del ejercicio profesional por un plazo superior a tres meses e inferior a tres años.</p>
+          <p class="parrafo">b) Expulsión del Colegio.</p>
+          <p class="parrafo_2">2. Por faltas graves: suspensión del ejercicio profesional por plazo no superior a tres meses.</p>
+          <p class="parrafo">3. Por faltas leves: apercibimiento por escrito.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-2" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 50. Órganos competentes.</p>
+          <p class="parrafo">Son órganos competentes para imponer sanciones:</p>
+          <p class="parrafo_2">a) Las Juntas de Gobierno Territoriales para las faltas leves.</p>
+          <p class="parrafo">b) El Consejo para las faltas graves y muy graves.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-3" tipo="precepto" titulo="Artículo 51">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 51. Prescripción y cancelación de faltas y sanciones.</p>
+          <p class="parrafo">1. Las faltas prescribirán, si son leves, a los tres meses; las graves, al año, y las muy graves, a los dos años, desde el día en que se hubieran cometido; el plazo de prescripción de las sanciones comenzará a contarse desde el día siguiente a aquel en que adquieran firmeza las resoluciones que las hubieran impuesto.</p>
+          <p class="parrafo">2. Los sancionados podrán pedir la cancelación de las sanciones, una vez transcurridos los siguientes plazos, contados desde su cumplimiento:</p>
+          <p class="parrafo_2">a) A los seis meses, si fuese por falta leve.</p>
+          <p class="parrafo">b) A los dos años, si fuese por falta grave.</p>
+          <p class="parrafo">c) A los cuatro años, si fuese por falta muy grave, excepto el caso del inciso siguiente.</p>
+          <p class="parrafo">d) A los cinco años, si la sanción fuera por expulsión.</p>
+          <p class="parrafo_2">La cancelación se solicitará al Consejo, que acordará lo procedente, previas las comprobaciones oportunas.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-4" tipo="precepto" titulo="Artículo 52">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 52. Efectos de las sanciones y los recursos.</p>
+          <p class="parrafo">1. Los colegiados sancionados no podrán ocupar ningún cargo colegial en tanto no sea cancelada la sanción.</p>
+          <p class="parrafo">2. Los recursos interpuestos contra sanciones de expulsión del Colegio tendrán siempre carácter suspensivo.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Instituciones del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a5-5" tipo="precepto" titulo="Artículo 53">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 53. Promoción de instituciones.</p>
+          <p class="parrafo">El Colegio puede promover y patrocinar instituciones con personalidad jurídica propia, al amparo de la normativa vigente, con los requisitos y de acuerdo con el procedimiento que se determinen en el Reglamento General.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Régimen económico y financiero</p>
+        </version>
+      </bloque>
+      <bloque id="a5-6" tipo="precepto" titulo="Artículo 54">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 54. Recursos.</p>
+          <p class="parrafo">1. El Colegio deberá contar con los recursos necesarios para atender sus fines y funciones.</p>
+          <p class="parrafo">2. Son recursos ordinarios del Colegio:</p>
+          <p class="parrafo_2">a) Las cuotas que satisfagan los colegiados.</p>
+          <p class="parrafo">b) Los derechos de visados de trabajos profesionales.</p>
+          <p class="parrafo">c) Los beneficios, rentas y rendimientos de toda clase que produzcan los bienes y derechos que integran su patrimonio.</p>
+          <p class="parrafo">d) Las subvenciones, donaciones, herencias y legados de bienes muebles e inmuebles que se otorguen por las diversas Administraciones, corporaciones, entidades públicas o privadas, o por particulares.</p>
+          <p class="parrafo">e) Derechos u honorarios por estudios, informes o dictámenes que emitan los distintos órganos colegiales.</p>
+          <p class="parrafo">f) Derechos por utilización de los servicios que se establezcan para prestaciones singulares o para cumplimiento de fines asistenciales formativos o de ordenación del trabajo profesional.</p>
+          <p class="parrafo">g) Derechos por expedición de certificaciones que, en el ámbito de su actuación, pudiera realizar el Colegio.</p>
+          <p class="parrafo">h) Las cantidades que pueda percibir por cualquier otro concepto no indicado en los apartados anteriores.</p>
+          <p class="parrafo_2">3. Las cuotas ordinarias de los colegiados serán recaudadas, gestionadas y administradas por el Consejo. De estas cuotas detraerá la parte necesaria para su funcionamiento y actividades, distribuyendo el remanente entre las zonas, en la forma que determine el propio Consejo.</p>
+          <p class="parrafo">4. Las cuotas de incorporación o reincorporación que se establezcan serán recaudadas y gestionadas por las zonas.</p>
+          <p class="parrafo">5. Los restantes recursos del Colegio serán recaudados y gestionados por el Consejo o las zonas, según se generen por bienes o derechos que gestionen uno u otras, o se produzcan en su respectivo ámbito territorial.</p>
+          <p class="parrafo">6. El Consejo, previo acuerdo expreso, podrá recabar de las zonas aportaciones de carácter extraordinario para atender necesidades imprevistas y graves.</p>
+          <p class="parrafo">7. La recaudación, gestión y administración de los recursos que ingresen las zonas corresponderán a las Juntas de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-7" tipo="precepto" titulo="Artículo 55">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 55. Presupuestos.</p>
+          <p class="parrafo">1. Los presupuestos generales del Colegio serán de carácter bienal, con separación de cada ejercicio presupuestario anual, se elaborarán según principios de eficacia y economía, incluirán la totalidad de los ingresos y gastos correspondientes al ejercicio económico, y se desglosarán en los capítulos, artículos y partidas que se determinen.</p>
+          <p class="parrafo">2. Las Juntas de Gobierno elaborarán los presupuestos de sus respectivas zonas, que someterán a la aprobación inicial por la Asamblea Territorial y elevarán al Consejo para su tramitación ulterior.</p>
+          <p class="parrafo">3. El Consejo elaborará su propio presupuesto, que someterá, una vez aprobado por el mismo y en unión de los correspondientes a las zonas, a la aprobación de la Asamblea General.</p>
+          <p class="parrafo">4. En los casos en que no se apruebe el presupuesto, quedará automáticamente prorrogado el anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-8" tipo="precepto" titulo="Artículo 56">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 56. Bienes del Colegio.</p>
+          <p class="parrafo">1. El Colegio, como corporación de derecho público, con personalidad jurídica propia, tiene plena capacidad jurídica para adquirir, poseer, vindicar, gravar y enajenar toda clase de bienes muebles o inmuebles.</p>
+          <p class="parrafo">2. Las actuaciones precisas para realización de actos de adquisición, enajenación y gravamen de bienes inmuebles corresponden al Consejo, que podrá delegarlas en las Juntas de Gobierno de las zonas para las que hayan de desarrollarse en su ámbito geográfico.</p>
+          <p class="parrafo">También podrá conferir los apoderamientos oportunos en favor del Presidente, Vicepresidentes o Decanos, para el otorgamiento de los documentos públicos o privados que sean precisos para el ejercicio de los mencionados derechos.</p>
+          <p class="parrafo">Estas facultades se ejercerán sin perjuicio de lo que disponga la normativa sobre Colegios profesionales que establezcan las Comunidades Autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-3" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Régimen jurídico de los actos corporativos</p>
+        </version>
+      </bloque>
+      <bloque id="a5-9" tipo="precepto" titulo="Artículo 57">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 57. De los actos colegiales.</p>
+          <p class="parrafo">1. Las resoluciones adoptadas por los diferentes órganos colegiales, de conformidad con sus respectivas atribuciones, serán de obligado cumplimiento.</p>
+          <p class="parrafo">2. Los acuerdos de órganos colegiados deberán reflejarse en actas y notificarse personalmente, cuando proceda. No podrá adoptarse acuerdo alguno sobre asuntos que no figuren en el orden del día.</p>
+          <p class="parrafo">3. Los actos que supongan denegación de la colegiación, del visado de trabajos profesionales, de peticiones de los colegiados o cualquier otra restricción de derechos serán debidamente motivados.</p>
+          <p class="parrafo">4. Los acuerdos o resoluciones que afecten a derechos o intereses determinados se notificarán a los interesados por el Secretario general o secretarios, con los requisitos y en la forma que establece la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">5. Serán nulos o anulables los actos emanados de los diferentes órganos colegiales que incurran en las infracciones establecidas en los artículos 62 y 63 de la Ley 30/1992.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-10" tipo="precepto" titulo="Artículo 58">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 58. De los recursos.</p>
+          <p class="parrafo">1. Contra los acuerdos y resoluciones de cualquier órgano colegial, salvo los de la Asamblea General y el Consejo, podrá formularse recurso de alzada ante el Consejo, en los plazos para su interposición establecidos en el artículo 115 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. El Consejo deberá resolver en el plazo previsto en el precepto legal citado en el apartado anterior de este artículo, con los efectos dispuestos en el mismo.</p>
+          <p class="parrafo">3. Los acuerdos de la Asamblea General y del Consejo ponen fin a la vía administrativa, pudiendo formularse, con carácter potestativo, recurso de reposición, ante el mismo órgano que los hubiera dictado, en los términos establecidos en los artículos 116 y 117 de la citada Ley 30/1992, o interponer directamente recurso contencioso-administrativo, en tanto los actos recurridos estén sujetos al derecho administrativo.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-4" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Reglamentos del Colegio y de sus instituciones</p>
+        </version>
+      </bloque>
+      <bloque id="a5-11" tipo="precepto" titulo="Artículo 59">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 59. Reglamento General.</p>
+          <p class="parrafo">1. En el marco de lo dispuesto por la Ley de Colegios Profesionales y los presentes Estatutos, y para su desarrollo y aplicación se elaborará un Reglamento General, aplicable en todo el ámbito del Estado español.</p>
+          <p class="parrafo">2. Será elevado por el Consejo, previo informe de las zonas, a la Asamblea General.</p>
+          <p class="parrafo">3. Los mismos trámites y requisitos se exigirán para su modificación o derogación.</p>
+        </version>
+      </bloque>
+      <bloque id="a6-2" tipo="precepto" titulo="Artículo 60">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 60. Reglamentos de las instituciones del Colegio.</p>
+          <p class="parrafo">Las Juntas Directivas de las instituciones podrán elaborar sus propios Reglamentos, que serán sometidos a la aprobación del Consejo. Los mismos trámites regirán para su modificación o derogación.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-5" tipo="encabezado" titulo="CAPÍTULO IX">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Reforma de los Estatutos</p>
+        </version>
+      </bloque>
+      <bloque id="a6-3" tipo="precepto" titulo="Artículo 61">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 61. Procedimiento.</p>
+          <p class="parrafo">1. Podrán instar la modificación de los Estatutos el Consejo o la mayoría de las Juntas de Gobierno, previo debate en las respectivas Asambleas Territoriales.</p>
+          <p class="parrafo">2. Se requerirá el voto de los dos tercios de los presentes y representados en la Asamblea General, para su aprobación.</p>
+        </version>
+      </bloque>
+      <bloque id="cx" tipo="encabezado" titulo="CAPÍTULO X">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="capitulo_num">CAPÍTULO X</p>
+          <p class="capitulo_tit">Disolución del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a6-4" tipo="precepto" titulo="Artículo 62">
+        <version id_norma="BOE-A-2001-4294" fecha_publicacion="20010303" fecha_vigencia="20010304">
+          <p class="articulo">Artículo 62. Procedimiento.</p>
+          <p class="parrafo">1. El Consejo podrá formular la propuesta inicial de fusión, absorción, segregación, cambio de denominación o disolución, mediante acuerdo adoptado por mayoría absoluta de sus miembros.</p>
+          <p class="parrafo">2. La propuesta inicial, una vez adoptada por el Consejo, será cursada para debate en todas las Asambleas Territoriales. A la vista de los acuerdos adoptados, el Consejo formulará, en su caso, nueva propuesta y, si procede, la elevará a la Asamblea General.</p>
+          <p class="parrafo">Para decidir sobre la presentación de esta propuesta a la Administración que sea competente para su aprobación, se convocará Asamblea General extraordinaria, siendo precisos los votos de los dos tercios de los colegiados de número, para promover la disolución.</p>
+          <p class="parrafo">Aprobada la disolución, se nombrará una Comisión liquidadora, integrada por cinco miembros, que resolverá sobre el patrimonio y destino de los resultados.</p>
+          <p class="parrafo"> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

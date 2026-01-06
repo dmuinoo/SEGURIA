@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183825Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-8642</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4810">Ministerio de Justicia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20150703</fecha_disposicion>
+      <numero_oficial>593/2015</numero_oficial>
+      <titulo>Real Decreto 593/2015, de 3 de julio, por el que se regula la declaración de notorio arraigo de las confesiones religiosas en España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20150801</fecha_publicacion>
+      <diario_numero>183</diario_numero>
+      <fecha_vigencia>20150802</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2015/07/03/593</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-8642</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4772">Libertad religiosa</materia>
+        <materia codigo="4983">Ministerio de Justicia</materia>
+        <materia codigo="5703">Procedimiento administrativo</materia>
+        <materia codigo="5970">Registro de Entidades Religiosas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1980-15955</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 7.1 de la Ley Orgánica 7/1980, de 5 de julio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-8642</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">593</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4772"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5703"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5970"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-8642</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">593</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4772"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5703"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5970"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/con/20150801"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 593/2015, de 3 de julio, por el que se regula la declaración de notorio arraigo de las confesiones religiosas en España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 593/2015, de 3 de juliol, pel qual es regula la declaració d'arrelament notori de les confessions religioses a Espanya.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 593/2015, do 3 de xullo, polo que se regula a declaración de notorio arraigamento das confesións relixiosas en España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/con/20150801">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-8642</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">593</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4772"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5703"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5970"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-08-01</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/con/20150801/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 593/2015, de 3 de julio, por el que se regula la declaración de notorio arraigo de las confesiones religiosas en España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/con/20150801"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/07/03/593/con/20150801/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/07/03/593/con/20150801/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="parrafo">La Ley Orgánica 7/1980, de 5 de julio, de Libertad Religiosa, en su artículo 7.1, se refiere a la declaración de notorio arraigo en España de las Iglesias, Confesiones y Comunidades religiosas inscritas en el Registro del Ministerio de Justicia.</p>
+          <p class="parrafo">El procedimiento para la declaración de notorio arraigo que se ha venido aplicando se articulaba mediante la intervención e informe de la Comisión Asesora de Libertad Religiosa, en virtud de lo dispuesto en el artículo 8 de la Ley Orgánica 7/1980, de 5 de julio, y del artículo 3.e) del Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa.</p>
+          <p class="parrafo">Tras la declaración de notorio arraigo en España del Protestantismo (1984), el Judaísmo (1984) y de la Religión Islámica (1989) y la firma de los Acuerdos de cooperación del Estado español con la Federación de Entidades Religiosas Evangélicas de España, la Federación de Comunidades Israelitas de España y la Comisión Islámica de España, aprobados respectivamente por la Ley 24, 25 y 26/1992, de 10 de noviembre, se ha declarado el notorio arraigo en España de la Iglesia de Jesucristo de los Santos de los Últimos Días (2003), de la Iglesia de los Testigos de Jehová (2006), del Budismo (2007) y de la Iglesia Ortodoxa (2010), lo que ha suscitado la necesidad de objetivar las condiciones para su obtención.</p>
+          <p class="parrafo">A esta cuestión intenta responder la regulación contenida en este real decreto estableciendo unos requisitos precisos para obtener la declaración de notorio arraigo en España y un procedimiento público con todas las garantías, con lo que se reduce el margen de la discrecionalidad de la Administración y se aumenta el grado de certidumbre de los solicitantes de esta declaración.</p>
+          <p class="parrafo">La declaración de notorio arraigo debe abarcar unas notas comunes que caractericen a cualquier iglesia, confesión, comunidad religiosa o federación de las mismas que deben conocerse con carácter previo por parte de los diversos grupos religiosos, pero también por parte de la sociedad. Debe permitir acreditar que goza de una presencia estable y acreditada en el tiempo en España mediante su inscripción en el Registro de Entidades Religiosas, o bien en algún país extranjero, pero que en todo caso aporte la nota de estabilidad y permanencia en el tiempo. Asimismo, el arraigo debe asociarse a la presencia activa en la sociedad española y su implantación en el territorio de varias comunidades autónomas y con un número representativo de entidades y lugares de culto inscritos en el Registro de Entidades Religiosas. Igualmente, debe contar con una estructura interna y representación adecuada a su propia organización.</p>
+          <p class="parrafo">El real decreto regula un procedimiento para acreditar tales requisitos que finaliza con una resolución controlable judicialmente, lo que representa un indudable avance en las garantías de los solicitantes. También regula el procedimiento administrativo por el cual puede perderse la condición de notorio arraigo por modificación sustancial de las circunstancias requeridas para la obtención de la misma.</p>
+          <p class="parrafo">En la elaboración de este real decreto se ha tenido en cuenta el informe del Pleno de la Comisión Asesora de Libertad Religiosa, por lo que se ha dado audiencia a las confesiones religiosas que tienen reconocido notorio arraigo en España, a los representantes de la Administración General del Estado y a los vocales de reconocida competencia en el ámbito de la libertad religiosa que forman parte de la Comisión.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Justicia, con la aprobación previa del Ministro de Hacienda y Administraciones Públicas, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 3 de julio de 2015,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este real decreto tiene por objeto regular el procedimiento para la declaración de notorio arraigo de las confesiones religiosas en España, de conformidad con el artículo 7.1 de la Ley Orgánica 7/1980, de 5 de julio, de Libertad Religiosa. Asimismo regula el procedimiento por el cual puede perderse la declaración de notorio arraigo por modificación sustancial de las circunstancias requeridas para la obtención de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">Este real decreto es de aplicación a las Iglesias, Confesiones y Comunidades religiosas, así como a las Federaciones de las mismas, inscritas en el Registro de Entidades Religiosas del Ministerio de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Procedimiento para la declaración de notorio arraigo en España</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 3. Requisitos.</p>
+          <p class="parrafo">Para la declaración de notorio arraigo en España a que se refiere el artículo 7.1 de la Ley Orgánica 7/1980, de 5 de julio, las iglesias, confesiones o comunidades religiosas deberán reunir los requisitos siguientes:</p>
+          <p class="parrafo_2">a) Llevar inscritas en el Registro de Entidades Religiosas treinta años, salvo que la entidad acredite un reconocimiento en el extranjero de, al menos, sesenta años de antigüedad y lleve inscrita en el citado Registro durante un periodo de quince años.</p>
+          <p class="parrafo">b) Acreditar su presencia en, al menos, diez comunidades autónomas y/o ciudades de Ceuta y Melilla.</p>
+          <p class="parrafo">c) Tener 100 inscripciones o anotaciones en el Registro de Entidades Religiosas, entre entes inscribibles y lugares de culto, o un número inferior cuando se trate de entidades o lugares de culto de especial relevancia por su actividad y número de miembros.</p>
+          <p class="parrafo">d) Contar con una estructura y representación adecuada y suficiente para su organización a los efectos de la declaración de notorio arraigo.</p>
+          <p class="parrafo">e) Acreditar su presencia y participación activa en la sociedad española.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 4. Procedimiento de declaración de notorio arraigo.</p>
+          <p class="parrafo">1.<em> </em>El procedimiento se iniciará mediante solicitud de la entidad interesada dirigida al titular de la Subdirección General de Relaciones con las Confesiones, en la que deberán constar los siguientes datos:</p>
+          <p class="parrafo_2">a) Identificación de la entidad solicitante con indicación de su número de inscripción en el Registro de Entidades Religiosas.</p>
+          <p class="parrafo">b) Identificación de los representantes legales de la entidad.</p>
+          <p class="parrafo">c) Memoria explicativa que acredite el cumplimiento de los requisitos mencionados en el artículo anterior.</p>
+          <p class="parrafo">d) Domicilio a efectos de notificaciones.</p>
+          <p class="parrafo_2">2. Si la entidad solicitante formara parte de una federación o existiera un órgano superior inscrito de ámbito nacional, deberán ser estos últimos quienes presenten la solicitud.</p>
+          <p class="parrafo">3. La solicitud, junto con la documentación que deba acompañarse, podrá presentarse en formato y con firma electrónica en el Registro Electrónico del Ministerio de Justicia.</p>
+          <p class="parrafo">4. La instrucción y propuesta de resolución del procedimiento corresponderá a la Subdirección General de Relaciones con las Confesiones.</p>
+          <p class="parrafo">5. Si la solicitud no reúne los requisitos que señala el artículo anterior y los apartados 1 y 2 de este artículo, se requerirá a la entidad solicitante para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistida de su petición, previa resolución que deberá ser dictada en los términos del artículo 42 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">6. El encargado de la instrucción del procedimiento podrá requerir a la entidad solicitante para que aporte la información o la documentación complementaria que considere necesaria para acreditar el cumplimiento de los requisitos establecidos en este real decreto.</p>
+          <p class="parrafo">7. A efectos de la resolución del procedimiento, y de conformidad con lo previsto en el artículo 3.e) del Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa, se solicitará a esta Comisión Asesora que emita informe, que tendrá carácter de preceptivo y no vinculante.</p>
+          <p class="parrafo">8. Instruido el procedimiento, e inmediatamente antes de redactar la propuesta de resolución, se pondrá de manifiesto a la entidad solicitante para que, en un plazo no inferior a diez días ni superior a quince, pueda alegar y presentar los documentos y justificaciones que estime pertinentes.</p>
+          <p class="parrafo">Si antes del vencimiento del plazo la entidad solicitante manifiesta su decisión de no efectuar alegaciones ni aportar nuevos documentos o justificaciones, se tendrá por realizado el trámite.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 5. Resolución.</p>
+          <p class="parrafo">1. El órgano competente para resolver el procedimiento es el Ministro de Justicia, mediante Orden ministerial. En ésta se expresará si se acuerda conforme con el informe de la Comisión Asesora de Libertad Religiosa o si se aparta de él. En el primer caso, se usará la fórmula «de acuerdo con la Comisión Asesora de Libertad Religiosa»; en el segundo, la de «oída la Comisión Asesora de Libertad Religiosa».</p>
+          <p class="parrafo">2. La resolución en la que se declare el notorio arraigo de la confesión religiosa en España se publicará en el «Boletín Oficial del Estado», sin perjuicio de que toda resolución que ponga fin al procedimiento sea debidamente notificada a la entidad solicitante.</p>
+          <p class="parrafo">3. Transcurrido el plazo de seis meses, a partir de la fecha en que la solicitud haya tenido entrada en cualquiera de los Registros del Ministerio de Justicia, si no se hubiese dictado y notificado la resolución, se entenderá estimada, de acuerdo con lo dispuesto en el artículo 43 de la Ley 30/1992, de 26 de noviembre.</p>
+          <p class="parrafo">4. Contra la resolución del procedimiento, que pone fin a la vía administrativa, podrá interponerse recurso potestativo de reposición ante el Ministro de Justicia en los términos establecidos en los artículos 116 y 117 de la Ley 30/1992, de 26 de noviembre, o ser impugnada directamente ante el orden jurisdiccional contencioso-administrativo en los términos establecidos en el artículo 46 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contenciosa-administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 6. Alcance de la declaración de notorio arraigo instado por federaciones.</p>
+          <p class="parrafo">Cuando la solicitud de declaración de notorio arraigo haya sido presentada por una federación de iglesias, confesiones o comunidades religiosas, el notorio arraigo será reconocido a favor de la religión o creencia religiosa, pero los efectos derivados de la declaración serán atribuidos a aquellas entidades que formen parte de la federación como garante de la continuidad del cumplimiento de los requisitos exigidos para su declaración.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Procedimiento para la pérdida de la condición de notorio arraigo en España</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 7. Supuestos de pérdida.</p>
+          <p class="parrafo">La pérdida de la condición de notorio arraigo en España se produce por la modificación sustancial de alguna de las circunstancias requeridas para la obtención de la misma previstas en los apartados b), c), d) y e) del artículo 3.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 8. Procedimiento para la pérdida de notorio arraigo.</p>
+          <p class="parrafo">1. El procedimiento para la pérdida de notorio arraigo se iniciará de oficio por acuerdo del titular de la Dirección General de Cooperación Jurídica Internacional y Relaciones con las Confesiones.</p>
+          <p class="parrafo">2. Con anterioridad al acuerdo de iniciación del procedimiento, se podrá abrir un período de información previa con audiencia al interesado, con el objeto de determinar las circunstancias concretas, su alcance y la conveniencia o no de iniciar el procedimiento.</p>
+          <p class="parrafo">A la vista de lo actuado, el titular de la Dirección General de Cooperación Jurídica Internacional y Relaciones con las Confesiones podrá acordar la iniciación del procedimiento para la pérdida de la condición de notorio arraigo en España.</p>
+          <p class="parrafo">3. La instrucción y propuesta de resolución del procedimiento corresponderá a la Subdirección General de Relaciones con las Confesiones.</p>
+          <p class="parrafo">4. A efectos de la resolución del procedimiento, y de conformidad con lo previsto en el artículo 3.e) del Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa, se solicitará a esta Comisión Asesora que emita informe, que tendrá carácter de preceptivo y no vinculante.</p>
+          <p class="parrafo">5. Instruido el procedimiento, e inmediatamente antes de redactar la propuesta de resolución, se pondrá de manifiesto a la entidad solicitante para que, en un plazo no inferior a diez días ni superior a quince, pueda alegar y presentar los documentos y justificaciones que estime pertinentes.</p>
+          <p class="parrafo">Si antes del vencimiento del plazo la entidad solicitante manifiesta su decisión de no efectuar alegaciones ni aportar nuevos documentos o justificaciones, se tendrá por realizado el trámite.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 9. Resolución.</p>
+          <p class="parrafo">1.<em> </em>El órgano competente para resolver el procedimiento es el Ministro de Justicia, mediante Orden ministerial. En ésta se expresará si se acuerda conforme con el informe de la Comisión Asesora de Libertad Religiosa o si se aparta de él. En el primer caso, se usará la fórmula «de acuerdo con la Comisión Asesora de Libertad Religiosa»; en el segundo, la de «oída la Comisión Asesora de Libertad Religiosa».</p>
+          <p class="parrafo">2. La resolución en la que se declare la pérdida del notorio arraigo de la confesión religiosa en España se publicará en el «Boletín Oficial del Estado», sin perjuicio de que toda resolución que ponga fin al procedimiento sea debidamente notificada a la entidad interesada.</p>
+          <p class="parrafo">3. Transcurrido el plazo de seis meses, a partir de la fecha en que se haya acordado el inicio del procedimiento, sin que se hubiese dictado y notificado la resolución, se producirá la caducidad del procedimiento. La resolución que declare la caducidad ordenará el archivo de las actuaciones, con los efectos previstos en el artículo 92 de la Ley 30/1992, de 26 de noviembre.</p>
+          <p class="parrafo">4. Contra la resolución del procedimiento, que pone fin a la vía administrativa, podrá interponerse recurso potestativo de reposición ante el Ministro de Justicia en los términos establecidos en los artículos 116 y 117 de la Ley 30/1992, de 26 de noviembre, o ser impugnada directamente ante el orden jurisdiccional contencioso-administrativo en los términos establecidos en el artículo 46 de la Ley 29/1998, de 13 de julio.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Artículo 10. Alcance de la pérdida de notorio arraigo.</p>
+          <p class="parrafo">Cuando la solicitud de declaración de notorio arraigo hubiera sido presentada por una federación de iglesias, confesiones o comunidades religiosas, la declaración de pérdida del notorio arraigo será extendida a la religión o creencia religiosa, y los efectos derivados de la declaración serán atribuidos a aquellas entidades que formen parte de la federación.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Disposición adicional única. Comunicación y publicidad electrónica.</p>
+          <p class="parrafo">A fin de dar cumplimiento a la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos, en la solicitud de notorio arraigo así como en la tramitación del procedimiento se promoverá la utilización de los medios electrónicos previstos en la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Disposición transitoria única. Régimen aplicable a las solicitudes en trámite.</p>
+          <p class="parrafo">Las solicitudes para la declaración de notorio arraigo en España que estuvieran en trámite en la fecha de entrada en vigor de este real decreto se regirán por el procedimiento vigente en el momento de su inicio.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Disposición final primera. Normativa supletoria</p>
+          <p class="parrafo">Las disposiciones de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común se aplicarán supletoriamente a lo dispuesto en el presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Disposición final segunda. Titulo competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª<em> </em>de la Constitución,<em> </em>que atribuye al Estado la competencia exclusiva sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de sus derechos y en el cumplimento de los deberes constitucionales.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2015-8642" fecha_publicacion="20150801" fecha_vigencia="20150802">
+          <p class="parrafo_2">Dado en Madrid, el 3 de julio de 2015.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">El Ministro de Justicia,</p>
+          <p class="firma_ministro">RAFAEL CATALÁ POLO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

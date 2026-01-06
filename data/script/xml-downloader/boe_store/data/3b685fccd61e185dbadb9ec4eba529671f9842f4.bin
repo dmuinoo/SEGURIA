@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T181228Z</fecha_actualizacion>
+      <identificador>BOE-A-2014-7016</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4220">Ministerio de Educación, Cultura y Deporte</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20140625</fecha_disposicion>
+      <numero_oficial>ECD/1152/2014</numero_oficial>
+      <titulo>Orden ECD/1152/2014, de 25 de junio, por la que se establecen las normas de acceso a la Biblioteca Nacional de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20140704</fecha_publicacion>
+      <diario_numero>162</diario_numero>
+      <fecha_vigencia>20140705</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2014/06/25/ecd1152</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2014-7016</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="35">Acceso a la información</materia>
+        <materia codigo="489">Biblioteca Nacional</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2005-728</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden CUL/4486/2004, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12534</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 62 de la Ley 16/1985, de 25 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2022-6279</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 2 a 6 y SE SUPRIME el art. 7, por Orden CUD/330/2022, de 24 de marzo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-7016</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-25</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecd1152</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/35"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-7016</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecd1152</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/35"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20220416"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20140704"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden ECD/1152/2014, de 25 de junio, por la que se establecen las normas de acceso a la Biblioteca Nacional de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20220416">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-7016</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecd1152</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/35"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20220416/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden ECD/1152/2014, de 25 de junio, por la que se establecen las normas de acceso a la Biblioteca Nacional de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20220416"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20220416/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20220416/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20140704">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-7016</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecd1152</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/35"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20140704/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden ECD/1152/2014, de 25 de junio, por la que se establecen las normas de acceso a la Biblioteca Nacional de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20140704"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20140704/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2014/06/25/ecd1152/con/20140704/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="parrafo">La Biblioteca Nacional de España tiene como misión primordial la conservación de sus fondos, así como difundir y facilitar el acceso a los mismos. El cumplimiento eficaz de esta función requiere la regulación del derecho de acceso para la consulta de sus fondos y para la utilización de sus servicios por razones de información, trabajo e investigación.</p>
+          <p class="parrafo">Las normas de acceso a la Biblioteca Nacional de España pretenden facilitar el acceso a los fondos de toda persona que necesite consultarlos, ya sea porque esté llevando a cabo una investigación, porque esté realizando un trabajo vinculado a su actividad profesional o, en última instancia, porque necesite hacer una consulta determinada.</p>
+          <p class="parrafo">Así la Biblioteca Nacional de España ofrece su potencialidad informativa a colectivos profesionales de los más diversos ámbitos, satisfaciendo, mediante un sencillo trámite de acceso, una gran demanda de solicitudes para consultar o investigar.</p>
+          <p class="parrafo">Todo ello sin perder de vista la índole que caracteriza a las Bibliotecas Nacionales de todo el mundo que por la naturaleza de sus fondos y sus funciones, son esencialmente bibliotecas de investigación y también centros de «último recurso».</p>
+          <p class="parrafo">Con respecto a la orden vigente, que mediante la presente se pretende derogar, se ha procedido a la armonización en la duración de los carnés dotándolos de una validez de tres años frente a la anterior que llegaba a cinco años en el caso del carné de investigador.</p>
+          <p class="parrafo">Asimismo cambia, a los efectos de esta orden, el ámbito temporal de lo que se considera como «fondo moderno» pasando a considerarse como tal aquellas obras editadas a partir de 1 de enero de 1958, en vez de 1931 a que se refiere la Orden CUL/4486/2004, de 30 de diciembre, por la que se establecen las normas de acceso a la Biblioteca Nacional, modificada por la Orden CUL/1628/2006, de 22 de mayo. Dicho cambio radica, según se observa en el preámbulo de la Ley 23/2011, de 29 de julio, de depósito legal, en la publicación del Decreto de 23 de diciembre de 1957 (ya derogado) que amplió la variedad de los materiales sujetos al depósito legal y previó la incorporación de otros recursos entonces inexistentes.</p>
+          <p class="parrafo">Por último se ha ampliado la obtención del carné de documentación bibliotecaria al colectivo de los profesionales de museos o a quienes cursen estudios en dicha área. Dicho carné prevé el uso del servicio de préstamo domiciliario para los poseedores del mismo.</p>
+          <p class="parrafo">De ahí que, por razones de seguridad y conservación, las normas reguladoras de este derecho de acceso a la Biblioteca Nacional de España se establecen teniendo en cuenta las necesarias restricciones exigibles en orden a la conservación de los bienes en ella custodiados, previstas en el art. 62 de la Ley 16/1985, de 25 de junio, de Patrimonio Histórico Español. En este sentido, la regulación contenida en la presente Orden viene a sustituir a la recogida en la Orden CUL/4486/2004, de 30 de diciembre, por la que se establecen las normas de acceso a la Biblioteca Nacional, modificada por la Orden CUL/1628/2006, de 22 de mayo.</p>
+          <p class="parrafo">En su virtud, he tenido a bien disponer:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La autorización de acceso a las dependencias de la Biblioteca Nacional de España para la consulta de sus fondos y utilización de los servicios por ella prestados se regirá por las normas de acceso que en esta orden se establecen.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 2. Acceso general a los servicios de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">El Museo y las exposiciones de la Biblioteca, así como el Servicio de Información General son de libre acceso, sin perjuicio de que en caso necesario pueda ser exigida la presentación del documento nacional de identidad, pasaporte o tarjeta de identidad de otros países.</p>
+          <p class="parrafo">Para acceder al resto de los servicios, salas y fondos de la Biblioteca Nacional de España, a los efectos de consulta e investigación, será necesario estar en posesión del correspondiente carné expedido por la propia Biblioteca.</p>
+        </version>
+        <version id_norma="BOE-A-2022-6279" fecha_publicacion="20220416" fecha_vigencia="20220417">
+          <p class="articulo">Artículo 2. Acceso general a los servicios de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">El Museo, las exposiciones y la Sección de Información General y Carnés de la Biblioteca son de libre acceso, sin perjuicio de que en caso necesario pueda ser exigida la presentación del Documento Nacional de Identidad, pasaporte o tarjeta de identidad de otros países; así como las medidas de control de seguridad para personas y objetos personales.</p>
+          <p class="parrafo">Para acceder al resto de los servicios, salas y fondos de la Biblioteca Nacional de España, a los efectos de consulta e investigación, será necesario estar en posesión del correspondiente carné expedido por la propia Biblioteca.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el párrafo primero por el art. único.1 de la Orden CUD/330/2022, de 24 de marzo. <a class="refPost">Ref. BOE-A-2022-6279</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 3. Carné de Lector.</p>
+          <p class="parrafo">1. El Carné de Lector permitirá el acceso a las salas de lectura de la Biblioteca Nacional de España para la consulta de su fondo moderno, excepto aquel cuya consulta o utilización se halle restringida por razones de seguridad o conservación.</p>
+          <p class="parrafo">2. Se considera «fondo moderno», a los efectos de esta orden, el integrado por originales de libros, publicaciones periódicas y otros materiales impresos editados a partir del 1 de enero 1958.</p>
+        </version>
+        <version id_norma="BOE-A-2022-6279" fecha_publicacion="20220416" fecha_vigencia="20220417">
+          <p class="articulo">Artículo 3. Carné de Lector.</p>
+          <p class="parrafo">1. El Carné de Lector permitirá el acceso a las salas de lectura de la Biblioteca Nacional de España para la consulta de su fondo moderno, excepto aquel cuya consulta o utilización se halle restringida por razones de seguridad o conservación, así como a los servicios ofrecidos en la Sala de Información Bibliográfica.</p>
+          <p class="parrafo">2. Se considera «fondo moderno», a los efectos de esta orden, el integrado por originales de libros, publicaciones periódicas y otros materiales impresos editados a partir del 1 de enero 1958.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.2 de la Orden CUD/330/2022, de 24 de marzo. <a class="refPost">Ref. BOE-A-2022-6279</a></p>
+            <p class="nota_pie_2">Téngase en cuenta, para su aplicación, la disposición transitoria única de la citada Orden.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 4. Carné de Investigador.</p>
+          <p class="parrafo">1. El Carné de Investigador permitirá el acceso a todos los fondos de la Biblioteca Nacional de España, excepto a aquéllos cuya consulta o utilización se halle restringida por razones de seguridad o conservación.</p>
+          <p class="parrafo">Se considerarán investigadores, a los efectos de esta orden:</p>
+          <p class="parrafo_2">Los miembros de instituciones, tanto educativas como académicas y culturales de prestigio reconocido, y de centros de investigación.</p>
+          <p class="parrafo">Los autores científicos, literarios y artísticos.</p>
+          <p class="parrafo">Los bibliotecarios, archiveros y conservadores de museos.</p>
+          <p class="parrafo">Los profesionales del sector del libro y la edición.</p>
+          <p class="parrafo">Los doctores, licenciados, diplomados y graduados universitarios o titulaciones equivalentes.</p>
+          <p class="parrafo">Cualquier otra situación profesional análoga si, tras la petición del interesado, así lo dictamina la Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo_2">2. La solicitud del Carné de Investigador se acompañará de la acreditación de cualquiera de estas situaciones.</p>
+          <p class="parrafo">3. Trabajos de investigación.</p>
+          <p class="parrafo_2">Todos los poseedores de un Carné de Lector que, sin estar comprendidos en alguno de los supuestos enumerados en el apartado anterior, estén realizando algún trabajo de investigación y así lo acrediten, podrán solicitar la concesión de un Carné de Investigador.</p>
+          <p class="parrafo">La solicitud deberá expresar la naturaleza y características del trabajo o consulta que desean realizar, justificando la necesidad de acceder para ello a los fondos anteriores a 1958 de la Biblioteca Nacional de España.</p>
+        </version>
+        <version id_norma="BOE-A-2022-6279" fecha_publicacion="20220416" fecha_vigencia="20220417">
+          <p class="articulo">Artículo 4. Carné de Investigador.</p>
+          <p class="parrafo">1. El Carné de Investigador permitirá el acceso a todos los fondos de la Biblioteca Nacional de España, excepto a aquéllos cuya consulta o utilización se halle restringida por razones de seguridad o conservación, así como a los servicios ofrecidos en la Sala de Información Bibliográfica.</p>
+          <p class="parrafo">Se considerarán investigadores, a los efectos de esta orden:</p>
+          <p class="parrafo_2">Los miembros de instituciones, tanto educativas como académicas y culturales de prestigio reconocido, y de centros de investigación.</p>
+          <p class="parrafo">Los autores científicos, literarios y artísticos.</p>
+          <p class="parrafo">Los bibliotecarios, archiveros y conservadores de museos.</p>
+          <p class="parrafo">Los profesionales del sector del libro y la edición.</p>
+          <p class="parrafo">Los doctores, licenciados, diplomados y graduados universitarios o titulaciones equivalentes.</p>
+          <p class="parrafo">Cualquier otra situación profesional análoga si, tras la petición del interesado, así lo dictamina la Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo_2">2. La solicitud del Carné de Investigador se acompañará de la acreditación de cualquiera de estas situaciones.</p>
+          <p class="parrafo">3. Trabajos de investigación.</p>
+          <p class="parrafo_2">Todos los poseedores de un Carné de Lector que, sin estar comprendidos en alguno de los supuestos enumerados en el apartado anterior, estén realizando algún trabajo de investigación y así lo acrediten, podrán solicitar la concesión de un Carné de Investigador.</p>
+          <p class="parrafo">La solicitud deberá expresar la naturaleza y características del trabajo o consulta que desean realizar, justificando la necesidad de acceder para ello a los fondos anteriores a 1958 de la Biblioteca Nacional de España.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el párrafo primero del apartado 1 por el art. único.3 de la Orden CUD/330/2022, de 24 de marzo. <a class="refPost">Ref. BOE-A-2022-6279</a></p>
+            <p class="nota_pie_2">Téngase en cuenta, para su aplicación, la disposición transitoria única de la citada Orden.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 5. Carné de Documentación Bibliotecaria.</p>
+          <p class="parrafo">Los profesionales del libro, documentación, archivos, bibliotecas y museos y quienes cursen estudios en dichas áreas, podrán obtener un carné que les permita el uso del servicio de préstamo domiciliario de los fondos de la Sala de Documentación Bibliotecaria. Este carné, respecto de los fondos y servicios de la Biblioteca Nacional de España, tendrá la misma consideración que el Carné de Lector.</p>
+        </version>
+        <version id_norma="BOE-A-2022-6279" fecha_publicacion="20220416" fecha_vigencia="20220417">
+          <p class="articulo">Artículo 5. Duración, condiciones de validez y renovación.</p>
+          <p class="parrafo">Los carnés que emite la Biblioteca Nacional de España tendrán una validez de cinco años.</p>
+          <p class="parrafo">La validez de los carnés regulados por la presente orden estará condicionada a que su utilización no afecte al normal funcionamiento de la Biblioteca o a la conservación de sus fondos, en cuyo caso, así como cuando se aprecie que no concurren las circunstancias que supusieron el otorgamiento del carné, se procederá a su retirada.</p>
+          <p class="parrafo">Cualquier modalidad de carné podrá ser renovado por la Biblioteca Nacional de España a solicitud del interesado.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica y se renumera por el art. único.4 y 5 de la Orden CUD/330/2022, de 24 de marzo. <a class="refPost">Ref. BOE-A-2022-6279</a></p>
+            <p class="nota_pie_2">Su anterior numeración era art. 6.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 6. Duración, condiciones de validez y renovación.</p>
+          <p class="parrafo">Los carnés que emite la Biblioteca Nacional de España tendrán una validez de tres años.</p>
+          <p class="parrafo">La validez de los carnés regulados por la presente orden estará condicionada a que su utilización no afecte al normal funcionamiento de la Biblioteca o a la conservación de sus fondos, en cuyo caso, así como cuando se aprecie que no concurren las circunstancias que supusieron el otorgamiento del carné, se procederá a su retirada.</p>
+          <p class="parrafo">Cualquier modalidad de carné podrá ser renovado por la Biblioteca Nacional de España a solicitud del interesado.</p>
+        </version>
+        <version id_norma="BOE-A-2022-6279" fecha_publicacion="20220416" fecha_vigencia="20220417">
+          <p class="articulo">Artículo 6. Documentación.</p>
+          <p class="parrafo">Para la obtención de cada uno de los carnés de la Biblioteca Nacional de España será necesario cumplir los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Presentar, debidamente cumplimentado, el impreso de solicitud.</p>
+          <p class="parrafo">b) Acreditar la personalidad del solicitante mediante presentación del Documento Nacional de Identidad en vigor o documentos equivalentes.</p>
+          <p class="parrafo">c) Subsanar la falta o acompañar los documentos preceptivos y presentar la información complementaria o las aclaraciones que la Biblioteca Nacional de España considere necesaria para la obtención del correspondiente carné.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica y se renumera por el art. único.6 de la Orden CUD/330/2022, de 24 de marzo. <a class="refPost">Ref. BOE-A-2022-6279</a></p>
+            <p class="nota_pie_2">Su anterior numeración era art. 7.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" fecha_caducidad="20220416" titulo="Artículo 7">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Artículo 7. Documentación.</p>
+          <p class="parrafo">Para la obtención de cada uno de los carnés de la Biblioteca Nacional de España será necesario cumplir los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Acreditar la personalidad del solicitante mediante presentación del documento nacional de identidad en vigor o documentos equivalentes.</p>
+          <p class="parrafo">b) Presentar la información complementaria o las aclaraciones a la ya presentada que la Biblioteca Nacional de España considere necesaria para la obtención del correspondiente carné.</p>
+          <p class="parrafo">c) Presentar, debidamente cumplimentado, el impreso de solicitud.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Disposición transitoria única. Régimen transitorio.</p>
+          <p class="parrafo">Los carnés y pases actualmente en vigor serán válidos hasta la extinción del plazo para el que fueron concedidos.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Orden CUL/4486/2004, de 30 de diciembre, por la que se establecen las normas de acceso a la Biblioteca Nacional, modificada por la Orden CUL/1628/2006, de 22 de mayo.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente orden entrará en vigor el día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2014-7016" fecha_publicacion="20140704" fecha_vigencia="20140705">
+          <p class="parrafo_2">Madrid, 25 de junio de 2014.–El Ministro de Educación, Cultura y Deporte, José Ignacio Wert Ortega.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

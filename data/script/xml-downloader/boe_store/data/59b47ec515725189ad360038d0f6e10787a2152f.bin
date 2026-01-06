@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T143928Z</fecha_actualizacion>
+      <identificador>BOE-A-2021-6462</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1290">Ley Orgánica</rango>
+      <fecha_disposicion>20210422</fecha_disposicion>
+      <numero_oficial>5/2021</numero_oficial>
+      <titulo>Ley Orgánica 5/2021, de 22 de abril, de derogación del artículo 315 apartado 3 del Código Penal.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20210423</fecha_publicacion>
+      <diario_numero>97</diario_numero>
+      <fecha_vigencia>20210424</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/lo/2021/04/22/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2021-6462</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="886">Código Penal</materia>
+        <materia codigo="4039">Huelga</materia>
+        <materia codigo="6649">Sindicatos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1995-25444</id_norma>
+            <relacion codigo="235">SUPRIME</relacion>
+            <texto>el art. 315.3 de la Ley Orgánica 10/1995, de 23 de noviembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2021-6462</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-22</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/886"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4039"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6649"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2021-6462</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/886"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4039"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6649"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/con/20210423"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 5/2021, de 22 de abril, de derogación del artículo 315 apartado 3 del Código Penal.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei orgànica 5/2021, de 22 d'abril, de derogació de l'article 315, apartat 3, del Codi penal.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei orgánica 5/2021, do 22 de abril, de derrogación do artigo 315, número 3, do Código penal.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/eus">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/eus"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/2021 Lege Organikoa, apirilaren 22koa, Zigor Kodearen 315. artikuluaren 3. apartatua indargabetzekoa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/eus/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof/eus"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/con/20210423">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2021-6462</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/886"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4039"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6649"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/con/20210423/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 5/2021, de 22 de abril, de derogación del artículo 315 apartado 3 del Código Penal.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/con/20210423"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2021/04/22/5/con/20210423/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2021/04/22/5/con/20210423/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2021-6462" fecha_publicacion="20210423" fecha_vigencia="20210424">
+          <p class="centro_redonda">FELIPE VI</p>
+          <p class="centro_redonda">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley orgánica:</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">Nuestro constituyente definió el modelo de Estado español como social y democrático de Derecho, que propugna como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.</p>
+          <p class="parrafo">Justificado en la necesidad de equilibrar la desigual estructura en el ámbito laboral, el desarrollo posterior del artículo 37 de la Constitución se llevó a cabo en relación con el derecho a la negociación colectiva y a la adopción de las medidas de conflicto colectivo, así como con el desarrollo jurisprudencial, además de con el desarrollo de la libertad de sindicación estableciendo un sistema de relaciones laborales más democráticas para corregir la asimetría de las relaciones laborales preexistentes a 1978.</p>
+          <p class="parrafo">Con la crisis como oportunidad, desde la llegada al Gobierno del Partido Popular en diciembre de 2011, se inició un proceso constante y sistemático de desmantelamiento de las libertades y especialmente de aquellas que afectan a la manifestación pública del desacuerdo con las políticas económicas del Gobierno.</p>
+          <p class="parrafo">La reforma laboral, que prácticamente excluyó la negociación colectiva de los trabajadores y que devaluó o directamente eliminó otros muchos de sus derechos, no pareció suficiente y por ello se reforzaron, con ataques directos, todas las medidas que exteriorizaron el conflicto, utilizando la legislación en vigor, como la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, y el artículo 315.3 del Código Penal, en el corto plazo, y trabajando, en el medio plazo, para desplegar un entramado de leyes que asfixian la capacidad de reacción, protesta o resistencia de la ciudadanía y de las organizaciones sindicales, hacia las políticas del Gobierno.</p>
+          <p class="parrafo">Así, se ha aplicado la forma agravada de coacciones prevista en el artículo 315, apartado 3, del Código Penal, sobre la más atenuada de coacciones genéricas, aunque en la mayoría de los casos los hechos no puedan ser entendidos como violentos o coactivos y, en consecuencia, como un riesgo cierto para la integridad de las personas o de los bienes o instalaciones donde se desarrollan. Con esta aplicación de la ley se ha tratado de disuadir a los ciudadanos de ejercer su derecho a la huelga y, en consecuencia, su libertad sindical.</p>
+          <p class="parrafo">Si bien la Ley Orgánica 1/2015, de 30 de marzo, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, vino a mitigar la respuesta punitiva de la ley, la misma no da una respuesta proporcionada, ni añade nada nuevo ni necesario atendiendo a la finalidad que la norma atendía. Por ello, el artículo 315.3 del Código Penal debe desaparecer de nuestro ordenamiento punitivo, toda vez que el genérico delito de coacciones ya protege de manera adecuada la libertad de no hacer huelga.</p>
+          <p class="parrafo">De otra parte, todas estas actuaciones no se ajustan ni a las previsiones de nuestro sistema constitucional ni a las obligaciones que tiene España como signataria de los distintos textos nacidos en la Organización Internacional del Trabajo.</p>
+          <p class="parrafo">Finalmente, han sido las razones antes expuestas y una forma de interpretación del delito, que amplió su aplicación en sentido contrario a cómo debería interpretarse teniendo en cuenta la doctrina constitucional existente sobre el mismo y el deber de todo intérprete de evitar que la interpretación de la norma disuada del ejercicio del derecho fundamental que limita, las que nos llevan a la necesidad de proponer la supresión de este precepto.</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2021-6462" fecha_publicacion="20210423" fecha_vigencia="20210424">
+          <p class="articulo"><strong>Artículo único.</strong> Modificación de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal.</p>
+          <p class="parrafo">Se suprime el apartado 3 del artículo 315 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2021-6462" fecha_publicacion="20210423" fecha_vigencia="20210424">
+          <p class="articulo">Disposición transitoria única. Revisión de sentencias.</p>
+          <p class="parrafo">Los jueces o tribunales procederán a revisar las sentencias firmes dictadas de conformidad con la legislación que se deroga.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2021-6462" fecha_publicacion="20210423" fecha_vigencia="20210424">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley Orgánica entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2021-6462" fecha_publicacion="20210423" fecha_vigencia="20210424">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley orgánica.</p>
+          <p class="parrafo_2">Madrid, 22 de abril de 2021.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">PEDRO SÁNCHEZ PÉREZ-CASTEJÓN</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

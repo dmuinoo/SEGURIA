@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130804Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-20660</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8140">Comunidad Autónoma del País Vasco</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19980625</fecha_disposicion>
+      <numero_oficial>17/1998</numero_oficial>
+      <titulo>Ley 17/1998, de 25 de junio, del Voluntariado.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20111231</fecha_publicacion>
+      <diario_numero>315</diario_numero>
+      <fecha_vigencia>19980714</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-pv/l/1998/06/25/17</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-20660</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="5345">País Vasco</materia>
+        <materia codigo="7169">Voluntariado</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOPV núm. 130, de 13 de julio de 1998.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1979-30177</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 3/1979, de 18 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1996-1071</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 6/1996, de 15 de enero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-20660</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-25</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-20660</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/con/19980713"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/1998, de 25 de junio, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/con/19980713">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-20660</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-13</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/con/19980713/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/1998, de 25 de junio, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/con/19980713"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1998/06/25/17/con/19980713/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1998/06/25/17/con/19980713/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="parrafo">Se hace saber a todos los/las ciudadanos/as de Euskadi que el Parlamento Vasco ha aprobado la Ley 17/1998, de 25 de Junio, del Voluntariado</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">La Comunidad Autónoma vasca es una Comunidad con una tradición de salida comunitaria de los problemas en la que el voluntariado organizado es un fenómeno con una larga trayectoria.</p>
+          <p class="parrafo">Durante mucho tiempo, un gran número de entidades han venido prestando servicios de todo tipo a la comunidad respondiendo de manera desinteresada a muchas necesidades que los ciudadanos y ciudadanas tenían planteadas, antes incluso de que la Administración contemplara algún tipo de respuesta.</p>
+          <p class="parrafo">El movimiento sindical, y muchos colectivos profesionales y organizaciones cívicas, vecinales y religiosas tienen su origen en el trabajo voluntario.</p>
+          <p class="parrafo">Una vez asumida la responsabilidad de los poderes públicos en lo que respecta a la garantía del efectivo disfrute de derechos básicos para la propia dignidad humana, la igualdad de oportunidades y la remoción de los obstáculos que impiden la igualdad social, el voluntariado no puede ni debe suplir, sustituir o cubrir las deficiencias de los servicios públicos afectados en estos fines antes mencionados.</p>
+          <p class="parrafo">El papel del voluntariado, en lo que a las Administraciones públicas vascas afecta, debe ser la contribución, en clave de innovación y en colaboración con otros agentes sociales, al diseño, desarrollo y ejecución de políticas públicas tendentes a garantizar el cambio social, teniendo como horizontes prioritarios la lucha contra la pobreza y las desigualdades y la construcción de una sociedad más justa e igualitaria.</p>
+          <p class="parrafo">Queremos afirmar esto en un momento -como el actual- en que parecen cuestionarse algunas conquistas de nuestro incipiente Estado de Bienestar, y en el que cabe caer en la tentación de entender la acción social voluntaria como un sucedáneo de la actividad profesional, vía para hacer dejación de responsabilidades a la hora de crear servicios públicos que respondan a demandas sociales.</p>
+          <p class="parrafo">Habiéndose legislado algunos aspectos de las organizaciones en la ley de Asociaciones, pero en ausencia de un marco legislativo para la actividad del voluntariado específicamente definido y para salvaguardarlo en su integridad, es por lo que tiene razón la existencia de esta ley.</p>
+          <p class="parrafo">Garantizar todo ello, así como determinadas relaciones entre los voluntarios y las voluntarias y las organizaciones en las que participan, o entre éstas y la Administración, contribuye a fortalecer el ejercicio mismo de la libertad de las partes y evitar abusos.</p>
+          <p class="parrafo">Pero, sobre todo, esta ley representa el compromiso de la Administración vasca de promover el voluntariado, profundizando en el derecho de los ciudadanos y ciudadanas a participar en la construcción de la sociedad.</p>
+          <p class="parrafo">Esta ley consta de cinco títulos, tres disposiciones adicionales, una disposición transitoria y dos disposiciones finales.</p>
+          <p class="parrafo">En las disposiciones generales reguladas en su Título I se precisa su objeto y ámbito de aplicación, así como el concepto de voluntariado, entendido como el conjunto de actividades de interés general desarrolladas por personas físicas, siempre que se realicen en las condiciones que se determinan, explicitándose, «sensu contrario», el conjunto de actividades que a los efectos de esta ley no tendrán la consideración de voluntariado. Así mismo, se determina cuáles son las actividades que van a considerarse como de interés general y los principios de actuación que van a regir las acciones de voluntariado.</p>
+          <p class="parrafo">El Título II desarrolla el denominado Estatuto del Voluntario desde una doble perspectiva que se plasma en sus dos capítulos. El primero, de los voluntarios, establece el concepto de voluntario, determinando sus derechos y obligaciones. En el segundo, referido a las organizaciones y sus relaciones con los voluntarios, se especifica qué requisitos deben cumplir las organizaciones y, en lógica correspondencia con el capítulo anterior, se regulan los derechos y obligaciones de estas organizaciones. También se prevé la existencia de las denominadas organizaciones de voluntariado, que, dada su especificidad y a diferencia de las anteriores, podrán ser declaradas de Utilidad pública.</p>
+          <p class="parrafo">El Título III, regulador de las relaciones entre la Administración y las organizaciones que cuentan con voluntarios, por un lado determina las funciones que en esta materia desarrollará el Gobierno Vasco por medio del Departamento que tenga asignadas las competencias en materia de bienestar social, del que así mismo dependerá el Censo General de Organizaciones del Voluntariado, en el que podrán inscribirse las organizaciones que cuenten con voluntariado cuando realicen programas o proyectos en el ámbito de la Comunidad Autónoma vasca. Por otro lado, se establecen los principios inspiradores de las relaciones entre las Administraciones públicas y las organizaciones, tales como la colaboración, complementariedad y participación.</p>
+          <p class="parrafo">En el Título IV se determinan el conjunto de actuaciones que con el fin de fomentar y facilitar la acción del voluntariado las Administraciones públicas vascas promoverán en el ámbito de sus competencias y de acuerdo con sus disponibilidades presupuestarias.</p>
+          <p class="parrafo">Finalmente, en el Título V, dedicado a la participación del voluntariado, se crea el Consejo Vasco del Voluntariado como un órgano de encuentro, asesoramiento y consulta en materia de voluntariado, que estará adscrito al Departamento del Gobierno Vasco competente en materia de bienestar social, y se regulan sus funciones y composición.</p>
+          <p class="parrafo">En sus disposiciones adicionales se establece, por un lado, la previsión de que la incorporación de los voluntarios a las organizaciones podrá formalizarse a través de un modelo normalizado de acuerdo o compromiso que el Departamento de Justicia, Economía, Trabajo y Seguridad Social pondrá a disposición de las organizaciones que lo soliciten, y, por otro, un plazo que se considera suficiente para que tanto el Censo General de Organizaciones del Voluntariado como el Consejo Vasco del Voluntariado dispongan de sus respectivos reglamentos de funcionamiento.</p>
+          <p class="parrafo">Por último, en su disposición transitoria se establece un plazo de un año, a partir del día siguiente al de la publicación de esta ley en el Boletín Oficial del País Vasco, para que las organizaciones que a su entrada en vigor dispongan de personal voluntario se ajusten a lo dispuesto en la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo">1. La presente ley tiene por objeto regular, fomentar y promover la participación de los ciudadanos y ciudadanas en acciones de voluntariado en aquellas organizaciones privadas que carezcan de ánimo de lucro, sin contemplar las múltiples formas de solidaridad social espontáneas.</p>
+          <p class="parrafo">2. Cuando las entidades públicas detecten la necesidad o conveniencia de la intervención del voluntariado, articularán la misma a través de organizaciones privadas sin ánimo de lucro sin que ello pueda suponer, en ningún caso, dejación de la responsabilidad de las Administraciones públicas vascas en lo relativo a la prestación de servicios públicos a la ciudadanía vasca.</p>
+          <p class="parrafo">3. Sin perjuicio de lo previsto en el artículo 2 de la Ley 6/1996, de 15 de enero, del Voluntariado, se regirán por lo dispuesto en la presente ley las organizaciones que desarrollen sus actividades principalmente en el País Vasco o tengan en el mismo su sede o delegación. A tales efectos, se estará a lo que se disponga en el correspondiente documento constitutivo de la organización.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 2. Concepto de voluntariado.</p>
+          <p class="parrafo">1. A los efectos de la presente ley, se entiende por voluntariado el conjunto de actividades de interés general desarrolladas por personas físicas, siempre que se realicen en las siguientes condiciones:</p>
+          <p class="parrafo_2">a) De manera desinteresada y con carácter solidario.</p>
+          <p class="parrafo">b) Voluntaria y libremente, sin traer causa de una relación laboral, funcionarial o mercantil, o de una obligación personal o deber jurídico.</p>
+          <p class="parrafo">c) A través de organizaciones sin ánimo de lucro, y con arreglo a programas o proyectos concretos.</p>
+          <p class="parrafo">d) Sin retribución económica.</p>
+          <p class="parrafo">e) Sin sustituir, en ningún caso, servicios profesionales remunerados.</p>
+          <p class="parrafo_2">2. No tendrán la consideración de voluntariado, a efectos de la ley, las actuaciones voluntarias espontáneas, esporádicas o prestadas al margen de organizaciones, ejecutadas por razones familiares, de amistad, benevolencia o buena vecindad.</p>
+          <p class="parrafo">3. En ningún caso la tendrán las realizadas en virtud de la prestación social sustitutoria.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 3. Actividades de interés general.</p>
+          <p class="parrafo">A efectos de lo dispuesto en el artículo anterior, se consideran actividades de interés general las que comporten un compromiso en favor de la sociedad o de la persona, que se desenvuelvan en el ámbito social, comunitario, cívico, cultural, de cooperación al desarrollo, de protección al medio ambiente o cualquier otro de naturaleza análoga.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 4. Principios de actuación.</p>
+          <p class="parrafo">Las acciones de voluntariado en sus distintos ámbitos se regirán por los principios de solidaridad, participación, gratuidad, autonomía frente a los poderes públicos, no discriminación, pluralismo, integración, prevención y sensibilización social, y, en general, por todos aquellos que inspiran la convivencia en una sociedad democrática, moderna, participativa, justa e igualitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Estatuto del voluntario</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">De los voluntarios</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 5. Concepto de voluntario.</p>
+          <p class="parrafo">1. Tendrá la consideración de voluntario la persona física que libremente se comprometa a realizar las actividades a que se refiere esta ley y en las condiciones que se señalan en su artículo 2.</p>
+          <p class="parrafo">2. El voluntariado lleva inherente la relación entre una persona -el voluntario o voluntaria- y la organización en la que presta sus servicios. Esta relación genera unos derechos y unas obligaciones mutuas que deben quedar, al menos en sus fundamentos principales, regulados en el estatuto interno al que se refiere el artículo 8.4 a) de la presente ley.</p>
+          <p class="parrafo">3. La condición de voluntario será compatible con la de socio en la misma organización. Las personas que desarrollen funciones en una organización como profesionales o tengan con la misma relaciones laborales, mercantiles o cualesquiera otras sujetas a retribución no podrán desarrollar las mismas funciones, en ningún caso, como voluntarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 6. Derechos del voluntario.</p>
+          <p class="parrafo">Son derechos del voluntario o voluntaria:</p>
+          <p class="parrafo_2">a) Participar activamente en la organización en que se integre, recibiendo la debida información sobre la misma, y en especial sobre sus fines, estructura organizativa y funcionamiento, así como constituir y ser parte de los órganos de participación que se constituyan en el seno de la organización.</p>
+          <p class="parrafo">b) Colaborar en el diseño, elaboración, ejecución y evaluación de los programas o proyectos en los que intervenga así como tener la oportunidad de dar su opinión sobre aspectos de la organización que le afecten como voluntario.</p>
+          <p class="parrafo">c) Recibir el apoyo técnico, humano y formativo que requiera la tarea que desempeñe como voluntario o voluntaria, y recibir orientación sobre las actividades para las que reúna las mejores condiciones.</p>
+          <p class="parrafo">d) Recibir la cobertura de un seguro por los daños y perjuicios que el desempeño de su actividad como voluntario pudiera causar a terceros, con las características y por los capitales que se establezcan reglamentariamente.</p>
+          <p class="parrafo">e) Recibir una compensación económica por los gastos realizados en el desempeño de su actividad, siempre que así se haya establecido en las condiciones pactadas entre el voluntario y la organización y dentro de los límites previstos en dicho acuerdo.</p>
+          <p class="parrafo">f) En la medida en que los programas o proyectos a realizar lo permitan, desarrollar las actividades en su entorno más próximo.</p>
+          <p class="parrafo">g) Recibir un trato no discriminatorio y justo, respetando su libertad, dignidad, intimidad y creencias.</p>
+          <p class="parrafo">h) Realizar su actividad en las debidas condiciones de seguridad e higiene, en función de la naturaleza y características de la misma.</p>
+          <p class="parrafo">i) Obtener el respeto y reconocimiento a su contribución social.</p>
+          <p class="parrafo">j) Cesar libremente, previo aviso, en su condición de voluntario.</p>
+          <p class="parrafo">k) Los demás que se deriven de la presente ley y del resto del ordenamiento jurídico que haga referencia al voluntariado.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 7. Obligaciones del voluntario.</p>
+          <p class="parrafo">Son obligaciones del voluntario:</p>
+          <p class="parrafo_2">a) Apoyar, en la medida de sus posibilidades y voluntad, activamente a la organización en la que se integra, participando y colaborando con la misma.</p>
+          <p class="parrafo">b) Cumplir los compromisos adquiridos con la organización, respetando los fines y la normativa por la que se rige.</p>
+          <p class="parrafo">c) Actuar diligentemente en la ejecución de las tareas que le sean encomendadas y seguir las instrucciones que se le impartan por los responsables de la organización.</p>
+          <p class="parrafo">d) Participar en las actividades formativas previstas por la organización y en las que sean necesarias para mantener la calidad de los servicios que se prestan.</p>
+          <p class="parrafo">e) Guardar la confidencialidad de la información recibida y conocida en el desarrollo de su actividad voluntaria.</p>
+          <p class="parrafo">f) Respetar los derechos de las personas o grupo de personas a quien dirige su actividad.</p>
+          <p class="parrafo">g) Utilizar adecuadamente la acreditación de voluntario y el distintivo de su organización.</p>
+          <p class="parrafo">h) Cuidar los recursos materiales que se pongan a su disposición.</p>
+          <p class="parrafo">i) En general, realizar la acción voluntaria conforme a los principios recogidos en el artículo 4 de esta ley.</p>
+          <p class="parrafo">j) Las demás que se deriven de la presente ley y del resto del ordenamiento jurídico que haga referencia al voluntariado.</p>
+          <p class="parrafo">k) Observar las medidas de seguridad e higiene que se adopten.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De las organizaciones y sus relaciones con los voluntarios</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 8. De las organizaciones.</p>
+          <p class="parrafo">1. Las organizaciones que cuenten con voluntariado, cualquiera que sea su forma jurídica, habrán de estar legalmente constituidas y dotadas de personalidad jurídica propia, carecer de ánimo de lucro, estar debidamente registradas en los correspondientes registros de fundaciones y asociaciones de competencia de la Comunidad Autónoma del País Vasco y desarrollar programas o proyectos en el marco de las actividades de interés general definidas en el artículo 3 de esta ley.</p>
+          <p class="parrafo">2. Se denominarán organizaciones de voluntariado las que, además de cumplir las anteriores condiciones, estén integradas mayoritariamente por voluntarios y desarrollen la mayoría de sus programas o proyectos de acción fundamentalmente a través de tales voluntarios o voluntarias.</p>
+          <p class="parrafo">3. La incorporación de los voluntarios o voluntarias a las organizaciones se formalizará por escrito mediante el correspondiente acuerdo o compromiso que, además de determinar el carácter altruista de la relación, tendrá como contenido los derechos y las obligaciones recíprocas de las partes, y las funciones, actividades, duración de la relación, causas de su resolución y cuanto estimen entre ambas partes, con el fin de salvaguardar las garantías de la ley.</p>
+          <p class="parrafo">4. Las organizaciones deberán en todo caso:</p>
+          <p class="parrafo_2">a) Elaborar un estatuto interno del voluntario en la organización, en el que como mínimo se establecerán los criterios de admisión y exclusión de los voluntarios y sus derechos y deberes.</p>
+          <p class="parrafo">b) Articular los mecanismos necesarios para garantizar la información, participación y colaboración de los voluntarios, tanto en la organización como en los proyectos o programas en que se integre.</p>
+          <p class="parrafo">c) Dotar a los voluntarios del apoyo y de los medios adecuados para el cumplimiento de sus funciones.</p>
+          <p class="parrafo">d) Proporcionar a los voluntarios la formación necesaria para el desarrollo correcto de sus actividades.</p>
+          <p class="parrafo">e) Suscribir una póliza de seguros que garantice a los voluntarios la cobertura por los daños y perjuicios que pudieran ocasionar a terceros en el ejercicio de su actividad, con las características y por los capitales que se establezcan reglamentariamente.</p>
+          <p class="parrafo">f) Garantizar las debidas condiciones de seguridad e higiene en función de la actividad específica que desempeñe en el desenvolvimiento de su acción voluntaria.</p>
+          <p class="parrafo">g) Expedir al voluntario el certificado que acredite los servicios prestados.</p>
+          <p class="parrafo">h) Cumplir los compromisos adquiridos con los voluntarios en el acuerdo de incorporación a la organización.</p>
+          <p class="parrafo">i) Llevar un registro de altas y bajas del personal voluntario.</p>
+          <p class="parrafo">j) Efectuar el reembolso de los gastos ocasionados por la actividad voluntaria, cuando así se haya previsto en las condiciones pactadas entre el voluntario y la organización y dentro de los límites previstos en dicho acuerdo.</p>
+          <p class="parrafo">k) Facilitar al voluntario una acreditación que le habilite e identifique para el desarrollo de su actividad.</p>
+          <p class="parrafo_2">5. Serán derechos de las organizaciones:</p>
+          <p class="parrafo_2">a) Seleccionar a los voluntarios de acuerdo con las tareas a realizar.</p>
+          <p class="parrafo">b) Solicitar y obtener de la Administración la información y la orientación necesarias relacionadas con su actividad de voluntariado.</p>
+          <p class="parrafo">c) Concurrir a las medidas contempladas en las acciones de fomento de la actividad voluntaria.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">De las relaciones entre la Administración y las organizaciones que cuentan con voluntarios</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 9. Competencias del Gobierno Vasco.</p>
+          <p class="parrafo">El Gobierno Vasco, por medio del Departamento que tenga asignadas las competencias en materia de bienestar social, ejercerá en relación al voluntariado las siguientes funciones:</p>
+          <p class="parrafo_2">a) Gestionar y organizar el Censo General de organizaciones del Voluntariado.</p>
+          <p class="parrafo">b) Confeccionar un catálogo público de los recursos del voluntariado, que integrará el contenido de los diferentes programas que se desarrollen en el ámbito de la Comunidad Autónoma.</p>
+          <p class="parrafo">c) Crear un fondo documental y base de datos sobre voluntariado que coordine los distintos fondos existentes.</p>
+          <p class="parrafo">d) Proporcionar el asesoramiento técnico y la colaboración precisa que se solicite por las organizaciones que acometen un proyecto determinado de voluntariado.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 10. Censo General de Organizaciones del Voluntariado.</p>
+          <p class="parrafo">1. Se crea el Censo General de Organizaciones del Voluntariado en el Departamento del Gobierno Vasco que tenga asignadas las competencias en materia de bienestar social. Dicho censo se integrará por las organizaciones a que se refiere el artículo 8 a las que, de acuerdo con lo previsto en el artículo 1.3, les sea de aplicación la presente ley.</p>
+          <p class="parrafo">2. Los responsables de los registros de fundaciones y asociaciones de competencia de la Comunidad Autónoma del País Vasco deberán comunicar al censo las inscripciones que sobre ellas hubieran practicado cuando se refieran a organizaciones que cuenten con voluntariado. A estos exclusivos efectos, en el momento de la oportuna inscripción inicial las organizaciones manifestarán ante los correspondientes registros su carácter de organizaciones que cuentan con voluntariado.</p>
+          <p class="parrafo">3. En cualquier caso, y sin perjuicio de lo previsto en el párrafo anterior, las organizaciones también podrán inscribirse directamente en el censo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 11. Principios inspiradores de las relaciones entre las Administraciones públicas y las organizaciones.</p>
+          <p class="parrafo">1. Las relaciones entre las Administraciones públicas y las organizaciones se inspirarán en los principios de colaboración, complementariedad y participación. En todo caso, la actuación administrativa deberá salvaguardar la autonomía de organización y de iniciativa del voluntariado.</p>
+          <p class="parrafo">2. La colaboración entre las distintas Administraciones públicas y las organizaciones se instrumentará, preferentemente, a través de convenios específicos.</p>
+          <p class="parrafo">3. Las necesarias y deseables relaciones entre las Administraciones públicas y las organizaciones en ningún caso podrán exonerar a los poderes públicos de su responsabilidad en lo que respecta a la garantía del efectivo disfrute de derechos básicos para la propia dignidad humana, la igualdad de oportunidades y la remoción de los obstáculos que impiden la igualdad social.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-4" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Del fomento del voluntariado</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 12. Medidas generales de fomento.</p>
+          <p class="parrafo">Con el fin de fomentar y facilitar la acción de voluntariado, las Administraciones públicas vascas promoverán, en el ámbito de sus competencias y de acuerdo con sus disponibilidades presupuestarias, entre otras actuaciones, las siguientes:</p>
+          <p class="parrafo_2">a) La puesta en común de recursos y medios entre las organizaciones que cuentan con voluntarios, sobre todo en materia de formación y recogida de información.</p>
+          <p class="parrafo">b) Las medidas encaminadas a potenciar el voluntariado organizado, en general, y preferentemente el voluntariado transformador frente al de tipo asistencial. Especial atención recibirán aquellas acciones que propongan la colaboración entre organizaciones, superando el trabajo sectorial y el realizado en un solo ámbito, estando vinculadas al territorio y al municipio.</p>
+          <p class="parrafo">c) Convocar programas subvencionales y suscribir convenios para el mantenimiento, formación y acción de las organizaciones inscritas en los diferentes registros o censos creados por las Administraciones públicas.</p>
+          <p class="parrafo">d) La realización de investigaciones, estudios y publicaciones sobre el voluntariado.</p>
+          <p class="parrafo">e) Los servicios de información, documentación, asesoramiento y apoyo técnico a las organizaciones.</p>
+          <p class="parrafo">f) La organización de campañas de información sobre el voluntariado y la difusión de los valores del voluntariado.</p>
+          <p class="parrafo">g) La implantación de medidas de tipo honorífico para reconocer públicamente el trabajo voluntario.</p>
+          <p class="parrafo">h) Garantizar la presencia del mensaje del voluntario en los medios de comunicación y el conocimiento público en general de la labor realizada por el voluntario.</p>
+          <p class="parrafo">i) La conexión de las organizaciones con organizaciones de ámbito territorial distinto al de la Comunidad Autónoma.</p>
+          <p class="parrafo">j) Las medidas encaminadas a la reducción de jornada o a la adaptación de la misma para prestar servicios voluntarios.</p>
+          <p class="parrafo">k) El impulso de un marco legal, laboral y fiscal favorable para el desarrollo de la acción voluntaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 13. Declaración de utilidad pública.</p>
+          <p class="parrafo">Las organizaciones de voluntariado a que se refiere el artículo 8.2 de esta ley podrán ser declaradas de utilidad pública en los términos previstos en la legislación específica de sus correspondientes formas jurídicas.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">De la participación del voluntariado</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 14. El Consejo Vasco del Voluntariado.</p>
+          <p class="parrafo">1. Con el objeto de hacer partícipe a la sociedad y a sus organizaciones de las políticas de solidaridad, se crea el Consejo Vasco del Voluntariado como órgano de encuentro, asesoramiento y consulta en materia de voluntariado.</p>
+          <p class="parrafo">2. Dicho consejo estará adscrito al Departamento del Gobierno Vasco competente en materia de bienestar social.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 15. Funciones.</p>
+          <p class="parrafo">Serán funciones del Consejo Vasco del Voluntariado:</p>
+          <p class="parrafo_2">a) Informar preceptivamente los anteproyectos y proyectos de disposiciones normativas de carácter general que afecten directamente al voluntariado. Dicho informe se emitirá en el plazo de quince días desde que sea requerido.</p>
+          <p class="parrafo">b) Detectar y analizar las necesidades básicas del voluntariado.</p>
+          <p class="parrafo">c) Asesorar y elevar a las Administraciones públicas vascas propuestas e iniciativas en relación a los distintos campos en los que se desarrolla la acción voluntaria, así como proponer los criterios que pudieran considerarse preferentes en la actividad subvencionadora de los programas de voluntariado.</p>
+          <p class="parrafo">d) Analizar y dirigir propuestas a las Administraciones públicas vascas sobre medidas de fomento del voluntariado.</p>
+          <p class="parrafo">e) Ser informado del seguimiento y evaluación que realicen las Administraciones públicas vascas sobre los programas de voluntariado, así como de las subvenciones que se otorguen.</p>
+          <p class="parrafo">f) Emitir un informe anual sobre el estado del voluntariado en la Comunidad Autónoma vasca.</p>
+          <p class="parrafo">g) Promover la presencia de los agentes sociales en los órganos de participación existentes relacionados con la solidaridad.</p>
+          <p class="parrafo">h) Proponer al Gobierno el reglamento de funcionamiento del consejo.</p>
+          <p class="parrafo">i) Aprobar la memoria anual de sus actividades.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Artículo 16. Composición.</p>
+          <p class="parrafo">1. El Consejo Vasco del Voluntariado estará integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">a) Presidente: el Consejero o la Consejera del Departamento al que está adscrito el consejo o persona en quien delegue.</p>
+          <p class="parrafo">b) Vicepresidente: quien resulte de la elección entre los miembros representantes de las organizaciones del voluntariado. Tendrá delegadas aquellas funciones de la presidencia que se determinen reglamentariamente.</p>
+          <p class="parrafo">c) Vocales:</p>
+          <p class="parrafo_2">– seis representantes del Gobierno Vasco, con rango de Viceconsejero o Viceconsejera, designados por los Departamentos competentes en materia de bienestar social, medio ambiente, protección civil, acción exterior, cultura, educación, deporte y sanidad.</p>
+          <p class="parrafo">– tres representantes de las Diputaciones forales, por designación de cada una de ellas.</p>
+          <p class="parrafo">– tres representantes de los municipios por designación de la asociación de municipios vascos más representativa.</p>
+          <p class="parrafo">– trece representantes de las organizaciones, por elección de entre las que están inscritas en el Censo General de Organizaciones del Voluntariado a través de un sistema participativo que permita la presencia de las organizaciones más pequeñas. En caso de no existir designación de todos o parte de dichos representantes, los mismos serán designados por la presidencia de este consejo.</p>
+          <p class="parrafo_2">d) Secretario o Secretaria: quien sea designado por la presidencia, de entre los miembros del Consejo.</p>
+          <p class="parrafo_2">2. Los miembros del consejo, elegidos en función de su representatividad, tendrán un mandato de tres años, renovable por una sola vez, pudiendo ser cesados antes de su mandato por el órgano que les designó.</p>
+          <p class="parrafo">3. También podrán asistir al Consejo Vasco del Voluntariado, a efectos meramente informativos o de asesoramiento, personas expertas en la materia de que se trate.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Disposición adicional primera. Modelo normalizado.</p>
+          <p class="parrafo">El Departamento de Justicia, Economía, Trabajo y Seguridad Social pondrá a disposición de las organizaciones que lo soliciten un modelo normalizado del acuerdo o compromiso que se menciona en el artículo 8.3 de esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Disposición adicional segunda. Censo General de Organizaciones del Voluntariado.</p>
+          <p class="parrafo">En el plazo de seis meses a partir de la entrada en vigor de esta ley, el Gobierno Vasco, a propuesta del Consejero o Consejera del Departamento que tenga asignadas las competencias en materia de bienestar social, aprobará un reglamento de funcionamiento del Censo General de Organizaciones del Voluntariado.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Disposición adicional tercera. Consejo Vasco del Voluntariado.</p>
+          <p class="parrafo">El Consejo Vasco del Voluntariado elaborará en el plazo de seis meses a partir de su constitución un reglamento de funcionamiento que será aprobado por el Gobierno Vasco a propuesta del Consejero o Consejera del Departamento que tenga asignadas las competencias en materia de bienestar social.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Disposición transitoria única. Adaptación de las organizaciones.</p>
+          <p class="parrafo">Las organizaciones que a la entrada en vigor de esta ley dispongan de personal voluntario deberán ajustarse a lo previsto en la misma en el plazo de un año a partir del día siguiente a su publicación en el Boletín Oficial del País Vasco.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Disposición final primera. Desarrollo reglamentario.</p>
+          <p class="parrafo">Se autoriza al Gobierno Vasco para dictar las disposiciones necesarias para el desarrollo y aplicación de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente ley entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del País Vasco.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2011-20660" fecha_publicacion="19980713" fecha_vigencia="19980714">
+          <p class="parrafo_2">Por consiguiente, ordeno a todos/as los/las ciudadanos/ de Euskadi, particulares y autoridades, que la guarden y hagan guardarla.</p>
+          <p class="parrafo_2">Vitoria-Gasteiz, 2 de julio de 1998.–El Lehendakari, José Antonio Ardanza Garro.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

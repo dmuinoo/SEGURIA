@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190513Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-12617</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1320">Real Decreto-ley</rango>
+      <fecha_disposicion>20010629</fecha_disposicion>
+      <numero_oficial>12/2001</numero_oficial>
+      <titulo>Real Decreto-ley 12/2001, de 29 de junio, por el que se aprueban medidas fiscales urgentes en materia de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre Sociedades.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20010630</fecha_publicacion>
+      <diario_numero>156</diario_numero>
+      <fecha_vigencia>20010701</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rdl/2001/06/29/12</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-12617</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4107">Impuesto sobre la Renta de las Personas Físicas</materia>
+        <materia codigo="4113">Impuesto sobre Sociedades</materia>
+        <materia codigo="6227">Retención a cuenta</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1998-28472</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>art. 83 de la Ley 40/1998, de 9 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1995-27752</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>art. 146 de la Ley 43/1995, de 27 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2001-14274</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 176, de 24 de julio de 2001</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2001-15034</id_norma>
+            <relacion codigo="301">SE PUBLICA  Acuerdo de convalidación</relacion>
+            <texto>, por Resolución de 26 de julio de 2001</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-12617</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-06-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4107"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4113"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6227"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-12617</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4107"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4113"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6227"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/corrigendum/20010724/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/con/20010630"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto-ley 12/2001, de 29 de junio, por el que se aprueban medidas fiscales urgentes en materia de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre Sociedades.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-06-30</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET LLEI 12/2001, de 29 de juny, pel qual s'aproven mesures fiscals urgents en matèria de retencions i ingressos a compte de l'impost sobre la renda de les persones físiques i de l'impost sobre societats.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-02</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/vci">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/vci"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET LLEI 12/2001, de 29 de juny, pel qual s'aproven mesures fiscals urgents en matèria de retencions i ingressos a compte de l'Impost sobre la Renda de les Persones Físiques i de l'Impost sobre Societats.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/vci/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof/vci"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/con/20010630">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-12617</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4107"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4113"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6227"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-06-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/con/20010630/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto-ley 12/2001, de 29 de junio, por el que se aprueban medidas fiscales urgentes en materia de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre Sociedades.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/con/20010630"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2001/06/29/12/con/20010630/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2001/06/29/12/con/20010630/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2001-12617" fecha_publicacion="20010630" fecha_vigencia="20010701">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 176, de 24 de julio de 2001. <a class="refPost">Ref. BOE-A-2001-14274</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2001-12617" fecha_publicacion="20010630" fecha_vigencia="20010701">
+          <p class="parrafo">En recientes sentencias del Tribunal Supremo se han anulado determinados preceptos de los Reglamentos del Impuesto sobre Sociedades y del Impuesto sobre la Renta de las Personas Físicas en materia de retenciones que obligan a introducir modificaciones urgentes en la normativa fiscal para que, en consonancia con el mandato del alto Tribunal, quede garantizado el cumplimiento de las exigencias derivadas de los principios de legalidad y seguridad jurídica.</p>
+          <p class="parrafo">En el ámbito del Impuesto sobre la Renta de las Personas Físicas, las sentencias del Tribunal Supremo de 22 y 23 de marzo de 2001 anularon el número 2.º del apartado 1 del artículo 75 del Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por Real Decreto 214/1999, de 5 de febrero, que establecía en el 40 por 100 el porcentaje de retención aplicable a las retribuciones percibidas por los administradores y miembros de consejos de administración.</p>
+          <p class="parrafo">Resulta preciso, como consecuencia de estas sentencias, establecer un nuevo porcentaje de retención e ingreso a cuenta del Impuesto sobre la Renta de las Personas Físicas para las rentas percibidas por los administradores y miembros de los consejos de administración, minorando en cinco puntos porcentuales el tipo de retención aplicable hasta ahora, dejándolo fijado en el 35 por 100, con reducción a la mitad, si se obtienen en Ceuta o Melilla, cuando resulte procedente la deducción prevista en el artículo 55.4 de la Ley del Impuesto.</p>
+          <p class="parrafo">Por lo que respecta al Impuesto sobre Sociedades, la sentencia del Tribunal Supremo de 10 de marzo de 2001 ha anulado el epígrafe 3.º del artículo 4 del Real Decreto 2060/1999, de 30 de diciembre, que modificó el apartado 3 del artículo 62 del Reglamento del Impuesto sobre Sociedades, aprobado por Real Decreto 537/1997, de 14 de abril, que establecía en el 25 por 100 el porcentaje de retención aplicable a la cesión del derecho a la explotación de la imagen, o del consentimiento o autorización para su utilización.</p>
+          <p class="parrafo">Como consecuencia de esta sentencia, es necesario establecer un nuevo porcentaje de retención e ingreso a cuenta del Impuesto sobre Sociedades para las rentas procedentes de la cesión del derecho a la explotación de la imagen, o del consentimiento o autorización para su utilización, que se fija en el 20 por 100, igual al establecido en el Impuesto sobre la Renta de las Personas Físicas, con lo que se consigue la uniformidad en los porcentajes de retención de estos dos impuestos.</p>
+          <p class="parrafo">La necesidad de dotar de seguridad jurídica a los contribuyentes respecto a las retenciones e ingresos a cuenta que soportan, y a las empresas que resultan obligadas a practicarlos, así como las exigencias derivadas del cumplimiento del presupuesto de ingresos con la finalidad de garantizar la política económica de estabilidad presupuestaria, son circunstancias en las que concurre, por su naturaleza y finalidad, la extraordinaria y urgente necesidad que requiere el artículo 86 de la Constitución para acudir a la figura del Real Decreto-ley, al objeto de que las medidas adoptadas produzcan sus efectos de manera inmediata.</p>
+          <p class="parrafo">En su virtud, en uso de la autorización contenida en el artículo 86 de la Constitución, a propuesta del Ministro de Hacienda y previa deliberación del Consejo de Ministros en su reunión del día 29 de junio de 2001,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm. 176, de 24 de julio de 2001. <a class="refPost">Ref. BOE-A-2001-14274</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="aprimero" tipo="precepto" titulo="Artículo primero">
+        <version id_norma="BOE-A-2001-12617" fecha_publicacion="20010630" fecha_vigencia="20010701">
+          <p class="articulo">Artículo primero. Modificación del artículo 83 de la Ley 40/1998, de 9 de diciembre, del Impuesto sobre la Renta de las Personas Físicas y otras Normas Tributarias.</p>
+          <p class="parrafo_2">Con efectos a partir de la entrada en vigor del presente Real Decreto-ley, se modifican la rúbrica del artículo 83 de la Ley 40/1998, de 9 de diciembre, del Impuesto sobre la Renta de las Personas Físicas y otras Normas Tributarias, y el apartado 1, párrafo segundo, de dicho artículo, que quedarán redactados de la siguiente forma:</p>
+          <p class="sangrado_articulo">«Artículo 83. Importe de los pagos a cuenta.»</p>
+          <p class="sangrado_2">«El porcentaje de retención e ingreso a cuenta sobre los rendimientos del trabajo que se perciban por la condición de administradores y miembros de los consejos de administración, de las juntas que hagan sus veces, y demás miembros de otros órganos representativos, será del 35 por 100. Este porcentaje de retención e ingreso a cuenta se reducirá a la mitad cuando se trate de rendimientos obtenidos en Ceuta o Melilla que tengan derecho a la deducción de la cuota prevista en el artículo 55.4 de esta Ley.»</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm. 176, de 24 de julio de 2001. <a class="refPost">Ref. BOE-A-2001-14274</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="asegundo" tipo="precepto" titulo="Artículo segundo">
+        <version id_norma="BOE-A-2001-12617" fecha_publicacion="20010630" fecha_vigencia="20010701">
+          <p class="articulo">Artículo segundo. Modificación del artículo 146 de la Ley 43/1995, de 27 de diciembre, del Impuesto sobre Sociedades.</p>
+          <p class="parrafo_2">Con efectos a partir de la entrada en vigor del presente Real Decreto-ley, se añade un nuevo apartado 6 en el artículo 146, «Retenciones e ingresos a cuenta» de la Ley 43/1995, de 27 de diciembre, del Impuesto sobre Sociedades, con la siguiente redacción:</p>
+          <p class="sangrado_2">«6. El porcentaje de retención e ingreso a cuenta sobre las rentas procedentes de la cesión del derecho a la explotación de la imagen o del consentimiento o autorización para su utilización, será del 20 por 100.»</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2001-12617" fecha_publicacion="20010630" fecha_vigencia="20010701">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2001-12617" fecha_publicacion="20010630" fecha_vigencia="20010701">
+          <p class="parrafo_2">Dado en Madrid, 29 de junio de 2001.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ MARÍA AZNAR LÓPEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

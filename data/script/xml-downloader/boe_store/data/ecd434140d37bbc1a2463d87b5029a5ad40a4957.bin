@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165918Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-10126</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8150">Comunidad Autónoma del Principado de Asturias</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19980323</fecha_disposicion>
+      <numero_oficial>1/1998</numero_oficial>
+      <titulo>Ley 1/1998, de 23 de marzo, de uso y promoción del bable/asturiano.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980430</fecha_publicacion>
+      <diario_numero>103</diario_numero>
+      <fecha_vigencia>19980417</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-as/l/1998/03/23/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-10126</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="379">Asturias</materia>
+        <materia codigo="4757">Lenguas españolas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOPA núm. 73, de 28 de marzo de 1998.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-634</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 4 y 10.1.15 del Estatuto aprobado por Ley Orgánica 7/1981, de 30 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-as"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-10126</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-23</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/379"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4757"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-as"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-10126</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/379"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4757"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/con/19980328"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1998, de 23 de marzo, de uso y promoción del bable/asturiano.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-04-30</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/con/19980328">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-as"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-10126</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/379"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4757"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/con/19980328/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1998, de 23 de marzo, de uso y promoción del bable/asturiano.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/con/19980328"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/1998/03/23/1/con/19980328/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/1998/03/23/1/con/19980328/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="centro_redonda">EL PRESIDENTE DEL PRINCIPADO DE ASTURIAS</p>
+          <p class="parrafo_2">Sea notorio que la Junta General del Principado de Asturias ha aprobado, y yo, en nombre de Su Majestad el Rey, y de acuerdo con lo dispuesto en el artículo 31.2 del Estatuto de Autonomía para Asturias, vengo a promulgar la siguiente Ley de uso y promoción del bable/asturiano.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El Estatuto de Autonomía para Asturias establece en su artículo 4: «El bable gozará de protección. Se promoverá su uso, su difusión en los medios de comunicación y su enseñanza, respetando, en todo caso, las variantes locales y voluntariedad en su aprendizaje».</p>
+          <p class="parrafo">Asimismo, en el artículo 10.1.15 señala como competencia del Principado: «El fomento y protección del bable en sus diversas variantes que, como modalidades lingüísticas, se utilizan en el territorio del Principado de Asturias».</p>
+          <p class="parrafo">Por otra parte, el mismo artículo, en su apartado 1.14, también señala como una de las competencias del Principado: «El fomento de la investigación y de la cultura, con especial referencia a sus manifestaciones regionales y a la enseñanza de la cultura autóctona». Bajo este punto de vista, el bable y sus modalidades constituyen un legado histórico-cultural que es necesario defender y conservar.</p>
+          <p class="parrafo">Es además evidente que la potenciación de la pluralidad lingüística y cultura de una región favorece la revitalización de las señas de identidad de los pueblos que conforman la nación española.</p>
+          <p class="parrafo">La recuperación por el pueblo asturiano de la riqueza del bable/asturiano, exige una serie de actuaciones que tengan por objetivo el fomento, la protección, la conservación y el buen uso que respete las diversas modalidades.</p>
+          <p class="parrafo">El Consejo de Gobierno del Principado, que ha asumido la dirección y coordinación de las actividades relacionadas con el bable/asturiano, ha ido estableciendo medidas de promoción del mismo, especialmente en los campos de la enseñanza y en otros sectores institucionales. Tales medidas tenían como objetivo la recuperación, conservación y promoción del bable y sus variantes.</p>
+          <p class="parrafo">Se considera conveniente avanzar en ese proceso y al mismo tiempo en lograr una consolidación de lo que se ha hecho hasta el presente. Por todo ello se considera oportuno el desarrollo del contenido del articulado de nuestro Estatuto en lo que hace referencia al bable/asturiano y a sus modalidades. En este sentido es necesario profundizar en aspectos tales como el uso, la enseñanza, la promoción en los medios de comunicación, que permitan cumplir la actual demanda social en función de las exigencias de nuestro Estatuto.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 1. Lengua tradicional.</p>
+          <p class="parrafo_2">El bable/asturiano, como lengua tradicional de Asturias, gozará de protección. El Principado de Asturias promoverá su uso, difusión y enseñanza.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 2. Gallego/asturiano.</p>
+          <p class="parrafo_2">El régimen de protección, respeto, tutela y desarrollo establecido en esta Ley para el bable/asturiano se extenderá, mediante regulación especial al gallego/asturiano en las zonas en las que tiene carácter de modalidad lingüística propia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 3. Objeto de la Ley.</p>
+          <p class="parrafo_2">Es objeto de la presente Ley:</p>
+          <p class="parrafo_2">a) Amparar el derecho de los ciudadanos a conocer y usar el bable/asturiano y establecer los medios que lo hagan efectivo.</p>
+          <p class="parrafo">b) Fomentar su recuperación y desarrollo, definiendo medidas para promover su uso.</p>
+          <p class="parrafo">c) Garantizar la enseñanza del bable/asturiano, en el ejercicio de las competencias asumidas por el Principado de Asturias, atendiendo a los principios de voluntariedad, gradualidad y respeto a la realidad sociolingüística de Asturias.</p>
+          <p class="parrafo">d) Asegurar su libre uso y la no discriminación de los ciudadanos por este motivo.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Del uso del bable/asturiano</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 4. Uso administrativo.</p>
+          <p class="parrafo_2">1. Todos los ciudadanos tienen derecho a emplear el bable/asturiano y a expresarse en él, de palabra y por escrito.</p>
+          <p class="parrafo">2. Se tendrá por válido a todos los efectos el uso del bable/asturiano en las comunicaciones orales o escritas de los ciudadanos con el Principado de Asturias.</p>
+          <p class="parrafo">3. El Principado de Asturias propiciará el conocimiento del bable/asturiano por todos los empleados públicos que desarrollen su labor en Asturias; el conocimiento del bable/asturiano podrá ser valorado en las oposiciones y concursos convocados por el Principado de Asturias, cuando las características del puesto de trabajo y la naturaleza de las funciones que vayan a desarrollarse lo requieran.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 5. Publicaciones.</p>
+          <p class="parrafo_2">1. Las disposiciones, resoluciones y acuerdos de los órganos institucionales del Principado, así como las leyes aprobadas por la Junta General, podrán publicarse en bable/asturiano, mediante edición separada del «Boletín Oficial del Principado de Asturias»; el acuerdo de publicación será adoptado por el órgano o institución que autorice u ordene la publicación.</p>
+          <p class="parrafo">2. Las publicaciones, impresos, modelos, folletos o anuncios institucionales podrán ser publicados indistintamente en castellano, bable/asturiano o en las dos lenguas; si hubieran de surtir efectos frente a terceros, deberán ser publicados obligatoriamente en castellano, sin perjuicio de que puedan serlo también en bable/asturiano.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 6. Convenios.</p>
+          <p class="parrafo_2">El Principado de Asturias podrá concertar convenios con la Administración del Estado para promover el uso del bable/asturiano por los servicios que desarrollen sus funciones en el territorio de Asturias.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 7. Órgano de traducción.</p>
+          <p class="parrafo_2">La Administración del Principado dispondrá de un órgano de traducción oficial bable/asturiano-castellano, al que corresponderán las siguientes funciones:</p>
+          <p class="parrafo_2">a) Efectuar la traducción o certificar su validez, según el caso, de cuantos textos deban ser publicados en bable/asturiano en los «Boletines Oficiales» del Principado de Asturias y de la Junta General del Principado de Asturias.</p>
+          <p class="parrafo">b) Efectuar cualquier traducción bable/asturiano-castellano para la que sea requerido, tanto por los poderes públicos en el ejercicio de sus competencias como por las instituciones a que se refiere el artículo 16 de esta Ley.</p>
+          <p class="parrafo">c) Cualquier otra que se le atribuya en el desarrollo reglamentario de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 8. Ayuntamientos.</p>
+          <p class="parrafo_2">1. Los ayuntamientos asturianos podrán adoptar las medidas necesarias para asegurar la efectividad del ejercicio de los derechos lingüísticos que esta Ley otorga a los ciudadanos residentes en Asturias.</p>
+          <p class="parrafo">2. El Principado de Asturias podrá concertar con los ayuntamientos planes específicos para el efectivo uso del bable/asturiano en los respectivos concejos, a cuyo fin podrá subvencionar los servicios y actuaciones que fueran precisos.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De la enseñanza</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 9. Enseñanza.</p>
+          <p class="parrafo_2">El Principado de Asturias, en el ejercicio de sus competencias, asegurará la enseñanza del bable/asturiano y promoverá su uso dentro del sistema educativo, en los términos previstos en el Estatuto de Autonomía de Asturias.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 10. Currículo.</p>
+          <p class="parrafo_2">1. En el ejercicio de sus competencias, el Principado de Asturias garantizará la enseñanza del bable/asturiano en todos los niveles y grados, respetando no obstante la voluntariedad de su aprendizaje. En todo caso, el bable/asturiano deberá ser impartido dentro del horario escolar y será considerado como materia integrante del currículo.</p>
+          <p class="parrafo">2. Los principios anteriores se harán extensivos a la educación permanente de adultos.</p>
+          <p class="parrafo">3. La elección del estudio o del uso del bable/asturiano como asignatura del currículo, en ningún caso podrá ser motivo de discriminación de los alumnos. Para quienes lo elijan, su aprendizaje o uso no podrá constituir obstáculo para recibir la misma formación y conocimientos en igualdad de condiciones que el resto del alumnado.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 11. Titulaciones.</p>
+          <p class="parrafo_2">El Principado de Asturias establecerá:</p>
+          <p class="parrafo_2">a) Las titulaciones necesarias para impartir la enseñanza del bable/asturiano.</p>
+          <p class="parrafo">b) Titulaciones y certificaciones que acrediten el conocimiento del bable/asturiano.</p>
+          <p class="parrafo">c) Programas de formación y procedimientos de acceso relativos a dichas titulaciones y certificaciones.</p>
+          <p class="parrafo">d) El procedimiento para la autorización de libros de texto a emplear en la enseñanza del bable/asturiano.</p>
+          <p class="parrafo">e) El decreto de currículo en los distintos niveles educativos.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">De los medios de comunicación y de la producción editorial y audiovisual</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 12. Promoción.</p>
+          <p class="parrafo_2">Las administraciones públicas promoverán la defensa del bable/asturiano en los medios de comunicación públicos y privados.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 13. Difusión.</p>
+          <p class="parrafo_2">1. El Principado de Asturias contribuirá a la difusión en los medios de comunicación del bable/asturiano mediante:</p>
+          <p class="parrafo_2">a) La elaboración y dotación presupuestaria de planes de apoyo económico y material para que los medios de comunicación empleen el bable/asturiano de forma habitual.</p>
+          <p class="parrafo">b) La protección de las manifestaciones culturales y artísticas, la edición de libros, la producción fonográfica, audiovisual y cinematográfica y cualesquiera otras actividades que se realicen en bable/asturiano.</p>
+          <p class="parrafo_2">2. En las emisiones de radio y televisión y en los demás medios de comunicación con presencia actual o futura de la Administración autonómica, ésta velará por una presencia adecuada del bable/asturiano.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 14. Subvenciones.</p>
+          <p class="parrafo_2">1. La convocatoria de subvenciones o ayudas a los medios de comunicación, producciones audiovisuales, cinematográficas, fonográficas o editoriales podrá ser específica para producciones o publicaciones en bable/asturiano; en las demás publicaciones y producciones se fomentará su presencia de forma no acotada a secciones o espacios determinados.</p>
+          <p class="parrafo">2. Las empresas y empresarios, privados o públicos, que utilicen el bable/asturiano en su publicidad, etiquetado, correspondencia o documentación podrán ser igualmente beneficiarios de subvenciones y ayudas específicamente convocadas a este fin.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">De la toponimia</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 15. Topónimos.</p>
+          <p class="parrafo_2">1. Los topónimos de la Comunidad Autónoma del Principado de Asturias tendrán la denominación oficial en su forma tradicional. Cuando un topónimo tenga uso generalizado en su forma tradicional y en castellano, la denominación podrá ser bilingüe.</p>
+          <p class="parrafo">2. De acuerdo con los procedimientos que reglamentariamente se determinen, corresponde al Consejo de Gobierno, previo dictamen de la Junta de Toponimia del Principado de Asturias, y sin perjuicio de las competencias municipales y estatales, determinar los topónimos de la Comunidad Autónoma.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">De los órganos consultivos</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 16. Órganos consultivos y asesores.</p>
+          <p class="parrafo_2">A los efectos de lo dispuesto en la presente Ley, tendrán la consideración de órganos consultivos y asesores de la Administración del Principado de Asturias, las instituciones siguientes:</p>
+          <p class="parrafo_2">a) La Universidad de Oviedo.</p>
+          <p class="parrafo">b) La Academia de la Llingua.</p>
+          <p class="parrafo">c) La Junta de Toponimia del Principado de Asturias.</p>
+          <p class="parrafo">d) El Real Instituto de Estudios Asturianos (RIDEA).</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 17. Universidad de Oviedo.</p>
+          <p class="parrafo_2">La Universidad de Oviedo, en ejercicio de sus competencias, y a fin de garantizar la adecuada capacitación del profesorado necesario para la enseñanza del bable/asturiano, llevará a cabo, a través de los correspondientes departamentos, la formación inicial de éste. Asimismo, compete a la Universidad la investigación lingüística y filológica en relación con el bable/asturiano.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Artículo 18. Academia de la Llingua.</p>
+          <p class="parrafo_2">Sin perjuicio de las atribuciones propias que ostentan en el ejercicio de sus competencias las instituciones a que se refiere el artículo 16 de esta Ley, corresponderá a la Academia de la Llingua del Principado de Asturias las siguientes funciones:</p>
+          <p class="parrafo_2">a) Seguimiento de los programas y planes regionales en materia de bable/asturiano.</p>
+          <p class="parrafo">b) Emitir dictámenes por iniciativa propia o a instancias, tanto de la Junta General del Principado como del Gobierno regional sobre actuaciones concretas en materia de bable/asturiano.</p>
+          <p class="parrafo">c) Asesorar y formular propuestas en relación al bable/asturiano, cuando sea requerido para ello por los organismos competentes en materia cultural y/o lingüística, a la Administración del Principado de Asturias.</p>
+          <p class="parrafo">d) Cualquier otra que se le atribuya en el desarrollo reglamentario de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Disposición adicional.</p>
+          <p class="parrafo_2">El gallego-asturiano tendrá un tratamiento similar al asturiano en lo que se refiere a protección, respeto, enseñanza, uso y tutela en su ámbito territorial</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Disposición transitoria.</p>
+          <p class="parrafo_2">En tanto no se aprueben los procedimientos y planes de estudios necesarios para acceder a las titulaciones mencionadas en el apartado a) del artículo 11, el Principado de Asturias reconocerá oficialmente, en la forma que se determine reglamentariamente, aquellas titulaciones que hayan sido expedidas por instituciones oficiales.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo_2">Se autoriza al Consejo de Gobierno para dictar las disposiciones reglamentarias que fueran precisas para el desarrollo y ejecución de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1998-10126" fecha_publicacion="19980328" fecha_vigencia="19980417">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a quienes sea de aplicación esta Ley coadyuven a su cumplimiento, así como a todos los Tribunales y Autoridades que la guarden y la hagan guardar.</p>
+          <p class="parrafo_2">Oviedo, a 23 de marzo de 1998.</p>
+          <p class="firma_ministro">SERGIO MARQUÉS FERNÁNDEZ,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

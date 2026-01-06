@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T112043Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-15821</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20070727</fecha_disposicion>
+      <numero_oficial>1070/2007</numero_oficial>
+      <titulo>Real Decreto 1070/2007, de 27 de julio, por el que se aprueba la norma de calidad para la cuajada.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20070829</fecha_publicacion>
+      <diario_numero>207</diario_numero>
+      <fecha_vigencia>20070830</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2007/07/27/1070</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-15821</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="5163">Normas de calidad</materia>
+        <materia codigo="5743">Productos lácteos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-17962</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 14 de junio de 1983</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-15821</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-27</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1070</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5743"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-15821</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1070</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5743"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/con/20070829"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1070/2007, de 27 de julio, por el que se aprueba la norma de calidad para la cuajada.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-08-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 1070/2007, de 27 de juliol, pel qual s'aprova la norma de qualitat per a la quallada.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 1070/2007, do 27 de xullo, polo que se aproba a norma de calidade para o leite callado. («BOE» 207, do 29-8-2007.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/con/20070829">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-15821</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1070</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5743"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-08-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/con/20070829/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1070/2007, de 27 de julio, por el que se aprueba la norma de calidad para la cuajada.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/con/20070829"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/07/27/1070/con/20070829/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/07/27/1070/con/20070829/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="parrafo">La Orden de 14 de junio de 1983, por la que se aprueba la norma de calidad para la cuajada en el mercado interior, fue modificada, en parte, por las Órdenes de 8 de mayo de 1987 y de 23 de enero de 1998 y, derogada en lo relativo a aditivos, por el Real Decreto 145/1997, de 31 de enero, por el que se aprueba la lista positiva de aditivos distintos de colorantes y edulcorantes para su uso en la elaboración de productos alimenticios, así como sus condiciones de utilización, posteriormente derogado por el Real Decreto 142/2002, de 1 de febrero, por el que se aprueba la lista positiva de aditivos distintos de colorantes y edulcorantes para su uso en la elaboración de productos alimenticios, así como sus condiciones de utilización.</p>
+          <p class="parrafo">Asimismo, aun cuando no existe normativa armonizada en la Unión Europea sobre la cuajada, son aplicables diversas disposiciones comunitarias de carácter horizontal, relacionadas con los productos lácteos y con los alimentos en general, que inciden sobre determinados aspectos regulados por la mencionada norma de calidad, dejándolos sin aplicación.</p>
+          <p class="parrafo">Por otra parte, la mencionada norma de calidad no contempla la posibilidad de incorporar a la cuajada otros ingredientes no lácteos, lo que teniendo en cuenta el desarrollo de las técnicas de producción del sector industrial, hacen necesaria una clasificación de los diferentes tipos de cuajada en función de los ingredientes incorporados, de acuerdo con las nuevas necesidades de mercado en cuanto a la diversificación de la oferta de productos y a fin de contribuir al desarrollo del comercio en condiciones de competencia leal.</p>
+          <p class="parrafo">En consecuencia, se estima procedente la derogación de la mencionada Orden de 14 de junio de 1983, con objeto de establecer una nueva norma de calidad para la cuajada que se recoge en este real decreto.</p>
+          <p class="parrafo">La regulación se lleva a cabo mediante una disposición con rango formal de real decreto por considerar que es el instrumento normativo adecuado para determinar exhaustivamente todos los aspectos básicos de esta materia, debido al carácter marcadamente técnico de la misma.</p>
+          <p class="parrafo">En el proceso de tramitación de este real decreto han sido consultadas las comunidades autónomas y las entidades representativas de los sectores afectados, habiendo emitido informe favorable la Comisión Interministerial para la Ordenación Alimentaria.</p>
+          <p class="parrafo">Este real decreto ha sido sometido al procedimiento previsto en la Directiva 98/34/CE, del Parlamento Europeo y del Consejo, de 22 de junio, por la que se establece un procedimiento de información en materia de las normas y reglamentaciones técnicas, y en el Real Decreto 1337/1999, de 31 de julio, por el que se regula la remisión de información en materia de normas y reglamentaciones técnicas y reglamentos relativos a los servicios de la sociedad de la información, que incorpora esta Directiva al ordenamiento jurídico español.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Agricultura, Pesca y Alimentación, del Ministro de Sanidad y Consumo, y del Ministro de Industria, Turismo y Comercio, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 27 de julio de 2007,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="articulo">Artículo único. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo">Se aprueba la norma de calidad para la cuajada elaborada en España que se inserta a continuación.</p>
+          <p class="parrafo">Este real decreto se aplica sin perjuicio de las normas sanitarias y otras disposiciones específicas que afecten a la producción y comercialización de la cuajada.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="articulo">Disposición adicional única. Cláusula de reconocimiento mutuo.</p>
+          <p class="parrafo">Los requisitos de este real decreto no se aplicarán a la cuajada legalmente fabricada o comercializada de acuerdo con otras especificaciones en los otros Estados miembros de la Unión Europea ni a los productos originarios de los países de la Asociación Europea de Libre Comercio (AELC), Partes Contratantes en el Acuerdo sobre el Espacio Económico Europeo (EEE) y Turquía.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="articulo">Disposición transitoria única. Prórroga de comercialización.</p>
+          <p class="parrafo">Los productos etiquetados con anterioridad a la fecha de entrada en vigor de este real decreto y que no se ajusten a lo dispuesto en el mismo, podrán comercializarse hasta que se agoten sus existencias.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este real decreto y en particular la Orden de 14 de junio de 1983 por la que se aprueba la norma de calidad para la cuajada en el mercado interior.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta de conformidad con lo dispuesto en el artículo 149.1.13.ª y 16.ª de la Constitución que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, y de bases y coordinación general de la sanidad, respectivamente.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="parrafo_2">Dado en Palma de Mallorca, el 27 de julio de 2007.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia,<br/> MARÍA TERESA FERNÁNDEZ DE LA VEGA SANZ</p>
+        </version>
+      </bloque>
+      <bloque id="no" tipo="encabezado" titulo="NORMA DE CALIDAD">
+        <version id_norma="BOE-A-2007-15821" fecha_publicacion="20070829" fecha_vigencia="20070830">
+          <p class="anexo">NORMA DE CALIDAD PARA LA CUAJADA</p>
+          <p class="parrafo_2">1. Definición.</p>
+          <p class="parrafo_2">Se entiende por cuajada el producto semisólido obtenido de la leche entera, semidesnatada o desnatada, sometida a tratamiento térmico adecuado, coagulada por la acción del cuajo u otras enzimas coagulantes autorizadas, sin adición de fermentos lácticos y sin proceso de desuerado.</p>
+          <p class="parrafo_2">2. Tipos de cuajada.</p>
+          <p class="parrafo_2">Tipos de cuajada: Según los productos añadidos, la cuajada puede clasificarse de la siguiente forma:</p>
+          <p class="parrafo_2">2.1 Cuajada: la definida en el apartado 1.</p>
+          <p class="parrafo">2.2 Cuajada azucarada: es la cuajada definida en el apartado 1, a la que se han añadido azúcar o azúcares comestibles.</p>
+          <p class="parrafo">2.3 Cuajada edulcorada o, con edulcorante: es la cuajada definida en el apartado 1, a la que se han añadido edulcorantes autorizados.</p>
+          <p class="parrafo">2.4 Cuajada con frutas, zumos y otros productos alimenticios: es la cuajada definida en el apartado 1, a la que se han añadido ingredientes tales como frutas, zumos y otros.</p>
+          <p class="parrafo">2.5 Cuajada aromatizada: es la cuajada definida en el apartado 1, a la que se han añadido agentes aromatizantes autorizados.</p>
+          <p class="parrafo_2">3. Factores esenciales de composición y calidad.</p>
+          <p class="parrafo_2">3.1 Materia grasa láctea: El contenido mínimo en materia grasa de la cuajada será, de 3,5 por cien m/m sobre la parte láctea, salvo para las cuajadas «semidesnatadas» en las que el contenido mínimo será superior a 1 por cien y el máximo del 2 por cien de materia grasa m/m sobre la parte láctea y para las cuajadas desnatadas, en las que el máximo será de 0,5 por cien.</p>
+          <p class="parrafo">3.2 Extracto seco magro lácteo mínimo: 11,5 por cien, expresado en masa/masa sobre el producto terminado.</p>
+          <p class="parrafo">3.3 Contenido en cuajada: Para las cuajadas con frutas, zumos y otros productos naturales definidas en el apartado 2.4, la cantidad mínima de cuajada en el producto terminado será del 70 por cien m/m.</p>
+          <p class="parrafo">Para las cuajadas aromatizadas definidas en el apartado 2.5 la cantidad mínima de cuajada en el producto terminado será de 80 por cien m/m.</p>
+          <p class="parrafo">3.4 El límite mínimo de colesterol, dentro de los esteroles, para la cuajada de vaca, cabra y oveja será de un 98 por cien.</p>
+          <p class="parrafo_2">4. Materias primas. Ingredientes esenciales y facultativos.</p>
+          <p class="parrafo_2">4.1 Ingredientes esenciales:</p>
+          <p class="parrafo_2">4.1.1 Leche entera, semidesnatada o desnatada, concentrada o no, de oveja, cabra, vaca o sus mezclas.</p>
+          <p class="parrafo">4.1.2 Cuajo u otros coagulantes de leche que cumplan lo dispuesto en la Orden de 14 de enero de 1988 por la que se aprueba la Norma General de identidad y pureza para el cuajo y otras enzimas coagulantes de leche destinados al mercado interior.</p>
+          <p class="parrafo">4.1.3 Azúcar y azúcares comestibles en la cuajada azucarada definida en el apartado 2.2.</p>
+          <p class="parrafo">4.1.4 Edulcorantes autorizados en la cuajada edulcorada definida en el apartado 2.3.</p>
+          <p class="parrafo">4.1.5 Frutas, zumos y otros ingredientes naturales en la cuajada con frutas, zumos y otros ingredientes naturales, definida en el apartado 2.4.</p>
+          <p class="parrafo">4.1.6 Agentes aromatizantes autorizados en la cuajada aromatizada definida en el apartado 2.5.</p>
+          <p class="parrafo_2">4.2 Ingredientes facultativos:</p>
+          <p class="parrafo_2">4.2.1 Leche en polvo entera, semidesnatada o desnatada en cantidad que permita ajustar el extracto seco total.</p>
+          <p class="parrafo">4.2.2 Nata, para poder satisfacer los requisitos del contenido de materia grasa.</p>
+          <p class="parrafo">4.2.3 Gelatina, en dosis máxima de 7 gramos por kilogramo de cuajada.</p>
+          <p class="parrafo">4.2.4 Azúcar y azúcares comestibles en las cuajadas definidas en los apartados 2.4 y 2.5.</p>
+          <p class="parrafo">4.2.5 Edulcorantes autorizados en las cuajadas definidas en los apartados 2.4 y 2.5.</p>
+          <p class="parrafo">4.2.6 Agentes aromatizantes autorizados en la cuajada con frutas, zumos y otros productos alimenticios definida en el apartado 2.4.</p>
+          <p class="parrafo_2">5. Aditivos autorizados.</p>
+          <p class="parrafo_2">5.1 Colorantes: Podrán utilizarse los colorantes autorizados para las cuajadas por el Real Decreto 2001/1995, de 7 de diciembre, por el que se aprueba la lista positiva de aditivos colorantes autorizados para su uso en la elaboración de productos alimenticios, así como sus condiciones de utilización.</p>
+          <p class="parrafo">5.2 Edulcorantes: Podrán utilizarse los edulcorantes autorizados para las cuajadas por el Real Decreto 2002/1995, de 7 de diciembre, por el que se aprueba la lista positiva de aditivos edulcorantes autorizados para su uso en la elaboración de productos alimenticios, así como sus condiciones de utilización.</p>
+          <p class="parrafo">5.3 Aditivos distintos de colorantes y edulcorantes: Podrán utilizarse los aditivos autorizados para las cuajadas por el Real Decreto 142/2002, de 1 de febrero, por el que se aprueba la lista positiva de aditivos distintos de colorantes y edulcorantes para su uso en la elaboración de productos alimenticios, así como sus condiciones de utilización.</p>
+          <p class="parrafo_2">6. Etiquetado.</p>
+          <p class="parrafo_2">El etiquetado de los productos recogidos en esta norma debe cumplir lo dispuesto en el Real Decreto 1334/1999, de 31 de julio, por el que se aprueba la norma general de etiquetado, presentación y publicidad de los productos alimenticios y lo establecido en otras disposiciones comunitarias aplicables en la materia, con las siguientes particularidades:</p>
+          <p class="parrafo_2">6.1 Denominación de venta.</p>
+          <p class="parrafo_2">6.1.1 La denominación del producto se corresponderá con los diferentes tipos definidos en el apartado 2 de esta norma, teniendo en cuenta las siguientes precisiones:</p>
+          <p class="parrafo_2">Las cuajadas con frutas, zumos y otros productos alimenticios, se denominarán mediante la expresión: «cuajada con...», seguida de la indicación del nombre específico de las frutas, zumos o productos incorporados o del genérico de «frutas» o «zumos de frutas».</p>
+          <p class="parrafo">Las cuajadas aromatizadas se denominarán mediante la expresión: «cuajada con sabor a...», indicándose a continuación el nombre de la fruta o producto al que corresponda el agente aromatizante utilizado.</p>
+          <p class="parrafo_2">6.1.2 Las cuajadas que se fabriquen con leche distinta de la de vaca, deberán incluir en su denominación la indicación de la especie o especies animales de las que proceda la leche empleada por orden descendente de proporciones.</p>
+          <p class="parrafo">6.1.3 Además, en su caso, se indicarán las menciones «semidesnatada» o «desnatada», en función del contenido en materia grasa láctea, de acuerdo con lo previsto en el apartado 3.1.</p>
+          <p class="parrafo_2">6.2 Contenido en materia grasa: Se indicará el contenido de materia grasa por cien gramos de producto acabado. Sin embargo, esta mención no será exigible cuando forme parte del etiquetado nutricional.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

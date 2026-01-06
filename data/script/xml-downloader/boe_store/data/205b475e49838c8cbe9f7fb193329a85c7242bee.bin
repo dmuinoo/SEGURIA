@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130504Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-975</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8121">Comunidad Autónoma de las Illes Balears</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20101209</fecha_disposicion>
+      <numero_oficial>13/2010</numero_oficial>
+      <titulo>Ley 13/2010, de 9 de diciembre, de publicidad institucional de las Illes Balears.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110119</fecha_publicacion>
+      <diario_numero>16</diario_numero>
+      <fecha_vigencia>20101217</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/2010/12/09/13</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-975</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+        <materia codigo="5796">Publicidad institucional</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 183, de 16 de diciembre de 2010.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2007-4233</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 48.2 del Estatuto aprobado por Ley Orgánica 1/2007, de 28 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-975</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-12-09</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5796"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-975</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-12-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5796"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/con/20101216"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 13/2010, de 9 de diciembre, de publicidad institucional de las Illes Balears.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/con/20101216">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-975</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-12-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5796"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-12-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/con/20101216/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 13/2010, de 9 de diciembre, de publicidad institucional de las Illes Balears.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/con/20101216"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/2010/12/09/13/con/20101216/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/2010/12/09/13/con/20101216/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="centro_redonda">EL PRESIDENTE DE LAS ILLES BALEARS</p>
+          <p class="parrafo">Sea notorio a todos los ciudadanos que el Parlamento de las Illes Balears ha aprobado y yo, en nombre del Rey, y de acuerdo con lo que se establece en el artículo 48.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">En un estado social y democrático de derecho, los poderes públicos tienen como finalidad promover efectivamente la libertad y la igualdad del individuo y de los grupos en los que se integra; facilitar la participación de todos en la vida política, económica, social y cultural; y atender a los ciudadanos mediante la prestación de un número cada vez más grande de servicios, programas e iniciativas. Para alcanzar con eficacia estos objetivos, es necesario que los ciudadanos tengan a su alcance la información necesaria sobre los valores y principios constitucionales y estatutarios, sobre sus derechos y deberes, y sobre las políticas y los servicios públicos. La publicidad institucional es, en una sociedad moderna, el medio adecuado para hacer llegar a los ciudadanos esta información. Así, la publicidad institucional cumple un fin de interés general y, por tanto, puede ser considerada como un auténtico servicio público que debe ser regulado por una norma con rango de ley. Así lo prevé, tras la reforma aprobada por la Ley Orgánica 1/2007, de 28 de febrero, del Estatuto de Autonomía de las Illes Balears. De acuerdo con el artículo 89, una ley del Parlamento de las Illes Balears regulará la publicidad institucional en sus diversas formas. En cumplimiento de este mandamiento estatutario y en el marco de la legislación básica estatal, se dicta la Ley de publicidad institucional de las Illes Balears.</p>
+          <p class="parrafo">Esta ley tiene por objeto regular los aspectos básicos de la publicidad institucional que, en sus diversas formas, lleven a cabo las instituciones de las Illes Balears. La ley define el concepto de publicidad institucional y qué actividades de comunicación pública quedan excluidas; el ámbito subjetivo de aplicación, que comprende todas las instituciones y los órganos de las Illes Balears regulados por el Estatuto de Autonomía, como también los entes y organismos de cualquier naturaleza jurídica dependientes de ellos; y los objetivos de la publicidad institucional y las prohibiciones a que está sometida. Junto a estos elementos definidores de la publicidad institucional, la ley regula también determinados aspectos a ella vinculados: la lengua a utilizar, los principios y criterios de contratación, la garantía de acceso de las personas con discapacidad, el respeto obligado al medio ambiente y el ejercicio de la publicidad institucional en período electoral.</p>
+          <p class="parrafo">Finalmente, con el objeto de velar por el cumplimiento de la ley, se crea la Comisión de Publicidad Institucional de las Illes Balears. Se trata de un órgano colegiado que debe asesorar y supervisar la actividad de las instituciones de las Illes Balears en materia de publicidad institucional. Como órgano asesor, la comisión emitirá informes no vinculantes y preparará estudios sobre la actividad de publicidad institucional que lleven a cabo los sujetos sometidos a ella; en todo caso, ha de elaborar un informe anual que se enviará al Parlamento de las Illes Balears para ser objeto de debate. Como órgano de supervisión, la comisión puede recomendar el cese o la rectificación de las actividades de comunicación que inste –a través de un procedimiento contradictorio– cualquier persona que acredite un derecho o interés legítimo. Aunque la ley no concreta la composición de la comisión, a determinar por reglamento, establece la presencia obligada del Gobierno de las Illes Balears, de los consejos insulares y de los ayuntamientos, como también de personas de reconocido prestigio profesional o académico. La ley garantiza, así, una representación al mismo tiempo plural y especializada.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 1. Objeto de la ley.</p>
+          <p class="parrafo">1. Esta ley tiene por objeto regular la publicidad institucional, en sus diversas formas, de las instituciones de las Illes Balears.</p>
+          <p class="parrafo">2. Se entiende por publicidad institucional toda actividad de comunicación emitida, promovida, subvencionada, patrocinada o contratada, individual o conjuntamente con otras entidades públicas o privadas, por los sujetos sometidos a la ley, que tenga por objeto difundir un mensaje común a una pluralidad de destinatarios mediante cualquier formato, soporte o medio, sea o no publicitario.</p>
+          <p class="parrafo">3. Quedan excluidas de la aplicación de la ley:</p>
+          <p class="parrafo_2">a) La actividad publicitaria de carácter industrial, comercial o mercantil de los sujetos sometidos a la ley.</p>
+          <p class="parrafo">b) La publicación de las normas y los actos que sea obligatoria por mandato legal o reglamentario.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 2. Ámbito subjetivo de aplicación.</p>
+          <p class="parrafo">Están sometidos a la ley:</p>
+          <p class="parrafo_2">a) El Parlamento de las Illes Balears.</p>
+          <p class="parrafo">b) El presidente y el Gobierno de las Illes Balears.</p>
+          <p class="parrafo">c) Los consejos insulares.</p>
+          <p class="parrafo">d) El resto de instituciones y órganos de las Illes Balears regulados en el Estatuto de Autonomía.</p>
+          <p class="parrafo">e) La Administración de la comunidad autónoma de las Illes Balears, los entes del sector público instrumental y los entes y organismos dependientes del Gobierno de las Illes Balears.</p>
+          <p class="parrafo">f) La administración de cada consejo insular, sus entes instrumentales y los entes y organismos dependientes.</p>
+          <p class="parrafo">g) Las entidades locales de las Illes Balears, sus entes instrumentales y los entes y organismos que dependen de ellas.</p>
+          <p class="parrafo">h) La Universidad de las Illes Balears.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 3. Objetivos de la publicidad institucional.</p>
+          <p class="parrafo">La publicidad institucional ha de tener alguno de los objetivos siguientes:</p>
+          <p class="parrafo_2">a) Promover la difusión y el conocimiento de los valores y principios constitucionales y estatutarios, y fomentar actitudes positivas y comportamientos adecuados de los ciudadanos hacia estos principios y valores.</p>
+          <p class="parrafo">b) Informar a los ciudadanos de sus derechos y deberes.</p>
+          <p class="parrafo">c) Dar a conocer políticas, programas, servicios y actuaciones públicos.</p>
+          <p class="parrafo">d) Informar del contenido de las disposiciones normativas y los actos que, por su relevancia, lo aconsejen.</p>
+          <p class="parrafo">e) Difundir el conocimiento y la imagen de la comunidad autónoma, de las entidades que la forman y de sus instituciones.</p>
+          <p class="parrafo">f) Promover el patrimonio cultural, lingüístico y natural de las Illes Balears, así como cualesquiera otros tipos de bienes tangibles o intangibles relevantes de las Illes Balears.</p>
+          <p class="parrafo">g) Apoyar a los sectores y a las actividades económicos de la comunidad autónoma y promover los productos y servicios de las Illes Balears.</p>
+          <p class="parrafo">h) Anunciar medidas preventivas de riesgos o que contribuyan a la eliminación de daños de cualquier tipo para la salud de las personas o para el patrimonio natural.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 4. Prohibiciones.</p>
+          <p class="parrafo">1. La publicidad institucional está sometida a las prohibiciones establecidas en la legislación básica estatal.</p>
+          <p class="parrafo">2. Se prohíbe la publicidad institucional que:</p>
+          <p class="parrafo_2">a) No responda a alguno de los objetivos señalados en el artículo 3 anterior.</p>
+          <p class="parrafo">b) No se desarrolle en el ejercicio de las competencias propias.</p>
+          <p class="parrafo">c) Tenga como finalidad destacar los logros en la gestión o los objetivos conseguidos por los sujetos sometidos a la ley.</p>
+          <p class="parrafo">d) Menoscabe, obstaculice, perturbe o cuestione, de forma manifiesta o implícita, las políticas públicas o cualquier actuación que legítimamente haya llevado a cabo otro poder público en el ejercicio de sus competencias.</p>
+          <p class="parrafo">e) Atente contra la dignidad de la persona o incluya mensajes discriminatorios, sexistas o de cualquiera otro tipo contrarios a los principios, valores y derechos constitucionales y estatutarios.</p>
+          <p class="parrafo">f) Atente contra el cumplimiento del principio de igualdad y no discriminación, no transmitiendo una imagen igualitaria, plural y no estereotipada entre hombres y mujeres, ya sea a través de imágenes, de símbolos o del propio uso del lenguaje.</p>
+          <p class="parrafo">g) Incite, de forma directa o indirecta, a la violencia o a comportamientos contrarios al ordenamiento jurídico.</p>
+          <p class="parrafo">h) Induzca a confusión con símbolos, ideas, expresiones, diseños o imágenes utilizados por cualquier formación política u organización social.</p>
+          <p class="parrafo">i) No se identifique claramente como tal o no incluya la mención expresa y la imagen corporativa del sujeto que la difunda, promueva o contrate.</p>
+          <p class="parrafo">j) Tenga un carácter engañoso, desleal, subliminal, encubierto o de otro tipo contrario a los principios y a las disposiciones de la legislación y la ética publicitarias.</p>
+          <p class="parrafo">k) Tenga un contenido o se difunda a través de un formato, soporte o medio que sea incompatible con la dignidad de la institución pública que la promueva.</p>
+          <p class="parrafo">l) Se difunda a través de medios o consista en patrocinar sujetos o actividades que promuevan actuaciones contrarias a los principios, valores y derechos constitucionales y estatutarios.</p>
+          <p class="parrafo">m) No concurran exclusivamente en ella razones de interés público.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 5. Lenguas de la publicidad institucional.</p>
+          <p class="parrafo">1. La publicidad institucional aplicará la Ley 3/1986, de 29 de abril, de normalización lingüística de las Illes Balears, de manera coherente con la Ley Orgánica 1/2007, de 28 de febrero, de reforma del Estatuto de Autonomía de las Illes Balears.</p>
+          <p class="parrafo">2. Los textos de la publicidad institucional contribuirán al uso y al mejor conocimiento de la identidad y la tradición lingüísticas de las Illes Balears.</p>
+          <p class="parrafo">3. La publicidad institucional podrá llevarse a cabo en otros idiomas, cuando así lo requiera su objeto.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 6. Contratación.</p>
+          <p class="parrafo">1. Los contratos relativos a la publicidad institucional se rigen por la legislación de contratos del sector público y por el resto de disposiciones que les sea de aplicación, respetando los principios de igualdad, libre concurrencia, publicidad, objetividad, eficacia y eficiencia.</p>
+          <p class="parrafo">2. Para la determinación de los medios de difusión a utilizar en cada campaña publicitaria y para la distribución de la inversión entre ellos, sólo se tendrán en cuenta los criterios objetivos, de alcance territorial, de difusión de cada medio y de coste económico. En las campañas dirigidas solamente a un segmento de la población, se tendrán en cuenta de manera destacada el uso de la lengua, la capacidad de difusión de cada medio o su adaptación al público objetivo de la acción publicitaria.</p>
+          <p class="parrafo">Una vez decididos los soportes o medios a utilizar, los contratos a los que se refiere este artículo no podrán excluir ningún soporte o medio de la misma tipología entre los que estén incluidos en la campaña publicitaria, con la excepción de los que lo sean de manera expresamente motivada, siendo la cuantía asignada a cada uno el tanto por ciento que les corresponda en función de su capacidad de difusión.</p>
+          <p class="parrafo">Los criterios de difusión se establecerán para cada campaña atendiendo a los índices comparativos de referencia que sean comúnmente aceptados por el mercado, priorizando los gestionados por organizaciones sin finalidades lucrativas.</p>
+          <p class="parrafo">3. El precio a pagar por parte de los contratantes de publicidad incluidos en el artículo 2 de esta ley en ningún caso será superior a la media de precio de mercado de anunciantes privados para cada soporte y para las mismas características de los anuncios o las campañas publicitarias.</p>
+          <p class="parrafo">4. En caso de que la cuantía total en gasto por publicidad institucional, entendida así como se define en el artículo 1.2 de esta ley, supere el 5% del presupuesto total de la administración correspondiente entre las citadas en el artículo 2 anterior, será de obligado cumplimiento presentar una comunicación justificativa y razonada sobre este hecho a la Comisión de Publicidad Institucional de las Illes Balears prevista en el artículo 10 de esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 7. Subvención de los medios de comunicación privados.</p>
+          <p class="parrafo">1. Los medios de comunicación privados quedarán sujetos a la Ley 6/2004, de 23 de diciembre, de modificación de la Ley 5/2002, de 21 de junio, de subvenciones, a los efectos de percepción de este tipo de apoyo económico proveniente del erario público para promover su actividad.</p>
+          <p class="parrafo">2. Las subvenciones a medios de comunicación serán comunicadas a la Comisión de Publicidad Institucional de las Illes Balears prevista en el artículo 10 de esta ley, que recibirá la información de manera obligatoria por parte de las instituciones previstas en el artículo 2 anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 8. Accesibilidad, igualdad de oportunidades y respeto al medio ambiente.</p>
+          <p class="parrafo">1. Se garantizará el acceso de las personas con discapacidad a los mensajes institucionales, posibilitando la accesibilidad universal establecida en la legislación vigente en cada momento, el reconocimiento de las lenguas de signos españolas (catalana y castellana) y la aplicación de cualquier norma que regule los medios de apoyo a la comunicación oral de las personas sordas, con discapacidad auditiva y sordo-ciegas.</p>
+          <p class="parrafo">2. La publicidad institucional respetará en todas sus actuaciones la legislación vigente en cuanto a igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad.</p>
+          <p class="parrafo">3. Se utilizarán los formatos, soportes o medios que, en consideración a cada actividad de comunicación concreta y sin perjuicio de su eficacia, tengan un menor impacto medioambiental.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 9. Publicidad institucional durante el período electoral.</p>
+          <p class="parrafo">1. No puede llevarse a cabo publicidad institucional durante el período electoral. Se entiende por período electoral el comprendido entre el día de la publicación de la convocatoria de cualesquiera elecciones o de un referéndum con incidencia en el territorio de las Illes Balears y el día de la votación.</p>
+          <p class="parrafo">2. Quedan excluidas del apartado anterior:</p>
+          <p class="parrafo_2">a) Las campañas institucionales previstas en la legislación electoral y de referéndums.</p>
+          <p class="parrafo">b) La comunicación pública que sea necesaria para la salvaguarda del interés público o para el desarrollo correcto de los servicios públicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 10. Comisión de Publicidad Institucional de las Illes Balears.</p>
+          <p class="parrafo">1. Se crea la Comisión de Publicidad Institucional de las Illes Balears como órgano colegiado de supervisión y asesoramiento de la actividad de las instituciones de las Illes Balears en materia de publicidad institucional.</p>
+          <p class="parrafo">2. La composición y el sistema de elección de los miembros de la Comisión de Publicidad Institucional de las Illes Balears se determinará por reglamento. Necesariamente ha de garantizarse la presencia del Gobierno de las Illes Balears, de los consejos insulares, de los ayuntamientos y del Colegio Oficial de Publicitarios y Relaciones Públicas de las Illes Balears. Deberán formar parte también personas de reconocido prestigio profesional o académico, procedentes de manera equitativa de cada una de las Illes Balears, elegidas por el Parlamento de las Illes Balears por mayoría absoluta.</p>
+          <p class="parrafo">Las personas de reconocido prestigio a las que se refiere el párrafo anterior no pueden tener intereses directos fruto de su actividad profesional relacionados con ninguna empresa del ámbito publicitario o con ningún medio de comunicación.</p>
+          <p class="parrafo">3. El mandato de los miembros de la Comisión de Publicidad Institucional de las Illes Balears es de tres años computables desde su nombramiento. Este mandato puede ser renovable, excepto en el caso de los representantes de las diferentes administraciones públicas, los cuales estarán sujetos a la duración del mandato de cada institución, finalizado el cual cesarán y se llevarán a cabo nuevos nombramientos al inicio del siguiente; hecho que no impedirá la continuidad de la misma personal, en su caso.</p>
+          <p class="parrafo">4. La Comisión de Publicidad Institucional de las Illes Balears queda adscrita, a efectos operativos y de dotación de recursos, a la consejería del Gobierno de las Illes Balears con competencias sobre publicidad institucional.</p>
+          <p class="parrafo">5. La Comisión de Publicidad Institucional de las Illes Balears tiene las siguientes funciones:</p>
+          <p class="parrafo_2">a) Presentar, al menos una vez al año, el informe anual de la actividad de publicidad institucional, por parte del presidente de la Comisión de Publicidad Institucional, ante la comisión parlamentaria correspondiente del Parlamento de las Illes Balears.</p>
+          <p class="parrafo">b) Emitir informes no vinculantes sobre cualquier cuestión relativa a la aplicación de esta ley que le planteen las instituciones de las Illes Balears.</p>
+          <p class="parrafo">c) Elaborar los estudios e informes que considere convenientes en relación con la aplicación de esta ley.</p>
+          <p class="parrafo">d) Recomendar el cese o la rectificación de las actividades de comunicación que se inste a través del procedimiento previsto en el siguiente apartado.</p>
+          <p class="parrafo_2">6. Cualquier persona física o jurídica que acredite un derecho o interés legítimo puede solicitar a la Comisión de Publicidad Institucional de las Illes Balears el cese inmediato o la rectificación de las actividades de comunicación que vulneren las prohibiciones establecidas en esta ley. La solicitud, que ha de resolverse en un plazo máximo de seis días, se tramitará conforme al procedimiento contradictorio que se regule reglamentariamente, durante el cual puede recomendarse la suspensión de la actividad impugnada. Si la resolución es estimatoria de la solicitud, se recomendará a la institución anunciante el cese de la acción de comunicación o la rectificación en los términos que señale la Comisión de Publicidad Institucional de las Illes Balears.</p>
+          <p class="parrafo">7. Los sujetos sometidos a esta ley deben entregar a la Comisión de Publicidad Institucional de las Illes Balears toda la información que precise para el ejercicio de sus funciones.</p>
+          <p class="parrafo">8. Los miembros de la Comisión de Publicidad Institucional de las Illes Balears tienen derecho a percibir, como única compensación a su tarea, las dietas por asistencia a las reuniones y otros gastos reembolsables de acuerdo y dentro los límites establecidos en la normativa aplicable en esta materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Artículo 11. Informe anual de publicidad institucional.</p>
+          <p class="parrafo">1. Para la elaboración del informe anual sobre la actividad de publicidad institucional, los sujetos sometidos a esta ley remitirán a la Comisión de Publicidad Institucional de las Illes Balears, en el plazo y con el contenido que se determine reglamentariamente, una memoria de todas las actividades de publicidad institucional desarrolladas durante el año, así como las subvenciones concedidas a medios de comunicación en el mismo ejercicio presupuestario. La memoria debe especificar necesariamente los medios de difusión empleados y el gasto efectuado en cada uno para cada actividad.</p>
+          <p class="parrafo">2. La Comisión de Publicidad Institucional de las Illes Balears remitirá el informe anual al Parlamento de las Illes Balears durante el primer período de sesiones, para su debate de acuerdo con el Reglamento de la cámara.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Disposición transitoria única. Régimen transitorio de los expedientes de contratación en materia de publicidad institucional.</p>
+          <p class="parrafo">Los expedientes de contratación en materia de publicidad institucional iniciados antes de la entrada en vigor de esta ley deberán adaptarse a ella, de acuerdo con la normativa que les sea de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Quedan derogadas todas las normas de rango igual o inferior que se opongan a esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Disposición final primera. Facultades de desarrollo.</p>
+          <p class="parrafo">Se autoriza al Gobierno de las Illes Balears para que, en el ámbito de su competencia, dicte las disposiciones necesarias para el desarrollo y la ejecución de esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Disposición final segunda. Reglamento de la Comisión de Publicidad Institucional de las Illes Balears.</p>
+          <p class="parrafo">En el plazo máximo de seis meses desde la entrada en vigor de esta ley, el Gobierno debe aprobar el reglamento que determine la composición, la organización y el funcionamiento de la Comisión de Publicidad Institucional de las Illes Balears.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">Esta ley entra en vigor al día siguiente de su publicación en el «Butlletí Oficial de las Illes Balears».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2011-975" fecha_publicacion="20101216" fecha_vigencia="20101217">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos guarden esta Ley y que los Tribunales y las Autoridades a los que correspondan la hagan guardar.</p>
+          <p class="parrafo_2">Palma, 9 de diciembre de 2010.–El Presidente, Francesc Antich Oliver.–El Consejero de Presidencia, Albert Moragues Gomila.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

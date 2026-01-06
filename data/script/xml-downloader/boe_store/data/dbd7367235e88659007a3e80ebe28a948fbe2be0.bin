@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180449Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-19810</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5260">Ministerio de Industria y Energía</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19990917</fecha_disposicion>
+      <numero_oficial>1464/1999</numero_oficial>
+      <titulo>Real Decreto 1464/1999, de 17 de septiembre, sobre actividades de la primera parte del ciclo del combustible nuclear.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19991005</fecha_publicacion>
+      <diario_numero>238</diario_numero>
+      <fecha_vigencia>19991006</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1999/09/17/1464</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-19810</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="619">Carburantes y combustibles</materia>
+        <materia codigo="3163">Empresa Nacional del Uranio</materia>
+        <materia codigo="3190">Energía nuclear</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1980-778</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 2967/1979, de 7 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1997-25340</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 54/1997, de 27 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2005-15229</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3.c), por Orden ITC/2821/2005, de 7 de septiembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-7728</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3.c), por Orden de 17 de abril de 2000</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-19810</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-17</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1464</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/619"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3163"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3190"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-19810</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/619"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3190"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20050914"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20000426"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/19991005"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1464/1999, de 17 de septiembre, sobre actividades de la primera parte del ciclo del combustible nuclear.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-10-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20050914">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-19810</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/619"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3190"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20050914/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1464/1999, de 17 de septiembre, sobre actividades de la primera parte del ciclo del combustible nuclear.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20050914"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20050914/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20050914/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20000426">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-19810</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/619"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3190"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-26</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20000426/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1464/1999, de 17 de septiembre, sobre actividades de la primera parte del ciclo del combustible nuclear.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20000426"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20000426/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/20000426/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/19991005">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-19810</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1464</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/619"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3190"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-10-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/19991005/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1464/1999, de 17 de septiembre, sobre actividades de la primera parte del ciclo del combustible nuclear.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/19991005"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/19991005/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1999/09/17/1464/con/19991005/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="parrafo">La regulación de la primera parte del ciclo del combustible nuclear, que comprende las distintas actividades relacionadas con la producción de combustible nuclear, se inició mediante el Real Decreto 2967/1979, de 7 de diciembre, sobre Ordenación de Actividades en el Ciclo del Combustible Nuclear, que fue modificado por numerosas disposiciones posteriores, fundamentalmente por el Real Decreto 1899/1984, de 1 de agosto, por el que se autoriza a la «Empresa Nacional de Residuos Radiactivos, Sociedad Anónima» (ENRESA), a realizar las actividades propias de la segunda parte del ciclo del combustible nuclear, y por los Reales Decretos 1611/1985, de 17 de julio, y 813/1988, de 15 de julio, mediante los que, básicamente, se establecieron nuevos criterios en relación con los diferentes «stocks» de uranio natural y enriquecido y con el almacenamiento de elementos combustibles nuevos almacenados en las centrales nucleares en operación.</p>
+          <p class="parrafo">Las primeras disposiciones obedecían a unas circunstancias exteriores —España no era entonces Estado miembro de la Unión Europea—, e interiores —los planes energéticos preveían una amplia participación de la energía nuclear en el abastecimiento energético—, que aconsejaban la adopción de normas y de medidas de control administrativo tendentes a tener asegurado en todo momento el suministro de uranio natural y enriquecido necesario para el funcionamiento de los reactores españoles.</p>
+          <p class="parrafo">Sin embargo, la situación actual es muy diferente. El capítulo VI del Tratado de EURATOM, consagrado al abastecimiento de minerales, materiales básicos y materiales fisionables especiales, comienza declarando que se asegurará dicho abastecimiento a los Estados miembros según el principio de igualdad de acceso a los recursos y mediante una política común de abastecimiento, estableciendo en dicho capítulo las medidas necesarias para alcanzar este objetivo.</p>
+          <p class="parrafo">Por otro lado, la nueva Ley 54/1997, de 27 de noviembre, del Sector Eléctrico, tal como se recoge en su exposición de motivos, proporciona un marco liberalizador cuyo objetivo es que se garantice su funcionamiento sin que se produzcan abusos de posiciones dominantes y con respeto estricto a las prácticas de la libre competencia.</p>
+          <p class="parrafo">Por todo ello, se hace necesaria una nueva regulación que evite rigideces indebidas e imponga un mínimo de obligaciones, derivadas de la necesidad de garantizar el suministro eléctrico.</p>
+          <p class="parrafo">En consecuencia, mediante el presente Real Decreto, que se refiere sólo a la primera parte del ciclo del combustible nuclear, los términos y condiciones de los contratos de suministro de uranio y de elementos combustibles se dejan a la autonomía de las partes, sin más limitaciones que las que se deriven de los compromisos internacionales adquiridos por el Estado español y de las leyes, y se establece un plazo máximo para la supresión del «stock» básico de uranio natural y enriquecido, aunque como garantía del suministro a efectos de lo previsto en la Ley del Sector Eléctrico anteriormente citada, se impone a las entidades explotadoras de centrales nucleares una serie de obligaciones, así como la asunción de los gastos que de ella se deriven.</p>
+          <p class="parrafo">En cuanto a la «Empresa Nacional del Uranio, Sociedad Anónima» (ENUSA), de acuerdo con sus normas constitutivas, con la actividad que actualmente desarrolla y con la experiencia adquirida, se configura como una sociedad facultada para acometer las fases de la primera parte del ciclo del combustible nuclear y participar en el mercado nacional e internacional de materiales y servicios relacionados con el mismo.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Industria y Energía, de acuerdo con el Consejo de Estado y tras deliberación del Consejo de Ministros en su reunión del 17 de septiembre de 1999,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">El objeto del presente Real Decreto es la regulación de la primera parte del ciclo del combustible nuclear en lo que se refiere a las obligaciones de las entidades explotadoras de centrales nucleares derivadas de la necesidad de garantizar el suministro de la energía eléctrica y a la gestión y financiación del «stock» básico del uranio hasta su total eliminación. La segunda parte del ciclo del combustible nuclear se regirá por sus normas específicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo">A los efectos de este Real Decreto se entiende por:</p>
+          <p class="parrafo_2">a) Ciclo del combustible nuclear: conjunto de actividades relacionadas con la producción del combustible nuclear y su gestión posterior una vez utilizado en un reactor nuclear.</p>
+          <p class="parrafo">b) Primera parte del ciclo del combustible nuclear: comprende todas las fases anteriores a la utilización del combustible nuclear en un reactor nuclear.</p>
+          <p class="parrafo">c) Segunda parte del ciclo del combustible nuclear: comprende todas las fases posteriores a la utilización del combustible nuclear en un reactor nuclear.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Artículo 3. Garantía del suministro.</p>
+          <p class="parrafo">A los efectos de la garantía del suministro que se prevé en el artículo 10.1 de la Ley 54/1997, de 27 de noviembre, del Sector Eléctrico, las entidades explotadoras de centrales nucleares deberán:</p>
+          <p class="parrafo_2">a) Acreditar ante el Ministerio de Industria y Energía que tienen asegurado el suministro de uranio enriquecido para un período mínimo de funcionamiento de la central de cinco años. El Ministro de Industria y Energía podrá reducir dicho período en función de la fecha prevista para el fin de la explotación de la central.</p>
+          <p class="parrafo">b) Tener almacenados en la central en la que van a ser utilizados los elementos constitutivos de una recarga con una antelación mínima de dos meses.</p>
+          <p class="parrafo">c) Constituir conjuntamente una reserva física de óxido de uranio enriquecido que contenga al menos 400 toneladas de U<sub>3</sub> O<sub>8</sub> y 260.000 Unidades de Trabajo de Separación (UTS) en su composición, en un plazo máximo de seis meses a partir de la entrada en vigor de este Real Decreto.</p>
+          <p class="parrafo_2">Los gastos derivados de las obligaciones establecidas en este artículo serán con cargo a las entidades explotadoras de las centrales nucleares.</p>
+        </version>
+        <version id_norma="BOE-A-2000-7728" fecha_publicacion="20000426" fecha_vigencia="20000427">
+          <p class="articulo">Artículo 3. Garantía del suministro.</p>
+          <p class="parrafo">A los efectos de la garantía del suministro que se prevé en el artículo 10.1 de la Ley 54/1997, de 27 de noviembre, del Sector Eléctrico, las entidades explotadoras de centrales nucleares deberán:</p>
+          <p class="parrafo_2">a) Acreditar ante el Ministerio de Industria y Energía que tienen asegurado el suministro de uranio enriquecido para un período mínimo de funcionamiento de la central de cinco años. El Ministro de Industria y Energía podrá reducir dicho período en función de la fecha prevista para el fin de la explotación de la central.</p>
+          <p class="parrafo">b) Tener almacenados en la central en la que van a ser utilizados los elementos constitutivos de una recarga con una antelación mínima de dos meses.</p>
+          <p class="parrafo">c) Constituir conjuntamente una reserva física de óxido de uranio enriquecido que contenga al menos 435 toneladas de U<sub>3</sub>O<sub>8</sub> y 220.000 Unidades de Trabajo de Separación (UTS) en su composición, en un plazo máximo de seis meses a partir de la entrada en vigor de este Real Decreto.</p>
+          <p class="parrafo_2">Los gastos derivados de las obligaciones establecidas en este artículo serán con cargo a las entidades explotadoras de las centrales nucleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra c) por el apartado 1 de la Orden de 17 de abril de 2000. <a class="refPost">Ref. BOE-A-2000-7728</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2005-15229" fecha_publicacion="20050914" fecha_vigencia="20050915">
+          <p class="articulo">Artículo 3. Garantía del suministro.</p>
+          <p class="parrafo">A los efectos de la garantía del suministro que se prevé en el artículo 10.1 de la Ley 54/1997, de 27 de noviembre, del Sector Eléctrico, las entidades explotadoras de centrales nucleares deberán:</p>
+          <p class="parrafo_2">a) Acreditar ante el Ministerio de Industria y Energía que tienen asegurado el suministro de uranio enriquecido para un período mínimo de funcionamiento de la central de cinco años. El Ministro de Industria y Energía podrá reducir dicho período en función de la fecha prevista para el fin de la explotación de la central.</p>
+          <p class="parrafo">b) Tener almacenados en la central en la que van a ser utilizados los elementos constitutivos de una recarga con una antelación mínima de dos meses.</p>
+          <p class="parrafo">c) Constituir conjuntamente una reserva física de óxido de uranio enriquecido que contenga al menos 721 toneladas de U<sub>3</sub>O<sub>8</sub> y 363.000 Unidades de Trabajo de Separación (UTS) en su composición, en un plazo máximo de seis meses a partir de la entrada en vigor de este Real Decreto.</p>
+          <p class="parrafo_2">Los gastos derivados de las obligaciones establecidas en este artículo serán con cargo a las entidades explotadoras de las centrales nucleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra c) por el art. único de la Orden ITC/2821/2005, de 7 de septiembre. <a class="refPost">Ref. BOE-A-2005-15229</a>.</p>
+            <p class="nota_pie">Se modifica la letra c) por el apartado 1 de la Orden de 17 de abril de 2000. <a class="refPost">Ref. BOE-A-2000-7728</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición adicional única. La «Empresa Nacional del Uranio, Sociedad Anónima».</p>
+          <p class="parrafo">Se faculta a la «Empresa Nacional del Uranio, Sociedad Anónima» (ENUSA), para realizar las actividades correspondientes a la primera parte del ciclo del combustible nuclear y para actuar en el mercado de materiales nucleares y radiactivos suministrando los bienes y servicios que se le requieran, ajustando su actividad a lo preceptuado en la legislación mercantil para las sociedades anónimas y a las disposiciones administrativas aplicables, así como a la Ley 54/1997, de 27 de noviembre, del Sector Eléctrico.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición transitoria primera. Eliminación de «stock» básico de uranio.</p>
+          <p class="parrafo">El «stock» básico de uranio constituido por la «Empresa Nacional del Uranio, Sociedad Anónima» (ENUSA), conforme a lo dispuesto en el artículo 3 del Real Decreto 1611/1985, de 17 de julio, por el que se modifica el Real Decreto 2967/1979, de 7 de diciembre, sobre Ordenación de Actividades en el Ciclo del Combustible Nuclear, se irá reduciendo hasta su total desaparición en el menor plazo que permitan las circunstancias del mercado y, en todo caso, con anterioridad al 31 de diciembre del 2005.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición transitoria segunda. Financiación del «stock» básico de uranio remanente.</p>
+          <p class="parrafo">En tanto no desaparezca totalmente el «stock» básico del uranio, subsistirá el Comité de Seguimiento y Vigilancia de la gestión de dicho «stock», creado por la Orden de 29 de diciembre de 1980.</p>
+          <p class="parrafo">El «stock» remanente continuará siendo financiado por ENUSA, y los costes financieros de dicha financiación serán compensados directamente por la Comisión Nacional de la Energía a ENUSA con cargo a los ingresos por consumo de energía eléctrica, de acuerdo con lo establecido en la disposición adicional decimotercera de la Ley 54/1997, de 27 de noviembre, del Sector Eléctrico, y de acuerdo con el artículo 5, párrafo d) del Real Decreto 2017/1997, de 26 de diciembre, por el que se organiza y regula el procedimiento de liquidación de los costes de transporte, distribución y comercialización a tarifa de los costes permanentes del sistema y de los costes de diversificación y seguridad de abastecimiento.</p>
+          <p class="parrafo">Los eventuales excesos o déficits de dicha compensación, así como las posibles plusvalías o minusvalías generadas por la enajenación del «stock», serán tenidas en cuenta en la tarifa del año siguiente.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición transitoria tercera. Vigencia de los contratos de suministro.</p>
+          <p class="parrafo">Las disposiciones de este Real Decreto no afectarán a la vigencia de los derechos y obligaciones derivados de los contratos suscritos entre ENUSA y los explotadores de centrales nucleares al amparo de la normativa que se deroga, quedando a la voluntad de ambas partes el futuro de los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 2967/1979, de 7 de diciembre, sobre Ordenación del Ciclo del Combustible Nuclear, modificado por el Real Decreto 1611/1985, de 17 de julio, y por el Real Decreto 813/1988, de 15 de julio, sin perjuicio de lo establecido en la disposición transitoria primera de este Real Decreto. Asimismo, queda derogada cualquier otra norma de igual o inferior rango en cuanto se oponga a lo establecido en este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición final primera. Habilitación normativa.</p>
+          <p class="parrafo">El Ministro de Industria y Energía queda facultado para dictar las disposiciones que sean precisas para la aplicación del presente Real Decreto, así como para modificar los plazos a que hacen referencia los párrafos a) y b) del artículo 3, las cantidades del párrafo c) de dicho artículo, y la fecha límite establecida en la disposición transitoria primera.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1999-19810" fecha_publicacion="19991005" fecha_vigencia="19991006">
+          <p class="parrafo_2">Dado en Madrid a 17 de septiembre de 1999.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Industria y Energía,</p>
+          <p class="firma_ministro">JOSEP PIQUÉ I CAMPS</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

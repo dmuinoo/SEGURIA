@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T114214Z</fecha_actualizacion>
+      <identificador>BOE-A-2020-8680</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="6110">Ministerio de Defensa</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20200728</fecha_disposicion>
+      <numero_oficial>701/2020</numero_oficial>
+      <titulo>Real Decreto 701/2020, de 28 de julio, por el que se crea la medalla conmemorativa de la operación Balmis para reconocer al personal participante en la lucha contra el COVID-19.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20200729</fecha_publicacion>
+      <diario_numero>205</diario_numero>
+      <fecha_vigencia>20200730</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2020/07/28/701</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2020-8680</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1336">Condecoraciones y Recompensas</materia>
+        <materia codigo="3247">Epidemias</materia>
+        <materia codigo="3839">Fuerzas Armadas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2003-17107</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición adicional 3 del Real Decreto 1040/2003, de 1 de agosto</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2020-8680</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-28</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">701</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1336"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3247"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2020-8680</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">701</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1336"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3247"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/con/20200729"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 701/2020, de 28 de julio, por el que se crea la medalla conmemorativa de la operación Balmis para reconocer al personal participante en la lucha contra el COVID-19.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/con/20200729">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2020-8680</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-28</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">701</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1336"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3247"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/con/20200729/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 701/2020, de 28 de julio, por el que se crea la medalla conmemorativa de la operación Balmis para reconocer al personal participante en la lucha contra el COVID-19.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/con/20200729"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2020/07/28/701/con/20200729/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2020/07/28/701/con/20200729/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="parrafo">El Real Decreto 1040/2003, de 1 de agosto, por el que se aprueba el Reglamento general de recompensas militares, en su disposición adicional tercera autoriza la creación, mediante real decreto, de medallas conmemorativas y medallas de campaña para conmemorar hechos de relevante trascendencia para las Fuerzas Armadas o para la Patria, así como para destacar la participación de personal civil o militar en determinadas operaciones militares y campañas, como reconocimiento del hecho conmemorable o de la participación en las operaciones y campañas.</p>
+          <p class="parrafo">El 11 de marzo de 2020 la Organización Mundial de la Salud definió la situación de emergencia de salud pública ocasionada por el COVID-19 como pandemia internacional. La rapidez en la evolución de los hechos, a escala nacional e internacional, ha requerido la adopción de medidas inmediatas y eficaces para hacer frente a una crisis sanitaria sin precedentes, entre las cuales se encuentra la intervención de la Fuerzas Armadas, en el marco de la «Operación Balmis».</p>
+          <p class="parrafo">La «Operación Balmis» ha consistido en la integración de las capacidades operativas, sanitarias, logísticas, de policía militar y de infraestructuras pertenecientes a la Unidad Militar de Emergencias, la Inspección General de Sanidad, al Ejército de Tierra, la Armada y el Ejército del Aire, puestas a disposición de las autoridades competentes. La operación fue activada a partir de la declaración del estado de alarma decretado por el Gobierno el día 14 de marzo.</p>
+          <p class="parrafo">Esta operación se encuadra entre las acciones encaminadas a proteger la salud y seguridad de los ciudadanos, contener la progresión de la enfermedad y reforzar el sistema de salud pública en territorio nacional con el objetivo final de salvar vidas. En ella las Fuerzas Armadas se han movilizado en apoyo a las autoridades civiles en la lucha contra la pandemia, realizando cometidos de presencia por numerosos puntos de la geografía nacional, apoyo a las Fuerzas y Cuerpos de Seguridad del Estado, la desinfección de infraestructuras críticas, puertos, aeropuertos, estaciones, instalaciones hospitalarias, centros de salud, residencias de mayores, instalaciones policiales, servicios públicos esenciales, montaje de hospitales de campaña, transporte de fallecidos y la elaboración de productos sanitarios.</p>
+          <p class="parrafo">Como consecuencia de cuanto antecede, se ha determinado la conveniencia de crear una medalla de carácter nacional que reconozca la participación del personal de las Fuerzas Armadas y del personal civil adscrito al Ministerio de Defensa que ha intervenido en la lucha contra el COVID-19, formando parte de la «Operación Balmis».</p>
+          <p class="parrafo">El origen de las condecoraciones se halla en la necesidad de cualquier sociedad organizada de reconocer y premiar hechos destacados y meritorios realizados en su beneficio. En los albores del siglo XIX, el 17 de mayo de 1829 se creó la «cruz de distinción de epidemias», con la finalidad de premiar al cirujano militar don Carlos Luis Benoit por sus extraordinarios y meritorios servicios durante la epidemia de cólera morbo asiático que asoló Manila en 1820. Asimismo, esta condecoración individual fue la base de las cruces civiles de epidemias otorgadas en 1828 en la epidemia de Gibraltar, en la de 1838 y en la de 1885 por el cólera de Zaragoza, al personal sanitario, civil y militar que prestaron su servicio en situaciones de epidemias ante las que no había vacunas como es la situación actual. Entre los criterios que figuraban para su concesión es destacable la declaración de una situación contagiosa o epidémica, la existencia de un mandato o invitación de la autoridad, prestar la asistencia sin distinción de pobres o ricos y la activa y eficaz cooperación prestada.</p>
+          <p class="parrafo">El nombre de la operación es un homenaje al médico militar Francisco Javier Balmis (1753-1819). El científico y cirujano militar Balmis destacó por su trayectoria militar, participando en la década de 1780 en distintas campañas con el Regimiento de Infantería Zamora, uno de los destinados al sitio de Gibraltar durante la Guerra de Independencia de los Estados Unidos de América, guerra en la que también participó en el continente americano. Allí desarrolló su labor científica, en especial a través del estudio de la botánica, y las plantas autóctonas con virtudes medicinales e introduciendo nuevas especies en el Jardín Botánico de Madrid. En la década de 1790 comenzó a ser reconocido por su dimensión científica, además de la militar, y como médico y destacado paradigma de los ilustrados del momento, fue nombrado cirujano honorario de cámara de Carlos IV y se dedicó a la difusión de la vacuna contra la viruela, descubierta en 1796 por Edward Jenner.</p>
+          <p class="parrafo">Confiado en la posibilidad de poder erradicar una enfermedad que causaba la muerte a cerca del 20 por 100 de la población, Balmis propuso al monarca llevar la vacuna a sus dominios de América, proyecto que fue sometido y aprobado por la Junta de Cirujanos de Cámara. Así se dio luz verde a la Real Expedición Filantrópica de la Vacuna, cuya dirección fue encomendada a su promotor. El puerto escogido para la partida fue el de La Coruña y el medio de transporte, la corbeta María Pita. Acompañaban a Balmis, el cirujano militar catalán José Salvany, subdirector de la empresa, dos practicantes, tres enfermeros, 22 niños de la casa de expósitos de la capital gallega, para inocular y conservar la vacuna durante la navegación, y, por último, la rectora de la casa, Isabel Zendal, para cuidarlos. Esta última se considera la primera mujer enfermera participante en una operación militar internacional.</p>
+          <p class="parrafo">La expedición, desarrollada entre 1803 y 1806, y liderada por el médico militar, gozaba del carácter militar impregnado por Balmis, y se caracterizó por procurar una constante cooperación con las autoridades locales implicadas. Se consiguió inmunizar a las poblaciones de Canarias, América, Filipinas, Macao, Cantón y la isla Santa Elena, constituyendo una de las más importantes gestas promotoras de la salud pública y de la educación sanitaria en el ámbito internacional.</p>
+          <p class="parrafo">Este real decreto cumple con los principios de necesidad y eficacia que se justifican por una razón de interés general basada en el reconocimiento a la eficaz y pronta actuación de medios personales y materiales asignados al Ministerio de Defensa para la lucha contra la pandemia, y con el principio de seguridad jurídica al incardinarse en el marco del derecho premial y, por otra parte, atiende al principio de eficiencia, pues no implica ninguna carga administrativa. En cuanto al principio de proporcionalidad, tiene el contenido imprescindible para generar el reconocimiento a la actuación del personal civil y militar que ha intervenido en la creación y mantenimiento de la «Operación Balmis» y, por lo que hace al principio de transparencia, se redacta en un lenguaje sencillo y se facilita el acceso a la ciudadanía mediante la publicación en el «Boletín Oficial del Estado».</p>
+          <p class="parrafo">En su virtud, con arreglo a lo previsto en el artículo 149.1.4.ª de la Constitución Española, a propuesta de la Ministra de Defensa y previa deliberación del Consejo de Ministros en su reunión del día 28 de julio de 2020,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="articulo">Artículo único. Creación de la medalla conmemorativa de la «Operación Balmis».</p>
+          <p class="parrafo">1. Se crea la medalla conmemorativa de la «Operación Balmis» para reconocer al personal de las Fuerzas Armadas y personal civil adscrito al Ministerio de Defensa que ha participado en la lucha contra el COVID-19, en el marco de dicha operación.</p>
+          <p class="parrafo">2. Mediante orden de la Ministra de Defensa se determinarán todos aquellos aspectos relativos al procedimiento para la concesión de la medalla, la descripción de la condecoración correspondiente y las medidas que resulten necesarias para su tramitación y anotación.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="articulo">Disposición adicional única. Concesión extraordinaria.</p>
+          <p class="parrafo">Se podrá conceder esta medalla, con carácter extraordinario y excepcional, al personal no incluido en el ámbito de aplicación de este real decreto que haya participado con las Fuerzas Armadas en la «Operación Balmis».</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo previsto en el artículo 149.1.4.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Defensa y Fuerzas Armadas.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="articulo">Disposición final segunda. Desarrollo y ejecución.</p>
+          <p class="parrafo">Por la Ministra de Defensa se dictarán las disposiciones necesarias para el desarrollo y ejecución de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2020-8680" fecha_publicacion="20200729" fecha_vigencia="20200730">
+          <p class="parrafo_2">Dado en Madrid, el 28 de julio de 2020.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Ministra de Defensa,</p>
+          <p class="firma_ministro">MARGARITA ROBLES FERNÁNDEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

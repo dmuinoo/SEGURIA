@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200401Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-9261</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8020">Comunidad Autónoma de Aragón</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20030324</fecha_disposicion>
+      <numero_oficial>17/2003</numero_oficial>
+      <titulo>Ley 17/2003, de 24 de marzo, por la que se regula la organización de las enseñanzas artísticas superiores en Aragón.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030507</fecha_publicacion>
+      <diario_numero>109</diario_numero>
+      <fecha_vigencia>20030412</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ar/l/2003/03/24/17</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-9261</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="265">Aragón</materia>
+        <materia codigo="3215">Enseñanza Artística</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOA núm. 43, de 11 de abril de 2003.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-20819</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 36, 42 y siguientes del Estatuto aprobado por Ley Orgánica 8/1982, de 10 de agosto</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOA-d-2001-90002</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley de la Administración, texto refundido aprobado por Decreto Legislativo 2/2001, de 3 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-24172</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 1/1990, de 3 de octubre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2013-1424</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>el título II, por Ley 10/2012, de 27 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9261</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-24</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9261</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20121231"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20030411"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/2003, de 24 de marzo, por la que se regula la organización de las enseñanzas artísticas superiores en Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-05-07</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20121231">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9261</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20121231/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/2003, de 24 de marzo, por la que se regula la organización de las enseñanzas artísticas superiores en Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20121231"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20121231/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20121231/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20030411">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9261</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-04-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20030411/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/2003, de 24 de marzo, por la que se regula la organización de las enseñanzas artísticas superiores en Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20030411"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20030411/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2003/03/24/17/con/20030411/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="parrafo_2">En nombre del Rey y como Presidente de la Comunidad Autónoma de Aragón, promulgo la presente Ley, aprobada por las Cortes de Aragón, y ordeno se publique en el «Boletín Oficial de Aragón» y en el «Boletín Oficial del Estado», todo ello de conformidad con lo dispuesto en el artículo 20.1 del Estatuto de Autonomía.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="centro_redonda">I</p>
+          <p class="parrafo_2">La historia de lo que hoy llamamos enseñanzas artísticas en España es muy compleja y está influida en su desarrollo por distintos vectores y tendencias. Por un lado, es relativamente sencillo encontrar referencias en el ordenamiento jurídico histórico, y ello hasta en normas del más elevado nivel, al papel fundamental de estas enseñanzas para la concepción y estado cultural de España, pero, por otro, esas afirmaciones no se corresponden ni mucho menos con una clara inserción de esas enseñanzas en el ordenamiento educativo general, lo que ha ocasionado que durante mucho tiempo hayan permanecido alejadas de los parámetros normales de evolución del conjunto de la enseñanza reglada en España y, con ello, de su mínima consideración jurídica y del consiguiente esfuerzo inversor público mínimamente significativo. Ello es la causa de que, al margen de valiosos antecedentes normativos (por ejemplo, las diversas referencias existentes en la llamada Ley Moyano de 1857), no sea hasta la Ley General de Educación de 4 de agosto de 1970 cuando se comiencen a recorrer caminos importantes en la senda de su reconocimiento, dándose realmente el paso decisivo para la consideración jurídica de estas enseñanzas con la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo (LOGSE), que colocará las enseñanzas artísticas al lado de las enseñanzas de idiomas dentro de las que llama genéricamente enseñanzas de régimen especial, construyendo un régimen jurídico en paralelo a las que llama enseñanzas de régimen general, que estarán constituidas por las enseñanzas infantil, primaria y secundaria, el bachillerato y la formación profesional.</p>
+          <p class="parrafo">Este es un paso decisivo porque representa una acogida de las enseñanzas artísticas dentro de la norma básica del ordenamiento jurídico que regula los mismos cimientos del completo sistema educativo, lo que tiene como consecuencia coherente la construcción de principios comunes a todas las clases de enseñanzas y la previsión de una conexión con las titulaciones de las enseñanzas de régimen general. De esta forma ha sido posible abrir la puerta a ulteriores desarrollos que no es oportuno exponer aquí pero que han transformado notablemente, como es bien fácil advertir, la práctica diaria de estas enseñanzas, determinando la creación de múltiples centros que han posibilitado la conducción hasta el sistema educativo propio de dichas enseñanzas a muchos jóvenes solicitantes de este tipo de educación.</p>
+          <p class="parrafo">Dentro del conjunto de la regulación de las enseñanzas artísticas, se debe advertir que la LOGSE otorga una posición singular a su grado superior. Esa posición singular se fundamenta en un dato muy simple: en que ese texto legal predica de las titulaciones que pueden alcanzarse cursando ese grado superior un exacto nivel de equivalencia con las titulaciones reguladas por el ordenamiento jurídico propio del sistema universitario, licenciado y diplomado. Es esta una afirmación capital en la historia educativa española, absolutamente singular y novedosa y que viene apoyada en una firme evolución normativa que desde sus comienzos ya apuntaba coherentemente hacia esa dirección y que, al tiempo, conecta con realidades bien conocidas de distintos países europeos en los que la forma de organización y titulación de estas enseñanzas se encuentra ubicada dentro del sistema universitario, con las peculiaridades propias, obviamente, de las tradiciones y concepciones particulares del sistema universitario de cada país.</p>
+          <p class="parrafo">El ordenamiento jurídico educativo español no ha dado, sin embargo, el salto decisivo que debía recorrer para ser enteramente coherente con la afirmación de titulación semejante a la universitaria que recoge la LOGSE. Efectivamente, no debe olvidarse que es el texto legal propio de la organización de la enseñanza no universitaria, la LOGSE, el que recoge la afirmación de que la titulación a alcanzar en el marco de unas enseñanzas que se imparten dentro de su paraguas normativo es semejante a la universitaria, lo que, aun valorable, no deja de ser ciertamente algo paradójico, dificultad que se acrecienta a la hora de desarrollar la posibilidad reconocida legalmente de realización de labores investigadoras en los centros que las imparten.</p>
+          <p class="parrafo">Y hay que reconocer que esa pervivencia de elementos propios del sistema universitario con otros del nivel no universitario crea situaciones que no solo son paradójicas, sino, al tiempo, perturbadoras para un correcto desarrollo de las enseñanzas que tratamos cuando se pretenden traslados miméticos de las formas organizativas del ordenamiento jurídico general hacia el propio de las enseñanzas artísticas superiores. No se corresponde, así, la forma de organización de los centros superiores de enseñanzas artísticas, que es legalmente la propia de los institutos de enseñanza secundaria, con la que debería ser la más apropiada para los centros que imparten enseñanzas que conducen a titulaciones semejantes a las universitarias. La misma evolución de la normativa estatal posterior a la LOGSE tuvo que sacar apresuradamente consecuencias de este hecho, permitiendo una configuración de los consejos escolares de un tipo de estos centros con rasgos propios y separados de los aplicables a los institutos de enseñanza secundaria (muestra de lo cual es el Real Decreto 1815/1993, de 18 de octubre, por el que se regula la composición del Consejo Escolar y de la Junta Electoral en los conservatorios superiores que impartan, únicamente, el grado superior) por el simple hecho de que los alumnos de los centros superiores de enseñanzas artísticas -en el caso normativo narrado, de los conservatorios superiores- son, salvo excepciones bien contadas y no significativas, mayores de edad, cosa que, obviamente, no sucede con los alumnos de los institutos de enseñanza secundaria, lo que tiene que llevar consigo determinadas consecuencias en este plano de lo meramente organizativo.</p>
+          <p class="parrafo">Pero no es solo una cuestión de la composición de un concreto órgano de gobierno la que presenta disfunciones con las líneas generales de la concepción de este grado de enseñanza, sino que los problemas se extienden a otros muchos ámbitos. Por ejemplo, al desarrollo de la función docente que está, lógicamente, presidida por principios generales propios de la docencia no universitaria cuando las mismas normas estatales recogen ‒nueva paradoja a hacer notar‒ hasta la posibilidad de realización de una función investigadora en estos centros. Igualmente se plantean diferentes problemas cuando no es posible sacar las lógicas consecuencias desde el punto de vista de la autonomía organizativa, económica y pedagógica de unos centros que imparten titulaciones equivalentes a las universitarias y que, sin embargo, están sometidos a los rígidos controles más bien propios de la enseñanza no universitaria. De la misma forma, es difícil un encaje sencillo en el ordenamiento jurídico de la necesaria actividad artística y profesional que los profesores, como profesionales del arte en la mayor parte de los casos, deben desarrollar y es conveniente para todos, además, que desarrollen. Y todo ello con la finalidad de extraer las mejores prestaciones de estos centros y de su profesorado, de lo que solo puede beneficiarse la sociedad en su conjunto.</p>
+          <p class="parrafo">No parece presentar muchas dudas, en absoluto, la lógica conclusión de que en un momento determinado el ordenamiento jurídico estatal acabará afrontando esa ineludible tarea de adecuación para la que, en concreto, se han producido ya diversos intentos que, por variados motivos, no han llegado todavía a fructificar. En tanto llega ese necesario cierre del sistema normativo creado, cuyos pilares básicos ya están firmemente asentados, la Comunidad Autónoma de Aragón, por medio del ejercicio de su potestad legislativa y dentro del marco que le permiten sus competencias sobre enseñanza y organización de la Administración Pública establecidas estatutariamente, quiere colaborar en la consecución de los objetivos que marca la LOGSE, y en estricta sintonía con la letra y el espíritu de su articulado. Ese es el objetivo fundamental de esta Ley.</p>
+          <p class="centro_redonda">II</p>
+          <p class="parrafo_2">Efectivamente, es propósito de esta Ley propiciar de diversos modos un funcionamiento autónomo de los centros superiores de enseñanzas artísticas en Aragón con todas las consecuencias que ello tiene y sin llegar, en lo más mínimo, a afectar a los principios de la legislación básica sobre dichas enseñanzas. Para ello se adoptan una serie de decisiones que se van a exponer a continuación sucesiva pero también sucintamente, tal y como es propio de la tarea a cumplir por un preámbulo de una norma legal.</p>
+          <p class="parrafo">Elemento clave de la regulación de esta Ley es la creación de un organismo autónomo que se denomina Instituto Aragonés de Enseñanzas Artísticas Superiores. La concepción y características generales de este organismo autónomo son semejantes a las del resto de organismos autónomos existentes en el ámbito de la Administración de la Comunidad Autónoma y, por tanto, se fundamentan en los principios que para ellos contiene el texto refundido de la Ley de la Administración de la Comunidad Autónoma de Aragón (aprobado por Decreto Legislativo 2/2001, de 3 de julio). El Instituto tiene una organización basada en un Consejo de Dirección presidido por el Consejero responsable de Educación y en el que se integran distintos representantes de la Administración de la Comunidad Autónoma, los directores de los centros superiores de enseñanzas artísticas que existan en cada momento en Aragón, representantes del profesorado, alumnos y personal de Administración y Servicios, y el presidente del Consejo Aragonés de Enseñanzas Artísticas, órgano creado también por esta Ley y que no solo extiende su función informativa y consultiva al grado superior de las enseñanzas artísticas, sino también al resto. Para propiciar la necesaria coordinación con los otros grados de las enseñanzas artísticas, se incorpora como elemento clave en la vida práctica administrativa del Instituto un Director, cargo que se atribuye al Director General responsable de las enseñanzas artísticas superiores.</p>
+          <p class="parrafo">El objetivo de este organismo es desarrollar en régimen de autonomía el conjunto de las competencias que sobre las enseñanzas artísticas de nivel superior corresponden a la Administración de la Comunidad Autónoma de Aragón. Eso tendrá virtualidades específicas en el ámbito de la contratación de profesorado y en el de la gestión presupuestaria, por señalar solo ejemplos significativos. Al mismo tiempo, se atribuye al Instituto Aragonés de Enseñanzas Artísticas Superiores una capacidad negocial mostrada en la posibilidad de suscripción de distintos convenios con organismos o entidades interesados en las materias propias de la competencia del Instituto, y, singularmente, con la Universidad, a los efectos de propiciar la adopción de distintas medidas que signifiquen la integración hasta donde sea factible de los alumnos de estas enseñanzas en el sistema universitario aragonés y la recíproca utilización por la Universidad de las capacidades de prestación docente y cultural que estos centros pueden prestar.</p>
+          <p class="parrafo">Los centros superiores de enseñanzas artísticas se integran, a efectos organizativos, dentro del Instituto Aragonés de Enseñanzas Artísticas Superiores, cuyas funciones básicas ya se han narrado. La Ley recoge la estructura organizativa de estos centros conforme al principio de aumentar su actual capacidad autoorganizativa, pues se remiten al reglamento de régimen interior ‒texto que aprobarán con autonomía dichos centros‒ diversas decisiones para desarrollar y adaptar los principios generales de la Ley a las necesidades de cada uno de ellos, que muy difícilmente pueden ser previstas de una vez por el legislador. Por otra parte, estos centros ven ampliadas las tradicionales funciones que les reconoce el ordenamiento jurídico, hasta ahora aplicable a título supletorio, con la finalidad de aumentar notablemente su capacidad de decisión. Igualmente, se contienen distintos principios relativos, sobre todo, a la autonomía de gestión, que, adecuadamente desarrollados por vía reglamentaria, cooperarán a la consecución de los fines generales que fija la Ley.</p>
+          <p class="parrafo">También se adoptan distintas previsiones, dentro de las competencias de enseñanza que tiene la Comunidad Autónoma, para prever una plena integración de aspectos parciales atinentes al funcionamiento de estos centros, dentro de los principios generales del régimen jurídico propio del sistema universitario y que irá construyendo sucesivamente la Comunidad Autónoma de Aragón. Entre estas decisiones deben constatarse las relativas al sistema de becas, a la inspección y a la evaluación de las enseñanzas y de la actividad realizada en estos centros, en general, y a la valoración de la función docente e investigadora realizada por su profesorado.</p>
+          <p class="parrafo">En suma, por medio de un complejo conjunto de decisiones fundamentales, se coopera a la mayor valoración social y jurídica de estas enseñanzas, lo que equivale a decir también de los profesores y alumnos que las cursan, de lo que solo puede beneficiarse el conjunto de la sociedad aragonesa, al ponerse los cimientos de lo que tiene que ser una revitalizada actividad docente e investigadora de estos centros y, también, de la capacidad de expansión sobre el conjunto de la actividad cultural en la Comunidad Autónoma, que será el fruto lógico de cuanto aquí se regula.</p>
+          <p class="parrafo">Por otra parte, es de destacar que se adoptan por la Ley diversas decisiones para que no haya aumento significativo del gasto público en la Administración de la Comunidad Autónoma derivado de la creación del organismo autónomo mencionado.</p>
+          <p class="centro_redonda">III</p>
+          <p class="parrafo_2">Para la aprobación de esta Ley, la Comunidad Autónoma se fundamenta en los títulos competenciales relativos a la enseñanza (artículo 36 del Estatuto de Autonomía) y en su capacidad de desarrollar la legislación básica sobre régimen jurídico de las Administraciones públicas y del procedimiento administrativo común (artículos 149.1.18 de la Constitución española y 42 y ss. del Estatuto de Autonomía de Aragón).</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Principios generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">1. Es objeto de esta Ley la creación de una organización administrativa especial para las enseñanzas artísticas superiores en la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">2. A esos efectos, se entenderán por enseñanzas artísticas superiores las de Música, Danza, Arte Dramático, Artes Plásticas, Diseño y Conservación y Restauración de Bienes Culturales, de acuerdo con lo dispuesto en la Ley de Ordenación General del Sistema Educativo.</p>
+          <p class="parrafo">3. Esta Ley contiene los principios generales de organización y funcionamiento de los centros superiores de enseñanzas artísticas, entendiéndose por tales los que imparten enseñanzas tendentes a la obtención de los títulos correspondientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 2. Finalidad.</p>
+          <p class="parrafo">Es finalidad de esta Ley:</p>
+          <p class="parrafo_2">a) Impulsar el reconocimiento social y profesional de las enseñanzas artísticas superiores en Aragón y de las titulaciones que con ellas pueden alcanzarse.</p>
+          <p class="parrafo">b) Incrementar la autonomía pedagógica, organizativa y de gestión de los centros superiores de enseñanzas artísticas.</p>
+          <p class="parrafo">c) Cooperar al mejor desarrollo de la cultura en Aragón.</p>
+          <p class="parrafo">d) Favorecer la coordinación entre los centros que impartan enseñanzas artísticas superiores y el sistema universitario en Aragón.</p>
+          <p class="parrafo">e) La coordinación con los restantes grados de las enseñanzas artísticas.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Del Instituto Aragonés de Enseñanzas Artísticas Superiores</p>
+        </version>
+        <version id_norma="BOE-A-2013-1424" fpub="20130211" fecha_publicacion="20121231" fecha_vigencia="20130101">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Del Instituto Aragonés de Enseñanzas Artísticas Superiores</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria única.2.c) de la Ley 10/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-1424</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ti-5" tipo="precepto" titulo="Artículos 3 a 20">
+        <version id_norma="BOE-A-2013-1424" fpub="20130211" fecha_publicacion="20121231" fecha_vigencia="20130101">
+          <p class="articulo">Artículos 3 a 20.</p>
+          <p class="parrafo">
+            <strong>(Derogados)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se derogan por la disposición derogatoria única.2.c) de la Ley 10/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-1424</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" fecha_caducidad="20121231" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 3">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 3. Creación, naturaleza jurídica y régimen jurídico.</p>
+          <p class="parrafo">1. Se crea el Instituto Aragonés de Enseñanzas Artísticas Superiores con el carácter de organismo autónomo, adscrito al Departamento responsable de Educación, bajo cuya dirección, vigilancia y tutela ejerce las competencias que le atribuye esta Ley.</p>
+          <p class="parrafo">2. Para el cumplimiento de sus fines, el Instituto Aragonés de Enseñanzas Artísticas Superiores estará dotado de personalidad jurídica propia, plena capacidad de obrar, patrimonio propio y de los medios personales, económicos y materiales necesarios.</p>
+          <p class="parrafo">3. El Instituto Aragonés de Enseñanzas Artísticas Superiores se rige por lo dispuesto en esta Ley, por sus normas de desarrollo y demás disposiciones que sean de aplicación.</p>
+          <p class="parrafo">4. El régimen jurídico de los actos emanados del Instituto Aragonés de Enseñanzas Artísticas Superiores será el establecido en la presente Ley y en la normativa específica de la Comunidad Autónoma de Aragón, sin perjuicio de la aplicación de las normas sobre procedimiento administrativo común a todas las Administraciones públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 4">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 4. Finalidad.</p>
+          <p class="parrafo">1. El Instituto Aragonés de Enseñanzas Artísticas Superiores tendrá la finalidad de organizar, en régimen de autonomía, la actividad educativa atribuida a la Comunidad Autónoma de Aragón por el ordenamiento jurídico vigente en el ámbito del grado superior de las enseñanzas artísticas.</p>
+          <p class="parrafo">2. El Instituto cooperará también mediante esa actividad a la mejora de la actividad cultural en la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 5">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 5. Funciones.</p>
+          <p class="parrafo">Corresponden al Instituto Aragonés de Enseñanzas Artísticas Superiores las siguientes funciones:</p>
+          <p class="parrafo_2">a) Facilitar el acceso de los alumnos y titulados en enseñanzas artísticas de grado superior a estudios complementarios y de perfeccionamiento profesional.</p>
+          <p class="parrafo">b) Impulsar y coordinar la investigación en relación con las enseñanzas artísticas superiores.</p>
+          <p class="parrafo">c) Potenciar la aplicación de las nuevas tecnologías en las enseñanzas artísticas.</p>
+          <p class="parrafo">d) Difundir las enseñanzas artísticas superiores.</p>
+          <p class="parrafo">e) Apoyar la libertad académica.</p>
+          <p class="parrafo">f) Colaborar con el Consejo Aragonés de Enseñanzas Artísticas.</p>
+          <p class="parrafo">g) Favorecer la coordinación con otras Administraciones públicas, promoviendo iniciativas y colaborando con ellas mediante los oportunos convenios.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 6">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 6. De la relación entre el Instituto Aragonés de Enseñanzas Artísticas Superiores y los centros superiores de enseñanzas artísticas.</p>
+          <p class="parrafo">Los centros superiores de enseñanzas artísticas de titularidad de la Comunidad Autónoma de Aragón quedarán adscritos a efectos organizativos al Instituto Aragonés de Enseñanzas Artísticas Superiores, sin perjuicio del ejercicio por parte de este de las competencias que le atribuya el ordenamiento jurídico vigente sobre el resto de centros superiores de otra titularidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 7">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 7. Convenios con otras instituciones.</p>
+          <p class="parrafo">1. El Instituto Aragonés de Enseñanzas Artísticas Superiores podrá suscribir convenios con otros centros educativos, universidades o institutos de cultura e investigación sin ánimo de lucro, bajo los mismos controles públicos que los demás centros superiores de enseñanza cuya titularidad corresponde al Gobierno de Aragón.</p>
+          <p class="parrafo">2. En particular, y en el marco de lo que dispone el ordenamiento jurídico, el Instituto procurará la suscripción de convenios con la Universidad de Zaragoza.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" fecha_caducidad="20121231" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Organización</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 8">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 8. Estructura orgánica.</p>
+          <p class="parrafo">1. Son órganos del Instituto Aragonés de Enseñanzas Artísticas Superiores el Presidente, el Director y el Consejo de Dirección.</p>
+          <p class="parrafo">2. El Instituto Aragonés de Enseñanzas Artísticas Superiores trabajará en continua y constante coordinación con el Consejo Aragonés de Enseñanzas Artísticas.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 9">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 9. Del Presidente.</p>
+          <p class="parrafo">1. El Presidente del Instituto Aragonés de Enseñanzas Artísticas Superiores será el Consejero del Departamento responsable de Educación.</p>
+          <p class="parrafo">2. Son funciones del Presidente las que determinen los estatutos y, en todo caso, las siguientes:</p>
+          <p class="parrafo_2">a) La representación legal del Instituto.</p>
+          <p class="parrafo">b) El desempeño de la superior función ejecutiva y directiva del Instituto sin perjuicio de las competencias del Director.</p>
+          <p class="parrafo">c) La presidencia del Consejo de Dirección, con las funciones anejas a la presidencia de los órganos colegiados según la legislación aplicable.</p>
+          <p class="parrafo">d) Ser el órgano de contratación del Instituto.</p>
+          <p class="parrafo_2">3. El Presidente, o quien ejerza sus funciones en cada caso, resolverá los empates que puedan producirse en las reuniones del Consejo de Dirección mediante su voto de calidad.</p>
+          <p class="parrafo">4. El Presidente podrá delegar el ejercicio de sus funciones en el Director.</p>
+          <p class="parrafo">5. Los actos administrativos del Presidente no agotan la vía administrativa y contra ellos podrá interponerse recurso de alzada ante el Consejero responsable de Educación.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 10">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 10. Del Director.</p>
+          <p class="parrafo">1. La dirección del Instituto Aragonés de Enseñanzas Artísticas Superiores corresponde al Director General responsable de estas enseñanzas.</p>
+          <p class="parrafo">2. Son funciones del Director las que determinen los estatutos y, en todo caso, las siguientes:</p>
+          <p class="parrafo_2">a) La ejecución de las decisiones del Consejo de Dirección.</p>
+          <p class="parrafo">b) El ejercicio de las labores de dirección, gestión y coordinación del Instituto, así como la dirección de su personal.</p>
+          <p class="parrafo">c) El ejercicio ordinario, bajo la supervisión del Presidente, de las relaciones institucionales con los organismos, centros e instituciones que impartan enseñanzas artísticas superiores en otras comunidades autónomas.</p>
+          <p class="parrafo">d) Aquellas que le delegue el Presidente.</p>
+          <p class="parrafo_2">3. Los actos administrativos del Director son susceptibles del recurso de alzada ante el Consejero responsable de Educación.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 11">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 11. De la composición del Consejo de Dirección.</p>
+          <p class="parrafo">1. El Consejo de Dirección se compone del Presidente, del Director y de los siguientes vocales:</p>
+          <p class="parrafo_2">a) Dos representantes del Departamento responsable de Educación y uno del Departamento responsable de Cultura, designados por los respectivos Consejeros.</p>
+          <p class="parrafo">b) Tres directores de los centros superiores de enseñanzas artísticas de titularidad pública que en cada momento existan en Aragón, que serán elegidos de acuerdo con lo previsto en los estatutos del Instituto Aragonés de Enseñanzas Artísticas Superiores.</p>
+          <p class="parrafo">c) El Presidente del Consejo Aragonés de Enseñanzas Artísticas.</p>
+          <p class="parrafo">d) Un representante del profesorado, uno del alumnado y otro del personal administrativo y de servicios.</p>
+          <p class="parrafo_2">2. A las reuniones del Consejo de Dirección podrán asistir, con voz pero sin voto, previa convocatoria del Consejo, otros representantes del profesorado de los centros, de los alumnos, del personal de Administración y Servicios y de los centros de titularidad privada, en la forma que fijen los estatutos, y de manera que se garantice la pluralidad existente.</p>
+          <p class="parrafo">3. Los estatutos del Instituto regularán el procedimiento de elección, sustitución y suplencia de los miembros electivos que pueden asistir a las reuniones del Consejo de Dirección.</p>
+          <p class="parrafo">4. Uno de los representantes del Departamento responsable de Educación ejercerá las funciones de Secretario del Consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 12">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 12. De las funciones del Consejo de Dirección.</p>
+          <p class="parrafo">1. Son funciones del Consejo de Dirección las que determinen los estatutos y, en todo caso, las siguientes:</p>
+          <p class="parrafo_2">a) La elaboración del proyecto de estatutos del Instituto para su elevación al Consejo de Gobierno, que los aprobará definitivamente, todo ello de la forma regulada en la Ley de la Administración de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">b) La elaboración del presupuesto anual del Instituto y su elevación al Consejero responsable de Educación para su integración en el anteproyecto de presupuestos del Departamento.</p>
+          <p class="parrafo">c) La propuesta al Consejero responsable de Educación de la declaración de nulidad de los actos administrativos o de lesividad de los actos anulables de los órganos del Instituto y de la resolución de los procedimientos de responsabilidad patrimonial, en el marco general de lo dispuesto en cada caso por el ordenamiento jurídico aplicable.</p>
+          <p class="parrafo">d) La aprobación inicial de la relación de puestos de trabajo del Instituto y de sus modificaciones.</p>
+          <p class="parrafo">e) La aprobación de los convenios que vaya a suscribir el Instituto con otros organismos o entidades.</p>
+          <p class="parrafo">f) La realización de cuantos actos de gestión, disposición y administración de su patrimonio inmobiliario propio se reputen necesarios.</p>
+          <p class="parrafo">g) La valoración de la aplicación de los planes de estudio vigentes y la aprobación, oídas las comisiones de gobierno de los centros superiores, de propuestas de modificación, singularmente con relación a la coherencia de los planes de estudio con las tendencias mayoritarias en los países de la Unión Europea.</p>
+          <p class="parrafo_2">2. Igualmente es competencia del Consejo de Dirección el ejercicio de las funciones sobre los centros superiores de enseñanzas artísticas que regula esta Ley y las que, en general, corresponden a la Administración de la Comunidad Autónoma según el ordenamiento jurídico vigente. En particular, el Consejo de Dirección, dentro de éstas, acordará:</p>
+          <p class="parrafo_2">a) La propuesta al Presidente de las contrataciones de profesorado de estos centros previo el procedimiento de selección que realizarán los centros conforme al ordenamiento jurídico aplicable.</p>
+          <p class="parrafo">b) La propuesta al Presidente del nombramiento de los directores de los centros, elegidos según establece la normativa vigente. En caso de ausencia de propuestas o en el supuesto de centros de nueva creación, el Consejo de Dirección designará al Director y al equipo directivo.</p>
+          <p class="parrafo">c) Las funciones que disponga el ordenamiento jurídico con relación al presupuesto de los centros y su ejecución.</p>
+          <p class="parrafo_2">3. Las funciones del Consejo de Dirección serán delegables en el Director.</p>
+          <p class="parrafo">4. Los actos del Consejo de Dirección son susceptibles de recurso de alzada ante el Consejero responsable de Educación.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 13">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 13. Relaciones con las Cortes de Aragón.</p>
+          <p class="parrafo">1. El Consejo de Dirección del Instituto elaborará anualmente una memoria de sus actividades y una propuesta de actuación, que serán enviadas a la Comisión de Educación de las Cortes de Aragón.</p>
+          <p class="parrafo">2. El Presidente del Instituto comparecerá ante la Comisión de Educación de las Cortes de Aragón para presentar los documentos a los que se refiere el apartado anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 14">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 14. Gratuidad de los cargos.</p>
+          <p class="parrafo">El desempeño de los cargos de Presidente, Director y miembro del Consejo de Dirección del Instituto Aragonés de Enseñanzas Artísticas Superiores será gratuito, sin perjuicio de las indemnizaciones que, conforme al ordenamiento jurídico vigente, puedan percibir por el cumplimiento de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" fecha_caducidad="20121231" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Personal</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 15">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 15. Recursos humanos.</p>
+          <p class="parrafo">1. El Instituto Aragonés de Enseñanzas Artísticas Superiores contará con la colaboración del personal que el Departamento responsable de estas enseñanzas determine para la consecución de sus fines.</p>
+          <p class="parrafo">2. El régimen jurídico del personal funcionario adscrito al Instituto será el establecido en la legislación sobre ordenación de la función pública de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">3. El personal laboral se regirá por la legislación laboral común y por el convenio colectivo del personal laboral de la Diputación General de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" fecha_caducidad="20121231" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen económico-financiero</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 16">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 16. Recursos económicos.</p>
+          <p class="parrafo_2">Constituyen los recursos económicos del Instituto Aragonés de Enseñanzas Artísticas Superiores:</p>
+          <p class="parrafo_2">a) Los que le sean asignados con cargo a los presupuestos de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">b) Los productos y rentas de toda índole procedentes de sus bienes y derechos.</p>
+          <p class="parrafo">c) Los ingresos ordinarios y extraordinarios que legalmente esté autorizado a percibir.</p>
+          <p class="parrafo">d) Las subvenciones, legados y aportaciones voluntarias de entidades y particulares.</p>
+          <p class="parrafo">e) Los créditos que se transfieran conjuntamente con servicios procedentes de otras Administraciones públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 17">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 17. Patrimonio.</p>
+          <p class="parrafo">1. Se adscriben al Instituto Aragonés de Enseñanzas Artísticas Superiores los siguientes bienes y derechos:</p>
+          <p class="parrafo_2">a) Aquellos cuya titularidad corresponda a la Comunidad Autónoma de Aragón y estén afectos a los servicios del Instituto.</p>
+          <p class="parrafo">b) Los bienes y derechos de toda clase afectos a la gestión de los servicios del Instituto transferidos a la Comunidad Autónoma.</p>
+          <p class="parrafo">c) Cualesquiera otros bienes y derechos que adquiera o reciba por cualquier título o se le afecten mediante convenio.</p>
+          <p class="parrafo_2">2. Será aplicable a los bienes y derechos adscritos al Instituto la legislación sobre hacienda y patrimonio de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">3. Las obras que deba realizar el Instituto Aragonés de Enseñanzas Artísticas Superiores para el cumplimiento de sus finalidades específicas se considerarán de utilidad pública a efectos de expropiación forzosa.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 18">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 18. Presupuesto.</p>
+          <p class="parrafo">El presupuesto del Instituto Aragonés de Enseñanzas Artísticas Superiores se incluirá en los presupuestos de la Comunidad Autónoma de Aragón, y su procedimiento de elaboración, aprobación, ejecución, modificación y liquidación, así como su estructura, se regirá por lo establecido en las leyes de presupuestos de esta Comunidad Autónoma, en la legislación sobre hacienda y en las demás normas de aplicación en materia presupuestaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 19">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 19. Intervención.</p>
+          <p class="parrafo">1. Se crea la Intervención delegada del Instituto Aragonés de Enseñanzas Artísticas Superiores, que dependerá orgánica y funcionalmente de la Intervención General de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">2. La Intervención delegada del Instituto Aragonés de Enseñanzas Artísticas Superiores tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) El control de todos los actos del Instituto que den lugar al reconocimiento de derechos y obligaciones de contenido económico, así como de los ingresos y pagos que de ellos se deriven, y la recaudación, inversión o aplicación en general de los caudales públicos, con el fin de asegurar que la administración de sus recursos se ajusta a las disposiciones aplicables en cada caso en la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">b) La gestión de la contabilidad pública del Instituto.</p>
+          <p class="parrafo">c) La emisión de informes cuando sea preceptivo.</p>
+          <p class="parrafo">d) La intervención y comprobación material de las inversiones y de la aplicación de las subvenciones y convenios.</p>
+          <p class="parrafo">e) La realización de las auditorías y controles financieros que, en el ámbito del Instituto, le sean encomendados por el Interventor General.</p>
+          <p class="parrafo">f) La representación de la Intervención General en las mesas de contratación.</p>
+          <p class="parrafo_2">3. El ejercicio de la función interventora que el apartado segundo de este artículo asigna a la Intervención delegada del Instituto comprenderá las actuaciones y competencias que la legislación sobre hacienda de la Comunidad Autónoma atribuye a dicha función.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" fecha_caducidad="20121231" titulo="Artículo 20">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 20. Tesorería.</p>
+          <p class="parrafo">1. La Tesorería del Instituto Aragonés de Enseñanzas Artísticas Superiores estará sometida al régimen de intervención y contabilidad pública. En ella se unificarán todos los recursos financieros que se destinen para el cumplimiento de sus fines, y tendrá a su cargo la custodia de los fondos, valores, créditos y atenciones generales de dicho Instituto.</p>
+          <p class="parrafo">2. La Tesorería del Instituto Aragonés de Enseñanzas Artísticas Superiores, previa autorización del Consejero responsable de Economía y Hacienda, podrá abrir y utilizar en las entidades de crédito y ahorro las cuentas necesarias para el funcionamiento de los servicios, atendiendo a la especial naturaleza de sus operaciones y al lugar en que hayan de realizarse.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Principios sobre la organización y el funcionamiento de los centros superiores de enseñanzas artísticas</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 21. Órganos de los centros superiores de enseñanzas artísticas.</p>
+          <p class="parrafo">1. Son órganos unipersonales de los centros superiores de enseñanzas artísticas:</p>
+          <p class="parrafo_2">a) El Director.</p>
+          <p class="parrafo">b) El Secretario.</p>
+          <p class="parrafo">c) El Jefe de Estudios.</p>
+          <p class="parrafo_2">2. Son órganos colegiados de los centros superiores de enseñanzas artísticas:</p>
+          <p class="parrafo_2">a) La Comisión de Gobierno.</p>
+          <p class="parrafo">b) El Claustro.</p>
+          <p class="parrafo_2">3. La composición y competencias de los órganos de los centros superiores de enseñanzas artísticas se regularán reglamentariamente.</p>
+          <p class="parrafo">En todo caso, el Claustro se configurará como el órgano de participación de la comunidad educativa.</p>
+          <p class="parrafo">4. En los centros superiores de enseñanzas artísticas podrá existir al frente del personal de Administración y Servicios y para gestionar las labores ordinarias de la actividad y mantenimiento del centro bajo la coordinación del Director de los centros, un Administrador designado por el Consejo de Dirección del Instituto Aragonés de Enseñanzas Artísticas Superiores previo el desarrollo del procedimiento de provisión de puestos de trabajo que proceda.</p>
+          <p class="parrafo">5. En tal caso, el administrador asumirá a todos los efectos el lugar y las competencias del Secretario y aquellas que le puedan ser atribuidas.</p>
+          <p class="parrafo">6. Como desarrollo de la presente Ley, se elaborará un reglamento orgánico de centros de enseñanzas artísticas superiores que fije unos mínimos comunes a todos los centros, a partir del cual éstos fijarán sus reglamentos de régimen interior.</p>
+          <p class="parrafo">7. Los centros superiores de enseñanzas artísticas aprobarán un reglamento de régimen interior para desarrollar y adecuar la estructura organizativa prevista en esta Ley y en el reglamento de desarrollo a las necesidades de cada centro. En el caso de que así lo disponga el reglamento de régimen interior, podrá existir la figura del Vicedirector, que ejercerá las funciones que indique el reglamento y las que por delegación le otorgue el Director.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 22. Autonomía en la gestión económica de los centros superiores.</p>
+          <p class="parrafo">1. Reglamentariamente se aprobará el marco del ejercicio de la gestión económica en los centros superiores de enseñanzas artísticas. Dentro de lo dispuesto en este reglamento, el Consejo de Dirección del Instituto Aragonés de Enseñanzas Artísticas Superiores elaborará los criterios para la delegación en los órganos directivos de los centros superiores de enseñanzas artísticas de la contratación de obras, servicios y suministros que les afecten.</p>
+          <p class="parrafo">2. El ejercicio de la delegación deberá respetar la legislación de contratación de las Administraciones públicas. Los acuerdos que adopte el Director de los centros en estas cuestiones serán susceptibles de recurso según lo dispuesto por la legislación básica del procedimiento administrativo común.</p>
+          <p class="parrafo">3. Las normas mencionadas en el apartado primero establecerán las condiciones en las que los centros superiores de enseñanzas artísticas podrán obtener ingresos por el desarrollo de funciones propias de su actividad y que aplicarán para el sostenimiento de sus gastos de funcionamiento. En todo caso será necesario dar conocimiento periódico al Consejo de Dirección del Instituto Aragonés de Enseñanzas Artísticas Superiores de los ingresos obtenidos y de los gastos con ellos realizados de acuerdo con lo que indique el reglamento mencionado en el apartado primero.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 23. Evaluación de la calidad de la actividad docente e investigadora.</p>
+          <p class="parrafo">En el marco de la legislación que apruebe la Comunidad Autónoma sobre evaluación del sistema universitario en Aragón, se evaluará también el rendimiento educativo de los centros superiores de enseñanzas artísticas en Aragón y la actividad docente e investigadora de sus profesores.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 24. Actividades profesionales.</p>
+          <p class="parrafo">1. Los profesores de los centros superiores de enseñanzas artísticas podrán desarrollar actividades profesionales relacionadas con su función comunicándolo previamente a la dirección del centro para su autorización y la debida coordinación con la actividad docente, que no podrá sufrir menoscabo en ningún caso. Estas actividades se inscribirán en la programación general anual del centro.</p>
+          <p class="parrafo">2. Reglamentariamente se regulará el ejercicio de las actividades profesionales indicadas bajo el principio de propiciar un marco jurídico semejante al aplicable en el sistema universitario. Los reglamentos de régimen interior de los centros establecerán los procedimientos adecuados para el ejercicio de la autorización y de la coordinación referidas en el apartado anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 25. Estudios de perfeccionamiento profesional.</p>
+          <p class="parrafo">1. Los centros superiores de enseñanzas artísticas podrán organizar, previa autorización del Instituto Aragonés de Enseñanzas Artísticas Superiores, estudios de perfeccionamiento profesional en materias propias de su competencia cuya superación dará lugar al otorgamiento de un certificado por el propio centro.</p>
+          <p class="parrafo">2. A propuesta de los respectivos centros, las condiciones de impartición de los estudios mencionados serán aprobadas por el Consejo de Dirección del Instituto Aragonés de Enseñanzas Artísticas Superiores sujetándose a los criterios generales que sobre esa cuestión haya aprobado el mismo órgano previamente.</p>
+          <p class="parrafo">3. El Gobierno de Aragón regulará los efectos que dentro de su ámbito de competencias puedan corresponder a estos certificados propios de los centros, que podrán tener la validez profesional, en el ámbito de esta Comunidad Autónoma, que determinen las instituciones competentes, estudiando la demanda existente en nuestra sociedad al respecto de estos certificados.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-4" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Del Consejo Aragonés de Enseñanzas Artísticas</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 26. Del Consejo Aragonés de Enseñanzas Artísticas.</p>
+          <p class="parrafo">1. Se crea el Consejo Aragonés de Enseñanzas Artísticas como órgano consultivo, de participación social y de asesoramiento del Gobierno de Aragón en relación con las enseñanzas artísticas.</p>
+          <p class="parrafo">2. El Consejo estará adscrito orgánicamente al Departamento responsable de Educación, que le dotará de los medios personales y económicos necesarios para el desarrollo de su función.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 27. Composición.</p>
+          <p class="parrafo">1. El Consejo Aragonés de Enseñanzas Artísticas se formará con representantes de la Administración educativa, de los sectores implicados en la actividad de estas enseñanzas, así como de personalidades relevantes en el ámbito social, económico y artístico de la Comunidad Autónoma.</p>
+          <p class="parrafo">2. La composición, estructura y organización de este órgano se regularán reglamentariamente. El Presidente será designado por el Consejero del Departamento responsable de Educación de entre sus miembros.</p>
+          <p class="parrafo">3. El desempeño del cargo de miembro del Consejo Aragonés de Enseñanzas Artísticas será gratuito, sin perjuicio de las indemnizaciones que procedieren, conforme al ordenamiento jurídico vigente, por el cumplimiento de su función.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 28. Competencias.</p>
+          <p class="parrafo">Las competencias del Consejo Aragonés de Enseñanzas Artísticas serán las siguientes:</p>
+          <p class="parrafo_2">a) Informar el desarrollo normativo relativo a los planes de estudios y curricula de los estudios musicales y artísticos conducentes a titulación equivalente de diplomado o licenciado universitario.</p>
+          <p class="parrafo">b) Emitir informes, propuestas, recomendaciones o estudios en relación con las enseñanzas artísticas.</p>
+          <p class="parrafo">c) Informar la programación general anual de los centros que impartan esas enseñanzas.</p>
+          <p class="parrafo">d) Informar anualmente del desarrollo de la programación didáctica de los centros.</p>
+          <p class="parrafo">e) Informar anualmente la oferta de enseñanzas artísticas.</p>
+          <p class="parrafo">f) Proponer actividades formativas, didácticas y culturales relacionadas con las enseñanzas que se imparten en los centros.</p>
+          <p class="parrafo">g) Elevar propuestas de colaboración y relación de los centros con otras instituciones.</p>
+          <p class="parrafo">h) Informar sobre cualquier asunto que, sobre enseñanzas artísticas, pueda serle sometido a consulta por el Gobierno de Aragón.</p>
+          <p class="parrafo">i) Proponer al Gobierno de Aragón las medidas de coordinación con los restantes grados de las enseñanzas artísticas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Artículo 29. Informe sobre el estado de las enseñanzas artísticas.</p>
+          <p class="parrafo">El Consejo Aragonés de Enseñanzas Artísticas elaborará periódicamente un informe sobre el estado de las enseñanzas artísticas en Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional primera. Escuelas de Artes.</p>
+          <p class="parrafo">Las enseñanzas artísticas superiores que ahora se imparten en las Escuelas de Arte de Huesca, Teruel, y Zaragoza se integrarán en el Instituto Aragonés de Enseñanzas Artísticas Superiores.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional segunda. Propuesta de integración en el Instituto Aragonés de Enseñanzas Artísticas Superiores de determinados centros de titularidad municipal.</p>
+          <p class="parrafo">Dentro del plazo de un año desde la entrada en vigor de esta Ley, el Gobierno de Aragón propondrá al Ayuntamiento de Zaragoza el inicio de un proceso que conduzca a la integración dentro del Instituto Aragonés de Enseñanzas Artísticas Superiores de aquellos centros de titularidad municipal susceptibles de convertirse en centros superiores de Danza o Arte Dramático.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional tercera. Variaciones en la estructura orgánica.</p>
+          <p class="parrafo">La creación del Instituto Aragonés de Enseñanzas Artísticas Superiores determinará la simultánea adaptación de la estructura orgánica del Departamento responsable de Educación.</p>
+        </version>
+      </bloque>
+      <bloque id="da-4" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional cuarta. Aprobación de los estatutos del Instituto Aragonés de Enseñanzas Artísticas Superiores.</p>
+          <p class="parrafo">Dentro del plazo de un año desde la entrada en vigor de esta Ley se aprobarán los estatutos del Instituto Aragonés de Enseñanzas Artísticas Superiores conforme a lo dispuesto en el texto refundido de la Ley de la Administración de la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="da-5" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional quinta. Constitución del Consejo Aragonés de Enseñanzas Artísticas.</p>
+          <p class="parrafo">El Consejo Aragonés de Enseñanzas Artísticas se constituirá dentro del plazo de un año a partir de la entrada en vigor de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="da-6" tipo="precepto" titulo="Disposición adicional sexta">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional sexta. Medios personales y materiales del Instituto.</p>
+          <p class="parrafo">El Gobierno dispondrá la dotación de los medios personales y materiales necesarios para el correcto desempeño de las funciones que esta Ley otorga al Instituto Aragonés de Enseñanzas Artísticas Superiores, llevándose a cabo cuando procedan las modificaciones presupuestarias que sean oportunas.</p>
+        </version>
+      </bloque>
+      <bloque id="da-7" tipo="precepto" titulo="Disposición adicional séptima">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional séptima. Retribuciones complementarias de los órganos directivos unipersonales.</p>
+          <p class="parrafo">El Gobierno acordará las retribuciones complementarias de los órganos directivos unipersonales de los centros superiores de enseñanzas artísticas, que tendrán una cuantía congruente con la posición de estos centros en el conjunto del sistema educativo.</p>
+        </version>
+      </bloque>
+      <bloque id="da-8" tipo="precepto" titulo="Disposición adicional octava">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional octava. Equivalencia de titulaciones.</p>
+          <p class="parrafo">De acuerdo con lo dispuesto de manera general por el ordenamiento jurídico aplicable, en los procesos de selección de personal, provisión de puestos de trabajo y otorgamiento de becas o ayudas de cualquier tipo desarrollados por la Administración de la Comunidad Autónoma en los que la posesión de una titulación universitaria sea requisito de presentación o mérito a valorar, será en cualquier caso equivalente a la titulación de licenciado o diplomado la posesión del título al que se refieren los artículos 42.3, 45.1 y 49.1 y 2 de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.</p>
+        </version>
+      </bloque>
+      <bloque id="da-9" tipo="precepto" titulo="Disposición adicional novena">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional novena. Régimen de horarios docentes y desempeño de funciones docentes en más de un centro superior de enseñanzas artísticas.</p>
+          <p class="parrafo">El Gobierno desarrollará reglamentariamente lo previsto en la legislación básica con relación a las obligaciones docentes del profesorado de los centros superiores de enseñanzas artísticas, incluyéndose la posibilidad de que, dentro del cumplimiento de sus obligaciones establecidas, desempeñen funciones en más de un centro superior de enseñanzas artísticas bajo los principios de eficacia y economía en la utilización de los medios personales docentes y de compatibilidad de horarios.</p>
+        </version>
+      </bloque>
+      <bloque id="da-10" tipo="precepto" titulo="Disposición adicional décima">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional décima. Centros superiores de enseñanzas artísticas que impartan varias titulaciones.</p>
+          <p class="parrafo">1. Un mismo centro superior de enseñanzas artísticas podrá impartir varias titulaciones superiores.</p>
+          <p class="parrafo">2. En ese caso se dictarán normas reglamentarias a los efectos de adecuar su estructura organizativa a esa situación.</p>
+        </version>
+      </bloque>
+      <bloque id="da-11" tipo="precepto" titulo="Disposición adicional undécima">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional undécima. Actividad de investigación.</p>
+          <p class="parrafo">Conforme a lo regulado en la disposición adicional cuarta de la Ley Orgánica 9/1995, de 20 de noviembre, de la participación, la evaluación y el gobierno de los Centros Docentes, en las convocatorias de proyectos y becas de investigación que realice en el futuro la Comunidad Autónoma de Aragón se admitirán solicitudes específicas relativas al ámbito material objeto de las enseñanzas artísticas de grado superior.</p>
+        </version>
+      </bloque>
+      <bloque id="da-12" tipo="precepto" titulo="Disposición adicional duodécima">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional duodécima. De las becas y otras ayudas para los estudiantes de los centros superiores de enseñanzas artísticas.</p>
+          <p class="parrafo">1. En el ejercicio de las competencias sobre enseñanza que corresponden a la Comunidad Autónoma de Aragón, se equiparará la gestión de las becas a las que pueden optar los estudiantes de los centros superiores de enseñanzas artísticas con las del régimen universitario. En esos términos, se establecerá un sistema de ayudas a la movilidad semejante al previsto en el ámbito universitario.</p>
+          <p class="parrafo">2. Para los estudiantes con deficiencia de medios económicos podrá instaurarse también un sistema de préstamos que los estudiantes podrán reembolsar con cargo, entre otras formas, al ejercicio por su parte de actuaciones de extensión cultural de la forma que regule el ordenamiento jurídico que se establezca.</p>
+        </version>
+      </bloque>
+      <bloque id="da-13" tipo="precepto" titulo="Disposición adicional decimotercera">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición adicional decimotercera. Convenio con la Universidad de Zaragoza.</p>
+          <p class="parrafo">El Instituto Aragonés de Enseñanzas Artísticas Superiores procurará la suscripción de un convenio con la Universidad de Zaragoza con las siguientes finalidades:</p>
+          <p class="parrafo_2">a) Conseguir el libre acceso de los estudiantes de los centros superiores de enseñanzas artísticas superiores a las bibliotecas, instalaciones deportivas y servicios sociales en general ofrecidos por la Universidad a sus estudiantes. Como contraprestación, el convenio valorará el libre acceso de la comunidad universitaria a las actividades de extensión cultural organizadas por los centros superiores de enseñanzas artísticas superiores así como la organización por parte de estos de actividades sistemáticas de contenido cultural dirigidas a los miembros de la comunidad universitaria.</p>
+          <p class="parrafo">b) Facilitar el acceso al tercer ciclo de los profesores y titulados de los centros superiores de enseñanzas artísticas que cumplan los requisitos exigidos por el ordenamiento jurídico vigente.</p>
+          <p class="parrafo">c) Posibilitar la realización por parte de alumnos de la Universidad de cursos integrados en el tercer ciclo en los centros superiores de enseñanzas artísticas cuando se respeten las condiciones de titulación del profesorado establecidas por la legislación aplicable.</p>
+          <p class="parrafo">d) Favorecer la integración de actividades docentes organizadas por los centros superiores de enseñanzas artísticas dentro del catálogo de las asignaturas de libre configuración ofertadas por la Universidad de Zaragoza a sus alumnos.</p>
+          <p class="parrafo">e) Posibilitar que los estudiantes de los centros superiores de enseñanzas artísticas, atendiendo a los principios de libre configuración de su currículo que presiden el ordenamiento jurídico aplicable, puedan cursar enseñanzas en los centros de la Universidad de Zaragoza a los efectos de la superación de las asignaturas de libre elección.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición final primera. Habilitación reglamentaria.</p>
+          <p class="parrafo">El Gobierno de Aragón dictará, dentro del plazo de un año desde la entrada en vigor de esta Ley, las normas reglamentarias necesarias para la ejecución, aplicación y desarrollo de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">Esta Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2003-9261" fecha_publicacion="20030411" fecha_vigencia="20030412">
+          <p class="parrafo">Así lo dispongo a los efectos del artículo 9.1 de la Constitución y los correspondientes del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo_2">Zaragoza, 24 de marzo de 2003.</p>
+          <p class="firma_ministro">MARCELINO IGLESIAS RICOU,</p>
+          <p class="firma_ministro">Presidente</p>
+          <p> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

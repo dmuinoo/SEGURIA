@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130542Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-5836</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9529">Ministerio de Política Territorial y Administración Pública</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20110311</fecha_disposicion>
+      <numero_oficial>353/2011</numero_oficial>
+      <titulo>Real Decreto 353/2011, de 11 de marzo, por el que se aprueban los Estatutos generales de la Organización Colegial de Secretarios, Interventores y Tesoreros de la Administración Local.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110401</fecha_publicacion>
+      <diario_numero>78</diario_numero>
+      <fecha_vigencia>20110402</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2011/03/11/353</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-5836</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="940">Colegios de Secretarios Interventores y Depositarios de Administración Local</materia>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="3848">Funcionarios de la Administración Local</materia>
+        <materia codigo="4513">Interventores de Administración Local</materia>
+        <materia codigo="6486">Secretarios de Administración Local</materia>
+        <materia codigo="6877">Tesoreros de Administración Local</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2000-22417</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 1912/2000, de 24 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2009-20725</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 25/2009, de 22 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-7788</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 7/2007, de 12 de abril</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2011-12635</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE núm. 175 de 22 de julio de 2011</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5836</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-11</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/940"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3848"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4513"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6486"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6877"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5836</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-11</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/940"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3848"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4513"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6486"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6877"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/corrigendum/20110722/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/con/20110401"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 353/2011, de 11 de marzo, por el que se aprueban los Estatutos generales de la Organización Colegial de Secretarios, Interventores y Tesoreros de la Administración Local.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 353/2011, d'11 de març, pel qual s'aproven els Estatuts generals de l'Organització Col·legial de Secretaris, Interventors i Tresorers de l'Administració Local.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 353/2011, do 11 de marzo, polo que se aproban os estatutos xerais da Organización Colexial de Secretarios, Interventores e Tesoureiros da Administración Local.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/con/20110401">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-5836</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-11</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/940"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3848"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4513"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6486"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6877"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-04-01</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/con/20110401/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 353/2011, de 11 de marzo, por el que se aprueban los Estatutos generales de la Organización Colegial de Secretarios, Interventores y Tesoreros de la Administración Local.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/con/20110401"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2011/03/11/353/con/20110401/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2011/03/11/353/con/20110401/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 175, de 22 de julio de 2011. <a class="refPost">Ref. BOE-A-2011-12635</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="parrafo">Los Estatutos generales de la Organización Colegial de Secretarios, Interventores y Tesoreros de la Administración Local aprobados mediante Real Decreto 1912/2000, de 24 de noviembre, sustituyeron al Reglamento de los Colegios de Secretarios, Interventores y Depositarios de Administración Local aprobado por Resolución de la Dirección General de Administración Local, de 2 de febrero de 1978.</p>
+          <p class="parrafo">De este modo se dio cumplimiento al mandato de adecuación a la legislación estatal y autonómica, atendiendo a las peculiaridades exigidas por la función pública que exigían sus miembros, recogido en la disposición adicional segunda de la Ley 2/1974, de 13 de febrero, de Colegios Profesionales, consecuencia de la distribución de competencias establecidas en esta materia en la Constitución Española y en los Estatutos de Autonomía.</p>
+          <p class="parrafo">Las modificaciones operadas en la Ley 2/1974, de 13 de febrero, de Colegios Profesionales, por la Ley 25/2009, de 22 de diciembre, de modificación de diversas leyes para su adaptación a la Ley sobre el libre acceso a las actividades de servicios y su ejercicio, con el fin de adaptarla a la Directiva 2006/123/CE, del Parlamento Europeo y del Consejo, de 12 de diciembre de 2006, hacen ahora necesaria la elaboración de unos nuevos Estatutos que recojan dichas modificaciones en la medida que resultan aplicables a la Organización Colegial.</p>
+          <p class="parrafo">Asimismo, los nuevos Estatutos permiten adaptar la estructura y competencias internas de la Organización Colegial al nuevo marco de regulación de la profesión, tras la entrada en vigor de la disposición adicional segunda de la Ley 7/2007, de 12 de abril, del Estatuto básico del empleado público, adecuar los fines de la Organización Colegial a las nuevas exigencias del servicio público, así como definir los principios éticos profesionales que han de regir la conducta profesional de los Secretarios, Interventores y Tesoreros de la Administración Local.</p>
+          <p class="parrafo">En este sentido, los Estatutos generales se estructuran en cuatro títulos. El Título I consta de dos capítulos, contemplándose en el primero de ellos las disposiciones generales relativas a la definición, personalidad jurídica y naturaleza de los Colegios, incluyéndose los fines esenciales de la Organización Colegial, así como los principios éticos profesionales. Asimismo, se definen el ámbito territorial de los Colegios y los Consejos Autonómicos. Por su parte, en el capítulo segundo se abordan diferentes cuestiones relacionadas con el régimen jurídico de los actos y resoluciones corporativas y la ventanilla única de la Organización Colegial.</p>
+          <p class="parrafo">El Título II aborda el régimen jurídico de los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local, sistematizándose en cuatro capítulos. El primero, relativo a las funciones de los Colegios; el segundo, referente a la organización básica interna; el tercero, contempla el régimen de colegiación, ingreso, traslados, derechos y deberes de los colegiados; y, por último, el cuarto regula el régimen económico.</p>
+          <p class="parrafo">El Título III se dedica, en exclusiva, a regular el Consejo General de los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local, en cuanto a sus funciones, organización interna y régimen económico. Por último, en el Título IV se contempla el régimen disciplinario de los colegiados.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Política Territorial y Administración Pública, oído el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 11 de marzo de 2011,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos.</p>
+          <p class="parrafo">Se aprueban los Estatutos generales de la Organización Colegial de Secretarios, Interventores y Tesoreros de la Administración Local cuyo texto se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición transitoria primera. Vigencia de Estatutos y del reglamento de régimen interior del Consejo General.</p>
+          <p class="parrafo">1. En tanto se adapten los respectivos Estatutos particulares de los Colegios Territoriales y Consejos Autonómicos a los presentes Estatutos generales conservarán su vigencia en todo lo que no se opongan a los mismos.</p>
+          <p class="parrafo">2. En tanto se apruebe un nuevo texto de reglamento de régimen interior por la Asamblea del Consejo General permanecerá vigente el actual en todo lo que no se oponga a los presentes Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición transitoria segunda. Habilitación en funciones.</p>
+          <p class="parrafo">El Presidente y la Junta de Gobierno actuales del Consejo General se mantendrán en funciones en tanto se elijan una nueva Presidencia y nueva Comisión Ejecutiva conforme al procedimiento que se determine en el reglamento de régimen interior.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición transitoria tercera. Modificación del reglamento de régimen interior del Consejo General y convocatoria de elecciones a la Presidencia y Comisión Ejecutiva.</p>
+          <p class="parrafo">1. En el plazo de tres meses desde la fecha de publicación de los presentes Estatutos generales, la Junta de Gobierno en funciones del Consejo General elevará a los componentes de la Asamblea del mismo el proyecto de modificación del reglamento de régimen interior para que formulen las alegaciones que estimen convenientes por plazo de veinte días naturales.</p>
+          <p class="parrafo">En los veinte días naturales siguientes al de conclusión del plazo de alegaciones, la Asamblea aprobará el nuevo reglamento de régimen interior. A este fin, el Presidente en funciones del Consejo General remitirá a los componentes de la Asamblea junto con la convocatoria de la misma el texto del proyecto con las alegaciones que se hayan efectuado.</p>
+          <p class="parrafo">A los exclusivos efectos de este acuerdo, el voto de cada uno de los componentes de la Asamblea será único e indelegable.</p>
+          <p class="parrafo">2. En el acuerdo de aprobación a que se refiere el apartado anterior, la Asamblea determinará asimismo, la fecha de celebración del proceso electoral de la Comisión Ejecutiva a que se refiere el artículo 31 de los Estatutos generales.</p>
+        </version>
+      </bloque>
+      <bloque id="dtcuarta" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición transitoria cuarta. Designación de delegados.</p>
+          <p class="parrafo">Para la formación de la primera Asamblea del Consejo, en el plazo de un mes desde la publicación de los Estatutos generales, las Juntas de Gobierno de los Colegios Territoriales designarán a los delegados a que se refiere la letra c) del artículo 28 en la proporción de uno por cada cincuenta personas colegiadas ejercientes a la fecha de publicación antes citada.</p>
+          <p class="parrafo">A estos efectos, cada Colegio Territorial expedirá certificación comprensiva del número de personas colegiadas ejercientes y de los datos de los delegados designados.</p>
+        </version>
+      </bloque>
+      <bloque id="dtquinta" tipo="precepto" titulo="Disposición transitoria quinta">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición transitoria quinta. Designaciones provisionales en la Junta de Representación Autonómica.</p>
+          <p class="parrafo">1. En aquellas comunidades autónomas en que los Consejos Autonómicos aún no se hayan constituido, los Colegios Territoriales existentes en las mismas acordarán de forma conjunta la designación de una representación provisional para la Junta de Representación Autonómica del Consejo General, nombramiento que habrá de recaer en quien ostente alguna de las Presidencias de los Colegios Territoriales que formen parte de la Asamblea del Consejo.</p>
+          <p class="parrafo">Podrán conservar su vigencia aquellas designaciones existentes a la entrada en vigor de los presentes Estatutos generales que formen parte de la Asamblea del Consejo.</p>
+          <p class="parrafo">2. En el caso de las comunidades autónomas uniprovinciales dicha representación recaerá en quien ejerza la Presidencia del Colegio Territorial respectivo.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 1912/2000, de 24 de noviembre, por el que se aprueban los Estatutos Generales de la Organización Colegial de Secretarios, Interventores y Tesoreros de la Administración Local.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución, que atribuye al Estado la competencia exclusiva para dictar las bases del régimen jurídico de las administraciones públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="parrafo_2">Dado en Madrid, el 11 de marzo de 2011.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Tercero del Gobierno y Ministro de Política Territorial y Administración Pública,</p>
+          <p class="firma_ministro">MANUEL CHAVES GONZÁLEZ</p>
+        </version>
+      </bloque>
+      <bloque id="estatutos" tipo="encabezado" titulo="ESTATUTOS">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="anexo">ESTATUTOS GENERALES DE LA ORGANIZACIÓN COLEGIAL DE SECRETARIOS, INTERVENTORES Y TESOREROS DE LA ADMINISTRACIÓN LOCAL</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="anexo_tit">Sobre la Organización Colegial de Secretarios, Interventores y Tesoreros de Administración Local</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 1. Organización Colegial. Definición. Personalidad y naturaleza jurídica de las entidades que la componen.</p>
+          <p class="parrafo">1. La organización que se regula en los presentes Estatutos generales está integrada por todos los Colegios Territoriales de Secretarios, Interventores y Tesoreros de Administración Local, los Consejos Autonómicos respectivos y por el Consejo General de los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local.</p>
+          <p class="parrafo">Todos ellos son corporaciones de derecho público constituidos con arreglo a la ley, con estructura y funcionamiento interno democráticos que agrupan a quienes integran la escala de funcionarios con habilitación de carácter estatal pertenecientes a las subescalas que la componen, así como a quienes llevan a cabo las funciones reservadas a dicha escala como personal funcionario interino.</p>
+          <p class="parrafo">2. Los Colegios Territoriales, los Consejos Autonómicos y el Consejo General tienen personalidad jurídica propia y capacidad de obrar plena para el cumplimiento de sus fines. En su organización y funcionamiento se encuentran sujetos al principio de transparencia en su gestión, gozando de plena autonomía, en el marco de los presentes Estatutos generales y de sus propios Estatutos particulares.</p>
+          <p class="parrafo">3. Los Colegios Territoriales, Consejos Autonómicos y el Consejo General se relacionarán con las Administraciones Autonómicas a través de los órganos competentes de las Comunidades Autónomas y con la Administración General del Estado a través del Ministerio de Política Territorial y Administración Pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 2. Fines esenciales de la Organización Colegial.</p>
+          <p class="parrafo">Son fines esenciales de la Organización Colegial:</p>
+          <p class="parrafo_2">a) La colaboración con las administraciones públicas competentes en la ordenación de la profesión de Secretario, Interventor o Tesorero de Administración Local.</p>
+          <p class="parrafo">b) La realización de cuantas actuaciones redunden en la mejora y beneficio de los intereses generales de la ciudadanía destinataria de las funciones públicas reservadas a los Secretarios, Interventores y Tesoreros de Administración Local.</p>
+          <p class="parrafo">c) La representación de la profesión y la defensa de los intereses profesionales de los colegiados en sus relaciones con las Administraciones públicas y frente a cualesquiera poderes públicos y entidades con competencia o relación con el ejercicio de sus funciones, ya sean nacionales o internacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 3. Principios éticos profesionales.</p>
+          <p class="parrafo">La Organización Colegial velará por que la conducta profesional de los Secretarios, Interventores y Tesoreros de Administración Local se rija en todo momento por el cumplimiento de valores éticos de actuación basados en la neutralidad política, defensa de los valores democráticos, servicio al interés público, lealtad, honestidad, honradez, imparcialidad, eficacia, eficiencia, profesionalidad, integridad, ejemplaridad, dedicación, diligencia, justicia, transparencia, cumplimiento de la legalidad y respeto a los derechos humanos.</p>
+          <p class="parrafo">La Organización Colegial promoverá políticas de igualdad de género y se tenderá a la representación paritaria en todos sus órganos.</p>
+          <p class="parrafo">Asimismo, velará por la asunción de nuevos valores éticos que faciliten el acercamiento a la ciudadanía y la modernización de la administración para adaptarla a las nuevas demandas sociales, tales como la orientación al público, colaboración, información, diálogo y resolución de conflictos, trabajo en equipo e impulso de las nuevas tecnologías.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 4. Los Colegios Profesionales. Ámbito territorial, fusiones o segregaciones.</p>
+          <p class="parrafo">1. El ámbito territorial de cada Colegio será el que determine su respectivo Estatuto particular, dentro de los límites previstos en la legislación autonómica. En su defecto, dicho ámbito será provincial o insular como mínimo, si bien no podrán exceder del ámbito territorial de una Comunidad Autónoma. Los distintos Colegios Territoriales serán únicos en sus respectivos ámbitos territoriales.</p>
+          <p class="parrafo">2. La fusión de Colegios Territoriales para la creación de otros Colegios, siempre dentro del ámbito territorial de una misma comunidad autónoma, requerirá los acuerdos mayoritarios de las Asambleas generales de los Colegios implicados. La propuesta, previo conocimiento del Consejo General de Colegios, y sin perjuicio de la intervención que en su caso proceda por parte del Consejo Autonómico correspondiente, de conformidad con la legislación autonómica que sea aplicable, se cursará para su aprobación al órgano de gobierno de la Comunidad Autónoma respectiva. Igual procedimiento se aplicará en su caso para la segregación total o parcial de Colegios Territoriales previamente fusionados.</p>
+          <p class="parrafo">3. Los Colegios resultantes de los procesos de fusión o segregación descritos se entenderán constituidos tras la toma de posesión de los órganos de gobierno de los mismos debidamente elegidos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 5. Los Consejos Autonómicos.</p>
+          <p class="parrafo">1. Los Consejos Autonómicos de Colegios Territoriales de Secretarios, Interventores y Tesoreros de Administración Local que se constituyan al amparo de lo dispuesto en la legislación autonómica correspondiente, tendrán los fines y funciones que determinen sus Estatutos, con sujeción a lo dispuesto en la respectiva legislación autonómica y en la legislación básica estatal.</p>
+          <p class="parrafo">2. En las comunidades autónomas uniprovinciales, constituido el Consejo Autonómico, éste sucederá a todos los efectos al Colegio Territorial existente en dicha comunidad resultándole de aplicación lo dispuesto para los Colegios Territoriales en el Título II de los presentes Estatutos generales.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 6. El Consejo General.</p>
+          <p class="parrafo">1. El Consejo General de los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local es el organismo representativo y coordinador superior de la Organización Colegial.</p>
+          <p class="parrafo">2. La estructura interna y el funcionamiento del Consejo General es desarrollada por su reglamento de régimen interior de conformidad con lo dispuesto en los presentes Estatutos generales.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Régimen jurídico de los actos y resoluciones corporativas. Ventanilla única</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 7. Régimen jurídico de los actos y resoluciones corporativas</p>
+          <p class="parrafo">Los Colegios Territoriales, Consejos Autonómicos y el Consejo General ajustarán su actuación a las normas del derecho administrativo y, en especial, a la normativa que en cada momento se encuentre vigente sobre régimen jurídico de las administraciones públicas y procedimiento administrativo común, salvo en sus relaciones laborales o civiles en los que quedarán sujetos al régimen jurídico correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 8. Ejecución e impugnación de los actos y resoluciones corporativas.</p>
+          <p class="parrafo">1. Los actos y resoluciones de los Colegios Territoriales, de los Consejos Autonómicos y del Consejo General serán ejecutivos cuando estén sujetos a derecho administrativo.</p>
+          <p class="parrafo">2. Dichos actos y resoluciones, cuando estén sujetos al derecho administrativo, serán impugnables directamente ante la jurisdicción contencioso-administrativa de conformidad con lo dispuesto en su Ley reguladora, una vez agotados los recursos corporativos contra los mismos de haberse interpuesto éstos.</p>
+          <p class="parrafo">3. Con carácter previo a su impugnación ante la jurisdicción contencioso-administrativa, los actos y resoluciones de los Colegios Territoriales podrán recurrirse en alzada en el plazo de un mes ante el Consejo Autonómico respectivo o, en tanto este no se haya constituido, ante el Consejo General.</p>
+          <p class="parrafo">Contra los actos y normas emanadas de los Consejos Autonómicos podrán plantarse los recursos corporativos que prevean expresamente sus Estatutos.</p>
+          <p class="parrafo">4. Asimismo, con carácter previo a su impugnación ante la jurisdicción contencioso-administrativa, contra los actos y resoluciones del Consejo General podrá interponerse recurso de reposición ante el mismo Consejo en el plazo de un mes.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 9. Ventanilla única.</p>
+          <p class="parrafo">1. La Organización Colegial dispondrá de una página web para que, a través de la ventanilla única prevista en la Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio, quienes integran la profesión puedan, a través de un único punto, por vía electrónica, a distancia y de forma gratuita, realizar todos los trámites necesarios para la colegiación, su ejercicio y su baja en el Colegio Territorial respectivo, presentar toda la documentación y solicitudes necesarias, conocer el estado de tramitación de los procedimientos en los que tengan la consideración de interesados, recibir la correspondiente notificación de los actos de trámite preceptivos y la resolución de los expedientes, incluida la notificación de los disciplinarios cuando no fuera posible por otros medios, ser convocados a las Asambleas generales y poner en su conocimiento la actividad pública y privada de la Organización Colegial.</p>
+          <p class="parrafo">2. La ventanilla única contendrá la información a que se refiere la legislación básica sobre colegios profesionales para la mejor defensa de los derechos de la ciudadanía destinataria de la actividad de los profesionales que agrupa la Organización Colegial, en especial el acceso al registro de colegiados, que estará permanentemente actualizado y en el que constarán, al menos, los siguientes datos: nombre y apellidos de los profesionales colegiados, número de colegiación, administración pública de destino y situación administrativa, así como las vías de reclamación y los recursos que podrán interponerse en caso de conflicto entre un ciudadano y un colegiado o la Organización Colegial.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">De las funciones de los Colegios</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 10. Funciones de los Colegios.</p>
+          <p class="parrafo">Compete a los Colegios, en su ámbito territorial, el ejercicio de las funciones consignadas en la legislación básica estatal y autonómica sobre Colegios Profesionales y, en particular, las siguientes:</p>
+          <p class="parrafo_2">a) Cumplir y hacer cumplir a los colegiados las leyes generales y las especiales, los estatutos y reglamentos de régimen interior, así como las normas y decisiones adoptadas por los órganos colegiados.</p>
+          <p class="parrafo">b) Velar por el exacto cumplimiento de los deberes profesionales de los colegiados, por su ética y dignidad profesional.</p>
+          <p class="parrafo">c) Tutelar y defender los derechos e intereses que afecten a la Escala y subescalas y los de los funcionarios pertenecientes a las mismas, ostentar la representación y ejercer la defensa, en su ámbito, de unos y otros ante la administración, instituciones, tribunales y particulares, con legitimación para ser parte en cuantos litigios afecten a los intereses profesionales.</p>
+          <p class="parrafo">d) Apoyar a las administraciones públicas competentes para que el ejercicio de la profesión se efectúe por los empleados públicos que la llevan a cabo, y especialmente por parte del personal colegiado, conforme a la normativa aplicable y al código ético existente para la misma.</p>
+          <p class="parrafo">e) Aprobar sus estatutos, de conformidad con lo dispuesto en la respectiva legislación autonómica, sin perjuicio del previo informe del Consejo General sobre su adecuación a los Estatutos generales, de conformidad con lo dispuesto en el Título III.</p>
+          <p class="parrafo">f) Elaborar una Memoria Anual que contenga los extremos a que hace referencia la legislación básica de colegios profesionales.</p>
+          <p class="parrafo">g) Conocer los recursos que se interpongan contra los acuerdos de sus órganos de gobierno, de conformidad con lo dispuesto en el Título I.</p>
+          <p class="parrafo">h) Mantener y estrechar la unión, compañerismo y armonía entre todas las personas colegiadas.</p>
+          <p class="parrafo">i) Estimular y facilitar el perfeccionamiento profesional de las personas colegiadas bien sea directamente o colaborando con otros centros de investigación y formación; organizar actividades y servicios comunes de interés para el personal colegiado, de carácter profesional, formativo, cultural, asistencial, de previsión y análogos.</p>
+          <p class="parrafo">j) Fomentar la proyección y capacitación profesional de los Secretarios, Interventores y Tesoreros de Administración Local a través del mantenimiento del diálogo y la negociación con los poderes públicos, partidos políticos, sindicatos, federaciones de municipios y provincias y cualesquiera otras organizaciones municipalistas y de empleados públicos ya sean nacionales o internacionales; pudiendo establecer convenios de colaboración o, en su caso, integrarse en las mismas.</p>
+          <p class="parrafo">k) Divulgar las disposiciones legales y las instrucciones y órdenes de las autoridades para el mejor conocimiento y cumplimiento por el personal colegiado, e informar a éste de cuantas cuestiones puedan afectarles en el ámbito profesional.</p>
+          <p class="parrafo">l) Impulsar, a través de publicaciones, conferencias y cuantos medios procedan, el estudio del derecho y técnicas de administración que afecten a los profesionales colegiados; así como colaborar, cuando sean requeridos, en la formación de las autoridades y cargos en relación con las materias propias de las funciones que ejerzan.</p>
+          <p class="parrafo">m) Asesorar a las autoridades y corporaciones en las cuestiones relacionadas con la escala y subescalas, evacuando los informes, dictámenes y consultas pertinentes.</p>
+          <p class="parrafo">n) Mantener relaciones permanentes de información y comunicación con los Consejos Autonómicos de Colegios y el Consejo General y especialmente facilitar a éstos la información concerniente a las altas, bajas y cualesquiera otras modificaciones que afecten a los registros de colegiados para su conocimiento y anotación en los registros centrales de colegiados.</p>
+          <p class="parrafo">ñ) Atender las solicitudes de información sobre sus colegiados y sobre las sanciones firmes a ellos impuestas.</p>
+          <p class="parrafo">o) Disponer de un servicio de atención a los usuarios que necesariamente tramitará y resolverá cuantas quejas referidas a la actividad colegial o de las personas colegiadas se presenten por cualquier persona usuaria o profesional colegiada, así como por organizaciones de consumidores y usuarios en su representación o en defensa de intereses colectivos en los términos de la legislación básica sobre colegios profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="cii-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Organización Interna</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 11. Organización básica.</p>
+          <p class="parrafo">1. Es competencia de cada Colegio Territorial de Secretarios, Interventores y Tesoreros de Administración Local establecer y regular su organización interna, de conformidad con el siguiente organigrama básico:</p>
+          <p class="parrafo_2">a) Asamblea General.</p>
+          <p class="parrafo">b) Junta de Gobierno.</p>
+          <p class="parrafo">c) Presidencia.</p>
+          <p class="parrafo_2">2. Las elecciones para la designación de las Juntas de Gobierno de los Colegios Territoriales se ajustarán al principio de libre e igual participación de los colegiados, sin perjuicio de que los Estatutos particulares de cada Colegio puedan establecer hasta doble valoración del voto de los ejercientes, respecto de los no ejercientes.</p>
+          <p class="parrafo">Serán electores todas las personas colegiadas con derecho a voto, conforme a sus Estatutos.</p>
+          <p class="parrafo">Podrán optar a las candidaturas las personas colegiadas que, ostentando la condición de electores, no estén incursos en prohibición o incapacidad legal o estatutaria y reúnan las condiciones de antigüedad y residencia u otras de carácter profesional exigidas por las normas electorales respectivas.</p>
+          <p class="parrafo">La duración máxima del mandato será de 4 años.</p>
+          <p class="parrafo">El voto se ejercerá personalmente o por correo, de acuerdo con lo que se establezca al efecto para garantizar su autenticidad.</p>
+          <p class="parrafo">En el plazo de cinco días desde la constitución de la Junta de Gobierno, deberá comunicarse ésta al Consejo General, Consejo Autonómico respectivo, al órgano competente de la Comunidad Autónoma y al Ministerio de Política Territorial y Administración Pública. Asimismo se comunicará la composición de los órganos elegidos en cumplimiento de los requisitos legales.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 12. Asamblea General.</p>
+          <p class="parrafo">1. La Asamblea General es el órgano supremo de expresión de la voluntad del Colegio, y se rige por los principios de participación igual y democrática de todos los colegiados. La participación en la Asamblea será personal, pudiendo ser también por representación o delegación.</p>
+          <p class="parrafo">2. Son competencias propias y exclusivas de la Asamblea General:</p>
+          <p class="parrafo_2">a) Aprobar los Estatutos particulares y el reglamento de régimen interior del Colegio, sin perjuicio de la facultad de la Junta de Gobierno para aprobar las correspondientes normativas de desarrollo.</p>
+          <p class="parrafo">b) Aprobar en el mes de enero de cada año la Memoria correspondiente al ejercicio vencido, que contendrá como mínimo la información que exige para la misma la legislación básica sobre colegios profesionales, además de la liquidación de los presupuestos y las cuentas de ingresos y gastos.</p>
+          <p class="parrafo">c) Autorizar los actos de disposición de los bienes inmuebles propios y derechos reales constituidos sobre éstos, así como de los restantes bienes patrimoniales propios que figuren inventariados como de considerable valor.</p>
+          <p class="parrafo">d) Controlar la gestión de la Junta de Gobierno, recabando informes y adoptando, en su caso, las oportunas mociones.</p>
+          <p class="parrafo_2">3. Los Estatutos particulares de cada Colegio regularán la periodicidad, convocatoria y celebración de las asambleas.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 13. Junta de Gobierno.</p>
+          <p class="parrafo">1. La Junta de Gobierno es el órgano de administración y dirección del Colegio Territorial que ejerce las competencias de éste no reservadas a la Asamblea General conforme al artículo anterior, ni asignadas específicamente por los Estatutos particulares a otros órganos colegiales.</p>
+          <p class="parrafo">2. Los Estatutos particulares de cada Colegio regularán la composición, forma de elección y duración de los cargos de la Junta de Gobierno, garantizando una representación de las tres subescalas.</p>
+          <p class="parrafo">3. Por acuerdo interno de la misma se procederá a la designación de los delegados a que se refiere la letra c) del artículo 28 de los presentes Estatutos generales.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 14. Presidencia.</p>
+          <p class="parrafo">La representación legal del Colegio recae en quien ostenta la Presidencia, quien asimismo preside la Asamblea General y la Junta de Gobierno, velando por la debida ejecución de sus acuerdos y adoptando en los casos de urgencia las medidas procedentes.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 15. Colegiación. Ingresos. Traslados.</p>
+          <p class="parrafo">1. Los Colegios Territoriales integrarán a los empleados públicos que forman parte de la escala de funcionarios con habilitación de carácter estatal pertenecientes a las subescalas que la componen. Podrán formar parte asimismo de los Colegios Territoriales quienes llevan a cabo las funciones reservadas a dicha escala como funcionarios interinos en su ámbito territorial correspondiente, con los derechos y obligaciones que para ellos se determinen en los respectivos Estatutos particulares</p>
+          <p class="parrafo">Sin perjuicio de lo dispuesto en materia disciplinaria en los presentes Estatutos generales y los Estatutos particulares de cada Colegio Territorial, dejarán de pertenecer a los mismos aquellos funcionarios que pierdan tal condición en los supuestos previstos en el Estatuto Básico del Empleado Público, con excepción del de jubilación.</p>
+          <p class="parrafo">2. La colegiación tendrá carácter voluntario. Bastará para el ingreso la incorporación al Colegio Territorial en cuyo ámbito territorial se encuentre la Corporación de destino del funcionario. A tal fin los Colegios dispondrán de los medios necesarios para que los solicitantes puedan tramitar su colegiación por vía telemática en los términos de la legislación básica sobre colegios profesionales.</p>
+          <p class="parrafo">Si los respectivos Estatutos particulares previesen cuota de inscripción su importe no podrá superar al de los costes de tramitación de la misma.</p>
+          <p class="parrafo">3. En los supuestos de traslado, el funcionario pasará a ser colegiado en el Colegio Territorial de su nuevo destino, ya sea su nombramiento de carácter definitivo o provisional.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 16. Clases de colegiados.</p>
+          <p class="parrafo">1. Los colegiados pueden serlo a título de ejercientes, interinos, no ejercientes o de honor.</p>
+          <p class="parrafo">2. Serán colegiados ejercientes los funcionarios con habilitación de carácter estatal que:</p>
+          <p class="parrafo_2">a) Se encuentren en situación de servicio activo en la Escala de funcionarios con habilitación de carácter estatal.</p>
+          <p class="parrafo">b) Ocupen puestos en las Administraciones locales no reservados exclusivamente a funcionarios con habilitación de carácter estatal.</p>
+          <p class="parrafo">c) Ocupen en su condición de funcionarios puestos en la Administración del Estado o en la Administración autonómica en los casos en que ello sea posible conforme a la normativa reguladora de la Escala de funcionarios con habilitación de carácter estatal.</p>
+          <p class="parrafo_2">3. Serán colegiados interinos quienes lleven a cabo las funciones reservadas a la Escala de funcionarios con habilitación de carácter estatal bajo nombramiento interino.</p>
+          <p class="parrafo">4. Serán colegiados no ejercientes aquellos funcionarios que perteneciendo a la Escala de funcionarios con habilitación de carácter estatal no se encuentren en ninguno de los supuestos descritos en el apartado 2 anterior; o que habiendo pertenecido a dicha Escala se encuentren en situación de jubilación, todo ello en los términos que determinen los respectivos Estatutos particulares.</p>
+          <p class="parrafo">5. Podrán ser nombradas colegiadas de honor aquellas personas físicas o jurídicas que hayan contraído méritos profesionales o académicos respecto de los Secretarios, Interventores y Tesoreros de Administración Local, o en relación a la función pública en general. Asimismo, respecto de las Administraciones públicas, o la Organización Colegial en general o de un Colegio Territorial en particular. También a quienes hayan destacado por su especial labor en interés de la ciudadanía, todo ello de conformidad con lo dispuesto en los respectivos Estatutos particulares.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 4 conforme a la corrección de errores publicada en BOE núm. 175, de 22 de julio de 2011. <a class="refPost">Ref. BOE-A-2011-5836</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 17. Derechos de los colegiados.</p>
+          <p class="parrafo">Son derechos de los colegiados:</p>
+          <p class="parrafo_2">a) Concurrir, con voz y voto, a las Asambleas.</p>
+          <p class="parrafo">b) Dirigirse a los órganos de gobierno formulando peticiones y quejas, y recabando información sobre la actividad colegial.</p>
+          <p class="parrafo">c) Elegir y ser elegido para cargos directivos en las condiciones que señalen los Estatutos particulares.</p>
+          <p class="parrafo">d) Requerir la intervención del Colegio, o su informe, cuando proceda.</p>
+          <p class="parrafo">e) Ser amparado por el Colegio en cuanto afecte a su condición de funcionario.</p>
+          <p class="parrafo">f) Disfrutar de las concesiones, beneficios, derechos y ventajas que se otorguen a los colegiados en general, para sí o para sus familias.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 18. Obligaciones de los colegiados.</p>
+          <p class="parrafo">1. Son deberes generales de los colegiados:</p>
+          <p class="parrafo_2">a) Someterse a la normativa legal y estatutaria, a las normas y usos propios de la deontología profesional y al régimen disciplinario colegial.</p>
+          <p class="parrafo">b) Observar una conducta digna de su condición y del cargo que ejerza y desempeñar éste con honradez, celo y competencia.</p>
+          <p class="parrafo">c) Establecer, mantener y estrechar las relaciones de unión y compañerismo que deben existir entre todos los funcionarios que forman la Escala.</p>
+          <p class="parrafo_2">2. Son obligaciones especiales de los colegiados:</p>
+          <p class="parrafo_2">a) Contribuir puntualmente al sostenimiento económico del Colegio.</p>
+          <p class="parrafo">b) Declarar en debida forma su situación administrativa y los demás actos que le sean requeridos en su condición de funcionario de carrera o interino, relativos a sus derechos y obligaciones colegiales.</p>
+          <p class="parrafo">c) Acatar y cumplir los acuerdos que adopten los órganos corporativos en la esfera de su competencia.</p>
+          <p class="parrafo">d) Comunicar al Colegio respectivo cuantas circunstancias de orden profesional sean requeridas para el cumplimiento de las funciones colegiales.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 19. Recursos económicos.</p>
+          <p class="parrafo">Los Colegios dispondrán de los siguientes recursos económicos:</p>
+          <p class="parrafo_2">a) El importe de las cuotas que satisfagan los colegiados.</p>
+          <p class="parrafo">b) Las rentas, productos e intereses de su patrimonio.</p>
+          <p class="parrafo">c) Las donaciones, legados, herencias y subvenciones de los que el Colegio pueda ser beneficiario.</p>
+          <p class="parrafo">d) Las aportaciones, en su caso, de entidades públicas.</p>
+          <p class="parrafo">e) El rendimiento de los servicios o prestaciones derivadas del ejercicio de funciones colegiales, incluidas las publicaciones.</p>
+          <p class="parrafo">f) Los beneficios de sus contratos y conciertos con entidades públicas o particulares.</p>
+          <p class="parrafo">g) Los que por cualquier otro concepto procedieren conforme a la normativa aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 20. Cuotas.</p>
+          <p class="parrafo">Las cuotas que, para el sostenimiento del Colegio, vienen obligados a satisfacer los colegiados serán de dos clases: ordinarias y extraordinarias.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 21. Cuotas ordinarias.</p>
+          <p class="parrafo">1. Las cuotas ordinarias deberán ser aprobadas por la Asamblea General y serán:</p>
+          <p class="parrafo_2">a) Para los colegiados ejercientes, el 1%, como mínimo, del sueldo anual. A estos efectos, se considera sueldo anual la cuantía que en concepto de salario base se prevea para cada ejercicio en la correspondiente Ley de Presupuestos Generales del Estado para el Grupo A, Subgrupo A1, de los relacionados en el Estatuto Básico del Empleado Público.</p>
+          <p class="parrafo">b) Para los colegiados interinos y no ejercientes se estará para su determinación a lo dispuesto en cada Estatuto particular.</p>
+          <p class="parrafo_2">2. Quienes se hallen en expectativa de destino estarán exentos durante el tiempo que dure esta situación.</p>
+          <p class="parrafo">3. Las variaciones en la cuota ordinaria tendrán efectos desde el día en que el colegiado haya pasado a distinta situación administrativa o a disfrutar nuevo sueldo.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 22. Cuotas extraordinarias.</p>
+          <p class="parrafo">Las cuotas extraordinarias deberán ser acordadas por la Asamblea General, con las limitaciones que en su caso se establezcan por el Estatuto particular.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 23. Pagos y recaudación de cuotas.</p>
+          <p class="parrafo">1. Los Estatutos particulares de cada Colegio determinarán la forma de pago y recaudación de las cuotas.</p>
+          <p class="parrafo">2. Si cualquier colegiado incurriese en mora, el presidente del Colegio le requerirá para que satisfaga su deuda en el plazo máximo de un mes. Si pasare otro mes desde el requerimiento sin que hiciese efectivo sus débitos colegiales, el colegiado moroso quedará automáticamente suspendido de los derechos que le reconoce el presente Estatuto. La suspensión se mantendrá hasta el debido cumplimiento de sus deberes económicos colegiales, sin perjuicio de su eventual reclamación judicial por la vía procedente.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 24. Presupuestos.</p>
+          <p class="parrafo">El régimen económico de los Colegios es presupuestario. El presupuesto será único y comprenderá la totalidad de ingresos y gastos del Colegio, debiendo referirse al año natural. Los Estatutos particulares de cada Colegio determinarán el procedimiento de aprobación del presupuesto.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 25. Aportaciones.</p>
+          <p class="parrafo">Los Colegios Territoriales efectuarán aportaciones económicas al Consejo General en los términos regulados en el Título III de los presentes Estatutos. Asimismo, efectuarán aportaciones económicas a los Consejos Autonómicos en los términos que regulen los Estatutos particulares de estos.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">El Consejo General de los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Funciones y competencias</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 26. Funciones y competencias del Consejo General.</p>
+          <p class="parrafo">1. El Consejo General de los Colegios Profesionales de Secretarios, Interventores y Tesoreros de Administración Local tendrá las funciones siguientes:</p>
+          <p class="parrafo_2">a) Convocar en congreso a todos los integrantes de la Escala de funcionarios con habilitación de carácter estatal cuando se estime conveniente, aprobando el reglamento que haya de regir dicha reunión y adoptando las medidas necesarias para que se cumplan los acuerdos que en el mismo se adopten, que vincularán a toda la Organización Colegial.</p>
+          <p class="parrafo">b) Asumir la representación de la Escala de funcionarios con habilitación de carácter estatal y de su Organización Colegial ante las organizaciones internacionales y los poderes legislativo, ejecutivo y judicial de ámbito estatal.</p>
+          <p class="parrafo">c) Coordinar el establecimiento de una acción común de la Organización Colegial en el desarrollo del estatuto profesional de los Secretarios, Interventores y Tesoreros de Administración Local por el Gobierno del Estado y los Gobiernos de las Comunidades Autónomas.</p>
+          <p class="parrafo">d) Elaborar y modificar los Estatutos generales de la Organización Colegial para su sometimiento a la aprobación del Gobierno.</p>
+          <p class="parrafo">e) Aprobar sus presupuestos</p>
+          <p class="parrafo">f) Aprobar el reglamento de régimen interior del Consejo General que regulará, entre otros aspectos, las condiciones de elegibilidad y duración de los mandatos de sus miembros electivos, precisará las competencias y el funcionamiento interno de cada uno de sus órganos y el ejercicio de la potestad disciplinaria que los presentes Estatutos atribuyen al Consejo General.</p>
+          <p class="parrafo">g) Informar sobre la adecuación a los Estatutos generales de los Estatutos particulares y sus modificaciones elaborados por los Colegios Territoriales y Consejos Autonómicos a los efectos oportunos.</p>
+          <p class="parrafo">h) Dirimir conflictos que pudieran suscitarse entre Colegios Territoriales de distintas Comunidades Autónomas, o entre Colegios Territoriales de una misma Comunidad Autónoma cuando en la misma no esté constituido el Consejo Autonómico.</p>
+          <p class="parrafo">i) Resolver los recursos que se interpongan contra actos y resoluciones de los Colegios Territoriales y Consejos Autonómicos, de conformidad con lo dispuesto en el Título I de los presentes Estatutos.</p>
+          <p class="parrafo">j) Adoptar las medidas necesarias para que se cumplan los actos y resoluciones emanadas del Consejo General.</p>
+          <p class="parrafo">k) Ejercer la potestad sancionadora que se le atribuye en los presentes Estatutos.</p>
+          <p class="parrafo">l) Informar los proyectos de modificación de la legislación estatal sobre Colegios Profesionales, o de disposiciones de carácter general del Estado que afecten concreta y directamente a los Secretarios, Interventores y Tesoreros de Administración Local, de conformidad con lo dispuesto en el artículo 24 de la Ley 50/1997, de 27 de noviembre, del Gobierno.</p>
+          <p class="parrafo">m) Proceder a la impugnación, ya sea en vía administrativa o judicial, por iniciativa propia o a instancia de Colegio Territorial o Consejo Autonómico, de cuantos actos o disposiciones generales se consideren perjudiciales para el ejercicio de las funciones reservadas a los Secretarios, Interventores y Tesoreros de Administración Local y sus intereses profesionales.</p>
+          <p class="parrafo">n) Llevar a cabo o participar en iniciativas, efectuar colaboraciones y suscribir acuerdos y contratos con cualesquiera personas físicas o jurídicas, tanto públicas como privadas, con el fin de organizar exposiciones, conferencias, coloquios, cursos o seminarios; llevar a cabo explotaciones económicas de elaboración, edición publicación y venta de libros, revistas folletos, material audiovisual y material multimedia; así como realizar estudios, investigaciones y actividades académicas y culturales que redunden en beneficio ya sea de la actividad profesional de los Secretarios, Interventores y Tesoreros de Administración Local, ya sea de su Organización Colegial, de las Administraciones públicas o del interés general de la ciudadanía, amén de procurar el sostenimiento económico del Consejo General.</p>
+          <p class="parrafo_2">2. El Consejo General podrá ejercer las funciones atribuidas por el artículo 10 a los Colegios Territoriales, en cuanto tengan ámbito o repercusión nacional.</p>
+          <p class="parrafo">3. Para el cumplimiento de sus fines, el Consejo General podrá proceder a la creación de fundaciones, sociedades mercantiles o cualquier otro tipo de entidades que se consideren necesarias para el mejor cumplimiento de los fines de la Organización Colegial.</p>
+        </version>
+      </bloque>
+      <bloque id="cii-3" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Organización interna</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 27. Órganos del Consejo General.</p>
+          <p class="parrafo">Son órganos del Consejo General de los Colegios Territoriales y Autonómicos de Secretarios, Interventores y Tesoreros de Administración Local: la Asamblea, la Presidencia, la Junta de Representación Autonómica y la Comisión Ejecutiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 28. La Asamblea del Consejo General.</p>
+          <p class="parrafo">1. La Asamblea del Consejo General es el órgano de expresión superior de la voluntad de la Organización Colegial de Secretarios, Interventores y Tesoreros de Administración Local.</p>
+          <p class="parrafo">2. La Asamblea del Consejo General estará integrada por colegiados ejercientes en todo caso.</p>
+          <p class="parrafo">3. Forman parte de la Asamblea del Consejo General:</p>
+          <p class="parrafo_2">a) Los Presidentes en ejercicio de los Colegios Territoriales por razón de su cargo.</p>
+          <p class="parrafo">b) Los Presidentes en ejercicio de los Consejos Autonómicos formalmente constituidos por razón de su cargo.</p>
+          <p class="parrafo">c) Los delegados que se designen por las Juntas de Gobierno de los Colegios Territoriales en la proporción que establezca el reglamento de régimen interior conforme a su número de colegiados ejercientes al día 1 de enero de cada año.</p>
+          <p class="parrafo_2">4. La Asamblea del Consejo General es el órgano encargado de aprobar el Reglamento de Régimen Interior del Consejo General y sus modificaciones, así como de la memoria anual del conjunto de la Organización Colegial. Dicha memoria anual contendrá como mínimo la información que exige la legislación básica sobre colegios profesionales. A tal fin los Colegios Territoriales y Consejos Autonómicos suministrarán al Consejo General toda la información necesaria para su elaboración.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 29. Presidencia del Consejo General.</p>
+          <p class="parrafo">1. La representación legal del Consejo recae en quien ostenta la Presidencia, quien asimismo preside los órganos del mismo, velando por la debida ejecución de los acuerdos que éstos adopten, acordando en caso de urgencia las medidas que resulten procedentes, y ejerciendo las competencias que le atribuya el reglamento de régimen interior.</p>
+          <p class="parrafo">2. Accederá a la Presidencia del Consejo General la persona cabeza de lista de la candidatura que elija la Asamblea en el proceso electoral de la Comisión Ejecutiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 30. Junta de Representación Autonómica del Consejo General.</p>
+          <p class="parrafo">1. La Junta de Representación Autonómica, presidida por el Presidente del Consejo General e integrada por todos los Presidentes de los Consejos Autonómicos, es el órgano con competencia exclusiva de coordinación para el establecimiento de una acción común de la Organización Colegial en el desarrollo del estatuto profesional de los Secretarios, Interventores y Tesoreros de Administración Local por el Gobierno del Estado y los Gobiernos de las Comunidades Autónomas, así como con las competencias que le atribuya el reglamento de régimen interior, todo ello sin perjuicio de las competencias que le correspondan a la Presidencia del Consejo.</p>
+          <p class="parrafo">2. La representatividad de cada persona integrante de la Junta de Representación Autonómica será proporcional al número de Colegios Territoriales integrados en el Consejo Autonómico que preside.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 31. Comisión Ejecutiva del Consejo General.</p>
+          <p class="parrafo">1. La Comisión Ejecutiva es el órgano de gobierno y administración del Consejo General y estará integrada por quienes elijan la Asamblea General de entre sus integrantes en número de quince que deberán presentarse para su elección en candidatura cerrada.</p>
+          <p class="parrafo">2. Podrá crearse en el seno de la Comisión Ejecutiva una Comisión Permanente con la composición que regule el reglamento de régimen interior y las competencias que le delegue la Comisión Ejecutiva.</p>
+          <p class="parrafo">3. Deberá tenderse en los órganos a los que se hace referencia en los apartados 1 y 2 de este artículo a que exista una representación de las tres Subescalas que conforman la habilitación de carácter estatal.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii-2" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 32. Recursos del Consejo General.</p>
+          <p class="parrafo">El Consejo General dispondrá de los siguientes recursos económicos:</p>
+          <p class="parrafo_2">a) El importe de las cuotas que satisfagan los Colegios Territoriales.</p>
+          <p class="parrafo">b) Las rentas, productos e intereses de su patrimonio.</p>
+          <p class="parrafo">c) Las donaciones, legados, herencias y subvenciones de los que pueda ser beneficiario.</p>
+          <p class="parrafo">d) Las aportaciones, en su caso, de entidades públicas.</p>
+          <p class="parrafo">e) El rendimiento de los servicios o prestaciones derivadas del ejercicio de funciones colegiales, incluidos los de la revista de estudios locales de la que es propietario.</p>
+          <p class="parrafo">f) Los beneficios de sus contratos y acuerdos con cualesquiera personas físicas o jurídicas, tanto públicas como privadas.</p>
+          <p class="parrafo">g) Los que por cualquier otro concepto procedieren conforme a la normativa aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="a33" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 33. Aportaciones y compensaciones de los Colegios y Consejos Autonómicos.</p>
+          <p class="parrafo">1. La aportación de los Colegios Territoriales al Consejo General será del 20% de las cuotas mínimas que deban satisfacer los colegiados de conformidad con lo dispuesto en el artículo 21 de estos Estatutos.</p>
+          <p class="parrafo">2. El reglamento de régimen interior regulará los supuestos y condiciones para establecer bonificaciones sobre la cuantía de estas aportaciones, así como para el establecimiento de aportaciones extraordinarias al Consejo General.</p>
+          <p class="parrafo">3. En cualquier caso los Colegios Territoriales y Consejos Autonómicos compensarán al Consejo General cuantos gastos se originen por la realización de cualesquiera actuaciones efectuadas a su instancia, además de abonar una cuota puntual por la realización de servicios de asistencia jurídica.</p>
+        </version>
+      </bloque>
+      <bloque id="a34" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 34. Régimen presupuestario.</p>
+          <p class="parrafo">El régimen económico del Consejo General es presupuestario. Su presupuesto, que será único y comprenderá la totalidad de ingresos y gastos, se referirá al año natural.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Régimen disciplinario</p>
+        </version>
+      </bloque>
+      <bloque id="a35" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 35. Potestad disciplinaria y competencia sancionadora.</p>
+          <p class="parrafo">1. Los Colegios Territoriales ejercerán la potestad disciplinaria para corregir las acciones y omisiones que realicen los Secretarios, Interventores y Tesoreros de Administración Local en ellos colegiados.</p>
+          <p class="parrafo">Los Estatutos profesionales establecerán el órgano competente para ejercitar esta potestad, en defecto de dicha determinación la competencia sancionadora recaerá en la Junta de Gobierno.</p>
+          <p class="parrafo">2. El Consejo General ejercerá la potestad disciplinaria respecto:</p>
+          <p class="parrafo_2">a) de los miembros del propio Consejo General en todo caso</p>
+          <p class="parrafo">b) de los componentes de las Juntas de Gobierno de los Colegios Territoriales cuando los Estatutos del Consejo Autonómico respectivo no hubieran previsto esta competencia</p>
+          <p class="parrafo">c) de los integrantes de los órganos de gobierno de los Consejos Autonómicos cuando éstos no hubieran atribuido para sí esta competencia en sus propios Estatutos.</p>
+          <p class="parrafo_2">El reglamento de régimen interior establecerá el órgano competente para ejercitar esta potestad y, en defecto de dicha determinación, la competencia sancionadora recaerá en la Comisión Ejecutiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a36" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 36. Tipificación de infracciones.</p>
+          <p class="parrafo">Las faltas se clasificarán en leves, graves y muy graves.</p>
+          <p class="parrafo_2">1. Son faltas leves:</p>
+          <p class="parrafo_2">a) La desconsideración hacia los compañeros tanto en relación con la actividad de carácter colegial como profesional.</p>
+          <p class="parrafo">b) Los actos de desconsideración hacia los miembros de la Junta de Gobierno, Consejo Autonómico o Consejo General.</p>
+          <p class="parrafo_2">2. Son faltas graves:</p>
+          <p class="parrafo_2">a) La desconsideración grave hacia los compañeros tanto en relación con la actividad de carácter colegial como profesional.</p>
+          <p class="parrafo">b) Los actos graves de desconsideración hacia los integrantes de la Junta de Gobierno, Consejo Autonómico o Consejo General.</p>
+          <p class="parrafo">c) La desatención a los cargos colegiales como consecuencia de la falta de asistencia no justificada.</p>
+          <p class="parrafo">d) La obstaculización al ejercicio de los derechos de acceso a los cargos y a los puestos reservados a los funcionarios de las tres subescalas.</p>
+          <p class="parrafo">e) Realizar actuaciones encaminadas a favorecer, amparar o tolerar el intrusismo.</p>
+          <p class="parrafo">f) La realización de actividades ilegales que pueden perjudicar gravemente a la imagen, consideración social o profesional, o al prestigio de los colegiados o de la Organización Colegial.</p>
+          <p class="parrafo">g) La infracción de los deberes generales y obligaciones especiales a los que se refiere el artículo 18 de los presentes Estatutos.</p>
+          <p class="parrafo_2">3. Son faltas muy graves:</p>
+          <p class="parrafo_2">a) La desatención grave a los cargos colegiales como consecuencia de la falta de asistencia no justificada.</p>
+          <p class="parrafo">b) El falseamiento o inexactitud grave de la documentación profesional, y la ocultación o simulación de datos que el Colegio debe conocer para ejercitar sus funciones o para el reparto equitativo de los cargos colegiales.</p>
+          <p class="parrafo">c) Confeccionar baremos a medida propia e imposibilitar el acceso a una plaza que se ostenta en régimen de acumulación.</p>
+          <p class="parrafo">d) El ejercicio ilegal de funciones reservadas a funcionarios de la Escala.</p>
+          <p class="parrafo">e) La connivencia con los órganos competentes de la Corporación local en el mantenimiento ilegal de la categoría o la reclasificación de una plaza en aras de intereses particulares, cuando dicha ilegalidad haya sido declarada por sentencia judicial firme.</p>
+          <p class="parrafo">f) Toda actuación profesional que suponga discriminación por razón de raza, sexo, religión, lengua, opinión, lugar de nacimiento, vecindad o cualquier otra condición o circunstancia personal o social.</p>
+        </version>
+      </bloque>
+      <bloque id="a37" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 37. Tipificación de sanciones:</p>
+          <p class="parrafo_2">Podrán imponerse las siguientes sanciones:</p>
+          <p class="parrafo_2">a) Apercibimiento privado.</p>
+          <p class="parrafo">b) Suspensión en la condición de colegiado hasta seis meses.</p>
+          <p class="parrafo">c) Separación del cargo colegial de un mes a un año.</p>
+          <p class="parrafo">d) Separación del cargo colegial durante el período del mandato en curso.</p>
+          <p class="parrafo">e) Separación del cargo colegial durante el período del mandato en curso y declaración de incapacidad para el siguiente.</p>
+          <p class="parrafo">f) Suspensión en la condición de colegiado desde seis meses y un día hasta dos años.</p>
+        </version>
+      </bloque>
+      <bloque id="a38" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 38. Correspondencia entre infracciones y sanciones.</p>
+          <p class="parrafo">1. Para las faltas leves se aplicará la sanción prevista en la letra a) del artículo anterior. Para las faltas graves, las sanciones enumeradas en las letras b) a c), y para las faltas muy graves, las sanciones determinadas en las letras d) a f).</p>
+          <p class="parrafo">2. En la imposición de estas sanciones se deberá guardar la debida adecuación entre la gravedad del hecho constitutivo de la infracción y la sanción aplicada, considerándose especialmente los siguientes criterios para la graduación de la sanción a aplicar:</p>
+          <p class="parrafo_2">a) La existencia de intencionalidad o reiteración.</p>
+          <p class="parrafo">b) La naturaleza de los perjuicios causados.</p>
+          <p class="parrafo">c) La reincidencia, por comisión en el término de un año de más de una infracción de la misma naturaleza cuando así haya sido declarado por resolución firme.</p>
+          <p class="parrafo">d) Negligencia profesional inexcusable.</p>
+          <p class="parrafo">e) Obtención de lucro ilegítimo merced a la actuación ilícita.</p>
+        </version>
+      </bloque>
+      <bloque id="a39" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 39. Prescripción y cancelación de infracciones y sanciones.</p>
+          <p class="parrafo">Las infracciones leves prescriben a los seis meses, las graves al año y las muy graves a los dos años.</p>
+          <p class="parrafo">Las sanciones leves prescriben a los seis meses, las graves al año y las muy graves a los dos años.</p>
+          <p class="parrafo">Los plazos de prescripción de las infracciones comenzarán a contar desde la comisión de la infracción, y los de las sanciones desde el día siguiente a aquel en que adquiera firmeza la resolución por la que se impone la sanción. La prescripción de las infracciones se interrumpirá por cualquier acto colegial expreso y manifiesto dirigido a investigar la presunta infracción. La realización de cualquier acto colegial expreso y manifiesto de ejecución de la sanción interrumpirá el plazo de prescripción de la misma.</p>
+          <p class="parrafo">La cancelación supone la anulación del antecedente sancionador a todos los efectos. Las sanciones leves se cancelarán al año; las graves a los dos años, y las muy graves a los cuatro años, a contar desde el cumplimiento de las sanciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a40" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Artículo 40. Procedimiento sancionador.</p>
+          <p class="parrafo">1. Los Estatutos de cada Colegio Territorial y Consejo Autonómico regularán el procedimiento sancionador a seguir para depurar eventuales responsabilidades disciplinarias. Este procedimiento habrá de ajustarse, en todo caso, a los principios definidos en la normativa sobre régimen jurídico de las administraciones públicas y procedimiento administrativo común.</p>
+          <p class="parrafo">2. La responsabilidad disciplinaria regulada en el presente Título se ejercerá sin perjuicio de la eventual responsabilidad administrativa o penal en la que, por los mismos hechos, puedan incurrir los Secretarios, Interventores y Tesoreros de Administración Local como consecuencia de su relación de servicio o su condición de funcionarios públicos.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición adicional primera. Utilización de los géneros femenino y masculino.</p>
+          <p class="parrafo">Las menciones que hacen los presentes Estatutos al Presidente, a los delegados, colegiados, funcionarios, ciudadanos, usuarios y consumidores se entenderán referidas indistintamente a la Presidenta o Presidente, a las delegadas o delegados, colegiadas o colegiados, funcionarias o funcionarios, ciudadanas o ciudadanos, usuarias o usuarios y consumidoras o consumidores.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición adicional segunda. Código ético.</p>
+          <p class="parrafo">Sin perjuicio de lo dispuesto en el artículo 3 de los presentes Estatutos generales, el código ético profesional aprobado en la VI Asamblea General de Secretarios, Interventores y Tesoreros de Administración Local celebrada en la ciudad de Salamanca el 14 de mayo de 2005 regirá la actuación de los profesionales que integran la Organización Colegial.</p>
+          <p class="parrafo">Dicho texto permanecerá siempre accesible por vía telemática tanto para los profesionales como para la ciudadanía destinataria de su actividad. El congreso de todos los integrantes de la Escala de funcionarios con habilitación de carácter estatal podrá efectuar modificaciones de su contenido si así se considerara conveniente.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2011-5836" fecha_publicacion="20110401" fecha_vigencia="20110402">
+          <p class="articulo">Disposición adicional tercera. Ceuta y Melilla.</p>
+          <p class="parrafo">La colegiación de los Secretarios, Interventores y Tesoreros de Administración Local con destino en las Ciudades de Ceuta y Melilla se producirá respectivamente en los Colegios Territoriales de Cádiz y Málaga.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

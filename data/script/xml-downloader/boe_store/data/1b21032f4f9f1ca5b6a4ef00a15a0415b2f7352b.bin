@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183836Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-9677</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8070">Comunidad Autónoma de Cataluña</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20150729</fecha_disposicion>
+      <numero_oficial>18/2015</numero_oficial>
+      <titulo>Ley 18/2015, de 29 de julio, de las organizaciones interprofesionales agroalimentarias.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20150908</fecha_publicacion>
+      <diario_numero>215</diario_numero>
+      <fecha_vigencia>20150824</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ct/l/2015/07/29/18</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-9677</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="665">Cataluña</materia>
+        <materia codigo="5327">Organizaciones Interprofesionales Agroalimentarias</materia>
+        <materia codigo="6015">Registros administrativos</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el DOGC núm. 6927 de 4 de agosto</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2006-13087</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 116.1 del Estatuto aprobado por Ley Orgánica 6/2006, de 19 de julio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-9677</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5327"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-9677</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/con/20150804"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 18/2015, de 29 de julio, de las organizaciones interprofesionales agroalimentarias.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/con/20150804">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-9677</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-08-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/con/20150804/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 18/2015, de 29 de julio, de las organizaciones interprofesionales agroalimentarias.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/con/20150804"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2015/07/29/18/con/20150804/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2015/07/29/18/con/20150804/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://portaljuridic.gencat.cat/eli/es-ct/l/2015/07/29/18"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="centro_redonda">EL PRESIDENTE DE LA GENERALIDAD DE CATALUÑA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de Cataluña ha aprobado y yo, en nombre del Rey y de acuerdo con lo que establece el artículo 65 del Estatuto de autonomía de Cataluña, promulgo la siguiente Ley 18/2015, de 29 de julio, de las organizaciones interprofesionales agroalimentarias.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">Uno de los principales objetivos de la política agrícola común es la orientación de las producciones agrarias a las necesidades del mercado, junto con la flexibilización de los mecanismos de intervención que permitan una mejor adecuación de la oferta agraria a la demanda.</p>
+          <p class="parrafo">Las organizaciones interprofesionales agroalimentarias han experimentado un desarrollo muy importante y se han configurado como órganos de coordinación y colaboración de los distintos sectores del sistema agroalimentario.</p>
+          <p class="parrafo">La presente ley se dicta al amparo del artículo 116.1 del Estatuto de autonomía de Cataluña, que establece que corresponde a la Generalidad, respetando lo que establezca el Estado en ejercicio de las competencias que le atribuye el artículo 149.1.13 y 16 de la Constitución española, la competencia exclusiva para la regulación y el desarrollo de la agricultura, la ganadería y el sector agroalimentario.</p>
+          <p class="parrafo">El sector agroalimentario tiene un valor estratégico muy importante para la economía de Cataluña, tal como reflejan las magnitudes económicas sobre su participación en el producto interior bruto, la balanza comercial, el número de empresas, el valor de la producción final agraria y alimentaria, y las personas empleadas, con una clara vocación internacional en muchos de sus productos. Cataluña es una región agroalimentaria de primer orden en el contexto de la Unión Europea.</p>
+          <p class="parrafo">El desarrollo del sector agroalimentario en Cataluña, dada la necesidad de mejora y adaptación en las relaciones de los operadores de la cadena agroalimentaria a las condiciones del mercado, necesita nuevos mecanismos intersectoriales para dotarse de medios de vertebración en sus estructuras interprofesionales privadas que permitan la organización, cohesión y colaboración en relación con los objetivos de modernización, desarrollo, competitividad e internacionalización.</p>
+          <p class="parrafo">Una de las particularidades del sector agroalimentario catalán es la existencia de un gran número de pequeñas y medianas empresas en el sector productor y transformador que se encuentran en una clara desventaja ante los grandes grupos de la distribución minorista que concentran la demanda, con el consiguiente desequilibrio. Hay que defender la existencia de un modelo propio y diferenciado de comercio de proximidad, un modelo en equilibrio con los distintos formatos de distribución comercial. El hecho de disponer de organizaciones interprofesionales agroalimentarias en Cataluña es un factor coadyuvante para que el sector privado agroalimentario pueda adoptar medidas que consoliden este modelo propio, tanto en el sector primario, como en el transformador y en la comercialización de los productos. En consecuencia, hay que contar con estructuras asociativas potentes y vertebradas que tengan capacidad suficiente para desarrollar iniciativas que generen valor añadido en los respectivos productos agroalimentarios.</p>
+          <p class="parrafo">En este sentido, se observa la ausencia de un marco normativo específico en Cataluña. Por ello, la presente ley pretende hacer frente a las carencias normativas en esta materia en Cataluña con el establecimiento de un marco jurídico adecuado a las características, necesidades y particularidades del sector agroalimentario catalán, respetando las normas reguladoras de la competencia y de acuerdo con los objetivos del artículo 39 del Tratado de funcionamiento de la Unión Europea y del resto de normativa europea en esta materia, especialmente el Reglamento (UE) 1308/2013 del Parlamento Europeo y del Consejo, de 17 de diciembre del 2013, por el que se crea la organización común de mercados de los productos agrarios y por el que se derogan los reglamentos (CEE) 922/72, (CEE) 234/79, (CE) 1037/2001 y (CE) 1234/2007.</p>
+          <p class="parrafo">Debe considerarse la demanda expresa y activa del sector agroalimentario catalán relativa a poder disponer de una ley marco de organizaciones interprofesionales, con un diseño normativo de contenidos muy flexibles y generalistas que permitan un desarrollo normativo posterior, en que cada sector que lo desee pueda definir su propio modelo de funcionamiento en la organización interprofesional correspondiente, un modelo que se adapte a las peculiaridades de cada sector. La presente ley otorga a las organizaciones interprofesionales catalanas plena autonomía y competencia para tomar acuerdos, sin limitación alguna respecto de los acuerdos adoptados por terceros u otras entidades, salvo que las propias organizaciones acuerden su vinculación voluntaria a acuerdos de otras organizaciones o entidades de naturaleza y objetivos similares. El marco normativo de la ley debe dar respuesta a las necesidades actuales de unos sectores cada vez más verticales, con intereses entrecruzados pero comunes, y poder adaptarse, a su vez, a las necesidades futuras.</p>
+          <p class="parrafo">Este nuevo marco legal permite que las organizaciones interprofesionales agroalimentarias en el ámbito de Cataluña puedan acordar y obtener la extensión de normas adecuadas a las condiciones y necesidades particulares del sector correspondiente y que contribuyan directamente al desarrollo del sector.</p>
+          <p class="parrafo">La Ley tiene en cuenta que hay que garantizar que los operadores y sus entidades asociativas representativas que se integran en las organizaciones interprofesionales son las que realmente hacen el esfuerzo y la inversión económica en la cadena agroalimentaria, y asumen, por lo tanto, los riesgos económicos de las decisiones que toman.</p>
+          <p class="parrafo">Uno de los aspectos destacables de la presente ley, entre otros, es la regulación del reconocimiento, finalidades, acuerdos y extensiones de normas de las organizaciones interprofesionales agroalimentarias que tienen un ámbito de actuación no superior al de Cataluña.</p>
+          <p class="parrafo">La Ley crea también el Registro de las organizaciones interprofesionales agroalimentarias de Cataluña, que se adscribe al departamento competente en materia agroalimentaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo">1. La presente ley tiene por objeto regular el reconocimiento y las finalidades de las organizaciones interprofesionales agroalimentarias de Cataluña y la aprobación de los acuerdos de extensión de normas que se adopten en el ámbito de estas organizaciones.</p>
+          <p class="parrafo">2. La presente ley se aplica a la producción, transformación, comercialización y distribución de los sectores o productos agroalimentarios y forestales cuya circunscripción o circunscripciones económicas no supera el ámbito territorial de Cataluña. A tales efectos, se entiende por circunscripción económica la zona geográfica constituida por zonas de producción contiguas o próximas en las que las condiciones de producción y de comercialización son homogéneas.</p>
+          <p class="parrafo">3. Los productos amparados por denominaciones e indicaciones geográficas protegidas, y otras menciones de calidad, se rigen por sus disposiciones específicas y por los acuerdos adoptados por sus órganos de gestión y control. Lo establecido por la presente ley es aplicable solamente en los aspectos no incluidos en dichas disposiciones específicas y acuerdos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 2. Organización interprofesional agroalimentaria.</p>
+          <p class="parrafo">A los efectos de lo establecido por la presente ley, son organizaciones interprofesionales agroalimentarias, las que:</p>
+          <p class="parrafo_2">a) Están legalmente constituidas, tienen personalidad jurídica propia y naturaleza jurídica privada, no tienen ánimo de lucro y cumplen las finalidades establecidas por la presente ley.</p>
+          <p class="parrafo">b) Están integradas por organizaciones representativas de la producción y, como mínimo, también de la transformación, comercialización o distribución agroalimentaria.</p>
+          <p class="parrafo">c) Tienen un ámbito que no supera el de Cataluña.</p>
+          <p class="parrafo">d) Tienen la sede social en Cataluña.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 3. Finalidades de las organizaciones interprofesionales.</p>
+          <p class="parrafo">Las organizaciones interprofesionales agroalimentarias se constituyen con alguna de las siguientes finalidades:</p>
+          <p class="parrafo_2">a) Potenciar el conocimiento, la transparencia y la eficiencia de los mercados, así como la adaptación a las necesidades de los consumidores y de los miembros del sector agroalimentario correspondiente.</p>
+          <p class="parrafo">b) Promover la investigación, la innovación y el desarrollo del sector agroalimentario.</p>
+          <p class="parrafo">c) Velar por la mejora de la calidad de los productos y de los procesos de la cadena agroalimentaria.</p>
+          <p class="parrafo">d) Promover una cadena agroalimentaria respetuosa con el medio ambiente.</p>
+          <p class="parrafo">e) Mejorar la comercialización de los productos, tanto en el mercado interior como en lo relativo a su internacionalización, velando por el buen funcionamiento de la cadena agroalimentaria y favoreciendo las buenas prácticas en las relaciones entre los integrantes de la organización interprofesional agroalimentaria y el respeto a terceros operadores, y, muy especialmente, atendiendo a los intereses de los consumidores y usuarios.</p>
+          <p class="parrafo">f) Promover la elaboración de contratos tipo de productos agroalimentarios que sean compatibles con la normativa vigente.</p>
+          <p class="parrafo">g) Promover la adopción de medidas de regulación de la oferta, de acuerdo con la normativa vigente en materia de competencia.</p>
+          <p class="parrafo">h) Elaborar trabajos y estudios para mejorar la cadena agroalimentaria y su trasparencia, especialmente mediante sistemas de información que sean de interés para los integrantes de la cadena.</p>
+          <p class="parrafo">i) Realizar actuaciones de formación para los integrantes de la cadena agroalimentaria.</p>
+          <p class="parrafo">j) Realizar campañas de promoción de los productos alimentarios y forestales y de información al consumidor.</p>
+          <p class="parrafo">k) Promover la eficiencia energética entre los distintos eslabones de la cadena agroalimentaria mediante acciones que reduzcan su impacto ambiental, la gestión responsable de residuos y subproductos y la reducción de las pérdidas de alimentos a lo largo de la cadena.</p>
+          <p class="parrafo">l) Potenciar la formación y el emprendimiento de las mujeres en el sector agroalimentario y la creación de redes de mujeres en este sector.</p>
+          <p class="parrafo">m) Cualquier otra que le atribuya la normativa de la Unión Europea.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 4. Reconocimiento de las organizaciones interprofesionales.</p>
+          <p class="parrafo">1. El departamento competente en materia agroalimentaria debe otorgar el reconocimiento y debe inscribir en el Registro de las organizaciones interprofesionales agroalimentarias de Cataluña, regulado por el artículo 6, cualquier organización interprofesional agroalimentaria que lo solicite y que cumpla las siguientes condiciones:</p>
+          <p class="parrafo_2">a) Disponer de personalidad jurídica.</p>
+          <p class="parrafo">b) Acreditar que representa, como mínimo, el cincuenta y uno por ciento de las actividades económicas del producto o sector vinculadas a la producción y, como mínimo también, de alguna de las siguientes fases de la cadena de suministro: transformación, comercialización o distribución. El modo de acreditar la representación debe establecerse por reglamento. Esta acreditación debe ser previa al reconocimiento.</p>
+          <p class="parrafo">c) Tener unos estatutos que cumplan los siguientes requisitos:</p>
+          <p class="parrafo_2">1.º Indicar las finalidades que la normativa reconoce a las organizaciones interprofesionales y establecer que la organización no tiene ánimo de lucro.</p>
+          <p class="parrafo">2.º Regular las modalidades de adhesión y retirada de los miembros, y garantizar la pertenencia a la organización interprofesional de cualquier organización que se comprometa al cumplimiento de los estatutos y acuerdos, siempre y cuando acredite que representa, en el ámbito de Cataluña, el quince por ciento, como mínimo, de la rama profesional a la que pertenece. El modo de acreditar la representación debe establecerse por reglamento.</p>
+          <p class="parrafo">3.º Establecer la obligatoriedad de cumplimiento de los acuerdos adoptados por la propia organización interprofesional agroalimentaria.</p>
+          <p class="parrafo">4.º Deben regular la participación en la gestión de la organización interprofesional agroalimentaria de los distintos eslabones de la cadena de valor del sector que la organización interprofesional represente.</p>
+          <p class="parrafo">5.º Deben establecer un proceso de conciliación y de mediación para la resolución de los conflictos que puedan surgir durante la aplicación de los acuerdos interprofesionales, de contratos tipo y de guías de buenas prácticas contractuales, los relacionados con la representatividad y otras discrepancias dentro de la organización interprofesional, así como los términos de esta conciliación y mediación.</p>
+          <p class="parrafo">Los estatutos pueden disponer que en el supuesto de que no se resuelva la controversia esta sea sometida a arbitraje. A tales efectos, deben designar la instancia para efectuar el arbitraje y fijar las condiciones del mismo.</p>
+          <p class="parrafo_2">2. El procedimiento para establecer las condiciones para el reconocimiento de las organizaciones interprofesionales agroalimentarias debe determinarse por reglamento.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 5. Número de organizaciones interprofesionales.</p>
+          <p class="parrafo">1. Solamente puede reconocerse una única organización interprofesional agroalimentaria por sector o producto, sin perjuicio de lo dispuesto por los apartados 2 y 3.</p>
+          <p class="parrafo">2. Los productos agrarios y alimentarios con derecho a utilizar alguna de las denominaciones e indicaciones geográficas protegidas, y otras menciones de calidad, se consideran, a los efectos de lo establecido por el presente artículo, sectores o productos diferenciados de los de carácter general a los que se refiere el apartado 1, o de otros de naturaleza igual o similar.</p>
+          <p class="parrafo">3. Las organizaciones interprofesionales agroalimentarias reconocidas pueden constituir secciones de ámbito interno para productos específicos o diferenciados.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 6. Registro de las organizaciones interprofesionales agroalimentarias de Cataluña.</p>
+          <p class="parrafo">1. Se crea el Registro de las organizaciones interprofesionales agroalimentarias de Cataluña, adscrito al departamento competente en materia agroalimentaria, con el fin de disponer de forma permanente y actualizada de toda la información necesaria de las organizaciones interprofesionales agroalimentarias y de sus acuerdos de extensión de normas, con el fin de llevar a cabo las políticas de fomento y de control en este ámbito.</p>
+          <p class="parrafo">2. Debe determinarse por reglamento el contenido del Registro y el procedimiento de inscripción en el mismo de las organizaciones interprofesionales agroalimentarias.</p>
+          <p class="parrafo">3. Deben inscribirse en el Registro:</p>
+          <p class="parrafo_2">a) El reconocimiento de las organizaciones interprofesionales agroalimentarias.</p>
+          <p class="parrafo">b) Las retiradas de reconocimiento de las organizaciones interprofesionales agroalimentarias</p>
+          <p class="parrafo">c) Las suspensiones del reconocimiento de las organizaciones.</p>
+          <p class="parrafo">d) La memoria anual de actividades que incluya los acuerdos cuyo objeto se refiera a lo establecido por los artículos 3 y 13.</p>
+          <p class="parrafo">e) El estado de la representatividad al cierre del ejercicio.</p>
+          <p class="parrafo">f) Los acuerdos de extensión de normas.</p>
+          <p class="parrafo">g) Las cuentas anuales relativas a los acuerdos y liquidación de las aportaciones económicas correspondientes a la extensión de norma.</p>
+          <p class="parrafo_2">4. Las organizaciones interprofesionales agroalimentarias deben remitir a la dirección general competente en materia de comercialización agroalimentaria, antes del 30 de abril de cada año, la documentación a la que se refieren las letras <em>d</em>, <em>e</em>, <em>f</em> y <em>g</em>.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 7. Acuerdos.</p>
+          <p class="parrafo">1. Las organizaciones interprofesionales agroalimentarias deben ajustar sus acuerdos a las normas y los principios de la normativa vigente en materia de la competencia.</p>
+          <p class="parrafo">2. Las organizaciones interprofesionales agroalimentarias catalanas tienen plena autonomía y competencia para tomar acuerdos, sin ningún tipo de limitación respecto de los acuerdos adoptados por terceros u otras entidades, salvo que ellas mismas acuerden vincularse voluntariamente a acuerdos de otras organizaciones o entidades de naturaleza y objetivos similares.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 8. Extensión de normas.</p>
+          <p class="parrafo">1. Las organizaciones interprofesionales agroalimentarias pueden solicitar al departamento competente en materia agroalimentaria la extensión de todas o de algunas de sus normas o acuerdos para el conjunto de productores y operadores del producto de su ámbito de actuación. El acuerdo de extensión de norma puede afectar a una parte de los operadores en el caso de que se refiera a un producto específico, siempre y cuando esté incluido dentro del producto o de los productos genéricos por los que es reconocida la organización interprofesional agroalimentaria.</p>
+          <p class="parrafo">2. Las extensiones de normas se aprueban mediante una orden del consejero competente en materia agroalimentaria. Si la propuesta de extensión de norma está relacionada con la competencia de otros departamentos de la Generalidad, la aprobación se hace mediante una orden conjunta.</p>
+          <p class="parrafo">3. En la elaboración de la orden de extensión de norma debe garantizarse la participación pública de los destinatarios potenciales por un período no inferior a quince días.</p>
+          <p class="parrafo">4. Las propuestas de extensión de normas deben referirse a actividades relacionadas con las definidas por el artículo 3 como finalidades de las organizaciones interprofesionales agroalimentarias.</p>
+          <p class="parrafo">5. Solamente puede solicitarse la extensión de normas si se cumplen estas condiciones:</p>
+          <p class="parrafo_2">a) El acuerdo tiene el apoyo de más del 50% de los integrantes de cada una de las distintas ramas profesionales implicadas.</p>
+          <p class="parrafo">b) La organización interprofesional agroalimentaria representa, como mínimo, dos terceras partes de las producciones afectadas.</p>
+          <p class="parrafo_2">6. La organización interprofesional agroalimentaria debe acreditar la representatividad a la que se refiere el apartado 5.</p>
+          <p class="parrafo">7. En caso de que la extensión de norma solicitada por la organización interprofesional agroalimentaria afecte exclusivamente a una de sus secciones, esta sección debe reunir los requisitos que establece el apartado 5, y solamente pueden participar en el acuerdo de extensión de norma las producciones afectadas específicamente para el producto o sección en cuestión.</p>
+          <p class="parrafo">8. Las organizaciones interprofesionales agroalimentarias deben establecer los mecanismos de control y seguimiento del cumplimiento de los acuerdos de extensión de normas.</p>
+          <p class="parrafo">9. Lo establecido por el presente artículo debe entenderse sin perjuicio de lo dispuesto por la normativa vigente de defensa de la competencia.</p>
+          <p class="parrafo">10. La orden reguladora correspondiente debe fijar la duración de los acuerdos por los que se solicita la extensión de normas, que no puede ser superior a cinco años o campañas.</p>
+          <p class="parrafo">11. Los acuerdos adoptados en forma de extensión de norma deben ser remitidos al Registro de las organizaciones interprofesionales agroalimentarias de Cataluña en el plazo de un mes a contar de la adopción del acuerdo, mediante certificaciones en las que debe hacerse constar el contenido del acuerdo y el apoyo obtenido por el mismo, medido en el porcentaje de representación en la organización interprofesional agroalimentaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 9. Aportación económica en el caso de extensión de normas.</p>
+          <p class="parrafo">1. En caso de que, de acuerdo con lo establecido por el artículo 8, se haga extensión de normas al conjunto de los productores y operadores implicados, las organizaciones interprofesionales agroalimentarias deben solicitar al departamento competente en materia agroalimentaria la aprobación de la aportación económica que corresponde a todos los operadores afectados. En el caso de los operadores que no estén integrados en estas organizaciones interprofesionales, deben respetarse en cualquier caso la proporcionalidad de la cantidad respecto a los costes de las acciones y la no discriminación en relación con los miembros de las organizaciones interprofesionales.</p>
+          <p class="parrafo">2. Solamente pueden repercutirse gastos de funcionamiento de la organización interprofesional agroalimentaria si están vinculados al coste de la extensión de norma. Estos gastos deben ser justificados. La justificación debe regularse por reglamento.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 10. Retirada del reconocimiento.</p>
+          <p class="parrafo">1. El departamento competente en materia agroalimentaria debe retirar el reconocimiento a las organizaciones interprofesionales agroalimentarias que dejen de cumplir alguna de las condiciones establecidas por el artículo 4.</p>
+          <p class="parrafo">2. Puede revocarse el reconocimiento a las organizaciones interprofesionales agroalimentarias que permanezcan inactivas durante un período ininterrumpido de tres años.</p>
+          <p class="parrafo">3. La retirada del reconocimiento se efectúa habiendo otorgado a las organizaciones interprofesionales agroalimentarias afectadas un período de audiencia previa mínimo de un mes.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 11. Infracciones.</p>
+          <p class="parrafo">1. Son infracciones administrativas las acciones u omisiones tipificadas por la presente ley, que se clasifican en leves, graves y muy graves.</p>
+          <p class="parrafo">2. Son infracciones leves:</p>
+          <p class="parrafo_2">a) Retrasarse injustificadamente en el envío al departamento competente en materia agroalimentaria de los acuerdos para la extensión de norma adoptados.</p>
+          <p class="parrafo">b) Retrasarse injustificadamente en el envío de la documentación a la que se refiere el artículo 6.4.</p>
+          <p class="parrafo">c) Incumplir el pago de la aportación económica obligatoria, o de las cuotas en las que se desglose, en los casos de extensión de normas aprobadas por el departamento competente en materia agroalimentaria, si la cantidad no supera los 6.000 euros.</p>
+          <p class="parrafo_2">3. Son infracciones graves:</p>
+          <p class="parrafo_2">a) Cometer, en un año, más de dos infracciones leves, si así se ha declarado por resolución firme.</p>
+          <p class="parrafo">b) No remitir al departamento competente en materia agroalimentaria la documentación a la que se refiere el artículo 6.4.</p>
+          <p class="parrafo">c) Incumplir el pago de la aportación económica obligatoria, o de las cuotas en las que se desglose, en los casos de extensión de normas aprobadas por el departamento competente en materia agroalimentaria, si la cantidad supera los 6.000 euros y no pasa de los 60.000 euros.</p>
+          <p class="parrafo">d) No remitir al departamento competente en materia agroalimentaria la documentación que se determine reglamentariamente en el caso de recaudación económica por acuerdo de extensión de norma.</p>
+          <p class="parrafo_2">4. Son infracciones muy graves:</p>
+          <p class="parrafo_2">a) Cometer, en un año, más de una infracción grave de la misma naturaleza, si así se ha declarado por resolución firme.</p>
+          <p class="parrafo">b) Realizar actuaciones con finalidades contrarias a las establecidas por el artículo 3.</p>
+          <p class="parrafo">c) Aplicar el régimen de aportaciones económicas por extensión de normas establecido por la presente ley en unas condiciones distintas a las que constan en la orden de aprobación del departamento competente en materia agroalimentaria.</p>
+          <p class="parrafo">d) Incumplir alguno de los requisitos para el reconocimiento de las organizaciones interprofesionales agroalimentarias establecidos por el artículo 4.</p>
+          <p class="parrafo">e) Denegar la adhesión como miembro de las organizaciones interprofesionales agroalimentarias a las organizaciones sectoriales que acrediten que tienen la representatividad mínima determinada por la presente ley.</p>
+          <p class="parrafo">f) Incumplir el pago de la aportación económica obligatoria, o de las cuotas en las que se desglose, en los casos de extensión de normas aprobadas por el departamento competente en materia agroalimentaria, si la cantidad supera los 60.000 euros.</p>
+          <p class="parrafo_2">5. En las infracciones relativas al incumplimiento del pago de la aportación económica obligatoria o de las cuotas en que se desglose, a la que se refiere el artículo 9.1, el impago debe ser denunciado por la organización interprofesional a la dirección general competente en materia agroalimentaria, junto con la documentación que acredite que se ha requerido el pago a los deudores, así como la admisión a trámite de la correspondiente demanda judicial o, en su caso, de la solicitud de laudo arbitral.</p>
+          <p class="parrafo">6. No es necesario acreditar la presentación de la documentación a la que se refiere el apartado 5 cuando la aportación económica impagada o las cuotas en las que se desglose se calculen sobre datos de que tenga constancia la dirección general competente en materia agroalimentaria o que se constaten en sus actuaciones de control.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 12. Sanciones.</p>
+          <p class="parrafo">1. La comisión de las infracciones administrativas reguladas por la presente ley comporta la imposición de las siguientes sanciones:</p>
+          <p class="parrafo_2">a) Por infracciones leves: advertencia o sanción pecuniaria de hasta 3.000 euros. En caso de impago de la aportación económica obligatoria o de las cuotas en las que se desglose, en los casos de extensión de normas aprobadas por el departamento competente en materia agroalimentaria, este importe puede ultrapasarse hasta el doble del valor de la aportación o las cuotas no satisfechas.</p>
+          <p class="parrafo">b) Por infracciones graves: multa desde 3.001 euros hasta 100.000 euros. Puede ultrapasarse este importe en caso de impago, hasta el doble del valor no satisfecho, de la aportación económica obligatoria o de las cuotas en las que se desglose, en los casos de extensión de normas aprobadas por el departamento competente en materia agroalimentaria.</p>
+          <p class="parrafo">Accesoriamente, puede ordenarse la suspensión temporal del reconocimiento de la organización interprofesional agroalimentaria, a efectos de lo establecido por la presente ley, por un período no superior a un año.</p>
+          <p class="parrafo">c) Por infracciones muy graves: multa desde 100.001 euros hasta 3.000.000 de euros.</p>
+          <p class="parrafo">Accesoriamente, puede ordenarse la suspensión temporal del reconocimiento de la organización interprofesional agroalimentaria, a efectos de lo establecido por la presente ley, por un período comprendido entre un año y un día y tres años.</p>
+          <p class="parrafo">Accesoriamente, puede ordenarse la retirada definitiva del reconocimiento a la organización interprofesional agroalimentaria, a efectos de lo establecido por la presente ley.</p>
+          <p class="parrafo_2">2. Para la graduación de la cuantía de las sanciones, además de los criterios generales establecidos por el procedimiento sancionador en la normativa vigente, deben tenerse en cuenta los siguientes criterios:</p>
+          <p class="parrafo_2">a) La existencia de intencionalidad.</p>
+          <p class="parrafo">b) La reincidencia en la comisión de infracción muy grave. Se considera reincidencia la comisión en el plazo de un año de una infracción de la misma naturaleza si así ha sido declarada por resolución firme.</p>
+          <p class="parrafo">c) El reconocimiento y la enmienda de las infracciones antes de que se resuelva el correspondiente procedimiento sancionador.</p>
+          <p class="parrafo">d) El grado de incumplimiento de las advertencias previas.</p>
+          <p class="parrafo_2">3. Deben regularse por reglamento los órganos competentes en materia agroalimentaria para acordar el inicio de los procedimientos sancionadores y designar la persona instructora y los órganos competentes para imponer las sanciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Artículo 13. Relaciones entre organizaciones interprofesionales agroalimentarias.</p>
+          <p class="parrafo">Las organizaciones interprofesionales agroalimentarias reconocidas de acuerdo con lo establecido por la presente ley pueden asociarse con otras organizaciones interprofesionales agroalimentarias o entidades de naturaleza y objetivos similares. Los acuerdos de asociación deben remitirse al Registro de las organizaciones interprofesionales agroalimentarias de Cataluña.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Disposición adicional.</p>
+          <p class="parrafo">En la acreditación de la representación a la que se refiere el apartado segundo del artículo 4.1.<em>c</em>, en el caso de las organizaciones profesionales agrarias que hayan obtenido votos en las elecciones agrarias a las que se refiere la Ley 17/2014, de 23 de diciembre, de representatividad de las organizaciones profesionales agrarias, la representación debe basarse, por una parte, en el resultado porcentual de los votos válidos obtenidos aplicado al volumen de producción total del conjunto de las explotaciones que tienen la consideración de electores en dicha ley, medido a partir de la media productiva del sector o producto en Cataluña y de la dimensión media, en hectáreas, reses u otras unidades de este conjunto, y, por otra parte, si procede, en el volumen de producción de sus miembros que no tienen la consideración de electores, este volumen acreditado de acuerdo con lo que determine el reglamento al que se refiere dicho apartado.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Disposición final primera. Actualización de la regulación de las lonjas y mercados en origen de productos agrarios.</p>
+          <p class="parrafo">El Gobierno debe estudiar, en el plazo de un año a contar de la entrada en vigor de la presente ley, la viabilidad y oportunidad de proponer al Parlamento de Cataluña que los precios de los productos agroalimentarios y sus categorías tengan carácter de estadísticas de interés de la Generalidad, y que, si procede, pasen a formar parte del banco de datos del Observatorio de Precios Agrarios y Agroalimentarios de Cataluña, para poder suministrarlos a las mesas de precios u otros mecanismos fidedignos, equilibrados e independientes de formación de precios de las lonjas y mercados en origen de productos agrarios, cuando estas mesas u otros mecanismos correspondan a centros sin presencia física de mercancías o de transacciones.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Disposición final segunda. Orden para regular el procedimiento de reconocimiento de organizaciones de productores.</p>
+          <p class="parrafo">El consejero del departamento competente en materia agroalimentaria debe dictar, en el plazo de un año a contar de la entrada en vigor de la presente ley, una orden que regule los requisitos formales y materiales y el procedimiento para el reconocimiento de organizaciones de productores, de sus asociaciones, de las actividades que pueden externalizar y de las extensiones de las normas en su ámbito, así como la homologación de los contratos tipo agroalimentarios, que deben concluirse antes de la entrega de los productos y deben contener, como mínimo, las cláusulas relativas a las determinaciones de la normativa europea vigente y a las normas básicas, mercantiles o civiles, generales de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="articulo">Disposición final tercera. Desarrollo reglamentario.</p>
+          <p class="parrafo">Se faculta al Gobierno para que dicte las normas necesarias para el desarrollo de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2015-9677" fecha_publicacion="20150804" fecha_vigencia="20150824">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos a los que sea de aplicación esta Ley cooperen en su cumplimiento y que los tribunales y autoridades a los que corresponda la hagan cumplir</p>
+          <p class="parrafo_2">Palacio de la Generalidad, 29 de julio de 2015.</p>
+          <table class="sinbordes" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">El Presidente de la Generalidad de Cataluña,</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">El Consejero de Agricultura, Ganadería, Pesca y Alimentación,</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">Artur Mas i Gavarró.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">Jordi Ciuraneta i Riu.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

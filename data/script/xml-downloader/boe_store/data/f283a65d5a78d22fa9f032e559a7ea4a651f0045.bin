@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T114517Z</fecha_actualizacion>
+      <identificador>BOE-A-2008-4538</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20080226</fecha_disposicion>
+      <numero_oficial>INT/624/2008</numero_oficial>
+      <titulo>Orden INT/624/2008, de 26 de febrero, por la que se regula la baja electrónica de los vehículos descontaminados al final de su vida útil.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20080310</fecha_publicacion>
+      <diario_numero>60</diario_numero>
+      <fecha_vigencia>20080311</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20210415</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2008/02/26/int624</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2008-4538</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="830">Chatarra</materia>
+        <materia codigo="7894">Comunicaciones electrónicas</materia>
+        <materia codigo="3085">Documentos</materia>
+        <materia codigo="3807">Formularios administrativos</materia>
+        <materia codigo="3924">Gestión de residuos</materia>
+        <materia codigo="7116">Vehículos de motor</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2004-2586</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden INT/249/2004, de 5 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2003-92</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 5 del Real Decreto 1383/2002, de 20 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-16257</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Resolución de 26 de agosto de 2007</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-23768</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 16/1979, de 2 de octubre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2021-5868</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 265/2021, de 13 de abril</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2015-13001</id_norma>
+            <relacion codigo="331">SE DICTA EN RELACIÓN</relacion>
+            <texto>, sobre las obligaciones de registro documental e información por los centros autorizados para el tratamiento de vehículos: Orden INT/2535/2015, de 11 de noviembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-4538</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-02-26</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int624</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/830"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3085"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3924"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7894"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-4538</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-02-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int624</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/830"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3085"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3924"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7894"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20210414"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20080310"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/624/2008, de 26 de febrero, por la que se regula la baja electrónica de los vehículos descontaminados al final de su vida útil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-03-10</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20210414">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-4538</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-02-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int624</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/830"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3085"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3924"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7894"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20210414/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/624/2008, de 26 de febrero, por la que se regula la baja electrónica de los vehículos descontaminados al final de su vida útil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20210414"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20210414/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20210414/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20080310">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-4538</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-02-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int624</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/830"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3085"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3924"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7894"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-03-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20080310/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/624/2008, de 26 de febrero, por la que se regula la baja electrónica de los vehículos descontaminados al final de su vida útil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20080310"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20080310/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2008/02/26/int624/con/20080310/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2021-5868" fecha_publicacion="20210414" fecha_vigencia="20210415">
+          <p class="siempreSeVe">Norma derogada, con efectos desde el 15 de abril de 2021, por la disposición derogatoria única del Real Decreto 265/2021, de 13 de abril. <a class="refPost">Ref. BOE-A-2021-5868#dd</a></p>
+          <p class="siempreSeVe">Téngase en cuenta que las referencias a la presente Orden contenidas en normas, acuerdos, contratos y documentos tanto públicos como privados se entenderán hechas al Real Decreto 265/2021, de 13 de abril, según establece su disposición derogatoria única.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="parrafo">El Real Decreto 1383/2002, de 20 de diciembre, sobre gestión de vehículos al final de su vida útil, establece, en el apartado tercero de su artículo 5, que el certificado de destrucción, emitido por los centros autorizados de tratamiento de vehículos al final de su vida útil, justificará la baja definitiva en circulación del vehículo en el Registro de Vehículos de la Dirección General de Tráfico, a cuyo efecto el centro de tratamiento emisor remitirá a la referida Dirección General una relación identificativa de los vehículos descontaminados, con la acreditación del cumplimiento de los requisitos a que se refiere el Anexo XV del Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre.</p>
+          <p class="parrafo">En este punto, la Orden INT/249/2004, de 5 de febrero, reguló el procedimiento de baja definitiva de los vehículos descontaminados al final de su vida útil. Sin embargo, el tiempo transcurrido desde su implantación exige la revisión de determinados aspectos para que, por una parte, se adapten a las modificaciones normativas operadas con posterioridad y, por otra, permitan utilizar las modernas técnicas informáticas al objeto de agilizar el procedimiento.</p>
+          <p class="parrafo">En primer lugar, es preciso tener en cuenta la modificación efectuada en la Ley Reguladora de las Haciendas Locales a través de la Ley 36/2006, de 29 de noviembre, de medidas para la prevención del fraude fiscal. La nueva redacción del artículo 99 de aquel texto elimina, para proceder a la baja definitiva de un vehículo, la necesidad de aportar el último recibo puesto al cobro del Impuesto sobre Vehículos de Tracción Mecánica.</p>
+          <p class="parrafo">En segundo lugar, la disposición final quinta de la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos, modifica la Ley 16/1979, de 2 de octubre, sobre Tasas de la Jefatura Central de Tráfico, estableciendo la exención del pago de la tasa para quienes soliciten la baja definitiva de un vehículo por entrega en un establecimiento autorizado para su destrucción. De este modo se facilita y fomenta la baja definitiva de los vehículos cuando se procediese a la destrucción y descontaminación de los mismos en centros autorizados de tratamiento.</p>
+          <p class="parrafo">Por otro lado, desde el 14 de septiembre de 2007 se ha establecido la posibilidad de efectuar trámites de modo telemático. En este sentido, la Resolución de 26 de agosto de 2007 de la Dirección General de Tráfico, por la que crea el Registro Electrónico en el Organismo Autónomo Jefatura Central de Tráfico, abre la puerta de la denominada Jefatura Virtual de Tráfico.</p>
+          <p class="parrafo">La mencionada Resolución establece que en el ámbito de aplicación de dicho Registro se encuentra, entre otros, el procedimiento de las bajas definitivas de vehículos tramitadas a través de los centros autorizados de tratamiento de vehículos. En aplicación de lo dispuesto en aquélla, se van a dejar de tramitar las bajas definitivas conforme al sistema actual de presentación en soporte papel para, en su lugar, tramitarse mediante el sistema de baja telemática, lo que constituye una de las principales novedades de esta Orden.</p>
+          <p class="parrafo">Finalmente, la experiencia proporcionada en los procedimientos de baja llevados a cabo en estos años demuestra la necesidad de suprimir determinadas excepciones que se describían en el apartado segundo de la Orden INT/249/2004, de 5 de febrero, y, por otra parte, de eliminar también la posibilidad de proceder a la baja de un vehículo sin aportar el certificado de destrucción, contemplada en la Disposición transitoria segunda de la citada Orden.</p>
+          <p class="parrafo">En su virtud, con la aprobación previa de la Ministra de Administraciones Públicas, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Primero. Entrega del vehículo.</p>
+          <p class="parrafo_2">Los titulares de los vehículos que pretendan desprenderse de éstos al final de su vida útil deberán entregarlos en un centro autorizado de tratamiento o en una instalación de recepción, regulados en el Real Decreto 1383/2002, de 20 de diciembre, sobre gestión de vehículos al final de su vida útil.</p>
+          <p class="parrafo">Junto a la entrega del vehículo deberán acompañar:</p>
+          <p class="parrafo_2">a) Solicitud de baja del vehículo en impreso modelo oficial con los datos y firma de la persona titular o propietaria del vehículo. La solicitud incluirá una declaración jurada que indique que el solicitante tiene facultad de disposición sobre el vehículo, conforme a lo dispuesto en el Código Civil.</p>
+          <p class="parrafo">b) Documentos que sobre la identidad y representación se especifican en el apartado A), números 1.º y 3.º, del Anexo XIII del Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre, salvo que la comprobación de los datos de identidad se efectúe de acuerdo con lo dispuesto en el Real Decreto 522/2006, de 28 de abril, por el que se suprime la aportación de fotocopias de documentos de identidad en los procedimientos administrativos de la Administración General del Estado y de sus organismos públicos vinculados o dependientes.</p>
+          <p class="parrafo">c) Permiso de circulación y tarjeta de inspección técnica del vehículo, o declaración jurada de haberlos extraviado.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Segundo. Procedimiento.</p>
+          <p class="parrafo_2">Realizada la entrega del vehículo y de la documentación en el centro autorizado de tratamiento, la tramitación de la baja electrónica se efectuará de acuerdo con el siguiente procedimiento:</p>
+          <p class="parrafo_2">1. El centro autorizado de tratamiento expedirá el certificado de destrucción, que se ajustará preferentemente al modelo y contenido establecidos en el Anexo de la presente Orden, y quedará obligado al tratamiento del vehículo de conformidad con el Real Decreto 1383/2002, de 20 de diciembre, y cualquier otra normativa que le sea aplicable.</p>
+          <p class="parrafo">El centro entregará al titular del vehículo el original del certificado de destrucción y se quedará con una copia.</p>
+          <p class="parrafo">2. El centro, que deberá disponer del certificado de identificación electrónica de acuerdo con lo que se indica en el apartado quinto de esta Orden, consultará telemáticamente la situación administrativa del vehículo en el Registro de Vehículos de la Dirección General de Tráfico, conforme a las instrucciones que ésta dicte.</p>
+          <p class="parrafo">3. En el supuesto de que no constase la existencia de impedimento alguno, el centro procederá por la misma vía a comunicar a la Jefatura de Tráfico de la provincia donde radique, la solicitud de baja del vehículo. La Jefatura de Tráfico anotará la baja definitiva, emitiendo un certificado acreditativo de aquélla, que remitirá telemáticamente al centro para su entrega al titular del vehículo.</p>
+          <p class="parrafo">La fecha de anotación de la baja definitiva coincidirá con la de expedición del certificado de destrucción.</p>
+          <p class="parrafo">4. Si existiese algún impedimento para poder anotar la baja, la Jefatura Provincial de Tráfico, de oficio, emitirá telemáticamente un documento acreditativo del defecto a subsanar al centro autorizado de tratamiento, que éste entregará en el acto al titular del vehículo al objeto de que proceda a subsanarlo.</p>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Tercero. Conservación de la documentación.</p>
+          <p class="parrafo_2">Los centros autorizados de tratamiento conservarán la solicitud de baja y el resto de la documentación indicada en el apartado primero de esta Orden, así como el certificado de destrucción de cada vehículo, por el período establecido en la normativa archivística correspondiente al Ministerio del Interior y de acuerdo con lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal. Durante ese período, la Jefatura de Tráfico de la provincia donde radique, podrá solicitar del centro la documentación que acredite la comunicación efectuada, al objeto de realizar las comprobaciones oportunas.</p>
+          <p class="parrafo">Transcurrido el período señalado, los centros procederán a la eliminación de la documentación conforme a lo establecido en las disposiciones citadas en el párrafo anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="cuarto" tipo="precepto" titulo="Cuarto">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Cuarto. Excepciones.</p>
+          <p class="parrafo_2">1. Las bajas definitivas de los vehículos por traslado a otro país se seguirán presentando en la Jefatura de Tráfico correspondiente, conforme prescribe el Reglamento General de Vehículos, debiendo acompañarse de la documentación prevista en su Anexo XV.</p>
+          <p class="parrafo">2. Las bajas definitivas de los vehículos no comprendidas en el ámbito de aplicación del Real Decreto 1383/2002, de 20 de diciembre, podrán presentarse tanto en un centro autorizado de tratamiento, de acuerdo con el procedimiento señalado en el apartado primero, como en la Jefatura de Tráfico, conforme a lo dispuesto en el Reglamento General de Vehículos.</p>
+        </version>
+      </bloque>
+      <bloque id="quinto" tipo="precepto" titulo="Quinto">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Quinto. Certificado de identificación electrónica.</p>
+          <p class="parrafo_2">Los centros autorizados de tratamiento solicitarán en la Jefatura de Tráfico en la que radiquen, la expedición del certificado de identificación electrónica X.509 v3, acompañando los siguientes documentos:</p>
+          <p class="parrafo_2">a) Fotocopia de la autorización expedida por la Comunidad Autónoma en la que esté instalado, cotejada por los registros de los órganos en los que se presenta la solicitud.</p>
+          <p class="parrafo">b) Escrito firmado por el representante legal del centro, en el que identifique a la persona autorizada para recoger en la Jefatura de Tráfico el certificado de identificación electrónica y la documentación técnica necesaria para la instalación del mismo.</p>
+          <p class="parrafo_2">La Jefatura de Tráfico podrá suspender la validez del certificado de identificación electrónica en el supuesto de que detecte irregularidades en la comunicación o documentación de los vehículos destruidos por el centro autorizado de tratamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo_2">Queda derogada la Orden INT/249/2004, de 5 de febrero, por la que se regula la baja definitiva de los vehículos descontaminados al final de su vida útil.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Disposición transitoria única. Plazo de adecuación al nuevo procedimiento.</p>
+          <p class="parrafo_2">Durante un período máximo de un año desde la entrada en vigor de esta Orden Ministerial los centros autorizados de tratamiento podrán opcionalmente utilizar, para la tramitación de las bajas, el sistema actual de presentación en soporte papel en las Jefaturas Provinciales, aportando y obteniendo personalmente los documentos establecidos en esta Orden. Transcurrido el período de un año, los centros solo podrán utilizar el sistema de baja telemática.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo_2">La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="parrafo_2">Madrid, 26 de febrero de 2008.–El Ministro del Interior, Alfredo Pérez Rubalcaba.</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2008-4538" fecha_publicacion="20080310" fecha_vigencia="20080311">
+          <p class="anexo">ANEXO</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/2008/60/04538_001.png"/>
+          </p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/2008/60/04538_002.png"/>
+          </p>
+          <p class="parrafo">Instrucciones:</p>
+          <p class="parrafo_2">Este certificado constará de cinco páginas en papel autocalco: cuatro para el Certificado de Destrucción y, una quinta, diferente, para el Certificado de Entrega. La quinta copia no será autocalco para el apartado «Datos del centro autorizado de tratamiento de vehículos».</p>
+          <p class="parrafo">Todas las páginas tendrán el mismo número de control. De esta manera, se podrá comprobar de forma más rápida que el vehículo entregado ha sido descontaminado.</p>
+          <p class="parrafo">Con el objeto de armonizar los colores de las copias, se propone el siguiente orden y colores</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cabeza_tabla">N.º hoja</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Para</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Color</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">1</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Órgano ambiental</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Blanco.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">2</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">DGT-Jefatura Provincial de Tráfico</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Verde claro.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Titular o Instalación de Recepción, según el caso</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Rosa claro.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">4</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Gestor (Centro de Descontaminación).</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Amarillo claro.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">5</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Para el Titular cuando lo entrega en una Instalación de Recepción. En caso contrario va también al Órgano ambiental</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Azul claro.</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">No se considera conveniente aumentar el número de copias, dado los problemas de legibilidad que se plantearían en las últimas copias.</p>
+          <p class="parrafo">Se pueden dar dos casos:</p>
+          <p class="parrafo_2">Caso A. El titular lo lleva directamente al Centro de Descontaminación.</p>
+          <p class="parrafo">El Centro de Descontaminación cumplimentará los siguientes apartados:</p>
+          <p class="parrafo_2">Datos del vehículo a descontaminar.</p>
+          <p class="parrafo_2">a) Si se adjunta el Documento de matriculación, se verificará que corresponde al vehículo depositado.</p>
+          <p class="parrafo">b) Si no existe el Documento de matriculación, se rellenarán los datos que se puedan obtener a partir del vehículo depositado.</p>
+          <p class="parrafo_2">Datos del titular del vehículo a descontaminar y, en su caso, del representante de éste que hace la entrega.</p>
+          <p class="parrafo">Datos de la Instalación de Recepción. Se dejan en blanco. Se puede anular con una raya oblicua, señalando que no procede su cumplimentación.</p>
+          <p class="parrafo">Datos del Centro Autorizado de Tratamiento de vehículos. Se hará constar en la casilla correspondiente si se ha adjuntado el Documento de matriculación o la inexistencia del mismo.</p>
+          <p class="parrafo">El Centro de Descontaminación se queda con el ejemplar amarillo. Enviará quincenalmente al Órgano ambiental los ejemplares blanco y azul. Asimismo, la copia verde se remitirá a la Jefatura Provincial de Tráfico correspondiente, con la periodicidad que ésta establezca, junto con el Documento de matriculación (si este ha sido aportado), que servirá para tramitar la baja del vehículo.</p>
+          <p class="parrafo">Al titular se le entrega la copia rosa, como documento acreditativo de la descontaminación y baja del vehículo.</p>
+          <p class="parrafo">Caso B. El titular lo lleva a una Instalación de Recepción.</p>
+          <p class="parrafo">El Centro de Descontaminación facilita los Certificados de Destrucción a las Instalaciones de Recepción registradas, llevando el control de los documentos facilitados a los mismos.</p>
+          <p class="parrafo">La Instalación de Recepción cumplimentará los siguientes apartados:</p>
+          <p class="parrafo_2">Datos del vehículo a descontaminar.</p>
+          <p class="parrafo">Datos del titular del vehículo a descontaminar y, en su caso, del representante de éste que hace la entrega.</p>
+          <p class="parrafo">Datos de la Instalación de Recepción.</p>
+          <p class="parrafo">La Instalación de Recepción entrega al titular la copia azul (Certificado de Entrega) en el momento en que se haga el traspaso del vehículo, quedándose con éste y la documentación del mismo (si existe). El resto de copias se entregarán al Centro de Descontaminación correspondiente junto con el Documento de matriculación (si existe) cuando se deposite el vehículo.</p>
+          <p class="parrafo">El Centro de Descontaminación, una vez cumplimentado el apartado «Datos del Centro Autorizado de Tratamiento de vehículos», haciendo constar en la casilla correspondiente si se ha adjuntado el Documento de matriculación o la inexistencia del mismo, devuelve la página rosa a la Instalación de Recepción que le ha entregado el vehículo.</p>
+          <p class="parrafo">El Centro de Descontaminación se queda con el ejemplar amarillo. Enviará quincenalmente al Órgano ambiental el ejemplar blanco. Asimismo, la copia verde se remitirá a la Jefatura Provincial de Tráfico correspondiente, con la periodicidad que ésta establezca, junto con el Documento de matriculación (si éste ha sido aportado), que servirá para tramitar la baja del vehículo.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

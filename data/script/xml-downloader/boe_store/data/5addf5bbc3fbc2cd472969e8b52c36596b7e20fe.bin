@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130536Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-4950</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8110">Comunidad Autónoma de La Rioja</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20110301</fecha_disposicion>
+      <numero_oficial>2/2011</numero_oficial>
+      <titulo>Ley 2/2011, de 1 de marzo, de autoridad del profesor y de la convivencia en los centros educativos de la Comunidad Autónoma de La Rioja.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110318</fecha_publicacion>
+      <diario_numero>66</diario_numero>
+      <fecha_vigencia>20110308</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20220101</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ri/l/2011/03/01/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-4950</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="784">Centros de enseñanza</materia>
+        <materia codigo="3114">Educación</materia>
+        <materia codigo="6244">La Rioja</materia>
+        <materia codigo="5752">Profesorado</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOR núm. 31, de 7 de marzo de 2011.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2009-1262</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>los arts. 43 a 45 de la Ley 5/2008, de 23 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-15030</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 10.Uno del Estatuto aprobado por Ley Orgánica 3/1982, de 9 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2006-7899</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 2/2006, de 3 de mayo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2022-341</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Ley 7/2021, de 27 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-4950</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3114"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5752"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-4950</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3114"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5752"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20211228"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20110307"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/2011, de 1 de marzo, de autoridad del profesor y de la convivencia en los centros educativos de la Comunidad Autónoma de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-18</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20211228">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-4950</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3114"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5752"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20211228/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/2011, de 1 de marzo, de autoridad del profesor y de la convivencia en los centros educativos de la Comunidad Autónoma de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20211228"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20211228/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20211228/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20110307">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-4950</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/784"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3114"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5752"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-07</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20110307/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/2011, de 1 de marzo, de autoridad del profesor y de la convivencia en los centros educativos de la Comunidad Autónoma de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20110307"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20110307/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2011/03/01/2/con/20110307/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version fpub="20220110" id_norma="BOE-A-2022-341" fecha_publicacion="20211228" fecha_vigencia="20220101">
+          <p class="siempreSeVe">Norma derogada, con efectos de 1 de enero de 2022, por el art. 4 de la Ley 7/2021, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2022-341</a></p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA RIOJA</p>
+          <p class="parrafo">Sepan todos los ciudadanos que el Parlamento de La Rioja ha aprobado, y yo, en nombre de su Majestad el Rey y de acuerdo con lo que establece la Constitución y el Estatuto de Autonomía, promulgo la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">El artículo 149.1.30.ª de la Constitución atribuye al Estado como competencia exclusiva la regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y las normas básicas para el desarrollo del artículo 27 del mismo texto constitucional, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en materia educativa.</p>
+          <p class="parrafo">A su vez, el artículo 10.Uno del Estatuto de Autonomía de la Comunidad Autónoma de La Rioja ha asumido como competencia propia el desarrollo legislativo y ejecución de la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades, de acuerdo con lo dispuesto en el artículo 27 de la Constitución y las leyes orgánicas que, conforme al apartado 1 del artículo 81 de la misma, lo desarrollen.</p>
+          <p class="parrafo">Integrando este bloque de constitucionalidad, y en lo que respecta a la convivencia, la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en su artículo 121.2 vino a establecer que el proyecto educativo de cada uno de los centros educativos habría de recoger un plan de convivencia, imponiendo su apartado tercero a las Administraciones educativas el deber de regular el marco general que permitiera a los centros públicos y privados concertados elaborar sus proyectos educativos.</p>
+          <p class="parrafo">El Gobierno de La Rioja creó en el año 2006 el Observatorio de Convivencia de La Rioja como un instrumento al servicio de la sociedad para el conocimiento, análisis, evaluación y valoración de la convivencia en los centros escolares de La Rioja y para planificar y coordinar las intervenciones que mejoren la convivencia de los centros.</p>
+          <p class="parrafo">Al tiempo, el artículo 124 de la misma ley orgánica preceptúa que los centros docentes, en el ámbito de su autonomía, deben elaborar sus normas de organización y funcionamiento, que deberán incluir las que garanticen el cumplimiento del plan de convivencia.</p>
+          <p class="parrafo">En virtud de esta distribución competencial, el capítulo XI de la Ley 5/2008, de 23 de diciembre, de Medidas Fiscales y Administrativas para el año 2009, destinado a la acción educativa, vino a definir el marco legal dentro del cual habría de desarrollarse el proceso de elaboración de las normas de organización y funcionamiento de los centros docentes. Marco legal que se amplió con la aprobación del Decreto 4/2009, de 23 de enero, por el que se regula la convivencia en los centros docentes y se establecen los derechos y deberes de sus miembros.</p>
+          <p class="parrafo">Definido el marco legal que delimita el contenido material de cualquier regulación de la materia, se hace preciso señalar que, para que los procesos educativos puedan resultar eficaces y eficientes, es necesario lograr y mantener un clima escolar propicio en el que los diferentes actores, pero especialmente los docentes, puedan desempeñar las funciones que les son propias en un contexto de máxima coordinación y participación, manteniendo el respeto necesario de acuerdo con las normas de convivencia que definen el modelo de una escuela participativa y democrática. Modelo en el que la figura del profesor adquiere un relieve esencial.</p>
+          <p class="parrafo">Con toda seguridad, a ello se refieren los artículos 1.m) y 104.1 de la citada Ley Orgánica de Educación cuando el primero establece como principios inspiradores del sistema educativo la consideración de la función docente como factor esencial de la calidad de la educación, el reconocimiento social del profesorado y el apoyo a su tarea, en tanto que el segundo exige a las administraciones educativas prestar una atención prioritaria a la mejora de las condiciones en que el profesorado desarrolla su trabajo.</p>
+          <p class="parrafo">Ambos extremos inspiran la regulación contenida en la presente ley. En tal sentido, se perfila con mayor nitidez la figura del profesor y su posición jurídica al reconocerse la condición de autoridad pública a aquellos que prestan sus servicios en los centros públicos y privados concertados que prestan el servicio público educativo y al extender a sus manifestaciones la presunción de veracidad. Con ello se consigue asegurar un clima de respeto que garantice el ejercicio de la función docente, en aplicación de los principios de calidad y de equidad que garantice la igualdad, establecidos en el artículo 1.a) y b) de la Ley Orgánica de Educación.</p>
+          <p class="parrafo">Por último, la ley recoge en la sección 2.ª del capítulo II la regulación material del capítulo XI de la Ley 5/2008, de 23 de diciembre, ya citada. Dedicada al régimen disciplinario en los centros educativos, la sección establece los elementos estructurantes de las conductas antijurídicas que pueden ser objeto de tipificación por las normas a dictar por los centros educativos y establece su clasificación y las sanciones procedentes.</p>
+          <p class="parrafo">Con ello se pretende reunir en una única disposición normativa la regulación sobre la materia al objeto de dotarla de un tratamiento conjunto y sistemático.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">1. La presente ley tiene por objeto reconocer y reforzar la autoridad del profesor y fomentar la consideración y el respeto que le son debidos en el ejercicio de sus funciones y responsabilidad, con el fin de mejorar la calidad del sistema educativo y garantizar el derecho a la educación.</p>
+          <p class="parrafo">2. Establecer el marco general que permita a los centros elaborar sus proyectos educativos y sus normas de organización y funcionamiento para garantizar el cumplimiento del plan de convivencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">1. Con las especificaciones derivadas de la regulación que establece, la presente ley será de aplicación a los centros educativos de la Comunidad Autónoma de La Rioja debidamente autorizados que impartan algunas de las enseñanzas previstas en la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</p>
+          <p class="parrafo">2. Lo dispuesto en esta ley tendrá efectos tanto en el desarrollo de las actividades docentes realizadas en el interior de los centros educativos como en cualquier actividad complementaria o extraordinaria que se realice desde el centro, en el transporte escolar organizado por el centro para el desplazamiento ordinario de los alumnos o para la realización de las actividades complementarias y extraescolares, así como en cualquier otra relacionada con la vida escolar y el desempeño de la función docente.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 3. Principios generales.</p>
+          <p class="parrafo">Los principios generales que inspiran esta ley son los siguientes:</p>
+          <p class="parrafo_2">a) El derecho de todos a una educación de calidad, consagrado en el artículo 27.1 de la Constitución española.</p>
+          <p class="parrafo">b) El reconocimiento de la importancia de la institución educativa como educadora en valores de convivencia, tolerancia y pluralismo.</p>
+          <p class="parrafo">c) El respeto al ejercicio de todos lo derechos y cumplimientos de deberes de todos los miembros de la comunidad educativa, sin más límite que los establecidos por la ley y por el respeto a los derechos individuales y colectivos de los otros.</p>
+          <p class="parrafo">d) El respeto a la dignidad de todos los integrantes de la comunidad educativa.</p>
+          <p class="parrafo">e) El reconocimiento del papel fundamental que en los procesos educativos desempeñan los profesores, tanto como factor esencial de la calidad de la educación como garantes del ejercicio de un derecho fundamental, ejerciendo por ello la responsabilidad principal del proceso educativo y la autoridad que del mismo se desprende.</p>
+          <p class="parrafo">f) La necesidad de disponer en los procedimientos educativos y sancionadores de un referente de autoridad claro y expresamente definido, sin perjuicio del respeto a los preceptos que garantizan el ejercicio de los derechos y el cumplimiento de los deberes consagrados por el ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 4. Función docente.</p>
+          <p class="parrafo">El profesor, en el desempeño de su función docente, gozará de:</p>
+          <p class="parrafo_2">a) Respeto y consideración hacia su persona por parte de los alumnos, los representantes legales de los alumnos y los demás profesores.</p>
+          <p class="parrafo">b) Potestad, en el ámbito definido por las normas de convivencia del centro y de acuerdo con lo que se disponga reglamentariamente, para tomar decisiones rápidas, proporcionadas y eficaces que permitan restablecer el ambiente de estudio y aprendizaje alterado durante las clases o en las actividades complementarias y extraescolares, tanto dentro como fuera del recinto escolar.</p>
+          <p class="parrafo">c) Colaboración de los padres o representantes legales de los alumnos para el cumplimiento de las normas de convivencia.</p>
+          <p class="parrafo">d) Apoyo por parte de la Administración educativa, que velará para que la consideración, el respeto y el trato recibido por el profesorado sea conforme a la importancia social de la función docente que desempeña. Para ello se impulsarán programas y campañas de promoción y dignificación social del profesorado.</p>
+          <p class="parrafo">e) Reconocimiento de una posición preeminente en el ejercicio de sus funciones docentes, en cuyo desarrollo gozará de autonomía dentro de los límites fijados por la legislación y el marco del proyecto educativo.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Protección jurídica del profesor y régimen disciplinario</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="seccion">Sección 1.ª Protección jurídica del profesor</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 5. Autoridad pública.</p>
+          <p class="parrafo">Los directores y demás miembros del equipo directivo, así como los profesores de los centros docentes públicos y centros privados concertados, en el ejercicio de las potestades de gobierno, docentes y disciplinarias que tengan asignadas, tendrán la consideración de autoridad pública y gozarán de la protección reconocida a tal condición por el ordenamiento jurídico.</p>
+          <p class="parrafo">La misma condición se reconoce a los inspectores integrados en la Inspección Técnica Educativa de la Comunidad Autónoma de La Rioja en el cumplimiento de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 6. Presunción de veracidad.</p>
+          <p class="parrafo">En el ejercicio de las competencias disciplinarias, y en el seno de las actuaciones sustanciadas al efecto, los hechos constatados por los directores y demás miembros de los órganos de gobierno, así como por los profesores de los centros docentes públicos y centros privados concertados, gozarán de presunción de veracidad cuando se formalicen por escrito en documento que cumpla con los requisitos que se establezcan reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 7. Deber de colaboración.</p>
+          <p class="parrafo">1. De acuerdo con lo dispuesto en la disposición adicional vigesimotercera de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, los centros podrán recabar de los padres o representantes legales, o en su caso de las instituciones públicas competentes, la colaboración necesaria para la aplicación de las normas que garanticen la convivencia en los centros educativos, en relación con la información sobre las circunstancias personales, familiares o sociales que concurran en los alumnos, siempre que el derecho a la intimidad y demás derechos constitucionales queden garantizados.</p>
+          <p class="parrafo">2. El incumplimiento del deber de colaboración a que se refiere el presente artículo por parte de quien sea requerido para ello por quien esté revestido de la condición de autoridad podrá ser sancionado de acuerdo con lo que al efecto disponga el ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="seccion">Sección 2.ª Régimen disciplinario en los centros educativos</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 8. Marco normativo.</p>
+          <p class="parrafo">De conformidad con lo establecido en el artículo 124 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, los centros docentes elaborarán sus normas de organización y funcionamiento, entre las que figurarán las que garanticen el cumplimiento del plan de convivencia, las cuales habrán de ajustarse al marco establecido en el presente capítulo y en las disposiciones reglamentarias que se dicten para su desarrollo.</p>
+          <p class="parrafo">La normativa de desarrollo a que se refiere el párrafo anterior establecerá el sistema de recursos contra las medidas sancionadoras adoptadas por los centros.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 9. Infracciones.</p>
+          <p class="parrafo">Podrán ser objeto de medidas disciplinarias las conductas contrarias a las normas de convivencia que los alumnos realicen dentro del recinto escolar o fuera de él, siempre que sucedan durante el desarrollo de actividades comprendidas en el ámbito establecido en el artículo 2.2 de la presente ley. Los planes de convivencia y las normas de organización y funcionamiento a las que se refiere el artículo anterior podrán tipificar dichas conductas como infracciones y, especialmente, las siguientes:</p>
+          <p class="parrafo_2">a) Las faltas injustificadas de puntualidad o asistencia a clase.</p>
+          <p class="parrafo">b) La falta de colaboración del alumnado o la realización de actos que perturben el desarrollo normal de las actividades o impidan o dificulten el ejercicio del derecho o el cumplimiento del deber de estudio de los compañeros.</p>
+          <p class="parrafo">c) Los actos de indisciplina, incorrección o desconsideración hacia el profesor, los compañeros y otros miembros de la comunidad educativa.</p>
+          <p class="parrafo">d) El deterioro o daño intencional en las instalaciones del centro, recursos o materiales, así como en las pertenencias de los miembros de la comunidad educativa.</p>
+          <p class="parrafo">e) La incitación o estímulo a la comisión de una conducta contraria a las normas de convivencia del centro.</p>
+          <p class="parrafo">f) La negativa a trasladar a sus padres o tutores la información facilitada por el centro y relativa a su formación.</p>
+          <p class="parrafo">g) La agresión física o moral, la falta de respeto a la integridad y dignidad personal, la discriminación y las ofensas o vejaciones realizadas por razón de sexo, religión, opinión o cualquier otra circunstancia personal o social.</p>
+          <p class="parrafo">h) El acoso físico o moral, las amenazas y las coacciones a cualquier miembro de la comunidad educativa.</p>
+          <p class="parrafo">i) La suplantación de personalidad en actos de la vida docente y la falsificación o sustracción de documentos académicos.</p>
+          <p class="parrafo">j) La introducción en el centro de objetos o sustancias peligrosas para la salud y la integridad personal de los miembros de la comunidad educativa, y la incitación al consumo.</p>
+          <p class="parrafo">k) La grabación, publicidad o difusión a través de cualquier medio o soporte de agresiones o conductas inapropiadas, aunque no tengan como sujeto a miembros de la comunidad educativa del centro.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 10. Sanciones y medidas educativas.</p>
+          <p class="parrafo">1. De conformidad con lo dispuesto en el artículo 129.3 de la Ley 30/1992, de 26 de noviembre, los centros educativos en el marco de su autonomía podrán introducir graduaciones y especificaciones al cuadro de infracciones establecido en el artículo anterior.</p>
+          <p class="parrafo">A tal efecto, las conductas que se tipifiquen recogiendo los elementos establecidos en las letras a), b), c), d), e), f), y g) del citado artículo serán calificadas como conductas contrarias a las normas de convivencia y las que constituyan especificaciones de las tipificadas en las letras h), i), j) y k) se considerarán gravemente perjudiciales para la convivencia en el centro.</p>
+          <p class="parrafo">2. Las conductas calificadas como contrarias a las normas de convivencia podrán, en función de su gravedad, ser objeto de aplicación de medidas educativas de corrección o dar lugar a la imposición de sanciones, junto a medidas educativas, que pueden suponer, entre otras:</p>
+          <p class="parrafo_2">a) La suspensión del derecho a participar en las actividades extraescolares o complementarias.</p>
+          <p class="parrafo">b) El cambio de grupo o clase en todas o algunas materias por un periodo no superior a dos semanas.</p>
+          <p class="parrafo">c) La suspensión del derecho a la asistencia a clase o al centro por un periodo de tiempo no superior a diez días, con la adopción, en este caso, de las medidas necesarias para garantizar que no se vea interrumpido el proceso educativo del alumno.</p>
+          <p class="parrafo">3. Las conductas calificadas como gravemente perjudiciales para la convivencia podrán dar lugar, igualmente, a la adopción de medidas educativas de corrección o a la imposición, junto a las medidas educativas, de sanciones que podrán consistir en:</p>
+          <p class="parrafo_2">a) La realización de tareas fuera del horario lectivo.</p>
+          <p class="parrafo">b) La suspensión del derecho a participar en actividades extraescolares no directamente educativas por un periodo comprendido entre un mes y el periodo que reste hasta la finalización del curso.</p>
+          <p class="parrafo">c) El cambio de grupo por un período entre dos semanas y el que reste hasta la finalización del curso.</p>
+          <p class="parrafo">d) La suspensión del derecho de asistencia a clase o al centro por un período comprendido entre diez y veinte días lectivos, garantizando que no se interrumpirá el proceso educativo del alumno.</p>
+          <p class="parrafo">e) El cambio de centro cuando se trate de un alumno incurso en enseñanza obligatoria y hasta el curso en que cumpla los dieciocho años de edad.</p>
+          <p class="parrafo">f) La pérdida del derecho a la evaluación continua.</p>
+          <p class="parrafo">g) La expulsión del centro cuando se trate de alumnos que cursen enseñanzas no obligatorias.</p>
+          <p class="parrafo_2">4. Cuando, por la gravedad de los hechos cometidos, la presencia del alumno infractor en el centro suponga menoscabo de los derechos y de la dignidad de profesores y alumnos o implique humillación o riesgo de aparición de patologías para la víctima o demás miembros de la comunidad educativa, resultarán de aplicación, según los casos, las sanciones previstas en las letras d), e), f) y g) del apartado anterior. Se incluyen también los casos de agresión física o moral al profesorado, que requerirán en todo caso la reparación del daño moral causado por parte del agresor.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Artículo 11. Graduación de la culpa, responsabilidad y reparación de daños.</p>
+          <p class="parrafo">1. Las normas de organización y funcionamiento podrán tener en cuenta, en el momento de proceder a la calificación de las conductas, circunstancias atenuantes o agravantes, de acuerdo con lo que se disponga reglamentariamente.</p>
+          <p class="parrafo">Las medidas que se apliquen con carácter corrector deberán ser proporcionales a la naturaleza y a la gravedad de la falta cometida, han de tener siempre un valor educativo y deberán contribuir a la mejora de la convivencia en el centro.</p>
+          <p class="parrafo">2. Sin perjuicio de lo dispuesto en el artículo 1903 del Código Civil, en aquellos casos en los que la conducta consista en la realización de un daño a las instalaciones del centro, recursos materiales o pertenencias de otros miembros de la comunidad educativa y el daño derivara de la comisión de la infracción, además de la sanción, el infractor, sin perjuicio de la responsabilidad civil exigible a los padres o representantes legales de los alumnos, vendrá obligado a reparar el daño causado. A tal fin, las normas de organización y funcionamiento de los centros podrán establecer aquellos casos en los que la reparación de los daños pueda ser sustituida por la realización de tareas que contribuyan a la mejor realización de las actividades del centro.</p>
+          <p class="parrafo">En el supuesto de sustracción de bienes, el alumno deberá restituir lo sustraído o, si esto no fuera posible, hacerse cargo de su equivalente económico.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Disposición adicional única.</p>
+          <p class="parrafo">En el ámbito de su autonomía, los centros educativos establecerán sus normas de organización y funcionamiento y sus normas de convivencia de acuerdo con el marco normativo establecido en la presente ley y en las disposiciones que la desarrollen reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en la presente ley y específicamente los artículos 43, 44 y 45 de la Ley 5/2008, de 23 de diciembre, de Medidas Fiscales y Administrativas para el año 2009.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se faculta al Consejo de Gobierno para dictar cuantas disposiciones sean precisas para el desarrollo y ejecución de esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La presente ley entrará en vigor el día siguiente al de su publicación en el Boletín Oficial de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2011-4950" fecha_publicacion="20110307" fecha_vigencia="20110308">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos cumplan y cooperen al cumplimiento de la presente Ley y a los Tribunales y Autoridades la hagan cumplir.</p>
+          <p class="parrafo_2">Logroño, 1 de marzo de 2011.—El Presidente, Pedro Sanz Alonso.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

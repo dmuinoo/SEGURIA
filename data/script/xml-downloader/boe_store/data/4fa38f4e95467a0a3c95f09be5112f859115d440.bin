@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T112012Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-11858</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="6110">Ministerio de Defensa</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20070615</fecha_disposicion>
+      <numero_oficial>787/2007</numero_oficial>
+      <titulo>Real Decreto 787/2007, de 15 de junio, por el que se regula la estructura operativa de las Fuerzas Armadas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20070616</fecha_publicacion>
+      <diario_numero>144</diario_numero>
+      <fecha_vigencia>20070617</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20141018</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2007/06/15/787</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-11858</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="86">Administración Militar</materia>
+        <materia codigo="3467">Estado Mayor de la Armada</materia>
+        <materia codigo="3468">Estado Mayor de la Defensa</materia>
+        <materia codigo="3469">Estado Mayor del Ejército de Tierra</materia>
+        <materia codigo="3470">Estado Mayor del Ejército del Aire</materia>
+        <materia codigo="3839">Fuerzas Armadas</materia>
+        <materia codigo="4856">Mando Operativo de las Fuerzas Armadas</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="5778">Protección Civil</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-17521</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>art. 9.3 del Real Decreto 912/2002, de 6 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1997-18256</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 1250/1997, de 24 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2005-18933</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición final primera de la Ley Orgánica 5/2005, de 17 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-10520</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 872/2014, de 10 de octubre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11858</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-15</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">787</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/86"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3467"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3468"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3469"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3470"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4856"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5778"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11858</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">787</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/86"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3467"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3468"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3469"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4856"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5778"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20141017"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20070616"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 787/2007, de 15 de junio, por el que se regula la estructura operativa de las Fuerzas Armadas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20141017">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11858</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">787</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/86"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3467"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3468"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3469"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4856"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5778"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20141017/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 787/2007, de 15 de junio, por el que se regula la estructura operativa de las Fuerzas Armadas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20141017"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20141017/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20141017/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20070616">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11858</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">787</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/86"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3467"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3468"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3469"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4856"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5778"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20070616/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 787/2007, de 15 de junio, por el que se regula la estructura operativa de las Fuerzas Armadas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20070616"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20070616/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/06/15/787/con/20070616/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="co" tipo="nota_inicial">
+        <version id_norma="BOE-A-2014-10520" fecha_publicacion="20141017" fecha_vigencia="20141018">
+          <p class="siempreSeVe">Norma derogada por la disposición derogatoria única.1.d) del Real Decreto 872/2014, de 10 de octubre. <a class="refPost">Ref. BOE-A-2014-10520</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="parrafo">Las Fuerzas Armadas, como instrumento de la acción del Estado, vienen actuando en diversos escenarios contribuyendo tanto a la seguridad nacional como al mantenimiento de la paz y seguridad internacionales. La participación de las Fuerzas Armadas españolas en el nuevo contexto estratégico desarrollado en los últimos años, demanda nuevas capacidades operativas y formas de actuación.</p>
+          <p class="parrafo">En respuesta a dicha demanda, la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional, establece el principio de la acción conjunta como el fundamento de eficacia en el empleo de las Fuerzas Armadas, a las que considera como una entidad única e integradora de las distintas formas de acción del Ejército de Tierra, de la Armada y del Ejército del Aire sin que éstos vean mermada su especificidad. Por ello define una organización básica de las Fuerzas Armadas estableciendo la existencia de dos estructuras, una orgánica orientada a la preparación de la Fuerza y otra operativa para su empleo en los cometidos que le sean asignados. La estructura orgánica ha sido desarrollada por el Real Decreto 912/2002, de 6 de septiembre, por el que se desarrolla la estructura básica de los Ejércitos y el Real Decreto 416/2006, de 11 de abril, por el que se establece la organización y el despliegue de la Fuerza del Ejército de Tierra, de la Armada y del Ejército del Aire, así como de la Unidad Militar de Emergencias.</p>
+          <p class="parrafo">La citada ley orgánica, fundamenta la relación existente entre ambas estructuras en la facultad otorgada al Jefe de Estado Mayor de la Defensa para coordinar a los Jefes de Estado Mayor del Ejército de Tierra, la Armada y el Ejército del Aire, a quienes también impartirá directrices para orientar la preparación de la Fuerza, con el objeto de asegurar la eficacia operativa de las Fuerzas Armadas, y en la responsabilidad de que dichos Jefes asesoren a aquél en el empleo de las unidades del Ejército correspondiente, así como en la elaboración y formulación de los aspectos específicos de sus respectivas capacidades.</p>
+          <p class="parrafo">Respecto a la estructura operativa, que constituye el instrumento de empleo del potencial militar nacional, la citada ley determina que se organizará con arreglo al principio de unidad de mando y a los de disciplina, jerarquía y eficacia, así como a los criterios necesarios para la consecución de la máxima capacidad operativa, correspondiendo al Presidente de Gobierno ejercer su autoridad para ordenar, coordinar y dirigir la actuación de las Fuerzas Armadas así como disponer de su empleo, y recayendo en el Jefe de Estado Mayor de la Defensa, bajo la dependencia del Ministro de Defensa, la responsabilidad de ejercer su mando.</p>
+          <p class="parrafo">En sus responsabilidades como mando de la estructura operativa de las Fuerzas Armadas, el Jefe de Estado Mayor de la Defensa será apoyado por el Mando de Operaciones, el Estado Mayor Conjunto y el Centro de Inteligencia de las Fuerzas Armadas, órganos pertenecientes al Estado Mayor de la Defensa que se integrarán en dicha estructura operativa. En la estructura operativa se confecciona y pone en práctica el Planeamiento Operativo, conforme a lo dispuesto en la Orden Ministerial 37/2005, de 30 de marzo, que regula el proceso de planeamiento de la Defensa.</p>
+          <p class="parrafo">Con la presente disposición se determina la organización y las relaciones funcionales de la referida estructura, haciéndolo en el marco establecido por la Ley Orgánica 5/2005 y tomando en consideración, en cuanto resulta acertado, aquellos aspectos que afectan directamente a la materia y ya disponen de un tratamiento reglamentario.</p>
+          <p class="parrafo">En su virtud, conforme a la disposición final primera de la Ley Orgánica 5/2005, de 17 de noviembre, a propuesta del Ministro de Defensa, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 15 de junio de 2007,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este real decreto tiene por objeto determinar la organización de la estructura operativa de las Fuerzas Armadas y sus relaciones funcionales, estableciendo su concepto, articulación y los cometidos a desarrollar por las autoridades y los órganos que la conforman.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 2. Concepto y generalidades.</p>
+          <p class="parrafo">1. La estructura operativa de las Fuerzas Armadas, establecida para el desarrollo de la acción conjunta y combinada, es la organización para el empleo de la Fuerza del Ejército de Tierra, la Armada o el Ejército del Aire en la ejecución de las operaciones militares que le sean encomendadas en cumplimiento de las misiones a las que se refiere el artículo 15 de la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional.</p>
+          <p class="parrafo">2. La estructura operativa de las Fuerzas Armadas se organiza conforme a los principios de unidad de mando, disciplina, jerarquía y eficacia y a los criterios necesarios para la consecución de la máxima capacidad operativa.</p>
+          <p class="parrafo">3. La transferencia de mandos y fuerzas de la estructura orgánica de las Fuerzas Armadas a la estructura operativa no implicará cambio de dependencia orgánica.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 3. Cometidos a desarrollar por la estructura operativa.</p>
+          <p class="parrafo">Las autoridades y órganos de la estructura operativa de las Fuerzas Armadas tienen los siguientes cometidos:</p>
+          <p class="parrafo_2">a) Planear y conducir las operaciones militares necesarias para cumplir las misiones de carácter nacional de las Fuerzas Armadas.</p>
+          <p class="parrafo">b) Planear la participación de fuerzas españolas en operaciones y ejercicios combinados liderados por organizaciones internacionales o multinacionales de seguridad y defensa, u otras alianzas y coaliciones; efectuar su seguimiento y dirigir el sostenimiento general de dichas fuerzas.</p>
+          <p class="parrafo">c) Planear y conducir las operaciones multinacionales y ejercicios combinados, en los que España sea la nación líder.</p>
+          <p class="parrafo">d) Planear y conducir los ejercicios conjuntos necesarios para asegurar la eficacia operativa de las Fuerzas Armadas y evaluar los planes operativos en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 4. Articulación de la estructura operativa de las Fuerzas Armadas.</p>
+          <p class="parrafo">1. La estructura operativa de las Fuerzas Armadas se configura como una cadena de autoridades militares situadas en tres niveles:</p>
+          <p class="parrafo_2">a) Nivel estratégico:</p>
+          <p class="parrafo">El Jefe de Estado Mayor de la Defensa (JEMAD).</p>
+          <p class="parrafo_2">b) Nivel operacional:</p>
+          <p class="parrafo">1.º El Comandante del Mando de Operaciones (CMOPS).</p>
+          <p class="parrafo">2.º Los comandantes de los mandos conjuntos que se constituyan.</p>
+          <p class="parrafo_2">c) Nivel táctico:</p>
+          <p class="parrafo">1.º Los comandantes de las fuerzas conjuntas, que se asignen a las operaciones y a los diferentes planes cuando sean activados.</p>
+          <p class="parrafo">2.º Los comandantes de las fuerzas específicas del Ejército de Tierra, la Armada y el Ejército del Aire asignadas a las operaciones y a los diferentes planes cuando sean activados.</p>
+          <p class="parrafo_2">2. La estructura operativa se encontrará, en todo caso, subordinada al JEMAD como mando de la misma y responsable del nivel estratégico de las operaciones. De él dependerán directamente el CMOPS y aquellos comandantes de los mandos conjuntos que éste determine. La dependencia del resto de los comandantes de los órganos de la estructura operativa, se determinará para cada plan operativo, operación o ejercicio, por el JEMAD.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 5. El Jefe de Estado Mayor de la Defensa.</p>
+          <p class="parrafo">1. Corresponde al JEMAD:</p>
+          <p class="parrafo_2">a) La función de asesoramiento militar al Presidente del Gobierno y al Ministro de Defensa, a los que auxiliará en la dirección estratégica de las operaciones militares.</p>
+          <p class="parrafo">b) Ejercer, bajo la dependencia del Ministro de Defensa, el mando de la estructura operativa de las Fuerzas Armadas y la conducción estratégica de las operaciones militares.</p>
+          <p class="parrafo">c) Asegurar la eficacia operativa de las Fuerzas Armadas. A tal fin, podrá supervisar la preparación de las unidades de la fuerza y evaluar su disponibilidad operativa.</p>
+          <p class="parrafo">d) Elaborar y definir la estrategia militar.</p>
+          <p class="parrafo">e) Todas aquellas funciones que establezca la normativa vigente.</p>
+          <p class="parrafo_2">2. Como consecuencia de lo anterior, y bajo la dependencia del Ministro de Defensa, son responsabilidades del JEMAD:</p>
+          <p class="parrafo_2">a) Determinar los objetivos estratégicos militares.</p>
+          <p class="parrafo">b) Emitir las directivas para el empleo de las Fuerzas Armadas en las operaciones y en los ejercicios conjuntos y combinados, así como aquéllas orientadas a la evaluación de los planes operativos, a la supervisión de la preparación de las unidades de la Fuerza de los Ejércitos y a la evaluación de su disponibilidad operativa.</p>
+          <p class="parrafo">c) Realizar el planeamiento estratégico de las operaciones, asignando las fuerzas necesarias y emitiendo las instrucciones correspondientes.</p>
+          <p class="parrafo">d) Dirigir la participación española en el planeamiento militar aliado y multinacional de nivel estratégico.</p>
+          <p class="parrafo">e) Transferir la autoridad sobre las unidades y elementos designados para operaciones o ejercicios combinados al mando internacional que corresponda.</p>
+          <p class="parrafo">f) Proponer al Ministro de Defensa la designación de los mandos conjuntos.</p>
+          <p class="parrafo">g) Requerir de los Jefes de Estado Mayor del Ejército de Tierra, la Armada y el Ejército del Aire la atribución de mandos y fuerzas necesarias para cada operación y ejercicio, y proceder a la designación de aquellos que sean de su competencia.</p>
+          <p class="parrafo_2">3. El JEMAD será asesorado por los Jefes de Estado Mayor del Ejército de Tierra, la Armada y el Ejército del Aire en el empleo de la Fuerza de sus respectivos Ejércitos.</p>
+          <p class="parrafo">4. En el ejercicio de sus responsabilidades como máxima autoridad de la estructura operativa, tendrá la competencia sancionadora y administrativa que le atribuye la legislación vigente en la materia.</p>
+          <p class="parrafo">5. Para el desempeño de sus funciones en el ámbito estratégico de la estructura operativa, el JEMAD contará con el apoyo del Estado Mayor Conjunto y con el del Centro de Inteligencia de las Fuerzas Armadas.</p>
+          <p class="parrafo">6. Cuando cualquier circunstancia le impida ejercer temporalmente el mando de la estructura operativa de las Fuerzas Armadas, le sustituirá en sus funciones como tal, con carácter accidental, el Jefe de Estado Mayor del Ejército de Tierra, de la Armada o del Ejército del Aire de mayor antigüedad.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 6. Mando de Operaciones.</p>
+          <p class="parrafo">1. El Mando de Operaciones es el órgano de la estructura operativa, subordinado al JEMAD, responsable de realizar el planeamiento y la conducción operacional, así como el seguimiento de los planes operativos y las operaciones militares que se le asignen. Igualmente es responsable de realizar el planeamiento y la conducción de aquellos ejercicios conjuntos y combinados que se determine.</p>
+          <p class="parrafo">2. El Mando de Operaciones, está constituido con carácter permanente, por la Comandancia y el Estado Mayor del Mando de Operaciones y se encuentra integrado orgánicamente en el Estado Mayor de la Defensa.</p>
+          <p class="parrafo">3. Dependerán del Mando de Operaciones, los mandos y fuerzas que integren las organizaciones operativas constituidas para el cumplimiento de las misiones que tenga asignadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 7. Comandante del Mando de Operaciones.</p>
+          <p class="parrafo">1. Bajo la dependencia del Jefe de Estado Mayor de la Defensa, en el marco de los cometidos a desarrollar en la estructura operativa de las Fuerzas Armadas, definidas en el artículo 3 de este real decreto, y en el nivel operacional, corresponden al CMOPS los siguientes cometidos:</p>
+          <p class="parrafo_2">a) Planear y conducir las operaciones necesarias para cumplir las misiones de las Fuerzas Armadas de carácter nacional que se determinen.</p>
+          <p class="parrafo">b) Planear y conducir las operaciones multinacionales cuando España asuma su liderazgo.</p>
+          <p class="parrafo">c) Ejercer el mando de las fuerzas puestas bajo su autoridad de acuerdo con lo establecido en los planes en vigor.</p>
+          <p class="parrafo">d) Planear y conducir los ejercicios conjuntos necesarios para asegurar la eficacia operativa de las fuerzas de los Ejércitos asignadas y para la evaluación de los planes operativos.</p>
+          <p class="parrafo">e) Planear la participación de fuerzas españolas en operaciones y ejercicios conjunto-combinados que no sean de responsabilidad nacional, efectuar el seguimiento de su actuación y empleo por la cadena operativa multinacional y dirigir su sostenimiento.</p>
+          <p class="parrafo">f) Gestionar los medios necesarios para el despliegue, sostenimiento, repliegue y apoyo de las fuerzas asignadas que no puedan ser proporcionados por los Ejércitos.</p>
+          <p class="parrafo_2">2. En el ejercicio de sus responsabilidades podrá establecer relaciones con:</p>
+          <p class="parrafo_2">a) Los Mandos que para cada operación, plan operativo o ejercicio, determinen los Jefes de Estado Mayor de los Ejércitos correspondientes, en especial para la generación, la proyección, el repliegue y el sostenimiento de las fuerzas asignadas, conforme a las directrices que al respecto dicte el JEMAD.</p>
+          <p class="parrafo">b) La Dirección General de Política de Defensa para la colaboración de las Fuerzas Armadas con los organismos civiles competentes en aquellas situaciones que lo requieran previo conocimiento del JEMAD.</p>
+          <p class="parrafo">c) Las autoridades militares internacionales de su mismo nivel en relación con las operaciones y ejercicios.</p>
+          <p class="parrafo">d) Las organizaciones gubernamentales y no gubernamentales de carácter nacional o internacional que se determinen para cada plan operativo.</p>
+          <p class="parrafo_2">3. En el ejercicio de sus responsabilidades como mando operativo tendrá la competencia sancionadora y administrativa que le atribuye la legislación vigente en la materia.</p>
+          <p class="parrafo">4. El CMOPS contará como órgano auxiliar con el Estado Mayor del Mando de Operaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 8. Comandantes de Mando Conjunto.</p>
+          <p class="parrafo">1. El JEMAD constituirá aquellos mandos conjuntos que considere necesarios para el desarrollo de los planes operativos relacionados con el cumplimiento de las misiones de carácter nacional que se determinen. Los comandantes de dichos mandos conjuntos serán designados por el Ministro de Defensa, a propuesta del JEMAD.</p>
+          <p class="parrafo">2. Constituye un Mando Conjunto las capacidades militares proporcionadas por más de un Ejército que, agrupadas bajo una autoridad, son integradas para cumplir una misión de naturaleza operacional cuya duración se prolonga en el tiempo.</p>
+          <p class="parrafo">3. El Comandante de Mando Conjunto, desde el momento de su designación, adquirirá responsabilidad en el planeamiento y, tras su activación, en la ejecución de las actividades relacionadas con la misión asignada, integrándose, a partir de entonces, en la cadena de mando de la estructura operativa de las Fuerzas Armadas de acuerdo con lo establecido en la directiva correspondiente.</p>
+          <p class="parrafo">4. La estructura de mando y dependencia del Comandante del Mando Conjunto se definirá para cada plan operativo a desarrollar.</p>
+          <p class="parrafo">5. En función de la naturaleza de la misión a cumplir, se podrán establecer dependencias funcionales con autoridades nacionales, no integradas en la estructura operativa de las Fuerzas Armadas, así como relaciones funcionales con las autoridades militares extranjeras que se determinen conforme a los acuerdos internacionales que se encuentren en vigor.</p>
+          <p class="parrafo">6. Corresponde al Comandante de Mando Conjunto:</p>
+          <p class="parrafo_2">a) Tomar parte en el planeamiento operativo de aquellas operaciones en las que participe.</p>
+          <p class="parrafo">b) Ejercer el mando de las fuerzas puestas bajo su autoridad de acuerdo con lo establecido en los planes en vigor.</p>
+          <p class="parrafo">c) Llevar a cabo la integración de las fuerzas bajo su mando.</p>
+          <p class="parrafo">d) Ejercer, en su caso, la representación militar nacional ante los mandos aliados o multinacionales de su nivel que se determine.</p>
+          <p class="parrafo_2">7. En el ejercicio de sus responsabilidades podrán establecer relaciones con:</p>
+          <p class="parrafo_2">a) Los mandos que para cada operación, plan operativo o ejercicio determinen los Jefes de Estado Mayor de los Ejércitos correspondientes, en especial para el sostenimiento de las operaciones en que participen, conforme a las directrices que al respecto dicte el JEMAD.</p>
+          <p class="parrafo">b) Las autoridades militares internacionales de su mismo nivel en relación con las operaciones en curso.</p>
+          <p class="parrafo">c) Las organizaciones gubernamentales y no gubernamentales de carácter nacional o internacionales que se determinen en cada situación.</p>
+          <p class="parrafo">d) La Dirección General de Política de Defensa en aquellas situaciones que expresamente lo requieran previo conocimiento del JEMAD.</p>
+          <p class="parrafo_2">8. En el ejercicio de sus responsabilidades como mando operativo tendrá la competencia sancionadora y administrativa que le atribuye la legislación vigente en la materia.</p>
+          <p class="parrafo">9. El Comandante de Mando Conjunto estará dotado de los órganos auxiliares y de apoyo necesarios para el ejercicio de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 9. Comandantes de Fuerza Conjunta y de Fuerza Específica.</p>
+          <p class="parrafo">1. El Comandante de Fuerza Conjunta será designado por el JEMAD para cada operación, plan operativo o ejercicio a desarrollar.</p>
+          <p class="parrafo">2. Constituyen una Fuerza Conjunta las capacidades militares proporcionadas por más de un Ejército que, agrupadas bajo una autoridad, son integradas para cumplir una misión determinada de carácter táctico, en una zona concreta y limitada en el tiempo.</p>
+          <p class="parrafo">3. El Comandante de Fuerza Específica será designado para cada operación, plan operativo o ejercicio por el JEMAD, a propuesta del Jefe de Estado Mayor del Ejército correspondiente.</p>
+          <p class="parrafo">4. Constituyen una Fuerza Específica las capacidades militares proporcionadas por un solo Ejército que, agrupadas bajo una autoridad, son integradas para cumplir una misión determinada de carácter táctico, en una zona concreta y limitada en el tiempo.</p>
+          <p class="parrafo">5. Desde el momento de su designación, adquirirán responsabilidad en el planeamiento pasando a depender para ello del CMOPS o del Mando Conjunto o Fuerza Conjunta que se determine. Tras la transferencia de autoridad de las fuerzas asignadas, ejercerá la responsabilidad sobre la conducción y ejecución de las operaciones, integrándose en la cadena de mando de la estructura operativa de acuerdo con lo establecido en el plan correspondiente.</p>
+          <p class="parrafo">6. La estructura de mando y dependencia del Comandante de Fuerza Conjunta o Específica se definirá para cada operación, plan operativo o ejercicio a desarrollar.</p>
+          <p class="parrafo">7. Corresponde al Comandante de Fuerza Conjunta o Específica:</p>
+          <p class="parrafo_2">a) Desarrollar a su nivel el planeamiento de las operaciones o ejercicios.</p>
+          <p class="parrafo">b) Llevar a cabo la integración de las fuerzas bajo su mando.</p>
+          <p class="parrafo">c) Ejercer el mando de las fuerzas nacionales, aliadas o multinacionales puestas bajo su autoridad de acuerdo con lo establecido en los planes en vigor.</p>
+          <p class="parrafo">d) Ejercer, en su caso, la representación militar nacional ante los mandos aliados o multinacionales que correspondan.</p>
+          <p class="parrafo_2">8. En el ejercicio de sus responsabilidades podrán establecer relaciones con:</p>
+          <p class="parrafo_2">a) Los mandos que para cada operación, plan operativo o ejercicio, determinen los Jefes de Estado Mayor de los Ejércitos correspondientes, en especial para el sostenimiento de las operaciones en que participen, conforme a las directrices que al respecto dicte el JEMAD.</p>
+          <p class="parrafo">b) Las autoridades militares internacionales de su mismo nivel en relación con las operaciones en curso.</p>
+          <p class="parrafo">c) Las organizaciones gubernamentales y no gubernamentales de carácter nacional o internacionales que se determinen para cada operación.</p>
+          <p class="parrafo_2">9. En el ejercicio de sus responsabilidades como mando operativo tendrán la competencia sancionadora y administrativa que les atribuye la legislación vigente en la materia.</p>
+          <p class="parrafo">10. El Comandante de Fuerza Conjunta o Específica estará dotado de los órganos auxiliares y de apoyo necesarios para el ejercicio de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Artículo 10. Asignación de fuerzas.</p>
+          <p class="parrafo">1. El JEMAD asignará las fuerzas necesarias para cada operación, plan operativo o ejercicio que serán designadas a propuesta de los Jefes de Estado Mayor del Ejército de Tierra, la Armada y el Ejército del Aire. El acto de asignación de fuerzas supone la previsión de su empleo en los planes, operaciones o ejercicios correspondientes, y surtirá efectos en materia de preparación y alistamiento.</p>
+          <p class="parrafo">2. La estructura de mando y dependencia de las fuerzas empleadas se definirá para cada operación, plan operativo o ejercicio a desarrollar.</p>
+          <p class="parrafo">3. Tras la activación de la operación o plan operativo, se producirá la transferencia de autoridad, pasando las fuerzas asignadas a depender de la estructura operativa de las Fuerzas Armadas, integrándose en la cadena de mando de acuerdo con lo establecido en el plan correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Disposición adicional única. Asignación en tiempo de paz a los Jefes de Estado Mayor de los Ejércitos de misiones específicas con carácter permanente.</p>
+          <p class="parrafo">1. Las misiones específicas que, en tiempo de paz, tengan asignadas con carácter permanente los Jefes de Estado Mayor de los Ejércitos, a las que hace referencia el artículo 13.3 b) de la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional, incluirán aquellas actividades llevadas a cabo por la Fuerza de uno de los Ejércitos en los espacios de soberanía española, en la alta mar y su espacio aéreo, o en otros lugares donde resulte lícito con arreglo al derecho internacional, con idea de continuidad en el tiempo y en condiciones de plena normalidad y ausencia de conflicto.</p>
+          <p class="parrafo">2. Dichas actividades, entre las que se incluyen las relacionadas con la vigilancia y seguridad de los espacios a que se refiere el párrafo anterior, el apoyo a la acción del Estado en dichos espacios, así como la presencia militar en territorio nacional, serán definidas y asignadas a los Jefes de Estado Mayor del Ejército de Tierra, de la Armada y del Ejército del Aire por el Ministro de Defensa.</p>
+          <p class="parrafo">3. Cuando las citadas actividades requieran conducción estratégica o empleen medios conjuntos, se integrarán en la estructura operativa de las Fuerzas Armadas. A tal fin, se establecerán los procedimientos necesarios.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">1. Queda derogado el Real Decreto 1250/1997, de 24 de julio, por el que se constituye la estructura de Mando Operativo de las Fuerzas Armadas.</p>
+          <p class="parrafo">2. Queda derogado el apartado 3 del artículo 9 del Real Decreto 912/2002, de 6 de septiembre, por el que se desarrolla la estructura básica de los Ejércitos.</p>
+          <p class="parrafo">3. También quedan derogados cuantos preceptos se opongan a lo dispuesto en este real decreto y estén contenidos en disposiciones de igual o inferior rango.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Disposición final primera. Facultades de desarrollo.</p>
+          <p class="parrafo">Se faculta al Ministro de Defensa para que adopte las medidas necesarias para el desarrollo y ejecución de este real decreto, sin que en ningún caso pueda suponer un aumento del gasto público.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2007-11858" fecha_publicacion="20070616" fecha_vigencia="20070617">
+          <p class="parrafo_2">Dado en Madrid, el 15 de junio de 2007.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Defensa,</p>
+          <p class="firma_ministro">JOSÉ ANTONIO ALONSO SUÁREZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

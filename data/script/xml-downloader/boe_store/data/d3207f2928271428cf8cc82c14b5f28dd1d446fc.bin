@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T174529Z</fecha_actualizacion>
+      <identificador>BOE-A-2013-13069</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4810">Ministerio de Justicia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20131129</fecha_disposicion>
+      <numero_oficial>932/2013</numero_oficial>
+      <titulo>Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20131216</fecha_publicacion>
+      <diario_numero>300</diario_numero>
+      <fecha_vigencia>20131217</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2013/11/29/932</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2013-13069</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1017">Comisión Asesora de Libertad Religiosa</materia>
+        <materia codigo="4983">Ministerio de Justicia</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-11301</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Orden JUS/1375/2002, de 31 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-20091</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 1159/2001, de 26 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1980-15955</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 8 de la Ley Orgánica 7/1980, de 5 de julio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2021-8751</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 2, 3.g) y h), 5 a 8, 10, 11.1, 15.1.d), las disposiciones finales 1 y 2 y SE SUPRIME la disposición adicional única, por Real Decreto 371/2021, de 25 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-13069</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">932</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1017"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-13069</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">932</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1017"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20210526"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20131216"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 932/2013, de 29 de novembre, pel qual es regula la Comissió Assessora de Llibertat Religiosa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 932/2013, do 29 de novembro, polo que se regula a Comisión Asesora de Liberdade Relixiosa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20210526">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-13069</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">932</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1017"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-26</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20210526/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20210526"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20210526/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20210526/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20131216">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-13069</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">932</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1017"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20131216/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 932/2013, de 29 de noviembre, por el que se regula la Comisión Asesora de Libertad Religiosa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20131216"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20131216/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2013/11/29/932/con/20131216/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="parrafo">La Ley Orgánica 7/1980, de 5 de julio, de Libertad Religiosa, dispone en su artículo 8 la creación en el seno del Ministerio de Justicia de la Comisión Asesora de Libertad Religiosa, autorizando al Gobierno, en su disposición final, a dictar las disposiciones reglamentarias que sean necesarias para su desarrollo. En cumplimiento de lo anterior, se publicó el Real Decreto 1890/1981, de 19 de junio, por el que se constituye la Comisión Asesora de Libertad Religiosa y la Orden del Ministerio de Justicia de 31 de octubre de 1983, sobre organización y competencias de la Comisión Asesora de Libertad Religiosa. Con posterioridad, fueron modificadas por el Real Decreto 1159/2001, de 26 de octubre, por el que se regula la Comisión Asesora de Libertad Religiosa, y la Orden JUS/1375/2002, de 31 de mayo, sobre organización y competencias de la Comisión Asesora de Libertad Religiosa.</p>
+          <p class="parrafo">De la experiencia adquirida en los últimos años, se aprecia la conveniencia de un nuevo real decreto que regule esta Comisión, advertida la necesidad de ajustar, clarificar y perfeccionar aspectos necesarios de la misma.</p>
+          <p class="parrafo">El primero de los objetivos de este real decreto es asignar a la Comisión nuevas funciones que le permitan mejorar su actuación dentro del marco legal existente y la asunción de nuevas obligaciones.</p>
+          <p class="parrafo">El segundo de los objetivos es articular mejor la composición de la Comisión Asesora de Libertad Religiosa y hacer posible que formen parte de la misma los representantes de las iglesias, confesiones, comunidades religiosas o federaciones de las mismas que puedan alcanzar la declaración de notorio arraigo en España, sin que ello exija una nueva modificación legal. Desde el año 2001 hasta la actualidad, la Comisión Asesora de Libertad Religiosa ha informado el notorio arraigo de la Iglesia de Jesucristo de los Santos de los Últimos Días (2003), de la Iglesia de los Testigos de Jehová (2006), del Budismo (2007) y de la Iglesia Ortodoxa (2010).</p>
+          <p class="parrafo">La incorporación de nuevas Iglesias, confesiones, comunidades religiosas o federaciones de las mismas con notorio arraigo no puede llevar a multiplicar exponencialmente la composición de la Comisión. Se dota a este órgano asesor de una nueva composición tripartita y paritaria, en consonancia con la estructura prevista en el artículo 8.1 de la Ley Orgánica 7/1980, de 5 de julio. Para su adaptación a las circunstancias actuales y una mayor eficiencia en el cumplimento de sus fines, se rompe con la paridad entendida en igualdad de número de personas, para llegar a la paridad en número de votos de cada uno de los tres sectores presentes en la Comisión, representantes de la Administración, representantes de iglesias, confesiones, comunidades religiosas o federaciones de las mismas y las personas de reconocida competencia.</p>
+          <p class="parrafo">La eficiencia de la Comisión se consigue con una reducción del número de vocales representantes de la Administración General del Estado que sean convocados a las diferentes reuniones y del número de vocales de reconocida competencia en materia de libertad religiosa. No obstante, en cumplimiento del citado artículo 8.1 de la Ley Orgánica 7/1980, de 5 de julio, se produce un aumento en el número de vocales representantes de las iglesias, confesiones, comunidades religiosas o federaciones de las mismas. Con ello, la estructura tripartita y paritaria se respeta mediante el voto ponderado. Esta forma de entender la paridad existe en otros órganos presentes en materia de negociación colectiva, en el orden social, donde se mantiene la paridad desde el voto ponderado e igualitario, y no desde la presencia numérica idéntica de sus componentes. Esta concepción paritaria ha sido avalada por la legislación social y por la jurisprudencia del Tribunal Supremo y el Tribunal Constitucional.</p>
+          <p class="parrafo">El número de representantes de las confesiones religiosas, aunque con igual voto que los otros dos tercios conforme a la estructura paritaria, cuenta más representantes. En consecuencia, se avanza en la obligación de colaboración del Estado con las confesiones religiosas, conforme al principio de cooperación establecido en el artículo 16.3 de la Constitución.</p>
+          <p class="parrafo">En lo relacionado con la mejora de su composición como sucede en derecho comparado, se refuerza institucionalmente la Comisión Asesora de Libertad Religiosa, atribuyendo su Presidencia al Ministro de Justicia, y creándose la figura de la Vicepresidencia.</p>
+          <p class="parrafo">El tercero de los objetivos es mejorar el funcionamiento de la Comisión Asesora de Libertad Religiosa que actuará en Pleno, Comisión Permanente y Grupos de Trabajo. La novedad reside en la posibilidad de crear grupos de trabajo, con carácter temporal y a propuesta del Presidente o de sus vocales.</p>
+          <p class="parrafo">En la elaboración de este real decreto se ha tenido en cuenta el informe del Pleno de la Comisión Asesora de Libertad Religiosa, por lo que se ha dado audiencia a las confesiones religiosas que tienen reconocido notorio arraigo en España, a los representantes de la Administración General del Estado y a los vocales de reconocida competencia en el ámbito de la libertad religiosa que forman parte de la Comisión.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Justicia, con la aprobación previa del Ministro de Hacienda y Administraciones Públicas, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 29 de noviembre de 2013,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este Real Decreto tiene por objeto desarrollar el artículo 8 de la Ley Orgánica 7/1980, de 5 de julio, de Libertad Religiosa, en relación a las competencias, composición, organización y funcionamiento de la Comisión Asesora de Libertad Religiosa.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 2. Naturaleza y fines de la Comisión.</p>
+          <p class="parrafo">1. La Comisión Asesora de Libertad Religiosa es el órgano consultivo del Gobierno en materia de libertad religiosa.</p>
+          <p class="parrafo">2. La Comisión podrá asimismo asesorar a las Administraciones Públicas en relación con la aplicación tanto de la Ley Orgánica de Libertad Religiosa, como de los Acuerdos celebrados por parte del Estado español con las confesiones religiosas, sin perjuicio de las competencias que la normativa vigente atribuya en la materia a otros órganos.</p>
+          <p class="parrafo">3. La Comisión es un órgano colegiado de los previstos en el artículo 22.2 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, y en el artículo 40.1 de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, adscrito orgánica y funcionalmente al Ministerio de Justicia, a través de la Dirección General de Cooperación Jurídica Internacional y Relaciones con las Confesiones.</p>
+          <p class="parrafo">4. La Comisión tiene por objeto el estudio, seguimiento, informe y la realización de propuestas de todas aquellas materias relacionadas con el desarrollo, impulso y promoción efectiva del derecho de libertad religiosa.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 2. Naturaleza y fines de la Comisión.</p>
+          <p class="parrafo">1. La Comisión Asesora de Libertad Religiosa es el órgano consultivo del Gobierno en materia de libertad religiosa.</p>
+          <p class="parrafo">2. La Comisión podrá asimismo asesorar a las Administraciones Públicas en relación con la aplicación tanto de la Ley Orgánica de Libertad Religiosa, como de los Acuerdos celebrados por parte del Estado español con las confesiones religiosas, sin perjuicio de las competencias que la normativa vigente atribuya en la materia a otros órganos.</p>
+          <p class="parrafo">3. La Comisión es un órgano colegiado de los previstos en los artículos 15.2 y 21.3 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, adscrito orgánica y funcionalmente al Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática, a través de la Subsecretaría.</p>
+          <p class="parrafo">4. En lo no previsto por el presente real decreto, la Comisión ajustará su funcionamiento a las normas generales de actuación de los órganos colegiados dispuestas en la sección 3.ª del capítulo II del título preliminar de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+          <p class="parrafo">5. La Comisión tiene por objeto el estudio, seguimiento, informe y la realización de propuestas de todas aquellas materias relacionadas con el desarrollo, impulso y promoción efectiva del derecho de libertad religiosa.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 3, se renumera el apartado 4 como 5 y se añade un apartado 4 por el art. único.1 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 3. Funciones de la Comisión.</p>
+          <p class="parrafo">Para el cumplimiento de los fines establecidos en el artículo anterior, la Comisión tendrá las funciones siguientes:</p>
+          <p class="parrafo_2">a) Conocer e informar preceptivamente los proyectos de acuerdos o convenios de cooperación a que se refiere el artículo 7 de la Ley Orgánica 7/1980, de 5 de julio.</p>
+          <p class="parrafo">b) Conocer e informar los proyectos de disposiciones de carácter general que afecten a la aplicación de la Ley Orgánica 7/1980, de 5 de julio.</p>
+          <p class="parrafo">c) Conocer e informar los proyectos de disposiciones de carácter general que afecten a la aplicación y desarrollo de los acuerdos celebrados entre el Estado español y las confesiones religiosas.</p>
+          <p class="parrafo">d) Conocer e informar los anteproyectos de ley y cualesquiera otras disposiciones generales de la Administración General del Estado que regulen materias concernientes al derecho de libertad religiosa.</p>
+          <p class="parrafo">e) Emitir informe sobre la declaración de notorio arraigo de las iglesias, confesiones o federaciones de las mismas.</p>
+          <p class="parrafo">f)	Emitir informe de las cuestiones relacionadas con la inscripción y cancelación de las entidades religiosas, que le sean sometidas a su consulta.</p>
+          <p class="parrafo">g) Emitir informes sobre las normas que incidan en el ejercicio del derecho de libertad religiosa que hayan sido dictadas por las Comunidades Autónomas, que el Gobierno, a través del Ministro de Justicia, someta a su consulta.</p>
+          <p class="parrafo">h) Emitir informes sobre los asuntos concernientes a su ámbito de competencias que el Gobierno, a través del Ministro de Justicia, someta a su consideración.</p>
+          <p class="parrafo">i)	Estudiar y presentar propuestas al Gobierno de cuantas medidas considere oportunas en el ámbito de la libertad religiosa, sin perjuicio de las competencias que la normativa vigente atribuya en la materia a otros órganos.</p>
+          <p class="parrafo">j)	Elaborar y elevar anualmente un informe al Gobierno sobre la situación del derecho de libertad religiosa en España.</p>
+          <p class="parrafo">k) Recabar información sobre actuaciones de las Administraciones Públicas relacionadas con el desarrollo y ejercicio del derecho de libertad religiosa.</p>
+          <p class="parrafo">l) Cualquier otra función que, en el ámbito de sus competencias, se le atribuya por alguna disposición legal o reglamentaria.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 3. Funciones de la Comisión.</p>
+          <p class="parrafo">Para el cumplimiento de los fines establecidos en el artículo anterior, la Comisión tendrá las funciones siguientes:</p>
+          <p class="parrafo_2">a) Conocer e informar preceptivamente los proyectos de acuerdos o convenios de cooperación a que se refiere el artículo 7 de la Ley Orgánica 7/1980, de 5 de julio.</p>
+          <p class="parrafo">b) Conocer e informar los proyectos de disposiciones de carácter general que afecten a la aplicación de la Ley Orgánica 7/1980, de 5 de julio.</p>
+          <p class="parrafo">c) Conocer e informar los proyectos de disposiciones de carácter general que afecten a la aplicación y desarrollo de los acuerdos celebrados entre el Estado español y las confesiones religiosas.</p>
+          <p class="parrafo">d) Conocer e informar los anteproyectos de ley y cualesquiera otras disposiciones generales de la Administración General del Estado que regulen materias concernientes al derecho de libertad religiosa.</p>
+          <p class="parrafo">e) Emitir informe sobre la declaración de notorio arraigo de las iglesias, confesiones o federaciones de las mismas.</p>
+          <p class="parrafo">f) Emitir informe de las cuestiones relacionadas con la inscripción y cancelación de las entidades religiosas, que le sean sometidas a su consulta.</p>
+          <p class="parrafo">g) Emitir informes sobre las normas que incidan en el ejercicio del derecho de libertad religiosa que hayan sido dictadas por las Comunidades Autónomas, que el Gobierno, a través de la Presidencia de la Comisión, someta a su consulta.</p>
+          <p class="parrafo">h) Emitir informes sobre los asuntos concernientes a su ámbito de competencias que el Gobierno, a través de la Presidencia de la Comisión, someta a su consideración.</p>
+          <p class="parrafo">i) Estudiar y presentar propuestas al Gobierno de cuantas medidas considere oportunas en el ámbito de la libertad religiosa, sin perjuicio de las competencias que la normativa vigente atribuya en la materia a otros órganos.</p>
+          <p class="parrafo">j) Elaborar y elevar anualmente un informe al Gobierno sobre la situación del derecho de libertad religiosa en España.</p>
+          <p class="parrafo">k) Recabar información sobre actuaciones de las Administraciones Públicas relacionadas con el desarrollo y ejercicio del derecho de libertad religiosa.</p>
+          <p class="parrafo">l) Cualquier otra función que, en el ámbito de sus competencias, se le atribuya por alguna disposición legal o reglamentaria.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican las letras g) y h) por el art. único.2 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Composición</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 4. Composición.</p>
+          <p class="parrafo">La Comisión está constituida por el Presidente, el Vicepresidente, los Vocales y el Secretario.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 5. Presidencia.</p>
+          <p class="parrafo">1. La Presidencia de la Comisión corresponde al Ministro de Justicia.</p>
+          <p class="parrafo">2. Son funciones del Presidente:</p>
+          <p class="parrafo_2">a) Presidir y moderar las reuniones del Pleno y dirigir sus trabajos.</p>
+          <p class="parrafo">b) Representar a la Comisión ante los demás órganos y autoridades públicas y privadas.</p>
+          <p class="parrafo">c) Acordar la convocatoria de las sesiones ordinarias y extraordinarias del Pleno de la Comisión, fijando el orden del día correspondiente.</p>
+          <p class="parrafo">d) Dirimir con su voto los empates en las votaciones para adoptar acuerdos.</p>
+          <p class="parrafo">e) Recibir el Proyecto de memoria anual de actividades y someterlo a aprobación del Pleno.</p>
+          <p class="parrafo">f)	Visar las actas del Pleno de la Comisión.</p>
+          <p class="parrafo">g) Dar posesión a los vocales de la Comisión.</p>
+          <p class="parrafo">h) Convocar, en su caso, a las sesiones del Pleno, con voz pero sin voto, a terceras personas que puedan aportar información relevante sobre algún asunto preciso.</p>
+          <p class="parrafo">i)	Encomendar, cuando sea necesario, estudios técnicos a expertos en las materias relacionadas con las funciones y trabajos de la Comisión, aunque no pertenezcan a la misma.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 5. Presidencia.</p>
+          <p class="parrafo">1. La Presidencia de la Comisión corresponde a la persona titular del Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática.</p>
+          <p class="parrafo">2. Son funciones del Presidente:</p>
+          <p class="parrafo_2">a) Presidir y moderar las reuniones del Pleno y dirigir sus trabajos.</p>
+          <p class="parrafo">b) Representar a la Comisión ante los demás órganos y autoridades públicas y privadas.</p>
+          <p class="parrafo">c) Acordar la convocatoria de las sesiones ordinarias y extraordinarias del Pleno de la Comisión, fijando el orden del día correspondiente.</p>
+          <p class="parrafo">d) Dirimir con su voto los empates en las votaciones para adoptar acuerdos.</p>
+          <p class="parrafo">e) Recibir el Proyecto de memoria anual de actividades y someterlo a aprobación del Pleno.</p>
+          <p class="parrafo">f) Visar las actas del Pleno de la Comisión.</p>
+          <p class="parrafo">g) Dar posesión a los vocales de la Comisión.</p>
+          <p class="parrafo">h) Convocar, en su caso, a las sesiones del Pleno, con voz pero sin voto, a terceras personas que puedan aportar información relevante sobre algún asunto preciso.</p>
+          <p class="parrafo">i) Encomendar, cuando sea necesario, estudios técnicos a expertos en las materias relacionadas con las funciones y trabajos de la Comisión, aunque no pertenezcan a la misma.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.3 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 6. Vicepresidencia.</p>
+          <p class="parrafo">1. La Vicepresidencia de la Comisión corresponde al titular de la Dirección General de Cooperación Jurídica Internacional y Relaciones con las Confesiones del Ministerio de Justicia.</p>
+          <p class="parrafo">Son funciones del Vicepresidente:</p>
+          <p class="parrafo_2">a) Sustituir al Presidente en caso de vacante, ausencia o enfermedad.</p>
+          <p class="parrafo">b) Presidir y moderar las reuniones de la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">c) Acordar la convocatoria de la Comisión Permanente y los Grupos de Trabajo, fijando el orden del día correspondiente.</p>
+          <p class="parrafo">d) Dirimir con su voto los empates en las votaciones para adoptar acuerdos en el seno de la Comisión Permanente y los Grupos de Trabajo.</p>
+          <p class="parrafo">e) Elaborar el Proyecto de Memoria anual de actividades.</p>
+          <p class="parrafo">f)	Visar las actas de los acuerdos de la Comisión Permanente y los Grupos de Trabajo.</p>
+          <p class="parrafo">g) Convocar, en su caso, a las sesiones de la Permanente, con voz pero sin voto, a terceras personas que puedan aportar información relevante sobre algún asunto preciso.</p>
+          <p class="parrafo">h) Elaborar, al comienzo de cada ejercicio presupuestario, la previsión anual de gastos derivados del funcionamiento de la Comisión.</p>
+          <p class="parrafo_2">2. En caso de vacante, ausencia o enfermedad del titular de la Vicepresidencia, éste será sustituido por el titular del puesto de trabajo, con nivel orgánico de Subdirector General o asimilado, encargado de las Relaciones con las Confesiones.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 6. Vicepresidencia.</p>
+          <p class="parrafo">1. La Vicepresidencia de la Comisión corresponde a la persona titular de la Subsecretaría de la Presidencia, Relaciones con las Cortes y Memoria Democrática.</p>
+          <p class="parrafo">2. Son funciones de la Vicepresidencia:</p>
+          <p class="parrafo_2">a) Sustituir a la persona titular de la Presidencia en caso de vacante, ausencia o enfermedad.</p>
+          <p class="parrafo">b) Presidir y moderar las reuniones de la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">c) Acordar la convocatoria de la Comisión Permanente y los Grupos de Trabajo, fijando el orden del día correspondiente.</p>
+          <p class="parrafo">d) Dirimir con su voto los empates en las votaciones para adoptar acuerdos en el seno de la Comisión Permanente y los Grupos de Trabajo.</p>
+          <p class="parrafo">e) Elaborar el Proyecto de Memoria anual de actividades.</p>
+          <p class="parrafo">f) Visar las actas de los acuerdos de la Comisión Permanente y los Grupos de Trabajo.</p>
+          <p class="parrafo">g) Convocar, en su caso, a las sesiones de la Permanente con voz, pero sin voto, a terceras personas que puedan aportar información relevante sobre algún asunto preciso.</p>
+          <p class="parrafo">h) Elaborar, al comienzo de cada ejercicio presupuestario, la previsión anual de gastos derivados del funcionamiento de la Comisión.</p>
+          <p class="parrafo_2">3. En caso de vacante, ausencia o enfermedad de la persona titular de la Vicepresidencia, le sustituirá la persona titular de la Subdirección General de Libertad Religiosa.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.4 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 7. Secretaría de la Comisión.</p>
+          <p class="parrafo">1. El Secretario de la Comisión será un funcionario adscrito a la Subdirección General de Relaciones con las Confesiones y licenciado o graduado en Derecho u otro título universitario de grado equivalente, nombrado por el Presidente de la Comisión.</p>
+          <p class="parrafo">Asistirá con voz pero sin voto a las reuniones del Pleno, de la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">2. Son funciones de la Secretaría:</p>
+          <p class="parrafo_2">a) La organización de los servicios de información, asesoramiento técnico y administrativo de la Presidencia, el Pleno, la Comisión Permanente y sus Grupos de Trabajo.</p>
+          <p class="parrafo">b) Efectuar la convocatoria de las sesiones por orden del Presidente o Vicepresidente, así como las citaciones de los Vocales de la Comisión y de aquellas personas que, a juicio del Presidente o Vicepresidente, puedan aportar información relevante sobre un asunto preciso.</p>
+          <p class="parrafo">c) Elaborar las actas de las sesiones del Pleno, la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">De cada sesión se levantará acta detallada de los acuerdos adoptados, con expresión de las opiniones expuestas, del resultado de las votaciones, si las hubiera, y, en su caso, de los votos particulares que hubieran sido formulados.</p>
+          <p class="parrafo">d) Preparar los trabajos del Pleno, de la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">e) Recibir los actos de comunicación de los Vocales con la Comisión, tales como notificaciones, peticiones de datos, rectificaciones o cualquier otra clase de escritos de los que deba tener conocimiento.</p>
+          <p class="parrafo">f)	La tramitación y, en su caso, ejecución de aquellos acuerdos de la Comisión o decisiones del Presidente o Vicepresidente que se le encomienden expresamente.</p>
+          <p class="parrafo">g) La custodia y archivo de los trabajos desarrollados por la Comisión.</p>
+          <p class="parrafo">h) La expedición y autorización de certificados de las consultas, acuerdos y dictámenes adoptados relacionados con la Comisión.</p>
+          <p class="parrafo">i)	Preparar, bajo la dirección del Vicepresidente, la previsión anual de gastos de la Comisión.</p>
+          <p class="parrafo">j)	Proponer el pago de los gastos que se deriven del funcionamiento de la Comisión.</p>
+          <p class="parrafo_2">3. En caso de vacante, ausencia o enfermedad del Secretario de la Comisión asumirá sus funciones un funcionario adscrito a la Subdirección General de Relaciones con las Confesiones, licenciado o graduado en Derecho u otro título universitario de grado equivalente, nombrado a propuesta del Presidente de la Comisión.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 7. Secretaría de la Comisión.</p>
+          <p class="parrafo">1. La persona titular de la Secretaría de la Comisión será nombrada por la Presidencia, entre funcionarios o funcionarias de carrera adscritos a la Subdirección General de Libertad Religiosa que pertenezcan a Cuerpos o Escalas clasificados en el subgrupo A1.</p>
+          <p class="parrafo">Asistirá con voz, pero sin voto, a las reuniones del Pleno, de la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">2. Son funciones de la Secretaría:</p>
+          <p class="parrafo_2">a) La organización de los servicios de información, asesoramiento técnico y administrativo de la Presidencia, el Pleno, la Comisión Permanente y sus Grupos de Trabajo.</p>
+          <p class="parrafo">b) Efectuar la convocatoria de las sesiones por orden de la Presidencia o Vicepresidencia, así como las citaciones de los Vocales de la Comisión y de aquellas personas que, a juicio de la Presidencia o Vicepresidencia, puedan aportar información relevante sobre un asunto preciso.</p>
+          <p class="parrafo">c) Elaborar las actas de las sesiones del Pleno, la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">De cada sesión se levantará acta detallada de los acuerdos adoptados, con expresión de las opiniones expuestas, del resultado de las votaciones, si las hubiera, y, en su caso, de los votos particulares que hubieran sido formulados.</p>
+          <p class="parrafo">d) Preparar los trabajos del Pleno, de la Comisión Permanente y de los Grupos de Trabajo.</p>
+          <p class="parrafo">e) Recibir los actos de comunicación de los Vocales con la Comisión, tales como notificaciones, peticiones de datos, rectificaciones o cualquier otra clase de escritos de los que deba tener conocimiento.</p>
+          <p class="parrafo">f) La tramitación y, en su caso, ejecución de aquellos acuerdos de la Comisión o decisiones de la Presidencia o Vicepresidencia que se le encomienden expresamente.</p>
+          <p class="parrafo">g) La custodia y archivo de los trabajos desarrollados por la Comisión.</p>
+          <p class="parrafo">h) La expedición y autorización de certificados de las consultas, acuerdos y dictámenes adoptados relacionados con la Comisión.</p>
+          <p class="parrafo">i) Preparar, bajo la dirección de la Vicepresidencia, la previsión anual de gastos de la Comisión.</p>
+          <p class="parrafo">j) Proponer el pago de los gastos que se deriven del funcionamiento de la Comisión.</p>
+          <p class="parrafo_2">3. En caso de vacante, ausencia o enfermedad de la persona titular de la Secretaría de la Comisión asumirá sus funciones un funcionario o funcionaria de carrera adscrito a la Subdirección General de Libertad Religiosa que pertenezca a un Cuerpo o Escala clasificado en el Subgrupo A1.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.5 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 8. Vocales de la Comisión.</p>
+          <p class="parrafo">Son miembros de la Comisión:</p>
+          <p class="parrafo_2">a) Un representante, con la categoría de Director General o asimilado, propuesto por cada uno de los Departamentos Ministeriales de Asuntos Exteriores y de Cooperación, de Hacienda y Administraciones Públicas, de Interior, de Educación, Cultura y Deporte, de Empleo y Seguridad Social, de la Presidencia y de Sanidad, Servicios Sociales e Igualdad.</p>
+          <p class="parrafo">b) Doce representantes de las Iglesias, Confesiones y Comunidades religiosas o Federaciones de las mismas, entre las que, en todo caso, estarán las que tengan notorio arraigo en España, propuestos por las respectivas confesiones religiosas.</p>
+          <p class="parrafo">c) Seis personas de reconocida competencia en el campo de la libertad religiosa, propuestas por el Ministerio de Justicia.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 8. Vocales de la Comisión.</p>
+          <p class="parrafo">Son miembros de la Comisión:</p>
+          <p class="parrafo_2">a) Siete personas designadas en representación de cada uno de los Ministerios de Asuntos Exteriores, Unión Europea y Cooperación; de Justicia; de Hacienda; del Interior; de Educación y Formación Profesional; de Sanidad; y de Inclusión, Seguridad Social y Migraciones, titulares de órganos con rango de Dirección General o asimilado.</p>
+          <p class="parrafo">b) Doce representantes de las Iglesias, Confesiones y Comunidades religiosas o Federaciones de las mismas, entre las que, en todo caso, estarán las que tengan notorio arraigo en España, propuestos por las respectivas confesiones religiosas.</p>
+          <p class="parrafo">c) Seis personas de reconocida competencia en el campo de la libertad religiosa, propuestas por el Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican las letras a) y c) por el art. único.6 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 9. Derechos de los Vocales.</p>
+          <p class="parrafo">Son derechos de los Vocales de la Comisión:</p>
+          <p class="parrafo_2">a) Recibir con antelación suficiente la convocatoria con el orden del día e información sobre los asuntos contenidos en el mismo.</p>
+          <p class="parrafo">b) Solicitar la reunión, con carácter extraordinario, del Pleno y la Permanente.</p>
+          <p class="parrafo">c) Participar en los debates de las sesiones, ejercer el derecho al voto y formular su voto particular, así como expresar el sentido de su voto y los motivos que lo justifiquen.</p>
+          <p class="parrafo">Los votos particulares deberán ser anunciados antes de que se levante la sesión y se formularán en el plazo de cinco días. Al voto anunciado podrán adherirse los Vocales que hayan disentido del parecer de la mayoría.</p>
+          <p class="parrafo">d) Presentar a la Presidencia, al Pleno o a la Comisión Permanente mociones y propuestas sobre cuestiones que correspondan a la competencia de la Comisión.</p>
+          <p class="parrafo">e) Obtener la información técnica precisa para cumplir las funciones asignadas.</p>
+          <p class="parrafo">f)	Percibir las indemnizaciones que por razón del servicio correspondan, en concepto de asistencias por concurrir a las sesiones del Pleno, de la Comisión Permanente y de los Grupos de Trabajo, de conformidad con el artículo 28 del Real Decreto 462/2002, de 24 de mayo, sobre indemnizaciones por razón del servicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 10. Deberes de los Vocales.</p>
+          <p class="parrafo">Son deberes de los Vocales de la Comisión:</p>
+          <p class="parrafo_2">a) Asistir a las reuniones convocadas por el Presidente, salvo causa justificada, de la que se dará cuenta antes de dar lectura al acta de la sesión anterior.</p>
+          <p class="parrafo">b) Aceptar las ponencias y demás funciones que se le encomienden por el Presidente, salvo causa justificada, y proceder diligentemente a su realización.</p>
+          <p class="parrafo">c) Observar las presentes normas y las instrucciones de la Presidencia para el buen orden de las deliberaciones.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 10. Deberes de los Vocales.</p>
+          <p class="parrafo">Son deberes de los Vocales de la Comisión:</p>
+          <p class="parrafo_2">a) Asistir a las reuniones convocadas por la Presidencia, salvo causa justificada, de la que se dará cuenta antes de dar lectura al acta de la sesión anterior.</p>
+          <p class="parrafo">b) Aceptar las ponencias y demás funciones que se le encomienden por la Presidencia, salvo causa justificada, y proceder diligentemente a su realización.</p>
+          <p class="parrafo">c) Observar las presentes normas y las instrucciones de la Presidencia para el buen orden de las deliberaciones.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.7 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 11. Nombramiento y mandato de los Vocales.</p>
+          <p class="parrafo">1. Los Vocales a los que se refiere el apartado c) del artículo 8 serán nombrados por Acuerdo del Consejo de Ministros, a propuesta del Ministro de Justicia.</p>
+          <p class="parrafo">Los demás Vocales de la Comisión serán nombrados por el Ministro de Justicia, mediante Orden ministerial.</p>
+          <p class="parrafo">2. El mandato de los Vocales será de cuatro años a partir de la fecha de publicación de sus respectivos nombramientos en el «Boletín Oficial del Estado». No obstante, continuarán desempeñando sus funciones hasta la toma de posesión de los nuevos miembros que hayan de sustituirlos. El mandato será renovable por períodos de igual duración.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 11. Nombramiento y mandato de los Vocales.</p>
+          <p class="parrafo">1. Los Vocales a los que se refiere la letra c) del artículo 8 serán nombrados por Acuerdo del Consejo de Ministros, a propuesta de la persona titular de la Vicepresidencia Primera del Gobierno y del Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática.</p>
+          <p class="parrafo">Los demás Vocales de la Comisión serán nombrados por la persona titular de la Vicepresidencia Primera del Gobierno y Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática, mediante orden ministerial.</p>
+          <p class="parrafo">2. El mandato de los Vocales será de cuatro años a partir de la fecha de publicación de sus respectivos nombramientos en el «Boletín Oficial del Estado». No obstante, continuarán desempeñando sus funciones hasta la toma de posesión de los nuevos miembros que hayan de sustituirlos. El mandato será renovable por períodos de igual duración.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.8 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 12. Suplencias y vacantes de los Vocales.</p>
+          <p class="parrafo">1. En caso de ausencia, enfermedad o cualquier otra causa justificada, los Vocales de la Comisión representantes de la Administración General del Estado podrán ser sustituidos por los titulares de puestos de trabajo, con nivel orgánico de Subdirector General o asimilado, que nombre el órgano que ha designado a los Vocales suplidos.</p>
+          <p class="parrafo">2. Igualmente, y respecto de las mismas situaciones que las previstas en el apartado anterior, los Vocales representantes de las confesiones religiosas podrán ser sustituidos, según su régimen estatutario, por aquellas personas que hayan sido designadas como suplentes de las mismas.</p>
+          <p class="parrafo">3. Toda vacante anticipada, que no se haya producido por expiración del mandato, será cubierta de conformidad con lo previsto en el artículo 8. La duración de las sustituciones quedará limitada al tiempo de mandato que reste al Vocal sustituido.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 13. Cese de los Vocales.</p>
+          <p class="parrafo">1. El cese de los Vocales de la Comisión se producirá por alguna de las siguientes causas:</p>
+          <p class="parrafo_2">a) Por expiración del plazo de su mandato, sin perjuicio de lo dispuesto en el apartado 2 de este artículo.</p>
+          <p class="parrafo">b) Por renuncia.</p>
+          <p class="parrafo">c) Por dejar de concurrir los requisitos que determinaron su designación.</p>
+          <p class="parrafo">d) Por haber sido condenado por delito doloso.</p>
+          <p class="parrafo_2">2. Los Vocales de la Comisión mencionados en el apartado b) del artículo 8 serán destituidos por el Presidente, a petición de la confesión religiosa a la que representan.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Organización y funcionamiento</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 14. Organización.</p>
+          <p class="parrafo">La Comisión actuará en Pleno, Comisión Permanente y Grupos de Trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 15. Pleno.</p>
+          <p class="parrafo">1. A efectos de mantener la paridad, el Pleno estará compuesto por las siguientes personas:</p>
+          <p class="parrafo_2">a) El Presidente, al que corresponderán tres votos.</p>
+          <p class="parrafo">b) El Vicepresidente, que asistirá a las reuniones con voz pero sin voto cuando el Presidente asista a las reuniones del Pleno.</p>
+          <p class="parrafo">c) El Secretario, que asistirá con voz pero sin voto.</p>
+          <p class="parrafo">d) Un representante, con la categoría de Director General o asimilado, propuesto por cada uno de los Departamentos Ministeriales de Asuntos Exteriores y de Cooperación, de Hacienda y Administraciones Públicas, de Interior, de Educación, Cultura y Deporte, de Empleo y Seguridad Social, de la Presidencia y de Sanidad, Servicios Sociales e Igualdad.</p>
+          <p class="parrafo">A cada uno de estos representantes le corresponderán tres votos.</p>
+          <p class="parrafo">e) Los doce representantes de las Iglesias, Confesiones y Comunidades religiosas o Federaciones de las mismas. A cada uno de estos representantes le corresponderá dos votos.</p>
+          <p class="parrafo">f)	Las seis personas de reconocida competencia en el campo de la libertad religiosa. A cada una de ellas le corresponderán cuatro votos.</p>
+          <p class="parrafo_2">2. El Pleno es el órgano competente para el desempeño de las funciones enumeradas en el artículo 3.</p>
+          <p class="parrafo">3. Deberán ser convocadas a las reuniones del Pleno las Comunidades Autónomas que tengan estatutariamente atribuidas competencias en materia de relaciones con las entidades religiosas, cuando se traten asuntos que les afecten. Cada una de ellas podrá designar un representante para asistir con voz pero sin voto.</p>
+          <p class="parrafo">Cuando en razón de las materias incluidas en el orden del día el Presidente lo considere oportuno, las Comunidades Autónomas no incluidas en el párrafo anterior, así como la Federación Española de Municipios y Provincias, podrán ser convocadas a las reuniones del Pleno y asistir a las mismas con voz pero sin voto, mediante la designación de un representante.</p>
+          <p class="parrafo">4. Podrán ser convocadas a las reuniones del Pleno y asistirán a las mismas, con voz pero sin voto, aquellas personas que, a juicio del Presidente o a propuesta de la mayoría del Pleno, puedan aportar información relevante sobre un asunto preciso.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Artículo 15. Pleno.</p>
+          <p class="parrafo">1. A efectos de mantener la paridad, el Pleno estará compuesto por las siguientes personas:</p>
+          <p class="parrafo_2">a) El Presidente, al que corresponderán tres votos.</p>
+          <p class="parrafo">b) El Vicepresidente, que asistirá a las reuniones con voz pero sin voto cuando el Presidente asista a las reuniones del Pleno.</p>
+          <p class="parrafo">c) El Secretario, que asistirá con voz pero sin voto.</p>
+          <p class="parrafo">d) Un representante, con categoría de Director/a General o asimilado, propuesto por cada uno de los departamentos ministeriales a los que se refiere el artículo 8.a).</p>
+          <p class="parrafo">A cada uno de estos representantes le corresponderán tres votos.</p>
+          <p class="parrafo">e) Los doce representantes de las Iglesias, Confesiones y Comunidades religiosas o Federaciones de las mismas. A cada uno de estos representantes le corresponderá dos votos.</p>
+          <p class="parrafo">f) Las seis personas de reconocida competencia en el campo de la libertad religiosa. A cada una de ellas le corresponderán cuatro votos.</p>
+          <p class="parrafo_2">2. El Pleno es el órgano competente para el desempeño de las funciones enumeradas en el artículo 3.</p>
+          <p class="parrafo">3. Deberán ser convocadas a las reuniones del Pleno las Comunidades Autónomas que tengan estatutariamente atribuidas competencias en materia de relaciones con las entidades religiosas, cuando se traten asuntos que les afecten. Cada una de ellas podrá designar un representante para asistir con voz pero sin voto.</p>
+          <p class="parrafo">Cuando en razón de las materias incluidas en el orden del día el Presidente lo considere oportuno, las Comunidades Autónomas no incluidas en el párrafo anterior, así como la Federación Española de Municipios y Provincias, podrán ser convocadas a las reuniones del Pleno y asistir a las mismas con voz pero sin voto, mediante la designación de un representante.</p>
+          <p class="parrafo">4. Podrán ser convocadas a las reuniones del Pleno y asistirán a las mismas, con voz pero sin voto, aquellas personas que, a juicio del Presidente o a propuesta de la mayoría del Pleno, puedan aportar información relevante sobre un asunto preciso.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra d) del apartado 1 por el art. único.9 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 16. Funcionamiento del Pleno.</p>
+          <p class="parrafo">1. El Pleno se reunirá dos veces al año en sesión ordinaria. En sesión extraordinaria, podrá reunirse cuantas veces lo considere necesario su Presidente, por propia iniciativa o cuando así lo soliciten la mayoría de sus miembros.</p>
+          <p class="parrafo">2. Las convocatorias del Pleno deberán hacerse con al menos quince días de antelación, expresándose en las mismas los asuntos a tratar, el lugar, la fecha y la hora de celebración. Cuando sea necesario convocar el Pleno por motivos de urgencia, el plazo de la convocatoria podrá reducirse a siete días.</p>
+          <p class="parrafo">3. La documentación que resulte precisa para el desarrollo adecuado de los asuntos a tratar por la Comisión serán remitidos por la Secretaría a los Vocales con al menos siete días de antelación.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 17. Comisión Permanente.</p>
+          <p class="parrafo">1. A efectos de mantener la paridad, la Comisión Permanente estará compuesta por las siguientes personas:</p>
+          <p class="parrafo_2">a) El Vicepresidente, al que corresponderá un voto.</p>
+          <p class="parrafo">b) El Secretario.</p>
+          <p class="parrafo">c) Nueve Vocales, designados por el Pleno, repartidos del modo siguiente:</p>
+          <p class="parrafo_2">i. Tres representantes de la Administración General del Estado. A cada uno de estos representantes le corresponderá un voto.</p>
+          <p class="parrafo">ii. Cuatro representantes de las entidades religiosas, de los cuales al menos tres serán de confesiones religiosas con Acuerdo con el Estado. A cada uno de estos representantes le corresponderá un voto.</p>
+          <p class="parrafo">iii. Dos personas de reconocida competencia en la materia. A cada una de ellas le corresponderán dos votos.</p>
+          <p class="parrafo_2">2. La Comisión Permanente será presidida por el Vicepresidente de la Comisión.</p>
+          <p class="parrafo">3. Serán funciones de la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Elevar al Pleno, con su parecer, los estudios e informes de los Grupos de Trabajo, así como las propuestas de acuerdos que considere necesarias.</p>
+          <p class="parrafo">b) Conocer de los asuntos que el Vicepresidente someta a su consideración por su carácter urgente, sin perjuicio de informar posteriormente al Pleno.</p>
+          <p class="parrafo">c) Aquellas funciones que acuerde delegarle el Pleno.</p>
+          <p class="parrafo_2">4. Deberán ser convocadas a las reuniones de la Comisión Permanente las Comunidades Autónomas que tengan estatutariamente atribuidas competencias en materia de relaciones con las entidades religiosas, cuando se traten asuntos que les afecten. Cada una de ellas podrá designar un representante para asistir con voz pero sin voto.</p>
+          <p class="parrafo">Cuando en razón de las materias incluidas en el orden del día el Vicepresidente lo considere oportuno, las Comunidades Autónomas no incluidas en el párrafo anterior, así como la Federación Española de Municipios y Provincias, podrán ser convocadas a las reuniones de la Comisión Permanente y asistir a las mismas con voz pero sin voto, mediante la designación de un representante.</p>
+          <p class="parrafo">5. Podrán ser convocadas a las reuniones de la Comisión Permanente, y asistirán a las mismas con voz pero sin voto, aquellas personas que, a juicio del Vicepresidente o a propuesta de la mayoría de la Permanente, puedan aportar información relevante sobre un asunto preciso.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 18. Funcionamiento de la Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente se reunirá cuantas veces lo considere necesario su Presidente, por propia iniciativa o cuando así lo soliciten la mayoría de sus miembros.</p>
+          <p class="parrafo">2. Las convocatorias de la Comisión Permanente deberán hacerse con al menos siete días de antelación, expresándose en las mismas los asuntos a tratar, el lugar, la fecha y la hora de celebración. Cuando sea necesario convocar la Comisión Permanente por motivos de urgencia, el plazo de la convocatoria podrá reducirse a dos días.</p>
+          <p class="parrafo">3. La documentación que resulte precisa para el desarrollo adecuado de los asuntos a tratar por la Comisión serán remitidos por la Secretaría a los Vocales con al menos dos días de antelación.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 19. Quórum.</p>
+          <p class="parrafo">1. El quórum para la válida constitución del Pleno será, en primera convocatoria, el de la mayoría absoluta de sus miembros. Si no existiera quórum suficiente se constituirá en segunda convocatoria, siendo necesaria la asistencia de la tercera parte de sus miembros para adoptar válidamente acuerdos. El mismo quórum será aplicable a la Comisión Permanente.</p>
+          <p class="parrafo">2. El Pleno y la Comisión Permanente deliberarán sobre los asuntos contenidos en el orden del día. Los acuerdos serán adoptados por mayoría de votos. En caso de empate, decidirá el voto del Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Artículo 20. Grupos de Trabajo.</p>
+          <p class="parrafo">1. La Comisión, a propuesta del Presidente o Vicepresidente, o a iniciativa de sus vocales, podrá constituir Grupos de Trabajo especializados, de carácter temporal, que estime necesarios para el desempeño de sus funciones.</p>
+          <p class="parrafo">2. Su composición vendrá determinada por la materia objeto de estudio o informe. El número de sus miembros, que no será superior a cinco, se determinará en función de los asuntos a tratar. Los Grupos de Trabajo estarán presididos por un miembro de la Comisión designado por el Presidente o, en su caso, por el Vicepresidente y el Secretario de la Comisión asistirá a sus reuniones con voz pero sin voto.</p>
+          <p class="parrafo">A las sesiones de los Grupos de Trabajo podrán asistir como invitadas personas vinculadas con las entidades religiosas o expertas en los asuntos que sean objeto de estudio, designadas por el Presidente a propuesta del mismo o de la mayoría de los vocales, con voz pero sin voto.</p>
+          <p class="parrafo">3. Los informes o propuestas elaborados por el Grupo de Trabajo se elevarán a la Comisión Permanente, que podrá aprobarlos o devolverlos para nuevo estudio.</p>
+          <p class="parrafo">4. El Presidente o, en su caso, el Vicepresidente de la Comisión podrá calificar de urgente el asunto sometido al estudio del Grupo de Trabajo, en cuyo caso la composición de éste podrá ser determinada por la Comisión Permanente, y los informes o propuestas de acuerdo que elabore podrán elevarse directamente al Pleno de la Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Disposición adicional única. Comunicación y publicidad electrónica.</p>
+          <p class="parrafo">A fin de dar cumplimiento a la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos, la Comisión promoverá la utilización de medios electrónicos, y en especial la comunicación, información y documentación a los Vocales de la Comisión por los procedimientos electrónicos previstos en la misma.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Disposición adicional única. Comunicación y publicidad electrónica.</p>
+          <p class="parrafo">
+            <strong>(Suprimida).</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se suprime por el art. único.10 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Disposición transitoria única. Continuidad de los miembros de la anterior Comisión Asesora de Libertad Religiosa.</p>
+          <p class="parrafo">La Comisión constituida en virtud del Real Decreto 1159/2001, de 26 de octubre, por el que se regula la Comisión Asesora de Libertad Religiosa, continuará ejerciendo sus funciones hasta la constitución de la nueva Comisión prevista en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 1159/2001, de 26 de octubre, por el que se regula la Comisión Asesora de Libertad Religiosa, y la Orden JUS/1375/2002, de 31 de mayo, sobre organización y competencias de la Comisión Asesora de Libertad Religiosa.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Disposición final primera. Gastos de organización y funcionamiento.</p>
+          <p class="parrafo">1. La organización y funcionamiento de la Comisión Asesora de Libertad Religiosa, incluida su Secretaría, será atendida con los medios personales, técnicos y presupuestarios asignados a la Dirección General de Cooperación Jurídica Internacional y Relaciones con las Confesiones.</p>
+          <p class="parrafo">2. Las medidas incluidas en este real decreto no podrán suponer incremento ni de dotaciones ni de retribuciones ni de otros gastos de personal.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Disposición final primera. Gastos de organización y funcionamiento.</p>
+          <p class="parrafo">1. La organización y funcionamiento de la Comisión Asesora de Libertad Religiosa, incluida su Secretaría, será atendida con los medios personales, técnicos y presupuestarios asignados a la Subsecretaría de la Presidencia, Relaciones con las Cortes y Memoria Democrática.</p>
+          <p class="parrafo">2. Las medidas incluidas en este real decreto no podrán suponer incremento ni de dotaciones ni de retribuciones ni de otros gastos de personal.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.11 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Disposición final segunda. Desarrollo normativo.</p>
+          <p class="parrafo">Se autoriza al Ministro de Justicia para, previo el cumplimiento de los trámites legales oportunos, dictar las disposiciones necesarias para el desarrollo de este real decreto.</p>
+        </version>
+        <version id_norma="BOE-A-2021-8751" fecha_publicacion="20210526" fecha_vigencia="20210527">
+          <p class="articulo">Disposición final segunda. Desarrollo normativo.</p>
+          <p class="parrafo">Se autoriza a la persona titular del Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática para, previo cumplimiento de los trámites legales oportunos, dictar las disposiciones necesarias para el desarrollo de este real decreto.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.12 del Real Decreto 371/2021, de 25 de mayo. <a class="refPost">Ref. BOE-A-2021-8751</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2013-13069" fecha_publicacion="20131216" fecha_vigencia="20131217">
+          <p class="parrafo_2">Dado en Madrid, el 29 de noviembre de 2013.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Justicia,</p>
+          <p class="firma_ministro">ALBERTO RUIZ-GALLARDÓN JIMÉNEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

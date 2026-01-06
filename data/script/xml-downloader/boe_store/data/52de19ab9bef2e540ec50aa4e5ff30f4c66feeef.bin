@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T151036Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-26034</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1290">Ley Orgánica</rango>
+      <fecha_disposicion>19971204</fecha_disposicion>
+      <numero_oficial>5/1997</numero_oficial>
+      <titulo>Ley Orgánica 5/1997, de 4 de diciembre, de Reforma de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19971205</fecha_publicacion>
+      <diario_numero>291</diario_numero>
+      <fecha_vigencia>19971206</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/lo/1997/12/04/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-26034</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="78">Administración de Justicia</materia>
+        <materia codigo="629">Carrera Judicial</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1985-12666</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>la Ley Orgánica 6/1985, de 1 de julio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-1999-10902</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la disposición transitoria tercera, por Ley Orgánica 13/1999 de 14 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-26034</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/78"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/629"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-26034</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/78"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/629"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19990515"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19971205"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 5/1997, de 4 de diciembre, de Reforma de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei orgànica 5/1997, de 4 de desembre, de reforma de la Llei orgànica 6/1985, d'1 de juliol, del poder judicial. («BOE» 291, de 5-12-1997.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19990515">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-26034</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/78"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/629"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19990515/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 5/1997, de 4 de diciembre, de Reforma de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19990515"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19990515/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19990515/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19971205">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-26034</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/78"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/629"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19971205/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 5/1997, de 4 de diciembre, de Reforma de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19971205"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19971205/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/1997/12/04/5/con/19971205/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="centro_redonda">JUAN CARLOS I</p>
+          <p class="centro_redonda">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley Orgánica.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">La presente Ley se propone reformar la regulación de dos materias de muy distinta naturaleza, pero que coinciden en la necesidad de un cambio legal urgente. De un lado, un importante aspecto del tratamiento procesal de la nulidad de actuaciones, que la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, innovó decisivamente con carácter general. Por otro lado, aquellas normas sobre situaciones administrativas del personal de la Administración de Justicia, en especial las del estatuto de los Jueces y Magistrados que se refieren al desempeño por éstos de cargos públicos de carácter político ajenos a la Administración de Justicia.</p>
+          <p class="centro_redonda">1</p>
+          <p class="parrafo_2">Resulta apremiante superar la indeseable situación, muchas veces repetida, resultante del tenor literal del apartado 2 del artículo 240 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, en virtud del cual no existe cauce para declarar la nulidad radical de actuaciones por vicio procesal una vez que «hubiere recaído sentencia definitiva».</p>
+          <p class="parrafo">Los problemas plantados, las sucesivas posturas del Tribunal Constitucional en distintas sentencias y la ya larga persistencia de una situación muy grave para los justiciables y también sumamente inconveniente, en otro orden de cosas, para el propio Tribunal Constitucional, aconsejan vivamente ofrecer aquí solución inmediata al perturbador estado de cosas actual.</p>
+          <p class="parrafo">La Ley opta por establecer un sencillo incidente para tratar exclusivamente los vicios formales que generen indefensión y nulidad y que no sea posible denunciar por vía de recursos ni antes de dictar sentencia o resolución irrecurrible.</p>
+          <p class="parrafo">Con esta reforma queda planteada, en términos más razonables, la cuestión del desarrollo legal del apartado 2 del artículo 53 de la Constitución, acerca de la tutela judicial ordinaria, por cauces preferentes y sumarios de los derechos fundamentales.</p>
+          <p class="centro_redonda">2</p>
+          <p class="parrafo_2">Entre las características propias de quienes tienen encomendado el ejercicio de la jurisdicción, la Constitución Española consagra la independencia y la imparcialidad. La presente Ley quiere reforzar la protección de esos valores de la Administración de Justicia y evitar al máximo lo que pueda objetivamente perjudicarlos o dejarlos en entredicho ante la pública opinión.</p>
+          <p class="parrafo">Las nuevas disposiciones que esta Ley introduce en el estatuto judicial encuentran una justificación objetiva y razonable en las peculiaridades de la potestad jurisdiccional encomendada en exclusiva a los singulares servidores públicos que son los Jueces y Magistrados, miembros de la Carrera Judicial. Por tanto, se respetan escrupulosamente los principios y derechos reconocidos en los artículos 14 y 23 de nuestra Norma Fundamental.</p>
+          <p class="parrafo">Tres son las innovaciones principales que la presente Ley contiene en relación con el estatuto de los Jueces y Magistrados.</p>
+          <p class="parrafo">En primer lugar, se reducen sustancialmente los cargos públicos cuyo desempeño por Jueces y Magistrados comportará la situación de servicios especiales, con reserva de plaza, a la que volver al cesar en dichos cargos. Así no pasarán ya a la referida situación de servicios especiales ni los miembros de los Gobiernos nacional y autonómicos, ni los Secretarios de Estado, Subsecretarios y Secretarios generales, como tampoco los Diputados, Senadores o miembros de las Asambleas Legislativas Autonómicas. Tampoco comportará la situación de servicios especiales el nombramiento para cargo en la Presidencia del Gobierno. Se mantiene, sin embargo, esa situación para algunos casos en que, dada la naturaleza y contenido funcional del cargo y su categoría, así parece razonable.</p>
+          <p class="parrafo">En segundo término, se dispone que, salvo las aludidas excepciones, los Jueces y Magistrados que sean elegidos miembros de una Cámara legislativa o de una Corporación municipal y los que desempeñen cargos políticos o de confianza hayan de pasar tres años de excedencia forzosa antes de reintegrarse al servicio en plaza o destino que comporte el ejercicio de la potestad jurisdiccional.</p>
+          <p class="parrafo">Podría haberse optado, en esta Ley, por asignarles un destino en el que no hayan de juzgar ni hacer ejecutar lo juzgado, pero eso supondría otorgarles una prima poco razonable respecto de los demás miembros de la Carrera Judicial a quienes les interese legítimamente ocupar una de tales plazas (del Registro Civil, por ejemplo). La Ley se limita, por tanto, a disponer que puedan concursar a plaza o destino sin contenido propiamente jurisdiccional, volviendo así al servicio activo. Y con la sujeción, en todo caso, a completar el período de tres años sin ejercer jurisdicción.</p>
+          <p class="parrafo">En tercer lugar, una vez asegurado, con esas disposiciones, un mayor distanciamiento entre el quehacer público no judicial y el ejercicio de la potestad jurisdiccional, la Ley establece una nueva causa de abstención y recusación, que incrementa las posibilidades de este clásico mecanismo garantizador de la imparcialidad.</p>
+          <p class="parrafo">En congruencia con lo anterior, el mismo régimen de situación administrativa, que se regula para los Jueces y Magistrados que han desarrollado las actividades descritas, debe ser aplicado a quienes, provenientes de los puestos de naturaleza política que se expresan en la Ley, accedan por cualquier procedimiento a la Carrera Judicial.</p>
+          <p class="parrafo">La Ley establece también un sistema de promoción de categoría para los Secretarios Judiciales similar al de los Jueces, así como la posibilidad de atender, en régimen de provisión temporal, Secretarías vacantes por haber quedado desierta la plaza convocada a concurso de traslado o no ocuparla su titular por encontrarse en situación administrativa legalmente autorizada.</p>
+        </version>
+      </bloque>
+      <bloque id="aprimero" tipo="precepto" titulo="Artículo primero">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Artículo primero.</p>
+          <p class="parrafo_2">Se modifica el apartado 2 del artículo 240 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, y se añaden al mismo los apartados 3 y 4 en los siguientes términos:</p>
+          <p class="sangrado_2">«2. Sin perjuicio de ello, el Juez o Tribunal podrá, de oficio o a instancia de parte, antes de que hubiere recaído sentencia definitiva o resolución que ponga fin al proceso, y siempre que no proceda la subsanación, declarar, previa audiencia de las partes, la nulidad de todas las actuaciones o de alguna en particular.</p>
+          <p class="sangrado">3. No se admitirá el incidente de nulidad de actuaciones. Sin embargo, excepcionalmente, quienes sean parte legítima podrán pedir por escrito que se declare la nulidad de actuaciones fundada en defectos de forma, que hubieran causado indefensión o en la incongruencia del fallo, siempre que los primeros no haya sido posible denunciarlos antes de recaer sentencia o resolución que ponga fin al proceso y que éstas no sean susceptibles de recurso en el que quepa reparar la indefensión sufrida.</p>
+          <p class="sangrado">Será competente para conocer de este incidente el mismo Juzgado o Tribunal que dictó la sentencia o resolución que hubiere adquirido firmeza. El plazo para pedir la nulidad será de veinte días, desde la notificación de la sentencia, la resolución o, en todo caso, desde que se tuvo conocimiento del defecto causante de indefensión, sin que, en este último supuesto, pueda solicitarse la nulidad de actuaciones después de transcurridos cinco años desde la notificación de la sentencia o resolución. El Juzgado o Tribunal inadmitirá a trámite cualquier incidente en el que se pretenda suscitar otras cuestiones.</p>
+          <p class="sangrado">4. Admitido a trámite el escrito en que se pida la nulidad fundada en los vicios a que se refiere el apartado 3 de este artículo, no quedará en suspenso la ejecución y eficacia de la sentencia o resolución irrecurribles, salvo que se acuerde de forma expresa para evitar que el incidente pudiera perder su finalidad, y se dará traslado de dicho escrito, junto con copia de los documentos que se acompañasen, en su caso, para acreditar el vicio o defecto en que la petición se funde, a las demás partes, que en el plazo común de cinco días podrán formular por escrito sus alegaciones, a las que acompañarán los documentos que estimen pertinentes.»</p>
+        </version>
+      </bloque>
+      <bloque id="asegundo" tipo="precepto" titulo="Artículo segundo">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Artículo segundo.</p>
+          <p class="parrafo_2">Se modifican los preceptos de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, que seguidamente se relacionan, y que quedan redactados en los siguientes términos:</p>
+          <p class="sangrado_articulo">«Artículo 351.</p>
+          <p class="sangrado_2">c) Cuando sean adscritos al servicio del Tribunal Constitucional o del Defensor del Pueblo u órgano equivalente de las Comunidades Autónomas.</p>
+          <p class="sangrado_articulo">Artículo 352.</p>
+          <p class="sangrado_2">Los Jueces y Magistrados pasarán también a la situación de servicios especiales:</p>
+          <p class="sangrado_2">a) Cuando sean nombrados Presidente del Tribunal Supremo o Vocales del Consejo General del Poder Judicial, Fiscal General del Estado, Magistrados del Tribunal Constitucional, Defensor del Pueblo, Consejeros del Tribunal de Cuentas, Presidente y Consejeros Permanentes del Consejo de Estado, Presidente y Vocales del Tribunal de Defensa de la Competencia o miembros de Tribunales internacionales.</p>
+          <p class="sangrado">b) Cuando sean nombrados Letrados del Consejo General del Poder Judicial, Letrados del Tribunal Constitucional o Letrados del Tribunal Supremo.</p>
+          <p class="sangrado">c) Cuando presten servicio, en virtud de nombramiento por Real Decreto, en cargos relacionados con la Administración de Justicia que no tengan rango superior al de Director general, en cualquier Departamento ministerial.</p>
+          <p class="sangrado">d) Cuando desempeñen dichas funciones en órganos equivalentes de las Comunidades Autónomas.»</p>
+          <p class="sangrado_articulo">«Artículo 354.</p>
+          <p class="sangrado_2">1. Los Jueces y Magistrados que sean nombrados para cargo político o de confianza, salvo los contemplados en el artículo 352, deberán comunicar al Consejo General del Poder Judicial la aceptación o la renuncia al cargo para el que hubieren sido nombrados dentro de los ocho días hábiles siguientes a la publicación del nombramiento en el «Boletín Oficial del Estado» o de la Comunidad Autónoma.</p>
+          <p class="sangrado">2. La aceptación o la toma de posesión del expresado cargo determinará el pase a la situación de excedencia voluntaria.</p>
+          <p class="sangrado_articulo">Artículo 355.</p>
+          <p class="sangrado_2">Quienes estén en situación de servicios especiales, deberán incorporarse a su plaza o a la que durante esta situación hubieren obtenido, dentro del plazo de veinte días, a contar desde el siguiente al del cese en el cargo o desde la fecha de finalización de la licencia. De no hacerlo así, pasarán automáticamente a la situación de excedencia voluntaria por interés particular.</p>
+          <p class="sangrado_articulo">Artículo 356, apartado 1.</p>
+          <p class="sangrado_2">1. Además de lo dispuesto sobre excedencia forzosa en los apartados 4 y 5 del artículo siguiente, esta situación se producirá por supresión de la plaza de que sea titular el Juez o Magistrado, cuando signifique el cese obligado en el servicio activo.</p>
+          <p class="sangrado_articulo">Artículo 357, apartados 1, 3, 4, 5 y 6.</p>
+          <p class="sangrado_2">1. Procederá declarar en situación de excedencia voluntaria a los miembros de la Carrera Judicial cuando se encuentren en situación de servicio activo en un Cuerpo o Escala de las Administraciones Públicas o de la Carrera Fiscal, o pasen a prestar servicios en organismos o entidades del sector público, y no les corresponda quedar en otra situación, También se declarará en excedencia voluntaria a los Jueces y Magistrados que pasen a desempeñar cargos no judiciales distintos de los relacionados en el artículo 352.</p>
+          <p class="sangrado">3. Podrá concederse igualmente la excedencia voluntaria a los miembros de la Carrera Judicial cuando lo soliciten por interés particular. En este supuesto será preciso haber prestado servicios efectivos durante los cinco años inmediatamente anteriores y en ella no se podrá permanecer menos de dos años continuados.</p>
+          <p class="sangrado">4. Los miembros de la Carrera Judicial que deseen participar como candidatos en elecciones para acceder a cargos públicos representativos de ámbito europeo, general, autonómico o local, deberán solicitar la excedencia voluntaria, situación en la que quedarán en caso de ser elegidos.</p>
+          <p class="sangrado">Si no fuesen elegidos, quedarán en situación de excedencia forzosa durante tres años, durante los cuales no podrán reingresar al servicio activo, salvo que obtengan, mediante concurso, plaza o destino en que no haya de ejercerse la potestad jurisdiccional. En dicha plaza o destino permanecerán hasta completar los referidos tres años.</p>
+          <p class="sangrado">5. El mismo régimen del párrafo segundo del apartado anterior será de aplicación a los Jueces y Magistrados que finalicen su mandato como miembros de Cámaras y Asambleas Legislativas o de Corporaciones municipales y a los que cesen en el desempeño de cargos políticos o de confianza, distintos de los relacionados en el artículo 352.</p>
+          <p class="sangrado">6. Quienes accedan a la carrera judicial tras finalizar su mandato como miembros de Cámaras y Asambleas Legislativas o de Corporaciones locales, o tras cesar en el desempeño de cargos políticos o de confianza distintos de los relacionados en el artículo 352, quedarán en situación de excedencia forzosa, siempre que no hayan transcurrido tres años desde la finalización del mandato o el cese, respectivamente, y hasta que se cumpla dicho plazo.</p>
+          <p class="sangrado_articulo">Artículo 358.</p>
+          <p class="sangrado_2">1. Los Jueces y Magistrados en excedencia voluntaria por interés particular, por hallarse en servicio activo en otro Cuerpo o Escala de las Administraciones Públicas o de la Carrera Fiscal por ser miembros de las Cámaras y Asambleas Legislativas o de Corporaciones locales, o por desempeñar cargos políticos o de confianza distintos de los relacionados en el artículo 352, no devengarán retribuciones ni les será computado el tiempo que han permanecido en tal situación a efectos de ascensos o antigüedad.</p>
+          <p class="sangrado">2. Excepcionalmente, se computará, a efectos de ascensos y antigüedad, el tiempo en que los Jueces y Magistrados se encuentren en excedencia voluntaria por atender al cuidado de sus hijos.»</p>
+        </version>
+      </bloque>
+      <bloque id="atercero" tipo="precepto" titulo="Artículo tercero">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Artículo tercero.</p>
+          <p class="parrafo_2">Se suprime el apartado 2 del artículo 353 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, que quedará compuesto por un apartado único, no numerado, de igual tenor literal que el apartado 1 de la redacción originaria de dicho artículo 353.</p>
+        </version>
+      </bloque>
+      <bloque id="acuao" tipo="precepto" titulo="Artículo cuarto">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Artículo cuarto.</p>
+          <p class="parrafo_2">Uno. En el artículo 219 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, se añade un número nuevo, del siguiente tenor:</p>
+          <p class="sangrado_2">«12.<sup>o</sup> Haber ocupado el Juez o Magistrado cargo público con ocasión del cual haya podido formar criterio, en detrimento de la debida imparcialidad, sobre el objeto del pleito o causa, sobre las partes, sus representantes y asesores.»</p>
+          <p class="parrafo_2">Dos. En el artículo 220 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, se añadirá, «in fine», la mención del nuevo número 12.<sup>o</sup> del artículo 219.</p>
+        </version>
+      </bloque>
+      <bloque id="aquinto" tipo="precepto" titulo="Artículo quinto">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Artículo quinto.</p>
+          <p class="parrafo_2">Se introducen las siguientes modificaciones en la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial:</p>
+          <p class="parrafo_2">Uno. Se adiciona la frase «y, para el Tribunal Supremo, quienes no tengan, como mínimo, quince años de experiencia jurídica», al final del apartado 2 del artículo 201.</p>
+          <p class="parrafo">Dos. El texto actual del artículo 299, se convierte en apartado 1 del mismo, añadiéndose dos nuevos apartados, redactados de la forma siguiente:</p>
+          <p class="sangrado_2">«2. Los Magistrados del Tribunal Supremo, sin perjuicio de su pertenencia a la Carrera Judicial, tendrá el estatuto especial regulado en la presente Ley Orgánica.</p>
+          <p class="sangrado">3. Sólo adquirirán la categoría de Magistrado del Tribunal Supremo quienes efectivamente pasen a ejercer funciones jurisdiccionales como miembros de este Tribunal.»</p>
+          <p class="parrafo_2">Tres. El artículo 335 de la Ley que dará redactado así:</p>
+          <p class="sangrado_2">«1. Las plazas de Presidente de Sala de la Audiencia Nacional se proveerán, a propuesta del Consejo General del Poder Judicial, entre Magistrados, en los términos establecidos en esta Ley para los Presidentes de los Tribunales Superiores de Justicia.</p>
+          <p class="sangrado">2. La Presidencia de la Audiencia Nacional se proveerá por el Consejo General del Poder Judicial, por un período de cinco años, entre Magistrados con quince años de servicios prestados en la categoría, que reúnan las condiciones idóneas para el cargo, en los términos previstos en esta Ley para los Presidentes de los Tribunales Superiores de Justicia.</p>
+          <p class="sangrado">3. La plaza de Jefe del Servicio de Inspección del Consejo General del Poder Judicial se proveerá entre Magistrados en los términos establecidos en esta Ley para los Presidentes de Tribunales Superiores de Justicia.»</p>
+          <p class="parrafo_2">Cuatro. El artículo 342 de la Ley quedará redactado así:</p>
+          <p class="sangrado_2">«Los Presidentes de Sala del Tribunal Supremo se nombrarán, por un período de cinco años, a propuesta del Consejo General del Poder Judicial, entre Magistrados de dicho Tribunal que cuenten con tres años de servicios en la categoría.»</p>
+          <p class="parrafo_2">Cinco. El artículo 348 de la Ley quedará redactado así:</p>
+          <p class="sangrado_2">«1. Los Jueces y Magistrados pueden hallarse en alguna de las situaciones siguientes:</p>
+          <p class="sangrado_2">a) Servicio activo.</p>
+          <p class="sangrado">b) Servicios especiales.</p>
+          <p class="sangrado">c) Excedencia voluntaria o forzosa.</p>
+          <p class="sangrado">d) Suspensión.</p>
+          <p class="sangrado_2">2. Los Magistrados del Tribunal Supremo pueden hallarse en dichas situaciones en los siguientes términos:</p>
+          <p class="sangrado_2">a) Servicio activo.</p>
+          <p class="sangrado">b) Servicios especiales, que sólo les será aplicable en los supuestos a que se refiere el artículo 348 bis de esta Ley.</p>
+          <p class="sangrado">c) El paso a la situación de excedencia voluntaria o forzosa llevará consigo la inclusión en la categoría de Magistrado.</p>
+          <p class="sangrado">d) Suspensión.»</p>
+          <p class="parrafo_2">Seis. Se añade un nuevo artículo 348 bis, el cual quedará redactado así:</p>
+          <p class="sangrado_2">«Se pasará de la categoría de Magistrado del Tribunal Supremo a la de Magistrado al desempeñar cualesquiera otras actividades públicas o privadas con las únicas excepciones que a continuación se señalan:</p>
+          <p class="sangrado_2">1. Vocal del Consejo General del Poder Judicial.</p>
+          <p class="sangrado">2. Magistrado del Tribunal Constitucional.</p>
+          <p class="sangrado">3. Miembro de Altos Tribunales de Justicia internacionales.»</p>
+          <p class="parrafo_2">Siete. Se añade un nuevo apartado 3 al artículo 350 de la Ley, el cual quedará redactado así:</p>
+          <p class="sangrado_2">«3. Los Magistrados del Tribunal Supremo sólo podrán desempeñar fuera del mismo las funciones de Presidente de Tribunales de oposiciones a ingreso en la Carrera Judicial y de miembros de la Junta Electoral Central.»</p>
+          <p class="parrafo_2">Ocho. Se añade un nuevo artículo 404 bis, el cual quedará redactado así:</p>
+          <p class="sangrado_2">«De conformidad con el principio de supremacía jurisdiccional que se recoge en el artículo 123 de la Constitución y de acuerdo con el carácter de magistratura de ejercicio contemplado en la presente Ley, las remuneraciones de los Magistrados del Tribunal Supremo se establecerán en cuantía similar a las de los titulares de otros altos Órganos Constitucionales, atendiendo a la naturaleza de sus funciones.»</p>
+        </version>
+      </bloque>
+      <bloque id="asexto" tipo="precepto" titulo="Artículo sexto">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Artículo sexto.</p>
+          <p class="parrafo">Uno. El artículo 304 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, queda redactado de la siguiente forma:</p>
+          <p class="sangrado_2">«El Tribunal que evaluará las pruebas de ingreso en la Carrera Judicial por la categoría de Juez estará presidido por el Presidente del Tribunal Supremo o Magistrado del Tribunal Superior de Justicia en quien delegue, y serán Vocales: dos Magistrados, un Fiscal, dos Catedráticos de Universidad de distintas disciplinas jurídicas, un Abogado con más de diez años de ejercicio profesional, un Abogado del Estado, un Secretario Judicial de primera categoría y un miembro de los órganos técnicos del Consejo General del Poder Judicial, Licenciado en Derecho, que actuará como Secretario.</p>
+          <p class="sangrado">Cuando no sea posible designar los Catedráticos de Universidad, excepcionalmente podrán nombrarse Profesores titulares.»</p>
+          <p class="parrafo_2">Dos. El apartado 2 del artículo 480 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, queda redactado así:</p>
+          <p class="sangrado_2">«2. De cada tres vacantes que se produzcan en la segunda categoría, dos se proveerán mediante concurso, entre Secretarios de la tercera categoría, que se resolverá a favor del concursante que ostente el mejor puesto en el escalafón. La otra se cubrirá por medio de pruebas selectivas, entre Secretarios de la tercera categoría que hubieran prestado dos años de servicio en ella; si la plaza quedase desierta acrecerá al turno primero de concurso. Si en el concurso de promoción a la segunda categoría resultasen plazas desiertas, se cubrirán con carácter forzoso por los Secretarios de la tercera categoría, a partir de quien ocupe el primer lugar en el escalafón.»</p>
+          <p class="parrafo_2">Tres. El apartado 1 del artículo 482 de la misma Ley Orgánica queda redactado de la siguiente forma:</p>
+          <p class="sangrado_2">«1. Podrán cubrirse en régimen de provisión temporal las Secretarías que hayan de ser servidas por miembros del Cuerpo de Secretarios Judiciales de la última categoría que resulten desiertas en los concursos de traslado, hasta que se celebren nuevas pruebas de ingreso en dicho Cuerpo, siempre que no puedan atenderse adecuadamente mediante el mecanismo ordinario de sustitución o sus titulares estén en situación de servicios especiales o excedencia por cuidado de hijos.»</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo_2">Lo dispuesto por el artículo primero de esta Ley será también de aplicación a los procesos que hubiesen finalizado por resolución o sentencia irrecurrible dentro del mes anterior a la promulgación de la presente Ley. En tales casos, el plazo para solicitar la nulidad, establecido en el párrafo segundo del apartado 3 del artículo 240 de la Ley Orgánica del Poder Judicial, se contará a partir del día siguiente a dicha promulgación.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo_2">La aplicación de la presente Ley no comportará la revisión de las situaciones de servicios especiales y de excedencias ya reconocidas antes de su entrada en vigor para aquellos Jueces y Magistrados que se hallasen ocupando los cargos o desempeñando las funciones a que se refieren las normas legales modificadas por los artículos segundo y tercero de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo_2">1. Los Magistrados del Tribunal Supremo que a la entrada en vigor de esta Ley no estén prestando servicios en dicho Tribunal, cualquiera que sea la situación administrativa en que se encuentren, deberán solicitar, en el plazo de un año a partir de su entrada en vigor, la reincorporación al servicio activo en el Tribunal Supremo. A los que no lo hicieren les será de aplicación lo dispuesto en el artículo 348 bis de la Ley Orgánica del Poder Judicial.</p>
+          <p class="parrafo">2. Los que solicitaren el reingreso con arreglo a lo dispuesto en el apartado anterior y no pudieren ocupar vacantes quedarán adscritos a la Sala de Justicia que determine la Sala de Gobierno del Tribunal Supremo y ocuparán la primera vacante que se produzca en ella.</p>
+          <p class="parrafo">3. Los Presidentes de la Sala del Tribunal Supremo que actualmente ejerzan sus funciones continuarán en su desempeño hasta completar un plazo de cinco años desde su nombramiento. Para el caso de los que ya lo hubieran cumplido, se proveerá la plaza de nuevo en el plazo de un año a partir de la entrada en vigor de la presente Ley.</p>
+        </version>
+        <version id_norma="BOE-A-1999-10902" fecha_publicacion="19990515" fecha_vigencia="19990516">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo_2">1. Los Magistrados del Tribunal Supremo que a la entrada en vigor de esta Ley no estén prestando servicios en dicho Tribunal, cualquiera que sea la situación administrativa en que se encuentren, deberán solicitar, en el plazo de un año a partir de su entrada en vigor, la reincorporación al servicio activo en el Tribunal Supremo. A los que no lo hicieren les será de aplicación lo dispuesto en el artículo 348 bis de la Ley Orgánica del Poder Judicial.</p>
+          <p class="parrafo">2. Los que solicitaren el reingreso con arreglo a lo dispuesto en el apartado anterior y no pudieren ocupar vacantes quedarán adscritos a la Sala de Justicia que determine la Sala de Gobierno del Tribunal Supremo y ocuparán la primera vacante que se produzca en ella.</p>
+          <p class="parrafo">3. Los Presidentes de la Sala del Tribunal Supremo que actualmente ejerzan sus funciones continuarán en su desempeño hasta completar un plazo de cinco años desde su nombramiento. Para el caso de los que ya lo hubieran cumplido, se proveerá la plaza de nuevo en el plazo de un año a partir de la entrada en vigor de la presente Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Téngase en cuenta que el plazo de un año establecido en el apartado 1 queda modificado por la disposición adicional única.3 de la Ley Orgánica 13/1999, de 14 de mayo, en los términos previstos en su apartado 1. <a class="refPost">Ref. BOE-A-1999-10902</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dtcuaa" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Disposición transitoria cuarta.</p>
+          <p class="parrafo_2">En los Presupuestos Generales del Estado para 1998 se consignarán los créditos precisos para incrementar la retribución de los Magistrados del Tribunal Supremo, haciendo efectivo lo dispuesto en el nuevo artículo 404 bis de la Ley Orgánica del Poder Judicial.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo_2">La presente Ley Orgánica entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1997-26034" fecha_publicacion="19971205" fecha_vigencia="19971206">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta Ley Orgánica.</p>
+          <p class="parrafo_2">Madrid, 4 de diciembre de 1997.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ MARÍA AZNAR LÓPEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

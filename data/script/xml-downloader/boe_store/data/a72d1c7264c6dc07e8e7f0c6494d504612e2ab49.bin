@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T183909Z</fecha_actualizacion>
+      <identificador>BOE-A-2000-955</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1320">Real Decreto-ley</rango>
+      <fecha_disposicion>20000114</fecha_disposicion>
+      <numero_oficial>1/2000</numero_oficial>
+      <titulo>Real Decreto-ley 1/2000, de 14 de enero, sobre determinadas medidas de mejora de la protección familiar de la Seguridad Social.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20000117</fecha_publicacion>
+      <diario_numero>14</diario_numero>
+      <fecha_vigencia>20000118</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rdl/2000/01/14/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2000-955</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3599">Familia</materia>
+        <materia codigo="3602">Familias numerosas</materia>
+        <materia codigo="6499">Seguridad Social</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1994-14960</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley General de la Seguridad Social, texto refundido aprobado por Real Decreto Legislativo 1/1994, de 20 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2003-22716</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>los arts. 2 y 3, por Ley 52/2003, de 10 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-1185</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 17, de 20 de enero de 2000</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-14477</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>sobre prestaciones económicas por nacimiento de tercer o sucesivos hijos: Real Decreto 1368/2000, de 19 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-5584</id_norma>
+            <relacion codigo="301">SE PUBLICA  Acuerdo de convalidación</relacion>
+            <texto>, por Resolución de 1 de febrero de 2000</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-955</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-14</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3599"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3602"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-955</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3599"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3602"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/corrigendum/20000120/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20031211"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20000117"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto-ley 1/2000, de 14 de enero, sobre determinadas medidas de mejora de la protección familiar de la Seguridad Social.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET LLEI 1/2000, de 14 de gener, sobre determinades mesures de millora de la protecció familiar de la Seguretat Social.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-09</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL DECRETO LEI 1/2000, do 14 de xaneiro, sobre determinadas medidas de mellora da protección familiar da Seguridade Social.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-09</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20031211">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-955</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3599"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3602"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-12-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20031211/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto-ley 1/2000, de 14 de enero, sobre determinadas medidas de mejora de la protección familiar de la Seguridad Social.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20031211"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20031211/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20031211/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20000117">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rdl"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-955</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3599"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3602"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20000117/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto-ley 1/2000, de 14 de enero, sobre determinadas medidas de mejora de la protección familiar de la Seguridad Social.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20000117"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20000117/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rdl/2000/01/14/1/con/20000117/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 17, de 20 de enero de 2000. <a class="refPost">Ref. BOE-A-2000-1185</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="parrafo_2">La Constitución Española prevé, en su artículo 39, que los poderes públicos asegurarán la protección social, económica y jurídica a la familia, declaración que está en línea, entre otros, con la Carta Social Europea, que considera a la familia como elemento esencial de la sociedad, teniendo derecho a una protección, jurídica y económica adecuada, para lograr su desarrollo.</p>
+          <p class="parrafo">El apoyo a la familia, además de dar cumplimiento a las previsiones constitucionales, constituye una política prioritaria para todo Gobierno comprometido con la mejora de la calidad de vida de los ciudadanos. En tal sentido, la Subcomisión de Estudios del Congreso de los Diputados para analizar la situación de la familia en España instó al Gobierno, en el marco de sus conclusiones, a impulsar una política integral de apoyo a la familia.</p>
+          <p class="parrafo">En el marco de la protección a la familia, el sistema de la Seguridad Social contempla unas prestaciones económicas, por hijo a cargo, cuya cuantía está en función de la edad y las circunstancias de los hijos. No obstante, en el caso de hijos menores de 18 años, éstas prestaciones económicas han perdido parte de su significado protector, por cuanto que no se han actualizado desde su establecimiento en el año 1991.</p>
+          <p class="parrafo">A remediar tal situación, responde el contenido de la presente norma, mediante la cual, de una parte, se procede a la revisión, con vigencia desde el primero de enero de 1999, de las cuantías de las asignaciones económicas de la Seguridad Social por hijo a cargo menor de 18 años. Ello producirá que los beneficiarios de tales asignaciones económicas tengan derecho a percibir, en un pago único, las diferencias entre los importes que han percibido en dicho ejercicio y el que les corresponden de acuerdo con los nuevos importes. De igual modo, se procede a la revisión de tales asignaciones económicas para el ejercicio 2000. Las medidas anteriores implican dotar a las citadas asignaciones económicas de una mayor eficacia protectora, dentro de los objetivos y orientaciones de apoyo a la familia.</p>
+          <p class="parrafo">A su vez, se modifica el contenido protector de las prestaciones familiares a cargo de la Seguridad Social, mediante el establecimiento de dos nuevas prestaciones de pago único dirigidas, la primera de ellas, a las casos de nacimiento del tercer o posterior hijos y, la segunda, para los supuestos de parto múltiple. Estas prestaciones económicas tienen como finalidad compensar, en parte, los mayores gastos que se producen por nacimiento de hijo, en los casos de familias con menores recursos, o cuando, de forma simultánea, las familias han de cuidar de varios hijos por el hecho del parto múltiple.</p>
+          <p class="parrafo">El establecimiento de las medidas anteriores precisa norma con rango de ley. No obstante, a fin de propiciar la mejora de la situación económica de las familias y permitirles que puedan percibir los nuevos importes de las asignaciones económicas o, en su caso, ser beneficiarias de las nuevas prestaciones que se instauran, resulta necesaria la puesta en práctica de tales medidas en el menor tiempo posible.</p>
+          <p class="parrafo">En su virtud, siendo urgente la adopción de las medidas anteriormente expuestas y haciendo uso de la autorización contenida en el artículo 86 de la Constitución, a propuesta conjunta de los Ministros de Economía y Hacienda y de Trabajo y Asuntos Sociales y previa deliberación del Consejo de Ministros en su reunión del día 14 de enero de 2000,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="articulo">Artículo 1. Revisión de los importes de las asignaciones familiares de la Seguridad Social por hijo a cargo.</p>
+          <p class="parrafo">1. Con efecto desde 1 de enero de 1999, la cuantía de las asignaciones familiares de Seguridad Social por hijo a cargo menor de 18 años quede fijada en los siguientes importes:</p>
+          <p class="parrafo_2">a)	47.460 pesetas/año, en los casos de hijo a cargo no minusválido.</p>
+          <p class="parrafo">b)	94.860 pesetas/año, cuando el hijo tenga la condición de minusválido en un grado igual o superior al 33 por 100.</p>
+          <p class="parrafo_2">2. Los perceptores de las asignaciones por hijo a cargo menor de 18 años percibirán, en un pago único, la diferencia entre el importe de prestación que hubieran percibido en 1999 y el que resulte de aplicar lo dispuesto en el apartado anterior, en proporción a período de meses en que se haya percibido la asignación por hijo a cargo.</p>
+          <p class="parrafo">3. A partir de 1 de enero del año 2000, la cuantía de las asignaciones familiares señaladas en el apartado 1 queda fijada en los siguientes importes:</p>
+          <p class="parrafo_2">a)	48.420 pesetas/año, en los casos de hijo a cargo no minusválido.</p>
+          <p class="parrafo">b)	96.780 pesetas/año, cuando el hijo tenga la condición de minusválido en un grado igual o superior al 33 por 100.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="articulo">Artículo 2. Prestación económica por nacimiento de hijo.</p>
+          <p class="parrafo">1. Las familias que tengan dos o más hijos tendrán derecho, con motivo del nacimiento de un nuevo hijo, a una prestación económica del sistema de la Seguridad Social en la cuantía y en las condiciones que se establecen en los siguientes apartados.</p>
+          <p class="parrafo">2. La prestación económica consistirá en un pago único de 75.000 pesetas, por cada hijo nacido, a partir del tercero.</p>
+          <p class="parrafo">3. Serán beneficiarios de la prestación económica por nacimiento de hijo las personas, padre o madre o, en su defecto, la persona que reglamentariamente se establezca, que reúnan los requisitos establecidos en los artículos 181 y 183 de la Ley General de la Seguridad Social, cuando además, los ingresos percibidos no superen la cuantía que, en cada momento, esté establecida para ser beneficiario de las asignaciones económicas por hijo a cargo no minusválido.</p>
+          <p class="parrafo">En el supuesto de convivencia del padre y de la madre, si la suma de ingresos superare los límites señalados no se reconocerá la condición de beneficiario a ninguno de ellos.</p>
+        </version>
+        <version id_norma="BOE-A-2003-22716" fecha_publicacion="20031211" fecha_vigencia="20040101">
+          <p class="articulo">Artículo 2. Prestación económica por nacimiento de hijo.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria única.c) de la Ley 52/2003, de 10 de diciembre. <a class="refPost">Ref. BOE-A-2003-22716</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="articulo">Artículo 3. Prestación económica por parto múltiple.</p>
+          <p class="parrafo">1. Se establece en el sistema de la Seguridad Social una prestación económica de pago único, por parto múltiple, cuando el número de nacidos sea igual o superior a dos.</p>
+          <p class="parrafo">2. La cuantía de la prestación por parto múltiple será la siguiente:</p>
+          <table class="tabla" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="cabeza_tabla">Número</p>
+                  <p class="cabeza_tabla">de hijos nacidos</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Número de veces</p>
+                  <p class="cabeza_tabla">del importe mensual</p>
+                  <p class="cabeza_tabla">salario mínimo</p>
+                  <p class="cabeza_tabla">interprofesional</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">2</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">4</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">3</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">8</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">4 y más</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">12</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">3. Serán beneficiarios de la prestación económica por parto múltiple las personas, padre o madre o, en su defecto, la persona que reglamentariamente se establezca, que reúnan los requisitos establecidos en los artículos 181 y 183 de la Ley General de la Seguridad Social, si bien el reconocimiento y percibo de la misma no quedará supeditado a los ingresos de los benefiarios.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 1 conforme a la corrección de errores publicada en BOE núm. 17, de 20 de enero de 2000. <a class="refPost">Ref. BOE-A-2000-1185</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2003-22716" fecha_publicacion="20031211" fecha_vigencia="20040101">
+          <p class="articulo">Artículo 3. Prestación económica por parto múltiple.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria única.c) de la Ley 52/2003, de 10 de diciembre. <a class="refPost">Ref. BOE-A-2003-22716</a>.</p>
+            <p class="nota_pie">Redactado el apartado 1 conforme a la corrección de errores publicada en BOE núm. 17, de 20 de enero de 2000. <a class="refPost">Ref. BOE-A-2000-1185</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="articulo">Disposición adicional única. Financiación del pago único a los beneficiarios de las asignaciones económicas de la Seguridad Social por hijo a cargo.</p>
+          <p class="parrafo">Las obligaciones que se generen por la aplicación de lo dispuesto en el apartado 2 del artículo 1 serán financiadas, respectivamente, por el Presupuesto de la Seguridad Social y el Presupuesto del Estado, según viniesen siendo financiadas las asignaciones económicas por hijo a cargo en el ejercicio presupuestario de 1999.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogados cuantos preceptos se opongan a lo establecido en el presente Real Decreto-ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">Lo dispuesto en el presente Real Decreto-ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2000-955" fecha_publicacion="20000117" fecha_vigencia="20000118">
+          <p class="parrafo_2">Dado en Madrid a 14 de enero de 2000.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ MARÍA AZNAR LÓPEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200329Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-9450</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8080">Comunidad Autónoma de Extremadura</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20030320</fecha_disposicion>
+      <numero_oficial>5/2003</numero_oficial>
+      <titulo>Ley 5/2003, de 20 de marzo, de parejas de hecho de la Comunidad Autónoma de Extremadura.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030509</fecha_publicacion>
+      <diario_numero>111</diario_numero>
+      <fecha_vigencia>20030409</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ex/l/2003/03/20/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-9450</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3529">Extremadura</materia>
+        <materia codigo="3600">Familia de hecho</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  DOE núm. 42, de 8 de abril de 2003.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6190</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 6.2 b) del Estatuto aprobado por Ley Orgánica 1/1983, de 25 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ex"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9450</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-20</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3529"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3600"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ex"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9450</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3529"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3600"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/con/20030408"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2003, de 20 de marzo, de parejas de hecho de la Comunidad Autónoma de Extremadura.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-05-09</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/con/20030408">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ex"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-9450</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3529"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3600"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-04-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/con/20030408/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2003, de 20 de marzo, de parejas de hecho de la Comunidad Autónoma de Extremadura.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/con/20030408"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ex/l/2003/03/20/5/con/20030408/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ex/l/2003/03/20/5/con/20030408/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://doe.juntaex.es/eli/es-ex/l/2003/03/20/5"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="centro_redonda">EL PRESIDENTE DE LA JUNTA DE EXTREMADURA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que la Asamblea de Extremadura ha aprobado y yo, en nombre del Rey, de conformidad con lo establecido en el artículo 49.1 del Estatuto de Autonomía, vengo a promulgar la siguiente Ley.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">Desde que en 1982, y auspiciado por el Consejo de Europa, se celebró el primer y único Congreso sobre parejas no casadas, son muchos los países de la Unión Europea que, de una forma u otra, han ido adaptando sus respectivas legislaciones a este fenómeno convivencial, tendiendo a equiparar, total o parcialmente, a estas parejas con los matrimonios.</p>
+          <p class="parrafo">En España, la convivencia estable en pareja se ha ido normalizando en diversos textos legislativos, como el nuevo Código Penal, la Ley de Arrendamientos Urbanos, la Ley Orgánica del Poder Judicial o la Ley Reguladora del Derecho de Asilo y la Condición de Refugiado, en consonancia con la realidad sociológica que representan y su aceptación social generalizada en un sistema político, social y democrático.</p>
+          <p class="parrafo">El artículo 39 de la Constitución Española contiene la obligación de los poderes públicos de asegurar la protección social, económica y jurídica de la familia. En este artículo no existe referencia a un modelo de familia determinado y predominante, lo que hace necesaria una interpretación amplia de lo que debe entenderse por familia, consecuente con la realidad social actual y con el resto del articulado constitucional referido a la persona.</p>
+          <p class="parrafo">En este sentido, los principios de libertad e igualdad (que la Constitución Española reconoce como valores superiores del ordenamiento jurídico —artículo 1.1—, principios de actuación —artículo 14—, derechos fundamentales —artículos 14 y siguientes—), así como el principio de seguridad jurídica del artículo 9.3 y el derecho a la intimidad del artículo 18 hacen preciso, en materia de relaciones personales, respetar y amparar todas las situaciones.</p>
+          <p class="parrafo">Con base en estos principios, las leyes 11/1981, de 13 de mayo; 30/1981, de 7 de julio y 21/1987, de 11 de noviembre, llevaron a cabo las reformas del Código Civil en materia de filiación, relaciones conyugales y adopción; delineando un nuevo modelo de familia no fundado exclusivamente en el vínculo matrimonial, sino en la afectividad, el consentimiento y la solidaridad libremente aceptados, con la finalidad de llevar a efecto una convivencia estable.</p>
+          <p class="parrafo">Por otra parte, junto a la pareja estable heterosexual, otro fenómeno similar, aunque de naturaleza y consecuencias bien diferentes, el de la pareja homosexual en convivencia marital estable, está dejando de ser también algo extraño y marginal. Se impone la adecuación de la normativa a la realidad de la sociedad en este momento histórico. En este sentido deben respetarse y cumplirse la Recomendación de la Asamblea Parlamentaria del Consejo Europeo a los Consejos de Ministros de los Estados miembros, ratificada el 11 de junio de 1985 por nuestro Congreso de los Diputados, sobre no discriminación a los homosexuales, y la Resolución adoptada el 8 de febrero de 1994 por el Pleno del Parlamento Europeo, sobre la igualdad de derechos de los homosexuales y de las lesbianas en la Comunidad Europea que, desde la convicción de que todos los ciudadanos y ciudadanas tienen derecho a un trato idéntico, con independencia de su orientación sexual, pide a los Estados de la Comunidad que supriman todas las disposiciones jurídicas que criminalicen o discriminen las relaciones sexuales entre personas del mismo sexo.</p>
+          <p class="parrafo">La marginación legislativa, en ambos casos, no hace sino generar problemas de muy difícil solución. Por ello desconocer el fenómeno desde un punto de vista legislativo no hace sino agravar esas situaciones de desamparo e injusticia que hoy tratan de atajar los Tribunales de Justicia.</p>
+          <p class="parrafo">Con estas premisas, para la Comunidad Autónoma de Extremadura la convivencia duradera y estable con independencia de la orientación sexual de sus miembros, debe considerarse una realidad cotidiana de nuestra sociedad, por lo que no puede permanecer al margen del derecho positivo. Así, con esta Ley se daría cumplimiento a las previsiones del artículo 6.2 b) del Estatuto de Autonomía de Extremadura, que establece que las instituciones de la Comunidad Autónoma de Extremadura, dentro del marco de su competencia, ejercerán sus poderes con el objetivo básico de promover las condiciones para que la libertad y la igualdad de los extremeños sean reales y efectivas.</p>
+          <p class="parrafo">En este sentido, la Comunidad Autónoma de Extremadura, mediante el Decreto 35/1997, de 18 de marzo, creó el Registro de Uniones de Hecho de la Comunidad Autónoma de Extremadura, decreto que fue desarrollado mediante la Orden de 14 de mayo de 1997 de la Consejería de Bienestar Social, suponiendo ahora la presente Ley una respuesta clara, desde esta Comunidad Autónoma, a una demanda realizada por amplios sectores sociales e institucionales, con el fin de reconocer esta fórmula de convivencia en el marco del derecho común que evite cualquier tipo de discriminación para la persona.</p>
+          <p class="parrafo">Siendo de obligado cumplimiento que el tratamiento legislativo de estas uniones en convivencia se ajuste al marco de las competencias autonómicas en la materia, se han excluido las cuestiones propias del derecho penal, las de carácter laboral y las relativas a la Seguridad Social.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 1. Objeto: principio de no discriminación.</p>
+          <p class="parrafo">En la interpretación y aplicación del ordenamiento jurídico extremeño, nadie puede ser discriminado por razón del grupo familiar del que forme parte, tenga éste su origen en la filiación, en el matrimonio o en la unión de dos personas constituidas en pareja de hecho, con independencia de su sexo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">1. A los efectos de la aplicación de la presente Ley, se considera pareja de hecho la unión estable, libre, pública y notoria, en una relación de afectividad análoga a la conyugal, con independencia de su sexo, de dos personas mayores de edad o menores emancipadas, siempre que voluntariamente decidan someterse a la misma mediante la inscripción de la pareja en el Registro de Parejas de Hecho de la Comunidad Autónoma de Extremadura.</p>
+          <p class="parrafo">2. Se entenderá que la unión es estable cuando los miembros de la pareja hayan convivido, como mínimo, un período ininterrumpido de un año, salvo que tuvieran descendencia común, en cuyo caso bastará la mera convivencia, o salvo que hayan expresado su voluntad de constituir una pareja estable en documento público.</p>
+          <p class="parrafo">En el caso de que un miembro de la pareja o ambos estén ligados por vínculo matrimonial a otra persona al tiempo de iniciar la relación, el tiempo de convivencia transcurrido hasta el momento en que el último de ellos obtenga la disolución o, en su caso, la nulidad, se tendrá en cuenta en el cómputo del período indicado de un año.</p>
+          <p class="parrafo">3. La inscripción en el Registro de Parejas de Hecho de la Comunidad Autónoma de Extremadura tendrá carácter constitutivo.</p>
+          <p class="parrafo">4. Las disposiciones de la presente Ley serán de aplicación a aquellas parejas de hecho en las que al menos uno de los miembros de la pareja se halle empadronado y tenga su residencia en la Comunidad Autónoma de Extremadura.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 3. Requisitos personales.</p>
+          <p class="parrafo">1. No pueden constituir una pareja de hecho de acuerdo con la presente Ley:</p>
+          <p class="parrafo_2">a. Los menores de edad no emancipados.</p>
+          <p class="parrafo">b. Las personas ligadas por vínculo matrimonial no separadas judicialmente.</p>
+          <p class="parrafo">c. Las personas que formen una pareja de hecho debidamente inscrita con otra persona.</p>
+          <p class="parrafo">d. Los parientes por consanguinidad o adopción en línea recta.</p>
+          <p class="parrafo">e. Los parientes colaterales por consanguinidad o adopción dentro del tercer grado.</p>
+          <p class="parrafo_2">2. No podrá pactarse la constitución de una pareja de hecho con carácter temporal ni someterse a condición.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 4. Acreditación.</p>
+          <p class="parrafo">1. Las parejas de hecho a que se refiere la presente Ley se constituirán a través de la inscripción en el Registro de Parejas de Hecho de la Comunidad Autónoma de Extremadura, previa acreditación de los requisitos a que se refiere el artículo 2 en expediente contradictorio ante el encargado del registro.</p>
+          <p class="parrafo">2. Reglamentariamente se regulará tal expediente contradictorio. En todo caso, la previa convivencia libre, pública, notoria e ininterrumpida en relación de afectividad, habrá de acreditarse mediante cualquier medio de prueba admitido en Derecho.</p>
+          <p class="parrafo">3. La existencia de la pareja de hecho se acreditará mediante Certificación del encargado del Registro de Parejas de Hecho de la Comunidad Autónoma de Extremadura.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 5. Disolución de la pareja de hecho.</p>
+          <p class="parrafo">1. Se considerará disuelta la pareja de hecho en los siguientes casos:</p>
+          <p class="parrafo_2">a. Por la muerte o declaración de fallecimiento de uno de sus miembros.</p>
+          <p class="parrafo">b. Por matrimonio de uno de sus miembros.</p>
+          <p class="parrafo">c. Por mutuo acuerdo.</p>
+          <p class="parrafo">d. Por voluntad unilateral de uno de los miembros de la pareja, que deberá ser notificada fehacientemente al otro.</p>
+          <p class="parrafo">e. Por cese efectivo de la convivencia por un periodo superior a un año.</p>
+          <p class="parrafo_2">2. Ambos miembros de la pareja están obligados en caso de disolución, aunque sea de forma separada, a dejar sin efecto el documento publico que, en su caso, hubieren otorgado e instar la cancelación de la inscripción en el registro correspondiente. Si la voluntad de cancelación se presenta por uno sólo de los miembros de la pareja, se dará traslado de su escrito al otro miembro de la pareja a efectos de su conocimiento.</p>
+          <p class="parrafo">3. Los miembros de una pareja de hecho no podrán establecer otra pareja estable con tercera persona mientras no se haya producido su disolución mediante alguno de los supuestos descritos en el primer apartado.</p>
+          <p class="parrafo">4. La disolución de la pareja de hecho implica la revocación de los poderes que cualquiera de los miembros haya otorgado a favor del otro.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">La relación de pareja</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 6. Régimen de convivencia.</p>
+          <p class="parrafo">1. Los miembros de la pareja de hecho podrán establecer válidamente en escritura pública los pactos que consideren convenientes para regir sus relaciones económicas durante la convivencia y para liquidarlas tras su cese.</p>
+          <p class="parrafo">2. En defecto de pacto se presumirá, salvo prueba en contrario, que los miembros de la pareja de hecho contribuyen al sostenimiento de las cargas de ésta en proporción a sus recursos.</p>
+          <p class="parrafo">3. Serán nulos y carecerán de validez los pactos contrarios a las leyes, limitativos de la igualdad de derechos que corresponde a cada conviviente o gravemente perjudiciales para uno de ellos, así como aquellos cuyo objeto sea exclusivamente personal o que afecten a la intimidad de los convivientes.</p>
+          <p class="parrafo">4. En todo caso los pactos a que se refiere este artículo, sólo surtirán efectos entre las partes firmantes y nunca podrán perjudicar a terceros. Podrán inscribirse en el Registro de Parejas de Hecho de la Comunidad Autónoma de Extremadura, siempre que en ellos concurran los requisitos de validez antes expresados, a petición de ambos miembros de la pareja.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 7. Reclamación de compensación económica.</p>
+          <p class="parrafo">En el supuesto de que se produzca la extinción en vida de la pareja de hecho, si la convivencia ha supuesto una situación de desigualdad patrimonial entre ambos convivientes que implique un enriquecimiento injusto, podrá exigirse una compensación económica por el conviviente perjudicado que, sin retribución o con retribución insuficiente, haya trabajado para el hogar común o para el otro conviviente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 8. Acogimiento familiar de menores.</p>
+          <p class="parrafo">1. Teniendo en cuenta que es competencia de la Junta de Extremadura, la función tuitiva de los derechos de la infancia, así como todas las actuaciones en materia de tutela, acogimiento y adopción de menores, los miembros de la pareja de hecho podrán acoger de forma conjunta con iguales derechos y deberes que las parejas unidas por matrimonio, siempre que la modalidad del acogimiento sea simple o permanente, de acuerdo con la legislación aplicable.</p>
+          <p class="parrafo">2. En los casos de disolución de una pareja de hecho, en vida de ambos miembros, que hubiere recibido en acogimiento familiar administrativo a un menor de edad, en lo relativo a la guarda y custodia de éste se estará a lo que disponga, en interés del menor, la Entidad pública competente en materia de protección de menores. En los supuestos de acogimientos familiares judiciales, decidirá el Juez a propuesta de la Entidad pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 9. Guarda y régimen de visitas de los hijos.</p>
+          <p class="parrafo">En caso de disolución de la pareja de hecho, en vida de ambos miembros, la guarda y custodia de los hijos e hijas comunes y el régimen de visitas, comunicación y estancia se determinará en aplicación de la legislación civil vigente en materia de relaciones paterno-filiales.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Normas administrativas</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 10. Beneficios respecto a la función pública.</p>
+          <p class="parrafo">En todo lo que legalmente afecte al régimen del personal al servicio de la Comunidad Autónoma de Extremadura, deberá entenderse equiparada la pareja de hecho al matrimonio y el conviviente al cónyuge, de tal manera que los convivientes mantendrán los mismos beneficios reconocidos a las parejas que hayan contraído matrimonio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 11. Régimen de prestaciones sociales.</p>
+          <p class="parrafo">Se entenderá equiparada la pareja de hecho al matrimonio y el conviviente al cónyuge en toda la normativa de servicios y prestaciones sociales de la Comunidad Autónoma de Extremadura.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 12. Normativa de la Comunidad Autónoma de Extremadura de derecho público.</p>
+          <p class="parrafo">Los derechos y obligaciones establecidos en la normativa extremeña de derecho público, serán de aplicación a los miembros de la pareja de hecho, en especial en materia presupuestaria, de subvenciones y de tributos propios.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Artículo 13. Régimen Fiscal.</p>
+          <p class="parrafo">Los miembros de una pareja de hecho serán considerados como cónyuges a los efectos previstos en la legislación fiscal autonómica a los efectos de computar rendimientos y de aplicar deducciones o exenciones.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición adicional.</p>
+          <p class="parrafo">La Administración de la Comunidad Autónoma de Extremadura mantendrá las oportunas relaciones de cooperación con otras Administraciones Públicas que cuenten con Registros de Parejas de Hecho o similares, al objeto de evitar supuestos de doble inscripción.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">A efectos de la acreditación del periodo de convivencia mínimo de un año establecido en el párrafo segundo del artículo 2, se tendrá en cuenta el periodo transcurrido antes de la entrada en vigor de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">Las inscripciones de parejas en el Registro de Uniones de Hecho de la Comunidad Autónoma de Extremadura, regulado por el Decreto 35/1997, de 18 de marzo, y desarrollado por la Orden de 14 de mayo de 1997 de la Consejería de Bienestar Social, se integrarán de oficio y de modo automático en el Registro de Parejas de Hecho contemplado en el articulado de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Si la legislación del Estado prevé la inscripción en el Registro Civil de las uniones reguladas por esta Ley, los efectos que ésta les otorga habrán de entenderse referidos a las parejas que en éste se inscriban.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo">Quedan derogadas todas las disposiciones de igual o inferior rango que se opongan a lo previsto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Consejo de Gobierno de la Junta de Extremadura para dictar las disposiciones necesarias para el desarrollo y ejecución de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el Diario Oficial de Extremadura.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2003-9450" fecha_publicacion="20030408" fecha_vigencia="20030409">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos que sea de aplicación esta Ley, que cooperen a su cumplimiento y a los Tribunales y Autoridades que corresponda la hagan cumplir.</p>
+          <p class="parrafo_2">Mérida, 20 de marzo de 2003.</p>
+          <p class="firma_ministro">JUAN CARLOS RODRÍGUEZ IBARRA,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

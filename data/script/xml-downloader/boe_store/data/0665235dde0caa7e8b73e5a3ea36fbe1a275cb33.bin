@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T181156Z</fecha_actualizacion>
+      <identificador>BOE-A-2014-2599</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4220">Ministerio de Educación, Cultura y Deporte</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20140221</fecha_disposicion>
+      <numero_oficial>101/2014</numero_oficial>
+      <titulo>Real Decreto 101/2014, de 21 de febrero, por el que se aprueban los Estatutos de la Real Academia de Ciencias Veterinarias de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20140311</fecha_publicacion>
+      <diario_numero>60</diario_numero>
+      <fecha_vigencia>20140312</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2014/02/21/101</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2014-2599</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="5838">Real Academia de Ciencias Veterinarias</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2001-15926</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la ORDEN de 27 de julio de 2001</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2010-14304</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1160/2010, de 17 de septiembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-2599</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-21</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5838"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-2599</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5838"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/con/20140311"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 101/2014, de 21 de febrero, por el que se aprueban los Estatutos de la Real Academia de Ciencias Veterinarias de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/con/20140311">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-2599</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5838"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/con/20140311/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 101/2014, de 21 de febrero, por el que se aprueban los Estatutos de la Real Academia de Ciencias Veterinarias de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/con/20140311"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2014/02/21/101/con/20140311/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2014/02/21/101/con/20140311/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="parrafo">La Real Academia de Ciencias Veterinarias recogió una larga tradición de corporaciones dedicadas al cultivo de dichas ciencias, iniciada con la Academia Médico-Veterinaria Matritense (1850), a la que siguieron la Sociedad de Medicina Veterinaria de España (1854), la Academia Veterinaria de España (1855), la Unión Veterinaria (1878), la Liga Nacional Veterinaria (1884), la Academia Científico-Profesional Veterinaria (1897), la Asociación Nacional Veterinaria de España (1912) y la Sociedad Veterinaria de Zootecnia (1945).</p>
+          <p class="parrafo">Creada inicialmente como una asociación, la Academia de Ciencias Veterinarias fue reconocida como tal Academia, y ya con esta denominación, por Orden del Ministerio de Educación y Ciencia de 15 de abril de 1985. Posteriormente, con fecha de 23 de enero de 1988, le fue concedido por Su Majestad el Rey, el título de Real. Y la Mesa del Instituto de España acordó otorgarle la condición de Academia Asociada el 28 de febrero de 1990.</p>
+          <p class="parrafo">Por Orden del Ministerio de Educación y Cultura de 16 de octubre de 1997, se aprobaron unos nuevos Estatutos, cuya necesidad se justificaba en el preámbulo como consecuencia de la «nueva condición jurídica» de la entidad. En su artículo 1 se definía a la Real Academia de Ciencias Veterinarias como «corporación científica de ámbito nacional, asociada al Instituto de España, con personalidad jurídica propia». El desarrollo posterior de las actividades de esta Real Academia puso de manifiesto la necesidad de introducir una serie de modificaciones en sus Estatutos para favorecer la agilidad en su funcionamiento. Con esa finalidad, por Orden del Ministerio de Educación, Cultura y Deporte de 27 de julio de 2001, se aprobaron los Estatutos de la Real Academia de Ciencias Veterinarias, que han estado vigentes hasta ahora. Su artículo 1 establecía que era «una corporación científica, de ámbito nacional, asociada al Instituto de España, con personalidad jurídica».</p>
+          <p class="parrafo">La Real Academia de Ciencias Veterinarias está considerada como uno de los máximos exponentes de las Ciencias Veterinarias. Éstas se han proyectado a través de los años en múltiples ámbitos, que se han ido ampliando a lo largo del tiempo: desde la medicina veterinaria a la producción animal y el medio ambiente; desde la salud pública, a la higiene y seguridad de los alimentos. Por ello, son objeto de esta Real Academia las actividades históricas, científicas y técnicas, jurídicas y éticas donde se ejercen las competencias del veterinario. En especial, las que se refieren a las producciones pecuarias, a la salud de los animales y a la relación de ésta con la salud humana y con el medio ambiente. En este contexto, la Real Academia contribuye a la difusión del progreso de las ciencias y al perfeccionamiento de las técnicas que influyen en las actividades veterinarias, así como al desarrollo de las relaciones científicas y técnicas, nacionales o internacionales, entre las Ciencias Veterinarias y las demás áreas de las Ciencias de la Salud, Ciencias Experimentales, y Ciencias Sociales.</p>
+          <p class="parrafo">El tiempo transcurrido desde la aprobación de los Estatutos vigentes, la evolución de las Ciencias Veterinarias y el desarrollo posterior de las actividades de esta Real Academia, pone de manifiesto la necesidad de introducir en sus Estatutos una serie de modificaciones que favorezcan su utilidad y funcionamiento.</p>
+          <p class="parrafo">También se efectúa un cambio en su denominación, que pasa a ser «Real Academia de Ciencias Veterinarias de España», remarcando un ámbito nacional que ya figura en sus Estatutos desde 1988 y ha sido reconocido en los aprobados por las citadas Órdenes de 16 de octubre de 1997 y 27 de julio de 2001. Resulta conveniente esa especificación, ante la existencia y creación de varias Academias de Ciencias Veterinarias de ámbito autonómico, con las que la nacional mantiene fructíferas relaciones de colaboración.</p>
+          <p class="parrafo">La disposición transitoria del Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España, señala que los Estatutos de Academias de ámbito nacional que fueron aprobados anteriormente por normas de rango inferior al real decreto continuarán vigentes, en tanto no se produzca su sustitución por unos nuevos Estatutos, que deberán aprobarse por real decreto del Gobierno, a propuesta del Ministerio de Educación, Cultura y Deporte, previa iniciativa de la Academia y con informe del Instituto de España.</p>
+          <p class="parrafo">Por otra parte, el apartado primero de la disposición adicional segunda del mismo real decreto establece el siguiente contenido mínimo de los Estatutos de las Academias de ámbito nacional: denominación, objetivos y funciones, organización, derechos y deberes de los Académicos y medios económicos para su funcionamiento.</p>
+          <p class="parrafo">Por las razones ya expuestas, la Real Academia de Ciencias Veterinarias ha propuesto, al amparo de las disposiciones citadas, la aprobación de unos nuevos Estatutos, que han sido informados por el Instituto de España.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Educación, Cultura y Deporte y previa deliberación del Consejo de Ministros en su reunión del día 21 de febrero de 2014,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos de la Real Academia de Ciencias Veterinarias de España.</p>
+          <p class="parrafo">Se aprueban los Estatutos de la Real Academia de Ciencias Veterinarias de España, cuyo texto se incluye a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Disposición adicional única. Promoción de las mujeres.</p>
+          <p class="parrafo">1. En el Reglamento interno de la Academia se procurará la inclusión de medidas dirigidas a promover una mayor presencia de mujeres tanto en la comunidad académica como en los órganos de gobierno.</p>
+          <p class="parrafo">2. Todos los preceptos de los Estatutos deben interpretarse en el sentido de que la condición académica y los cargos académicos pueden ser ostentados tanto por hombres como por mujeres.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Disposición transitoria única. Cargos actuales de la Junta de Gobierno y de las Secciones.</p>
+          <p class="parrafo">1. Los Académicos y Académicas que, a la entrada en vigor del presente real decreto, formen parte de la Junta de Gobierno, seguirán desempeñando su mandato hasta que se produzca la elección y toma de posesión de los nuevos cargos, según se establece en los apartados siguientes.</p>
+          <p class="parrafo">2. En el plazo de tres meses desde la entrada en vigor de los nuevos Estatutos, se procederá a elegir Secretario General, Vicepresidente y Tesorero.</p>
+          <p class="parrafo">3. Antes del 31 de diciembre del año siguiente a aquel en que se produzca la entrada en vigor de los nuevos Estatutos, se procederá a la renovación de la segunda mitad de la Junta de Gobierno, eligiendo Presidente, Vicesecretario y Bibliotecario.</p>
+          <p class="parrafo">4. Los Académicos de número que, a la entrada en vigor de los nuevos Estatutos, hayan cumplido 85 años y sean miembros de la Junta de Gobierno, continuarán desempeñando su mandato hasta la elección y toma de posesión de los nuevos cargos a que se refieren los apartados anteriores.</p>
+          <p class="parrafo">5. A la entrada en vigor de los nuevos Estatutos, los Presidentes de las Secciones continuarán de modo provisional en sus funciones. Antes de finalizar un año natural desde dicha entrada en vigor, las Secciones primera, tercera y quinta procederán a elegir sus respectivos Presidentes. Las Secciones segunda y cuarta elegirán a sus Presidentes al año siguiente.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogados los Estatutos de la Real Academia de Ciencias Veterinarias, aprobados por Orden del Ministerio de Educación, Cultura y Deporte de 27 de julio de 2001, así como las demás normas de igual o inferior rango que se opongan a lo dispuesto en el presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="parrafo_2">Dado en Madrid, el 21 de febrero de 2014.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Educación, Cultura y Deporte,</p>
+          <p class="firma_ministro">JOSÉ IGNACIO WERT ORTEGA</p>
+        </version>
+      </bloque>
+      <bloque id="es" tipo="encabezado" titulo="ESTATUTOS">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="anexo">ESTATUTOS DE LA REAL ACADEMIA DE CIENCIAS VETERINARIAS DE ESPAÑA</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Denominación, naturaleza, ámbito territorial, sede, fines y símbolos</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 1. Denominación y naturaleza.</p>
+          <p class="parrafo">La Real Academia de Ciencias Veterinarias de España, bajo el alto patronazgo de S.M. el Rey, de conformidad con el artículo 62.j) de la Constitución, es una corporación de derecho público de carácter científico, dotada de personalidad jurídica propia y capacidad de obrar.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 2. Ámbito territorial, sede y relación administrativa.</p>
+          <p class="parrafo">1. La Real Academia de Ciencias Veterinarias de España tiene ámbito nacional y sede en Madrid.</p>
+          <p class="parrafo">2. Su domicilio social actual está en la calle Maestro Ripoll, número 8, 28006 Madrid. Dicha sede podrá modificarse por acuerdo de la Junta de Gobierno.</p>
+          <p class="parrafo">3. La Academia se relaciona administrativamente con el Ministerio de Educación, Cultura y Deporte.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 3. Fines.</p>
+          <p class="parrafo">Los fines de la Real Academia de Ciencias Veterinarias de España son:</p>
+          <p class="parrafo_2">a) Fomentar la investigación, la técnica y el estudio de los campos científicos que agrupan las Ciencias Veterinarias, actuando como Entidad Científica y Consultiva para la coordinación, dentro del ámbito de dichas ciencias y en sus relaciones con otros ámbitos científicos afines.</p>
+          <p class="parrafo">b) Elaborar informes o dictámenes sobre las materias que le son propias.</p>
+          <p class="parrafo">c) Asesorar al Gobierno y a las Administraciones públicas, Universidades, Organismos públicos de investigación, Agencias españolas y europeas y organismos internacionales, y a cuantas Instituciones públicas o privadas lo soliciten, en todo lo que se refiera a las Ciencias Veterinarias y cuanto con ellas se relaciona.</p>
+          <p class="parrafo">d) También podrá sugerir esta Academia al Gobierno y al conjunto de las instituciones del Estado español las iniciativas que considere oportunas en relación con aspectos concernientes a la Veterinaria como Ciencia, a la salud, a la investigación científica veterinaria y a la formación veterinaria de grado y postgrado (incluida la especialización).</p>
+          <p class="parrafo">e) Contribuir, eficazmente, a la economía y promoción de la salud animal y humana.</p>
+          <p class="parrafo">f) Promover el respeto hacia los animales, el medio ambiente y la conservación, protección y bienestar animal.</p>
+          <p class="parrafo">g) Establecer criterios e interpretaciones de carácter ético, científico, técnico, jurídico, sanitario, docente o de información ante problemas de competencia veterinaria que se planteen a la sociedad española.</p>
+          <p class="parrafo">h) Establecer e impulsar relaciones de reciprocidad en colaboración con entidades análogas nacionales y extranjeras.</p>
+          <p class="parrafo">i) Establecer y mantener, como miembro de la Asociación Iberoamericana de Academias de Ciencias Veterinarias, una especial relación con las Academias asociadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 4. Emblemas y distintivos.</p>
+          <p class="parrafo">1. La Real Academia de Ciencias Veterinarias de España dispondrá de los símbolos siguientes:</p>
+          <p class="parrafo_2">a) Un emblema, que figurará en todas sus comunicaciones y escritos oficiales, que incluye los elementos siguientes: Bajo la Corona Real, y entre ramas de laurel entrelazadas por un lazo blanco y sobre fondo de oro, la letra «uve», en verde, que enmarca el bastón, en marrón, con un áspid en él enrollado.</p>
+          <p class="parrafo">b) Un estandarte y/o baldaquín en que figurará el mencionado emblema, sobre fondo verde.</p>
+          <p class="parrafo">c) Los Académicos y Académicas de número usarán como distintivo la medalla de la Real Academia de Ciencias Veterinarias de España, pendiente de un cordón verde entrelazado con dorado, con la insignia indicativa del Instituto de España. Las medallas numeradas del uno al cincuenta llevarán en el reverso el número que distinga a la plaza, orlado por la leyenda «Real Academia de Ciencias Veterinarias de España». En su anverso figurará el símbolo de la Real Academia.</p>
+          <p class="parrafo_2">2. Por estricta antigüedad, cada medalla, transitoriamente sin numerar, pasará a ocupar el número vacante de la medalla del Académico que por causas naturales o las extraordinarias señaladas en los presentes Estatutos, deje de pertenecer a la Academia.</p>
+          <p class="parrafo">3. Los Académicos supernumerarios, continuarán ostentando la medalla que usaron en su condición de Académicos de número.</p>
+          <p class="parrafo">4. Los Académicos correspondientes natos se situarán, en los actos a los que asistieren, con los Académicos de número en lugar preferente y usarán como distintivo la medalla de su Academia.</p>
+          <p class="parrafo">5. Los Académicos de honor y los Académicos correspondientes usarán las medallas de sus respectivas categorías, que no estarán numeradas; los correspondientes llevarán un cordón verde entrelazado con blanco; los Académicos de honor lo llevarán de color blanco entrelazado con verde, figurando en el reverso, la condición académica y el emblema común veterinario con la leyenda «Hygia pecoris salus populi».</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Cuerpo académico, clases, derechos y deberes</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 5. Clases de Académicos y Académicas.</p>
+          <p class="parrafo">1.<em> </em>La Real Academia de Ciencias Veterinarias de España estará constituida por:</p>
+          <p class="parrafo_2">a) Académicos y Académicas de número.</p>
+          <p class="parrafo">b) Académicos y Académicas de honor, españoles o extranjeros.</p>
+          <p class="parrafo">c) Académicos y Académicas supernumerarios.</p>
+          <p class="parrafo">d) Académicos y Académicas correspondientes natos.</p>
+          <p class="parrafo">e) Académicos y Académicas correspondientes honorarios.</p>
+          <p class="parrafo">f) Académicos y Académicas correspondientes españoles y extranjeros.</p>
+          <p class="parrafo_2">2. Para todas las categorías, serán elegidas las personas que presenten más méritos con independencia de su sexo.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 6. Académicos y Académicas de número.</p>
+          <p class="parrafo">1. La Academia estará formada por cincuenta Académicos de número, españoles, con el grado académico de Doctor, de los que cuarenta serán Licenciados o Graduados en Veterinaria y diez Licenciados o Graduados en Ciencias afines a la Veterinaria.</p>
+          <p class="parrafo">2. Para ser elegido Académico de número son condiciones de obligado cumplimiento:</p>
+          <p class="parrafo_2">a) Tener la nacionalidad española.</p>
+          <p class="parrafo">b) Estar en posesión del grado académico de Doctor.</p>
+          <p class="parrafo">c) Haberse distinguido en la investigación, estudio y desarrollo de las Ciencias Veterinarias o sus afines, avalado por un relevante prestigio científico y profesional.</p>
+          <p class="parrafo_2">3. A propuesta de la Junta de Gobierno, la Junta Plenaria acordará, si procede, la convocatoria de las plazas vacantes por secciones en el «Boletín Oficial del Estado».</p>
+          <p class="parrafo">4. La presentación de propuestas vendrá acompañada de un extenso curriculum vitae y el aval razonado de tres académicos de número.</p>
+          <p class="parrafo">5. La Junta Plenaria extraordinaria, en la que se celebre la correspondiente votación secreta para elegir Académico de número, quedará válidamente constituida con la presencia de la mitad más uno de los Académicos de número de pleno derecho. El candidato elegido deberá obtener, en la primera votación, los dos tercios de los votos de los Académicos presentes, más los votos de los ausentes, emitidos por carta autentificada; en la segunda votación, los dos tercios de los votos de los Académicos presentes; en la tercera y última votación, la mitad más uno de los votos de los Académicos presentes.</p>
+          <p class="parrafo">6. El candidato elegido será proclamado, en el mismo acto, «Académico de número electo», de lo que se informará al Ministerio de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">7. Para la toma de posesión de su plaza, el Académico de número electo deberá presentar, antes de un año, a partir de la fecha en que reciba de la secretaría general la comunicación de su elección, un discurso que versará sobre un tema propio de la Sección para la que se convocó la vacante. Cuando las circunstancias personales lo justifiquen, se podrá prorrogar el plazo, para presentar el discurso de ingreso, un máximo de seis meses. La publicación del Discurso correrá a cargo del académico de número electo.</p>
+          <p class="parrafo">8. La Junta de Gobierno designará al Académico de número que contestará al electo.</p>
+          <p class="parrafo">9. El Reglamento de régimen interior definirá el concepto y los requisitos del la carta autentificada o el correo identificado, que se mencionan en el presente artículo y en otros artículos de estos Estatutos, para determinar la validez de los votos de los Académicos ausentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 7. Académicos y Académicas de honor.</p>
+          <p class="parrafo">1. El nombramiento de Académico de honor se reserva a los científicos españoles o extranjeros que por sus eminentes trabajos en Ciencias Veterinarias, o sus afines, hayan alcanzado un reconocido y relevante prestigio científico o profesional.</p>
+          <p class="parrafo">2. Los candidatos serán propuestos por la Junta de Gobierno a la Junta Plenaria y ésta, en sesión extraordinaria, procederá a la votación de la misma manera que se establece para los Académicos de número.</p>
+          <p class="parrafo">3. Los candidatos también podrán ser propuestos por quince Académicos de número.</p>
+          <p class="parrafo">4. El número de Académicos de honor no podrá exceder de diez.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 8. Académicos y Académicas supernumerarios.</p>
+          <p class="parrafo">1. Serán Académicos supernumerarios los Académicos de número que así lo soliciten por escrito razonado.</p>
+          <p class="parrafo">2. Los Académicos de número que, durante dos años consecutivos y sin causa debidamente justificada, no mantengan relación alguna con la Real Academia e incumplan reiteradamente los deberes señalados en estos Estatutos podrán pasar, previo apercibimiento por escrito de la Junta de Gobierno, a la condición de académico supernumerario.</p>
+          <p class="parrafo">3. El Reglamento de régimen interior dispondrá las normas y sus eximentes para pasar a la condición de académico supernumerario.</p>
+          <p class="parrafo">4. A propuesta de la Junta de Gobierno, la Junta Plenaria, válidamente constituida, decidirá el paso a Académico supernumerario por votación secreta afirmativa de la mitad más uno de la suma de los votos de los Académicos de número presentes más los de los ausentes emitidos por carta autentificada.</p>
+          <p class="parrafo">5. Los Académicos supernumerarios no cubrirán plaza de número; su vacante será anunciada públicamente. Si el Académico obtuvo la condición de supernumerario a petición propia, podrá volver automáticamente a su primitiva situación con ocasión de la primera vacante.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 9. Académicos y Académicas correspondientes natos.</p>
+          <p class="parrafo">1. Los Académicos correspondientes natos, que son el vínculo de colaboración permanente de otras Academias con ésta, son los Presidentes de las demás Reales Academias de Ciencias Veterinarias y Academias de Veterinaria españolas.</p>
+          <p class="parrafo">2. Ostentarán los mismos derechos que los Académicos correspondientes, así como la capacidad de asistir con voz a la Junta Plenaria de la Academia.</p>
+          <p class="parrafo">3. La Junta de Gobierno señalará, en cada caso, las características del acto de su toma de posesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 10. Académicos y Académicas correspondientes honorarios.</p>
+          <p class="parrafo">Tendrán la consideración de Académicos correspondientes honorarios los académicos correspondientes natos que hayan cesado o renunciado a su cargo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 11. Académicos y Académicas correspondientes.</p>
+          <p class="parrafo">1. Los académicos correspondientes deberán poseer el grado universitario de Doctor. Serán acreedores de esta distinción por sus méritos científicos o profesionales relevantes.</p>
+          <p class="parrafo">2. Las plazas serán convocadas y publicadas en el «Boletín Oficial del Estado».</p>
+          <p class="parrafo">3. La solicitud de elección de Académico correspondiente deberá ser avalada y razonada por tres Académicos de número y aprobada por la Junta Plenaria a propuesta de la Junta de Gobierno.</p>
+          <p class="parrafo">4. La elección de Académico correspondiente se realizará en Junta Plenaria por mayoría simple.</p>
+          <p class="parrafo">5. Los Académicos correspondientes españoles no podrán exceder de 120. Los Académicos correspondientes mayores de setenta y cinco años, los Académicos correspondientes extranjeros y los Académicos correspondientes natos no computarán a efectos del número límite antes señalado.</p>
+          <p class="parrafo">6. La Junta de Gobierno señalará, de acuerdo con lo establecido en el Reglamento de régimen interno, las características del acto de toma de posesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 12. Académicos y Académicas correspondientes extranjeros.</p>
+          <p class="parrafo">Los Académicos correspondientes extranjeros serán propuestos por la Junta de Gobierno o, a través de una Sección, por tres Académicos de número. Podrán serlo aquellas personalidades que cumplan los requisitos de excelencia académica, científica o profesional. La propuesta será sometida a votación en Junta Plenaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 13. Derechos de los Académicos y Académicas.</p>
+          <p class="parrafo">1. Los Académicos de Número disfrutarán de los siguientes derechos:</p>
+          <p class="parrafo_2">a) Tratamiento de excelencia inherente a su condición.</p>
+          <p class="parrafo">b) Voz y voto en las sesiones y juntas.</p>
+          <p class="parrafo">c) Elegibilidad hasta los 85 años de edad para todos los cargos académicos.</p>
+          <p class="parrafo">d) Uso de la medalla de la Real Academia.</p>
+          <p class="parrafo">e) Cuando un Académico de número alcance la edad de 85 años, continuará disfrutando de todos sus derechos, excepto la elegibilidad para cargos académicos. La plaza ocupada por el académico, con medalla sin numerar, saldrá a concurso en la Sección que la Junta Plenaria determine, dentro del grupo de Doctores Licenciados o Graduados en Veterinaria o Doctores Licenciados o Graduados en Ciencias afines a que pertenezca.</p>
+          <p class="parrafo_2">2. Los Académicos de honor y los Académicos correspondientes tendrán derecho a asistir a las sesiones públicas de la Real Academia, con voz pero sin voto, en el lugar que se señale y ostentando su medalla.</p>
+          <p class="parrafo">3. Los Académicos correspondientes, con tratamiento de Ilustrísimo Señor o Señora, podrán formar parte y asistir, con voz pero sin voto, a las sesiones de trabajo de la Sección de la Real Academia a la que hayan quedado adscritos. Podrán asimismo acceder al cargo de Secretario de Sección.</p>
+          <p class="parrafo">4. Los Académicos supernumerarios disfrutarán de iguales derechos que los de número, pero carecerán del derecho a voto y no podrán ser elegidos para el desempeño de cargos directivos.</p>
+          <p class="parrafo">5. Los Académicos podrán usar este título, en los escritos y obras que publiquen, con la obligada condición de expresar la clase a la que pertenecen. El Reglamento de régimen interior regulará su uso.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 14. Deberes de los Académicos y Académicas.</p>
+          <p class="parrafo">1. Son deberes de los Académicos de número los siguientes: cumplir los Estatutos y los acuerdos de la Academia; contribuir al progreso de la ciencia, la técnica y la cultura que cultiven; velar por el prestigio de la Real Academia; emitir informes y dictámenes, desempeñar comisiones y efectuar los trabajos que se les confíen; asistir a las juntas, sesiones y comisiones, así como aceptar los cargos para los que hubieran sido elegidos, de no impedirlo causa plenamente justificada; contribuir, según lo acordado por la Junta Plenaria, a los costos, en su caso, de mantenimiento de la Real Academia.</p>
+          <p class="parrafo">2. Los Académicos correspondientes están obligados a aceptar y cumplir las comisiones y tareas que se les confíen, participando, especialmente, en las actividades de la sección a la que pertenecen. El reiterado incumplimiento de esas tareas y la falta de relación con la Real Academia durante dos años académicos consecutivos sin causa debidamente justificada, podrá dar lugar, tras la advertencia correspondiente, a la exclusión de la Real Academia en los términos que señale la Junta Plenaria.</p>
+          <p class="parrafo">3. Los Académicos, tras tomar posesión en la forma reglamentaria, adquieren el deber de entregar para la biblioteca de la Real Academia un ejemplar de los trabajos científicos, y en su caso de otra naturaleza, de los que sean autores o traductores, así como comunicar todos los datos personales que puedan enriquecer su expediente personal; éste quedará custodiado en la Secretaría General.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Régimen interior de la Real Academia</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 15. Junta Plenaria.</p>
+          <p class="parrafo">1. La Junta Plenaria es el órgano soberano de la Academia y de ella deriva la autoridad delegada de la Junta de Gobierno. Estará integrada por todos los Académicos y Académicas de número.</p>
+          <p class="parrafo">2. Para abrir las sesiones se requerirá la asistencia de la mitad más uno de los académicos de número. Para que sus acuerdos sean válidos, se requerirá que cuenten con la mitad más uno de los votos, suma de los emitidos por los académicos presentes más los emitidos por correo autentificado. Los acuerdos serán vinculantes y sólo podrán modificarse en otra Junta Plenaria, convocada al efecto y en un plazo no inferior a seis meses.</p>
+          <p class="parrafo">3. La junta Plenaria se reunirá en el primero, segundo y cuarto trimestre del año con carácter ordinario, sin perjuicio de las reuniones que se convoquen con carácter extraordinario.</p>
+          <p class="parrafo">4. Podrá, también, ser convocada por el presidente de la Real Academia, o mediante solicitud de la mayoría de la Junta de Gobierno, cuando existan asuntos que lo requieran. Asimismo se convocará cuando lo solicite, por escrito, un tercio de los Académicos de número; en este caso, se indicará en la solicitud el motivo que la justifique, el cual constituirá el único punto del orden del día de la Junta Plenaria.</p>
+          <p class="parrafo">5. Reunida la Junta Plenaria, y previo informe de la Junta de Gobierno sobre los asuntos a tratar, la Real Academia deliberará y acordará, en cada caso, sobre las cuestiones que le afecten:</p>
+          <p class="parrafo_2">a) En sesión ordinaria: convocatorias de premios y recompensas, así como su adjudicación, aprobación de presupuestos y cuentas, aprobación de informes, dictámenes y propuestas, establecimiento de relaciones científicas, técnicas y culturales. Aprobación, en su caso, de la Memoria anual de actividades y cuantos otros asuntos de interés se presenten por la Junta de Gobierno o vengan avalados para su inclusión en el orden del día de la sesión por, al menos, diez académicos de número. Entender sobre la funcionalidad de las diferentes secciones y refrendar, en su caso, los acuerdos de las mismas.</p>
+          <p class="parrafo">b) En sesión extraordinaria: propuesta de modificación de este Estatuto y aprobación, si así fuera necesario, del Reglamento de aplicación del Estatuto; elección de Académicos de número, correspondientes, de honor, designación de académicos supernumerarios, votación de los cargos de la Junta de Gobierno y concesión de distinciones. Entender y tramitar las mociones de censura que pudieran presentarse a los miembros de la Junta de Gobierno.</p>
+          <p class="parrafo_2">6. La Junta Plenaria en sesión extraordinaria, y a este solo efecto, a propuesta de la Junta de Gobierno, podrá elegir Presidente de Honor. Para tal ocasión la Junta Plenaria se considerará válidamente constituida si están presentes, al menos, dos tercios de los académicos de número. El candidato deberá tener el respaldo de los tres cuartos de los votos de los académicos de número presentes. El Presidente de Honor podrá asistir a las Juntas de Gobierno con voz pero sin voto. La Real Academia sólo podrá tener un Presidente de Honor, además del alto patronazgo de S.M. el Rey.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 16. Junta de Gobierno: composición y cargos.</p>
+          <p class="parrafo">1. La Real Academia estará regida por una Junta de Gobierno constituida por las personas titulares de los siguientes cargos:</p>
+          <p class="parrafo_2">a) Presidente.</p>
+          <p class="parrafo">b) Vicepresidente.</p>
+          <p class="parrafo">c) Secretario General.</p>
+          <p class="parrafo">d) Vicesecretario.</p>
+          <p class="parrafo">e) Bibliotecario.</p>
+          <p class="parrafo">f) Tesorero.</p>
+          <p class="parrafo">g) Los Presidentes de las cinco Secciones.</p>
+          <p class="parrafo_2">2. Los cargos mencionados serán elegidos, entre los Académicos y Académicas de número, en Junta Plenaria, salvo los Presidentes de las Secciones, que serán elegidos por ellas y tendrán el carácter de miembros natos de la Junta de Gobierno.</p>
+          <p class="parrafo">3. El mandato de todos los cargos tendrá una duración de cuatro años, susceptibles de renovación en los términos que expresa el artículo 17.3.</p>
+          <p class="parrafo">4. La representación de todos los cargos de la Junta de Gobierno no es delegable, sin perjuicio de las suplencias del Presidente y del Secretario General que se contemplan en los artículos 20 y 22. El Reglamento de régimen interior establecerá el régimen de suplencias de los demás cargos, en los supuestos de vacante, ausencia o enfermedad.</p>
+          <p class="parrafo">5. La Junta de Gobierno se reunirá, al menos, una vez al mes y siempre que lo decida el Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 17. Junta de Gobierno: elección de cargos y duración de mandatos.</p>
+          <p class="parrafo">1. La elección de los cargos de la Junta de Gobierno se efectuará en Junta Plenaria, reunida con carácter extraordinario. La Junta Plenaria quedará válidamente constituida por la presencia de la mitad más uno de los Académicos de número; a estos efectos, se computarán los presentes más los votantes a los puntos del orden del día por carta autentificada.</p>
+          <p class="parrafo">2. La elección de los cargos se realizará siguiendo el siguiente procedimiento. Cada candidato elegido deberá tener en la primera votación los dos tercios de los votos, a cuyo efecto se contabilizarán los votos de los académicos presentes y los de los ausentes emitidos por correo autentificado; en la segunda votación, los dos tercios de los votos de los académicos presentes; en la tercera y última votación, la mayoría simple de los votos de los académicos presentes.</p>
+          <p class="parrafo">3. La permanencia en el mismo cargo de la Junta de Gobierno será por un máximo de dos períodos consecutivos de cuatro años. La renovación de la Junta de Gobierno se realizará por mitades cada dos años. En el primer turno cesarán el Secretario General, Vicepresidente y Tesorero. Dos años más tarde se renovarán los cargos de Presidente, Vicesecretario y Bibliotecario.</p>
+          <p class="parrafo">4. Las vacantes que se produzcan durante los respectivos mandatos de los miembros de la Junta de Gobierno deberán cubrirse por votación en Junta Plenaria extraordinaria y sólo para el tiempo que falte hasta completar el correspondiente período de cuatro años.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 18. Junta de Gobierno: funciones.</p>
+          <p class="parrafo">A la Junta de Gobierno, como representante de la Junta Plenaria, corresponderá estudiar y, en su caso, resolver todos los asuntos de interés para la Real Academia. Serán funciones de la Junta de Gobierno:</p>
+          <p class="parrafo_2">a) Estudiar y tramitar las propuestas de modificación de los Estatutos y del Reglamento de régimen interior.</p>
+          <p class="parrafo">b) Tramitar las propuestas para cubrir las vacantes de Académicos.</p>
+          <p class="parrafo">c) Proponer a la Junta plenaria el nombramiento de Académicos de honor, Presidente de honor y Académicos supernumerarios.</p>
+          <p class="parrafo">d) Admitir las renuncias de sus miembros y convocar las preceptivas elecciones.</p>
+          <p class="parrafo">e) Designar a los Académicos de número que han de formar parte de las comisiones permanentes o temporales.</p>
+          <p class="parrafo">f) Informar los presupuestos y las cuentas que han de ser sometidos a la aprobación de la junta plenaria.</p>
+          <p class="parrafo">g) Entender de cualquier otro asunto que le encomiende la Junta Plenaria y resolver las cuestiones de trámite que se le presenten.</p>
+          <p class="parrafo">h) Oír los informes presentados por el Presidente y actuar en consecuencia.</p>
+          <p class="parrafo">i) Entender, aprobar o tramitar las iniciativas presentadas por las Secciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 19. Presidencia.</p>
+          <p class="parrafo">El Presidente de la Real Academia es la máxima autoridad de la misma y la representa en sus relaciones públicas o privadas. Serán funciones de la persona titular de la Presidencia de la Real Academia las siguientes:</p>
+          <p class="parrafo_2">a) Presidir la totalidad de los actos que organice la Real Academia, así como sus juntas.</p>
+          <p class="parrafo">b) Fijar, o coordinar, previa propuesta del Secretario General o de la Junta de Gobierno, en su caso, el orden del día de las reuniones, así como el programa y el calendario de las actividades académicas. Ordenar las correspondientes convocatorias, previa preparación con el Secretario General, del orden del día.</p>
+          <p class="parrafo">c) Solicitar y ordenar la confección de cuantos estudios, informes y dictámenes sean precisos para el buen desarrollo de las actividades de la Real Academia, Secciones y Comisiones, en el ámbito de sus competencias específicas.</p>
+          <p class="parrafo">d) Visar las actas de las diferentes sesiones de la totalidad de los órganos de gobierno de la Real Academia.</p>
+          <p class="parrafo">e) Refrendar, con su firma, los nombramientos de todos los Académicos.</p>
+          <p class="parrafo">f) Cumplir y hacer cumplir, en todos sus términos, los presentes Estatutos, así como los acuerdos de los órganos de gobierno de la Real Academia y, en casos no previstos y urgentes, adoptar provisionalmente las decisiones oportunas para el buen orden y gobierno de la Real Academia, hasta tanto pueda reunirse la junta de gobierno, a la que dará cuenta detallada del asunto y la resolución provisional adoptada.</p>
+          <p class="parrafo">g) Firmar mancomunadamente con el Secretario General y con el Tesorero los documentos justificativos de tesorería.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 20. Vicepresidencia.</p>
+          <p class="parrafo">La persona titular de la Vicepresidencia tiene estas funciones:</p>
+          <p class="parrafo_2">a) Auxiliar al Presidente en el ejercicio de sus funciones y suplirle, temporalmente, en los supuestos de ausencia, enfermedad u otra causa legal.</p>
+          <p class="parrafo">b) Colaborar con el Presidente y el Secretario General coordinando el programa de actividades científicas de la Academia.</p>
+          <p class="parrafo">c) Vacante la Presidencia, el Vicepresidente ocupará la Presidencia en funciones, hasta que se proceda a la elección reglamentaria de un nuevo Presidente, en un plazo máximo de cuatro meses.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 21. Secretaría General.</p>
+          <p class="parrafo">El Secretario General es el redactor de las actas de las sesiones, el ejecutor de los acuerdos de la Academia, el custodio de los libros y documentos oficiales y del archivo de la Real Academia, y el jefe directo de los empleados. Serán sus funciones:</p>
+          <p class="parrafo_2">a) Convocar, por orden del Presidente, las sesiones de la totalidad de los órganos de gobierno de la Real Academia.</p>
+          <p class="parrafo">b) Organizar las sesiones académicas y cuantos actos tengan su origen en los acuerdos de los diferentes órganos de gobierno de la Real Academia.</p>
+          <p class="parrafo">c) Actuar en las sesiones de las distintas juntas certificando con su firma la veracidad de las actas, con los acuerdos que en ellas figuren. Asistir, con voz y sin voto, a las reuniones de todas las secciones de la Real Academia.</p>
+          <p class="parrafo">d) Responsabilizarse de los escrutinios correspondientes a las votaciones que se efectúen en los órganos de gobierno de la Real Academia.</p>
+          <p class="parrafo">e) Tramitar, a través de la secretaría general a su cargo, la totalidad de los asuntos relacionados en su área de influencia.</p>
+          <p class="parrafo">f) Abrir y ordenar la posterior distribución de la correspondencia de la Real Academia.</p>
+          <p class="parrafo">g) Redactar la memoria anual de las actividades de la Real Academia, a partir de la información suministrada por las diferentes secciones, comisiones y órganos de gobierno.</p>
+          <p class="parrafo">h) Expedir y certificar con su firma cuantos documentos se produzcan en el área de competencia de la secretaria general.</p>
+          <p class="parrafo">i) Guardar y custodiar la documentación oficial de la Real Academia, libros de actas, archivos, ficheros, sellos y troqueles, así como las medallas correspondientes a las plazas vacantes de académicos.</p>
+          <p class="parrafo">j) Ser el responsable del personal administrativo y de servicios de la Real Academia, así como del régimen interior de la misma.</p>
+          <p class="parrafo">k) Firmar, mancomunadamente, con el Presidente y el Tesorero los documentos justificativos de tesorería.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 22. Vicesecretaría.</p>
+          <p class="parrafo">La persona titular de la Vicesecretaría:</p>
+          <p class="parrafo_2">a) Auxiliará en sus funciones al Secretario General y le suplirá, temporalmente, en los supuestos de vacante, ausencia, enfermedad u otra causa legal.</p>
+          <p class="parrafo">b) Actuará como secretario de actas contribuyendo a redactar el borrador de las mismas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 23. Tesorería.</p>
+          <p class="parrafo">El Tesorero tiene como misión fundamental administrar los fondos económicos de la Real Academia. Para el cumplimiento de esa misión:</p>
+          <p class="parrafo_2">a) Será el encargado de elaborar el presupuesto anual de ingresos y gastos de la misma, así como presentar a la junta plenaria, para su aprobación, si procede, el balance económico del curso anterior. Así mismo informará, periódicamente, a la junta de gobierno de la situación económica.</p>
+          <p class="parrafo">b) Estará a su cargo la responsabilidad de la recaudación, custodia e inversiones económicas de la Real Academia, en mancomunidad de firmas con el Presidente y Secretario general. Actuará como habilitado de la Real Academia a todos los efectos.</p>
+          <p class="parrafo">c) Se encargará de la gestión de las ayudas y subvenciones que reciba la Real Academia, en su caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 24. Bibliotecario.</p>
+          <p class="parrafo">El Bibliotecario cumplirá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Tendrá a su cargo los fondos bibliográficos de la Academia, así como la custodia y organización de la Biblioteca. Se ocupará también de los intercambios y de las adquisiciones de nuevos libros y revistas.</p>
+          <p class="parrafo">b) Dirigirá y realizará las funciones de catalogación, clasificación y difusión de los fondos bibliográficos, en su doble vertiente digital y documental.</p>
+          <p class="parrafo">c) Formará parte de la comisión de publicaciones y tendrá a su cargo la edición convencional o digital, de todas aquellas producidas por la Real Academia.</p>
+          <p class="parrafo">d) Dará el máximo relieve a cuantas publicaciones, discusiones, ponencias, mesas redondas, seminarios y otras actividades que tengan lugar en el campo profesional siempre bajo las directrices que marque la Junta de Gobierno.</p>
+          <p class="parrafo">e) Como responsable de los fondos bibliográficos de la Real Academia, fijará, de acuerdo con la Junta de Gobierno, las condiciones y horarios para consultar esos fondos, teniendo a su cargo el personal y medios físicos que se le asignen.</p>
+          <p class="parrafo">f) Fomentará la donación de fondos bibliográficos singulares de los señores Académicos y allegados, con el «visto bueno» del Presidente y el agradecimiento de la Real Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 25. Presidencia de las Secciones.</p>
+          <p class="parrafo">Los Presidentes de las Secciones serán los encargados de ejecutar, en su seno, los acuerdos de la Junta de Gobierno y colaborarán en los asuntos que se les encomienden.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 26. Secciones: número y contenido.</p>
+          <p class="parrafo">1. La Real Academia se estructura, orgánicamente, en las siguientes Secciones:</p>
+          <p class="parrafo_2">Sección Primera: Ciencias básicas.</p>
+          <p class="parrafo">Sección Segunda: Medicina y Sanidad Animal.</p>
+          <p class="parrafo">Sección Tercera: Producciones Animales (Zootecnia y Medioambiente).</p>
+          <p class="parrafo">Sección Cuarta: Alimentación, Nutrición y Veterinaria de Salud Pública.</p>
+          <p class="parrafo">Sección Quinta: Historia, Deontología, Bioética y Legislación.</p>
+          <p class="parrafo_2">2. La relación anterior no tiene carácter definitivo. Por acuerdo de la Junta Plenaria se podrán introducir las modificaciones que se consideren oportunas.</p>
+          <p class="parrafo">3. El ámbito competencial de cada Sección será fijado en el Reglamento de régimen Interior que desarrolle el presente Estatuto.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 27. Secciones: composición y funciones.</p>
+          <p class="parrafo">1. Cada Sección estará compuesta por Académicos de número, según sus afinidades, que elegirán, por votación entre ellos, un Presidente por períodos de cuatro años. El cargo se podrá ostentar por un máximo de dos períodos consecutivos. El Presidente elegirá de entre los académicos de número o correspondientes adscritos, un Secretario por el mismo periodo de tiempo.</p>
+          <p class="parrafo">2. Las Secciones fomentarán la participación activa de los Académicos correspondientes adscritos, propiciando así la actividad de los mismos en las tareas de la Real Academia.</p>
+          <p class="parrafo">3. Las Secciones se reunirán, al menos, una vez por trimestre y, a ser posible, antes de la reunión reglamentaria de la Junta de Gobierno. Sus decisiones serán válidas siempre y cuando participen el 50% de sus miembros numerarios.</p>
+          <p class="parrafo">4. Corresponde a las Secciones estudiar e informar los asuntos que les remita la Junta de Gobierno y proponer a ésta las cuestiones de su competencia, al menos, con periodicidad trimestral. Asimismo, deberán seguir el avance científico y técnico de su área de actividad, orientando a la Real Academia sobre la necesidad de atender determinados ámbitos en la elección de académicos de número y correspondientes.</p>
+          <p class="parrafo">5. Será también competencia de las Secciones:</p>
+          <p class="parrafo_2">a) La propuesta y selección, en el ámbito de su competencia, de los temas específicos para la convocatoria de los premios que la Real Academia pueda establecer, así como la emisión de los correspondientes informes o dictámenes razonados, no vinculantes, los cuales serán remitidos a la Comisión de Premios la cual informará sobre la idoneidad y calidad de las memorias presentadas.</p>
+          <p class="parrafo">b) La emisión de informes preceptivos, no vinculantes, sobre los méritos allegados por los aspirantes a ocupar plaza vacante de Académico de número o correspondiente, que deseen adscribirse a la sección; asimismo, la emisión de informes sobre las memorias, trabajos o discursos de ingreso que se hayan presentado.</p>
+          <p class="parrafo">c) La elaboración de informes y dictámenes sobre temas específicos de sus respectivas competencias a fin de establecer criterios, conceptos y recomendaciones en el ámbito de la Administración del Estado, de las Universidades, de los Organismos públicos de investigación, Entidades europeas e internacionales, Organizaciones profesionales y empresariales.</p>
+          <p class="parrafo_2">6. El Presidente de la Real Academia podrá asistir, si así lo desea, a las reuniones de las Secciones con voz y voto, presidiéndolas.</p>
+          <p class="parrafo">7. Los Académicos de número pueden asistir, con voz pero sin voto, a las reuniones del resto de las Secciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 28. Clases de Comisiones.</p>
+          <p class="parrafo">En la Real Academia de Ciencias Veterinarias de España habrá dos clases de Comisiones: permanentes y temporales.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 29. Composición y funciones de las Comisiones permanentes.</p>
+          <p class="parrafo">Las Comisiones permanentes serán:</p>
+          <p class="parrafo_2">a) De carácter interno:</p>
+          <p class="parrafo_2">1.ª De Gobierno Interior, derivada de la Junta de Gobierno, que estará formada por el Presidente, Vicepresidente, Secretario General y Tesorero.</p>
+          <p class="parrafo">2.ª De Economía y Hacienda, que entenderá de los asuntos económicos y su gestión. Estará formada por el Presidente, el Secretario General, el Tesorero y dos Académicos de número, que alternativamente pertenecerán a las Secciones 1.ª y 2.ª, el primer año; 3.ª y 4.ª el siguiente; 5.ª y 1.ª a continuación; y así sucesivamente; estos últimos serán designados por las propias Secciones.</p>
+          <p class="parrafo">3.ª De Admisiones, Premios y Distinciones. Su composición y funciones se especificarán en el Reglamento.</p>
+          <p class="parrafo">4.ª Por acuerdo de la Junta Plenaria se podrán constituir las Comisiones permanentes de carácter técnico que se consideren necesarias, cuando la relevancia y el carácter multidisciplinar de una materia así lo exijan. Estarán constituidas por Académicos de número pertenecientes a diferentes Secciones, de acuerdo con el carácter transversal de la materia.</p>
+          <p class="parrafo_2">b) De proyección externa y de servicio: de Publicaciones, Informática y Comunicación, la cual se encargará de aplicar las nuevas tecnologías a las actividades de la Real Academia y se ocupará de todo lo relativo a las ediciones de obras o publicación de estudios de la Real Academia; estará presidida por el Bibliotecario y formada por cinco Académicos de número, uno por cada sección; éstos serán designados por la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 30. Personal administrativo.</p>
+          <p class="parrafo">La Real Academia, para desarrollar sus actividades, podrá contratar civil y laboralmente, y con cargo a su presupuesto, el personal necesario, que estará bajo la dependencia directa del Académico Secretario General de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Patrimonio y régimen económico de la Real Academia</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 31. Fondos económicos.</p>
+          <p class="parrafo">Los fondos económicos de la Real Academia estarán constituidos, fundamentalmente, por:</p>
+          <p class="parrafo_2">a) Los recursos propios.</p>
+          <p class="parrafo">b) Las cantidades que puedan asignarse, en su caso, en los Presupuestos Generales del Estado, Comunidades Autónomas, Diputaciones y Ayuntamientos para estos fines, así como las procedentes de la Fundación «Amigos de la Real Academia».</p>
+          <p class="parrafo">c) Los ingresos que puedan producirse por trabajos, estudios, dictámenes o informes científico-técnicos, a instancias de terceros, así como por la venta de publicaciones.</p>
+          <p class="parrafo">d) Los procedentes de donativos, herencias, legados o subvenciones que se ofrezcan a la Real Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 32. Aplicación de los fondos.</p>
+          <p class="parrafo">La Real Academia aplicará sus fondos:</p>
+          <p class="parrafo_2">a) Al pago de retribuciones de su personal y colaboradores; al de gratificaciones que la Junta de Gobierno pueda acordar para su personal, así como a los gastos de mantenimiento de la Academia (calefacción, luz, teléfono, material ofimático, mobiliario, y otros).</p>
+          <p class="parrafo">b) A la confección e impresión de las publicaciones en formato convencional o digital y al mantenimiento de la página Web de la Real Academia.</p>
+          <p class="parrafo">c) A los gastos ocasionados por los actos programados.</p>
+          <p class="parrafo">d) A las percepciones que se determinen por asistencia a las sesiones de los Académicos de número.</p>
+          <p class="parrafo">e) A la retribución a los Académicos por participación en trabajos que promueva la Real Academia.</p>
+          <p class="parrafo">f) A las compensaciones, que se acuerden por la Junta de Gobierno, a las personalidades científicas que hayan sido invitadas a dar conferencias o redactar un trabajo científico.</p>
+          <p class="parrafo">g) A incrementar los fondos bibliográficos y digitalizados que constituyen la Biblioteca.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 33. Contabilidad.</p>
+          <p class="parrafo">1. La Real Academia de Ciencias Veterinarias de España justificará ante las Administraciones públicas correspondientes las subvenciones obtenidas, de acuerdo con la legislación vigente.</p>
+          <p class="parrafo">2. De los demás ingresos, la Tesorería de la Real Academia llevará control detallado y rendirá cuentas ante la Comisión de Gobierno Interior, Comisión de Economía y Hacienda, Junta de Gobierno y Junta Plenaria de la Real Academia.</p>
+          <p class="parrafo">3. Las transferencias y cheques bancarios ordenados por la Real Academia deberán estar conformados por dos de los tres cargos representativos siguientes: Presidente, Secretario General y Tesorero.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Actividad de la Real Academia de Ciencias Veterinarias de España</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 34. Clases de reuniones.</p>
+          <p class="parrafo">La Real Academia se reunirá en sesiones públicas, ordinarias y extraordinarias, y sesiones privadas.</p>
+          <p class="parrafo_2">a) Sesiones públicas ordinarias: se dedicarán a conferencias, presentación y discusión de memorias, comunicaciones, libros y monografías, tertulias científicas y cualquier otra materia que, a juicio de la Junta de Gobierno, deban ser estudiadas en estas sesiones.</p>
+          <p class="parrafo">b) Sesiones públicas extraordinarias: en circunstancias tales como las aperturas de curso, tomas de posesión de académicos, de académicos de honor, y de presidente de honor. Lo serán también las sesiones in memóriam y de homenaje, entrega de premios, y cualquier otra circunstancia que requiera especial solemnidad, a juicio de la junta de gobierno.</p>
+          <p class="parrafo">c) Sesiones privadas: las Juntas Plenarias y las de Gobierno, así como las reuniones de las Secciones y Comisiones.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 35. Presidencia de los actos corporativos públicos.</p>
+          <p class="parrafo">1. En las reuniones públicas, tanto ordinarias como extraordinarias, la presidencia de los actos corporativos públicos corresponderá al Presidente de la Real Academia de Ciencias Veterinarias de España, salvo aquellas ocasiones en las que esté presente el Ministro de Educación, Cultura y Deporte, o el Subsecretario de dicho Departamento, o bien sea de aplicación la normativa del protocolo del Estado.</p>
+          <p class="parrafo">2. La Real Academia de Ciencias Veterinarias de España contará con un Manual de Protocolo, aprobado como Anexo al Reglamento de desarrollo de estos Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Publicaciones, biblioteca, cursos, concursos y premios</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 36. Propiedad académica de los textos.</p>
+          <p class="parrafo">1.<em> </em>Son textos y obras propiedad de la Real Academia:</p>
+          <p class="parrafo_2">a) Todos los trabajos científicos, técnicos y culturales llevados a cabo por la Real Academia, sus Secciones y sus Comisiones.</p>
+          <p class="parrafo">b) Los libros, monografías, memorias, discursos, informes, dictámenes y demás escritos que los Académicos u otras personas redacten en cumplimiento de obligaciones o encargos de la Real Academia en cualquier soporte.</p>
+          <p class="parrafo">c) Los trabajos que, al haber sido presentados o cedidos por los Académicos o por otras personas, la Academia acepte como útiles para sus fines.</p>
+          <p class="parrafo">d) Los trabajos que hayan recibido premio de la Real Academia.</p>
+          <p class="parrafo_2">2. Las opiniones vertidas en los textos por sus autores, serán de su exclusiva responsabilidad, salvo indicación expresa de la Real Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 37. Publicaciones.</p>
+          <p class="parrafo">1.<em> </em>La Real Academia publicará:</p>
+          <p class="parrafo_2">a) Con carácter periódico los «Anales de la Real Academia de Ciencias Veterinarias de España», que darán cuenta de los trabajos presentados en sesión pública y de aquellos otros que sean aceptados por la Comisión de Publicaciones. Además incluirá los acuerdos y labores más relevantes de la Real Academia.</p>
+          <p class="parrafo">b) Un «Anuario», en el que se recogerá un resumen de la historia de la Real Academia, un detalle de su actividad anual, un listado completo de sus Académicos, una relación de las disposiciones oficiales que afecten a la Institución y los premios que convoca la Real Academia en el año de su edición.</p>
+          <p class="parrafo">c) Las conferencias, discursos y trabajos premiados en los concursos anuales, que acuerde la Comisión de Publicaciones.</p>
+          <p class="parrafo">d) Las memorias, disertaciones y monografías existentes en su archivo, así como los documentos históricos que por su naturaleza o valor merezcan ser editados.</p>
+          <p class="parrafo">e) Los textos y monografías que, a iniciativa de las secciones, comisiones o académicos, apruebe la Junta de Gobierno.</p>
+          <p class="parrafo_2">2. En las obras que la Real Academia autorice o publique, cada autor será responsable de los juicios y opiniones expresados.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 38. Biblioteca.</p>
+          <p class="parrafo">1. La Biblioteca estará bajo la inmediata dependencia del Académico Bibliotecario y es de uso general para los Académicos, quienes podrán proponer a la Junta de Gobierno la adquisición de libros y revistas en cualquiera de las formas de edición y soportes en que se presenten.</p>
+          <p class="parrafo">2. También podrá hacer uso de ella el público, en las condiciones que en cada caso se determine.</p>
+          <p class="parrafo">3. La Biblioteca acogerá y catalogará las donaciones bibliográficas de los Académicos, veterinarios ilustres y demás benefactores de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 39. Cursos.</p>
+          <p class="parrafo">1.<em> </em>A propuesta de las diferentes Secciones y de las distintas Comisiones que la integran, la Real Academia de Ciencias Veterinarias de España podrá organizar cursos de interés científico, técnico y académico, destinados al perfeccionamiento y difusión de las Ciencias Veterinarias y afines, particularmente en la modalidad virtual desde el seno de su página Web, previa aprobación por la Junta de Gobierno.</p>
+          <p class="parrafo">2. La celebración de actos no organizados en exclusiva por la Real Academia deberá ser autorizada por la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 40. Premios y becas.</p>
+          <p class="parrafo">La Real Academia podrá convocar concurso de premios y dotar becas en España o en el extranjero, destinados a veterinarios y a otros especialistas que realicen una labor científica y técnica en los ámbitos de las Ciencias Veterinarias y sus afines.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 41. Medalla Carlos Luis de Cuenca y González Ocampo.</p>
+          <p class="parrafo">1. La denominada medalla «Carlos Luis de Cuenca y González Ocampo», creada por la Real Academia para recompensar servicios excepcionales a la Veterinaria, es la distinción de mayor dignidad que la Academia otorga.</p>
+          <p class="parrafo">2. La Junta Plenaria aprobará el Reglamento que regule la medalla «Carlos Luis de Cuenca y González Ocampo», a propuesta de la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 42. Placa de la Real Academia.</p>
+          <p class="parrafo">1. La «Placa de la Real Academia», grabada sobre metal noble, es asimismo la expresión de reconocimiento y agradecimiento que la Real Academia otorga.</p>
+          <p class="parrafo">2. La Junta Plenaria aprobará el Reglamento que la regule, a propuesta de la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-3" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Relaciones institucionales y científicas</p>
+        </version>
+      </bloque>
+      <bloque id="a4-5" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 43. Relaciones científicas, técnicas y culturales.</p>
+          <p class="parrafo">1. La Real Academia mantendrá especiales relaciones con las Reales Academias afines integradas en el Instituto de España, propiciando la celebración de sesiones conjuntas y publicaciones en colaboración con las mismas.</p>
+          <p class="parrafo">2. Procurará mantener colaboración estrecha con las demás Academias Veterinarias de las Comunidades Autónomas y con las de otros países, especialmente de la Unión Europea e Iberoamérica.</p>
+          <p class="parrafo">3. Asimismo procurará mantener relaciones de colaboración, institucionales o personales a través de sus Académicos de número o correspondientes, con los organismos públicos, tales como las Facultades de Veterinaria y de Ciencias afines, tanto nacionales como extranjeras, con los Colegios Europeos de Especialización Veterinaria y los Colegios Profesionales y demás Asociaciones Veterinarias del ámbito internacional, nacional y autonómico. Igualmente, con las Administraciones públicas y, en su caso, entidades privadas.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-4" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Modificación y desarrollo de los Estatutos</p>
+        </version>
+      </bloque>
+      <bloque id="a4-6" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 44. Modificación de los Estatutos de la Academia.</p>
+          <p class="parrafo">1. La Junta de Gobierno, por iniciativa propia o de al menos quince Académicos de número, podrá proponer cualquier cambio para modificar los presentes Estatutos, total o parcialmente. La propuesta de modificación deberá ser aprobada en Junta Plenaria, en sesión convocada al efecto. Su quórum, dos tercios de los académicos de número en posesión de su cargo, será la suma de los académicos presentes mas los ausentes que voten por correo identificado. Asimismo, para causar efecto los acuerdos alcanzados, deberán reunir los dos tercios de los votos de los académicos presentes más los emitidos por correo identificado.</p>
+          <p class="parrafo">2. Una vez aprobada una propuesta de modificación de Estatutos, se remitirá por el Presidente de la Academia al Ministerio de Educación, Cultura y Deporte, acompañada de una memoria explicativa de la modificación propuesta, para su tramitación de acuerdo con el apartado 5 de la disposición adicional segunda del Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-7" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2014-2599" fecha_publicacion="20140311" fecha_vigencia="20140312">
+          <p class="articulo">Artículo 45. Reglamento de régimen interior.</p>
+          <p class="parrafo">Los presentes Estatutos de la Real Academia de Ciencias Veterinarias de España serán desarrollados por un Reglamento de régimen interior, que elaborará la propia Institución y que se aprobará en sesión extraordinaria de la Junta Plenaria.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

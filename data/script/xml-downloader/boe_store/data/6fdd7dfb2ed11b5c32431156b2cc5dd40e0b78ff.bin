@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210547Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-15049</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5251">Ministerio de Industria, Turismo y Comercio</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20050729</fecha_disposicion>
+      <numero_oficial>943/2005</numero_oficial>
+      <titulo>Real Decreto 943/2005, de 29 de julio, por el que se regula el Observatorio de la Pequeña y Mediana Empresa.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050909</fecha_publicacion>
+      <diario_numero>216</diario_numero>
+      <fecha_vigencia>20050910</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20140118</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2005/07/29/943</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-15049</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="7934">Ministerio de Industria Turismo y Comercio</materia>
+        <materia codigo="5188">Observatorio de la Pequeña y Mediana Empresa</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="7977">Secretaría General de Industria</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-23256</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 1204/2002, de 20 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2004-12016</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1554/2004, de 25 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-458</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 962/2013, de 5 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2005-18936</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 276, de 18 de noviembre de 2005</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-15049</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">943</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5188"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7977"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-15049</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">943</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5188"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/corrigendum/20051118/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20140117"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20050909"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 943/2005, de 29 de julio, por el que se regula el Observatorio de la Pequeña y Mediana Empresa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-09</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20140117">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-15049</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">943</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5188"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20140117/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 943/2005, de 29 de julio, por el que se regula el Observatorio de la Pequeña y Mediana Empresa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20140117"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20140117/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20140117/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20050909">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-15049</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">943</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5188"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-09</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20050909/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 943/2005, de 29 de julio, por el que se regula el Observatorio de la Pequeña y Mediana Empresa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20050909"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20050909/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/29/943/con/20050909/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2014-458" fecha_publicacion="20140117" fecha_vigencia="20140118">
+          <p class="siempreSeVe">Norma derogada por la disposición derogatoria única del Real Decreto 962/2013, de 5 de diciembre. <a class="refPost">Ref. BOE-A-2014-458</a>.</p>
+        </version>
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 276, de 18 de noviembre de 2005. <a class="refPost">Ref. BOE-A-2005-18936</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="parrafo">Los Reales Decretos 1873/1997, de 12 de diciembre, 2659/1998, de 14 de diciembre, y 1204/2002, de 20 de noviembre, definieron al Observatorio de la Pequeña y Mediana Empresa como un foro de intercomunicación permanente, destinado a realizar un adecuado seguimiento de la evolución de este colectivo empresarial en España, así como para evaluar la información existente, elaborar nuevos estudios, conocer en profundidad el conjunto de los problemas que le afectan y proponer las soluciones que se consideren más convenientes.</p>
+          <p class="parrafo">Los cambios del entorno económico y el dinamismo del sector empresarial aconsejan la adaptación permanente de los instrumentos con que cuentan las políticas públicas orientadas al apoyo, fomento y estímulo de la competitividad de las pequeñas y medianas empresas (PYME). Por otra parte, es necesario reflejar, en la norma reguladora del Observatorio, los cambios operados en la estructura administrativa como consecuencia de la adscripción de la Dirección General de Política de la Pequeña y Mediana Empresa a la Secretaría General de Industria, dentro del Ministerio de Industria, Turismo y Comercio.</p>
+          <p class="parrafo">De acuerdo con lo anterior, este real decreto recoge la adaptación del Observatorio de la Pequeña y Mediana Empresa a las circunstancias que configuran el marco actual en el que se desarrolla la política española de PYME, al tiempo que trata de dotar a este órgano de una mayor flexibilidad y eficiencia en su funcionamiento.</p>
+          <p class="parrafo">Integrado en el marco que establecen los Reales Decretos 562/2004, de 19 de abril, y 1554/2004, de 25 de junio, por los que se desarrollan las estructuras orgánicas del Ministerio de Industria, Turismo y Comercio y de su Secretaría General de Industria, el Observatorio de la Pequeña y Mediana Empresa quiere ser el punto de encuentro y de diálogo entre los representantes de las organizaciones empresariales con intereses en el sector de la PYME, las distintas Administraciones públicas y los expertos de reconocido prestigio y experiencia, para convertirse en un centro de referencia para el seguimiento, análisis y difusión de la situación de las PYME en España.</p>
+          <p class="parrafo">En esta nueva etapa, el Observatorio tiene previsto definir los indicadores que permitan hacer un seguimiento del desarrollo de las PYME en España, en relación y en coordinación con los indicadores europeos sobre esta materia, para así poder contrastar su convergencia con la Unión Europea.</p>
+          <p class="parrafo">De igual modo, a través del Observatorio se promoverá la realización de estudios sobre la situación estructural de la PYME y sobre políticas de promoción empresarial y de innovación en las empresas, se desarrollará un análisis comparativo de buenas prácticas en políticas para las PYME, se analizarán y difundirán iniciativas «cualitativas» y «mejores prácticas» empresariales y, desde su calidad de órgano consultivo, se propondrán medidas que contribuyan a la competitividad del sector.</p>
+          <p class="parrafo">En definitiva, el Observatorio pretende conocer, de la forma más exhaustiva posible, la realidad de la PYME en España, con el objeto de facilitar a la Administración la toma de decisiones y el desarrollo de programas de actuación acertados.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Industria, Turismo y Comercio, con la aprobación previa del Ministro de Administraciones Públicas y previa deliberación del Consejo de Ministros en su reunión del día 29 de julio de 2005,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Mediante este real decreto se regula la composición, organización y funciones del Observatorio de la Pequeña y Mediana Empresa, como órgano colegiado consultivo, asesor y de colaboración en las materias que afectan a las pequeñas y medianas empresas (PYME) para favorecer y facilitar su creación, desarrollo y posibilidades competitivas, que queda adscrito al Ministerio de Industria, Turismo y Comercio, a través de la Secretaría General de Industria.</p>
+          <p class="parrafo">El ejercicio de las funciones de participación que este real decreto atribuye al Observatorio de la Pequeña y Mediana Empresa se llevará a cabo sin perjuicio y con independencia de las funciones de cooperación entre las Administraciones del Estado y de las comunidades autónomas atribuidas a la Conferencia Sectorial de la Pequeña y Mediana Empresa, de acuerdo con lo establecido en el artículo 5 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, y en el reglamento interno de la Conferencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Artículo 2. Fines.</p>
+          <p class="parrafo">El Observatorio de la Pequeña y Mediana Empresa tendrá como fines realizar un adecuado seguimiento de la evolución de las PYME en España, así como evaluar la información existente, elaborar nuevos estudios y conocer en profundidad la problemática de este colectivo, para proponer las soluciones más convenientes para este.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Artículo 3. Órganos del Observatorio.</p>
+          <p class="parrafo">El funcionamiento del Observatorio tendrá lugar a través de los siguientes órganos: el Pleno, la Comisión Ejecutiva y el Comité Asesor de la Comisión Ejecutiva.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Artículo 4. El Pleno.</p>
+          <p class="parrafo">1. El Pleno del Observatorio de la Pequeña y Mediana Empresa estará integrado por los siguientes miembros:</p>
+          <p class="parrafo">a) Presidente: el Secretario General de Industria.</p>
+          <p class="parrafo">b) Vicepresidente: el Director General de Política de la Pequeña y Mediana Empresa, quien sustituirá al Presidente en casos de vacante, ausencia, enfermedad u otra causa legal.</p>
+          <p class="parrafo">c) Vocales:</p>
+          <p class="parrafo">1.º 12 vocales, en representación de la Administración General del Estado y sus organismos autónomos, con categoría, al menos, de director general, que corresponderán:</p>
+          <p class="parrafo_2">Dos al Ministerio de Industria, Turismo y Comercio.</p>
+          <p class="parrafo">Uno al Ministerio de Economía y Hacienda.</p>
+          <p class="parrafo">Uno al Ministerio de Fomento.</p>
+          <p class="parrafo">Uno al Ministerio de Trabajo y Asuntos Sociales.</p>
+          <p class="parrafo">Uno al Ministerio de Agricultura, Pesca y Alimentación.</p>
+          <p class="parrafo">Uno al Ministerio de Administraciones Públicas.</p>
+          <p class="parrafo">Uno al Ministerio de Cultura.</p>
+          <p class="parrafo">Uno al Ministerio de Medio Ambiente.</p>
+          <p class="parrafo">Uno al Ministerio de Vivienda.</p>
+          <p class="parrafo">Uno al Instituto Nacional de Estadística.</p>
+          <p class="parrafo">Uno al Instituto de Contabilidad y Auditoría de Cuentas.</p>
+          <p class="parrafo_2">2.º 19 vocales en representación de las 17 comunidades autónomas y de las ciudades de Ceuta y Melilla, que, previa expresa aceptación, serán designados a propuesta del consejero o del responsable en el órgano de gobierno territorial de la política para las pequeñas y medianas empresas.</p>
+          <p class="parrafo">3.º Un representante de la Administración local, designado por la asociación de ámbito estatal con mayor implantación.</p>
+          <p class="parrafo">4.º Un representante del Instituto de Crédito Oficial.</p>
+          <p class="parrafo">5.º Siete vocales en representación de las organizaciones empresariales de ámbito estatal e intersectorial más representativas.</p>
+          <p class="parrafo">6.º Dos vocales en representación de las organizaciones sindicales más representativas con implantación nacional.</p>
+          <p class="parrafo">7.º Un vocal en representación de las confederaciones empresariales de economía social con mayor implantación en el ámbito estatal.</p>
+          <p class="parrafo">8.º Un vocal en representación del Consejo Superior de Cámaras de Comercio, Industria y Navegación de España.</p>
+          <p class="parrafo_2">Actuará como secretario del Pleno, con voz pero sin voto, el Subdirector General de Apoyo a las Pequeñas y Medianas Empresas, perteneciente a la Dirección General de Política de la Pequeña y Mediana Empresa, con las funciones previstas en el artículo 25 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. Los vocales del Observatorio de la Pequeña y Mediana Empresa en representación de la Administración General del Estado y de las Administraciones de las comunidades autónomas lo serán en función del cargo que ocupan y requerirán la aprobación del Secretario General de Industria, a propuesta de los correspondientes órganos administrativos. En el caso de cese del titular del cargo, su sucesor ocupará de forma automática la correspondiente vocalía.</p>
+          <p class="parrafo">Los restantes vocales serán nombrados por el Secretario General de Industria, a título personal y a propuesta de las correspondientes organizaciones representadas en el Pleno. La condición de miembro del Observatorio de estos vocales se perderá por el cese en el cargo que determinó su nombramiento o por otra causa legal, por lo que deberá procederse a un nuevo nombramiento.</p>
+          <p class="parrafo">3. El Pleno del Observatorio de la Pequeña y Mediana Empresa realizará las siguientes funciones:</p>
+          <p class="parrafo">a) Actuar como órgano consultivo y asesor en las materias que afectan a las PYME.</p>
+          <p class="parrafo">b) Favorecer el diálogo y la intercomunicación de las distintas Administraciones públicas entre sí y de estas con los agentes que intermedian a favor de las PYME, en orden a dotar de una mayor racionalidad y eficacia a las políticas dirigidas a este colectivo.</p>
+          <p class="parrafo">c) Formular propuestas de actuación a las Administraciones competentes y recomendaciones a los agentes intermedios y a las PYME, para mejorar el crecimiento y eficiencia y productividad de este colectivo.</p>
+          <p class="parrafo_2">4. El Pleno del Observatorio de la Pequeña y Mediana Empresa se reunirá al menos una vez al año o cuando su Presidente lo convoque.</p>
+          <p class="parrafo">El Pleno del Observatorio podrá establecer sus propias normas de funcionamiento. En lo no previsto en este real decreto y en sus normas de funcionamiento, será aplicable lo dispuesto en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 1.c) conforme a la corrección de errores publicada en BOE núm. 276, de 18 de noviembre de 2005. <a class="refPost">Ref. BOE-A-2005-18936</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Artículo 5. Comisión Ejecutiva.</p>
+          <p class="parrafo">1. La Comisión Ejecutiva estará presidida por el presidente del Pleno y formarán parte de ella el vicepresidente del Pleno y los dos representantes del Ministerio de Industria, Turismo y Comercio en el Pleno. La Dirección General de Política de la Pequeña y Mediana Empresa, designará los funcionarios que prestarán apoyo técnico y administrativo a la Comisión Ejecutiva.</p>
+          <p class="parrafo">2. La Comisión Ejecutiva ejercerá las siguientes funciones:</p>
+          <p class="parrafo">a) Proponer a los miembros del Comité Asesor.</p>
+          <p class="parrafo">b) Realizar el seguimiento de las actuaciones del Comité Asesor.</p>
+          <p class="parrafo">c) Aprobar las propuestas presentadas por el Comité Asesor.</p>
+          <p class="parrafo">d) Disponer las actuaciones necesarias para llevar a cabo las propuestas aprobadas por el Comité Asesor.</p>
+          <p class="parrafo">e) Trasladar al Pleno del Observatorio, para conocimiento, reflexión y análisis, las conclusiones y propuestas que emanen de las actuaciones aprobadas en su seno.</p>
+          <p class="parrafo">f) Aquellas que pueda delegarle el Pleno del Observatorio.</p>
+          <p class="parrafo_2">3. La Comisión Ejecutiva se reunirá siempre con carácter previo a la convocatoria del Pleno del Observatorio y en cuantas ocasiones su presidente lo estime conveniente.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Artículo 6. Comité Asesor de la Comisión Ejecutiva.</p>
+          <p class="parrafo">1. El Comité Asesor dependerá directamente de la Comisión Ejecutiva y estará presidido por el vicepresidente del Pleno. Formarán parte de él entre 15 y 20 personalidades del ámbito nacional e internacional, con reconocido prestigio académico y profesional en materias que afectan a las PYME. El secretario del Pleno actuará como secretario del Comité, con voz pero sin voto.</p>
+          <p class="parrafo">2. Los miembros del Comité Asesor serán nombrados por la Dirección General de Política de la Pequeña y Mediana Empresa por un periodo máximo de dos años; excepcionalmente, será posible la renovación de alguno de ellos, por una sola vez e igual periodo de tiempo.</p>
+          <p class="parrafo">El Comité Asesor será renovado por mitades, con carácter anual, a partir del segundo año de su constitución, para lo cual la mitad de los miembros del primer Comité Asesor constituido ejercerá sus funciones por un periodo de tres años.</p>
+          <p class="parrafo">3. El Comité Asesor realizará las siguientes funciones:</p>
+          <p class="parrafo">a) Promover la elaboración de estudios e investigaciones para la realización de análisis cualitativos e informes técnicos de diagnóstico sobre la situación de las PYME en España, poniendo especial énfasis en la innovación y la gestión del conocimiento en el ámbito empresarial.</p>
+          <p class="parrafo">b) Recabar y analizar la información estadística disponible en fuentes nacionales e internacionales sobre la PYME.</p>
+          <p class="parrafo">c) Definir nuevos indicadores que permitan hacer un seguimiento del desarrollo de las PYME en España y su comparación con sus homólogas europeas.</p>
+          <p class="parrafo">d) Desarrollar un programa de buenas prácticas en políticas para la PYME y analizar, por otra parte, las mejores iniciativas y prácticas empresariales.</p>
+          <p class="parrafo">e) Proponer iniciativas para mejorar la calidad de las políticas públicas dirigidas al sector.</p>
+          <p class="parrafo">f) Aquellas que pueda encargarle la Comisión Eje-cutiva.</p>
+          <p class="parrafo_2">4. El Comité Asesor se reunirá al menos con carácter trimestral o cuando su presidente lo convoque.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Disposición adicional primera. No incremento de gasto público.</p>
+          <p class="parrafo">El funcionamiento del Observatorio de la Pequeña y Mediana Empresa no supondrá incremento alguno del gasto público y será atendido con los medios materiales y de personal ya existentes en el Ministerio de Industria, Turismo y Comercio.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Disposición adicional segunda. Constitución.</p>
+          <p class="parrafo">El Observatorio se constituirá dentro de los dos meses siguientes a la entrada en vigor de este real decreto; las Administraciones y organizaciones que lo componen deberán proponer a sus representantes en el plazo de 30 días contado a partir de dicha entrada en vigor.</p>
+          <p class="parrafo">La convocatoria para la sesión constitutiva se realizará por el Secretario General de Industria.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 1204/2002, de 20 de noviembre, por el que se regula el Observatorio de la Pequeña y Mediana Empresa.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2005-15049" fecha_publicacion="20050909" fecha_vigencia="20050910">
+          <p class="parrafo_2">Dado en Palma de Mallorca, el 29 de julio de 2005.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Industria, Turismo y Comercio,</p>
+          <p class="firma_ministro">JOSÉ MONTILLA AGUILERA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

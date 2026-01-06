@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T212204Z</fecha_actualizacion>
+      <identificador>BOE-A-1994-11418</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19940519</fecha_disposicion>
+      <numero_oficial>8/1994</numero_oficial>
+      <titulo>Ley 8/1994, de 19 de mayo, por la que se regula la Comisión Mixta para la Unión Europea.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19940520</fecha_publicacion>
+      <diario_numero>120</diario_numero>
+      <fecha_vigencia>19940609</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1994/05/19/8</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1994-11418</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1371">Congreso de Diputados</materia>
+        <materia codigo="1748">Cortes Generales</materia>
+        <materia codigo="5378">Parlamento Europeo</materia>
+        <materia codigo="6531">Senado</materia>
+        <materia codigo="7001">Unión Europea</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1988-16727</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Ley 18/1988, de 1 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-26891</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Ley 47/1985, de 27 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-626</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Tratado de la Union Europea, de 7 de febrero de 1992</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2009-20724</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3 y se añade los capítulos I a III, por Ley 24/2009, de 22 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2010-19575</id_norma>
+            <relacion codigo="407">SE AÑADE</relacion>
+            <texto>los capítulos 3 y 4, por Ley 38/2010, de 20 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-11418</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1371"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1748"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5378"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6531"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-11418</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1371"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1748"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6531"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/20101221"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/20091223"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/19940520"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1994, de 19 de mayo, por la que se regula la Comisión Mixta para la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-20</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 8/1994, de 19 de maig, per la qual es regula la Comissió Mixta per a la Unió Europea. («BOE» 120, de 20-5-1994.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/20101221">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-11418</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1371"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1748"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6531"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-12-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/20101221/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1994, de 19 de mayo, por la que se regula la Comisión Mixta para la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/20101221"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/20101221/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/20101221/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/20091223">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-11418</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1371"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1748"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6531"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/20091223/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1994, de 19 de mayo, por la que se regula la Comisión Mixta para la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/20091223"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/20091223/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/20091223/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/19940520">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-11418</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1371"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1748"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6531"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/19940520/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1994, de 19 de mayo, por la que se regula la Comisión Mixta para la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/19940520"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/19/8/con/19940520/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/19/8/con/19940520/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley:</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">La entrada en vigor del Tratado de la Unión Europea, el 1 de noviembre de 1993, representa un importante avance en la construcción del proyecto europeo.</p>
+          <p class="parrafo">España, que forma parte de la Unión Europea como miembro de pleno derecho, viene demostrando claramente desde hace tiempo su vocación europea. Ha modificado su propia Constitución, por consenso unánime de todos los Grupos Políticos presentes en las Cámaras, para ajustarla a las condiciones que reclaman los compromisos destinados a reforzar la gran empresa europea.</p>
+          <p class="parrafo">En la perspectiva de una unión cada día más estrecha entre los pueblos de Europa, reviste una singular importancia el fortalecimiento de la participación de los Parlamentos nacionales en este proceso, circunstancia referida en el propio Tratado de la Unión Europea, en el que se establece que «... los Gobiernos de los Estados miembros velarán, entre otros aspectos, porque los Parlamentos nacionales puedan disponer de las propuestas legislativas de la Comisión con la antelación suficiente para información o para que puedan ser examinadas.»</p>
+          <p class="parrafo">En esta nueva situación es preciso desarrollar el artículo 93 de la Constitución que afirma que «corresponde a las Cortes Generales o al Gobierno, según los casos, la garantía del cumplimiento de estos Tratados y de las resoluciones emanadas de los organismos internacionales o supranacionales titulares de la cesión».</p>
+          <p class="parrafo">Desde el punto de vista interno, hasta ahora esta situación se había regulado a través de la Ley 47/1985, de 27 de diciembre, de Bases de Delegación al Gobierno para la aplicación del Derecho de las Comunidades Europeas (modificada en su artículo 5 por la Ley 18/1988, de 1 de julio), en especial a través de sus disposiciones relativas a la Comisión Mixta para las Comunidades Europeas. El desarrollo natural de su contenido ha provocado la obsolescencia de esta ley y determina ahora la conveniencia de su sustitución. Es necesario adecuar esta Comisión Mixta en función de las consecuencias para España de la entrada en vigor del Tratado de la Unión Europea.</p>
+          <p class="parrafo">Por ello, resulta indispensable que las Cortes Generales tengan acceso a todas las propuestas de actos legislativos elaborados por la Comisión Europea. Esta necesidad fue ampliamente debatida y respaldada por la gran mayoría de los Grupos Parlamentarios con ocasión de la autorización parlamentaria para la ratificación del Tratado.</p>
+          <p class="parrafo">Este deber de información del Gobierno se generaliza y amplía, puesto que hasta ahora se limitaba sólo a los proyectos normativos comunitarios que pudiesen afectar a España únicamente en materias sometidas a reserva de ley.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="precepto" titulo="Capítulo I">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="capitulo_num">Capítulo I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.1 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Se establece una Comisión Mixta del Congreso de los Diputados y del Senado, denominada Comisión Mixta para la Unión Europea, con el fin de que las Cortes Generales tengan la participación adecuada en las propuestas legislativas elaboradas por la Comisión Europea y dispongan, en general, de la más amplia información sobre las actividades de la Unión Europea.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">La Comisión Mixta para la Unión Europea estará compuesta por el número de diputados y senadores que establezcan la Mesas de las Cámaras en sesión conjunta, al inicio de cada Legislatura, garantizando, en todo caso, la presencia de todos los Grupos Parlamentarios. Sus miembros serán designados por los Grupos Parlamentarios en proporción a su importancia numérica en las respectivas Cámaras.</p>
+          <p class="parrafo">Los nombres de los integrantes deberán ser comunicados dentro de los quince días siguientes a la constitución de las Cámaras en cada Legislatura. Finalizado el plazo anterior, el Presidente del Congreso de los Diputados convocará a la Comisión para proceder a su constitución.</p>
+          <p class="parrafo">La Presidencia de la Comisión corresponderá al Presidente del Congreso de los Diputados o al diputado o senador en quien éste delegue con carácter permanente.</p>
+          <p class="parrafo">Los acuerdos, para ser válidos, deberán ser aprobados por la mayoría simple de los miembros presentes de la Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">Para el cumplimiento de sus fines, la Comisión Mixta para la Unión Europea tendrá las siguientes competencias:</p>
+          <p class="parrafo">a) Conocer, tras su publicación, los decretos legislativos promulgados en aplicación del derecho derivado comunitario.</p>
+          <p class="parrafo">b) Recibir, a través del Gobierno, las propuestas legislativas de la Comisión Europea, con antelación suficiente para su información o para que puedan ser examinadas.</p>
+          <p class="parrafo">El Gobierno, a la mayor brevedad posible, y a reserva de una valoración definitiva, remitirá a la Cámara un sucinto informe sobre el contenido sustancial de aquellas propuestas legislativas de la Comisión Europea que tengan repercusión en España.</p>
+          <p class="parrafo">Cuando la Comisión lo considere oportuno, podrá solicitar del Gobierno la ampliación de la información remitida.</p>
+          <p class="parrafo">c) Celebrar debates sobre una propuesta legislativa concreta en el seno de la Comisión y solicitar, si se considera oportuno, al Presidente de cualquiera de ambas Cámaras la celebración de un debate en el Pleno respectivo con el mismo fin, participando el Gobierno en ambos casos.</p>
+          <p class="parrafo">La Comisión podrá solicitar, a través de la Mesa del Congreso, que otra u otras Comisiones de ambas Cámaras informen previamente sobre una cuestión determinada.</p>
+          <p class="parrafo">Aprobada la propuesta o iniciativa legislativa por el Consejo de Ministros de la Unión Europea, la Comisión Mixta podrá acordar la comparecencia del Gobierno para dar cuenta de la tramitación y resultados.</p>
+          <p class="parrafo">d) Recibir del Gobierno la información que obre en su poder sobre las actividades de las instituciones de la Unión Europea.</p>
+          <p class="parrafo">e) Ser informada por el Gobierno de las líneas inspiradoras de su política en el seno de la Unión Europea, así como de las decisiones y acuerdos del Consejo de Ministros de la Unión Europea.</p>
+          <p class="parrafo">A tal fin, el Gobierno remitirá a las Cámaras, con anterioridad a cada Consejo Europeo ordinario, un informe escrito sobre la evolución de los acontecimientos de la Unión Europea durante la Presidencia que concluye en dicho Consejo.</p>
+          <p class="parrafo">f) Elaborar informes sobre aquellas cuestiones relativas a la actividad de la Unión Europea que pueda considerar de interés, entre ellas las reseñadas en el apartado b).</p>
+          <p class="parrafo">g) Establecer relaciones de cooperación con los órganos adecuados de los restantes Parlamentos de los países miembros de la Unión Europea y del Parlamento Europeo.</p>
+          <p class="parrafo">h) Celebrar reuniones conjuntas con los Diputados españoles en el Parlamento Europeo.</p>
+          <p class="parrafo">i) Mantener relaciones de recíproca información y colaboración con las Comisiones existentes en otros Parlamentos nacionales de Estados miembros de la Unión que tengan competencias similares a las de la Comisión Mixta, así como con las correspondientes Comisiones del Parlamento Europeo.</p>
+          <p class="parrafo">A tal efecto se conferirán facilidades mutuas y se celebrarán cuando fuere conveniente reuniones periódicas de parlamentarios interesados por las mismas cuestiones, con la aprobación pertinente de las Mesas de las Cámaras de conformidad con los Reglamentos respectivos.</p>
+        </version>
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">Para el cumplimiento de sus fines, la Comisión Mixta para la Unión Europea tendrá las siguientes competencias:</p>
+          <p class="parrafo_2">a) Conocer, tras su publicación, los decretos legislativos promulgados en aplicación del derecho derivado comunitario.</p>
+          <p class="parrafo">b) Recibir de la Comisión Europea y de otras instituciones de la Unión Europea las propuestas de actos legislativos y otros documentos, para su información, examen y seguimiento.</p>
+          <p class="parrafo">El Gobierno, a la mayor brevedad posible, y a reserva de una valoración definitiva, remitirá a las Cámaras un sucinto informe sobre el contenido sustancial de aquellas propuestas legislativas que tengan repercusión en España.</p>
+          <p class="parrafo">Cuando la Comisión Mixta lo considere oportuno, podrá solicitar del Gobierno la ampliación de la información recibida.</p>
+          <p class="parrafo">c) Celebrar debates sobre una propuesta legislativa concreta en el seno de la Comisión y solicitar, si se considera oportuno, al Presidente de cualquiera de ambas Cámaras la celebración de un debate en el Pleno respectivo con el mismo fin, participando el Gobierno en ambos casos.</p>
+          <p class="parrafo">La Comisión podrá solicitar, a través de la Mesa del Congreso, que otra u otras Comisiones de ambas Cámaras informen previamente sobre una cuestión determinada.</p>
+          <p class="parrafo">Aprobada la propuesta o iniciativa legislativa por el Consejo de Ministros de la Unión Europea, la Comisión Mixta podrá acordar la comparecencia del Gobierno para dar cuenta de la tramitación y resultados.</p>
+          <p class="parrafo">d) Recibir del Gobierno la información que obre en su poder sobre las actividades de las instituciones de la Unión Europea.</p>
+          <p class="parrafo">e) Ser informada por el Gobierno de las líneas inspiradoras de su política en el seno de la Unión Europea, así como de las decisiones y acuerdos del Consejo de Ministros de la Unión Europea.</p>
+          <p class="parrafo">A tal fin, el Gobierno remitirá a las Cámaras, con anterioridad a cada Consejo Europeo ordinario, un informe escrito sobre la evolución de los acontecimientos de la Unión Europea durante la Presidencia que concluye en dicho Consejo.</p>
+          <p class="parrafo">f) Elaborar informes sobre aquellas cuestiones relativas a la actividad de la Unión Europea que pueda considerar de interés, entre ellas las reseñadas en el apartado b).</p>
+          <p class="parrafo">g) Establecer relaciones de cooperación con los órganos adecuados de los restantes Parlamentos de los países miembros de la Unión Europea y del Parlamento Europeo.</p>
+          <p class="parrafo">h) Celebrar reuniones conjuntas con los Diputados españoles en el Parlamento Europeo.</p>
+          <p class="parrafo">i) Mantener relaciones de recíproca información y colaboración con las Comisiones existentes en otros Parlamentos nacionales de Estados miembros de la Unión que tengan competencias similares a las de la Comisión Mixta, así como con las correspondientes Comisiones del Parlamento Europeo.</p>
+          <p class="parrafo">A tal efecto se conferirán facilidades mutuas y se celebrarán cuando fuere conveniente reuniones periódicas de parlamentarios interesados por las mismas cuestiones, con la aprobación pertinente de las Mesas de las Cámaras de conformidad con los Reglamentos respectivos.</p>
+          <p class="parrafo">j) Emitir en nombre de las Cortes Generales, con arreglo a lo dispuesto en la normativa europea aplicable, dictamen motivado sobre la vulneración del principio de subsidiariedad, en los términos que se recogen en el Capítulo II de esta Ley.</p>
+          <p class="parrafo">Cuando fuese necesario para sus deliberaciones la Comisión Mixta para la Unión Europea podrá pedir al Gobierno un informe relativo a la conformidad del acto legislativo con el principio de subsidiariedad, el Gobierno deberá remitir dicho informe en el plazo máximo de dos semanas, acompañado de los documentos oficiales de los órganos de la Unión Europea que se hubieran empleado en la preparación del proyecto legislativo y que obren en poder del Gobierno.</p>
+          <p class="parrafo">Cuando la Comisión lo considere oportuno, podrá solicitar del Gobierno la ampliación de la información remitida.</p>
+          <p class="parrafo">k) Solicitar del Gobierno la interposición del recurso de anulación ante el Tribunal de Justicia de la Unión Europea por infracción del principio de subsidiariedad, conforme se indica en el artículo 7 de esta Ley.</p>
+          <p class="parrafo">l) Participar en los procedimientos de revisión simplificados de los Tratados previstos en el artículo 48.7 del Tratado de la Unión Europea, en los términos establecidos en el artículo 8 de esta Ley.</p>
+          <p class="parrafo">m) Recibir la información de las solicitudes de adhesión a la Unión Europea, con arreglo a lo previsto en el artículo 49 del Tratado de la Unión Europea.</p>
+          <p class="parrafo">n) Participar en las actividades de Eurojust y de Europol, en los términos establecidos en los artículos 12 del Tratado de la Unión Europea y 85 y 88 del Tratado de Funcionamiento de la Unión Europea, y adoptar las decisiones previstas en el artículo 81.3 del Tratado de Funcionamiento de la Unión Europea, sobre aspectos del Derecho de familia con implicaciones transfronterizas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado b) y se añaden los apartados j) a n) por los apartados 2 y 3 del art. 2 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">El Gobierno comparecerá ante el Pleno del Congreso de los Diputados, con posterioridad a cada Consejo Europeo, ordinario o extraordinario, para informar sobre lo allí decidido y mantener un debate con los Grupos Parlamentarios.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="precepto" titulo="Capítulo II">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="capitulo_num">Capítulo II</p>
+          <p class="capitulo_tit">Control por las Cortes Generales de la aplicación del principio de subsidiariedad por los proyectos de actos legislativos de la Unión Europea</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.4 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">1. La potestad de aprobar en nombre de las Cortes Generales un dictamen motivado sobre la aplicación del principio de subsidiariedad por los proyectos de actos legislativos de la Unión Europea, de conformidad con lo establecido en su normativa, corresponderá con carácter general a la Comisión Mixta para la Unión Europea de las Cortes Generales.</p>
+          <p class="parrafo">2. No obstante lo dispuesto en el apartado anterior, los Plenos del Congreso de los Diputados y del Senado podrán avocar el debate y la votación del dictamen elaborado por la Comisión Mixta para la Unión Europea en los términos previstos en los respectivos Reglamentos de las Cámaras. Si uno de los Plenos de las Cámaras avocase su competencia para la aprobación del dictamen motivado, la Comisión Mixta para la Unión Europea deberá someter su propuesta de dictamen motivado a los Plenos de ambas Cámaras.</p>
+          <p class="parrafo">3. Los dictámenes motivados aprobados por la Comisión Mixta, o por los Plenos de las Cámaras, serán remitidos por conducto de los Presidentes del Congreso de los Diputados y del Senado a los Presidentes del Parlamento Europeo, del Consejo y de la Comisión Europea, en el plazo máximo de ocho semanas desde que fue transmitido el proyecto de acto legislativo europeo a las Cámaras. Asimismo serán trasladados al Gobierno para su conocimiento.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.4 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">1. El Congreso de los Diputados y el Senado, tan pronto reciban una iniciativa legislativa de la Unión Europea, la remitirán a los Parlamentos de las Comunidades Autónomas, sin prejuzgar la existencia de competencias autonómicas afectadas, a efectos de su conocimiento y de que, en su caso, puedan remitir a las Cortes Generales un dictamen motivado sobre la aplicación del principio de subsidiariedad por la referida iniciativa, todo ello de conformidad con lo dispuesto en la normativa europea aplicable en la materia.</p>
+          <p class="parrafo">2. El dictamen motivado que, en su caso, pueda aprobar el Parlamento de una Comunidad Autónoma, para que pueda ser tenido en consideración deberá haber sido recibido en el Congreso de los Diputados o en el Senado en el plazo de cuatro semanas desde la remisión de la iniciativa legislativa europea por las Cortes Generales.</p>
+          <p class="parrafo">3. Si la Comisión Mixta aprobase un dictamen motivado sobre la vulneración del principio de subsidiariedad por un proyecto de acto legislativo de la Unión Europea, incorporará la relación de los dictámenes remitidos por los Parlamentos de las Comunidades Autónomas y las referencias necesarias para su consulta.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.4 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">1. La participación de las Cortes Generales en la interposición de un recurso de anulación ante el Tribunal de Justicia de la Unión Europea por infracción del principio de subsidiariedad, prevista en el Protocolo sobre la aplicación de los principios de subsidiariedad y proporcionalidad anejo al Tratado de Lisboa, se articulará de acuerdo con lo dispuesto en este artículo.</p>
+          <p class="parrafo">2. En el plazo máximo de seis semanas desde la publicación oficial de un acto legislativo europeo, la Comisión Mixta para la Unión Europea podrá solicitar del Gobierno la interposición ante el Tribunal de Justicia de un recurso de anulación contra dicho acto por infracción del principio de subsidiariedad.</p>
+          <p class="parrafo">3. El Gobierno podrá descartar, de forma motivada, la interposición del recurso de anulación solicitado por alguna de las Cámaras o por la Comisión Mixta para la Unión Europea. Esta decisión deberá justificarse mediante la comparecencia del Gobierno ante la Comisión Mixta para la Unión Europea, cuando ésta así lo solicite.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.4 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ct" tipo="encabezado" titulo="Capítulo Tercero (nuevo)">
+        <version id_norma="BOE-A-2010-19575" fecha_publicacion="20101221" fecha_vigencia="20101221">
+          <p class="capitulo_num">CAPÍTULO TERCERO (NUEVO)</p>
+          <p class="capitulo_tit">Regulación de las comparecencias periódicas del Gobierno ante la Comisión Mixta para la Unión Europea</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2 de la Ley 38/2010, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2010-19575</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8-2" tipo="precepto" titulo="Artículo 8 (nuevo)">
+        <version id_norma="BOE-A-2010-19575" fecha_publicacion="20101221" fecha_vigencia="20101221">
+          <p class="articulo">Artículo 8 (nuevo).</p>
+          <p class="parrafo">A la vista del calendario de reuniones semestrales del Consejo de la Unión Europea, la Mesa de la Comisión Mixta para la Unión Europea decidirá los miembros del Gobierno, Ministros o altos cargos, que deban comparecer ante la citada Comisión antes de la celebración de la reunión del Consejo, a efectos de que puedan manifestar la posición del Gobierno en relación a los asuntos incluidos en el orden del día de la reunión del Consejo.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2 de la Ley 38/2010, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2010-19575</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9-2" tipo="precepto" titulo="Artículo 9 (nuevo) ">
+        <version id_norma="BOE-A-2010-19575" fecha_publicacion="20101221" fecha_vigencia="20101221">
+          <p class="articulo">Artículo 9 (nuevo).</p>
+          <p class="parrafo">Al final de cada presidencia semestral del Consejo de la Unión Europea, el Ministro de Asuntos Exteriores y de Cooperación o el Secretario de Estado para la Unión Europea comparecerán ante la Comisión Mixta para la Unión Europea para dar cuenta de los progresos realizados durante dicha presidencia.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2 de la Ley 38/2010, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2010-19575</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cc" tipo="encabezado" titulo="Capítulo Cuarto (nuevo)">
+        <version id_norma="BOE-A-2010-19575" fecha_publicacion="20101221" fecha_vigencia="20101221">
+          <p class="capitulo_num">CAPÍTULO CUARTO (NUEVO)</p>
+          <p class="capitulo_tit">Regulación de la participación y comparecencia de los Gobiernos Autonómicos ante la Comisión Mixta para la Unión Europea</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2 de la Ley 38/2010, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2010-19575</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10 (nuevo)">
+        <version id_norma="BOE-A-2010-19575" fecha_publicacion="20101221" fecha_vigencia="20101221">
+          <p class="articulo">Artículo 10 (nuevo).</p>
+          <p class="parrafo_2">1.º Los miembros de los Gobiernos de las Comunidades Autónomas y de las Ciudades Autónomas de Ceuta y Melilla –Presidente o miembros del Consejo ejecutivo competentes– podrán solicitar su comparecencia ante la Comisión Mixta para la Unión Europea para informar sobre el impacto de la normativa de las instituciones de la Unión Europea y de las propuestas de actos legislativos y otros documentos emanados de instituciones de la Unión Europea, de conformidad con el artículo 3.b) de esta Ley, sobre las materias en las que ostenten algún tipo de competencia.</p>
+          <p class="parrafo">2.º La celebración de las comparecencias a las que se refiere el apartado 1.º de este artículo se acordarán por la Mesa de la Comisión Mixta para la Unión Europea o a petición de dos grupos parlamentarios.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2 de la Ley 38/2010, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2010-19575</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="precepto" titulo="Capítulo III">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="capitulo_num">Capítulo III</p>
+          <p class="capitulo_tit">Otros procedimientos especiales</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.5 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">1. La oposición de las Cortes Generales a las iniciativas tomadas por el Consejo Europeo de autorización al Consejo para que se pronuncie por mayoría cualificada en lugar de por unanimidad o para que adopte actos legislativos por el procedimiento legislativo ordinario en vez de por un procedimiento especial, en ejercicio de la habilitación establecida en el artículo 48.7 del Tratado de la Unión Europea, corresponderá a los Plenos del Congreso de los Diputados y del Senado, a propuesta de la Comisión Mixta para la Unión Europea.</p>
+          <p class="parrafo">2. Si los Plenos del Congreso de los Diputados y del Senado ratificasen la propuesta de oposición a la iniciativa del Consejo Europeo, dicha decisión se tramitará en los términos que reglamentariamente se determinen con traslado al Gobierno para su conocimiento.</p>
+          <p class="parrafo">3. El mismo procedimiento será aplicable a la oposición de las Cortes Generales a las decisiones del Consejo relativas a la determinación de los aspectos del Derecho de familia con implicaciones transfronterizas que puedan ser objeto de actos adoptados mediante el procedimiento legislativo ordinario con arreglo a lo dispuesto en el artículo 81.3 del Tratado de Funcionamiento de la Unión Europea.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.5 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2009-20724" fecha_publicacion="20091223" fecha_vigencia="20091224">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo">La participación de las Cortes Generales en la evaluación de las actividades de Eurojust y en supervisión política de Europol se realizará con carácter general a través de la Comisión Mixta para la Unión Europea y, en su caso, con la intervención de las comisiones legislativas competentes de cada Cámara.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.5 de la Ley 24/2009, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-20724</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">El Consejo de Estado deberá ser consultado sobre las normas que se dicten en ejecución, cumplimiento y desarrollo del Derecho Comunitario europeo, de conformidad y en los términos establecidos en su propia Ley Orgánica.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">La actual Comisión Mixta para las Comunidades Europeas, regulada en la Ley 47/1985, de 27 de diciembre, y modificada por la Ley 18/1988, de 1 de julio, quedará transformada en la Comisión Mixta para la Unión Europea, con las competencias y facultades establecidas por esta Ley.</p>
+          <p class="parrafo">Las Mesas de ambas Cámaras adoptarán las medidas precisas para dar cumplimiento a esta disposición.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Quedan derogadas las Leyes 47/1985, de 27 de diciembre, de Bases de Delegación al Gobierno para la Aplicación del Derecho de las Comunidades Europeas, y 18/1988, de 1 de julio, de modificación del artículo 5. de la Ley 47/1985, de 27 de diciembre.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">En todo lo no previsto en esta Ley será de aplicación el Reglamento del Congreso de los Diputados.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1994-11418" fecha_publicacion="19940520" fecha_vigencia="19940609">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades que guarden y hagan guardar esta Ley.</p>
+          <p class="parrafo_2">Madrid, 19 de mayo de 1994.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">FELIPE GONZÁLEZ MÁRQUEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

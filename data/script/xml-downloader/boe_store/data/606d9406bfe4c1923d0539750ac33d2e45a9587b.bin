@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165843Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-1943</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1012">Agencia de Protección de Datos</departamento>
+      <rango codigo="1410">Instrucción</rango>
+      <fecha_disposicion>19980119</fecha_disposicion>
+      <numero_oficial>1/1998</numero_oficial>
+      <titulo>Instrucción 1/1998, de 19 de enero, de la Agencia de Protección de Datos, relativa al ejercicio de los derechos de acceso, rectificación y cancelación.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980129</fecha_publicacion>
+      <diario_numero>25</diario_numero>
+      <fecha_vigencia>19980218</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/ins/1998/01/19/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-1943</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="2463">Derechos de los ciudadanos</materia>
+        <materia codigo="3685">Ficheros con datos personales</materia>
+        <materia codigo="7854">Protección de datos personales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1994-14121</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Real Decreto 1332/1994, de 20 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1992-24189</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 14 de la Ley Orgánica 5/1992, de 29 de octubre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-1943</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-19</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2463"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-1943</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2463"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/con/19980129"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción 1/1998, de 19 de enero, de la Agencia de Protección de Datos, relativa al ejercicio de los derechos de acceso, rectificación y cancelación.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/con/19980129">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-1943</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2463"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/con/19980129/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción 1/1998, de 19 de enero, de la Agencia de Protección de Datos, relativa al ejercicio de los derechos de acceso, rectificación y cancelación.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/con/19980129"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1998/01/19/1/con/19980129/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1998/01/19/1/con/19980129/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="parrafo">La Ley Orgánica 5/1992, de 29 de octubre, de Regulación del Tratamiento Automatizado de los Datos de Carácter Personal, dedica los artículos 14 y siguientes a los derechos de acceso, rectificación y cancelación de los datos de carácter personal contenidos en ficheros automatizados. Dichos derechos se configuran como uno de los ejes fundamentales sobre los que se articula la protección del honor, la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos, en desarrollo de lo dispuesto en el artículo 18.4 de la Constitución Española.</p>
+          <p class="parrafo">El ejercicio de los derechos de acceso, rectificación y cancelación aparece regulado no sólo en la Ley Orgánica 5/1992, sino también en el Real Decreto 1332/1994, de 20 de junio, por el que se desarrollan determinados aspectos procedimentales de la citada Ley.</p>
+          <p class="parrafo">Al amparo de lo dispuesto en el artículo 36.c) de la Ley Orgánica 5/1992 que atribuye al Director de la Agencia la función de «dictar, en su caso, y sin perjuicio de las competencias de otros órganos, las instrucciones precisas para adecuar los tratamientos automatizados a los principios de la presente Ley», se ha elaborado la presente Instrucción.</p>
+          <p class="parrafo">Esta Instrucción tiene por objeto aclarar las disposiciones relativas a los derechos de acceso, rectificación y cancelación, ya que las actuaciones practicadas por esta Agencia han puesto de manifiesto que en su aplicación se presentan problemas interpretativos y que es necesario precisar el ejercicio de estos derechos en relación con algunos ficheros que presentan características especiales. Para ello, la Instrucción recoge la regulación de dichos derechos de acuerdo con la Ley Orgánica 5/1992 y el Real Decreto 1332/1994, de 20 de junio, y realiza una interpretación unitaria de los preceptos teniendo en cuenta la totalidad de principios legales.</p>
+          <p class="parrafo">En las normas primera, segunda y tercera se detallan los requisitos que deben cumplirse en el ejercicio de los derechos de acceso, rectificación y cancelación con carácter general. Sin embargo, las particularidades que presentan los ficheros de prestación de servicios de información sobre solvencia patrimonial y crédito y los ficheros con fines de publicidad exigen tratarlos de un modo especial en las normas cuarta y quinta, respectivamente.</p>
+        </version>
+      </bloque>
+      <bloque id="normaprimera" tipo="precepto" titulo="Norma primera">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="articulo">Norma primera. Requisitos generales.</p>
+          <p class="parrafo_2">1. Los derechos de acceso a los ficheros automatizados, así como los de rectificación y cancelación de datos son personalísimos y serán ejercidos por el afectado frente al responsable del fichero por lo que será necesario que el afectado acredite su identidad frente a dicho responsable. Estos derechos se ejercerán sin otras limitaciones que las que prevén la Ley Orgánica 5/1992 y el Real Decreto 1332/1994, de 20 de junio.</p>
+          <p class="parrafo">Podrá, no obstante, actuar el representante legal del afectado cuando éste se encuentre en situación de incapacidad o minoría de edad que le imposibilite el ejercicio personal de los mismos, en cuyo caso será necesario que el representante legal acredite tal condición.</p>
+          <p class="parrafo">2. La Ley configura los derechos de acceso, rectificación y cancelación como derechos independientes, de tal forma que no puede entenderse que el ejercicio de ninguno de ellos sea requisito previo para el ejercicio de otro.</p>
+          <p class="parrafo">3. El ejercicio de los derechos deberá llevarse a cabo mediante solicitud dirigida al responsable del fichero, que contendrá:</p>
+          <p class="parrafo_2">Nombre, apellidos del interesado y fotocopia del documento nacional de identidad del interesado y, en los casos que excepcionalmente se admita, de la persona que lo represente, así como el documento acreditativo de tal representación. La fotocopia del documento nacional de identidad podrá ser sustituida siempre que se acredite la identidad por cualquier otro medio válido en derecho.</p>
+          <p class="parrafo">Petición en que se concreta la solicitud.</p>
+          <p class="parrafo">Domicilio a efectos de notificaciones, fecha y firma del solicitante.</p>
+          <p class="parrafo">Documentos acreditativos de la petición que formula, en su caso.</p>
+          <p class="parrafo_2">El interesado deberá utilizar cualquier medio que permita acreditar el envío y la recepción de la solicitud.</p>
+          <p class="parrafo">4. El responsable del fichero deberá contestar la solicitud que se le dirija, con independencia de que figuren o no datos personales del afectado en sus ficheros, debiendo utilizar cualquier medio que permita acreditar el envío y la recepción.</p>
+          <p class="parrafo">En el caso de que la solicitud no reúna los requisitos especificados en el apartado tercero, el responsable del fichero deberá solicitar la subsanación de los mismos.</p>
+          <p class="parrafo">5. El responsable del fichero deberá adoptar las medidas oportunas para garantizar que todas las personas de su organización que tienen acceso a datos de carácter personal puedan informar del procedimiento a seguir por el afectado para el ejercicio de sus derechos.</p>
+        </version>
+      </bloque>
+      <bloque id="normasegunda" tipo="precepto" titulo="Norma segunda">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="articulo">Norma segunda. Derecho de acceso.</p>
+          <p class="parrafo_2">1. El afectado tiene derecho a solicitar y obtener información de sus datos de carácter personal incluidos en ficheros automatizados.</p>
+          <p class="parrafo">2. Al ejercitar el derecho de acceso, el afectado podrá optar por uno o varios de los siguientes sistemas de consulta del fichero, siempre que la configuración o implantación material del fichero lo permita:</p>
+          <p class="parrafo_2">a) Visualización en pantalla.</p>
+          <p class="parrafo">b) Escrito, copia o fotocopia remitida por correo.</p>
+          <p class="parrafo">c) Telecopia.</p>
+          <p class="parrafo">d) Cualquier otro procedimiento que sea adecuado a la configuración e implantación material del fichero, ofrecido por el responsable del mismo.</p>
+          <p class="parrafo_2">3. El responsable del fichero resolverá sobre la solicitud de acceso en el plazo máximo de un mes a contar desde la recepción de la solicitud. Transcurrido el plazo sin que de forma expresa se responda a la petición de acceso, ésta podrá entenderse desestimada a los efectos de la interposición de la reclamación prevista en el artículo 17.1 de la Ley Orgánica 5/1992.</p>
+          <p class="parrafo">En el caso de que no disponga de datos de carácter personal de los afectados deberá igualmente comunicárselo en el mismo plazo.</p>
+          <p class="parrafo">4. Si la resolución fuera estimatoria, el acceso se hará efectivo en el plazo de los diez días siguientes a la notificación de aquélla.</p>
+          <p class="parrafo">5. El responsable del fichero podrá denegar el acceso a los datos de carácter personal cuando el derecho se haya ejercitado en un intervalo inferior a doce meses y no se acredite un interés legítimo al efecto, así como cuando la solicitud sea formulada por persona distinta del afectado.</p>
+          <p class="parrafo">Tratándose de ficheros de titularidad pública se podrá denegar el acceso en los supuestos de los artículos 21.1 y 21.2 de la Ley Orgánica 5/1992, en los que se establecen excepciones relativas a los ficheros de las Fuerzas y Cuerpos de Seguridad del Estado y a los ficheros de la Hacienda Pública y del artículo 22 de la Ley Orgánica 5/1992.</p>
+          <p class="parrafo">6. La información que se proporcione, cualquiera que sea el soporte en que fuere facilitada, se dará en forma legible e inteligible, previa transcripción en claro de los datos del fichero, en su caso, y comprenderá todos los datos de base del afectado, los resultantes de cualquier elaboración o proceso informático, así como el origen de los datos, los cesionarios de los mismos y la especificación de los concretos usos y finalidades para los que se almacenaron los datos.</p>
+          <p class="parrafo">En el caso de que los datos provengan de fuentes diversas, deberán especificarse las mismas identificando la información que proviene de cada una de ellas.</p>
+        </version>
+      </bloque>
+      <bloque id="normatercera" tipo="precepto" titulo="Norma tercera">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="articulo">Norma tercera. Derechos de rectificación y cancelación.</p>
+          <p class="parrafo_2">1. Si los datos de carácter personal del afectado son inexactos o incompletos, inadecuados o excesivos, podrá éste solicitar del responsable del fichero la rectificación o, en su caso, la cancelación de los mismos.</p>
+          <p class="parrafo">2. Los derechos de rectificación y cancelación se harán efectivos por el responsable del fichero dentro de los cinco días siguientes al de la recepción de la solicitud. Si los datos rectificados o cancelados hubieran sido cedidos previamente, el responsable del fichero deberá notificar la rectificación o cancelación efectuada al cesionario, en idéntico plazo, para que éste, a su vez, la lleve a cabo en su fichero.</p>
+          <p class="parrafo">3. La solicitud de rectificación deberá indicar el dato que es erróneo y la corrección que debe realizarse y deberá ir acompañada de la documentación justificativa de la rectificación solicitada, salvo que la misma dependa exclusivamente del consentimiento del interesado.</p>
+          <p class="parrafo">4. En la solicitud de cancelación, el interesado deberá indicar si revoca el consentimiento otorgado, en los casos en que la revocación proceda, o si, por el contrario, se trata de un dato erróneo o inexacto, en cuyo caso deberá acompañar la documentación justificativa.</p>
+          <p class="parrafo">5. La cancelación no procederá cuando pudiese causar un perjuicio a intereses legítimos del afectado o de terceros o cuando existiese una obligación de conservar los datos.</p>
+          <p class="parrafo">6. Si solicitada la rectificación o cancelación, el responsable del fichero considera que no procede atender la solicitud del afectado, se lo comunicará motivadamente dentro del plazo de los cinco días siguientes al de la recepción de la misma, a fin de que por éste se pueda hacer uso de la reclamación prevista en el artículo 17.1 de la Ley Orgánica 5/1992.</p>
+          <p class="parrafo">7. Transcurrido el plazo de cinco días sin que de forma expresa se responda a la solicitud de rectificación o cancelación, ésta podrá entenderse desestimada a los efectos de la interposición de la reclamación que corresponda.</p>
+          <p class="parrafo">8. La cancelación exige el borrado físico de los datos, sin que sea suficiente a estos efectos una marca lógica o el mantenimiento de otro fichero alternativo en el que se registren las bajas producidas.</p>
+          <p class="parrafo">9. En los casos en que, siendo procedente la cancelación de los datos, no sea posible su extinción física, tanto por razones técnicas como por causa del procedimiento o soporte utilizado, el responsable del fichero procederá al bloqueo de los datos, con el fin de impedir su ulterior proceso o utilización.</p>
+          <p class="parrafo">Se exceptúa, no obstante, el supuesto en el que se demuestre que los datos han sido recogidos o registrados por medios fraudulentos, desleales o ilícitos, en cuyo caso la cancelación de los mismos comportará siempre la destrucción del soporte en el que aquéllos figuren.</p>
+        </version>
+      </bloque>
+      <bloque id="normacuaa" tipo="precepto" titulo="Norma cuarta">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="articulo">Norma cuarta. Ficheros de prestación de servicios de información sobre solvencia patrimonial y crédito.</p>
+          <p class="parrafo_2">1. El ejercicio de los derechos de acceso, rectificación y cancelación en el caso de los ficheros de prestación de servicios de información sobre solvencia patrimonial y crédito se rige por las normas anteriores de la presente Instrucción, sin perjuicio de lo señalado en los apartados siguientes.</p>
+          <p class="parrafo">2. El responsable de un fichero de prestación de servicios de solvencia patrimonial y crédito con datos obtenidos de fuentes accesibles al público o procedentes de informaciones facilitadas por el afectado o con su consentimiento, estará obligado a satisfacer, en cualquier caso, los derechos de acceso, rectificación y cancelación. Las personas y entidades a las que se presta el servicio únicamente estarán obligadas a comunicar al afectado aquellos datos relativos al mismo a los que ellas tengan acceso y a comunicar la identidad del responsable del fichero común para que pueda completar el ejercicio de sus derechos.</p>
+          <p class="parrafo">3. El responsable del fichero común en el que se traten automatizadamente datos relativos al cumplimiento o incumplimiento de obligaciones dinerarias facilitados por el acreedor o por quien actúe por su cuenta o interés, ante una solicitud de ejercicio del derecho de acceso, deberá comunicar al afectado todos los datos relativos al mismo que obren en el fichero. Cualquier otra entidad participante en el sistema, ante tal solicitud, deberá comunicar al afectado todos los datos relativos al mismo a los que ella pueda acceder, así como la identidad del responsable del fichero común para que pueda completar el ejercicio de su derecho de acceso.</p>
+          <p class="parrafo">Si la solicitud del ejercicio de los derechos de rectificación o cancelación de datos se dirige al responsable del fichero común, éste tomará las medidas oportunas para trasladar dicha solicitud a la entidad que haya facilitado los datos, para que ésta la resuelva. En el caso de que el responsable del fichero común no haya recibido contestación por parte de la entidad en el plazo de cinco días, procederá a la rectificación o cancelación cautelar de los mismos.</p>
+          <p class="parrafo">Si la solicitud del ejercicio de los derechos de rectificación o cancelación de datos se dirige a cualquier otra entidad participante en el sistema y hace referencia a datos que dicha entidad haya facilitado al fichero común, procederá a la rectificación o cancelación de los mismos en sus ficheros y a notificarlo al responsable del fichero común en el plazo de cinco días. Si la solicitud hace referencia a datos que la entidad no hubiera facilitado al fichero común, dicha entidad informará al afectado sobre este hecho, proporcionándole, además, la identidad del responsable del fichero común para que pueda completar el ejercicio de sus derechos.</p>
+          <p class="parrafo">4. En los ficheros de prestación de servicios de información de solvencia patrimonial y crédito, cualquiera que sea el origen de los datos, cuando el afectado lo solicite el responsable del fichero común deberá cumplir la obligación establecida en el artículo 28.2 de la Ley Orgánica 5/1992 de facilitar, las evaluaciones y apreciaciones que sobre el afectado se hayan comunicado en los últimos seis meses y el nombre y dirección de los cesionarios.</p>
+        </version>
+      </bloque>
+      <bloque id="normaquinta" tipo="precepto" titulo="Norma quinta">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="articulo">Norma quinta. Ficheros con fines de publicidad.</p>
+          <p class="parrafo_2">1. El responsable del fichero que presta el servicio de publicidad estará obligado a satisfacer los derechos de acceso, rectificación y cancelación. La entidad beneficiaria de la publicidad estará obligada a indicar al afectado la identidad del responsable del fichero del que provienen los datos. A tal efecto, se entenderá suficiente que dicha información se haga constar en la campaña publicitaria.</p>
+          <p class="parrafo">2. Cuando el interesado manifieste su deseo de no recibir publicidad, y no ejerza expresamente el derecho de cancelación, el responsable del fichero podrá conservar los mínimos datos imprescindibles para identificarlo y adoptar las medidas necesarias que eviten el envío de publicidad.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo_2">La presente Instrucción entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1998-1943" fecha_publicacion="19980129" fecha_vigencia="19980218">
+          <p class="parrafo_2">Madrid, 19 de enero de 1998.–El Director de la Agencia, Juan José Martín-Casallo López.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

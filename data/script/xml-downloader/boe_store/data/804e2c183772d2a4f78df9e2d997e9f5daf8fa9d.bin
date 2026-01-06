@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T212214Z</fecha_actualizacion>
+      <identificador>BOE-A-1994-14808</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8070">Comunidad Autónoma de Cataluña</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19940519</fecha_disposicion>
+      <numero_oficial>6/1994</numero_oficial>
+      <titulo>Ley 6/1994, de 19 de mayo, de modificación parcial de la Ley 2/1989, de 16 de febrero, sobre centros recreativos turísticos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19940627</fecha_publicacion>
+      <diario_numero>152</diario_numero>
+      <fecha_vigencia>19940603</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ct/l/1994/05/19/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1994-14808</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="665">Cataluña</materia>
+        <materia codigo="6988">Turismo</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el DOGC núm. 1904, de 3 de junio de 1994.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1989-5004</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el art. 5.2 de la Ley 2/1989, de 16 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-30178</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 33.2 del Estatuto aprobado por Ley Orgánica 4/1979, de 18 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-14808</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6988"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-14808</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6988"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/con/19940603"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1994, de 19 de mayo, de modificación parcial de la Ley 2/1989, de 16 de febrero, sobre centros recreativos turísticos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-06-27</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/con/19940603">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-14808</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6988"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-06-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/con/19940603/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1994, de 19 de mayo, de modificación parcial de la Ley 2/1989, de 16 de febrero, sobre centros recreativos turísticos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/con/19940603"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/1994/05/19/6/con/19940603/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/1994/05/19/6/con/19940603/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://portaljuridic.gencat.cat/eli/es-ct/l/1994/05/19/6"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1994-14808" fecha_publicacion="19940603" fecha_vigencia="19940603">
+          <p class="centro_redonda">EL PRESIDENTE DE LA GENERALIDAD DE CATALUÑA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de Cataluña ha aprobado y yo, en nombre del Rey y de acuerdo con lo que establece el artículo 33.2 del Estatuto de Autonomía de Cataluña, promulgo la siguiente</p>
+          <p class="centro_negrita">Ley 6/1994, de 19 de mayo, de Modificación Parcial de la Ley 2/1989, de 16 de febrero, sobre Centros Recreativos Turísticos</p>
+          <p class="parrafo_2">La Ley 2/1989, de 16 de febrero, regula los centros recreativos turísticos y los define como áreas de gran extensión en las cuales se sitúan, de forma integrada, las actividades propias de los parques temáticos de atracciones de carácter recreativo, cultural y de ocio y usos complementarios deportivos, comerciales, hoteleros y residenciales, con sus correspondientes servicios. El núcleo principal y definidor de los centros recreativos turísticos es el parque temático, siendo complementarios del mismo los demás usos.</p>
+          <p class="parrafo">El carácter integral del parque no debe suponer necesariamente que cada uno de los ámbitos previstos en dicha Ley deba ser construido y explotado por una sola persona. Muy al contrario, sin perder aquel carácter, puede resultar aconsejable, por simples razones de especialización técnica, que cada uno de aquellos ámbitos o dos o más de ellos sean desarrollados por personas distintas, lo cual puede ser, en la práctica, un factor que garantice el buen funcionamiento del conjunto, que es, en último término, lo que la Ley 2/1989 se propuso.</p>
+          <p class="parrafo">Este aspecto no fue regulado con la suficiente flexibilidad por la Ley 2/1989, y es por este motivo que se estima conveniente introducir mecanismos que, manteniendo la unidad conceptual y causal del centro recreativo, permitan adaptar las características de la explotación del centro a criterios que favorezcan una mejor gestión del mismo.</p>
+          <p class="parrafo">Por esta razón, a la vista de la experiencia adquirida en otros países y de la actual situación económica, resulta conveniente modificar la Ley 2/1989, en orden a su flexibilización, en beneficio de las finalidades perseguidas.</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-1994-14808" fecha_publicacion="19940603" fecha_vigencia="19940603">
+          <p class="articulo">Artículo único.</p>
+          <p class="parrafo_2">1. Si la construcción o la explotación de los distintos ámbitos de actividades y usos que configuran un centro recreativo turístico se llevan a cabo por personas distintas, es preciso que todas ellas suscriban un acuerdo que garantice la integración exigida por el artículo 2 de la Ley 2/1989, de 16 de febrero, sobre centros recreativos turísticos. El citado acuerdo requiere la previa aprobación del Gobierno de la Generalidad, que pude introducir en el mismo las modificaciones que, a tales efectos, sean convenientes.</p>
+          <p class="parrafo">2. El acuerdo de integración a que se refiere el apartado 1 contendrá la distribución de responsabilidades ante la Administración, que se basará fundamentalmente en las que puedan derivarse de las actividades o usos cuya construcción o explotación asuma cada parte.</p>
+          <p class="parrafo">3. No obstante lo dispuesto en el apartado 2, la responsabilidad frente a los expropiados en cuanto al pago del justiprecio es solidaria.</p>
+          <p class="parrafo">4. Si la participación de distintas personas o entidades en la construcción o explotación de un centro recreativo turístico se produce de forma conjunta en un mismo ámbito, actividad o uso complementario del centro o en algún servicio o elemento de uso común del conjunto, la responsabilidad enfrente de la Administración, con referencia a este ámbito, actividad, uso, servicio o elemento común, es solidaria.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-1994-14808" fecha_publicacion="19940603" fecha_vigencia="19940603">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo_2">Quedan derogados el artículo 5.2 de la Ley 2/1989, de 16 de febrero, sobre centros recreativos turísticos, y todas aquellas disposiciones de rango igual o inferior a la presente Ley que contradigan o se opongan a la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1994-14808" fecha_publicacion="19940603" fecha_vigencia="19940603">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo_2">Se faculta al Gobierno de la Generalidad para dictar las disposiciones que sean necesarias para el desarrollo de la presente Ley, singularmente en lo que se refiere a la fianza constituida y a la forma y las condiciones de su devolución, cuando proceda.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1994-14808" fecha_publicacion="19940603" fecha_vigencia="19940603">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo_2">La presente Ley entra en vigor el mismo día de su publicación en el «Diario Oficial de la Generalidad de Cataluña».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1994-14808" fecha_publicacion="19940603" fecha_vigencia="19940603">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos a los que sea de aplicación esta Ley cooperen en su cumplimiento y que los Tribunales y autoridades a los que corresponda la hagan cumplir.</p>
+          <p class="parrafo_2">Palacio de la Generalidad, 19 de mayo de 1994.</p>
+          <table class="sinbordes">
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">LLUÍS ALEGRE I SELGA,</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">JORDI PUJOL,</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">Consejero de Comercio, Consumo y Turismo</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">Presidente de la Generalidad de Cataluña</p>
+              </td>
+            </tr>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

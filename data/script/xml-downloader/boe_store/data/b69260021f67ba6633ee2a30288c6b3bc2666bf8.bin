@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T191857Z</fecha_actualizacion>
+      <identificador>BOE-A-2016-11997</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9277">Ministerio de la Presidencia y para las Administraciones Territoriales</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20161209</fecha_disposicion>
+      <numero_oficial>640/2016</numero_oficial>
+      <titulo>Real Decreto 640/2016, de 9 de diciembre, por el que se aprueba el Estatuto de la Biblioteca Nacional de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20161219</fecha_publicacion>
+      <diario_numero>305</diario_numero>
+      <fecha_vigencia>20161220</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2016/12/09/640</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2016-11997</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="489">Biblioteca Nacional</materia>
+        <materia codigo="4974">Ministerio de Educación Cultura y Deporte</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2009-17893</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el  Real Decreto 1638/2009, de 30 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2015-3178</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición final 3 de la Ley 1/2015, de 24 de marzo</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-11997</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-09</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">640</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-11997</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">640</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/con/20161219"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 640/2016, de 9 de diciembre, por el que se aprueba el Estatuto de la Biblioteca Nacional de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 640/2016, de 9 de desembre, pel qual s'aprova l'Estatut de la Biblioteca Nacional d'Espanya.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 640/2016, do 9 de decembro, polo que se aproba o Estatuto da Biblioteca Nacional de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/con/20161219">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-11997</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">640</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/489"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/con/20161219/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 640/2016, de 9 de diciembre, por el que se aprueba el Estatuto de la Biblioteca Nacional de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/con/20161219"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2016/12/09/640/con/20161219/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2016/12/09/640/con/20161219/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="parrafo">La Biblioteca Nacional de España, creada en 1711 por Felipe V como Real Biblioteca Pública, abrió sus puertas al público el 1 de marzo de 1712. Desde entonces ha permanecido siempre fiel a su principio básico de reunir, catalogar, conservar, difundir y transmitir el patrimonio bibliográfico y documental español.</p>
+          <p class="parrafo">En 1716, por medio de un privilegio real, se decretó la obligación para los impresores de depositar en la Biblioteca un ejemplar de todo lo que se imprimía en España. Dicho privilegio es el antecedente de la actual Ley 23/2011, de 29 de julio, de Depósito Legal, por la cual los editores de la producción cultural, en cualquier tipo de soporte, deben depositar un determinado número de ejemplares, convirtiendo así a esta institución en el lugar donde se conserva la memoria de las diferentes culturas de España y se garantiza su transmisión a las futuras generaciones.</p>
+          <p class="parrafo">Tal y como recoge la Ley 1/2015, de 24 marzo, reguladora de la Biblioteca Nacional de España, la institución desarrolla su misión, en el momento actual, en un entorno cambiante que obliga a definir un nuevo modelo de biblioteca basado en la adaptación a las tecnologías de la información y por lo tanto condiciona un nuevo planteamiento de sus funciones que afecta a los procesos internos y al servicio que presta a la ciudadanía.</p>
+          <p class="parrafo">La Biblioteca Nacional de España es el principal centro informativo y documental sobre la cultura escrita, gráfica y audiovisual española e iberoamericana. Sus colecciones incluyen todo tipo de materiales y ponen de manifiesto la diversidad y riqueza de este patrimonio cultural. Una diversidad y riqueza que abarca desde antiguos códices manuscritos y valiosos incunables, primeras ediciones y libros raros, partituras, discos, diarios, revistas, dibujos, estampas, grabados, fotografías, carteles, mapas, planos, tarjetas postales, o encuadernaciones antiguas, hasta los nuevos soportes audiovisuales y multimedia, además de otros materiales. Las colecciones digitales que constituyen la Biblioteca Digital Hispánica y la Hemeroteca Digital también forman parte del acervo custodiado por la Biblioteca Nacional de España, que es también el centro depositario de las publicaciones en línea y responsable del archivo de la web española.</p>
+          <p class="parrafo">Tanto la digitalización de sus colecciones propias como la preservación de las publicaciones en línea y el archivo de la web española generan una gran cantidad de información que debe ser puesta a disposición de la sociedad para su reutilización como medio de enriquecimiento cultural, social o económico. Por otro lado, la Biblioteca Nacional de España ejerce un liderazgo como primera institución bibliotecaria del país y por lo tanto debe actuar como centro de referencia para el desarrollo de políticas bibliotecarias en relación con el patrimonio bibliográfico y documental español.</p>
+          <p class="parrafo">Así mismo, al igual que otras bibliotecas nacionales, esta institución está desarrollando una creciente actividad cultural en torno a sus colecciones, lo que permite una mayor apertura a la ciudadanía y facilita su conocimiento. Igualmente realiza una activa labor favoreciendo la generación de conocimiento sobre la cultura española a través del apoyo a la investigación, y participa activamente en el ámbito internacional en proyectos de cooperación que suponen una importante difusión de la cultura española.</p>
+          <p class="parrafo">Estas funciones vienen a determinar la nueva misión que cumple la Biblioteca Nacional de España como una de las grandes instituciones culturales de nuestro país. Misión que se ha visto reforzada con la aprobación de la Ley 1/2015, de 24 de marzo, reguladora de su actividad y que determina sus fines y funciones, así como otras cuestiones relativas a la consideración administrativa y a la organización del organismo en relación con su estructura de gestión, sus órganos de gobierno y sus instrumentos de gestión. El objetivo es dotar a la Biblioteca Nacional de España de órganos de gobierno colegiados que garanticen el cumplimiento de sus fines y funciones que deben llevarse a cabo a través de una gestión que garantice la máxima eficiencia y refuerce el objetivo que esta institución pública debe cumplir como servicio a la sociedad española.</p>
+          <p class="parrafo">Este real decreto –en cumplimiento del mandato contenido en la disposición final tercera de dicha ley, por el cual el Gobierno deberá aprobar a la mayor brevedad posible el nuevo Estatuto– contempla una serie de cuestiones adaptadas a la ley y que basadas en su desarrollo tienen como finalidad dotar al organismo de una mayor seguridad jurídica y garantizar el cumplimiento del mandato contenido en su ley.</p>
+          <p class="parrafo">En su virtud, a propuesta conjunta del Ministro de Hacienda y Función Pública y del Ministro de Educación, Cultura y Deporte, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros, en su reunión del día 9 de diciembre de 2016,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo único. Aprobación del Estatuto.</p>
+          <p class="parrafo">Se aprueba el Estatuto del organismo autónomo Biblioteca Nacional de España, cuyo texto se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas todas las disposiciones de igual o inferior rango, en lo que se opongan a lo establecido en el presente real decreto y, en particular, el Real Decreto 1638/2009, de 30 de octubre, por el que se aprueba el Estatuto de la Biblioteca Nacional de España.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.28.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en museos, bibliotecas y archivos de titularidad estatal.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Disposición final segunda. No incremento de gasto.</p>
+          <p class="parrafo">La puesta en marcha de las medidas incluidas en esta norma no supondrá incremento de dotaciones, ni de retribuciones ni de otros gastos de personal.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="parrafo_2">Dado en Madrid, el 9 de diciembre de 2016.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Vicepresidenta del Gobierno y Ministra de la Presidencia y para las Administraciones Territoriales,</p>
+          <p class="firma_ministro">SORAYA SÁENZ DE SANTAMARÍA ANTÓN</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatuto de la Biblioteca Nacional de España</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Naturaleza y fines</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 1. Naturaleza y régimen jurídico.</p>
+          <p class="parrafo">1. La Biblioteca Nacional de España, de conformidad con la Ley 1/2015, de 24 de marzo, reguladora de la Biblioteca Nacional de España, es un organismo autónomo, de los previstos en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, adscrito al Ministerio de Educación, Cultura y Deporte y forma parte del Sistema Español de Bibliotecas, de acuerdo con lo establecido en la Ley 10/2007, de 22 de junio, de la lectura, del libro y de las bibliotecas.</p>
+          <p class="parrafo">La Biblioteca Nacional de España, como establece la Ley 1/2015, de 24 de marzo, es el centro depositario del patrimonio bibliográfico y documental español que se produce en cualquier tipo de soporte o medio. Tiene como misión reunir, catalogar, conservar, incrementar, gestionar, difundir y transmitir, en cumplimiento de sus fines, el patrimonio bibliográfico y documental español y sobre España publicado en el extranjero, como fuente de conocimiento para toda la sociedad española e internacional, garantizando su integridad y facilitando el acceso al mismo a toda la ciudadanía y a las generaciones futuras.</p>
+          <p class="parrafo">2. La Biblioteca Nacional de España, de conformidad con la Ley 1/2015, de 24 de marzo, tiene personalidad jurídica pública diferenciada, patrimonio y tesorería propios, así como autonomía de gestión, y ajustará su actuación a lo dispuesto en la Ley 1/2015, de 24 de marzo; en la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español; en la Ley 10/2007, de 22 de junio, de la lectura, del libro y de las bibliotecas; en la Ley 33/2003, de 3 de noviembre, de Patrimonio de las Administraciones Públicas; en la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común de las Administraciones Públicas; en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público; en la Ley 47/2003, de 26 de noviembre, General Presupuestaria; en la Ley 23/2011, de 29 de julio, de depósito legal; en el Real Decreto Legislativo 3/2011, de 14 de noviembre, por el que se aprueba el texto refundido de la Ley de Contratos del Sector Público y demás disposiciones aplicables a los organismos autónomos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 2. Objetivos y funciones.</p>
+          <p class="parrafo">Son fines esenciales de la Biblioteca Nacional de España los siguientes:</p>
+          <p class="parrafo_2">1. Reunir, describir y garantizar la protección, enriquecimiento, conservación y transmisión, en el ejercicio de sus funciones, del patrimonio bibliográfico y documental, tanto el producido en el Estado español como el generado sobre sus diferentes culturas. Para conseguir este fin desarrolla las siguientes funciones:</p>
+          <p class="parrafo_2">a) Actuar como centro depositario y de conservación de la producción cultural española en cualquier soporte, incluidos los documentos electrónicos y sitios web, en los términos establecidos por la legislación sobre el depósito legal y ejercer la alta inspección y el seguimiento de su cumplimiento.</p>
+          <p class="parrafo">b) Catalogar y describir las colecciones físicas y digitales de tal manera que quede garantizado el acceso y la recuperación de toda la información sobre el patrimonio bibliográfico y documental.</p>
+          <p class="parrafo">c) Elaborar la bibliografía del Estado español de manera que sirva como instrumento de referencia actualizada para el control bibliográfico de la producción editorial y la creación de catálogos de sus bibliotecas.</p>
+          <p class="parrafo">d) Incrementar sus colecciones, especialmente aquellas de mayor valor y significado para el patrimonio bibliográfico y documental.</p>
+          <p class="parrafo">e) Garantizar la preservación y conservación de sus colecciones a través de la realización de los planes de preservación necesarios y las medidas de seguridad oportunas.</p>
+          <p class="parrafo">f) Recoger, preservar y conservar los contenidos digitales sobre las culturas españolas y garantizar su conservación y accesibilidad con fines económicos, culturales, de investigación o de información.</p>
+          <p class="parrafo_2">2. Garantizar el acceso y la difusión de sus colecciones con el fin de fomentar su utilización, como medio de enriquecimiento cultural, social y económico. Para conseguir este fin desarrolla las siguientes funciones:</p>
+          <p class="parrafo_2">a) Fomentar la investigación científica y el conocimiento sobre las diferentes culturas del Estado español, proporcionando servicios de calidad a los investigadores.</p>
+          <p class="parrafo">b) Desarrollar una política activa de digitalización de sus colecciones para garantizar su preservación y favorecer la creación de la biblioteca digital del patrimonio bibliográfico y documental del Estado español.</p>
+          <p class="parrafo">c) Desarrollar una programación de exposiciones y actividades culturales que cumplan con el objetivo de difundir el valor de sus colecciones y acercar la Institución a la ciudadanía.</p>
+          <p class="parrafo">d) Impulsar y apoyar programas de investigación tendentes a la generación de conocimiento sobre sus colecciones, estableciendo espacios de diálogo con centros de investigación e investigadores de todo el mundo.</p>
+          <p class="parrafo_2">3. Promover y desarrollar políticas bibliotecarias en relación con el patrimonio bibliográfico y documental del Estado español. Para conseguir este fin desarrolla las siguientes funciones:</p>
+          <p class="parrafo_2">a) Ejercer de centro de referencia en el ámbito de la normativa técnica bibliotecaria, mediante su elaboración y actualización, con el objeto de favorecer los proyectos de cooperación.</p>
+          <p class="parrafo">b) Participar activamente en foros, federaciones, fundaciones, colegios, asociaciones y otras organizaciones profesionales, así como en programas y proyectos, tanto de ámbito nacional como internacional, fundamentalmente aquellos de ámbito europeo e iberoamericano.</p>
+          <p class="parrafo">c) Fomentar y colaborar en programas de formación vinculados con la profesión bibliotecaria y con las ciencias de la documentación.</p>
+          <p class="parrafo">d) Impulsar y colaborar en la creación de catálogos bibliográficos y bases de datos colectivas, así como en la unificación de bibliotecas y repositorios digitales, de tal manera que contribuya a mejorar el acceso al patrimonio bibliográfico y documental.</p>
+          <p class="parrafo">e) Gestionar el International Standard Serial Number, número ISSN, que es el número internacional normalizado de publicaciones seriadas en España sin perjuicio de las competencias que hayan asumido las Comunidades Autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Organización y estructura de la Biblioteca Nacional de España</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 3. Órganos rectores y consultivos.</p>
+          <p class="parrafo">1. Como establece la Ley 1/2015, de 24 de marzo, los órganos rectores de la Biblioteca Nacional de España son los siguientes:</p>
+          <p class="parrafo_2">a) La Presidencia.</p>
+          <p class="parrafo">b) El Real Patronato.</p>
+          <p class="parrafo">c) La Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo_2">2. Los órganos consultivos, de conformidad con la Ley 1/2015, de 24 de marzo, son el Consejo de Dirección y el Comité Científico.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 4. La Presidencia de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">1. La Presidencia de la Biblioteca Nacional de España, de conformidad con la Ley 1/2015, de 24 de marzo, corresponde a quien sea titular del Ministerio de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">2. Como establece la Ley 1/2015, de 24 de marzo, corresponde a la Presidencia:</p>
+          <p class="parrafo_2">a) La alta dirección del organismo.</p>
+          <p class="parrafo">b) La aprobación del plan estratégico plurianual, el plan anual de objetivos, la Memoria anual de actividades y el anteproyecto de presupuestos del organismo.</p>
+          <p class="parrafo">c) El control de eficacia de la gestión del organismo.</p>
+          <p class="parrafo">d) Elevar al Consejo de Ministros propuesta de nombramiento de la persona que ocupe la Dirección de la Biblioteca Nacional de España, previa consulta al Real Patronato a cuya consideración someterá los criterios a tener en cuenta para el nombramiento.</p>
+          <p class="parrafo">e) La convocatoria y presidencia de las reuniones a las que asista.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 5. El Real Patronato de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">1. El Real Patronato, es el órgano rector colegiado de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">2. La Presidencia de honor del Real Patronato corresponde a SS.MM. los Reyes de España.</p>
+          <p class="parrafo">3. El Pleno y la Comisión Permanente del Real Patronato son los órganos colegiados del Real Patronato y el Presidente y el Vicepresidente del Real Patronato son los órganos unipersonales del Real Patronato.</p>
+          <p class="parrafo_2">a) El Pleno del Real Patronato propondrá, entre los vocales por designación, a quienes ocupen la Presidencia y la Vicepresidencia, que serán nombrados por la persona titular del Ministerio de Educación, Cultura y Deporte por un período de cinco años.</p>
+          <p class="parrafo">b) La Presidencia del Real Patronato ostentará la representación institucional de la Biblioteca Nacional de España y convocará y presidirá el Real Patronato en Pleno y en Comisión Permanente. En caso de empate su voto será dirimente.</p>
+          <p class="parrafo_2">En caso de vacante, ausencia, enfermedad u otra causa legal, el Presidente será sustituido por el Vicepresidente y, en su defecto, por el vocal nato de mayor jerarquía, antigüedad y edad, por este orden.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 6. Composición del Real Patronato.</p>
+          <p class="parrafo">1. El pleno del Real Patronato está integrado por treinta vocales, once de los cuales tendrán el carácter de natos, tres de ellos representantes de las bibliotecas de las comunidades autónomas, designados rotatoriamente por la Conferencia Sectorial de Cultura entre aquellas que tengan reconocidas en sus estatutos las competencias exclusivas en materia de bibliotecas.</p>
+          <p class="parrafo">2. El resto de los vocales tendrán el carácter de designados y serán nombrados y separados por la persona titular del Ministerio de Educación, Cultura y Deporte entre personas de reconocido prestigio o competencia en el ámbito de la cultura, la investigación científica y la economía o que se hayan distinguido por su colaboración o apoyo a la Biblioteca Nacional de España, teniendo en cuenta el principio de presencia equilibrada de mujeres y hombres.</p>
+          <p class="parrafo">3. El Real Patronato está integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">a) Vocales natos:</p>
+          <p class="parrafo_2">1. La persona titular de la Secretaría de Estado de Cultura.</p>
+          <p class="parrafo">2. La persona titular de la Subsecretaría del Ministerio de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">3. La persona titular de la Secretaría de Estado para la Sociedad de la Información y la Agenda Digital dependiente del Ministerio de Energía, Turismo y Agenda Digital.</p>
+          <p class="parrafo">4. La persona titular de la Dirección General de Bellas Artes y Patrimonio Cultural.</p>
+          <p class="parrafo">5. La persona titular de la Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">6. La persona titular de la Secretaría de Estado de Investigación, Desarrollo e Innovación dependiente del Ministerio de Economía, Industria y Competitividad.</p>
+          <p class="parrafo">7. Un representante del Ministerio de Hacienda y Función Pública, con rango, al menos, de Subsecretario.</p>
+          <p class="parrafo">8. Tres vocales representantes de las bibliotecas de las comunidades autónomas, de conformidad con lo establecido en el apartado 1 de este artículo.</p>
+          <p class="parrafo">9. La persona titular de la Presidencia de la Fundación Amigos de la Biblioteca Nacional de España.</p>
+          <p class="parrafo_2">b) Vocales designados:</p>
+          <p class="parrafo_2">Los vocales designados serán nombrados y separados en los términos establecidos en el apartado 2 de este artículo. Se podrá nombrar entre los mismos a personas físicas o representantes de las instituciones públicas o privadas que realicen contribuciones de cualquier naturaleza a la Biblioteca o al cumplimiento de sus fines, incluidas las donaciones o aportaciones económicas.</p>
+          <p class="parrafo">Los vocales designados desempeñarán sus funciones por un período de tres años a contar desde la fecha de sus respectivos nombramientos. El mandato podrá ser renovado, hasta dos veces, por períodos de igual duración. Su cese se producirá al término de su mandato o por renuncia, revocación del mandato, fallecimiento o incapacidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 7. Competencias y funciones del Pleno del Real Patronato.</p>
+          <p class="parrafo">1. El Pleno del Real Patronato establecerá los principios de organización y dirección de la Biblioteca Nacional de España, determinará las directrices de su actuación y velará por su cumplimiento en los términos de este Estatuto.</p>
+          <p class="parrafo">2. Corresponde al Pleno del Real Patronato:</p>
+          <p class="parrafo_2">a) Velar por el cumplimiento de los planes aprobados por la Presidencia.</p>
+          <p class="parrafo">b) Proponer al Presidente de la Biblioteca Nacional de España, para su aprobación, el Plan Estratégico Plurianual y el Plan Anual de Objetivos.</p>
+          <p class="parrafo">c) Proponer al Presidente de la Biblioteca Nacional de España, para su aprobación, la Memoria anual de actividades.</p>
+          <p class="parrafo">d) Proponer e impulsar iniciativas de mejora y proyectos de colaboración e innovación que puedan contribuir a alcanzar los fines y objetivos de la institución.</p>
+          <p class="parrafo">e) Fomentar e impulsar los canales de participación de la sociedad como medio de enriquecimiento y beneficio mutuos.</p>
+          <p class="parrafo">f) Proponer al Ministerio de Educación, Cultura y Deporte, la iniciación del procedimiento de modificación del Estatuto e informar aquellas normas propuestas por otros órganos de la Administración General del Estado, en desarrollo de este Estatuto.</p>
+          <p class="parrafo">g) Solicitar a través de la persona titular de la Dirección de la Biblioteca Nacional de España cualquier información necesaria para evaluar el cumplimiento de los objetivos de la Biblioteca Nacional de España y garantizar el cumplimiento de sus funciones.</p>
+          <p class="parrafo">h) Proponer las distinciones honoríficas a las personas e instituciones en reconocimiento por los servicios excepcionales prestados a la Biblioteca Nacional de España, especialmente en relación con los bibliotecarios eméritos.</p>
+          <p class="parrafo">i) Proponer al titular del Ministerio de Educación, Cultura y Deporte, para su aprobación, en su caso, por el Consejo de Ministros, la participación en sociedades, fundaciones u otras entidades sin ánimo de lucro cuyo objeto sea acorde con los fines de la Biblioteca Nacional de España, cuando ello sea necesario o conveniente para el mejor cumplimiento de sus fines.</p>
+          <p class="parrafo">j) Ser informado de las candidaturas presentadas a la Dirección de la Biblioteca Nacional de España a los efectos previstos en el artículo 9.1 de la Ley 1/2015, de 24 de marzo.</p>
+          <p class="parrafo_2">3. Los actos y resoluciones del Pleno del Real Patronato, dictados en el ejercicio de las potestades administrativas que tiene atribuidas, ponen fin a la vía administrativa, de conformidad con lo previsto en el artículo 114 de la de Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 8. Composición y competencias de la Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente está compuesta por el Presidente y Vicepresidente del Real Patronato, la persona titular de la Secretaría de Estado de Cultura o, en su defecto, la persona titular del órgano competente designada por el Ministro de Educación, Cultura y Deporte para sustituirle, las personas titulares de la Subsecretaría de Educación, Cultura y Deporte y de la Dirección de la Biblioteca Nacional de España y de tres vocales, natos o por designación, elegidos por el Pleno del Real Patronato.</p>
+          <p class="parrafo">2. La Comisión Permanente impulsará y supervisará la estrategia y las líneas de actuación de la Biblioteca Nacional de España fijadas por el Pleno del Real Patronato, en los términos de este Estatuto.</p>
+          <p class="parrafo">Deberá dar cuenta al Pleno del Real Patronato de los acuerdos adoptados.</p>
+          <p class="parrafo">3. Corresponde a la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Impulsar y supervisar la estrategia, los objetivos y las actuaciones fijadas en el Pleno del Real Patronato. A estos efectos realizará las siguientes actuaciones:</p>
+          <p class="parrafo_2">– Autorizar las adquisiciones y la aceptación de donativos de patrimonio bibliográfico y documental para su posterior tramitación.</p>
+          <p class="parrafo">– Acordar la salida de obras que se soliciten para préstamos externos para su posterior tramitación por la División Cultural.</p>
+          <p class="parrafo">– Solicitar al Ministerio de Educación, Cultura y Deporte autorización para otorgar y levantar los contratos de depósito de ejemplares patrimoniales.</p>
+          <p class="parrafo">– Solicitar la adscripción de bienes inmuebles e informar sobre los proyectos de obras y las actuaciones a realizar.</p>
+          <p class="parrafo">– Proponer los precios públicos por prestación de servicios que serán aprobados por la Dirección de la Biblioteca Nacional de España en los términos que establece la Ley 8/1989, de 13 de abril, de Tasas y Precios Públicos.</p>
+          <p class="parrafo">– Ser informado de los cambios que se produzcan en la estructura orgánica y funcional de la institución.</p>
+          <p class="parrafo">– Ser informado de los convenios a firmar con instituciones y organismos públicos y privados.</p>
+          <p class="parrafo">– Aprobar la propuesta de modificación de las normas de uso y prestación de servicios.</p>
+          <p class="parrafo">– Impulsar el desarrollo de proyectos investigación en relación con lo acordado por el Comité Científico.</p>
+          <p class="parrafo">– Proponer la puesta en marcha de futuros desarrollos normativos.</p>
+          <p class="parrafo">– Realizar trimestralmente el seguimiento de los indicadores de gestión básicos de la institución.</p>
+          <p class="parrafo_2">b) Elevar a la Presidencia la propuesta de anteproyecto de presupuesto anual elaborada por la Dirección de la Biblioteca Nacional de España, ser informada de la ejecución del presupuesto y aprobar las cuentas anuales del organismo.</p>
+          <p class="parrafo">c) Impulsar y establecer los proyectos de colaboración y cooperación, especialmente con bibliotecas españolas, en relación con los fines y objetivos de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">d) Elevar al Pleno del Real Patronato aquellos asuntos que considere de interés.</p>
+          <p class="parrafo">e) Establecer la estrategia de colaboración de la Biblioteca Nacional de España en el ámbito internacional, especialmente con Iberoamérica.</p>
+          <p class="parrafo">f) Asumir cualquier otra función que se sea asignada por el Pleno del Real Patronato.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 9. Funcionamiento del Pleno, de la Comisión Permanente y de los Grupos de trabajo del Real Patronato.</p>
+          <p class="parrafo">1. Las sesiones del Pleno y de la Comisión Permanente del Real Patronato son ordinarias y extraordinarias.</p>
+          <p class="parrafo">El calendario de reuniones ordinarias del Pleno y de la Comisión Permanente del Real Patronato será acordado por estos órganos.</p>
+          <p class="parrafo">2. Las sesiones ordinarias del Pleno del Real Patronato se celebrarán, al menos, dos veces al año, y las extraordinarias se celebrarán las veces que resulte necesario.</p>
+          <p class="parrafo">Las sesiones se celebrarán, además de en la forma contemplada en la letra e del apartado 2 del artículo 4, previa convocatoria del Presidente del Real Patronato, por propia iniciativa, o a solicitud de la tercera parte de sus Vocales, de la persona titular de la Secretaría de Estado de Cultura o, en su defecto, la persona titular del órgano competente designada por el Ministro de Educación, Cultura y Deporte para sustituirle, o de la persona titular de la Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">3. La Comisión Permanente se reunirá en sesión ordinaria al menos cada tres meses y en sesión extraordinaria las veces que resulte necesario.</p>
+          <p class="parrafo">Las sesiones se celebrarán, previa convocatoria del Presidente del Real Patronato, por propia iniciativa, o a solicitud de la persona titular de la Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">4. El Pleno del Real Patronato podrá constituir grupos de trabajo, con funciones de asesoramiento, para asuntos determinados de especial interés compuestos por miembros del Pleno del Real Patronato.</p>
+          <p class="parrafo">5. El Pleno, la Comisión Permanente y los grupos de trabajo del Real Patronato podrán acordar la asistencia a sus sesiones, con funciones exclusivamente de asesoramiento, de directivos y expertos tanto de la plantilla de la Biblioteca Nacional de España como externos cuya presencia sea necesaria en relación a su especial cualificación y a los asuntos a tratar.</p>
+          <p class="parrafo">6. Existirá una Secretaría del Real Patronato que prestará su apoyo al Pleno y a la Comisión Permanente del Real Patronato, así como a los grupos de trabajo que, en su caso, se creen.</p>
+          <p class="parrafo">El Pleno del Real Patronato, a propuesta de la Dirección de la Biblioteca Nacional de España designará a la persona titular de la Secretaría del Real Patronato que será funcionario de la Biblioteca Nacional de España y no ostentará la condición de miembro del Patronato.</p>
+          <p class="parrafo">7. En lo no previsto sobre el funcionamiento de los órganos del Real Patronato se aplicará lo establecido, sobre órganos colegiados, en los artículos 15 a 22 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 10. Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">1. La persona que ocupe la Dirección de la Biblioteca Nacional de España, que tendrá categoría de director general, será nombrada y separada por real decreto acordado en Consejo de Ministros, a propuesta de quien sea titular del Ministerio de Educación, Cultura y Deporte, entre funcionarios de carrera pertenecientes a Cuerpos o Escalas del Subgrupo A1, atendiendo a criterios de competencia profesional y experiencia en relación a los fines y objetivos de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">A tales efectos se acudirá a un sistema de preselección que garantice la publicidad y concurrencia, y que asegure la participación del Real Patronato, con el asesoramiento de profesionales del ámbito bibliotecario y documental. Su designación atenderá a los principios de igualdad, mérito, capacidad e idoneidad.</p>
+          <p class="parrafo">2. Funciones de la Dirección de la Biblioteca Nacional de España:</p>
+          <p class="parrafo_2">a) Dirigir y coordinar la gestión de la Biblioteca Nacional de España, adoptando las medidas que conduzcan al cumplimiento de las directrices de actuación señaladas por el Real Patronato de acuerdo a los planes estratégicos, los objetivos a alcanzar y las actuaciones a realizar, adoptando las medidas necesarias para la consecución de los fines y objetivos de la institución.</p>
+          <p class="parrafo">b) Ostentar la representación oficial del organismo, sin perjuicio de las competencias del Presidente y del Presidente del Real Patronato.</p>
+          <p class="parrafo">c) Elevar al Pleno del Real Patronato la propuesta del plan estratégico plurianual y el plan anual de objetivos para su posterior tramitación.</p>
+          <p class="parrafo">d) Elevar al Pleno del Real Patronato la memoria anual de actividades de la Biblioteca Nacional de España, para su posterior tramitación.</p>
+          <p class="parrafo">e) Elaborar la propuesta de anteproyecto de presupuesto anual, elevar a la Comisión Permanente las cuentas anuales del organismo y ejecutar el presupuesto.</p>
+          <p class="parrafo">f) Elevar al Real Patronato para su informe el Programa anual de proyectos en relación con el apoyo a la investigación y la docencia así como la programación de actividades que faciliten un mayor conocimiento de la institución.</p>
+          <p class="parrafo">g) Suscribir, en el ámbito de sus competencias, los acuerdos de cooperación y colaboración con bibliotecas, instituciones u organismos bibliotecarios de investigación, tanto nacionales como internacionales, para el desarrollo de proyectos de innovación y mejora.</p>
+          <p class="parrafo">h) Disponer y gestionar los recursos de la Biblioteca Nacional de España de tal manera que se garantice el cumplimiento de sus fines y funciones.</p>
+          <p class="parrafo">i) Realizar en nombre del organismo la contratación, la disposición de gastos y la ordenación de pagos necesarios para la ejecución del presupuesto.</p>
+          <p class="parrafo">j) Formular las cuentas anuales y rendir al Tribunal de Cuentas, a través de la Intervención General de la Administración del Estado, las aprobadas por la Comisión Permanente.</p>
+          <p class="parrafo">k) Proponer la determinación y modificación de la estructura orgánica y funcional de la Biblioteca Nacional de España, así como de su plantilla, sin perjuicio de las competencias del Ministerio de Hacienda y Función Pública y del Ministerio de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">l) Difundir, impulsar y adoptar las medidas necesarias para la ejecución de los acuerdos del Real Patronato.</p>
+          <p class="parrafo">m) Adoptar las medidas necesarias para la protección del patrimonio de la Biblioteca Nacional de España, sin perjuicio de lo preceptuado en la legislación sobre el patrimonio histórico español.</p>
+          <p class="parrafo">n) Asegurar el cumplimiento de los acuerdos adoptados por el Real Patronato en relación con el reglamento y normas de utilización de los servicios de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">o) La elaboración de las disposiciones reguladoras del funcionamiento interno de la Biblioteca Nacional de España y la prestación de servicios, así como la elaboración de propuestas normativas que afecten al ámbito competencial de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">p) Garantizar la transparencia en la gestión y uso eficiente de los recursos públicos asignados a la Biblioteca Nacional de España.</p>
+          <p class="parrafo">q) Ejercer las funciones enumeradas en los artículos 16 y 17, para cuyo desarrollo contará con la colaboración de la División de Procesos y Servicios Digitales y la División Cultural.</p>
+          <p class="parrafo_2">3. En caso de vacante, ausencia, enfermedad u otra causa legal, será sustituido, por este orden, por la persona titular de la Gerencia y de la Dirección Técnica.</p>
+          <p class="parrafo">4. Los actos y resoluciones de la Dirección de la Biblioteca Nacional de España, dictados en el ejercicio de sus potestades administrativas atribuidas, ponen fin a la vía administrativa, de conformidad con lo previsto en el artículo 114 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 11. El Comité Científico.</p>
+          <p class="parrafo">1. El Comité Científico asesorará a la Biblioteca Nacional de España en la participación de programas y proyectos de investigación, tanto nacionales e internacionales, en relación con los fines y objetivos de la Institución.</p>
+          <p class="parrafo">2. Los programas y proyectos estarán destinados, tanto a proporcionar un mejor y mayor conocimiento sobre las colecciones conservadas como a la innovación tecnológica, encaminados a proporcionar una mejora en los servicios y un mayor aprovechamiento de la información generada por la Biblioteca Nacional de España.</p>
+          <p class="parrafo">3. El Comité Científico estará compuesto por diez miembros de los cuales siete serán designados, por un período de cinco años, por la Comisión Permanente entre personas pertenecientes a universidades y centros de investigación, nacionales o internacionales, atendiendo a criterios de competencia profesional y experiencia en relación a los fines y objetivos de la Biblioteca Nacional de España. Su cese se producirá al término de su mandato o por renuncia, revocación del mandato realizada por la Comisión Permanente, fallecimiento o incapacidad.</p>
+          <p class="parrafo">Como miembros natos pertenecerán a este Comité las personas titulares de la Dirección de la Biblioteca Nacional de España, la Dirección Técnica y la División de Procesos y Servicios Digitales del organismo.</p>
+          <p class="parrafo">El Comité Científico designará a la persona titular de la Secretaría, que será funcionario de la Biblioteca Nacional de España y no ostentará la condición de miembro del Comité Científico.</p>
+          <p class="parrafo">4. En lo no previsto sobre el funcionamiento del Comité Científico se aplicará lo establecido, en materia de órganos colegiados, en los artículos 15 a 22 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 12. El Consejo de Dirección.</p>
+          <p class="parrafo">1. El Consejo de Dirección es el órgano responsable de asesorar a la Dirección de la Biblioteca Nacional de España en el ejercicio de sus funciones.</p>
+          <p class="parrafo">2. Estará formado por las personas titulares de la Dirección de la Biblioteca Nacional de España, la Dirección Técnica, la Gerencia, la División Cultural, la División de Procesos y Servicios Digitales, las Jefaturas de Área y las Direcciones de Departamento. El Consejo de Dirección, a propuesta de la Dirección de la Biblioteca Nacional de España, designará, de entre los miembros del Consejo de Dirección, al Secretario del organismo.</p>
+          <p class="parrafo">El Consejo de Dirección se reunirá, previa convocatoria de la Dirección de la Biblioteca Nacional de España, al menos, una vez al mes.</p>
+          <p class="parrafo">3. La Dirección de la Biblioteca Nacional de España podrá convocar a las sesiones del Consejo de Dirección al personal al servicio de la Biblioteca Nacional de España, cuando entienda que deban ser oídos en relación con alguno de los asuntos que sean objeto de examen en la correspondiente sesión y siempre que no hayan podido manifestar su parecer a través del correspondiente informe.</p>
+          <p class="parrafo">4. En lo no previsto sobre el funcionamiento del Consejo de Dirección se aplicará lo establecido en los artículos 15 a 22 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Estructura administrativa y funcional</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 13. Estructura administrativa.</p>
+          <p class="parrafo">1. De la Dirección de la Biblioteca Nacional de España dependen directamente las siguientes Unidades orgánicas con rango de Subdirección General:</p>
+          <p class="parrafo_2">a) La Gerencia.</p>
+          <p class="parrafo">b) La Dirección Técnica.</p>
+          <p class="parrafo_2">2. Así mismo, dependen de la Dirección de la Biblioteca Nacional de España con el rango que se determine en la correspondiente relación de puestos de trabajo:</p>
+          <p class="parrafo_2">a) La División de Procesos y Servicios Digitales.</p>
+          <p class="parrafo">b) La División Cultural.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 14. La Gerencia.</p>
+          <p class="parrafo">Corresponde a la Gerencia:</p>
+          <p class="parrafo_2">a) La dirección de las unidades y recursos que le estén adscritos, asegurando su adecuado funcionamiento y el cumplimiento de los fines y objetivos que les estén encomendados.</p>
+          <p class="parrafo">b) La propuesta de ordenación de los puestos de trabajo del organismo, la tramitación de la provisión de puestos, la selección del personal y su función.</p>
+          <p class="parrafo">c) La acción social y las relaciones con los órganos representativos del personal, colaborando en el proceso electoral de sus representantes y la prevención de riesgos profesionales.</p>
+          <p class="parrafo">d) La administración del personal y su régimen jurídico, tramitando los oportunos expedientes sobre situaciones, permisos, disciplinarios, mantenimiento del registro y propuesta de resoluciones de los recursos.</p>
+          <p class="parrafo">e) La gestión patrimonial, inventario de los bienes propios o adscritos, previsión de necesidades, tramitación de los expedientes relativos a arrendamientos, permutas, adquisiciones, así como el resto de expedientes de contenido económico.</p>
+          <p class="parrafo">f) La tramitación de los expedientes de contratación administrativa y relaciones y coordinación con los órganos participes en los procesos de contratación.</p>
+          <p class="parrafo">g) El mantenimiento y conservación de las instalaciones y equipos, elaboración de los proyectos y documentación técnica de los expedientes de obras.</p>
+          <p class="parrafo">h) Los servicios generales de régimen interior, comunicaciones, intendencia, seguridad, registro general e información al público.</p>
+          <p class="parrafo">i) La tramitación de los expedientes de pago de ingresos, previsiones de tesorería, gestión y justificación de las cuentas en entidades de crédito y libramiento de fondos a justificar.</p>
+          <p class="parrafo">j) La elaboración de los anteproyectos de presupuesto y los programas.</p>
+          <p class="parrafo">k) La elaboración de las cuentas anuales, a rendir al Tribunal de Cuentas a través de la Intervención General de la Administración del Estado.</p>
+          <p class="parrafo">l) Ejercer cuantas otras funciones le sean encomendadas por la Dirección de la Biblioteca Nacional de España.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 15. La Dirección Técnica.</p>
+          <p class="parrafo">Corresponde a la Dirección Técnica:</p>
+          <p class="parrafo_2">a) La dirección de las unidades y recursos que le correspondan, asegurando su adecuado funcionamiento y el cumplimiento de los fines que les estén encomendados.</p>
+          <p class="parrafo">b) La identificación, organización y gestión de todos los documentos conservados en la Biblioteca Nacional de España, y su incorporación al catálogo en línea para garantizar el acceso a sus colecciones y facilitar su estudio a los investigadores.</p>
+          <p class="parrafo">c) La elaboración de la bibliografía española de manera que sirva como instrumento de referencia actualizada para el control bibliográfico de la producción editorial y la creación de catálogos de sus bibliotecas.</p>
+          <p class="parrafo">d) La ejecución de la política de adquisiciones, a través de la gestión de los ingresos por Depósito Legal, compra, canje y donativo, que incremente y complete la colección bibliográfica patrimonial nacional.</p>
+          <p class="parrafo">e) Garantizar la preservación y conservación de sus colecciones a través de la realización de los planes de preservación necesarios y las medidas de seguridad oportunas.</p>
+          <p class="parrafo">f) Realización, elaboración y actualización de la normativa técnica bibliotecaria, en relación con el proceso técnico y la preservación de las colecciones.</p>
+          <p class="parrafo">g) Participación en proyectos y grupos de trabajo de ámbito nacional e internacional dirigidos a la promoción de la investigación y desarrollo de estándares y normativa en el ámbito de la biblioteconomía y de servicios en línea de valor añadido al usuario.</p>
+          <p class="parrafo">h) La planificación y organización de los servicios a los usuarios: consulta en sala, préstamo interbibliotecario, información bibliográfica y reprografía.</p>
+          <p class="parrafo">i) Impulsar y apoyar programas de investigación tendentes a la generación de conocimiento sobre sus colecciones, coordinar su desarrollo y ejecución y establecer espacios de diálogos con centros de investigación e investigadores de todo el mundo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 16. La División de Procesos y Servicios Digitales.</p>
+          <p class="parrafo">Corresponde a la División de Procesos y Servicios Digitales colaborar con la Dirección de la Biblioteca Nacional de España en el desarrollo de las siguientes funciones:</p>
+          <p class="parrafo_2">a) La dirección de las unidades y recursos que le estén adscritos, asegurando su adecuado funcionamiento y el cumplimiento de los fines que les estén encomendados.</p>
+          <p class="parrafo">b) Planificar y gestionar los medios y sistemas que garanticen el acceso a los recursos de información de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">c) Coordinar y gestionar las tareas relacionadas con el Depósito Legal de publicaciones en línea.</p>
+          <p class="parrafo">d) Garantizar la reutilización de la información generada por la Biblioteca Nacional de España, especialmente la información bibliográfica y los contenidos digitales.</p>
+          <p class="parrafo">e) Gestionar los procesos de digitalización de las colecciones de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">f) La implantación de medidas que aseguren el acceso a largo plazo a las colecciones digitales de la Biblioteca Nacional de España, en colaboración con el personal con funciones en materia de Coordinación Informática.</p>
+          <p class="parrafo">g) Garantizar, en coordinación con el personal con funciones en materia de Comunicación, el acceso a la información generada por la Biblioteca Nacional España, tanto a través de los sistemas de gestión de información como de los canales corporativos.</p>
+          <p class="parrafo">h) Participar en la estrategia de comunicación interna y externa de la Biblioteca Nacional de España a través de la Web y los medios sociales, especialmente en lo referido a la difusión de las colecciones digitales.</p>
+          <p class="parrafo">i) Participar y liderar proyectos de desarrollo, tanto nacionales como internacionales, encaminados a mejorar el acceso y uso de la información generada por la Biblioteca Nacional de España, así como al desarrollo de estándares y normativa en el ámbito de las tecnologías de la información aplicadas a las bibliotecas.</p>
+          <p class="parrafo">j) Impulsar y colaborar en proyectos de investigación destinados al conocimiento de las colecciones de la Biblioteca Nacional de España o al desarrollo de proyectos de innovación tecnológica.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 17. La División Cultural.</p>
+          <p class="parrafo">Corresponde a la División Cultural colaborar con la Dirección de la Biblioteca Nacional de España en el desarrollo de las siguientes funciones:</p>
+          <p class="parrafo_2">a) La dirección de las unidades y recursos que le correspondan, asegurando su adecuado funcionamiento y el cumplimiento de los fines que les estén encomendados.</p>
+          <p class="parrafo">b) La propuesta, diseño, coordinación y ejecución de cualquier actividad cultural desarrollada en la Biblioteca Nacional de España.</p>
+          <p class="parrafo">c) La propuesta, diseño y realización de un plan editorial que sirva para dar a conocer la riqueza de las colecciones depositadas en la Biblioteca Nacional de España, el funcionamiento de sus servicios, y las actividades culturales, así como cualquier otro tipo de publicación que contribuya a la consecución de los fines propios de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">d) La dirección del Museo de la Biblioteca Nacional de España y la planificación y ejecución de las actividades que en él se realizan, con objeto de fomentar la función educativa y cultural de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">e) La programación, planificación, gestión y realización de las exposiciones y muestras bibliográficas o de cualquier otro carácter que se celebran en la Biblioteca Nacional de España.</p>
+          <p class="parrafo">f) La recepción, tramitación, gestión y resolución, a la vista de los informes emitidos por los distintos departamentos, de las solicitudes de préstamos temporales de obras custodiadas en la Biblioteca Nacional de España, realizadas por otras instituciones.</p>
+          <p class="parrafo">g) La puesta en marcha de proyectos encaminados a fomentar la función educativa de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">h) La documentación, control, información y difusión de los bienes no incluidos en el Catálogo de la Biblioteca Nacional de España, que forman parte del patrimonio histórico-artístico de la institución, como cuadros, esculturas, mobiliario y maquinaria antigua, instrumentos musicales y otros objetos de artes aplicadas y arqueología industrial.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen de personal</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 18. Personal de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">Como establece la Ley 1/2015, de 24 de marzo, de conformidad con lo establecido en el artículo 100 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, el personal al servicio de la Biblioteca Nacional de España tendrá la consideración de empleados públicos con sujeción al Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre, y demás normas concordantes.</p>
+          <p class="parrafo">De este modo, con carácter general, los puestos de trabajo serán desempeñados por personal funcionario de carrera. Asimismo, las relaciones de puestos de trabajo indicarán los puestos que, en su caso, también podrán ser desempeñados por personal laboral. En todo caso, la relación de puestos de trabajo tendrá en cuenta lo establecido en el artículo 9.2 del Texto Refundido de la Ley del Estatuto Básico del Empleado Público.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 19. Incompatibilidades.</p>
+          <p class="parrafo">El personal al servicio de la Biblioteca Nacional de España, de conformidad con la Ley 1/2015, de 24 de marzo, estará sujeto al régimen de incompatibilidades establecido con carácter general para el personal al servicio de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Régimen patrimonial</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 20. Régimen patrimonial.</p>
+          <p class="parrafo">1. De conformidad con la Ley 1/2015, de 24 de marzo, la Biblioteca Nacional de España tendrá, para el cumplimiento de sus fines, un patrimonio propio, distinto al de la Administración General del Estado, integrado por el conjunto de bienes y derechos de los que es titular.</p>
+          <p class="parrafo">2. Asimismo, como establece la Ley 1/2015, de 24 de marzo, quedarán adscritos al organismo para el cumplimiento de sus fines los bienes del patrimonio del Estado que acuerde el órgano correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 21. Bienes propios.</p>
+          <p class="parrafo">1. La Biblioteca Nacional de España podrá adquirir toda clase de bienes y derechos por cualquiera de los modos admitidos en derecho.</p>
+          <p class="parrafo">La adquisición de bienes inmuebles o de derechos sobre los mismos requerirá el previo informe favorable del Ministerio de Hacienda y Función Pública.</p>
+          <p class="parrafo">2. La Biblioteca Nacional de España, en sus relaciones patrimoniales que tengan por objeto bienes de carácter patrimonial de titularidad del organismo, quedará sujeto al derecho privado, sin perjuicio de las limitaciones derivadas de la aplicación, en su caso, de la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español y de la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas.</p>
+          <p class="parrafo">3. De conformidad con la Ley 1/2015, de 24 de marzo, la gestión y administración de los bienes y derechos propios, serán ejercidas de acuerdo con lo señalado en este Estatuto, con sujeción en todo caso a lo establecido para los organismos públicos en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas.</p>
+          <p class="parrafo">4. Como establece la Ley 1/2015, de 24 de marzo, aquellos bienes de interés cultural que formen parte del patrimonio de la Biblioteca Nacional de España, sean muebles o inmuebles, se someterán al régimen especial de protección y tutela establecido en la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 22. Bienes adscritos.</p>
+          <p class="parrafo">1. La adscripción y desadscripción de bienes por parte de la Administración General del Estado se regirá por la Ley 33/2003, de 3 noviembre, de Patrimonio de las Administraciones Públicas, conservando aquéllos su calificación y titularidad jurídica originaria y correspondiendo a la Biblioteca Nacional de España su utilización, conservación, administración y cuantas prerrogativas referentes al dominio público y a los bienes patrimoniales del Estado se encuentren legalmente establecidas.</p>
+          <p class="parrafo">2. Los bienes muebles e inmuebles del Patrimonio del Estado adscritos a la Biblioteca Nacional de España se regirán por la Ley 33/2003, de 3 de noviembre, de Patrimonio de las Administraciones Públicas y, en el caso de tratarse de bienes del Patrimonio Histórico Español, también por la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español, así como por las normas dictadas en desarrollo de ambas leyes.</p>
+          <p class="parrafo">3. Lo establecido en los apartados 3 y 4 del artículo anterior será aplicable también respecto a los bienes adscritos.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Régimen de contratación, presupuesto y económico-financiero</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 23. Régimen de contratación.</p>
+          <p class="parrafo">De conformidad con la Ley 1/2015, de 24 de marzo, el régimen de contratación de la Biblioteca Nacional de España se regirá por lo dispuesto en la legislación de contratos del Sector Público para las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 24. Recursos económicos.</p>
+          <p class="parrafo">1. De conformidad con la Ley 1/2015, de 24 de marzo, los recursos económicos de la Biblioteca Nacional de España podrán provenir de las siguientes fuentes:</p>
+          <p class="parrafo_2">a) Los bienes y valores que constituyen su patrimonio.</p>
+          <p class="parrafo">b) Los productos y rentas de dicho patrimonio.</p>
+          <p class="parrafo">c) Las consignaciones específicas que tuviera asignadas en los Presupuestos Generales del Estado.</p>
+          <p class="parrafo">d) Las transferencias corrientes o de capital que procedan de las Administraciones o entidades públicas.</p>
+          <p class="parrafo">e) Los ingresos ordinarios y extraordinarios, ya sean de Derecho público o privado, que, según las disposiciones por las que se rige, la Biblioteca Nacional de España esté autorizada a percibir y, en particular, los que procedan de la venta de publicaciones en cualquier medio o soporte y de otra clase de objetos, de la realización de cursos, jornadas y seminarios, convenios de cooperación y de las actividades propias de este organismo como el préstamo interbibliotecario, la reproducción de documentos, las búsquedas bibliográficas delegadas, la difusión selectiva de la información, o cualquier otra actividad o servicio relacionados con las funciones del organismo.</p>
+          <p class="parrafo">f) Las subvenciones, aportaciones voluntarias, donaciones, herencias, legados y otras aportaciones de entidades privadas y de particulares.</p>
+          <p class="parrafo">g) Los ingresos recibidos de personas físicas o jurídicas como consecuencia del mecenazgo, del patrocinio de actividades o instalaciones.</p>
+          <p class="parrafo">h) Cualquier otro recurso que pudiera serle atribuido.</p>
+          <p class="parrafo_2">2. Los recursos especificados en el apartado anterior, con excepción de los señalados en los párrafos c) y d) constituirán los recursos propios del organismo.</p>
+          <p class="parrafo">3. Como establece la Ley 1/2015, de 24 de marzo, el Real Patronato de la Biblioteca Nacional de España realizará una labor activa de captación de recursos propios, especialmente los derivados de las aportaciones a título gratuito de entidades privadas y de particulares y de los ingresos recibidos como consecuencia del patrocinio de instalaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 25. Ingreso por actividades propias y cesión de espacios.</p>
+          <p class="parrafo">1. Los ingresos de la Biblioteca Nacional de España derivados de sus actividades propias tendrán la naturaleza de tasas o precios públicos, al amparo de lo dispuesto en la Ley 8/1989, de 13 de abril, de Tasas y Precios Públicos.</p>
+          <p class="parrafo">El establecimiento o modificación de la cuantía de los precios públicos se hará por la Biblioteca Nacional de España, previa autorización del Ministerio de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">2. Los ingresos procedentes de la utilización o cesión de espacios de los inmuebles, propios o adscritos, que estén calificados como demaniales, tienen la naturaleza de tasa y se regulan en el capítulo VI del título I de la Ley 25/1998, de 13 de julio, de modificación del Régimen Legal de las Tasas Estatales y Locales y de Reordenación de las Prestaciones Patrimoniales de Carácter Público. La determinación de la cuantía o su modificación se hará a través de orden ministerial.</p>
+          <p class="parrafo">3. La gestión y recaudación de los precios y de las tasas se realizará por la Biblioteca Nacional de España, que los ingresará en su patrimonio.</p>
+          <p class="parrafo">4. Serán ingresos de Derecho privado los demás que perciba la Biblioteca Nacional de España por la prestación de servicios o la realización de actividades que, de acuerdo con la ley, no tengan naturaleza tributaria, no constituyan precios públicos y no deriven del ejercicio de potestades administrativas.</p>
+          <p class="parrafo">5. La regulación de los ingresos por actividades propias y cesión de espacios que se contiene en los apartados anteriores es la establecida en la Ley 1/2015, de 24 de marzo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 26. Participación en sociedades y fundaciones.</p>
+          <p class="parrafo">1. De conformidad con la Ley 1/2015, de 24 de marzo, cuando sea necesario para la consecución de los fines que tiene asignados, la Biblioteca Nacional de España podrá participar en sociedades, fundaciones u otras entidades sin ánimo de lucro cuyo objeto sea acorde con los fines de la Biblioteca Nacional de España, en los términos establecidos por la legislación vigente.</p>
+          <p class="parrafo">Dicha participación será autorizada por el Pleno del Real Patronato a propuesta de la Dirección de la Biblioteca Nacional de España.</p>
+          <p class="parrafo">2. Como establece la Ley 1/2015, de 24 de marzo, corresponderá al Consejo de Ministros, a propuesta del Ministro de Hacienda y Administraciones Públicas y a iniciativa de la persona titular del Ministerio de Educación, Cultura y Deporte, tras la aprobación del Real Patronato de la Biblioteca Nacional de España, autorizar los actos de adquisición de títulos representativos del capital de sociedades mercantiles, sea por suscripción o compra, en el caso de que la autorización del Consejo de Ministros no resulte preceptiva conforme a lo dispuesto en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 27. Régimen presupuestario.</p>
+          <p class="parrafo">De conformidad con la Ley 1/2015, de 24 de marzo, la Biblioteca Nacional de España elaborará anualmente un anteproyecto de presupuesto y lo remitirá al Ministerio de Educación, Cultura y Deporte para su posterior tramitación de acuerdo con lo previsto en la Ley 47/2003, de 26 de noviembre, General Presupuestaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 28. Control económico-financiero.</p>
+          <p class="parrafo">Sin perjuicio de las competencias de fiscalización atribuidas al Tribunal de Cuentas, la Biblioteca Nacional de España estará sometida al control interno de su gestión económica-financiera, que será ejercido por la Intervención General de la Administración del Estado, a través de la Intervención Delegada en la misma, en las condiciones y en los términos que establece la Ley 47/2003, de 26 de noviembre, General Presupuestaria, para los organismos autónomos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Artículo 29. Contabilidad.</p>
+          <p class="parrafo">De conformidad con la Ley 1/2015, de 24 de marzo, la Biblioteca Nacional de España estará sometida al Plan General de Contabilidad Pública, de acuerdo con lo establecido en la Ley 47/2003, de 26 de noviembre, General Presupuestaria.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Disposición adicional primera. Utilización de las distintas lenguas oficiales del Estado.</p>
+          <p class="parrafo">De conformidad con la Ley 1/2015, de 24 de marzo, atendiendo a la esencia de la Biblioteca Nacional de España como referente cultural de alcance internacional, y a fin de contribuir a la difusión y normalización del patrimonio plurilingüe del Estado español, se promoverá en los materiales editados por este organismo, así como en la información inherente a la obra expuesta y aquella que se ofrece a los visitantes, el uso de las distintas lenguas oficiales del Estado. Se prestará una especial atención a la edición en lenguas cooficiales de los materiales en formato electrónico.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2016-11997" fecha_publicacion="20161219" fecha_vigencia="20161220">
+          <p class="articulo">Disposición adicional segunda. Accesibilidad de las personas con discapacidad.</p>
+          <p class="parrafo">De conformidad con la Ley 1/2015, de 24 de marzo, de acuerdo con la legislación sectorial aplicable, las instalaciones y los servicios prestados por la Biblioteca Nacional de España serán accesibles a las personas con discapacidad, que constituirán un grupo social de especial referencia para la actuación de este organismo.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

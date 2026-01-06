@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210507Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-8384</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1290">Ley Orgánica</rango>
+      <fecha_disposicion>20050520</fecha_disposicion>
+      <numero_oficial>1/2005</numero_oficial>
+      <titulo>Ley Orgánica 1/2005, de 20 de mayo, por la que se autoriza la ratificación por España del Tratado por el que se establece una Constitución para Europa, firmado en Roma el 29 de octubre de 2004.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050521</fecha_publicacion>
+      <diario_numero>121</diario_numero>
+      <fecha_vigencia>20050522</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/lo/2005/05/20/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-8384</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="71">Acuerdos internacionales</materia>
+        <materia codigo="8070">Constitución Europea</materia>
+      </materias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-8384</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-20</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/71"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8070"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-8384</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/71"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8070"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/con/20050521"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 1/2005, de 20 de mayo, por la que se autoriza la ratificación por España del Tratado por el que se establece una Constitución para Europa, firmado en Roma el 29 de octubre de 2004.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-21</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI ORGÀNICA 1/2005, de 20 de maig, per la qual s'autoritza la ratificació per Espanya del Tractat pel qual s'estableix una Constitució per a Europa, signat a Roma el 29 d'octubre de 2004.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei orgánica 1/2005, do 20 de maio, pola que se autoriza a ratificación por España do Tratado que establece unha Constitución para Europa, asinado en Roma o 29 de outubro de 2004.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/vci">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/vci"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI ORGÀNICA 1/2005, de 20 de maig, per la qual s'autoritza la ratificació per Espanya del Tractat pel qual s'establix una Constitució per a Europa, firmat a Roma el 29 d'octubre de 2004.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/vci/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof/vci"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/con/20050521">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-8384</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/71"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8070"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/con/20050521/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 1/2005, de 20 de mayo, por la que se autoriza la ratificación por España del Tratado por el que se establece una Constitución para Europa, firmado en Roma el 29 de octubre de 2004.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/con/20050521"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2005/05/20/1/con/20050521/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2005/05/20/1/con/20050521/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2005-8384" fecha_publicacion="20050521" fecha_vigencia="20050522">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley Orgánica.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">El 29 de octubre de 2004 se procedió a la firma en Roma, por parte de los Plenipotenciarios de los Estados miembros de la Unión Europea, del Tratado por el que se establece una Constitución para Europa.</p>
+          <p class="parrafo">El nuevo Tratado constitucional de la Unión Europea o Constitución Europea ha sido redactado con el triple objetivo de hacer más partícipes a los ciudadanos en el proceso de integración supranacional que representa la Unión Europea, de dotar a la Unión de los medios de acción necesarios para hacer frente a las nuevas exigencias de la realidad social, económica e internacional y de adecuar mejor las instituciones de la Unión, sus estructuras, métodos de trabajo y procedimientos de decisión a la Unión ampliada.</p>
+          <p class="parrafo">Este texto, que como su propio nombre indica, tiene a un tiempo características propias de un tratado internacional y de una Constitución, consagra a la Unión Europea como una auténtica comunidad política que nace de la voluntad de los ciudadanos y de los Estados de Europa de construir un futuro común.</p>
+          <p class="parrafo">La Constitución Europea pone de relieve en este contexto que el proceso de integración supranacional de Europa se construye sobre el fundamento de los valores en los que se asienta la civilización en nuestro continente: la dignidad humana, la libertad, la demo­cracia, la igualdad, el Estado de Derecho y el respeto de los derechos humanos, incluidos los derechos de las personas pertenecientes a minorías, en el marco de una sociedad caracterizada por el pluralismo, la no discriminación, la tolerancia, la justicia, la solidari­dad y la igualdad entre mujeres y hombres.</p>
+          <p class="parrafo">La Constitución Europea aporta con su articulado dosis mayores de eficacia en las políticas de la Unión, de democracia en el funcionamiento de sus institucio­nes y de solidaridad en las relaciones entre sus Estados miembros y sus ciudadanos, dando así un paso ciertamente decisivo para hacer realidad el sueño de tantas mujeres y hombres de crear en nuestro conti­nente un auténtico espacio de paz y prosperidad.</p>
+          <p class="parrafo">El texto se divide formalmente en cuatro Partes. La Parte I se consagra esencialmente a los fundamentos de la Unión Europea, sus valores y objetivos, el reparto de competencias entre la Unión y sus Estados miembros y las disposiciones institucionales básicas de la Unión. La Parte II proclama con valor jurídico la Carta de De­rechos Fundamentales de la Unión Europea. La Parte III se dedica fundamentalmente a recoger las bases jurídicas y los principios que rigen las políticas internas y externas de la Unión, así como el desarrollo de las disposiciones relativas al funcionamiento institucional de la Unión. La Parte IV, por último, contiene las dis­posiciones generales y finales. El texto constitucional se completa con dos Anexos y treinta y seis Protocolos que forman parte integrante del mismo.</p>
+          <p class="parrafo">El pueblo español se ha manifestado claramente a favor de este Tratado, en el Referéndum celebrado el 20 de febrero de 2005. De acuerdo con este senti­miento, España, al ratificar este Tratado constitucio­nal, quiere reafirmar su firme compromiso con un proyecto histórico a cuyo éxito ha consagrado y consagrará sus mejores esfuerzos.</p>
+          <p class="parrafo">Teniendo en cuenta lo anterior y habiéndose decla­rado por el Tribunal Constitucional que no existe contradicción alguna entre el texto del Tratado por el que se establece una Constitución para Europa y nuestra Constitución nacional de 1978, se constata que la prestación del consentimiento del Estado para ratifi­car el mencionado Tratado debe ser autorizada por las Cortes mediante Ley Orgánica, de conformidad con lo previsto en el artículo 93 de la Constitución.</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2005-8384" fecha_publicacion="20050521" fecha_vigencia="20050522">
+          <p class="articulo">Artículo único.</p>
+          <p class="parrafo">Se autoriza la ratificación por España del Tratado por el que se establece una Constitución para Europa, firmado en Roma el 29 de octubre de 2004.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2005-8384" fecha_publicacion="20050521" fecha_vigencia="20050522">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">La presente Ley Orgánica entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2005-8384" fecha_publicacion="20050521" fecha_vigencia="20050522">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley orgánica.</p>
+          <p class="parrafo">Madrid, 20 de mayo de 2005.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ LUIS RODRÍGUEZ ZAPATERO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

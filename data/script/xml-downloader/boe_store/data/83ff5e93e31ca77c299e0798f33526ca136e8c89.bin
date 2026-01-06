@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190411Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-333</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="6110">Ministerio de Defensa</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20001220</fecha_disposicion>
+      <numero_oficial>376/2000</numero_oficial>
+      <titulo>Orden 376/2000, de 20 de diciembre, por la que se dictan normas sobre los sacerdotes y religiosos colaboradores del Servicio de Asistencia Religiosa en las Fuerzas Armadas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20010104</fecha_publicacion>
+      <diario_numero>4</diario_numero>
+      <fecha_vigencia>20010105</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2000/12/20/376</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-333</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3839">Fuerzas Armadas</materia>
+        <materia codigo="4048">Iglesia Católica</materia>
+        <materia codigo="7137">Vicariato General Castrense</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1990-23337</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición final 1 del Real Decreto 1145/1990, de 7 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-29490</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Acuerdo de 3 de enero de 1979</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-333</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-12-20</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">376</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4048"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7137"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-333</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-12-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">376</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4048"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7137"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/con/20010104"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden 376/2000, de 20 de diciembre, por la que se dictan normas sobre los sacerdotes y religiosos colaboradores del Servicio de Asistencia Religiosa en las Fuerzas Armadas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/con/20010104">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-333</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-12-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">376</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4048"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7137"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/con/20010104/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden 376/2000, de 20 de diciembre, por la que se dictan normas sobre los sacerdotes y religiosos colaboradores del Servicio de Asistencia Religiosa en las Fuerzas Armadas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/con/20010104"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/12/20/376/con/20010104/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/12/20/376/con/20010104/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="parrafo">La disposición adicional primera del Real Decreto 1145/1990, de 7 de septiembre, por el que se crea el Servicio de Asistencia Religiosa en las Fuerzas Armadas y se dictan normas sobre su funcionamiento, prevé que el Arzobispo Castrense podrá designar sacerdotes y religiosos que colaboren a tiempo parcial y con carácter de complementariedad, con el personal adscrito al Arzobispado Castrense, en los términos previstos en el anexo I, artículo 6 del Acuerdo suscrito entre el Estado español y la Santa Sede el 3 de enero de 1979. Asimismo, dicha disposición adicional establece que estos sacerdotes y religiosos no serán, en ningún caso, miembros del Servicio de Asistencia Religiosa en las Fuerzas Armadas y, por tanto, no se les aplicarán los preceptos contenidos en el citado Real Decreto.</p>
+          <p class="parrafo">Por su parte, el artículo 6 del anexo I del Acuerdo entre el Estado español y la Santa Sede de 3 de enero de 1979, prevé expresamente que: «Cuando lo estime conveniente para el servicio religioso pastoral, el Vicario Castrense se pondrá de acuerdo con los Obispos diocesanos y los Superiores mayores religiosos para designar un número adecuado de sacerdotes y religiosos que, sin dejar los oficios que tengan en sus diócesis o institutos, presten ayuda a los capellanes castrenses. Tales sacerdotes ejercerán su ministerio a las órdenes del Vicario General Castrense, del cual recibirán las facultades «ad nutum» y serán retribuidos a título de gratificación o estipendio ministerial».</p>
+          <p class="parrafo">En la actualidad concurren motivos y circunstancias suficientes para que se considere adecuado hacer uso de esta forma de asistencia religiosa a los miembros de las Fuerzas Armadas, por lo que se hace necesario dictar unas normas generales sobre la figura de los sacerdotes y religiosos colaboradores que la hace posible, así como establecer los criterios que han de regir la financiación y la determinación de las gratificaciones o estipendios ministeriales que, en cada caso, correspondan.</p>
+          <p class="parrafo">Por último, la disposición final primera del citado Real Decreto 1145/1990, dispone que los Ministros de Defensa, de Economía y Hacienda y de Trabajo y Seguridad Social dictarán, en el ámbito de sus competencias, las normas necesarias para el desarrollo del presente Real Decreto a propuesta, en su caso, del Arzobispo Castrense.</p>
+          <p class="parrafo">En su virtud, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Primero.</p>
+          <p class="parrafo">Los sacerdotes y religiosos que, sin dejar los oficios que tengan en sus diócesis o institutos, presten ayuda al personal adscrito al Arzobispado Castrense a tiempo parcial y con carácter de complementariedad, se denominarán «sacerdotes colaboradores».</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Segundo.</p>
+          <p class="parrafo">Los sacerdotes colaboradores no serán, en ningún caso, miembros del Servicio de Asistencia Religiosa en las Fuerzas Armadas. No se les aplicarán las normas estatutarias específicas del personal adscrito a dicho Servicio, ni tendrán relaciones de carácter laboral con la Administración General del Estado, quedando adscritos al Arzobispado Castrense con vínculos exclusivamente canónicos y pastorales.</p>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Tercero.</p>
+          <p class="parrafo">El Arzobispo Castrense determinará las unidades, centros u organismos militares en las que se prestará esta forma de asistencia religiosa a sus miembros, supliendo la inexistencia de sacerdotes adscritos al Servicio de Asistencia Religiosa en las Fuerzas Armadas o sustituyéndolos en su ausencia o bien complementándolos, según se determine en cada caso.</p>
+        </version>
+      </bloque>
+      <bloque id="cuao" tipo="precepto" titulo="Cuarto">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Cuarto.</p>
+          <p class="parrafo">El Arzobispo Castrense, previos los trámites oportunos con los Obispos diocesanos, con otros prelados con la potestad canónica correspondiente o con los Superiores mayores religiosos, designará a los sacerdotes o religiosos que, como sacerdotes colaboradores, ejercerán el ministerio que se les encomiende en el ámbito de las Fuerzas Armadas y bajo la dependencia del Arzobispo Castrense.</p>
+        </version>
+      </bloque>
+      <bloque id="quinto" tipo="precepto" titulo="Quinto">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Quinto.</p>
+          <p class="parrafo">Los sacerdotes colaboradores percibirán, a título de gratificación o estipendio ministerial, las cantidades que fije el Arzobispo Castrense con arreglo a los criterios generales a que se refiere el siguiente apartado.</p>
+        </version>
+      </bloque>
+      <bloque id="sexto" tipo="precepto" titulo="Sexto">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Sexto.</p>
+          <p class="parrafo">Para la determinación de las cuantías de las gratificaciones o estipendios ministeriales que, en cada caso correspondan, se tendrá en cuenta:</p>
+          <p class="parrafo_2">a) Los cometidos que se encomienden y el tiempo asignado para realizarlos.</p>
+          <p class="parrafo">b) Los gastos derivados del viaje, si lo hubiere, teniendo en cuenta la distancia a recorrer y el uso o no de medios propios para el desplazamiento.</p>
+          <p class="parrafo">c) La disponibilidad para responder ante necesidades imprevistas o cuya atención no hubiera sido previamente convenida.</p>
+        </version>
+      </bloque>
+      <bloque id="septimo" tipo="precepto" titulo="Séptimo">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Séptimo.</p>
+          <p class="parrafo">Por la Subsecretaría de Defensa se habilitarán los fondos económicos necesarios para sufragar las gratificaciones o estipendios ministeriales reconocidos por el Arzobispo Castrense.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Subsecretario de Defensa a dictar cuantas disposiciones sean necesarias en desarrollo de la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2001-333" fecha_publicacion="20010104" fecha_vigencia="20010105">
+          <p class="parrafo_2">Madrid, 20 de diciembre de 2000.</p>
+          <p class="firma_ministro">TRILLO-FIGUEROA Y MARTÍNEZ-CONDE</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

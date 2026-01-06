@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T194011Z</fecha_actualizacion>
+      <identificador>BOE-A-2002-549</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8150">Comunidad Autónoma del Principado de Asturias</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20011112</fecha_disposicion>
+      <numero_oficial>10/2001</numero_oficial>
+      <titulo>Ley 10/2001, de 12 de noviembre, del Voluntariado.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20020111</fecha_publicacion>
+      <diario_numero>10</diario_numero>
+      <fecha_vigencia>20011117</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-as/l/2001/11/12/10</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2002-549</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="379">Asturias</materia>
+        <materia codigo="7169">Voluntariado</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOPA núm. 266, de 16 de noviembre 2001.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-634</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 31.2 del Estatuto aprobado por Ley Orgánica 7/1981, de 30 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2006-12316</id_norma>
+            <relacion codigo="331">SE DICTA EN RELACIÓN</relacion>
+            <texto>, sobre cooperación al desarrollo: Ley 4/2006, de 5 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-as"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-549</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-12</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/379"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-as"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-549</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-12</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/379"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/con/20011116"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/2001, de 12 de noviembre, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/con/20011116">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-as"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-549</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-12</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/379"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/con/20011116/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/2001, de 12 de noviembre, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/con/20011116"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-as/l/2001/11/12/10/con/20011116/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-as/l/2001/11/12/10/con/20011116/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="centro_redonda">EL PRESIDENTE DEL PRINCIPADO DE ASTURIAS</p>
+          <p class="parrafo_2">Sea notorio que la Junta General del Principado de Asturias ha aprobado y yo, en nombre de Su Majestad el Rey, y de acuerdo con lo dispuesto en el artículo 31.2 del Estatuto de Autonomía del Principado de Asturias, vengo a promulgar la siguiente Ley del Voluntariado.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El artículo 9.2 de la Constitución impone a los poderes públicos la obligación de facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social. Dicho mandato exige establecer un marco jurídico adecuado para que los ciudadanos puedan organizarse libremente con objeto de contribuir a la satisfacción de los intereses generales.</p>
+          <p class="parrafo">Es indudable que un Estado moderno debe potenciar la participación ciudadana en cuanto al principio democrático de intervención directa y activa en las responsabilidades de la comunidad, de modo que quede garantizada la implicación de ésta en la satisfacción de los intereses generales, que en modo alguno puede ser hoy considerada como una responsabilidad exclusiva del Estado.</p>
+          <p class="parrafo">Para la consecución de tan importante fin ocupa un lugar destacado el voluntariado, entendiendo por tal el conjunto de actividades de interés general desarrolladas por personas físicas, agrupadas en entidades de voluntariado, de modo libre, solidario y altruista, sin buscar beneficio material alguno.</p>
+          <p class="parrafo">Dichas actividades abarcan las relativas a los servicios sociales y de la salud, las de protección civil, las educativas y culturales, las de cooperación internacional, la defensa de los derechos humanos y, en definitiva, todas aquéllas que contribuyen de manera decisiva a la construcción de una sociedad más igual, libre y solidaria.</p>
+          <p class="parrafo">Esta Ley, amparada en el citado título competencial, que ha sido sometida a la consideración del Consejo Asesor de Bienestar Social, configura el marco jurídico en que debe desenvolverse la acción voluntaria, promoviendo, fomentando y ordenando la participación solidaria y altruista de los voluntarios asturianos, regulando al mismo tiempo las relaciones que se establezcan entre las Administraciones Públicas, las entidades de voluntariado, a través de las cuales los voluntarios realizan su actividad, y estos últimos.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo_2">La presente Ley tiene por objeto:</p>
+          <p class="parrafo_2">a) Promover, fomentar y ordenar la participación solidaria y altruista de los ciudadanos en actuaciones de voluntariado que se ejerzan en el ámbito territorial del Principado de Asturias, a través de entidades de voluntariado públicas o privadas.</p>
+          <p class="parrafo">b) Regular las relaciones que se establezcan entre las administraciones públicas, las entidades de voluntariado y los voluntarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo_2">1. Esta Ley será de aplicación a toda actividad de voluntariado que se desarrolle en el Principado de Asturias, con independencia del lugar donde la entidad colaboradora a través de la que se realicen las actuaciones de voluntariado tenga su domicilio social.</p>
+          <p class="parrafo">2. Las entidades de voluntariado estatales o supraautonómicas que desarrollen su actividad en el territorio del Principado de Asturias deberán adecuar su actuación a las prescripciones de esta Ley, de acuerdo con lo establecido en el apartado anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 3. Voluntariado.</p>
+          <p class="parrafo_2">1. Se entiende por voluntariado el conjunto de actividades de interés general desarrolladas por personas físicas que cumplan los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que tengan un carácter solidario y altruista.</p>
+          <p class="parrafo">b) Que su realización sea resultado de una decisión libremente adoptada y no consecuencia de un deber jurídico o de una obligación personal.</p>
+          <p class="parrafo">c) Que se realicen sin contraprestación económica, no buscando beneficio material alguno.</p>
+          <p class="parrafo">d) Que se desarrollen a través de organizaciones públicas o privadas y en función de programas o proyectos concretos.</p>
+          <p class="parrafo_2">2. No se considerarán actividades de voluntariado las realizadas de forma aislada y esporádica que se presten al margen de las entidades de voluntariado, así como aquéllas hechas por razones familiares, de amistad o de mera vecindad.</p>
+          <p class="parrafo">3. La actividad de voluntariado en ningún caso podrá sustituir prestaciones de trabajo o servicios profesionales remunerados.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 4. Actividades de interés general.</p>
+          <p class="parrafo_2">A efectos de lo dispuesto en el artículo anterior, se consideran actividades de interés general:</p>
+          <p class="parrafo_2">a)	Las desarrolladas en el ámbito de los servicios sociales y de la salud.</p>
+          <p class="parrafo">b)	Las de protección civil.</p>
+          <p class="parrafo">c)	Las de carácter educativo, cultural, científico y deportivo.</p>
+          <p class="parrafo">d)	Las de cooperación internacional.</p>
+          <p class="parrafo">e)	Las de defensa del medio ambiente.</p>
+          <p class="parrafo">f)	Las desarrolladas para promocionar la igualdad de oportunidades entre hombres y mujeres.</p>
+          <p class="parrafo">g)	Las de promoción y desarrollo del voluntariado y de desarrollo de la vida asociativa.</p>
+          <p class="parrafo">h)	Las de defensa de los derechos humanos.</p>
+          <p class="parrafo">i)	Las de inserción sociolaboral.</p>
+          <p class="parrafo">j)	Cualquier otra actividad de análogo contenido a las anteriores que desarrollándose mediante el voluntariado se ajuste a lo dispuesto en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 5. Principios rectores.</p>
+          <p class="parrafo_2">Son principios básicos de actuación del voluntariado los siguientes:</p>
+          <p class="parrafo_2">a)	La libertad como opción personal del compromiso social, respetando, en todo caso, las convicciones y creencias tanto del voluntario como de los beneficiarios de la acción.</p>
+          <p class="parrafo">b)	La solidaridad con otras personas o grupos, que se traduzca en acciones a favor de los demás o de los intereses sociales colectivos.</p>
+          <p class="parrafo">c)	La participación como principio democrático de intervención activa y directa en las responsabilidades de la comunidad, promoviendo la implicación de ésta en la articulación del tejido asociativo a través de las entidades de voluntariado.</p>
+          <p class="parrafo">d)	La gratuidad en el servicio que presta, no buscando beneficio material alguno.</p>
+          <p class="parrafo">e)	La autonomía respecto a los poderes públicos.</p>
+          <p class="parrafo">f)	El compromiso de las entidades de voluntariado para atender las necesidades sociales de manera estable en el tiempo, con la máxima calidad y evaluando permanentemente los resultados.</p>
+          <p class="parrafo">g)	La complementariedad respecto a la actuación realizada por las Administraciones Públicas en el ámbito de la acción social.</p>
+          <p class="parrafo">h)	En general, todos aquellos principios que inspiran la convivencia en una sociedad democrática, abierta, moderna y participativa.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Estatuto del Voluntariado</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="seccion">Sección 1.ª De los voluntarios</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 6. Voluntario.</p>
+          <p class="parrafo_2">1. Se entiende por voluntario, a los efectos de la presente Ley, toda persona física que por libre determinación y sin mediar obligación o deber y de forma gratuita realice cualquiera de las actividades contempladas en esta Ley, a través de una entidad de voluntariado, cumpliendo los requisitos establecidos en la misma.</p>
+          <p class="parrafo">2. Los menores de edad no emancipados podrán participar en programas o proyectos del voluntariado específicamente adaptados a sus circunstancias personales, previa autorización expresa de sus representantes legales.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 7. Derechos.</p>
+          <p class="parrafo_2">Las entidades de voluntariado a través de las cuales el voluntario desarrolle su actividad deberán garantizarle los siguientes derechos:</p>
+          <p class="parrafo_2">a)	A ser informado de los fines, organización y funcionamiento de la entidad en la que intervenga. En el caso de voluntarios de cooperación internacional, deberán ser informados además sobre el marco en el que se desarrollará su actuación, de la normativa básica del país al que irán destinados y de la obligación de respetarla, así como de los derechos que puedan corresponderles derivados de acuerdos internacionales suscritos por España.</p>
+          <p class="parrafo">b)	A participar activamente en la entidad en la que se integren, de conformidad con sus Estatutos, y disponer por parte de la misma del apoyo y los medios necesarios para el desarrollo de su actividad.</p>
+          <p class="parrafo">c)	A recibir la formación adecuada para el desarrollo de su actividad, debiendo ser orientados hacia la más adecuada a sus aptitudes, en orden a mantener la calidad de la acción voluntaria.</p>
+          <p class="parrafo">d)	A disponer de la formación y los medios necesarios para garantizar que su actividad se desarrolle con las debidas garantías en materia de seguridad e higiene.</p>
+          <p class="parrafo">e)	A disponer de una acreditación identificativa de su condición de voluntario.</p>
+          <p class="parrafo">f)	A ser asegurados de los daños y perjuicios que el correcto desempeño de su actividad pudiera reportarles.</p>
+          <p class="parrafo">g)	A participar en el desarrollo, diseño y evaluación de los programas que se realicen.</p>
+          <p class="parrafo">h)	A no ser asignados a la ejecución de tareas ajenas a los fines y naturaleza de la entidad.</p>
+          <p class="parrafo">i)	Al cambio de programa asignado cuando existan causas que lo justifiquen, dentro de las posibilidades de la entidad.</p>
+          <p class="parrafo">j)	A obtener el certificado de la actividad del voluntario en el que consten, como mínimo, la fecha, la duración de la prestación y la naturaleza de la misma.</p>
+          <p class="parrafo">k)	En general, todos aquellos que se deriven de la presente Ley y del resto del ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 8. Deberes.</p>
+          <p class="parrafo_2">Son deberes del voluntario:</p>
+          <p class="parrafo_2">a)	Cumplir el compromiso adquirido con la entidad de la que forma parte, respetando sus objetivos y fines.</p>
+          <p class="parrafo">b)	Respetar los derechos de los beneficiarios del programa, adecuando su actuación a la consecución de los objetivos del mismo, acatando las instrucciones que reciba para el desarrollo de su actuación.</p>
+          <p class="parrafo">c)	Mantener la confidencialidad de la información recibida y conocida en el desarrollo de su actividad, guardando secreto análogo al secreto profesional.</p>
+          <p class="parrafo">d)	Observar las medidas de seguridad e higiene que se adopten.</p>
+          <p class="parrafo">e)	Rechazar cualquier tipo de contraprestación económica.</p>
+          <p class="parrafo">f)	Participar en las acciones de formación que organice la entidad y que afecten a las tareas encomendadas.</p>
+          <p class="parrafo">g)	Colaborar con la entidad y el resto de voluntarios en la mejora de la eficacia y eficiencia de los programas que se apliquen.</p>
+          <p class="parrafo">h)	Mantener un compromiso individual que pueda servir de estímulo o de movimiento colectivo.</p>
+          <p class="parrafo">i)	En general, los demás que se deriven de la presente Ley y del resto del ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 9. Reconocimiento de servicios.</p>
+          <p class="parrafo_2">1. La acreditación de la condición de voluntario se efectuará mediante certificación expedida por la entidad de voluntariado, en la que deberán constar, como mínimo, además de los datos personales e identificativos del voluntario y de la entidad, la fecha, duración y naturaleza de la prestación.</p>
+          <p class="parrafo">2. El Consejo de Gobierno, a propuesta del Consejo del Voluntariado del Principado de Asturias, reconocerá anualmente a la «Persona voluntaria de Asturias», en atención a la persona física o jurídica que haya destacado por su dedicación al voluntariado, por su ejemplo social en su actividad voluntaria o bien porque sus actuaciones voluntarias hayan alcanzado especial relevancia.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="seccion">Sección 2.ª De las Entidades de Voluntariado</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 10. Concepto.</p>
+          <p class="parrafo_2">1. Se entiende por entidades de voluntariado aquéllas que bajo la forma jurídica adecuada a la obtención de sus fines estén legalmente constituidas, tengan personalidad jurídica propia, carezcan de ánimo de lucro, desarrollen sus actividades y programas en alguno de los campos de actuación señalados en el artículo 4 de esta Ley y se encuentran inscritas en el Registro de Voluntariado del Principado de Asturias.</p>
+          <p class="parrafo">2. Al solo objeto de garantizar el funcionamiento estable de las entidades de voluntariado, podrán tener a su servicio personal asalariado.</p>
+          <p class="parrafo">3. Las entidades de voluntariado podrán recibir la colaboración de trabajadores externos en el desarrollo de actividades que requieran un grado de especialización concreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 11. Incorporación de voluntarios.</p>
+          <p class="parrafo_2">1. La incorporación de los voluntarios a las entidades de voluntariado se realizará a través de la suscripción de un compromiso entre ambas partes, que contendrá como mínimo los siguientes extremos:</p>
+          <p class="parrafo_2">a) El carácter solidario y altruista de la relación.</p>
+          <p class="parrafo">b) El conjunto de derechos y deberes que corresponden a ambas partes, respetando, en todo caso, las prescripciones de esta Ley.</p>
+          <p class="parrafo">c) El contenido de las funciones, actividades y horario que se compromete a realizar el voluntario, así como el lugar donde desarrollará su actividad.</p>
+          <p class="parrafo">d) El proceso de formación que se requerirá para el cumplimiento de sus funciones.</p>
+          <p class="parrafo">e) La duración del compromiso y las causas y formas de desvinculación por ambas partes.</p>
+          <p class="parrafo_2">2. La condición de voluntario es compatible con la de socio o miembro de la misma entidad colaboradora, siendo incompatible, en todo caso, con el desempeño de actividades remuneradas dentro de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 12. Obligaciones de las entidades de voluntariado.</p>
+          <p class="parrafo_2">1. Las entidades de voluntariado en su funcionamiento y en sus relaciones con los voluntarios deberán:</p>
+          <p class="parrafo_2">a)	Adecuarse a la normativa vigente, especialmente en lo que hace referencia a la organización y al funcionamiento democrático y no discriminatorio.</p>
+          <p class="parrafo">b)	Cumplir los compromisos adquiridos con los voluntarios en el acuerdo de incorporación a la entidad, respetando sus derechos.</p>
+          <p class="parrafo">c)	Suscribir una póliza de seguros que cubra los siniestros de los propios voluntarios y los que eventualmente puedan producir a terceros como consecuencia del desarrollo de su actividad.</p>
+          <p class="parrafo">d)	Formar adecuadamente al voluntario para el desarrollo de su actividad.</p>
+          <p class="parrafo">e)	Llevar un registro de altas y bajas del personal voluntario.</p>
+          <p class="parrafo">f)	Cumplir con el resto de obligaciones establecidas en la presente Ley y en el resto del ordenamiento jurídico.</p>
+          <p class="parrafo_2">2. Las entidades de voluntariado aprobarán sus Estatutos, que deberán regular su organización, funcionamiento y las relaciones con los voluntarios, cumpliendo las obligaciones establecidas en el párrafo anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 13. Responsabilidad frente a terceros.</p>
+          <p class="parrafo_2">Las entidades de voluntariado responderán frente a terceros de los daños y perjuicios causados por los voluntarios que participen en sus programas como consecuencia de la realización de las funciones que les hayan sido encomendadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 14. Registro de Entidades de Voluntariado.</p>
+          <p class="parrafo_2">1. Se crea en la Consejería con competencias en materia de asistencia y bienestar social el Registro de Entidades de Voluntariado del Principado de Asturias, en el que se inscribirán las entidades que reúnan los requisitos establecidos en esta Ley.</p>
+          <p class="parrafo">2. La inscripción en el Registro se realizará a solicitud de la entidad interesada previa tramitación del correspondiente procedimiento administrativo, que deberá ser resuelto y notificado en un plazo máximo de seis meses, transcurrido el cual sin resolución expresa, deberá entenderse estimada la pretensión de la entidad.</p>
+          <p class="parrafo">3. La inscripción en el Registro se cancelará cuando se produzca la pérdida de la condición de entidad colaboradora de voluntariado, previa tramitación del correspondiente procedimiento administrativo, por alguna de las siguientes causas:</p>
+          <p class="parrafo_2">a) Petición expresa de la entidad.</p>
+          <p class="parrafo">b) Extinción de su personalidad jurídica.</p>
+          <p class="parrafo">c) Revocación de la inscripción por incumplimiento de las obligaciones establecidas en la presente Ley y disposiciones de desarrollo, tal y como reglamentariamente se determine.</p>
+          <p class="parrafo_2">4. La organización y funcionamiento del Registro de Entidades de Voluntariado del Principado de Asturias se regulará reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Medidas de fomento</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 15. Subvenciones.</p>
+          <p class="parrafo_2">1. Las Consejerías con competencias en las áreas de actuación previstas en el artículo 4 de esta Ley podrán ofertar y subvencionar la participación del voluntariado en programas de actuación en actividades de carácter cívico o social.</p>
+          <p class="parrafo">2. Dichas subvenciones sólo podrán tener por beneficiario a las entidades inscritas en el Registro de Entidades de Voluntariado del Principado de Asturias.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 16. Campañas de información y participación.</p>
+          <p class="parrafo_2">1. El Principado de Asturias fomentará las campañas de información dirigidas a la opinión pública, con el fin de facilitar la participación ciudadana, la captación de nuevos voluntarios y el apoyo económico. Además, promoverá, con la participación de las entidades de voluntariado, la organización de cursos de formación para el voluntariado.</p>
+          <p class="parrafo">2. El Principado de Asturias impulsará la participación de los ciudadanos y potenciará la integración de las entidades de voluntariado en programas o proyectos de ámbito superior al regional, promoviendo y favoreciendo la colaboración y el trabajo conjunto de una o varias entidades.</p>
+          <p class="parrafo">3. Las Entidades Locales podrán promover iniciativas de voluntariado en beneficio de la comunidad para fomentar la participación ciudadana, en las que el Principado de Asturias podrá participar mediante subvenciones que contribuyan a financiar dichas iniciativas.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Consejo del Voluntariado del Principado de Asturias</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 17. Objeto.</p>
+          <p class="parrafo_2">Se crea, como órgano de asesoramiento y participación, el Consejo del Voluntariado del Principado de Asturias, adscrito a la Consejería con competencias en materia de asistencia y bienestar social, cuyo objeto será promover y proteger el voluntariado, velar por la coordinación de los programas y la calidad de las prestaciones que ofrece, así como asesorar e informar sobre asuntos relacionados con el desarrollo de lo contemplado en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 18. Funciones.</p>
+          <p class="parrafo_2">Son funciones del Consejo:</p>
+          <p class="parrafo_2">a)	Informar preceptivamente los anteproyectos y proyectos de disposiciones normativas de carácter general que afecten directamente al voluntariado. Reglamentariamente se determinarán el plazo y forma de emisión de dicho informe.</p>
+          <p class="parrafo">b)	Informar preceptivamente el Plan Regional del Voluntariado.</p>
+          <p class="parrafo">c)	Proponer los criterios y prioridades que deben regir la actividad del voluntariado.</p>
+          <p class="parrafo">d)	Analizar las necesidades básicas del voluntariado.</p>
+          <p class="parrafo">e)	Elevar propuestas en relación con los distintos campos en los que se desarrolla la actividad voluntaria y proponer los criterios que pudieran considerarse preferentes para subvencionar la actividad de los programas de voluntariado.</p>
+          <p class="parrafo">f)	Elevar propuestas a las Administraciones Públicas sobre medidas de fomento del voluntariado.</p>
+          <p class="parrafo">g)	Aprobar la memoria anual de sus actividades.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 19. Composición.</p>
+          <p class="parrafo_2">1. El Consejo, presidido por el titular de la Consejería a la que está adscrito, estará integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">a)	Siete representantes de la Administración del Principado de Asturias nombrados por el Consejo de Gobierno, que deberán ostentar la condición de alto cargo y desempeñar sus funciones en el ámbito de las actividades de interés general referidas en el artículo 4.</p>
+          <p class="parrafo">b)	Un representante de cada uno de los Grupos Parlamentarios de la Junta General del Principado.</p>
+          <p class="parrafo">c)	Tres representantes designados por la Federación Asturiana de Concejos.</p>
+          <p class="parrafo">d)	Ocho representantes de las entidades de voluntariado elegidas de entre las que estén inscritas en el Registro de Entidades de Voluntariado del Principado de Asturias.</p>
+          <p class="parrafo">e)	Dos representantes de las organizaciones sindicales más representativas de la Comunidad Autónoma, según se establece en la legislación vigente, en proporción a la representación que ostenten.</p>
+          <p class="parrafo">f)	Dos representantes de las organizaciones empresariales intersectoriales de ámbito territorial en toda la Comunidad Autónoma, en proporción a la representación que ostenten.</p>
+          <p class="parrafo">g)	Un representante designado por el Consejo de la Juventud.</p>
+          <p class="parrafo_2">2. La Secretaría del Consejo, con voz pero sin voto, será desempeñada por un funcionario designado por el Presidente del Consejo. Además de las funciones habituales inherentes a su condición de Secretario, le corresponderá impulsar y coordinar la ejecución de los acuerdos y actividades organizadas por el Consejo y auxiliar al Presidente en el desarrollo de sus funciones.</p>
+          <p class="parrafo">3. La Presidencia del Consejo del Voluntariado podrá recabar la participación, en sus sesiones, de personas especializadas en los temas que fuesen objeto de tratamiento en las mismas, que asistirán con voz pero sin voto.</p>
+          <p class="parrafo">4. Los miembros del Consejo que no ostenten la representación de la Administración del Principado de Asturias serán nombrados por resolución del titular de la Consejería competente en materia de asistencia y bienestar social a propuesta de las entidades u organizaciones a las que vayan a representar, que podrán proponer también suplentes, así como efectuar sustituciones de los designados a lo largo del mandato.</p>
+          <p class="parrafo">Su mandato tendrá una duración de cuatro años, renovable por períodos de igual duración, que comenzará a computarse desde el día de la publicación en el «Boletín Oficial del Principado de Asturias».</p>
+          <p class="parrafo">5. El Consejo del Voluntariado del Principado de Asturias, una vez constituido, elaborará y aprobará su propio Reglamento de Organización y Funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 20. Comisiones.</p>
+          <p class="parrafo_2">1. En el seno del Consejo existirán Comisiones para el estudio y seguimiento de materias o asuntos concretos o para dar respuesta inmediata a situaciones imprevistas que necesiten una intervención urgente por parte del Consejo.</p>
+          <p class="parrafo">2. Existirán las siguientes Comisiones, sin perjuicio de la facultad del Consejo de constituir otras sobre aquellas materias que considere oportunas:</p>
+          <p class="parrafo_2">a) Asuntos Sociales y Salud.</p>
+          <p class="parrafo">b) Educación y Cultura.</p>
+          <p class="parrafo">c) Protección Civil y Medio Ambiente.</p>
+          <p class="parrafo">d) Cooperación Internacional.</p>
+          <p class="parrafo_2">3. La composición, organización y funcionamiento de las Comisiones vendrá regulada en el Reglamento de Organización y Funcionamiento del Consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Financiación</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 21. Recursos y financiación.</p>
+          <p class="parrafo_2">1. Las entidades de voluntariado se financiarán con los siguientes recursos:</p>
+          <p class="parrafo_2">a) Aportaciones económicas que reciban con cargo a los presupuestos de cualquiera de las Administraciones Públicas.</p>
+          <p class="parrafo">b) Adquisiciones a título gratuito de bienes o derechos, susceptibles de valoración económica, o aportaciones económicas voluntarias.</p>
+          <p class="parrafo">c) Rendimientos de cualquier naturaleza derivados de su patrimonio.</p>
+          <p class="parrafo">d) Ingresos obtenidos por actividades secundarias de carácter comercial, subastas y juegos de azar, siempre que estén autorizados para ello.</p>
+          <p class="parrafo">e) Cualesquiera otros que puedan establecerse.</p>
+          <p class="parrafo_2">2. Todos los recursos indicados en el número anterior constituyen el patrimonio de las entidades de voluntariado.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Plan Regional del Voluntariado</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Artículo 22. Plan Regional del Voluntariado.</p>
+          <p class="parrafo_2">Para el cumplimiento de los objetivos previstos en la presente Ley, el Consejo de Gobierno aprobará el Plan Regional del Voluntariado, que tendrán una vigencia de cuatro años y contendrá como directrices:</p>
+          <p class="parrafo_2">a) El fomento de la solidaridad en el seno de la sociedad civil.</p>
+          <p class="parrafo">b) El apoyo a las iniciativas de las distintas Administraciones Públicas en sus distintos niveles y de las entidades de voluntariado.</p>
+          <p class="parrafo">c) La potenciación de nuevas entidades de voluntariado y de las ya existentes.</p>
+          <p class="parrafo">d) La promoción de actividades formativas básicas y específicas que permitan el mejor desarrollo de las acciones de los voluntarios.</p>
+          <p class="parrafo">e) El establecimiento de medidas destinadas a lograr un mayor reconocimiento social de la figura del voluntario.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Disposición adicional.</p>
+          <p class="parrafo_2">La colaboración del voluntario con la Administración Pública no supondrá la existencia de vínculo laboral, administrativo o mercantil alguno, se ajustará a lo dispuesto en esta Ley y se desarrollará siempre a través de entidades de voluntariado.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo_2">Hasta tanto no se apruebe el Reglamento por el que se regule el Registro de Entidades de Voluntariado, las organizaciones y entidades de voluntariado continuarán inscribiéndose en los Registros existentes.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo_2">Las organizaciones y entidades de voluntariado deberán adaptar sus Estatutos a las revisiones de la presente Ley en el plazo máximo de un año desde su entrada en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo_2">Para la constitución del Consejo del Voluntariado del Principado de Asturias, la designación de los representantes de las entidades de voluntariado podrá realizarse por las organizaciones y entidades aun cuando no estén inscritas en el Registro de Entidades de Voluntariado del Principado de Asturias.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo_2">El Consejo de Gobierno del Principado de Asturias queda facultado para desarrollar reglamentariamente la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo_2">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Principado de Asturias».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2002-549" fecha_publicacion="20011116" fecha_vigencia="20011117">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a quienes sea de aplicación esta Ley coadyuven a su cumplimiento, así como a todos los Tribunales y Autoridades que la guarden y la hagan guardar.</p>
+          <p class="parrafo_2">Oviedo, 12 de noviembre de 2001.</p>
+          <p class="firma_ministro">VICENTE ÁLVAREZ ARECES,</p>
+          <p class="firma_ministro">Presidente.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

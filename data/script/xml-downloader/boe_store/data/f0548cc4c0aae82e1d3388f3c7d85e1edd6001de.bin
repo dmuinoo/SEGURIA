@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T174332Z</fecha_actualizacion>
+      <identificador>BOE-A-2013-498</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8040">Comunidad Autónoma de Cantabria</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20121221</fecha_disposicion>
+      <numero_oficial>8/2012</numero_oficial>
+      <titulo>Ley 8/2012, de 21 de diciembre, de Transporte de Personas por Cable.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20130119</fecha_publicacion>
+      <diario_numero>17</diario_numero>
+      <fecha_vigencia>20121229</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-cb/l/2012/12/21/8</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2013-498</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="603">Cantabria</materia>
+        <materia codigo="6928">Transporte de viajeros</materia>
+        <materia codigo="6930">Transporte por cable</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOCT extraordinario núm. 53, de 28 de diciembre de 2012.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-635</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 15.2 del Estatuto aprobado por Ley Orgánica 8/1981, de 30 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-498</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-21</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6928"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6930"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-498</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6928"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6930"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/con/20121228"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/2012, de 21 de diciembre, de Transporte de Personas por Cable.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/con/20121228">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-498</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6928"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6930"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/con/20121228/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/2012, de 21 de diciembre, de Transporte de Personas por Cable.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/con/20121228"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2012/12/21/8/con/20121228/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2012/12/21/8/con/20121228/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="parrafo">Conózcase que el Parlamento de Cantabria ha aprobado y yo, en nombre de Su Majestad el Rey, de acuerdo con lo dispuesto en el artículo 15.2.º del Estatuto de Autonomía para Cantabria, promulgo la siguiente Ley de Cantabria 8/2012, de 21 de diciembre, de Transporte de Personal por Cable.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El transporte por cable ha tenido tradicionalmente en Cantabria una gran relevancia debido a la estación de esquí de Alto Campoo y, sobre todo, al teleférico de Fuente Dé.</p>
+          <p class="parrafo">La estación de Alto Campoo dispone de cinco telesillas y siete telesquís. El teleférico de Fuente Dé es una singular obra de ingeniería, que salva un desnivel de 750 metros, sin apoyos intermedios.</p>
+          <p class="parrafo">Son utilizadas por un número creciente de personas y constituyen elementos fundamentales de las zonas donde están enclavadas.</p>
+          <p class="parrafo">El transporte por cable se rige en la actualidad por la Ley 16/1987, de 30 de julio, de Ordenación de los Transportes Terrestres y, fundamentalmente, por la Ley 4/1964, de 29 de abril, sobre Concesión de Teleféricos.</p>
+          <p class="parrafo">Esta norma ha demostrado su utilidad a lo largo de un dilatado periodo de tiempo. Sin embargo, las innovaciones tecnológicas y la conveniencia de dar un nuevo impulso a estas instalaciones con objeto de favorecer este modo de transporte y a la vez contribuir al desarrollo socio-económico, aconsejan agilizar el procedimiento y dar un tratamiento diferenciado según que tengan la condición de servicio público o que no la posean.</p>
+          <p class="parrafo">El Estatuto de Autonomía para Cantabria, aprobado por Ley Orgánica 8/1981, de 30 de diciembre, en su artículo 24.6, otorgó a la Comunidad Autónoma la competencia exclusiva sobre el transporte por cable que transcurra íntegramente dentro de su territorio.</p>
+          <p class="parrafo">Este es el marco que ampara la elaboración de la presente Ley.</p>
+          <p class="parrafo">La Ley consta de cuatro capítulos que regulan los requisitos que deben cumplirse para el proyecto, construcción, puesta en servicio y explotación de las instalaciones de transporte por cable.</p>
+          <p class="parrafo">En el capítulo I «Disposiciones Generales» se regula el objeto, ámbito de aplicación, objetivos específicos, competencias administrativas, adecuación a la legislación sectorial, seguridad de las instalaciones, zona de influencia, derechos y obligaciones de los usuarios y, finalmente, se clasifican las instalaciones de transporte en dos grandes grupos, las que tienen la consideración de servicio público y las que no.</p>
+          <p class="parrafo">El capítulo II, bajo el epígrafe «Régimen administrativo de Instalación y Explotación» está dividido en tres secciones. La sección 1.ª regula las instalaciones de transporte público que tienen la condición de servicio público, determinando el procedimiento para su establecimiento y puesta en servicio, así como el régimen de explotación, y remitiéndose en cuanto al régimen jurídico del contrato a lo dispuesto en la legislación reguladora de la contratación del sector público. La Sección 2.ª, sobre las instalaciones de transporte público que no tienen la condición de servicio público, regula su establecimiento y explotación, que estará sometida al otorgamiento de autorización administrativa previa. La Sección 3.ª regula las instalaciones de transporte privado, remitiéndose al procedimiento establecido en la sección anterior, con las variaciones pertinentes. Por otra parte, la entidad de los proyectos de instalaciones de transporte de personas por cable y las implicaciones ambientales y de seguridad que conllevan justifica que el silencio en la resolución de las solicitudes de aprobación de los proyectos tenga efectos desestimatorios.</p>
+          <p class="parrafo">El capítulo III sobre «Inspección y control de las Instalaciones» regula el régimen de inspección, que será ejercido por los órganos administrativos competentes según lo dispuesto en el artículo 4 de la Ley, con objeto de garantizar que las instalaciones mantengan las condiciones de seguridad exigibles, así como controlar las condiciones de explotación del servicio por parte de la entidad prestataria.</p>
+          <p class="parrafo">El capítulo IV recoge las infracciones a la ley, su tipificación, el procedimiento administrativo para determinar la exigencia de responsabilidad y las sanciones que en su caso puedan imponerse.</p>
+          <p class="parrafo">Por último, en la parte final de la Ley se recogen una disposición adicional, dos disposiciones transitorias, una disposición derogatoria y dos disposiciones finales.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La presente Ley tiene por objeto regular el proyecto, construcción, puesta en servicio y explotación de las instalaciones de transporte de personas por cable que discurran íntegramente por el territorio de la Comunidad Autónoma de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">1. Quedan incluidos dentro del ámbito de aplicación de la presente Ley las siguientes instalaciones:</p>
+          <p class="parrafo_2">a) Los funiculares, cuyos vehículos se desplazan sobre ruedas u otros dispositivos de sustentación a través de un camino fijo de rodadura mediante tracción de uno o más cables.</p>
+          <p class="parrafo">b) Los teleféricos, cuyos vehículos son desplazados o movidos en suspensión por uno o más cables, incluidos las telecabinas y los telesillas.</p>
+          <p class="parrafo">c) Los telesquís que, por medio de un cable, arrastran a los usuarios sobre una superficie.</p>
+          <p class="parrafo_2">2. Quedan excluidos del ámbito de aplicación de la presente Ley:</p>
+          <p class="parrafo_2">a) Los ascensores definidos por la Directiva 95/16/CE del Parlamento Europeo y del Consejo de 29 de junio de 1995, sobre la aproximación de las legislaciones de los Estados miembros relativos a los ascensores.</p>
+          <p class="parrafo">b) Los tranvías de tipo convencional o ferrocarriles metropolitanos con tracción por cable.</p>
+          <p class="parrafo">c) Las instalaciones utilizadas con fines agrícolas.</p>
+          <p class="parrafo">d) Las instalaciones específicas para ferias, fijas o móviles, y las de los parques de atracciones, destinadas al ocio y que no se utilicen como medios de transporte de personas.</p>
+          <p class="parrafo">e) Las instalaciones mineras y las instalaciones implantadas y utilizadas con fines industriales.</p>
+          <p class="parrafo">f) Las embarcaciones con tracción por cable.</p>
+          <p class="parrafo">g) Los ferrocarriles de cremallera.</p>
+          <p class="parrafo">h) Las instalaciones accionadas por medio de cadenas.</p>
+          <p class="parrafo_2">3. Las instalaciones que exclusivamente se destinen al transporte de mercancías por cable se regirán por su normativa específica, sin perjuicio de que les sea aplicable esta Ley con carácter supletorio.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 3. Objetivos.</p>
+          <p class="parrafo">Son objetivos específicos de la presente Ley:</p>
+          <p class="parrafo_2">a) Garantizar el más alto nivel de seguridad de las instalaciones de transporte por cable.</p>
+          <p class="parrafo">b) Hacer compatible la construcción y la explotación de las instalaciones de transporte por cable, incluidos los vehículos, con el respeto al medio ambiente.</p>
+          <p class="parrafo">c) Proteger los derechos de los usuarios de las instalaciones de transporte por cable.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 4. Competencias administrativas.</p>
+          <p class="parrafo">El ejercicio de las competencias administrativas derivadas de la presente Ley se realizará a través de la Consejería competente en materia de transportes.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 5. Adecuación a la legislación sectorial.</p>
+          <p class="parrafo">La construcción, puesta en servicio y explotación de las instalaciones de transporte por cable deberán cumplir, además de lo dispuesto en la presente Ley, todas las obligaciones que deriven de las disposiciones vigentes en materia de construcción y edificación, instalación y funcionamiento de maquinaria, seguridad, sistemas de prevención de incendios, medio ambiente y accesibilidad, así como de cualesquiera otras disposiciones de carácter sectorial que les afecten.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 6. Seguridad de las instalaciones y de los usuarios.</p>
+          <p class="parrafo">1. Las instalaciones de transporte por cable y su infraestructura, los subsistemas y los constituyentes de seguridad han de garantizar la seguridad de las personas. Con esta finalidad, su construcción y explotación han de ajustarse a las especificaciones técnicas prescritas por la normativa de la Unión Europea y el resto de las normas que les sean aplicables.</p>
+          <p class="parrafo">2. La persona física o jurídica que explote una instalación de transporte por cable, para garantizar la seguridad de la misma, deberá acreditar anualmente ante la inspección que la instalación ha superado los controles y revisiones preceptivos.</p>
+          <p class="parrafo">3. Las instalaciones de transporte por cable han de adecuar los elementos y las medidas de seguridad a las normas que se aprueben como consecuencia de la evolución de los conocimientos y la técnica en esta materia. Con esta finalidad, el personal técnico de la Consejería competente en materia de transportes podrá requerir a las personas físicas o jurídicas que explotan las instalaciones que lleven a cabo las mejoras, modificaciones, revisiones y ensayos que se consideren necesarios.</p>
+          <p class="parrafo">4. Las empresas explotadoras de las instalaciones de transporte por cable han de comunicar cualquier accidente o incidente que se produzca en relación con dichas instalaciones, sin perjuicio de las obligaciones de información que en su caso puedan exigirles el resto de Administraciones competentes.</p>
+          <p class="parrafo">5. Asimismo se exigirá la presentación de un plan de autoprotección y evacuación que garantice el control de todos los riesgos creados por la actividad, prevea las emergencias que pueden producirse, así como las medidas que hayan de tomarse en estas situaciones, todo ello de acuerdo con lo dispuesto en la legislación de protección civil y gestión de emergencias.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 7. Zona de influencia.</p>
+          <p class="parrafo">1. El proyecto de las instalaciones de transporte por cable ha de delimitar una zona de influencia de la instalación para garantizar la seguridad de los usuarios y de terceras personas. Esta zona de influencia deberá, asimismo, garantizar la funcionalidad de la instalación.</p>
+          <p class="parrafo">2. Se entiende por zona de influencia, a los efectos de lo que establece el apartado 1, la superficie que ocupa la instalación cuando está en funcionamiento incluyendo las distancias de seguridad obligatorias a tenor de lo dispuesto en la normativa técnica aplicable.</p>
+          <p class="parrafo">3. La zona de influencia quedará sujeta a servidumbre legal de construcción y conservación de la instalación y de salvamento de personas.</p>
+          <p class="parrafo">4. La ejecución de obras en terrenos situados en la zona de influencia de una instalación de transporte por cable que puedan afectar a la explotación de la instalación requiere la autorización previa de la Dirección General competente en materia de transportes. Dicha autorización será denegada si la obra supone un riesgo para la seguridad de la instalación o de los usuarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 8. Derechos de los usuarios.</p>
+          <p class="parrafo">1. Los usuarios de las instalaciones de transporte por cable gozan de los derechos contemplados en la legislación sobre consumidores y usuarios. En este sentido tienen derecho, una vez adquirido el correspondiente título de transporte, a utilizar las instalaciones de transporte por cable, de acuerdo con las tarifas existentes.</p>
+          <p class="parrafo">2. La persona titular de la explotación de transporte por cable deberá tener a disposición de los usuarios de los servicios un libro u hojas de reclamaciones editado con arreglo al modelo establecido por la normativa vigente. La existencia de «Hojas de Reclamaciones» se anunciará en un lugar visible y de fácil lectura para los usuarios.</p>
+          <p class="parrafo">3. La persona titular de la instalación de transporte público por cable deberá adoptar las medidas necesarias para garantizar el acceso a la misma a las personas con movilidad reducida, de acuerdo con la normativa específica sobre esta materia.</p>
+          <p class="parrafo">4. Las controversias que puedan plantearse entre los usuarios y la empresa explotadora de una instalación de transporte por cable en relación con la prestación del servicio ha de someterse a la Junta Arbitral del Transporte de Cantabria, que se rige por sus propias normas de funcionamiento y, en la cual, en todo caso, ha de haber representantes de la Administración, de los titulares de las instalaciones de transporte por cable y de los usuarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 9. Obligaciones de los usuarios.</p>
+          <p class="parrafo">Los usuarios de los servicios de transporte por cable deberán cumplir las siguientes obligaciones:</p>
+          <p class="parrafo_2">a) Ir provistos del título de transporte debidamente validado, que deberán conservar mientras estén en el interior de las instalaciones y exhibir, cuando así lo solicite, al personal autorizado debidamente acreditado.</p>
+          <p class="parrafo">b) Asumir, desde la adquisición del título de transporte, la obligación de respetar las normas de uso de la instalación aprobadas por la Administración, las cuales estarán expuestas al público en lugar visible.</p>
+          <p class="parrafo">c) Mantener un comportamiento correcto y respetuoso con los demás usuarios y con el personal del servicio, así como evitar las acciones que puedan implicar un deterioro o un maltrato de las instalaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 10. Clasificación de las instalaciones.</p>
+          <p class="parrafo">1. Las instalaciones de transporte por cable pueden ser de transporte público o privado:</p>
+          <p class="parrafo_2">a) Son instalaciones de transporte público por cable las destinadas a la actividad de transporte por cuenta ajena mediante retribución económica.</p>
+          <p class="parrafo">b) Son instalaciones de transporte privado por cable las destinadas al transporte por cuenta propia, bien para satisfacer necesidades de uso particular, bien como complemento de otras actividades principales efectuadas por las personas titulares de la instalación.</p>
+          <p class="parrafo_2">2. Las instalaciones de transporte público por cable, por la naturaleza del servicio que prestan, pueden ser:</p>
+          <p class="parrafo_2">a) Instalaciones de servicio público, que son aquellas destinadas a satisfacer las necesidades de desplazamiento de las personas, garantizándoles el derecho a la movilidad, y que prestan el servicio de forma continuada, con sujeción a los calendarios y, en su caso, tarifas y horarios aprobados por la Administración competente.</p>
+          <p class="parrafo">b) Instalaciones que no tienen la consideración de servicio público, que son las instalaciones destinadas de manera habitual a transportar personas para practicar una actividad deportiva, turística o de ocio.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Régimen administrativo de instalación y explotación</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="seccion">Sección 1.ª Instalaciones de transporte público de personas por cable consideradas de servicio público</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 11. Inicio del procedimiento.</p>
+          <p class="parrafo">1. La iniciativa para el establecimiento de instalaciones de transporte público por cable que, de acuerdo con el artículo 10, tengan la consideración de servicio público, puede corresponder a las Administraciones Públicas competentes o a cualquier persona física o jurídica que acredite disponer de la suficiente capacidad legal, técnica y económica, en los supuestos establecidos en la legislación sobre contratación del sector público. En cualquier caso, la titularidad de estas instalaciones será necesariamente pública.</p>
+          <p class="parrafo">2. La tramitación del establecimiento y puesta en servicio de las instalaciones a que se refiere el apartado 1 requerirá disponer previamente de la aprobación del correspondiente proyecto, según el procedimiento regulado en esta sección.</p>
+          <p class="parrafo">3. La tramitación de modificaciones sustanciales de las instalaciones a las que se refiere el apartado 1 requerirá el mismo procedimiento que su establecimiento y puesta en servicio. Para el resto de modificaciones se requerirá la comunicación previa a la Administración competente, que deberá responder en el plazo de dos meses en el caso de que apreciara algún inconveniente.</p>
+          <p class="parrafo">En todo caso se considerará modificación sustancial la alteración de las características, subsistemas o constituyentes de seguridad significativos de la citadas instalaciones, de acuerdo con lo dispuesto en la normativa vigente sobre instalaciones de transporte de personas por cable.</p>
+          <p class="parrafo">4. Las personas o entidades que deseen promover la iniciación del procedimiento deberán presentar la correspondiente solicitud ante la Administración competente. La solicitud de iniciación deberá reunir los requisitos establecidos en la legislación vigente y deberá ir acompañada del proyecto correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 12. Proyecto.</p>
+          <p class="parrafo">El proyecto para el establecimiento de instalaciones de transporte público por cable consideradas de servicio público ha de incluir una memoria descriptiva de las necesidades a satisfacer por la instalación, y como mínimo, la documentación siguiente:</p>
+          <p class="parrafo_2">a) Estudio de integración paisajística de las instalaciones.</p>
+          <p class="parrafo">b) Informe sobre la adecuación de las instalaciones a las determinaciones urbanísticas vigentes.</p>
+          <p class="parrafo">c) Proyecto constructivo redactado por facultativo competente.</p>
+          <p class="parrafo">d) Definición del ámbito y características de la zona de influencia y su titularidad.</p>
+          <p class="parrafo">e) El análisis e informe de seguridad.</p>
+          <p class="parrafo">f) El estudio económico justificativo de la inversión y las tarifas que en consecuencia se proponen.</p>
+          <p class="parrafo">g) El estudio de impacto ambiental, si procede de acuerdo con lo previsto en la legislación aplicable.</p>
+          <p class="parrafo">h) La propuesta del reglamento de explotación, que ha de incluir el plan de autoprotección para situaciones de emergencia y el plan de evacuación de la instalación.</p>
+          <p class="parrafo">i) Relación completa e individualizada de los bienes y derechos que sean necesarios adquirir u ocupar a efectos de expropiación forzosa.</p>
+          <p class="parrafo">j) El resto de documentación que pudiera determinarse reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 13. Información pública.</p>
+          <p class="parrafo">1. El proyecto se someterá a un período de información pública por el plazo mínimo de quince días y máximo de un mes. En los supuestos en los que la evaluación de impacto ambiental sea preceptiva, se someterá a información pública el proyecto y el estudio de impacto ambiental.</p>
+          <p class="parrafo">2. Simultáneamente a dicho período de información pública, se someterá el proyecto al informe de los entes locales competentes en el ámbito territorial en el que se proyecta construir la instalación, del órgano competente en materia de protección civil en relación con el plan para situaciones de emergencia y de las demás entidades o Administraciones Públicas que puedan estar afectadas por la instalación. Si en el plazo de un mes no se han recibido los informes solicitados, podrá continuarse la tramitación del procedimiento.</p>
+          <p class="parrafo">3. La evaluación del impacto ambiental del proyecto de instalación se formulará, en los casos que sea preceptiva, con arreglo al procedimiento establecido en la normativa medioambiental de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 14. Aprobación del proyecto y declaración de utilidad pública.</p>
+          <p class="parrafo">1. El titular de la Consejería competente en materia de transportes resolverá sobre la aprobación del proyecto a que se refiere el artículo 12 en el plazo máximo de seis meses desde su presentación. La falta de resolución expresa dentro del plazo indicado tendrá efectos desestimatorios.</p>
+          <p class="parrafo">La resolución de aprobación del proyecto que en su caso se dicte implica la declaración de utilidad pública o interés social, la necesidad de ocupación, a efectos de la expropiación forzosa, la ocupación temporal y la imposición o modificación de servidumbres, si fuesen necesarias, con arreglo a lo previsto en la legislación sobre expropiación forzosa. A tales efectos, el proyecto debe incluir la relación completa e individualizada de los bienes y los derechos no integrantes del dominio público que sea necesario adquirir u ocupar para ejecutarlo.</p>
+          <p class="parrafo">2. Los terrenos afectados por el trazado de una instalación de transporte público que no hayan de ser expropiados quedan sujetos a una servidumbre legal de construcción, conservación y de salvamento. La extensión de la zona que ha de soportar la servidumbre será sólo la imprescindible, considerando la naturaleza de la instalación y la configuración de los terrenos. Los propietarios de los terrenos afectados por la servidumbre tienen derecho a ser indemnizados por el titular de la explotación de la instalación, por los daños que se les pudiera irrogar, así como por el menoscabo de los derechos afectados por la servidumbre.</p>
+          <p class="parrafo">3. La aprobación del proyecto implica también la declaración de interés público a los efectos de las autorizaciones urbanísticas en suelo rústico que fueran necesarias.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 15. Construcción y explotación.</p>
+          <p class="parrafo">1. La construcción o explotación de las instalaciones de transporte por cable de servicio público podrá realizarse directamente por la Administración o indirectamente a través de las personas a las que se le haya adjudicado el correspondiente contrato.</p>
+          <p class="parrafo">2. La adjudicación de los contratos relativos a la construcción o explotación de las instalaciones de transporte por cable de servicio público debe efectuarse por parte de la Administración competente para su establecimiento y gestión, con arreglo a los procedimientos y a las formas de adjudicación que determina la legislación sobre contratación del sector público.</p>
+          <p class="parrafo">3. Los contratos para la construcción o explotación de las instalaciones de transporte por cable de servicio público podrá adoptar cualesquiera de las modalidades establecidas en la legislación sobre contratación del sector público.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 16. Condiciones de los contratos.</p>
+          <p class="parrafo">1. Los contratos, tanto si son de construcción y explotación como si son sólo de explotación de instalaciones de transporte por cable, han de fijar las condiciones que rigen la contratación y los derechos y las obligaciones de las partes, aplicándose, en cualquier caso, lo que establece la legislación sobre contratación del sector público.</p>
+          <p class="parrafo">2. El pliego de cláusulas de los contratos a que se refiere el apartado 1 ha de fijar la retribución económica del contratista, cuyo equilibrio debe mantenerse durante la vida del contrato. La retribución económica será calculada de modo que permita, mediante una buena y ordenada administración, amortizar el costo del establecimiento del servicio, cubrir los gastos de explotación y un normal margen de beneficio industrial.</p>
+          <p class="parrafo">3. El contratista tiene derecho a las contraprestaciones económicas previstas en el contrato, entre las que se incluirán las tarifas a cargo del usuario, pudiendo la Administración competente autorizar la revisión de estas tarifas si la evolución de los costes alterase el equilibrio económico del contrato. Asimismo, el contratista podría venir obligado al pago de un canon a la Administración, como compensación de los gastos de construcción, en el caso de que así se estableciera expresamente en el contrato.</p>
+          <p class="parrafo">4. El funcionamiento de las instalaciones de transporte público por cable consideradas de servicio público ha de ser objeto de regulación mediante un reglamento de explotación específico para cada instalación, aprobado por la Dirección General competente en materia de transportes.</p>
+          <p class="parrafo">5. Los contratos suscritos para la construcción o explotación de las instalaciones de transporte por cable no podrán ser transmitidos sin autorización previa y expresa de la Administración competente, con sujeción a lo establecido en la legislación sobre contratación del sector público.</p>
+          <p class="parrafo">6. Las instalaciones de transporte público por cable consideradas de servicio público son inembargables.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 17. Vigencia de los contratos.</p>
+          <p class="parrafo">1. La explotación de instalaciones de transporte por cable consideradas de servicio público tiene en todo caso carácter temporal, debiendo fijarse en el contrato su plazo de duración, en función de los plazos de amortización previstos en el proyecto y aprobados por la Administración competente, que en ningún caso podrá exceder del plazo máximo fijado por la legislación sobre contratación del sector público.</p>
+          <p class="parrafo">2. Los contratos podrán ser prorrogados en los casos establecidos en la legislación sobre contratación del sector público, no pudiendo contravenirse el plazo máximo fijado en el apartado 1 de este artículo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 18. Causas de extinción de los contratos.</p>
+          <p class="parrafo">1. Son causas de extinción de los contratos relativos a la construcción y a la explotación de las instalaciones de transporte por cable consideradas de servicio público, además de los supuestos establecidos en la legislación sobre contratación del sector público, la finalización del plazo inicialmente establecido o, en su caso, el resultante de la prórroga acordada conforme a lo dispuesto en el artículo 17, así como la resolución del contrato.</p>
+          <p class="parrafo">2. En caso de interrupción del servicio o de riesgo inminente de tal situación, así como de un incumplimiento del contratista, la Administración competente sobre el citado servicio podrá adoptar una medida de emergencia en forma de adjudicación directa o de acuerdo formal de prórroga del contrato, o de exigencia de prestar determinadas obligaciones de servicio público. El contratista de servicio público tendrá derecho a recurrir la decisión de imponer la prestación de determinadas obligaciones de servicio público. La adjudicación o prórroga de un contrato de servicio público como medida de emergencia, o la imposición de dichas obligaciones de servicio público no excederá de dos años.</p>
+          <p class="parrafo">No obstante, cuando el contratista hubiera cumplido satisfactoriamente sus obligaciones, y así estuviera expresamente previsto en el pliego de cláusulas administrativas del contrato, la Administración contratante podrá decidir su renovación, realizando las modificaciones en las condiciones de prestación que resulten convenientes para el interés público, sin que en ningún caso el nuevo plazo pueda exceder del plazo máximo fijado por la legislación sobre contratación del sector público.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 19. Causas de resolución.</p>
+          <p class="parrafo">Son causas de resolución de los contratos relativos a la construcción o explotación de las instalaciones de transporte por cable, las establecidas en la legislación de contratación del sector público.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 20. Efectos de la resolución.</p>
+          <p class="parrafo">Respecto a los efectos de la resolución de los contratos, se estará a lo dispuesto en la legislación de contratación del sector público.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="seccion">Sección 2.ª Instalaciones de transporte público de personas por cable no consideradas de servicio público</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 21. Procedimiento y documentación.</p>
+          <p class="parrafo">1. La construcción y la explotación de instalaciones de transporte público por cable que, de acuerdo con el artículo 10, no tengan la consideración de servicio público, requieren la aprobación del proyecto correspondiente y el otorgamiento de la autorización administrativa de explotación, según el procedimiento establecido por la presente Ley.</p>
+          <p class="parrafo">2. La iniciativa para el establecimiento de las instalaciones de transporte público por cable que no tengan la consideración de servicio público puede corresponder a las Administraciones Públicas o a cualquier persona física o jurídica que acredite disponer de la suficiente capacidad legal, técnica y económica.</p>
+          <p class="parrafo">3. Las personas o entidades que deseen iniciar el procedimiento deben presentar la correspondiente solicitud acompañada de un proyecto que ha de incluir la siguiente documentación:</p>
+          <p class="parrafo_2">a) Acreditación de la capacidad legal, técnica y económica del promotor.</p>
+          <p class="parrafo">b) Memoria justificativa del interés y conveniencia de la instalación.</p>
+          <p class="parrafo">c) Proyecto constructivo de la instalación, redactado por facultativo competente.</p>
+          <p class="parrafo">d) Propuesta de reglamento de explotación, que ha de incluir el plan de autoprotección para situaciones de emergencia y el plan de evacuación.</p>
+          <p class="parrafo">e) Estudio de impacto ambiental, si procede de acuerdo con la legislación aplicable.</p>
+          <p class="parrafo">f) Memoria económica y tarifas que se proponen para el uso de la instalación, salvo que el precio incluya, además del servicio de transporte, otras prestaciones complementarias, en cuyo caso deberá desglosarse la parte correspondiente al propio servicio de transporte.</p>
+          <p class="parrafo">g) Análisis de seguridad y el informe de seguridad correspondiente.</p>
+          <p class="parrafo">h) Estudio de integración paisajística de las instalaciones.</p>
+          <p class="parrafo">i) Informe de adecuación de instalaciones a las determinaciones urbanísticas vigentes en el municipio.</p>
+          <p class="parrafo">j) Cualquier otra documentación que se pudiera determinar reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 22. Información pública.</p>
+          <p class="parrafo">1. El proyecto se someterá a un período de información pública por el plazo mínimo de quince días y máximo de un mes. En los supuestos en los que la evaluación de impacto ambiental sea preceptiva, se someterá a información pública el proyecto y el estudio de impacto ambiental.</p>
+          <p class="parrafo">2. Simultáneamente a dicho período de información pública, se someterá a informe de los entes locales competentes en el ámbito territorial en el que se proyecta construir la instalación, del órgano competente en materia de protección civil en relación con el plan para situaciones de emergencia y de las demás entidades o Administraciones Públicas que puedan estar afectadas por la instalación. Si en el plazo de un mes no se han recibido los informes solicitados, podrá continuarse la tramitación del procedimiento.</p>
+          <p class="parrafo">3. La evaluación del impacto ambiental del proyecto de instalación se tramitará, en los casos que sea preceptiva, con arreglo al procedimiento establecido en la normativa medioambiental de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 23. Aprobación del proyecto.</p>
+          <p class="parrafo">1. El titular de la Consejería competente en materia de transportes resolverá sobre la aprobación del proyecto en el plazo máximo de seis meses desde la presentación de la solicitud a la que se refiere el artículo 21, teniendo en cuenta el contenido de los informes emitidos y la adecuación del proyecto a la normativa aplicable. Transcurrido el citado plazo sin haberse notificado resolución expresa, la persona interesada podrá entender desestimada su solicitud.</p>
+          <p class="parrafo">La aprobación del proyecto implica la declaración de interés público a los efectos de las autorizaciones urbanísticas en suelo rústico que fueran necesarias.</p>
+          <p class="parrafo">2. La aprobación del proyecto facultará para el inicio de los trabajos de construcción de la instalación, sin perjuicio de la obligatoriedad de que el promotor disponga de los demás permisos o licencias preceptivos por parte de las demás Administraciones Públicas, y a salvo de los derechos de terceras personas.</p>
+          <p class="parrafo">3. Durante la ejecución de las obras, los servicios técnicos de la Administración tendrán la potestad de llevar a cabo las inspecciones necesarias para comprobar que las obras se desarrollan de acuerdo con el proyecto aprobado, y podrán requerir a este efecto la aportación de los documentos que consideren necesarios.</p>
+          <p class="parrafo">4. Excepcionalmente, cuando concurran circunstancias de utilidad pública o interés social, por acuerdo del Consejo de Gobierno se podrá declarar para el caso concreto la utilidad pública o interés social a los efectos de expropiación forzosa de los bienes y derechos necesarios para su establecimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 24. Autorización administrativa de explotación.</p>
+          <p class="parrafo">1. Una vez finalizadas las obras de la instalación de transporte público por cable no considerada de servicio público, el promotor ha de solicitar a la Administración competente que autorice la explotación, adjuntando a dicha solicitud, como mínimo, la siguiente documentación:</p>
+          <p class="parrafo_2">a) Certificado de fin de obra, suscrito por técnico facultativo competente, en el que se acredite su ajuste al proyecto aprobado y el cumplimiento de la reglamentación técnica aplicable. En el caso de haberse producido variaciones poco significativas en la instalación, se justificarán y documentarán en el correspondiente anexo.</p>
+          <p class="parrafo">b) Justificación de la cobertura del seguro obligatorio de viajeros y del seguro de responsabilidad civil que cubra los daños que puedan causarse con motivo del funcionamiento de la instalación.</p>
+          <p class="parrafo">c) El resto de documentación que sea determinada por reglamento, o que establezcan las normas que regulan las condiciones técnicas de la instalación.</p>
+          <p class="parrafo_2">2. El Director General competente en materia de transportes otorgará autorización administrativa de explotación, una vez que los servicios técnicos hayan comprobado la adecuación de la instalación al proyecto aprobado y hayan acreditado su correcto funcionamiento mediante el acta de reconocimiento general y de pruebas correspondientes. Si en el plazo de un mes desde la presentación de la documentación establecida en los párrafos anteriores no se ha otorgado dicha autorización mediante resolución expresa, la solicitud se entenderá estimada.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 25. Condiciones de la autorización.</p>
+          <p class="parrafo">1. Con el fin de verificar periódicamente el cumplimiento de las condiciones de seguridad, los titulares de las autorizaciones de explotación deberán acreditar, en el plazo que se estipule reglamentariamente, que se han superado las inspecciones y pruebas prescritas en la normativa técnica aplicable.</p>
+          <p class="parrafo">2. En el supuesto de que una instalación incumpla las condiciones de seguridad exigidas por las normas vigentes, se podrá suspender su explotación mientras se mantenga su incumplimiento, sin perjuicio de las responsabilidades que pudieran derivarse de este hecho. Si el incumplimiento no se corrige en el plazo estipulado, previa la tramitación del correspondiente procedimiento, se podrá revocar la autorización de explotación mediante resolución motivada.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 26. Modificación y transmisión de las instalaciones.</p>
+          <p class="parrafo">1. Cualquier modificación sustancial de una instalación de transporte público por cable no considerada de servicio público, o de las condiciones de explotación, una vez tramitado el procedimiento regulado por el presente capítulo para el establecimiento de dichas instalaciones, requiere autorización de la Administración competente. Para el resto de modificaciones podrá admitirse únicamente comunicación previa al órgano competente.</p>
+          <p class="parrafo">A estos efectos se considera modificación sustancial la alteración de características, subsistemas o constituyentes de seguridad significativos de las citadas instalaciones, de acuerdo a lo dispuesto en la normativa vigente sobre instalaciones de transporte de personas por cable.</p>
+          <p class="parrafo">2. La transmisión de la titularidad de una instalación de transporte público por cable no considerada de servicio público ha de ser autorizada mediante resolución de la Administración competente.</p>
+          <p class="parrafo">3. Todas las inversiones que se realicen quedan sometidas a la aprobación previa de la Administración competente, así como a un estudio económico de sus plazos de amortización.</p>
+          <p class="parrafo">4. La Administración competente puede imponer al explotador del servicio la realización de nuevas inversiones en material fijo o móvil, cuando el existente no cumpla las condiciones de seguridad o no sea idóneo para satisfacer las necesidades del servicio.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="seccion">Sección 3.ª Instalaciones de transporte privado</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 27. Régimen jurídico.</p>
+          <p class="parrafo">El establecimiento de instalaciones de transporte privado de personas por cable requerirá obtener con carácter previo la aprobación del proyecto y la autorización de explotación, otorgados según el procedimiento establecido en la sección 2.ª de este capítulo, con las variaciones que en su caso determinen sus especiales características.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Inspección y control de las instalaciones</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 28. Régimen de inspección.</p>
+          <p class="parrafo">1. La inspección de los servicios regulados en esta Ley será ejercida por los órganos administrativos competentes, según lo dispuesto en el artículo 4. El personal funcionario técnico o administrativo que realice funciones de inspección tendrá, en el ejercicio de las actuaciones inspectoras, la consideración de autoridad pública a todos los efectos, y gozará de plena independencia en su actuación, pudiendo solicitar, en caso de necesidad para un eficaz cumplimiento de su función, el apoyo necesario de las fuerzas y cuerpos de seguridad correspondientes.</p>
+          <p class="parrafo">2. Las personas titulares de la explotación, el personal de dichas empresas, los usuarios y, en general, quienes intervengan en la prestación de los servicios regulados en la presente Ley o estén afectados por sus preceptos, tienen la obligación de facilitar a quien tenga encomendada la función de inspección el acceso a los vehículos e instalaciones, así como a la documentación que resulte obligatoria.</p>
+          <p class="parrafo">Por lo que se refiere a los usuarios, estarán obligados a exhibir el título de transporte a requerimiento del personal de la inspección.</p>
+          <p class="parrafo">3. Los hechos constatados en las actas e informes de los servicios de inspección tendrán valor probatorio, sin perjuicio de las pruebas que en defensa de los respectivos derechos o intereses puedan señalar o aportar las personas interesadas.</p>
+          <p class="parrafo">4. Corresponde al personal que cumple tareas de inspección en materia del transporte por cable llevar a cabo las actuaciones necesarias para comprobar que en las instalaciones se hacen las revisiones y las pruebas reglamentarias, en todo aquello relativo a su conservación y mantenimiento, controlar las condiciones de explotación y la prestación de los servicios y, si procede, formular las denuncias que correspondan. En el caso de constatar la existencia de un riesgo grave e inminente para la seguridad, podrán ordenar la paralización cautelar del servicio, siendo de aplicación lo establecido en la normativa vigente respecto a la adopción excepcional de medidas cautelares.</p>
+          <p class="parrafo">5. La función inspectora a que se refiere el apartado 1 puede ejercerse de oficio o como consecuencia de una denuncia formulada por una entidad, un organismo o una persona física o jurídica.</p>
+          <p class="parrafo">6. Las potestades de policía podrán atribuirse a las empresas explotadoras del servicio público de transporte por cable, en relación con la vigilancia inmediata del cumplimiento por los usuarios y terceros en general de las normas establecidas por esta Ley y su normativa de desarrollo. El personal que desarrolle dichas funciones podrá exigir, en su caso, la responsabilidad correspondiente a quienes ofrezcan resistencia o cometan atentado contra ellos, de obra o de palabra. Dicho personal deberá remitir el informe en el que se reflejen los hechos acaecidos a la Administración competente, a efectos de incoar el correspondiente expediente sancionador.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 29. Documentación de control.</p>
+          <p class="parrafo">Las personas que realicen los servicios y actividades previstos en esta Ley deberán cumplimentar y mantener en sus instalaciones la documentación de carácter administrativo o estadístico que se determine, que en todo caso contendrá datos sobre los servicios prestados, las tarifas percibidas, el número de personas transportadas y el número de reclamaciones recibidas, así como todo problema o incidente relacionado con la seguridad, debiendo remitir copia de dicha documentación al órgano con competencias en materia de transporte por cable.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 30. Definición y clasificación de las infracciones.</p>
+          <p class="parrafo">1. Constituyen infracciones administrativas las acciones u omisiones de las distintas personas responsables tipificadas en la presente Ley.</p>
+          <p class="parrafo">2. La responsabilidad administrativa derivada de la presente Ley se entiende sin perjuicio de las responsabilidades civiles, penales o de cualquier otro orden en que puedan incurrir sus autores.</p>
+          <p class="parrafo">3. Las infracciones administrativas en materia de transporte por cable se clasifican en muy graves, graves y leves.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 31. Infracciones muy graves.</p>
+          <p class="parrafo">Son infracciones muy graves, a efectos de la presente Ley:</p>
+          <p class="parrafo_2">a) Prestar el servicio de transporte sin disponer del preceptivo título habilitante.</p>
+          <p class="parrafo">b) Prestar el servicio de transporte en condiciones que puedan afectar a la seguridad de las personas, en la medida en que comporten un peligro grave y directo y, especialmente:</p>
+          <p class="parrafo_2">1.º Prestar el servicio incumpliendo las condiciones de seguridad que se establezcan en el título habilitante, el reglamento de explotación u otras normas técnicas aplicables, relativas a la revisión y al mantenimiento de la instalación.</p>
+          <p class="parrafo">2.º Transportar a más personas de las autorizadas.</p>
+          <p class="parrafo">3.º No llevar a cabo en la instalación las mejoras o las modificaciones ordenadas por la Administración para garantizar la seguridad de las personas.</p>
+          <p class="parrafo_2">c) Negarse a la actuación de los servicios de inspección, u obstruirla, de forma que se impida o se retrase el ejercicio de sus funciones.</p>
+          <p class="parrafo">d) La desatención total o parcial a las instrucciones o requerimientos de los servicios de inspección en el ejercicio de sus funciones en la medida en que ello pueda afectar a la seguridad de las personas.</p>
+          <p class="parrafo">e) No mantener vigentes los seguros obligatorios prescritos por la presente Ley o por otras disposiciones aplicables, si este hecho no constituye infracción penal.</p>
+          <p class="parrafo">f) La no realización de la explotación del servicio por la empresa poseedora del título habilitante, salvo causa de fuerza mayor.</p>
+          <p class="parrafo">g) Reiteración en cualesquiera de las infracciones graves, si no ha prescrito la infracción cometida anteriormente.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 32. Infracciones graves.</p>
+          <p class="parrafo">Son infracciones graves, a efectos de la presente Ley:</p>
+          <p class="parrafo_2">a) No cumplir las condiciones esenciales del título habilitante, salvo que deba calificarse como infracción muy grave. A los efectos de esta Ley, se consideran esenciales las condiciones que configuran la naturaleza del servicio y el mantenimiento de los requisitos exigidos para autorizarlo y, en cualquier caso, las que así consten expresamente en el pliego de condiciones del título habilitante.</p>
+          <p class="parrafo">b) No haber efectuado las revisiones obligatorias, salvo que, de acuerdo con lo que establece el artículo 31.b), haya de calificarse como infracción muy grave.</p>
+          <p class="parrafo">c) No cumplir el régimen tarifario.</p>
+          <p class="parrafo">d) Construir instalaciones, o modificarlas, sin la aprobación del proyecto correspondiente.</p>
+          <p class="parrafo">e) Negarse a la actuación de los servicios de inspección u obstruirla, salvo que, de acuerdo con lo que establece el artículo 31.c), haya de calificarse como infracción muy grave.</p>
+          <p class="parrafo">f) La desatención total o parcial a las instrucciones o requerimientos de los servicios de inspección en el ejercicio de las mismas, salvo que, de acuerdo con lo que establece el artículo 31.d), haya de calificarse como infracción muy grave.</p>
+          <p class="parrafo">g) No cumplir la obligación de comunicar a la Administración competente las averías o los incidentes en la instalación o los daños causados a las personas usuarias o a terceras personas.</p>
+          <p class="parrafo">h) No tener a disposición de las personas usuarias de la instalación los libros u hojas de reclamaciones, o no comunicar al órgano administrativo competente las reclamaciones o las quejas efectuadas, en la forma y el plazo establecidos.</p>
+          <p class="parrafo">i) El abandono de la explotación o la paralización de los servicios sin causa justificada, sin el consentimiento expreso de la Administración.</p>
+          <p class="parrafo">j) El incumplimiento del calendario de expediciones o servicios establecido, cuando no constituya abandono de la explotación.</p>
+          <p class="parrafo">k) El falseamiento de cualquier documento contable, estadístico o de control que la empresa prestataria del servicio se encuentre obligada a llevar o de los datos obrantes en el mismo.</p>
+          <p class="parrafo">l) Realizar cualquier acto que pueda comportar un peligro grave para la seguridad del transporte, de los usuarios o de las instalaciones.</p>
+          <p class="parrafo">m) Destruir, deteriorar, alterar o modificar cualquier obra o instalación, de sus elementos funcionales o, en general, de cualquier elemento del servicio o de la infraestructura directamente relacionado con la ordenación, orientación y seguridad de la circulación.</p>
+          <p class="parrafo">n) Reiteración en cualesquiera de las infracciones leves, si no ha prescrito la infracción cometida anteriormente.</p>
+          <p class="parrafo">ñ) Cualquier otra infracción que, aunque tipificada como muy grave, no mereciere tal calificación en atención a su naturaleza, ocasión o circunstancia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 33. Infracciones leves.</p>
+          <p class="parrafo">Son infracciones leves, a efectos de la presente Ley:</p>
+          <p class="parrafo_2">a) No tener expuestas y a disposición de los usuarios las normas de utilización de la instalación.</p>
+          <p class="parrafo">b) No tener al corriente los libros, registros o estadísticas de carácter obligatorio, de acuerdo con lo que determinan las normas aplicables.</p>
+          <p class="parrafo">c) No mantener las instalaciones en las condiciones necesarias de limpieza y conservación para garantizar la prestación correcta del servicio de transporte, salvo que, en cuanto que resulte afectada la seguridad de las personas, haya de calificarse como infracción muy grave.</p>
+          <p class="parrafo">d) No tener expuesto en lugar visible y de fácil lectura por el usuario, el cartel anunciador de la existencia de hojas de reclamaciones.</p>
+          <p class="parrafo">e) No ir provisto del correspondiente título de transporte suficiente para la utilización del servicio de transporte y debidamente validado, ni conservarlo mientras se esté en el interior de las instalaciones, así como su negativa a exhibirlo al personal del servicio que lo solicite.</p>
+          <p class="parrafo">f) No atender las indicaciones sobre utilización del servicio y seguridad del personal empleado, así como las contenidas en las normas de uso de la instalación y demás carteles informativos.</p>
+          <p class="parrafo">g) Mantener un comportamiento incorrecto e irrespetuoso que pueda afectar al servicio, y realizar acciones que puedan implicar un deterioro o un maltrato de las instalaciones, así como manipular, destruir o deteriorar cualquier obra o instalación fija o móvil o cualquier elemento funcional del servicio.</p>
+          <p class="parrafo">h) Acceder al vehículo o abandonarlo fuera de las paradas establecidas o cuando esté en movimiento.</p>
+          <p class="parrafo">i) Obstaculizar o forzar los mecanismos de apertura o cierre de las puertas de los vehículos, así como usar indebidamente los mecanismos de parada de emergencia de los vehículos, escaleras o ascensores.</p>
+          <p class="parrafo">j) Cualquier otra infracción que, aunque tipificada como grave, no mereciere tal calificación en atención a su naturaleza, ocasión o circunstancia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 34. Responsabilidad.</p>
+          <p class="parrafo">La responsabilidad derivada de la comisión de las infracciones tipificadas en esta Ley corresponde a las siguientes personas:</p>
+          <p class="parrafo_2">a) En las infracciones cometidas con ocasión de la realización de transportes o actividades sujetas a concesión o autorización administrativa, a la persona física o jurídica titular del título habilitante.</p>
+          <p class="parrafo">b) En las infracciones cometidas con ocasión de transportes o actividades llevadas a cabo sin la cobertura del preceptivo título habilitante, a la persona física o jurídica propietaria o arrendataria de la instalación o responsable de la prestación del servicio de transporte.</p>
+          <p class="parrafo">c) En el caso de las infracciones tipificadas en las letras l) y m) del artículo 32, y e), f), g), h) e i) del artículo 33 de esta Ley, a los usuarios de las instalaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 35. Medidas cautelares.</p>
+          <p class="parrafo">1. Con el fin de preservar los intereses generales o para evitar la continuidad de los efectos de la infracción, el órgano competente en materia de transportes podrá adoptar mediante resolución motivada las medidas cautelares que sean precisas para asegurar la eficacia de la resolución final que pudiera recaer.</p>
+          <p class="parrafo">2. En el supuesto de infracciones tipificadas como muy graves o graves podrá ordenarse la paralización o clausura cautelar de la instalación en el caso de que sea preciso adoptar las medidas necesarias para que los usuarios sufran la menor perturbación o daño posible.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 36. Sanciones.</p>
+          <p class="parrafo">1. Las infracciones que tipifica la presente Ley se sancionarán de la siguiente manera:</p>
+          <p class="parrafo_2">a) Cuando tengan carácter leve, con una amonestación o multa de hasta seiscientos euros, o ambas; la cuantía máxima indicada se reducirá hasta trescientos euros cuando se trate de infracciones cometidas por los usuarios del servicio.</p>
+          <p class="parrafo">b) Cuando tengan carácter grave, con una multa de entre seiscientos uno y treinta mil euros;</p>
+          <p class="parrafo">c) Cuando tengan carácter de muy grave, con una multa de entre treinta mil uno y ciento cincuenta mil euros.</p>
+          <p class="parrafo_2">2. La cuantía de las multas se graduará en función de la gravedad del hecho constitutivo de la infracción, considerando los riesgos producidos, los daños y los perjuicios ocasionados, la existencia de intencionalidad y la reincidencia.</p>
+          <p class="parrafo">3. Se produce reincidencia por la comisión en el término de un año de más de una infracción de la misma naturaleza, cuando así haya sido declarado por resolución firme.</p>
+          <p class="parrafo">4. Se considera circunstancia atenuante en orden a la graduación de la sanción, el hecho de haber procedido a subsanar la infracción antes de la resolución del procedimiento sancionador.</p>
+          <p class="parrafo">5. La imposición de las sanciones que en su caso correspondan será independiente de la posible obligación de indemnizar los daños y perjuicios causados, así como de restaurar las obras e instalaciones a su estado anterior a la comisión de la infracción.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 37. Plazo de prescripción de infracciones y sanciones.</p>
+          <p class="parrafo">1. Las infracciones muy graves tipificadas por esta Ley prescriben a los tres años, las graves a los dos años y las leves al año.</p>
+          <p class="parrafo">2. El plazo de prescripción de las infracciones empezará a contarse a partir del día en que se cometan.</p>
+          <p class="parrafo">La iniciación, con el conocimiento de la persona interesada, del procedimiento sancionador interrumpe la prescripción. El cómputo del plazo de prescripción se reiniciará si el expediente sancionador estuviere paralizado durante más de un mes por causa no imputable al presunto responsable.</p>
+          <p class="parrafo">3. Las sanciones impuestas por faltas muy graves prescriben a los tres años, las impuestas por faltas graves a los dos años y las impuestas por faltas leves al año.</p>
+          <p class="parrafo">4. El plazo de prescripción de las sanciones comenzará a contarse desde el día siguiente a aquel en que adquiera firmeza la resolución por la que se impone la sanción.</p>
+          <p class="parrafo">Interrumpirá la prescripción la iniciación, con conocimiento del interesado, del procedimiento de ejecución, reanudándose el plazo de prescripción si el procedimiento de ejecución estuviera paralizado más de un mes por causa no imputable al infractor.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 38. Órganos competentes.</p>
+          <p class="parrafo">La competencia para la imposición de las sanciones reguladas en la presente Ley corresponde, si se trata de infracciones leves, al Director General competente en materia de transportes; si se trata de infracciones graves, al Consejero competente en materia de transportes; y si la infracción es muy grave, al Consejo de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Artículo 39. Procedimiento sancionador.</p>
+          <p class="parrafo">1. El procedimiento para la imposición de las sanciones fijadas en el presente capítulo ha de ajustarse a lo que disponen las normas de procedimiento administrativo que sean aplicables.</p>
+          <p class="parrafo">2. Si transcurrido un año desde la incoación del procedimiento sancionador no se ha notificado resolución expresa se declarará su caducidad y se ordenará el archivo del expediente.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Disposición adicional única. Titularidad de las instalaciones preexistentes.</p>
+          <p class="parrafo">La entrada en vigor de la presente Ley no supone modificación alguna en la titularidad de las instalaciones de transporte por cable existentes.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Disposición transitoria primera. Régimen de las concesiones preexistentes.</p>
+          <p class="parrafo">1. Los titulares de concesiones de transporte público de personas por cable vigentes en el momento de la entrada en vigor de la presente Ley, que en función de la clasificación establecida en el artículo 10.2 no tengan la consideración de servicio público, podrán optar en el plazo de tres meses entre sustituir la concesión por la autorización administrativa regulada en la sección 2.ª del capítulo segundo de esta Ley o seguir prestando el servicio en régimen de concesión administrativa, en cuyo caso deberán someterse el régimen establecido en esta Ley.</p>
+          <p class="parrafo">2. Si transcurrido el plazo de tres meses establecido en el apartado anterior los titulares de la concesión no han manifestado expresamente a la Administración competente la voluntad de mantener el régimen jurídico anterior, la concesión se convertirá en autorización administrativa de explotación, quedando sometida a las disposiciones de la presente Ley que correspondan con vigencia indefinida, siempre que se acredite el cumplimiento de los requisitos del artículo 6.3 de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Disposición transitoria segunda. Procedimientos iniciados con anterioridad a la entrada en vigor de la Ley.</p>
+          <p class="parrafo">Los procedimientos que se encuentren en tramitación a la entrada en vigor de esta Ley se resolverán conforme a lo dispuesto en la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Disposición derogatoria única. Régimen derogatorio.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan o contradigan lo establecido en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Disposición final primera. Facultad de desarrollo.</p>
+          <p class="parrafo">1. Se faculta al Gobierno de Cantabria para dictar cuantas disposiciones resulten necesarias en orden al desarrollo y ejecución de la presente Ley.</p>
+          <p class="parrafo">2. En particular, se faculta al Gobierno de Cantabria para que adapte la cuantía pecuniaria de las sanciones en función de la evolución de los índices de precios al consumo y demás circunstancias socioeconómicas.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Cantabria».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2013-498" fecha_publicacion="20121228" fecha_vigencia="20121229">
+          <p class="parrafo_2">Palacio del Gobierno de Cantabria, 21 de diciembre de 2012.–El Presidente de la Comunidad Autónoma de Cantabria, Juan Ignacio Diego Palacios.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

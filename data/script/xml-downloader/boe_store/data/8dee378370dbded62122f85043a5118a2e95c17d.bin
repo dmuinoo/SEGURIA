@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210419Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-186</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1011">Agencia Española de Protección de Datos</departamento>
+      <rango codigo="1410">Instrucción</rango>
+      <fecha_disposicion>20041222</fecha_disposicion>
+      <numero_oficial>1/2004</numero_oficial>
+      <titulo>Instrucción 1/2004, de 22 de diciembre, de la Agencia Española de Protección de Datos sobre publicación de sus Resoluciones.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050105</fecha_publicacion>
+      <diario_numero>4</diario_numero>
+      <fecha_vigencia>20050106</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/ins/2004/12/22/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-186</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="7908">Agencia Española de Protección de Datos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1999-23750</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 37.2 de la Ley Orgánica 15/1999, de 13 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-1995-81678</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Directiva 95/46/CE, de 24 de octubre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-186</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-22</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7908"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-186</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7908"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/con/20050105"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción 1/2004, de 22 de diciembre, de la Agencia Española de Protección de Datos sobre publicación de sus Resoluciones.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/con/20050105">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-186</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7908"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/con/20050105/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción 1/2004, de 22 de diciembre, de la Agencia Española de Protección de Datos sobre publicación de sus Resoluciones.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/con/20050105"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/2004/12/22/1/con/20050105/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/2004/12/22/1/con/20050105/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="centro_redonda">I</p>
+          <p class="parrafo_2">Uno de los objetivos fundamentales de la Agencia Española de Protección de Datos es el de lograr la mayor transparencia en su actividad, para una mejor garantía y tutela del derecho fundamental a la protección de datos de carácter personal, en el marco del proceso de implantación de la sociedad de la información.</p>
+          <p class="parrafo">Desde su creación, cada año se ha publicado una Memoria de la Agencia Española de Protección de Datos. A través de estas memorias se ha podido tener conocimiento de las actividades desarrolladas por la Agencia, de los procedimientos que se han seguido en la misma y de los criterios con que han sido resueltos. Sin embargo, dado el tiempo que transcurre desde que se dicta una resolución hasta que se publica la Memoria han podido existir desfases en el conocimiento del parecer de la Agencia.</p>
+          <p class="parrafo">La Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, tras la modificación introducida por el artículo 82.1 de la Ley 62/2003, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social, establece en el artículo 37.2 que las resoluciones de la Agencia Española de Protección de Datos, a excepción de las correspondientes a la inscripción de un fichero o tratamiento en el Registro General de Protección de Datos y de aquéllas por las que se resuelva la inscripción en el mismo de los códigos tipo regulados en el artículo 32 de la citada Ley, se harán públicas, una vez hayan sido notificadas a los interesados, preferentemente a través de medios informáticos o telemáticos.</p>
+          <p class="parrafo">Con la modificación introducida por la citada Ley 62/2003, la Agencia tiene, por consiguiente, la obligación de hacer públicas sus resoluciones desde el momento en que han sido notificadas a los interesados, lo que sin duda redundará en un mejor conocimiento de sus criterios y una mayor seguridad jurídica en la aplicación de la Ley. Dado que dicha Ley entró en vigor el día 1 de enero de 2004, sus disposiciones en materia de publicidad de las resoluciones de la Agencia Española de Protección de Datos afectarán a todas aquéllas dictadas en procedimientos incoados a partir de dicha fecha, así como a las correspondientes al archivo de actuaciones inspectoras iniciadas desde esa misma fecha.</p>
+          <p class="parrafo">Con ello, se potencia el conocimiento de los criterios en la aplicación de la normativa sobre protección de datos, se facilita su cumplimiento y se favorece, asimismo, la aplicación de los principios de la Directiva 95/46/CE del Parlamento Europeo y del Consejo, de 24 de octubre de 1995, relativa a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos.</p>
+          <p class="centro_redonda">II</p>
+          <p class="parrafo_2">El artículo 37.1 c) de la Ley Orgánica 15/1999 atribuye a la Agencia Española de Protección de Datos la función de «dictar, en su caso y sin perjuicio de las competencias de otros órganos, las instrucciones precisas para adecuar los tratamientos a los principios de la presente Ley». La potestad normativa de la Agencia ha sido expresamente reconocida por el Tribunal Constitucional, en su Sentencia 290/2000, de 30 de noviembre.</p>
+          <p class="parrafo">En ejercicio de dicha potestad se dicta la presente Instrucción, cuyo objeto es establecer los términos en los que la Agencia Española de Protección de Datos va a realizar la publicación de las resoluciones a las que hace referencia el artículo 37.2 de la Ley Orgánica 15/1999.</p>
+          <p class="parrafo">Con dicho objeto, se establece la forma y los plazos en que se realizará la publicación de las indicadas resoluciones y, se prevé que, en todo caso, a fin de salvaguardar el derecho fundamental a la protección de datos de carácter personal, será necesario proceder a la disociación de dichos datos.</p>
+          <p class="parrafo">Asimismo, se dispone que en las resoluciones a las que se refiere el artículo 37.2 de la Ley Orgánica 15/1999, la Agencia hará constar, de forma expresa, que procederá a su publicación.</p>
+          <p class="parrafo">En su virtud, de conformidad con lo dispuesto en el artículo 37.1 c) de la Ley Orgánica 15/1999 y de acuerdo con el Consejo Consultivo de la Agencia Española de Protección de Datos,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="normaprimera" tipo="precepto" titulo="Norma primera">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="articulo">Norma primera.</p>
+          <p class="parrafo_2">De conformidad con lo establecido en el artículo 37.2 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, según la redacción dada por el artículo 82.1 de la Ley 62/2003, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social, la Agencia Española de Protección de Datos hará públicas sus resoluciones, a excepción de las correspondientes a la inscripción de un fichero o tratamiento en el Registro General de Protección de Datos y de aquéllas por las que se resuelva la inscripción en el mismo de los códigos tipo regulados en el artículo 32 de la Ley Orgánica 15/1999, siempre que se refieran a procedimientos que se hubieran iniciado a partir del 1 de enero de 2004, o correspondan al archivo de actuaciones inspectoras incoadas desde dicha fecha.</p>
+        </version>
+      </bloque>
+      <bloque id="normasegunda" tipo="precepto" titulo="Norma segunda">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="articulo">Norma segunda.</p>
+          <p class="parrafo_2">La publicación de estas resoluciones se realizará en la página web de la Agencia Española de Protección de Datos, en el plazo de un mes a contar desde el día siguiente al de su notificación a los interesados.</p>
+        </version>
+      </bloque>
+      <bloque id="normatercera" tipo="precepto" titulo="Norma tercera">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="articulo">Norma tercera.</p>
+          <p class="parrafo_2">En las resoluciones a las que se refiere la norma primera se hará constar expresamente que la Agencia va a proceder a su publicación en los términos establecidos en la presente Instrucción.</p>
+        </version>
+      </bloque>
+      <bloque id="normacuaa" tipo="precepto" titulo="Norma cuarta">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="articulo">Norma cuarta.</p>
+          <p class="parrafo_2">La publicación de las resoluciones a que se refiere la presente Instrucción se realizará previa disociación de los datos de carácter personal a los que se refiere el artículo 3 a) de la Ley Orgánica 15/1999.</p>
+          <p class="parrafo">La publicación de dichas resoluciones no contendrá, en ningún caso, los datos referentes al domicilio de las personas jurídico privadas, empresarios individuales o profesionales afectados por la resolución.</p>
+        </version>
+      </bloque>
+      <bloque id="normaquinta" tipo="precepto" titulo="Norma quinta">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="articulo">Norma quinta.</p>
+          <p class="parrafo_2">Las resoluciones correspondientes a los procedimientos y actuaciones de inspección que se mencionan en la norma primera iniciados a partir del 1 de enero de 2004 y que hayan sido notificadas antes de la fecha de entrada en vigor de la presente Instrucción, se publicarán en el plazo de tres meses a partir de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="normasexta" tipo="precepto" titulo="Norma sexta">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="articulo">Norma sexta.</p>
+          <p class="parrafo_2">La presente Instrucción entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2005-186" fecha_publicacion="20050105" fecha_vigencia="20050106">
+          <p class="parrafo_2">Madrid, 22 de diciembre de 2004.–El Director, José Luis Piñar Mañas.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

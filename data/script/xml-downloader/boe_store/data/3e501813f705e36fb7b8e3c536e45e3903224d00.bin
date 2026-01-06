@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T181213Z</fecha_actualizacion>
+      <identificador>BOE-A-2014-5487</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8090">Comunidad Autónoma de Galicia</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20140324</fecha_disposicion>
+      <numero_oficial>1/2014</numero_oficial>
+      <titulo>Ley 1/2014, de 24 de marzo, para el aprovechamiento de la lengua portuguesa y vínculos con la lusofonía.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20140526</fecha_publicacion>
+      <diario_numero>127</diario_numero>
+      <fecha_vigencia>20140409</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ga/l/2014/03/24/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2014-5487</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1687">Cooperación cultural</materia>
+        <materia codigo="3876">Galicia</materia>
+        <materia codigo="8111">Lenguas oficiales</materia>
+        <materia codigo="6192">Portugal</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el DOG núm. 68, de 8 de abril de 2014.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-23788</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Art. 24 de la Ley 1/1983, de 22 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1981-9564</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Art. 13.2 del Estatuto aprobado por Ley Orgánica 1/1981, de 6 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2007-82344</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Directiva 2007/65/CE, de 11 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ga"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-5487</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-24</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1687"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3876"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6192"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8111"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ga"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-5487</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1687"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6192"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8111"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/con/20140408"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/2014, de 24 de marzo, para el aprovechamiento de la lengua portuguesa y vínculos con la lusofonía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-05-26</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/con/20140408">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ga"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-5487</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1687"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6192"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8111"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/con/20140408/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/2014, de 24 de marzo, para el aprovechamiento de la lengua portuguesa y vínculos con la lusofonía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/con/20140408"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ga/l/2014/03/24/1/con/20140408/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ga/l/2014/03/24/1/con/20140408/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">En el actual mundo globalizado, las instituciones gallegas, comprometidas con el aprovechamiento de las potencialidades de Galicia, deben valorizar el gallego como una lengua con utilidad internacional, algo que indicó a su debido tiempo el autor a quien se dedicó el Día das Letras de 2012, que llegó a ejercer como vicepresidente de la Comissão Galega do Acordo Ortográfico da Lingua Portuguesa.</p>
+          <p class="parrafo">El portugués, nacido en la antigua Gallaecia, es idioma de trabajo de veinte organizaciones internacionales, incluida la Unión Europea, así como lengua oficial de nueve países y del territorio de Macau, en China. Entre ellos figuran potencias económicas como Brasil y otras economías emergentes. Es la lengua más hablada en el conjunto del Hemisferio Sur.</p>
+          <p class="parrafo">Es preciso fomentar la enseñanza y el aprendizaje del portugués, con el objetivo, entre otros, de que empresas e instituciones aprovechen nuestra ventaja lingüística, un valor que evidencia la importancia mundial del idioma oficial de un país vecino, teniendo en cuenta también el creciente papel de bloques como la Comunidade dos Países de Lingua Portuguesa.</p>
+          <p class="parrafo">La lengua propia de Galicia, por el hecho de ser intercomprensible con el portugués, otorga una valiosa ventaja competitiva a la ciudadanía gallega en muchas vertientes, principalmente en la cultural pero también en la económica. Por ello debemos dotarnos de métodos formativos y comunicativos que nos permitan desenvolvernos con naturalidad en una lengua que nos es muy próxima y nos concede una gran proyección internacional.</p>
+          <p class="parrafo">Por tanto, para la mejora del desarrollo social, económico y cultural gallego, las autoridades deben promover todas cuantas medidas sean posibles para valorizar mejor esta ventaja histórica.</p>
+          <p class="parrafo">Por todo lo expuesto, el Parlamento de Galicia aprobó y yo, de conformidad con el artículo 13.2 del Estatuto de Autonomía de Galicia y con el artículo 24 de la Ley 1/1983, de 22 de febrero, reguladora de la Xunta y de su Presidencia, promulgo en nombre del Rey, la Ley para el aprovechamiento de la lengua portuguesa y vínculos con la lusofonía.</p>
+        </version>
+      </bloque>
+      <bloque id="tu" tipo="encabezado" titulo="TÍTULO ÚNICO">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="titulo">TÍTULO ÚNICO</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Los poderes públicos gallegos promoverán el conocimiento de la lengua portuguesa y de las culturas lusófonas para profundizar en los vínculos históricos que unen a Galicia con los países y comunidades de lengua portuguesa y por el carácter estratégico que para Galicia tienen las relaciones económicas y sociales en el marco de la Eurorregión Galicia-Norte de Portugal.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">El Gobierno gallego incorporará progresivamente el aprendizaje de la lengua portuguesa en el ámbito de las competencias en lenguas extranjeras en los centros de enseñanza de la Comunidad Autónoma de Galicia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">Deberán ser promovidas, asimismo, las relaciones a todos los niveles con los países de lengua oficial portuguesa, y este constituirá un objetivo estratégico del Gobierno gallego. De forma especial, se fomentará el conocimiento de esta lengua por parte de los empleados públicos, la participación de las instituciones en foros lusófonos de todo tipo –económico, cultural, ambiental, deportivo, etc.–, así como la organización en la Comunidad Autónoma gallega de eventos con presencia de entidades y personas de territorios que tengan el portugués como lengua oficial.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">1. La Xunta de Galicia promoverá y estimulará ante el Gobierno la adopción de cuantas medidas positivas resulten necesarias para la aplicación de las disposiciones de la Directiva 2007/65/CE del Parlamento Europeo y del Consejo, de servicios de medios audiovisuales sin fronteras, con el fin de favorecer y permitir la reciprocidad de las emisiones televisivas y radiofónicas entre la Comunidad Autónoma de Galicia y la República de Portugal, con la que comparte patrimonio lingüístico.</p>
+          <p class="parrafo">2. La Compañía de Radio-Televisión de Galicia promoverá los intercambios de producciones audiovisuales y de programas completos o partes de estos en los diversos géneros televisivos, así como la colaboración en materia de proyectos audiovisuales nuevos, la cooperación en el empleo de medios de producción técnicos y humanos y la puesta en común de conocimiento aplicado a la producción audiovisual o a la gestión empresarial, con televisiones de lengua portuguesa, especialmente en aquellos ámbitos susceptibles de alcanzar las mayores posibilidades de beneficio mutuo y recíproco.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">El Gobierno gallego realizará anualmente un informe en relación con el cumplimiento de esta ley, en el que se harán constar, pormenorizadamente, las acciones llevadas a cabo, su coste y las previsiones que efectúa para el ejercicio siguiente. Dicho informe se remitirá al Parlamento de Galicia.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Consello de la Xunta de Galicia para que desarrolle reglamentariamente esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Esta ley entrará en vigor el día siguiente al de su publicación en el Diario Oficial de Galicia.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2014-5487" fecha_publicacion="20140408" fecha_vigencia="20140409">
+          <p class="parrafo_2">Santiago de Compostela, 24 de marzo de 2014.–El Presidente, Alberto Núñez Feijóo.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

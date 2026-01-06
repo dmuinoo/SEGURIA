@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T120419Z</fecha_actualizacion>
+      <identificador>BOE-A-2009-13502</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8170">Comunidad Foral de Navarra</departamento>
+      <rango codigo="1450">Ley Foral</rango>
+      <fecha_disposicion>20090702</fecha_disposicion>
+      <numero_oficial>10/2009</numero_oficial>
+      <titulo>Ley Foral 10/2009, de 2 de julio, de Museos y Colecciones Museográficas Permanentes de Navarra.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20090815</fecha_publicacion>
+      <diario_numero>197</diario_numero>
+      <fecha_vigencia>20090718</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-nc/lf/2009/07/02/10</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2009-13502</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="772">Centros culturales</materia>
+        <materia codigo="5079">Museos</materia>
+        <materia codigo="5143">Navarra</materia>
+        <materia codigo="5428">Patrimonio cultural</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BON núm. 88, de 17 de julio de 2009.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2005-20981</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 84 de la Ley Foral 14/2005, de 22 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-20824</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 44.10 de la Ley Orgánica 13/1982, de 10 de agosto</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-nc"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lf"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-13502</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-02</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/772"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5143"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5428"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-nc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lf"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-13502</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/772"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5143"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5428"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/con/20090717"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Foral 10/2009, de 2 de julio, de Museos y Colecciones Museográficas Permanentes de Navarra.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-08-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/con/20090717">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-nc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lf"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-13502</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/772"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5143"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5428"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/con/20090717/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Foral 10/2009, de 2 de julio, de Museos y Colecciones Museográficas Permanentes de Navarra.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/con/20090717"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/con/20090717/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-nc/lf/2009/07/02/10/con/20090717/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="titulo">EL PRESIDENTE DEL GOBIERNO DE NAVARRA</p>
+          <p class="parrafo_2">Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de Museos y Colecciones Museográficas Permanentes de Navarra.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="subseccion">1</p>
+          <p class="parrafo">El Parlamento de Navarra, en el ejercicio de la competencia exclusiva que la Comunidad Foral de Navarra tiene sobre esa materia, aprobó el 22 de noviembre de 2005 la Ley Foral 14/2005, del Patrimonio Cultural de Navarra.</p>
+          <p class="parrafo">El capítulo V del título V de dicha Ley Foral define los museos y las colecciones museográficas permanentes y dispone que la Administración de la Comunidad Foral de Navarra garantizará el acceso de todos los ciudadanos a aquellas de estas instituciones que sean de titularidad pública sin perjuicio de las restricciones que, por causa de la conservación de los bienes en ellos custodiados, pudieran establecerse.</p>
+          <p class="parrafo">La citada Ley Foral establece que la protección de estas instituciones se llevará a cabo a través de su inclusión en alguna de las clases del Patrimonio Cultural de Navarra y mediante la aplicación de las reglas específicas de la Ley Foral que los regule siéndoles de aplicación, en lo en ella no previsto, cuanto se dispone con carácter general en la Ley Foral del Patrimonio Cultural de Navarra.</p>
+          <p class="parrafo">La disposición adicional segunda del mismo texto legal declara Bienes de Interés Cultural los bienes muebles que formen parte de las colecciones de los museos de titularidad de la Administración de la Comunidad Foral de Navarra, así como los inmuebles destinados a su instalación.</p>
+          <p class="subseccion">2</p>
+          <p class="parrafo">Los museos y las colecciones museográficas permanentes, instituciones culturales en continuo avance y transformación, precisan una regulación del máximo rango normativo que, partiendo de la realidad museística de la Comunidad Foral de Navarra, les permita avanzar hacia la excelencia.</p>
+          <p class="parrafo">La nueva realidad social y cultural demanda una actualización legislativa que contemple los conceptos de museo y colección museográfica permanente, inspirados en las directrices del Consejo Internacional de Museos, que establezca instrumentos de planificación y control que garanticen la existencia de instituciones acordes con las demandas de la sociedad y la protección de los bienes integrantes de nuestro Patrimonio Cultural.</p>
+          <p class="parrafo">En los últimos años se ha desarrollado una mayor sensibilidad de la ciudadanía hacia el patrimonio cultural, lo que está generando una proliferación de centros de exhibición pública de diversa titularidad y formas de gestión. A este fenómeno también contribuyen, entre otras, las políticas de desarrollo turístico, especialmente de zonas rurales, y la necesidad de dar cabida a las expresiones artísticas más actuales.</p>
+          <p class="parrafo">La diversidad de propuestas que estas tendencias socioeconómicas y culturales dan como resultado, hace necesario que desde la Administración competente se tipifique la naturaleza de estos centros y se garantice la prestación de servicios culturales de calidad por parte de las nuevas instituciones museísticas, promoviendo a la par la actualización de las ya existentes mediante el desarrollo de mecanismos acordes con las nuevas tecnologías para su gestión y accesibilidad.</p>
+          <p class="parrafo">Los organismos públicos y las personas, físicas o jurídicas, titulares de un museo o de una colección museográfica permanente deberán garantizar el mantenimiento, la conservación y la exhibición de los bienes culturales que integren sus fondos en la forma prevista en esta Ley Foral y en sus disposiciones de desarrollo, en la Ley Foral del Patrimonio Cultural de Navarra y en la legislación que sea de aplicación con carácter supletorio.</p>
+          <p class="subseccion">3</p>
+          <p class="parrafo">El Título I, relativo a las disposiciones generales, recoge los conceptos de museo y colección museográfica permanente que ya avanzaba el artículo 84 de la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural, así como concreta las funciones específicas de estos centros y las competencias de la Comunidad Foral de Navarra en este ámbito, entre las que se encuentra la de elaborar y actualizar las herramientas de diagnóstico y planificación de la política museística de la Comunidad Foral de Navarra. Finalmente, regula las facultades atribuidas en materia de museos al Consejo Navarro de Cultura y destaca como principio fundamental en esta materia el de colaboración de la Administración con los titulares de museos, en orden a su fomento y mejora.</p>
+          <p class="subseccion">4</p>
+          <p class="parrafo">En el Título II se configura el Sistema de museos y colecciones museográficas de Navarra como la estructura destinada a la coordinación, cooperación, equilibrio y mejora de las instituciones que lo integren. Aunque algunas instituciones forman parte del Sistema por ministerio de esta Ley Foral, otras muchas, entre ellas las de las entidades locales, podrán participar en él de forma voluntaria. Se regulan los aspectos relativos a su composición, objetivos y efectos de la incorporación al mismo, que incluyen ventajas para las instituciones integrantes, las cuales tendrán prioridad en la obtención de las ayudas económicas que la Administración destine al fomento de la actividad museística, en la participación en actividades de formación y en el acceso a la asistencia técnica, entre otras. Se regula, asimismo, en el artículo 18 la disolución de museos y colecciones museográficas.</p>
+          <p class="subseccion">5</p>
+          <p class="parrafo">El Capítulo I del Título III determina los requisitos imprescindibles y las líneas generales de procedimiento para el reconocimiento de los museos y las colecciones museográficas permanentes de cualquier titularidad, simplificando al máximo la tramitación y exigiendo únicamente aquellos documentos que se consideran imprescindibles, de acuerdo con la Directiva 2006/123/CE, del Parlamento Europeo y del Consejo, de 12 de diciembre de 2006, relativa a los servicios en el mercado interior. El artículo 16 establece la obligatoriedad de contar con la autorización del Departamento competente en materia de museos para la utilización de las denominaciones «Museo de Navarra» o «Colección de Navarra», solas o en combinación con otras palabras, y protege de la misma forma las denominaciones de las entidades locales.</p>
+          <p class="parrafo">El Capítulo II regula el Registro de museos y colecciones museográficas permanentes de Navarra, en el que se inscribirán de oficio todos los museos y colecciones museográficas permanentes que hayan sido reconocidos, requisito indispensable para la obtención de subvenciones con cargo a los presupuestos de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">Es objeto del Capítulo III la regulación de la gestión de los museos y colecciones museográficas permanentes, donde se desarrollan todos los aspectos relativos a la naturaleza y protección de los fondos museográficos, así como los deberes generales de los titulares de estas instituciones, entre los que figuran como más importantes, y se desarrollan por tanto en artículos aparte, la elaboración y actualización de los libros de registros y el inventario de los fondos. Se crea el Inventario General de Fondos de museos y colecciones museográficas permanentes de Navarra, regulándose asimismo aspectos fundamentales para su control por parte de la Administración como son la obligación para los titulares de estos centros de facilitar la información necesaria en el soporte que se determine, y se contemplan otros aspectos como la constitución de depósitos forzosos y la realización de copias, reproducciones y digitalización de los fondos de los museos y colecciones museográficas permanentes.</p>
+          <p class="parrafo">Se regula, a su vez, el régimen de acceso y derechos económicos por visita pública.</p>
+          <p class="parrafo">Finalmente, el Capítulo IV se ocupa de la Planificación.</p>
+          <p class="subseccion">6</p>
+          <p class="parrafo">El Título IV se refiere al régimen de inspección y sancionador que el Departamento competente en materia de museos ejercerá sobre estas instituciones con el fin de velar por la correcta aplicación de los preceptos contenidos en esta Ley Foral. Las infracciones se tipifican como leves, graves y muy graves, reservándose estas últimas para los casos que impliquen daño o pérdida irreparable para el Patrimonio Cultural de Navarra, así como las que pongan en grave riesgo la seguridad de los visitantes de museos y colecciones.</p>
+          <p class="subseccion">7</p>
+          <p class="parrafo">La disposición adicional primera declara, por ministerio de esta Ley Foral, Bienes Inventariados los bienes muebles que formen parte de museos o colecciones museográficas permanentes que hayan sido reconocidos y sean de titularidad distinta a la de la Comunidad Foral de Navarra y del Estado, asumiendo que algunos pudieran ser declarados Bien de Interés Cultural. Esta medida supone en la práctica la aplicación de las medidas específicas de protección que la Ley Foral de Patrimonio Cultural establece para dicha categoría a los fondos de estas instituciones.</p>
+          <p class="parrafo">La disposición adicional segunda otorga el reconocimiento de museo, por ministerio de esta Ley Foral, al Museo de Navarra, al museo de la Fundación Museo Jorge Oteiza-Fundazio Museoa, al Museo Gustavo de Maeztu y al Museo Muñoz Sola de Arte Moderno sin que sea necesario recurrir al procedimiento establecido en esta Ley Foral.</p>
+          <p class="parrafo">La disposición adicional tercera establece el procedimiento de evaluación de la presente Ley Foral.</p>
+          <p class="subseccion">8</p>
+          <p class="parrafo">Las dos disposiciones transitorias están dirigidas a facilitar la adaptación, en un plazo razonable, del mayor número posible de instituciones museísticas a las nuevas exigencias contenidas en esta Ley Foral. Para ello, la disposición transitoria primera establece la posibilidad de solicitar un reconocimiento con carácter transitorio durante los cinco primeros años de vigencia de la Ley Foral.</p>
+          <p class="parrafo">La disposición transitoria segunda fija también un plazo de cinco años durante el cual la Administración de la Comunidad Foral de Navarra podrá conceder a las instituciones que hayan sido objeto del antedicho reconocimiento transitorio subvenciones destinadas a inversiones que tengan por finalidad la obtención de las condiciones necesarias para su reconocimiento definitivo.</p>
+          <p class="subseccion">9</p>
+          <p class="parrafo">Por último, la Ley Foral contiene una disposición derogatoria única, de carácter genérico, y dos Disposiciones Finales, la Primera relativa a la habilitación para el desarrollo reglamentario al Gobierno de Navarra y al Consejero titular del departamento competente en materia de museos y la Segunda, relativa a su entrada en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra».</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 1. Objeto y ámbito de la Ley Foral.</p>
+          <p class="parrafo">1. Esta Ley Foral tiene por objeto regular la creación, organización y gestión de los museos y colecciones museográficas permanentes de competencia de la Comunidad Foral de Navarra, así como el establecimiento y regulación de un Sistema de museos de Navarra para la ordenación, coordinación y prestación eficaz de sus servicios a la sociedad, para la protección y adecuada gestión de sus fondos y de los recursos públicos destinados a ello.</p>
+          <p class="parrafo">2. La Comunidad Foral de Navarra ostenta competencias, en los términos previstos en el artículo 44.10 de la Ley Orgánica 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra, sobre los centros culturales que, reconocidos como museos o colecciones museográficas permanentes de acuerdo con la presente Ley Foral, se hallen en su territorio y no sean de titularidad estatal.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 2. Concepto de museo.</p>
+          <p class="parrafo">Son museos las instituciones de carácter permanente abiertas al público que, sin ánimo de lucro y al servicio de la sociedad y su desarrollo, adquieren, conservan, investigan, comunican y exhiben, para fines de estudio, interpretación, educación y disfrute, bienes y colecciones de valor arqueológico, histórico, artístico, etnológico, científico y técnico o de cualquier otra naturaleza cultural.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 3. Funciones de los museos.</p>
+          <p class="parrafo">1. Son funciones de los museos:</p>
+          <p class="parrafo_2">a) La protección y conservación de los bienes culturales que se encuentren bajo su custodia, mediante la adopción de medidas preventivas y de restauración.</p>
+          <p class="parrafo">b) La adquisición de bienes culturales de acuerdo a lo establecido en su plan museológico, con la finalidad de formar, completar o ampliar sus colecciones.</p>
+          <p class="parrafo">c) La catalogación y documentación con criterios científicos de esos bienes.</p>
+          <p class="parrafo">d) La investigación sobre su ámbito temático y territorial y sobre los aspectos museológicos y museográficos relacionados con el cumplimiento de las restantes funciones de la institución.</p>
+          <p class="parrafo">e) La comunicación a la sociedad de los conocimientos generados en el desarrollo de sus funciones y la difusión de sus colecciones.</p>
+          <p class="parrafo">f) La atención a las demandas de los usuarios conforme a las normas de funcionamiento del museo.</p>
+          <p class="parrafo">g) La elaboración y edición de catálogos, monografías, series periódicas y cualquier otro medio de difusión destinado al cumplimiento de sus fines.</p>
+          <p class="parrafo">h) El desarrollo de actividades didácticas y formativas respecto de sus contenidos.</p>
+          <p class="parrafo">i) La mediación interpretativa entre la sociedad y su patrimonio cultural.</p>
+          <p class="parrafo">j) La exhibición permanente, ordenada y significativa de sus colecciones.</p>
+          <p class="parrafo">k) La organización periódica de exposiciones científicas y divulgativas de acuerdo con las directrices establecidas en su plan museológico.</p>
+          <p class="parrafo">l) El fomento y la promoción del acceso público a los museos y sus servicios culturales, de manera presencial y por medio de las nuevas tecnologías de la información y de la comunicación, con especial atención a los grupos con dificultades de acceso.</p>
+          <p class="parrafo">m) Cualquier otra función que se les encomiende por disposición legal o reglamentaria.</p>
+          <p class="parrafo_2">2. Los museos podrán desarrollar otras actividades complementarias de carácter cultural o social cuando cuenten con las instalaciones adecuadas y no se perjudique el normal desarrollo de las funciones que les corresponden según esta Ley Foral.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 4. Concepto de colección museográfica permanente.</p>
+          <p class="parrafo">Son colecciones museográficas permanentes los conjuntos estables de bienes culturales conservados sin ánimo de lucro por una persona física o jurídica que, por lo reducido de sus fondos, escasez de recursos o carencia de personal técnico propio, no puedan cumplir todas las funciones atribuidas a los museos, siempre que sus titulares garanticen, al menos, la visita pública en horario adecuado y regular, las condiciones básicas de conservación, custodia y exposición, y el acceso de los investigadores a sus fondos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 5. Competencias de la Administración de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">1. La Administración de la Comunidad Foral de Navarra, a través del Departamento competente en materia de museos, ejercerá las competencias que corresponden a Navarra en esta materia.</p>
+          <p class="parrafo">Asimismo velará para que los museos y colecciones museográficas permanentes, en el ejercicio de sus funciones y en el cumplimiento de sus deberes, observen la normativa aplicable en materia de igualdad entre hombres y mujeres.</p>
+          <p class="parrafo">2. En particular, corresponde al Departamento competente en materia de museos el ejercicio de las siguientes competencias:</p>
+          <p class="parrafo_2">a) El diseño y la planificación de la política museística y sus prioridades en orden a la conservación, protección y gestión del patrimonio museístico.</p>
+          <p class="parrafo">b) El reconocimiento de museos y colecciones museográficas permanentes con arreglo a lo dispuesto en esta Ley Foral.</p>
+          <p class="parrafo">c) La elaboración y actualización permanente del Registro de museos y colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">d) Generar las directrices para la elaboración de las normas técnicas de registro, documentación, conservación, exposición y divulgación del patrimonio museístico.</p>
+          <p class="parrafo">e) La elaboración y el mantenimiento actualizado del Inventario General de Fondos de museos y colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">f) La gestión y coordinación del Sistema de museos y colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">g) Las funciones de inspección de la organización y el funcionamiento de los museos y colecciones museográficas permanentes para comprobar el cumplimiento de la legislación vigente y la adopción, en su caso, de las medidas pertinentes en orden a dicho cumplimiento.</p>
+          <p class="parrafo">h) El fomento y la colaboración en la formación continua y especialización del personal que con carácter profesional presta sus servicios en materia de museos.</p>
+          <p class="parrafo">i) El asesoramiento y la prestación de asistencia técnica a los museos y colecciones museográficas permanentes para el mejor cumplimiento de sus fines.</p>
+          <p class="parrafo">j) La gestión, en su caso, de las subvenciones y ayudas destinadas a los museos y colecciones museográficas permanentes.</p>
+          <p class="parrafo">k) Impulsar las labores de documentación, investigación y difusión del patrimonio.</p>
+          <p class="parrafo">l) La promoción de los museos adscritos al Sistema de museos y colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">m) El impulso de políticas de I+D+I y la colaboración en esta materia entre los museos adheridos.</p>
+          <p class="parrafo">n) Aquellas otras competencias que le sean asignadas por esta Ley Foral y el resto del ordenamiento jurídico, así como aquellas otras competencias que, siendo titularidad de la Comunidad Foral de Navarra en materia de museos, no estén atribuidas a ningún órgano administrativo u organismo de forma específica.</p>
+          <p class="parrafo">ñ) Elaborar, publicar y actualizar el Registro de Museos y colecciones museográficos permanentes de Navarra.</p>
+          <p class="parrafo">o) Renovar el reconocimiento de Museos y Colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">p) Revocar el reconocimiento de Museos y Colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">q) Autorizar las salidas temporales y las reproducciones de fondos.</p>
+          <p class="parrafo">r) Ejercer la potestad sancionadora en los términos previstos en la presente Ley Foral.</p>
+          <p class="parrafo">s) Disponer de fondos presupuestarios para la adquisición, protección y conservación de los bienes culturales.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 6. Competencias de las Entidades Locales de Navarra.</p>
+          <p class="parrafo">La Administración Local de Navarra ejercerá las siguientes competencias en materia de Museos y Colecciones museográficas permanentes:</p>
+          <p class="parrafo_2">a) Organizar y gestionar los museos de titularidad municipal.</p>
+          <p class="parrafo">b) Inventariar, gestionar y mantener actualizados sus fondos.</p>
+          <p class="parrafo">c) Cooperar con los museos de ámbito municipal de los que no sean titulares.</p>
+          <p class="parrafo">d) Fomentar las actividades propias de los museos y darles apoyo.</p>
+          <p class="parrafo">e) Informar sobre la creación y/o autorización de Museos y Colecciones museográficas permanentes radicados en su término municipal.</p>
+          <p class="parrafo">f) Participar en los procedimientos de autorización e integración en el Sistema de museos y colecciones museográficas permanentes que afecten o se relacionen con su demarcación.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 7. Diagnóstico y planificación.</p>
+          <p class="parrafo">El Departamento competente en materia de museos elaborará y actualizará las herramientas para el diagnóstico y planificación de la política museística de la Comunidad Foral de Navarra.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 8. Consejo Navarro de Cultura.</p>
+          <p class="parrafo">El Consejo Navarro de Cultura, además de las facultades atribuidas en el artículo 10 de la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural de Navarra, ejercerá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Informar sobre los proyectos de disposiciones generales en materia de museos.</p>
+          <p class="parrafo">b) Informar sobre el reconocimiento de museos y de colecciones museográficas permanentes.</p>
+          <p class="parrafo">c) Proponer iniciativas, actuaciones y planes de mejora en la organización, funcionamiento y coordinación del Sistema de museos de Navarra.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 9. Principios de fomento y colaboración.</p>
+          <p class="parrafo">1. La Administración de la Comunidad Foral de Navarra prestará especial atención a:</p>
+          <p class="parrafo_2">a) El fomento de museos y colecciones museográficas permanentes que sean expresivos de la historia, cultura y modos de vida de Navarra.</p>
+          <p class="parrafo">b) La creación de museos y colecciones museográficas permanentes vinculados a la ciencia, la naturaleza, la técnica y la tecnología, en colaboración con instituciones públicas y privadas cuya actividad guarde relación con las mismas.</p>
+          <p class="parrafo">c) La implantación y desarrollo de instituciones museísticas vinculadas al fomento, difusión, conservación e investigación de las áreas vinculadas al arte contemporáneo en sus múltiples manifestaciones.</p>
+          <p class="parrafo_2">2. En la política de nuevos museos y colecciones museográficas permanentes deberá tenerse en cuenta, además de los estrictos términos culturales, los aspectos vinculados al turismo y al desarrollo sostenible del territorio, a fin de que constituyan una eficaz palanca de desarrollo cultural, económico y social del territorio en el que se insertan y de la Comunidad en su conjunto.</p>
+          <p class="parrafo">3. La Administración de la Comunidad Foral de Navarra colaborará con los titulares de museos y colecciones museográficas permanentes y otras instituciones culturales y educativas de diversa índole, tanto de carácter local, regional, nacional e internacional, en orden al fomento y mejora de la infraestructura museística de Navarra, de sus fondos y de su difusión.</p>
+          <p class="parrafo">4. Del mismo modo, la Administración de la Comunidad Foral de Navarra fomentará la participación ciudadana en el ámbito de las instituciones museísticas, especialmente a través de asociaciones o entidades sin ánimo de lucro, que tengan por objeto la promoción de los museos o el desarrollo de actividades de voluntariado cultural de los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">El sistema de museos y colecciones museográficas permanentes de Navarra</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 10. Definición.</p>
+          <p class="parrafo">El Sistema de museos de Navarra se configura como la estructura destinada a agrupar los museos y las colecciones museográficas permanentes de la Comunidad Foral de Navarra que deseen cooperar con el fin de alcanzar mejoras en su gestión y servicios, y un mayor aprovechamiento de los recursos públicos y privados.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 11. Composición.</p>
+          <p class="parrafo">Forman parte del Sistema de museos de Navarra:</p>
+          <p class="parrafo_2">a) Las unidades y órganos administrativos que, pertenecientes o adscritos al Departamento competente en materia de museos, estén relacionados con la gestión de los museos. La dirección y coordinación del Sistema corresponderá al propio Departamento.</p>
+          <p class="parrafo">b) Los museos y colecciones museográficas permanentes de titularidad de la Administración de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">c) Los museos y colecciones museográficas permanentes cuyos órganos de administración, de dirección o de vigilancia estén ocupados por personas designadas por la Administración de la Comunidad Foral de Navarra en la mitad o más de sus miembros.</p>
+          <p class="parrafo">d) El resto de museos y de colecciones museográficas permanentes que sean de interés para la Comunidad Foral de Navarra y se integren voluntariamente en el Sistema de Museos de Navarra mediante convenio entre su titular y el Departamento competente en materia de museos, por un tiempo mínimo de cinco años.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 12. Objetivos.</p>
+          <p class="parrafo">El Sistema de museos de Navarra actuará para la obtención de los siguientes objetivos:</p>
+          <p class="parrafo_2">1. Desarrollar un programa de proyectos educativos, exposiciones y otras actividades.</p>
+          <p class="parrafo">2. Favorecer la colaboración y la formación continua de los profesionales de los centros del Sistema.</p>
+          <p class="parrafo">3. Desarrollar herramientas para la homologación y normalización del tratamiento técnico de las colecciones para su adecuada documentación, conservación, restauración y difusión.</p>
+          <p class="parrafo">4. Búsqueda de patrocinio de otras instituciones públicas o privadas para los proyectos de los integrantes del Sistema tanto en lo que se refiere a actividades como a equipamientos e infraestructuras u otras necesidades.</p>
+          <p class="parrafo">5. Cualesquiera otras que se determinen reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 13. Efectos de la integración en el Sistema de museos de Navarra.</p>
+          <p class="parrafo">1. Los museos y colecciones museográficas permanentes integrados en el Sistema de museos de Navarra tendrán prioridad en los siguientes aspectos:</p>
+          <p class="parrafo_2">a) Obtención de las ayudas económicas que la Administración de la Comunidad Foral de Navarra destine para el fomento de la actividad museística y las inversiones en estos centros, de acuerdo con las disponibilidades presupuestarias.</p>
+          <p class="parrafo">b) Incorporación a los circuitos de exposiciones y otras actividades culturales que planifique y organice la Administración de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">c) Inclusión y publicidad en itinerarios culturales, educativos y turísticos promovidos por la Administración de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">d) Participación de su personal en las actividades de formación y especialización que organice la Administración de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">e) Acceso a la asistencia técnica que preste u organice el Departamento competente en materia de museos para la conservación y la restauración de sus fondos.</p>
+          <p class="parrafo_2">2. Además de las previstas en la presente Ley Foral, son obligaciones generales de los museos y colecciones museográficas integrados en el Sistema las siguientes:</p>
+          <p class="parrafo_2">a) Colaborar en el intercambio de información entre los museos y colecciones museográficas permanentes del Sistema.</p>
+          <p class="parrafo">b) Abrir al público en los días y con el horario que reglamentariamente se establezcan. Este horario, en ningún caso será inferior a 20 horas a la semana en el caso de los museos y 10 horas en el caso de las colecciones museográficas permanentes.</p>
+          <p class="parrafo">c) Hacer constar en lugar visible y público su pertenencia al Sistema de museos y colecciones museográficas permanentes de Navarra, según el modelo de identidad gráfica que se determine por parte del departamento competente.</p>
+          <p class="parrafo">d) Informar al departamento competente de la percepción de derechos económicos no sujetos a la autorización del mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Régimen general de los museos y colecciones museográficas permanentes</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Reconocimiento de museos y colecciones museográficas permanentes</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 14. Requisitos para el reconocimiento como museo.</p>
+          <p class="parrafo">Los museos, para su reconocimiento, habrán de cumplir los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Disponer de una colección estable de bienes de valor arqueológico, histórico, artístico, etnológico, científico, técnico o de cualquier otra naturaleza cultural, sean tangibles o intangibles suficiente y adecuada al ámbito y objetivos del museo.</p>
+          <p class="parrafo">b) Disponer de un inmueble adecuado para el cumplimiento de sus funciones destinado a la sede del museo con carácter permanente.</p>
+          <p class="parrafo">c) Estar dotado de personal técnico con formación en museología y en las disciplinas científicas acordes con su contenido y funciones.</p>
+          <p class="parrafo">d) Contar con dotación presupuestaria anual estable que permita el cumplimiento de sus funciones y fines.</p>
+          <p class="parrafo">e) Regirse por un plan museológico propio.</p>
+          <p class="parrafo">f) Disponer de un inventario de sus fondos y de libros de registro.</p>
+          <p class="parrafo">g) Mantener una exposición permanente, ordenada y significativa de su colección, con explicación de la misma.</p>
+          <p class="parrafo">h) Mantener unas condiciones ambientales y de seguridad que garanticen la conservación y custodia de su colección.</p>
+          <p class="parrafo">i) Tener sus fondos accesibles para la investigación, consulta, enseñanza, divulgación y disfrute público.</p>
+          <p class="parrafo">j) Tener la exposición abierta al público con carácter fijo y horario regular de visita.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 15. Requisitos para el reconocimiento como colección museográfica permanente.</p>
+          <p class="parrafo">Las colecciones museográficas permanentes, para su reconocimiento, habrán de cumplir los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Disponer de una colección estable de bienes de valor arqueológico, histórico, artístico, etnológico, científico, técnico o de cualquier otra naturaleza cultural, sean tangibles o intangibles.</p>
+          <p class="parrafo">b) Disponer de un inmueble adecuado para el cumplimiento de sus funciones destinado a la sede de la colección con carácter permanente.</p>
+          <p class="parrafo">c) Mantener una exposición permanente, ordenada y significativa de su colección.</p>
+          <p class="parrafo">d) Disponer de un inventario de sus fondos y de libros de registro.</p>
+          <p class="parrafo">e) Mantener unas condiciones ambientales y de seguridad que garanticen la conservación y custodia de su colección.</p>
+          <p class="parrafo">f) Tener la exposición abierta al público con carácter fijo y horario regular de visita.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 16. Reconocimiento de museos y colecciones museográficas permanentes.</p>
+          <p class="parrafo">1. El reconocimiento de museos y colecciones museográficas permanentes se acordará, a solicitud de su titular, por el Departamento competente en materia de museos.</p>
+          <p class="parrafo">2. El titular remitirá al Departamento competente en materia de museos la siguiente documentación:</p>
+          <p class="parrafo_2">a) Documento acreditativo de la creación del museo o colección museográfica permanente.</p>
+          <p class="parrafo">b) Documentación que acredite el cumplimiento de todos los requisitos establecidos en la presente Ley Foral.</p>
+          <p class="parrafo">c) Inventario de la colección en el soporte que se determine.</p>
+          <p class="parrafo">d) Plantilla.</p>
+          <p class="parrafo">e) Horarios de apertura al público.</p>
+          <p class="parrafo_2">3. El reconocimiento se otorgará o denegará tras la verificación de los requisitos establecidos en la presente Ley Foral y previo informe del Consejo Navarro de Cultura, en el plazo de seis meses, entendiéndose otorgado si en dicho plazo no se ha notificado resolución expresa.</p>
+          <p class="parrafo">4. En el acto administrativo de reconocimiento de cada museo o colección museográfica permanente se enunciará:</p>
+          <p class="parrafo_2">a) Denominación.</p>
+          <p class="parrafo">b) Sede.</p>
+          <p class="parrafo">c) Objetivos y criterios científicos que lo delimitan.</p>
+          <p class="parrafo">d) Titular y órgano de gestión.</p>
+          <p class="parrafo">e) Organización básica y servicios con los que cuenta.</p>
+          <p class="parrafo_2">5. El acto administrativo de reconocimiento se inscribirá en el Registro de Museos y Colecciones Museográficas Permanentes de Navarra.</p>
+          <p class="parrafo">6. En el caso de los museos y colecciones museográficas permanentes de titularidad distinta a la de la Comunidad Foral de Navarra no se podrá reconocer cuando entre sus fondos se encuentren material arqueológico o bienes culturales de cualquier naturaleza, cuya propiedad corresponda a la Administración de la Comunidad Foral de Navarra sin que, previamente, se haya suscrito, el oportuno convenio regulador del depósito de dichos bienes.</p>
+          <p class="parrafo">7. Tras su reconocimiento, y sin perjuicio de la competencia de inspección de la Administración de la Comunidad Foral de Navarra, todo museo o colección museográfica permanente deberá comunicar por escrito al Departamento competente en materia de museos, cualquier modificación en el cumplimiento de los requisitos establecidos en esta Ley Foral, así como cualquier cambio que se produzca en el órgano de gestión. Esta comunicación deberá tener carácter previo, a excepción de aquellos casos en los que esto no sea posible por la propia naturaleza de los hechos.</p>
+          <p class="parrafo">8. El incumplimiento sobrevenido de alguno de los requisitos que dieron lugar al reconocimiento como museo o colección museográfica permanente podrá suponer, previa la instrucción del oportuno procedimiento, en el que se dará audiencia al titular, la suspensión o revocación del reconocimiento obtenido.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 17. Denominación.</p>
+          <p class="parrafo">1. Se requerirá la autorización del Departamento competente en materia de museos para la utilización, con cualquier finalidad, de las denominaciones «Museo de Navarra» o «Colección de Navarra», solas o en combinación con otras palabras, así como para el empleo en la denominación de museos y colecciones museográficas permanentes de adjetivaciones que hagan referencia a la globalidad de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">2. En el caso de utilizar, solas o en combinación con otras palabras, la denominación de entidades locales, se requerirá la autorización expresa del ente local correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 18. Disolución de museos y colecciones museográficas.</p>
+          <p class="parrafo">La disolución de museos y colecciones museográficas permanentes se acordará por el órgano al que corresponda autorizar la creación de aquellos, que dispondrá la cancelación de su inscripción en el Registro navarro de museos y colecciones museográficas permanentes.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Registro de los museos y colecciones museográficas permanentes</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 19. Registro de Museos y Colecciones Museográficas Permanentes de Navarra.</p>
+          <p class="parrafo">1. En el Departamento competente en materia de museos existirá un Registro de Museos y Colecciones Museográficas Permanentes de Navarra como registro público, de carácter administrativo, en el que se inscribirán todos los museos y las colecciones museográficas permanentes que hayan sido reconocidos conforme a lo dispuesto en la presente Ley Foral.</p>
+          <p class="parrafo">2. La inscripción de un museo o colección museográfica permanente en el Registro se hará de oficio por el Departamento competente en materia de museos, una vez reconocidos, conforme a lo dispuesto en la presente Ley Foral.</p>
+          <p class="parrafo">3. En el Registro deberán figurar, como mínimo, los datos contenidos en el acto administrativo de reconocimiento, así como la fecha de inscripción y, en su caso, de baja.</p>
+          <p class="parrafo">4. Asimismo se inscribirán las suspensiones o revocaciones del reconocimiento como museo o colección museográfica permanente cuando sea firme el acto administrativo que así lo declare.</p>
+          <p class="parrafo">5. La inscripción en el Registro de museos y colecciones museográficas permanentes de Navarra será requisito indispensable para la obtención de subvenciones con cargo a los presupuestos de la Comunidad Foral de Navarra o cualesquiera otros beneficios destinados a museos y colecciones museográficas permanentes.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Gestión de los museos y colecciones museográficas permanentes</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 20. Deberes generales de los titulares de museos y colecciones museográficas permanentes.</p>
+          <p class="parrafo">Son deberes de los titulares de los museos y colecciones museográficas permanentes los siguientes:</p>
+          <p class="parrafo_2">a) Mantener el cumplimiento de los requisitos que permitieron su reconocimiento.</p>
+          <p class="parrafo">b) Mantener actualizados los libros de registro y el inventario de sus fondos.</p>
+          <p class="parrafo">c) Informar al público y al Departamento competente en materia de museos del horario de apertura del centro, y de sus posibles modificaciones, que en todo caso deberá figurar en lugar visible a la entrada del mismo.</p>
+          <p class="parrafo">d) Informar al público y al Departamento competente en materia de museos de las tarifas de acceso.</p>
+          <p class="parrafo">e) Comunicar al Departamento competente en materia de museos, las variaciones que vayan a producirse en sus fondos por enajenaciones, depósitos, nuevas adquisiciones, salidas temporales o por cualquier otro motivo.</p>
+          <p class="parrafo">f) Elaborar y remitir al Departamento competente en materia de museos datos estadísticos e informativos sobre su actividad, visitantes y prestación de servicios.</p>
+          <p class="parrafo">g) Permitir la inspección de su funcionamiento, sus instalaciones y dependencias, así como de su documentación, sus libros de registro e inventarios de sus fondos a los órganos que tengan asignadas las funciones de inspección, facilitando el acceso a la información que fuera requerida por éstos.</p>
+          <p class="parrafo">h) Facilitar el acceso a las personas interesadas en la investigación de sus fondos.</p>
+          <p class="parrafo">i) Adecuar las instalaciones a las personas con alguna deficiencia, eliminando las barreras arquitectónicas, adaptando los contenidos a las personas con dificultades sensoriales (lengua de signos, braille, subtítulos, etc.).</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 21. Libros de registro.</p>
+          <p class="parrafo">1. Los museos y colecciones museográficas permanentes deberán llevar los siguientes libros de registro en los que se anotarán todos los ingresos y salidas de fondos por orden cronológico:</p>
+          <p class="parrafo_2">a) De la colección estable del centro, en el que se inscribirán la totalidad de los fondos que la integran.</p>
+          <p class="parrafo">b) De los depósitos, en el que se inscribirán los fondos de cualquier titularidad que ingresen por este concepto.</p>
+          <p class="parrafo_2">2. Los ingresos, en su caso, de materiales arqueológicos procedentes de prospecciones o excavaciones autorizadas deberán registrarse siempre en el libro de depósitos.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 22. Inventario de fondos.</p>
+          <p class="parrafo">1. Los museos y colecciones museográficas permanentes deberán elaborar el inventario de sus fondos y mantenerlo actualizado.</p>
+          <p class="parrafo">2. El Departamento competente en materia de museos podrá comprobar en cualquier momento la concordancia de los libros de registro y del inventario con los fondos integrantes de las colecciones y los depósitos.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 23. Inventario General de Fondos.</p>
+          <p class="parrafo">1. El Departamento competente en materia de museos elaborará y mantendrá actualizado el Inventario General de Fondos de museos y colecciones museográficas permanentes de Navarra.</p>
+          <p class="parrafo">2. A tal fin todos los museos y colecciones museográficas permanentes facilitarán la información necesaria.</p>
+          <p class="parrafo">3. La información contenida en este Inventario General podrá ser divulgada por el Departamento competente en materia de museos.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 24. Depósitos de bienes del Patrimonio Cultural de Navarra de titularidad de la Administración de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">1. Los museos y colecciones museográficas permanentes integrados en el Sistema de museos de Navarra serán los únicos que podrán recibir en depósito, conforme a su capacidad de custodia, bienes integrantes del Patrimonio Cultural de Navarra, de dominio público o de titularidad de la Administración de la Comunidad Foral de Navarra o de sus organismos públicos, cuando así lo acuerde el Departamento competente en materia de museos.</p>
+          <p class="parrafo">2. Los centros depositarios de bienes de la Administración Foral serán seleccionados por el Departamento competente en materia de museos, según criterios de proximidad territorial o de especialidades temáticas, considerando la más adecuada conservación y seguridad de los materiales y su mejor función científica y cultural.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 25. Depósitos de bienes del Patrimonio Cultural de Navarra de otros titulares.</p>
+          <p class="parrafo">1. Cuando las deficiencias de instalación, el incumplimiento de la normativa vigente por parte del titular o excepcionales razones de urgencia pongan en peligro la conservación, seguridad o accesibilidad de los fondos existentes en un museo o colección museográfica permanente, el Departamento competente en materia de museos, previa audiencia del titular del museo o colección, podrá ofrecer el depósito de dichos fondos en otro u otros museos hasta que desaparezcan las causas que motivaron esa decisión.</p>
+          <p class="parrafo">2. En caso de cierre, disolución o clausura de un museo o colección museográfica permanente, el Departamento competente en materia de museos podrá ofrecer, previa audiencia de su titular y de otros posibles interesados, que sus fondos sean depositados en otro u otros museos cuya naturaleza sea acorde con los bienes a depositar, teniendo en cuenta el criterio de proximidad territorial. Los fondos depositados se reintegrarán al museo o colección museográfica permanente de procedencia en caso de que hayan desaparecido las causas que motivaron esa decisión.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 26. Copias, reproducciones y digitalización.</p>
+          <p class="parrafo">1. La realización de copias y reproducciones por cualquier procedimiento y la digitalización de los fondos de un museo o colección museográfica permanente se efectuará a fin de facilitar la investigación y la difusión cultural, salvaguardando los derechos de propiedad intelectual de los autores, preservando la debida conservación de la obra y sin interferir en la actividad normal del centro.</p>
+          <p class="parrafo">2. La autorización para realizar copias o reproducciones corresponde al titular del bien o, en su caso, al titular de los derechos de explotación, de conformidad con la Ley de Propiedad Intelectual. En el convenio que pueda celebrarse para la gestión de un museo o colección museográfica permanente por persona o entidad distinta del titular se regulará el sistema de autorización de copias y reproducciones de objetos del museo o colección museográfica permanente.</p>
+          <p class="parrafo">3. En las copias y reproducciones obtenidas constará esta condición de manera visible, así como su procedencia.</p>
+          <p class="parrafo">4. El Gobierno de Navarra impulsará un plan de digitalización de los contenidos de los museos, que se desarrollará en los tres años siguientes a la adhesión al Sistema de Museos de Navarra.</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 27. Régimen de acceso y derechos económicos por visita pública.</p>
+          <p class="parrafo">1. Los museos y colecciones museográficas permanentes estarán abiertos al público en horario estable. El horario y las condiciones de acceso figurarán en la entrada del museo o colección museográfica de forma visible y acomodada al valor patrimonial del edificio. Los museos gestionados por el Gobierno de Navarra cerrarán al público un día a la semana, en los términos previstos reglamentariamente.</p>
+          <p class="parrafo">Cualquier modificación respecto al horario y las condiciones de visita deberá comunicarse con antelación al departamento competente, en los términos que se establezcan reglamentariamente.</p>
+          <p class="parrafo">2. Los museos y colecciones museográficas permanentes integrados en el Sistema de Navarra deberán cumplir la legislación sobre accesibilidad y eliminación de barreras para personas discapacitadas y fomentarán la Implantación de programas específicos para el acceso y el disfrute de sus servicios culturales a dichas personas.</p>
+          <p class="parrafo">3. Los museos y colecciones museográficas podrán percibir derechos económicos por la visita pública, aplicando, en todo caso, el principio de igualdad entre las personas nacionales de los Estados miembros de la Unión Europea, previa acreditación de su nacionalidad.</p>
+          <p class="parrafo">4. Las personas de alguno de los Estados de la Unión Europea, previa acreditación, tendrán derecho a acceder gratuitamente a los museos y colecciones museográficas los días que se determinen reglamentariamente.</p>
+          <p class="parrafo">Asimismo será gratuita la visita a los museos y colecciones museográficas, para personas de cualquier nacionalidad, el Día Nacional de España, el Día de la Constitución, el Día de Navarra, el Día Internacional de los Museos y el Día Internacional del Turismo.</p>
+          <p class="parrafo">5. En el caso de los museos y colecciones museográficas permanentes que pertenezcan al Sistema de museos y colecciones museográficas permanentes de Navarra, la percepción de derechos económicos por la visita pública estará sometida a la autorización expresa del departamento competente en materia de museos, al que corresponderá igualmente determinar los regímenes especiales de acceso gratuito o reducido para personas, colectivos de profesionales o grupos vinculados a instituciones de carácter educativo o cultural.</p>
+          <p class="parrafo">En todo caso, quedarán exentos del pago de visita, previa acreditación, las personas de la Unión Europea menores de 18 años, las mayores de 65, las que estén jubiladas y las afectadas por un grado de minusvalía de al menos el 33 por 100</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 28. Principio de conservación preventiva.</p>
+          <p class="parrafo">En materia de conservación, los museos y colecciones museográficas deberán orientar su actuación a la planificación, investigación y aplicación de estrategias e intervenciones de prevención, a efecto de crear o mantener las condiciones idóneas que preserven los fondos museísticos de los factores de toda índole que puedan contribuir a su deterioro.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 29. El sistema de gestión documental.</p>
+          <p class="parrafo">1. Los museos y colecciones museográficas permanentes deberán contar con un sistema de gestión documental, que estará constituido por el conjunto de instrumentos descriptivos y de control técnico y administrativo relativos a tres tipos de fondos:</p>
+          <p class="parrafo_2">a) Museográficos.</p>
+          <p class="parrafo">b) Documentales.</p>
+          <p class="parrafo">c) Bibliográficos.</p>
+          <p class="parrafo_2">2. La Consejería competente en materia de museos contribuirá activamente a la implantación progresiva de acuerdo con las nuevas tecnologías de la comunicación y la información, de sistemas integrados de información, documentación y gestión en los museos y colecciones museográficas del Sistema de museos y colecciones museográficas.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Planificación museística</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 30. Plan museológico</p>
+          <p class="parrafo">1. El Plan Museológico, con carácter integrador y global, recogerá las líneas programáticas de la institución y la propuesta de contenidos.</p>
+          <p class="parrafo">2. La redacción de los Planes Museológicos se hará de acuerdo con las normas que dicte el departamento competente en materia de museos. El Plan Museológico abarcará también el Plan de Seguridad al que se refiere el artículo siguiente.</p>
+          <p class="parrafo">3. El departamento competente fomentará que los Planes Museológicos y las presentaciones de las exposiciones permanentes y temporales se adecuen al estado de la investigación científica y museológica y a las innovaciones museográficas.</p>
+          <p class="parrafo">4. Los planes museológicos de los museos o colecciones museográficas permanentes de titularidad de la Administración de la Comunidad Foral de Navarra corresponderá aprobarlos al departamento competente.</p>
+          <p class="parrafo_2">Los planes museológicos del resto de los museos que formen parte del Sistema de museos y colecciones museográficas permanentes de Navarra requerirán informe favorable del departamento competente, que se entenderá emitido en sentido favorable, transcurridos dos meses desde la recepción del mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 31. Plan de seguridad.</p>
+          <p class="parrafo">Los museos deberán contar con un Plan de Seguridad que tenga en cuenta las características del mismo, además de los recursos humanos, los medios técnicos y las medidas organizativas necesarias para hacer frente a los riesgos propios de una institución de estas características.</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 32. Plan anual de actividades y memoria de gestión.</p>
+          <p class="parrafo">1. Los centros adscritos al Sistema de museos y colecciones museográficas permanentes de Navarra deberán contar con un plan anual de actividades. Este plan contendrá las previsiones de investigación, conservación, restauración, mantenimiento, difusión y administración que va a tratar de desarrollar el centro correspondiente.</p>
+          <p class="parrafo">2. El departamento competente establecerá, mediante desarrollo reglamentario, las recomendaciones técnicas para la elaboración del plan anual de actividades y de la memoria de gestión.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Régimen de inspección y sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a33" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 33. Inspección.</p>
+          <p class="parrafo">El Departamento competente en materia de museos, a través de funcionarios acreditados, que a este efecto tendrán la condición de agentes de la autoridad, realizará las inspecciones que convengan a su función de velar por el cumplimiento de esta Ley Foral.</p>
+        </version>
+      </bloque>
+      <bloque id="a34" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 34. Infracciones administrativas.</p>
+          <p class="parrafo">1. Constituyen infracciones administrativas específicas en materia de museos las acciones u omisiones que vulneren los deberes y obligaciones establecidos en la presente Ley Foral.</p>
+          <p class="parrafo">2. El incumplimiento de otras obligaciones contenidas en la presente Ley Foral se consideran infracciones leves.</p>
+          <p class="parrafo">3. Se consideran infracciones graves:</p>
+          <p class="parrafo_2">a) La reproducción no autorizada de fondos de museos y colecciones museográficas permanentes de titularidad de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">b) El incumplimiento del deber de garantizar la seguridad y conservación de sus fondos.</p>
+          <p class="parrafo">c) La obstrucción del ejercicio de las potestades inspectoras de la Administración.</p>
+          <p class="parrafo">d) La reincidencia en la comisión de infracciones leves.</p>
+          <p class="parrafo_2">4. Se consideran infracciones muy graves:</p>
+          <p class="parrafo_2">a) Las que impliquen riesgos para la seguridad de las personas.</p>
+          <p class="parrafo">b) Las que impliquen daño muy grave o pérdida irreparable para el Patrimonio Cultural de la Comunidad Foral de Navarra.</p>
+          <p class="parrafo">c) La reincidencia en la comisión de infracciones graves.</p>
+          <p class="parrafo">d) Tendrán la consideración de infracciones muy graves aquellas que incumplan injustificadamente el deber de visita pública cuando se cometa con infracción del principio de igualdad, por razón de nacimiento, raza, sexo, religión, opinión o cualquier condición o circunstancia personal o social.</p>
+          <p class="parrafo_2">5. A los efectos de este artículo se entiende por reincidencia la comisión en el término de un año de más de dos infracciones de la misma naturaleza, cuando así haya sido declarado por resolución firme en vía administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a35" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Artículo 35. Sanciones y procedimiento sancionador.</p>
+          <p class="parrafo">Las sanciones aplicables a las infracciones contempladas en esta Ley Foral, así como el régimen de responsabilidad, la competencia, el procedimiento y los efectos de su imposición y la prescripción de infracciones y sanciones se regirán por lo dispuesto en la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural de Navarra.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición adicional primera. Régimen de protección de los museos y colecciones museográficas permanentes.</p>
+          <p class="parrafo">Quedan declarados Bienes Inventariados por ministerio de esta Ley Foral los bienes muebles que formen parte de las colecciones de los museos y colecciones museográficas permanentes que se reconozcan y sean de titularidad distinta a la de la Comunidad Foral de Navarra, sin perjuicio de que puedan ser declarados Bien de Interés Cultural, y con las excepciones contempladas en el artículo 14.2 de la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición adicional segunda. Reconocimiento de museos.</p>
+          <p class="parrafo">Quedan reconocidos como museos por ministerio de esta Ley Foral el Museo de Navarra, el museo de la Fundación Museo Jorge Oteiza-Fundazio Museoa, el Museo Gustavo de Maeztu y el Museo Muñoz Sola de Arte Moderno.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición adicional tercera. Evaluación de la presente Ley Foral.</p>
+          <p class="parrafo">El departamento competente evaluará cada cuatro años, a partir de la entrada en vigor de la Ley Foral, los resultados de su ejecución, para determinar el cumplimiento de la misma y proponer las reformas legales y reglamentarias que se consideren oportunas. Los resultados de la evaluación se remitirán por parte del Gobierno al Parlamento de Navarra al objeto de celebrar una sesión monográfica al respecto.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición transitoria primera. Reconocimiento transitorio de museos y colecciones museográficas ya existentes.</p>
+          <p class="parrafo">Los titulares de museos y colecciones museográficas permanentes de titularidad distinta a la de la Administración de la Comunidad Foral de Navarra existentes a la entrada en vigor de la presente Ley Foral podrán solicitar su reconocimiento con carácter transitorio cuando no se cumpla alguno de los requisitos establecidos en los artículos 14 y 15 de esta Ley Foral. Este reconocimiento quedará sin efecto al finalizar un plazo de cinco años desde la entrada en vigor de esta Ley Foral si durante el mismo no se ha producido el reconocimiento definitivo.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición transitoria segunda. Régimen transitorio de subvenciones a museos y colecciones museográficas permanentes.</p>
+          <p class="parrafo">Durante un plazo de cinco años desde la entrada en vigor de esta Ley Foral podrán concederse a museos y colecciones museográficas permanentes que hayan sido objeto del reconocimiento transitorio a que se refiere la disposición transitoria primera, subvenciones que estén destinadas a la mejora de instalaciones, equipamientos o cualquier otra inversión que tengan por finalidad la obtención de las condiciones necesarias para el reconocimiento definitivo como museo o colección museográfica permanente, de acuerdo con lo previsto en esta Ley Foral.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición derogatoria única. Derogación.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en esta Ley Foral.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición final primera. Habilitación reglamentaria.</p>
+          <p class="parrafo">Se faculta al Gobierno de Navarra y al Consejero titular del Departamento competente en materia de museos para dictar en los veinticuatro meses siguientes a la entrada en vigor de la misma, las disposiciones necesarias para el desarrollo y aplicación de esta Ley Foral.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">Esta Ley Foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra».</p>
+        </version>
+      </bloque>
+      <bloque id="firmar" tipo="firma" titulo="[firmar]">
+        <version id_norma="BOE-A-2009-13502" fecha_publicacion="20090717" fecha_vigencia="20090718">
+          <p class="parrafo_2">Yo, en cumplimiento de lo dispuesto en el artículo 22 de la Ley Orgánica de Reintegración y Amejoramiento del Régimen Foral de Navarra, promulgo, en nombre de S.M. el Rey, esta Ley Foral, ordeno su inmediata publicación en el «Boletín Oficial de Navarra» y su remisión al «Boletín Oficial del Estado» y mando a los ciudadanos y a las autoridades que la cumplan y la hagan cumplir.</p>
+          <p class="parrafo_2">Pamplona, 2 de julio de 2009.</p>
+          <p class="parrafo"> </p>
+          <p class="firma_ministro">El Presidente del Gobierno de Navarra,</p>
+          <p class="firma_ministro">Miguel Sanz Sesma</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

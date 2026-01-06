@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T130603Z</fecha_actualizacion>
+      <identificador>BOE-A-2011-8222</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20110510</fecha_disposicion>
+      <numero_oficial>9/2011</numero_oficial>
+      <titulo>Ley 9/2011, de 10 de mayo, de tasas consulares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20110511</fecha_publicacion>
+      <diario_numero>112</diario_numero>
+      <fecha_vigencia>20110811</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/2011/05/10/9</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2011-8222</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1621">Consulados</materia>
+        <materia codigo="5026">Misiones Diplomáticas</materia>
+        <materia codigo="6836">Tasas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1987-13070</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Ley 7/1987, de 29 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1989-8508</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Ley 8/1989, de 13 de abril</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-8222</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-10</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1621"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5026"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6836"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-8222</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1621"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5026"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6836"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/con/20110511"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2011, de 10 de mayo, de tasas consulares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 9/2011, de 10 de maig, de taxes consulars.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei 9/2011, do 10 de maio, de taxas consulares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/vci">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/vci"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 9/2011, de 10 de maig, de Taxes Consulars.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/dof/vci/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof/vci"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/con/20110511">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-8222</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1621"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5026"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6836"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/con/20110511/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2011, de 10 de mayo, de tasas consulares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/con/20110511"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2011/05/10/9/con/20110511/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2011/05/10/9/con/20110511/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="centro_redonda">JUAN CARLOS I</p>
+          <p class="centro_redonda">REY DE ESPAÑA</p>
+          <p class="parrafo">A todos los que la presente vieren y entendieren</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">La vigente regulación de las tasas consulares fue establecida por la Ley 7/1987, de 29 de mayo, de Tasas Consulares. El tiempo transcurrido desde la entrada en vigor de dicha ley hace que esa regulación se encuentre significativamente desfasada, tanto desde un punto de vista formal como material, siendo conveniente su derogación y su regulación integral mediante una nueva ley, rango normativo que, para esta materia, viene impuesto por el artículo 31.3 de la Constitución.</p>
+          <p class="parrafo">A tal fin, en primer lugar, la nueva ley busca adaptarse a la presente realidad económica y social de España, lo que se realiza con medidas tales como la fijación de la cuantía de las tasas en euros, o mediante la supresión de las referencias a figuras ya desaparecidas, como el servicio militar obligatorio, contenidas en la ley que ahora se deroga.</p>
+          <p class="parrafo">En segundo lugar, desde una perspectiva jurídica, la nueva ley se adapta a la estructura y conceptos asentados por la Ley 8/1989, de 13 de abril, de Tasas y Precios Públicos; ley genérica para este ámbito tributario, que, junto con la Ley General Tributaria y la Ley General Presupuestaria, será de aplicación para todo lo no previsto específicamente en la presente disposición. De acuerdo con ello, en la nueva regulación que se establece, se ha buscado, antes que nada, ajustarse a los principios de equivalencia y de capacidad económica, fijados por los artículos 7 y 8 de la citada Ley 8/1989.</p>
+          <p class="parrafo">En tercer lugar, en la elaboración de la ley se ha considerado la vigente normativa interna reguladora de los distintos ámbitos sustantivos en los que se desarrollan los supuestos gravados con estas tasas. Tal es el caso de la normativa sobre navegación, de la legislación notarial, de la normativa reguladora de los derechos y libertades de los extranjeros en España o de la regulación de la ciudadanía española en el exterior.</p>
+          <p class="parrafo">Para la determinación de los distintos elementos constitutivos de estas tasas se ha buscado, en la medida de lo posible, asimilarlos a los que integran las tasas que para supuestos idénticos o equivalentes se aplican en el interior del territorio nacional, introduciendo sobre ellos las modulaciones necesarias, por la naturaleza del servicio, o en función del sujeto pasivo, en casos tales como el de nuestro personal civil, militar o de cooperación al desarrollo que se encuentre desempeñando sus tareas en el exterior, o de integrantes de la emigración española en el extranjero.</p>
+          <p class="parrafo">Cabe destacar, en cuarto lugar, la sensibilidad de la Ley a la voluntad del Gobierno de modernización de la Administración pública en sus distintos ámbitos, previendo, a tal fin, la posibilidad de gestión telemática del cobro de las tasas, en la forma que reglamentariamente se establezca.</p>
+          <p class="parrafo">Por último, en la disposición adicional única se procede a establecer la regulación básica de las tasas por la tramitación y, en su caso, expedición del título de Traductor/a-Intérprete Jurado/a y de expedición del carné, función que corresponde, de acuerdo con la normativa vigente, al Ministerio de Asuntos Exteriores y de Cooperación. Con la nueva regulación que ahora se introduce se busca superar la situación actual, en la que sólo se ve sometida a tasa la participación en los exámenes que se convocan, no estando, sin embargo, sometida a tasa la tramitación de los expedientes que no suponen la realización de exámenes, ni las restantes actuaciones que desarrolla el Ministerio para la expedición de estas acreditaciones.</p>
+          <p class="parrafo">La Ley consta de una exposición de motivos, de una parte dispositiva compuesta por 25 artículos estructurada en seis capítulos y de una parte final integrada por una disposición adicional, una disposición derogatoria y tres disposiciones finales. En el capítulo I se abordan los elementos generales definitorios de estas tasas, tales como los principios y criterios de aplicación, los sujetos pasivos, las reglas de aplicación para el pago, devengo y devolución, o para la fijación de las cuantías. Los capítulos dos a seis detallan lo relativo a los distintos grupos de hechos imponibles. A saber: capítulo II, actuaciones en materia de navegación marítima; capítulo III, actos y contratos especiales de comercio; capítulo IV, actuaciones relativas a la documentación de las personas y tramitación de visados; capítulo V, actos de administración y cancillería; y capítulo VI, actos notariales.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 1. Concepto y fuentes.</p>
+          <p class="parrafo">1. Las tasas consulares son un tributo estatal que, en los términos establecidos en la presente Ley, gravan determinadas actuaciones administrativas de las Oficinas Consulares, así como los actos que realicen éstas en el ejercicio de la fe pública.</p>
+          <p class="parrafo">2. A los efectos de esta Ley, se considerarán Oficinas Consulares de España, los Consulados Generales, los Consulados, las Secciones Consulares de las Misiones Diplomáticas de España y, en los casos y condiciones en que así se establezca, los Consulados Honorarios de España.</p>
+          <p class="parrafo">3. En la determinación del hecho imponible y de los demás elementos del régimen jurídico de las tasas se estará a lo que pueda disponerse al respecto en los tratados o convenios internacionales en los que España sea parte, a la normativa de la Unión Europea cuando resulte de aplicación, a lo dispuesto en la Ley 8/1989, de 13 de abril, de Tasas y Precios Públicos, en la Ley 58/2003, de 17 de diciembre, General Tributaria, y en la Ley 47/2003, de 26 de noviembre, General Presupuestaria, y a lo establecido en esta Ley de Tasas Consulares y en sus disposiciones de desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 2. Hechos imponibles.</p>
+          <p class="parrafo">Constituirán hechos imponibles, sujetos a estas tasas, las actuaciones consulares propias del ejercicio de la fe pública por los cónsules, así como las actuaciones administrativas realizadas por las Oficinas Consulares de España que se determinan en los capítulos siguientes de esta Ley. En ningún caso estarán sujetas a tasas las actuaciones que se realicen relativas al registro civil. Los hechos imponibles pertenecerán a alguna de las categorías siguientes:</p>
+          <p class="parrafo_2">a) Actuaciones en materia de navegación marítima.</p>
+          <p class="parrafo">b) Actos y contratos especiales de comercio.</p>
+          <p class="parrafo">c) Actuaciones relativas a la documentación de las personas y tramitación de visado.</p>
+          <p class="parrafo">d) Actos de Administración y Cancillería.</p>
+          <p class="parrafo">e) Actos Notariales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 3. Devengo.</p>
+          <p class="parrafo">Las tasas consulares se devengarán en el momento de solicitarse la prestación del servicio o la realización de la actividad, o cuando, sin previa solicitud, deba realizarse la actuación administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 4. Sujetos pasivos.</p>
+          <p class="parrafo">1. Serán sujetos pasivos de estas tasas, a título de contribuyentes, las personas físicas o jurídicas que soliciten o causen la actuación de las Oficinas Consulares.</p>
+          <p class="parrafo">2. En su caso, tendrán la consideración de sujetos pasivos las herencias yacentes, comunidades de bienes y demás entidades que, carentes de personalidad jurídica, constituyan una unidad económica o un patrimonio separado susceptible de imposición.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 5. Exenciones y bonificaciones.</p>
+          <p class="parrafo">1. Estarán exentas del pago de tasas consulares, o bonificadas en la medida que les corresponda, las actuaciones que se señalan en los capítulos correspondientes de esta Ley. Además, habrá de tenerse en cuenta lo establecido en los convenios internacionales en los que España sea parte y que prevean una exención total o parcial de tasas consulares.</p>
+          <p class="parrafo">2. En todo caso, estarán exentas del pago de tasas las siguientes actuaciones:</p>
+          <p class="parrafo_2">a) Las que sean consecuencia directa de la aplicación de las leyes electorales españolas.</p>
+          <p class="parrafo">b) Las que se soliciten por personas beneficiarias de la prestación económica para ciudadanos de origen español desplazados al extranjero, durante su minoría de edad, como consecuencia de la Guerra Civil, y que desarrollaron la mayor parte de su vida fuera del territorio nacional, reconocidas al amparo de la Ley 3/2005, de 18 de marzo, y conocidas como «niños de la Guerra».</p>
+          <p class="parrafo">c) La expedición de documentos y certificados que necesiten los ciudadanos españoles para regresar definitivamente a España.</p>
+          <p class="parrafo">d) Las que se practiquen a solicitud de las personas beneficiarias de la prestación por razón de necesidad (por ancianidad o por incapacidad absoluta) o de la pensión asistencial por ancianidad para españoles de origen retornados.</p>
+          <p class="parrafo">e) Las que se practiquen a solicitud de los ciudadanos españoles residentes en el extranjero que se encuentren acogidos a las disposiciones reguladoras del desempleo o de la asistencia social en los países de recepción.</p>
+          <p class="parrafo">f) Las que se soliciten por personas que puedan acogerse al beneficio de justicia gratuita, de conformidad con las leyes españolas.</p>
+          <p class="parrafo">g) Las que tengan carácter oficial y se practiquen con motivo de los desplazamientos por razón del servicio del personal, civil y militar, de las Administraciones públicas y con ocasión de visitas de buques de la Armada y de participación en misiones u operaciones de paz o humanitarias.</p>
+          <p class="parrafo">h) Las que sean solicitadas por funcionarios de las Administraciones Públicas desplazados al extranjero en cumplimiento de sus funciones.</p>
+          <p class="parrafo">i) Las que se practiquen de oficio o a requerimiento de autoridad española o, a condición de reciprocidad, por súplica de autoridad, representación diplomática u oficina consular extranjera.</p>
+          <p class="parrafo">j) Las que, de acuerdo con los usos y costumbres admitidos en el derecho internacional, tengan un origen inmediato y directo en razones de cortesía internacional o de interés del servicio.</p>
+          <p class="parrafo_2">3. Estarán exentas del pago de tasas la expedición, legalización o visado de la documentación que para identificarse, para viajar o para desempeñar su labor precisen:</p>
+          <p class="parrafo_2">a) Quienes, en calidad de cooperantes, de acuerdo con lo dispuesto en la normativa reguladora del Estatuto de los Cooperantes, se hallen en el extranjero en el marco de programas o proyectos españoles de cooperación al desarrollo.</p>
+          <p class="parrafo">b) Los voluntarios, considerados como tales en la normativa reguladora de la cooperación al desarrollo y del voluntariado, que participen en la gestión o ejecución de programas o proyectos españoles de cooperación al desarrollo.</p>
+          <p class="parrafo">c) Los españoles becados en el extranjero cuando la beca esté exenta de tributación de acuerdo con lo dispuesto en la legislación reguladora del Impuesto sobre la Renta de las Personas Físicas y la Ley del Mecenazgo.</p>
+          <p class="parrafo">d) Los nacionales de terceros países becados por instituciones españolas cuando la beca esté exenta de tributación de acuerdo con lo dispuesto en la legislación reguladora del Impuesto sobre la Renta de las Personas Físicas y la Ley del Mecenazgo.</p>
+          <p class="parrafo">e) Los españoles miembros de entidades religiosas con personalidad jurídico civil, que ejerzan labores de asistencia en el extranjero.</p>
+          <p class="parrafo">f) Los capitanes, comandantes y tripulaciones de buques y aeronaves naufragados o siniestrados.</p>
+          <p class="parrafo_2">4. En todo documento expedido, visado o legalizado con exención o bonificación de tasas consulares, se hará constar esta circunstancia mediante diligencia, cuño o reseña que lo indique y en la que deberá figurar el apartado y número del artículo de esta Ley que ampara el beneficio fiscal.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 6. Bases, tipos de gravamen y cuotas. Cuantía de las tasas.</p>
+          <p class="parrafo">1. Las tasas consulares se exigirán según cuotas fijas, señaladas al efecto, o en función de tipos de gravamen.</p>
+          <p class="parrafo">2. Para la determinación de la cuantía de las tasas se atenderá, con carácter general, a los principios de equivalencia y capacidad económica, así como a las restantes previsiones establecidas al efecto en la Ley 8/1989, de Tasas y Precios Públicos, sin perjuicio de las adaptaciones que, en su caso, deban realizarse en aplicación de lo establecido por convenio internacional, bilateral o multilateral, o por el derecho de la Unión Europea.</p>
+          <p class="parrafo">3. Cuando la base de la tasa esté constituida por el valor atribuido a bienes o derechos, se estará al valor declarado por el interesado, sin perjuicio del derecho de la Administración a comprobar ese valor por los medios establecidos en el artículo 57 de la Ley 58/2003, General Tributaria.</p>
+          <p class="parrafo">4. La cuantía de las tasas se fijará en euros. El Ministerio de Asuntos Exteriores y de Cooperación fijará el cambio aplicable a la moneda local en base a los tipos de cambio fijados por las autoridades monetarias. El tipo de cambio aplicado se revisará trimestralmente modificándose siempre que, en relación con el euro, se haya producido una modificación de su valor de cambio en más o en menos, igual o superior al 10% y, en todo caso, se actualizará anualmente. Cuando exista una variación significativa de los valores de cambio podrá revisarse excepcionalmente el tipo de cambio aplicable a la moneda local antes de la finalización de un trimestre natural por el órgano competente del Ministerio de Asuntos Exteriores y de Cooperación, debiendo motivarse dicha revisión.</p>
+          <p class="parrafo">La nueva cotización deberá hacerse pública mediante aviso, fijado tanto en la página web del Ministerio de Asuntos Exteriores y de Cooperación como en la página web y en el tablón de anuncios de la Oficina Consular correspondiente.</p>
+          <p class="parrafo">5. Las cuantías exigibles por cada tasa se actualizarán de conformidad con las variaciones en los tipos de cambio de acuerdo con lo establecido en el apartado anterior de este artículo.</p>
+          <p class="parrafo">6. Las Leyes de Presupuestos Generales del Estado podrán modificar los importes de las tasas recogidas en los capítulos II, III y V y disposición adicional única, de acuerdo con lo establecido en el artículo 19.5 de la Ley 8/1989, de Tasas y Precios Públicos. En los restantes capítulos, se estará a lo dispuesto en los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 7. Reciprocidad.</p>
+          <p class="parrafo">1. Cuando un país tenga establecidas tasas consulares que excedan más del doble de la cuantía de las determinadas para cada tasa en esta Ley, las cuotas y porcentajes correspondientes podrán sustituirse, para los nacionales de dicho país, por otras de la misma cuantía que las que éste exija a los españoles.</p>
+          <p class="parrafo">2. En materia de tasas por tramitación de visado, la aplicación o no del principio de reciprocidad y los porcentajes de desvío para su aplicación establecidos en el apartado anterior sólo serán de aplicación en ausencia de una regulación específica en el derecho de la Unión Europea.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 8. Pago y devolución.</p>
+          <p class="parrafo">1. La tasa consular se satisfará en efectivo o mediante efectos timbrados. Las tasas se abonarán en la moneda nacional del país en que se expiden o en moneda convertible, sobre la base de los tipos de cambio oficiales establecidos y publicados.</p>
+          <p class="parrafo">2. Mediante posterior desarrollo reglamentario podrán introducirse sistemas garantizados de pago telemático para el pago de las tasas, pudiéndose establecer convenios de colaboración con entidades bancarias.</p>
+          <p class="parrafo">3. En todos los documentos expedidos, visados o legalizados por las Oficinas Consulares deberá acreditarse la percepción de los correspondientes derechos mediante inscripción impresa, sin que pueda añadirse a la misma inscripción manual alguna.</p>
+          <p class="parrafo">4. En aquellas Oficinas Consulares que por ser de nueva creación o que por imposibilidad técnica no cuenten con medios mecánicos para validar el pago, será imprescindible que quede constancia del mismo mediante adhesión en los distintos documentos de los sellos fiscales consulares correspondientes al total de los derechos percibidos, incluyendo, en su caso, los recargos autorizados en la presente Ley. Se tendrá especial cuidado en no superponer los sellos unos a otros. Los sellos consulares serán de serie única y, una vez adheridos, se anularán con un cuño donde figurará la suma de la cantidad en moneda local.</p>
+          <p class="parrafo">5. Para todos los actos o diligencias sujetos al pago de derechos consulares deberá entregarse al interesado recibo impreso. En este recibo deberá constar el importe total de los derechos percibidos, debiendo entregarse incluso en aquellos casos en los que fuese necesario adelantar o retrasar el pago.</p>
+          <p class="parrafo">6. En el caso de que se expidiesen documentos que den lugar a devengos sucesivos de las tasas consulares, se hará constar en los mismos, mediante diligencia extendida al efecto, la percepción por separado de las tasas devengadas.</p>
+          <p class="parrafo">7. Procederá la devolución de las tasas que se hubieran exigido cuando no se realice su hecho imponible por causas no imputables al sujeto pasivo, o cuando así lo establezca el derecho de la Unión Europea.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 9. Costes complementarios.</p>
+          <p class="parrafo">Los costes que se originen por las actuaciones complementarias que deban realizarse, tales como el uso de mensajería, correo electrónico, correo urgente, telefax, telegramas, conferencias telefónicas, uso de redes de telecomunicación, o cualquier otro, se tarifarán por el importe efectivo del gasto ocasionado.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 10. Normas sobre recaudación.</p>
+          <p class="parrafo">1. Las tasas consulares se ingresarán en el Tesoro Público.</p>
+          <p class="parrafo">2. Reglamentariamente se determinará la forma de recaudación, custodia e ingreso de los derechos recaudados, los cuales serán intervenidos por el Ministerio de Economía y Hacienda.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 11. Publicidad de las tarifas de las tasas consulares.</p>
+          <p class="parrafo">La lista de las tarifas de las tasas consulares y un ejemplar de esta Ley deberán estar disponibles al público en la página web del Ministerio de Asuntos Exteriores y de Cooperación y en la de las Oficinas Consulares, así como en el tablón de anuncios de estas últimas.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Tasa por actuaciones en materia de navegación marítima</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 12. Hecho imponible.</p>
+          <p class="parrafo">Constituyen el hecho imponible de esta tasa las siguientes actuaciones en materia de navegación marítima:</p>
+          <p class="parrafo_2">a) Las legalizaciones, por las Oficinas Consulares, de un diario de bitácora, de un nuevo rol o de cualquier otro libro o documento legalmente exigible de un barco.</p>
+          <p class="parrafo">b) Las expediciones de pasavantes por las Oficinas Consulares en aquellos supuestos en los que se realice por las mismas el abanderamiento provisional de una embarcación.</p>
+          <p class="parrafo">c) Las prórrogas de certificados sobre construcción, seguridad o características de un buque, hechas a petición de su capitán y en base al certificado de reconocimiento expedido por una sociedad de clasificación.</p>
+          <p class="parrafo">d) El nombramiento o sustitución del capitán de un buque y la correspondiente anotación en la patente de navegación.</p>
+          <p class="parrafo">e) Las actuaciones de enrolamiento o desenrolamiento, en buques de bandera nacional, de oficiales o asimilados, así como el del resto del personal de su dotación, o el de otras personas que viajen en el barco en concepto distinto al de pasajeros.</p>
+          <p class="parrafo">f) La instrucción de expediente, a petición del capitán o de parte interesada, sobre arribada forzosa, averías en el barco o en la carga y demás accidentes de mar.</p>
+          <p class="parrafo">g) La autorización de una protesta de averías.</p>
+          <p class="parrafo">h) La anotación de la presentación del diario de navegación.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 13. Exenciones.</p>
+          <p class="parrafo">Estarán exentas del pago de la tasa las actuaciones siguientes:</p>
+          <p class="parrafo_2">a) La autorización de un diario o cualquier libro de navegación destinado a los oficiales en prácticas o a los alumnos de náutica, máquinas o radioelectrónica.</p>
+          <p class="parrafo">b) El visado de las tarjetas y documentos de los alumnos de náutica, máquinas o radioelectrónica y de las escuelas de aviación civil, haciendo constar el tiempo de su formación profesional.</p>
+          <p class="parrafo">c) El enrolamiento o desenrolamiento de alumnos de náutica, máquinas o radioelectrónica.</p>
+          <p class="parrafo">d) Los expedientes instruidos de oficio sobre accidentes de mar o naufragios y los que origine la acción gubernativa de los cónsules que visiten los barcos nacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 14. Cuantía de la tasa.</p>
+          <p class="parrafo">La cuantía de la tasa por las actuaciones descritas en el artículo anterior serán las siguientes:</p>
+          <p class="parrafo_2">a) Autorización de un diario de Bitácora, un nuevo rol o cualquier otro tipo de barco. Por cada autorización: 50 euros.</p>
+          <p class="parrafo">b) Expedición de pasavantes por las Oficinas Consulares, en supuestos de abanderamiento provisional. Por cada pasavante: 100 euros.</p>
+          <p class="parrafo">c) Prórrogas de certificados sobre construcción, seguridad o características de un buque, hecho a petición del Capitán y en base al Certificado de reconocimiento expedido por una sociedad de clasificación. Por cada prórroga expedida: 30 euros.</p>
+          <p class="parrafo">d) Nombramiento o sustitución del Capitán de un buque y su correspondiente anotación en la patente de navegación. Por cada anotación: 50 euros.</p>
+          <p class="parrafo">e) Enrolamientos o desenrolamientos en buques de bandera nacional:</p>
+          <p class="parrafo_2">— Por cada Oficial o asimilado: 30 euros.</p>
+          <p class="parrafo">— Por cada persona que no tenga el rango de oficial o asimilado: 20 euros.</p>
+          <p class="parrafo_2">f) Instrucción de expedientes, a petición del capitán o de parte interesada, sobre arribada forzosa, averías en el barco o en la carga y demás accidentes de mar:</p>
+          <p class="parrafo_2">— Por la apertura de cada expediente: 30 euros.</p>
+          <p class="parrafo">— En las autorizaciones de protestas de averías, hasta dos hojas: 80 euros. Por cada hoja más: 15 euros.</p>
+          <p class="parrafo">— Por cada anotación en el diario de navegación: 25 euros.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Tasa por actos y contratos especiales de comercio</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 15. Hecho imponible.</p>
+          <p class="parrafo">Constituyen el hecho imponible de esta tasa los siguientes actos y contratos especiales de comercio:</p>
+          <p class="parrafo_2">a) La expedición de un certificado acreditativo del origen de mercancías que se vayan a importar a España.</p>
+          <p class="parrafo">b) El visado de un certificado de origen expedido por otras Autoridades competentes para ello.</p>
+          <p class="parrafo">c) Las gestiones para obtener el cobro de un crédito. Para su fijación, se establecerán porcentajes variables, en función de la cuantía que, efectivamente, se consiga cobrar.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 16. Cuantía de la tasa.</p>
+          <p class="parrafo">La cuantía de la tasa por las actuaciones descritas en el artículo anterior será la siguiente:</p>
+          <p class="parrafo_2">a) Por la expedición de cada certificado de origen: 80 euros.</p>
+          <p class="parrafo">b) Por el visado de un certificado de origen: 40 euros.</p>
+          <p class="parrafo">c) En las gestiones para obtener el cobro de un crédito, se aplicarán los porcentajes siguientes sobre los montantes efectivamente cobrados, atendiendo a los siguientes tramos de cantidades:</p>
+          <p class="parrafo_2">— Hasta 6.000 euros, el 1%.</p>
+          <p class="parrafo">— Desde 6.001 euros hasta 30.000 euros, el 0,75%.</p>
+          <p class="parrafo">— Desde 30.001 euros hasta 60.000 euros, el 0,50%.</p>
+          <p class="parrafo">— Desde 60.001 euros hasta 120.000 euros, el 0,25%.</p>
+          <p class="parrafo">— Desde 120.001 euros hasta 600.000 euros, el 0,10%.</p>
+          <p class="parrafo">— A partir de 600.001 euros, el 0,05%.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Tasa por actuaciones relativas a la documentación de las personas y tramitación de visados</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 17. Hecho imponible.</p>
+          <p class="parrafo">Constituye el hecho imponible de esta tasa la tramitación de la solicitud de expedición de pasaportes y la tramitación de visado. La tramitación de la solicitud de pasaporte incluye la expedición de un nuevo pasaporte en los siguientes casos:</p>
+          <p class="parrafo_2">a) Expiración de la validez del pasaporte.</p>
+          <p class="parrafo">b) Uso de todas las hojas del pasaporte.</p>
+          <p class="parrafo">c) Alteración, enmiendas, falta de hojas o cubierta, o existencia de escritos, anotaciones indebidas u otros defectos que dificulten la completa identificación del titular del pasaporte.</p>
+          <p class="parrafo">d) Extravío o sustracción del pasaporte en vigor.</p>
+          <p class="parrafo">e) Expedición, por motivos de seguridad u otros debidamente justificados, de un segundo pasaporte a una misma persona, con las limitaciones de validez temporal o territorial que en cada caso procedan.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 18. Exenciones y bonificaciones.</p>
+          <p class="parrafo">1. Estará exenta del pago de la tasa:</p>
+          <p class="parrafo_2">a) La expedición de salvoconductos, válidos únicamente para regresar a España.</p>
+          <p class="parrafo">b) La expedición de pasaportes en el caso de libreta defectuosa o error en los mismos por causas no imputables al solicitante.</p>
+          <p class="parrafo">c) La tramitación de los visados de cortesía, los visados solicitados por extranjeros que posean el estatuto de asilado o refugiado en España, los visados de acreditación, los visados solicitados por técnicos o científicos extranjeros invitados o contratados por el Estado español, y los visados que precisen los funcionarios civiles o militares de las Administraciones estatales extranjeras que vengan a España a desarrollar actividades en virtud de acuerdos de cooperación con el Estado español.</p>
+          <p class="parrafo_2">2. Se reducirá la cuantía de las tasas de tramitación de visado o incluso se estará exento de su pago en aquellos supuestos en que así se prevea por Convenio internacional bilateral o multilateral, de acuerdo con lo establecido en el mismo, así como en los casos de solicitudes presentadas por nacionales de terceros países a los que el derecho de la Unión Europea les haya concedido este beneficio.</p>
+          <p class="parrafo">3. Quedarán eximidas del pago de esta tasa, las actuaciones que de acuerdo con los usos y costumbres admitidos en derecho internacional tengan un origen inmediato y directo en razones de política exterior o de carácter humanitario.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 19. Cuantía de la tasa.</p>
+          <p class="parrafo">1. La cuantía de la tasa por la tramitación de las solicitudes de pasaporte presentadas en las Oficinas consulares será igual a la tasa legalmente establecida para la tramitación en España. Su modificación vendrá determinada por la variación de los importes por su tramitación en España, realizada de acuerdo con el procedimiento que se establezca a tal efecto.</p>
+          <p class="parrafo">2. La cuantía y modificación de la tasa por la tramitación de visado se ajustará, sin perjuicio de lo dispuesto en el derecho de la Unión Europea, a lo establecido en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Tasa por actos de administración y cancillería</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 20. Hecho imponible.</p>
+          <p class="parrafo">Constituyen el hecho imponible de esta tasa las actuaciones que, en el ejercicio de sus funciones administrativas, sean realizadas por las Oficinas Consulares a solicitud de los interesados, consistentes en la expedición de certificados, en traducciones consulares de documentos, en actuaciones de administración y gestión de bienes o depósitos, o en la legalización de firma de documentos administrativos.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 21. Exenciones.</p>
+          <p class="parrafo">Quedarán exentas del pago de la tasa las actuaciones siguientes:</p>
+          <p class="parrafo_2">a) Las traducciones de certificados que deban presentarse ante el Registro Civil español.</p>
+          <p class="parrafo">b) Las gestiones que se realicen para obtener el cobro de indemnizaciones por accidentes de trabajo.</p>
+          <p class="parrafo">c) Los actos administrativos necesarios para el reconocimiento, tramitación y pago de las prestaciones contempladas en los convenios de la seguridad social de los que España sea parte.</p>
+          <p class="parrafo">d) Los certificados de alta como transeúntes y los certificados de alta y de baja como residentes en el registro de matrícula del consulado.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 22. Cuantía de la tasa.</p>
+          <p class="parrafo">La cuantía de las tasas por las actuaciones descritas en el artículo anterior serán las siguientes:</p>
+          <p class="parrafo_2">a) Por expedición de cualquier tipo de certificado no contemplado específicamente en otras rúbricas: 10 euros, más 3 euros por cada folio suplementario.</p>
+          <p class="parrafo">b) Por expedición de un certificado de Ley o costumbre: 35 euros por folio.</p>
+          <p class="parrafo">c) Por traducciones simples de documentos públicos u oficiales:</p>
+          <p class="parrafo_2">— De un idioma extranjero al español, por cada hoja de 24 líneas: 50 euros.</p>
+          <p class="parrafo">— Del español a un idioma extranjero, por cada hoja de 24 líneas: 95 euros.</p>
+          <p class="parrafo">— La compulsa y otorgamiento de carácter oficial a la traducción hecha por un particular, por cada hoja de 30 líneas: 30 euros.</p>
+          <p class="parrafo_2">d) Por las gestiones realizadas para obtener el cobro de caudal relicto de una sucesión testada y ab intestato: el 1% de su importe.</p>
+          <p class="parrafo">e) Por la administración consular directa de oficio o con carácter particular de bienes procedentes de sucesiones testadas o ab intestato o de cualquier otro origen, anualmente sobre el importe de sus rentas o intereses: el 2,5%.</p>
+          <p class="parrafo">f) Por el depósito voluntario de dinero, alhajas o valores, sobre el valor del mismo, por una sola vez: el 3%. Si el depósito consiste sólo en documentos: 20 euros.</p>
+          <p class="parrafo">g) Por legalización de firma de documentos administrativos:</p>
+          <p class="parrafo_2">— Legalizaciones: 7 euros por firma.</p>
+          <p class="parrafo">— Legitimación de firma: 6 euros, más 3 euros por cada firma adicional en el mismo documento.</p>
+          <p class="parrafo">— Cotejo y compulsa de documentos: 3 euros por diligencia de cotejo.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Tasa por actos notariales</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 23. Hecho imponible.</p>
+          <p class="parrafo">Constituyen el hecho imponible de esta tasa las actuaciones que, en el ejercicio de sus funciones notariales, sean realizadas por las Oficinas Consulares, ya consistan éstas en las relacionadas con el ejercicio de la fe pública en los contratos, testamentos y demás actos jurídicos que autoricen; en la redacción de las escrituras y actas matrices; en la expedición de copias y testimonios; en las legalizaciones o legitimaciones de firmas; o en cualquier otra que la legislación les atribuya en este ámbito.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 24. Exenciones y bonificaciones.</p>
+          <p class="parrafo">1. Estará exenta del pago de tasa la autorización de poderes para el cobro de las pensiones e indemnizaciones que correspondan a personas físicas, siempre que la cuantía de las mismas no supere la cuantía máxima prevista en el sistema de pensiones de la seguridad social en España.</p>
+          <p class="parrafo">2. Serán de aplicación las exenciones o bonificaciones que, en su caso, la legislación establezca para los aranceles notariales correspondientes, así como las establecidas en el artículo 5 de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Artículo 25. Cuantía de la tasa.</p>
+          <p class="parrafo">1. La cuantía de la tasa por las actuaciones descritas en el artículo anterior será la establecida en la normativa vigente en materia de aranceles notariales.</p>
+          <p class="parrafo">2. La modificación de las cuantías vendrá determinada por la variación de los importes de los aranceles notariales realizada de acuerdo con el procedimiento específico establecido en la normativa vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Disposición adicional única. Tasa por la tramitación y, en su caso, expedición del título de Traductor/a-Intérprete Jurado/a y de expedición del carné.</p>
+          <p class="parrafo">1. Constituyen el hecho imponible de esta tasa las siguientes actuaciones por parte del Ministerio de Asuntos Exteriores y de Cooperación:</p>
+          <p class="parrafo_2">a) La tramitación y, en su caso, expedición del título de Traductor/a-Intérprete Jurado/a.</p>
+          <p class="parrafo">b) La expedición, sustitución, duplicación o modificación del carné de Traductor/a-Intérprete Jurado/a.</p>
+          <p class="parrafo_2">Se entenderá por sustitución del carné la expedición del nuevo modelo de carné con arreglo al Real Decreto 2002/2009, de 23 de diciembre, por el que se modifica el Reglamento de la Oficina de Interpretación de Lenguas del Ministerio de Asuntos Exteriores, aprobado por Real Decreto 2555/1977, de 27 de agosto.</p>
+          <p class="parrafo">Se entenderá por duplicación del carné la expedición de un nuevo carné por pérdida o robo del mismo.</p>
+          <p class="parrafo">Se entenderá por modificación del carné la variación de los datos del Traductor/a-Intérprete Jurado/a recogidos en el mismo.</p>
+          <p class="parrafo">2. En el supuesto contemplado en la letra a) del apartado anterior el devengo de la tasa se producirá en el momento de la presentación de la solicitud de tramitación del título de Traductor/a-Intérprete Jurado/a, debiendo presentarse junto a ésta el justificante del pago. En el supuesto contemplado en la letra b) del apartado anterior, el devengo de la tasa se producirá en el momento de realizar el trámite de verificación de firma y sello y la recogida del nombramiento y/o el carné en la Delegación o Subdelegación del Gobierno u Oficina Consular que corresponda, debiendo presentar el recibo justificativo del pago.</p>
+          <p class="parrafo">3. Serán sujetos pasivos de la tasa:</p>
+          <p class="parrafo_2">a) En el supuesto de la letra a) del apartado 1 de este artículo, las personas físicas que inicien un procedimiento con el fin de obtener dicho título por cualquier vía prevista en la normativa vigente.</p>
+          <p class="parrafo">b) En el supuesto de la letra b) del apartado 1 de este artículo, las personas físicas que hayan obtenido el título por cualquier vía prevista en la normativa vigente.</p>
+          <p class="parrafo_2">4. Estarán exentos de la tasa por expedición del título quienes accedan a la condición de Traductor/a-Intérprete Jurado/a mediante la superación de los exámenes convocados a tal efecto por el Ministerio de Asuntos Exteriores y de Cooperación.</p>
+          <p class="parrafo">5. En el supuesto de la letra a) del apartado 1, la cuantía de la tasa será equivalente a la recogida por derechos de examen en el artículo 18 de la Ley 66/1997, de 30 de diciembre, de medidas fiscales, administrativas y del orden social. En el supuesto de la letra b) del apartado 1, la cuantía de la tasa será de 6 euros. El contenido del artículo 6 de esta ley será de aplicación a lo dispuesto en este apartado.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Ley 7/1987, de 29 de mayo, de Tasas Consulares, y cualesquiera otras normas de igual o inferior rango en lo que contradigan o se opongan a lo dispuesto en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Esta Ley se dicta al amparo de los dispuesto en el artículo 149.1.3.ª de la Constitución.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Disposición final segunda. Habilitación para su desarrollo.</p>
+          <p class="parrafo">Sin perjuicio de lo previsto con carácter específico respecto a la determinación y la cuantía de las tasas en los artículos 19 y 25, se autoriza al Gobierno para dictar, a propuesta de los Ministros de Asuntos Exteriores y de Cooperación y de Economía y Hacienda, las normas que sean necesarias para el desarrollo y aplicación de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">La presente ley entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2011-8222" fecha_publicacion="20110511" fecha_vigencia="20110811">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley.</p>
+          <p class="parrafo_2">Madrid, 10 de mayo de 2011.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ LUIS RODRÍGUEZ ZAPATERO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

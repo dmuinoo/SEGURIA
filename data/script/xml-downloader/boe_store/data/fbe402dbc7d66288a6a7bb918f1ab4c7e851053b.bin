@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T194136Z</fecha_actualizacion>
+      <identificador>BOE-A-2002-19381</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8100">Comunidad Autónoma de la Región de Murcia</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20020625</fecha_disposicion>
+      <numero_oficial>6/2002</numero_oficial>
+      <titulo>Ley 6/2002, de 25 de junio, de Estadística de la Región de Murcia.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20021008</fecha_publicacion>
+      <diario_numero>241</diario_numero>
+      <fecha_vigencia>20020729</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-mc/l/2002/06/25/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2002-19381</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3455">Estadística</materia>
+        <materia codigo="5069">Murcia</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOMU núm. 157, de 9 de julio de 2002.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-15031</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 10.1.24 y 10.2 del Estatuto aprobado por Ley Orgánica 4/1982, de 9 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-19381</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-25</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-19381</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/con/20020709"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/2002, de 25 de junio, de Estadística de la Región de Murcia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-10-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/con/20020709">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-19381</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-09</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/con/20020709/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/2002, de 25 de junio, de Estadística de la Región de Murcia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/con/20020709"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2002/06/25/6/con/20020709/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2002/06/25/6/con/20020709/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://www.borm.es/eli/es-mc/l/2002/06/25/6"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos de la Región de Murcia que la Asamblea Regional ha aprobado la Ley 6/2002, de 25 de junio, de Estadística de la Región de Murcia.</p>
+          <p class="parrafo">Por consiguiente, al amparo del artículo 30.dos del Estatuto de Autonomía, en nombre del Rey, promulgo y ordeno la publicación de la siguiente Ley.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="centro_redonda">I</p>
+          <p class="parrafo_2">El Estatuto de Autonomía de la Región de Murcia inicialmente sólo reconocía, en su artículo 11, apartado i), las facultades de «desarrollo legislativo y de ejecución en materia de estadística para sus propios fines y competencias». Como es obvio, dada la creciente importancia en nuestra sociedad de la estadística como instrumento fundamental para el conocimiento objetivo y completo de la realidad económica, social y demográfica de un determinado ámbito territorial, era imprescindible que se ampliara esa competencia para ejercerla con exclusividad. Esta facultad fue concedida por la Ley Orgánica 9/1992 y asumida en la Ley 4/1994, de 24 de marzo, que modifica el Estatuto de Autonomía, y recoge, en su artículo 10.1.25, «las competencias exclusivas de estadísticas para fines no estatales», quedando completado con lo dispuesto en el artículo 10.2, «otorgándole para su ejercicio la potestad legislativa, reglamentaria y de ejecución».</p>
+          <p class="parrafo">Partiendo de este marco jurídico y debido a la creciente actividad estadística en la Comunidad Autónoma de la Región de Murcia y a que la legislación vigente del Estado en materia de estadística no regulada de forma adecuada -ya que no es este su objetivo- la actividad estadística de interés para esta Comunidad, se hace necesario la promulgación de una Ley que regule y desarrolle la actividad estadística pública para los fines y competencias de la Comunidad Autónoma de la Región de Murcia, coordine actuaciones y operaciones con otras Administraciones en materia de estadística, genere información para un mejor conocimiento de la realidad socioeconómica y demográfica y garantice el intercambio y comparabilidad de los datos estadísticos que produzca con los de otras Comunidades Autónomas y organismos nacionales o supranacionales, procurando que la metodología y técnicas empleadas permitan alcanzar los fines señalados.</p>
+          <p class="parrafo">En casi todos los ámbitos de la actividad humana, para hacer un buen diagnóstico de la situación actual, es preciso contar con los medios adecuados para este fin. La estadística es uno de los instrumentos con los que cuenta el hombre para obtener un conocimiento objetivo de la realidad, especialmente en su ámbito socioeconómico, suministrando información que es utilizada para el desarrollo de actividades tanto de carácter público como privado. La estadística oficial sirve de fundamento tanto para tomar decisiones en las tareas de gobierno, facilitando la adopción de las diferentes políticas a ejecutar en cada uno de los sectores de actividad, como en el resto de actividades sociales, económicas y administrativas. Estas características hacen de la estadística un eficiente método analítico para las Administraciones Públicas y las comparaciones entre sí.</p>
+          <p class="parrafo">La aprobación de la Carta Magna y la consiguiente aparición del Estado de las Autonomías, junto con la incorporación de España a la Unión Europea, con un ordenamiento jurídico comunitario (Tratados, Directivas, Reglamentos, etc.), cuya aplicación directa o indirecta debe de observarse, y debido a que la estadística estatal no proporciona, en la mayoría de los casos, una información lo suficientemente detallada a nivel regional que sirva de apoyo para el desarrollo de nuestra Región, se hace necesario dotar a la Comunidad Autónoma de la Región de Murcia de un sistema estadístico propio que genere la información estadística necesaria.</p>
+          <p class="centro_redonda">II</p>
+          <p class="parrafo_2">La presente Ley se estructura en un título preliminar y cuatro títulos, divididos a su vez en un total de seis capítulos.</p>
+          <p class="parrafo">El título preliminar determina el objeto y ámbito de aplicación de la Ley, así como sus exclusiones.</p>
+          <p class="parrafo">El título I dividido en dos capítulos, define lo que en el ámbito de esta Ley se entiende por actividad estadística y regula dicha actividad de la Comunidad Autónoma de la Región de Murcia, estableciéndose en el capítulo I los principios y garantías por los que dicha actividad ha de regirse, y en el capítulo II, el marco de la actuación estadística, cuyas figuras centrales son el Plan Estadístico de la Comunidad Autónoma de la Región de Murcia y los Programas Anuales de Estadística.</p>
+          <p class="parrafo">En relación al capítulo I, que establece los principios y garantías a las que ha de someterse la actividad estadística, se tiene especial cuidado en el tratamiento del principio de secreto estadístico (recogido en la sección 3.<sup>a</sup>).</p>
+          <p class="parrafo">El capítulo II regula las figuras del Plan Estadístico de la Comunidad Autónoma de la Región de Murcia como instrumento de promoción, ordenación y planificación de la actividad estadística pública de interés para la Comunidad Autónoma de la Región de Murcia, y de los Programas Anuales de Estadística como instrumento de desarrollo y ejecución anual del anterior, facultando al Consejo de Gobierno para autorizar la realización de otras estadísticas no incluidas en planes y programas.</p>
+          <p class="parrafo">El título II establece y regula la organización estadística, diseñando el sistema estadístico de la Comunidad Autónoma de la Región de Murcia, en el capítulo I, que estará constituido por: El Centro Regional de Estadística de Murcia, responsable de la actividad estadística de interés para la Comunidad Autónoma, desarrollando, entre otras funciones, la de la coordinación de todo el sistema estadístico; las Unidades de las Consejerías, organismos o empresas dependientes de ellas que realicen actividad estadística, y el Consejo de Estadística de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">El Consejo de Estadística de la Comunidad Autónoma de la Región de Murica, como órgano consultivo y de participación del sistema estadístico regional, tiene como objeto facilitar la relación de los órganos estadísticos entre sí y de éstos con los informantes y usuarios. En este órgano están representadas todas las Administraciones Públicas (autonómica, local y estatal), así como las organizaciones sindicales y empresariales, las instituciones académicas y las organizaciones de consumidores.</p>
+          <p class="parrafo">El título III regula las relaciones del sistema estadístico regional con las Unidades de la Administración Local, los organismos y empresas de ella dependientes, que realicen actividad estadística, facilitándoles los instrumentos y apoyos legales y normativos para que la estadística local pueda beneficiarse de la regulación que la presente Ley establece para la estadística de interés para la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">El título IV viene a regular el régimen sancionador, estableciéndose las infracciones y sanciones aplicables a todos aquellos que incumplan las normas y deberes que esta Ley impone.</p>
+          <p class="parrafo">Por último, hay que señalar que, tanto en el texto como en el espíritu de la Ley, está presente la voluntad de producir, en la forma más adecuada posible, la información estadística que puede ser útil para el desarrollo de la Región de Murcia; todo ello bajo la perspectiva de la objetividad y el rigor científico-técnico.</p>
+        </version>
+      </bloque>
+      <bloque id="tp" tipo="encabezado" titulo="TÍTULO PRELIMINAR">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="titulo_num">TÍTULO PRELIMINAR</p>
+          <p class="titulo_tit">Objeto y ámbito de aplicación de la Ley</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación de la Ley.</p>
+          <p class="parrafo">1. Es objeto de la presente Ley la regulación de la actividad estadística pública de interés de la Comunidad Autónoma de la Región de Murcia, en los términos expresados en el artículo 3 de esta Ley.</p>
+          <p class="parrafo">2. La presente Ley es de aplicación a la actividad estadística de interés de la Comunidad Autónoma de la Región de Murcia realizada por:</p>
+          <p class="parrafo_2">a) La Administración Pública regional y los organismos, entes y empresas dependientes de ella.</p>
+          <p class="parrafo">b) Las entidades locales de la Comunidad Autónoma de la Región de Murcia y los organismos, entes y empresas dependientes de ella.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 2. Exclusiones.</p>
+          <p class="parrafo">La presente Ley no será de aplicación a:</p>
+          <p class="parrafo_2">a) La actividad estadística para fines estatales a que se refiere el artículo 149.1.31 de la Constitución, tanto si la efectúan directamente los órganos competentes de la Administración General del Estado como si es efectuada por otras entidades, por Convenio, encargo o en colaboración con los mismos.</p>
+          <p class="parrafo">b) La actividad estadística realizada por personas físicas o jurídicas privadas o de Derecho público, no comprendidas en el artículo 1.2 de la presente Ley.</p>
+          <p class="parrafo">c) Las encuestas de opinión, ya sean realizadas por organismos públicos o entidades privadas de cualquier naturaleza, y los sondeos electorales.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">La estadística de la Comunidad Autónoma de la Región de Murcia</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 3. Actividad estadística pública de interés de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">A efectos de esta Ley, se entiende por actividad estadística pública la recopilación, obtención, tratamiento y conservación de datos para elaborar estadísticas, así como la publicación y difusión de las mismas, realizadas por Unidades de las Administraciones Públicas; siendo de interés de la Comunidad Autónoma la que proporciona información estadística territorializada sobre la realidad demográfica, social y económica de la Comunidad Autónoma de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Principios rectores de la actividad estadística pública de la Comunidad Autónoma de la Región de Murcia</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 4. Principios rectores de la actividad estadística pública.</p>
+          <p class="parrafo">La actividad estadística regulada por la presente Ley se regirá, con carácter general, por los principios de interés público, transparencia, proporcionalidad, especialidad, homogeneidad, rigor y corrección técnica, respeto a la intimidad, difusión y publicidad de resultados, secreto estadístico, conservación y custodia de la información, obligatoriedad de suministro de información y cooperación entre las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="seccion">Sección 1.ª Principios generales</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 5. De interés público.</p>
+          <p class="parrafo">La presente Ley regula la actividad estadística desarrollada con motivo de interés público. Corresponderá a la Asamblea Regional de Murcia apreciar y calificar el interés público de una estadística mediante la aprobación del Plan de Estadística de la Comunidad Autónoma de la Región de Murcia, a que se refiere el artículo 29, sin perjuicio de las facultades reconocidas al Consejo de Gobierno y a las distintas Unidades administrativas de la Comunidad Autónoma de la Región de Murcia en el artículo 31 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 6. De transparencia.</p>
+          <p class="parrafo">1. En aplicación del principio de transparencia, los sujetos que suministren datos con fines estadísticos tienen derecho a obtener información completa sobre:</p>
+          <p class="parrafo_2">a) La protección que corresponda a dichos datos.</p>
+          <p class="parrafo">b) La finalidad a la que se destinan.</p>
+          <p class="parrafo">c) El carácter obligatorio o no de la respuesta.</p>
+          <p class="parrafo_2">Las Unidades que realizan actividades estadísticas están obligadas a proporcionar dicha información.</p>
+          <p class="parrafo">2. En todos los cuestionarios o formularios de cada operación estadística regulada por la presente Ley se deberá hacer constar:</p>
+          <p class="parrafo_2">a) Las características de la actividad estadística que se realiza.</p>
+          <p class="parrafo">b) La finalidad principal a la que se destinan los datos.</p>
+          <p class="parrafo">c) La obligatoriedad, en su caso, de colaborar.</p>
+          <p class="parrafo">d) Las sanciones que pudieran imponérsele por el incumplimiento de las obligaciones recogidas en esta Ley.</p>
+          <p class="parrafo">e) La protección que le dispensa el secreto estadístico.</p>
+          <p class="parrafo">f) La posibilidad de ejercitar los derechos de acceso y rectificación.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 7. De proporcionalidad y especialidad.</p>
+          <p class="parrafo">1. Cualquier organismo, ente o Departamento encargado de llevar a cabo una actividad estadística de las reguladas por esta Ley, estará obligado a la aplicación del principio de proporcionalidad entre los resultados que se pretenden obtener y la naturaleza y el volumen de la información que se solicita. En todo caso, los datos de identificación no serán tratados, salvo cuando sea estrictamente necesario.</p>
+          <p class="parrafo">2. En virtud del principio de especialidad, es exigible a los servicios estadísticos que los datos recogidos para la elaboración de estadísticas se destinen a los fines que justificaron la obtención de los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 8. De homogeneidad.</p>
+          <p class="parrafo">Para la realización de la actividad estadística regulada por esta Ley, se aplicarán un conjunto unificado de unidades estadísticas y territoriales, nomenclaturas, códigos, clasificaciones y definiciones, así como cualquier otra característica que contribuya a homogeneizar la actividad estadística.</p>
+          <p class="parrafo">Las referidas unidades, nomenclaturas, códigos, clasificaciones, definiciones y demás características deberán ser aprobados por el Consejo de Gobierno, mediante Decreto, y serán compatibles con las establecidas por la Administración General del Estado y la Unión Europea, a efectos de homogeneidad y comparabilidad de datos.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 9. Del rigor y corrección técnica.</p>
+          <p class="parrafo">Toda actividad estadística oficial desarrollada por las Unidades del sistema estadístico de la Comunidad Autónoma de la Región de Murcia se llevará a cabo de acuerdo con una metodología y procedimiento de trabajo que garantice su corrección, exactitud y la comparación e integración de los datos y resultados estadísticos de los distintos elementos del sistema estadístico regional y los de otras Administraciones y organismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 10. Del respeto a la intimidad.</p>
+          <p class="parrafo">La actividad estadística regulada en esta Ley se llevará a cabo con absoluto respeto a los derechos constitucionales al honor y a la intimidad personal y familiar. En todo caso, serán de aportación estrictamente voluntaria y, en consecuencia, sólo podrán recogerse, previo consentimiento expreso de los interesados, los datos susceptibles de revelar el origen étnico, las opiniones políticas, las convicciones religiosas o ideológicas y, en general, cuantas circunstancias puedan afectar a la intimidad personal o familiar.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="seccion">Sección 2.ª Difusión y publicidad de las estadísticas oficiales</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 11. Publicidad de las estadísticas oficiales.</p>
+          <p class="parrafo">A los efectos de esta Ley, tendrán la consideración de estadísticas oficiales las incluidas en el Plan Estadístico y las que hayan sido realizadas en virtud de acuerdos de Consejo de Gobierno.</p>
+          <p class="parrafo">Los resultados de las estadísticas se harán públicos junto con su metodología y se difundirán imparcial y ampliamente, ofreciendo siempre datos agregados, sin referencia a datos individuales, de conformidad con las normas reguladoras del secreto estadístico contenidas en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 12. Carácter oficial de los resultados.</p>
+          <p class="parrafo">Tendrán carácter oficial los resultados de cualquier estadística oficial desde el momento en que se hagan públicos mediante su difusión en publicaciones u otros soportes.</p>
+          <p class="parrafo">El personal vinculado a las Unidades estadísticas que realizan actividad estadística regulada por la presente Ley, y las personas físicas o jurídicas que colaboren con aquellas Unidades en virtud de acuerdos, Convenios o contratos deberán guardar absoluta reserva por razón de su trabajo profesional hasta que éstos se hayan hecho públicos, salvo autorización expresa del Director o responsable máximo de la Unidad estadística correspondiente.</p>
+          <p class="parrafo">Esta reserva deberá guardarse con independencia de las obligaciones que se deriven del cumplimiento del secreto estadístico.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 13. Difusión estadística.</p>
+          <p class="parrafo">Dado el carácter de servicio público de la actividad estadística, los resultados se difundirán por los medios más efectivos y en un plazo adecuado a sus características.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 14. Explotaciones especiales.</p>
+          <p class="parrafo">El organismo, servicio o ente de la Administración de la Comunidad Autónoma de la Región de Murcia elaborador de una estadística facilitará, en un plazo acorde con sus recursos, a quien lo solicite, otras tabulaciones o elaboraciones estadísticas distintas de las publicadas, si dicha petición reúne las siguientes características:</p>
+          <p class="parrafo_2">a) No contravenir el secreto estadístico. En ningún caso los servicios estadísticos podrán difundir datos de carácter personal.</p>
+          <p class="parrafo">b) Reunir las suficientes garantías técnicas.</p>
+          <p class="parrafo">c) No alterar de manera significativa el normal desenvolvimiento de los servicios estadísticos.</p>
+          <p class="parrafo_2">A estos efectos, se podrá establecer una contraprestación económica acorde con el coste del servicio, de conformidad con lo dispuesto en la Ley 7/1997, de 29 de octubre, de Tasas, Precios Públicos y Contribuciones Especiales.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="seccion">Sección 3.ª Secreto estadístico</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 15. Del secreto estadístico.</p>
+          <p class="parrafo">A efectos de esta Ley, se entiende por secreto estadístico la obligación de no divulgar ni comunicar el conocimiento que una persona posea como consecuencia de la actividad estadística, así como la obligación de no actuar sobre la base de dicho conocimiento.</p>
+          <p class="parrafo">Con el fin de proteger el secreto estadístico, los servicios estadísticos estarán obligados a adoptar las medidas técnicas y organizativas necesarias para proteger la información.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 16. Ámbito del secreto estadístico.</p>
+          <p class="parrafo">Serán objeto de protección y quedarán amparados por el secreto estadístico los datos personales.</p>
+          <p class="parrafo">Se entiende por datos personales los referidos a personas físicas o jurídicas que permitan la identificación directa de los interesados o bien conduzcan por su estructura, contenido o grado de desagregación a dicha identificación.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 17. Comunicación entre las Unidades estadísticas.</p>
+          <p class="parrafo">Los datos amparados por el secreto estadístico podrán ser comunicados, a efectos exclusivamente estadísticos, a otras Unidades estadísticas de las Administraciones Públicas siempre que se cumplan los siguientes requisitos, que habrán de ser comprobados por la Unidad estadística que los tenga en custodia:</p>
+          <p class="parrafo_2">1. Que dichas Unidades desarrollen funciones fundamentalmente estadísticas y hayan sido expresamente designadas de acuerdo a la normativa legal vigente como sujetos del secreto estadístico.</p>
+          <p class="parrafo">2. Que la información a transferir esté relacionada justificadamente con las funciones estadísticas que dichas Unidades tengan encomendadas.</p>
+          <p class="parrafo">3. Que los Servicios o Unidades estadísticas dispongan de los medios necesarios para preservar el secreto estadístico.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 18. Comunicación con fines científicos.</p>
+          <p class="parrafo">Podrá permitirse a los institutos de investigación científica y a los investigadores el acceso a los datos amparados por el secreto estadístico, siempre que dichas instituciones o personas cumplan las condiciones que se establezcan reglamentariamente, en orden a garantizar la protección física e informática de los datos amparados por el secreto estadístico, y a evitar cualquier riesgo de divulgación ilícita. Cuando dicho acceso se produzca, se le comunicará previamente a la Agencia de Protección de Datos o al órgano correspondiente de la Comunidad Autónoma de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 19. La utilización de los datos amparados por el secreto estadístico.</p>
+          <p class="parrafo">Sin perjuicio de lo dispuesto en el artículo anterior, queda prohibida la utilización de los datos amparados por el secreto estadístico para fines distintos de los estadísticos y, especialmente para finalidades fiscales y policiales.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 20. Los obligados a mantener el secreto estadístico.</p>
+          <p class="parrafo">Tienen obligación de mantener el secreto estadístico todas las personas físicas o jurídicas, organismos o instituciones de cualquier naturaleza que intervengan en cualquiera de las fases del proceso estadístico. Este deber se iniciará desde el momento en que se obtenga la información por él amparada y se mantendrá aun después de que las personas obligadas a preservarlo concluyan su vinculación a los Servicios estadísticos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 21. Incumplimiento del secreto estadístico.</p>
+          <p class="parrafo">El incumplimiento del deber de secreto estadístico dará lugar a responsabilidades indemnizatorias de los daños y perjuicios causados, sin perjuicio de las responsabilidades penales o disciplinarias, y de la potestad sancionadora a que se refiere el título IV de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 22. Excepciones del secreto estadístico.</p>
+          <p class="parrafo">No quedan amparados por el secreto estadístico:</p>
+          <p class="parrafo_2">1. Cualquier dato que no afecte a la intimidad de los personas.</p>
+          <p class="parrafo">2. Los directorios de establecimientos, empresas, organismos o entes de cualquier clase que no contengan más datos que la denominación, emplazamiento, indicadores de actividad, tamaño y otras características generales que habitualmente se incluyan en los Registros cuya publicidad haya sido declarada en normas con rango de Ley.</p>
+          <p class="parrafo">3. Los datos protegidos, cuando el interesado manifieste por escrito su consentimiento expreso a que sean públicamente consultados, o cuando hayan transcurrido, al menos, veinticinco años desde su muerte o cincuenta años desde el suministro de la información.</p>
+        </version>
+      </bloque>
+      <bloque id="s4" tipo="encabezado" titulo="Sección 4">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="seccion">Sección 4.ª Conservación, custodia y obligatoriedad del suministro de la información</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 23. Conservación y custodia de la información.</p>
+          <p class="parrafo">a) Las Unidades estadísticas conservarán y custodiarán los cuestionarios y otros soportes de la información recogida con destino a la elaboración de estadísticas en tanto sea necesario, debiendo adoptar las medidas de seguridad que garanticen los principios de esta Ley. En todo caso, los datos identificativos se guardarán en un fichero separado, que sólo se tratará en caso necesario.</p>
+          <p class="parrafo">b) En el momento que se considere que una información carece de utilidad, se destruirá en la forma que reglamentariamente se establezca.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 24. Derechos de acceso y rectificación.</p>
+          <p class="parrafo">Los sujetos que suministren datos con fines estadísticos tienen derecho a solicitar y obtener información sobre los mismos, así como a su rectificación, en caso de que sean inexactos o incompletos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 25. Estadísticas de respuesta obligatoria.</p>
+          <p class="parrafo">Serán estadísticas de respuesta obligatoria las que se determinen así expresamente en el Plan de Estadística y en los Programas Anuales de la Comunidad Autónoma de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 26. Personas obligadas a suministrar información.</p>
+          <p class="parrafo">La obligación de suministrar información a la entidad u organismo que lleve a cabo las actividades estadísticas enumeradas en el artículo anterior se extiende a todas las personas, cualquiera que sea su naturaleza y nacionalidad, que tengan su domicilio o residencia, o ejerzan su actividad en el territorio de la Comunidad Autónoma de la Región de Murcia. Esta obligación podrá extenderse a las actividades que se desarrollen fuera del territorio de la Comunidad Autónoma de la Región de Murcia, siempre que sea apropiado a las finalidades perseguidas por la estadística y así esté previsto en las normas reguladoras de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 27. La forma de suministrar información.</p>
+          <p class="parrafo">1. La información suministrada, en el ámbito de las actividades reguladas por la presente Ley, ha de ser veraz y completa, ajustada al plazo de respuesta y respetar las demás circunstancias que figuren en las normas reguladoras de la actividad estadística de que se trate.</p>
+          <p class="parrafo">2. Cuando para la realización de la actividad se requieran datos obrantes en cualquiera de las Administraciones Públicas, los órganos, autoridades y funcionarios responsables, en cada caso, prestarán la más rápida y ágil colaboración a los servicios estadísticos.</p>
+        </version>
+      </bloque>
+      <bloque id="s5" tipo="encabezado" titulo="Sección 5">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="seccion">Sección 5.ª Cooperación entre Administraciones Públicas</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 28. La cooperación entre las Administraciones Públicas.</p>
+          <p class="parrafo">Para lograr una mayor eficiencia y eficacia en la utilización de los recursos públicos en la actividad estadística, el sistema estadístico de la Comunidad Autónoma de la Región de Murcia, dentro del marco de sus competencias, fomentará y favorecerá la cooperación con las Administraciones locales, con la Administración General del Estado, con el de otras Comunidades Autónomas, con la Unión Europea y con los organismos internacionales en todos los niveles de la actividad estadística.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Planificación de la actividad estadística</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 29. El Plan de Estadística de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">1. El Plan de Estadística de la Comunidad Autónoma de la Región de Murcia es el instrumento de promoción, ordenación y planificación de la actividad estadística pública de interés para la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">2. El Plan de Estadística de la Comunidad Autónoma de la Región de Murcia se aprobará mediante Ley. Su vigencia será de cuatro años o, en su defecto, la que establezca la Ley que lo aprueba, quedando prorrogado hasta la entrada en vigor del siguiente, en caso de no haberse aprobado un nuevo Plan al vencimiento del vigente, con la excepción de las operaciones que deban excluirse en virtud de los plazos o períodos establecidos en el mismo para su inicio o finalización.</p>
+          <p class="parrafo">3. La coordinación de la preparación del Plan será competencia del Centro Regional de Estadística de Murcia.</p>
+          <p class="parrafo">4. Dicho Plan contendrá, como mínimo:</p>
+          <p class="parrafo_2">a) Las operaciones estadísticas que se iniciarán durante su período de vigencia.</p>
+          <p class="parrafo">b) El enunciado de su fines y la descripción general de su contenido: Características técnicas, periodicidad, la obligatoriedad, en su caso, de colaborar y al protección que le dispensa el secreto estadístico.</p>
+          <p class="parrafo">c) Las Unidades o Servicios que la realizarán.</p>
+          <p class="parrafo">d) Las operaciones estadísticas, en su caso, derivadas de Convenios entre la Comunidad Autónoma de la Región de Murcia y otras Administraciones u organismos.</p>
+          <p class="parrafo">e) El ámbito territorial para el que se ofrecerá la información en cada operación estadística.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 30. Los programas anuales de estadísticas.</p>
+          <p class="parrafo">1. Los programas de estadística definen las actuaciones en esta materia, a desarrollar cada año, tomando como referencia el Plan de Estadística de la Comunidad Autónoma de la Región de Murcia vigente. El programa anual será aprobado por el Consejo de Gobierno a propuesta de la Consejería que tenga atribuidas las competencias en materia de estadística.</p>
+          <p class="parrafo">2. Cada programa anual debe contener, al menos, las especificaciones contempladas en el punto 4 del artículo anterior, además del coste aproximado de la operación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 31. Otras estadísticas no incluidas en el Plan o Programa Anual.</p>
+          <p class="parrafo">1. Con independencia de lo dispuesto en los artículos anteriores, el Consejo de Gobierno podrá autorizar, por motivos de oportunidad o urgencia, la realización de estadísticas no contempladas en el Plan o en el Programa Anual. Estas estadísticas tendrán la consideración de oficiales.</p>
+          <p class="parrafo">2. Las Unidades administrativas de la Comunidad Autónoma de la Región de Murcia podrán realizar, para sus necesidades, estadísticas no incluidas en el Plan o Programa Anual, cumpliendo, en todo momento, los principios y normas establecidas en esta Ley y las que los desarrollen y completen. Cuando tales operaciones estadísticas impliquen petición de información a personas físicas o jurídicas al margen de las relaciones administrativas propias de sus funciones, necesitarán, para realizarlas informe previo y preceptivo del Centro Regional de Estadística de Murcia, en aras de evitar duplicidades y asegurar la necesaria coordinación.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">La organización estadística de la Comunidad Autónoma de la Región de Murcia</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 32. Del sistema estadístico de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">1. La actuación referente a la estadística de la Comunidad Autónoma de la Región de Murcia se llevará a cabo, en los términos previstos en la presente Ley, por el sistema estadístico de la Comunidad Autónoma de la Región de Murcia. Dicho sistema está constituido por las Unidades que realizan actividad estadística de interés para la Región y las reglas que coordinan su actuación. Las Unidades del sistema estadístico son:</p>
+          <p class="parrafo_2">a) El Centro Regional de Estadística de Murcia.</p>
+          <p class="parrafo">b) Las Unidades de las Consejerías, organismos autónomos, entes y empresas públicas que realicen actividad estadística.</p>
+          <p class="parrafo">c) El Consejo de Estadística de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">d) Las Unidades de las Administraciones locales, los organismos, entes o empresas dependientes de ellas que realicen actividades estadísticas.</p>
+          <p class="parrafo_2">2. Las Unidades del sistema estadístico de la Comunidad Autónoma de la Región de Murcia podrán desarrollar la actividad estadística de interés para la Comunidad Autónoma o la correspondiente entidad local, o mediante la celebración de acuerdos, Convenios o contratos con otras Administraciones Públicas, o con entidades privadas, que quedarán sometidas a la normativa de la presente Ley en el desarrollo de la actividad estadística objeto de acuerdo.</p>
+          <p class="parrafo">3. Las funciones de planificación, normalización y coordinación técnica de la actividad estadística están centralizadas en el Centro Regional de Estadística de Murcia; la producción y difusión están distribuidas entre las Unidades del sistema estadístico, de acuerdo con lo establecido en la presente Ley y lo que, en su momento, establezcan la Ley del Plan de Estadística de la Comunidad Autónoma de la Región de Murcia, los Programas Anuales y la normativa que los desarrolle.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">El Centro Regional de Estadística de Murcia</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 33. Naturaleza y adscripción.</p>
+          <p class="parrafo">1. El órgano estadístico de la Administración regional responsable de la actividad estadística de interés de la Comunidad Autónoma de la Región de Murcia es el Centro Regional de Estadística de Murcia, que estará adscrito a la Dirección General que tenga atribuidas las competencias en materia de estadística.</p>
+          <p class="parrafo">2. El Consejo de Gobierno, mediante Decreto, podrá modificar la adscripción del Centro Regional de Estadística de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 34. Funciones.</p>
+          <p class="parrafo">1. Son funciones del Centro Regional de Estadística de Murcia las siguientes:</p>
+          <p class="parrafo_2">a) Promover, dirigir y coordinar la actividad estadística pública de interés para la Comunidad Autónoma de la Región de Murcia, sin perjuicio de lo establecido en los artículos 31 y 42.4 de esta Ley.</p>
+          <p class="parrafo">b) Elaborar el anteproyecto del Plan de Estadística de la Comunidad Autónoma de la Región de Murcia y los proyectos de Programas Anuales de Estadística, con la colaboración de las restantes Unidades del sistema estadístico de la Comunidad.</p>
+          <p class="parrafo">c) Proponer normas sobre conceptos, definiciones, clasificaciones, nomenclaturas y códigos para la clasificación de datos y la presentación de resultados, impulsar su utilización en la actividad estadística de la Comunidad Autónoma de la Región de Murcia y promover, en el marco de las competencias de esta Ley, la coordinación metodológica con las Unidades de estadística de Ayuntamientos, de otras Comunidades Autónomas, de la Administración General del Estado, de la Unión Europea y de organismos internacionales. Así como velar por el cumplimiento de las normas técnicas y metodologías que se apueben en las operaciones estadísticas, y por el cumplimiento de las condiciones que garantizan el secreto estadístico.</p>
+          <p class="parrafo">d) Realizar las actividades estadísticas que le sean encomendadas en el Plan Estadístico y en los Programas Estadísticos Anuales.</p>
+          <p class="parrafo">e) Elaborar los requisitos y normas técnicas a utilizar en tareas de formación, conservación y actualización de archivos, registros, directorios y otras tareas administrativas, cuando éstos constituyan fuentes de información estadística, que realicen las diferentes Consejerías, organismos, entidades y empresas públicas, así como la realización de los trabajos necesarios para crear y mantener actualizados los marcos y parámetros básicos de información sobre población, viviendas, actividades económicas y situación social.</p>
+          <p class="parrafo">f) Promover la investigación estadística y la formación y el perfeccionamiento profesional del personal estadístico.</p>
+          <p class="parrafo">g) Representar a la Comunidad Autónoma de la Región de Murcia en materia de estadística. En el ejercicio de dicha representación, contará con las Unidades de las Consejerías, pudiendo delegar en ellas cuando lo considere oportuno.</p>
+          <p class="parrafo">h) Promover la difusión de las estadísticas relativas a la Región de Murcia.</p>
+          <p class="parrafo">i) Informar, preceptivamente, todo proyecto que promueva o en el que participe la Administración de la Comunidad Autónoma de la Región de Murcia y que tenga por objetivo la realización de actividad estadística.</p>
+          <p class="parrafo">j) Promover, gestionar y centralizar la creación y mantenimiento de bancos de datos de carácter estadístico.</p>
+          <p class="parrafo">k) Realizar investigaciones para contrastar la objetividad y corrección técnica de la metodología en las actividades estadísticas.</p>
+          <p class="parrafo">l) Cualquiera otras funciones estadísticas que le sean legalmente asignadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 35. Recursos técnicos y personales.</p>
+          <p class="parrafo">El Centro Regional de Estadística de Murcia, para el desarrollo de sus funciones y para proteger eficazmente la confidencialidad de los datos, contará con los recursos técnicos, personales y económicos necesarios y, en especial, los siguientes:</p>
+          <p class="parrafo_2">1. Contará con los medios informáticos necesarios para la realización de sus funciones, de forma autónoma y continuada, y con garantías para preservar el secreto estadístico.</p>
+          <p class="parrafo">2. Contará con personal especializado en las materias específicas de la actividad estadística. La selección y regulación del mismo se realizará de conformidad con la legislación aplicable a la materia.</p>
+          <p class="parrafo">3. Contará con las instalaciones adecuadas para el desarrollo de sus funciones y muy especialmente para la protección de la información sometida al secreto estadístico.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-5" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De las Unidades estadísticas de las Consejerías</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 36. Unidades estadísticas de las Consejerías.</p>
+          <p class="parrafo">1. Corresponde a las Unidades que desarrollan actividad estadística en las Consejerías la recopilación, producción y difusión de la información estadística para el ejercicio de sus funciones, con especial atención a la explotación estadística de los datos derivados de su actuación administrativa, así como la ejecución de los proyectos estadísticos que les sean encomendados en los Programas Anuales de Estadística, cualquier otra función estadística que se les asigne legalmente y la actividad estadística realizada en los términos definidos en el artículo 31.2 de esta Ley.</p>
+          <p class="parrafo">2. En los casos en que estas Unidades sean específicamente estadísticas y dispongan de la capacidad funcional suficiente para garantizar el desarrollo de sus funciones, podrán ser cesionarios de datos sujetos al secreto estadístico, al que estarán sometidas en los términos establecidos en esta Ley.</p>
+          <p class="parrafo">3. Las Consejerías, en el ámbito de sus competencias, colaborarán con el Centro Regional de Estadística de Murcia, en la formulación del anteproyecto del Plan de Estadística y de los Programas Anuales de Estadística, y en la normalización de definiciones, clasificaciones, nomenclaturas, códigos para la clasificación de datos y elaboración de resultados.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 37. Órganos estadísticos de las Consejerías.</p>
+          <p class="parrafo">Las Consejerías podrán designar a una de las Unidades referidas en el artículo anterior como órgano específicamente estadístico de la Consejería, que coordinará toda la actividad estadística que en ella se desarrolla. Este órgano deberá disponer de capacidad funcional suficiente para garantizar el desarrollo de sus funciones y ser sujeto del secreto estadístico en los términos establecidos en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 38. Memorias.</p>
+          <p class="parrafo">Cada Consejería elaborará anualmente una Memoria, detallando su actividad estadística, que remitirá al Centro Regional de Estadística de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-6" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Consejo de Estadística de la Comunidad Autónoma de la Región de Murcia</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 39. Creación y competencias.</p>
+          <p class="parrafo">1. Se crea el Consejo de Estadística de la Comunidad Autónoma de la Región de Murcia como órgano consultivo y de participación del sistema estadístico regional con el objeto de facilitar la relación de los órganos estadísticos entre sí y de éstos con los informantes y usuarios.</p>
+          <p class="parrafo">2. Son funciones del Consejo de Estadística:</p>
+          <p class="parrafo_2">a) Emitir informe preceptivo sobre los anteproyectos de planes estadísticos de la Comunidad Autónoma de la Región de Murcia y sobre los proyectos de programas anuales de estadística. Dicho informe será evacuado en un plazo de dos meses, contados a partir del día siguiente al de su remisión por el Centro Regional de Estadística de Murcia.</p>
+          <p class="parrafo">b) Realizar recomendaciones sobre las relaciones entre órganos estadísticos e informantes, en especial sobre la aplicación práctica del secreto estadístico.</p>
+          <p class="parrafo">c) Emitir informes sobre cualquier otra cuestión estadística que le solicite el Gobierno regional o cualquiera de los miembros que integran el Consejo, por los procedimientos que reglamentariamente se establezcan.</p>
+          <p class="parrafo">d) Informar sobre los eventuales conflictos de competencias entre las Unidades que componen el sistema estadístico de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">e) Informar sobre el anteproyecto de Decreto de homogeneización de la actividad estadística del Consejo de Gobierno al que se refiere el artículo 8 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 40. Composición.</p>
+          <p class="parrafo">El Consejo de Estadística de la Comunidad Autónoma de la Región de Murcia estará compuesto por los siguientes miembros:</p>
+          <p class="parrafo_2">a) El Presidente, que será el titular de la Consejería a la que esté adscrito el Centro Regional de Estadística de Murcia.</p>
+          <p class="parrafo">b) El Vicepresidente primero, que será el Director general del Departamento al que esté adscrito el Centro Regional de Estadística de Murcia.</p>
+          <p class="parrafo">c) El Vicepresidente segundo, que será el Director del Centro Regional de Estadística de Murcia.</p>
+          <p class="parrafo">d) El Secretario, que será un funcionario del Centro Regional de Estadística de Murcia, nombrado por el Director del Centro, con voz y sin voto.</p>
+          <p class="parrafo_2">Vocales:</p>
+          <p class="parrafo_2">e) Nueve representantes, como mínimo, de las distintas Consejerías, designados por el Consejo de Gobierno de entre aquellos que realicen funciones estadísticas en los distintos Departamentos, organismos autónomos y empresas públicas regionales.</p>
+          <p class="parrafo">f) Dos representantes de la Federación de Municipios de la Región de Murcia.</p>
+          <p class="parrafo">g) Un representante del Instituto Nacional de Estadística.</p>
+          <p class="parrafo">h) Un representante de las asociaciones de empresarios intersectoriales, elegidos por las organizaciones más representativas.</p>
+          <p class="parrafo">i) Un representante por cada una de las dos organizaciones sindicales más representativas, elegidos por sus respectivas organizaciones.</p>
+          <p class="parrafo">j) Un representante por cada una de las Universidades de la Región de Murcia.</p>
+          <p class="parrafo">k) Un representante del Consejo de Cámaras de Comercio de la Región de Murcia.</p>
+          <p class="parrafo">l) Un representante del Centro de Edafología y Biología Aplicada del Segura.</p>
+          <p class="parrafo">m) Un representante de las asociaciones de consumidores y usuarios de la Región de Murcia.</p>
+          <p class="parrafo">n) Un representante de la Asociación de Empresarios de Economía Social de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 41. Medios.</p>
+          <p class="parrafo">Los medios que precise el Consejo para su correcto funcionamiento serán facilitados por la Comunidad Autónoma con cargo al presupuesto del Centro Regional de Estadística de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">De las relaciones con la Administración local en materia de estadística</p>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 42. Las relaciones con la Administración local en materia de estadística.</p>
+          <p class="parrafo">1. Compete a las entidades locales el desarrollo de la actividad estadística relativa a su propio ámbito territorial y competencial.</p>
+          <p class="parrafo">2. Las entidades locales podrán participar, en el ámbito de sus competencias, en la elaboración y difusión de estadísticas públicas de interés para la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">3. Las entidades locales, organismos y empresas de ellas dependientes, podrán solicitar la inclusión de estadísticas de su interés en el anteproyecto del Plan Estadístico y en los Programas Anuales de Estadísticas. La solicitud irá acompañada de una Memoria explicativa del interés público, sus características técnicas, Memoria económica, propuesta de financiación y unidad encargada de su realización.</p>
+          <p class="parrafo">En este caso, la actividad estadística local se ajustará a las correspondientes normas técnicas de la Administración regional con el fin de lograr la comparación de sus datos y facilitar la agregación de los mismos a nivel regional y estatal.</p>
+          <p class="parrafo">4. En el caso de estadísticas no incluidas en Planes o Programas Anuales de Estadística, las entidades locales, organismos y empresas de ellas dependientes que las realicen, podrán dar traslado al Centro Regional de Estadística de Murcia de todos los resultados obtenidos en relación a las mismas.</p>
+          <p class="parrafo">5. Las entidades locales podrán designar una unidad dedicada en exclusiva a la actividad estadística como órgano estadístico propio. Este órgano deberá ser sujeto del secreto estadístico en los términos establecidos en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-4" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a4-5" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 43. Infracciones y responsables.</p>
+          <p class="parrafo">1. El incumplimiento de las obligaciones contenidas en la presente Ley, así como las que la complementen o desarrollen, en los términos previstos por el artículo 129.3 de la Ley 30/1992, de 26 de noviembre, constituyen infracción administrativa en materia de estadística en la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">2. Se consideran responsables de las infracciones reguladas en esta Ley las personas físicas o jurídicas a quienes resulte imputable la acción u omisión constitutiva de la infracción.</p>
+          <p class="parrafo_2">Las personas jurídicas responderán del pago de las sanciones impuestas como consecuencia de las infracciones cometidas por sus órganos, empleados o agentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-6" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 44. Infracciones administrativas de los obligados a prestar colaboración.</p>
+          <p class="parrafo">1. Las infracciones administrativas de los obligados a prestar colaboración estadística se clasifican en leves, graves y muy graves.</p>
+          <p class="parrafo">2. Se consideran infracciones leves:</p>
+          <p class="parrafo_2">a) No suministrar información obligatoria a efectos estadísticos o hacerlo fuera de plazo, si existiese requerimiento formal previo del órgano estadístico, cuando este hecho no provoque un perjuicio grave.</p>
+          <p class="parrafo">b) Suministrar la información obligatoria requerida con datos inexactos, incompletos o de forma distinta de la establecida cuando este hecho no provoque perjuicio grave.</p>
+          <p class="parrafo_2">3. Se consideran infracciones graves:</p>
+          <p class="parrafo_2">a) Las establecidas en los apartados a) y b) del artículo anterior, siempre que el perjuicio que cause sea grave.</p>
+          <p class="parrafo">b) La acumulación de dos o más infracciones leves dentro del período de dos años.</p>
+          <p class="parrafo_2">4. Se consideran infracciones muy graves:</p>
+          <p class="parrafo_2">a) La acumulación de dos o más infracciones graves dentro de un período de dos años.</p>
+          <p class="parrafo">b) No suministrar la información obligatoria requerida o suministrar datos inexactos, tanto si son de comunicación obligatoria como voluntaria, cuando pueda ser imputada malicia o negligencia grave.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-7" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 45. Infracciones administrativas de los que realizan actividad estadística.</p>
+          <p class="parrafo">Las infracciones imputables a unidades que realizan actividad estadística regulada por la presente Ley, y los cometidos por su personal o por las personas físicas o jurídicas que colaboren con aquellos en virtud de acuerdos, convenios o contratos, podrán ser leves, graves o muy graves.</p>
+          <p class="parrafo">1. Se consideran faltas leves:</p>
+          <p class="parrafo_2">a) La incorrección con los informantes.</p>
+          <p class="parrafo">b) El descuido o negligencia en el cumplimiento de las funciones estadísticas.</p>
+          <p class="parrafo">c) La falta de comunicación o comunicación incompleta de las normas que han de observarse en la cumplimentación de los cuestionarios, o de los documentos de similar naturaleza, y de las sanciones que legalmente podrán imponerse por su incumplimiento.</p>
+          <p class="parrafo_2">2. Se consideran faltas graves:</p>
+          <p class="parrafo_2">a) La acumulación de dos o más infracciones leves dentro de un período de dos años.</p>
+          <p class="parrafo">b) Negarse a exhibir el documento acreditativo de agente estadístico al informante que lo solicite.</p>
+          <p class="parrafo">c) El incumplimiento de las normas técnicas aprobadas en materia de estadística.</p>
+          <p class="parrafo">3. Se consideran faltas muy graves:</p>
+          <p class="parrafo_2">a) La acumulación de dos o más infracciones graves dentro de un período de dos años.</p>
+          <p class="parrafo">b) Difundir o comunicar a personas no autorizadas datos amparados por el secreto estadístico.</p>
+          <p class="parrafo">c) Exigir información para la elaboración de estadísticas sin la existencia de las correspondientes normas reguladoras.</p>
+          <p class="parrafo">d) La utilización para finalidades distintas de las propiamente estadísticas de datos obtenidos directamente por las unidades estadísticas.</p>
+          <p class="parrafo">e) Dar publicidad a resultados sin que se hayan hecho públicos oficialmente o sin la autorización pertinente del responsable de la unidad estadística correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-8" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 46. Cuantía de las sanciones.</p>
+          <p class="parrafo">1. Las infracciones leves se sancionarán con multas de hasta 600 euros.</p>
+          <p class="parrafo">2. Las infracciones graves se sancionarán con multas de 601 a 3.000 euros.</p>
+          <p class="parrafo">3. Las infracciones muy graves se sancionarán con multas de 3.001 a 30.000 euros.</p>
+          <p class="parrafo">4. En aquellas infracciones en las que el infractor haya obtenido un beneficio económico, el importe de la multa será como mínimo el mayor valor que resulte entre el beneficio económico obtenido y el límite inferior del intervalo sobre el que se establece la cuantía correspondiente al tipo de infracción cometida y, como máximo, el mayor valor que resulte entre el doble del beneficio económico obtenido y el límite superior del intervalo sobre el que se establece la cuantía correspondiente al tipo de infracción cometida.</p>
+          <p class="parrafo">5. Las cuantías de las sanciones establecidas en los apartados anteriores se graduarán aludiendo en cada caso a la propia gravedad de la infracción, a la naturaleza de los daños y perjuicios causados y a la conducta anterior de los infractores, salvo que ya hubiese sido tomada en consideración para la calificación de la sanción.</p>
+          <p class="parrafo">6. No serán de aplicación las sanciones establecidas en el presente artículo cuando las infracciones fueran cometidas por funcionarios públicos o por personal laboral al servicio de la Administración de la Comunidad Autónoma de la Región de Murcia, o por el personal al servicio de la Administración Local. Dichas infracciones quedarán sujetas al régimen sancionador regulado en la legislación específica que resulte aplicable en cada caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-9" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 47. Condición imprescindible para sancionar.</p>
+          <p class="parrafo">Solamente por la comisión de las infracciones recogidas en los artículos 44 y 45 podrán imponerse las sanciones previstas por esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-10" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 48. Competencia y procedimiento sancionador.</p>
+          <p class="parrafo">1. Las infracciones referidas en los artículos 44 y 45 de esta Ley serán objeto de sanción administrativa, previa instrucción del correspondiente expediente sancionador, de conformidad con la legislación y disposiciones reglamentarias reguladoras de la potestad sancionadora, sin perjuicio de la exigencia de las responsabilidades civiles, penales o de cualquier otro orden que puedan concurrir.</p>
+          <p class="parrafo">2. Las sanciones calificadas como leves y graves serán impuestas por el titular de la Consejería a la que esté adscrito el Centro Regional de Estadística de Murcia. Las calificadas como muy graves serán impuestas por el Consejo de Gobierno de la Comunidad Autónoma de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-11" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 49. Prescripción de las infracciones.</p>
+          <p class="parrafo">Las infracciones leves prescribirán a los seis meses, las graves, a los dos años y las muy graves, a los tres años.</p>
+          <p class="parrafo">El plazo de prescripción comenzará a contarse desde el día en que la infracción se hubiese cometido, excepto en las infracciones continuadas, en cuyo caso el inicio del plazo de prescripción comenzará el último día en que se hubiese cometido la infracción.</p>
+          <p class="parrafo">La prescripción se interrumpirá por la iniciación con conocimiento del interesado del procedimiento sancionador, volviendo a computarse el plazo si el expediente permanece paralizado durante más de un mes por causa no imputable al presunto infractor.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-2" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Artículo 50. Prescripción de las sanciones.</p>
+          <p class="parrafo">1. Las sanciones impuestas por faltas muy graves prescribirán a los tres años, las impuestas por faltas graves, a los dos años y las impuestas por faltas leves, al año.</p>
+          <p class="parrafo">2. El plazo de prescripción comenzará a contarse desde el día siguiente a aquel en que adquiera firmeza la resolución impositiva de la sanción.</p>
+          <p class="parrafo">3. Interrumpirá la prescripción la iniciación, con conocimiento del interesado, del procedimiento de ejecución, volviendo a transcurrir el plazo si se paraliza el mismo durante más de un mes por causa no imputable al infractor.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">Se faculta al Consejo de Gobierno para revisar anualmente la cuantía de las sanciones previstas en la presente Ley, a fin de adecuarlas a las modificaciones experimentadas por el índice general de precios al consumo.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">En un plazo máximo de dos años a partir de la entrada en vigor de esta ley, el Consejo de Gobierno remitirá a la Asamblea Regional de Murcia un proyecto de Ley del Plan de Estadística de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición transitoria única.</p>
+          <p class="parrafo">Los acuerdos o convenios firmados por la Comunidad Autónoma de la Región de Murcia en materia de estadística con anterioridad a la entrada en vigor de la presente Ley seguirán rigiéndose por la normativa que les fuera de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Quedan derogadas las disposiciones de igual o inferior rango que se opongan a lo previsto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Consejo de Gobierno para dictar cuantas disposiciones sean precisas para el desarrollo y ejecución de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">En el plazo máximo de dos años desde la entrada en vigor de la presente Ley, el Consejo de Gobierno remitirá a la Asamblea Regional de Murcia el proyecto de Ley del Plan de Estadística de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">La presente Ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de la Región de Murcia».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2002-19381" fecha_publicacion="20020709" fecha_vigencia="20020729">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a los que sea de aplicación esta Ley que la cumplan, y a los Tribunales y autoridades que correspondan que la hagan cumplir.</p>
+          <p class="parrafo_2">Murcia, 25 de junio de 2002.</p>
+          <p class="firma_ministro">RAMÓN LUIS VALCÁRCEL SISO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

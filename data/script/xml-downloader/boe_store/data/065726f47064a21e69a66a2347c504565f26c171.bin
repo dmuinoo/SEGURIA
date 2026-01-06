@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200355Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-15598</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20030801</fecha_disposicion>
+      <numero_oficial>1049/2003</numero_oficial>
+      <titulo>Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030805</fecha_publicacion>
+      <diario_numero>186</diario_numero>
+      <fecha_vigencia>20030806</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2003/08/01/1049</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-15598</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3493">Etiquetas</materia>
+        <materia codigo="4949">Miel</materia>
+        <materia codigo="5163">Normas de calidad</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-21932</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 5 de agosto de 1983</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2002-80034</id_norma>
+            <relacion codigo="426">TRANSPONE</relacion>
+            <texto>la Directiva 2001/110/CE, de 20 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2025-3184</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>, con efectos desde el 14 de junio de 2026, los apartados 3 a 5 de la norma, por Real Decreto 68/2025, de 4 de febrero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2020-6513</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>, con efectos desde el 22 de diciembre de 2020, la norma 5, SE AÑADE la disposición adicional 2 y se reenumera la única como 1, por Real Decreto 523/2020, de 19 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2015-6841</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el apartado 4.4 de la norma, por Real Decreto 473/2015, de 12 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-15598</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1049</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4949"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-15598</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1049</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4949"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20250219"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20200622"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20150620"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20030805"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET 1049/2003, d'1 d'agost, pel qual s'aprova la norma de qualitat relativa a la mel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL DECRETO 1049/2003, do 1 de agosto, polo que se aproba a Norma de calidade relativa ó mel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20250219">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-15598</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1049</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4949"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20250219/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20250219"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20250219/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20250219/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20200622">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-15598</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1049</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4949"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-22</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20200622/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20200622"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20200622/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20200622/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20150620">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-15598</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1049</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4949"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20150620/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20150620"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20150620/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20150620/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20030805">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-15598</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1049</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4949"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-08-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20030805/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20030805"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20030805/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/08/01/1049/con/20030805/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="parrafo">Mediante Orden de 5 de agosto de 1983, fue aprobada la norma de calidad para la miel destinada al mercado interior, de acuerdo con los requisitos establecidos por la Directiva 74/409/CEE del Consejo, de 22 de julio de 1974, relativa a la armonización de las legislaciones de los Estados miembros sobre la miel, que fijaba las correspondientes definiciones, especificaba las diferentes variedades y denominaciones de miel que podían ser puestas en el mercado y establecía las características de composición, así como las principales indicaciones que deben figurar en el etiquetado.</p>
+          <p class="parrafo">La Directiva 2001/110/CE del Consejo, de 20 de diciembre de 2001, relativa a la miel, supone el nuevo marco normativo comunitario en esta materia, dentro del proceso de simplificación y adaptación a las disposiciones comunitarias de carácter general aplicables a los productos alimenticios, especialmente a las relativas al etiquetado, la higiene, los contaminantes y los métodos de análisis.</p>
+          <p class="parrafo">La incorporación de la mencionada Directiva 2001/110/CE al ordenamiento jurídico interno, así como la sustitución de la citada Orden de 5 de agosto de 1983, que queda derogada, constituyen el objeto de este real decreto por el que se establece la nueva norma de calidad para la miel.</p>
+          <p class="parrafo">Los métodos de control previstos en la Orden Ministerial de 12 de junio de 1986, por la que se aprueban los métodos oficiales de análisis para la miel, continúan vigentes.</p>
+          <p class="parrafo">Sin embargo, podrán utilizarse aquellos otros métodos de análisis validados internacionalmente o aprobados por el «Codex Alimentarius», para verificar el cumplimiento de lo señalado por la Directiva 2001/110/CE, en tanto se adopten nuevos métodos por la Unión Europea.</p>
+          <p class="parrafo">En el proceso de elaboración de esta norma han sido consultadas las comunidades autónomas, así como los sectores afectados, y ha emitido su preceptivo informe la Comisión Interministerial para la Ordenación Alimentaria.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 16.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica y de la sanidad.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Agricultura, Pesca y Alimentación y de la Ministra de Sanidad y Consumo, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 1 de agosto de 2003,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Artículo único. Aprobación de la Norma de calidad relativa a la miel.</p>
+          <p class="parrafo">Se aprueba la Norma de calidad relativa a la miel, cuyo texto se inserta a continuación de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" fecha_caducidad="20200622" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Disposición adicional única. Métodos de análisis.</p>
+          <p class="parrafo">Los métodos de control previstos en la Orden Ministerial de 12 de junio de 1986, por la que se aprueban los métodos oficiales de análisis para la miel, continúan vigentes.</p>
+          <p class="parrafo">Asimismo, podrán utilizarse aquellos otros métodos de análisis validados internacionalmente o aprobados por el «Codex Alimentarius», para verificar el cumplimiento de lo dispuesto por la Directiva 2001/110/CE del Consejo, de 20 de diciembre de 2001, relativa a la miel, en tanto se adopten nuevos métodos por la Unión Europea.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2020-6513" fecha_publicacion="20200622" fecha_vigencia="20201222">
+          <p class="articulo">Disposición adicional primera. Métodos de análisis.</p>
+          <p class="parrafo">Los métodos de control previstos en la Orden Ministerial de 12 de junio de 1986, por la que se aprueban los métodos oficiales de análisis para la miel, continúan vigentes.</p>
+          <p class="parrafo">Asimismo, podrán utilizarse aquellos otros métodos de análisis validados internacionalmente o aprobados por el «Codex Alimentarius», para verificar el cumplimiento de lo dispuesto por la Directiva 2001/110/CE del Consejo, de 20 de diciembre de 2001, relativa a la miel, en tanto se adopten nuevos métodos por la Unión Europea.</p>
+          <blockquote>
+            <p class="nota_pie">Se numera como disposición adicional primera, con efectos de 22 de diciembre de 2020, por el art. único.2 del Real Decreto 523/2020, de 19 de mayo. <a class="refPost">Ref. BOE-A-2020-6513</a></p>
+            <p class="nota_pie_2">Su anterior denominación era disposición adicional única.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2020-6513" fecha_publicacion="20200622" fecha_vigencia="20201222">
+          <p class="articulo">Disposición adicional segunda. Cláusula del mercado único.</p>
+          <p class="parrafo">Las mercancías comercializadas legalmente en otro Estado miembro de la Unión Europea o en Turquía, u originarias en un Estado de la Asociación Europea de Libre Comercio signatario del Acuerdo sobre el Espacio Económico Europeo y legalmente comercializadas, se consideran conformes con el presente real decreto. La aplicación de este real decreto está sujeta al Reglamento (UE) 2019/515 del Parlamento Europeo y del Consejo, de 19 de marzo de 2019, relativo al reconocimiento mutuo de mercancías comercializadas legalmente en otro Estado miembro y por el que se deroga el Reglamento (CE) n.º 764/2008.</p>
+          <blockquote caduca="20201222" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que esta disposición, añadida por el art. único.2 del Real Decreto 523/2020, de 19 de mayo. <a class="refPost">Ref. BOE-A-2020-6513</a>, entra en vigor el 22 de diciembre de 2020, según establece la disposición final única del citado real decreto.</p>
+          </blockquote>
+          <blockquote>
+            <p class="nota_pie">Se añade, con efectos de 22 de diciembre de 2020, por el art. único.2 del Real Decreto 523/2020, de 19 de mayo. <a class="refPost">Ref. BOE-A-2020-6513</a></p>
+            <p class="nota_pie_2">Téngase en cuenta la disposición transitoria única del citado Real Decreto, en cuanto a la comercialización de las existencias de productos anteriores a la entrada en vigor del mismo.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Disposición transitoria única. Régimen normativo transitorio.</p>
+          <p class="parrafo">1. Los productos objeto de este real decreto podrán seguir siendo comercializados hasta el 1 de agosto de 2004, siempre que cumplan lo dispuesto en las disposiciones vigentes con anterioridad a la entrada en vigor de este real decreto.</p>
+          <p class="parrafo">2. No obstante, la miel etiquetada antes del 1 de agosto de 2004 y que no se ajuste a lo dispuesto en este real decreto podrá seguir comercializándose hasta la extinción de su vida comercial, siempre que esté conforme a lo dispuesto en las disposiciones vigentes con anterioridad a su entrada en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">A partir de la entrada en vigor de este real decreto, quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en él y, en particular, la Orden de 5 de agosto de 1983, por la que se aprueba la norma de calidad para la miel destinada al mercado interior.</p>
+          <p class="parrafo">Las referencias efectuadas a la citada Orden de 5 de agosto de 1983 deberán entenderse referidas a la norma de calidad relativa a la miel que se inserta a continuación de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 16.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica y de la sanidad.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Disposición final segunda. Facultad de desarrollo.</p>
+          <p class="parrafo">El Ministro de Agricultura, Pesca y Alimentación y la Ministra de Sanidad y Consumo podrán dictar, en el ámbito de sus competencias, las disposiciones necesarias para el desarrollo de lo establecido en este real decreto y, en su caso, para la actualización de la norma de calidad, cuando ello sea necesario, para adecuarla a la normativa de la Unión Europea.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="parrafo_2">Dado en Palma de Mallorca, a 1 de agosto de 2003.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Primero del Gobierno y Ministro de la Presidencia,</p>
+          <p class="firma_ministro">MARIANO RAJOY BREY</p>
+        </version>
+      </bloque>
+      <bloque id="no" tipo="encabezado" titulo="NORMA">
+        <version id_norma="BOE-A-2003-15598" fecha_publicacion="20030805" fecha_vigencia="20030806">
+          <p class="anexo">NORMA DE CALIDAD RELATIVA A LA MIEL</p>
+          <p class="centro_redonda">1. Objeto</p>
+          <p class="parrafo_2">Esta norma de calidad tiene por objeto definir lo que se entiende por miel y fijar las condiciones y características que debe cumplir dicho producto para su presentación, comercialización y consumo en el mercado interior.</p>
+          <p class="centro_redonda">2. Ámbito de aplicación</p>
+          <p class="parrafo_2">Esta norma de calidad se aplicará a los productos definidos en el apartado 3, que deberán cumplir los requisitos de composición establecidos en el apartado 4.</p>
+          <p class="centro_redonda">3. Descripción, definición y denominación de los productos</p>
+          <p class="parrafo_2">3.1 La miel es la sustancia natural dulce producida por la abeja Apis mellifera a partir del néctar de plantas o de secreciones de partes vivas de plantas o de excreciones de insectos chupadores presentes en las partes vivas de plantas, que las abejas recolectan, transforman combinándolas con sustancias específicas propias, depositan, deshidratan, almacenan y dejan en colmenas para que madure.</p>
+          <p class="parrafo">3.2 Las principales variedades de miel son las siguientes:</p>
+          <p class="parrafo_2">3.2.1 Según su origen:</p>
+          <p class="parrafo_2">a) Miel de flores o miel de néctar: es la miel que procede del néctar de las plantas.</p>
+          <p class="parrafo">b) Miel de mielada: es la miel que procede en su mayor parte de excreciones de insectos chupadores de plantas (hemípteros) presentes en las partes vivas de las plantas o de secreciones de las partes vivas de las plantas.</p>
+          <p class="parrafo_2">3.2.2 Según su elaboración o su presentación:</p>
+          <p class="parrafo_2">a) Miel en panal: es la miel depositada por las abejas en los alvéolos operculados de panales recientemente construidos por ellas, o en finas hojas de cera en forma de panal realizadas únicamente con cera de abeja, sin larvas y vendida en panales, enteros o no.</p>
+          <p class="parrafo">b) Miel con trozos de panal o panal cortado en miel: es la miel que contiene uno o más trozos de miel en panal.</p>
+          <p class="parrafo">c) Miel escurrida: es la miel que se obtiene mediante el escurrido de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">d) Miel centrifugada: es la miel que se obtiene mediante la centrifugación de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">e) Miel prensada: es la miel obtenida mediante la compresión de los panales, sin larvas, con o sin aplicación de calor moderado, de hasta un máximo de 45 ºC.</p>
+          <p class="parrafo">f) Miel filtrada: es la miel que se obtiene eliminando materia orgánica o inorgánica ajena a la miel de manera tal que se genere una importante eliminación de polen.</p>
+          <p class="parrafo_2">3.3 Miel para uso industrial: Es la miel apropiada para usos industriales o para su utilización como ingrediente de otros productos alimenticios que se elaboran ulteriormente, que puede:</p>
+          <p class="parrafo_2">a) presentar un sabor o un olor extraños, o</p>
+          <p class="parrafo">b) haber comenzado a fermentar o haber fermentado, o</p>
+          <p class="parrafo">c) haberse sobrecalentado.</p>
+          <p class="centro_redonda">4. Características de la composición de la miel</p>
+          <p class="parrafo_2">4.1 La miel está compuesta esencialmente de diferentes azúcares, sobre todo de fructosa y glucosa, así como de otras sustancias, como ácidos orgánicos, enzimas y partículas sólidas derivadas de su recolección.</p>
+          <p class="parrafo">El color de la miel puede tener desde un tono casi incoloro a un tono pardo oscuro. Puede tener una consistencia fluida, espesa o cristalizada (en parte o en su totalidad). El sabor y el aroma pueden variar, pero se derivan del origen vegetal.</p>
+          <p class="parrafo">4.2 Cuando se comercialice la miel como tal, o cuando se utilice en un producto cualquiera destinado al consumo humano, no se le podrá añadir ningún ingrediente alimentario, incluidos los aditivos alimentarios, ni ninguna otra sustancia aparte de miel, y debe estar exenta, en la medida de lo posible, de materias orgánicas e inorgánicas ajenas a su composición.</p>
+          <p class="parrafo">4.3 Con excepción de lo dispuesto en el apartado 3.3, relativo a miel para uso industrial, no debe tener un gusto o un olor extraños ni haber comenzado a fermentar, presentar un grado de acidez modificado artificialmente, ni haberse calentado de manera que las enzimas naturales se destruyan o resulten poco activas.</p>
+          <p class="parrafo">4.4 Sin perjuicio de lo dispuesto en el apartado 3.2.2.f), relativo a la miel filtrada, no se podrá retirar de la miel el polen ni ninguno de sus componentes específicos, excepto cuando resulte inevitable en el proceso de eliminación de materia orgánica o inorgánica ajena a la miel.</p>
+          <p class="parrafo">4.5 En el momento de su comercialización como tal o de su utilización en cualquier producto destinado al consumo humano, la miel debe responder a las características de composición siguientes:</p>
+          <p class="parrafo_2">4.5.1 Contenido de azúcares.</p>
+          <p class="parrafo_2">a) Contenido de fructosa y glucosa (suma de ambas):</p>
+          <p class="parrafo_2">1.º Miel de flores: no menos de 60 g/100 g.</p>
+          <p class="parrafo">2.º Miel de mielada, mezclas de miel de mielada con miel de flores: no menos de 45 g/100 g.</p>
+          <p class="parrafo_2">b) Contenido de sacarosa:</p>
+          <p class="parrafo_2">1.º En general: no más de 5 g/100 g.</p>
+          <p class="parrafo">2.º Falsa acacia «Robinia pseudoacacia», alfalfa «Medicago sativa», Banksia de Menzies «Banksia menziesii», Sulla «Hedysarum», Eucalipto rojo «Eucalyptus camaldulensis», Eucryphia lucida, Eucryphia milliganii, Citrus spp: no más de 10 g/100 g.</p>
+          <p class="parrafo">3.º Espliego «Lavandula spp.», borraja «Borago officinalis»: no más de 15 g/100 g.</p>
+          <p class="parrafo_2">4.5.2 Contenido de agua:</p>
+          <p class="parrafo_2">1.º En general: no más del 20%.</p>
+          <p class="parrafo">2.º Miel de brezo «Calluna» y miel para uso industrial en general: no más del 23%.</p>
+          <p class="parrafo">3.º Miel de brezo «Calluna vulgaris» para uso industrial: no más del 25%.</p>
+          <p class="parrafo_2">4.5.3 Contenido de sólidos insolubles en agua:</p>
+          <p class="parrafo_2">1.º En general: no más de 0,1 g/100 g.</p>
+          <p class="parrafo">2.º Miel prensada: no más de 0,5 g/100 g.</p>
+          <p class="parrafo_2">4.5.4 Conductividad eléctrica:</p>
+          <p class="parrafo_2">1.º Miel no incluida en la enumeración de los dos párrafos más abajo indicados, y mezclas de estas mieles: no más de 0,8 mS/c.</p>
+          <p class="parrafo">2.º Miel de mielada y miel de castaño, y mezclas de éstas, excepto con las mieles que se enumeran a continuación: no menos de 0,8 mS/cm.</p>
+          <p class="parrafo">3.º Excepciones: madroño «Arbutus unedo», argaña «Erica», eucalipto, tilo «Tilia spp», brezo «Calluna vulgaris», manuka o jelly bush «Leptospermum», árbol del té «Melaleuca spp.».</p>
+          <p class="parrafo_2">4.5.5 Ácidos libres:</p>
+          <p class="parrafo_2">1.º En general: no más de 50 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo">2.º Miel para uso industrial: no más de 80 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo_2">4.5.6 Índice diastásico y contenido en hidroximetilfurfural (HMF), determinados después de la elaboración y mezcla.</p>
+          <p class="parrafo_2">a) Índice diastásico (escala de Schade):</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no menos de 8.</p>
+          <p class="parrafo">2.º Mieles con un bajo contenido natural de enzimas (por ejemplo, mieles de cítricos) y un contenido de HMF no superior a 15 mg/kg: no menos de 3.</p>
+          <p class="parrafo_2">b) HMF:</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no más de 40 mg/kg (condicionado a lo dispuesto en el párrafo a). 2.º anterior).</p>
+          <p class="parrafo">2.º Miel de origen declarado procedente de regiones de clima tropical y mezclas de estas mieles: no más de 80 mg/kg.</p>
+          <p class="centro_redonda">5. Etiquetado</p>
+          <p class="parrafo_2">5.1 La Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por el Real Decreto 1334/1999, de 31 de julio, será aplicable a los productos definidos en el apartado 3 precedente, relativo a descripción, definición y denominación de los productos, con arreglo a las siguientes condiciones:</p>
+          <p class="parrafo_2">5.1.1 El término «miel» se aplicará solamente al producto definido en el apartado 3.1, relativo a definición de la miel, y deberá usarse en el comercio para designar a dicho producto.</p>
+          <p class="parrafo">5.1.2 Las denominaciones a que hacen referencia el apartado 3.2, relativo a principales variedades de miel, y el apartado 3.3, relativo a miel de uso industrial, se reservarán a los productos que en ellos se definen y se deberán utilizar en el comercio para designarlos. Estas denominaciones se podrán sustituir por la mera denominación «miel», salvo en los casos de la miel filtrada, la miel en panal, la miel con trozos de panal o panal cortado en miel, y la miel para uso industrial.</p>
+          <p class="parrafo">No obstante,</p>
+          <p class="parrafo_2">a) En el caso de la miel para uso industrial, la expresión «únicamente para cocinar» aparecerá en la etiqueta en la proximidad inmediata de la denominación.</p>
+          <p class="parrafo">b) Dichas denominaciones, salvo en los casos de la miel filtrada y de la miel para uso industrial, podrán verse completadas con indicaciones que hagan referencia:</p>
+          <p class="parrafo_2">1.º Al origen floral o vegetal, si el producto procede totalmente o en su mayor parte del origen indicado y si posee las características organolépticas, fisicoquímicas y microscópicas de dicho origen.</p>
+          <p class="parrafo">2.º Al origen regional, territorial o topográfico, si el producto procede enteramente del origen indicado.</p>
+          <p class="parrafo">3.º A criterios de calidad específicos.</p>
+          <p class="parrafo_2">5.1.3 Cuando la miel para uso industrial se haya utilizado como ingrediente en un alimento compuesto, el término «miel» podrá emplearse en la denominación de dicho alimento compuesto en lugar del término «miel para uso industrial». No obstante, en la lista de ingredientes deberá utilizarse el término completo a que se refiere el apartado 3.3, relativo a miel de uso industrial.</p>
+          <p class="parrafo">5.1.4 Deberán mencionarse en la etiqueta el país o los países de origen en que la miel haya sido recolectada.</p>
+          <p class="parrafo">No obstante, en el caso de mezclas, si las mieles son originarias de más de un Estado miembro o tercer país, dicha mención podrá sustituirse por una de las siguientes, según proceda:</p>
+          <p class="parrafo_2">1.º «mezcla de mieles originarias de la CE»,</p>
+          <p class="parrafo">2.º «mezcla de mieles no originarias de la CE»,</p>
+          <p class="parrafo">3.º «mezcla de mieles originarias y no originarias de la CE».</p>
+          <p class="parrafo_2">5.1.5 A efectos de lo dispuesto en la Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por Real Decreto 1334/1999, de 31 de julio, en particular, en sus artículos 15 y 17, las menciones que deberán indicarse con arreglo a lo dispuesto en el apartado 5.1.4 precedente se considerarán indicaciones obligatorias del etiquetado, de conformidad con lo dispuesto en el artículo 5 de dicha norma.</p>
+          <p class="parrafo">5.2 En el caso de la miel filtrada y de la miel para uso industrial, los contenedores para granel, los embalajes y la documentación comercial deberán indicar claramente la denominación completa, tal como se indica, respectivamente, en los apartados 3.2.2.f), relativo a miel filtrada, así como en el apartado 3.3, relativo a miel para uso industrial.</p>
+        </version>
+        <version id_norma="BOE-A-2015-6841" fecha_publicacion="20150620" fecha_vigencia="20150621">
+          <p class="anexo">NORMA DE CALIDAD RELATIVA A LA MIEL</p>
+          <p class="centro_redonda">1. Objeto</p>
+          <p class="parrafo_2">Esta norma de calidad tiene por objeto definir lo que se entiende por miel y fijar las condiciones y características que debe cumplir dicho producto para su presentación, comercialización y consumo en el mercado interior.</p>
+          <p class="centro_redonda">2. Ámbito de aplicación</p>
+          <p class="parrafo_2">Esta norma de calidad se aplicará a los productos definidos en el apartado 3, que deberán cumplir los requisitos de composición establecidos en el apartado 4.</p>
+          <p class="centro_redonda">3. Descripción, definición y denominación de los productos</p>
+          <p class="parrafo_2">3.1 La miel es la sustancia natural dulce producida por la abeja Apis mellifera a partir del néctar de plantas o de secreciones de partes vivas de plantas o de excreciones de insectos chupadores presentes en las partes vivas de plantas, que las abejas recolectan, transforman combinándolas con sustancias específicas propias, depositan, deshidratan, almacenan y dejan en colmenas para que madure.</p>
+          <p class="parrafo">3.2 Las principales variedades de miel son las siguientes:</p>
+          <p class="parrafo_2">3.2.1 Según su origen:</p>
+          <p class="parrafo_2">a) Miel de flores o miel de néctar: es la miel que procede del néctar de las plantas.</p>
+          <p class="parrafo">b) Miel de mielada: es la miel que procede en su mayor parte de excreciones de insectos chupadores de plantas (hemípteros) presentes en las partes vivas de las plantas o de secreciones de las partes vivas de las plantas.</p>
+          <p class="parrafo_2">3.2.2 Según su elaboración o su presentación:</p>
+          <p class="parrafo_2">a) Miel en panal: es la miel depositada por las abejas en los alvéolos operculados de panales recientemente construidos por ellas, o en finas hojas de cera en forma de panal realizadas únicamente con cera de abeja, sin larvas y vendida en panales, enteros o no.</p>
+          <p class="parrafo">b) Miel con trozos de panal o panal cortado en miel: es la miel que contiene uno o más trozos de miel en panal.</p>
+          <p class="parrafo">c) Miel escurrida: es la miel que se obtiene mediante el escurrido de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">d) Miel centrifugada: es la miel que se obtiene mediante la centrifugación de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">e) Miel prensada: es la miel obtenida mediante la compresión de los panales, sin larvas, con o sin aplicación de calor moderado, de hasta un máximo de 45 ºC.</p>
+          <p class="parrafo">f) Miel filtrada: es la miel que se obtiene eliminando materia orgánica o inorgánica ajena a la miel de manera tal que se genere una importante eliminación de polen.</p>
+          <p class="parrafo_2">3.3 Miel para uso industrial: Es la miel apropiada para usos industriales o para su utilización como ingrediente de otros productos alimenticios que se elaboran ulteriormente, que puede:</p>
+          <p class="parrafo_2">a) presentar un sabor o un olor extraños, o</p>
+          <p class="parrafo">b) haber comenzado a fermentar o haber fermentado, o</p>
+          <p class="parrafo">c) haberse sobrecalentado.</p>
+          <p class="centro_redonda">4. Características de la composición de la miel</p>
+          <p class="parrafo_2">4.1 La miel está compuesta esencialmente de diferentes azúcares, sobre todo de fructosa y glucosa, así como de otras sustancias, como ácidos orgánicos, enzimas y partículas sólidas derivadas de su recolección.</p>
+          <p class="parrafo">El color de la miel puede tener desde un tono casi incoloro a un tono pardo oscuro. Puede tener una consistencia fluida, espesa o cristalizada (en parte o en su totalidad). El sabor y el aroma pueden variar, pero se derivan del origen vegetal.</p>
+          <p class="parrafo">4.2 Cuando se comercialice la miel como tal, o cuando se utilice en un producto cualquiera destinado al consumo humano, no se le podrá añadir ningún ingrediente alimentario, incluidos los aditivos alimentarios, ni ninguna otra sustancia aparte de miel, y debe estar exenta, en la medida de lo posible, de materias orgánicas e inorgánicas ajenas a su composición.</p>
+          <p class="parrafo">4.3 Con excepción de lo dispuesto en el apartado 3.3, relativo a miel para uso industrial, no debe tener un gusto o un olor extraños ni haber comenzado a fermentar, presentar un grado de acidez modificado artificialmente, ni haberse calentado de manera que las enzimas naturales se destruyan o resulten poco activas.</p>
+          <p class="parrafo">4.4 Sin perjuicio de lo dispuesto en el apartado 3.2.2 f), relativo a la miel filtrada, no se podrá retirar de la miel el polen ni ningún otro de sus componentes específicos, excepto cuando resulte inevitable en el proceso de eliminación de materia orgánica o inorgánica ajena a ella.</p>
+          <p class="parrafo">4.5 En el momento de su comercialización como tal o de su utilización en cualquier producto destinado al consumo humano, la miel debe responder a las características de composición siguientes:</p>
+          <p class="parrafo_2">4.5.1 Contenido de azúcares.</p>
+          <p class="parrafo_2">a) Contenido de fructosa y glucosa (suma de ambas):</p>
+          <p class="parrafo_2">1.º Miel de flores: no menos de 60 g/100 g.</p>
+          <p class="parrafo">2.º Miel de mielada, mezclas de miel de mielada con miel de flores: no menos de 45 g/100 g.</p>
+          <p class="parrafo_2">b) Contenido de sacarosa:</p>
+          <p class="parrafo_2">1.º En general: no más de 5 g/100 g.</p>
+          <p class="parrafo">2.º Falsa acacia «Robinia pseudoacacia», alfalfa «Medicago sativa», Banksia de Menzies «Banksia menziesii», Sulla «Hedysarum», Eucalipto rojo «Eucalyptus camaldulensis», Eucryphia lucida, Eucryphia milliganii, Citrus spp: no más de 10 g/100 g.</p>
+          <p class="parrafo">3.º Espliego «Lavandula spp.», borraja «Borago officinalis»: no más de 15 g/100 g.</p>
+          <p class="parrafo_2">4.5.2 Contenido de agua:</p>
+          <p class="parrafo_2">1.º En general: no más del 20%.</p>
+          <p class="parrafo">2.º Miel de brezo «Calluna» y miel para uso industrial en general: no más del 23%.</p>
+          <p class="parrafo">3.º Miel de brezo «Calluna vulgaris» para uso industrial: no más del 25%.</p>
+          <p class="parrafo_2">4.5.3 Contenido de sólidos insolubles en agua:</p>
+          <p class="parrafo_2">1.º En general: no más de 0,1 g/100 g.</p>
+          <p class="parrafo">2.º Miel prensada: no más de 0,5 g/100 g.</p>
+          <p class="parrafo_2">4.5.4 Conductividad eléctrica:</p>
+          <p class="parrafo_2">1.º Miel no incluida en la enumeración de los dos párrafos más abajo indicados, y mezclas de estas mieles: no más de 0,8 mS/c.</p>
+          <p class="parrafo">2.º Miel de mielada y miel de castaño, y mezclas de éstas, excepto con las mieles que se enumeran a continuación: no menos de 0,8 mS/cm.</p>
+          <p class="parrafo">3.º Excepciones: madroño «Arbutus unedo», argaña «Erica», eucalipto, tilo «Tilia spp», brezo «Calluna vulgaris», manuka o jelly bush «Leptospermum», árbol del té «Melaleuca spp.».</p>
+          <p class="parrafo_2">4.5.5 Ácidos libres:</p>
+          <p class="parrafo_2">1.º En general: no más de 50 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo">2.º Miel para uso industrial: no más de 80 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo_2">4.5.6 Índice diastásico y contenido en hidroximetilfurfural (HMF), determinados después de la elaboración y mezcla.</p>
+          <p class="parrafo_2">a) Índice diastásico (escala de Schade):</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no menos de 8.</p>
+          <p class="parrafo">2.º Mieles con un bajo contenido natural de enzimas (por ejemplo, mieles de cítricos) y un contenido de HMF no superior a 15 mg/kg: no menos de 3.</p>
+          <p class="parrafo_2">b) HMF:</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no más de 40 mg/kg (condicionado a lo dispuesto en el párrafo a). 2.º anterior).</p>
+          <p class="parrafo">2.º Miel de origen declarado procedente de regiones de clima tropical y mezclas de estas mieles: no más de 80 mg/kg.</p>
+          <p class="centro_redonda">5. Etiquetado</p>
+          <p class="parrafo_2">5.1 La Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por el Real Decreto 1334/1999, de 31 de julio, será aplicable a los productos definidos en el apartado 3 precedente, relativo a descripción, definición y denominación de los productos, con arreglo a las siguientes condiciones:</p>
+          <p class="parrafo_2">5.1.1 El término «miel» se aplicará solamente al producto definido en el apartado 3.1, relativo a definición de la miel, y deberá usarse en el comercio para designar a dicho producto.</p>
+          <p class="parrafo">5.1.2 Las denominaciones a que hacen referencia el apartado 3.2, relativo a principales variedades de miel, y el apartado 3.3, relativo a miel de uso industrial, se reservarán a los productos que en ellos se definen y se deberán utilizar en el comercio para designarlos. Estas denominaciones se podrán sustituir por la mera denominación «miel», salvo en los casos de la miel filtrada, la miel en panal, la miel con trozos de panal o panal cortado en miel, y la miel para uso industrial.</p>
+          <p class="parrafo">No obstante,</p>
+          <p class="parrafo_2">a) En el caso de la miel para uso industrial, la expresión «únicamente para cocinar» aparecerá en la etiqueta en la proximidad inmediata de la denominación.</p>
+          <p class="parrafo">b) Dichas denominaciones, salvo en los casos de la miel filtrada y de la miel para uso industrial, podrán verse completadas con indicaciones que hagan referencia:</p>
+          <p class="parrafo_2">1.º Al origen floral o vegetal, si el producto procede totalmente o en su mayor parte del origen indicado y si posee las características organolépticas, fisicoquímicas y microscópicas de dicho origen.</p>
+          <p class="parrafo">2.º Al origen regional, territorial o topográfico, si el producto procede enteramente del origen indicado.</p>
+          <p class="parrafo">3.º A criterios de calidad específicos.</p>
+          <p class="parrafo_2">5.1.3 Cuando la miel para uso industrial se haya utilizado como ingrediente en un alimento compuesto, el término «miel» podrá emplearse en la denominación de dicho alimento compuesto en lugar del término «miel para uso industrial». No obstante, en la lista de ingredientes deberá utilizarse el término completo a que se refiere el apartado 3.3, relativo a miel de uso industrial.</p>
+          <p class="parrafo">5.1.4 Deberán mencionarse en la etiqueta el país o los países de origen en que la miel haya sido recolectada.</p>
+          <p class="parrafo">No obstante, en el caso de mezclas, si las mieles son originarias de más de un Estado miembro o tercer país, dicha mención podrá sustituirse por una de las siguientes, según proceda:</p>
+          <p class="parrafo_2">1.º ‘‘mezcla de mieles originarias de la UE’’.</p>
+          <p class="parrafo">2.º ‘‘mezcla de mieles no originarias de la UE’’.</p>
+          <p class="parrafo">3.º ‘‘mezcla de mieles originarias y no originarias de la UE’’.</p>
+          <p class="parrafo_2">5.1.5 A efectos de lo dispuesto en la Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por Real Decreto 1334/1999, de 31 de julio, en particular, en sus artículos 15 y 17, las menciones que deberán indicarse con arreglo a lo dispuesto en el apartado 5.1.4 precedente se considerarán indicaciones obligatorias del etiquetado, de conformidad con lo dispuesto en el artículo 5 de dicha norma.</p>
+          <p class="parrafo">5.2 En el caso de la miel filtrada y de la miel para uso industrial, los contenedores para granel, los embalajes y la documentación comercial deberán indicar claramente la denominación completa, tal como se indica, respectivamente, en los apartados 3.2.2.f), relativo a miel filtrada, así como en el apartado 3.3, relativo a miel para uso industrial.</p>
+          <p class="parrafo">5.3 Dado que el polen es un componente natural específico de la miel, en los productos definidos en el apartado 3 no se considerará un ingrediente en el sentido del artículo 2, apartado 2, letra f), del Reglamento (UE) n.º 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre la información alimentaria facilitada al consumidor y por el que se modifican los Reglamentos (CE) n.º 1924/2006 y (CE) n.º 1925/2006 del Parlamento Europeo y del Consejo, y por el que se derogan la Directiva 87/250/CEE de la Comisión, la Directiva 90/496/CEE del Consejo, la Directiva 1999/10/CE de la Comisión, la Directiva 2000/13/CE del Parlamento Europeo y del Consejo, las Directivas 2002/67/CE y 2008/5/CE de la Comisión, y el Reglamento (CE) n.º 608/2004 de la Comisión.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 4.4 y 5.1.4 y se añade el 5.3 por el art. único del Real Decreto 473/2015, de 12 de junio. <a class="refPost">Ref. BOE-A-2015-6841</a> </p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2020-6513" fecha_publicacion="20200622" fecha_vigencia="20201222">
+          <p class="anexo">NORMA DE CALIDAD RELATIVA A LA MIEL</p>
+          <p class="centro_redonda">1. Objeto</p>
+          <p class="parrafo_2">Esta norma de calidad tiene por objeto definir lo que se entiende por miel y fijar las condiciones y características que debe cumplir dicho producto para su presentación, comercialización y consumo en el mercado interior.</p>
+          <p class="centro_redonda">2. Ámbito de aplicación</p>
+          <p class="parrafo_2">Esta norma de calidad se aplicará a los productos definidos en el apartado 3, que deberán cumplir los requisitos de composición establecidos en el apartado 4.</p>
+          <p class="centro_redonda">3. Descripción, definición y denominación de los productos</p>
+          <p class="parrafo_2">3.1 La miel es la sustancia natural dulce producida por la abeja Apis mellifera a partir del néctar de plantas o de secreciones de partes vivas de plantas o de excreciones de insectos chupadores presentes en las partes vivas de plantas, que las abejas recolectan, transforman combinándolas con sustancias específicas propias, depositan, deshidratan, almacenan y dejan en colmenas para que madure.</p>
+          <p class="parrafo">3.2 Las principales variedades de miel son las siguientes:</p>
+          <p class="parrafo_2">3.2.1 Según su origen:</p>
+          <p class="parrafo_2">a) Miel de flores o miel de néctar: es la miel que procede del néctar de las plantas.</p>
+          <p class="parrafo">b) Miel de mielada: es la miel que procede en su mayor parte de excreciones de insectos chupadores de plantas (hemípteros) presentes en las partes vivas de las plantas o de secreciones de las partes vivas de las plantas.</p>
+          <p class="parrafo_2">3.2.2 Según su elaboración o su presentación:</p>
+          <p class="parrafo_2">a) Miel en panal: es la miel depositada por las abejas en los alvéolos operculados de panales recientemente construidos por ellas, o en finas hojas de cera en forma de panal realizadas únicamente con cera de abeja, sin larvas y vendida en panales, enteros o no.</p>
+          <p class="parrafo">b) Miel con trozos de panal o panal cortado en miel: es la miel que contiene uno o más trozos de miel en panal.</p>
+          <p class="parrafo">c) Miel escurrida: es la miel que se obtiene mediante el escurrido de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">d) Miel centrifugada: es la miel que se obtiene mediante la centrifugación de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">e) Miel prensada: es la miel obtenida mediante la compresión de los panales, sin larvas, con o sin aplicación de calor moderado, de hasta un máximo de 45 ºC.</p>
+          <p class="parrafo">f) Miel filtrada: es la miel que se obtiene eliminando materia orgánica o inorgánica ajena a la miel de manera tal que se genere una importante eliminación de polen.</p>
+          <p class="parrafo_2">3.3 Miel para uso industrial: Es la miel apropiada para usos industriales o para su utilización como ingrediente de otros productos alimenticios que se elaboran ulteriormente, que puede:</p>
+          <p class="parrafo_2">a) presentar un sabor o un olor extraños, o</p>
+          <p class="parrafo">b) haber comenzado a fermentar o haber fermentado, o</p>
+          <p class="parrafo">c) haberse sobrecalentado.</p>
+          <p class="centro_redonda">4. Características de la composición de la miel</p>
+          <p class="parrafo_2">4.1 La miel está compuesta esencialmente de diferentes azúcares, sobre todo de fructosa y glucosa, así como de otras sustancias, como ácidos orgánicos, enzimas y partículas sólidas derivadas de su recolección.</p>
+          <p class="parrafo">El color de la miel puede tener desde un tono casi incoloro a un tono pardo oscuro. Puede tener una consistencia fluida, espesa o cristalizada (en parte o en su totalidad). El sabor y el aroma pueden variar, pero se derivan del origen vegetal.</p>
+          <p class="parrafo">4.2 Cuando se comercialice la miel como tal, o cuando se utilice en un producto cualquiera destinado al consumo humano, no se le podrá añadir ningún ingrediente alimentario, incluidos los aditivos alimentarios, ni ninguna otra sustancia aparte de miel, y debe estar exenta, en la medida de lo posible, de materias orgánicas e inorgánicas ajenas a su composición.</p>
+          <p class="parrafo">4.3 Con excepción de lo dispuesto en el apartado 3.3, relativo a miel para uso industrial, no debe tener un gusto o un olor extraños ni haber comenzado a fermentar, presentar un grado de acidez modificado artificialmente, ni haberse calentado de manera que las enzimas naturales se destruyan o resulten poco activas.</p>
+          <p class="parrafo">4.4 Sin perjuicio de lo dispuesto en el apartado 3.2.2 f), relativo a la miel filtrada, no se podrá retirar de la miel el polen ni ningún otro de sus componentes específicos, excepto cuando resulte inevitable en el proceso de eliminación de materia orgánica o inorgánica ajena a ella.</p>
+          <p class="parrafo">4.5 En el momento de su comercialización como tal o de su utilización en cualquier producto destinado al consumo humano, la miel debe responder a las características de composición siguientes:</p>
+          <p class="parrafo_2">4.5.1 Contenido de azúcares.</p>
+          <p class="parrafo_2">a) Contenido de fructosa y glucosa (suma de ambas):</p>
+          <p class="parrafo_2">1.º Miel de flores: no menos de 60 g/100 g.</p>
+          <p class="parrafo">2.º Miel de mielada, mezclas de miel de mielada con miel de flores: no menos de 45 g/100 g.</p>
+          <p class="parrafo_2">b) Contenido de sacarosa:</p>
+          <p class="parrafo_2">1.º En general: no más de 5 g/100 g.</p>
+          <p class="parrafo">2.º Falsa acacia «Robinia pseudoacacia», alfalfa «Medicago sativa», Banksia de Menzies «Banksia menziesii», Sulla «Hedysarum», Eucalipto rojo «Eucalyptus camaldulensis», Eucryphia lucida, Eucryphia milliganii, Citrus spp: no más de 10 g/100 g.</p>
+          <p class="parrafo">3.º Espliego «Lavandula spp.», borraja «Borago officinalis»: no más de 15 g/100 g.</p>
+          <p class="parrafo_2">4.5.2 Contenido de agua:</p>
+          <p class="parrafo_2">1.º En general: no más del 20%.</p>
+          <p class="parrafo">2.º Miel de brezo «Calluna» y miel para uso industrial en general: no más del 23%.</p>
+          <p class="parrafo">3.º Miel de brezo «Calluna vulgaris» para uso industrial: no más del 25%.</p>
+          <p class="parrafo_2">4.5.3 Contenido de sólidos insolubles en agua:</p>
+          <p class="parrafo_2">1.º En general: no más de 0,1 g/100 g.</p>
+          <p class="parrafo">2.º Miel prensada: no más de 0,5 g/100 g.</p>
+          <p class="parrafo_2">4.5.4 Conductividad eléctrica:</p>
+          <p class="parrafo_2">1.º Miel no incluida en la enumeración de los dos párrafos más abajo indicados, y mezclas de estas mieles: no más de 0,8 mS/c.</p>
+          <p class="parrafo">2.º Miel de mielada y miel de castaño, y mezclas de éstas, excepto con las mieles que se enumeran a continuación: no menos de 0,8 mS/cm.</p>
+          <p class="parrafo">3.º Excepciones: madroño «Arbutus unedo», argaña «Erica», eucalipto, tilo «Tilia spp», brezo «Calluna vulgaris», manuka o jelly bush «Leptospermum», árbol del té «Melaleuca spp.».</p>
+          <p class="parrafo_2">4.5.5 Ácidos libres:</p>
+          <p class="parrafo_2">1.º En general: no más de 50 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo">2.º Miel para uso industrial: no más de 80 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo_2">4.5.6 Índice diastásico y contenido en hidroximetilfurfural (HMF), determinados después de la elaboración y mezcla.</p>
+          <p class="parrafo_2">a) Índice diastásico (escala de Schade):</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no menos de 8.</p>
+          <p class="parrafo">2.º Mieles con un bajo contenido natural de enzimas (por ejemplo, mieles de cítricos) y un contenido de HMF no superior a 15 mg/kg: no menos de 3.</p>
+          <p class="parrafo_2">b) HMF:</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no más de 40 mg/kg (condicionado a lo dispuesto en el párrafo a). 2.º anterior).</p>
+          <p class="parrafo">2.º Miel de origen declarado procedente de regiones de clima tropical y mezclas de estas mieles: no más de 80 mg/kg.</p>
+          <p class="centro_redonda">5. Etiquetado</p>
+          <p class="parrafo_2">5.1 La Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por el Real Decreto 1334/1999, de 31 de julio, será aplicable a los productos definidos en el apartado 3 precedente, relativo a descripción, definición y denominación de los productos, con arreglo a las siguientes condiciones:</p>
+          <p class="parrafo_2">5.1.1 El término «miel» se aplicará solamente al producto definido en el apartado 3.1, relativo a definición de la miel, y deberá usarse en el comercio para designar a dicho producto.</p>
+          <p class="parrafo">5.1.2 Las denominaciones a que hacen referencia el apartado 3.2, relativo a principales variedades de miel, y el apartado 3.3, relativo a miel de uso industrial, se reservarán a los productos que en ellos se definen y se deberán utilizar en el comercio para designarlos. Estas denominaciones se podrán sustituir por la mera denominación «miel», salvo en los casos de la miel filtrada, la miel en panal, la miel con trozos de panal o panal cortado en miel, y la miel para uso industrial.</p>
+          <p class="parrafo">No obstante,</p>
+          <p class="parrafo_2">a) En el caso de la miel para uso industrial, la expresión «únicamente para cocinar» aparecerá en la etiqueta en la proximidad inmediata de la denominación.</p>
+          <p class="parrafo">b) Dichas denominaciones, salvo en los casos de la miel filtrada y de la miel para uso industrial, podrán verse completadas con indicaciones que hagan referencia:</p>
+          <p class="parrafo_2">1.º Al origen floral o vegetal, si el producto procede totalmente o en su mayor parte del origen indicado y si posee las características organolépticas, fisicoquímicas y microscópicas de dicho origen.</p>
+          <p class="parrafo">2.º Al origen regional, territorial o topográfico, si el producto procede enteramente del origen indicado.</p>
+          <p class="parrafo">3.º A criterios de calidad específicos.</p>
+          <p class="parrafo_2">5.1.3 Cuando la miel para uso industrial se haya utilizado como ingrediente en un alimento compuesto, el término «miel» podrá emplearse en la denominación de dicho alimento compuesto en lugar del término «miel para uso industrial». No obstante, en la lista de ingredientes deberá utilizarse el término completo a que se refiere el apartado 3.3, relativo a miel de uso industrial.</p>
+          <p class="parrafo">5.1.4 Deberán mencionarse en la etiqueta el país o los países de origen en los que la miel y, en su caso, sus mezclas hayan sido recolectadas.</p>
+          <p class="parrafo">5.1.5 A efectos de lo dispuesto en la Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por Real Decreto 1334/1999, de 31 de julio, en particular, en sus artículos 15 y 17, las menciones que deberán indicarse con arreglo a lo dispuesto en el apartado 5.1.4 precedente se considerarán indicaciones obligatorias del etiquetado, de conformidad con lo dispuesto en el artículo 5 de dicha norma.</p>
+          <p class="parrafo">5.1.6 Los operadores deberán recoger dentro de su sistema de autocontrol las evidencias necesarias para demostrar ante las autoridades competentes los orígenes de las mieles empleadas en las mezclas, indicados en el apartado 5.1.4. Los registros de dichas evidencias deberán conservarse durante el tiempo indicado en el artículo 10.3 de la Ley 28/2015, de 30 de julio, para la defensa de la calidad alimentaria.</p>
+          <blockquote caduca="20201222" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que la modificación del apartado 5.1.4 y la adicción del apartado 5.1.6 de la Norma de calidad establecido por el art. único.1 del Real Decreto 523/2020, de 19 de mayo. <a class="refPost">Ref. BOE-A-2020-6513</a>, entra en vigor el 22 de diciembre de 2020, según determina su disposición final única:</p>
+            <p class="cita_con_pleca">Redacción anterior:</p>
+            <p class="cita">"5.1.4 Deberán mencionarse en la etiqueta el país o los países de origen en que la miel haya sido recolectada.</p>
+            <p class="cita">No obstante, en el caso de mezclas, si las mieles son originarias de más de un Estado miembro o tercer país, dicha mención podrá sustituirse por una de las siguientes, según proceda:</p>
+            <p class="cita">1.º ‘‘mezcla de mieles originarias de la UE’’.</p>
+            <p class="cita">2.º ‘‘mezcla de mieles no originarias de la UE’’.</p>
+            <p class="cita">3.º ‘‘mezcla de mieles originarias y no originarias de la UE’’."</p>
+          </blockquote>
+          <p class="parrafo">5.2 En el caso de la miel filtrada y de la miel para uso industrial, los contenedores para granel, los embalajes y la documentación comercial deberán indicar claramente la denominación completa, tal como se indica, respectivamente, en los apartados 3.2.2.f), relativo a miel filtrada, así como en el apartado 3.3, relativo a miel para uso industrial.</p>
+          <p class="parrafo">5.3 Dado que el polen es un componente natural específico de la miel, en los productos definidos en el apartado 3 no se considerará un ingrediente en el sentido del artículo 2, apartado 2, letra f), del Reglamento (UE) n.º 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre la información alimentaria facilitada al consumidor y por el que se modifican los Reglamentos (CE) n.º 1924/2006 y (CE) n.º 1925/2006 del Parlamento Europeo y del Consejo, y por el que se derogan la Directiva 87/250/CEE de la Comisión, la Directiva 90/496/CEE del Consejo, la Directiva 1999/10/CE de la Comisión, la Directiva 2000/13/CE del Parlamento Europeo y del Consejo, las Directivas 2002/67/CE y 2008/5/CE de la Comisión, y el Reglamento (CE) n.º 608/2004 de la Comisión.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 5.1.4 y se añade el 5.1.6, con efectos de 22 de diciembre de 2020, por el art. único. 1 del Real Decreto 523/2020, de 19 de mayo. <a class="refPost">Ref. BOE-A-2020-6513</a></p>
+            <p class="nota_pie_2">Téngase en cuenta la disposición transitoria única del citado Real Decreto, en cuanto a la comercialización de las existencias de productos anteriores a la entrada en vigor del mismo.</p>
+            <p class="nota_pie">Se modifican los apartados 4.4 y 5.1.4 y se añade el 5.3 por el art. único del Real Decreto 473/2015, de 12 de junio. <a class="refPost">Ref. BOE-A-2015-6841</a> </p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2025-3184" fecha_publicacion="20250219" fecha_vigencia="20260614">
+          <p class="anexo">NORMA DE CALIDAD RELATIVA A LA MIEL</p>
+          <p class="centro_redonda">1. Objeto</p>
+          <p class="parrafo_2">Esta norma de calidad tiene por objeto definir lo que se entiende por miel y fijar las condiciones y características que debe cumplir dicho producto para su presentación, comercialización y consumo en el mercado interior.</p>
+          <p class="centro_redonda">2. Ámbito de aplicación</p>
+          <p class="parrafo_2">Esta norma de calidad se aplicará a los productos definidos en el apartado 3, que deberán cumplir los requisitos de composición establecidos en el apartado 4.</p>
+          <p class="centro_redonda">3. Descripción, definición y denominación de los productos</p>
+          <p class="parrafo_2">3.1 La miel es la sustancia natural dulce producida por la abeja Apis mellifera a partir del néctar de plantas o de secreciones de partes vivas de plantas o de excreciones de insectos chupadores presentes en las partes vivas de plantas, que las abejas recolectan, transforman combinándolas con sustancias específicas propias, depositan, deshidratan, almacenan y dejan en colmenas para que madure.</p>
+          <p class="parrafo">3.2 Las principales variedades de miel son las siguientes:</p>
+          <p class="parrafo_2">3.2.1 Según su origen:</p>
+          <p class="parrafo_2">a) Miel de flores o miel de néctar: es la miel que procede del néctar de las plantas.</p>
+          <p class="parrafo">b) Miel de mielada: es la miel que procede en su mayor parte de excreciones de insectos chupadores de plantas (hemípteros) presentes en las partes vivas de las plantas o de secreciones de las partes vivas de las plantas.</p>
+          <p class="parrafo_2">3.2.2 Según su elaboración o su presentación:</p>
+          <p class="parrafo_2">a) Miel en panal: es la miel depositada por las abejas en los alvéolos operculados de panales recientemente construidos por ellas, o en finas hojas de cera en forma de panal realizadas únicamente con cera de abeja, sin larvas y vendida en panales, enteros o no.</p>
+          <p class="parrafo">b) Miel con trozos de panal o panal cortado en miel: es la miel que contiene uno o más trozos de miel en panal.</p>
+          <p class="parrafo">c) Miel escurrida: es la miel que se obtiene mediante el escurrido de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">d) Miel centrifugada: es la miel que se obtiene mediante la centrifugación de los panales desoperculados, sin larvas.</p>
+          <p class="parrafo">e) Miel prensada: es la miel obtenida mediante la compresión de los panales, sin larvas, con o sin aplicación de calor moderado, de hasta un máximo de 45 ºC.</p>
+          <p class="parrafo_2">3.3 Miel para uso industrial: Es la miel apropiada para usos industriales o para su utilización como ingrediente de otros productos alimenticios que se elaboran ulteriormente, que puede:</p>
+          <p class="parrafo_2">a) presentar un sabor o un olor extraños, o</p>
+          <p class="parrafo">b) haber comenzado a fermentar o haber fermentado, o</p>
+          <p class="parrafo">c) haberse sobrecalentado, o</p>
+          <p class="parrafo">d) haberse obtenido eliminando materia orgánica o inorgánica ajena a la miel de manera tal que se genere una importante eliminación de polen.</p>
+          <blockquote caduca="20260614" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que la supresión de la letra f) del apartado 3.2.2 y la actualización del apartado 3.3, establecidas por el art. único.1 del Real Decreto 68/2025, de 4 de febrero, <a class="refPost">Ref. BOE-A-2025-3184</a>, entran en vigor el 14 de junio de 2026, según determina su disposición final 2.</p>
+            <p class="cita_con_pleca">Redacción anterior:</p>
+            <p class="parrafo">"3.2.2 Según su elaboración o su presentación:</p>
+            <p class="parrafo">f) Miel filtrada: es la miel que se obtiene eliminando materia orgánica o inorgánica ajena a la miel de manera tal que se genere una importante eliminación de polen."</p>
+            <p class="parrafo">"3.3 Miel para uso industrial: Es la miel apropiada para usos industriales o para su utilización como ingrediente de otros productos alimenticios que se elaboran ulteriormente, que puede:</p>
+            <p class="parrafo_2">a) presentar un sabor o un olor extraños, o</p>
+            <p class="parrafo">b) haber comenzado a fermentar o haber fermentado, o</p>
+            <p class="parrafo">c) haberse sobrecalentado."</p>
+          </blockquote>
+          <p class="centro_redonda">4. Características de la composición de la miel</p>
+          <p class="parrafo_2">4.1 La miel está compuesta esencialmente de diferentes azúcares, sobre todo de fructosa y glucosa, así como de otras sustancias, como ácidos orgánicos, enzimas y partículas sólidas derivadas de su recolección.</p>
+          <p class="parrafo">El color de la miel puede tener desde un tono casi incoloro a un tono pardo oscuro. Puede tener una consistencia fluida, espesa o cristalizada (en parte o en su totalidad). El sabor y el aroma pueden variar, pero se derivan del origen vegetal.</p>
+          <p class="parrafo">4.2 Cuando se comercialice la miel como tal, o cuando se utilice en un producto cualquiera destinado al consumo humano, no se le podrá añadir ningún ingrediente alimentario, incluidos los aditivos alimentarios, ni ninguna otra sustancia aparte de miel, y debe estar exenta, en la medida de lo posible, de materias orgánicas e inorgánicas ajenas a su composición.</p>
+          <p class="parrafo">4.3 Con excepción de lo dispuesto en el apartado 3.3, relativo a miel para uso industrial, no debe tener un gusto o un olor extraños ni haber comenzado a fermentar, presentar un grado de acidez modificado artificialmente, ni haberse calentado de manera que las enzimas naturales se destruyan o resulten poco activas.</p>
+          <p class="parrafo">4.4 Sin perjuicio de lo dispuesto en el apartado 3.3.d), no se podrá retirar de la miel el polen ni ningún otro de sus componentes específicos, excepto cuando resulte inevitable en el proceso de eliminación de materia orgánica o inorgánica ajena a ella.</p>
+          <blockquote caduca="20260614" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que esta actualización del apartado 4.4, establecida por el art. único.2 del Real Decreto 68/2025, de 4 de febrero, <a class="refPost">Ref. BOE-A-2025-3184</a>, entra en vigor el 14 de junio de 2026, según determina su disposición final 2.</p>
+            <p class="cita_con_pleca">Redacción anterior:</p>
+            <p class="parrafo">"4.4 Sin perjuicio de lo dispuesto en el apartado 3.2.2 f), relativo a la miel filtrada, no se podrá retirar de la miel el polen ni ningún otro de sus componentes específicos, excepto cuando resulte inevitable en el proceso de eliminación de materia orgánica o inorgánica ajena a ella."</p>
+          </blockquote>
+          <p class="parrafo">4.5 En el momento de su comercialización como tal o de su utilización en cualquier producto destinado al consumo humano, la miel debe responder a las características de composición siguientes:</p>
+          <p class="parrafo_2">4.5.1 Contenido de azúcares.</p>
+          <p class="parrafo_2">a) Contenido de fructosa y glucosa (suma de ambas):</p>
+          <p class="parrafo_2">1.º Miel de flores: no menos de 60 g/100 g.</p>
+          <p class="parrafo">2.º Miel de mielada, mezclas de miel de mielada con miel de flores: no menos de 45 g/100 g.</p>
+          <p class="parrafo_2">b) Contenido de sacarosa:</p>
+          <p class="parrafo_2">1.º En general: no más de 5 g/100 g.</p>
+          <p class="parrafo">2.º Falsa acacia «Robinia pseudoacacia», alfalfa «Medicago sativa», Banksia de Menzies «Banksia menziesii», Sulla «Hedysarum», Eucalipto rojo «Eucalyptus camaldulensis», Eucryphia lucida, Eucryphia milliganii, Citrus spp: no más de 10 g/100 g.</p>
+          <p class="parrafo">3.º Espliego «Lavandula spp.», borraja «Borago officinalis»: no más de 15 g/100 g.</p>
+          <p class="parrafo_2">4.5.2 Contenido de agua:</p>
+          <p class="parrafo_2">1.º En general: no más del 20%.</p>
+          <p class="parrafo">2.º Miel de brezo «Calluna» y miel para uso industrial en general: no más del 23%.</p>
+          <p class="parrafo">3.º Miel de brezo «Calluna vulgaris» para uso industrial: no más del 25%.</p>
+          <p class="parrafo_2">4.5.3 Contenido de sólidos insolubles en agua:</p>
+          <p class="parrafo_2">1.º En general: no más de 0,1 g/100 g.</p>
+          <p class="parrafo">2.º Miel prensada: no más de 0,5 g/100 g.</p>
+          <p class="parrafo_2">4.5.4 Conductividad eléctrica:</p>
+          <p class="parrafo_2">1.º Miel no incluida en la enumeración de los dos párrafos más abajo indicados, y mezclas de estas mieles: no más de 0,8 mS/c.</p>
+          <p class="parrafo">2.º Miel de mielada y miel de castaño, y mezclas de éstas, excepto con las mieles que se enumeran a continuación: no menos de 0,8 mS/cm.</p>
+          <p class="parrafo">3.º Excepciones: madroño «Arbutus unedo», argaña «Erica», eucalipto, tilo «Tilia spp», brezo «Calluna vulgaris», manuka o jelly bush «Leptospermum», árbol del té «Melaleuca spp.».</p>
+          <p class="parrafo_2">4.5.5 Ácidos libres:</p>
+          <p class="parrafo_2">1.º En general: no más de 50 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo">2.º Miel para uso industrial: no más de 80 miliequivalentes de ácidos por 1000 g.</p>
+          <p class="parrafo_2">4.5.6 Índice diastásico y contenido en hidroximetilfurfural (HMF), determinados después de la elaboración y mezcla.</p>
+          <p class="parrafo_2">a) Índice diastásico (escala de Schade):</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no menos de 8.</p>
+          <p class="parrafo">2.º Mieles con un bajo contenido natural de enzimas (por ejemplo, mieles de cítricos) y un contenido de HMF no superior a 15 mg/kg: no menos de 3.</p>
+          <p class="parrafo_2">b) HMF:</p>
+          <p class="parrafo_2">1.º En general, excepto miel para uso industrial: no más de 40 mg/kg (condicionado a lo dispuesto en el párrafo a). 2.º anterior).</p>
+          <p class="parrafo">2.º Miel de origen declarado procedente de regiones de clima tropical y mezclas de estas mieles: no más de 80 mg/kg.</p>
+          <p class="centro_redonda">5. Etiquetado</p>
+          <p class="parrafo_2">5.1 La Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por el Real Decreto 1334/1999, de 31 de julio, será aplicable a los productos definidos en el apartado 3 precedente, relativo a descripción, definición y denominación de los productos, con arreglo a las siguientes condiciones:</p>
+          <p class="parrafo_2">5.1.1 El término «miel» se aplicará solamente al producto definido en el apartado 3.1, relativo a definición de la miel, y deberá usarse en el comercio para designar a dicho producto.</p>
+          <p class="parrafo_2">5.1.2 Las denominaciones a que hacen referencia los apartados 3.2 y 3.3 se reservarán a los productos que en ellos se definen y se deberán utilizar en el comercio para designarlos. Dichas denominaciones se podrán sustituir por la mera denominación “miel”, salvo en los casos de la miel en panal, la miel con trozos de panal o el panal cortado en miel, y la miel para uso industrial.</p>
+          <p class="parrafo">No obstante:</p>
+          <p class="parrafo_2">a) en el caso de la miel para uso industrial, la expresión “sólo para cocinar” aparecerá en el etiquetado cerca de la denominación.</p>
+          <p class="parrafo">b) salvo en el caso de la miel para uso industrial, dichas denominaciones podrán verse completadas con información relativa a las siguientes características de la miel:</p>
+          <p class="parrafo_2">1.º su origen floral o vegetal, si el producto procede totalmente o en su mayor parte del origen indicado y presenta las características organolépticas, fisicoquímicas y microscópicas del origen indicado,</p>
+          <p class="parrafo">2.º su origen regional, territorial o topográfico, si el producto procede enteramente del origen indicado,</p>
+          <p class="parrafo">3.º criterios de calidad específicos.</p>
+          <p class="parrafo_2">5.1.3 Cuando la miel para uso industrial se haya utilizado como ingrediente en un alimento compuesto, el término «miel» podrá emplearse en la denominación de dicho alimento compuesto en lugar del término «miel para uso industrial». No obstante, en la lista de ingredientes deberá utilizarse el término completo a que se refiere el apartado 3.3, relativo a miel de uso industrial.</p>
+          <p class="parrafo">5.1.4 Deberá mencionarse en la etiqueta el país de origen en que la miel haya sido recolectada. Si la miel procede de más de un país, deberán mencionarse en la etiqueta los países de origen en que la miel haya sido recolectada, en el campo visual principal, en orden decreciente de proporción en el peso, junto con el porcentaje que representa cada uno de los países de origen. Se permitirá una tolerancia del 5 % para cada parte de la mezcla, calculada a partir de la documentación de trazabilidad del operador.</p>
+          <p class="parrafo">En el caso de los envases que contengan menos de 30 gramos netos de miel, los nombres de los países de origen podrán sustituirse por un código compuesto por dos letras, de conformidad con la última versión de los códigos de dos letras de la norma internacional ISO 3166-1 (alfa-2) en vigor.</p>
+          <p class="parrafo">5.1.5 Las menciones que deben indicarse con arreglo al apartado anterior se considerarán menciones obligatorias de conformidad con el artículo 9 del Reglamento (UE) n.º 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011.</p>
+          <p class="parrafo">5.1.6 Los operadores deberán recoger dentro de su sistema de autocontrol las evidencias necesarias para demostrar ante las autoridades competentes los orígenes de las mieles empleadas en las mezclas, indicados en el apartado 5.1.4. Los registros de dichas evidencias deberán conservarse durante el tiempo indicado en el artículo 10.3 de la Ley 28/2015, de 30 de julio, para la defensa de la calidad alimentaria.</p>
+          <p class="parrafo">5.2 En el caso de la miel para uso industrial, los contenedores para granel, los embalajes y la documentación comercial deberán indicar claramente la denominación completa, tal como se indica en el apartado 3.3, relativo a la miel para uso industrial.</p>
+          <blockquote caduca="20260614" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que esta actualización de los apartados 5.1.2, 5.1.4, 5.1.5 y 5.2, establecida por el art. único.3 del Real Decreto 68/2025, de 4 de febrero, <a class="refPost">Ref. BOE-A-2025-3184</a>, entra en vigor el 14 de junio de 2026, según determina su disposición final 2.</p>
+            <p class="cita_con_pleca">Redacción anterior:</p>
+            <p class="parrafo">"5.1.2 Las denominaciones a que hacen referencia el apartado 3.2, relativo a principales variedades de miel, y el apartado 3.3, relativo a miel de uso industrial, se reservarán a los productos que en ellos se definen y se deberán utilizar en el comercio para designarlos. Estas denominaciones se podrán sustituir por la mera denominación «miel», salvo en los casos de la miel filtrada, la miel en panal, la miel con trozos de panal o panal cortado en miel, y la miel para uso industrial.</p>
+            <p class="parrafo">No obstante,</p>
+            <p class="parrafo_2">a) En el caso de la miel para uso industrial, la expresión «únicamente para cocinar» aparecerá en la etiqueta en la proximidad inmediata de la denominación.</p>
+            <p class="parrafo">b) Dichas denominaciones, salvo en los casos de la miel filtrada y de la miel para uso industrial, podrán verse completadas con indicaciones que hagan referencia:</p>
+            <p class="parrafo_2">1.º Al origen floral o vegetal, si el producto procede totalmente o en su mayor parte del origen indicado y si posee las características organolépticas, fisicoquímicas y microscópicas de dicho origen.</p>
+            <p class="parrafo">2.º Al origen regional, territorial o topográfico, si el producto procede enteramente del origen indicado.</p>
+            <p class="parrafo">3.º A criterios de calidad específicos."</p>
+            <p class="parrafo">"5.1.4 Deberán mencionarse en la etiqueta el país o los países de origen en los que la miel y, en su caso, sus mezclas hayan sido recolectadas."</p>
+            <p class="parrafo">"5.1.5 A efectos de lo dispuesto en la Norma general de etiquetado, presentación y publicidad de los productos alimenticios, aprobada por Real Decreto 1334/1999, de 31 de julio, en particular, en sus artículos 15 y 17, las menciones que deberán indicarse con arreglo a lo dispuesto en el apartado 5.1.4 precedente se considerarán indicaciones obligatorias del etiquetado, de conformidad con lo dispuesto en el artículo 5 de dicha norma."</p>
+            <p class="parrafo">"5.2 En el caso de la miel filtrada y de la miel para uso industrial, los contenedores para granel, los embalajes y la documentación comercial deberán indicar claramente la denominación completa, tal como se indica, respectivamente, en los apartados 3.2.2.f), relativo a miel filtrada, así como en el apartado 3.3, relativo a miel para uso industrial."</p>
+          </blockquote>
+          <p class="parrafo">5.3 Dado que el polen es un componente natural específico de la miel, en los productos definidos en el apartado 3 no se considerará un ingrediente en el sentido del artículo 2, apartado 2, letra f), del Reglamento (UE) n.º 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre la información alimentaria facilitada al consumidor y por el que se modifican los Reglamentos (CE) n.º 1924/2006 y (CE) n.º 1925/2006 del Parlamento Europeo y del Consejo, y por el que se derogan la Directiva 87/250/CEE de la Comisión, la Directiva 90/496/CEE del Consejo, la Directiva 1999/10/CE de la Comisión, la Directiva 2000/13/CE del Parlamento Europeo y del Consejo, las Directivas 2002/67/CE y 2008/5/CE de la Comisión, y el Reglamento (CE) n.º 608/2004 de la Comisión.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 3, 4 y 5 por el art. único del Real Decreto 68/2025, de 4 de febrero. <a class="refPost">Ref. BOE-A-2025-3184</a></p>
+            <p class="nota_pie_2">Esta modificación entra en vigor el 14 de junio de 2026, según establece la disposición final 2 del citado Real Decreto.</p>
+            <p class="nota_pie">Se modifica el apartado 5.1.4 y se añade el 5.1.6, con efectos de 22 de diciembre de 2020, por el art. único. 1 del Real Decreto 523/2020, de 19 de mayo. <a class="refPost">Ref. BOE-A-2020-6513</a></p>
+            <p class="nota_pie_2">Téngase en cuenta la disposición transitoria única del citado Real Decreto, en cuanto a la comercialización de las existencias de productos anteriores a la entrada en vigor del mismo.</p>
+            <p class="nota_pie">Se modifican los apartados 4.4 y 5.1.4 y se añade el 5.3 por el art. único del Real Decreto 473/2015, de 12 de junio. <a class="refPost">Ref. BOE-A-2015-6841</a> </p>
+          </blockquote>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

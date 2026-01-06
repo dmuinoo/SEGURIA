@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210414Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-654</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3410">Ministerio de Medio Ambiente</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20041223</fecha_disposicion>
+      <numero_oficial>2355/2004</numero_oficial>
+      <titulo>Real Decreto 2355/2004, de 23 de diciembre, por el que se regulan la estructura y funciones del Consejo Asesor de Medio Ambiente.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050114</fecha_publicacion>
+      <diario_numero>12</diario_numero>
+      <fecha_vigencia>20050115</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2004/12/23/2355</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-654</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1384">Consejo Asesor de Medio Ambiente</materia>
+        <materia codigo="4990">Ministerio de Medio Ambiente</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-14186</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 686/2002, de 12 de julio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2012-6777</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3.2, por Real Decreto 776/2012, de 4 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-654</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-23</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2355</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1384"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4990"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-654</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2355</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1384"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4990"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20120523"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20050114"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2355/2004, de 23 de diciembre, por el que se regulan la estructura y funciones del Consejo Asesor de Medio Ambiente.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-14</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20120523">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-654</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2355</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1384"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4990"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20120523/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2355/2004, de 23 de diciembre, por el que se regulan la estructura y funciones del Consejo Asesor de Medio Ambiente.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20120523"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20120523/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20120523/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20050114">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-654</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2355</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1384"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4990"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20050114/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2355/2004, de 23 de diciembre, por el que se regulan la estructura y funciones del Consejo Asesor de Medio Ambiente.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20050114"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20050114/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/12/23/2355/con/20050114/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="parrafo">La configuración constitucional del medio ambiente como un bien jurídico de cuyo disfrute son acreedores todos los ciudadanos y cuya conservación es una obligación que comparten los poderes públicos y la propia ciudadanía ha impuesto la necesidad de fomentar la participación de la colectividad, especialmente por medio de sus organizaciones y asociaciones, en el proceso de implantación de un modelo económico, social y medioambientalmente sostenible.</p>
+          <p class="parrafo">La comunidad internacional, a través fundamentalmente de la Organización de Naciones Unidas, ha vinculado la transformación de nuestro modelo de crecimiento hacia un modelo de desarrollo sostenible al reforzamiento de la participación de la sociedad civil en el proceso político de toma de decisiones requerido para poner en marcha dicho cambio. De hecho, la implantación de un modelo de desarrollo medioambientalmente sostenible depende, en buena medida, de la efectiva participación de la sociedad civil en el proceso político decisional, de manera que durante el debate se hayan tenido en cuenta las informaciones y aportaciones que haya podido realizar cualquier particular interesado y en el resultado final sean palpables y tangibles las preocupaciones y consideraciones de carácter medioambiental. Esta idea está expresamente recogida en la Declaración de Río sobre Medio Ambiente y Desarrollo Sostenible, cuyo principio número 10 establece que la mejor manera de gestionar los asuntos ambientales es contar con la participación de todos los ciudadanos.</p>
+          <p class="parrafo">Esta concepción de la participación ha sido incorporada al derecho positivo a través del Convenio sobre acceso a la información, la participación del público en la toma de decisiones y el acceso a la justicia en materia de medio ambiente, hecho en Aarhus el 25 de junio de 1998, en el seno de la Comisión Económica para Europa de Naciones Unidas. Este acuerdo internacional tiene como objetivo principal contribuir a la protección del derecho de cada individuo a vivir en un medio ambiente adecuado para su salud y bienestar. Para ello, y siguiendo las prescripciones marcadas por la Declaración de Río, el Convenio de Aarhus parte del siguiente postulado: para que los ciudadanos puedan disfrutar del derecho a un medio ambiente saludable y cumplir el deber de respetar y proteger ese mismo medio ambiente, deben tener acceso a la información medioambiental relevante, deben estar legitimados para participar en los procesos de toma de decisiones de carácter ambiental y deben tener acceso a la justicia cuando tales derechos le sean negados.</p>
+          <p class="parrafo">En nuestro país, el Ministerio de Medio Ambiente, como el resto de departamentos que forman parte de la Administración General del Estado, cuenta con una serie de órganos de diversa naturaleza y composición que funcionan como órganos multilaterales o bilaterales de encuentro y a través de los cuales se da participación a las distintas Administraciones públicas y a los sectores sociales y económicos relevantes para el ámbito medioambiental en el diseño, formulación y ejecución de las políticas públicas que son competencia de este ministerio.</p>
+          <p class="parrafo">Entre estos órganos se encuentra el Consejo Asesor de Medio Ambiente, órgano de consulta y participación en la elaboración y seguimiento de la política medioambiental presidido por el Ministro de Medio Ambiente e integrado por diversos representantes del departamento y de otros ministerios con rango de director general, así como por representantes de organizaciones económicas, profesionales, sindicales y no gubernamentales, creado por el Real Decreto 224/1994, de 14 de febrero. La norma de creación del Consejo ha experimentado diversas modificaciones destinadas bien a adaptar su régimen jurídico a las modificaciones organizativas que se han realizado en el seno de la Administración General del Estado, bien a procurar dotar al órgano de una mayor agilidad en su funcionamiento. La última reforma, operada por el Real Decreto 686/2002, de 12 de junio, supuso una minoración de las atribuciones del Consejo y una disminución de su carácter representativo.</p>
+          <p class="parrafo">En la actualidad, sin embargo, la composición del Consejo y las funciones que tiene atribuidas no satisfacen plenamente el propósito originariamente perseguido por su norma de creación, ni los nuevos cometidos que debiera desempeñar para cumplir los objetivos democráticos establecidos en la Constitución y en el citado Convenio de Aarhus. Por esta razón, se hace necesario acometer una nueva reforma del Consejo Asesor de Medio Ambiente que reordene su estructura, su composición y sus competencias para convertir este órgano consultivo en un verdadero foro institucional de participación de las organizaciones y entidades representativas de intereses sociales y ambientales en la elaboración y seguimiento de las políticas ambientales promovidas por el Estado.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Medio Ambiente, con la aprobación previa del Ministro de Administraciones Públicas y previa deliberación del Consejo de Ministros en su reunión del día 23 de diciembre de 2004,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 1. Naturaleza y adscripción.</p>
+          <p class="parrafo_2">El Consejo Asesor de Medio Ambiente es un órgano colegiado que tiene por objeto la participación y el seguimiento de las políticas ambientales generales orientadas al desarrollo sostenible.</p>
+          <p class="parrafo">El Consejo Asesor de Medio Ambiente queda adscrito a efectos administrativos al Ministerio de Medio Ambiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo_2">Corresponden al Consejo Asesor las siguientes funciones:</p>
+          <p class="parrafo_2">a) Emitir informe sobre los anteproyectos de ley y proyectos de real decreto con incidencia ambiental.</p>
+          <p class="parrafo">b) Asesorar sobre los planes y programas de ámbito estatal que la presidencia del Consejo le proponga en razón a la importancia de su incidencia sobre el medio ambiente.</p>
+          <p class="parrafo">c) Emitir informes y efectuar propuestas en materia medioambiental, a iniciativa propia o a petición de los departamentos ministeriales que así lo soliciten a la presidencia del Consejo.</p>
+          <p class="parrafo">Las Administraciones de las comunidades autónomas y las entidades que integran la Administración local podrán, igualmente, solicitar a la presidencia del Consejo que éste emita informes sobre materias de su competencia relativas al medio ambiente.</p>
+          <p class="parrafo">d) Proponer medidas que incentiven la creación de empleo ligado a actividades relacionadas con la protección del medio ambiente, así como la participación ciudadana en la solución de los problemas ambientales.</p>
+          <p class="parrafo">e) Proponer medidas de educación ambiental que tengan como objetivo informar, orientar y sensibilizar a la sociedad de los valores ecológicos y medioambientales.</p>
+          <p class="parrafo">f) Proponer las medidas que considere oportunas para el mejor cumplimiento de los acuerdos internacionales en materia de medio ambiente y desarrollo sostenible, valorando la efectividad de las normas y programas en vigor y proponiendo, en su caso, las oportunas modificaciones.</p>
+          <p class="parrafo">g) Impulsar la coordinación entre la iniciativa pública y privada en materia de medio ambiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 3. Composición.</p>
+          <p class="parrafo_2">1. El Consejo Asesor de Medio Ambiente estará presidido por el Ministro de Medio Ambiente y lo integrarán los siguientes miembros:</p>
+          <p class="parrafo_2">a) Un representante de cada una de las organizaciones no gubernamentales cuyo objeto es la defensa del medio ambiente y el desarrollo sostenible, enumeradas en el anexo.</p>
+          <p class="parrafo">b) Un representante de cada una de las organizaciones sindicales más representativas en el ámbito estatal.</p>
+          <p class="parrafo">c) Dos representantes de las organizaciones empresariales más representativas en el ámbito estatal.</p>
+          <p class="parrafo">d) Dos representantes de las organizaciones de consumidores y usuarios, designados a iniciativa del Consejo de Consumidores y Usuarios.</p>
+          <p class="parrafo">e) Tres representantes de las organizaciones profesionales agrarias más representativas en el ámbito estatal.</p>
+          <p class="parrafo">f) Un representante de la Federación Nacional de Cofradías de Pescadores.</p>
+          <p class="parrafo_2">2. Para cada uno de los miembros del Consejo Asesor se designará un suplente. Actuará como suplente del Presidente el Subsecretario de Medio Ambiente.</p>
+          <p class="parrafo">3. Actuará como secretario, con voz y sin voto, un funcionario del Ministerio de Medio Ambiente.</p>
+        </version>
+        <version id_norma="BOE-A-2012-6777" fecha_publicacion="20120523" fecha_vigencia="20120524">
+          <p class="articulo">Artículo 3. Composición.</p>
+          <p class="parrafo_2">1. El Consejo Asesor de Medio Ambiente estará presidido por el Ministro de Medio Ambiente y lo integrarán los siguientes miembros:</p>
+          <p class="parrafo_2">a) Un representante de cada una de las organizaciones no gubernamentales cuyo objeto es la defensa del medio ambiente y el desarrollo sostenible, enumeradas en el anexo.</p>
+          <p class="parrafo">b) Un representante de cada una de las organizaciones sindicales más representativas en el ámbito estatal.</p>
+          <p class="parrafo">c) Dos representantes de las organizaciones empresariales más representativas en el ámbito estatal.</p>
+          <p class="parrafo">d) Dos representantes de las organizaciones de consumidores y usuarios, designados a iniciativa del Consejo de Consumidores y Usuarios.</p>
+          <p class="parrafo">e) Tres representantes de las organizaciones profesionales agrarias más representativas en el ámbito estatal.</p>
+          <p class="parrafo">f) Un representante de la Federación Nacional de Cofradías de Pescadores.</p>
+          <p class="parrafo_2">2. Para cada uno de los miembros del Consejo Asesor se designará un suplente. Actuará como suplente del Presidente el Secretario de Estado de Medio Ambiente.</p>
+          <p class="parrafo">3. Actuará como secretario, con voz y sin voto, un funcionario del Ministerio de Medio Ambiente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por el art. único del Real Decreto 776/2012, de 4 de mayo. <a class="refPost">Ref. BOE-A-2012-6777</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 4. Nombramientos.</p>
+          <p class="parrafo_2">1. Los miembros del Consejo Asesor y sus suplentes serán nombrados por el Ministro de Medio Ambiente, a propuesta, en su caso, de las entidades y organizaciones referidas en el artículo 3.</p>
+          <p class="parrafo">2. El nombramiento de los miembros electivos del Consejo y de los suplentes será por un período de dos años, que podrá ser renovado por períodos iguales.</p>
+          <p class="parrafo">Los miembros del Consejo Asesor cesarán a propuesta de las organizaciones o entidades que propusieron su nombramiento.</p>
+          <p class="parrafo">3. La pertenencia al Consejo Asesor no dará derecho a remuneración alguna, con excepción de los gastos de desplazamiento para el caso de que las reuniones se celebren en localidades distintas a las del lugar de residencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 5. Participación de otros asistentes.</p>
+          <p class="parrafo_2">1. Podrán participar en los debates del Consejo Asesor de Medio Ambiente, con voz pero sin voto:</p>
+          <p class="parrafo_2">a) Los titulares de los órganos superiores y directivos del Ministerio de Medio Ambiente o de otros ministerios que sean convocados por el Presidente del Consejo en función de los asuntos a tratar, para que expongan los proyectos e iniciativas correspondientes a su ámbito de competencias.</p>
+          <p class="parrafo">b) Un representante de la asociación de entidades locales de ámbito estatal con mayor implantación.</p>
+          <p class="parrafo_2">2. Así mismo, podrán asistir a las reuniones del Consejo Asesor, o a las de las comisiones o grupos de trabajo que lo integren, de conformidad con lo que disponga el reglamento de régimen interior, los técnicos o expertos en las cuestiones que se traten.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 6. Régimen de funcionamiento.</p>
+          <p class="parrafo_2">1. El Pleno del Consejo Asesor se reunirá al menos una vez al semestre y siempre que lo requiera el ejercicio de sus funciones.</p>
+          <p class="parrafo">2. El Consejo Asesor de Medio Ambiente aprobará su reglamento de régimen interior.</p>
+          <p class="parrafo">3. En todo lo no previsto en el reglamento de régimen interior, el régimen de funcionamiento del Consejo Asesor de Medio Ambiente será el establecido para los órganos colegiados en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 7. Memoria anual.</p>
+          <p class="parrafo_2">El Consejo Asesor elaborará anualmente una memoria sobre las actividades desarrolladas en cumplimiento de sus funciones, que el Ministerio de Medio Ambiente publicará en el primer semestre del año siguiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 8. Información.</p>
+          <p class="parrafo_2">El Ministerio de Medio Ambiente facilitará toda la información necesaria para el buen funcionamiento del Consejo Asesor de Medio Ambiente en las materias de su competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Artículo 9. Conferencia sobre Desarrollo Sostenible.</p>
+          <p class="parrafo_2">Para analizar los avances en la elaboración y puesta en práctica de la Estrategia española de desarrollo sostenible, el Consejo Asesor de Medio Ambiente convocará cada dos años la celebración de una Conferencia sobre Desarrollo Sostenible, que podrá formular propuestas dirigidas a las Administraciones públicas y a los agentes económicos y sociales.</p>
+          <p class="parrafo">La Conferencia sobre Desarrollo Sostenible podrá contar, previa invitación al efecto, con la participación de representantes de los órganos de la Administración General del Estado y de las comunidades autónomas con competencias en las materias afectadas por la Estrategia española de desarrollo sostenible, así como de la comunidad científica y de las organizaciones que tengan finalidades relacionadas con la consecución de los objetivos de aquélla.</p>
+          <p class="parrafo">El Consejo Asesor de Medio Ambiente aprobará las normas de organización y funcionamiento de la Conferencia sobre Desarrollo Sostenible.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Disposición adicional única. Recursos humanos y materiales.</p>
+          <p class="parrafo_2">El Ministerio de Medio Ambiente, con cargo a sus presupuestos, facilitará los recursos humanos y materiales necesarios para el funcionamiento del Consejo Asesor de Medio Ambiente y, a solicitud de éste, podrá encargar los estudios e informes relativos a las funciones que el artículo 2 atribuye al Consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo_2">Se deroga el Real Decreto 686/2002, de 12 de julio, por el que se regula la estructura y funciones del Consejo Asesor de Medio Ambiente.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Disposición final primera. Habilitación normativa.</p>
+          <p class="parrafo_2">Por el Ministro de Medio Ambiente se dictarán las disposiciones necesarias para permitir el funcionamiento del Consejo Asesor de Medio Ambiente.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo_2">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="parrafo_2">Dado en Madrid, el 23 de diciembre de 2004.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Ministra de Medio Ambiente,</p>
+          <p class="firma_ministro">CRISTINA NARBONA RUIZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2005-654" fecha_publicacion="20050114" fecha_vigencia="20050115">
+          <p class="anexo">ANEXO</p>
+          <p class="parrafo_2">Amigos de la Tierra.</p>
+          <p class="parrafo">Ecologistas en Acción.</p>
+          <p class="parrafo">Greenpeace España.</p>
+          <p class="parrafo">Sociedad Española de Ornitología SEO/Birdlife.</p>
+          <p class="parrafo">WWF/Asociación de Defensa de la Naturaleza (ADENA).</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

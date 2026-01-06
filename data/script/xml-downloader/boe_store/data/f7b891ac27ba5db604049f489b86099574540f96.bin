@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T132922Z</fecha_actualizacion>
+      <identificador>BOE-A-2012-3816</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8140">Comunidad Autónoma del País Vasco</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19880629</fecha_disposicion>
+      <numero_oficial>11/1988</numero_oficial>
+      <titulo>Ley 11/1988, de 29 de junio, de creación del Instituto Vasco de Educación Física.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20120317</fecha_publicacion>
+      <diario_numero>66</diario_numero>
+      <fecha_vigencia>19880807</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-pv/l/1988/06/29/11</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2012-3816</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3118">Educación Física</materia>
+        <materia codigo="5268">Organismos autónomos</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+        <materia codigo="5345">País Vasco</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOPV núm 154, de 6 de agosto de 1988.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Decreto 170/1986, de 22 de julio (BOPV núm. 152, de 31 de julio)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-30177</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 10.36 del Estatuto aprobado por Ley Orgánica 3/1979, de 18 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-3816</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-06-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3118"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-3816</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3118"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/con/19880806"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/1988, de 29 de junio, de creación del Instituto Vasco de Educación Física.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-03-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/con/19880806">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-3816</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3118"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-08-06</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/con/19880806/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/1988, de 29 de junio, de creación del Instituto Vasco de Educación Física.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/con/19880806"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1988/06/29/11/con/19880806/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1988/06/29/11/con/19880806/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="parrafo">Se hace saber a todos los ciudadanos de Euskadi que el Parlamento Vasco ha aprobado la Ley 11/1988, de 29 de junio, de creación del Instituto Vasco de Educación Física. Por consiguiente, ordeno a todos los ciudadanos de Euskadi, particulares y autoridades que la guarden y hagan guardarla.</p>
+          <p class="parrafo_2">Vitoria-Gasteiz, 19 de julio de 1988.–El Lehendakari, José Antonio Ardanza Garro.</p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">La Comunidad Autónoma del País Vasco tiene, a tenor del artículo 10.36 del Estatuto de Autonomía, la competencia exclusiva en materia de deporte.</p>
+          <p class="parrafo">Asimismo, el Estatuto de Autonomía en su artículo 16 determina, que es competencia de la Comunidad Autónoma del País Vasco la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades.</p>
+          <p class="parrafo">Por otro lado, al ser cada día más evidente la singular trascendencia y auge que tiene la educación física en los diferentes niveles educativos, se constituye el Instituto Vasco de Educación Física como organismo autónomo, de carácter administrativo; adscrito al Departamento de Cultura y Turismo, asignándole funciones destinadas a la formación, especialización y perfeccionamiento de titulados en educación física, al fomento de la investigación, y colaboración con otros entes que incidan en la formación de técnicos deportivos.</p>
+          <p class="parrafo">Por su parte el Título segundo establece los órganos del Instituto que son: Patronato Rector, Claustro de Profesores y el Director del Instituto Vasco de Educación Física.</p>
+          <p class="parrafo">En el Título tercero se determinan los recursos económicos con que contará el Instituto para el cumplimiento y realización de sus fines.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Régimen Jurídico del Instituto Vasco de Educación Física</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">El Instituto Vasco de Educación Física se constituye en organismo autónomo de carácter administrativo adscrito al Departamento de Cultura y Turismo, con personalidad jurídica propia y plena capacidad de obrar para el cumplimiento de sus fines.</p>
+          <p class="parrafo">La sede del Instituto Vasco de Educación Física radicará en Vitoria-Gasteiz.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">1. Serán fines del Instituto Vasco de Educación Física:</p>
+          <p class="parrafo_2">a) Impartir los conocimientos y la formación para la adquisición de titularidad académica en educación física, incluido, en su caso, el tercer ciclo, conforme a la legislación vigente. La enseñanza será impartida en las dos lenguas oficiales de la Comunidad Autónoma del País Vasco, de acuerdo con la Ley 10/82, Básica de Normalización del Uso del Euskera.</p>
+          <p class="parrafo">b) El perfeccionamiento y especialización de los titulados en educación física.</p>
+          <p class="parrafo">c) El perfeccionamiento y especialización de los profesores de E.G.B. en educación física.</p>
+          <p class="parrafo">d) La investigación científica en el campo de la educación física, para lo cual podrá establecer convenios con otros organismos.</p>
+          <p class="parrafo">e) La gestión y mantenimiento de sus recursos e instalaciones.</p>
+          <p class="parrafo">f) Colaboración con otros centros dedicados a la formación de técnicos en deporte.</p>
+          <p class="parrafo_2">2. Para el desarrollo de sus fines, el Instituto Vasco de Educación Física podrá organizar cursos y seminarios, establecer mecanismos de coordinación con el Departamento de Educación, Universidades e Investigación, así como elaborar planes de estudio conforme a la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Órganos de Gobierno del Instituto Vasco de Educación Física</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">Los órganos de gobierno del Instituto Vasco de Educación Física serán los siguientes:</p>
+          <p class="parrafo_2">a) Colegiados: El Patronato y el Claustro de Profesores.</p>
+          <p class="parrafo">b) Órganos unipersonales: El Director.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">El Patronato Rector estará integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">Presidente: El Consejero del Departamento de Cultura y Turismo.</p>
+          <p class="parrafo">Vicepresidente: El Viceconsejero de Juventud y Deportes.</p>
+          <p class="parrafo">Vocales:</p>
+          <p class="parrafo_2">– El Director de Deportes del Departamento de Cultura y Turismo.</p>
+          <p class="parrafo">– Los Diputados de Cultura de cada una de las Diputaciones Forales de los Territorios Históricos integrados en la Comunidad Autónoma.</p>
+          <p class="parrafo">– Dos representantes del Departamento de Educación, Universidades e Investigación.</p>
+          <p class="parrafo">– Un representante del Consejo Social de la Universidad del País Vasco.</p>
+          <p class="parrafo">– Dos representantes nombrados por el Presidente del Patronato Rector, entre personas de reconocido prestigio en el campo de la educación física y el deporte.</p>
+          <p class="parrafo">– Dos representantes del Claustro de profesores del Instituto.</p>
+          <p class="parrafo">– Un representante de los alumnos del Instituto Vasco de Educación Física.</p>
+          <p class="parrafo">– El Director del Instituto Vasco de Educación Física.</p>
+          <p class="parrafo">– Un técnico del Departamento de Cultura y Turismo, que actuará como Secretario, con voz y sin voto.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">Al Presidente del Patronato Rector le corresponde la representación oficial del Instituto Vasco de Educación Física, así como la facultad de firmar todo tipo de actos y contratos, pudiendo por delegación, ausencia o imposibilidad ser sustituido por el Vicepresidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">Serán funciones propias del Patronato Rector, las siguientes:</p>
+          <p class="parrafo_2">– Velar por el cumplimiento de los fines establecidos en el artículo 3.</p>
+          <p class="parrafo">– Aprobar el Reglamento de Régimen Interno, que será propuesto por el Director.</p>
+          <p class="parrafo">– Aprobar el Plan Anual de actuación del Instituto.</p>
+          <p class="parrafo">– Aprobar el anteproyecto de presupuesto anual para elevarlo al Gobierno.</p>
+          <p class="parrafo">– Aprobación de la memoria anual sobre la gestión y actuación del Instituto.</p>
+          <p class="parrafo">– La administración y gestión de los bienes y fondos adscritos al Instituto.</p>
+          <p class="parrafo">– Cualquier otras que se le asignen en las leyes y reglamentos.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">El Claustro de Profesores del Instituto estará formado, bajo la dirección del Director del Instituto Vasco de Educación Física, por todo el personal docente. Su organización y funcionamiento se desarrollarán reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">El Claustro de Profesores asesorará y elevará las propuestas que estime convenientes en materias académicas y pedagógicas al Patronato Rector y al Director del Instituto y, asimismo, ejercerá cualesquiera otras funciones que le sean encomendadas por las normas orgánicas del Instituto Vasco de Educación Física.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo">El Director del Instituto Vasco de Educación Física será nombrado por Decreto de Gobierno, a propuesta del Consejero de Cultura y Turismo y oído el Patronato Rector.</p>
+          <p class="parrafo">Dicho cargo se regirá por el Estatuto de Personal correspondiente a la categoría de Director, de conformidad con lo establecido en la Ley de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 10.</p>
+          <p class="parrafo">El Director del Instituto Vasco de Educación Física ejercerá las funciones siguientes:</p>
+          <p class="parrafo_2">– Ejecutar los acuerdos y resoluciones del Patronato Rector.</p>
+          <p class="parrafo">– Informar al Patronato Rector periódicamente y siempre que sea requerido por el mismo de la marcha del Instituto.</p>
+          <p class="parrafo">– Elaborar la memoria anual del Instituto.</p>
+          <p class="parrafo">– Elaborar el anteproyecto del presupuesto anual del IVEF.</p>
+          <p class="parrafo">– Asumir la dirección académica y administrativa del Instituto.</p>
+          <p class="parrafo">– Ejercer la dirección de personal.</p>
+          <p class="parrafo">– Presentar al Patronato Rector, el proyecto de actividades a desarrollar anualmente.</p>
+          <p class="parrafo">– Presidir las reuniones del Claustro de Profesores.</p>
+          <p class="parrafo">– Cualesquiera otras funciones que le atribuyan las leyes y reglamentos.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Medios económicos</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo">Constituyen recursos económicos del Instituto Vasco de Educación Física:</p>
+          <p class="parrafo_2">– Los fondos que se le asignen en los Presupuestos Generales de la Comunidad Autónoma Vasca.</p>
+          <p class="parrafo">– Derechos de matrícula, expedición de títulos, diplomas, certificados y demás derechos por prestación de servicios.</p>
+          <p class="parrafo">– Los bienes y valores que constituyan su patrimonio.</p>
+          <p class="parrafo">– Los productos y rentas de dichos bienes.</p>
+          <p class="parrafo">– Los ingresos que puedan producir las actividades del Instituto en el ámbito de su competencia.</p>
+          <p class="parrafo">– Las dotaciones económicas que las Diputaciones Forales, Ayuntamientos u otras Entidades públicas o particulares puedan acordar.</p>
+          <p class="parrafo">– Las subvenciones que legalmente le sean concedidas.</p>
+          <p class="parrafo">– Los donativos de cualquier tipo que reciba y también las herencias, los legados y los premios que le sean concedidos.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">El Gobierno Vasco promoverá la adscripción del Instituto Vasco de Educación Física a la Universidad del País Vasco.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">El Gobierno, en el momento de la adscripción del Instituto Vasco de Educación Física a la Universidad, cumplirá con los requisitos de todo tipo que queden estipulados en el convenio a firmar con dicha Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">En tanto no se apruebe el Reglamento de Régimen interno del Patronato Rector, éste se ajustará, en cuanto a su funcionamiento y adopción de acuerdos, a lo establecido en el capítulo segundo del título primero de la Ley de Procedimiento Administrativo.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo">Queda derogado el Decreto 170/1986 de 22 de julio, por el que se crea el Instituto Vasco de Educación Física.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Gobierno Vasco a propuesta del Consejero de Cultura y Turismo, para dictar las disposiciones reglamentarias necesarias para el desarrollo y ejecución de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2012-3816" fecha_publicacion="19880806" fecha_vigencia="19880807">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La presente Ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del País Vasco».</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

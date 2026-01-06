@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183714Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-850</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20150123</fecha_disposicion>
+      <numero_oficial>23/2015</numero_oficial>
+      <titulo>Real Decreto 23/2015, de 23 de enero, por el que se adoptan las medidas necesarias para la aplicación efectiva del Reglamento (CE) n.º 1082/2006 del Parlamento Europeo y del Consejo, de 5 de julio de 2006, sobre la Agrupación Europea de Cooperación Territorial (AECT), modificado por el Reglamento (UE) n.º 1302/2013 del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, a la simplificación y a la mejora de la creación y el funcionamiento de tales agrupaciones.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20150131</fecha_publicacion>
+      <diario_numero>27</diario_numero>
+      <fecha_vigencia>20150201</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2015/01/23/23</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-850</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="1704">Cooperación internacional</materia>
+        <materia codigo="6015">Registros administrativos</materia>
+        <materia codigo="7001">Unión Europea</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2008-983</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 37/2008, de 18 de enero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2006-81435</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Reglamento (CE) 1082/2006, de 5 de julio de 2006</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2013-82897</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento (UE) 1302/2013, de 17 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2015-1763</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE núm. 45 de 21 de febrero de 2015</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-850</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-23</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1704"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-850</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1704"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/corrigendum/20150221/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/con/20150131"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 23/2015, de 23 de enero, por el que se adoptan las medidas necesarias para la aplicación efectiva del Reglamento (CE) n.º 1082/2006 del Parlamento Europeo y del Consejo, de 5 de julio de 2006, sobre la Agrupación Europea de Cooperación Territorial (AECT), modificado por el Reglamento (UE) n.º 1302/2013 del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, a la simplificación y a la mejora de la creación y el funcionamiento de tales agrupaciones.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 23/2015, de 23 de gener, pel qual s'adopten les mesures necessàries per a l'aplicació efectiva del Reglament (CE) núm. 1082/2006 del Parlament Europeu i del Consell, de 5 de juliol de 2006, sobre l'Agrupació Europea de Cooperació Territorial (AECT), modificat pel Reglament (UE) núm. 1302/2013 del Parlament Europeu i del Consell, de 17 de desembre de 2013, pel que fa a la clarificació, la simplificació i la millora de la creació i el funcionament d'aquestes agrupacions.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 23/2015, do 23 de xaneiro, polo que se adoptan as medidas necesarias para a aplicación efectiva do Regulamento (CE) n.º 1082/2006 do Parlamento Europeo e do Consello, do 5 de xullo de 2006, sobre a Agrupación Europea de Cooperación Territorial (AECT), modificado polo Regulamento (UE) n.º 1302/2013 do Parlamento Europeo e do Consello, do 17 de decembro de 2013, no que se refire á clarificación, á simplificación e á mellora da creación e do funcionamento de tales agrupacións.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/con/20150131">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-850</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1704"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/con/20150131/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 23/2015, de 23 de enero, por el que se adoptan las medidas necesarias para la aplicación efectiva del Reglamento (CE) n.º 1082/2006 del Parlamento Europeo y del Consejo, de 5 de julio de 2006, sobre la Agrupación Europea de Cooperación Territorial (AECT), modificado por el Reglamento (UE) n.º 1302/2013 del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, a la simplificación y a la mejora de la creación y el funcionamiento de tales agrupaciones.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/con/20150131"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/01/23/23/con/20150131/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/01/23/23/con/20150131/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="co" tipo="nota_inicial">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en el BOE núm. 45, de 21 de febrero de 2015. <a class="refPost">Ref. BOE-A-2015-1763</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="parrafo">El 17 de diciembre de 2013 se aprobó el Reglamento (UE) n.º 1302/2013, del Parlamento europeo y del Consejo, de 17 de diciembre de 2013, por el que se modifica el Reglamento (CE) n.º 1082/2006, sobre la Agrupación Europea de Cooperación Territorial (AECT), en lo que se refiere a la clarificación, a la simplificación y a la mejora de la creación y el funcionamiento de tales agrupaciones. Este nuevo Reglamento europeo introduce una serie de novedades en la regulación de las AECT que aconsejan la publicación de un nuevo real decreto que sustituya al anterior.</p>
+          <p class="parrafo">La aprobación del Reglamento (CE) n.º 1082/2006, sobre la Agrupación Europea de Cooperación Territorial (AECT), supuso un impulso a la cooperación territorial, en especial aquella de carácter transfronterizo, como un paso más en el camino de la integración europea, la supresión de las fronteras y la creación de un espacio único de convivencia y circulación de bienes, personas y servicios.</p>
+          <p class="parrafo">El Reglamento introdujo en el ámbito europeo una nueva figura, de carácter facultativo y con personalidad jurídica propia, para ser el instrumento adecuado para el desarrollo de actividades en régimen de cooperación, entre entidades procedentes de Estados miembros de la Unión Europea, dando así respuesta a las particularidades de las regiones de frontera y las necesidades de cooperación territorial o sectorial entre regiones o entidades europeas.</p>
+          <p class="parrafo">La Agrupación europea de cooperación territorial persigue desde su creación el reforzamiento de la cohesión económica, social y territorial y es concebida en el Reglamento como un instrumento para el desarrollo de iniciativas de cooperación territorial, ya sean cofinanciadas por la Unión Europea, conforme a lo establecido en el Reglamento (UE) n.º 1303/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013 por el que se establecen disposiciones comunes relativas a los Fondos Estructurales y de Inversión Europeos (Fondos EIE), o para llevar a cabo acciones de cooperación territorial por iniciativa exclusiva de los Estados miembros o de sus autoridades regionales o locales, sin intervención financiera de la Unión Europea.</p>
+          <p class="parrafo">El éxito de esta figura colaborativa en los últimos años, ha llevado a la ampliación y profundización de su ámbito de acción, puesta en marcha por el nuevo Reglamento 1302/2013 que modifica el Reglamento 1082/2006 sobre AECT. Una de las principales novedades de la nueva normativa es la entrada a la participación en las AECT de terceros países y países y territorios de ultramar, así como la clarificación de los criterios para que los organismos de derecho privado puedan ser miembros. La nueva normativa trata además de simplificar el procedimiento de adhesión de nuevos miembros pertenecientes a Estados miembros de la Unión Europea.</p>
+          <p class="parrafo">El Reglamento 1082/2006 sobre AECT prevé que los Estados miembros adoptarán todas las disposiciones adecuadas para garantizar su aplicación efectiva, por lo que tras su publicación se aprobó una norma interna de carácter general que precisara el procedimiento a seguir para facilitar la constitución y funcionamiento de las Agrupaciones europeas de cooperación territorial que pudieran constituirse conforme al Derecho español, o en las que fueran a participar entidades públicas españolas. La modificación del Reglamento 1082/2006, sobre AECT, por Reglamento (UE) n.º 1302/2013 en aspectos esenciales, conduce a la aprobación de una nueva norma que recoja las novedades introducidas.</p>
+          <p class="parrafo">La regulación contenida en el presente real decreto se justifica de modo prevalente en la competencia estatal en materia de relaciones internacionales, que habilita a las instituciones estatales –en este caso al Gobierno de España– para ordenar y coordinar las actividades con relevancia externa de las comunidades autónomas, así como de las restantes entidades territoriales, de forma que no condicionen o perjudiquen la dirección de la política exterior, de competencia exclusiva del Estado, de acuerdo con lo establecido por la jurisprudencia constitucional. Asimismo, por lo que se refiere a aquellos extremos del real decreto que contienen normas sobre el procedimiento a seguir para la constitución y funcionamiento de las citadas entidades de cooperación territorial, tienen la consideración de bases del régimen jurídico de las Administraciones Públicas.</p>
+          <p class="parrafo">En el proceso de elaboración de este real decreto han sido consultadas las comunidades autónomas, y las entidades locales.</p>
+          <p class="parrafo">En su virtud, a propuesta de los Ministros de Hacienda y Administraciones Públicas y de Asuntos Exteriores y de Cooperación, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 23 de enero de 2015,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">El presente real decreto tiene por objeto garantizar la aplicación efectiva del Reglamento (CE) n.º 1082/2006, del Parlamento Europeo y del Consejo, de 5 de julio sobre la Agrupación europea de cooperación territorial (AECT) en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 2. Naturaleza.</p>
+          <p class="parrafo">Las Agrupaciones Europeas de Cooperación Territorial, según se dispone en el artículo 1 del Reglamento 1082/2006 sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, son personas jurídico-públicas, constituidas por entidades u organismos de al menos dos Estados miembros de la Unión Europea, a excepción de lo dispuesto en el artículo 3, apartado 2 que tienen por objetivo facilitar y fomentar la cooperación territorial, incluidas una o varias de las formas de la cooperación transfronteriza, transnacional e interregional unilateral o multilateral, con el fin de reforzar la cohesión económica, social y territorial de la Unión.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 3. Sujetos.</p>
+          <p class="parrafo">1.<em> </em>La AECT estará integrada, según se dispone en el artículo 3 del Reglamento 1082/2006 sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, por miembros, dentro de los límites de sus competencias con arreglo a la legislación nacional, pertenecientes a una o más de las siguientes categorías:</p>
+          <p class="parrafo_2">a) Estados miembros de la Unión Europea o autoridades de ámbito nacional;</p>
+          <p class="parrafo">b) Comunidades autónomas;</p>
+          <p class="parrafo">c) Entidades locales;</p>
+          <p class="parrafo">d) Empresas públicas a efectos del artículo 2, apartado 1 b) de la Directiva 2004/17/CE del Parlamento Europeo y del Consejo, de 31 de marzo de 2004, sobre la coordinación de los procedimientos de adjudicación de contratos en los sectores del agua, de la energía, de los transportes y de los servicios postales, u organismos de Derecho público a efectos del artículo 1.9, párrafo segundo, de la Directiva 2004/18/CE, del Parlamento Europeo y del Consejo; la Directiva 2004/177CE, del Parlamento Europeo y del Consejo, de 31 de marzo de 2004, sobre coordinación de los procedimientos de adjudicación de los contratos públicos de obras, de suministro y de servicios;</p>
+          <p class="parrafo">e) Empresas que presten actividades de servicios de interés económico general de conformidad con el Derecho de la Unión y nacional aplicable;</p>
+          <p class="parrafo">f) Autoridades nacionales, regionales o locales, u organismos o empresas públicas equivalentes a los mencionados en la letra d), de terceros países, sujetos a las condiciones establecidas en el artículo 3 bis del Reglamento 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo_2">Podrán también ser miembros las asociaciones formadas por organismos pertenecientes a una o más de estas categorías.</p>
+          <p class="parrafo">2. La AECT estará constituida por miembros situados en el territorio de al menos dos Estados miembros de la Unión Europea. No obstante en los términos y condiciones establecidos en el artículo 3 bis del Reglamento 1082/2006 sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013 del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones, podrán estar constituidas por miembros situados en el territorio de:</p>
+          <p class="parrafo_2">a) Al menos dos Estados miembros y de uno o varios terceros países vecinos de uno de dichos Estados, incluidas sus regiones ultraperiféricas.</p>
+          <p class="parrafo">b) Al menos dos Estados miembros, incluidas sus regiones ultraperiféricas, y de uno o varios países o territorios de ultramar (en adelante PTU), con o sin miembros procedentes de uno o varios terceros países.</p>
+          <p class="parrafo">c) Un solo Estado miembro y de uno o varios terceros países, vecinos de éste, incluidas sus regiones ultraperiféricas.</p>
+          <p class="parrafo">d) Un solo Estado miembro y de uno o varios PTU, incluidas sus regiones ultraperiféricas, con o sin miembros procedentes de uno o varios terceros países.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 4. Presentación de la solicitud.</p>
+          <p class="parrafo">1.<em> </em>Con carácter previo a la creación de una AECT, el futuro miembro español que pretenda participar en la misma presentará una solicitud dirigida a la Secretaría de Estado de Administraciones Públicas para la preceptiva autorización, acompañada de la siguiente documentación:</p>
+          <p class="parrafo_2">a) El texto del convenio propuesto, que será elaborado de acuerdo con el artículo 8 del Reglamento (CE) n.º 1082/2006, sobre la AECT, en su versión modificada por el Reglamento 1302/2013, del Parlamento Europeo y del Consejo de 17 de diciembre de 2013.</p>
+          <p class="parrafo">b) Los estatutos propuestos, que se elaborarán de acuerdo con lo establecido en el artículo 9 del citado Reglamento europeo, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo">c) En su caso, la documentación acreditativa de la personalidad jurídica de los futuros miembros, así como de la posible limitación de responsabilidad.</p>
+          <p class="parrafo">d) La certificación que acredite la intención de participación de la Entidad concernida en la AECT, expresada en acuerdo del Consejo de Gobierno de la Comunidad Autónoma, del Pleno del Ayuntamiento, Consejo de Administración, Patronato o del órgano correspondiente, incluirá la acreditación de la competencia en los términos del artículo 7 apartado 2 del Reglamento 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013,en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo_2">2. En el supuesto de la adhesión de un miembro español a una AECT ya constituida, el futuro miembro deberá comunicar a la Secretaría de Estado de Administraciones Públicas su intención de participar en la misma con el objeto de proceder al inicio del procedimiento de aprobación mediante la presentación de una solicitud acompañada de la documentación señalada en el apartado anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 5. Informes.</p>
+          <p class="parrafo">1.<em> </em>Una vez recibida la solicitud, el Ministerio de Hacienda y Administraciones Públicas solicitará la emisión de los correspondientes informes por parte de los Ministerios competentes por razón de la materia.</p>
+          <p class="parrafo">2. Será preceptivo, en todos los casos, el informe del Ministerio de Asuntos Exteriores y de Cooperación y de la Secretaría de Estado de Presupuestos y Gastos. Este último, además, será vinculante por lo que respecta al uso de fondos europeos o de la Administración General del Estado, sus empresas u organismos públicos o de las demás entidades de Derecho público.</p>
+          <p class="parrafo">Asimismo, será preceptivo el informe de la Comunidad Autónoma en relación con las solicitudes de AECT en las que estén integrados alguno de los sujetos a los que se refiere el artículo 3 del presente real decreto correspondientes a su ámbito territorial.</p>
+          <p class="parrafo">3.<em> </em>El Ministerio de Asuntos Exteriores y de Cooperación, una vez recibida la solicitud de informe, comunicará a los demás Estados miembros afectados las solicitudes recibidas en España en las que se proyecte la participación en una AECT de alguna entidad de dichos Estados, y dará traslado de las comunicaciones recibidas de los mismos a los restantes departamentos y Administraciones Públicas implicados.</p>
+          <p class="parrafo_2">En el caso de un procedimiento de aprobación de una AECT con domicilio social en España con futuros miembros procedentes de uno o varios terceros países, el Ministerio de Asuntos Exteriores y de Cooperación se cerciorará, en consulta con los demás Estados miembros interesados, de que se cumplen las condiciones del artículo 3 bis del Reglamento 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones, y de que el tercer país ha aprobado la participación de los futuros miembros de conformidad con:</p>
+          <p class="parrafo_2">a) Condiciones y procedimientos equivalentes a los establecidos en el Reglamento 1082/2006, sobre la AECT; o</p>
+          <p class="parrafo">b) un acuerdo celebrado entre al menos un Estado miembro conforme a cuyo derecho está establecido un futuro miembro y dicho tercer país.</p>
+          <p class="parrafo_2">En el caso de una AECT con domicilio social en España y con un futuro miembro procedente de un país o territorio de ultramar (PTU), el Ministerio de Asuntos Exteriores y de Cooperación recabará, en su caso, del Estado miembro al que el PTU esté vinculado, confirmación escrita de que las autoridades competentes han aprobado la participación del futuro miembro, conforme a lo dispuesto en el artículo 4 bis del Reglamento 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo">4. Recibidos los informes solicitados, o transcurrido el plazo de un mes para su emisión, la Secretaría de Estado de Administraciones Públicas podrá emitir informe de observaciones y proponer las modificaciones necesarias del convenio y de los estatutos, de acuerdo con lo dispuesto en el artículo 4.3 del Reglamento 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo">El Ministerio de Hacienda y Administraciones Públicas podrá solicitar informaciones, documentación o aclaraciones complementarias a los futuros miembros de la AECT en cualquier momento del procedimiento.</p>
+          <p class="parrafo">Los futuros miembros de la AECT deberán coordinarse e intercambiar información durante esta fase del procedimiento, con el fin de agilizar la consolidación de los textos teniendo en cuenta las posibles observaciones de los distintos Estados miembros.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 6. Intercambio de información.</p>
+          <p class="parrafo">En aplicación del principio de cooperación institucional previsto en el artículo 4.1.d) de la Ley 30/1992, de 26 de noviembre, de Régimen jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, las Administraciones Públicas interesadas se intercambiarán información relevante para el eficaz ejercicio de las facultades conferidas por esta norma.</p>
+          <p class="parrafo">A tal efecto, la Administración General del Estado trasladará a las comunidades autónomas la información de que disponga a través de la Secretaría de la Conferencia para Asuntos Relacionados con la Unión Europea, y a las entidades locales, a través de la Secretaría de la Comisión Nacional de Administración Local.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 7. Resolución.</p>
+          <p class="parrafo">1.<em> </em>Recibidos los informes señalados en el artículo anterior, o transcurrido el plazo de un mes sin que se hubieran evacuado, salvo que se trate de informes preceptivos determinantes para la resolución del procedimiento, la Secretaría de Estado de Administraciones Públicas formulará una propuesta de resolución.</p>
+          <p class="parrafo">2. En el caso de informes emitidos en el marco de un procedimiento de adhesión de un nuevo miembro español a una AECT cuyo convenio ya hubiera sido aprobado por España, el plazo para la evacuación de los mismos será de diez días.</p>
+          <p class="parrafo">3. La resolución de la aprobación de la participación y el convenio corresponderá al Consejo de Ministros, a propuesta del titular del Ministerio de Hacienda y Administraciones Públicas, en el supuesto de que uno de los integrantes futuros de la AECT sea un Estado, un órgano de la Administración General del Estado, una empresa pública o un organismo de derecho público dependiente del mismo, o una o varias comunidades autónomas o sus organismos públicos dependientes.</p>
+          <p class="parrafo">Dicha resolución corresponderá al titular del Ministerio de Hacienda y Administraciones Públicas en los demás casos.</p>
+          <p class="parrafo">4. El plazo máximo para la resolución del procedimiento será de seis meses a partir de la presentación de una solicitud conforme a lo previsto en el artículo 4. Transcurrido este plazo sin que se haya dictado resolución, la solicitud se entenderá estimada.</p>
+          <p class="parrafo">La estimación por silencio positivo no eliminará la obligación de aprobar formalmente el convenio para permitir la creación de una AECT cuando el domicilio social vaya a situarse en España.</p>
+          <p class="parrafo">5. La resolución que ponga fin al procedimiento aprobará el convenio y la participación del miembro español en la AECT proyectada, o denegará dicha participación de forma motivada, cuando concurran las circunstancias del artículo 4.3 del Reglamento (CE) 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo">6. Transcurrido el plazo de un año desde la emisión de la aprobación sin que se haya constituido la AECT proyectada, se producirá la caducidad de la aprobación emitida.</p>
+          <p class="parrafo">7<em>.</em> En caso de adhesión de un nuevo miembro español a una AECT cuyo convenio ya hubiera sido aprobado por España, dicha participación tendrá que ser aprobada por las autoridades españolas señaladas en el punto 3 del presente artículo, conforme al procedimiento establecido en el presente real decreto. La aprobación de la adhesión se notificará al Estado miembro en el que se halle el domicilio social de la AECT.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 8. Registro de AECT.</p>
+          <p class="parrafo">1.<em> </em>En el Registro de Agrupaciones Europeas de Cooperación Territorial, de carácter público, gestionado por el Ministerio de Asuntos Exteriores y de Cooperación y dependiente de la Secretaría General Técnica de dicho Departamento, deberán inscribirse el convenio y los estatutos de cada una de las AECT con domicilio social en España, así como sus modificaciones.</p>
+          <p class="parrafo">2. La inscripción se realizará una vez acreditada la concesión de la aprobación a todos los miembros de la AECT proyectada mediante la remisión al Ministerio de Asuntos Exteriores y de Cooperación del texto suscrito del convenio y de los correspondientes estatutos, y en su caso, de las autorizaciones pertinentes.</p>
+          <p class="parrafo">3. En el supuesto de que la AECT no tenga su domicilio social en España, los miembros de la misma constituidos con arreglo al derecho español, deberán notificar al Ministerio de Asuntos Exteriores y de Cooperación toda información relativa a la fecha de publicación y/o registro en el Estado donde tenga su domicilio social remitiendo copia del convenio suscrito y de los correspondientes estatutos.</p>
+          <p class="parrafo">4. El Ministerio de Asuntos Exteriores y de Cooperación dará traslado al Ministerio de Hacienda y Administraciones Públicas de todas las inscripciones efectuadas en el Registro, así como de sus modificaciones.</p>
+          <p class="parrafo">5. La inscripción en el Registro habilita a la correspondiente AECT para efectuar las actuaciones administrativas necesarias para poder llevar a cabo la actividad para la que ha sido constituida.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 9. Modificación del convenio y de los estatutos.</p>
+          <p class="parrafo">1.<em> </em>Cualquier modificación del convenio o de los estatutos de una AECT integrada por uno o más miembros constituidos con arreglo al derecho español será notificada al Ministerio de Hacienda y Administraciones Públicas por la AECT. Toda modificación del convenio será aprobada por el órgano que haya resuelto la aprobación para la constitución de la AECT de acuerdo con el procedimiento recogido en el artículo 4 y siguientes.</p>
+          <p class="parrafo">2. El Ministerio de Hacienda y Administraciones Públicas notificará al Ministerio de Asuntos Exteriores y de Cooperación cualquier modificación que de lugar a variaciones en los asientos del registro de AECT.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 10. Publicación.</p>
+          <p class="parrafo">La publicación del convenio y de los estatutos de las AECT con domicilio social en España, así como sus modificaciones, se realizará por el Ministerio de Asuntos Exteriores y de Cooperación en el "Boletín Oficial del Estado" una vez remitida la documentación prevista en el artículo 8.2.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en el BOE núm. 45, de 21 de febrero de 2015. <a class="refPost">Ref. BOE-A-2015-1763</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 11. Control de la gestión de fondos públicos.</p>
+          <p class="parrafo">1.<em> </em>El control de las actuaciones financiadas total o parcialmente con cargo a fondos europeos se desarrollará de acuerdo con lo establecido en el artículo 6 del Reglamento 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, y del resto del ordenamiento jurídico europeo, así como en el marco de las normas de transposición y desarrollo del Derecho europeo en materia de control de fondos europeos llevado a cabo en el Derecho interno. En todo caso, el control se realizará de acuerdo con la distribución de competencias entre los distintos órganos de control de las Administraciones Públicas que participen en la AECT.</p>
+          <p class="parrafo">2. Cuando el domicilio social de la AECT radique en España, el texto del convenio o los estatutos propuestos en el procedimiento de solicitud previsto en el artículo 4 de este real decreto indicarán la autoridad competente en materia de control financiero y auditoría de cuentas de la AECT. La designación de dicha autoridad se realizará antes de dar su aprobación a la participación en la AECT y recaerá, en todo caso, en uno o más órganos de las Administraciones Públicas que, de acuerdo con la legislación interna, tenga atribuidas competencias en materia de control financiero y auditoría del sector público. En el caso de nombramiento de una pluralidad de órganos, el convenio o los estatutos establecerán las reglas para la toma de decisiones en forma colegiada.</p>
+          <p class="parrafo">3. La autoridad designada informará a los otros Estados interesados de las incidencias detectadas en la realización de los controles de gestión de fondos.</p>
+          <p class="parrafo">4. Las dotaciones de personal, retribuciones y demás gastos de personal de las AECT con domicilio social en España deberán atenerse a lo dispuesto en las Leyes de Presupuestos Generales del Estado y demás normativa relativa al gasto público o a la restricción de incrementos de retribuciones en el sector público.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 12. Supervisión de la actividad de la AECT.</p>
+          <p class="parrafo">El Consejo de Ministros podrá prohibir toda actividad de la AECT en territorio español que contravenga las disposiciones internas en materia de orden público, seguridad pública, sanidad pública o moralidad pública, así como las contrarias al interés público; o, en su caso, solicitar a los miembros españoles de la AECT su retirada de la misma, a menos que la AECT ponga fin a estas actividades.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 13. Disolución.</p>
+          <p class="parrafo">1.<em> </em>La disolución de la AECT podrá producirse por alguna de las causas previstas en el convenio de constitución y deberá ser inscrita en el Registro de Agrupaciones Europeas de Cooperación Territorial, en los términos establecidos en el artículo 7 de este real decreto. La disolución producirá efectos a partir del momento en que sea publicada en el «Boletín Oficial del Estado», en los términos previstos en el artículo 9 de este real decreto.</p>
+          <p class="parrafo">2. Asimismo, el Consejo de Ministros, bien a iniciativa propia, bien previa solicitud del Gobierno de otro Estado miembro, de la Comisión Europea o de cualquier autoridad competente española con un interés legítimo, podrá acordar la disolución de la AECT con domicilio social en España, si se apreciara un incumplimiento de los objetivos o de las funciones establecidos, respectivamente, en los artículos 1.2 y 7 del Reglamento (CE) n.º 1082/2006, sobre la AECT, en su versión modificada por el Reglamento (UE) n.º 1302/2013, del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, en lo que se refiere a la clarificación, simplificación y mejora de tales agrupaciones.</p>
+          <p class="parrafo">3. Con carácter previo a la disolución, el Consejo de Ministros formulará requerimiento a la AECT para que regularice la situación en el plazo máximo de un mes, procediendo a decretar su disolución si dicho requerimiento no es atendido.</p>
+          <p class="parrafo">4. El Ministerio de Asuntos Exteriores y de Cooperación informará a todos los Estados miembros en virtud de cuya legislación se hayan asociado los miembros de una AECT de cualquier solicitud de disolución de la misma recibida en el territorio español.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Artículo 14. Fin de la vía administrativa.</p>
+          <p class="parrafo">Los actos y acuerdos del Consejo de Ministros, del Ministerio de Hacienda y Administraciones Públicas y del Ministerio de Asuntos Exteriores y de Cooperación previstos en este real decreto ponen fin a la vía administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Disposición adicional única. Costes.</p>
+          <p class="parrafo">Los costes que se deriven de la aplicación del presente real decreto, se atenderán con las dotaciones presupuestarias ordinarias de los departamentos afectados.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 37/2008, de 18 de enero, por el que se adoptan las medidas necesarias para la aplicación efectiva del Reglamento (CE) n.º 1082/2006, del Parlamento Europeo y del Consejo, de 5 de junio de 2006, sobre la Agrupación Europea de Cooperación Territorial (AECT).</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.3.ª y 18.ª de la Constitución.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="articulo">Disposición final segunda. Vigencia.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2015-850" fecha_publicacion="20150131" fecha_vigencia="20150201">
+          <p class="parrafo_2">Dado en Madrid, el 23 de enero de 2015.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Vicepresidenta del Gobierno y Ministra de la Presidencia,</p>
+          <p class="firma_ministro">SORAYA SÁENZ DE SANTAMARÍA ANTÓN.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

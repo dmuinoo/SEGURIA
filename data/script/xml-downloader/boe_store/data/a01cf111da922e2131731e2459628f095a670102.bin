@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T150909Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-9021</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19970425</fecha_disposicion>
+      <numero_oficial>15/1997</numero_oficial>
+      <titulo>Ley 15/1997, de 25 de abril, sobre habilitación de nuevas formas de gestión del Sistema Nacional de Salud.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19970426</fecha_publicacion>
+      <diario_numero>100</diario_numero>
+      <fecha_vigencia>19970426</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1997/04/25/15</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-9021</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="328">Asistencia sanitaria de la Seguridad Social</materia>
+        <materia codigo="4036">Hospitales</materia>
+        <materia codigo="4304">Instituciones sanitarias de la Seguridad Social</materia>
+        <materia codigo="4425">Instituto Nacional de la Salud</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1996-13884</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>al Real Decreto-ley 10/1996, de 17 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1986-10499</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 14/1986, de 25 de abril</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-9467</id_norma>
+            <relacion codigo="407">SE AÑADE</relacion>
+            <texto>la disposición adicional única, por Ley 15/2014, de 16 de septiembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-1484</id_norma>
+            <relacion codigo="490">SE DESARROLLA</relacion>
+            <texto>, por Real Decreto 29/2000, de 14 de enero</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-9021</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-25</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/328"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4036"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4304"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4425"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-9021</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/328"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4036"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4304"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4425"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/con/20140917"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/con/19970426"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 15/1997, de 25 de abril, sobre habilitación de nuevas formas de gestión del Sistema Nacional de Salud.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-26</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 15/1997, de 25 d'abril, sobre habilitació de noves formes de gestió del Sistema Nacional de Salut. («BOE» 100, de 26-4-1997.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/con/20140917">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-9021</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/328"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4036"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4304"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4425"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/con/20140917/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 15/1997, de 25 de abril, sobre habilitación de nuevas formas de gestión del Sistema Nacional de Salud.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/con/20140917"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/con/20140917/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/con/20140917/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/con/19970426">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-9021</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/328"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4036"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4304"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4425"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-26</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/con/19970426/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 15/1997, de 25 de abril, sobre habilitación de nuevas formas de gestión del Sistema Nacional de Salud.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/con/19970426"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1997/04/25/15/con/19970426/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1997/04/25/15/con/19970426/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-1997-9021" fecha_publicacion="19970426" fecha_vigencia="19970426">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley:</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">La Ley 14/1986, de 25 de abril, General de Sanidad, incorporó al ámbito del Sistema Nacional de Salud, un modelo de organización de los centros y servicios caracterizado, fundamentalmente, por la gestión directa, tradicional en las instituciones sanitarias de la Seguridad Social. Dicha norma reguló, asimismo, la vinculación de los hospitales generales de carácter privado mediante convenios singulares, y los conciertos para la prestación del servicio sanitario con medios ajenos, dando prioridad a los establecimientos, centros y servicios sin carácter lucrativo.</p>
+          <p class="parrafo">Al objeto de ampliar las formas organizativas de la gestión de los centros sanitarios, el Real Decreto ley 10/1996, de 17 de junio, sobre habilitación de nuevas formas de gestión del Insalud, vino a establecer que la administración de los mismos pudiera llevarse a cabo, no sólo directamente, sino indirectamente mediante cualesquiera entidades admitidas en Derecho, así como a través de la constitución de consorcios, fundaciones u otros entes dotados de personalidad jurídica, pudiéndose establecer, además, acuerdos o convenios con personas o entidades públicas o privadas, y fórmulas de gestión integrada o compartida, generalizando las previsiones contenidas en diversas leyes dictadas por las Comunidades Autónomas con competencia en la materia.</p>
+          <p class="parrafo">La entrada en vigor del citado Real Decreto ley 10/1996 ha permitido al Instituto Nacional de la Salud la puesta en marcha de algunas iniciativas en materia de gestión y, en concreto, la constitución de fundaciones de naturaleza o titularidad pública para la gestión de nuevos hospitales.</p>
+          <p class="parrafo">Igualmente, conviene señalar que se han creado diversas empresas públicas y consorcios por las Comunidades Autónomas al amparo de su legislación específica.</p>
+          <p class="parrafo">Con la presente Ley se procede a dar nueva redacción al artículo único del mencionado Real Decreto-ley, transformado ahora en Ley sobre habilitación de nuevas formas de gestión del Sistema Nacional de Salud. En esta Ley se establece que la gestión de los centros y servicios sanitarios y sociosanitarios puede llevarse a cabo directamente o indirectamente a través de cualesquiera entidades de naturaleza o titularidad pública admitidas en Derecho; entre otras formas jurídicas, la presente disposición ampara la gestión a través de entes interpuestos dotados de personalidad jurídica, tales como empresas públicas, consorcios o fundaciones -en los mismos términos a las ya creadas- u otras entidades de naturaleza o titularidad pública admitidas en nuestro ordenamiento jurídico.</p>
+          <p class="parrafo">De acuerdo con lo establecido, para cada caso, en las leyes, mediante esta norma se habilita expresamente al Gobierno y a los órganos de gobierno de las Comunidades Autónomas -en los ámbitos de sus respectivas competencias- para determinar reglamentariamente, las normas jurídicas, los órganos de dirección y control, el régimen de la garantía de la prestación, la financiación y las peculiaridades en materia de personal de las enti dades que se pudieran crear para la gestión de los servi cios. En esta previsión, la Ley viene a precisar la facultad otorgada al Gobierno por la disposición final única, 1, del anterior Real Decreto-ley 10/1996 -así como a los órganos de gobierno de las Comunidades Autónomas en diversas leyes autonómicas-, otorgando carácter reglamentario a las decisiones que adopte el Ejecutivo sobre la materia, y fijando los extremos que deben contenerse necesariamente en dicha reglamentación.</p>
+          <p class="parrafo">Por último, el proyecto de Ley, en términos similares al Real Decreto-ley anterior, recoge las distintas formas previstas en la legislación vigente, de gestión de los servi cios a través de medios ajenos, haciendo hincapié en la posibilidad de establecer -cualesquiera que sean sus modalidades- acuerdos, convenios o contratos con personas o entidades públicas o privadas, adecuándose a las garantías establecidas en la Ley General de Sanidad.</p>
+          <p class="parrafo">La presente norma, en línea con el espíritu del Real Decreto-ley 10/1996, que viene a sustituir, debe constituir un importante instrumento de flexibilización y autonomía en la gestión sanitaria, necesidad ineludible de la actual organización pública, con vistas a mejorar la eficacia del Sistema Nacional de Salud, cuya consolidación y modernización es objetivo prioritario de nuestra sociedad.</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-1997-9021" fecha_publicacion="19970426" fecha_vigencia="19970426">
+          <p class="articulo">Artículo único.</p>
+          <p class="parrafo">1. En el ámbito del Sistema Nacional de Salud, garantizando y preservando en todo caso su condición de servicio público, la gestión y administración de los centros, servicios y establecimientos sanitarios de protección de la salud o de atención sanitaria o sociosanitaria podrá llevarse a cabo directamente o indirectamente a través de la constitución de cualesquiera entidades de naturaleza o titularidad pública admitidas en Derecho.</p>
+          <p class="parrafo">En el marco de lo establecido por las leyes, corresponderá al Gobierno, mediante Real Decreto, y a los órganos de gobierno de las Comunidades Autónomas -en los ámbitos de sus respectivas competencias-, determinar las formas jurídicas, órganos de dirección y control, régimen de garantías de la prestación, financiación y peculiaridades en materia de personal de las entidades que se creen para la gestión de los centros y servicios mencionados.</p>
+          <p class="parrafo">2. La prestación y gestión de los servicios sanitarios y sociosanitarios podrá llevarse a cabo, además de con medios propios, mediante acuerdos, convenios o contratos con personas o entidades públicas o privadas, en los términos previstos en la Ley General de Sanidad.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2014-9467" fecha_publicacion="20140917" fecha_vigencia="20140918">
+          <p class="articulo">Disposición adicional única. Régimen jurídico de los consorcios sanitarios.</p>
+          <p class="parrafo">1. Los consorcios sanitarios cuyo objeto principal sea la prestación de servicios del Sistema Nacional de Salud están adscritos a la Administración sanitaria responsable de la gestión estos servicios en su ámbito territorial de actuación y su régimen jurídico es el establecido en esta disposición y, subsidiariamente, en aquello no regulado en esta Ley, la normativa que regula con carácter general el resto de consorcios administrativos.</p>
+          <p class="parrafo">2. Los consorcios sanitarios están sujetos al régimen de presupuestación, contabilidad y control de la Administración sanitaria a la que estén adscritos, sin perjuicio de su sujeción a lo previsto en la Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera. En todo caso, se llevará a cabo una auditoría de las cuentas anuales que será responsabilidad del órgano de control de la Administración sanitaria a la que este adscrito el consorcio.</p>
+          <p class="parrafo">3. El personal al servicio de los consorcios sanitarios podrá ser funcionario, estatutario o laboral procedente de las Administraciones participantes o laboral en caso de ser contratado directamente por el consorcio. El personal laboral contratado directamente por los consorcios sanitarios adscritos a una misma Administración se someterá al mismo régimen. El régimen jurídico del personal del consorcio será el que corresponda de acuerdo con su naturaleza y procedencia.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por la disposición final 10 de la Ley 15/2014, de 16 de septiembre. <a class="refPost">Ref. BOE-A-2014-9467</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-1997-9021" fecha_publicacion="19970426" fecha_vigencia="19970426">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo previsto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1997-9021" fecha_publicacion="19970426" fecha_vigencia="19970426">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-1997-9021" fecha_publicacion="19970426" fecha_vigencia="19970426">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta Ley.</p>
+          <p class="parrafo_2">Madrid, 25 de abril de 1997.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ MARÍA AZNAR LÓPEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

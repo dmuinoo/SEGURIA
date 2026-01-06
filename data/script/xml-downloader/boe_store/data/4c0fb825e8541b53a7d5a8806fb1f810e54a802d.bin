@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210510Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-8748</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20050513</fecha_disposicion>
+      <numero_oficial>INT/1513/2005</numero_oficial>
+      <titulo>Orden INT/1513/2005, de 13 de mayo, por la que se crean los ficheros de datos de carácter personal «Quejas y sugerencias» y «Registro de correspondencia», en la Secretaría de Estado de Seguridad.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050527</fecha_publicacion>
+      <diario_numero>126</diario_numero>
+      <fecha_vigencia>20050528</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2005/05/13/int1513</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-8748</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3685">Ficheros con datos personales</materia>
+        <materia codigo="6333">Secretaría de Estado de Seguridad</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2004-19532</id_norma>
+            <relacion codigo="406">AMPLÍA</relacion>
+            <texto>el anexo I de la Orden INT/3764/2004, de 11 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1999-23750</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 20 de la Ley ORGANICA 15/1999, de 13 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-8748</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int1513</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6333"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-8748</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int1513</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6333"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/con/20050527"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/1513/2005, de 13 de mayo, por la que se crean los ficheros de datos de carácter personal «Quejas y sugerencias» y «Registro de correspondencia», en la Secretaría de Estado de Seguridad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-27</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/con/20050527">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-8748</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int1513</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6333"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-27</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/con/20050527/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/1513/2005, de 13 de mayo, por la que se crean los ficheros de datos de carácter personal «Quejas y sugerencias» y «Registro de correspondencia», en la Secretaría de Estado de Seguridad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/con/20050527"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2005/05/13/int1513/con/20050527/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2005/05/13/int1513/con/20050527/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2005-8748" fecha_publicacion="20050527" fecha_vigencia="20050528">
+          <p class="parrafo">El artículo 20 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, establece que la creación, modificación y supresión de los ficheros de las Administraciones Públicas sólo podrá hacerse por medio de disposición general publicada en el Boletín Oficial del Estado o diario oficial correspondiente.</p>
+          <p class="parrafo">Por su parte, el Real Decreto 208/1996, de 9 de febrero, por el que se regulan los servicios de información administrativa y atención al ciudadano, establece en su artículo 20 un tratamiento uniforme que garantice su rápida contestación o conocimiento por los órganos que asumen la superior responsabilidad de los servicios afectados, en relación con la tramitación interna de las quejas y sugerencias.</p>
+          <p class="parrafo">Al amparo de dicho Real Decreto se dictó la Instrucción n.º 10/1997, de 9 de junio, de la Secretaría de Estado de Seguridad, sobre normas para la tramitación interna, control y seguimiento de las quejas y sugerencias presentadas por los ciudadanos.</p>
+          <p class="parrafo">La gestión de tales competencias exige el tratamiento de datos de carácter personal que resultan de las quejas y sugerencias presentadas por los ciudadanos, por lo que resulta necesaria la creación del correspondiente fichero automatizado «Quejas y Sugerencias».</p>
+          <p class="parrafo">Por otro lado, se crea el fichero «Registro de Correspondencia», adscrito al Gabinete de Actuación Concertada de la Secretaría de Estado de Seguridad, cuya finalidad es llevar el registro de entrada y salida de documentos, y conocer quiénes son las personas interesadas en los mismos, peticionarias o receptoras, de dicho Gabinete.</p>
+          <p class="parrafo">Esta Orden ha sido sometida a informe de la Agencia Española de Protección de Datos.</p>
+          <p class="parrafo">De acuerdo con todo lo anterior, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="pr-2" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2005-8748" fecha_publicacion="20050527" fecha_vigencia="20050528">
+          <p class="articulo">Primero. Creación de los ficheros «Quejas y Sugerencias» y «Registro de correspondencia».</p>
+          <p class="parrafo">Se amplía el Anexo I de la Orden INT/3764/2004, de 11 de noviembre, por la que se adecuan los ficheros informáticos del Ministerio del Interior que contienen datos de carácter personal a la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal y se crean nuevos ficheros cuya gestión corresponde a dicho Ministerio, incorporando al mismo los ficheros denominados «Quejas y Sugerencias» y «Registro de correspondencia» en la Secretaría de Estado de Seguridad, descritos en el Anexo a la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="se" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2005-8748" fecha_publicacion="20050527" fecha_vigencia="20050528">
+          <p class="articulo">Segundo. Entrada en vigor.</p>
+          <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2005-8748" fecha_publicacion="20050527" fecha_vigencia="20050528">
+          <p class="parrafo_2">Madrid, 13 de mayo de 2005.</p>
+          <p class="firma_rey">ALONSO SUÁREZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2005-8748" fecha_publicacion="20050527" fecha_vigencia="20050528">
+          <p class="anexo">ANEXO</p>
+          <p class="capitulo">10 bis. Nombre del Fichero: Quejas y Sugerencias</p>
+          <p class="parrafo_2">Finalidad del Fichero: Recogida y tratamiento de datos en los libros de quejas y sugerencias existentes en las dependencias de la Dirección General de la Policía y en la Dirección General de la Guardia Civil, y en aquellos otros documentos, cualesquiera que fuere su forma, que sean remitidos por los ciudadanos o presentados para ello, en las distintas Administraciones Públicas, de acuerdo con los criterios fijados por la Instrucción n.º 10/1997, de 9 de junio, de la Secretaría de Estado de Seguridad.</p>
+          <p class="parrafo">Usos previstos: Control y supervisión de los datos reflejados en los distintos documentos, así como en las hojas de los referidos libros, por parte de la Subdirección General de Inspección y Personal de Servicios de Seguridad.</p>
+          <p class="parrafo">Personas o colectivos sobre los que se pretende obtener datos de carácter personal, o que resulten obligados a suministrarlos: Personas que han formulado quejas o sugerencias en las hojas de los correspondientes libros habilitados al efecto en las dependencias de la Dirección General de la Policía y de la Dirección General de la Guardia Civil, así como aquéllas otras que las formalicen ante las distintas Administraciones Públicas o directamente las remitan por sí mismas con el referido objeto. Funcionarios afectados por las quejas.</p>
+          <p class="parrafo">Procedimiento de recogida de los datos de carácter personal: Extrayéndolos de los distintos documentos e impresos formalizados enviados a la Subdirección General de Inspección de Personal y Servicios de Seguridad por la Dirección General de la Policía y por la Dirección General de la Guardia Civil, así como aquellos procedentes del resto de las Administraciones Públicas y de los remitidos por los particulares. Extrayéndolos de los documentos elaborados por los funcionarios afectados.</p>
+          <p class="parrafo">Estructura básica del fichero y descripción de los tipos de datos de carácter personal incluidos en el mismo: Nombre, apellidos, domicilio, documento nacional de identidad, firma, rúbrica del interesado. Nombre y apellidos de funcionarios afectados.</p>
+          <p class="parrafo">Cesiones y transferencias a países terceros, de los datos de carácter personal, que se prevean, en su caso: Autoridades Judiciales y Ministerio Fiscal y otros órganos de la Administración de conformidad con lo establecido en el artículo 11 de la Ley Orgánica 15/1999.</p>
+          <p class="parrafo">Órgano administrativo responsable del fichero: Secretaría de Estado de Seguridad.</p>
+          <p class="parrafo">Órgano administrativo ante el que pueden ejercitarse los derechos de acceso, rectificación, cancelación y oposición: Secretaría de Estado de Seguridad. Subdirección General de Inspección de Personal y Servicios de Seguridad. C/ Cea Bermúdez, 35-37, 28003 Madrid.</p>
+          <p class="parrafo">Medidas de seguridad, con indicación del nivel básico, medio o alto: Medio.</p>
+          <p class="capitulo">10 tris. Nombre del Fichero: Registro de correspondencia</p>
+          <p class="parrafo">Finalidad del Fichero: Llevar el Registro de Entrada y Salida de Documentos, y conocer quiénes son las personas interesadas en los mismos, peticionarias o receptoras, del Gabinete de Actuación Concertada.</p>
+          <p class="parrafo">Usos previstos: Control de la documentación que se recibe y envía.</p>
+          <p class="parrafo">Personas y colectivos sobre los que se pretenden obtener datos de carácter personal, o que resulten obligados a suministrarlos: Cualquier persona pública o privada que demande cuestiones relacionadas con las competencias del Gabinete.</p>
+          <p class="parrafo">Procedimiento de recogida de los datos de carácter personal: Correo oficial, particular, electrónico, presentación física de documentos, fax.</p>
+          <p class="parrafo">Estructura básica del Fichero y la descripción de los tipos de datos de carácter personal incluidos en el mismo: Bases de datos pluritabla y documental.</p>
+          <p class="parrafo">Datos de carácter identificativo: Nombre y apellidos. Se almacena el documento completo.</p>
+          <p class="parrafo">Cesiones y transferencias a países terceros de los datos de carácter personal que se prevean, en su caso: Ninguna.</p>
+          <p class="parrafo">Órgano Administrativo responsable del Fichero: Secretaría de Estado de Seguridad.</p>
+          <p class="parrafo">Órgano Administrativo ante el que pueden ejercitarse los derechos de acceso, rectificación, cancelación y oposición: Secretaría de Estado de Seguridad. Gabinete de Actuación Concertada, calle Recoletos, 22, 28071 Madrid.</p>
+          <p class="parrafo">Medidas de seguridad, con indicación del nivel básico, medio o alto: Básico.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T112010Z</fecha_actualizacion>
+      <identificador>BOE-A-2019-1628</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3120">Ministerio de Agricultura, Pesca y Alimentación</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20190205</fecha_disposicion>
+      <numero_oficial>APA/99/2019</numero_oficial>
+      <titulo>Orden APA/99/2019, de 5 de febrero, por la que se crea la División de Auditoría Interna y Evaluación del Fondo Español de Garantía Agraria, O.A.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20190207</fecha_publicacion>
+      <diario_numero>33</diario_numero>
+      <fecha_vigencia>20190208</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2019/02/05/apa99</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2019-1628</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3762">Fondo Español de Garantía Agraria</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <notas>
+        <nota>Efectos desde el 1 de febrero de 2019.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2015-10566</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 59.2 de la Ley 40/2015, de 1 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2015-10565</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 129 de la Ley 39/2015, de 1 de octubre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-1628</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-05</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apa99</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3762"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-1628</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apa99</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3762"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/con/20190207"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden APA/99/2019, de 5 de febrero, por la que se crea la División de Auditoría Interna y Evaluación del Fondo Español de Garantía Agraria, O.A.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-07</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/con/20190207">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-1628</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apa99</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3762"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-07</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/con/20190207/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden APA/99/2019, de 5 de febrero, por la que se crea la División de Auditoría Interna y Evaluación del Fondo Español de Garantía Agraria, O.A.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/con/20190207"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2019/02/05/apa99/con/20190207/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2019/02/05/apa99/con/20190207/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2019-1628" fecha_publicacion="20190207" fecha_vigencia="20190208">
+          <p class="parrafo">El Estatuto del Fondo Español de Garantía Agraria (FEGA), O.A., aprobado por Real Decreto 1441/2001, de 21 de diciembre, estableció la estructura orgánica interna de dicho organismo autónomo.</p>
+          <p class="parrafo">En el artículo 4.3.b) de dicho Estatuto se regulaba la Subdirección General de Auditoría Interna y Evaluación, a la que le correspondían las funciones establecidas en el artículo 3.5 y 3.10 así como el fomento de la colaboración con los servicios de auditoría interna de los organismos pagadores de las comunidades autónomas, la evaluación de los métodos de gestión y control de las actuaciones financiadas por los fondos europeos agrícolas y la elaboración y remisión a la Comisión de las declaraciones de gastos y las solicitudes de pago relativas a las medidas incluidas en el Programa Operativo del hoy Fondo Europeo Marítimo y de la Pesca.</p>
+          <p class="parrafo">No obstante, el Real Decreto 904/2018, de 20 de julio, por el que se desarrolla la estructura orgánica básica del Ministerio de Agricultura, Pesca y Alimentación, y se modifica el Real Decreto 595/2018, de 22 de junio, por el que se establece la estructura orgánica básica de los departamentos ministeriales, suprimió dicha subdirección mediante su Disposición adicional cuarta, modificando en tal sentido el Estatuto del FEGA, mediante la disposición final primera.</p>
+          <p class="parrafo">El desarrollo más efectivo de las funciones que, hasta su supresión venía realizando la citada subdirección y que a partir de ese momento pasaron a depender directamente del Presidente del Organismo, requiere, para no comprometer la viabilidad de las actividades del FEGA como Organismo Pagador de los Fondos Agrícolas de la Unión Europea, y de Coordinación de los Organismos Pagadores de las comunidades autónomas, asignar tales funciones, a una unidad que sea independiente del resto de unidades del propio organismo, adscrita, directamente, a su Presidencia.</p>
+          <p class="parrafo">Las razones que justifican la creación de tal unidad derivan, directamente, de los fines y funciones que corresponden al Fondo Español de Garantía Agraria, siguientes:</p>
+          <p class="parrafo_2">El FEGA, como Organismo Pagador, es el responsable del pago de las medidas de intervención pública (tales como el almacenamiento de leche), del pago de los programas de promoción alimentaria y del pago de las medidas del Programa Nacional de Desarrollo Rural, con distintos Fondos Agrarios de la Unión Europea siendo necesario auditar todos los pagos realizados por estos conceptos. Del mismo modo, los organismos pagadores autonómicos gestionaron 6.300 millones en el último ejercicio, sobre los que también se despliegan las tareas de auditoría que han de encomendarse a la nueva División.</p>
+          <p class="parrafo">La División debe desarrollar con independencia las funciones de auditoría. Dichas funciones se plasman en el seguimiento continuo de las operaciones diarias y las actividades de control del Organismo Pagador, a fin de garantizar una pista de auditoría suficientemente detallada y desarrollada por una unidad independiente del resto y que dependa directamente del órgano de mayor rango del organismo, conforme exige la normativa europea en materia de fondos. Estas funciones de auditoría, en todo caso, se verificarán no solo <em>ad intra</em> sino también con respecto de las actividades de los organismos pagadores de las comunidades autónomas.</p>
+          <p class="parrafo">Por los motivos expuestos, que justifican plenamente la existencia de una unidad específica para la realización de dichas funciones, resulta necesaria la creación de la citada División en el Fondo Español de Garantía Agraria, O.A.</p>
+          <p class="parrafo">Conforme dispone el artículo 59.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, los órganos de nivel inferior a Subdirección General se crean, modifican y suprimen por orden del Ministro respectivo, previa autorización hoy del Ministro de Política Territorial y Función Pública.</p>
+          <p class="parrafo">Esta orden se ajusta a los principios de buena regulación establecidos en el artículo 129 en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas y, en concreto, a los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia, ya que atiende y persigue el interés general creando un órgano imprescindible para el correcto funcionamiento interno de la Administración, la eficiencia en el gasto público y la correcta cohonestación del proceder administrativo nacional a los requisitos fijados en sede europea, siendo el instrumento normativo más adecuado para su consecución, es coherente con el resto del ordenamiento jurídico y evita cargas administrativas innecesarias y accesorias.</p>
+          <p class="parrafo">En su virtud, con la previa autorización de la Ministra de Política Territorial y Función Pública, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="ar" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2019-1628" fecha_publicacion="20190207" fecha_vigencia="20190208">
+          <p class="articulo">Artículo 1. Creación de la División de Auditoría Interna y Evaluación del Fondo Español de Garantía Agraria, O.A.</p>
+          <p class="parrafo">Se crea, conforme el artículo 59.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, la División de Auditoría Interna y Evaluación en el Fondo Español de Garantía Agraria, O.A., como órgano administrativo adscrito a la Presidencia del FEGA y dotado de las funciones señaladas en el artículo 2.</p>
+          <p class="parrafo">Al frente de la División existirá un Jefe de ésta con el nivel que determine la relación de puestos de trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="ar-2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2019-1628" fecha_publicacion="20190207" fecha_vigencia="20190208">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo">A la División de Auditoría del Fondo Estatal de Garantía Agraria, O.A. le corresponden las siguientes funciones:</p>
+          <p class="parrafo_2">a) Las establecidas en el artículo 3.10 del Estatuto del Fondo Español de Garantía Agraria, aprobado por Real Decreto 1441/2001, de 21 de diciembre.</p>
+          <p class="parrafo">b) El fomento de la colaboración con los servicios de auditoría interna de los organismos pagadores de las comunidades autónomas.</p>
+          <p class="parrafo">c) La evaluación de los métodos de gestión y control de las actuaciones financiadas por los fondos europeos agrícolas.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2019-1628" fecha_publicacion="20190207" fecha_vigencia="20190208">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», con efectos desde el 1 de febrero.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2019-1628" fecha_publicacion="20190207" fecha_vigencia="20190208">
+          <p class="parrafo_2">Madrid, 5 de febrero de 2019.–El Ministro de Agricultura, Pesca y Alimentación, Luis Planas Puchades.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

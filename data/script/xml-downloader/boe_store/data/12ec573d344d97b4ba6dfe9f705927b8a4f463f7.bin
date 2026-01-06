@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T105158Z</fecha_actualizacion>
+      <identificador>BOE-A-2018-743</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="6110">Ministerio de Defensa</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20180111</fecha_disposicion>
+      <numero_oficial>DEF/24/2018</numero_oficial>
+      <titulo>Orden DEF/24/2018, de 11 de enero, por la que se regula la elaboración, acceso, custodia y utilización de los expedientes académicos del personal militar.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20180120</fecha_publicacion>
+      <diario_numero>18</diario_numero>
+      <fecha_vigencia>20180209</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2018/01/11/def24</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2018-743</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3207">Enseñanza Militar</materia>
+        <materia codigo="4969">Ministerio de Defensa</materia>
+        <materia codigo="7854">Protección de datos personales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden ministerial 209/2001, de 3 de octubre, (BOD núm. 203, de 17 de octubre)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-19880</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 79.3 y 82 de la Ley 39/2007, de 19 de noviembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-743</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-11</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def24</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3207"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4969"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-743</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-11</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def24</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3207"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4969"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/con/20180120"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden DEF/24/2018, de 11 de enero, por la que se regula la elaboración, acceso, custodia y utilización de los expedientes académicos del personal militar.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-20</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/con/20180120">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-743</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-11</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def24</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3207"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4969"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/con/20180120/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden DEF/24/2018, de 11 de enero, por la que se regula la elaboración, acceso, custodia y utilización de los expedientes académicos del personal militar.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/con/20180120"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2018/01/11/def24/con/20180120/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2018/01/11/def24/con/20180120/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="parrafo">El artículo 79.1 de la Ley 39/2007, de 19 de noviembre, de la carrera militar, establece que las vicisitudes profesionales del militar quedarán reflejadas en su historial militar individual, de uso confidencial, que constará, entre otros documentos, del expediente académico, en el mismo artículo 79.3, dispone que el Ministro de Defensa establecerá las características de los documentos que componen el historial militar, del que forma parte el expediente académico, y dictará las normas para su elaboración, custodia y utilización, y en el artículo 82 se concreta el contenido de dicho expediente que constará de las calificaciones académicas, certificaciones y acreditaciones de las titulaciones obtenidas y estudios realizados dentro de la enseñanza en las Fuerzas Armadas, así como las correspondientes a otros títulos o estudios reconocidos tanto en el ámbito civil como en el de la enseñanza militar de otros países.</p>
+          <p class="parrafo">A su vez, el Real Decreto 339/2015, de 30 de abril, por el que se ordenan las enseñanzas de perfeccionamiento y de Altos Estudios de la Defensa Nacional, regula la estructura docente que sustenta estas enseñanzas, introduciendo la necesidad de potenciar el concepto de gestión del conocimiento de modo que contribuya a actualizar, enriquecer y mejorar la propia organización.</p>
+          <p class="parrafo">Por otra parte, el artículo 4.2 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, establece, que los datos de carácter personal objeto de tratamiento no podrán usarse para finalidades incompatibles con aquellas para los que hubieran sido recogidos y, en el artículo 20.1, determina que la creación, modificación o supresión de los ficheros de las administraciones públicas sólo podrán hacerse por medio de disposición general publicada en el «Boletín Oficial del Estado» o diario oficial correspondiente. El Reglamento de desarrollo de la citada ley orgánica, aprobado por el Real Decreto 1720/2007, de 21 de diciembre, fija las medidas de seguridad que han de aplicarse a los referidos ficheros.</p>
+          <p class="parrafo">En la actualidad, las normas para la elaboración, custodia y utilización de los expedientes académicos, fueron aprobadas por la Orden ministerial 209/2001, de 3 de octubre, por ello, se hace necesario publicar una nueva orden ministerial, que sustituya la anterior, que se adapte a lo preceptuado en la ley de la carrera militar en vigor y mejore las características de los modelos ya existentes, adaptando el número de éstos a las necesidades actuales, corrigiendo las deficiencias que el sistema ha revelado a lo largo de los años tanto desde el punto de vista del tratamiento automatizado de datos, como desde la perspectiva de los procedimientos y criterios para la anotación de los mismos.</p>
+          <p class="parrafo">Durante su tramitación, el proyecto de esta orden ministerial fue informado por las asociaciones profesionales con representación en el Consejo de Personal de las Fuerzas Armadas, conforme al artículo 40.2.b) de la Ley Orgánica 9/2011, de 27 de julio, de Derechos y deberes de los miembros de las Fuerzas Armadas, y se dio conocimiento del mismo al resto de las asociaciones profesionales inscritas en el Registro de Asociaciones Profesionales de miembros de las Fuerzas Armadas, conforme al artículo 40.1.c) de la Ley Orgánica 9/2011, de 27 de julio. Finalmente, con arreglo a lo establecido en el artículo 49.1.c) de la citada ley orgánica, fue informado por el Consejo de Personal de las Fuerzas Armadas.</p>
+          <p class="parrafo">En su virtud, con la aprobación previa del Ministerio de Hacienda y Función Pública y de acuerdo con el Consejo de Estado, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">El objeto de esta orden ministerial es establecer las normas para la elaboración, custodia y utilización de los expedientes académicos del personal militar.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 2. Expediente académico.</p>
+          <p class="parrafo">En el expediente académico constarán las calificaciones académicas, certificaciones y acreditaciones de las titulaciones obtenidas y estudios realizados dentro de la enseñanza en las Fuerzas Armadas por el personal militar, desde la adquisición de la condición militar hasta el pase a la situación de reserva o el momento en que pierda dicha condición. Constarán también en el expediente académico las calificaciones, certificaciones y acreditaciones correspondientes a otros títulos o estudios realizados en el ámbito civil, en España o en el extranjero, así como los que se realicen en el ámbito de la enseñanza militar de otros países, siempre que unos y otros sean reconocidos de acuerdo con lo dispuesto en la presente orden.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 3. Documentos que componen el expediente académico.</p>
+          <p class="parrafo">El expediente académico se compondrá de los siguientes documentos:</p>
+          <p class="parrafo_2">a) Documento 1. Ficha de datos personales. En ella se incluirán los datos necesarios para la identificación de la persona titular del expediente académico.</p>
+          <p class="parrafo">b) Documento 2. Ficha enseñanza de formación. En ella se incluirán los estudios realizados en los distintos centros docentes de formación, especificando para cada uno de ellos los centros donde se han cursado.</p>
+          <p class="parrafo">c) Documento 3. Ficha enseñanza de perfeccionamiento. Incluirá los títulos obtenidos y estudios realizados de capacitación, especialización y ampliación o actualización de conocimientos y aptitudes, especificando para cada uno de ellos los centros donde se han cursado.</p>
+          <p class="parrafo">d) Documento 4. Ficha enseñanza altos estudios de la defensa nacional. En ella se anotarán los títulos obtenidos y estudios realizados considerados de altos estudios de la defensa nacional, especificando para cada uno de ellos los centros donde se han cursado.</p>
+          <p class="parrafo">e) Documento 5. Ficha estudios en el extranjero. Se incluirán los títulos obtenidos y estudios realizados en el ámbito de las enseñanzas de perfeccionamiento y de altos estudios de la defensa nacional realizados en otros países, especificando para cada uno de ellos los centros donde se han cursado.</p>
+          <p class="parrafo">f) Documento 6. Ficha de idiomas: Incluirá los niveles de conocimiento en distintos idiomas acreditados por el Ministerio de Defensa, especificando para cada uno de ellos los centros donde se han cursado.</p>
+          <p class="parrafo">g) Documento 7. Ficha de enseñanza del sistema educativo general y estudios profesionales: En ella se incluirán los estudios realizados, calificaciones obtenidas y titulaciones obtenidas fuera del ámbito de la enseñanza en las Fuerzas Armadas, con arreglo al sistema educativo general, y en aquellos centros en los que se impartan estudios declarados equivalentes por el Ministerio de Educación, Cultura y Deporte o estudios profesionales cuyos títulos o certificados sean expedidos por los órganos competentes de las administraciones públicas, especificando para cada uno de ellos los centros donde se han cursado.</p>
+          <p class="parrafo">h) Documento 8. Ficha resumen de las vicisitudes académicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 4. Elaboración del expediente académico.</p>
+          <p class="parrafo">1. La elaboración del expediente académico corresponde a los siguientes órganos:</p>
+          <p class="parrafo_2">a) Subdirección General de Enseñanza Militar, para el personal perteneciente a los cuerpos comunes de las Fuerzas Armadas.</p>
+          <p class="parrafo">b) Dirección de Enseñanza, Instrucción, Adiestramiento y Evaluación del Ejército de Tierra, para el personal perteneciente al Ejército de Tierra.</p>
+          <p class="parrafo">c) Dirección de Enseñanza Naval de la Armada, para el personal perteneciente a la Armada.</p>
+          <p class="parrafo">d) Dirección de Enseñanza del Ejército del Aire, para el personal perteneciente al Ejército del Aire.</p>
+          <p class="parrafo_2">2. Las anotaciones en el expediente académico, de los cursos realizados, calificaciones obtenidas y titulaciones acreditadas, las realizarán los órganos citados en el punto anterior de acuerdo con los siguientes criterios:</p>
+          <p class="parrafo_2">a) De oficio para todos los cursos realizados, calificaciones obtenidas y titulaciones acreditadas, en el ámbito de la enseñanza de las Fuerzas Armadas, incluidos los estudios en el extranjero. Los órganos competentes podrán delegar la anotación en el expediente académico en los directores de los centros docentes militares de su ámbito de responsabilidad, para los cursos que en ellos se impartan.</p>
+          <p class="parrafo">b) A petición del interesado con la presentación de la documentación que así lo acredite, para todos los cursos realizados, calificaciones obtenidas y titulaciones acreditadas, fuera del ámbito de la enseñanza de las Fuerzas Armadas, que se anotarán de acuerdo con los siguientes criterios:</p>
+          <p class="parrafo_2">1.º Todos los títulos recogidos en el Registro de Universidades, Centros y Títulos (RUCT).</p>
+          <p class="parrafo">2.º Todos los títulos de formación profesional cuando estén recogidos en el catálogo de títulos de formación profesional.</p>
+          <p class="parrafo">3.º Los certificados de profesionalidad regulados por el real decreto 34/2008, de 18 de enero.</p>
+          <p class="parrafo_2">c) En ningún caso se anotarán asignaturas sueltas, cursos terminados de planes de estudios que comprendan varios, ni estudios incompletos.</p>
+          <p class="parrafo_2">3. En el resto de los casos, que pudieran no estar contemplados en este artículo y con el fin de unificar los criterios de anotación en el ámbito de las Fuerzas Armadas, los Directores de Enseñanza, Instrucción, Adiestramiento y Evaluación del Ejército de Tierra, de Enseñanza Naval de la Armada, de Enseñanza del Ejército del Aire y el Subdirector General de Enseñanza Militar para los Cuerpos Comunes de las Fuerzas Armadas, elevarán consulta al Director General de Reclutamiento y Enseñanza Militar que determinará si procede su anotación de acuerdo con lo dispuesto por la Orden DEF/464/2017, de 19 de mayo, por la que se aprueban las normas que regulan la enseñanza de perfeccionamiento y de Altos Estudios de la Defensa Nacional.</p>
+          <p class="parrafo">4. En ningún caso se anotará en el expediente académico un curso que no figure en el registro establecido por la Orden DEF/ 1902/2016, de 5 de diciembre, por la que se crea el registro de centros, cursos y títulos, y se regula su régimen, organización y funcionamiento (RECECUT).</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 5. Homologaciones.</p>
+          <p class="parrafo">Los cursos que se homologuen, además de anotarse en el documento 7 como obtenidos fuera del ámbito de las Fuerzas Armadas, se anotarán en el documento 3 o 4, según corresponda, con la denominación que figura en el registro de centros, cursos y títulos (RECECUT), especificando «por homologación» y conllevará las mismas ventajas y servidumbres que el curso al que se homologa.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 6. Recursos.</p>
+          <p class="parrafo">Contra las resoluciones adoptadas por los órganos encargados de elaborar los expedientes, por las anotaciones realizadas en los mismos, se podrán interponer los recursos previstos en la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 7. Niveles de seguridad.</p>
+          <p class="parrafo">1. Los documentos que componen el expediente académico se considerarán como Información no clasificada de Uso Oficial, conforme a lo regulado en la Orden ministerial 76/2006, de 19 de mayo, por la que se aprueba la política de seguridad de la información del Ministerio de Defensa.</p>
+          <p class="parrafo">2. Por lo que respecta a la seguridad del fichero automatizado empleado en la elaboración y utilización del expediente académico, quedará salvaguardada conforme a lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y disposiciones que la desarrollan.</p>
+          <p class="parrafo">3. Como norma general, al expediente académico se le aplicarán las medidas de seguridad de nivel básico contempladas en el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, aprobado por Real Decreto 1720/2007, de 21 de diciembre. Los órganos responsables de la elaboración y custodia, motivadamente, podrán elevar este nivel para determinados datos.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 8. Custodia de los expedientes académicos.</p>
+          <p class="parrafo">La custodia de los expedientes académicos será responsabilidad de los órganos encargados de su elaboración.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 9. Acceso a los expedientes académicos.</p>
+          <p class="parrafo">Los órganos encargados de la elaboración de los expedientes académicos establecerán las normas por las que se regirá el acceso al expediente, teniendo en cuenta el nivel de seguridad correspondiente a cada uno de los documentos que lo integran.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Artículo 10. Utilización del expediente académico.</p>
+          <p class="parrafo">1. El expediente académico podrá ser utilizado, de acuerdo con las normas de custodia y acceso en los siguientes casos:</p>
+          <p class="parrafo_2">a) Evaluaciones para el ascenso, asignación de destinos, asistencia a cursos.</p>
+          <p class="parrafo">b) Evaluaciones de carácter extraordinario.</p>
+          <p class="parrafo">c) A petición del interesado.</p>
+          <p class="parrafo">d) En aquellos procesos selectivos en los que las bases de la convocatoria así lo determinen.</p>
+          <p class="parrafo_2">2. Cuando con carácter oficial sea necesario conocer o utilizar los datos contenidos en los expedientes académicos, se solicitarán del órgano responsable de su custodia.</p>
+          <p class="parrafo">3. Los interesados podrán tener acceso, conocimiento y copia auténtica de aquellos datos que soliciten de su expediente académico, mediante solicitud al órgano responsable de su custodia.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Disposición adicional única. Adaptación del contenido del expediente académico.</p>
+          <p class="parrafo">Por parte de la Dirección General de Personal del Ministerio de Defensa, se realizarán las acciones técnicas necesarias para adaptar el Sistema de Información de Personal del Ministerio de Defensa (SIPERDEF), en lo que al expediente académico se refiere, a lo dispuesto en esta orden ministerial.</p>
+          <p class="parrafo">Mientras se realizan dichas acciones el expediente académico seguirá con su formato actual hasta la finalización de las mismas.</p>
+          <p class="parrafo">Las actuales documentaciones relativas al expediente académico, serán adaptadas a lo establecido en esta orden ministerial.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">1. Queda derogada la Orden ministerial 209/2001, de 3 de octubre, por la que se aprueban las Normas para la Elaboración, Custodia y Utilización de los Expedientes Académicos.</p>
+          <p class="parrafo">2. Quedan también derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en esta orden ministerial.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Disposición final primera. Facultades dispositivas.</p>
+          <p class="parrafo">Se autoriza al Subsecretario de Defensa a dictar cuantas resoluciones sean necesarias para la aplicación de esta orden ministerial.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente orden ministerial entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2018-743" fecha_publicacion="20180120" fecha_vigencia="20180209">
+          <p class="parrafo_2">Madrid, 11 de enero de 2018.–La Ministra de Defensa, María Dolores de Cospedal García.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T111940Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-7115</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4230">Ministerio de Educación y Ciencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20070316</fecha_disposicion>
+      <numero_oficial>365/2007</numero_oficial>
+      <titulo>Real Decreto 365/2007, de 16 de marzo, por el que se regula el Consejo Superior de Enseñanzas Artísticas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20070404</fecha_publicacion>
+      <diario_numero>81</diario_numero>
+      <fecha_vigencia>20070405</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20250828</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2007/03/16/365</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-7115</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="8950">Consejo Superior de Enseñanzas Artísticas</materia>
+        <materia codigo="1589">Consejos consultivos</materia>
+        <materia codigo="3215">Enseñanza Artística</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2006-7899</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 45 de la Ley Orgánica 2/2006, de 3 de mayo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2025-17189</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 715/2025, de 26 de agosto</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2009-16481</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 5, 9.1 y 12.2, por Real Decreto 1485/2009, de 26 de septiembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-7115</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8950"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-7115</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8950"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20250827"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20091016"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20070404"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 365/2007, de 16 de marzo, por el que se regula el Consejo Superior de Enseñanzas Artísticas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20250827">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-7115</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8950"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-27</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20250827/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 365/2007, de 16 de marzo, por el que se regula el Consejo Superior de Enseñanzas Artísticas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20250827"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20250827/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20250827/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20091016">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-7115</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8950"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20091016/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 365/2007, de 16 de marzo, por el que se regula el Consejo Superior de Enseñanzas Artísticas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20091016"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20091016/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20091016/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20070404">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-7115</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">365</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3215"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8950"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20070404/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 365/2007, de 16 de marzo, por el que se regula el Consejo Superior de Enseñanzas Artísticas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20070404"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20070404/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/03/16/365/con/20070404/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2025-17189" fecha_publicacion="20250827" fecha_vigencia="20250828">
+          <p class="siempreSeVe">Norma derogada, con efectos de 28 de agosto de 2025, por la disposición derogatoria única del Real Decreto 715/2025, de 26 de agosto. <a class="refPost">Ref. BOE-A-2025-17189#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="parrafo">La Ley Orgánica 2/2006, de 3 de mayo, de Educación, define las enseñanzas artísticas como enseñanzas de régimen especial y establece, en su artículo 45, los principios por los que se rigen. En ese mismo artículo se crea el Consejo Superior de Enseñanzas Artísticas como órgano consultivo del Estado y de participación en relación con estas enseñanzas y se faculta al Gobierno, previa consulta a las Comunidades Autónomas, para regular la composición y funciones de dicho Consejo.</p>
+          <p class="parrafo">La Ley atribuye al Consejo Superior de Enseñanzas Artísticas una relevancia especial en el ámbito de las enseñanzas artísticas superiores, situadas en un claro espacio propio de la educación superior, bien diferenciado del contexto propio de las otras enseñanzas que la Ley regula. En este sentido, el artículo 58 de la Ley asigna al Consejo Superior de Enseñanzas Artísticas una participación significativa en la definición de la estructura y el contenido básicos de los diferentes estudios de enseñanzas artísticas superiores.</p>
+          <p class="parrafo">En desarrollo del citado artículo 45 de la Ley 2/2006, de 3 de mayo, de Educación, este real decreto define la composición y funciones del Consejo Superior de Enseñanzas Artísticas, regula su organización y funcionamiento y determina la representación de los distintos sectores que deben integrarlo.</p>
+          <p class="parrafo">Para la elaboración de este real decreto se ha consultado a las Comunidades Autónomas y ha emitido informe el Consejo Escolar del Estado.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Educación y Ciencia, de acuerdo con el Consejo de Estado, con la aprobación previa del Ministro de Administraciones Públicas y previa deliberación del Consejo de Ministros en su reunión del día 16 de marzo de 2007,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este real decreto tiene por objeto establecer la composición y funciones del Consejo Superior de Enseñanzas Artísticas y regular su organización y funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 2. Naturaleza.</p>
+          <p class="parrafo">El Consejo Superior de Enseñanzas Artísticas es el órgano consultivo del Estado y de participación en relación con las enseñanzas artísticas establecidas en la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 3. Adscripción.</p>
+          <p class="parrafo">El Consejo Superior de Enseñanzas Artísticas está adscrito al Ministerio de Educación y Ciencia a través de la Secretaría General de Educación del Departamento.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 4. Funciones.</p>
+          <p class="parrafo">El Consejo Superior de Enseñanzas Artísticas tiene las siguientes funciones:</p>
+          <p class="parrafo">a) Elaborar propuestas al Ministerio de Educación y Ciencia en relación con la enseñanza, la investigación, la información y la proyección social de las enseñanzas artísticas, así como con la promoción de los profesionales relacionados con ellas.</p>
+          <p class="parrafo">b) Informar, con carácter preceptivo, las normas que definan la estructura y el contenido básicos de los diferentes estudios de enseñanzas artísticas superiores, su evaluación y la regulación de las condiciones para la oferta de estudios de postgrado en los centros de enseñanzas artísticas superiores.</p>
+          <p class="parrafo">c) Informar cuantas otras disposiciones someta a su consideración el Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo">d) Emitir informes, por propia iniciativa o a petición del Ministerio de Educación y Ciencia, y prestar su asesoramiento en materias relacionadas con las enseñanzas artísticas.</p>
+          <p class="parrafo">e) Aprobar y hacer público un informe anual sobre el estado y situación de las enseñanzas artísticas.</p>
+          <p class="parrafo">f) Cuantas otras funciones le pudieran ser encomendadas por la normativa de desarrollo de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 5. Composición.</p>
+          <p class="parrafo">El Consejo Superior de Enseñanzas Artísticas tendrá la siguiente composición: presidente, tres vicepresidentes, un secretario y setenta consejeros.</p>
+        </version>
+        <version id_norma="BOE-A-2009-16481" fecha_publicacion="20091016" fecha_vigencia="20091017">
+          <p class="articulo">Artículo 5. Composición.</p>
+          <p class="parrafo">El Consejo Superior de Enseñanzas Artísticas tendrá la siguiente composición: presidente, tres vicepresidentes, un secretario y setenta y dos consejeros.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.1 del Real Decreto 1485/2009, de 26 de septiembre. <a class="refPost">Ref. BOE-A-2009-16481</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 6. El Presidente.</p>
+          <p class="parrafo">1. Será presidente del Consejo Superior de Enseñanzas Artísticas el titular del Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo">2. Son funciones del presidente:</p>
+          <p class="parrafo">a) Ejercer la representación y dirección del Consejo.</p>
+          <p class="parrafo">b) Fijar el orden del día, acordar la convocatoria de las sesiones ordinarias y extraordinarias del pleno y de la comisión permanente.</p>
+          <p class="parrafo">c) Presidir las sesiones del pleno, moderar el desarrollo de los debates y velar por la ejecución de los acuerdos.</p>
+          <p class="parrafo">d) Dirimir el resultado de las votaciones en caso de empate.</p>
+          <p class="parrafo">e) Visar las actas y certificaciones de los acuerdos del Consejo.</p>
+          <p class="parrafo">f) Poner los medios para desarrollar e impulsar las actividades que corresponden al Consejo.</p>
+          <p class="parrafo">g) Cumplir y hacer cumplir los acuerdos del Consejo.</p>
+          <p class="parrafo">h) Resolver las cuestiones que puedan plantearse sobre la designación de consejeros por razones de representatividad.</p>
+          <p class="parrafo">i) Ejercer cuantas otras funciones le atribuya el Reglamento de funcionamiento que sean inherentes a su condición de presidente del Consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 7. Los Vicepresidentes.</p>
+          <p class="parrafo">1. Será vicepresidente primero el titular de la Secretaría General de Educación del Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo">2. Al vicepresidente primero le corresponde sustituir al presidente en los casos de vacante, ausencia, enfermedad u otras causas justificadas, ejerciendo las funciones atribuidas al mismo.</p>
+          <p class="parrafo">3. Será vicepresidente segundo uno de los diecisiete consejeros representantes de las Comunidades Autónomas, designado con carácter rotatorio entre las mismas, según criterios acordados en el seno de la Conferencia Sectorial de Educación.</p>
+          <p class="parrafo">4. Será vicepresidente tercero uno de los diez consejeros representantes del grupo de personalidades de reconocido prestigio, designado por el Ministro de Educación y Ciencia.</p>
+          <p class="parrafo">5. Los vicepresidentes segundo y tercero ejercerán las funciones que les sean encomendadas por el presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 8. El Secretario.</p>
+          <p class="parrafo">1. El secretario del Consejo será un funcionario del Ministerio de Educación y Ciencia, con rango de subdirector general o equivalente.</p>
+          <p class="parrafo">2. Al secretario del Consejo le corresponde:</p>
+          <p class="parrafo">a) Asistir a las sesiones del pleno y de la comisión permanente en las que participará con voz pero sin voto.</p>
+          <p class="parrafo">b) Gestionar, bajo la dirección de la presidencia, los asuntos del Consejo y prestarle asistencia.</p>
+          <p class="parrafo">c) Autorizar con su firma los informes evacuados por el Consejo.</p>
+          <p class="parrafo">d) Extender las certificaciones de asistencia de los consejeros.</p>
+          <p class="parrafo">e) Conservar el libro de actas del Consejo.</p>
+          <p class="parrafo">f) Cuantas otras funciones le sean atribuidas por el presidente, dentro de su ámbito de competencias.</p>
+          <p class="parrafo_2">3. El secretario, en nombre del presidente, podrá recabar de las Administraciones educativas la información y documentación que sean necesarias para la emisión de informes y formulación de propuestas por el Consejo en materias de su competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 9. Los Consejeros.</p>
+          <p class="parrafo">1. Formarán parte del Consejo Superior de Enseñanzas Artísticas los siguientes consejeros:</p>
+          <p class="parrafo">a) Seis representantes del Ministerio de Educación y Ciencia, de los cuales al menos dos tendrán rango de director general, designados por el titular del Departamento.</p>
+          <p class="parrafo">b) Dos representantes del Ministerio de Cultura, designados por el titular del Departamento.</p>
+          <p class="parrafo">c) Un representante por cada una de las Administraciones educativas de las Comunidades Autónomas, propuestos por las mismas.</p>
+          <p class="parrafo">d) Un representante de las Ciudades Autónomas de Ceuta y Melilla.</p>
+          <p class="parrafo">e) Dos representantes de las Administraciones locales propuestos por la Federación Española de Municipios y Provincias.</p>
+          <p class="parrafo">f) Doce profesores de enseñanzas artísticas, propuestos por los sindicatos y las asociaciones de ámbito estatal más representativos en el ámbito de las enseñanzas artísticas.</p>
+          <p class="parrafo">g) Tres alumnos de enseñanzas artísticas superiores, propuestos por las asociaciones de alumnos más representativas en el ámbito de las enseñanzas artísticas.</p>
+          <p class="parrafo">h) Diecisiete representantes de directores de centros donde se impartan las diferentes enseñanzas artísticas superiores, propuestos por las Administraciones educativas sobre criterios acordados con el Ministerio de Educación y Ciencia para garantizar la representación proporcional de las diferentes enseñanzas.</p>
+          <p class="parrafo">i) Diez personalidades de reconocido prestigio en el ámbito de las enseñanzas artísticas, designadas por el Ministro de Educación y Ciencia, consultadas las Comunidades Autónomas.</p>
+          <p class="parrafo_2">2. Los consejeros serán nombrados por el Ministro de Educación y Ciencia y tomarán posesión ante el presidente del Consejo.</p>
+          <p class="parrafo">3. El mandato de los consejeros será de cuatro años. Los consejeros perderán su condición por alguna de las siguientes causas:</p>
+          <p class="parrafo">a) Por terminación de su mandato.</p>
+          <p class="parrafo">b) Por dejar de concurrir los requisitos que determinaron su designación o propuesta.</p>
+          <p class="parrafo">c) Por revocación del mandato conferido por las instituciones que los designaron o propusieron.</p>
+          <p class="parrafo">d) Por renuncia.</p>
+          <p class="parrafo">e) Por condena penal por delito doloso o haber incurrido en penas que inhabiliten para el ejercicio de cargos públicos.</p>
+          <p class="parrafo">f) Por incapacidad permanente o fallecimiento.</p>
+          <p class="parrafo_2">4. El Reglamento de funcionamiento del Consejo establecerá el régimen de sustituciones para todos los supuestos de cese indicados en el número anterior, excepto el previsto en el apartado a), así como las suplencias por imposibilidad de asistencia a una reunión determinada.</p>
+          <p class="parrafo">5. El Consejo se renovará por mitad cada dos años en cada uno de los grupos de consejeros a que se refiere el párrafo 1 de este artículo.</p>
+        </version>
+        <version id_norma="BOE-A-2009-16481" fecha_publicacion="20091016" fecha_vigencia="20091017">
+          <p class="articulo">Artículo 9. Los Consejeros.</p>
+          <p class="parrafo">1. Formarán parte del Consejo Superior de Enseñanzas Artísticas los siguientes consejeros:</p>
+          <p class="parrafo">a) Seis representantes del Ministerio de Educación, de los cuales al menos dos tendrán rango de director general, y dos serán representantes del Gabinete de la Secretaría de Estado de Educación y Formación Profesional a propuesta del vicepresidente primero.</p>
+          <p class="parrafo">b) Dos representantes del Ministerio de Cultura, designados por el titular del Departamento.</p>
+          <p class="parrafo">c) Un representante por cada una de las Administraciones educativas de las comunidades autónomas, propuestos por las mismas.</p>
+          <p class="parrafo">d) Un representante de las ciudades autónomas de Ceuta y Melilla.</p>
+          <p class="parrafo">e) Cuatro representantes de las Administraciones locales propuestos por la Federación Española de Municipios y Provincias.</p>
+          <p class="parrafo">f) Doce profesores de enseñanzas artísticas, propuestos por los sindicatos y las asociaciones de ámbito estatal más representativos en el ámbito de las enseñanzas artísticas.</p>
+          <p class="parrafo">g) Tres alumnos de enseñanzas artísticas superiores, propuestos por las asociaciones de alumnos más representativas en el ámbito de las enseñanzas artísticas.</p>
+          <p class="parrafo">h) Diecisiete representantes de directores de centros donde se impartan las diferentes enseñanzas artísticas superiores, propuestos por las Administraciones educativas sobre criterios acordados con el Ministerio de Educación para garantizar la representación proporcional de las diferentes enseñanzas.</p>
+          <p class="parrafo">i) Diez personalidades de reconocido prestigio en el ámbito de las enseñanzas artísticas, designadas por el Ministerio de Educación, consultadas las comunidades autónomas.</p>
+          <p class="parrafo_2">2. Los consejeros serán nombrados por el Ministro de Educación y Ciencia y tomarán posesión ante el presidente del Consejo.</p>
+          <p class="parrafo">3. El mandato de los consejeros será de cuatro años. Los consejeros perderán su condición por alguna de las siguientes causas:</p>
+          <p class="parrafo">a) Por terminación de su mandato.</p>
+          <p class="parrafo">b) Por dejar de concurrir los requisitos que determinaron su designación o propuesta.</p>
+          <p class="parrafo">c) Por revocación del mandato conferido por las instituciones que los designaron o propusieron.</p>
+          <p class="parrafo">d) Por renuncia.</p>
+          <p class="parrafo">e) Por condena penal por delito doloso o haber incurrido en penas que inhabiliten para el ejercicio de cargos públicos.</p>
+          <p class="parrafo">f) Por incapacidad permanente o fallecimiento.</p>
+          <p class="parrafo_2">4. El Reglamento de funcionamiento del Consejo establecerá el régimen de sustituciones para todos los supuestos de cese indicados en el número anterior, excepto el previsto en el apartado a), así como las suplencias por imposibilidad de asistencia a una reunión determinada.</p>
+          <p class="parrafo">5. El Consejo se renovará por mitad cada dos años en cada uno de los grupos de consejeros a que se refiere el párrafo 1 de este artículo.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.2 del Real Decreto 1485/2009, de 26 de septiembre. <a class="refPost">Ref. BOE-A-2009-16481</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 10. Funcionamiento.</p>
+          <p class="parrafo">1. El Consejo Superior de Enseñanzas Artísticas funcionará en pleno y en comisión permanente.</p>
+          <p class="parrafo">2. El Consejo podrá establecer el funcionamiento de otras comisiones con finalidades específicas de trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 11. El pleno.</p>
+          <p class="parrafo">1. El pleno del Consejo Superior de Enseñanzas Artísticas lo componen el presidente, los tres vicepresidentes, el secretario, que participará con voz pero sin voto, y los consejeros.</p>
+          <p class="parrafo">2. Las reuniones del pleno se celebrarán:</p>
+          <p class="parrafo">a) Una vez al año como mínimo.</p>
+          <p class="parrafo">b) Siempre que sea necesario, para emitir los informes preceptivos y los que solicite el Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo">c) Cuando lo solicite al menos un tercio de los consejeros, entre los que deberán estar representados como mínimo cuatro de los grupos indicados en el artículo 9.1 de este real decreto.</p>
+          <p class="parrafo_2">3. Las reuniones del pleno serán convocadas por el presidente con tres semanas de antelación, salvo por razones de urgencia, en cuyo caso el plazo podrá reducirse a diez días.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 12. La comisión permanente.</p>
+          <p class="parrafo">1. La comisión permanente estará presidida por el vicepresidente primero del Consejo, que podrá delegar en uno de los consejeros representantes del Ministerio de Educación y Ciencia con rango de director general.</p>
+          <p class="parrafo">2. Componen la comisión permanente, además de su presidente, los siguientes miembros:</p>
+          <p class="parrafo">a) Dos de los consejeros representantes del Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo">b) Uno de los consejeros representantes del Ministerio de Cultura.</p>
+          <p class="parrafo">c) Seis de los consejeros representantes de las Comunidades Autónomas, con carácter rotatorio.</p>
+          <p class="parrafo">d) Un representante de las Administraciones locales.</p>
+          <p class="parrafo">e) Cuatro de los consejeros representantes del profesorado.</p>
+          <p class="parrafo">f) Uno de los consejeros representantes del alumnado.</p>
+          <p class="parrafo">g) Seis de los consejeros representantes de los directores de los centros.</p>
+          <p class="parrafo">h) Tres de los consejeros representantes del grupo de personalidades de reconocido prestigio.</p>
+          <p class="parrafo">i) El secretario del Consejo, que participará con voz pero sin voto.</p>
+          <p class="parrafo_2">3. La designación de los miembros de la comisión permanente corresponde al mismo órgano que los propuso como miembros del Consejo.</p>
+          <p class="parrafo">4. Son funciones de la comisión permanente:</p>
+          <p class="parrafo">a) Elevar al pleno las propuestas de informes preceptivos sobre las normas que definan el contenido básico de las diferentes enseñanzas artísticas superiores, su evaluación y la regulación de las condiciones para la oferta de estudios de postgrado en los centros de enseñanzas artísticas superiores.</p>
+          <p class="parrafo">b) Elaborar un informe anual sobre el estado y situación de las enseñanzas artísticas y someterlo a la aprobación del pleno.</p>
+          <p class="parrafo">c) Cuantas cuestiones le sean consultadas por el presidente del Consejo, por el pleno y por el Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo_2">5. El pleno podrá delegar en la comisión permanente la aprobación de informes relativos a las funciones que se atribuyen al Consejo en el artículo 4 de este real decreto.</p>
+          <p class="parrafo">6. Los consejeros podrán formular a la comisión permanente propuestas sobre los asuntos atribuidos a la competencia del Consejo y, en general, sobre cualquier cuestión concerniente a la calidad de la enseñanza en el ámbito que les es propio.</p>
+          <p class="parrafo">7. Previa autorización del presidente, la comisión permanente podrá recabar la asistencia técnica que estime necesaria.</p>
+          <p class="parrafo">8. Las reuniones de la comisión permanente serán convocadas por su presidente con siete días de antelación, salvo por razones de urgencia, en cuyo caso el plazo podrá reducirse a setenta y dos horas de antelación.</p>
+        </version>
+        <version id_norma="BOE-A-2009-16481" fecha_publicacion="20091016" fecha_vigencia="20091017">
+          <p class="articulo">Artículo 12. La comisión permanente.</p>
+          <p class="parrafo">1. La comisión permanente estará presidida por el vicepresidente primero del Consejo, que podrá delegar en uno de los consejeros representantes del Ministerio de Educación y Ciencia con rango de director general.</p>
+          <p class="parrafo">2. Componen la comisión permanente, además de su presidente, los siguientes miembros:</p>
+          <p class="parrafo">j) Dos de los consejeros representantes del Ministerio de Educación.</p>
+          <p class="parrafo">k) Uno de los consejeros representantes del Ministerio de Cultura.</p>
+          <p class="parrafo">l) Seis de los consejeros representantes de las comunidades autónomas, con carácter rotatorio.</p>
+          <p class="parrafo">m) Dos representantes de las Administraciones locales.</p>
+          <p class="parrafo">n) Cuatro de los consejeros representantes del profesorado.</p>
+          <p class="parrafo">o) Uno de los consejeros representantes del alumnado.</p>
+          <p class="parrafo">p) Seis de los consejeros representantes de los directores de los centros.</p>
+          <p class="parrafo">q) Tres de los consejeros representantes del grupo de personalidades de reconocido prestigio.</p>
+          <p class="parrafo">r) El secretario del Consejo, que participará con voz pero sin voto.</p>
+          <p class="parrafo_2">3. La designación de los miembros de la comisión permanente corresponde al mismo órgano que los propuso como miembros del Consejo.</p>
+          <p class="parrafo">4. Son funciones de la comisión permanente:</p>
+          <p class="parrafo">a) Elevar al pleno las propuestas de informes preceptivos sobre las normas que definan el contenido básico de las diferentes enseñanzas artísticas superiores, su evaluación y la regulación de las condiciones para la oferta de estudios de postgrado en los centros de enseñanzas artísticas superiores.</p>
+          <p class="parrafo">b) Elaborar un informe anual sobre el estado y situación de las enseñanzas artísticas y someterlo a la aprobación del pleno.</p>
+          <p class="parrafo">c) Cuantas cuestiones le sean consultadas por el presidente del Consejo, por el pleno y por el Ministerio de Educación y Ciencia.</p>
+          <p class="parrafo_2">5. El pleno podrá delegar en la comisión permanente la aprobación de informes relativos a las funciones que se atribuyen al Consejo en el artículo 4 de este real decreto.</p>
+          <p class="parrafo">6. Los consejeros podrán formular a la comisión permanente propuestas sobre los asuntos atribuidos a la competencia del Consejo y, en general, sobre cualquier cuestión concerniente a la calidad de la enseñanza en el ámbito que les es propio.</p>
+          <p class="parrafo">7. Previa autorización del presidente, la comisión permanente podrá recabar la asistencia técnica que estime necesaria.</p>
+          <p class="parrafo">8. Las reuniones de la comisión permanente serán convocadas por su presidente con siete días de antelación, salvo por razones de urgencia, en cuyo caso el plazo podrá reducirse a setenta y dos horas de antelación.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por el art. único.3 del Real Decreto 1485/2009, de 26 de septiembre. <a class="refPost">Ref. BOE-A-2009-16481</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Artículo 13. Notificación de los informes.</p>
+          <p class="parrafo">1. Los informes del pleno y de la comisión permanente del Consejo Superior de Enseñanzas Artísticas serán emitidos y notificados al Ministerio de Educación y Ciencia en el plazo máximo de un mes, salvo disposición legal en contrario.</p>
+          <p class="parrafo">2. No obstante lo indicado en el punto anterior, los informes a los que el Ministerio de Educación y Ciencia atribuya carácter de urgencia deberán ser emitidos y notificados en el plazo de quince días.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición adicional primera. Constitución del Consejo.</p>
+          <p class="parrafo">El Consejo Superior de Enseñanzas Artísticas se constituirá en el plazo máximo de dos meses contados a partir del día siguiente al de la publicación de este real decreto. A tales efectos, las propuestas de nombramiento de los consejeros deberán formularse al Ministerio de Educación y Ciencia, en el plazo de un mes, igualmente contados a partir del día siguiente al de la publicación de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición adicional segunda. Renovación excepcional de consejeros.</p>
+          <p class="parrafo">Con carácter excepcional, la mitad de los consejeros a los que se refiere el apartado 1 del artículo 9 de este real decreto cesarán a los dos años de la constitución del Consejo Superior de Enseñanzas Artísticas.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición adicional tercera. Relación con otros órganos de coordinación y participación.</p>
+          <p class="parrafo">1. La ordenación de las enseñanzas artísticas superiores garantizará la coordinación de las funciones del Consejo Superior de Enseñanzas Artísticas con las propias del Consejo de Coordinación Universitaria, para la aplicación de las previsiones contenidas en el artículo 46.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</p>
+          <p class="parrafo">2. Las funciones del Consejo Superior de Enseñanzas Artísticas se entenderán sin perjuicio de las propias del Consejo Escolar del Estado en materia de enseñanzas no universitarias, salvo en lo relativo a las enseñanzas artísticas superiores habida cuenta de la equiparación de las titulaciones respectivas con las universitarias en los artículos 54, 55, 56 y 57 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y la excepcionalidad que para la ordenación de las enseñanzas artísticas superiores y para los centros que las impartan establecen sus artículos 46.2, 107.3 y 118.6.</p>
+        </version>
+      </bloque>
+      <bloque id="da-4" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición adicional cuarta. Recursos del Consejo.</p>
+          <p class="parrafo">El funcionamiento del Consejo no supondrá incremento alguno de gasto público, salvo los correspondientes a dietas y desplazamientos de los consejeros, y será atendido con los medios propios del Ministerio de Educación y Ciencia.</p>
+        </version>
+      </bloque>
+      <bloque id="da-5" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición adicional quinta. Cuestiones de representatividad.</p>
+          <p class="parrafo">Las cuestiones que puedan plantearse sobre la designación de consejeros, por razones de representatividad, se resolverán por el Ministerio de Educación y Ciencia, hasta la fecha de constitución del Consejo, y por el presidente del mismo con posterioridad a su constitución.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición final primera. Reglamento de funcionamiento.</p>
+          <p class="parrafo">En el plazo de un año a partir de la entrada en vigor de este real decreto, el Consejo Superior de Enseñanzas Artísticas elaborará su propio Reglamento de funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">Este real decreto entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2007-7115" fecha_publicacion="20070404" fecha_vigencia="20070405">
+          <p class="parrafo_2">Dado en Madrid, el 16 de marzo de 2007.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Ministra de Educación y Ciencia,</p>
+          <p class="firma_ministro">MERCEDES CABRERA CALVO-SOTELO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

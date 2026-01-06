@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T120301Z</fecha_actualizacion>
+      <identificador>BOE-A-2009-504</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4110">Ministerio de Cultura</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20081212</fecha_disposicion>
+      <numero_oficial>2063/2008</numero_oficial>
+      <titulo>Real Decreto 2063/2008, de 12 de diciembre, por el que se desarrolla la Ley 10/2007, de 22 de junio, de la Lectura, del Libro y de las Bibliotecas en lo relativo al ISBN.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20090112</fecha_publicacion>
+      <diario_numero>10</diario_numero>
+      <fecha_vigencia>20090113</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2008/12/12/2063</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2009-504</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4790">Libros</materia>
+        <materia codigo="4967">Ministerio de Cultura</materia>
+        <materia codigo="5159">Normalización</materia>
+        <materia codigo="117">Número Internacional Normalizado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1987-8061</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Orden de 25 de marzo de 1987</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1972-1582</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>arts. 1, 2, 3, 4.1, 5 y 8 del Decreto 2984/1972, de 2 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-12351</id_norma>
+            <relacion codigo="490">DESARROLLA</relacion>
+            <texto>la Ley 10/2007, de 22 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-504</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-12-12</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2063</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/117"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4790"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-504</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-12-12</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2063</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/117"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4790"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/con/20090112"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2063/2008, de 12 de diciembre, por el que se desarrolla la Ley 10/2007, de 22 de junio, de la Lectura, del Libro y de las Bibliotecas en lo relativo al ISBN.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-12</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 2063/2008, de 12 de desembre, pel qual es desplega la Llei 10/2007, de 22 de juny, de la lectura, del llibre i de les biblioteques, pel que fa a l'ISBN.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-12</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 2063/2008, do 12 de decembro, polo que se desenvolve a Lei 10/2007, do 22 de xuño, da lectura, do libro e das bibliotecas no relativo ao ISBN.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-12</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/con/20090112">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-504</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-12-12</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2063</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/117"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4790"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/con/20090112/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2063/2008, de 12 de diciembre, por el que se desarrolla la Ley 10/2007, de 22 de junio, de la Lectura, del Libro y de las Bibliotecas en lo relativo al ISBN.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/con/20090112"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/12/12/2063/con/20090112/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/12/12/2063/con/20090112/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="parrafo">El International Standard Book Number o ISBN, es un número creado para dotar a cada libro, entendido como título monográfico, de un código numérico que lo identifique. Este sistema, utilizado para la práctica totalidad de las ediciones de libros, se ha convertido en un instrumento de identificación para cualquier libro, que permite el uso de herramientas informáticas para su localización y que facilita, por tanto, su circulación en el mercado editorial. El ISBN además de un código numérico adscrito a cada libro es un instrumento de localización y difusión del mismo como soporte cultural.</p>
+          <p class="parrafo">El sistema internacional de numeración de libros es un mecanismo de identificación normalizado, cuyas reglas son elaboradas por la Agencia Internacional del ISBN, que es la entidad de naturaleza jurídico-privada responsable de la aplicación mundial del International Standard Book Number, Estándar ISO 2108, y que se conforma como una Sociedad limitada de garantía sin ánimo de lucro, con domicilio en el Reino Unido.</p>
+          <p class="parrafo">Estas reglas están recogidas tanto en los contratos de ISBN, que la Agencia Internacional suscribe con cada una de las Agencias Locales (denominadas como Agencias nacionales o Agencias de Registro), ámbito donde se recogen las obligaciones de éstas y se las habilita para prestar este servicio, como en los manuales de usuario del ISBN, que periódicamente edita la Agencia Internacional, donde se fijan «las disposiciones generales del texto de la norma ISO 2108 vigente en forma de directrices concretas».</p>
+          <p class="parrafo">En nuestro ordenamiento jurídico, la gestión del ISBN, desde el inicio de su implantación, ha sido ejercida por las administraciones públicas, correspondiendo en la actualidad a la Dirección General del Libro, Archivos y Bibliotecas del Ministerio de Cultura.</p>
+          <p class="parrafo">El artículo 8 de la nueva Ley 10/2007, de 22 de junio, de la Lectura, del Libro y de las Bibliotecas, dictado con base en los artículos 149.1.10.ª y 149.2 de la Constitución, define el número ISBN y encomienda al Ministerio de Cultura el desarrollo del sistema ISBN. Esta responsabilidad deviene de la aplicación de las recomendaciones internacionales aprobadas por la Agencia Internacional del ISBN y de acuerdo con los requisitos que reglamentariamente se establezcan. Todo ello salvaguardando la competencia que en esta materia reserven a los gobiernos autonómicos sus respectivos estatutos, tal y como se dispone expresamente en el apartado cuarto del artículo 8 de la ley.</p>
+          <p class="parrafo">Este real decreto, pues, desarrolla las previsiones de dicha Ley, trasladando a nuestro ordenamiento jurídico la normativa internacional, tal y como se refleja en la norma UNE-ISO 2108. Al mismo tiempo sustituye y deroga las previsiones sobre el ISBN contenidas en el Decreto 2984/1972, de 2 de noviembre, por el que se establece la obligación de consignar en toda clase de libros y folletos el número ISBN y en la Orden de 25 de marzo de 1987 por la que se regula la Agencia Española del ISBN, normativa aprobada hace décadas y que se encuentra desactualizada. Esta necesaria puesta al día es demandada no sólo por las últimas recomendaciones emanadas de la Agencia Internacional, sino también por el nuevo concepto de libro que se recoge en la Ley 10/2007. Por otra parte, la presente norma se adecua a las competencias asumidas en la materia por las comunidades autónomas.</p>
+          <p class="parrafo">El real decreto, además de trasladar a sus anexos las instrucciones de la Agencia Internacional y de la norma UNE-ISO 2108, habilita al Ministro de Cultura para actualizar los mismos si así lo requiere la evolución de la normativa internacional.</p>
+          <p class="parrafo">Por otra parte, la disposición adicional única recoge la posibilidad de que el sector editorial participe en la gestión del sistema del ISBN mediante los oportunos mecanismos de colaboración, teniendo en cuenta que, según los contratos internacionales de ISBN los editores son, junto con la Agencia Internacional y las Agencias locales o de registro, uno de los tres niveles que participan en la implantación del sistema internacional.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Cultura, con la aprobación previa de la Ministra de Administraciones Publicas, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 12 de diciembre de 2008,</p>
+          <p class="capitulo_num">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo">1. El presente real decreto tiene por objeto el desarrollo del sistema del ISBN en nuestro país, teniendo en cuenta las recomendaciones y orientaciones internacionales aprobadas por la Agencia Internacional del ISBN.</p>
+          <p class="parrafo">2. El International Standard Book Number, número ISBN, es el número creado internacionalmente para dotar a cada libro de un código numérico que lo identifique, y que permita coordinar y normalizar la identificación de cualquier libro para localizarlo y facilitar su circulación en el mercado.</p>
+          <p class="parrafo">3. De acuerdo con las recomendaciones y orientaciones internacionales, deben incorporar ISBN aquellas publicaciones que se recogen en el anexo I de este real decreto; asimismo en el citado anexo figuran las publicaciones exentas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Artículo 2. Funciones relativas a la gestión del ISBN.</p>
+          <p class="parrafo">1. Corresponde al Ministerio de Cultura la gestión del ISBN, sin perjuicio de las competencias de las Comunidades Autónomas.</p>
+          <p class="parrafo">2. Son funciones de gestión del ISBN las siguientes:</p>
+          <p class="parrafo_2">a) La administración del cupo de prefijos ISBN otorgado por la Agencia Internacional del ISBN.</p>
+          <p class="parrafo">b) La asignación de un ISBN o un prefijo editorial del ISBN al registrador de la publicación monográfica correspondiente o a la editorial, así como la preasignación de un ISBN de prefijo editorial colectivo al autor-editor o editor no profesional.</p>
+          <p class="parrafo">c) La recepción, comprobación y validación de las solicitudes de los números ISBN por empresas editoriales, sin perjuicio de las funciones de gestión del ISBN que han sido o que pueden ser asumidas por las comunidades autónomas.</p>
+          <p class="parrafo">d) La catalogación de los documentos a partir de las solicitudes de ISBN, sin perjuicio de las funciones de gestión del ISBN que han sido o puedan ser asumidas por las comunidades autónomas.</p>
+          <p class="parrafo">e) El diseño y control de los formularios del ISBN, sin perjuicio de las funciones de gestión del ISBN que han sido o puedan ser asumidas por las comunidades autónomas.</p>
+          <p class="parrafo">f) La elaboración y el mantenimiento de estadísticas sobre las operaciones relativas al ISBN que se lleven a cabo, así como la presentación de los correspondientes informes a la Agencia Internacional del ISBN.</p>
+          <p class="parrafo">g) El mantenimiento de las bases de datos del ISBN.</p>
+          <p class="parrafo">h) La puesta a disposición de los usuarios de un sistema de consultas que permita la difusión y comercialización de los libros editados en España y una más adecuada prestación de servicios a los diversos agentes del sector del libro.</p>
+          <p class="parrafo">i) La información y el asesoramiento a los editores e interesados en el uso del sistema ISBN, sin perjuicio de las funciones de gestión del ISBN que han sido o puedan ser asumidas por las comunidades autónomas.</p>
+          <p class="parrafo">j) Cualquier otra función necesaria para el adecuado desarrollo de la gestión del ISBN.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Artículo 3. Relación con la Agencia internacional del ISBN.</p>
+          <p class="parrafo">El Ministerio de Cultura mantendrá relaciones de coordinación e interlocución con la Agencia Internacional del ISBN, a fin de coordinar la aplicación del sistema de numeración de libros ISBN.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Artículo 4. Estructura e indicación del ISBN.</p>
+          <p class="parrafo">1. El código ISBN tiene la estructura que marquen las orientaciones y recomendaciones aprobadas internacionalmente.</p>
+          <p class="parrafo">2. El ISBN debe aparecer siempre en la publicación de que se trate, de modo visible e inequívocamente reconocible, de acuerdo con las especificaciones que figuran en el anexo II de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Artículo 5. Efectos de la asignación del ISBN.</p>
+          <p class="parrafo">La asignación del ISBN tiene valor identificativo a los solos efectos de difusión y comercialización, sin que dicha asignación comporte elemento alguno de valoración de la obra registrada, ni acredite la publicación efectiva de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Disposición adicional única. Mecanismos de colaboración.</p>
+          <p class="parrafo">Para el ejercicio de las funciones previstas en el artículo 2, el Ministerio de Cultura podrá establecer mecanismos de colaboración con aquellas asociaciones o federación de asociaciones de ámbito estatal en el sector editorial, sin perjuicio de las competencias de las comunidades autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Se derogan las siguientes normas:</p>
+          <p class="parrafo_2">a) Los artículos 1, 2, 3, 4.1, 5, 8, del Decreto 2984/1972, de 2 de noviembre, por el que se establece la obligación de consignar en toda clase de libros y folletos el número ISBN, en aquellos aspectos relativos al ISBN.</p>
+          <p class="parrafo">b) Orden de 25 de marzo de 1987 por la que se regula la Agencia Española del ISBN (Sistema Internacional de Numeración de Libros).</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución, que dispone que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial, y además por el artículo 149.1.10 de la Constitución, que atribuye al Estado la competencia exclusiva en materia de comercio exterior.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Disposición final segunda. Habilitación normativa.</p>
+          <p class="parrafo">Se habilita al Ministro de Cultura, sin perjuicio de las competencias de las comunidades autónomas, a la adopción de cuantas disposiciones resulten necesarias para el desarrollo y ejecución de este real decreto, así como para la modificación de los anexos para su adaptación a las recomendaciones y orientaciones aprobadas internacionalmente.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="parrafo_2">Dado en Madrid, el 12 de diciembre de 2008.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Cultura,</p>
+          <p class="firma_ministro">CÉSAR ANTONIO MOLINA SÁNCHEZ</p>
+        </version>
+      </bloque>
+      <bloque id="ani" tipo="encabezado" titulo="ANEXO I">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="titulo">ANEXO I</p>
+          <p class="parrafo_2">a) Publicaciones monográficas que deben utilizar código ISBN:</p>
+          <p class="parrafo_2">Obras monográficas impresas.</p>
+          <p class="parrafo">Publicaciones en Braille, o sus equivalentes en nuevas tecnologías.</p>
+          <p class="parrafo">Publicaciones que la editorial no tenga previsto actualizar regularmente ni continuar indefinidamente.</p>
+          <p class="parrafo">Separatas de artículos o números monográficos de una publicación seriada concreta.</p>
+          <p class="parrafo">Películas, vídeos y transparencias educativos o didácticos siempre que sean recursos didácticos de materias que se impartan en la enseñanza reglada, se indicará la materia y el curso al que va dirigida la publicación.</p>
+          <p class="parrafo">Audiolibros ya estén en soporte físico (casete, CD, DVD, etc.) o por Internet.</p>
+          <p class="parrafo">Publicaciones monográficas electrónicas, ya estén en soporte físico (como cintas legibles por máquina, disquetes o CD-ROM) o en Internet.</p>
+          <p class="parrafo">Copias digitales de publicaciones monográficas impresas.</p>
+          <p class="parrafo">Publicaciones multimedia cuyo componente principal sea el texto.</p>
+          <p class="parrafo">Publicaciones en microformas.</p>
+          <p class="parrafo">Programas informáticos educativos o didácticos que han sido diseñados con propósitos educativos o de capacitación como tutoriales para el aprendizaje.</p>
+          <p class="parrafo">Mapas.</p>
+          <p class="parrafo_2">b) Publicaciones que no deben utilizar el código ISBN:</p>
+          <p class="parrafo_2">Publicaciones seriadas. Son publicaciones que se editan en partes sucesivas y destinadas en principio a continuar indefinidamente. Normalmente tales publicaciones se editan en partes sucesivas o integradas y suelen designarse numérica o cronológicamente. Ejemplo de ellas son periódicos, publicaciones periódicas, diarios, revistas, etc.,su código de identificación es el ISSN.</p>
+          <p class="parrafo">Recursos continuados. Son publicaciones que se pone en circulación a lo largo del tiempo sin una fecha de finalización predeterminada normalmente difundida en ejemplares sucesivos o integrados tales como publicaciones de hojas sueltas, soportes electrónicos sucesivos y sustitutivos y sitios web que se actualizan de forma continua, pueden utilizar como código de identificación el ISSN.</p>
+          <p class="parrafo">Obras textuales en abstracto.</p>
+          <p class="parrafo">Material impreso, o en otros soportes, de carácter temporal, como catálogos de librerías y editoriales, catálogos comerciales y publicitarios, folletos turísticos, cancioneros, folletos y programas deportivos, cinematográficos, escolares, políticos, teatrales, actos culturales, de fiesta, conmemorativos, de conciertos,, etc. listas de precios y todo material publicitario o propagandístico.</p>
+          <p class="parrafo">Partituras –su código de identificación comercial es el ISMN–.</p>
+          <p class="parrafo">Impresiones artísticas y folletos artísticos sin portada ni texto.</p>
+          <p class="parrafo">Documentos personales (por ejemplo, currículum vitae o un perfil personal en formato electrónico).</p>
+          <p class="parrafo">Tarjetas de felicitación.</p>
+          <p class="parrafo">Grabaciones de sonidos musicales, su código es el ISRC.</p>
+          <p class="parrafo">Programas informáticos que no tengan fines educativos ni didácticos.</p>
+          <p class="parrafo">Tablones de anuncios electrónicos (blogs, tablones de noticias por Internet, salones de chat, etc.).</p>
+          <p class="parrafo">Correos electrónicos y demás correspondencia electrónica.</p>
+          <p class="parrafo">Juegos.</p>
+          <p class="parrafo">Almanaques, agendas y calendarios.</p>
+          <p class="parrafo">Libros, folletos y cuadernos con las hojas en blanco.</p>
+          <p class="parrafo">Álbumes de cromos, de fotos, de ceremonias sociales, de sellos, de monedas y billetes, etc.,</p>
+          <p class="parrafo">Directorios telefónicos.</p>
+          <p class="parrafo">Guiones de cine, radio y televisión salvo que se publiquen comercialmente.</p>
+          <p class="parrafo">Libros de colorear y de pegatinas.</p>
+          <p class="parrafo">Manuales de usuario de materiales no librarios y publicaciones que acompañan a periódicos y revistas.</p>
+          <p class="parrafo">Materiales anejos a una obra monográfica que no tengan valor comercial por separado, y no se vendan por separado. No utilizarán un ISBN propio pero pueden indicar el ISBN de la obra monográfica que acompañan.</p>
+          <p class="parrafo">Materiales docentes de uso interno en centros de enseñanza.</p>
+          <p class="parrafo">Memorias, estatutos y materiales de régimen interno de empresas, instituciones o asociaciones.</p>
+          <p class="parrafo">Obras impresas en multicopistas.</p>
+          <p class="parrafo">Pasatiempos (crucigramas, sopas de letras, sudokus, kakuros, nurikabes, etc.)</p>
+          <p class="parrafo">Publicaciones gratuitas.</p>
+          <p class="parrafo">Publicaciones de disponibilidad limitada y recursos actualizables como por ejemplo, las publicaciones que se imprimen bajo demanda con un contenido adaptado a las peticiones del usuario.</p>
+          <p class="parrafo">Productos audiovisuales, tales como películas cinematográficas, documentales, publicitarias, de dibujos animados, etc., su código de identificación es el ISAN.</p>
+        </version>
+      </bloque>
+      <bloque id="anii" tipo="encabezado" titulo="ANEXO II">
+        <version id_norma="BOE-A-2009-504" fecha_publicacion="20090112" fecha_vigencia="20090113">
+          <p class="titulo_num">ANEXO II</p>
+          <p class="titulo_tit">Indicación del ISBN (norma UNE-ISO 2108)</p>
+          <p class="parrafo">En el caso de publicaciones impresas el ISBN aparecerá impreso en el reverso de la portada de la publicación o, si esto no es posible, al pie de la misma portada o junto con los créditos de la publicación y al pie de la contraportada siempre que sea factible, y/o al pie de la sobrecubierta. En el caso de que ninguna de estas dos posiciones sea posible, el ISBN se imprimirá en algún otro lugar destacado de la parte exterior de la publicación.</p>
+          <p class="parrafo">El ISBN se representará en la publicación en forma legible por máquina como un código de barras. Cuando un ISBN se represente como un código de barras se usará la simbología del código de barras EAN, de acuerdo con la ISO/IEC 15420. En un código de barras, el ISBN deberá presentarse en forma legible por el ojo humano justamente encima del símbolo del código de barras.</p>
+          <p class="parrafo">En publicaciones electrónicas y otras formas de productos no impresos, si la publicación supone una presentación visual del contenido almacenado de forma electrónica (por ejemplo, una publicación en línea), el ISBN aparecerá en la página o en la pantalla que muestre el título o su equivalente (por ejemplo, en la pantalla inicial que aparece inmediatamente cuando se accede al contenido y/o en la pantalla en la que aparecen los créditos).</p>
+          <p class="parrafo">Si la publicación se difunde como objeto físico (por ejemplo, un disco compacto, un casete o disquete), el ISBN aparecerá en cualquiera de las etiquetas que estén pegadas de forma permanente a dicho objeto.</p>
+          <p class="parrafo">En el caso de que no sea posible mostrar el ISBN en el objeto o en su etiqueta, el ISBN se mostrará en la parte de abajo del dorso del embalaje permanente de dicho objeto (por ejemplo, en la caja, funda o el embalaje).</p>
+          <p class="parrafo">El ISBN deberá incluirse en cualquiera de los metadatos incorporados en la publicación, además de aparecer visiblemente colocados en el texto.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

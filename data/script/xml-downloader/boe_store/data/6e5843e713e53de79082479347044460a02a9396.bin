@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T213532Z</fecha_actualizacion>
+      <identificador>BOE-A-2006-12309</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20060707</fecha_disposicion>
+      <numero_oficial>24/2006</numero_oficial>
+      <titulo>Ley 24/2006, de 7 de julio, sobre declaración del año 2006 como Año de la Memoria Histórica.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20060708</fecha_publicacion>
+      <diario_numero>162</diario_numero>
+      <fecha_vigencia>20060709</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/2006/07/07/24</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2006-12309</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1373">Conmemoraciones</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2004-16360</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1891/2004, de 10 de septiembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-12309</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-07</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1373"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-12309</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1373"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/con/20060708"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 24/2006, de 7 de julio, sobre declaración del año 2006 como Año de la Memoria Histórica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI 24/2006, de 7 de juliol, sobre declaració de l'any 2006 com a Any de la Memòria Històrica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEI 24/2006, do 7 de xullo, sobre declaración do ano 2006 como Ano da Memoria Histórica. («BOE» 162, do 8-7-2006.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-21</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/vci">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/vci"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI 24/2006, de 7 de juliol, sobre declaració de l'any 2006 com a Any de la Memòria Històrica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/dof/vci/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof/vci"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/con/20060708">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-12309</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1373"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/con/20060708/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 24/2006, de 7 de julio, sobre declaración del año 2006 como Año de la Memoria Histórica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/con/20060708"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/2006/07/07/24/con/20060708/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/2006/07/07/24/con/20060708/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">Este año 2006 se cumple el 75.º aniversario de la proclamación de la Segunda República Española y el 70.º del comienzo de la guerra civil. El Acuerdo aprobado por unanimidad en la Comisión Constitucional del Congreso de los Diputados el 20 de noviembre de 2002, subrayó el papel de la Constitución Española como instrumento de concordia y convivencia para el futuro.</p>
+          <p class="parrafo">La experiencia de más de 25 años de ejercicio democrático permite hoy abordar, de forma madura y abierta, la relación con nuestra memoria histórica, teniendo en cuenta que recuperar dicha memoria es la forma más firme de asentar nuestro futuro de convivencia. Hoy resulta así oportuno recordar y honrar a quienes se esforzaron por conseguir un régimen democrático en España, a quienes sufrieron las consecuencias del conflicto civil y a los que lucharon contra la dictadura en defensa de las libertades y derechos fundamentales de los que hoy disfrutamos.</p>
+          <p class="parrafo">En el tiempo transcurrido desde la recuperación de las libertades, tras cuarenta años, se han dictado numerosas disposiciones, tanto por el Estado como por las Comunidades Autónomas, dirigidas a reparar, en la medida de lo posible, a quienes padecieron persecución durante el régimen franquista y a proporcionarles recursos o compensarles por lo que perdieron. En este sentido, durante esta Legislatura se ha aprobado la Ley por la que se reconoce una prestación económica a los ciudadanos de origen español desplazados al extranjero, durante su minoría de edad, como consecuencia de la guerra civil, y que desarrollaron la mayor parte de su vida fuera del territorio nacional. También se ha aprobado la orden ministerial 3945/2005, de 16 de diciembre, por la que se establecen subvenciones a actividades relacionadas con las víctimas de la guerra civil y del franquismo.</p>
+          <p class="parrafo">Para completar esta tarea, las Cortes Generales han abordado también el reconocimiento de las víctimas de la guerra civil y del franquismo. Un reconocimiento que ha sido demandado por el Congreso de los Diputados en numerosas ocasiones, desde la restauración democrática, así como, con diversos grados de concreción, en varias resoluciones, aprobadas por el Pleno de la Cámara durante la presente Legislatura. En efecto en los últimos meses, las Cortes han aprobado el reconocimiento de determinadas figuras políticas relevantes de la Segunda República (Lluís Companys, Manuel Carrasco y Formiguera, Alexandre Bóveda), y este proceso de reparación pronto se verá culminado con la aprobación de un Proyecto de Ley para la recuperación de la memoria histórica a instancia de la resolución aprobada por el Congreso de los Diputados de 8 de junio de 2004.</p>
+          <p class="parrafo">En el 75.º aniversario de su proclamación, esta ley pretende recordar también el legado histórico de la Segunda República Española. Aquella etapa de nuestra historia constituyó el antecedente más inmediato y la más importante experiencia democrática que podemos contemplar al mirar nuestro pasado y, desde esa perspectiva, es necesario recordar, con todos sus defectos y virtudes -con toda su complejidad y su trágico desenlace-, buena parte de los valores y principios políticos y sociales que presidieron ese período y que se han hecho realidad en nuestro actual Estado social y democrático de Derecho, pero, sobre todo, a las personas, a los hombres y mujeres que defendieron esos valores y esos principios.</p>
+          <p class="parrafo">El esfuerzo de todos ellos culminó en la Constitución Española de 1978, como instrumento de concordia y convivencia para el futuro, y que nos ha llevado a disfrutar del período democrático más estable de la historia de nuestro país.</p>
+          <p class="parrafo">Por todo ello, la presente ley declara el año 2006 como Año de la Memoria Histórica en orden a reconocer y homenajear a todos los que de una u otra forma se esforzaron para conseguir un régimen democrático, dedicando su vida o sufriendo persecución por este motivo, y a comprometer a los poderes públicos en la promoción de actos conmemorativos de esta efeméride.</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="articulo">Artículo único.</p>
+          <p class="parrafo">1. Con motivo del 75.º aniversario de la proclamación de la Segunda República en España, se declara el año 2006 como Año de la Memoria Histórica, en homenaje y reconocimiento de todos los hombres y mujeres que fueron víctimas de la guerra civil, o posteriormente de la represión de la dictadura franquista, por su defensa de los principios y valores democráticos, así como de quienes, con su esfuerzo a favor de los derechos fundamentales, de la defensa de las libertades públicas y de la reconciliación entre los españoles, hicieron posible el régimen democrático instaurado con la Constitución de 1978.</p>
+          <p class="parrafo">2. Los poderes públicos promoverán y apoyarán la celebración de actos conmemorativos que estimulen la reflexión sobre aquellos hechos y el recuerdo y reconocimiento de la labor de aquellas personas, asociaciones e instituciones.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">El Gobierno, en el plazo de un mes desde la aprobación de esta Ley, presentará ante la Comisión Constitucional del Congreso de los Diputados los informes elaborados por la Comisión Interministerial para el estudio de la situación de las víctimas de la guerra civil y el franquismo, constituida por el Real Decreto 1891/2004, de 10 de septiembre.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">El Gobierno, a través de la Fábrica Nacional de Moneda y Timbre, promoverá la emisión de sellos y signos de franqueo conmemorativos, para cuya elaboración se facilitará la participación de la sociedad.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">El Ministerio de Cultura, en colaboración con las Comunidades Autónomas, velará por la edición e incorporación a las bibliotecas de su competencia de libros y videos pedagógicos sobre la recuperación de la memoria histórica de la Segunda República, la represión de la dictadura franquista y la lucha por las libertades. Se garantizará la promoción de materiales realizados en todas las lenguas oficiales del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo">Esta Ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2006-12309" fecha_publicacion="20060708" fecha_vigencia="20060709">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley.</p>
+          <p class="parrafo_2">Madrid, 7 de julio de 2006.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ LUIS RODRÍGUEZ ZAPATERO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

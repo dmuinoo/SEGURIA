@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T183947Z</fecha_actualizacion>
+      <identificador>BOE-A-2000-7644</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20000414</fecha_disposicion>
+      <numero_oficial>509/2000</numero_oficial>
+      <titulo>Real Decreto 509/2000, de 14 de abril, por el que se crea el Observatorio de Precios de los Alimentos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20000425</fecha_publicacion>
+      <diario_numero>99</diario_numero>
+      <fecha_vigencia>20000426</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20140103</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2000/04/14/509</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2000-7644</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4960">Ministerio de Agricultura Pesca y Alimentación</materia>
+        <materia codigo="5189">Observatorio de Precios de los Alimentos</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="6751">Subsecretaría del Ministerio de Agricultura Pesca y Alimentación</materia>
+      </materias>
+      <referencias>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2013-8554</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, con efectos desde el 3 de enero de 2014, por Ley 12/2013, de 2 de agosto</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-12191</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 155, de 29 de junio de 2000</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-7644</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-14</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">509</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5189"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6751"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-7644</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">509</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5189"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6751"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/corrigendum/20000629/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20130803"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20000425"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 509/2000, de 14 de abril, por el que se crea el Observatorio de Precios de los Alimentos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-25</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20130803">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-7644</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">509</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5189"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6751"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20130803/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 509/2000, de 14 de abril, por el que se crea el Observatorio de Precios de los Alimentos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20130803"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20130803/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20130803/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20000425">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-7644</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">509</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5189"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6751"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-25</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20000425/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 509/2000, de 14 de abril, por el que se crea el Observatorio de Precios de los Alimentos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20000425"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20000425/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2000/04/14/509/con/20000425/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2013-8554" fecha_publicacion="20130803" fecha_vigencia="20140103">
+          <p class="siempreSeVe">Norma derogada por la disposición derogatoria única de la Ley 12/2013, de 2 de agosto. <a class="refPost">Ref. BOE-A-2013-8554</a>.</p>
+        </version>
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 155, de 29 de junio de 2000. <a class="refPost">Ref. BOE-A-2000-12191</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="parrafo">La equiparación de las rentas de la agricultura, la ganadería y la pesca con las de los demás sectores de actividad económica es un mandato constitucional y un principio inspirador del marco normativo de la Unión Europea.</p>
+          <p class="parrafo">Entre los componentes básicos, que contribuyen a la estabilidad de las rentas en este sector primario, están los precios en origen de los productos agrarios y pesqueros, por lo que es deseable que no se produzcan fuertes oscilaciones que distorsionen la relación oferta-demanda, lo cual perjudica seriamente tanto a productores como a consumidores. Es necesario, por tanto, avanzar en el conocimiento de las circunstancias explicativas de la evolución de la formación de los precios de los alimentos en origen y destino.</p>
+          <p class="parrafo">Los precios en origen y destino de los alimentos configuran, en gran medida, las rentas de los agricultores, ganaderos y pescadores; la capacidad adquisitiva de los consumidores, y la normalización de muchos indicadores de la economía nacional. Por tanto, la estabilidad, dentro de límites razonables, de estos precios es un objetivo deseable, a cuyo logro pretende contribuir la creación del Observatorio de Precios de los Alimentos, concebido como un instrumento eficaz para el análisis de la estructura básica de la formación de los precios de los alimentos en sus distintos escalones, desde origen a destino.</p>
+          <p class="parrafo">Reviste singular importancia este análisis en lo que hace referencia a los productos estacionales que histórica y cíclicamente han venido provocando distorsiones en los precios, acompañadas, a veces, de desequilibrios entre las cotizaciones de origen y destino. En este sentido, conviene evitar la posibilidad de que importantes descensos coyunturales de los precios en origen pagados a los productores no repercutan adecuadamente en los mercados de destino en beneficio de los consumidores.</p>
+          <p class="parrafo">El Observatorio responde, así, a la necesidad de favorecer la transparencia y racionalidad en el proceso de formación de los precios de los alimentos, en beneficio de productores y consumidores, constituyéndose en órgano de consulta e intercomunicación entre la Administración y los representantes de los sectores implicados, para el estudio y seguimiento de los factores estructurales y coyunturales explicativos de la situación y evolución de los mercados, de origen y destino, y de los márgenes comerciales de los distintos agentes económicos intervinientes en la formación de los precios.</p>
+          <p class="parrafo">En la composición del Observatorio, están presentes representantes de la Administración General del Estado, de las Administraciones Autonómicas, de la Administración Local, y de la «Empresa Nacional Mercados Centrales de Abastecimiento, Sociedad Anónima» (MERCASA), así como de los productores, distribuidores y consumidores de los alimentos, a través de las organizaciones oficialmente reconocidas que se relacionan en la presente disposición.</p>
+          <p class="parrafo">Para la mejor realización de su cometido, el Observatorio podrá recabar el asesoramiento de los expertos, empresas e instituciones públicas o privadas, cuya contribución pueda resultar valiosa, por su experiencia profesional y conocimientos en esta materia, así como con la asistencia específica que, en su caso, pudieran prestarle las distintas Administraciones públicas. Especialmente se considera la conexión institucional con otros órganos de naturaleza similar y, singularmente, con el Observatorio de la Distribución Comercial, adscrito a la Secretaría de Estado de Comercio, Turismo y de la Pequeña y Mediana Empresa, del Ministerio de Economía y Hacienda.</p>
+          <p class="parrafo">En su virtud, consultadas las Comunidades Autónomas y los sectores afectados, previa aprobación del Ministro de Administraciones Públicas, a propuesta de los Ministros de Agricultura, Pesca y Alimentación y de Economía y Hacienda y previa deliberación del Consejo de Ministros en su reunión del día 14 de abril de 2000,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">El presente Real Decreto tiene por objeto la creación del Observatorio de Precios de los Alimentos, como órgano colegiado, adscrito al Ministerio de Agricultura, Pesca y Alimentación a través de la Subsecretaría del Departamento, con funciones de consulta, asesoramiento, información y estudio en materia de precios de los alimentos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo">Son funciones del Observatorio de Precios de los Alimentos las siguientes:</p>
+          <p class="parrafo_2">1) Analizar la estructura básica de los precios y los factores causantes de su evolución, en los alimentos de mayor importancia relativa en la producción y el consumo, en los distintos escalones de su formación.</p>
+          <p class="parrafo">2) Realizar informes y estudios explicativos, en su caso, de las situaciones de desequilibrio producidas en los mercados de origen y destino de los alimentos considerados, analizando especialmente los diversos factores que contribuyen a la formación de los precios de los productos estacionales.</p>
+          <p class="parrafo">3) Realizar estudios de carácter regular, encaminados a establecer un seguimiento sistemático de la formación de los precios finales de los alimentos.</p>
+          <p class="parrafo">4) Favorecer el diálogo y la intercomunicación entre las representaciones del sector productivo, la distribución comercial y los consumidores, entre sí y con las Administraciones públicas, en orden a dotar de la mayor racionalidad y transparencia posibles el proceso de formación de precios de los alimentos, compatible con el marco de la economía de mercado, en un sistema de apertura a la competencia, en beneficio de la sociedad en su conjunto.</p>
+          <p class="parrafo">5) Elaborar propuestas de actuación de las Administraciones competentes y recomendaciones a los diversos agentes económicos intervinientes, empresas e instituciones públicas o privadas tendentes a mantener la necesaria estabilidad en un marco de desarrollo abierto a la competencia y equilibrio en los precios de los alimentos, compatible con el derecho comunitario.</p>
+          <p class="parrafo">6) Elaborar los informes sobre precios de los alimentos que le sean demandados por los Ministros de Agricultura, Pesca y Alimentación y de Economía y Hacienda.</p>
+          <p class="parrafo">7) Elaborar un informe anual que recoja las principales actuaciones del Observatorio durante el año.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Artículo 3. Composición.</p>
+          <p class="parrafo">1. El Pleno del Observatorio de Precios de los Alimentos estará integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">A) Presidente: el Subsecretario del Ministerio de Agricultura, Pesca y Alimentación, cuyo voto tendrá carácter dirimente.</p>
+          <p class="parrafo">B) Vicepresidente: el Director general de Comercio Interior de la Secretaría de Estado de Comercio, Turismo y de la Pequeña y Mediana Empresa, que sustituirá, en su caso, al Presidente.</p>
+          <p class="parrafo">C) Vocales:</p>
+          <p class="parrafo_2">a) Siete vocales procedentes de la Administración General del Estado: tres del Ministerio de Agricultura, Pesca y Alimentación, tres del Ministerio de Economía y Hacienda y uno del Ministerio de Sanidad y Consumo.</p>
+          <p class="parrafo">b) Siete vocales procedentes de las Comunidades Autónomas.</p>
+          <p class="parrafo">c) Dos vocales procedentes de la Administración Local.</p>
+          <p class="parrafo">d) Un vocal de MERCASA, cargo que recaerá en su Presidente.</p>
+          <p class="parrafo">e) Cuatro vocales, uno por cada una de las siguientes organizaciones: Asociación Agraria de Jóvenes Agricultores (ASAJA); Coordinadora de Organizaciones de Agricultores y Ganaderos (COAG); Confederación de Cooperativas Agrarias de España (CCAE), y Unión de Pequeños Agricultores (UPA).</p>
+          <p class="parrafo">f) Dos vocales procedentes del sector pesquero.</p>
+          <p class="parrafo">g) Dos vocales procedentes del sector de las industrias agroalimentarias.</p>
+          <p class="parrafo">h) Seis vocales procedentes de las asociaciones de consumidores.</p>
+          <p class="parrafo">i) Un vocal procedente de las lonjas agropecuarias.</p>
+          <p class="parrafo">j) Dos vocales procedentes de las grandes empresas de la distribución comercial.</p>
+          <p class="parrafo">k) Seis vocales, dos por cada uno de los tres sectores siguientes: carnes, frutas y hortalizas, y pescados; procedentes, uno de las asociaciones nacionales del comercio mayorista y otro de las asociaciones nacionales del comercio minorista de cada uno de dichos sectores.</p>
+          <p class="parrafo_2">D) Un Secretario, que será nombrado por el Presidente, de entre los funcionarios titulares de un puesto de trabajo en el Ministerio de Agricultura, Pesca y Alimentación, y que tendrá voz, pero no voto, en las deliberaciones del Pleno.</p>
+          <p class="parrafo_2">2. Corresponde al Presidente del Observatorio el nombramiento de los vocales en los siguientes términos:</p>
+          <p class="parrafo_2">a) Los vocales del Ministerio de Economía y Hacienda y de Sanidad y Consumo serán propuestos por dichos Departamentos.</p>
+          <p class="parrafo">b) Los vocales del Ministerio de Agricultura, Pesca y Alimentación serán nombrados directamente por el Presidente.</p>
+          <p class="parrafo">c) Los vocales de las Comunidades Autónomas serán designados en la Conferencia Sectorial de Agricultura y Desarrollo Rural.</p>
+          <p class="parrafo">d) Los vocales de la Administración Local serán propuestos por la Asociación de Entidades Locales de ámbito estatal con mayor implantación.</p>
+          <p class="parrafo">e) Los vocales de las asociaciones de consumidores serán propuestos por el Consejo de Consumidores y Usuarios.</p>
+          <p class="parrafo">f) Los restantes vocales serán propuestos por las respectivas organizaciones de procedencia.</p>
+          <p class="parrafo_2">3. Se crea una Comisión Ejecutiva, adscrita al Observatorio, compuesta por el Presidente, el Vicepresidente, diez representantes elegidos por el Pleno de entre sus miembros y el Secretario del Pleno, que actuará como Secretario de la Comisión.</p>
+          <p class="parrafo">La Comisión Ejecutiva ejercerá las funciones que el Pleno le asigne y todos sus miembros tendrán voz y voto, a excepción del Secretario que sólo tendrá voz.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Artículo 4. Funcionamiento.</p>
+          <p class="parrafo">1. El Pleno del Observatorio de Precios de los Alimentos se reunirá con carácter ordinario, al menos, tres veces a lo largo del año y, con carácter extraordinario, cuando lo convoque el Presidente, a iniciativa propia o a solicitud de, al menos, la tercera parte de sus miembros.</p>
+          <p class="parrafo">Compete al Presidente convocar las reuniones del Pleno del Observatorio con, al menos, diez días de antelación y fijar el orden del día.</p>
+          <p class="parrafo">El plazo de la convocatoria podrá reducirse motivadamente, hasta un mínimo de cuarenta y ocho horas de antelación, a aquélla en que deba iniciarse la sesión correspondiente.</p>
+          <p class="parrafo">La Comisión Ejecutiva se reunirá, al menos, con carácter bimestral.</p>
+          <p class="parrafo">2. El Pleno del Observatorio, directamente o a través de la Comisión Ejecutiva, podrá constituir comisiones o grupos de trabajo para el estudio de temas concretos de interés, relacionados con la finalidad del Observatorio.</p>
+          <p class="parrafo">Podrá acordarse la asistencia de los expertos que se consideren necesarios a los grupos de trabajo.</p>
+          <p class="parrafo">3. El Observatorio mantendrá contactos institucionales, a través de comisiones o grupos de trabajo, de consulta y cooperación, con otros órganos de cometido similar, especialmente con el Observatorio de la Distribución Comercial, adscrito a la Secretaría de Estado de Comercio, Turismo y de la Pequeña y Mediana Empresa del Ministerio de Economía y Hacienda.</p>
+          <p class="parrafo">4. El Observatorio podrá establecer sus propias normas de funcionamiento. En lo no previsto en el presente Real Decreto y en sus normas de funcionamiento, se aplicará lo dispuesto en el capítulo II, Título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el párrafo cuarto del apartado 1 conforme a la corrección de errores publicada en BOE núm. 155, de 29 de junio de 2000. <a class="refPost">Ref. BOE-A-2000-12191</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Artículo 5. Financiación.</p>
+          <p class="parrafo">Los gastos derivados de su funcionamiento y elaboración de estudios no supondrán, en ningún caso, aumento del gasto público y se financiarán con cargo al Presupuesto de Gastos del Ministerio de Agricultura, Pesca y Alimentación.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Disposición adicional única. Plazo para su constitución.</p>
+          <p class="parrafo">El Observatorio se constituirá dentro del plazo máximo de cuarenta y cinco días a contar desde la entrada en vigor de esta disposición.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2000-7644" fecha_publicacion="20000425" fecha_vigencia="20000426">
+          <p class="parrafo_2">Dado en Madrid a 14 de abril de 2000.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Primero del Gobierno y Ministro de la Presidencia,</p>
+          <p class="firma_ministro">FRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

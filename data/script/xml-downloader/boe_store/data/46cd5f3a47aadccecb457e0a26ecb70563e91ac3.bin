@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210527Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-12175</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20050701</fecha_disposicion>
+      <numero_oficial>797/2005</numero_oficial>
+      <titulo>Real Decreto 797/2005, de 1 de julio, por el que se aprueba el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050715</fecha_publicacion>
+      <diario_numero>168</diario_numero>
+      <fecha_vigencia>20050716</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2005/07/01/797</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-12175</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="5664">Prácticos de puerto</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2003-22139</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Orden FOM/3365/2003, de 12 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2002-22189</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Ley 42/2002, de 14 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1974-289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 6.2 de la Ley 2/1974, de 14 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2010-19647</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 16.k, por Real Decreto 1592/2010, de 26 de noviembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2007-10952</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 16, por Real Decreto 639/2007, de 18 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-12175</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">797</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5664"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-12175</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">797</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5664"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20101222"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20070602"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20050715"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 797/2005, de 1 de julio, por el que se aprueba el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20101222">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-12175</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">797</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5664"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-12-22</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20101222/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 797/2005, de 1 de julio, por el que se aprueba el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20101222"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20101222/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20101222/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20070602">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-12175</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">797</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5664"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-02</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20070602/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 797/2005, de 1 de julio, por el que se aprueba el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20070602"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20070602/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20070602/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20050715">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-12175</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">797</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5664"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20050715/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 797/2005, de 1 de julio, por el que se aprueba el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20050715"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20050715/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/07/01/797/con/20050715/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="parrafo">La Ley 42/2002, de 14 de noviembre, de creación del Colegio Oficial Nacional de Prácticos de Puerto, establece en el artículo 2 que la nueva corporación agrupará a todos los profesionales que dispongan del nombramiento de práctico expedido por las autoridades competentes, a los prácticos de número de puerto y prácticos de puerto de España, así como a los prácticos de atraques otorgados en régimen de concesión.</p>
+          <p class="parrafo">La Orden FOM/3365/2003, de 12 de noviembre, aprobó los Estatutos provisionales del Colegio Oficial Nacional de Prácticos de Puerto, que han permitido ordenar el proceso electoral que condujo a la elección de la primera Junta de Gobierno colegial.</p>
+          <p class="parrafo">Con el fin de completar el marco normativo institucional del colegio, de determinar su organización definitiva, sus reglas de funcionamiento y de permitir que la corporación despliegue todas las funciones y cometidos que el ordenamiento jurídico le atribuye, la Asamblea General del colegio ha aprobado el proyecto de Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto que, a través del Ministerio de Fomento, se somete a la aprobación del Gobierno de la Nación.</p>
+          <p class="parrafo">Este real decreto se aprueba de conformidad con lo dispuesto en el artículo 6.2 de la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Fomento, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 1 de julio de 2005,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo único. Aprobación del Estatuto General.</p>
+          <p class="parrafo">Se aprueba el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto, que se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición transitoria única. Mandato de la Junta Provisional de Gobierno.</p>
+          <p class="parrafo">Los miembros de la Junta Provisional de Gobierno del Colegio Oficial Nacional de Prácticos de Puerto permanecerán en sus cargos hasta la expiración de su mandato, momento en el que se convocarán elecciones de conformidad con lo dispuesto en el estatuto que se aprueba.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Orden FOM/3365/2003, de 12 de noviembre, por la que se aprueban los Estatutos provisionales del Colegio Oficial Nacional de Prácticos de Puerto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición final primera. Competencias de las comunidades autónomas.</p>
+          <p class="parrafo">Lo dispuesto en el Estatuto General del Colegio Oficial Nacional de Prácticos de Puerto se entiende sin perjuicio de las competencias que, en materia de colegios profesionales, corresponden a las comunidades autónomas conforme a su legislación propia.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="parrafo_2">Dado en Valencia, el 1 de julio de 2005.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Ministra de Fomento,</p>
+          <p class="firma_ministro">MAGDALENA ÁLVAREZ ARZA</p>
+        </version>
+      </bloque>
+      <bloque id="es" tipo="encabezado" titulo="ESTATUTO">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="anexo">ESTATUTO GENERAL DEL COLEGIO OFICIAL NACIONAL DE PRÁCTICOS DE PUERTO</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 1. Naturaleza y personalidad jurídica.</p>
+          <p class="parrafo">El Colegio Oficial Nacional de Prácticos de Puerto, creado por la Ley 42/2002, de 14 de noviembre, es una corporación de derecho público constituida por los profesionales a él incorporados, amparada por la ley y reconocida por el Estado, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines, de conformidad con la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 2. Ámbito subjetivo.</p>
+          <p class="parrafo">El Colegio Oficial Nacional de Prácticos de Puerto integrará, de conformidad con el artículo 2 de la Ley 42/2002, de 14 de noviembre, a todos los prácticos de puerto, sean los puertos competencia de la Administración General del Estado o de las comunidades autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 3. Ámbito territorial.</p>
+          <p class="parrafo">1. El Colegio Oficial Nacional de Prácticos de Puerto se constituye como colegio único de ámbito nacional.</p>
+          <p class="parrafo">2. La sede central del colegio está en Madrid.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 4. Relación con la Administración General del Estado.</p>
+          <p class="parrafo">El Colegio Oficial Nacional de Prácticos de Puerto se relacionará con la Administración General del Estado a través del Ministerio de Fomento.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 5. Fines esenciales.</p>
+          <p class="parrafo">El Colegio Oficial Nacional de Prácticos de Puerto se constituye para la satisfacción de los siguientes fines esenciales:</p>
+          <p class="parrafo">a) Ordenar, en el ámbito de su competencia, el ejercicio de la profesión en el marco del ordenamiento jurídico español.</p>
+          <p class="parrafo">b) Procurar la observancia de la deontología profesional.</p>
+          <p class="parrafo">c) Representar y defender la profesión y los intereses profesionales de sus colegiados, sin perjuicio de las específicas competencias de los sindicatos en materia de relaciones laborales.</p>
+          <p class="parrafo">d) Realizar las actividades de interés general relacionadas con su profesión que estime oportunas o le encomienden los poderes públicos y colaborar con las Administraciones públicas en la salvaguardia de la seguridad marítima, de la vida humana en el mar y el medio ambiente marino.</p>
+          <p class="parrafo">e) Cualesquiera otros que el ordenamiento jurídico atribuya con carácter general a los colegios profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 6. Incorporación al colegio.</p>
+          <p class="parrafo">De conformidad con lo dispuesto en el artículo 3.2 de la Ley 2/1974, de 13 de febrero, es requisito indispensable para el ejercicio de la profesión de práctico de puerto en territorio español la incorporación y permanencia en el Colegio Oficial Nacional de Prácticos de Puerto.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 1.ª Régimen de la colegiación</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 7. Requisitos de ingreso.</p>
+          <p class="parrafo">1. Para ingresar en el Colegio Oficial Nacional de Prácticos de Puerto deben cumplirse los requisitos siguientes:</p>
+          <p class="parrafo">a) Poseer el título legalmente requerido para el ejercicio en España de la profesión de práctico de puerto.</p>
+          <p class="parrafo">b) Disponer del nombramiento o de la habilitación definitivos, expedidos por las autoridades competentes.</p>
+          <p class="parrafo">c) No hallarse inhabilitado para el ejercicio de la profesión como consecuencia de una resolución judicial penal firme.</p>
+          <p class="parrafo_2">2. La Junta de Gobierno pondrá en conocimiento de las autoridades competentes la situación de todas aquellas personas que reuniendo la aptitud necesaria para pertenecer al colegio ejerzan la profesión sin hallarse incorporadas aún a él.</p>
+          <p class="parrafo">3. El ingreso temporal en el Colegio Oficial se regirá por lo dispuesto en el artículo 11.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 8. Procedimiento de incorporación.</p>
+          <p class="parrafo">1. El ingreso en el Colegio Oficial Nacional de Prácticos de Puerto se solicitará mediante escrito dirigido a la Junta de Gobierno, acompañado de los documentos necesarios que acrediten el cumplimiento de las condiciones de ingreso fijadas en el artículo anterior.</p>
+          <p class="parrafo">2. La titulación se acreditará mediante testimonio auténtico del título; el nombramiento o la habilitación, mediante certificación de la Autoridad Portuaria o, en su caso, del órgano competente de la comunidad autónoma y el requisito al que se refiere el artículo 7.1.c), se acreditará mediante una declaración responsable del interesado. Igualmente se declararán o acreditarán, según proceda, los demás datos que deban constar en el registro del Colegio Oficial Nacional de Prácticos de Puerto.</p>
+          <p class="parrafo">3. La Junta de Gobierno resolverá las solicitudes de colegiación en el plazo máximo de dos meses a contar desde el día siguiente al de su presentación, y podrá denegarlas únicamente cuando no se cumplan los requisitos establecidos en el artículo anterior. La Junta de Gobierno podrá delegar en uno de sus miembros el ejercicio de esta competencia.</p>
+          <p class="parrafo">4. Podrá suspenderse el plazo para resolver, por un término no superior a tres meses, con el fin de subsanar deficiencias de la documentación presentada o de efectuar las comprobaciones pertinentes para verificar su autenticidad y suficiencia. Transcurrido el plazo sin que la Junta de Gobierno se hubiera pronunciado sobre la solicitud, ésta se entenderá estimada.</p>
+          <p class="parrafo">5. La denegación de incorporación al colegio deberá ser motivada y podrá ser impugnada, en el plazo de un mes contado desde el día siguiente al de su notificación, mediante recurso de reposición ante la Junta de Gobierno, o directamente ante el órgano jurisdiccional competente de conformidad con lo dispuesto en la Ley 29/1998, de 13 de julio, reguladora de la jurisdicción contencioso-administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 9. Pérdida de la condición de colegiado.</p>
+          <p class="parrafo">1. Son causas de la pérdida de la condición de colegiado las siguientes:</p>
+          <p class="parrafo">a) La renuncia del colegiado, manifestada por escrito, siempre que vaya seguida del cese, voluntario o legal, en el ejercicio profesional.</p>
+          <p class="parrafo">b) El incumplimiento, debidamente comprobado, de los requisitos de incorporación al colegio.</p>
+          <p class="parrafo">c) El impago de las cuotas colegiales acordadas por la Asamblea General, durante tres devengos consecutivos que abarquen un período mínimo de tiempo de tres meses. La eventual reincorporación quedará condicionada al abono de las cantidades adeudadas con el interés legal correspondiente.</p>
+          <p class="parrafo">d) La expulsión en virtud de la sanción disciplinaria, que se regirá por el procedimiento regulado en el artículo 56.</p>
+          <p class="parrafo_2">2. En los supuestos previstos en los párrafos b) y c) del apartado anterior, la Junta de Gobierno, constatadas las circunstancias determinantes de la eventual baja colegial, las pondrá de manifiesto al interesado y le concederá un trámite de audiencia por un período de 15 días hábiles. Transcurrido dicho plazo, y a la vista de las alegaciones efectuadas, adoptará la correspondiente resolución, en el plazo máximo de un mes.</p>
+          <p class="parrafo">3. La resolución que determine la pérdida de la condición de colegiado podrá ser impugnada en los términos y por los medios previstos en el artículo 8.5 para la denegación de acceso al colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 2.ª Clases de colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 10. Colegiados ejercientes, no ejercientes y honorarios.</p>
+          <p class="parrafo">1. Los miembros del Colegio Oficial Nacional de Prácticos de Puerto tendrán la condición de ejercientes, no ejercientes y honorarios.</p>
+          <p class="parrafo">2. Son miembros ejercientes quienes desempeñan profesionalmente el practicaje y se han incorporado al Colegio Oficial en virtud de lo dispuesto en el artículo 6. El voto de los colegiados ejercientes tendrá valor doble que el de los no ejercientes.</p>
+          <p class="parrafo">3. Son colegiados no ejercientes los prácticos de puerto que no ejerzan la profesión. Las cuotas de los colegiados no ejercientes se minorarán respecto de las de los ejercientes en la cuantía y en los términos que disponga la Asamblea General.</p>
+          <p class="parrafo">4. El colegio podrá nombrar colegiados honorarios a las personas, naturales o jurídicas, españolas o extranjeras, que acrediten méritos o servicios relevantes prestados a favor de la profesión. La propuesta de designación la realizará la Junta de Gobierno y será aprobada por la Asamblea General. Los colegiados de honor no tienen derecho a voto.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 11. Colegiados temporales.</p>
+          <p class="parrafo">1. Deberán solicitar la inscripción en el Colegio Oficial Nacional de Prácticos de Puerto, en calidad de colegiados temporales, quienes hayan sido habilitados temporalmente como prácticos por las autoridades portuarias, de conformidad con el Reglamento general de practicaje, aprobado por el Real Decreto 393/1996, de 1 de marzo.</p>
+          <p class="parrafo">2. Mientras mantengan dicha condición, los colegiados temporales disfrutarán de los mismos derechos, incluidos los de carácter político, y obligaciones que los colegiados ejercientes, si bien no estarán obligados al pago de cuota de inscripción en el colegio.</p>
+          <p class="parrafo">3. La extinción de la habilitación temporal producirá automáticamente la baja colegial, que será acordada por la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 3.ª Derechos y obligaciones de los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 12. Principios generales.</p>
+          <p class="parrafo">La incorporación al Colegio Oficial Nacional de Prácticos de Puerto confiere a los prácticos de puerto los derechos y deberes inherentes a los miembros del colegio. El colegio protegerá y defenderá a sus colegiados en el ejercicio recto y legítimo de la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 13. Derechos de los colegiados.</p>
+          <p class="parrafo">Son derechos de los prácticos de puerto colegiados:</p>
+          <p class="parrafo">a) La participación en el gobierno del colegio, la intervención y voto en las sesiones de la Asamblea General y la facultad de elegir y ser elegido para formar parte de la Junta de Gobierno, en los términos señalados en este estatuto.</p>
+          <p class="parrafo">b) El ejercicio de las atribuciones propias del práctico de puerto, de conformidad con su estatuto profesional.</p>
+          <p class="parrafo">c) La formulación de peticiones y la presentación de quejas ante los órganos del colegio.</p>
+          <p class="parrafo">d) El derecho de recurso contra los acuerdos y resoluciones de los órganos colegiales.</p>
+          <p class="parrafo">e) La información regular sobre la actividad corporativa y de interés profesional y el examen de los documentos contables que reflejen la actividad económica del colegio.</p>
+          <p class="parrafo">f) La obtención de información y, en su caso, la certificación de los documentos y actos colegiales que les afecten personalmente.</p>
+          <p class="parrafo">g) La utilización de los servicios colegiales, en la forma y condiciones que se fijen.</p>
+          <p class="parrafo">h) El asesoramiento y defensa del colegio, dentro del ámbito de su competencia, en las cuestiones que se susciten relativas a sus derechos e intereses de carácter profesional, en la forma y condiciones que se fijen.</p>
+          <p class="parrafo">i) La independencia y objetividad en la realización del practicaje, en condiciones satisfactorias para la seguridad marítima.</p>
+          <p class="parrafo">j) El pleno disfrute de los derechos colegiales hasta tanto no se produzca la baja o suspensión conforme a este estatuto.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 14. Obligaciones de los colegiados.</p>
+          <p class="parrafo">1. Los miembros del Colegio Oficial Nacional de Prácticos de Puerto tienen las obligaciones siguientes:</p>
+          <p class="parrafo">a) Ejercer la profesión con rectitud y sentido ético, observando las reglas deontológicas de la profesión contenidas en el código deontológico que apruebe el colegio.</p>
+          <p class="parrafo">b) Conocer y cumplir, en el desempeño de la profesión, las disposiciones de este estatuto, las normas deontológicas y las resoluciones dictadas por los órganos colegiales y prestar el respeto debido a sus titulares.</p>
+          <p class="parrafo">c) Conocer y cumplir, en el ejercicio de su profesión, las resoluciones emanadas del titular del servicio portuario de practicaje.</p>
+          <p class="parrafo">d) Comunicar al colegio las circunstancias determinantes de su ejercicio profesional, sus modificaciones y los demás datos que se les requieran que sean estrictamente necesarios para el cumplimiento de las funciones colegiales.</p>
+          <p class="parrafo">e) Observar las incompatibilidades profesionales y causas de abstención establecidas por la normativa en vigor.</p>
+          <p class="parrafo">f) Comunicar a las autoridades competentes cualquier suceso o acaecimiento que se produzca como consecuencia del practicaje y que afecte, o pueda afectar, a la seguridad marítima, de la vida humana en la mar o del medio ambiente marino.</p>
+          <p class="parrafo">g) Mantener un adecuado y actualizado nivel de los conocimientos requeridos para el desempeño de su profesión.</p>
+          <p class="parrafo">h) Contribuir puntualmente al sostenimiento económico del colegio conforme a lo dispuesto en este estatuto y en los acuerdos adoptados por los órganos colegiales para su aplicación.</p>
+          <p class="parrafo">i) Actuar con fidelidad y diligencia en el desempeño de los cargos colegiales para los que sea elegido o designado.</p>
+          <p class="parrafo_2">2. Estos deberes configuran el régimen necesario de la actuación profesional y corporativa del colegiado. Su observancia constituye el objeto propio de las potestades colegiales de control y disciplina reguladas en este estatuto y en el código deontológico que apruebe el colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Funciones del Colegio Oficial Nacional de Prácticos de Puerto</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 15. Clases de funciones.</p>
+          <p class="parrafo">Para la consecución de los fines esenciales señalados en el capítulo I, el Colegio Oficial Nacional de Prácticos de Puerto desempeña, al amparo de la legislación sobre colegios profesionales, funciones de ordenación del ejercicio profesional, de representación y defensa de la profesión y de sus miembros, de servicio a los colegiados y de autoorganización.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 16. Ordenación del ejercicio profesional.</p>
+          <p class="parrafo">Son funciones de ordenación del ejercicio profesional de los colegiados las siguientes:</p>
+          <p class="parrafo">a) El registro de los datos referentes a sus miembros en una relación en la que constarán, como mínimo, el testimonio auténtico del título, el nombramiento o habilitación definitiva expedida por las autoridades competentes, el domicilio profesional y de residencia y cuantas circunstancias afecten a su habilitación para el ejercicio profesional.</p>
+          <p class="parrafo">El colegio facilitará a los órganos jurisdiccionales y a las Administraciones públicas, de conformidad con las leyes, la relación de colegiados que pudieran ser requeridos para intervenir como peritos o designarlos directamente.</p>
+          <p class="parrafo">A solicitud de cualquiera de sus colegiados, el colegio podrá autentificar su firma, certificar que esta concuerda con la registrada y, en consecuencia, que el firmante está legalmente habilitado para el ejercicio profesional de práctico de puerto.</p>
+          <p class="parrafo">b) La vigilancia de la actividad profesional de los colegiados para que se someta, en todo caso, a la ética y dignidad de la profesión y al debido respeto a los derechos de los ciudadanos.</p>
+          <p class="parrafo">Para el cumplimiento de esta función esencial, la Asamblea General aprobará un código deontológico que rija la actividad profesional de sus colegiados.</p>
+          <p class="parrafo">c) El ejercicio, en el orden profesional y colegial, de la potestad disciplinaria sobre los colegiados que incumplan las prescripciones legales o deontológicas.</p>
+          <p class="parrafo">d) La vigilancia del cumplimiento por los colegiados de las normas que regulan el ejercicio profesional, este estatuto y el reglamento de régimen interior, así como las normas y resoluciones de los órganos colegiales.</p>
+          <p class="parrafo">e) La vigilancia de la prestación adecuada del servicio de practicaje en los puertos en que así lo exija el ordenamiento jurídico y de la transparencia en los procesos de selección de los profesionales del practicaje.</p>
+          <p class="parrafo">f) La persecución del intrusismo profesional.</p>
+          <p class="parrafo">g) La persecución de los actos de competencia desleal entre colegiados.</p>
+          <p class="parrafo">h) La mediación en vía de conciliación o arbitraje, a petición de las partes, en cuestiones que por motivos profesionales se susciten entre los colegiados.</p>
+          <p class="parrafo">i) La colaboración con las Administraciones públicas y las autoridades en cuantas cuestiones se susciten en relación con la actividad profesional del practicaje; en particular, en la realización de los exámenes y pruebas de carácter práctico para la comprobación de la aptitud de los aspirantes, en los términos legalmente previstos.</p>
+          <p class="parrafo">j) La protección de la independencia y objetividad en la realización del practicaje, en condiciones satisfactorias para la seguridad marítima.</p>
+        </version>
+        <version id_norma="BOE-A-2007-10952" fecha_publicacion="20070602" fecha_vigencia="20070603">
+          <p class="articulo">Artículo 16. Ordenación del ejercicio profesional.</p>
+          <p class="parrafo">Son funciones de ordenación del ejercicio profesional de los colegiados las siguientes:</p>
+          <p class="parrafo">a) El registro de los datos referentes a sus miembros en una relación en la que constarán, como mínimo, el testimonio auténtico del título, el nombramiento o habilitación definitiva expedida por las autoridades competentes, el domicilio profesional y de residencia y cuantas circunstancias afecten a su habilitación para el ejercicio profesional.</p>
+          <p class="parrafo">El colegio facilitará a los órganos jurisdiccionales y a las Administraciones públicas, de conformidad con las leyes, la relación de colegiados que pudieran ser requeridos para intervenir como peritos o designarlos directamente.</p>
+          <p class="parrafo">A solicitud de cualquiera de sus colegiados, el colegio podrá autentificar su firma, certificar que esta concuerda con la registrada y, en consecuencia, que el firmante está legalmente habilitado para el ejercicio profesional de práctico de puerto.</p>
+          <p class="parrafo">b) La vigilancia de la actividad profesional de los colegiados para que se someta, en todo caso, a la ética y dignidad de la profesión y al debido respeto a los derechos de los ciudadanos.</p>
+          <p class="parrafo">Para el cumplimiento de esta función esencial, la Asamblea General aprobará un código deontológico que rija la actividad profesional de sus colegiados.</p>
+          <p class="parrafo">c) El ejercicio, en el orden profesional y colegial, de la potestad disciplinaria sobre los colegiados que incumplan las prescripciones legales o deontológicas.</p>
+          <p class="parrafo">d) La vigilancia del cumplimiento por los colegiados de las normas que regulan el ejercicio profesional, este estatuto y el reglamento de régimen interior, así como las normas y resoluciones de los órganos colegiales.</p>
+          <p class="parrafo">e) La vigilancia de la prestación adecuada del servicio de practicaje en los puertos en que así lo exija el ordenamiento jurídico y de la transparencia en los procesos de selección de los profesionales del practicaje.</p>
+          <p class="parrafo">f) La persecución del intrusismo profesional.</p>
+          <p class="parrafo">g) La persecución de los actos de competencia desleal entre colegiados.</p>
+          <p class="parrafo">h) La mediación en vía de conciliación o arbitraje, a petición de las partes, en cuestiones que por motivos profesionales se susciten entre los colegiados.</p>
+          <p class="parrafo">i) La colaboración con las Administraciones públicas y las autoridades en cuantas cuestiones se susciten en relación con la actividad profesional del practicaje; en particular, en la realización de los exámenes y pruebas de carácter práctico para la comprobación de la aptitud de los aspirantes, en los términos legalmente previstos.</p>
+          <p class="parrafo">j) La protección de la independencia y objetividad en la realización del practicaje, en condiciones satisfactorias para la seguridad marítima.</p>
+          <p class="parrafo">k) El visado de las certificaciones de compensación de las agujas náuticas y cualesquiera otros que recoja o pudiera recoger el ordenamiento jurídico.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade la letra k) por el art. único del Real Decreto 639/2007, de 18 de mayo. <a class="refPost">Ref. BOE-A-2007-10952</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2010-19647" fecha_publicacion="20101222" fecha_vigencia="20101223">
+          <p class="articulo">Artículo 16. Ordenación del ejercicio profesional.</p>
+          <p class="parrafo">Son funciones de ordenación del ejercicio profesional de los colegiados las siguientes:</p>
+          <p class="parrafo">a) El registro de los datos referentes a sus miembros en una relación en la que constarán, como mínimo, el testimonio auténtico del título, el nombramiento o habilitación definitiva expedida por las autoridades competentes, el domicilio profesional y de residencia y cuantas circunstancias afecten a su habilitación para el ejercicio profesional.</p>
+          <p class="parrafo">El colegio facilitará a los órganos jurisdiccionales y a las Administraciones públicas, de conformidad con las leyes, la relación de colegiados que pudieran ser requeridos para intervenir como peritos o designarlos directamente.</p>
+          <p class="parrafo">A solicitud de cualquiera de sus colegiados, el colegio podrá autentificar su firma, certificar que esta concuerda con la registrada y, en consecuencia, que el firmante está legalmente habilitado para el ejercicio profesional de práctico de puerto.</p>
+          <p class="parrafo">b) La vigilancia de la actividad profesional de los colegiados para que se someta, en todo caso, a la ética y dignidad de la profesión y al debido respeto a los derechos de los ciudadanos.</p>
+          <p class="parrafo">Para el cumplimiento de esta función esencial, la Asamblea General aprobará un código deontológico que rija la actividad profesional de sus colegiados.</p>
+          <p class="parrafo">c) El ejercicio, en el orden profesional y colegial, de la potestad disciplinaria sobre los colegiados que incumplan las prescripciones legales o deontológicas.</p>
+          <p class="parrafo">d) La vigilancia del cumplimiento por los colegiados de las normas que regulan el ejercicio profesional, este estatuto y el reglamento de régimen interior, así como las normas y resoluciones de los órganos colegiales.</p>
+          <p class="parrafo">e) La vigilancia de la prestación adecuada del servicio de practicaje en los puertos en que así lo exija el ordenamiento jurídico y de la transparencia en los procesos de selección de los profesionales del practicaje.</p>
+          <p class="parrafo">f) La persecución del intrusismo profesional.</p>
+          <p class="parrafo">g) La persecución de los actos de competencia desleal entre colegiados.</p>
+          <p class="parrafo">h) La mediación en vía de conciliación o arbitraje, a petición de las partes, en cuestiones que por motivos profesionales se susciten entre los colegiados.</p>
+          <p class="parrafo">i) La colaboración con las Administraciones públicas y las autoridades en cuantas cuestiones se susciten en relación con la actividad profesional del practicaje; en particular, en la realización de los exámenes y pruebas de carácter práctico para la comprobación de la aptitud de los aspirantes, en los términos legalmente previstos.</p>
+          <p class="parrafo">j) La protección de la independencia y objetividad en la realización del practicaje, en condiciones satisfactorias para la seguridad marítima.</p>
+          <p class="parrafo">k) Visar los trabajos profesionales, en los términos establecidos en el artículo 13 de la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales y su normativa de desarrollo.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra k) por el art. único del Real Decreto 1592/2010, de 26 de noviembre. <a class="refPost">Ref. BOE-A-2010-19647</a>.</p>
+            <p class="nota_pie">Se añade la letra k) por el art. único del Real Decreto 639/2007, de 18 de mayo. <a class="refPost">Ref. BOE-A-2007-10952</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 17. Representación y defensa.</p>
+          <p class="parrafo">El colegio ejercerá las siguientes funciones de representación y defensa de la profesión y de sus colegiados:</p>
+          <p class="parrafo">a) Ejercer, en su ámbito, la representación y defensa de la profesión ante las Administraciones públicas, los tribunales y demás poderes públicos, así como ante cualesquiera instituciones, entidades y particulares.</p>
+          <p class="parrafo">b) Actuar ante los juzgados y tribunales en cuantos litigios afecten a los intereses profesionales, con la legitimación que la ley les otorga, y hacerlo bien en representación, bien en sustitución procesal de sus miembros.</p>
+          <p class="parrafo">c) Informar en los procedimientos, administrativos o judiciales en que se discutan cualesquiera cuestiones profesionales, cuando sean requeridos para ello o cuando se prevea su intervención con arreglo a la legislación vigente.</p>
+          <p class="parrafo">d) Informar, con arreglo a las normas reguladoras, los proyectos de disposiciones normativas que regulen o afecten directamente las condiciones generales de las funciones profesionales de los prácticos de puerto.</p>
+          <p class="parrafo">e) Cooperar a la mejora de la enseñanza e investigación de la profesión, para lo que podrá crear instituciones científicas, educativas o culturales, o colaborar con ellas.</p>
+          <p class="parrafo">f) Participar en la elaboración de los planes de estudio, informar las normas de organización de los centros docentes correspondientes a la profesión y mantener permanente contacto con estos, en los términos que determinen las disposiciones reguladoras de tales materias.</p>
+          <p class="parrafo">g) Participar en los consejos, organismos consultivos, comisiones y órganos análogos de las Administraciones públicas y de las organizaciones, nacionales o internacionales, responsables en materia de practicaje y de seguridad marítima, cuando sea requerido para ello.</p>
+          <p class="parrafo">h) Establecer y mantener relaciones e intercambios con organismos de carácter técnico, científico o profesional, nacionales o extranjeros, dedicados a actividades que tengan afinidad con los fines y las funciones del colegio.</p>
+          <p class="parrafo">i) Ejercer cuantas funciones le sean encomendadas por las Administraciones públicas, de conformidad con la legislación sobre procedimiento administrativo, y colaborar con ellas mediante la realización de estudios, la emisión de informes, la elaboración de estadísticas y otras actividades relacionadas con sus fines que pueden serles solicitadas o acuerde formular por iniciativa propia.</p>
+          <p class="parrafo">j) Realizar peritajes, bien por cuenta propia, bien a petición de los colegiados, de las Administraciones, de los juzgados y tribunales o de otras entidades públicas y privadas.</p>
+          <p class="parrafo">k) Desarrollar otras funciones que redunden en beneficio de los intereses profesionales de los colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 18. Servicios.</p>
+          <p class="parrafo">El colegio podrá ofrecer, entre otros, los servicios siguientes:</p>
+          <p class="parrafo">a) La resolución mediante laudo, con arreglo a la legislación vigente sobre arbitrajes, los conflictos y discrepancias que le fueran sometidos.</p>
+          <p class="parrafo">b) La organización de actividades y servicios de interés para los colegiados de índole profesional, formativa, cultural, médico-profesional, asistencial, de previsión y otros análogos, o colaborar, en su caso, con instituciones de este carácter. El colegio podrá crear una mutualidad o institución análoga, de incorporación voluntaria para sus miembros.</p>
+          <p class="parrafo">c) El asesoramiento a los colegiados y la organización de cursos de formación y especialización.</p>
+          <p class="parrafo">d) La colaboración y participación en la creación de un sistema de cobertura de responsabilidades civiles contraídas por los profesionales en el desempeño de su actividad.</p>
+          <p class="parrafo">e) El asesoramiento y apoyo a los prácticos de puerto en el ejercicio profesional mediante la creación y prestación de todo tipo de servicios, incluidos los de información profesional y técnica y de formación permanente.</p>
+          <p class="parrafo">f) La organización de cursos de formación profesional para postgraduados.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 19. Autoorganización.</p>
+          <p class="parrafo">El colegio, en el ejercicio de su potestad de autoorganización interna, ejercerá las siguientes funciones:</p>
+          <p class="parrafo">a) Aprobar el reglamento de régimen interior, en desarrollo de este estatuto.</p>
+          <p class="parrafo">b) Aprobar y ejecutar sus presupuestos.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Estructura y organización</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 20. Órganos colegiales.</p>
+          <p class="parrafo">1. Los órganos de gobierno del Colegio Oficial Nacional de Prácticos de Puerto son los siguientes:</p>
+          <p class="parrafo">a) La Asamblea General.</p>
+          <p class="parrafo">b) La Junta de Gobierno.</p>
+          <p class="parrafo">c) El Presidente.</p>
+          <p class="parrafo_2">2. La Junta de Gobierno creará una Comisión Deontológica para el estudio de las cuestiones éticas relacionadas con el ejercicio profesional y las demás actuaciones que se le atribuyan de conformidad con este estatuto. Podrá crear, igualmente, cuantas comisiones estime convenientes para el estudio o dirección de los asuntos de interés para la entidad y los colegiados. El reglamento de régimen interior del colegio o, en su defecto, otro reglamento propio será aprobado por la Asamblea General, concretará su composición y régimen de funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 1.ª De la Asamblea General</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 21. Carácter democrático.</p>
+          <p class="parrafo">La Asamblea General es el órgano supremo que expresa la voluntad del colegio y se rige por los principios de participación igual y democrática de todos los colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 22. Participación.</p>
+          <p class="parrafo">La participación en la Asamblea General podrá ser personal o delegada, con el límite, en este caso, de un número máximo de 30 votos delegados por colegiado presente.</p>
+          <p class="parrafo">La delegación deberá otorgarse por escrito y será válida solo para cada sesión de la Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 23. Competencias.</p>
+          <p class="parrafo">La Asamblea General tendrá las siguientes competencias:</p>
+          <p class="parrafo">a) La aprobación de la propuesta de modificación del estatuto general y su elevación al Gobierno, la aprobación del reglamento de régimen interior del colegio y del código deontológico, con sujeción a lo dispuesto en este estatuto y sin perjuicio de la facultad de la Junta de Gobierno para aprobar las correspondientes normas de desarrollo.</p>
+          <p class="parrafo">b) La aprobación de los presupuestos y de los recursos económicos del colegio y la fijación del sistema de cuotas, ordinarias y extraordinarias, de conformidad con lo dispuesto en el capítulo VI.</p>
+          <p class="parrafo">c) La aprobación definitiva de la liquidación de los presupuestos y las cuentas de gastos e ingresos de cada ejercicio vencido.</p>
+          <p class="parrafo">d) La autorización de los actos de disposición sobre los bienes inmuebles propios y derechos reales constituidos sobre estos y de los demás bienes patrimoniales del colegio que figuren inventariados como de considerable valor.</p>
+          <p class="parrafo">e) El control de la gestión de la Junta de Gobierno, para lo que recabará los informes y adoptará o resolverá, en su caso, las mociones pertinentes.</p>
+          <p class="parrafo">f) El conocimiento de cuantos otros asuntos le someta la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 24. Sesiones.</p>
+          <p class="parrafo">En el primer semestre de cada año se celebrará una sesión de la Asamblea General, que tendrá carácter ordinario. Podrán celebrarse también sesiones extraordinarias cuando lo acuerde la Junta de Gobierno por propia iniciativa o a solicitud de, al menos, la cuarta parte de colegiados.</p>
+          <p class="parrafo">En la sesión ordinaria de la Asamblea General se tratarán necesariamente los asuntos relacionados con las competencias enumeradas en los párrafos b), c) y e) del artículo anterior, y en las extraordinarias, los asuntos propios de cada convocatoria.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 25. Convocatoria.</p>
+          <p class="parrafo">1. La Junta de Gobierno convocará las sesiones de la Asamblea General con 30 días de antelación, que en los casos de urgencia, debidamente justificados, podrán reducirse a 10 días.</p>
+          <p class="parrafo">2. La convocatoria se notificará a los colegiados por cualquier medio que permita tener constancia de la recepción, fecha, identidad y contenido. La notificación podrá efectuarse por medios telemáticos siempre que el colegiado haya señalado dicho medio como preferente o lo haya autorizado expresamente.</p>
+          <p class="parrafo">3. En la convocatoria se precisará el lugar, día y hora de la sesión. El Presidente y el Secretario del colegio asumirán la presidencia y la secretaría, respectivamente, de la Asamblea General.</p>
+          <p class="parrafo">4. Las convocatorias incluirán un orden del día provisional e irán acompañadas, cuando sea imprescindible, de la documentación correspondiente a los asuntos que se vayan a debatir. Los colegiados, en todo caso, podrán efectuar consultas sobre dichas cuestiones en las oficinas del colegio.</p>
+          <p class="parrafo">5. Los colegiados podrán presentar propuestas para someterlas a la deliberación y acuerdo de la Asamblea General hasta 15 días antes de la celebración de la sesión. La Junta de Gobierno deberá incluir en el orden del día definitivo las que vengan avaladas, al menos, por un 10 por ciento de los colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 26. Celebración de las sesiones.</p>
+          <p class="parrafo">1. Las sesiones de la Asamblea General se celebrarán en el lugar, día y hora señalados en la primera o, si procediera, en la segunda convocatoria. Estarán presididas y dirigidas por el Presidente del colegio o, en su defecto, por quien legalmente lo sustituya. Abierta la sesión, se procederá a la lectura y aprobación, en su caso, del acta de la sesión anterior y se debatirán a continuación los asuntos incluidos en el orden del día definitivo. El Presidente moderará el debate y concederá el turno de palabra según usos democráticos.</p>
+          <p class="parrafo">2. Las votaciones se realizarán a mano alzada, salvo que una tercera parte de los colegiados presentes solicite que sean secretas. La votación será secreta en aquellos asuntos en los que pudiera verse condicionada la libre emisión del voto. En este caso, se realizarán por separado la votación de los colegiados no ejercientes y la de los ejercientes, habida cuenta el doble valor de los votos de los ejercientes. No podrán adoptarse acuerdos sobre asuntos que no figuren en el orden del día.</p>
+          <p class="parrafo">3. Por regla general, los acuerdos se adoptarán por mayoría de los votos emitidos, sin necesidad de quórum de asistencia. No obstante, cuando se trate de la modificación del estatuto general será precisa la asistencia, personal o por representación, de al menos la tercera parte del número legal de colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 27. Aprobación de las actas.</p>
+          <p class="parrafo">El Secretario confeccionará, dentro de los 15 días siguientes a la sesión, un borrador de acta y lo someterá a la aprobación y firma del Presidente y de dos colegiados designados por la Asamblea General de entre los asistentes. Obtenida la conformidad de todos ellos, el Secretario hará constar la aprobación del borrador en el libro de actas. El acta deberá ser ratificada en la siguiente sesión de la Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 2.ª De la Junta de Gobierno</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 28. Definición y composición.</p>
+          <p class="parrafo">1. La Junta de Gobierno es el órgano de administración y dirección del colegio.</p>
+          <p class="parrafo">2. La Junta de Gobierno estará formada por el Presidente, el Vicepresidente y cinco vocales, uno de los cuales actuará como Secretario. La determinación de las funciones correspondientes a las diferentes vocalías, así como su asignación entre los cargos electos, se realizará por el Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 29. Competencias.</p>
+          <p class="parrafo">La Junta de Gobierno ejerce las competencias no reservadas a la Asamblea General conforme al artículo 23, ni asignadas específicamente a otros órganos colegiales. Además, y con carácter particular, ejercerá las siguientes funciones:</p>
+          <p class="parrafo">1.º Con relación a los colegiados y a los órganos colegiales:</p>
+          <p class="parrafo">a) Resolver sobre la admisión de los prácticos de puerto que deseen incorporarse al colegio, facultad que podrá delegar provisionalmente en alguno de sus miembros, así como sobre la pérdida de la condición de colegiado según lo dispuesto en el capítulo II.</p>
+          <p class="parrafo">b) Velar por la profesionalidad de los colegiados en el ejercicio de sus funciones y en relación con el colegio.</p>
+          <p class="parrafo">c) Perseguir ante los tribunales de justicia el intrusismo y el ejercicio profesional que incumpla sus normas reguladoras.</p>
+          <p class="parrafo">d) Emitir dictámenes, informes, consultas o arbitrajes en los casos previstos en este estatuto o cuando los órganos judiciales y entidades públicas o privadas requieran actuaciones del colegio.</p>
+          <p class="parrafo">e) Proceder de modo automático a la designación de peritos, cuando se curse requerimiento al colegio.</p>
+          <p class="parrafo">f) Convocar la elección de los miembros de la Junta de Gobierno, de conformidad con lo dispuesto en el capítulo V.</p>
+          <p class="parrafo">g) Conocer de los recursos que se interpongan contra los acuerdos colegiales, de conformidad con lo dispuesto en el capítulo VIII.</p>
+          <p class="parrafo">h) Ejercer la potestad sancionadora de conformidad con lo dispuesto en el capítulo VII.</p>
+          <p class="parrafo">i) Velar por el cumplimiento de la normativa, legal y colegial, y de los acuerdos adoptados por el colegio.</p>
+          <p class="parrafo">j) Coordinar el funcionamiento de toda la actividad y organización del colegio.</p>
+          <p class="parrafo">k) Cuidar de las publicaciones, cursos de perfeccionamiento profesional, así como de la actividad promocional del colegio.</p>
+          <p class="parrafo">l) Designar al personal del colegio y decidir sobre su organización y la de los servicios existentes o que se creen en el futuro.</p>
+          <p class="parrafo_2">2.º Con relación a la actividad externa del colegio:</p>
+          <p class="parrafo">a) Defender a los colegiados cuando considere que son perturbados o perseguidos injustamente en el desempeño de sus funciones profesionales.</p>
+          <p class="parrafo">b) Realizar en nombre del colegio cuantas mejoras se estimen convenientes al progreso técnico y a los intereses de los prácticos de puerto.</p>
+          <p class="parrafo">c) Representar al colegio en los actos oficiales.</p>
+          <p class="parrafo">d) Designar a los representantes del colegio en los tribunales, jurados y comisiones cuando fuera requerida la participación del colegio.</p>
+          <p class="parrafo_2">3.º Con relación a la vida económica del colegio:</p>
+          <p class="parrafo">a) Recaudar, distribuir y administrar el patrimonio del colegio.</p>
+          <p class="parrafo">b) Determinar la estructura económica del colegio, de sus presupuestos y del inventario de sus bienes.</p>
+          <p class="parrafo">c) Elaborar y someter a la Asamblea General el proyecto anual de presupuestos.</p>
+          <p class="parrafo">d) Cerrar y someter a la aprobación de la Asamblea General la liquidación del presupuesto y las cuentas de ingresos y gastos.</p>
+          <p class="parrafo">e) Proponer a la Asamblea General la inversión de los fondos sociales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 30. Duración del mandato.</p>
+          <p class="parrafo">Los miembros de la Junta de Gobierno tienen un mandato de cuatro años, transcurrido el cual deberán convocarse nuevas elecciones. La convocatoria se realizará inmediatamente si, antes de la renovación, hubiera prosperado una moción de censura.</p>
+          <p class="parrafo">La elección de la Junta de Gobierno y la formación de candidaturas se desarrollarán de acuerdo con el procedimiento regulado en el capítulo V.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 31. Condiciones de elegibilidad.</p>
+          <p class="parrafo">1. El Presidente y los demás miembros de la Junta de Gobierno deberán hallarse en el ejercicio efectivo de la profesión con una antigüedad mínima de cinco años.</p>
+          <p class="parrafo">2. No podrán ser miembros de la Junta de Gobierno los colegiados que ocupen un cargo público en cualquiera de las Administraciones públicas, los que sean miembros de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas, los que desempeñen un cargo político de carácter electivo y los que ejerzan funciones directivas en un sindicato, un partido político o una asociación cuyo cometido pueda comprometer su independencia, su libertad de criterio o represente intereses contrapuestos a los del colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 32. Provisión en los supuestos de ceses o vacantes.</p>
+          <p class="parrafo">Los ceses y las vacantes en la Junta de Gobierno se cubrirán por los colegiados suplentes de la misma lista electoral a la que pertenecía el cargo que se sustituye. Si el número de puestos por cubrir fuera igual o superior a la mitad más uno de los miembros de la Junta de Gobierno, se convocarán nuevas elecciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 33. Funcionamiento.</p>
+          <p class="parrafo">Los acuerdos de Junta de Gobierno se adoptarán por mayoría simple de los votos válidamente emitidos. El Presidente dirimirá con su voto los empates.</p>
+          <p class="parrafo">Los miembros de la Junta de Gobierno se abstendrán de participar en las deliberaciones y votaciones que se refieran a acuerdos y resoluciones que afecten a sus derechos e intereses particulares.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 34. Moción de censura.</p>
+          <p class="parrafo">Podrá presentarse, a solicitud de una cuarta parte del número legal de colegiados con derecho a voto y al corriente de sus obligaciones económicas, una moción de censura a la gestión de la Junta de Gobierno. La moción se debatirá y votará en una sesión extraordinaria de la Asamblea General, que deberá convocarse a tal efecto en un plazo no superior al de un mes desde su presentación.</p>
+          <p class="parrafo">La aprobación de la moción de censura deberá aprobarse por mayoría de los votos emitidos, siempre que a la sesión asistan, personalmente o representados, como mínimo, las dos terceras partes del número legal de colegiados con derecho a voto.</p>
+        </version>
+      </bloque>
+      <bloque id="s3-2" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 3.ª Del Presidente del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 35. El Presidente.</p>
+          <p class="parrafo">1. El Presidente del Colegio Oficial Nacional de Prácticos de Puerto ejerce la representación legal de la corporación, preside la Asamblea General y la Junta de Gobierno, vela por la debida ejecución de sus acuerdos y adopta, en caso de urgencia, las medidas procedentes.</p>
+          <p class="parrafo">2. Será elegido Presidente quien encabece la lista electoral ganadora de las elecciones a la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Régimen electoral</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 36. Régimen electoral.</p>
+          <p class="parrafo">Todos los cargos de los órganos colegiales de gobierno tienen carácter electivo. La Junta de Gobierno podrá aprobar, cuando proceda y en desarrollo del procedimiento electoral que se regula en este capítulo, las normas electorales que rijan los procesos electivos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 37. Derecho de sufragio activo.</p>
+          <p class="parrafo">Tienen la condición de electores todos los colegiados que en el momento de la convocatoria se encuentren en el pleno ejercicio de sus derechos y estén al corriente de sus obligaciones económicas con el colegio.</p>
+          <p class="parrafo">El voto de los colegiados ejercientes tendrá doble valor que el de los no ejercientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 38. Censo electoral.</p>
+          <p class="parrafo">La secretaría del colegio elaborará el censo electoral, del que formarán parte todos los colegiados inscritos en el registro del colegio en la fecha de convocatoria de las elecciones, salvo los suspendidos. El censo será expuesto, con una antelación mínima de 20 días al de la celebración de las elecciones, en la secretaría de la Junta de Gobierno y en la sede de esta, por un término no inferior a 10 días naturales.</p>
+          <p class="parrafo">Los colegiados podrán presentar reclamaciones sobre el censo hasta transcurridos cinco días desde la finalización del plazo de exposición. Las reclamaciones se formularán por escrito ante la Junta de Gobierno, que resolverá en plazo idéntico al anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 39. Presentación de las candidaturas.</p>
+          <p class="parrafo">Las candidaturas deberán ser completas y cerradas. En cada candidatura se designará en el primer lugar el colegiado candidato a la presidencia del colegio y, a continuación, los candidatos a vicepresidente, a vocales y los suplentes. Un mismo colegiado no podrá presentarse simultáneamente en dos o más candidaturas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 40. Proclamación de candidatos.</p>
+          <p class="parrafo">La Junta de Gobierno proclamará las candidaturas presentadas antes de los 30 días previos a la celebración de las elecciones. La proclamación se comunicará a todos los colegiados con una antelación mínima de 15 días a la fecha de las elecciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 41. Mesa electoral.</p>
+          <p class="parrafo">1. Quince días antes de las elecciones, la Junta de Gobierno designará una mesa electoral que estará formada por colegiados que se encuentren en pleno uso de sus derechos.</p>
+          <p class="parrafo">2. La mesa, integrada por un presidente, dos vocales y un secretario, se constituirá el día de las elecciones, en el local y a la hora que se anuncien, y dispondrá de una urna precintada y de la lista de votantes.</p>
+          <p class="parrafo">Las candidaturas podrán comunicar a la Junta de Gobierno, 24 horas antes de comenzar la votación, la designación de un interventor de mesa. Los interventores podrán asistir a todo el proceso de votación y de escrutinio y formular las reclamaciones que estimen oportunas, que serán resueltas por el presidente de la mesa electoral y recogidas en el acta por el secretario.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 42. Celebración de las elecciones.</p>
+          <p class="parrafo">Las elecciones se celebrarán el día y hora señaladas en la convocatoria. Finalizada la votación, se realizará inmediatamente el escrutinio y se hará público el resultado.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-5" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 43. Procedimiento de votación.</p>
+          <p class="parrafo">1. La votación se realizará mediante sufragio directo y secreto. Los colegiados podrán votar por cualquiera de los procedimientos siguientes:</p>
+          <p class="parrafo">a) Mediante la entrega, previa identificación, de la papeleta de voto al presidente de la mesa electoral para que este la deposite en su presencia en la urna. En este caso, el secretario de la mesa hará constar en la lista de votación los colegiados que voten y el orden en que lo hacen.</p>
+          <p class="parrafo">b) Por correo, mediante el envío de la papeleta en un sobre cerrado incluido dentro de otro, también cerrado, en el que se incluirá una fotocopia del documento nacional de identidad del colegiado. Los votos por correo se remitirán a la dirección que oportunamente se designe y deberán recibirse con una antelación mínima de dos horas respecto de la hora fijada para el cierre de la votación. La mesa electoral comprobará que los votos enviados por correo correspondan a colegiados con derecho a voto que no hayan votado personalmente. Se separarán los votos procedentes de los colegiados no ejercientes y de los ejercientes. Una vez que el secretario haya anotado en la lista de colegiados los que votan por correo, el presidente abrirá los sobres e introducirá las papeletas en la urna. Si un sobre incluye más de una papeleta, estas no se introducirán en la urna y el voto se computará como nulo.</p>
+          <p class="parrafo">c) Mediante delegación, otorgada por escrito a favor de otro colegiado que asista personalmente a la votación. Se admitirán hasta un número máximo de 30 delegaciones en cada colegiado asistente. La mesa electoral comprobará que los votos delegados corresponden a colegiados con derecho a voto y que no han votado personalmente.</p>
+          <p class="parrafo_2">2. Cuando el colegio disponga de los servicios informáticos adecuados, el voto podrá también emitirse a través de correo electrónico o procedimientos electrónicos análogos, siempre que el colegiado haya señalado dicho medio como preferente o hubiera autorizado expresamente su utilización.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-6" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 44. Escrutinio, actas y proclamación de electos.</p>
+          <p class="parrafo">Finalizada la votación, la mesa electoral iniciará de inmediato el escrutinio, que será público. Resultará elegida la candidatura que obtenga el mayor número de votos. Los interventores y los candidatos podrán examinar al término del escrutinio las papeletas que ofrezcan dudas.</p>
+          <p class="parrafo">Terminado el escrutinio, se levantará un acta del resultado y el presidente de la mesa electoral lo hará público y proclamará a los candidatos electos.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-7" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 45. Reclamaciones.</p>
+          <p class="parrafo">Las reclamaciones contra el resultado de las elecciones se presentarán ante la Junta de Gobierno, en el plazo máximo de 10 días desde la publicación de los resultados electorales. Transcurrido el plazo, la Junta de Gobierno resolverá las reclamaciones y proclamará definitivamente, si no ha lugar a la anulación de las elecciones, a la candidatura elegida como nueva Junta de Gobierno.</p>
+          <p class="parrafo">El resultado definitivo de la elección se comunicará al Ministerio de Fomento y a todos los colegiados. Contra la resolución de la Junta de Gobierno podrán los interesados interponer, bien recurso, con carácter potestativo, ante la Junta de Gobierno en el plazo de un mes, bien recurso contencioso-administrativo, de acuerdo con la Ley 29/1998, de 13 de julio.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-8" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 46. Toma de posesión.</p>
+          <p class="parrafo">Los miembros electos de la Junta de Gobierno tomarán posesión dentro de los 15 días siguientes a su proclamación definitiva.</p>
+          <p class="parrafo">El Presidente comunicará la toma de posesión de los nuevos miembros de la Junta de Gobierno al órgano superior competente en materia de practicaje del Ministerio de Fomento.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="s1-3" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 1.ª Medios económicos</p>
+        </version>
+      </bloque>
+      <bloque id="a4-9" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 47. Recursos económicos.</p>
+          <p class="parrafo">1. Los recursos económicos del Colegio Oficial Nacional de Prácticos de Puerto tendrán carácter ordinario o extraordinario.</p>
+          <p class="parrafo">2. Los recursos económicos ordinarios son los siguientes:</p>
+          <p class="parrafo">a) Los productos de los bienes, derechos y obligaciones de su patrimonio.</p>
+          <p class="parrafo">b) Las cuotas o contribuciones económicas de los colegiados establecidas con arreglo a lo dispuesto en el artículo siguiente.</p>
+          <p class="parrafo">c) Los ingresos procedentes del ejercicio de cualesquiera otras funciones encomendadas al colegio por disposiciones legales o reglamentarias.</p>
+          <p class="parrafo">d) Los ingresos procedentes de la elaboración de informes, dictámenes, peritajes, estudios y cualesquiera otros asesoramientos técnicos que se le requieran.</p>
+          <p class="parrafo">e) Los beneficios de las publicaciones u otros servicios o actividades remuneradas que realice.</p>
+          <p class="parrafo">f) Los que por cualquier otro concepto legalmente procedan.</p>
+          <p class="parrafo_2">3. Los recursos económicos extraordinarios son los siguientes:</p>
+          <p class="parrafo">a) Las subvenciones, donativos, herencias o legados de los que el colegio pueda ser beneficiario.</p>
+          <p class="parrafo">b) El producto de la enajenación de los bienes de su patrimonio.</p>
+          <p class="parrafo">c) Los que por cualquier otro concepto legalmente procedan.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-10" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 48. Cuotas colegiales.</p>
+          <p class="parrafo">1. Son contribuciones de los profesionales colegiados las siguientes:</p>
+          <p class="parrafo">a) Los derechos de inscripción de los colegiados.</p>
+          <p class="parrafo">b) Las cuotas ordinarias, cuyo devengo se producirá con periodicidad trimestral.</p>
+          <p class="parrafo">c) Las cantidades que, en su caso, se establezcan por el uso individualizado de los servicios colegiales.</p>
+          <p class="parrafo_2">2. El importe de estas contribuciones se determinará por acuerdo de la Asamblea General, que fijará las cuotas de los colegiados no ejercientes y de los colegiados temporales en una cuantía inferior a las de los ejercientes.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-3" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="seccion">Sección 2.ª Régimen presupuestario</p>
+        </version>
+      </bloque>
+      <bloque id="a4-11" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 49. Régimen presupuestario.</p>
+          <p class="parrafo">1. El régimen económico del Colegio Oficial Nacional de Prácticos de Puerto se formalizará anualmente en un presupuesto. El presupuesto será único y comprenderá todos los ingresos, gastos e inversiones del colegio referidos al año natural.</p>
+          <p class="parrafo">2. En cada presupuesto se cifrarán, con la suficiente especificación, los gastos previstos en función del programa de actividades que vayan a desarrollar los distintos órganos colegiales y los ingresos que se prevea devengar durante el correspondiente ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-2" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 50. Patrimonio.</p>
+          <p class="parrafo">Constituye el patrimonio del Colegio Oficial Nacional de Prácticos de Puerto el conjunto de todos sus bienes, derechos y obligaciones. El colegio es su titular, sin perjuicio de la adscripción de bienes determinados procedentes de otros entes públicos o privados.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-3" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Régimen disciplinario y de distinciones</p>
+        </version>
+      </bloque>
+      <bloque id="a5-3" tipo="precepto" titulo="Artículo 51">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 51. Ejercicio de la función disciplinaria.</p>
+          <p class="parrafo">El colegio incoará expediente disciplinario a sus miembros por los actos u omisiones que puedan constituir las infracciones que se tipifican en el artículo siguiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-4" tipo="precepto" titulo="Artículo 52">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 52. Infracciones.</p>
+          <p class="parrafo">1. Las infracciones que puedan llevar aparejada sanción disciplinaria se clasifican en muy graves, graves y leves.</p>
+          <p class="parrafo">2. Son infracciones leves las siguientes:</p>
+          <p class="parrafo">a) La falta de consideración con el capitán o la tripulación de un barco, con el colegio o con otro práctico de puerto.</p>
+          <p class="parrafo">b) La desconsideración no ofensiva hacia los miembros de la Junta de Gobierno.</p>
+          <p class="parrafo_2">3. Son infracciones graves las siguientes:</p>
+          <p class="parrafo">a) El incumplimiento de los deberes colegiales y profesionales regulados en este estatuto, en el reglamento de régimen interior y en el código deontológico.</p>
+          <p class="parrafo">b) La actuación profesional que atente contra el prestigio de los prácticos de puerto.</p>
+          <p class="parrafo">c) La práctica del servicio de practicaje sin solicitar información al capitán de un buque o proporcionando información no veraz.</p>
+          <p class="parrafo">d) La realización de actos de competencia desleal en el ejercicio de la profesión cuando haya sido declarado por el órgano judicial competente.</p>
+          <p class="parrafo">e) El falseamiento o inexactitud grave de la documentación profesional.</p>
+          <p class="parrafo">f) Los actos de desconsideración ofensiva hacia los componentes de la Junta de Gobierno y los que supongan una desconsideración ofensiva hacia los demás colegiados.</p>
+          <p class="parrafo">g) La falta de atención, de diligencia o de fidelidad en el desempeño de los cargos colegiales.</p>
+          <p class="parrafo">h) La realización de actuaciones profesionales sin la preparación adecuada o sin la debida diligencia.</p>
+          <p class="parrafo_2">4. Son infracciones muy graves las siguientes:</p>
+          <p class="parrafo">a) El encubrimiento del intrusismo profesional o la colaboración en la realización de actividades propias de la profesión de práctico de puerto por quien no reúna la debida aptitud legal para ello.</p>
+          <p class="parrafo">b) Las actuaciones profesionales constitutivas de delito, con independencia de la responsabilidad penal o civil que pudiera exigírsele al práctico de puerto.</p>
+          <p class="parrafo">c) La comisión de una infracción grave con obtención de lucro ilegítimo merced a actuación ilícita.</p>
+          <p class="parrafo">d) La emisión de facturas o minutas por conceptos inexistentes o por actuaciones profesionales no realizadas.</p>
+          <p class="parrafo">e) La práctica profesional bajo los efectos de drogas, alcohol o cualquier sustancia que afecte gravemente a la aptitud física o psíquica requerida para el desempeño de su cometido.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-5" tipo="precepto" titulo="Artículo 53">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 53. Sanciones.</p>
+          <p class="parrafo">1. En el ejercicio de la potestad disciplinaria, el Colegio Oficial Nacional de Prácticos de Puerto podrá imponer las siguientes sanciones:</p>
+          <p class="parrafo">a) Amonestación privada.</p>
+          <p class="parrafo">b) Apercibimiento por escrito.</p>
+          <p class="parrafo">c) Reprensión publicada en el boletín o circular informativa colegial.</p>
+          <p class="parrafo">d) Suspensión de la condición de colegiado, con prohibición del ejercicio profesional, por un plazo no superior a tres meses.</p>
+          <p class="parrafo">e) Suspensión del ejercicio de cargo colegial por un plazo no superior a un año.</p>
+          <p class="parrafo">f) Suspensión de la condición de colegiado, con prohibición del ejercicio profesional, por un plazo superior a tres meses e inferior a un año.</p>
+          <p class="parrafo">g) Pérdida de cargo colegial.</p>
+          <p class="parrafo">h) Expulsión del colegio.</p>
+          <p class="parrafo_2">2. Las sanciones que se impongan, con excepción de la amonestación privada, se anotarán en el expediente colegial correspondiente, sin perjuicio de su posterior cancelación.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-6" tipo="precepto" titulo="Artículo 54">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 54. Correspondencia entre infracciones y sanciones.</p>
+          <p class="parrafo">1. Las sanciones enumeradas en los párrafos a) y b) del apartado 1 del artículo anterior se aplicarán a las infracciones leves; las sanciones previstas en los párrafos c) a e), a las infracciones graves, y las sanciones de los párrafos f) a h), a las infracciones muy graves.</p>
+          <p class="parrafo">2. En la aplicación de las sanciones se tendrán en cuenta las siguientes circunstancias:</p>
+          <p class="parrafo">a) Intencionalidad manifiesta.</p>
+          <p class="parrafo">b) Negligencia profesional inexcusable.</p>
+          <p class="parrafo">c) Desobediencia reiterada a acuerdos colegiales.</p>
+          <p class="parrafo">d) Daño o perjuicio grave a terceros.</p>
+          <p class="parrafo">e) Hallarse en el ejercicio de cargo público o colegial al cometer la infracción, cuando prevalezca esta condición.</p>
+          <p class="parrafo">f) Incurrir en conflicto de intereses.</p>
+          <p class="parrafo">g) Haber sido sancionado anteriormente por resolución colegial firme no cancelada, a causa de una infracción grave.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-7" tipo="precepto" titulo="Artículo 55">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 55. Prescripción de infracciones y sanciones.</p>
+          <p class="parrafo">1. Las infracciones leves prescribirán al año; las graves, a los dos años, y las muy graves, a los tres años.</p>
+          <p class="parrafo">2. Las sanciones por infracción leve prescribirán al año; las correspondientes a infracciones graves, a los dos años, y las correspondientes a infracciones muy graves, a los tres años.</p>
+          <p class="parrafo">3. Los plazos de prescripción de las infracciones comenzarán a contar desde la comisión de la infracción y los de las sanciones desde su firmeza. La prescripción de las infracciones se interrumpirá por cualquier actuación colegial, expresa y manifiesta, dirigida a investigar la presunta infracción con conocimiento del interesado. La realización de cualquier acto colegial expreso y manifiesto de ejecución de la sanción con conocimiento del interesado interrumpirá el plazo de su prescripción.</p>
+          <p class="parrafo">4. Las sanciones se cancelarán al año si la falta fuera leve, a los dos años si fuera grave y a los cuatro años si fuera muy grave. Los plazos anteriores se contarán a partir del cumplimiento efectivo de la sanción. La cancelación supone la anulación del antece­dente sancionador a todos los efectos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-8" tipo="precepto" titulo="Artículo 56">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 56. Competencia y procedimiento.</p>
+          <p class="parrafo">1. La Junta de Gobierno ejercerá la función disciplinaria, sin perjuicio de la potestad sancionadora que corresponda a las Administraciones públicas en el ámbito de sus competencias, e impondrá, cuando proceda, las sanciones correspondientes, mediante el oportuno expediente disciplinario. El expediente se instruirá por la Comisión Deontológica y en él se dará, en todo caso, audiencia al interesado.</p>
+          <p class="parrafo">2. El procedimiento disciplinario se iniciará de oficio por la Junta de Gobierno, por propia iniciativa, a petición razonada del Presidente o por denuncia firmada por un colegiado o por un tercero con interés legítimo en la que habrán de indicarse las infracciones cometidas y las pruebas pertinentes.</p>
+          <p class="parrafo">Cuando medie denuncia, el órgano colegial competente dispondrá la apertura de un trámite de información previa, practicado el cual se ordenará el archivo de las actuaciones o la incoación de un expediente disciplinario. En este último caso se remitirá el expediente para su instrucción a la Comisión Deontológica.</p>
+          <p class="parrafo">El acuerdo de iniciación de un expediente disciplinario deberá recoger la identificación de la persona o personas presuntamente responsables, los hechos sucintamente expuestos que motivan la incoación del expediente, su posible calificación y las sanciones que pudieran corresponder, sin perjuicio de lo que resulte de la instrucción, así como la indicación del derecho a formular alegaciones y a la audiencia en el procedimiento y de los plazos para su ejercicio.</p>
+          <p class="parrafo">3. La Junta de Gobierno dará traslado del acuerdo de incoación del expediente a la Comisión Deontológica, acompañado de sus antecedentes y de cualquier información que sea relevante para la instrucción. El acuerdo se notificará a los interesados.</p>
+          <p class="parrafo">4. Tras las oportunas diligencias indagatorias, la Comisión Deontológica propondrá el sobreseimiento del expediente si no encontrara indicios de ilícito disciplinario o formulará pliego de cargos, en caso contrario. La resolución de la Junta de Gobierno que declare el sobreseimiento del expediente disciplinario será inmediatamente notificada a los interesados.</p>
+          <p class="parrafo">En el pliego de cargos se indicarán, con precisión, claridad y debidamente motivados, los actos profesionales o colegiales que se presumen ilícitos, la calificación del tipo de infracción en que incurre aquella conducta y la sanción a que, en su caso, pueda ser acreedora. Se concederá al interesado un plazo de 15 días hábiles para que conteste por escrito y formule el oportuno pliego de descargos, aporte documentos e informaciones, proponga las pruebas que estime oportunas y concrete los medios que considere convenientes para su defensa.</p>
+          <p class="parrafo">Podrán utilizarse todos los medios de prueba admisibles en derecho. La Comisión Deontológica practicará las que estime pertinentes entre las propuestas o las que ella misma pueda acordar. De las audiencias y pruebas practicadas se dejará constancia escrita en el expediente.</p>
+          <p class="parrafo">5. Concluida la instrucción del expediente disciplinario, la Comisión Deontológica formulará una propuesta de resolución, que fijará con precisión los hechos imputados al expedientado, indicará la infracción o infracciones cometidas y las sanciones que correspondan. De esta propuesta se dará traslado al interesado, al que se concederá nuevo trámite de audiencia para que pueda alegar cuanto estime oportuno o conveniente a su derecho.</p>
+          <p class="parrafo">6. Concluida la instrucción del expediente disciplinario, la Comisión Deontológica dará cuenta de su actuación y remitirá la propuesta de resolución, junto con todos los documentos, testimonios, actuaciones, actos administrativos, notificaciones y demás diligencias que se hayan realizado en el procedimiento, a la Junta de Gobierno para que esta adopte la resolución que estime conveniente.</p>
+          <p class="parrafo">7. La resolución de la Junta de Gobierno será motivada y decidirá todas las cuestiones planteadas. No podrá versar sobre hechos distintos de los que sirvieron de base a la propuesta de resolución. Contra la resolución que ponga fin al expediente disciplinario podrá recurrirse ante la misma Junta de Gobierno, de conformidad con lo dispuesto en el artículo 61.</p>
+          <p class="parrafo">En la notificación de la resolución se indicarán los recursos que procedan contra ella, los órganos colegiales o judiciales ante los que hayan de presentarse y los plazos para interponerlos.</p>
+          <p class="parrafo">8. El procedimiento disciplinario podrá ser desarrollado por el reglamento de régimen interior del colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-9" tipo="precepto" titulo="Artículo 57">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 57. Distinciones y premios.</p>
+          <p class="parrafo">El Colegio Oficial Nacional de Prácticos de Puerto, por medio de la Junta de Gobierno, podrá distinguir a los colegiados que hayan contribuido de forma especialmente destacada al progreso y al buen nombre de la profesión, particularmente por su participación en acciones de salvamento marítimo con beneficio para la vida y la seguridad de las personas, de la navegación marítima o de la protección del medio ambiente marino.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-4" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Régimen jurídico de los actos y acuerdos corporativos</p>
+        </version>
+      </bloque>
+      <bloque id="a5-10" tipo="precepto" titulo="Artículo 58">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 58. Régimen jurídico.</p>
+          <p class="parrafo">1. El Colegio Oficial Nacional de Prácticos de Puerto se rige en su organización y funcionamiento por:</p>
+          <p class="parrafo">a) La legislación básica estatal en materia de colegios profesionales.</p>
+          <p class="parrafo">b) El estatuto general.</p>
+          <p class="parrafo">c) El reglamento de régimen interior que el colegio apruebe en desarrollo y aplicación de las previsiones de este estatuto.</p>
+          <p class="parrafo">d) Las demás normas que sean de aplicación.</p>
+          <p class="parrafo_2">2. En lo no previsto en el estatuto general, será de aplicación la legislación vigente sobre régimen jurídico de las Administraciones públicas y procedimiento administrativo común. El régimen jurídico de los órganos colegiales se ajustará a las normas contenidas en este estatuto y, en su caso, en el reglamento de régimen interior.</p>
+          <p class="parrafo">3. Los acuerdos, decisiones o recomendaciones del colegio con trascendencia económica deberán observar los límites establecidos en el artículo 1 de la Ley 16/1989, de 17 de julio, de Defensa de la Competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-11" tipo="precepto" titulo="Artículo 59">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 59. Actos nulos de pleno derecho y actos anulables.</p>
+          <p class="parrafo">1. Son nulos de pleno derecho los actos de los órganos del colegio en los que se dé alguna de las siguientes circunstancias:</p>
+          <p class="parrafo">a) Los que lesionen los derechos y libertades susceptibles de amparo constitucional.</p>
+          <p class="parrafo">b) Los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio.</p>
+          <p class="parrafo">c) Los que tengan un contenido imposible.</p>
+          <p class="parrafo">d) Los que sean constitutivos de infracción penal o se dicten como consecuencia de esta.</p>
+          <p class="parrafo">e) Los dictados prescindiendo total y absolutamente del procedimiento legalmente establecido o de las normas que contienen las reglas esenciales para la formación de la voluntad de los órganos colegiados.</p>
+          <p class="parrafo">f) Los actos expresos o presuntos contrarios al ordenamiento jurídico por los que se adquieren facultades o derechos cuando se carezca de los requisitos esenciales para su adquisición.</p>
+          <p class="parrafo">g) Los acuerdos, decisiones y recomendaciones que estén prohibidos en virtud de lo dispuesto en el artícu­lo 1.1 de la Ley 16/1989, de 17 de julio, de Defensa de la Competencia, y no estén amparados por la debida exención legal.</p>
+          <p class="parrafo">h) Cualquier otro que se establezca expresamente en una disposición de rango legal.</p>
+          <p class="parrafo_2">2. Son anulables los actos que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder.</p>
+        </version>
+      </bloque>
+      <bloque id="a6-2" tipo="precepto" titulo="Artículo 60">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 60. Ejecución de los actos administrativos.</p>
+          <p class="parrafo">Los actos y resoluciones adoptados por los órganos del colegio en el ejercicio legítimo de sus potestades administrativas serán ejecutivos desde su adopción, en los términos señalados en la legislación sobre procedimiento administrativo común.</p>
+        </version>
+      </bloque>
+      <bloque id="a6-3" tipo="precepto" titulo="Artículo 61">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 61. Recursos corporativos.</p>
+          <p class="parrafo">1. Los actos y disposiciones del colegio sujetos al derecho administrativo serán impugnables directamente ante la jurisdicción contencioso-administrativa, de conformidad con lo dispuesto en la Ley 29/1998, de 13 de julio, una vez agotados los recursos corporativos.</p>
+          <p class="parrafo">2. Los acuerdos y resoluciones de la Junta de Gobierno agotan la vía corporativa. No obstante, podrán se objeto de recurso de reposición ante la misma Junta, en el plazo de un mes, de conformidad con lo dispuesto en la legislación sobre procedimiento administrativo común.</p>
+          <p class="parrafo">3. Los acuerdos y resoluciones de los demás órganos colegiales, excepto los de la Asamblea General, no ponen fin a la vía corporativa y son recurribles en alzada ante la Junta de Gobierno, en el plazo de un mes, de conformidad con lo dispuesto en la legislación sobre procedimiento administrativo común.</p>
+          <p class="parrafo">4. Contra los acuerdos y disposiciones de la Asamblea General del colegio no cabe recurso corporativo alguno, y son impugnables directamente ante la jurisdicción contencioso-administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-5" tipo="encabezado" titulo="CAPÍTULO IX">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Disolución del colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a6-4" tipo="precepto" titulo="Artículo 62">
+        <version id_norma="BOE-A-2005-12175" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 62. Disolución del colegio.</p>
+          <p class="parrafo">1. El colegio podrá disolverse por decisión propia, adoptada por la Asamblea General en sesión extraordinaria convocada a tal efecto. Será, además, preciso que voten a favor de la disolución las tres cuartas partes del número legal de miembros del colegio.</p>
+          <p class="parrafo">2. Como consecuencia de la disolución, el patrimonio resultante de la liquidación se atribuirá a la Federación Nacional de Prácticos de Puerto y, en su defecto, a fundaciones o asociaciones, benéficas o asistenciales. Su determinación se realizará por la misma Asamblea General que tome la decisión de disolución, que no podrá aprobarse hasta que se fije el destino final del patrimonio, que propondrá la Junta de Gobierno del Colegio.</p>
+          <p class="parrafo">3. Acordada la disolución, la Junta de Gobierno actuará como comisión liquidadora.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T123811Z</fecha_actualizacion>
+      <identificador>BOE-A-2010-14304</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4210">Ministerio de Educación</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20100917</fecha_disposicion>
+      <numero_oficial>1160/2010</numero_oficial>
+      <titulo>Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20100918</fecha_publicacion>
+      <diario_numero>227</diario_numero>
+      <fecha_vigencia>20100919</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2010/09/17/1160</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2010-14304</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="30">Academias</materia>
+        <materia codigo="4327">Instituto de España</materia>
+        <materia codigo="4973">Ministerio de Educación</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1947-4492</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto de 18 de abril de 1947 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1938-65</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto 436, de 1 de enero de 1938 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1937-13624</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto 427, de 8 de diciembre de 1937 (Gazeta)</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2025-8649</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 1.2.h), por Real Decreto 267/2025, de 8 de abril</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2017-3189</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 1.2, por Real Decreto 285/2017, de 24 de marzo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2015-7852</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 1.2, por Real Decreto 536/2015, de 26 de junio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2015-6104</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>con la disposición final 2, crea la Academia de Psicología de España y aprueba sus estatutos: Real Decreto 378/2015, de 14 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-14304</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-17</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1160</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4327"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-14304</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1160</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20250501"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20170325"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20150714"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20100918"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-18</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20250501">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-14304</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1160</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-01</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20250501/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20250501"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20250501/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20250501/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20170325">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-14304</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1160</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-25</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20170325/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20170325"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20170325/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20170325/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20150714">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-14304</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1160</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20150714/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20150714"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20150714/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20150714/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20100918">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-14304</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1160</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4327"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20100918/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1160/2010, de 17 de septiembre, por el que se regula el Instituto de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20100918"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20100918/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/09/17/1160/con/20100918/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="parrafo">Las Reales Academias, surgidas del espíritu de la Ilustración y amparadas por la Corona, empezaron a constituirse en España en el siglo XVIII como centros de cultivo del saber y de difusión del conocimiento. Han sido y siguen siendo las entidades que representan la excelencia en los diversos campos de las ciencias, las artes y las humanidades. Sus valores esenciales son, por un lado, la categoría de sus miembros, en quienes concurren los más altos méritos intelectuales y científicos, y por otro, su estabilidad e independencia frente a intereses económicos o políticos.</p>
+          <p class="parrafo">En la época actual, tanto o más que en los siglos pasados, esos valores de excelencia e independencia justifican que las Reales Academias, que se hallan bajo el Alto Patronazgo de Su Majestad el Rey, tal como establece el artículo 62.j) de la Constitución, sigan siendo centros de pensamiento, de cultura y de investigación avanzada, libre y sosegada, que aporten luz sobre los complejos problemas de nuestro tiempo.</p>
+          <p class="parrafo">El Instituto de España se creó por sendos Decretos de 8 de diciembre de 1937 y 1 de enero de 1938, y sus Estatutos todavía vigentes se aprobaron por Decreto de 18 de abril de 1947. De acuerdo con dichos Estatutos, el Instituto de España se constituyó como corporación nacional a título de máximo exponente de la cultura española en el orden académico («Senado de la cultura española»), cuyo objeto era mantener y estrechar la fraternidad espiritual de las ocho Reales Academias nacionales (la Española, la de Historia, la de Bellas Artes de San Fernando, la de Ciencias Exactas, Físicas y Naturales, la de Ciencias Morales y Políticas, la Nacional de Medicina, la de Jurisprudencia y Legislación, y la Nacional de Farmacia), auxiliándose y completándose entre sí para la mayor eficacia de sus tareas y actividades, formando la «superior» representación académica nacional en España y en el extranjero.</p>
+          <p class="parrafo">No puede desconocerse que, en el momento histórico de su creación, también existió por parte del Estado una voluntad de control y tutela sobre la actividad de las Reales Academias. Pero también resulta innegable que el Instituto ha sabido desarrollar su labor de apoyo a las Reales Academias, de coordinación de sus funciones y de comunicación entre ellas, y al mismo tiempo de proyección de sus trabajos hacia la sociedad.</p>
+          <p class="parrafo">El tiempo transcurrido desde la aprobación de sus vigentes Estatutos, y las transformaciones de todo orden experimentadas por el Estado y la sociedad española, hacen imprescindible una reforma del Instituto de España. La que se aborda en el presente Real Decreto tiene como principal objetivo su modernización, conservando y potenciando los aspectos más valiosos de su trayectoria, dinamizando su organización y definiendo sus funciones y objetivos para servir a la sociedad española del siglo XXI. Se pretende que siga siendo el punto de encuentro de las Reales Academias, y el cauce para que éstas puedan coordinar el cumplimiento de todas aquellas funciones que resulte preferible ejercer en común, eliminando al mismo tiempo cualquier residuo de tutela, control o restricción de su autonomía.</p>
+          <p class="parrafo">Las funciones que se definen para el Instituto ponen también el acento en el traslado a la sociedad de su labor, dado que, en el momento actual, las medidas para fomentar la generación del conocimiento y su transferencia a la sociedad suponen un pilar básico del nuevo modelo productivo hacia el que debe encaminarse nuestro país.</p>
+          <p class="parrafo">Al mismo tiempo, resulta ya ineludible adecuar el funcionamiento del Instituto de España al nuevo marco del Estado autonómico derivado de la Constitución Española, y al reconocimiento de las competencias asumidas por las Comunidades Autónomas sobre las Academias de su ámbito territorial.</p>
+          <p class="parrafo">Desde el mismo siglo XVIII, a la vez que se creaban las primeras Reales Academias nacionales, fueron constituyéndose diversas Reales Academias y otras Academias con un ámbito territorial limitado: local, provincial o regional. El Instituto de España abordó la necesaria coordinación con esas Academias territoriales a través de unas normas internas de 20 de octubre de 1979, que crearon la figura de las Academias Asociadas. Actualmente, cincuenta de esas Academias provinciales o territoriales están asociadas al Instituto de España. En relación con ellas, el criterio básico debe ser el absoluto respeto a las competencias de las Comunidades Autónomas, asumidas bien en virtud de una atribución expresa en sus Estatutos de Autonomía, bien a través de los títulos competenciales generales sobre fomento de la investigación y la cultura. Debe recordarse además que la Comunidad de Madrid, el Principado de Asturias y la Región de Murcia, han dictado sus propias leyes para regular las Academias establecidas en su ámbito territorial, y que la Comunidad Autónoma de Andalucía ha creado por ley el Instituto de Academias de Andalucía.</p>
+          <p class="parrafo">La reforma que se aborda en este real decreto expresa también la voluntad del Gobierno de coadyuvar, dentro de sus competencias, al mejor desarrollo de los trabajos de las Academias y al refuerzo de su presencia en la sociedad, de modo que se utilice al máximo el inmenso caudal de conocimientos, experiencia de investigación y pensamiento de estas instituciones. Con el fin de ordenar esa función, se incorpora una disposición adicional que establece algunos elementos esenciales del régimen de las Academias de ámbito nacional.</p>
+          <p class="parrafo">En la tramitación de este real decreto han sido oídos el Instituto de España, las Reales Academias integradas en el mismo y las demás Reales Academias de ámbito nacional oficialmente reconocidas.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Educación y previa deliberación del Consejo de Ministros en su reunión del día 17 de septiembre de 2010,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 1. Naturaleza y constitución.</p>
+          <p class="parrafo">1. El Instituto de España es una corporación de derecho público, con personalidad jurídica y capacidad de obrar para el cumplimiento de sus fines, que reúne a las Reales Academias de ámbito nacional que se relacionan en el apartado siguiente, para la coordinación de las funciones que deban ejercer en común.</p>
+          <p class="parrafo">2. Forman parte del Instituto de España:</p>
+          <p class="parrafo_2">a) La Real Academia Española.</p>
+          <p class="parrafo">b) La Real Academia de la Historia.</p>
+          <p class="parrafo">c) La Real Academia de Bellas Artes de San Fernando.</p>
+          <p class="parrafo">d) La Real Academia de Ciencias Exactas, Físicas y Naturales.</p>
+          <p class="parrafo">e) La Real Academia de Ciencias Morales y Políticas.</p>
+          <p class="parrafo">f)	La Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">g) La Real Academia de Jurisprudencia y Legislación.</p>
+          <p class="parrafo">h) La Real Academia Nacional de Farmacia.</p>
+          <p class="parrafo_2">3. El Gobierno, a propuesta del Ministro de Educación y previo informe del Instituto de España y de las Academias que lo integran, podrá acordar la integración en el Instituto de otras Academias de ámbito nacional, valorando su trayectoria y la calidad y excelencia de sus miembros y actividades.</p>
+        </version>
+        <version id_norma="BOE-A-2015-7852" fecha_publicacion="20150714" fecha_vigencia="20150715">
+          <p class="articulo">Artículo 1. Naturaleza y constitución.</p>
+          <p class="parrafo">1. El Instituto de España es una corporación de derecho público, con personalidad jurídica y capacidad de obrar para el cumplimiento de sus fines, que reúne a las Reales Academias de ámbito nacional que se relacionan en el apartado siguiente, para la coordinación de las funciones que deban ejercer en común.</p>
+          <p class="parrafo">2. Forman parte del Instituto de España:</p>
+          <p class="parrafo_2">a) La Real Academia Española.</p>
+          <p class="parrafo">b) La Real Academia de la Historia.</p>
+          <p class="parrafo">c) La Real Academia de Bellas Artes de San Fernando.</p>
+          <p class="parrafo">d) La Real Academia de Ciencias Exactas, Físicas y Naturales.</p>
+          <p class="parrafo">e) La Real Academia de Ciencias Morales y Políticas.</p>
+          <p class="parrafo">f) La Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">g) La Real Academia de Jurisprudencia y Legislación.</p>
+          <p class="parrafo">h) La Real Academia Nacional de Farmacia.</p>
+          <p class="parrafo">i) La Real Academia de Ingeniería.</p>
+          <p class="parrafo_2">3. El Gobierno, a propuesta del Ministro de Educación y previo informe del Instituto de España y de las Academias que lo integran, podrá acordar la integración en el Instituto de otras Academias de ámbito nacional, valorando su trayectoria y la calidad y excelencia de sus miembros y actividades.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade la letra i) al apartado 2 por el art. único del Real Decreto 536/2015, de 26 de junio. <a class="refPost">Ref. BOE-A-2015-7852</a></p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2017-3189" fecha_publicacion="20170325" fecha_vigencia="20170326">
+          <p class="articulo">Artículo 1. Naturaleza y constitución.</p>
+          <p class="parrafo">1. El Instituto de España es una corporación de derecho público, con personalidad jurídica y capacidad de obrar para el cumplimiento de sus fines, que reúne a las Reales Academias de ámbito nacional que se relacionan en el apartado siguiente, para la coordinación de las funciones que deban ejercer en común.</p>
+          <p class="parrafo">2. Forman parte del Instituto de España:</p>
+          <p class="parrafo_2">a) La Real Academia Española.</p>
+          <p class="parrafo">b) La Real Academia de la Historia.</p>
+          <p class="parrafo">c) La Real Academia de Bellas Artes de San Fernando.</p>
+          <p class="parrafo">d) La Real Academia de Ciencias Exactas, Físicas y Naturales.</p>
+          <p class="parrafo">e) La Real Academia de Ciencias Morales y Políticas.</p>
+          <p class="parrafo">f) La Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">g) La Real Academia de Jurisprudencia y Legislación.</p>
+          <p class="parrafo">h) La Real Academia Nacional de Farmacia.</p>
+          <p class="parrafo">i) La Real Academia de Ingeniería.</p>
+          <p class="parrafo">j) La Real Academia de Ciencias Económicas y Financieras.</p>
+          <p class="parrafo_2">3. El Gobierno, a propuesta del Ministro de Educación y previo informe del Instituto de España y de las Academias que lo integran, podrá acordar la integración en el Instituto de otras Academias de ámbito nacional, valorando su trayectoria y la calidad y excelencia de sus miembros y actividades.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade la letra j) al apartado 2 por el art. único del Real Decreto 285/2017, de 24 de marzo. <a class="refPost">Ref. BOE-A-2017-3189</a></p>
+            <p class="nota_pie">Se añade la letra i) al apartado 2 por el art. único del Real Decreto 536/2015, de 26 de junio. <a class="refPost">Ref. BOE-A-2015-7852</a></p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2025-8649" fecha_publicacion="20250501" fecha_vigencia="20250502">
+          <p class="articulo">Artículo 1. Naturaleza y constitución.</p>
+          <p class="parrafo">1. El Instituto de España es una corporación de derecho público, con personalidad jurídica y capacidad de obrar para el cumplimiento de sus fines, que reúne a las Reales Academias de ámbito nacional que se relacionan en el apartado siguiente, para la coordinación de las funciones que deban ejercer en común.</p>
+          <p class="parrafo">2. Forman parte del Instituto de España:</p>
+          <p class="parrafo_2">a) La Real Academia Española.</p>
+          <p class="parrafo">b) La Real Academia de la Historia.</p>
+          <p class="parrafo">c) La Real Academia de Bellas Artes de San Fernando.</p>
+          <p class="parrafo">d) La Real Academia de Ciencias Exactas, Físicas y Naturales.</p>
+          <p class="parrafo">e) La Real Academia de Ciencias Morales y Políticas.</p>
+          <p class="parrafo">f) La Real Academia Nacional de Medicina.</p>
+          <p class="parrafo">g) La Real Academia de Jurisprudencia y Legislación.</p>
+          <p class="parrafo">h) La Real Academia Nacional de Farmacia de España.</p>
+          <p class="parrafo">i) La Real Academia de Ingeniería.</p>
+          <p class="parrafo">j) La Real Academia de Ciencias Económicas y Financieras.</p>
+          <p class="parrafo_2">3. El Gobierno, a propuesta del Ministro de Educación y previo informe del Instituto de España y de las Academias que lo integran, podrá acordar la integración en el Instituto de otras Academias de ámbito nacional, valorando su trayectoria y la calidad y excelencia de sus miembros y actividades.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra h) del apartado 2 por el art. único del Real Decreto 267/2025, de 8 de abril. <a class="refPost">Ref. BOE-A-2025-8649#df</a></p>
+            <p class="nota_pie">Se añade la letra j) al apartado 2 por el art. único del Real Decreto 285/2017, de 24 de marzo. <a class="refPost">Ref. BOE-A-2017-3189</a></p>
+            <p class="nota_pie">Se añade la letra i) al apartado 2 por el art. único del Real Decreto 536/2015, de 26 de junio. <a class="refPost">Ref. BOE-A-2015-7852</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 2. Relación con el Ministerio de Educación.</p>
+          <p class="parrafo">El Instituto de España se relaciona administrativamente con el Ministerio de Educación, a efectos de su vinculación con la Administración General del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 3. Objetivos.</p>
+          <p class="parrafo">Son objetivos del Instituto de España:</p>
+          <p class="parrafo_2">a) Fomentar la relación y la colaboración entre las Reales Academias que lo integran, y con las demás Reales Academias y Academias Asociadas, con pleno respeto a la autonomía, personalidad y ámbito material de cada una de ellas.</p>
+          <p class="parrafo">b) Coordinar el cumplimiento de todas aquellas funciones y competencias que las Reales Academias integradas, o algunas de ellas, puedan ejercer en común.</p>
+          <p class="parrafo">c) Promover la generación del conocimiento y su transferencia a la sociedad, a través de las actividades coordinadas de las Reales Academias.</p>
+          <p class="parrafo">d) Ser punto de encuentro de las Reales Academias y de éstas con la sociedad.</p>
+          <p class="parrafo">e) Ostentar la representación corporativa común de las Reales Academias integradas en el Instituto.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 4. Funciones.</p>
+          <p class="parrafo">Serán funciones del Instituto de España las que las Reales Academias integradas acuerden ejercer en común, así como las que le sean encomendadas por el Estado o, en su caso, por las Administraciones de las Comunidades Autónomas, previo establecimiento de los pertinentes instrumentos de colaboración o financiación. En particular, serán funciones del Instituto de España:</p>
+          <p class="parrafo_2">a) Propiciar los trabajos y actividades interdisciplinarios sobre materias de interés general en los que puedan colaborar dos o más Reales Academias y publicar o difundir, por cualquier medio o en cualquier soporte, los informes o estudios resultantes de esos trabajos y actividades.</p>
+          <p class="parrafo">b) Impulsar la presencia de las Reales Academias en la sociedad, en todos los ámbitos y especialmente en los medios de comunicación, para asegurar la difusión y trascendencia de sus trabajos.</p>
+          <p class="parrafo">c) Establecer relaciones de cooperación y coordinación con las Reales Academias y Academias no integradas ni asociadas al Instituto, con pleno respeto a la autonomía de cada entidad, y a las competencias de las Comunidades Autónomas en cuanto a las Academias de su ámbito territorial.</p>
+          <p class="parrafo">d) Mantener relaciones de comunicación, y en su caso cooperación, con las asociaciones u organizaciones internacionales de Academias que existan o puedan crearse, con otras instituciones similares de otros países, y con las Academias extranjeras.</p>
+          <p class="parrafo">e) Responder las consultas que le formule la Administración General del Estado o, en su caso, otras Administraciones Públicas.</p>
+          <p class="parrafo">f) Emitir informe sobre los proyectos de creación de Academias de ámbito nacional, así como sobre las propuestas de aprobación o modificación de sus Estatutos, según se detalla en la disposición adicional segunda.</p>
+          <p class="parrafo">g) Respetando la autonomía de cada Academia, favorecer y respaldar cuantas iniciativas promuevan una mayor presencia de mujeres tanto en sus órganos de gobierno como en el conjunto de la comunidad académica.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 5. Organización.</p>
+          <p class="parrafo">1. El Instituto de España estará dirigido por una Junta Rectora, integrada por las personas que ocupen la Presidencia o Dirección de cada una de las Reales Academias integradas. Las funciones de la Junta Rectora, que se desarrollarán en el Reglamento interno, incluirán la aprobación del anteproyecto de presupuestos y de las cuentas anuales del Instituto. La Junta Rectora estará asistida por la Secretaría General, cuyo titular participará en sus reuniones con voz pero sin voto.</p>
+          <p class="parrafo">2. La Presidencia del Instituto de España y de su Junta Rectora será desempeñada, en turno rotatorio anual, por una de las personas que la integran.</p>
+          <p class="parrafo">3. Durante cada período anual, el titular del puesto a quien corresponda el siguiente turno de Presidencia actuará como Vicepresidente.</p>
+          <p class="parrafo">4. Como órganos de asistencia de la Junta Rectora y de ejecución de sus acuerdos, podrán crearse una o varias Comisiones Técnicas, formadas por representantes de las Reales Academias integradas, designadas por ellas de entre sus Académicos o Académicas de número, y coordinadas por la Secretaría General.</p>
+          <p class="parrafo">5. La persona que ocupe la Secretaría General será elegida por la Junta Rectora, de entre los Académicos y Académicas de Número de las Reales Academias integradas. Sus funciones y la duración de su mandato, que no podrá exceder de cuatro años, con posibilidad de reelección, se determinarán en el Reglamento interno.</p>
+          <p class="parrafo">6. El Reglamento interno determinará la denominación y funciones de los demás cargos que resulten necesarios para el funcionamiento del Instituto, así como la duración de su mandato, que no podrá exceder de cuatro años, con posibilidad de reelección. Las personas titulares de estos cargos serán designadas por la Junta Rectora y dependerán funcionalmente de la Secretaría General.</p>
+          <p class="parrafo">7. El Reglamento interno fijará el carácter y periodicidad de las reuniones de la Junta Rectora, así como la realización de las sesiones solemnes. También regulará la organización y las condiciones de trabajo del personal del Instituto, de acuerdo con la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 6. Medios y régimen económico, presupuestario y de personal.</p>
+          <p class="parrafo">1. Para la realización de sus funciones, el Instituto de España dispondrá de los medios que se le asignen en los Presupuestos Generales del Estado, de las subvenciones que puedan concederle otras Administraciones Públicas u organismos, de las aportaciones de entidades o personas públicas o privadas, de los productos de sus publicaciones y servicios, y de las donaciones y legados que reciba.</p>
+          <p class="parrafo">2. La gestión y administración de los bienes propios, así como de aquéllos del Patrimonio del Estado que se adscriban al Instituto para el cumplimiento de sus fines, será ejercida con sujeción a lo establecido para los organismos públicos en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas, y su Reglamento aprobado por Real Decreto 1373/2009, de 28 de agosto.</p>
+          <p class="parrafo">3. La actividad contractual del Instituto se someterá al régimen establecido para las Administraciones Públicas en la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+          <p class="parrafo">4. La obtención y justificación de subvenciones públicas se someterá a las condiciones de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.</p>
+          <p class="parrafo">5. El personal del Instituto se regirá por la legislación laboral.</p>
+          <p class="parrafo">6. De acuerdo con la disposición adicional décima de la Ley 49/2002, de 23 de diciembre, de régimen fiscal de las entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo, el Instituto de España se beneficia de las exenciones fiscales del artículo 15 de dicha Ley, y tiene carácter de entidad beneficiaria del mecenazgo de acuerdo con el artículo 16 de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 7. Reglamento interno.</p>
+          <p class="parrafo">1. El Reglamento interno del Instituto, que establecerá sus normas de organización y funcionamiento, será elaborado y aprobado por la Junta Rectora.</p>
+          <p class="parrafo">2. En lo no regulado por este real decreto ni por el Reglamento interno, se aplicarán las normas sobre órganos colegiados contenidas en el título II, capítulo II, de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Artículo 8. Academias asociadas.</p>
+          <p class="parrafo">1. El Instituto de España, por acuerdo de su Junta Rectora, podrá reconocer como asociadas a otras Reales Academias y Academias de ámbito nacional, autonómico, provincial o local, oficialmente establecidas y reconocidas.</p>
+          <p class="parrafo">2. El Reglamento interno regulará las condiciones para dicha asociación, que deberán respetar la autonomía de las Academias, la voluntariedad de la asociación y las competencias de las Comunidades Autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición adicional primera. Actuales Academias asociadas.</p>
+          <p class="parrafo">Las Reales Academias y Academias asociadas al Instituto de España en la fecha de entrada en vigor del presente real decreto, conservarán dicho carácter.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición adicional segunda. Academias de ámbito nacional.</p>
+          <p class="parrafo">1. Las Academias de ámbito nacional se crearán por Real Decreto del Gobierno, a propuesta del Ministro de Educación, previo informe del Instituto de España y, en su caso, de la Academia o Academias de ámbito nacional más directamente relacionadas con las materias de que se trate. El Real Decreto de creación de la Academia incluirá la aprobación de sus primeros Estatutos, los cuales deberán contener como mínimo su denominación, objetivos y funciones, organización, derechos y deberes de los académicos y académicas, y medios económicos para su funcionamiento. Desde el momento de su creación, la Academia tendrá personalidad jurídica y capacidad plena para el cumplimento de sus fines.</p>
+          <p class="parrafo">2. Para la creación de Academias de ámbito nacional a la que se refiere el apartado anterior, será necesario que el ámbito de actividad de la nueva Academia se corresponda con un ámbito del saber que esté lo suficientemente consolidado y tenga entidad propia. Será necesario asimismo que las actividades de la nueva Academia se refieran a un ámbito del conocimiento que no se encuentre específicamente cubierto por otra Academia de ámbito nacional previamente existente.</p>
+          <p class="parrafo">3. La creación de una Academia de ámbito nacional no implicará su automática integración en el Instituto de España, la cual podrá efectuarse, en su caso, de acuerdo con lo previsto en el artículo 1.3.</p>
+          <p class="parrafo">4. La denominación específica de cada Academia, establecida en su norma de creación, o de aprobación o modificación de sus Estatutos, quedará reservada a ésta, sin que pueda ser utilizada por ninguna otra entidad. Sólo podrán utilizar el título de «Real» las Academias a las que les sea debidamente concedido por el Rey.</p>
+          <p class="parrafo">5. Las modificaciones de los Estatutos de las Academias de ámbito nacional se propondrán por la Academia de que se trate, previa aprobación interna según lo previsto en sus normas estatutarias. Se aprobarán por Real Decreto del Gobierno, a propuesta del Ministerio de Educación, el cual recabará previamente el informe del Instituto de España.</p>
+          <p class="parrafo">6. Corresponde al Ministerio de Educación la relación administrativa con las Reales Academias y Academias de ámbito nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición transitoria primera. Constitución de la Junta Rectora.</p>
+          <p class="parrafo">1. En el plazo de un mes a partir de la entrada en vigor del presente real decreto, el Director de la Real Academia Española, como Academia más antigua, convocará a las restantes personas que ocupen la Presidencia o Dirección de las Reales Academias integradas en el Instituto, para constituir la Junta Rectora y designar a la persona titular de la Secretaría General.</p>
+          <p class="parrafo">2. En el acto de constitución de la Junta Rectora, se determinará por sorteo la persona integrante de la misma que desempeñará la Presidencia en el primer turno. Desde ese momento, la rotación seguirá el orden establecido en el artículo 1.2, al que se añadirán, en su caso, las Academias integradas con posterioridad de acuerdo con el artículo 1.3, en orden cronológico de integración. No obstante, los Presidentes o Directores de esas Academias integradas posteriormente no podrán ejercer la Presidencia del Instituto hasta que haya transcurrido un mínimo de cinco años desde la efectividad de la integración.</p>
+          <p class="parrafo">3. Hasta que se produzca la constitución de la Junta Rectora, la actual Mesa del Instituto de España seguirá en funciones, para mantener el funcionamiento ordinario del Instituto.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición transitoria segunda. Actuales normas estatutarias.</p>
+          <p class="parrafo">En relación con los apartados 1 y 3 de la disposición adicional segunda, los Estatutos de Academias de ámbito nacional que fueron aprobados por normas de rango inferior al Real Decreto continuarán vigentes en tanto no se produzca su sustitución por unos nuevos Estatutos, que deberán aprobarse por Real Decreto del Gobierno, a propuesta del Ministerio de Educación, previa iniciativa de la Academia y con informe del Instituto de España.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">1. Quedan derogados:</p>
+          <p class="parrafo_2">a) El Decreto número 427, de 8 de diciembre de 1937.</p>
+          <p class="parrafo">b) El Decreto número 436, de 1 de enero de 1938.</p>
+          <p class="parrafo">c) El Decreto de 18 de abril de 1947, por el que se dictan los preceptos estatutarios para el Instituto de España.</p>
+          <p class="parrafo">d) Cuantas normas del mismo o inferior rango se opongan a lo dispuesto en el presente real decreto.</p>
+          <p class="parrafo_2">2. No obstante lo dispuesto en el apartado anterior, en tanto se apruebe el Reglamento interno a que se refiere el artículo 7, podrá seguir aplicándose el reglamento actual a los únicos efectos de mantener el funcionamiento ordinario del Instituto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición final primera. Desarrollo normativo.</p>
+          <p class="parrafo">Corresponde al Ministro de Educación dictar cuantas disposiciones sean precisas para el desarrollo y aplicación del presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2010-14304" fecha_publicacion="20100918" fecha_vigencia="20100919">
+          <p class="parrafo_2">Dado en Madrid, el 17 de septiembre de 2010.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Educación,</p>
+          <p class="firma_ministro">ÁNGEL GABILONDO PUJOL</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

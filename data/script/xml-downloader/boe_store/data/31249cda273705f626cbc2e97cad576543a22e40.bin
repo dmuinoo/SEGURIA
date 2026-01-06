@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183810Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-7238</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="6110">Ministerio de Defensa</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20150629</fecha_disposicion>
+      <numero_oficial>DEF/1265/2015</numero_oficial>
+      <titulo>Orden DEF/1265/2015, de 29 de junio, por la que se desarrolla la organización básica del Ejército de Tierra.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20150630</fecha_publicacion>
+      <diario_numero>155</diario_numero>
+      <fecha_vigencia>20150701</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20200729</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2015/06/29/def1265</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-7238</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3132">Ejército de Tierra</materia>
+        <materia codigo="3839">Fuerzas Armadas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-5569</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>el apartado 1.2 de la Orden DEF/610/2002, de 8 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2015-1232</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Orden DEF/166/2015, de 21 de enero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2014-10520</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Real Decreto 872/2014, de 10 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2005-18933</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 5/2005, de 17 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2020-8636</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Orden DEF/708/2020, de 27 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2018-17600</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 3, 7, 8, 10, 11, 21 de la Organización del Ejército de Tierra y la disposición adicional 1, por Orden DEF/1362/2018, de 20 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-7238</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def1265</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3132"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-7238</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def1265</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3132"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20200728"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20181222"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20150630"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden DEF/1265/2015, de 29 de junio, por la que se desarrolla la organización básica del Ejército de Tierra.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-30</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20200728">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-7238</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def1265</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3132"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20200728/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden DEF/1265/2015, de 29 de junio, por la que se desarrolla la organización básica del Ejército de Tierra.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20200728"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20200728/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20200728/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20181222">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-7238</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def1265</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3132"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-22</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20181222/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden DEF/1265/2015, de 29 de junio, por la que se desarrolla la organización básica del Ejército de Tierra.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20181222"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20181222/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20181222/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20150630">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-7238</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def1265</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3132"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3839"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20150630/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden DEF/1265/2015, de 29 de junio, por la que se desarrolla la organización básica del Ejército de Tierra.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20150630"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20150630/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2015/06/29/def1265/con/20150630/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2020-8636" fecha_publicacion="20200728" fecha_vigencia="20200729">
+          <p class="siempreSeVe">Norma derogada, con efectos de 29 de julio de 2020, por la disposición derogatoria única.1 de la Orden DEF/708/2020, de 27 de julio. <a class="refPost">Ref. BOE-A-2020-8636#dd</a></p>
+          <p> </p>
+          <p> </p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="parrafo_2">La aprobación de la Orden DEF/166/2015, de 21 de enero, por la que desarrolla la organización básica de las Fuerzas Armadas, supuso el desarrollo parcial del Real Decreto 872/2014, de 10 de octubre, por el que se establece la organización básica de las Fuerzas Armadas. Este grado de desarrollo permitió la derogación de las 10 órdenes ministeriales en las que estaba dispersa la organización de las Fuerzas Armadas, recogiendo el contenido de todas ellas y adaptándolo en la media de lo necesario con arreglo a la legislación vigente; en particular, a la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional y al mencionado real decreto.</p>
+          <p class="parrafo">Sin embargo, las unidades que se describen en esa orden ministerial no suponen el total de las que, con arreglo a su artículo 3.3, son competencia del titular del departamento, por lo que se hace necesario dictar esta disposición que complemente a la anterior y que permita que el Jefe de Estado Mayor del Ejército de Tierra pueda desarrollar su propia organización.</p>
+          <p class="parrafo">La exposición de motivos de la Orden DEF/166/2015, de 21 de enero, detalla los aspectos que se han tenido en cuenta para su redacción, que han sido, igualmente, aplicados para la redacción de esta orden ministerial.</p>
+          <p class="parrafo">En su virtud, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo único. Aprobación de la organización del Ejército de Tierra.</p>
+          <p class="parrafo">Con arreglo a lo establecido en el Real Decreto 872/2014, de 10 de octubre, por el que se establece la organización básica de las Fuerzas Armadas, y en conformidad con la Orden DEF/166/2015, de 21 de enero, por la que desarrolla la organización básica de las Fuerzas Armadas, se aprueba la organización del Ejército de Tierra, que se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Disposición adicional primera. Órganos colegiados.</p>
+          <p class="parrafo">1. En lo no regulado por esta orden ministerial, el funcionamiento de los órganos colegiados que en la misma se citan se ajustará a lo previsto en el título II, capítulo II, de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. La pertenencia o participación en las reuniones de estos órganos colegiados no supondrá la percepción de ningún tipo de retribución o indemnización que suponga incremento del gasto público.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Disposición adicional primera. Órganos colegiados.</p>
+          <p class="parrafo">1. En lo no regulado por esta orden ministerial, el funcionamiento de los órganos colegiados que en la misma se citan se estará a lo previsto en el capítulo II, sección 3.ª, de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+          <p class="parrafo">2. La pertenencia o participación en las reuniones de estos órganos colegiados no supondrá la percepción de ningún tipo de retribución o indemnización que suponga incremento del gasto público.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.1 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Disposición adicional segunda. No incremento del gasto público.</p>
+          <p class="parrafo">La aplicación de esta orden ministerial, incluida la modificación de las unidades existentes y la creación de aquellas que sean necesarias, se hará sin aumento de coste de funcionamiento del Ejército de Tierra y no supondrá incremento del gasto público.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Disposición transitoria única. Unidades existentes.</p>
+          <p class="parrafo">1. Las unidades contempladas en esta orden ministerial ejercerán sus funciones y cometidos conforme se vayan produciendo las adaptaciones orgánicas necesarias y les sean transferidas dichas funciones y cometidos.</p>
+          <p class="parrafo">2. Las unidades no contempladas en esta orden ministerial, pasarán a depender de alguna de las unidades aquí establecidas, con arreglo a lo que disponga el Jefe de Estado Mayor del Ejército de Tierra, y continuarán ejerciendo sus funciones y cometidos hasta que entre en vigor la instrucción dictada por dicha autoridad que desarrolle esta orden ministerial, se produzcan las adaptaciones orgánicas necesarias y se transfieran dichas funciones y cometidos a las nuevas unidades.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Disposición final primera. Modificación de la Orden DEF/610/2002, de 8 de marzo, por la que se crea el Centro Internacional de Desminado.</p>
+          <p class="parrafo">El punto 2 del apartado primero de la Orden DEF/610/2002, de 8 de marzo, por la que se crea el Centro Internacional de Desminado, queda redactado como sigue:</p>
+          <p class="sangrado_2">«2. El citado Centro será dirigido por un miembro de la escala de oficiales del Cuerpo General del Ejército de Tierra, especialidad fundamental de Ingenieros, de empleo inferior a coronel, con arreglo a lo que se establezca en su correspondiente relación de puestos militares.»</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Disposición final segunda. Facultades de desarrollo.</p>
+          <p class="parrafo">1. Se faculta al Jefe de Estado Mayor del Ejército de Tierra a desarrollar esta orden ministerial con arreglo a los términos establecidos en el artículo 3.4 y en el artículo 4, ambos de la Orden DEF/166/2015, de 21 de enero.</p>
+          <p class="parrafo">2. Así mismo, en relación con las unidades establecidas en esta orden ministerial no pertenecientes a la Fuerza y cuyo mando corresponda al empleo de coronel, se faculta al Jefe de Estado Mayor del Ejército de Tierra a que, como consecuencia de los procesos de reestructuración de su ejército, pueda suprimir o integrar dichas unidades, previa autorización del Ministro de Defensa. También podrá modificar el empleo del mando de la unidad a uno inmediatamente inferior con el informe favorable del Subsecretario de Defensa, en concordancia con el artículo 3.4 de la Orden DEF/166/2015, de 21 de enero.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="parrafo_2">Madrid, 29 de junio de 2015.–El Ministro de Defensa, Pedro Morenés Eulate.</p>
+        </version>
+      </bloque>
+      <bloque id="od" tipo="encabezado" titulo="ORGANIZACIÓN DEL EJÉRCITO DE TIERRA">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="anexo">ORGANIZACIÓN DEL EJÉRCITO DE TIERRA</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">El Cuartel General</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 1. Organización del Cuartel General.</p>
+          <p class="parrafo">El Cuartel General del Ejército de Tierra está constituido por:</p>
+          <p class="parrafo_2">a) El Estado Mayor del Ejército de Tierra.</p>
+          <p class="parrafo">b) El Gabinete del Jefe de Estado Mayor del Ejército de Tierra.</p>
+          <p class="parrafo">c) La Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica.</p>
+          <p class="parrafo">d) El Instituto de Historia y Cultura Militar.</p>
+          <p class="parrafo">e) El Regimiento de Infantería «Inmemorial del Rey» n.º 1.</p>
+          <p class="parrafo">f) La Asesoría Jurídica.</p>
+          <p class="parrafo">g) La Intervención Delegada.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 2. El Estado Mayor.</p>
+          <p class="parrafo">1. El Estado Mayor del Ejército de Tierra se articula en:</p>
+          <p class="parrafo_2">a) La Jefatura.</p>
+          <p class="parrafo">b) La Secretaría General del Estado Mayor.</p>
+          <p class="parrafo">c) La División de Planes.</p>
+          <p class="parrafo">d) La División de Operaciones.</p>
+          <p class="parrafo">e) La División de Logística.</p>
+          <p class="parrafo_2">2. Dentro de la Secretaría General del Estado Mayor se encuentra la Secretaría Permanente del Consejo Superior del Ejército de Tierra, que es la unidad de trabajo del citado consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 3. La Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica.</p>
+          <p class="parrafo">1. La Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Asistencia Técnica.</p>
+          <p class="parrafo">b) La Subdirección de Operaciones de Red.</p>
+          <p class="parrafo">c) El Área de Tecnologías de la Información y Telecomunicaciones.</p>
+          <p class="parrafo_2">2. También dependen de la Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica:</p>
+          <p class="parrafo_2">a) El Regimiento de Transmisiones n.º 22.</p>
+          <p class="parrafo">b) El Regimiento de Guerra Electrónica n.º 32.</p>
+          <p class="parrafo">c) El Centro Geográfico del Ejército.</p>
+          <p class="parrafo_2">Estas unidades tendrán el nivel orgánico que se determine, con arreglo a lo que se establezca en sus correspondientes relaciones de puestos militares.</p>
+          <p class="parrafo">3. La Subdirección de Asistencia Técnica es la unidad responsable de la coordinación, control y ejecución de lo relacionado con las materias de estadística, investigación militar operativa, sociología, publicaciones y cartografía.</p>
+          <p class="parrafo">4. La Subdirección de Operaciones de Red es la unidad responsable de realizar la coordinación, control y ejecución en lo referente a las redes permanentes de telecomunicaciones y de la seguridad de la información que fluye por estos sistemas.</p>
+          <p class="parrafo">5. El Área de Tecnologías de la Información y Telecomunicaciones es la unidad responsable de ejercer la coordinación, control y ejecución en lo referente a la arquitectura, configuración, interoperabilidad para la definición de los requisitos técnicos de los sistemas de información y telecomunicaciones y de lo relacionado con los análisis orgánicos, funcionales y de sistemas, del desarrollo de las aplicaciones y los sistemas que las soportan, incluidos los relacionados con la simulación, así como de la permanente actualización del software.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Artículo 3. La Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica.</p>
+          <p class="parrafo">1. La Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Asistencia Técnica.</p>
+          <p class="parrafo">b) La Subdirección de los Sistemas de Información y Telecomunicaciones.</p>
+          <p class="parrafo">c) El Área de Ciberdefensa.</p>
+          <p class="parrafo_2">2. También dependen de la Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica:</p>
+          <p class="parrafo_2">a) El Regimiento de Transmisiones n.° 22.</p>
+          <p class="parrafo">b) El Regimiento de Guerra Electrónica n.° 32.</p>
+          <p class="parrafo">c) El Centro Geográfico del Ejército.</p>
+          <p class="parrafo_2">Estas unidades tendrán el nivel orgánico que se determine, con arreglo a lo que se establezca en sus correspondientes relaciones de puestos militares.</p>
+          <p class="parrafo">3. La Subdirección de Asistencia Técnica es el órgano responsable de la coordinación, control y ejecución de lo relacionado con las materias de estadística, investigación militar operativa, sociología y publicaciones, incluyendo la cartografía de libre difusión. También integra el Gabinete de Traductores e Intérpretes del Ejército de Tierra.</p>
+          <p class="parrafo">4. La Subdirección de Sistemas de Información y Telecomunicaciones es el órgano responsable del análisis de los procesos técnicos para el desarrollo de los proyectos CIS del Ejército de Tierra, del desarrollo de las arquitecturas, del control de la configuración, la interoperabilidad y la validación técnica de los CIS del Ejército de Tierra a su nivel, de la simulación constructiva responsabilidad del Ejército de Tierra, y de la integración de los CIS desplegables específicos del Ejército de Tierra en la Infraestructura Integral de Información para la Defensa (I3D).</p>
+          <p class="parrafo">5. El Área de Ciberdefensa es el órgano responsable del asesoramiento a la Autoridad Operacional de Seguridad de los CIS en el ámbito del Ejército de Tierra, de la ejecución de las inspecciones y certificaciones de seguridad de los CIS del Ejército de Tierra, y de la gestión, control y coordinación de los medios de cifra del Ejército de Tierra.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.2 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 4. El Instituto de Historia y Cultura Militar.</p>
+          <p class="parrafo">1. El Instituto de Historia y Cultura Militar se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Estudios Históricos.</p>
+          <p class="parrafo">b) La Subdirección de Patrimonio Histórico y Cultural.</p>
+          <p class="parrafo">c) El Museo del Ejército.</p>
+          <p class="parrafo">d) Los centros de historia y cultura militar.</p>
+          <p class="parrafo_2">2. La Subdirección de Estudios Históricos es la unidad responsable de la investigación del patrimonio histórico y cultural, documental y bibliográfico del Ejército de Tierra y de promover su difusión.</p>
+          <p class="parrafo">3. La Subdirección de Patrimonio Histórico y Cultural es la unidad responsable de la protección y conservación del patrimonio histórico y cultural, documental y bibliográfico del Ejército de Tierra.</p>
+          <p class="parrafo">4. El Museo del Ejército se rige por el Real Decreto 636/2010, de 14 de mayo, por el que se regula el funcionamiento y se establece la estructura orgánica básica del Museo del Ejército.</p>
+          <p class="parrafo">5. Los centros de historia y cultura militar son responsables de proteger, conservar, investigar y difundir el patrimonio histórico, cultural, documental y bibliográfico en su ámbito geográfico de responsabilidad. Estos centros son:</p>
+          <p class="parrafo_2">a) El Centro de Historia y Cultura Militar en Barcelona.</p>
+          <p class="parrafo">b) El Centro de Historia y Cultura Militar en Ceuta.</p>
+          <p class="parrafo">c) El Centro de Historia y Cultura Militar en A Coruña.</p>
+          <p class="parrafo">d) El Centro de Historia y Cultura Militar en Melilla.</p>
+          <p class="parrafo">e) El Centro de Historia y Cultura Militar en Palma de Mallorca.</p>
+          <p class="parrafo">f) El Centro de Historia y Cultura Militar en Santa Cruz de Tenerife.</p>
+          <p class="parrafo">g) El Centro de Historia y Cultura Militar en Sevilla.</p>
+          <p class="parrafo">h) El Centro de Historia y Cultura Militar en Valencia.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">La Fuerza</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="seccion">Sección 1.ª Organización básica de la fuerza</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 5. Unidades de la Fuerza.</p>
+          <p class="parrafo">1. La denominación de las unidades de la Fuerza del Ejército de Tierra, sus capacidades y tipos así como su entidad serán coherentes con los conceptos definidos en la doctrina militar y con su tradición.</p>
+          <p class="parrafo">2. Sin perjuicio de otras funciones que se les puedan encomendar, todas las unidades de la Fuerza tienen como principal cometido prepararse para constituir estructuras operativas para la realización de operaciones militares, mediante su transferencia a la estructura operativa de las Fuerzas Armadas, con arreglo a la doctrina militar.</p>
+          <p class="parrafo">3. En los cuarteles generales en los que exista una «Unidad de Cuartel General», ésta será responsable de la dirección y ejecución de la seguridad, régimen interior, servicios generales y apoyos que el Cuartel General precise para su funcionamiento.</p>
+          <p class="parrafo">4. En las unidades en las que exista una «Jefatura de Asuntos Económicos», ésta será responsable de la dirección y coordinación de los recursos financieros asignados a la unidad de la que forma parte. Le corresponde, asimismo, la gestión de los recursos financieros que tenga asignados.</p>
+          <p class="parrafo">5. En las unidades en las que exista una «Secretaría Técnica», ésta será la responsable de su apoyo técnico-administrativo, y del asesoramiento en materias de organización, aspectos institucionales y de los asuntos no específicos de otras áreas de la unidad de la que forma parte.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 6. Organización de la Fuerza.</p>
+          <p class="parrafo">La Fuerza del Ejército de Tierra está constituida por los siguientes órganos, dependientes directamente del Jefe de Estado Mayor del Ejército de Tierra:</p>
+          <p class="parrafo_2">a) El Cuartel General Terrestre de Alta Disponibilidad.</p>
+          <p class="parrafo">b) La Fuerza Terrestre.</p>
+          <p class="parrafo">c) La Fuerza Logística Operativa.</p>
+          <p class="parrafo">d) El Mando de Canarias.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="seccion">Sección 2.ª El cuartel general terrestre de alta disponibilidad</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 7. Organización del Cuartel General Terrestre de Alta Disponibilidad.</p>
+          <p class="parrafo">1. El Cuartel General Terrestre de Alta Disponibilidad se organiza con arreglo a lo establecido en el Real Decreto 2015/2004, de 11 de octubre, por el que se crea en el Ejército de Tierra el Cuartel General Terrestre de Alta Disponibilidad.</p>
+          <p class="parrafo">2. Del Cuartel General Terrestre de Alta Disponibilidad depende el Regimiento de Inteligencia n.º 1.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Artículo 7. Organización del Cuartel General Terrestre de Alta Disponibilidad.</p>
+          <p class="parrafo">El Cuartel General Terrestre de Alta Disponibilidad se organiza con arreglo a lo establecido en el Real Decreto 2015/2004, de 11 de octubre, por el que se crea en el Ejército de Tierra el Cuartel General Terrestre de Alta Disponibilidad.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.3 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="seccion">Sección 3.ª La fuerza terrestre</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 8. Organización de la Fuerza Terrestre.</p>
+          <p class="parrafo">La Fuerza Terrestre se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) La División «San Marcial».</p>
+          <p class="parrafo">c) La División «Castillejos».</p>
+          <p class="parrafo">d) Las Comandancias Generales de Ceuta, Melilla y Baleares.</p>
+          <p class="parrafo">e) Las Fuerzas Aeromóviles del Ejército de Tierra.</p>
+          <p class="parrafo">f) El Mando de Operaciones Especiales.</p>
+          <p class="parrafo">g) El Mando de Artillería de Campaña.</p>
+          <p class="parrafo">h) El Mando de Artillería Antiaérea.</p>
+          <p class="parrafo">i) El Mando de Ingenieros.</p>
+          <p class="parrafo">j) El Mando de Transmisiones.</p>
+          <p class="parrafo">k) El Regimiento de Defensa NBQ «Valencia» n.º 1.</p>
+          <p class="parrafo">l) El Regimiento de Caballería «España» n.º 11.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Artículo 8. Organización de la Fuerza Terrestre.</p>
+          <p class="parrafo">La Fuerza Terrestre se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) La División "San Marcial".</p>
+          <p class="parrafo">c) La División "Castillejos".</p>
+          <p class="parrafo">d) Las Comandancias Generales de Ceuta, Melilla y Baleares.</p>
+          <p class="parrafo">e) Las Fuerzas Aeromóviles del Ejército de Tierra.</p>
+          <p class="parrafo">f) El Mando de Operaciones Especiales "Órdenes Militares".</p>
+          <p class="parrafo">g) El Mando de Artillería de Campaña.</p>
+          <p class="parrafo">h) El Mando de Artillería Antiaérea.</p>
+          <p class="parrafo">i) El Mando de Ingenieros.</p>
+          <p class="parrafo">j) El Mando de Transmisiones.</p>
+          <p class="parrafo">k) El Regimiento de Caballería "España" n.° 11.</p>
+          <p class="parrafo">l) El Regimiento de Defensa NBQ "Valencia" n.° 1.</p>
+          <p class="parrafo">m) El Regimiento de Inteligencia n.° 1.</p>
+          <p class="parrafo">n) El Regimiento de Operaciones de Información n.° 1.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.4 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 9. El Cuartel General de la Fuerza Terrestre.</p>
+          <p class="parrafo">1. En el Cuartel General de la Fuerza Terrestre están encuadradas las siguientes unidades:</p>
+          <p class="parrafo_2">a) El Estado Mayor de la Fuerza Terrestre.</p>
+          <p class="parrafo">b) La Unidad de Cuartel General.</p>
+          <p class="parrafo">c) La Jefatura de Asuntos Económicos.</p>
+          <p class="parrafo_2">2. El Estado Mayor de la Fuerza Terrestre se compone de las siguientes unidades:</p>
+          <p class="parrafo_2">a) La Secretaría Técnica.</p>
+          <p class="parrafo">b) El Área de Preparación, que es responsable del asesoramiento en materias de preparación, correspondiéndole el desarrollo de la normativa relativa a este sector, así como la gestión de los créditos para operaciones, que se asignen a la Fuerza Terrestre para la preparación de contingentes.</p>
+          <p class="parrafo">c) El Área de Apoyo, que es responsable del asesoramiento en materia de sistemas de información y telecomunicaciones, así como de seguridad, y de la coordinación y control en el ámbito CIS y de seguridad de las unidades de la Fuerza Terrestre.</p>
+          <p class="parrafo">d) Área de Logística, que es responsable del planeamiento y control de logística y recursos, en particular de personal y material, así como de la definición de normas y procedimientos de empleo relativos a las funciones logísticas de personal, sanidad y abastecimiento, sostenimiento y transporte.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 10. La División «San Marcial».</p>
+          <p class="parrafo">1. La División «San Marcial» se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) La Brigada «Aragón» I.</p>
+          <p class="parrafo">c) La Brigada «Guzmán el Bueno» X.</p>
+          <p class="parrafo">d) La Brigada «Extremadura» XI.</p>
+          <p class="parrafo">e) La Brigada «Guadarrama» XII.</p>
+          <p class="parrafo_2">2. La Brigada «Aragón» I se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Arapiles» n.º 62.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «Galicia» n.º 64, de Cazadores de Montaña.</p>
+          <p class="parrafo">d) El Regimiento Acorazado «Pavía» n.º 4.</p>
+          <p class="parrafo">e) El Regimiento de Artillería de Campaña n.º 20.</p>
+          <p class="parrafo_2">3. La Brigada «Guzmán el Bueno» X se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «La Reina» n.º 2.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «Garellano» n.º 45.</p>
+          <p class="parrafo">d) El Regimiento Acorazado «Córdoba» n.º 10.</p>
+          <p class="parrafo_2">4. La Brigada «Extremadura» XI se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Saboya» n.º 6.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «Tercio Viejo de Sicilia» n.º 67.</p>
+          <p class="parrafo">d) El Regimiento Acorazado «Castilla» n.º 16.</p>
+          <p class="parrafo_2">5. La Brigada «Guadarrama» XII se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Asturias» n.º 31.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «América» n.º 66.</p>
+          <p class="parrafo">d) El Regimiento Acorazado «Alcázar de Toledo» n.º 61.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Artículo 10. La División «San Marcial».</p>
+          <p class="parrafo">1. La División "San Marcial» se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) La Brigada "Guzmán el Bueno" X.</p>
+          <p class="parrafo">c) La Brigada "Extremadura" XI.</p>
+          <p class="parrafo">d) La Brigada "Guadarrama" XII.</p>
+          <p class="parrafo_2">2. La Brigada "Guzmán el Bueno" X se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería "La Reina" n.° 2.</p>
+          <p class="parrafo">c) El Regimiento de Infantería "Garellano" n.° 45.</p>
+          <p class="parrafo">d) El Regimiento Acorazado "Córdoba" n.° 10.</p>
+          <p class="parrafo_2">3. La Brigada "Extremadura" XI se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería "Saboya" n.° 6.</p>
+          <p class="parrafo">c) El Regimiento de Infantería "Tercio Viejo de Sicilia" n.° 67.</p>
+          <p class="parrafo">d) El Regimiento Acorazado "Castilla" n.° 16.</p>
+          <p class="parrafo_2">4. La Brigada "Guadarrama" XII se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería "Asturias" n.° 31.</p>
+          <p class="parrafo">c) El Regimiento de Infantería "Barcelona" n.° 63.</p>
+          <p class="parrafo">d) El Regimiento Acorazado "Alcázar de Toledo" n.° 61.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.5 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 11. La División «Castillejos».</p>
+          <p class="parrafo">1. La División «Castillejos», que se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) La Brigada «Rey Alfonso XIII» II de La Legión.</p>
+          <p class="parrafo">c) La Brigada «Almogávares» VI de Paracaidistas.</p>
+          <p class="parrafo">d) La Brigada «Galicia» VII.</p>
+          <p class="parrafo_2">2. La Brigada «Rey Alfonso XIII» II de La Legión se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Tercio «Don Juan de Austria», 3.º de La Legión.</p>
+          <p class="parrafo">c) El Tercio «Alejandro Farnesio», 4.º de La Legión.</p>
+          <p class="parrafo_2">3. La Brigada «Almogávares» VI de Paracaidistas se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Nápoles» n.º 4, de Paracaidistas.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «Zaragoza» n.º 5.</p>
+          <p class="parrafo">d) El Regimiento de Caballería «Lusitania» n.º 8.</p>
+          <p class="parrafo_2">4. La Brigada «Galicia» VII se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Príncipe» n.º 3.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «Isabel la Católica» n.º 29.</p>
+          <p class="parrafo">d) El Regimiento de Caballería «Farnesio» n.º 12.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Artículo 11. La División «Castillejos».</p>
+          <p class="parrafo">1. La División "Castillejos" se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) La Brigada "Aragón" I.</p>
+          <p class="parrafo">c) La Brigada "Rey Alfonso XIII" II de la Legión.</p>
+          <p class="parrafo">d) La Brigada "Almogávares" VI de Paracaidistas.</p>
+          <p class="parrafo">e) La Brigada "Galicia" VII.</p>
+          <p class="parrafo_2">2. La Brigada "Aragón" I se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería "Arapiles" n.° 62.</p>
+          <p class="parrafo">c) El Regimiento de Infantería "Galicia" n.° 64, de Cazadores de Montaña.</p>
+          <p class="parrafo">d) El Regimiento de Infantería "América" n.° 66, de Cazadores de Montaña.</p>
+          <p class="parrafo">e) El Regimiento Acorazado "Pavía" n.° 4.</p>
+          <p class="parrafo">f) El Regimiento de Artillería de Campaña n.° 20.</p>
+          <p class="parrafo_2">3. La Brigada "Rey Alfonso XIII" II de la Legión se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Tercio "Don Juan de Austria", 3.° de La Legión.</p>
+          <p class="parrafo">c) El Tercio "Alejandro Farnesio", 4.° de La Legión.</p>
+          <p class="parrafo_2">4. La Brigada "Almogávares" VI de Paracaidistas se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería "Nápoles" n.° 4, de Paracaidistas.</p>
+          <p class="parrafo">c) El Regimiento de Infantería "Zaragoza" n.° 5.</p>
+          <p class="parrafo">d) El Regimiento de Caballería "Lusitania" n.° 8.</p>
+          <p class="parrafo_2">5. La Brigada "Galicia" VII se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería "Príncipe" n.° 3.</p>
+          <p class="parrafo">c) El Regimiento de Infantería "Isabel la Católica" n.° 29.</p>
+          <p class="parrafo">d) El Regimiento de Caballería "Farnesio" n.° 12.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.6 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 12. Las Comandancias Generales de Ceuta, Melilla y Baleares.</p>
+          <p class="parrafo">1. La Comandancia General de Ceuta se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) El Grupo de «Regulares de Ceuta» n.º 54.</p>
+          <p class="parrafo">c) El Tercio «Duque de Alba», 2.º de La Legión.</p>
+          <p class="parrafo">d) El Regimiento de Caballería «Montesa» n.º 3.</p>
+          <p class="parrafo">e) El Regimiento Mixto de Artillería n.º 30.</p>
+          <p class="parrafo">f) El Regimiento de Ingenieros n.º 7.</p>
+          <p class="parrafo">g) La Unidad Logística n.º 23.</p>
+          <p class="parrafo_2">2. La Comandancia General de Melilla se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) El Grupo de «Regulares de Melilla» n.º 52.</p>
+          <p class="parrafo">c) El Tercio «Gran Capitán», 1.º de La Legión.</p>
+          <p class="parrafo">d) El Regimiento de Caballería «Alcántara» n.º 10.</p>
+          <p class="parrafo">e) El Regimiento Mixto de Artillería n.º 32.</p>
+          <p class="parrafo">f) El Regimiento de Ingenieros n.º 8.</p>
+          <p class="parrafo">g) La Unidad Logística n.º 24.</p>
+          <p class="parrafo_2">3. La Comandancia General de Baleares se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Palma» n.º 47.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 13. Las Fuerzas Aeromóviles del Ejército de Tierra.</p>
+          <p class="parrafo">Las Fuerzas Aeromóviles del Ejército de Tierra cuentan con un Cuartel General en el que se integra la Jefatura de Helicópteros, que tiene como cometido regular los aspectos técnicos del empleo de las unidades de helicópteros, así como coordinar los procedimientos para la preparación, evaluación y empleo de las mismas; coordinar los apoyos de helicópteros a prestar por el Ejército de Tierra a las distintas unidades de las Fuerzas Armadas y autoridades civiles; y asesorar en los aspectos aeronáuticos que puedan afectar a las unidades de helicópteros y su infraestructura de apoyo, incluyendo los que sobre seguridad de vuelo pudieran corresponder al Jefe de Estado Mayor del Ejército de Tierra.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 14. El Mando de Artillería de Campaña.</p>
+          <p class="parrafo">El Mando de Artillería de Campaña se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Artillería de Campaña n.º 11.</p>
+          <p class="parrafo">c) El Regimiento de Artillería Lanzacohetes de Campaña n.º 63.</p>
+          <p class="parrafo">d) El Regimiento de Artillería de Costa n.º 4.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 15. El Mando de Artillería Antiaérea.</p>
+          <p class="parrafo">El Mando de Artillería Antiaérea se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Artillería Antiaérea n.º 71.</p>
+          <p class="parrafo">c) El Regimiento de Artillería Antiaérea n.º 73.</p>
+          <p class="parrafo">d) El Regimiento de Artillería Antiaérea n.º 74.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 16. El Mando de Ingenieros.</p>
+          <p class="parrafo">El Mando de Ingenieros se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Ingenieros n.º 1.</p>
+          <p class="parrafo">c) El Regimiento de Especialidades de Ingenieros n.º 11.</p>
+          <p class="parrafo">d) El Regimiento de Pontoneros y de Especialidades de Ingenieros n.º 12.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 17. El Mando de Transmisiones.</p>
+          <p class="parrafo">El Mando de Transmisiones se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Transmisiones n.º 1.</p>
+          <p class="parrafo">c) El Regimiento de Transmisiones n.º 21.</p>
+          <p class="parrafo">d) El Regimiento de Guerra Electrónica n.º 31.</p>
+        </version>
+      </bloque>
+      <bloque id="s4" tipo="encabezado" titulo="Sección 4">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="seccion">Sección 4.ª La fuerza logística operativa</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 18. La Fuerza Logística Operativa.</p>
+          <p class="parrafo">La Fuerza Logística Operativa se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) La Brigada Logística.</p>
+          <p class="parrafo">c) La Brigada de Sanidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 19. El Cuartel General de la Fuerza Logística Operativa.</p>
+          <p class="parrafo">1. En el Cuartel General de la Fuerza Logística Operativa están encuadradas las siguientes unidades:</p>
+          <p class="parrafo_2">a) El Estado Mayor de la Fuerza Logística Operativa.</p>
+          <p class="parrafo">b) El Centro de Seguimiento de la Actividad Logística.</p>
+          <p class="parrafo">c) El Centro de Apoyo Logístico a Operaciones.</p>
+          <p class="parrafo">d) La Jefatura Asuntos Económicos.</p>
+          <p class="parrafo_2">2. El Estado Mayor se compone de las siguientes unidades:</p>
+          <p class="parrafo_2">a) El Área de Operaciones del Sistema, que tiene por cometido auxiliar al Jefe de la Fuerza Logística Operativa a la hora de proporcionar el apoyo logístico necesario para las operaciones, así como prestar el apoyo logístico que se precise para mantener las capacidades operativas, complementando la estructura permanente de apoyo logístico, en el área de las Operaciones del Sistema.</p>
+          <p class="parrafo">b) El Área de Sostenimiento del Sistema, que tiene por cometido auxiliar al Jefe de la Fuerza Logística Operativa a la hora de proporcionar el apoyo logístico necesario para las operaciones, así como prestar el apoyo logístico que se precise para mantener las capacidades operativas, complementando la estructura permanente de apoyo logístico, en el área del Sostenimiento del Sistema.</p>
+          <p class="parrafo_2">3. El Centro de Seguimiento de la Actividad Logística es responsable de la obtención, análisis y compilación de la información que la Fuerza Logística Operativa precisa para el desarrollo de sus funciones.</p>
+          <p class="parrafo">4. El Centro de Apoyo Logístico a Operaciones es responsable de la gestión, coordinación y control de los recursos logísticos asignados para el apoyo a las operaciones. Así mismo, se encarga de la gestión y explotación de las bases de datos de carácter logístico y de mantener el Archivo Central de Operaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 20. La Brigada Logística.</p>
+          <p class="parrafo">La Brigada Logística se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General, en el que se integra un Estado Mayor.</p>
+          <p class="parrafo">b) La Agrupación de Apoyo Logístico n.º 11.</p>
+          <p class="parrafo">c) La Agrupación de Apoyo Logístico n.º 21.</p>
+          <p class="parrafo">d) La Agrupación de Apoyo Logístico n.º 41.</p>
+          <p class="parrafo">e) La Agrupación de Apoyo Logístico n.º 61.</p>
+          <p class="parrafo">f) La Agrupación de Apoyo Logístico n.º 81.</p>
+          <p class="parrafo">g) La Agrupación de Transporte n.º 1.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 21. La Brigada de Sanidad.</p>
+          <p class="parrafo">La Brigada de Sanidad se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) La Agrupación de Sanidad n.º 1.</p>
+          <p class="parrafo">c) La Agrupación de Sanidad n.º 3.</p>
+          <p class="parrafo">d) La Agrupación de Hospital de Campaña.</p>
+        </version>
+        <version id_norma="BOE-A-2018-17600" fecha_publicacion="20181222" fecha_vigencia="20181222">
+          <p class="articulo">Artículo 21. La Brigada de Sanidad.</p>
+          <p class="parrafo">La Brigada de Sanidad se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) La Agrupación de Sanidad n.° 1.</p>
+          <p class="parrafo">c) La Agrupación de Sanidad n.° 3.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.7 de la Orden DEF/1362/2018, de 20 de diciembre. <a class="refPost">Ref. BOE-A-2018-17600</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="s5" tipo="encabezado" titulo="Sección 5">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="seccion">Sección 5.ª El Mando de Canarias</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 22. El Mando de Canarias.</p>
+          <p class="parrafo">1. El Mando de Canarias se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) La Brigada «Canarias» XVI.</p>
+          <p class="parrafo">c) El Regimiento de Artillería Antiaérea n.º 94.</p>
+          <p class="parrafo_2">2. En el Cuartel General del Mando de Canarias están encuadradas las siguientes unidades:</p>
+          <p class="parrafo_2">a) El Estado Mayor.</p>
+          <p class="parrafo">b) La Unidad de Cuartel General.</p>
+          <p class="parrafo">c) La Jefatura de Asuntos Económicos.</p>
+          <p class="parrafo_2">3. El Estado Mayor del Mando de Canarias se compone de las siguientes unidades:</p>
+          <p class="parrafo_2">a) La Secretaría Técnica.</p>
+          <p class="parrafo">b) El Área de Preparación, que es responsable del asesoramiento en materias de preparación, correspondiéndole el desarrollo de la normativa relativa a este sector, así como la gestión de los créditos para operaciones, que se asignen al Mando de Canarias para la preparación de contingentes.</p>
+          <p class="parrafo">c) El Área de Logística, que es responsable del asesoramiento en materias de logística, correspondiéndole el desarrollo de la normativa relativa a este sector.</p>
+          <p class="parrafo_2">4. La Brigada «Canarias» XVI se articula en:</p>
+          <p class="parrafo_2">a) El Cuartel General.</p>
+          <p class="parrafo">b) El Regimiento de Infantería «Soria» n.º 9.</p>
+          <p class="parrafo">c) El Regimiento de Infantería «Tenerife» n.º 49.</p>
+          <p class="parrafo">d) El Regimiento de Infantería «Canarias» n.º 50.</p>
+          <p class="parrafo">e) El Regimiento de Artillería de Campaña n.º 93.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">El Apoyo a la Fuerza</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 23. Unidades tipo en el Apoyo a la Fuerza.</p>
+          <p class="parrafo">1. Las «Secretarías Generales» son la principal unidad de apoyo al mando del Jefe de cada uno de los Mandos y de la Inspección que forman el Apoyo a la Fuerza del Ejército de Tierra, auxiliándole en su mando y régimen interior y prestando los apoyos necesarios en sistemas de información, así como el apoyo técnico-administrativo a su conjunto. Serán responsables de proporcionar al Jefe los elementos de juicio necesarios para fundamentar sus decisiones, traducir éstas en órdenes y velar por su cumplimiento, así como de la programación y coordinación general de las actividades, los procesos y los recursos financieros de las unidades que dependan de dicho Jefe.</p>
+          <p class="parrafo">2. Las «residencias militares» son establecimientos para apoyo y asistencia al personal militar que se regirán por lo dispuesto en la Orden Ministerial 13/2009, de 26 de marzo, por la que se establece la clasificación, usuarios y precios que deberán regir en las Residencias Militares del Ejército de Tierra, de la Armada y del Ejército del Aire.</p>
+          <p class="parrafo">3. Los «centros deportivos y socioculturales militares» son unidades que tienen por objeto fomentar la práctica de actividades deportivas, sociales, recreativas o culturales entre los miembros de las Fuerzas Armadas. Se regirán por lo dispuesto en la Orden DEF/792/2003, de 25 de marzo, por la que se establece el régimen jurídico y de funcionamiento de los Centros Deportivos y Socioculturales Militares.</p>
+          <p class="parrafo">4. Los «centros docentes militares», con arreglo a lo establecido en la Ley 39/2007, de 19 de noviembre, de la carrera militar, son las unidades responsables de impartir las enseñanzas de formación y las necesarias para la obtención de especialidades y ampliar o actualizar conocimientos. Se regirán por lo dispuesto en el título IV, «Enseñanza», capítulo II, «Estructura», de dicha ley y la normativa que lo desarrolle.</p>
+          <p class="parrafo">5. Los «centros de adiestramiento» son las unidades responsables de facilitar la instrucción, adiestramiento y evaluación de las unidades, así como de controlar, explotar y mantener los diferentes medios de simulación y evaluación asignados a dichos centros.</p>
+          <p class="parrafo">6. Los «parques y centros» son responsables del apoyo logístico en territorio nacional en su escalón más elevado en las funciones de abastecimiento y mantenimiento, en cada caso, de los materiales que para cada uno de ellos se especifique.</p>
+          <p class="parrafo">7. Las «subinspecciones generales» del Ejército de Tierra son unidades que realizan las funciones encomendadas a la Dirección de Acuartelamiento en su ámbito geográfico de responsabilidad.</p>
+          <p class="parrafo">8. Las «unidades de servicios de base» son las responsables del sostenimiento de las instalaciones que dispongan de este tipo de unidad y de prestar apoyo a las unidades que se ubiquen o desplieguen permanente o temporalmente en una base o acuartelamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 24. Organización del Apoyo a la Fuerza.</p>
+          <p class="parrafo">1. El Apoyo a la Fuerza en el ámbito de los recursos humanos del Ejército de Tierra será realizado por los siguientes órganos:</p>
+          <p class="parrafo_2">a) El Mando de Personal.</p>
+          <p class="parrafo">b) El Mando de Adiestramiento y Doctrina.</p>
+          <p class="parrafo_2">2. El Apoyo a la Fuerza en el ámbito de los recursos materiales del Ejército de Tierra será realizado por los siguientes órganos:</p>
+          <p class="parrafo_2">a) El Mando de Apoyo Logístico.</p>
+          <p class="parrafo">b) La Inspección General del Ejército de Tierra.</p>
+          <p class="parrafo_2">3. El Apoyo a la Fuerza en el ámbito de los recursos financieros en el Ejército de Tierra será realizado por la Dirección de Asuntos Económicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 25. El Mando de Personal.</p>
+          <p class="parrafo">1. El Mando de Personal se articula en:</p>
+          <p class="parrafo_2">a) La Jefatura, en la que se integra una Secretaría General.</p>
+          <p class="parrafo">b) La Dirección de Personal.</p>
+          <p class="parrafo">c) La Dirección de Asistencia al Personal.</p>
+          <p class="parrafo">d) La Dirección de Sanidad.</p>
+          <p class="parrafo_2">2. La Dirección de Personal se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Carrera Militar, que tiene por cometido realizar la gestión, administración y control en materia de reclutamiento, orientación profesional y modelos de carrera.</p>
+          <p class="parrafo">b) La Subdirección de Evaluación, que tiene por cometido realizar la gestión, administración y control en materia de evaluación, clasificación e historial del personal militar.</p>
+          <p class="parrafo">c) La Subdirección de Gestión de Personal, que tiene por cometido realizar la gestión, administración y control en materia de situaciones, ascensos y destinos del personal militar, así como la gestión correspondiente al personal civil</p>
+          <p class="parrafo_2">3. La Dirección de Asistencia al Personal se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Apoyo al Personal, responsable del análisis, programación, ejecución administración y control de todas las acciones que en materia de apoyo al personal se lleven a cabo en el ámbito del Ejército de Tierra.</p>
+          <p class="parrafo">b) La Subdirección de Gestión de Centros, responsable de la gestión, administración y control de los todos los centros de acción social que dependen orgánicamente de la Dirección de Asistencia al Personal.</p>
+          <p class="parrafo">c) Las residencias militares que se listan a continuación:</p>
+          <p class="parrafo_2">1.º La Residencia Militar de Acción Social de Estudiantes «Virgen de la Paz».</p>
+          <p class="parrafo">2.º La Residencia Militar de Acción Social de Estudiantes «Virgen del Puerto».</p>
+          <p class="parrafo">3.º La Residencia Militar de Acción Social de Estudiantes «San Hermenegildo».</p>
+          <p class="parrafo">4.º La Residencia Militar de Acción Social de Estudiantes «Santiago».</p>
+          <p class="parrafo">5.º La Residencia Militar de Acción Social de Descanso «Navacerrada».</p>
+          <p class="parrafo">6.º La Residencia Militar de Acción Social de Descanso «La Plana».</p>
+          <p class="parrafo">7.º La Residencia Militar de Acción Social de Descanso «Teniente General Castañón de Mena».</p>
+          <p class="parrafo">8.º La Residencia Militar de Acción Social de Descanso «La Cortadura».</p>
+          <p class="parrafo">9.º La Residencia Militar de Acción Social de Descanso «Héroes de Filipinas».</p>
+          <p class="parrafo">10.º La Residencia Militar de Acción Social de Descanso «Archena».</p>
+          <p class="parrafo">11.º La Residencia Militar de Acción Social de Descanso «Fernando Primo de Rivera».</p>
+          <p class="parrafo">12.º La Residencia Militar de Acción Social de Descanso «Coronel Gallegos».</p>
+          <p class="parrafo">13.º La Residencia Militar de Acción Social de Descanso «El Baluarte».</p>
+          <p class="parrafo">14.º La Residencia Militar de Acción Social de Descanso «Fuerte Santiago».</p>
+          <p class="parrafo">15.º La Residencia Militar de Acción Social de Descanso «Virgen del Carmen».</p>
+          <p class="parrafo">16.º La Residencia Militar de Acción Social de Descanso «Mahón».</p>
+          <p class="parrafo">17.º La Residencia Militar de Acción Social de Atención a Mayores «Ntra. Sra. del Perpetuo Socorro».</p>
+          <p class="parrafo">18.º La Residencia Militar de Acción Social de Atención a Mayores «Guadarrama».</p>
+          <p class="parrafo_2">d) Los centros deportivos y socioculturales militares que se listan a continuación:</p>
+          <p class="parrafo_2">1.º El Centro Deportivo Sociocultural Militar «La Dehesa».</p>
+          <p class="parrafo">2.º El Centro Deportivo Sociocultural Militar «San Jorge».</p>
+          <p class="parrafo">3.º El Centro Deportivo Sociocultural Militar «Alcalá».</p>
+          <p class="parrafo">4.º El Centro Deportivo Sociocultural Militar «Valencia».</p>
+          <p class="parrafo">5.º El Centro Deportivo Sociocultural Militar «Sancha Brava».</p>
+          <p class="parrafo">6.º El Centro Deportivo Sociocultural Militar «Los Mondragones».</p>
+          <p class="parrafo">7.º El Centro Deportivo Sociocultural Militar «Híspalis».</p>
+          <p class="parrafo">8.º El Centro Deportivo Sociocultural Militar «El Soto».</p>
+          <p class="parrafo">9.º El Centro Deportivo Sociocultural Militar «La Ciudadela».</p>
+          <p class="parrafo">10.º El Centro Deportivo Sociocultural Militar «San Isidro».</p>
+          <p class="parrafo">11.º El Centro Deportivo Sociocultural Militar «La Deportiva».</p>
+          <p class="parrafo">12.º El Centro Deportivo Sociocultural Militar «Campolongo».</p>
+          <p class="parrafo">13.º El Centro Deportivo Sociocultural Militar «Santa Bárbara».</p>
+          <p class="parrafo">14.º El Centro Deportivo Sociocultural Militar «Hípica de Logroño».</p>
+          <p class="parrafo">15.º El Centro Deportivo Sociocultural Militar «Paso Alto».</p>
+          <p class="parrafo">16.º El Centro Deportivo Sociocultural Militar «Mallorca».</p>
+          <p class="parrafo">17.º El Centro Deportivo Sociocultural Militar «Ceuta».</p>
+          <p class="parrafo">18.º El Centro Deportivo Sociocultural Militar «Melilla»</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 26. El Mando de Adiestramiento y Doctrina.</p>
+          <p class="parrafo">1. El Mando de Adiestramiento y Doctrina se articula en:</p>
+          <p class="parrafo_2">a) La Jefatura, en la que se integra una Secretaría General.</p>
+          <p class="parrafo">b) La Dirección de Investigación, Doctrina, Orgánica y Materiales.</p>
+          <p class="parrafo">c) La Dirección de Enseñanza, Instrucción, Adiestramiento y Evaluación.</p>
+          <p class="parrafo_2">2. La Dirección de Investigación, Doctrina, Orgánica y Materiales se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Doctrina, Orgánica y Materiales, responsable de la inspección, coordinación e investigación en materias de doctrina, normativa de empleo de las Unidades, estructura y plantilla orgánica de las unidades, así como de la formulación de los requerimientos operativos del armamento, material y equipo.</p>
+          <p class="parrafo">b) La Subdirección de Investigación y Lecciones Aprendidas, responsable de la inspección, coordinación e investigación en materias relacionadas con la evolución y experimentación teórica del combate y del proceso de lecciones aprendidas.</p>
+          <p class="parrafo_2">3. La Dirección de Enseñanza, Instrucción, Adiestramiento y Evaluación se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Enseñanza, responsable de la inspección, coordinación e investigación, así como de la evaluación, en materia de formación y perfeccionamiento del personal militar.</p>
+          <p class="parrafo">b) La Subdirección de Instrucción, Adiestramiento y Evaluación, responsable de la inspección, coordinación e investigación así como de la evaluación, de los medios y procedimientos de instrucción, adiestramiento y evaluación operativa del personal y de las Unidades, así como de los medios y metodologías que sirvan de apoyo a la enseñanza, instrucción, adiestramiento y evaluación. También es responsable del desarrollo a su nivel de las misiones derivadas de la legislación vigente en materia de educación físico-militar y de conducción y seguridad vial.</p>
+          <p class="parrafo">c) Los centros docentes militares que se listan a continuación:</p>
+          <p class="parrafo_2">1.º La Academia General Militar.</p>
+          <p class="parrafo">2.º La Academia General Básica de Suboficiales.</p>
+          <p class="parrafo">3.º La Academia de Infantería.</p>
+          <p class="parrafo">4.º La Academia de Caballería.</p>
+          <p class="parrafo">5.º La Academia de Artillería.</p>
+          <p class="parrafo">6.º La Academia de Ingenieros.</p>
+          <p class="parrafo">7.º La Escuela Politécnica Superior del Ejército.</p>
+          <p class="parrafo">8.º La Academia de Logística.</p>
+          <p class="parrafo">9.º La Escuela Militar de Montaña y Operaciones Especiales.</p>
+          <p class="parrafo">10.º La Escuela de Guerra del Ejército.</p>
+          <p class="parrafo">11.º El Centro de Formación de Tropa n.º 1.</p>
+          <p class="parrafo">12.º El Centro de Formación de Tropa n.º 2.</p>
+          <p class="parrafo_2">d) Los siguientes centros de adiestramiento:</p>
+          <p class="parrafo_2">1.º El Centro de Adiestramiento «San Gregorio».</p>
+          <p class="parrafo">2.º El Centro de Adiestramiento «Chinchilla».</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 27. El Mando de Apoyo Logístico.</p>
+          <p class="parrafo">1. El Mando de Apoyo Logístico se articula en:</p>
+          <p class="parrafo_2">a) La Jefatura, en la que se integra una Secretaría General.</p>
+          <p class="parrafo">b) La Dirección de Adquisiciones.</p>
+          <p class="parrafo">c) La Dirección de Integración de Funciones Logísticas.</p>
+          <p class="parrafo_2">2. La Dirección de Adquisiciones se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Sistemas de Armas, responsable de la adquisición de los materiales, equipos y sistemas de armas que no sean obtenidos de forma centralizada por otro organismo.</p>
+          <p class="parrafo">b) La Subdirección de Suministros y Servicios, responsable de la adquisición de los recursos materiales consumibles cuya finalidad es la preparación y disponibilidad de las unidades, de recursos asociados al sostenimiento, así como de los repuestos, herramientas y equipo para mantenimiento que se determinen. También, es responsable de adquirir los servicios y apoyos que se determinen para completar las capacidades necesarias en el ámbito del Mando de Apoyo Logístico.</p>
+          <p class="parrafo_2">3. La Dirección de Integración de Funciones Logísticas se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Gestión Logística, responsable de la gestión funcional integrada de las actividades ordenadas, en este nivel, de los Subsistemas del Sistema de Apoyo Logístico del Ejército. A estos efectos es responsable de elaborar el Programa de Actividades Logísticas de los Órganos Logísticos Centrales y, en especial, de realizar la gestión, dotación, distribución, redistribución y baja de los recursos competencia del Sistema de Apoyo Logístico, de los artículos de consumo, así como del control del inventario y del grado de cobertura de material y ganado del Ejército de Tierra; la gestión en materia de mantenimiento del material de todo tipo, a excepción de los recursos sanitarios y del hardware y software de propósito general; la gestión y coordinación en materia de transporte de personal, ganado, armamento, material y equipo; y el seguimiento de la gestión realizada por la Malla de Gestión de la Red de Apoyo del Sistema de Apoyo Logístico.</p>
+          <p class="parrafo">b) La Subdirección de Análisis Logísticos, responsable de realizar los análisis de interés para los Subsistemas del Sistema de Apoyo Logístico y del estudio del ciclo de vida de los diferentes materiales y sistemas de armas de dotación del Ejército de Tierra.</p>
+          <p class="parrafo">c) La Jefatura de Centros Logísticos, que encuadra al Laboratorio Central del Ejército, responsable de realizar el control de calidad de las adquisiciones que se determinen y de elaborar los pliegos de prescripciones técnicas de los materiales y equipos que se le ordenen, dentro del proceso de adquisición de recursos, y a los siguientes parques y centros:</p>
+          <p class="parrafo_2">1.º El Parque y Centro de Abastecimiento de Material de Intendencia.</p>
+          <p class="parrafo">2.º El Parque y Centro de Mantenimiento de Material de Transmisiones.</p>
+          <p class="parrafo">3.º El Parque y Centro de Mantenimiento de Material de Ingenieros.</p>
+          <p class="parrafo">4.º El Parque y Centro de Mantenimiento de Vehículos Ruedas n.º 1.</p>
+          <p class="parrafo">5.º El Parque y Centro de Mantenimiento de Vehículos Ruedas n.º 2.</p>
+          <p class="parrafo">6.º El Parque y Centro de Mantenimiento de Sistemas Acorazados n.º 1.</p>
+          <p class="parrafo">7.º El Parque y Centro de Mantenimiento de Sistemas Acorazados n.º 2.</p>
+          <p class="parrafo">8.º El Parque y Centro de Mantenimiento de Sistemas Antiaéreos, Costa y Misiles.</p>
+          <p class="parrafo">9.º El Parque y Centro de Mantenimiento de Armamento y Material de Artillería.</p>
+          <p class="parrafo">10.º El Parque y Centro de Mantenimiento de Helicópteros.</p>
+          <p class="parrafo">11.º El Parque y Centro de Mantenimiento de Sistemas Hardware y Software</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 28. La Inspección General del Ejército de Tierra.</p>
+          <p class="parrafo">1. La Inspección General del Ejército de Tierra se articula en:</p>
+          <p class="parrafo_2">a) La Jefatura, en la que se integra una Secretaría General.</p>
+          <p class="parrafo">b) La Dirección de Acuartelamiento, que coordina las funciones y cometidos de las subinspecciones generales del Ejército de Tierra.</p>
+          <p class="parrafo">c) La Dirección de Infraestructura.</p>
+          <p class="parrafo_2">2. La Dirección de Acuartelamiento, que actuará como una subinspección general en la Comunidad de Madrid y en la Comunidad Autónoma de Castilla-La Mancha, se articula en:</p>
+          <p class="parrafo_2">a) La Segunda Subinspección General (Sur).</p>
+          <p class="parrafo">b) La Tercera Subinspección General (Pirenaica).</p>
+          <p class="parrafo">c) La Cuarta Subinspección General (Noroeste).</p>
+          <p class="parrafo">d) La Quinta Subinspección General (Canarias).</p>
+          <p class="parrafo">e) La Unidad de Servicios de Base «El Goloso».</p>
+          <p class="parrafo">f) La Unidad de Servicios de Base «Coronel Maté».</p>
+          <p class="parrafo">g) La Unidad de Servicios de Base «Príncipe».</p>
+          <p class="parrafo">h) La Unidad de Servicios de Base Discontinua «General Cavalcanti».</p>
+          <p class="parrafo_2">3. La Segunda Subinspección General (Sur) se articula en:</p>
+          <p class="parrafo_2">a) La Unidad de Servicios de Base «General Menacho».</p>
+          <p class="parrafo">b) La Unidad de Servicios de Base «Cerro Muriano».</p>
+          <p class="parrafo">c) La Unidad de Servicios de Base «Álvarez de Sotomayor».</p>
+          <p class="parrafo">d) La Unidad de Servicios de Base Discontinua «Teniente Flomesta».</p>
+          <p class="parrafo">e) La Unidad de Servicios de Base Discontinua «Teniente Ruiz».</p>
+          <p class="parrafo">f) La Unidad de Servicios de Base «El Copero».</p>
+          <p class="parrafo_2">4. La Tercera Subinspección General (Pirenaica) se articula en:</p>
+          <p class="parrafo_2">a) La Unidad de Servicios de Base «Jaime I».</p>
+          <p class="parrafo">b) La Unidad de Servicios de Base Discontinua «San Jorge».</p>
+          <p class="parrafo">c) La Unidad de Servicios de Base Discontinua «Oroel»:</p>
+          <p class="parrafo_2">5. La Cuarta Subinspección General (Noroeste) se articula en:</p>
+          <p class="parrafo_2">a) La Unidad de Servicios de Base «Araca».</p>
+          <p class="parrafo">b) La Unidad de Servicios de Base «General Morillo».</p>
+          <p class="parrafo">c) La Unidad de Servicios de Base «Cid Campeador».</p>
+          <p class="parrafo">d) La Unidad de Servicios de Base «Conde de Gazola».</p>
+          <p class="parrafo">e) La Unidad de Servicios de Base «El Empecinado».</p>
+          <p class="parrafo_2">6. La Quinta Subinspección General (Canarias) se articula en:</p>
+          <p class="parrafo_2">a) La Unidad de Servicios de Base Discontinua «La Cuesta».</p>
+          <p class="parrafo">b) La Unidad de Servicios de Base «General Alemán Ramírez».</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2015-7238" fecha_publicacion="20150630" fecha_vigencia="20150701">
+          <p class="articulo">Artículo 29. La Dirección de Asuntos Económicos.</p>
+          <p class="parrafo">La Dirección de Asuntos Económicos se articula en:</p>
+          <p class="parrafo_2">a) La Subdirección de Contabilidad y Presupuesto, responsable de llevar a cabo la elaboración técnica del anteproyecto de presupuesto, la centralización de toda la información, tanto sobre la previsión y ejecución de los programas como del presupuesto, y la coordinación de la contabilidad en el ámbito del Ejército de Tierra. Administra el Servicio Presupuestario del Ejército de Tierra.</p>
+          <p class="parrafo">b) La Subdirección de Gestión Económica y Contratación, responsable de llevar a cabo la administración y gestión de los recursos financieros del Ejército de Tierra que se le encomienden, así como de la coordinación y control de la contratación. Asimismo, le corresponderá la administración de los recursos financieros no asignados expresamente a ninguna otra unidad.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T144026Z</fecha_actualizacion>
+      <identificador>BOE-A-1996-1071</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19960115</fecha_disposicion>
+      <numero_oficial>6/1996</numero_oficial>
+      <titulo>Ley 6/1996, de 15 de enero, del Voluntariado.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19960117</fecha_publicacion>
+      <diario_numero>15</diario_numero>
+      <fecha_vigencia>19960206</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20151016</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1996/01/15/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1996-1071</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="329">Asistencia social</materia>
+        <materia codigo="7169">Voluntariado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1991-30456</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 13/1991, de 20 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1984-28226</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 48/1984, de 26 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2015-11072</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Ley 45/2015, de 14 de octubre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1998-16303</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>la disposición adicional segunda , por Ley 23/1998 de 7 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1997-16673</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>, aprobando el Reglamento sobre Convalidación de servicios Voluntarios a efectos de la Prestación social Sustitutoria: Real Decreto 1248/1997, de 24 de julio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-1071</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-15</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/329"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-1071</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/329"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/20151015"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/19980708"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/19960117"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1996, de 15 de enero, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 6/1996, de 15 de gener, del voluntariat. («BOE» 15, de 17-1-1996.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/20151015">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-1071</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/329"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/20151015/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1996, de 15 de enero, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/20151015"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/20151015/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/20151015/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/19980708">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-1071</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/329"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/19980708/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1996, de 15 de enero, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/19980708"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/19980708/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/19980708/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/19960117">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-1071</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/329"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7169"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/19960117/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1996, de 15 de enero, del Voluntariado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/19960117"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1996/01/15/6/con/19960117/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1996/01/15/6/con/19960117/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2015-11072" fecha_publicacion="20151015" fecha_vigencia="20151016">
+          <p class="siempreSeVe">Norma derogada por la disposición derogatoria.1 de la Ley 45/2015, de 14 de octubre. <a class="refPost">Ref. BOE-A-2015-11072#dd</a>.</p>
+          <p> </p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley:</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="subseccion">1</p>
+          <p class="parrafo">El moderno Estado de Derecho debe incorporar a su ordenamiento jurídico la regulación de las actuaciones de los ciudadanos que se agrupan para satisfacer los intereses generales, asumiendo que la satisfacción de los mismos ha dejado de ser considerada como una responsabilidad exclusiva del Estado para convertirse en una tarea compartida entre Estado y sociedad.</p>
+          <p class="parrafo">El Estado necesita de la responsabilidad de sus ciudadanos y éstos reclaman un papel cada vez más activo en la solución de los problemas que les afectan.</p>
+          <p class="parrafo">La conciencia creciente de esa responsabilidad social ha llevado a que los ciudadanos, a veces individualmente, pero, sobre todo, por medio de organizaciones basadas en la solidaridad y el altruismo, desempeñen un papel cada vez más importante en el diseño y ejecución de actuaciones dirigidas a la satisfacción del interés general y especialmente a la erradicación de situaciones de marginación y a la construcción de una sociedad solidaria en la que todos los ciudadanos gocen de una calidad de vida digna.</p>
+          <p class="parrafo">Una manifestación fundamental de esta iniciativa social la constituye el voluntariado, expresión de la solidaridad desde la libertad y el altruismo.</p>
+          <p class="parrafo">La acción voluntaria se ha convertido hoy en día en uno de los instrumentos básicos de actuación de la sociedad civil en el ámbito social y, como consecuencia de ello, reclama un papel más activo que se traduce en la exigencia de mayor participación en el diseño y ejecución de las políticas públicas sociales.</p>
+          <p class="parrafo">Esta participación, por otro lado, es la que reconoce expresamente nuestra Constitución a los ciudadanos y a los grupos en que éstos se integran, en el artículo 9.2, y la que, en razón del mismo artículo, están obligados a promover, impulsar y proteger los poderes públicos.</p>
+          <p class="parrafo">Abordar legislativamente desde el Estado esta triple tarea supone, de un lado, garantizar la libertad de los ciudadanos a expresar su compromiso solidario a través de los cauces que mejor se acomoden a sus más íntimas motivaciones. En segundo lugar, implica, como se ha dicho anteriormente, la obligación del Estado de reconocer, promover e impulsar eficazmente la acción voluntaria en sus diversas modalidades. Finalmente, implica la obligación de respetar el orden constitucional de distribución de competencias y, por tanto, las normas que sobre esta misma materia hayan dictado o puedan dictar en un futuro las Comunidades Autónomas.</p>
+          <p class="parrafo">La presente Ley persigue el logro de esos tres objetivos. En efecto, queda superado el concepto restringido de voluntario, asimilado con frecuencia a lo puramente asistencial, para dar cabida también al resto de ámbitos en los que la participación ciudadana es igualmente valiosa y necesario complemento de la actividad pública. Desde la educación al deporte, de lo cívico a lo asistencial, la Ley recoge lo que viene siendo la práctica habitual de quienes trabajan de forma altruista en conseguir una sociedad mejor para todos.</p>
+          <p class="parrafo">El voluntariado así entendido debe superar también el puro voluntarismo, la acción individual, aislada y esporádica, bienintencionada pero poco eficaz y, por tanto, ha de ser reconducido hacia las organizaciones, tanto privadas como públicas, con capacidad para aprovechar sinérgicamente el esfuerzo, el entusiasmo y la dedicación de los voluntarios.</p>
+          <p class="parrafo">Por lo que se refiere al segundo de los objetivos citados, junto con el reconocimiento del hecho social del voluntariado, la Ley contempla una serie de medidas de apoyo al voluntariado tendentes a incrementar su nivel de implantación social.</p>
+          <p class="parrafo">Finalmente, en cuanto al reparto constitucional de competencias, la promoción y el fomento del voluntariado no es una competencia exclusiva del Estado, razón por la que la Ley limita su ámbito de aplicación a los voluntarios y organizaciones que participen o desarrollen programas de ámbito estatal o supraautonómico, así como a los que participen en programas que desarrollen actividades de competencia exclusiva estatal.</p>
+          <p class="subseccion">2</p>
+          <p class="parrafo">Recoge la Ley las notas comúnmente aceptadas como definitorias de la actividad de voluntariado: carácter altruista y solidario; libertad, es decir, que no traiga su causa de una obligación o un deber del voluntario; gratuidad, sin que exista contraprestación económica de ningún tipo; y, finalmente, que se realice a través de una organización pública o privada. La Ley contempla, por tanto, el voluntariado organizado, esto es, el que se desarrolla dentro del ámbito de una entidad pública o privada, excluyéndose las actuaciones aisladas o esporádicas realizadas por razones de amistad, benevolencia o buena vecindad.</p>
+          <p class="parrafo">La acción voluntaria queda con la Ley completamente deslindada de cualquier forma de prestación de servicios retribuida, ya sea civil, laboral, funcionarial o mercantil.</p>
+          <p class="parrafo">Esta diferenciación entre voluntario y trabajador asalariado se afianza además con el establecimiento de un amplio cuadro de derechos y deberes de los voluntarios, que habrá de ser respetado y observado por las organizaciones y los voluntarios, constituyendo así la referencia obligada ante cualquier conflicto que pudiera surgir entre unas y otros.</p>
+          <p class="parrafo">Los derechos y deberes contemplados en la Ley son fiel reflejo de los que con carácter general se apuntan en las diversas Recomendaciones internacionales sobre la materia, así como los que se recogen en la «Carta europea para los voluntarios» propuesta por Volonteurope y la «Declaración Universal sobre Voluntariado», elaborada por los propios voluntarios en el Congreso mundial celebrado en París en 1990 a iniciativa de la Asociación Internacional de Esfuerzos Voluntarios. En la misma línea estos derechos y deberes se ajustan a las Cartas de los voluntarios de las ONGs que en nuestro país cuentan con una mayor tradición en este terreno.</p>
+          <p class="subseccion">3</p>
+          <p class="parrafo">Como ya se señaló anteriormente, la Ley del Voluntariado contempla únicamente aquella actividad que se realiza a través de una organización privada o pública.</p>
+          <p class="parrafo">La Ley no distingue donde la realidad no lo ha hecho y contempla el voluntariado en toda su diversidad sin acuñar nuevas terminologías que en nada contribuirían a clarificar el ya de por sí complejo y rico panorama asociativo español. En consecuencia, cualquier organización, pública o privada, que cumpla los requisitos señalados en la Ley (carecer de ánimo de lucro, estar legalmente constituida, tener personalidad jurídica propia y realizar programas en el marco de las actividades de interés general que la propia Ley menciona) puede contar con la colaboración de voluntarios, quedando entonces sometida, respecto de ellos, al régimen jurídico establecido en la Ley.</p>
+          <p class="parrafo">Con el objetivo de contribuir al fomento del voluntariado la Ley contempla una serie de medidas. Con estas medidas se trata de fomentar el voluntariado sin desvirtuar su naturaleza solidaria, altruista y gratuita, pero reconociendo al tiempo el valor que las actividades voluntarias tienen para toda la sociedad. Así, por ejemplo, se prevé el fomento, por la Administración General del Estado, de mecanismos de asistencia técnica, programas formativos, servicios de información y campañas de divulgación y reconocimiento de las actividades de voluntariado. También se prevén determinados beneficios para los voluntarios como reconocimiento y valoración social de su actuación.</p>
+          <p class="parrafo">Por último, la Ley contempla la situación de los voluntarios en el extranjero extendiendo a los mismos la aplicación de sus previsiones.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La presente Ley tiene por objeto promover y facilitar la participación solidaria de los ciudadanos en actuaciones de voluntariado, en el seno de organizaciones sin ánimo de lucro públicas o privadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 2. Ambito de aplicación.</p>
+          <p class="parrafo">1. Esta Ley será de aplicación a los voluntarios que participen en programas de ámbito estatal o supraautonómico, así como a las correspondientes organizaciones en cuanto desarrollen dichos programas.</p>
+          <p class="parrafo">2. También será de aplicación a los voluntarios y organizaciones que participen en programas que desarrollen actividades de competencia exclusiva estatal.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 3. Concepto de voluntariado.</p>
+          <p class="parrafo">1. A los efectos de la presente Ley, se entiende por voluntariado el conjunto de actividades de interés general, desarrolladas por personas físicas, siempre que las mismas no se realicen en virtud de una relación laboral, funcionarial, mercantil o cualquier otra retribuida y reúna los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que tengan carácter altruista y solidario.</p>
+          <p class="parrafo">b) Que su realización sea libre, sin que tengan su causa en una obligación personal o deber jurídico.</p>
+          <p class="parrafo">c) Que se lleven a cabo sin contraprestación económica, sin perjuicio del derecho al reembolso de los gastos que el desempeño de la actividad voluntaria ocasione.</p>
+          <p class="parrafo">d) Que se desarrollen a través de organizaciones privadas o públicas y con arreglo a programas o proyectos concretos.</p>
+          <p class="parrafo_2">2. Quedan excluidas las actuaciones voluntarias aisladas, esporádicas o prestadas al margen de organizaciones públicas o privadas sin ánimo de lucro, ejecutadas por razones familiares, de amistad o buena vecindad.</p>
+          <p class="parrafo">3. La actividad de voluntariado no podrá en ningún caso sustituir al trabajo retribuido.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 4. Actividades de interés general.</p>
+          <p class="parrafo">Se entiende por actividades de interés general, a efectos de lo dispuesto en el artículo anterior, las asistenciales, de servicios sociales, cívicas, educativas, culturales, científicas, deportivas, sanitarias, de cooperación al desarrollo, de defensa del medio ambiente, de defensa de la economía o de la investigación, de desarrollo de la vida asociativa, de promoción del voluntariado, o cualesquiera otras de naturaleza análoga.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Del voluntario</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 5. Concepto de voluntario.</p>
+          <p class="parrafo">Tendrán la consideración de voluntarios las personas físicas que se comprometan libremente a realizar las actividades contempladas en los artículos 3 y 4.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 6. Derechos del voluntario.</p>
+          <p class="parrafo">Los voluntarios tienen los siguientes derechos:</p>
+          <p class="parrafo_2">a) Recibir, tanto con carácter inicial como permanente, la información, formación, orientación, apoyo y, en su caso, medios materiales necesarios para el ejercicio de las funciones que se les asignen.</p>
+          <p class="parrafo">b) Ser tratados sin discriminación, respetando su libertad, dignidad, intimidad y creencias.</p>
+          <p class="parrafo">c) Participar activamente en la organización en que se inserten, colaborando en la elaboración, diseño, ejecución y evaluación de los programas, de acuerdo con sus estatutos o normas de aplicación.</p>
+          <p class="parrafo">d) Ser asegurados contra los riesgos de accidente y enfermedad derivados directamente del ejercicio de la actividad voluntaria, con las características y por los capitales asegurados que se establezcan reglamentariamente.</p>
+          <p class="parrafo">e) Ser reembolsados por los gastos realizados en el desempeño de sus actividades.</p>
+          <p class="parrafo">f) Disponer de una acreditación identificativa de su condición de voluntario.</p>
+          <p class="parrafo">g) Realizar su actividad en las debidas condiciones de seguridad e higiene en función de la naturaleza y características de aquélla.</p>
+          <p class="parrafo">h) Obtener el respeto y reconocimiento por el valor social de su contribución.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 7. Deberes del voluntario.</p>
+          <p class="parrafo">Los voluntarios están obligados a:</p>
+          <p class="parrafo_2">a) Cumplir los compromisos adquiridos con las organizaciones en las que se integren, respetando los fines y la normativa de las mismas.</p>
+          <p class="parrafo">b) Guardar, cuando proceda, confidencialidad de la información recibida y conocida en el desarrollo de su actividad voluntaria.</p>
+          <p class="parrafo">c) Rechazar cualquier contraprestación material que pudieran recibir bien del beneficiario o de otras personas relacionadas con su acción.</p>
+          <p class="parrafo">d) Respetar los derechos de los beneficiarios de su actividad voluntaria.</p>
+          <p class="parrafo">e) Actuar de forma diligente y solidaria.</p>
+          <p class="parrafo">f) Participar en las tareas formativas previstas por la organización de modo concreto para las actividades y funciones confiadas, así como las que con carácter permanente se precisen para mantener la calidad de los servicios que presten.</p>
+          <p class="parrafo">g) Seguir las instrucciones adecuadas a los fines que se impartan en el desarrollo de las actividades encomendadas.</p>
+          <p class="parrafo">h) Utilizar debidamente la acreditación y distintivos de la organización.</p>
+          <p class="parrafo">i) Respetar y cuidar los recursos materiales que pongan a su disposición las organizaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">De las relaciones entre los voluntarios y las organizaciones en que se integran</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 8. De las organizaciones.</p>
+          <p class="parrafo">1. Las organizaciones que cuenten con la presencia de voluntarios habrán de estar legalmente constituidas, dotadas de personalidad jurídica propia, carecer de ánimo de lucro y desarrollar programas en el marco de las actividades de interés general recogidas en el artículo 4 de esta Ley. Los distintos Ministerios, dentro de los créditos habilitados a tal fin, podrán conceder subvenciones o establecer convenios con las entidades de voluntariado siempre que se cumplan los requisitos exigidos en la legislación general sobre subvenciones y se realicen de acuerdo con criterios de transparencia y equidad, de la forma que reglamentariamente se establezca.</p>
+          <p class="parrafo">2. Dichas organizaciones deberán, en todo caso:</p>
+          <p class="parrafo_2">a) Cumplir los compromisos adquiridos con los voluntarios en el acuerdo de incorporación a la organización.</p>
+          <p class="parrafo">b) Acreditar la suscripción de una póliza de seguro, adecuada a las características y circunstancias de la actividad desarrollada por los voluntarios, que les cubra de los riesgos de accidente y enfermedad derivados directamente del ejercicio de la actividad voluntaria, con las características y por los capitales asegurados que se establezcan reglamentariamente.</p>
+          <p class="parrafo">c) Cubrir los gastos derivados de la prestación del servicio y dotar a los voluntarios de los medios adecuados para el cumplimiento de sus cometidos.</p>
+          <p class="parrafo">d) Establecer los sistemas internos de información y orientación adecuados para la realización de las tareas que sean encomendadas a los voluntarios.</p>
+          <p class="parrafo">e) Proporcionar a los voluntarios la formación necesaria para el correcto desarrollo de sus actividades.</p>
+          <p class="parrafo">f) Garantizar a los voluntarios la realización de sus actividades en las debidas condiciones de seguridad e higiene en función de la naturaleza y características de aquéllas.</p>
+          <p class="parrafo">g) Facilitar al voluntario una acreditación que le habilite e identifique para el desarrollo de su actividad.</p>
+          <p class="parrafo">h) Expedir a los voluntarios un certificado que acredite los servicios prestados.</p>
+          <p class="parrafo">i) Llevar un registro de altas y bajas del personal voluntario.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 9. Incorporación de los voluntarios.</p>
+          <p class="parrafo">1. La incorporación de los voluntarios a las organizaciones se formalizará por escrito mediante el correspondiente acuerdo o compromiso que, además de determinar el carácter altruista de la relación, tendrá como mínimo el contenido siguiente:</p>
+          <p class="parrafo_2">a) El conjunto de derechos y deberes que corresponden a ambas partes, que habrá de respetar lo dispuesto en la presente Ley.</p>
+          <p class="parrafo">b) El contenido de las funciones, actividades y tiempo de dedicación que se compromete a realizar el voluntario.</p>
+          <p class="parrafo">c) El proceso de formación que se requiera para el cumplimiento de sus funciones.</p>
+          <p class="parrafo">d) La duración del compromiso y las causas y formas de desvinculación por ambas partes.</p>
+          <p class="parrafo_2">2. La condición de voluntario será compatible con la de socio en la misma organización.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 10. Responsabilidad extracontractual frente a terceros.</p>
+          <p class="parrafo">Las organizaciones responderán frente a terceros por los daños y perjuicios causados por los voluntarios que participen en sus programas, como consecuencia de la realización de actuaciones de voluntariado, en los siguientes términos:</p>
+          <p class="parrafo_2">a) Cuando se trate de organizaciones privadas, de acuerdo con lo establecido en el capítulo II del Título XVI del Libro IV del Código Civil.</p>
+          <p class="parrafo">b) Cuando se trate de la Administración General del Estado y de las entidades de derecho público vinculadas o dependientes de ella, de conformidad con lo previsto en el Título X de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 11. Régimen jurídico.</p>
+          <p class="parrafo">Los conflictos que surjan entre los voluntarios y las organizaciones en el ejercicio de las actividades propias de voluntariado se dirimirán por la jurisdicción competente, de conformidad con lo establecido en las normas procesales.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 12. Colaboración en las organizaciones públicas sin ánimo de lucro.</p>
+          <p class="parrafo">La colaboración de los voluntarios en la Administración General del Estado y en las entidades de derecho público con personalidad jurídica propia, vinculadas o dependientes de aquélla, que no tengan ánimo de lucro, se ajustará a lo dispuesto en esta Ley y preferentemente se prestará a través de convenios o de acuerdos de colaboración con entidades sin ánimo de lucro privadas.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Medidas de fomento del voluntariado</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 13. Medidas de fomento.</p>
+          <p class="parrafo">La Administración General del Estado fomentará el establecimiento de mecanismos de asistencia técnica, programas formativos, servicios de información y campañas de divulgación y reconocimiento de las actividades de voluntariado.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 14. Incentivos al voluntariado.</p>
+          <p class="parrafo">Los voluntarios podrán disfrutar, en los términos y con el alcance que establezcan el Ministerio o Ministerios competentes, de bonificaciones o reducciones en el uso de medios de transporte público estatales, así como en la entrada a museos gestionados por la Administración General del Estado, y cualesquiera otros beneficios que reglamentariamente puedan establecerse como medida de fomento, reconocimiento y valoración social de la acción voluntaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 15. Reconocimiento de los servicios voluntarios.</p>
+          <p class="parrafo">1. El tiempo prestado como voluntario podrá surtir los efectos del servicio militar, en la forma prevista en la disposición final segunda de la Ley Orgánica 13/1991, de 20 de diciembre, del Servicio Militar.</p>
+          <p class="parrafo">2. Asimismo, el tiempo prestado como voluntario, debidamente acreditado, podrá ser convalidado total o parcialmente por el Consejo Nacional de Objeción de Conciencia, por el tiempo de duración de la prestación social sustitutoria que corresponda proporcionalmente, siempre que:</p>
+          <p class="parrafo">Se trate de actividades de voluntariado realizadas con posterioridad al reconocimiento como objetor de conciencia,</p>
+          <p class="parrafo">La prestación de servicios se realice por un tiempo continuado de al menos seis meses, integrado en una entidad u organización que tenga suscrito convenio con el Ministerio de Justicia e Interior para la realización de la prestación social sustitutoria, en los términos previstos en la Ley 48/1984, de 26 de diciembre, reguladora de la objeción de conciencia y de la prestación social sustitutoria, y disposiciones de desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Artículo 16. Acreditación de las prestaciones efectuadas.</p>
+          <p class="parrafo">La acreditación de la prestación de servicios voluntarios se efectuará mediante certificación expedida por la organización en la que se haya realizado, en la que deberán constar, como mínimo, además de los datos personales e identificativos del voluntario y de la entidad, los siguientes:</p>
+          <p class="parrafo_2">a) Acreditación de que el sujeto interesado tiene la condición de voluntario.</p>
+          <p class="parrafo">b) Fecha, duración y naturaleza de la prestación efectuada por el voluntario.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Disposición adicional primera. Voluntarios en el extranjero.</p>
+          <p class="parrafo">A quienes participen de forma voluntaria y gratuita en programas que se ejecuten en el extranjero por organizaciones que reúnan los requisitos del artículo 8 de esta Ley, les será de aplicación lo previsto en la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Disposición adicional segunda. Voluntarios de la cooperación para el desarrollo.</p>
+          <p class="parrafo">1. Son voluntarios de cooperación para el desarrollo los que, integrados en organizaciones públicas o privadas sin ánimo de lucro, participen, en las condiciones que se indican en los apartados 2, 3 y 4 de esta disposición, en la gestión o ejecución de programas de la cooperación oficial española para el desarrollo.</p>
+          <p class="parrafo">2. Los voluntarios de cooperación para el desarrollo estarán vinculados a la organización en la que prestan sus servicios por medio de un acuerdo o compromiso formal que contemple, como mínimo:</p>
+          <p class="parrafo">a) Los recursos necesarios para hacer frente a las necesidades de subsistencia en el país de destino.</p>
+          <p class="parrafo">b) Un seguro de enfermedad y accidente a favor del voluntario y los familiares directos que con él se desplacen, válido para el período de su estancia en el extranjero.</p>
+          <p class="parrafo">c) Un período de formación, si fuera necesario.</p>
+          <p class="parrafo">3. Los voluntarios de cooperación para el desarrollo deberán ser informados, por la organización a la que estén vinculados de los objetivos de su actuación, el marco en el que se produce, los derechos y deberes, el derecho a la acreditación oportuna, así como de la obligación de respetar las leyes del país de destino.</p>
+          <p class="parrafo">4. Los voluntarios de cooperación para el desarrollo tendrán derecho a las exenciones fiscales, inmunidades y privilegios que se deriven de los Acuerdos Internacionales sobre la materia, suscritos por España.</p>
+          <p class="parrafo">5. En lo no previsto en los apartados anteriores o en las normas reglamentarias de desarrollo de los mismos, serán de aplicación a los voluntarios de la cooperación para el desarrollo las disposiciones de la presente Ley.</p>
+          <p class="parrafo">6. Los voluntarios que participen en programas de cooperación para el desarrollo, cuya prestación no incluya las prestaciones fijadas en los apartados a) y b) del punto 2 de esta disposición, en lo referente al seguro de los familiares directos que se desplacen con el voluntario, se sujetarán al régimen general de la Ley, no siéndoles de aplicación lo dispuesto en los apartados anteriores de la presente disposición.</p>
+        </version>
+        <version id_norma="BOE-A-1998-16303" fecha_publicacion="19980708" fecha_vigencia="19980709">
+          <p class="articulo">Disposición adicional segunda. Voluntarios de la cooperación para el desarrollo.</p>
+          <p class="parrafo">
+            <strong>(Derogada)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria única.3 de la Ley 23/1998, de 7 de julio. <a class="refPost">Ref. BOE-A-1998-16303</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Disposición adicional tercera. Extensión del reconocimiento de los servicios voluntarios.</p>
+          <p class="parrafo">Lo previsto en los artículos 14 y 15 de esta Ley podrá ser de aplicación a los voluntarios que participen en programas que desarrollen actividades de competencia de las Comunidades Autónomas o de los Entes locales, en el seno de organizaciones que reúnan los requisitos previstos en el artículo 8 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Disposición transitoria única. Adaptación de las organizaciones.</p>
+          <p class="parrafo">Las organizaciones que a la entrada en vigor de esta Ley dispongan de personal voluntario deberán ajustarse a lo previsto en la misma en el plazo de dos años.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="articulo">Disposición final única. Facultad de aplicación y desarrollo.</p>
+          <p class="parrafo">Se autoriza al Gobierno a dictar las disposiciones necesarias para el desarrollo y ejecución de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1996-1071" fecha_publicacion="19960117" fecha_vigencia="19960206">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta Ley.</p>
+          <p class="parrafo_2">Madrid, 15 de enero de 1996.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">FELIPE GONZÁLEZ MÁRQUEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

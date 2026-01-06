@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180524Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-24791</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5130">Ministerio de Economía y Hacienda</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>19991222</fecha_disposicion>
+      <titulo>Orden de 22 de diciembre de 1999 por la que se crea un segmento especial de negociación en las Bolsas de Valores denominado "Nuevo Mercado" y se modifican los requisitos de admisión a Bolsa.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19991230</fecha_publicacion>
+      <diario_numero>312</diario_numero>
+      <fecha_vigencia>19991231</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/1999/12/22/(6)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-24791</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="521">Bolsas de Valores</materia>
+        <materia codigo="6896">Títulos valores</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1997-13604</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>el apartado primero a) de la Orden de 19 de junio de 1997</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2000-3196</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>estableciendo las condiciones particulares de admisión y permanencia: Circular 1/2000, de 9 de febrero</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-24791</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-12-22</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6)</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-24791</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-12-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/con/19991230"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 22 de diciembre de 1999 por la que se crea un segmento especial de negociación en las Bolsas de Valores denominado "Nuevo Mercado" y se modifican los requisitos de admisión a Bolsa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-12-30</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/con/19991230">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-24791</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-12-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-12-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/con/19991230/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 22 de diciembre de 1999 por la que se crea un segmento especial de negociación en las Bolsas de Valores denominado "Nuevo Mercado" y se modifican los requisitos de admisión a Bolsa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/con/19991230"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1999/12/22/(6)/con/19991230/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1999/12/22/(6)/con/19991230/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="parrafo">La necesidad de dar respuesta a las realidades que se presentan en nuestros mercados financieros obligó en 1997 a establecer un conjunto de supuestos donde empresas que no cumplían los requisitos generales para ser admitidas a negociación en Bolsa de Valores, y, en particular, el de beneficios durante un conjunto de ejercicios, pudieran, bajo ciertos supuestos y condiciones, ser cotizadas.</p>
+          <p class="parrafo">En la vía económica actual ha cobrado especial protagonismo un determinado tipo de empresa caracterizada por pertenecer a un sector tecnológicamente puntero a nivel de producto o a nivel de proceso productivo, con un ciclo económico o un mercado potencial sujeto a la incertidumbre de lo novedoso. En este tipo de empresas el riesgo es mayor que en sectores de ciclo conocido o mercados asentados, pero a cambio el potencial de crecimiento y las eventuales ganancias son también mayores. Las especiales características de estas empresas determinan consecuencias de orden económico y financiero que deben ser tenidas en cuenta a la hora de permitir su acceso a los mercados financieros.</p>
+          <p class="parrafo">En la mayor parte de los países de nuestro entorno se han creado en los últimos meses mercados o segmentos de mercado específicos para la negociación de valores de este tipo de empresas. En estos mercados o segmentos los niveles de información y de protección del inversor que caracterizan a los mercados regulados, lógicamente han sido aumentados y adaptados a sus especiales características.</p>
+          <p class="parrafo">El actual marco jurídico que rige los mercados de valores españoles se muestra insuficiente para dar cabida a estos planteamientos empresariales y financieros. Es por ello que la presente Orden crea un «Nuevo Mercado» para este tipo de sociedades. La Orden tiene en cuenta las especiales características de estas empresas que requieren una adaptación de los requisitos de admisión y de negociación.</p>
+          <p class="parrafo">Al mismo tiempo, la Orden flexibiliza los requisitos de salida a Bolsa modificando para ello la Orden de 19 de junio de 1997. El requisito de obtención de beneficios previsto en el Reglamento de Bolsas podrá excepcionarse cuando la sociedad emisora informe sobre la evolución de sus beneficios en ejercicios venideros.</p>
+          <p class="parrafo">Con este nuevo régimen se amplía el ámbito del mercado de valores español como vehículo de financiación de empresas, y se abre a determinadas empresas de nuestro país una nueva vía de obtención de recursos que servirá sin duda para financiar de un modo más eficiente sectores punteros de nuestra economía y, de este modo, incrementar su competitividad.</p>
+          <p class="parrafo">En su virtud, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="articulo">Primero. Creación de un segmento especial de negociación en las Bolsas de Valores denominado «Nuevo Mercado».</p>
+          <p class="parrafo_2">1. Se crea en las Bolsas de Valores españolas un segmento especial de negociación que se denominará «Nuevo Mercado».</p>
+          <p class="parrafo">2. En el «Nuevo Mercado» se negociarán los valores de empresas de sectores innovadores de alta tecnología u otros sectores que ofrezcan grandes posibilidades de crecimiento futuro, aunque con mayores nieveles de riesgo que los sectores tradicionales. La Comisión Nacional del Mercado de Valores establecerá los criterios generales que determinan el que los valores de la empresa deban ser negociados en el «Nuevo Mercado».</p>
+          <p class="parrafo">3. La Comisión Nacional del Mercado de Valores establecerá las condiciones particulares de admisión y permanencia que, en su caso, sean necesarias, y que habrán de cumplir las empresas que se negocien en el «Nuevo Mercado». Por su parte, las Bolsas establecerán las reglas de contratación o funcionamiento del «Nuevo Mercado».</p>
+          <p class="parrafo">4. Las Bolsas difundirán, adecuadamente diferenciada, la información general y especial exigida a las entidades emisoras de valores negociados en el «Nuevo Mercado».</p>
+          <p class="parrafo">5. La sociedad emisora informará, al menos una vez al año, de manera específica sobre la marcha y evolución del negocio, así como de las perspectivas del mismo.</p>
+          <p class="parrafo">6. En el folleto informativo, así como en toda la publicidad que se haga de la oferta pública, incluyendo el tríptico, se contendrá una mención específica acerca de que la negociación se va a desarrollar en el «Nuevo Mercado».</p>
+          <p class="parrafo">Iguales menciones habrán de hacer las empresas del «Nuevo Mercado» en la información pública periódica y en las cuentas anuales, así como en los folletos informativos que sean verificados con ocasión de ulteriores ampliaciones de capital y, en general, con ocasión de emisiones u ofertas públicas de venta de valores.</p>
+          <p class="parrafo">7. La Comisión Nacional del Mercado de Valores podrá suspender o dejar sin efecto las reglas y condiciones que, en su caso, establezcan las Bolsas de Valores sobre el «Nuevo Mercado», cuando estime que infringen la legislación de mercados de valores o perjudican la corrección y transparencia del proceso de formación de los precios o la protección de los inversores. En particular, podrá oponerse cuando las reglas y condiciones establecidas no reflejen adecuadamente las características de este segmento y la tipología de empresas que se negocian en el mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="articulo">Segundo. Modificación de la Orden de 19 de junio de 1997 sobre requisitos de admisión a negociación en Bolsas de Valores.</p>
+          <p class="parrafo_2">La letra a) del número primero de la Orden quedará como sigue:</p>
+          <p class="sangrado_2">«a) Que la entidad emisora, con independencia del plazo que haya transcurrido desde su constitución, aporte un informe a la Comisión Nacional del Mercado de Valores de su órgano de administración sobre las perspectivas de negocio y financieras de la entidad y sobre las consecuencias que, a su particular juicio, tendrán sobre la evolución de sus resultados en los ejercicios venideros. Dicha información deberá incluirse en la información que la Comisión Nacional del Mercado de Valores registre y ponga a disposición del público con ocasión de la verificación del folleto correspondiente, con el fin de que el mercado y los potenciales inversores puedan obtener una imagen adecuada de la inversión en dichos valores.»</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="DISPOSICIÓN TRANSITORIA">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="capitulo">DISPOSICIÓN TRANSITORIA</p>
+          <p class="parrafo_2">Con anterioridad a la puesta en funcionamiento del «Nuevo Mercado», las Bolsas propondrán a la Comisión Nacional del Mercado de Valores los valores de las empresas que, estando ya admitidos a cotización y por cumplir los criterios generales a que se refiere el número primero, apartado 2, de la presente Orden, deberán negociarse en el mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="encabezado" titulo="DISPOSICIONES FINALES">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="capitulo">DISPOSICIONES FINALES</p>
+        </version>
+      </bloque>
+      <bloque id="primera" tipo="precepto" titulo="Primera">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="articulo">Primera.</p>
+          <p class="parrafo_2">Se faculta a la Comisión Nacional del Mercado de Valores para dictar cuantas disposiciones sean necesarias para desarrollar la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="segunda" tipo="precepto" titulo="Segunda">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="articulo">Segunda.</p>
+          <p class="parrafo_2">La presente Orden entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1999-24791" fecha_publicacion="19991230" fecha_vigencia="19991231">
+          <p class="parrafo_2">Madrid, 22 de diciembre de 1999.</p>
+          <p class="firma_rey">DE RATO Y FIGAREDO</p>
+          <p class="parrafo_2">Ilma. Sra. Directora general del Tesoro y Política Financiera y Excmo. Sr. Presidente de la Comisión Nacional del Mercado de Valores.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

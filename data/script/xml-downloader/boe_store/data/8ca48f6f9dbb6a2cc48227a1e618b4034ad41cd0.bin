@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T114557Z</fecha_actualizacion>
+      <identificador>BOE-A-2008-13033</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1290">Ley Orgánica</rango>
+      <fecha_disposicion>20080730</fecha_disposicion>
+      <numero_oficial>1/2008</numero_oficial>
+      <titulo>Ley Orgánica 1/2008, de 30 de julio, por la que se autoriza la ratificación por España del Tratado de Lisboa, por el que se modifican el Tratado de la Unión Europea y el Tratado Constitutivo de la Comunidad Europea, firmado en la capital portuguesa el 13 de diciembre de 2007.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20080731</fecha_publicacion>
+      <diario_numero>184</diario_numero>
+      <fecha_vigencia>20080801</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/lo/2008/07/30/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2008-13033</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="71">Acuerdos internacionales</materia>
+        <materia codigo="7001">Unión Europea</materia>
+      </materias>
+      <notas>
+        <nota>Contiene CARTA de los Derechos Fundamentales de la Unión Europea, publicada también en DOUE C 303, de 14 de diciembre de 2007, DOUE-Z-2007-70004.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>DOUE-Z-2007-70005</id_norma>
+            <relacion codigo="421">AUTORIZA</relacion>
+            <texto>la ratificación del Tratado de 13 de diciembre de 2007</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2009-6644</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE núm. 98, de 22 de abril de 2009</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13033</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-30</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/71"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13033</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/71"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/corrigendum/20090422/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/con/20080731"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 1/2008, de 30 de julio, por la que se autoriza la ratificación por España del Tratado de Lisboa, por el que se modifican el Tratado de la Unión Europea y el Tratado Constitutivo de la Comunidad Europea, firmado en la capital portuguesa el 13 de diciembre de 2007.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei orgànica 1/2008, de 30 de juliol, per la qual s'autoritza la ratificació per Espanya del Tractat de Lisboa, pel qual es modifiquen el Tractat de la Unió Europea i el Tractat constitutiu de la Comunitat Europea, signat a la capital portuguesa el 13 de desembre de 2007.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei orgánica 1/2008, do 30 de xullo, pola que se autoriza a ratificación por España do Tratado de Lisboa, polo que se modifican o Tratado da Unión Europea e o Tratado Constitutivo da Comunidade Europea, asinado na capital portuguesa o 13 de decembro de 2007. («BOE» 184, do 31-7-2008.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/vci">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/vci"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI ORGÀNICA 1/2008, de 30 de juliol, per la qual s'autoritza la ratificació per Espanya del Tractat de Lisboa, pel qual es modifiquen el Tractat de la Unió Europea i el Tractat Constitutiu de la Comunitat Europea, firmat a la capital portuguesa el 13 de desembre de 2007. («BOE» 184, de 31-7-2008.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/vci/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof/vci"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/con/20080731">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13033</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/71"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/con/20080731/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 1/2008, de 30 de julio, por la que se autoriza la ratificación por España del Tratado de Lisboa, por el que se modifican el Tratado de la Unión Europea y el Tratado Constitutivo de la Comunidad Europea, firmado en la capital portuguesa el 13 de diciembre de 2007.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/con/20080731"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2008/07/30/1/con/20080731/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2008/07/30/1/con/20080731/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren,</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley orgánica.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">El 13 de diciembre de 2007, tras superar la incertidumbre creada al no alcanzarse la ratificación unánime del Tratado por el que se establece una Constitución para Europa, se procedió a la firma en la capital portuguesa del Tratado de Lisboa, por el que se modifican el Tratado de la Unión Europea y el Tratado constitutivo de la Comunidad Europea (que pasará a denominarse Tratado de Funcionamiento de la Unión Europea). El Tratado de Lisboa deriva de la citada Constitución Europea, que fue aprobada en referéndum por el pueblo español. De ahí que las bases, valores, objetivos, derechos, políticas e instituciones del Tratado sean sustancialmente similares a las de la non nata Constitución.</p>
+          <p class="parrafo">Este nuevo Tratado permitirá que la Unión Europea esté mejor preparada para hacer frente a los desafíos que nos ha traído el nuevo siglo, dotándola de más y mejores instrumentos para actuar con legitimidad y eficacia. Estas son las dos claves fundamentales, eficacia y legitimidad, a la luz de las cuales hay que leer las novedades que aporta el Tratado de Lisboa.</p>
+          <p class="parrafo">En primer lugar, la Unión precisa mayores dosis de legitimidad. De ahí que muchas de las reformas que introduce el nuevo Tratado estén presididas por una firme voluntad de acercar la Unión a los ciudadanos y de garantizar que sirve a sus intereses.</p>
+          <p class="parrafo">Es el caso de los valores de respeto de la dignidad humana, libertad, democracia, igualdad, Estado de Derecho y Derechos Humanos. Es el caso de los objetivos de promoción de la paz y el bienestar de los pueblos que integran la Unión Europea. Es también el caso de la inclusión explícita en el Tratado de los principios fundamentales que han de regir las relaciones entre la Unión y sus Estados miembros, como el principio de atribución de competencias, según el cual la Unión cuenta con las competencias que el Tratado le reconoce, el principio de cooperación leal entre la Unión y sus Estados miembros o el principio del respeto por parte de la Unión de la identidad nacional de los Estados, incluyendo sus estructuras políticas y constitucionales.</p>
+          <p class="parrafo">En este sentido se inscribe la inclusión en el Tratado de una clasificación de las competencias en exclusivas de la Unión y compartidas, entre ésta y los Estados miembros, sin olvidar la posibilidad de que la Unión adopte medidas de apoyo en ámbitos que son esencialmente de competencia estatal, como la educación o la cultura.</p>
+          <p class="parrafo">En la línea de búsqueda de una mayor legitimidad para la acción de la Unión Europea se encuentra también la generalización del actual procedimiento de codecisión entre el Parlamento Europeo y el Consejo, que pasa a ser el procedimiento legislativo ordinario de la Unión, por lo que, como regla general, será preciso el acuerdo tanto del Parlamento Europeo como del Consejo para que se puedan adoptar normas jurídicas en la Unión Europea.</p>
+          <p class="parrafo">Otra aportación singular del Tratado de Lisboa es la previsión, por vez primera en la historia de la Unión, de una modalidad de iniciativa legislativa popular, de tal modo que, reuniendo las firmas de al menos un millón de ciudadanos, siempre que provengan de distintos Estados miembros, se podrá instar a la Comisión a que presente una determinada propuesta.</p>
+          <p class="parrafo">El Tratado de Lisboa permitirá además a la Unión actuar con mayor eficacia para responder en tiempo y forma a los cambios acelerados que experimenta la realidad social, económica e internacional del siglo XXI.</p>
+          <p class="parrafo">En este sentido debe interpretarse la creación de la figura del Presidente del Consejo Europeo, por un periodo de dos años y medio, renovable una sola vez, con el fin de dar mejor seguimiento a los trabajos del Consejo Europeo y reforzar la visibilidad de la Unión. O el establecimiento de la figura del Alto Representante de la Unión para los Asuntos Exteriores y la Política de Seguridad, que será, a un tiempo, mandatario del Consejo para los asuntos de la política exterior (PESC) y de defensa (PESD) y vicepresidente de la Comisión encargado de las relaciones exteriores, presidiendo el Consejo de Relaciones Exteriores de la Unión. Contará, además, con el apoyo de un Servicio Europeo de Acción Exterior, nutrido por funcionarios de las Instituciones de la Unión y de los Estados miembros.</p>
+          <p class="parrafo">Una reforma de gran importancia a la hora de agilizar el procedimiento de toma de decisiones en el seno de la Unión es la relativa a la limitación del recurso a la unanimidad y la consiguiente extensión del voto por mayoría cualificada a casi medio centenar de nuevas bases jurídicas. La unanimidad, no obstante, seguirá siendo la regla general en aquellos ámbitos que revisten una especial sensibilidad para los Estados miembros, como las líneas directrices de la política exterior, la fiscalidad, la política social, los recursos financieros de la Unión y la revisión de los Tratados.</p>
+          <p class="parrafo">El Tratado de Lisboa de la Unión Europea tiene además en cuenta muchas de las principales preocupaciones e inquietudes de los ciudadanos europeos en estos momentos. Así, contiene una nueva base jurídica que viene a reconocer el gran papel que desempeñan en nuestras sociedades los servicios públicos o de interés general, y otras bases que permitirán que la Unión se dote de mejores políticas en cuestiones de seguridad y lucha contra la criminalidad organizada, en materia de política de inmigración o en la lucha contra el cambio climático, así como las que hacen figurar la solidaridad entre los Estados miembros, ya sea para hacer frente a catástrofes naturales o a atentados terroristas, ya sea para garantizar el necesario suministro energético, como una de las señas de identidad de la integración europea.</p>
+          <p class="parrafo">El Tratado de Lisboa responde también a necesidades e inquietudes particularmente específicas de los ciudadanos españoles. Tal es el caso de de las nuevas disposiciones relativas al régimen de las regiones ultraperiféricas, en especial en materia de ayudas públicas, de la inclusión explícita, entre los objetivos de la política energética de la Unión, del fomento de las interconexiones de las redes o de la previsión de la posibilidad de embargar los fondos y activos financieros de grupos terroristas que actúen en el territorio de la Unión. Igualmente debe citarse, por su relevancia, el nuevo reparto de escaños en el Parlamento Europeo que conlleva un notable incremento de los asignados a España.</p>
+          <p class="parrafo">Conviene tener presente que el Reino de España, junto con otros quince Estados miembros de la Unión Europea, ha formulado una Declaración, anexa al Acta Final de la Conferencia Intergubernamental, en la que se señala que «que la bandera que representa un círculo de doce estrellas doradas sobre fondo azul, el himno tomado del ''Himno a la Alegría'' de la Novena Sinfonía de Ludwig van Beethoven, la divisa ''Unidad en la diversidad'', el euro en tanto que moneda de la Unión Europea y el Día de Europa el 9 de mayo seguirán siendo, para ellos, los símbolos de la pertenencia común de los ciudadanos a la Unión Europea y de su relación con ésta», por lo que la continuidad en el uso generalizado por los poderes públicos y por los ciudadanos de estos símbolos debe entenderse no sólo garantizada sino incluso activamente recomendada.</p>
+          <p class="parrafo">Por último debe resaltarse con especial énfasis que, según el Tratado de Lisboa, la Unión reconoce los derechos, libertades y principios enunciados en la Carta de los Derechos Fundamentales de 7 de diciembre de 2000, tal como fue adaptada el 12 de diciembre de 2007 en Estrasburgo, la cual, proclama, tendrá el mismo valor jurídico que los Tratados. Se trata de un avance de considerable valor político, además de jurídico, en el proceso de construcción de la Unión y de la ciudadanía europea. Por ello, y porque se considera conveniente desde el punto de vista de la transparencia y de la proximidad al ciudadano, se reproduce en el artículo segundo de esta Ley Orgánica el texto íntegro de la citada Carta, tal y como ha sido publicado en el «Diario Oficial de la Unión Europea» de 14 de diciembre de 2007 (2007/C 303/01).</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 1. Autorización de la ratificación del Tratado de Lisboa.</p>
+          <p class="parrafo">Se autoriza la ratificación por España del Tratado de Lisboa, por el que se modifican el Tratado de la Unión Europea y el Tratado constitutivo de la Comunidad Europea, firmado en la capital de la República de Portugal el 13 de diciembre de 2007.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 2. Carta de los Derechos Fundamentales de la Unión Europea.</p>
+          <p class="parrafo">A tenor de lo dispuesto en el párrafo segundo del artículo 10 de la Constitución española y en el apartado 8 del artículo 1 del Tratado de Lisboa, las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce se interpretarán también de conformidad con lo dispuesto en la Carta de los Derechos Fundamentales publicada en el «Diario Oficial de la Unión Europea» de 14 de diciembre de 2007, cuyo texto íntegro se reproduce a continuación:</p>
+        </version>
+      </bloque>
+      <bloque id="cd" tipo="encabezado" titulo="Carta de los Derechos Fundamentales">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="capitulo">Carta de los Derechos Fundamentales de la Unión Europea</p>
+          <p class="anexo">«PREÁMBULO</p>
+          <p class="parrafo_2">Los pueblos de Europa, al crear entre sí una unión cada vez más estrecha, han decidido compartir un porvenir pacífico basado en valores comunes.</p>
+          <p class="parrafo">Consciente de su patrimonio espiritual y moral, la Unión está fundada sobre los valores indivisibles y universales de la dignidad humana, la libertad, la igualdad y la solidaridad, y se basa en los principios de la democracia y el Estado de Derecho. Al instituir la ciudadanía de la Unión y crear un espacio de libertad, seguridad y justicia, sitúa a la persona en el centro de su actuación.</p>
+          <p class="parrafo">La Unión contribuye a defender y fomentar estos valores comunes dentro del respeto de la diversidad de culturas y tradiciones de los pueblos de Europa, así como de la identidad nacional de los Estados miembros y de la organización de sus poderes públicos a escala nacional, regional y local; trata de fomentar un desarrollo equilibrado y sostenible y garantiza la libre circulación de personas, servicios, mercancías y capitales, así como la libertad de establecimiento.</p>
+          <p class="parrafo">Para ello es necesario, dándoles mayor proyección mediante una Carta, reforzar la protección de los derechos fundamentales a tenor de la evolución de la sociedad, del progreso social y de los avances científicos y tecnológicos.</p>
+          <p class="parrafo">La presente Carta reafirma, dentro del respeto de las competencias y misiones de la Unión, así como del principio de subsidiariedad, los derechos que emanan en particular de las tradiciones constitucionales y las obligaciones internacionales comunes a los Estados miembros, del Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales, las Cartas Sociales adoptadas por la Unión y por el Consejo de Europa, así como de la jurisprudencia del Tribunal de Justicia de la Unión Europea y del Tribunal Europeo de Derechos Humanos. En este contexto, los órganos jurisdiccionales de la Unión y de los Estados miembros interpretarán la Carta atendiendo debidamente a las explicaciones elaboradas bajo la autoridad del Praesidium de la Convención que redactó la Carta y actualizadas bajo la responsabilidad del Praesidium de la Convención Europea.</p>
+          <p class="parrafo">El disfrute de tales derechos conlleva responsabilidades y deberes tanto respecto de los demás como de la comunidad humana y de las generaciones futuras.</p>
+          <p class="parrafo">En consecuencia, la Unión reconoce los derechos, libertades y principios enunciados a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Dignidad</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 1. Dignidad humana.</p>
+          <p class="parrafo_2">La dignidad humana es inviolable. Será respetada y protegida.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 2. Derecho a la vida.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a la vida.</p>
+          <p class="parrafo">2. Nadie podrá ser condenado a la pena de muerte ni ejecutado.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 3. Derecho a la integridad de la persona.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a su integridad física y psíquica.</p>
+          <p class="parrafo">2. En el marco de la medicina y la biología se respetarán en particular:</p>
+          <p class="parrafo">a) el consentimiento libre e informado de la persona de que se trate, de acuerdo con las modalidades establecidas por la ley;</p>
+          <p class="parrafo">b) la prohibición de las prácticas eugenésicas, en particular las que tienen como finalidad la selección de las personas;</p>
+          <p class="parrafo">c) la prohibición de que el cuerpo humano o partes del mismo en cuanto tales se conviertan en objeto de lucro;</p>
+          <p class="parrafo">d) la prohibición de la clonación reproductora de seres humanos.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 4. Prohibición de la tortura y de las penas o los tratos inhumanos o degradantes.</p>
+          <p class="parrafo_2">Nadie podrá ser sometido a tortura ni a penas o tratos inhumanos o degradantes.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 5. Prohibición de la esclavitud y del trabajo forzado.</p>
+          <p class="parrafo_2">1. Nadie podrá ser sometido a esclavitud o servidumbre.</p>
+          <p class="parrafo">2. Nadie podrá ser constreñido a realizar un trabajo forzado u obligatorio.</p>
+          <p class="parrafo">3. Se prohíbe la trata de seres humanos.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Libertades</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 6. Derecho a la libertad y a la seguridad.</p>
+          <p class="parrafo_2">Toda persona tiene derecho a la libertad y a la seguridad.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 7. Respeto de la vida privada y familiar.</p>
+          <p class="parrafo_2">Toda persona tiene derecho al respeto de su vida privada y familiar, de su domicilio y de sus comunicaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 8. Protección de datos de carácter personal.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a la protección de los datos de carácter personal que la conciernan.</p>
+          <p class="parrafo">2. Estos datos se tratarán de modo leal, para fines concretos y sobre la base del consentimiento de la persona afectada o en virtud de otro fundamento legítimo previsto por la ley. Toda persona tiene derecho a acceder a los datos recogidos que la conciernan y a obtener su rectificación.</p>
+          <p class="parrafo">3. El respeto de estas normas estará sujeto al control de una autoridad independiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 9. Derecho a contraer matrimonio y derecho a fundar una familia.</p>
+          <p class="parrafo_2">Se garantizan el derecho a contraer matrimonio y el derecho a fundar una familia según las leyes nacionales que regulen su ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 10. Libertad de pensamiento, de conciencia y de religión.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión. Este derecho implica la libertad de cambiar de religión o de convicciones, así como la libertad de manifestar su religión o sus convicciones individual o colectivamente, en público o en privado, a través del culto, la enseñanza, las prácticas y la observancia de los ritos.</p>
+          <p class="parrafo">2. Se reconoce el derecho a la objeción de conciencia de acuerdo con las leyes nacionales que regulen su ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 11. Libertad de expresión y de información.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a la libertad de expresión. Este derecho comprende la libertad de opinión y la libertad de recibir o comunicar informaciones o ideas sin que pueda haber injerencia de autoridades públicas y sin consideración de fronteras.</p>
+          <p class="parrafo">2. Se respetan la libertad de los medios de comunicación y su pluralismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 12. Libertad de reunión y de asociación.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a la libertad de reunión pacífica y a la libertad de asociación en todos los niveles, especialmente en los ámbitos político, sindical y cívico, lo que supone el derecho de toda persona a fundar con otras sindicatos y a afiliarse a los mismos para la defensa de sus intereses.</p>
+          <p class="parrafo">2. Los partidos políticos a escala de la Unión contribuyen a expresar la voluntad política de los ciudadanos de la Unión.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 13. Libertad de las artes y de las ciencias.</p>
+          <p class="parrafo_2">Las artes y la investigación científica son libres. Se respeta la libertad de cátedra.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 14. Derecho a la educación.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a la educación y al acceso a la formación profesional y permanente.</p>
+          <p class="parrafo">2. Este derecho incluye la facultad de recibir gratuitamente la enseñanza obligatoria.</p>
+          <p class="parrafo">3. Se respetan, de acuerdo con las leyes nacionales que regulen su ejercicio, la libertad de creación de centros docentes dentro del respecto de los principios democráticos, así como el derecho de los padres a garantizar la educación y la enseñanza de sus hijos conforme a sus convicciones religiosas, filosóficas y pedagógicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 15. Libertad profesional y derecho a trabajar.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a trabajar y a ejercer una profesión libremente elegida o aceptada.</p>
+          <p class="parrafo">2. Todo ciudadano de la Unión tiene libertad para buscar un empleo, trabajar, establecerse o prestar servicios en cualquier Estado miembro.</p>
+          <p class="parrafo">3. Los nacionales de terceros países que estén autorizados a trabajar en el territorio de los Estados miembros tienen derecho a unas condiciones laborales equivalentes a aquellas que disfrutan los ciudadanos de la Unión.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 16. Libertad de empresa.</p>
+          <p class="parrafo_2">Se reconoce la libertad de empresa de conformidad con el Derecho de la Unión y con las legislaciones y prácticas nacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 17. Derecho a la propiedad.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a disfrutar de la propiedad de los bienes que haya adquirido legalmente, a usarlos, a disponer de ellos y a legarlos. Nadie puede ser privado de su propiedad más que por causa de utilidad pública, en los casos y condiciones previstos en la ley y a cambio, en un tiempo razonable, de una justa indemnización por su pérdida. El uso de los bienes podrá regularse por ley en la medida en que resulte necesario para el interés general.</p>
+          <p class="parrafo">2. Se protege la propiedad intelectual.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 18. Derecho de asilo.</p>
+          <p class="parrafo_2">Se garantiza el derecho de asilo dentro del respeto de las normas de la Convención de Ginebra de 28 de julio de 1951 y del Protocolo de 31 de enero de 1967 sobre el Estatuto de los Refugiados y de conformidad con el Tratado de la Unión Europea y con el Tratado de Funcionamiento de la Unión Europea.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-12" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 19. Protección en caso de devolución, expulsión y extradición.</p>
+          <p class="parrafo_2">1. Se prohíben las expulsiones colectivas.</p>
+          <p class="parrafo">2. Nadie podrá ser devuelto, expulsado o extraditado a un Estado en el que corra un grave riesgo de ser sometido a la pena de muerte, a tortura o a otras penas o tratos inhumanos o degradantes.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Igualdad</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 20. Igualdad ante la ley.</p>
+          <p class="parrafo_2">Todas las personas son iguales ante la ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 21. No discriminación.</p>
+          <p class="parrafo_2">1. Se prohíbe toda discriminación, y en particular la ejercida por razón de sexo, raza, color, orígenes étnicos o sociales, características genéticas, lengua, religión o convicciones, opiniones políticas o de cualquier otro tipo, pertenencia a una minoría nacional, patrimonio, nacimiento, discapacidad, edad u orientación sexual.</p>
+          <p class="parrafo">2. Se prohíbe toda discriminación por razón de nacionalidad en el ámbito de aplicación de los Tratados y sin perjuicio de sus disposiciones particulares.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 2 conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 22. Diversidad cultural, religiosa y lingüística.</p>
+          <p class="parrafo_2">La Unión respeta la diversidad cultural, religiosa y lingüística.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 23. Igualdad entre mujeres y hombres.</p>
+          <p class="parrafo_2">La igualdad entre mujeres y hombres deberá garantizarse en todos los ámbitos, inclusive en materia de empleo, trabajo y retribución.</p>
+          <p class="parrafo">El principio de igualdad no impide el mantenimiento o la adopción de medidas que supongan ventajas concretas en favor del sexo menos representado.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 24. Derechos del niño.</p>
+          <p class="parrafo_2">1. Los niños tienen derecho a la protección y a los cuidados necesarios para su bienestar. Podrán expresar su opinión libremente. Ésta será tenida en cuenta para los asuntos que les afecten, en función de su edad y madurez.</p>
+          <p class="parrafo">2. En todos los actos relativos a los niños llevados a cabo por autoridades públicas o instituciones privadas, el interés superior del niño constituirá una consideración primordial.</p>
+          <p class="parrafo">3. Todo niño tiene derecho a mantener de forma periódica relaciones personales y contactos directos con su padre y con su madre, salvo si ello es contrario a sus intereses.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 25. Derechos de las personas mayores.</p>
+          <p class="parrafo_2">La Unión reconoce y respeta el derecho de las personas mayores a llevar una vida digna e independiente y a participar en la vida social y cultural.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 26. Integración de las personas discapacitadas.</p>
+          <p class="parrafo_2">La Unión reconoce y respeta el derecho de las personas discapacitadas a beneficiarse de medidas que garanticen su autonomía, su integración social y profesional y su participación en la vida de la comunidad.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-4" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Solidaridad</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 27. Derecho a la información y consulta de los trabajadores en la empresa.</p>
+          <p class="parrafo_2">Deberá garantizarse a los trabajadores o a sus representantes, en los niveles adecuados, la información y consulta con suficiente antelación, en los casos y condiciones previstos en el Derecho de la Unión y en las legislaciones y prácticas nacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 28. Derecho de negociación y de acción colectiva.</p>
+          <p class="parrafo_2">Los trabajadores y los empresarios, o sus organizaciones respectivas, de conformidad con el Derecho de la Unión y con las legislaciones y prácticas nacionales, tienen derecho a negociar y celebrar convenios colectivos, en los niveles adecuados, y a emprender, en caso de conflicto de intereses, acciones colectivas para la defensa de sus intereses, incluida la huelga.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-12" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 29. Derecho de acceso a los servicios de colocación.</p>
+          <p class="parrafo_2">Toda persona tiene derecho a acceder a un servicio gratuito de colocación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 30. Protección en caso de despido injustificado.</p>
+          <p class="parrafo_2">Todo trabajador tiene derecho a protección en caso de despido injustificado, de conformidad con el Derecho de la Unión y con las legislaciones y prácticas nacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 31. Condiciones de trabajo justas y equitativas.</p>
+          <p class="parrafo_2">1. Todo trabajador tiene derecho a trabajar en condiciones que respeten su salud, seguridad y dignidad.</p>
+          <p class="parrafo">2. Todo trabajador tiene derecho a la limitación de la duración máxima del trabajo y a períodos de descanso diarios y semanales, así como a un período de vacaciones anuales retribuidas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 32. Prohibición del trabajo infantil y protección de los jóvenes en el trabajo.</p>
+          <p class="parrafo_2">Se prohíbe el trabajo infantil. La edad mínima de admisión al trabajo no podrá ser inferior a la edad en que concluye el período de escolaridad obligatoria, sin perjuicio de disposiciones más favorables para los jóvenes y salvo excepciones limitadas.</p>
+          <p class="parrafo">Los jóvenes admitidos a trabajar deberán disponer de condiciones de trabajo adaptadas a su edad y estar protegidos contra la explotación económica o contra cualquier trabajo que pueda ser perjudicial para su seguridad, su salud, su desarrollo físico, psíquico, moral o social, o que pueda poner en peligro su educación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 33. Vida familiar y vida profesional.</p>
+          <p class="parrafo_2">1. Se garantiza la protección de la familia en los planos jurídico, económico y social.</p>
+          <p class="parrafo">2. Con el fin de poder conciliar vida familiar y vida profesional, toda persona tiene derecho a ser protegida contra cualquier despido por una causa relacionada con la maternidad, así como el derecho a un permiso pagado por maternidad y a un permiso parental con motivo del nacimiento o de la adopción de un niño.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 34. Seguridad social y ayuda social.</p>
+          <p class="parrafo_2">1. La Unión reconoce y respeta el derecho de acceso a las prestaciones de seguridad social y a los servicios sociales que garantizan una protección en casos como la maternidad, la enfermedad, los accidentes laborales, la dependencia o la vejez, así como en caso de pérdida de empleo, según las modalidades establecidas por el Derecho de la Unión y las legislaciones y prácticas nacionales.</p>
+          <p class="parrafo">2. Toda persona que resida y se desplace legalmente dentro de la Unión tiene derecho a las prestaciones de seguridad social y a las ventajas sociales de conformidad con el Derecho de la Unión y con las legislaciones y prácticas nacionales.</p>
+          <p class="parrafo">3. Con el fin de combatir la exclusión social y la pobreza, la Unión reconoce y respeta el derecho a una ayuda social y a una ayuda de vivienda para garantizar una existencia digna a todos aquellos que no dispongan de recursos suficientes, según las modalidades establecidas por el Derecho de la Unión y por las legislaciones y prácticas nacionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 35. Protección de la salud.</p>
+          <p class="parrafo_2">Toda persona tiene derecho a acceder a la prevención sanitaria y a beneficiarse de la atención sanitaria en las condiciones establecidas por las legislaciones y prácticas nacionales. Al definirse y ejecutarse todas las políticas y acciones de la Unión se garantizará un nivel elevado de protección de la salud humana.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 36. Acceso a los servicios de interés económico general.</p>
+          <p class="parrafo_2">La Unión reconoce y respeta el acceso a los servicios de interés económico general, tal como disponen las legislaciones y prácticas nacionales, de conformidad con los Tratados, con el fin de promover la cohesión social y territorial de la Unión.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 37. Protección del medio ambiente.</p>
+          <p class="parrafo_2">En las políticas de la Unión se integrarán y garantizarán, conforme al principio de desarrollo sostenible, un nivel elevado de protección del medio ambiente y la mejora de su calidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 38. Protección de los consumidores.</p>
+          <p class="parrafo_2">En las políticas de la Unión se garantizará un nivel elevado de protección de los consumidores.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">Ciudadanía</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 39. Derecho de sufragio activo y pasivo en las elecciones al Parlamento Europeo.</p>
+          <p class="parrafo_2">1. Todo ciudadano de la Unión tiene derecho de sufragio activo y pasivo en las elecciones al Parlamento Europeo en el Estado miembro en que resida, en las mismas condiciones que los nacionales de dicho Estado.</p>
+          <p class="parrafo">2. Los diputados al Parlamento Europeo serán elegidos por sufragio universal libre, directo y secreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 40. Derecho de sufragio activo y pasivo en las elecciones municipales.</p>
+          <p class="parrafo_2">Todo ciudadano de la Unión tiene derecho de sufragio activo y pasivo en las elecciones municipales del Estado miembro en que resida, en las mismas condiciones que los nacionales de dicho Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 41. Derecho a una buena administración.</p>
+          <p class="parrafo_2">1. Toda persona tiene derecho a que las instituciones, órganos y organismos de la Unión traten sus asuntos imparcial y equitativamente y dentro de un plazo razonable.</p>
+          <p class="parrafo">2. Este derecho incluye en particular:</p>
+          <p class="parrafo">a) el derecho de toda persona a ser oída antes de que se tome en contra suya una medida individual que la afecte desfavorablemente;</p>
+          <p class="parrafo">b) el derecho de toda persona a acceder al expediente que la concierna, dentro del respeto de los intereses legítimos de la confidencialidad y del secreto profesional y comercial;</p>
+          <p class="parrafo">c) la obligación que incumbe a la Administración de motivar sus decisiones.</p>
+          <p class="parrafo_2">3. Toda persona tiene derecho a la reparación por la Unión de los daños causados por sus instituciones o sus agentes en el ejercicio de sus funciones, de conformidad con los principios generales comunes a los Derechos de los Estados miembros.</p>
+          <p class="parrafo">4. Toda persona podrá dirigirse a las instituciones de la Unión en una de las lenguas de los Tratados y deberá recibir una contestación en esa misma lengua.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 4 conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 42. Derecho de acceso a los documentos.</p>
+          <p class="parrafo_2">Todo ciudadano de la Unión y toda persona física o jurídica que resida o tenga su domicilio social en un Estado miembro tiene derecho a acceder a los documentos de las instituciones, órganos y organismos de la Unión, cualquiera que sea su soporte.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-5" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 43. El Defensor del Pueblo Europeo.</p>
+          <p class="parrafo_2">Todo ciudadano de la Unión y toda persona física o jurídica que resida o tenga su domicilio social en un Estado miembro tiene derecho a someter al Defensor del Pueblo Europeo los casos de mala administración en la actuación de las instituciones, órganos u organismos de la Unión, con exclusión del Tribunal de Justicia de la Unión Europea en el ejercicio de sus funciones jurisdiccionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-6" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 44. Derecho de petición.</p>
+          <p class="parrafo_2">Todo ciudadano de la Unión y toda persona física o jurídica que resida o tenga su domicilio social en un Estado miembro tiene el derecho de petición ante el Parlamento Europeo.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-7" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 45. Libertad de circulación y de residencia.</p>
+          <p class="parrafo_2">1. Todo ciudadano de la Unión tiene derecho a circular y residir libremente en el territorio de los Estados miembros.</p>
+          <p class="parrafo">2. Podrá concederse libertad de circulación y de residencia, de conformidad con lo dispuesto en los Tratados, a los nacionales de terceros países que residan legalmente en el territorio de un Estado miembro.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 2 conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4-8" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 46. Protección diplomática y consular.</p>
+          <p class="parrafo_2">Todo ciudadano de la Unión podrá acogerse, en el territorio de un tercer país en el que no esté representado el Estado miembro del que sea nacional, a la protección de las autoridades diplomáticas y consulares de cualquier Estado miembro, en las mismas condiciones que los nacionales de este Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="tv-2" tipo="encabezado" titulo="TÍTULO VI">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO VI</p>
+          <p class="titulo_tit">Justicia</p>
+        </version>
+      </bloque>
+      <bloque id="a4-9" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 47. Derecho a la tutela judicial efectiva y a un juez imparcial.</p>
+          <p class="parrafo_2">Toda persona cuyos derechos y libertades garantizados por el Derecho de la Unión hayan sido violados tiene derecho a la tutela judicial efectiva respetando las condiciones establecidas en el presente artículo.</p>
+          <p class="parrafo">Toda persona tiene derecho a que su causa sea oída equitativa y públicamente y dentro de un plazo razonable por un juez independiente e imparcial, establecido previamente por la ley. Toda persona podrá hacerse aconsejar, defender y representar.</p>
+          <p class="parrafo">Se prestará asistencia jurídica gratuita a quienes no dispongan de recursos suficientes siempre y cuando dicha asistencia sea necesaria para garantizar la efectividad del acceso a la justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-10" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 48. Presunción de inocencia y derechos de la defensa.</p>
+          <p class="parrafo_2">1. Todo acusado se presume inocente mientras su culpabilidad no haya sido declarada legalmente.</p>
+          <p class="parrafo">2. Se garantiza a todo acusado el respeto de los derechos de la defensa.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-11" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 49. Principios de legalidad y de proporcionalidad de los delitos y las penas.</p>
+          <p class="parrafo_2">1. Nadie podrá ser condenado por una acción o una omisión que, en el momento en que haya sido cometida, no constituya una infracción según el Derecho interno o el Derecho internacional. Del mismo modo, no podrá imponerse una pena más grave que la aplicable en el momento en que la infracción haya sido cometida. Si con posterioridad a esta infracción la ley dispone una pena más leve, deberá aplicarse ésta.</p>
+          <p class="parrafo">2. El presente artículo no impedirá el juicio y el castigo de una persona culpable de una acción o una omisión que, en el momento en que haya sido cometida, fuera constitutiva de delito según los principios generales reconocidos por el conjunto de las naciones.</p>
+          <p class="parrafo">3. La intensidad de las penas no deberá ser desproporcionada en relación con la infracción.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-2" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 50. Derecho a no ser juzgado o condenado penalmente dos veces por la misma infracción.</p>
+          <p class="parrafo_2">Nadie podrá ser juzgado o condenado penalmente por una infracción respecto de la cual ya haya sido absuelto o condenado en la Unión mediante sentencia penal firme conforme a la ley.</p>
+        </version>
+      </bloque>
+      <bloque id="tv-3" tipo="encabezado" titulo="TÍTULO VII">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="titulo_num">TÍTULO VII</p>
+          <p class="titulo_tit">Disposiciones generales que rigen la interpretación y la aplicación de la Carta</p>
+        </version>
+      </bloque>
+      <bloque id="a5-3" tipo="precepto" titulo="Artículo 51">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 51. Ámbito de aplicación.</p>
+          <p class="parrafo_2">1. Las disposiciones de la presente Carta están dirigidas a las instituciones, órganos y organismos de la Unión, dentro del respeto del principio de subsidiariedad, así como a los Estados miembros únicamente cuando apliquen el Derecho de la Unión. Por consiguiente, éstos respetarán los derechos, observarán los principios y promoverán su aplicación, con arreglo a sus respectivas competencias y dentro de los límites de las competencias que los Tratados atribuyen a la Unión.</p>
+          <p class="parrafo">2. La presente Carta no amplía el ámbito de aplicación del Derecho de la Unión más allá de las competencias de la Unión, ni crea ninguna competencia o misión nuevas para la Unión, ni modifica las competencias y misiones definidas en los Tratados.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5-4" tipo="precepto" titulo="Artículo 52">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 52. Alcance e interpretación de los derechos y principios.</p>
+          <p class="parrafo_2">1. Cualquier limitación del ejercicio de los derechos y libertades reconocidos por la presente Carta deberá ser establecida por la ley y respetar el contenido esencial de dichos derechos y libertades. Dentro del respeto del principio de proporcionalidad, sólo podrán introducirse limitaciones cuando sean necesarias y respondan efectivamente a objetivos de interés general reconocidos por la Unión o a la necesidad de protección de los derechos y libertades de los demás.</p>
+          <p class="parrafo">2. Los derechos reconocidos por la presente Carta que constituyen disposiciones de los Tratados se ejercerán en las condiciones y dentro de los límites determinados por estos.</p>
+          <p class="parrafo">3. En la medida en que la presente Carta contenga derechos que correspondan a derechos garantizados por el Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales, su sentido y alcance serán iguales a los que les confiere dicho Convenio. Esta disposición no obstará a que el Derecho de la Unión conceda una protección más extensa.</p>
+          <p class="parrafo">4. En la medida en que la presente Carta reconozca derechos fundamentales resultantes de las tradiciones constitucionales comunes a los Estados miembros, dichos derechos se interpretarán en armonía con las citadas tradiciones.</p>
+          <p class="parrafo">5. Las disposiciones de la presente Carta que contengan principios podrán aplicarse mediante actos legislativos y ejecutivos adoptados por las instituciones, órganos y organismos de la Unión, y por actos de los Estados miembros cuando apliquen el Derecho de la Unión, en el ejercicio de sus competencias respectivas. Sólo podrán alegarse ante un órgano jurisdiccional en lo que se refiere a la interpretación y control de la legalidad de dichos actos.</p>
+          <p class="parrafo">6. Se tendrán plenamente en cuenta las legislaciones y prácticas nacionales según lo especificado en la presente Carta.</p>
+          <p class="parrafo">7. Las explicaciones elaboradas para guiar en la interpretación de la presente Carta serán tenidas debidamente en cuenta por los órganos jurisdiccionales de la Unión y de los Estados miembros.</p>
+          <blockquote>
+            <p class="nota_pie">Redactados los apartados 2 y 7 conforme a la corrección de errores publicada en BOE núm 98, de 22 de abril de 2009. <a class="refPost">Ref. BOE-A-2009-6644</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5-5" tipo="precepto" titulo="Artículo 53">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 53. Nivel de protección.</p>
+          <p class="parrafo_2">Ninguna de las disposiciones de la presente Carta podrá interpretarse como limitativa o lesiva de los derechos humanos y libertades fundamentales reconocidos, en su respectivo ámbito de aplicación, por el Derecho de la Unión, el Derecho internacional y los convenios internacionales de los que son parte la Unión o todos los Estados miembros, y en particular el Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales, así como por las constituciones de los Estados miembros.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-6" tipo="precepto" titulo="Artículo 54">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Artículo 54. Prohibición del abuso de derecho.</p>
+          <p class="parrafo_2">Ninguna de las disposiciones de la presente Carta podrá ser interpretada en el sentido de que implique un derecho cualquiera a dedicarse a una actividad o a realizar un acto tendente a la destrucción de los derechos o libertades reconocidos en la presente Carta o a limitaciones más amplias de estos derechos y libertades que las previstas en la presente Carta.»</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley Orgánica entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2008-13033" fecha_publicacion="20080731" fecha_vigencia="20080801">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley orgánica.</p>
+          <p class="parrafo">Palma de Mallorca, 30 de julio de 2008.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ LUIS RODRÍGUEZ ZAPATERO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

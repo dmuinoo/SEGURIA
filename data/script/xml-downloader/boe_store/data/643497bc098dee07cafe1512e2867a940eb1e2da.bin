@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T170024Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-24262</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8161">Comunidad Valenciana</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19980916</fecha_disposicion>
+      <numero_oficial>7/1998</numero_oficial>
+      <titulo>Ley 7/1998, de 16 de septiembre, de Creación de la Academia Valenciana de la Lengua.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19981021</fecha_publicacion>
+      <diario_numero>252</diario_numero>
+      <fecha_vigencia>19980922</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-vc/l/1998/09/16/7</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-24262</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="29">Academia Valenciana de la Lengua</materia>
+      </materias>
+      <notas>
+        <nota>Entrada en vigor:  22 de septiembre de 1998.</nota>
+        <nota>Publicada en el  DOCV núm. 3.334, de 21 de septiembre de 1998.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-17235</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 7 del Estatuto aprobado por Ley Orgánica 5/1982, de 1 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1984-1851</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 4/1983, de 23 de noviembre (DOGV de 1 de diciembre)</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2017-15369</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 11, por Ley 12/2017, de 2 de noviembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-vc"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-24262</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-16</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/29"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-vc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-24262</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/29"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/20171109"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/19980921"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1998, de 16 de septiembre, de Creación de la Academia Valenciana de la Lengua.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-10-21</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/20171109">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-vc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-24262</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/29"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-09</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/20171109/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1998, de 16 de septiembre, de Creación de la Academia Valenciana de la Lengua.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/20171109"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/20171109/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/20171109/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/19980921">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-vc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-24262</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/29"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/19980921/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1998, de 16 de septiembre, de Creación de la Academia Valenciana de la Lengua.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/19980921"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/19980921/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-vc/l/1998/09/16/7/con/19980921/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://dogv.gva.es/es/eli/es-vc/l/1998/09/16/7/"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="parrafo">Sea notorio y manifiesto a todos los ciudadanos que las Cortes Valencianas han aprobado y yo, de acuerdo con lo establecido por la Constitución y el Estatuto de Autonomía, en nombre del Rey, promulgo la siguiente Ley:</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El artículo 3 de la Constitución Española de 1978, además de proclamar el castellano como la lengua española oficial del Estado, establece que el resto de lenguas españolas serán también oficiales en las Comunidades Autónomas de acuerdo con el contenido de los respectivos Estatutos de Autonomía.</p>
+          <p class="parrafo">Igualmente, en el apartado 1.º, del artículo 148, punto 17.<sup>a</sup>, del texto constitucional, se dispone que las Comunidades Autónomas pueden asumir, si procede, competencias en el fomento de la enseñanza de la lengua de la Comunidad Autónoma.</p>
+          <p class="parrafo">Además, la Ley Orgánica 5/1982, de 1 de julio, de Estatuto de Autonomía, de la Comunidad Valenciana, establece en el artículo 7 que «los dos idiomas oficiales de la Comunidad Autónoma son el valenciano y el castellano» y afirma más adelante que la «Generalitat Valenciana garantizará el uso normal y oficial de las dos lenguas, y adoptará las medidas necesarias con tal de asegurar el conocimiento». También prevé, en el punto 5, que «la Ley establecerá los criterios de aplicación de la lengua propia en la Administración y la enseñanza». Finalmente, el punto 4 del artículo 31 del mismo Estatuto de Autonomía atribuye a la Generalitat Valenciana competencia exclusiva en materia de cultura.</p>
+          <p class="parrafo">Por su parte, la Ley 4/1983, de 23 de noviembre, de Uso y Enseñanza del Valenciano, supuso la plasmación del compromiso de la Generalitat Valenciana en la defensa del patrimonio cultural de nuestra Comunidad Autónoma y, de una manera especial, en la recuperación del valenciano, definido como «lengua histórica y propia de nuestro pueblo». La Ley trata de superar la relación de desigualdad existente entre las lenguas oficiales de la Comunidad Valenciana, y dispone actuaciones necesarias con tal de impulsar el uso del valenciano en diferentes esferas de la sociedad, favoreciendo la equiparación efectiva entre el valenciano y el castellano.</p>
+          <p class="parrafo">Igualmente, la mencionada Ley afirma que el valenciano es «parte substancial del patrimonio cultural de toda nuestra sociedad» y, en consecuencia, el Gobierno Valenciano se considera poseedor, en la actual coyuntura histórica, de la capacidad necesaria para posibilitar que los diversos sectores sociales de toda la Comunidad Valenciana puedan sentirse comprometidos en el proceso de recuperación del idioma que ha tenido el honor de recibir de nuestro pueblo su querer y noble gentileza. Una premisa para garantizar el uso «normal y oficial» del valenciano, tal como prevé el artículo 7 del Estatuto de Autonomía, y por tanto, para garantizar la seguridad jurídica de los administrados, es que toda la Administración Pública se rija por una misma normativa ortográfica y gramatical del valenciano. Tal aspecto no fue previsto específicamente en el caso del Estatuto de Autonomía ni en la Ley del Uso y Enseñanza del Valenciano, si bien en el artículo 34 de la mencionada Ley se establece que el Gobierno Valenciano «asumirá la dirección técnica y la coordinación del proceso de uso y enseñanza del valenciano asesorando al respecto a todas las Administraciones Públicas y particulares, y adoptando cuantas medidas contribuyan al fomento de su uso y extensión».</p>
+          <p class="parrafo">Por estas y otras cuestiones Las Cortes Valencianas acordaron el 17 de Septiembre de 1997 solicitar al Consell Valenciá de Cultura que dictaminara sobre las «cuestiones lingüisticas» valencianas. El Dictamen aprobado el 13 de Julio de 1998 en su parte dispositiva es el siguiente:</p>
+          <p class="parrafo_2">«Sobre la situación social del valenciano y su uso.</p>
+          <p class="parrafo_2">El valenciano llegó a su esplendor literario máximo en el siglo XV y parte del XVI e inició con los duques de Calabria una paulatina castellanización en los escritos, aunque mantuvo viva su presencia en el uso cotidiano.</p>
+          <p class="parrafo">A finales del siglo XIX, el movimiento conocido como Renaixença significó una leve recuperación de la utilización de la lengua en los certámenes y en las publicaciones literarias que se prolongó durante las primeras décadas de nuestro siglo.</p>
+          <p class="parrafo">Hoy, la situación del valenciano es ciertamente paradójica: En cuanto al uso culto y oficial, y a pesar de las insuficiencias notorias en este campo, estamos mejor que nunca en los últimos siglos, desde el Decreto de Nueva Planta, por lo menos, a principios del siglo XVIII; en cambio, en cuanto al uso popular no parece que asistamos a ningún tipo de recuperación y seguimos en una situación de desafección lingüística, con un empobrecimiento y una castellanización del habla cotidiana francamente alarmantes. Pero, es evidente que una situación como esta no puede permanecer estable demasiado tiempo, de forma que o se consigue que el valenciano recupere el nivel del uso popular que nunca debió perder o incluso su preservación dejará de ser posible.</p>
+          <p class="parrafo">Por otra parte, el año 1932 se firmaron las normas ortográficas llamadas de Castellón, seguidas durante cuarenta años sin problemas por los literatos valencianos. Posteriormente, desde los años setenta esta normativa ha sido contestada por sectores culturales y políticos, si bien la mayor parte de la producción escrita en valenciano ha seguido redactándose de acuerdo con aquellas primeras normas más o menos desarrolladas.</p>
+          <p class="parrafo">También hemos de decir que, al amparo del Estatuto de Autonomía y del autogobierno que el Estatuto ha hecho posible, hemos asistido últimamente a una clara mejora en el nivel de consideración y de prestigio sociales del valenciano, lo cual es una base favorable para intentar con optimismo la necesaria rehabilitación de nuestra lengua, tan estropeada actualmente por el abandono y la desidia. Desgraciadamente, esta mejora se encuentra obstaculizada por el conflicto esterilizador que se perpetúa entre nosotros, especialmente en la ciudad de Valencia y su conurbación. Un conflicto sobre el nombre, la naturaleza y la normativa de la lengua propia de los valencianos que impiden la salud de ésta y que acumula dificultades en el proceso de recuperación de la lengua que debería identificarnos y unirnos como valencianos, en vez de separarnos.</p>
+          <p class="parrafo">Sin embargo, la esterilidad del conflicto supera el ámbito de lo estrictamente lingüístico para incidir negativamente en la vertebración social de nuestro pueblo. Porque si, hablando ahora en general, es verdad que la iniciativa individual y la competencia, a todos los niveles, son componentes insustituibles de la buena marcha de cualquier gran formación social, también es igualmente cierta la necesidad actual de la base común de unos referentes colectivos mayoritariamente compartidos, de un fuerte sentimiento de pertenencia colectiva, de una mínima solidaridad, para que aquella iniciativa individual y aquella competencia puedan ser socialmente productivas y no degeneren en un clima social insolidario y destructivo. De hecho, si una comunidad política, como la Comunidad Valenciana, quiere algo más que subsistir en el concierto del resto de comunidades políticas, si quiere afirmar su personalidad diferenciada, si quiere tener éxito y progresar, será necesario que lo mejor de sus componentes individuales y colectivos desarrolle un firme sentimiento cotidianamente operativo de pertenencia y lealtad comunitarias. Justamente, una lengua propia de cultura, el valenciano en nuestro caso, viva en la calle y en las instituciones, es un elemento de gran valor en la conformación de ese sentimiento comunitario, antesala de un futuro social de progreso.</p>
+          <p class="parrafo">Pero como ya hemos dicho, el valenciano, nuestra lengua, es frecuentemente utilizado como un motivo de discordia entre valencianos, en vez de ser la característica comunitaria deseable de identificación y de unión. Se ha de decir aquí que la identificación mecánica que frecuentemente se ha hecho entre lengua y nación, por una y otra parte, no ha ayudado de ninguna manera a clarificar la cuestión y a asentarla sobre las bases de una mínima serenidad y racionalidad. Es necesario, pues, saber desactivar ese conflicto socialmente esterilizador porque además, en el mundo que nos ha correspondido vivir, el mundo de la globalización, de los ?mass media?, y de la escolarización generalizada, una lengua de bajo alcance demográfico, rodeada de lenguas potentes, como es la nuestra, corre el serio peligro de desaparecer en breve plazo si le añadimos la dificultad gratuita de un conflicto gravemente perturbador que se prolonga en el tiempo sin una perspectiva clara de solución.</p>
+          <p class="parrafo">En función de todo lo que acabamos de argumentar, es necesario que la cuestión de nuestra lengua propia sea sustraída a partir de ahora del debate partidista cotidiano y se convierta así en el objeto de un debate sereno entre los partidos a fin de llegar a los consensos más amplios posibles. Al final de ese camino ganaría nuestra lengua, lo que significaría ganar todos los valencianos.</p>
+          <p class="parrafo">Finalmente, en el espíritu de la Ley de Uso y Enseñanza del Valenciano, y en la perspectiva de fortalecer nuestra autoestima como valencianos, de afirmar y de potenciar nuestra personalidad diferenciada, ha llegado el momento de consensuar primero y aplicar después las medidas políticas que tienen que tomarse con urgencia para promocionar el uso del valenciano a los más diversos niveles, creando a tal efecto, si fuese necesario, los foros políticos previos en los que discutir y evaluar de manera conjunta aquellas medidas (que deberían aprobar y aplicar las instancias pertinentes: Cortes Valencianas, Ejecutivo, Diputaciones y Ayuntamientos). Unas medidas para sacar al valenciano de la situación marginal en que se encuentra en la esfera pública, a fin de darle un futuro posible y digno, conjurando así el peligro verdadero de una desaparición en breve plazo.</p>
+          <p class="parrafo">Las medidas deberían cubrir actuaciones públicas como las que siguen:</p>
+          <p class="parrafo_2">Un refuerzo de la enseñanza del valenciano y en valenciano en todos los niveles educativos.</p>
+          <p class="parrafo">Una programación esencialmente en valenciano en la televisión y la radio públicas valencianas.</p>
+          <p class="parrafo">Una actitud ejemplar de la Administración Valenciana en el uso de la lengua, tanto en lo que concierne a apariciones públicas de los responsables políticos, como en el resto de actuaciones oficiales (publicaciones, publicidad, documentación administrativa...).</p>
+          <p class="parrafo">Una política sistemática de promoción del uso del valenciano en el comercio, en la publicidad en particular y en general en la vida económica.</p>
+          <p class="parrafo_2">Igualmente en la industria cultural: En el libro, la prensa, el teatro, el cine y en general en el mundo audiovisual.</p>
+          <p class="parrafo_2">Una llamada al mundo eclesiástico para que se sume en su ámbito a este impulso de valencianización.</p>
+          <p class="parrafo_2">Para finalizar: Tenemos dos lenguas oficiales en nuestra Comunidad, el valenciano y el castellano, ambas realmente usadas por los ciudadanos si bien de manera descompensada entre una y otra. Felizmente, el castellano es una lengua tan extendida y potente internacionalmente que podemos tranquilamente promocionar más y más el uso del valenciano entre nosotros con la tranquilidad de que al lado conocemos una segunda lengua, también nuestra, que nos facilita la comunicación internacional, sin tener que perder así gratuitamente una parte impagable de nuestra identidad como pueblo diferenciado: Nuestra lengua propia. Sería verdaderamente una lástima, pero también una dimisión lamentable, que por falta de diálogo, o de advertencia, o por una modernidad mal entendida, dejáramos pasar la ocasión de preservar la lengua que durante tantos siglos nos ha identificado como valencianos.</p>
+          <p class="centro_redonda">Sobre el nombre, la naturaleza y la codificación del valenciano</p>
+          <p class="parrafo_2">Nuestro Estatuto de Autonomía denomina «valenciano» a la lengua propia de los valencianos y por lo tanto este término debe de ser utilizado en el marco institucional, sin que tenga carácter excluyente. La mencionada denominación «valenciano», y también las denominaciones «lengua propia de los valencianos» o «idioma valenciano», u otras, avaladas por la tradición histórica valenciana, el uso popular, o la legalidad vigente, no son ni deben ser objeto de cuestionamiento o polémica. Todas sirven para designar a nuestra lengua propia, que comparte la condición de idioma oficial con el castellano.</p>
+          <p class="parrafo">El valenciano, idioma histórico y propio de la Comunidad Valenciana, forma parte del sistema lingüístico que los correspondientes Estatutos de autonomía de los territorios hispánicos de la antigua Corona de Aragón, reconocen como lengua propia.</p>
+          <p class="parrafo">Las denominadas Normas de Castellón son un hecho histórico que constituyeron y constituyen un consenso necesario. El Consell Valencià de Cultura reivindica el espíritu de acuerdo que las hizo posible en el año 32 y entiende que esas normas han sido el punto de partida, compartido por los valencianos, para la normativización consolidada de nuestra lengua propia. Aquélla es un patrimonio lingüístico a preservar y a enriquecer por el ente de referencia normativa que se propone en el apartado siguiente. El ente se basará en la tradición lexicográfica, literaria y la realidad lingüística genuina valenciana.</p>
+          <p class="centro_redonda">El ente de referencia normativa</p>
+          <p class="parrafo_2">El Consell Valencià de Cultura propone la creación de un ente de referencia normativa del valenciano, para el cual propone las siguientes características:</p>
+          <p class="parrafo_2">I. Que tenga personalidad jurídica propia, con independencia funcional y presupuestaria.</p>
+          <p class="parrafo">II. Que tenga capacidad para determinar la normativa en materia lingüística, reconocida por una Ley. Que sus decisiones en la materia sean vinculantes para las Administraciones Públicas, el sistema educativo, los medios públicos de comunicación y otras entidades u órganos de titularidad pública o que cuenten con financiación pública.</p>
+          <p class="parrafo">III. Que los miembros del ente de referencia normativa sean veintiuno, nombrados por períodos de diez años. Que las vacantes que se puedan producir por renovación u otros motivos se cubran por cooptación interna.</p>
+          <p class="parrafo">IV. Que los miembros iniciales sean elegidos por las Cortes Valencianas por una mayoría de dos tercios, y por lo menos dos tercios de estos miembros sean expertos en valenciano con una acreditada competencia científica y académica, según criterios de evaluación objetiva. Y que el resto, hasta los veintiún miembros, sean destacadas personalidades de las letras y de la enseñanza con una competencia lingüística y una producción reconocidas en el campo del valenciano.</p>
+          <p class="parrafo">V. El ente podrá tener relaciones horizontales con las diversas entidades normativas de las otras lenguas del Estado.</p>
+          <p class="parrafo_2">Al tratarse de un encargo de las propias Cortes Valencianas, el Consell Valencià de Cultura sugiere a la alta Institución que la citada Ley sea tramitada parlamentariamente por vía de urgencia.»</p>
+          <p class="parrafo_2">A la vista de este dictamen, las Cortes Valencianas deciden aprobar la creación de una Academia Valenciana de la Lengua en los términos que a continuación se expresan:</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Se crea la Academia Valenciana de la Lengua (AVL) como Institución de la Generalitat Valenciana con las competencias, composición, régimen de funcionamiento y organización que se determina en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">La AVL es una Institución de carácter público, adscrita a la Presidencia de la Generalitat, que goza de personalidad jurídica propia y ejerce sus funciones con autonomía orgánica, funcional y presupuestaria para garantizar su objetividad e independencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">La Academia Valenciana de la Lengua es la institución que tiene por función determinar y elaborar, en su caso, la normativa lingüística del idioma valenciano. Así como, velar por el valenciano partiendo de la tradición lexicográfica, literaria, y la realidad lingüística genuina valenciana, así como, la normativización consolidada, a partir de las llamadas Normas de Castellón.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">Los principios y criterios que deben inspirar la actuación de la Academia son los que se desprenden del dictamen aprobado por el Consell Valencià de Cultura el 13 de julio de 1998 y que figura en el Preámbulo de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">Las decisiones de la AVL, en el ejercicio de sus funciones, deberán ser observadas por todas las Instituciones de la Generalitat, por los poderes públicos, por el resto de Administraciones Públicas, el sistema educativo, y los medios de comunicación, las entidades, los organismos y empresas, de titularidad pública o que cuenten con financiación pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">La AVL tendrá su sede en la ciudad de Valencia, sin perjuicio de que pueda tener otras sedes territoriales o celebrar sesiones en cualquier municipio de la Comunidad Valenciana.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">De las competencias de la AVL</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">Serán competencias de la AVL:</p>
+          <p class="parrafo_2">a) Determinar la normativa oficial del valenciano en todos sus aspectos.</p>
+          <p class="parrafo">b) Fijar, a solicitud de la Generalitat las formas lingüísticamente correctas de la toponimia y la onomástica oficial de la Comunidad Valenciana, para su aprobación oficial.</p>
+          <p class="parrafo">c) Emitir y difundir informes o dictámenes y realizar los estudios sobre la normativa y la onomástica oficial valenciana, ya sea a iniciativa propia o a requerimiento de las Instituciones Públicas de la Comunidad Valenciana.</p>
+          <p class="parrafo">d) Velar por el uso normal del valenciano y defender su denominación y entidad.</p>
+          <p class="parrafo">e) Informar sobre la adecuación a la normativa lingüística de la AVL de los textos producidos por las Instituciones Públicas o que requieran la aprobación oficial, así como de la producción audiovisual de la Comunidad Valenciana.</p>
+          <p class="parrafo">f) Elaborar y elevar al Consell de la Generalitat y a las Cortes Valencianas una Memoria Anual en la cual, además de exponer sus actividades durante el ejercicio, se recojan las observaciones y consejos pertinentes para el uso normal del valenciano en cualquiera de sus manifestaciones.</p>
+          <p class="parrafo">g) Las otras que, dentro del ámbito de sus competencias, le encarguen el Presidente de la Generalitat, las Cortes Valencianas o el Gobierno Valenciano.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">El Consell solicitará a la AVL la emisión de informe o dictamen sobre sus anteproyectos legislativos o normativos relacionados con la normativa, la toponimia y la onomástica del valenciano. Transcurridos sesenta días desde la correspondiente solicitud sin que la AVL se haya pronunciado expresamente sobre éstos, se entenderá que tienen el visto bueno de la Institución, y que no hay objeción a formular.</p>
+          <p class="parrafo">En aquellas peticiones del Consell en las que se indique urgencia en el procedimiento el plazo se reducirá a treinta días.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo">1. Para el mejor cumplimiento de sus fines la AVL podrá estructurarse en Secciones y constituir Comisiones de Estudio, de acuerdo con el contenido de la presente Ley y lo que reglamentariamente se determine.</p>
+          <p class="parrafo">2. Podrá, también, la Academia Valenciana de la Lengua tener relaciones horizontales con las diversas entidades normativas de las otras lenguas del Estado.</p>
+          <p class="parrafo">3. Asimismo, también podrá tener acuerdos de colaboración con otros organismos académicos, científicos y culturales.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">De la composición de la Academia Valenciana de la Lengua</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">De los académicos de la AVL</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 10.</p>
+          <p class="parrafo">La AVL estará compuesta por veintiún académicos que deberán reunir los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Tener la condición política de valenciano.</p>
+          <p class="parrafo">b) Ser expertos en valenciano con una acreditada competencia científica y académica o destacadas personalidades de las letras o de la enseñanza en materia lingüística o una producción reconocida en el campo del valenciano o la cultura valenciana.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo">1. Los veintiún académicos iniciales serán elegidos por las Cortes Valencianas, mediante mayoría de dos tercios de sus miembros de derecho, por un período de quince años, pudiendo ser reelegidos.</p>
+          <p class="parrafo">2. A los quince años de la elección por primera vez de los miembros de la Academia a que se refiere el apartado anterior, la AVL procederá por cooptación de los veintiún miembros, a la renovación de un tercio de los Académicos. Se determinarán los siete Académicos a sustituir por el sistema de insaculación.</p>
+          <p class="parrafo">A los cinco años de la renovación anterior se procederá, del mismo modo, a la renovación de otro tercio de los inicialmente elegidos o sus sustitutos. El tercio restante se renovará cinco años después de la segunda renovación por el mismo procedimiento.</p>
+          <p class="parrafo">Cada cinco años, y por el mismo sistema, se procederá a la renovación de un tercio de los Académicos que hayan cumplido el período de quince años.</p>
+          <p class="parrafo">3. Una vez elegidos, los Académicos, serán nombrados por Decreto del Presidente de la Generalitat, y tomarán posesión de su cargo en acto público.</p>
+        </version>
+        <version id_norma="BOE-A-2017-15369" fecha_publicacion="20171109" fecha_vigencia="20171110">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo">1. Los veintiún académicos iniciales serán elegidos por las Cortes Valencianas, mediante mayoría de dos tercios de sus miembros de derecho, por un período de quince años, pudiendo ser reelegidos.</p>
+          <p class="parrafo">2. A los quince años de la elección por primera vez de los y las miembros de la Acadèmia a los que se refiere el apartado anterior, la Acadèmia Valenciana de la Llengua procederá por cooptación de los veintiún miembros, a la renovación de un tercio de los y las académicas. Se determinarán los siete académicos y académicas a sustituir por el sistema de insaculación.</p>
+          <p class="parrafo">A los cinco años de la renovación anterior se procederá, de la misma manera, a la renovación de otro tercio de los inicialmente elegidos o quien los sustituya. El tercio restante se renovará cinco años después de la segunda renovación por el mismo procedimiento.</p>
+          <p class="parrafo">Cada cinco años, y por el mismo sistema, se procederá a la renovación de un tercio de los académicos o académicas que hayan cumplido el período de quince años.</p>
+          <p class="parrafo">En los procesos de renovación se respetará el principio de igualdad entre mujeres y hombres en función de su mérito y su capacidad.</p>
+          <p class="parrafo">A los efectos de esta ley, se considera que existe igualdad entre mujeres y hombres cuando haya una presencia mínima del 50 % de mujeres. El proceso de insaculación al que hace referencia el presente artículo se realizará garantizando que su resultado no vaya en detrimento de la presencia del sexo infrarrepresentado en el órgano.</p>
+          <p class="parrafo">3. Una vez elegidos, los Académicos, serán nombrados por Decreto del Presidente de la Generalitat, y tomarán posesión de su cargo en acto público.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por el art. 4 de la Ley 12/2017, de 2 de noviembre. <a class="refPost">Ref. BOE-A-2017-15369</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 12.</p>
+          <p class="parrafo">La condición de Académico será incompatible con:</p>
+          <p class="parrafo_2">a) La de Diputado de las Cortes Valencianas.</p>
+          <p class="parrafo">b) La de Diputado o Senador de las Cortes Generales o la de miembro de algún Parlamento Autónomo o el Parlamento Europeo.</p>
+          <p class="parrafo">c) La de miembro del Gobierno de España o de cualquier Comunidad Autónoma, y altos cargos de la Administración Autonómica y del Estado.</p>
+          <p class="parrafo">d) La de miembro de las Corporaciones Locales.</p>
+          <p class="parrafo">e) La de personal al servicio de la AVL.</p>
+          <p class="parrafo_2">El examen, declaración y control de las posibles incompatibilidades de los académicos, se llevará a efecto, por la AVL, en la forma en que reglamentariamente se establezca.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 13.</p>
+          <p class="parrafo">1. Los Académicos durante el período para el que fueron elegidos, son inamovibles y cesarán en su condición en los siguientes casos:</p>
+          <p class="parrafo_2">a) Por defunción.</p>
+          <p class="parrafo">b) Por renuncia expresa.</p>
+          <p class="parrafo">c) Por extinción del período para el que fueron elegidos. No obstante, los Académicos seguirán ejerciendo plenamente sus funciones hasta la toma de posesión de los nuevos miembros.</p>
+          <p class="parrafo">d) Por incapacidad manifiesta o inhabilitación declarada por resolución judicial firme.</p>
+          <p class="parrafo">e) Por pérdida de la condición política de valenciano.</p>
+          <p class="parrafo">f) Por incompatibilidad no resuelta en el plazo fijado.</p>
+          <p class="parrafo_2">2. Si se produce alguno de los supuestos contemplados en los apartados a), b), d), y e) del presente artículo, durante los primeros quince años, se procederá a cubrir la vacante por las Cortes Valencianas según lo estipulado en el artículo 11.1. En lo sucesivo se cubrirá la vacante según el artículo 11.2.</p>
+          <p class="parrafo">El Académico elegido, en ambos casos, lo será por el tiempo que reste del período para el que fue elegido el sustituido.</p>
+          <p class="parrafo">Si se produce el supuesto contemplado en el apartado f) y no se resuelve en el plazo que reglamentariamente se establezca, se procederá a cubrir la vacante según los mismos criterios que en los apartados anteriores.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 14.</p>
+          <p class="parrafo">Los Académicos tendrán derecho a percibir dietas e indemnizaciones por el ejercicio de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De los órganos de gobierno de la AVL</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 15.</p>
+          <p class="parrafo">Los órganos de Gobierno de la AVL serán:</p>
+          <p class="parrafo_2">1. Órganos colegiados:</p>
+          <p class="parrafo_2">El Pleno de la AVL.</p>
+          <p class="parrafo">La Junta de Gobierno.</p>
+          <p class="parrafo_2">2. Órganos unipersonales:</p>
+          <p class="parrafo_2">El Presidente de la AVL.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 16.</p>
+          <p class="parrafo">1. El Pleno es el órgano máximo de decisión de la AVL y estará integrado por los veintiún académicos.</p>
+          <p class="parrafo">2. Corresponde al pleno de la AVL las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Aprobar el Proyecto de Reglamento y sus posibles modificaciones y elevarlo al Consell de la Generalitat Valenciana para su aprobación.</p>
+          <p class="parrafo">b) La aprobación de la Memoria Anual.</p>
+          <p class="parrafo">c) Aprobar el anteproyecto del presupuesto anual, sus modificaciones y liquidación, para su remisión al Consell.</p>
+          <p class="parrafo">d) La aprobación de los planes y programas de actuación para cada ejercicio económico.</p>
+          <p class="parrafo">e) Constituir las Secciones y Comisiones que establece la presente Ley, atendiendo al desarrollo reglamentario.</p>
+          <p class="parrafo">f) La aprobación del régimen ordinario de sesiones y, en su caso, de las reuniones de las Comisiones y Secciones.</p>
+          <p class="parrafo">g) Elegir los cargos previstos en la presente Ley y los que reglamentariamente se determinen.</p>
+          <p class="parrafo">h) La designación y la separación de los representantes de la AVL en los organismos o entidades que legalmente o reglamentariamente corresponda.</p>
+          <p class="parrafo">i) Proponer al Consell la aprobación de la plantilla del personal al servicio de la Institución, y su estructura orgánica.</p>
+          <p class="parrafo">j) Aprobar los informes o dictámenes a que se refiere el artículo 7.</p>
+          <p class="parrafo">k) Cualquier otra que le atribuya la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 17.</p>
+          <p class="parrafo">1. La Junta de Gobierno estará integrada por:</p>
+          <p class="parrafo_2">a) El Presidente.</p>
+          <p class="parrafo">b) El Vicepresidente.</p>
+          <p class="parrafo">c) El Secretario.</p>
+          <p class="parrafo">d) Dos Vocales.</p>
+          <p class="parrafo_2">2. Son atribuciones de la Junta de Gobierno:</p>
+          <p class="parrafo_2">a) Elaborar el proyecto de Memoria Anual.</p>
+          <p class="parrafo">b) Elaborar el anteproyecto del presupuesto anual para elevar al Pleno.</p>
+          <p class="parrafo">c) Dirigir y controlar la ejecución del Presupuesto de la AVL y preparar su liquidación.</p>
+          <p class="parrafo">d) Determinar la tramitación de los escritos y peticiones dirigidos a la Institución.</p>
+          <p class="parrafo">e) Ejercer las facultades ordinarias en materia de contratación administrativa dentro de los límites legales y presupuestarios.</p>
+          <p class="parrafo">f) Disponer los gastos propios de los servicios de la AVL dentro de los límites legales y presupuestarios.</p>
+          <p class="parrafo">g) Resolver las cuestiones que sean sometidas a su consideración por el Presidente y no estén atribuidas al Pleno.</p>
+          <p class="parrafo">h) Ejercer las funciones que el Pleno le delegue expresamente.</p>
+          <p class="parrafo">i) Elaborar los informes y dictámenes a que se refiere el artículo 7.</p>
+          <p class="parrafo">j) Cualquier otra que le atribuya la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 18.</p>
+          <p class="parrafo">1. El Presidente es órgano unipersonal de la AVL que será elegido por el Pleno, de entre sus miembros, por mayoría absoluta, por un período de cinco años, siendo reelegible otros cinco años más.</p>
+          <p class="parrafo">2. El Presidente elegido será nombrado por Decreto del Presidente de la Generalitat y tomará posesión en acto público y solemne.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 19.</p>
+          <p class="parrafo">El Presidente de la AVL ostentará la representación de la misma y le corresponderán las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Presidir, convocar y fijar el orden del día de las sesiones de la Academia.</p>
+          <p class="parrafo">b) Elevar anualmente a las Cortes Valencianas y al Presidente de la Generalitat Valenciana una Memoria de las actividades de la Institución.</p>
+          <p class="parrafo">c) Adoptar las medidas necesarias para su funcionamiento.</p>
+          <p class="parrafo">d) Autorizar el gasto y proponer los pagos como consecuencia de la ejecución del presupuesto.</p>
+          <p class="parrafo">e) Nombrar a los funcionarios y al personal eventual y laboral con los requisitos establecidos en las leyes.</p>
+          <p class="parrafo">f) Las demás que se determinen reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 20.</p>
+          <p class="parrafo">El Presidente será sustituido, en casos de ausencia, vacante o enfermedad, por el Vicepresidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 21.</p>
+          <p class="parrafo">El Secretario de la AVL ostentará las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Preparar y cursar el orden del día de las sesiones de la Academia, previamente fijado por el Presidente.</p>
+          <p class="parrafo">b) Expedir certificaciones de las actas, acuerdos e informes y asistencias que se soliciten con el visto bueno del Presidente.</p>
+          <p class="parrafo">c) Llevar el libro de actas, foliado y visado por el Presidente.</p>
+          <p class="parrafo">d) Dirigir y coordinar la elaboración anual del proyecto de memoria de actividades de la Institución.</p>
+          <p class="parrafo">e) La jefatura del personal al servicio de la Academia.</p>
+          <p class="parrafo">f) Las demás que se determinen reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 22.</p>
+          <p class="parrafo">En caso de vacante, ausencia o enfermedad, el Secretario será sustituido por el Académico de menor edad.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 23.</p>
+          <p class="parrafo">Los Académicos tendrán el tratamiento de ilustrísimo.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-4" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Del funcionamiento de la AVL</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Del pleno de la AVL</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 24.</p>
+          <p class="parrafo">1. El Pleno de la AVL se reunirá periódicamente cuando sea convocado por su Presidente, por propia iniciativa o porque lo soliciten al menos un tercio de sus miembros que deberán incluir en la solicitud los asuntos a tratar, debiendo reunirse al menos una vez al trimestre.</p>
+          <p class="parrafo">2. La convocatoria de las sesiones incluirá el orden del día y se cursará con siete días de antelación, como mínimo, a la fecha de las mismas. Por razones de urgencia dicho plazo podrá reducirse a cuarenta y ocho horas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 25.</p>
+          <p class="parrafo">1. El Pleno de la AVL quedará constituido cuando estén presentes, al menos, la mitad más uno de sus miembros, y en todo caso, el Presidente y el Secretario o legalmente quien les sustituya.</p>
+          <p class="parrafo">2. Los acuerdos se adoptarán por la mayoría absoluta de los miembros de derecho del Pleno.</p>
+          <p class="parrafo_2">Los Académicos que discrepen del acuerdo mayoritario podrán formular voto particular por escrito, dentro del plazo de los diez días siguientes a su adopción.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 26.</p>
+          <p class="parrafo">El Pleno de la AVL determinará, en el ámbito de sus competencias, las resoluciones que han de ser publicadas en el «Diari Oficial de la Generalitat Valenciana». En todo caso, se publicarán en el «Diari Oficial de la Generalitat Valenciana» las que afecten al Diccionario, la Normativa y las Entradas que la Academia apruebe.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 27.</p>
+          <p class="parrafo">El Presidente de la Generalitat, o el Conseller en quien delegue, podrá asistir con voz al Pleno de la AVL para informar o requerir información.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De la Junta de Gobierno</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 28.</p>
+          <p class="parrafo">La Junta de Gobierno de la AVL se reunirá periódicamente cuando sea convocada por su Presidente, por propia iniciativa o por que lo soliciten, al menos, la mitad más uno de sus miembros, debiendo reunirse, al menos una vez al mes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 29.</p>
+          <p class="parrafo">La Junta de Gobierno de la AVL adoptará sus acuerdos cuando estén presentes, al menos, la mitad más uno de sus miembros, y en todo caso, el Presidente y el Secretario o quien, legalmente, les sustituya.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-5" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De las Secciones y las Comisiones de Estudio</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 30.</p>
+          <p class="parrafo">El Pleno de la AVL podrá crear Secciones y Comisiones de Estudio en el seno de la Academia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 31.</p>
+          <p class="parrafo">La creación, composición y funcionamiento de dichas Secciones y Comisiones de Estudio se regulará reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">De la organización y los recursos de la AVL</p>
+        </version>
+      </bloque>
+      <bloque id="ci-6" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Del personal</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 32.</p>
+          <p class="parrafo">El Personal que haya de prestar servicios en la AVL se regirá por el Régimen Jurídico aplicable al personal al servicio de la Generalitat.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-7" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Del Régimen Patrimonial y Económico</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 33.</p>
+          <p class="parrafo">La AVL, para el cumplimiento de sus fines, dispondrá de los siguientes medios materiales y recursos económicos:</p>
+          <p class="parrafo_2">a) Las consignaciones previstas en los presupuestos de la Generalitat.</p>
+          <p class="parrafo">b) Los bienes que le sean adscritos o cedidos por la Generalitat o cualquier otra Administración Pública, así como los que, por cualquier título formen parte de su patrimonio.</p>
+          <p class="parrafo">c) Los productos y rentas de su patrimonio.</p>
+          <p class="parrafo">d) Los ingresos que obtenga, como contraprestación de sus servicios, actividades o productos.</p>
+          <p class="parrafo">e) Las subvenciones, herencias, legados, donaciones, patrocinios, y cualquier otra aportación voluntaria de las entidades u organismos públicos o privados, y de los particulares.</p>
+          <p class="parrafo">f) Los créditos, préstamos y otras operaciones que pueda concertar, previa autorización del Consell.</p>
+          <p class="parrafo">g) Cualesquiera otros recursos que le puedan ser atribuidos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 34.</p>
+          <p class="parrafo">El presupuesto de la AVL, una vez aprobado por el Consell, se integrará como Sección en los Presupuestos de la Generalitat Valenciana.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Artículo 35.</p>
+          <p class="parrafo">La AVL podrá adquirir los bienes que, de forma legal, acuerde el Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">En el plazo máximo de un mes desde la entrada en vigor de la presente Ley, las Cortes Valencianas elegirán a los primeros veintiún académicos, de los cuales, al menos dos terceras partes serán expertas en valenciano con una acreditada competencia científica y académica, según criterios de evaluación objetiva, y el resto serán destacadas personalidades de las letras o de la enseñanza con una competencia lingüística o una producción reconocida en el campo del valenciano.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">En los quince días siguientes a la elección de los Académicos, por las Cortes Valencianas, el Presidente de la Generalitat realizará mediante Decreto el correspondiente nombramiento.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">En el plazo de tres meses desde su constitución legal, el Pleno de la AVL deberá elevar al Consell de la Generalitat para su aprobación definitiva el Proyecto de Reglamento a que se refiere el artículo 16 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-4" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición transitoria cuarta.</p>
+          <p class="parrafo">El Gobierno Valenciano asignará a la AVL los locales adecuados para el cumplimiento de sus fines.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">La AVL se constituirá legalmente, dentro de los quince días siguientes a la publicación en el «Diari Oficial de la Generalitat Valenciana» del Decreto de nombramiento de los Académicos.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Se autoriza al Consell de la Generalitat a dictar las normas reglamentarias y disposiciones necesarias para la aplicación y desarrollo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat Valenciana».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1998-24262" fecha_publicacion="19980921" fecha_vigencia="19980922">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos, tribunales, autoridades y poderes públicos a los que corresponda, observen y hagan cumplir esta Ley.</p>
+          <p class="parrafo_2">Valencia, 16 de septiembre de 1998.</p>
+          <p class="firma_ministro">EDUARDO ZAPLANA HERNÁNDEZ-SORO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

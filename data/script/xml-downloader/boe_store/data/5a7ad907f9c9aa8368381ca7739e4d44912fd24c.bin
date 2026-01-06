@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T164014Z</fecha_actualizacion>
+      <identificador>BOE-A-2023-16721</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4810">Ministerio de Justicia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20230718</fecha_disposicion>
+      <numero_oficial>650/2023</numero_oficial>
+      <titulo>Real Decreto 650/2023, de 18 de julio, por el que se aprueba el Protocolo de reconocimiento médico forense a la persona detenida.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20230720</fecha_publicacion>
+      <diario_numero>172</diario_numero>
+      <fecha_vigencia>20230721</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2023/07/18/650</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2023-16721</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="2201">Cuerpo Nacional de Médicos Forenses</materia>
+        <materia codigo="2493">Detención</materia>
+        <materia codigo="5163">Normas de calidad</materia>
+        <materia codigo="5677">Presos y penados</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1997-20472</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 16 de septiembre de 1997</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12666</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 479 de la Ley Orgánica 6/1985, de 1 de julio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-16721</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-18</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">650</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2201"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2493"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-16721</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-18</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">650</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2201"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/con/20230720"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 650/2023, de 18 de julio, por el que se aprueba el Protocolo de reconocimiento médico forense a la persona detenida.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-20</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/con/20230720">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-16721</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-18</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">650</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2201"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/con/20230720/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 650/2023, de 18 de julio, por el que se aprueba el Protocolo de reconocimiento médico forense a la persona detenida.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/con/20230720"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2023/07/18/650/con/20230720/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2023/07/18/650/con/20230720/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="centro_redonda">I</p>
+          <p class="parrafo_2">Entre las funciones de la medicina forense se encuentra la asistencia técnica a juzgados, tribunales y fiscalías en las materias de su disciplina profesional, emitiendo informes y dictámenes en el marco del proceso judicial o en las actuaciones de investigación criminal que aquellos soliciten.</p>
+          <p class="parrafo">Toda persona detenida, es decir, privada provisionalmente de libertad por orden de la autoridad competente, tiene derecho a ser reconocida por el/la médico/a forense o su sustituto legal y, en su defecto, por el de la institución en que se encuentre, o por cualquier otro dependiente del Estado o de otras administraciones públicas.</p>
+          <p class="parrafo">La actuación médico forense ante la persona detenida ha de dar oportuno cumplimiento a los anteriores preceptos lo que implica prestar asistencia pericial, cuando así se le requiere y velar por sus derechos a la protección de la salud y a recibir un trato digno.</p>
+          <p class="parrafo">La Orden de 16 de septiembre de 1997 por la que se aprueba el Protocolo que han de utilizar los médicos forenses en el reconocimiento de los detenidos, se promovió con los objetivos de lograr que la actuación de los médicos forenses en España se adaptara a técnicas y procedimientos internacionalmente reconocidos y de hacer efectivas las recomendaciones de las organizaciones internacionales, especialmente las Naciones Unidas y el Consejo de Europa.</p>
+          <p class="parrafo">A nivel internacional, el 9 de agosto de 1999 fue presentado a la Alta Comisionada de las Naciones Unidas para los Derechos Humanos el Manual para la investigación y documentación eficaces de la tortura y otros tratos o penas crueles, inhumanos o degradantes, denominado Protocolo de Estambul.</p>
+          <p class="parrafo">En nuestro país, se aprobó por Acuerdo del Consejo de Ministros de 12 de diciembre de 2008 el primer Plan de Derechos Humanos.</p>
+          <p class="parrafo">El Consejo Médico Forense, creado y regulado por Real Decreto 355/2014, de 16 de mayo, contempla entre sus funciones promover la armonización del servicio médico forense y la generación de procedimientos, proyectos y programas de calidad y de investigación para todos los institutos de medicina legal y ciencias forenses. En el año 2017 elaboró la Guía de trabajo para la asistencia médico-forense a personas en régimen de privación de libertad. El objetivo era servir de base para actualizar el Protocolo de reconocimiento médico forense de los detenidos del año 1997, y además hacer una especial referencia al reconocimiento de personas detenidas en régimen de incomunicación, dada la mayor vulnerabilidad que se puede generar.</p>
+          <p class="parrafo">También la versión revisada del Protocolo de Estambul presentada en Ginebra el 29 de junio de 2022 muestra el papel fundamental que cumplen los expertos forenses en la investigación de la tortura y del maltrato. Sus recomendaciones constituyen un estándar internacional más que debe aplicarse en nuestro país tanto en los institutos de medicina legal y ciencias forenses como en todas las instituciones que puedan asistir a personas privadas de libertad.</p>
+          <p class="parrafo">Además, el Real Decreto 144/2023, de 28 de febrero, por el que se aprueba el Reglamento de los Institutos de Medicina Legal y Ciencias Forenses, contempla que el personal destinado en los institutos en sus funciones técnicas tienen carácter independiente y emiten sus informes bajo criterios estrictamente científicos de acuerdo con las normas de procedimiento que se determinen en sus protocolos, guías o recomendaciones de actuación.</p>
+          <p class="parrafo">Por último, este Protocolo desarrolla en el ámbito médico forense las medidas del segundo Plan Nacional de Derechos Humanos (2023-2027) aprobado por Acuerdo del Consejo de Ministros de 6 de junio de 2023.</p>
+          <p class="parrafo">Todas estas circunstancias recomiendan una adaptación normativa a través del presente real decreto, que permita por un lado adaptar las funciones y los procedimientos a aplicar a la normativa vigente, a los estándares internacionales, al uso de nuevas tecnologías y a las especiales circunstancias y necesidades de las personas detenidas especialmente las más vulnerables, y por otro asegurar la eficacia, calidad del servicio público y excelencia de la actuación de la medicina forense en los servicios de clínica forense de los institutos de medicina legal y ciencias forenses.</p>
+          <p class="parrafo">Además, permite estar en la línea de la jurisprudencia del Tribunal Europeo de Derechos Humanos, y de las recomendaciones del Comité Europeo para la Prevención de la Tortura y de las Penas o Tratos Inhumanos o Degradantes y del Mecanismo Nacional de Prevención de la Tortura.</p>
+          <p class="centro_redonda">II</p>
+          <p class="parrafo_2">El presente real decreto responde a los objetivos señalados, estructurándose en tres artículos, una disposición adicional, una disposición derogatoria y tres disposiciones finales.</p>
+          <p class="parrafo">En el artículo 1 se determina el objeto.</p>
+          <p class="parrafo">En el artículo 2 se establece el ámbito subjetivo de aplicación.</p>
+          <p class="parrafo">En el artículo 3 se recomienda un conjunto mínimo básico de datos de actividad a incluir en las memorias de actividad de los institutos de medicina legal y ciencias forenses y a trasladar a la Comisión Nacional de Estadística Judicial.</p>
+          <p class="parrafo">En la disposición adicional única se establece el sometimiento a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales y demás disposiciones vigentes sobre la materia.</p>
+          <p class="parrafo">En la disposición derogatoria única se deroga expresamente la Orden de 16 de septiembre de 1997 por la que se aprueba el Protocolo que han de utilizar los médicos forenses en el reconocimiento de los detenidos.</p>
+          <p class="parrafo">En la disposición final primera se establece el título competencial.</p>
+          <p class="parrafo">En la disposición final segunda se establece la habilitación normativa.</p>
+          <p class="parrafo">En la disposición final tercera se establece la fecha de entrada en vigor de la norma.</p>
+          <p class="parrafo">Finalmente, se inserta el Protocolo de reconocimiento médico forense a la persona detenida.</p>
+          <p class="centro_redonda">III</p>
+          <p class="parrafo_2">Este real decreto se adecúa a los principios de buena regulación contenidos en el artículo 129 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas y, en consecuencia, es acorde con los principios de necesidad y eficacia, al ser precisa la regulación del procedimiento de reconocimiento médico forense a la persona detenida.</p>
+          <p class="parrafo">Esta regulación tendrá un reflejo directo en el servicio público que se presta a la ciudadanía. Asimismo, la adecuación de los conocimientos profesionales de quienes reconocen a la persona detenida a los avances y medios tecnológicos actuales incidirá en una mejora de la praxis pericial médica y, por tanto, dotará de mayor rigor a la Administración de Justicia que, en esta materia, precisa apoyarse en conocimientos especializados y basados en la evidencia científica.</p>
+          <p class="parrafo">De igual forma, es acorde con el principio de proporcionalidad, al contener la regulación imprescindible para la consecución de los objetivos previamente mencionados y se ajusta al principio de seguridad jurídica, puesto que resulta plenamente coherente con el ordenamiento jurídico nacional, en tanto que da cumplimiento a las previsiones de la Ley Orgánica 6/1985, de 1 de julio, y se aviene íntegramente a la regulación vigente, asimismo, persigue mejorar la protección de los derechos a un proceso público con todas las garantías y a utilizar los medios de prueba pertinentes, así como el derecho a la protección de la salud, reconocidos en los artículos 24.2 y 43.1 de la Constitución Española.</p>
+          <p class="parrafo">Con respecto al principio de eficiencia, este real decreto contribuye a la gestión racional de los recursos públicos existentes. Finalmente, en cumplimiento del principio de transparencia, se ha favorecido la participación de las entidades y personas interesadas.</p>
+          <p class="parrafo">En su tramitación han sido consultadas, las comunidades autónomas que han recibido los traspasos de medios para el funcionamiento de la Administración de Justicia y se ha recabado el informe previo del Consejo General del Poder Judicial y del Consejo Médico Forense.</p>
+          <p class="parrafo">Por todo ello, y en cumplimiento de la previsión reglamentaria prevista en el artículo 479 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, que contempla que mediante real decreto se determinarán las normas generales de organización y funcionamiento de los institutos de medicina legal y ciencias forenses y de actuación de los médicos forenses, se considera conveniente determinar la norma general de actuación de la medicina forense ante la persona detenida.</p>
+          <p class="parrafo">Por otro lado, en aras de una mayor seguridad jurídica, se deroga expresamente la Orden de 16 de septiembre de 1997 por la que se aprueba el Protocolo que han de utilizar los Médicos Forenses en el reconocimiento de los detenidos.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Justicia, de acuerdo con el Consejo de Estado, y previa deliberación del Consejo de Ministros en su reunión del día 18 de julio de 2023,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este real decreto tiene como objeto la aprobación del Protocolo de reconocimiento médico forense a la persona detenida cuyo texto se inserta a continuación del articulado.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">1. El Protocolo será de aplicación a la persona detenida que se hallare bajo la jurisdicción de juzgados y tribunales y a disposición de las fiscalías, por los servicios de clínica forense de los institutos de medicina legal y ciencias forenses.</p>
+          <p class="parrafo">2. El protocolo podrá adaptarse a las características y circunstancias de cada Instituto que garantizará los medios técnicos adecuados.</p>
+          <p class="parrafo">3. El Consejo Médico Forense elaborará una guía de buenas prácticas para su aplicación, donde formulará recomendaciones de actuación. Dicha guía se actualizará con la periodicidad que se considere necesaria en función del desarrollo normativo y de la práctica e investigación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Artículo 3. Datos estadísticos.</p>
+          <p class="parrafo">1. Los institutos de medicina legal y ciencias forenses registrarán un conjunto mínimo básico de datos de actividad con personas detenidas. Se recomienda incluir al menos el sexo, edad, país de origen, factores de vulnerabilidad y motivo de consulta, de manera que se pueda integrar en una estadística general.</p>
+          <p class="parrafo">2. Los institutos de medicina legal y ciencias forenses incluirán los datos de actividad con personas detenidas en sus memorias anuales de actividad y los pondrán a disposición de la Comisión Nacional de Estadística Judicial.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Disposición adicional única. Protección de datos de carácter personal.</p>
+          <p class="parrafo">El tratamiento de datos de carácter personal derivado de la ejecución de las actuaciones previstas en el protocolo se somete, en todo caso, a lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, y demás disposiciones vigentes sobre la materia.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Orden de 16 de septiembre de 1997 por la que se aprueba el Protocolo que han de utilizar los Médicos Forenses en el reconocimiento de los detenidos.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo del artículo 149.1.5.ª de la Constitución Española, que atribuye al Estado la competencia en materia de Administración de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Disposición final segunda. Desarrollo normativo.</p>
+          <p class="parrafo">Quien ostente la titularidad del Ministerio de Justicia podrá dictar las disposiciones pertinentes para el desarrollo y aplicación del presente real decreto sin perjuicio de las competencias que para su ejecución ostentan las comunidades autónomas con competencias asumidas en materia de justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="parrafo_2">Dado en Madrid, el 18 de julio de 2023.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Ministra de Justicia,</p>
+          <p class="firma_ministro">MARÍA PILAR LLOP CUENCA</p>
+        </version>
+      </bloque>
+      <bloque id="pr-2" tipo="encabezado" titulo="PROTOCOLO">
+        <version id_norma="BOE-A-2023-16721" fecha_publicacion="20230720" fecha_vigencia="20230721">
+          <p class="anexo">PROTOCOLO DE RECONOCIMIENTO MÉDICO FORENSE A LA PERSONA DETENIDA</p>
+          <table class="tabla_ancha">
+            <colgroup>
+              <col/>
+              <col/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="2">Recogida de datos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_izq">Datos institucionales.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Instituto de Medicina Legal y Ciencias Forenses.</p>
+                  <p class="cuerpo_tabla_izq">Identificación del ámbito territorial o servicio.</p>
+                  <p class="cuerpo_tabla_izq">Número de actuación, de registro o análogo.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Datos judiciales.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Número de Identificación General.</p>
+                  <p class="cuerpo_tabla_izq">Órgano judicial.</p>
+                  <p class="cuerpo_tabla_izq">Procedimiento judicial.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Persona peticionaria.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Autoridad judicial.</p>
+                  <p class="cuerpo_tabla_izq">Persona detenida.</p>
+                  <p class="cuerpo_tabla_izq">Otras.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Datos de la persona reconocida.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Nombre y apellidos.</p>
+                  <p class="cuerpo_tabla_izq">Documento Nacional de Identidad u otro documento de identidad o filiación obrante en el atestado policial o en el procedimiento judicial.</p>
+                  <p class="cuerpo_tabla_izq">Código Identificación Personal (sanitario).</p>
+                  <p class="cuerpo_tabla_izq">Sexo.</p>
+                  <p class="cuerpo_tabla_izq">Fecha de nacimiento y/o edad.</p>
+                  <p class="cuerpo_tabla_izq">Lugar de nacimiento/nacionalidad.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Datos del reconocimiento.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Identificación del/de la médico/a forense.</p>
+                  <p class="cuerpo_tabla_izq">Identificación de las personas presentes.</p>
+                  <p class="cuerpo_tabla_izq">Lugar del reconocimiento. Presencial/telemático.</p>
+                  <p class="cuerpo_tabla_izq">Fecha. Hora de inicio y finalización.</p>
+                  <p class="cuerpo_tabla_izq">Sujeción: No/Sí ¿cómo?, ¿por qué?</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Motivo de consulta.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Prestar asistencia médica.</p>
+                  <p class="cuerpo_tabla_izq">Prestar asistencia pericial:</p>
+                  <p class="cuerpo_tabla_izq"> Evaluación de lesiones.</p>
+                  <p class="cuerpo_tabla_izq"> Evaluación psiquiátrica.</p>
+                  <p class="cuerpo_tabla_izq"> Toma de muestras.</p>
+                  <p class="cuerpo_tabla_izq"> Alegación de tortura o trato inhumano o degradante.</p>
+                  <p class="cuerpo_tabla_izq"> Determinación de edad.</p>
+                  <p class="cuerpo_tabla_izq"> Otros.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Fuentes.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Historia clínica.</p>
+                  <p class="cuerpo_tabla_izq">Informes médicos.</p>
+                  <p class="cuerpo_tabla_izq">Atestado policial.</p>
+                  <p class="cuerpo_tabla_izq">Otros.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="tabla_ancha">
+            <colgroup>
+              <col/>
+              <col/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="2">Reconocimiento médico forense</th>
+              </tr>
+              <tr>
+                <th class="cabeza_tabla">Apartados</th>
+                <th class="cabeza_tabla">Actuaciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_izq">Condiciones del reconocimiento.</td>
+                <td class="cuerpo_tabla_izq">Se procurará que el reconocimiento se lleve a cabo en condiciones que aseguren la privacidad e intimidad de la persona detenida.</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Factores de vulnerabilidad.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Analizar la presencia de factores de vulnerabilidad por razón de (pueden darse varios en una persona): </p>
+                  <p class="cuerpo_tabla_izq">– Sexo.</p>
+                  <p class="cuerpo_tabla_izq">– Identidad de género.</p>
+                  <p class="cuerpo_tabla_izq">– Orientación sexual.</p>
+                  <p class="cuerpo_tabla_izq">– Edad (menores, persona adulta mayor ≥ 60 años).</p>
+                  <p class="cuerpo_tabla_izq">– Personas extranjeras.</p>
+                  <p class="cuerpo_tabla_izq">– Discapacidad.</p>
+                  <p class="cuerpo_tabla_izq">– Enfermedad (física/psíquica), riesgo autolítico.</p>
+                  <p class="cuerpo_tabla_izq">– Trata de seres humanos.</p>
+                  <p class="cuerpo_tabla_izq">– Régimen de incomunicación.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Consentimiento informado.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Informar a la persona detenida del objeto del reconocimiento, garantizando la accesibilidad universal.</p>
+                  <p class="cuerpo_tabla_izq">Obtener el consentimiento informado para el reconocimiento, recogida de muestras, registro fotográfico, estudios complementarios y acceso a la historia clínica, en su caso.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Condiciones de la detención.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Recabar información relativa a:</p>
+                  <p class="cuerpo_tabla_izq">– Lugar de la detención.</p>
+                  <p class="cuerpo_tabla_izq">– Duración de la detención.</p>
+                  <p class="cuerpo_tabla_izq">– Condiciones de alimentación, aseo y descanso.</p>
+                  <p class="cuerpo_tabla_izq">– Atención sanitaria prestada.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Anamnesis.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Antecedentes familiares.</p>
+                  <p class="cuerpo_tabla_izq">Antecedentes personales.</p>
+                  <p class="cuerpo_tabla_izq">Hábitos tóxicos.</p>
+                  <p class="cuerpo_tabla_izq">Enfermedad actual.</p>
+                  <p class="cuerpo_tabla_izq">Tratamiento actual.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Exploración física.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Constantes vitales.</p>
+                  <p class="cuerpo_tabla_izq">Exploración física general.</p>
+                  <p class="cuerpo_tabla_izq">Exploración física por aparatos.</p>
+                  <p class="cuerpo_tabla_izq">Descripción detallada de lesiones traumáticas. Registrar con esquemas corporales y/o fotografías.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Exploración psíquica.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Exploración psíquica general.</p>
+                  <p class="cuerpo_tabla_izq">Dificultades de comprensión. Factores estresantes a controlar en el entorno.</p>
+                  <p class="cuerpo_tabla_izq">Adaptación y respuesta psíquica a la situación de detención.</p>
+                  <p class="cuerpo_tabla_izq">Sintomatología aguda relacionada o no con el consumo de sustancias.</p>
+                  <p class="cuerpo_tabla_izq">Capacidad para declarar.</p>
+                  <p class="cuerpo_tabla_izq">Factores de riesgo asociados a la violencia de género y/o sexual, en su caso.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">En caso de asistencia médica.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Orientación diagnóstica garantizando la comprensión de la información que se transmite.</p>
+                  <p class="cuerpo_tabla_izq">Tratamiento pautado.</p>
+                  <p class="cuerpo_tabla_izq">Evolución/seguimiento.</p>
+                  <p class="cuerpo_tabla_izq">Activación de otros recursos asistenciales o derivación.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">En caso de alegación de tortura o tratos inhumanos o degradantes.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Evaluaciones clínicas en contextos legales. Adaptación de la Guía de evaluación clínica al ámbito médico-forense (Anexo IV. Protocolo de Estambul).</p>
+                  <p class="cuerpo_tabla_izq"> I. Información del caso.</p>
+                  <p class="cuerpo_tabla_izq"> II. Información de contexto.</p>
+                  <p class="cuerpo_tabla_izq"> III. Alegación de tortura o malos tratos.</p>
+                  <p class="cuerpo_tabla_izq"> IV. Síntomas y discapacidades físicas.</p>
+                  <p class="cuerpo_tabla_izq"> V. Examen físico.</p>
+                  <p class="cuerpo_tabla_izq"> VI. Examen psíquico.</p>
+                  <p class="cuerpo_tabla_izq"> VII. Fotografías y esquemas corporales.</p>
+                  <p class="cuerpo_tabla_izq"> VIII. Resultados de las pruebas de diagnóstico.</p>
+                  <p class="cuerpo_tabla_izq"> IX. Consultas.</p>
+                  <p class="cuerpo_tabla_izq"> X. Interpretación de los resultados.</p>
+                  <p class="cuerpo_tabla_izq"> XI. Conclusiones y recomendaciones.</p>
+                  <p class="cuerpo_tabla_izq"> XII. Declaración de restricciones a la evaluación clínica.</p>
+                  <p class="cuerpo_tabla_izq"> XIII. Firma del/la médico/a forense, fecha y lugar.</p>
+                  <p class="cuerpo_tabla_izq"> XIV. Anexos.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">En caso de toma de muestras.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Tipo:</p>
+                  <p class="cuerpo_tabla_izq"> Indicios en la persona investigada.</p>
+                  <p class="cuerpo_tabla_izq"> Muestra para estudio químico-toxicológico.</p>
+                  <p class="cuerpo_tabla_izq"> Muestra indubitada (de referencia).</p>
+                  <p class="cuerpo_tabla_izq"> Otras.</p>
+                  <p class="cuerpo_tabla_izq">Cadena de custodia:</p>
+                  <p class="cuerpo_tabla_izq"> Recogida (fecha/hora), conservación y remisión.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Otras recomendaciones.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Solicitar pruebas complementarias (de tipo analítico, pruebas de imagen...).</p>
+                  <p class="cuerpo_tabla_izq">Proponer re-evaluación para secuelas físicas y/o psíquicas.</p>
+                  <p class="cuerpo_tabla_izq">Proponer apoyo profesional para garantizar la comprensión de la persona del procedimiento judicial.</p>
+                  <p class="cuerpo_tabla_izq">Proponer intervención multidisciplinar.</p>
+                  <p class="cuerpo_tabla_izq">Proporcionar cualquier recomendación para evaluaciones adicionales y atención.</p>
+                  <p class="cuerpo_tabla_izq">Contactar con servicios asistenciales y/o centro penitenciario.</p>
+                  <p class="cuerpo_tabla_izq">Otras.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Consideraciones y conclusiones médico-forenses.</td>
+                <td class="cuerpo_tabla_izq">
+                  <p class="cuerpo_tabla_izq">Acerca del objeto del reconocimiento.</p>
+                  <p class="cuerpo_tabla_izq">Acerca de posibles recomendaciones o medidas.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

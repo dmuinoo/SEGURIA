@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T132849Z</fecha_actualizacion>
+      <identificador>BOE-A-2012-541</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8140">Comunidad Autónoma del País Vasco</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19971204</fecha_disposicion>
+      <numero_oficial>20/1997</numero_oficial>
+      <titulo>Ley 20/1997, de 4 de diciembre, para la Promoción de la Accesibilidad.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20120114</fecha_publicacion>
+      <diario_numero>12</diario_numero>
+      <fecha_vigencia>19980424</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-pv/l/1997/12/04/20</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2012-541</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="470">Barreras arquitectónicas</materia>
+        <materia codigo="5023">Discapacidad</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+        <materia codigo="5345">País Vasco</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOPV núm. 246, de 24 de diciembre de 1997.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1979-30177</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 3/1979, de 18 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-541</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-541</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/con/19971224"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 20/1997, de 4 de diciembre, para la Promoción de la Accesibilidad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-14</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/con/19971224">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-541</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-24</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/con/19971224/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 20/1997, de 4 de diciembre, para la Promoción de la Accesibilidad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/con/19971224"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/12/04/20/con/19971224/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/12/04/20/con/19971224/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="parrafo_2">Se hace saber a todos/as los/as ciudadanos/as de Euskadi que el Parlamento Vasco ha aprobado la siguiente Ley 20/1997, de 4 de diciembre, para la Promoción de la Accesibilidad.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">La integración y la participación en la vida social y comunitaria constituyen no sólo una aspiración legítima, sino un deseo de toda persona en cualquier sociedad moderna. Sin embargo, en muchas ocasiones el ejercicio de estos derechos se ve dificultado e incluso impedido por la existencia de barreras, tanto físicas como de comunicación, que imposibilitan un normal desenvolvimiento de las personas. En estas circunstancias, la accesibilidad al medio físico y a la comunicación constituyen elementos fundamentales para posibilitar el disfrute por toda la ciudadanía de unos derechos definidos como básicos.</p>
+          <p class="parrafo">La sociedad en su conjunto, y los poderes públicos como representantes de aquella, deben favorecer y garantizar el acceso al medio físico y a la comunicación de toda la ciudadanía. La acción de los poderes públicos no debe, en ningún caso, sustituir o coartar la acción directa de la comunidad, sino muy al contrario impulsar aquellas iniciativas de entidades ciudadanas cuyo objetivo sea el logro de una mejora de la calidad de vida de aquellas personas con mayores dificultades de accesibilidad al medio físico y a la comunicación.</p>
+          <p class="parrafo">Las disposiciones en vigor sobre eliminación de barreras arquitectónicas y urbanísticas en la Comunidad Autónoma del País Vasco han supuesto, desde su promulgación, un paso para la consecución del objetivo indicado. Sin embargo, la escasa concreción en algunos aspectos, y la falta de mecanismos de seguimiento y control, han motivado su reiterado incumplimiento y han convertido en definitiva a dichas disposiciones en instrumentos poco apropiados para la consecución de los objetivos actualmente planteados.</p>
+          <p class="parrafo">En la sociedad actual, con una esperanza de vida en constante progresión y con un gran número de personas que por accidente o enfermedad han visto disminuida su capacidad de movimiento y comunicación y con un importante número de personas que circunstancialmente ven limitada su movilidad, la mejora de las condiciones de accesibilidad redundará en una mayor calidad de vida de las personas con mayores dificultades de movilidad y/o comunicación y de la sociedad en su conjunto.</p>
+          <p class="parrafo">La Asamblea General de las Naciones Unidas, mediante Resolución 48/46, de 20 de diciembre de 1993, adoptó las normas estándar en materia de igualdad de oportunidades de las personas con minusvalía, estableciendo como objetivo global el garantizar que dichas personas puedan ejercitar los mismos derechos y obligaciones que los demás ciudadanos, objetivo incluido en el Libro Blanco «Política Social Europea-Un paso adelante para la Unión», adoptado por la Comisión Europea el 27 de julio de 1994.</p>
+          <p class="parrafo">La Carta Comunitaria de los derechos sociales fundamentales de los trabajadores, adoptada en el Consejo Europeo de Estrasburgo el 9 de diciembre de 1989, establece que toda persona con algún tipo de minusvalía, con independencia de su origen y naturaleza, debe poder beneficiarse de medidas adicionales encaminadas a favorecer su integración profesional y social, debiendo dichas medidas referirse, según la capacidad de los interesados, a la formación profesional, la ergonomía, la accesibilidad, la movilidad, los medios de transporte y la vivienda.</p>
+          <p class="parrafo">La Resolución de 20 de diciembre de 1996, del Consejo y de los representantes de los Gobiernos de los Estados miembros de la Unión Europea, sobre la igualdad de oportunidades de las personas con minusvalías, considera que el principio de igualdad de oportunidades de toda la ciudadanía representa un valor inalienable común a todos los Estados miembros lo que implica la eliminación de la discriminación negativa ejercida contra dichas personas y la mejora de su calidad de vida, posibilitando a los Estados miembros que en la consecución del mencionado objetivo promulguen sus correspondientes normativas con toda la amplitud que los recursos de la sociedad permitan.</p>
+          <p class="parrafo">En coherencia con lo expresado, es necesario proceder a la aprobación de una nueva normativa que, respetando los mencionados principios y superando el clásico concepto de «eliminación de barreras arquitectónicas», apueste por un nuevo modelo cuya finalidad sea garantizar el pleno y libre desarrollo de las personas en el medio social y comunitario y, para ello, garantice la accesibilidad al medio físico y a la comunicación a todas las personas de nuestra Comunidad y de una manera especial a aquellas que por razones diversas presenten algún tipo de limitación.</p>
+          <p class="parrafo">En este sentido, esta ley se configura como el marco de referencia necesario que encauza y coordina la acción de los poderes públicos encaminada a garantizar, a través de la adopción de medidas de acción positiva para los colectivos en situación de desigualdad social, respecto de las personas incluidas en su ámbito de actuación, los principios básicos de igualdad de oportunidades recogidos en el ordenamiento internacional, así como el principio de igualdad plasmado en el artículo 14 del texto constitucional y recogido igualmente en el artículo 9 del Estatuto de Autonomía, en el desarrollo y ejecución de las competencias exclusivas atribuidas estatutariamente a la Comunidad Autónoma del País Vasco en materias tales como la ordenación del territorio, el urbanismo, la vivienda o el transporte.</p>
+          <p class="parrafo">Igualmente, el rango normativo del texto constituye un elemento imprescindible, por cuanto incorpora las normas reguladoras del régimen sancionador, que conforman un pilar fundamental para el control de la correcta aplicación y observancia de la ley.</p>
+          <p class="parrafo">Para conseguir la finalidad enunciada, la ley se estructura en un Título Preliminar en el que se recogen el objeto y ámbito de aplicación de la ley, y cinco Títulos que regulan las medidas generales para garantizar la accesibilidad, las medidas de fomento, las medidas de control, el régimen sancionador y el Consejo Vasco para la Promoción de la Accesibilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="tpreliminar" tipo="encabezado" titulo="TÍTULO PRELIMINAR">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="titulo_num">TÍTULO PRELIMINAR</p>
+          <p class="titulo_tit">Objeto y ámbito de aplicación de la Ley</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">1. La presente ley tiene por objeto garantizar la accesibilidad del entorno urbano, de los espacios públicos, de los edificios, de los medios de transporte y de los sistemas de comunicación para su uso y disfrute de forma autónoma por todas las personas y en particular por aquellas con movilidad reducida, dificultades de comunicación o cualquier otra limitación psíquica o sensorial, de carácter temporal o permanente.</p>
+          <p class="parrafo">2. Los poderes públicos promoverán la adopción de las medidas de acción positiva necesarias para la efectiva aplicación de la ley, así como en su caso la utilización de las ayudas técnicas que contribuyan a mejorar la calidad de vida de las personas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 2. Ámbito de aplicación de la ley.</p>
+          <p class="parrafo">La presente ley será de aplicación, en el ámbito de la Comunidad Autónoma del País Vasco, a todas las actuaciones en materia de urbanismo, edificación, transporte y comunicación realizadas por cualquier sujeto con personalidad física o jurídica, pública o privada.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Medidas para garantizar la accesibilidad</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales sobre accesibilidad</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 3. Disposiciones generales sobre accesibilidad del entorno urbano y de los espacios públicos.</p>
+          <p class="parrafo">1. a) Los espacios de uso público, en particular las vías públicas, los parques y plazas, así como los respectivos equipamientos comunitarios, las instalaciones de servicios públicos y el mobiliario urbano, garantizarán su accesibilidad en los términos que establece esta ley y sus normas de desarrollo.</p>
+          <p class="parrafo">b) Los poderes públicos promoverán la adaptación gradual de los ya existentes a las prescripciones de la presente ley.</p>
+          <p class="parrafo">c) Se contemplará la paulatina adaptación del patrimonio histórico-artístico de la Comunidad Autónoma del País Vasco a los criterios de accesibilidad marcados por esta ley.</p>
+          <p class="parrafo">2. Los instrumentos de planeamiento urbanístico, en particular los estudios de detalle, y los proyectos de urbanización y de ejecución de obras garantizarán debidamente la accesibilidad de los elementos de urbanización y del mobiliario urbano incluidos en su ámbito, y no serán aprobados ni otorgadas las correspondientes licencias si no se observan las determinaciones y criterios básicos establecidos en la presente ley y en sus normas de desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 4. Disposiciones generales sobre accesibilidad de la edificación.</p>
+          <p class="parrafo">1. Las obras de construcción de edificaciones de nueva planta, incluidas las subterráneas, con excepción de las relativas a viviendas unifamiliares, se ejecutarán de forma que garanticen su accesibilidad en los términos establecidos en la presente ley y en sus normas de desarrollo.</p>
+          <p class="parrafo">2. Los edificios de nueva planta destinados a uso residencial garantizarán su accesibilidad conforme a los siguientes criterios:</p>
+          <p class="parrafo_2">a) Los accesos y comunicaciones del edificio con la vía pública, con los servicios o edificaciones anexas de uso comunitario, con los garajes y con los edificios vecinos deberán permitir su utilización de forma autónoma por todas las personas.</p>
+          <p class="parrafo">b) Las comunicaciones de las viviendas con los elementos comunes, con los garajes, con los trasteros y dependencias anejas deberán permitir su utilización de forma autónoma por todas las personas.</p>
+          <p class="parrafo_2">3. 1. Los edificios e instalaciones de nueva planta destinados al uso hostelero garantizarán su accesibilidad conforme a los siguientes criterios:</p>
+          <p class="parrafo_2">a) Los accesos del edificio con la vía pública, con los servicios o edificaciones anexas de uso comunitario y con los aparcamientos deberán permitir su utilización de forma autónoma por todas las personas.</p>
+          <p class="parrafo">b) Las comunicaciones de los alojamientos con los elementos comunes, así como el acceso y uso de los alojamientos reservados, deberán permitir igualmente su utilización de forma autónoma por todas las personas.</p>
+          <p class="parrafo_2">2. En obras de reforma, ampliación o modificación de edificios destinados a alojamiento en casas particulares o agroturismo se recomienda la adaptación, al menos de una unidad, a los criterios de accesibilidad recogidos en esta ley.</p>
+          <p class="parrafo">4. Las obras de reforma, ampliación o modificación, conforme a la acepción conferida por la normativa urbanística, de los edificios y locales de uso o servicio público existentes se ejecutarán ajustándose a los requerimientos funcionales y de dimensión que garanticen su accesibilidad en los términos establecidos en la presente ley y en sus normas de desarrollo. En los demás casos, las citadas obras se ejecutarán, cuando afecten a elementos relativos a la accesibilidad de los edificios, ajustándose igualmente a los requerimientos funcionales y de dimensión que garanticen su accesibilidad en los mencionados términos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 5. Disposiciones generales sobre accesibilidad en el transporte.</p>
+          <p class="parrafo">1. Los transportes públicos de viajeros competencia de las Administraciones públicas vascas garantizarán su accesibilidad en los términos previstos en la presente ley y en sus normas de desarrollo.</p>
+          <p class="parrafo">2. El material de nueva adquisición destinado al transporte público de viajeros deberá ajustarse a las condiciones técnicas dictadas reglamentariamente, compatibles con los objetivos de la presente ley.</p>
+          <p class="parrafo">3. Los edificios e instalaciones destinadas al transporte público de viajeros dispondrán de sistemas adecuados de información y comunicación acústica, visual y sensorial que garanticen su utilización autónoma y en las debidas condiciones de seguridad por todas las personas.</p>
+          <p class="parrafo">4. Las Administraciones públicas competentes en materia de transporte adoptarán las medidas oportunas para la progresiva adaptación de los transportes públicos, así como de los edificios, servicios, instalaciones y mobiliario vinculado a los mismos, a las prescripciones de la presente ley y de sus normas de desarrollo.</p>
+          <p class="parrafo">5. Las Administraciones públicas vascas competentes en materia de transportes adoptarán las medidas oportunas para que el régimen y obligaciones contenidas en este artículo para los medios de transporte públicos se apliquen progresivamente a los transportes privados.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 6. Disposiciones generales sobre accesibilidad en los sistemas de comunicación.</p>
+          <p class="parrafo">1. Los sistemas de comunicación serán accesibles a toda la ciudadanía en los términos previstos en la presente ley y en sus normas de desarrollo.</p>
+          <p class="parrafo">2. Las Administraciones públicas velarán por la incorporación de los medios técnicos más apropiados en los sistemas de comunicación al objeto de garantizar el derecho a la comunicación a toda la ciudadanía y en particular a las personas con dificultades de comunicación.</p>
+          <p class="parrafo">3. Las Administraciones públicas impulsarán la formación de profesionales intérpretes en lenguaje de signos y guías intérpretes de sordo-ciegos, a fin de facilitar la comunicación directa con las personas con dificultades de comunicación, y fomentará su progresiva incorporación en la función pública.</p>
+          <p class="parrafo">4. Los medios de comunicación de titularidad pública elaborarán un plan de medidas técnicas que, de forma gradual, permita garantizar debidamente el derecho a la comunicación a toda la ciudadanía.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Reservas</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 7. Reservas en el entorno urbano, espacios públicos y edificaciones de uso público.</p>
+          <p class="parrafo">1. Espacios y edificios de uso público:</p>
+          <p class="parrafo_2">a) En auditorios, salas de conciertos, salas de espectáculos, estadios deportivos, aulas y en otros espacios de concurrencia pública de análoga naturaleza se dispondrán espacios reservados de uso prioritario para personas con movilidad reducida.</p>
+          <p class="parrafo">b) La proporción mínima de espacios y zonas reservadas se determinará reglamentariamente.</p>
+          <p class="parrafo_2">2. Aparcamientos:</p>
+          <p class="parrafo_2">a) En las zonas y espacios abiertos así como en los edificios destinados a garajes y aparcamientos de uso público se reservarán en la proximidad de los accesos peatonales plazas destinadas al uso exclusivo de vehículos de personas con movilidad reducida.</p>
+          <p class="parrafo">b) El número de plazas reservadas será de 1 por cada 40 o fracción.</p>
+          <p class="parrafo_2">3. Servicios higiénicos, vestuarios y duchas:</p>
+          <p class="parrafo_2">En los aseos, vestuarios, duchas y otros elementos de análoga naturaleza ubicados en los espacios públicos y edificios de uso público y/o abiertos al público se reservará un elemento por sexo por cada diez o fracción, debidamente adaptados para el uso de personas con movilidad reducida. En los edificios, la proporción indicada se aplicará por acumulación de elementos.</p>
+          <p class="parrafo_2">4. Teléfonos:</p>
+          <p class="parrafo_2">a) En los teléfonos, locutorios y cabinas abiertas al público y/o abiertos al público ubicados en los espacios y edificios públicos se reservará un aparato por cada diez o fracción, debidamente adaptado para el uso de personas con movilidad reducida o dificultades de comunicación. En los edificios, la proporción indicada se aplicará por acumulación de elementos.</p>
+          <p class="parrafo">b) En los locutorios de uso público se instalará, al menos, un teléfono de texto.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 8. Reservas en los alojamientos turísticos y otros establecimientos.</p>
+          <p class="parrafo">1. En los alojamientos turísticos se efectuarán las reservas oportunas para las personas con movilidad reducida y dificultades de comunicación conforme a lo dispuesto en el presente artículo. Las plazas de alojamiento objeto de reserva deberán reunir las debidas condiciones de accesibilidad conforme a lo previsto en la presente ley y en sus normas de desarrollo.</p>
+          <p class="parrafo">2. En los hoteles y pensiones en todas sus clasificaciones y categorías se reservará un alojamiento por cada cincuenta o fracción para el uso prioritario de personas con movilidad reducida.</p>
+          <p class="parrafo">3. En los alojamientos turísticos extrahoteleros se efectuarán las siguientes reservas para el uso prioritario de personas con movilidad reducida:</p>
+          <p class="parrafo_2">a) En los campamentos de turismo o campings, en todas sus clasificaciones y categorías, una plaza por cada cincuenta o fracción.</p>
+          <p class="parrafo">b) En los apartamentos turísticos en todas sus categorías y en las viviendas turísticas vacacionales, una plaza por cada cincuenta o fracción.</p>
+          <p class="parrafo_2">4. En los campamentos juveniles, albergues, colonias de vacaciones escolares y otros de análoga naturaleza se reservará una plaza por cada cincuenta o fracción para el uso prioritario de personas con movilidad reducida.</p>
+          <p class="parrafo">5. En los alojamientos turísticos se dispondrá, en una por cada diez plazas o fracción, de las ayudas técnicas necesarias para que personas con dificultades en la comunicación ocupen un alojamiento de forma autónoma.</p>
+          <p class="parrafo">6. Cuando en los alojamientos turísticos exista servicio de aparcamiento, se reservará una plaza por cada alojamiento objeto de reserva.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 9. Reservas en los edificios destinados a viviendas.</p>
+          <p class="parrafo">1. En los edificios destinados a viviendas se efectuarán las siguientes reservas para personas con movilidad reducida de carácter permanente, siendo beneficiarios del derecho de reserva las personas que acrediten minusvalía calificada y valorada, en la que se determine el tipo y grado de disminución en relación con los beneficios de la reserva, todo ello conforme al régimen general de valoración de minusvalías vigente:</p>
+          <p class="parrafo_2">a) En las promociones de viviendas de protección oficial se reservará una vivienda por cada veinticinco o fracción. Para el acceso a dichas viviendas, los beneficiarios deberán cumplir en todo caso los requisitos previstos en la normativa vigente.</p>
+          <p class="parrafo">b) En las promociones de vivienda libre se reservará, a partir de cincuenta viviendas, una vivienda por cada cincuenta o fracción.</p>
+          <p class="parrafo">c) Las viviendas reservadas podrán ser adquiridas o alquiladas preferentemente por dichas personas, y en segundo lugar por entidades públicas o privadas sin ánimo de lucro para su uso como viviendas destinadas a dicho colectivo. En caso contrario perderán su condición de vivienda reservada.</p>
+          <p class="parrafo_2">2. El procedimiento para regular el ejercicio del derecho de reserva se determinará reglamentariamente.</p>
+          <p class="parrafo">3. Los promotores de viviendas deberán adaptar las viviendas reservadas a las características del adjudicatario. Los criterios técnicos para determinar las adaptaciones mínimas que deban realizarse se fijarán reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 10. Reservas en el transporte.</p>
+          <p class="parrafo">1. Los medios de transporte público colectivos urbanos e interurbanos, en particular los autobuses, trenes y funiculares, reservarán para el uso prioritario de personas con movilidad reducida al menos dos espacios para sillas de ruedas y cuatro asientos por coche, próximos a las puertas de acceso, adecuadamente señalizados y accesibles a los timbres y señales de parada.</p>
+          <p class="parrafo">2. Los citados medios de transporte serán accesibles para personas con movilidad reducida, deberán garantizar el desplazamiento interior en las debidas condiciones de seguridad y reservar el espacio físico necesario para la ubicación de utensilios o ayudas técnicas y/o perro-guía con que vayan provistas las personas afectadas.</p>
+          <p class="parrafo">3. En poblaciones superiores a tres mil habitantes los Ayuntamientos promoverán la existencia de un vehículo o taxi acondicionado que cubra las necesidades de desplazamiento de personas con movilidad reducida, siendo posible el otorgamiento de una nueva licencia si fuera necesario.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 11. Reservas en los sistemas de comunicación.</p>
+          <p class="parrafo">Para garantizar la accesibilidad a los sistemas de comunicación de las personas con dificultades de comunicación se establecerán las siguientes reservas:</p>
+          <p class="parrafo_2">1. En los lugares donde se ubiquen los puntos de información y/o atención al público, al menos uno de ellos deberá estar acondicionado para su utilización por dichas personas.</p>
+          <p class="parrafo">2. En los medios audiovisuales de titularidad de la Comunidad Autónoma del País Vasco aparecerá al menos en uno de los informativos un intérprete en lenguaje de signos además de subtítulos, al objeto de garantizar el derecho a la información de las personas con dificultades de comunicación.</p>
+          <p class="parrafo">3. Los deficientes visuales acompañados de perros-guía tendrán libre acceso a alojamientos turísticos, establecimientos hosteleros y transportes públicos y en general a todos los espacios y edificaciones de uso o servicio público.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 12. Obligación de anunciar la accesibilidad en las reservas.</p>
+          <p class="parrafo">El símbolo internacional de accesibilidad será de obligada instalación en los espacios de uso público, en los edificios públicos, en los alojamientos turísticos, en las instalaciones y medios de transporte y en los sistemas de información en los que existan reservas conforme a lo previsto en la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Medidas de promoción y fomento</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 13. Promoción de la accesibilidad.</p>
+          <p class="parrafo">1. Para garantizar y promover la accesibilidad de los entornos urbanos, espacios públicos, edificios, transportes y sistemas de información y comunicación ya existentes, de titularidad, uso o servicio público, el Gobierno Vasco, las Diputaciones Forales, las Ayuntamientos y demás entidades públicas elaborarán programas cuadrienales para la promoción de la accesibilidad. Su objeto será la adaptación progresiva de los elementos mencionados a las condiciones de accesibilidad previstas en esta ley y en sus normas de desarrollo. El primer programa cuadrienal deberá estar elaborado en el plazo de dos años a partir de la publicación de esta ley en el BOPV.</p>
+          <p class="parrafo">2. Los programas para la promoción de la accesibilidad constarán de los siguientes documentos:</p>
+          <p class="parrafo_2">a) Catálogo con el inventario de los espacios exteriores, edificación, transporte y comunicación objeto de adaptación.</p>
+          <p class="parrafo">b) Orden de prioridades de las actuaciones, que tendrá en cuenta la mayor eficiencia y afluencia de personas.</p>
+          <p class="parrafo">c) Programa económico-financiero, determinando las previsiones económicas destinadas a la realización de las adaptaciones.</p>
+          <p class="parrafo">d) Calendario de ejecución de las adaptaciones.</p>
+          <p class="parrafo_2">3. Las Administraciones públicas de la Comunidad Autónoma del País Vasco consignarán en sus presupuestos respectivos las partidas específicas destinadas a la financiación de los programas de promoción de la accesibilidad, dentro de sus disponibilidades presupuestarias.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 14. Medidas financieras.</p>
+          <p class="parrafo">1. El Gobierno Vasco, las Diputaciones Forales y los Ayuntamientos impulsarán, en el desarrollo y ejecución de sus competencias respectivas, la adopción de las medidas de fomento necesarias para la promoción de la accesibilidad.</p>
+          <p class="parrafo">2. En los programas subvencionales específicos para esta materia, las Administraciones públicas podrán estipular como prioritarias las siguientes actuaciones:</p>
+          <p class="parrafo_2">a) Las obras que tengan por objeto la adaptación a las condiciones de accesibilidad de los entornos urbanos y los espacios públicos, la edificación, el transporte y los sistemas de comunicación existentes.</p>
+          <p class="parrafo">b) Las obras de nueva planta, reforma o rehabilitación en las que, no siendo preceptivo, se incluyan viviendas reservadas para personas con movilidad reducida.</p>
+          <p class="parrafo">c) Las obras de reforma que tengan por objeto adaptaciones funcionales de las viviendas, servicios comunitarios o accesos a las mismas para personas con movilidad reducida o dificultades en la accesibilidad.</p>
+          <p class="parrafo">d) La adquisición y adaptación de los vehículos privados y taxis o vehículos privados de uso público a las condiciones de accesibilidad.</p>
+          <p class="parrafo">e) Las obras de nueva planta, reforma o rehabilitación de los alojamientos turísticos en las que, no siendo preceptivo, se incluyan alojamientos reservados para el uso prioritario de personas con movilidad reducida y dificultades de comunicación, o en general dificultades en la accesibilidad.</p>
+          <p class="parrafo">f) La adquisición de ayudas técnicas, cuando no sea posible adaptar a las condiciones de accesibilidad el entorno urbano, los espacios públicos, la edificación, el transporte y la comunicación.</p>
+          <p class="parrafo">g) Otras actuaciones que persigan la promoción de la accesibilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Medidas de control</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 15. Licencias y autorizaciones.</p>
+          <p class="parrafo">1. El cumplimiento de los preceptos de la presente ley será exigible para la aprobación de los instrumentos de planeamiento urbanístico y de su ejecución, así como para la concesión de licencias, autorizaciones, calificaciones y otros actos, por parte de la Administración de la Comunidad Autónoma, las Diputaciones Forales y los Ayuntamientos.</p>
+          <p class="parrafo">2. Para la obtención de licencia de taxi o cambio de vehículo se deberá justificar que éste reúne las debidas condiciones de accesibilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 16. Contratos administrativos.</p>
+          <p class="parrafo">Los pliegos de condiciones de los contratos administrativos cuyos contenidos afecten a lo dispuesto en esta ley contendrán cláusulas de adecuación a la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 17. Control de las condiciones de accesibilidad.</p>
+          <p class="parrafo">1. El Gobierno Vasco, las Diputaciones Forales, los Ayuntamientos y demás entidades públicas competentes para el otorgamiento de licencias y autorizaciones, así como para la aprobación de los instrumentos de planeamiento y de proyectos en materia de transporte y comunicación, verificarán la adecuación de sus determinaciones a la presente ley.</p>
+          <p class="parrafo">2. En la documentación de los proyectos, o en su caso en las solicitudes de licencias, autorizaciones o concesiones, se indicará de manera expresa el cumplimiento de lo dispuesto en la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 18. Infracciones.</p>
+          <p class="parrafo">1. Las acciones u omisiones que contravengan o vulneren las prescripciones contenidas en el Título I de la presente ley constituyen infracciones y serán objeto de sanción conforme a los requisitos y procedimiento regulados en el presente Título.</p>
+          <p class="parrafo">2. Las infracciones se clasifican en leves, graves y muy graves:</p>
+          <p class="parrafo_2">a) Son infracciones leves:</p>
+          <p class="parrafo_2">– La falta de mantenimiento en los espacios de uso público, en la edificación, en el transporte y en los sistemas de información y comunicación de las condiciones de accesibilidad en los términos previstos en la ley.</p>
+          <p class="parrafo">– El deterioro o inutilización de los elementos de accesibilidad derivados de la aplicación de la ley, por culpa o negligencia.</p>
+          <p class="parrafo">– Las acciones u omisiones que contravengan lo previsto en la presente ley y las condiciones de accesibilidad que reglamentariamente se determinen, no calificadas como graves.</p>
+          <p class="parrafo_2">b) Son infracciones graves:</p>
+          <p class="parrafo_2">– El deterioro o inutilización dolosa de los elementos de accesibilidad derivados de la aplicación de la ley.</p>
+          <p class="parrafo">– El incumplimiento de las condiciones de accesibilidad en los elementos de urbanización y del mobiliario urbano en las obras de nueva construcción, ampliación, reforma y mejora de los espacios exteriores.</p>
+          <p class="parrafo">– El incumplimiento de las condiciones de accesibilidad en las obras de nueva construcción, ampliación, reforma, rehabilitación, mejora, adaptación y cambio de uso de las edificaciones destinadas a un uso que implique la concurrencia de público.</p>
+          <p class="parrafo">– El incumplimiento de las condiciones de accesibilidad en las obras de nueva construcción de edificios destinados a uso colectivo de vivienda al no estar unidos de forma accesible el exterior con el interior y éste con las viviendas, garajes, trasteros y dependencias anejas.</p>
+          <p class="parrafo">– El incumplimiento de las condiciones de accesibilidad en los medios de transporte públicos de nueva adquisición.</p>
+          <p class="parrafo">– El incumplimiento de las condiciones de accesibilidad en la comunicación.</p>
+          <p class="parrafo">– El incumplimiento de las reservas establecidas en el Título I, Capítulo II, de la presente ley.</p>
+          <p class="parrafo">– La reincidencia en falta leve en plazo inferior a tres años.</p>
+          <p class="parrafo_2">c) Son infracciones muy graves:</p>
+          <p class="parrafo_2">– El incumplimiento fraudulento o con falsificación de documentos de las obligaciones impuestas por esta ley.</p>
+          <p class="parrafo">– La reincidencia en la comisión de faltas graves.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 19. Sanciones.</p>
+          <p class="parrafo">1. Las sanciones que podrán imponerse en función de la calificación de la infracción serán las siguientes:</p>
+          <p class="parrafo_2">a) Las infracciones leves serán sancionadas con multas de 50.000 a 500.000 pesetas.</p>
+          <p class="parrafo">b) Las infracciones graves serán sancionadas con multas de 500.001 a 10.000.000 de pesetas.</p>
+          <p class="parrafo">c) Las infracciones muy graves serán sancionadas con multas de 10.000.001 a 20.000.000 de pesetas.</p>
+          <p class="parrafo_2">2. Para graduar el importe de la multa se tendrá en cuenta el grado de responsabilidad del infractor, el coste económico derivado de las obras de accesibilidad necesarias, el perjuicio directa o indirectamente causado, la reiteración de los responsables y el grado de participación de cada uno de los infractores.</p>
+          <p class="parrafo">3. La imposición de una sanción no eximirá al infractor de la obligación de reponer o, en los casos de incumplimiento, de realizar la reforma del proyecto o las obras de adaptación precisas en el plazo que se fije reglamentariamente.</p>
+          <p class="parrafo">4. Las multas que se impongan a los diferentes sujetos como consecuencia de una misma infracción tendrán entre sí carácter independiente.</p>
+          <p class="parrafo">5. Las cuantías de las sanciones indicadas en el presente artículo podrán ser objeto de actualización por decreto del Gobierno Vasco, en función de la variación de los índices de precios al consumo.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 20. Procedimiento y régimen sancionador.</p>
+          <p class="parrafo">1. Las infracciones de lo dispuesto en la presente ley serán sancionadas de acuerdo con las disposiciones generales en vigor sobre régimen sancionador y previa la instrucción del oportuno expediente por órgano competente.</p>
+          <p class="parrafo">2. Las personas a las que hace referencia el artículo 1 de la presente ley o las asociaciones en las que éstas se integran tendrán siempre la consideración de interesados en los procedimientos administrativos.</p>
+          <p class="parrafo">3. Contra el acuerdo de archivo de las actuaciones o la resolución desestimatoria, expresa o tácita, de la denuncia o puesta en conocimiento de la Administración de posibles infracciones de las condiciones de accesibilidad, las asociaciones anteriormente referidas quedarán legitimadas para interponer los recursos o, en su caso, las acciones que consideren procedentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 21. Órganos competentes.</p>
+          <p class="parrafo">Las autoridades competentes para imponer sanciones por infracciones cometidas a la presente ley serán:</p>
+          <p class="parrafo_2">a) Los Alcaldes para la imposición de sanciones por infracciones leves y por infracciones graves hasta 5.000.000 de pesetas, en el ámbito de sus competencias, con arreglo a la siguiente escala: en los municipios con población inferior a 10.000 habitantes, hasta 1.000.000 de pesetas; en los municipios con población entre 10.000 y 50.000 habitantes, hasta 2.500.000 pesetas, y en los municipios con población superior a 50.000 habitantes hasta 5.000.000 de pesetas.</p>
+          <p class="parrafo">b) Los Consejeros de los Departamentos de la Administración de la Comunidad Autónoma competentes por razón de la materia, en el ámbito de sus competencias, para la imposición de sanciones por infracciones leves y graves hasta 5.000.000 de pesetas, y en todo caso para la imposición de sanciones por infracciones graves entre 5.000.001 y 10.000.000 de pesetas, y por infracciones muy graves.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 22. Personas responsables.</p>
+          <p class="parrafo">1. En las obras y demás actuaciones que se ejecuten sin la preceptiva licencia municipal cuando la actividad deba ajustarse a las previsiones de la presente ley, o con inobservancia de las cláusulas de la licencia en lo relativo a las materias reguladas por la presente ley, serán sancionados el promotor, el autor del proyecto, el empresario constructor de las obras y los técnicos directores de las mismas.</p>
+          <p class="parrafo">2. En las obras amparadas en una licencia municipal cuyo contenido constituya una infracción grave o muy grave de la presente ley, serán igualmente sancionados el facultativo que hubiera informado favorablemente el proyecto y los miembros de la Corporación que hubieran votado a favor del otorgamiento de la licencia sin los informes previos preceptivos o cuando dichos informes fueran desfavorables en razón de la citada infracción.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 23. Prescripción.</p>
+          <p class="parrafo">1. Infracciones:</p>
+          <p class="parrafo_2">Los plazos de prescripción de las infracciones previstas en esta ley serán los siguientes:</p>
+          <p class="parrafo_2">a) Las infracciones muy graves prescriben a los cinco años.</p>
+          <p class="parrafo">b) Las infracciones graves prescriben a los tres años.</p>
+          <p class="parrafo">c) Las infracciones leves prescriben a los seis meses.</p>
+          <p class="parrafo_2">2. Sanciones:</p>
+          <p class="parrafo_2">Los plazos de prescripción de las sanciones previstas en esta ley serán los siguientes:</p>
+          <p class="parrafo_2">a) Las sanciones impuestas por infracciones muy graves prescriben a los tres años.</p>
+          <p class="parrafo">b) Las sanciones impuestas por infracciones graves prescriben a los dos años.</p>
+          <p class="parrafo">c) Las sanciones impuestas por infracciones leves prescriben al año.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">Consejo Vasco para la Promoción de la Accesibilidad</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 24. Creación.</p>
+          <p class="parrafo">Se crea el Consejo Vasco para la Promoción de la Accesibilidad como órgano consultivo y de participación adscrito al Departamento de Ordenación del Territorio, Vivienda y Medio Ambiente del Gobierno Vasco, en el que estarán representadas las Administraciones públicas vascas, las entidades asociativas más representativas cuya finalidad sea la defensa de los derechos de las personas con dificultades en la accesibilidad, así como las organizaciones de consumidores y usuarios, las asociaciones de promotores y constructores más representativas, y los Colegios de Arquitectos, de Aparejadores y Arquitectos Técnicos, y de Ingenieros de Caminos, Canales y Puertos.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 25. Composición.</p>
+          <p class="parrafo">El Consejo estará presidido por el Consejero de Ordenación del Territorio, Vivienda y Medio Ambiente, y estará compuesto además por:</p>
+          <p class="parrafo_2">a) Un representante del Gobierno Vasco con rango mínimo de Director por cada una de las siguientes áreas: Ordenación del Territorio y Vivienda; Comercio y Consumo; Educación; Sanidad; Trabajo y Seguridad Social; Transportes y Obras Públicas; Hacienda; Industria, y Cultura.</p>
+          <p class="parrafo">b) Un representante de la Diputación Foral de cada uno de los territorios históricos.</p>
+          <p class="parrafo">c) Tres representantes de los Ayuntamientos de la Comunidad Autónoma del País Vasco.</p>
+          <p class="parrafo">d) Seis representantes de las entidades privadas más representativas que agrupen a personas con dificultad en la accesibilidad.</p>
+          <p class="parrafo">e) Dos representantes de las asociaciones de consumidores y usuarios más representativas.</p>
+          <p class="parrafo">f) Dos representantes de las asociaciones de promotores y constructores.</p>
+          <p class="parrafo">g) Un representante del Colegio de Arquitectos.</p>
+          <p class="parrafo">h) Un representante del Colegio de Aparejadores y Arquitectos Técnicos.</p>
+          <p class="parrafo">i) Un representante del Colegio de Ingenieros de Caminos, Canales y Puertos.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Artículo 26. Funciones.</p>
+          <p class="parrafo">El Consejo Vasco para la Promoción de la Accesibilidad tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Emitir un informe anual sobre el grado de cumplimiento de las previsiones de la presente ley, y su posterior remisión al Parlamento.</p>
+          <p class="parrafo">b) Asesorar y proponer criterios de actuación a los órganos competentes en materia de accesibilidad conforme a lo dispuesto en esta ley.</p>
+          <p class="parrafo">c) Aprobar su reglamento de organización y funcionamiento.</p>
+          <p class="parrafo">d) Cuantas otras funciones le sean encomendadas.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">Lo dispuesto en la presente ley será de aplicación en el otorgamiento de toda clase de autorizaciones, concesiones y licencias solicitadas con posterioridad a la fecha de su entrada en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">Será de aplicación lo dispuesto en esta ley a los instrumentos de planeamiento urbanístico y proyectos de urbanización aprobados inicialmente en la fecha de entrada en vigor de la ley, pendientes de aprobación provisional o definitiva, estableciéndose un plazo de tres meses a partir de dicha fecha para la adaptación del documento a las prescripciones de la ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan o contradigan lo previsto en esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se faculta al Gobierno Vasco para dictar las disposiciones que sean necesarias para el desarrollo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">El Gobierno Vasco, en el plazo de seis meses a partir de la entrada en vigor de la presente ley, procederá a la elaboración de las correspondientes normas de carácter técnico en las que se determinarán las condiciones de accesibilidad de los entornos urbanos, de los espacios públicos, de la edificación, de los medios de transporte y de los sistemas de información y comunicación, refundiendo y armonizando las normas referentes a accesibilidad y supresión de barreras urbanísticas articuladas a través de diferentes normas actualmente vigentes.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">En el plazo de seis meses desde la entrada en vigor de la presente Ley se aprobará el reglamento de organización y funcionamiento del Consejo Vasco para la Promoción de la Accesibilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="dfcuaa" tipo="precepto" titulo="Disposición final cuarta">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="articulo">Disposición final cuarta.</p>
+          <p class="parrafo">La presente Ley entrará en vigor a los cuatro meses de su publicación en el Boletín Oficial del País Vasco.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2012-541" fecha_publicacion="19971224" fecha_vigencia="19980424">
+          <p class="parrafo">Por consiguiente, ordeno a todos/as los/las ciudadanos/as de Euskadi, particulares y autoridades, que la guarden y hagan guardarla.</p>
+          <p class="parrafo_2">Vitoria-Gasteiz, 12 de diciembre de 1997.</p>
+          <p class="parrafo"> </p>
+          <p class="firma_ministro">El Lehendakari,</p>
+          <p class="firma_ministro">José Antonio Ardanza Garro</p>
+          <p class="publicado">
+            <em> </em>
+          </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>
