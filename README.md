@@ -46,17 +46,19 @@ LLM (Ollama)
 ## Documentación adicional
 
 Enlaces a archivos del downloader:
-- `data/script/xml-downloader/README.md`
-- `data/script/xml-downloader/ABOUT.md`
-- `data/script/xml-downloader/INSTALACION.md`
-- `data/script/xml-downloader/LICENSE.md`
-- `data/script/xml-downloader/NOTICE.md`
-- `data/script/xml-downloader/OPTIMIZACIONES.md`
+
+- `[README.md](data/script/xml-downloader/README.md)`
+- `[ABOUT.md](data/script/xml-downloader/ABOUT.md)`
+- `[INSTALACION.md](data/script/xml-downloader/INSTALACION.md)`
+- `[LICENSE.md](data/script/xml-downloader/LICENSE.md)`
+- `[NOTICE.md](data/script/xml-downloader/NOTICE.md)`
+- `[OPTIMIZACIONES.md](data/script/xml-downloader/OPTIMIZACIONES.md)`
 
 ## Script principal: boe_downloader_eli.py
 
 Ruta:
-- `data/script/xml-downloader/boe_downloader_eli.py`
+
+- `[data/script/xml-downloader/boe_downloader_eli.py](data/script/xml-downloader/boe_downloader_eli.py)`
 
 ### Qué hace
 
@@ -70,6 +72,7 @@ Ruta:
 ### Panel web (FastAPI)
 
 El script levanta un panel web local con gráficos y métricas en tiempo real:
+
 - URL fija: `http://127.0.0.1:8000`
 - Se mantiene activo mientras el proceso está en ejecución.
 - Si el puerto 8000 está ocupado, el panel web **no** se inicia.
@@ -78,9 +81,7 @@ El script levanta un panel web local con gráficos y métricas en tiempo real:
 
 Vista rápida del panel:
 
-<p align="center">
-  <img src="docs/boe-dashboard.svg" alt="Panel web de descarga">
-</p>
+![Diagrama]("docs/boe-dashboard.svg")
 
 > [!NOTE]
 > El panel web se sirve en el mismo host donde se ejecuta el script. En un servidor remoto no abrirá el navegador local automáticamente.
@@ -94,7 +95,7 @@ ssh -L 8000:127.0.0.1:8000 usuario@servidor
 ```
 
 Luego abre en tu navegador local:
-`http://127.0.0.1:8000`
+`[http://127.0.0.1:8000](http://127.0.0.1:8000)`
 
 El script puede imprimir una sugerencia automática de túnel si pasas `--ssh-host`:
 
@@ -205,6 +206,7 @@ python3 data/script/xml-downloader/boe_downloader_eli.py \
 > Si se pasan después, el parser los interpreta como argumentos del subcomando y devuelve error.
 
 Notas:
+
 - Para insertar en `boe.*` se debe usar `--ingest-xml` junto con formato XML.
 - El almacenamiento por defecto es `./boe_store` (relativo al directorio de ejecución).
 
@@ -214,6 +216,7 @@ Notas:
 ### Argumentos principales
 
 Globales:
+
 - `--store`: carpeta base de almacenamiento (default `./boe_store`).
 - `--timeout`: timeout total por request (segundos).
 - `--retries`: reintentos para 429/5xx/errores transitorios.
@@ -230,10 +233,12 @@ Globales:
 - `--open-web`: abre el panel web en el navegador local si es posible.
 
 Subcomando `sumario`:
+
 - `--fecha` (AAAAMMDD) **obligatorio**.
 - `--pdf-url` si se quiere descargar PDF del sumario.
 
 Subcomando `consolidada`:
+
 - `--fecha` (AAAAMMDD) para obtener IDs desde el sumario.
 - `--ids` lista separada por comas.
 - `--ids-file` archivo con IDs (líneas o JSON array).
@@ -241,7 +246,8 @@ Subcomando `consolidada`:
 ## Script de tests
 
 Ruta:
-- `data/script/xml-downloader/test_boe_downloader_eli.py`
+
+- `[data/script/xml-downloader/test_boe_downloader_eli.py](data/script/xml-downloader/test_boe_downloader_eli.py)`
 
 ### Qué hace
 
@@ -260,11 +266,13 @@ RUN_HEAVY=1 uv run --extra test python3 data/script/xml-downloader/test_boe_down
 ```
 
 > [!NOTE]
-> El runner reconoce `RUN_HEAVY=1`. Si usas `SET_HEAVY=1`, no tiene efecto (se deja aquí solo como referencia).
+> El runner reconoce `RUN_HEAVY=1`. Y le pasa las herramientas pesadas como mutmut y locust
+> que generan trafico y ven su comportamiento
 
-## Esquema de ingesta en Postgres (ingest.*)
+## Esquema de ingesta en Postgres (ingest.\*)
 
 Tabla `ingest.resource` (snapshot por recurso):
+
 - `resource_id`: UUID del recurso.
 - `source_kind`: tipo de fuente (`sumario_dia`, `consolidada_id`, etc.).
 - `resource_key`: clave del recurso (fecha o BOE-A).
@@ -275,6 +283,7 @@ Tabla `ingest.resource` (snapshot por recurso):
 - `created_at`, `updated_at`: control de auditoría.
 
 Tabla `ingest.attempt` (histórico de intentos):
+
 - `attempt_id`: UUID del intento.
 - `resource_id`: referencia al recurso.
 - `format`: formato (`xml`, `json`, `pdf`).
@@ -303,9 +312,10 @@ GROUP BY format, http_status
 ORDER BY format, http_status;
 ```
 
-## Esquema de BOE en Postgres (boe.*)
+## Esquema de BOE en Postgres (boe.\*)
 
 Tabla `boe.document` (documento consolidado):
+
 - `document_id`: UUID del documento.
 - `boe_id`: identificador BOE-A.
 - `url_eli`, `url_html_consolidada`: enlaces a ELI/HTML.
@@ -336,19 +346,19 @@ Tabla `boe.text_unit`: unidades de texto (párrafos) por versión.
 
 ## Estructura de almacenamiento en disco (por defecto)
 
-- `boe_store/xml/`: XML descargados y sus `.meta.json`.
-- `boe_store/json/`: JSON descargados y sus `.meta.json` (si se activan).
-- `boe_store/pdf/`: PDFs descargados y sus `.meta.json`.
+- `[boe_store/xml](boe_store/xml/)`: XML descargados y sus `.meta.json`.
+- `[boe_store/json](boe_store/json/)`: JSON descargados y sus `.meta.json` (si se activan).
+- `[boe_store/pdf](boe_store/pdf/)`: PDFs descargados y sus `.meta.json`.
 
 Cada payload se guarda como `sha256.ext` y su metadata como `sha256.meta.json`.
 
 ## Operación diaria (propuesta)
 
-1) Ejecutar descarga por fecha con `--formats xml,pdf`.
-2) Verificar estado en `ingest.resource` y `ingest.attempt`.
-3) Convertir a Parquet con el script de Polars (cuando exista).
-4) Ejecutar embeddings + chunking y cargar en Qdrant/Neo4j (cuando exista).
-5) Ejecutar el RAG y validar respuestas con URLs al BOE.
+1. Ejecutar descarga por fecha con `--formats xml,pdf`.
+2. Verificar estado en `ingest.resource` y `ingest.attempt`.
+3. Convertir a Parquet con el script de Polars (cuando exista).
+4. Ejecutar embeddings + chunking y cargar en Qdrant/Neo4j (cuando exista).
+5. Ejecutar el RAG y validar respuestas con URLs al BOE.
 
 ## Glosario breve
 
