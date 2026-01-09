@@ -81,7 +81,7 @@ El script levanta un panel web local con gráficos y métricas en tiempo real:
 
 Vista rápida del panel:
 
-![Diagrama]("docs/boe-dashboard.svg")
+![Diagrama](docs/boe-dashboard.svg)
 
 > [!NOTE]
 > El panel web se sirve en el mismo host donde se ejecuta el script. En un servidor remoto no abrirá el navegador local automáticamente.

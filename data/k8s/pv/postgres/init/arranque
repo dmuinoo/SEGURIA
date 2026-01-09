@@ -1,0 +1,78 @@
+docker run -d \
+  --name pg-container \
+  -e POSTGRES_DB=boe \
+  -e POSTGRES_USER=boe_user \
+  -e POSTGRES_PASSWORD=boe_pass \
+  -p 5432:5432 \
+  -v /Volumes/INRA_VMM/data/docker/postgres/boe:/var/lib/postgresql/data \
+  pg-with-schema:latest
+
+
+**Verificar que esta vivo y las tablas existen**
+docker ps --filter name=pg-container
+docker logs -f pg-container
+
+**Testear**
+docker exec -it pg-container psql -U boe_user -d boe -c "\dt boe.*"
+
+**Ver si el contenedor esta Up**
+docker ps --filter name=pg-container
+
+
+**Listar esquemas y tablas**
+docker exec -it pg-container psql -U boe_user -d boe -c "\dn"
+docker exec -it pg-container psql -U boe_user -d boe -c "\dt boe.*"
+
+
+**Prueba de insercion minima**
+docker exec -it pg-container psql -U boe_user -d boe -c "SELECT now();"
+
+
+**Ponerle un tag a la imagen**
+docker tag 6cef05fd30d1 pg-with-schema:latest
+docker tag 6cef05fd30d1 postgres-init:latest
+
+
+**Verificar el tag**
+docker images | grep -E 'pg-with-schema|postgres-init'
+
+
+# Para empezar de cero
+**Borrar el comtenedor**
+docker rm -f pg-container
+
+
+**Borrar datos persistentes**
+rm -rf /Volumes/INRA_VMM/data/docker/postgres/boe/*
+
+**Listar los contenedores creados
+docker images 
+
+
+**Borrar imagen**
+docker rmi -f 6cef05fd30d1
+
+
+**Reconstruir con tag**
+cd /Volumes/INRA_VMM/data/k8s/pv/postgres/init
+docker build --no-cache -t pg-with-schema:latest .
+
+**Y lueggo quedaria arrancar que es primer paso de este fichero**
+
+**Comprobacion base de datos **
+docker exec -it pg-container psql -U postgres -d postgres -c "\conninfo"
+
+docker exec -it pg-container psql -U postgres -d postgres -c "\dn"
+
+docker exec -it pg-container psql -U postgres -d postgres -c "\dt boe.*"
+docker exec -it pg-container psql -U postgres -d postgres -c "\dt ingest.*"
+
+docker exec -it pg-container psql -U boe_user -d boe -c "\dn"
+docker exec -it pg-container psql -U boe_user -d boe -c "\dt boe.*"
+docker exec -it pg-container psql -U boe_user -d boe -c "\dt ingest.*"
+docker exec -it pg-container psql -U boe_user -d boe -c "SELECT extname FROM pg_extension;"
+
+
+** IMPORTANTE!! Si no recuerdas usuario y password usar este comando **
+docker exec -it pg-container env | egrep '^POSTGRES_(USER|DB)='
+
