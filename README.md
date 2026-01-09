@@ -3,7 +3,7 @@
 Esta carpeta contiene una **POC de una IA con research RAG** que devolverá una respuesta basada en documentos del BOE y una URL a los documentos originales. Por ahora solo se ha desarrollado el script de descarga y su runner de tests, pero el stack objetivo está definido y se describe más abajo.
 
 > [!NOTE]
-> Normativa aplicable: ver `data/normativa/NORMATIVA.md`.  
+> Normativa aplicable: ver [NORMATIVA.md](data/normativa/NORMATIVA.md).  
 > Directrices de la IA Act y de las 16 guías de la AESIA.
 
 ## Stack previsto (visión general)
@@ -47,18 +47,18 @@ LLM (Ollama)
 
 Enlaces a archivos del downloader:
 
-- `[README.md](data/script/xml-downloader/README.md)`
-- `[ABOUT.md](data/script/xml-downloader/ABOUT.md)`
-- `[INSTALACION.md](data/script/xml-downloader/INSTALACION.md)`
-- `[LICENSE.md](data/script/xml-downloader/LICENSE.md)`
-- `[NOTICE.md](data/script/xml-downloader/NOTICE.md)`
-- `[OPTIMIZACIONES.md](data/script/xml-downloader/OPTIMIZACIONES.md)`
+- [README.md](data/script/xml-downloader/README.md)
+- [ABOUT.md](data/script/xml-downloader/ABOUT.md)
+- [INSTALACION.md](data/script/xml-downloader/INSTALACION.md)
+- [LICENSE.md](data/script/xml-downloader/LICENSE.md)
+- [NOTICE.md](data/script/xml-downloader/NOTICE.md)
+- [OPTIMIZACIONES.md](data/script/xml-downloader/OPTIMIZACIONES.md)
 
 ## Script principal: boe_downloader_eli.py
 
 Ruta:
 
-- `[data/script/xml-downloader/boe_downloader_eli.py](data/script/xml-downloader/boe_downloader_eli.py)`
+- [data/script/xml-downloader/boe_downloader_eli.py](data/script/xml-downloader/boe_downloader_eli.py)
 
 ### Qué hace
 
@@ -73,7 +73,7 @@ Ruta:
 
 El script levanta un panel web local con gráficos y métricas en tiempo real:
 
-- URL fija: `http://127.0.0.1:8000`
+- URL fija: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 - Se mantiene activo mientras el proceso está en ejecución.
 - Si el puerto 8000 está ocupado, el panel web **no** se inicia.
 - Si `fastapi` o `uvicorn` no están instalados, se muestra un aviso y se desactiva el panel web.
@@ -95,7 +95,7 @@ ssh -L 8000:127.0.0.1:8000 usuario@servidor
 ```
 
 Luego abre en tu navegador local:
-`[http://127.0.0.1:8000](http://127.0.0.1:8000)`
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 El script puede imprimir una sugerencia automática de túnel si pasas `--ssh-host`:
 
@@ -247,7 +247,7 @@ Subcomando `consolidada`:
 
 Ruta:
 
-- `[data/script/xml-downloader/test_boe_downloader_eli.py](data/script/xml-downloader/test_boe_downloader_eli.py)`
+- [data/script/xml-downloader/test_boe_downloader_eli.py](data/script/xml-downloader/test_boe_downloader_eli.py)
 
 ### Qué hace
 
