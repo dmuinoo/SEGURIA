@@ -47,12 +47,12 @@ LLM (Ollama)
 
 Enlaces a archivos del downloader:
 
-- [README.md](data/script/xml-downloader/README.md)
-- [ABOUT.md](data/script/xml-downloader/ABOUT.md)
-- [INSTALACION.md](data/script/xml-downloader/INSTALACION.md)
-- [LICENSE.md](data/script/xml-downloader/LICENSE.md)
-- [NOTICE.md](data/script/xml-downloader/NOTICE.md)
-- [OPTIMIZACIONES.md](data/script/xml-downloader/OPTIMIZACIONES.md)
+- [README.md](data/normativa/README.md)
+- [ABOUT.md](data/normativa/ABOUT.md)
+- [INSTALACION.md](data/normativa/INSTALACION.md)
+- [LICENSE.md](data/normativa/LICENSE.md)
+- [NOTICE.md](data/normativa/NOTICE.md)
+- [OPTIMIZACIONES.md](data/normativa/OPTIMIZACIONES.md)
 
 ## Script principal: boe_downloader_eli.py
 
