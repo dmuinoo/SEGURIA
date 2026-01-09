@@ -346,9 +346,9 @@ Tabla `boe.text_unit`: unidades de texto (párrafos) por versión.
 
 ## Estructura de almacenamiento en disco (por defecto)
 
-- `[boe_store/xml](boe_store/xml/)`: XML descargados y sus `.meta.json`.
-- `[boe_store/json](boe_store/json/)`: JSON descargados y sus `.meta.json` (si se activan).
-- `[boe_store/pdf](boe_store/pdf/)`: PDFs descargados y sus `.meta.json`.
+- [boe_store/xml](boe_store/xml/): XML descargados y sus `.meta.json`.
+- [boe_store/json](boe_store/json/): JSON descargados y sus `.meta.json` (si se activan).
+- [boe_store/pdf](boe_store/pdf/): PDFs descargados y sus `.meta.json`.
 
 Cada payload se guarda como `sha256.ext` y su metadata como `sha256.meta.json`.
 
