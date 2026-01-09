@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T213541Z</fecha_actualizacion>
+      <identificador>BOE-A-2006-14195</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8010">Comunidad Autónoma de Andalucía</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20060623</fecha_disposicion>
+      <numero_oficial>4/2006</numero_oficial>
+      <titulo>Ley 4/2006, de 23 de junio, de Asociaciones de Andalucía.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20060804</fecha_publicacion>
+      <diario_numero>185</diario_numero>
+      <fecha_vigencia>20060803</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-an/l/2006/06/23/4</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2006-14195</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="233">Andalucía</materia>
+        <materia codigo="352">Asociaciones</materia>
+        <materia codigo="6015">Registros administrativos</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOJA núm. 126, de 3 de julio de 2006.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-633</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 13.25 del el Estatuto aprobado por Ley Orgánica 6/1981, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2002-5852</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley ÓRGANICA 1/2002, de 22 de marzo</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-an"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-14195</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-06-23</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/233"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/352"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-an"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-14195</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-06-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/233"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/352"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/con/20060703"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/2006, de 23 de junio, de Asociaciones de Andalucía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/con/20060703">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-an"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-14195</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-06-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/233"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/352"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/con/20060703/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/2006, de 23 de junio, de Asociaciones de Andalucía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/con/20060703"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/2006/06/23/4/con/20060703/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/2006/06/23/4/con/20060703/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="parrafo">EL PRESIDENTE DE LA JUNTA DE ANDALUCÍA</p>
+          <p class="parrafo_2">A todos los que la presente vieren, sabed:</p>
+          <p class="parrafo_2">Que el Parlamento de Andalucía ha aprobado y yo, en nombre del Rey y por la autoridad que me confieren la Constitución y el Estatuto de Autonomía, promulgo y ordeno la publicación de la siguiente Ley de Asociaciones de Andalucía.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">El derecho de asociación supone la libre voluntad de las personas para agruparse con objeto de participar en una finalidad común, así como compartir conocimientos y actividades. A partir de estas consideraciones básicas del fenómeno asociativo, la ciudadanía logra vertebrarse en la sociedad y contribuye decisivamente al fortalecimiento de las estructuras democráticas de las instituciones políticas y al enriquecimiento de la diversidad cultural en un movimiento colectivo más vivo y dinámico. Este fenómeno natural de la sociedad civil no puede ser ignorado por los poderes públicos y en este sentido nuestra Constitución reconoce, en el artículo 22, el derecho fundamental de asociación y los principios que afectan a todas las asociaciones y establece que la inscripción de las asociaciones lo es a los solos efectos de publicidad.</p>
+          <p class="parrafo">La Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación, ha establecido el núcleo esencial de su contenido distinguiendo, en la disposición final primera, los preceptos que tienen rango de ley orgánica, al constituir el desarrollo del derecho fundamental, de los preceptos que, sin tener tal carácter, son de aplicación directa en todo el Estado al amparo de lo previsto en el artículo 149.1.1.ª de la Constitución Española.</p>
+          <p class="parrafo">El artículo 13.25 del Estatuto de Autonomía para Andalucía atribuye a la Comunidad Autónoma la competencia exclusiva en materia de asociaciones de carácter docente, cultural, artístico, benéfico-asistencial y similares, que desarrollen principalmente sus funciones en Andalucía, por lo que le corresponde desarrollar los aspectos de organización y funcionamiento de las asociaciones.</p>
+          <p class="parrafo">La presente Ley pretende conjugar el ejercicio individual del derecho de asociación, como derecho de la ciudadanía en el ámbito de la vida social a asociarse y a crear asociaciones, y la configuración normativa de mecanismos de fortalecimiento de la estructura y capacidad de actuación de las asociaciones como instrumento eficaz para la vertebración y participación civil. Así, la Ley regula el derecho a dotarse de los estatutos por los que se han de regir, pieza fundamental en el entramado asociativo, que recogerán los aspectos sustanciales del régimen de organización y el respeto al derecho de voto de las personas asociadas, como principio fundamental de participación, estableciendo sólo el voto ponderado en el supuesto de personas jurídicas en las asociaciones y la capacidad de funcionamiento de las asociaciones para el cumplimiento de sus fines.</p>
+          <p class="parrafo">En el Capítulo II de esta Ley se regulan las normas de organización y funcionamiento internos de las asociaciones, que se encuentran regidas por el principio de subsidiariedad, lo que posibilita una amplia libertad por parte de las asociaciones en los aspectos organizativos de las mismas; denominación de los órganos; reglas de funcionamiento con pleno respeto de la voluntad asociativa, salvo en la garantía de la existencia de unas normas mínimas de funcionamiento, como pudieran ser las relativas a la válida constitución de la Asamblea General y la adopción de acuerdos por mayoría simple, con carácter general. Esto último sin perjuicio de establecer una mayoría cualificada para los acuerdos relativos a la disolución de la asociación, modificación de los estatutos, disposición y enajenación de bienes y remuneración de los miembros del órgano de representación. Asimismo, la presente Ley está inspirada en el principio de igualdad de oportunidades de mujeres y hombres, a fin de garantizar la representación y participación paritarias de ambos sexos en el tejido asociativo.</p>
+          <p class="parrafo">Ya en el Capítulo III, la Ley distingue entre las modificaciones estatutarias las que afectan al contenido mínimo legalmente exigible, que requieren inscripción en el Registro de Asociaciones de Andalucía, de aquellas otras que no y que producirán efectos para las personas asociadas desde su aprobación.</p>
+          <p class="parrafo">La disolución de la asociación está contemplada como un instrumento para proceder a la extinción de las asociaciones en los supuestos previstos en la legislación aplicable y exige, además, el cumplimiento de determinadas mayorías que avalen la participación de las personas asociadas en tal decisión. Igualmente, se regulan las operaciones subsiguientes de liquidación de las asociaciones.</p>
+          <p class="parrafo">El Capítulo IV de esta Ley regula la determinación en los estatutos de un régimen disciplinario para el incumplimiento de los deberes de las personas asociadas, que garantiza los derechos de la persona presuntamente responsable a conocer los hechos que motivan la iniciación del procedimiento y a formular alegaciones, lo cual constituye un instrumento necesario para un mejor gobierno de las asociaciones.</p>
+          <p class="parrafo">El Capítulo V de esta Ley establece el Registro de Asociaciones de Andalucía, que tiene su fundamento en el principio constitucional de publicidad, sin que la inscripción de la asociación tenga un valor constitutivo, puesto que ésta nace con la sola voluntad asociativa plasmada en el acta fundacional. La Ley apuesta decididamente por el uso de los sistemas informáticos y telemáticos en el tratamiento de los procedimientos registrales, así como por el acceso de los ciudadanos a los datos del Registro a través del portal de la Administración de la Junta de Andalucía. Ello no hace sino plasmar en este texto legal la apuesta por la introducción de las nuevas tecnologías que conlleva la Segunda Modernización de Andalucía.</p>
+          <p class="parrafo">Las medidas de fomento se recogen en el Capítulo VI de esta Ley, configuradas en dos elementos relevantes: la promoción del asociacionismo cuya finalidad sea el interés general, como pilar vertebrador de la sociedad y, por otra parte, la declaración de interés público de Andalucía para las asociaciones que lo promuevan y cumplan los requisitos establecidos en la presente Ley. Las asociaciones declaradas de interés público de Andalucía disfrutarán de los beneficios fiscales, económicos y administrativos que en cada caso establezcan las leyes.</p>
+          <p class="parrafo">El Capítulo VII de la presente Ley establece la posibilidad de crear Consejos Sectoriales de Asociaciones, que se configuran como órganos de participación y relación entre la Administración Pública y las asociaciones en los distintos ámbitos sectoriales. De esta forma, los Consejos Sectoriales de Asociaciones pueden constituir un eficaz instrumento en la respuesta a las demandas ciudadanas vertebradas en el movimiento asociativo, determinando a los poderes públicos a incentivar y promover la participación ciudadana en los asuntos colectivos. Poseen la naturaleza de órganos colegiados de carácter consultivo, de información y asesoramiento, correspondiendo a la Consejería competente en materia de régimen jurídico de asociaciones la coordinación de carácter orgánico de los diferentes Consejos Sectoriales de Asociaciones.</p>
+          <p class="parrafo">La disposición adicional única recoge los preceptos redactados de conformidad con la normativa de directa aplicación en todo el Estado y que se introducen con el objeto de dar coherencia y comprensión al texto normativo.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo_2">1. La presente Ley tiene por objeto la regulación y el fomento de las asociaciones que son competencia de la Comunidad Autónoma de Andalucía de acuerdo con el artículo 13.25 del Estatuto de Autonomía.</p>
+          <p class="parrafo">2. El ámbito de aplicación de esta Ley se extiende a las asociaciones que desarrollan sus actividades principalmente en Andalucía y no están reguladas en ninguna legislación específica, sin perjuicio de lo dispuesto en su disposición final primera.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 2. Constitución y fines.</p>
+          <p class="parrafo_2">1. Las asociaciones se constituyen mediante acuerdo de tres o más personas físicas o jurídicas legalmente constituidas, que se comprometen a poner en común conocimientos, medios y actividades para conseguir unas finalidades lícitas, comunes, de interés general o particular, y se dotan de los estatutos que rigen el funcionamiento de la asociación.</p>
+          <p class="parrafo">2. Los beneficios obtenidos por las asociaciones, derivados del ejercicio de actividades económicas, incluidas las prestaciones de servicios, deberán destinarse, exclusivamente, al cumplimiento de sus fines, sin que quepa en ningún caso su reparto entre los asociados, ni entre sus cónyuges o personas con análoga relación de convivencia, ni entre sus parientes, ni su cesión gratuita a personas físicas o jurídicas con interés lucrativo.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 3. Personalidad jurídica.</p>
+          <p class="parrafo_2">Con el otorgamiento del acta fundacional adquirirá la asociación personalidad jurídica y plena capacidad de obrar, sin perjuicio de la necesidad de su inscripción.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 4. Régimen jurídico.</p>
+          <p class="parrafo_2">1. La constitución e inscripción de las asociaciones, así como el régimen de sus relaciones con las Administraciones Públicas de la Comunidad Autónoma, se rigen por los preceptos de directa aplicación de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación, por la presente Ley, así como por las disposiciones reglamentarias que se dicten en desarrollo de las mismas y resulten aplicables.</p>
+          <p class="parrafo">2. La organización y el funcionamiento internos de las asociaciones se rigen por sus propios estatutos, siempre que no estén en contradicción con los preceptos de directa aplicación de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación, con la presente Ley y con las disposiciones reglamentarias que se dicten en desarrollo de las mismas y resulten aplicables.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 5. Obligaciones documentales y contables.</p>
+          <p class="parrafo_2">1. Las asociaciones han de disponer de una relación actualizada de personas asociadas, llevar una contabilidad que permita obtener la imagen fiel del patrimonio, del resultado y de la situación financieros de la entidad, así como de las actividades realizadas, efectuar un inventario de sus bienes y recoger en un libro las actas de las reuniones de sus órganos de gobierno y representación. Deberán llevar su contabilidad conforme a las normas específicas que les resulten de aplicación.</p>
+          <p class="parrafo">2. Las personas asociadas podrán acceder a toda la documentación que se relaciona en el apartado anterior, a través de los órganos de representación, con respeto a lo establecido en la normativa reguladora de la protección de datos de carácter personal.</p>
+          <p class="parrafo">3. Las cuentas de la asociación se aprobarán anualmente por la Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 6. Domicilio.</p>
+          <p class="parrafo_2">Las asociaciones tendrán su domicilio en Andalucía, en el lugar que establezcan sus estatutos, que podrá ser el de la sede de su órgano de representación, o bien aquel donde desarrollen principalmente sus actividades.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Organización y funcionamiento</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 1.ª Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 7. Órganos.</p>
+          <p class="parrafo_2">1. Las asociaciones tendrán, al menos, los siguientes órganos:</p>
+          <p class="parrafo">a) La Asamblea General, que es el órgano supremo de gobierno de la asociación, integrada por las personas asociadas, que adopta sus acuerdos por el principio mayoritario o de democracia interna y que deberá reunirse, al menos, una vez al año.</p>
+          <p class="parrafo">b) Un órgano de representación, que gestione y represente los intereses de la asociación, de acuerdo con las disposiciones y directivas de la Asamblea General. Sólo podrán formar parte del órgano de representación las personas asociadas.</p>
+          <p class="parrafo_2">2. En los estatutos se podrán establecer otros órganos complementarios o auxiliares de los necesarios y se determinará si deberán estar integrados por personas asociadas o no asociadas.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 2.ª Asamblea General</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 8. Competencias.</p>
+          <p class="parrafo_2">1. Sin perjuicio de las que figuren en los estatutos, la Asamblea General tiene las siguientes atribuciones:</p>
+          <p class="parrafo">a) Modificar los estatutos.</p>
+          <p class="parrafo">b) Elegir y separar a los miembros del órgano de representación.</p>
+          <p class="parrafo">c) Controlar la actividad del órgano de representación y aprobar su gestión.</p>
+          <p class="parrafo">d) Aprobar el presupuesto anual y la liquidación anual de cuentas.</p>
+          <p class="parrafo">e) Acordar la disolución de la asociación.</p>
+          <p class="parrafo">f) Acordar la unión a asociaciones, la integración en federaciones o confederaciones, la separación de las mismas, así como la creación y participación en fundaciones.</p>
+          <p class="parrafo">g) Aprobar el reglamento de régimen interno de la asociación.</p>
+          <p class="parrafo">h) Tener conocimiento de las altas y bajas de las personas asociadas, sin perjuicio de lo dispuesto en el artículo 24.1 de la presente Ley.</p>
+          <p class="parrafo">i) Acordar la solicitud de la declaración de utilidad pública y de interés público de Andalucía.</p>
+          <p class="parrafo">j) Aprobar las disposiciones y directivas del funcionamiento de la asociación.</p>
+          <p class="parrafo">k) Cualquier otra que no corresponda a otro órgano de la asociación.</p>
+          <p class="parrafo_2">2. El ejercicio de las atribuciones de la Asamblea General se realizará teniendo presente el principio de igualdad de oportunidades entre mujeres y hombres.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 9. Convocatoria y constitución.</p>
+          <p class="parrafo_2">1. Si los estatutos no lo disponen de otro modo, el régimen de convocatorias de la Asamblea General será el siguiente:</p>
+          <p class="parrafo">a) Se efectuará por el órgano de representación, por propia iniciativa, o a solicitud de las personas asociadas en los términos de la letra c) de este apartado, y deberá contener, como mínimo, el orden del día, lugar, fecha y hora de la reunión en primera y segunda convocatorias.</p>
+          <p class="parrafo">b) Se comunicará, como mínimo, quince días antes de la fecha de reunión, individualmente y mediante escrito dirigido al domicilio que conste en la relación actualizada de personas asociadas, sin perjuicio de que se establezcan otros medios de notificación, entre ellos, los electrónicos, informáticos y telemáticos.</p>
+          <p class="parrafo">c) El órgano de representación convocará la Asamblea General siempre que lo solicite un número de personas asociadas no inferior al 10 por 100; en tal caso, la Asamblea General se reunirá dentro del plazo de treinta días a contar desde la solicitud.</p>
+          <p class="parrafo_2">2. La Asamblea General quedará constituida válidamente en primera convocatoria cuando concurran, presentes o representadas, al menos un tercio de las personas asociadas, y en segunda convocatoria cualquiera que sea el número de personas asociadas que concurran. La hora de la reunión en segunda convocatoria será, como mínimo, treinta minutos posterior a la fijada en primera convocatoria.</p>
+          <p class="parrafo">3. El orden del día se fijará por el órgano de representación o por las personas asociadas que hayan solicitado la convocatoria de la Asamblea General. Los estatutos podrán determinar los supuestos y formas en que cabrá la alteración del orden del día fijado.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 10. Adopción de acuerdos.</p>
+          <p class="parrafo_2">Si los estatutos no lo disponen de otro modo, el régimen de adopción de acuerdos de la Asamblea General será el siguiente:</p>
+          <p class="parrafo">a) Los acuerdos se adoptarán por mayoría simple de las personas asociadas presentes o representadas, cuando los votos afirmativos superen a los negativos.</p>
+          <p class="parrafo">b) Sin perjuicio de lo previsto en la letra anterior, los estatutos requerirán mayoría cualificada, que existirá cuando los votos afirmativos superen la mitad de los emitidos por las personas asociadas presentes o representadas, en los acuerdos relativos a la disolución de la asociación, modificación de los estatutos, disposición o enajenación de bienes y remuneración de los miembros del órgano de representación, así como en los acuerdos sobre asuntos no incluidos en el orden del día fijado y en cualesquiera otros en que así se recoja en los propios estatutos.</p>
+          <p class="parrafo">c) En las asociaciones en las que sean miembros personas jurídicas, los estatutos podrán fijar criterios de proporcionalidad de voto ponderado, respetando siempre los principios democráticos y de representatividad que deben regir la adopción de los acuerdos.</p>
+          <p class="parrafo">d) En el caso de federaciones, confederaciones y uniones de asociaciones, el derecho de voto deberá ejercerse con arreglo a criterios objetivos, de acuerdo con la proporcionalidad de voto ponderado que se haya establecido en los estatutos para las distintas personas asociadas, garantizando el principio de democracia interna.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 11. Derecho de voto.</p>
+          <p class="parrafo_2">1. Toda persona asociada dispone de un voto en la Asamblea General, sin perjuicio de los criterios de proporcionalidad que se establezcan en los supuestos previstos en las letras c) y d) del artículo anterior.</p>
+          <p class="parrafo">2. La representación de las personas asociadas y el voto por correo o por medios electrónicos, informáticos y telemáticos se ejercerán de conformidad con los estatutos, que habrán de respetar la forma que reglamentariamente se establezca.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 12. Actas.</p>
+          <p class="parrafo_2">1. De las reuniones de la Asamblea General se extenderá acta, en la que deben constar las personas asistentes, los asuntos tratados, tanto los incluidos en el orden del día como los que no lo estuvieran, las circunstancias de lugar y tiempo, las principales deliberaciones y los acuerdos adoptados.</p>
+          <p class="parrafo">2. Cualquier persona asociada tendrá derecho a solicitar la incorporación de su intervención o propuesta en el acta en la forma prevista en los estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 3.ª Órgano de representación</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 13. Competencia y estructura.</p>
+          <p class="parrafo_2">1. Las facultades del órgano de representación se extienden a todos los actos comprendidos en los fines de la asociación. No obstante, los estatutos pueden determinar los actos que necesitarán la autorización expresa de la Asamblea General.</p>
+          <p class="parrafo">2. Los estatutos establecerán la estructura del órgano de representación, así como la representatividad y facultades que pueda ostentar cada integrante del mismo.</p>
+          <p class="parrafo">3. Las personas jurídicas podrán formar parte del órgano de representación por medio de persona física que las represente y que esté especialmente facultada al efecto por el órgano que resulte competente.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 14. Funcionamiento.</p>
+          <p class="parrafo_2">1. El funcionamiento del órgano de representación se rige por lo dispuesto en los estatutos de la asociación, sin perjuicio de lo establecido en la presente Ley y demás normativa de aplicación.</p>
+          <p class="parrafo">2. Las reuniones del órgano de representación se celebrarán a iniciativa de quien estatutariamente ostente la facultad de convocatoria o de la mayoría de sus miembros.</p>
+          <p class="parrafo">3. Los miembros del órgano de representación tienen el derecho y el deber de asistir y participar en sus reuniones.</p>
+          <p class="parrafo">4. Los acuerdos del órgano de representación deben constar por escrito en la correspondiente acta, que será firmada por quien ostente las funciones de secretaría con el visto bueno de la Presidencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 15. Elección, duración y separación del cargo.</p>
+          <p class="parrafo_2">1. Para ser miembro de los órganos de representación de una asociación, sin perjuicio de lo que establezcan sus respectivos estatutos, serán requisitos indispensables: ser mayor de edad, estar en pleno uso de los derechos civiles y no estar incurso en los motivos de incompatibilidad establecidos en la legislación vigente. Los estatutos regularán la duración del cargo, la posibilidad de reelección y el procedimiento a seguir.</p>
+          <p class="parrafo">2. Los miembros del órgano de representación comenzarán a ejercer sus funciones una vez aceptado el cargo.</p>
+          <p class="parrafo">3. La separación de los miembros del órgano de representación será acordada motivadamente, respetando lo que puedan establecer los estatutos y, en todo caso, el derecho a ser informado de los correspondientes hechos.</p>
+          <p class="parrafo">4. Las elecciones y ceses de los miembros del órgano de representación deben inscribirse en el Registro de Asociaciones de Andalucía para general conocimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 16. Ejercicio del cargo.</p>
+          <p class="parrafo_2">1. Los miembros del órgano de representación ejercen sus funciones de conformidad con lo establecido en la normativa general aplicable, en la presente Ley y en los estatutos.</p>
+          <p class="parrafo">2. Los miembros del órgano de representación ejercen su cargo gratuitamente, salvo que los estatutos prevean expresamente la retribución de sus funciones y conste así en las cuentas anuales aprobadas por la Asamblea General.</p>
+          <p class="parrafo">3. En todo caso, los miembros del órgano de representación tendrán derecho al anticipo y reembolso de los gastos, debidamente justificados.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 17. Delegaciones.</p>
+          <p class="parrafo_2">1. Si los estatutos no lo prohíben, el órgano de representación puede delegar sus facultades en una o más de las personas asociadas, así como otorgar a otras personas apoderamientos generales o especiales.</p>
+          <p class="parrafo">2. Las delegaciones deberán ser autorizadas por la Asamblea General respecto de los supuestos en los que el órgano de representación precise de autorización expresa de aquélla para actuar.</p>
+          <p class="parrafo">3. Las personas asociadas que no formen parte del órgano de representación estarán sujetas en el ejercicio de facultades delegadas al régimen de derechos y responsabilidades previsto en los estatutos para los miembros de aquél.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Modificación, disolución, liquidación y separación voluntaria</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 18. Modificación de los estatutos.</p>
+          <p class="parrafo_2">1. La modificación de los estatutos requerirá acuerdo adoptado por la Asamblea General convocada específicamente con tal objeto.</p>
+          <p class="parrafo">2. La modificación de los estatutos que afecte al contenido mínimo legalmente exigible sólo producirá efectos para las personas asociadas y para terceras personas desde que se haya procedido a la inscripción del acuerdo de su aprobación en el Registro de Asociaciones de Andalucía.</p>
+          <p class="parrafo">Las restantes modificaciones de los estatutos producirán efectos para las personas asociadas desde el momento de su aprobación, mientras que para terceras personas será necesaria, además, la inscripción en el Registro de Asociaciones de Andalucía.</p>
+          <p class="parrafo">3. La inscripción de las modificaciones estatutarias se sujetará a los mismos requisitos que la inscripción de los estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 19. Disolución de la asociación.</p>
+          <p class="parrafo_2">1. Las asociaciones se disolverán por las causas previstas en la legislación aplicable.</p>
+          <p class="parrafo">2. En el supuesto de disolución por el cumplimiento del plazo fijado en los estatutos, la asociación se disolverá de pleno derecho.</p>
+          <p class="parrafo">3. En los demás supuestos, la disolución requerirá el acuerdo de la mayoría cualificada de la Asamblea General, en los términos del artículo 10 b) de esta Ley, convocada al efecto a iniciativa del órgano de representación o a solicitud de, al menos, el 25 por 100 de las personas asociadas. Si no hubiera acuerdo de la Asamblea General, la disolución requerirá resolución judicial.</p>
+          <p class="parrafo">4. La disolución será inscrita en el Registro de Asociaciones de Andalucía.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 20. Liquidación.</p>
+          <p class="parrafo_2">1. La disolución de la asociación determinará la apertura del procedimiento de liquidación, durante el cual la asociación conservará su personalidad jurídica. Este procedimiento lo llevará a cabo el órgano de representación, cuyos miembros se convertirán en liquidadores o liquidadoras, salvo que los estatutos establezcan otra cosa.</p>
+          <p class="parrafo">2. Los bienes resultantes de la liquidación de la asociación se destinarán a los fines establecidos en los estatutos.</p>
+          <p class="parrafo">3. Si los estatutos no lo disponen de otro modo, los bienes resultantes de la liquidación deben ser destinados a otras entidades, sin ánimo de lucro, cuyos fines sean similares a los de la asociación, a excepción de las aportaciones condicionales.</p>
+          <p class="parrafo">4. Finalizada la liquidación, se comunicará al Registro de Asociaciones de Andalucía.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 21. Operaciones de liquidación.</p>
+          <p class="parrafo_2">Corresponde a los liquidadores o liquidadoras:</p>
+          <p class="parrafo">a) Velar por la integridad del patrimonio de la asociación y llevar sus cuentas.</p>
+          <p class="parrafo">b) Concluir las operaciones pendientes y efectuar las nuevas que sean necesarias para la liquidación.</p>
+          <p class="parrafo">c) Cobrar los créditos de la asociación.</p>
+          <p class="parrafo">d) Liquidar el patrimonio y pagar a los acreedores o acreedoras.</p>
+          <p class="parrafo">e) Aplicar los bienes resultantes de la liquidación a los fines establecidos conforme a lo previsto en el artículo anterior.</p>
+          <p class="parrafo">f) Solicitar la cancelación de los asientos de la asociación en el Registro de Asociaciones de Andalucía.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 22. Separación voluntaria.</p>
+          <p class="parrafo_2">Los estatutos podrán establecer que, en caso de separación voluntaria de la asociación de una persona asociada, ésta pueda percibir la participación patrimonial inicial u otras aportaciones económicas realizadas, sin incluir las cuotas de pertenencia a la asociación que hubiese abonado, con las condiciones, alcances y límites que se fijen en los estatutos. Ello se entiende siempre que la reducción patrimonial, resultante de la devolución, no conlleve perjuicios a terceras personas.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen disciplinario</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 23. Infracciones y sanciones.</p>
+          <p class="parrafo_2">1. Las infracciones y sanciones disciplinarias, por incumplimiento de los deberes de las personas asociadas, estarán determinadas en los estatutos.</p>
+          <p class="parrafo">El acuerdo de imposición de sanciones, que será motivado, deberá guardar la debida proporcionalidad con la gravedad de la infracción.</p>
+          <p class="parrafo">2. Será de aplicación en el régimen disciplinario de las asociaciones el principio de irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales.</p>
+          <p class="parrafo">3. Los estatutos contemplarán los plazos de prescripción de las infracciones y sanciones, que no podrán exceder de tres años.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 24. Procedimiento disciplinario.</p>
+          <p class="parrafo_2">1. Los órganos competentes para imponer las sanciones serán los que determinen los estatutos y, en su defecto, las impondrá el órgano de representación. En el supuesto de sanción de separación de la persona asociada se requerirá, en todo caso, la ratificación de la Asamblea General.</p>
+          <p class="parrafo">2. No se podrán imponer sanciones sin la tramitación del procedimiento disciplinario previsto en los estatutos, instruido por persona u órgano diferente al competente para resolverlo, y que garantice los derechos de las personas presuntamente responsables a ser informadas de los correspondientes hechos y a formular alegaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">El Registro de Asociaciones de Andalucía</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 1.ª Normas generales</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 25. Objeto y funcionamiento.</p>
+          <p class="parrafo_2">1. En el Registro de Asociaciones de Andalucía, adscrito a la Consejería competente en materia de régimen jurídico de asociaciones, se inscribirán, a los únicos efectos de publicidad, las asociaciones que desarrollen principalmente sus actividades en Andalucía.</p>
+          <p class="parrafo">2. Reglamentariamente se determinará la estructura y funcionamiento del Registro, los procedimientos de inscripción y sus relaciones con otros registros o censos generales o sectoriales.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 26. Publicidad.</p>
+          <p class="parrafo_2">1. El Registro de Asociaciones de Andalucía es público. El derecho de acceso al mismo se ejercerá de acuerdo con lo dispuesto en la normativa estatal de aplicación directa, así como en la presente Ley y en sus disposiciones de desarrollo.</p>
+          <p class="parrafo">2. La publicidad se hará efectiva mediante certificación del contenido de los asientos, por nota simple informativa o por copia de los asientos y de los documentos depositados en el Registro.</p>
+          <p class="parrafo">3. La publicidad del Registro no alcanza a los datos referentes al domicilio de las personas, estado civil y otros datos de carácter personal, con excepción del nombre y apellidos de los miembros del órgano de representación, que consten en la documentación de cada asociación, de acuerdo con la normativa sobre protección de datos de carácter personal.</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 27. Efectos de la inscripción.</p>
+          <p class="parrafo_2">La inscripción en el Registro de Asociaciones de Andalucía hace pública la constitución y estatutos de las asociaciones y es garantía tanto para las terceras personas como para las propias personas asociadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 28. Funciones.</p>
+          <p class="parrafo_2">Son funciones del Registro de Asociaciones de Andalucía:</p>
+          <p class="parrafo">a) La inscripción de la constitución de las asociaciones, de su suspensión y de su disolución, además de las circunstancias a las que hace referencia el artículo 28 de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación.</p>
+          <p class="parrafo">b) El depósito y archivo de la documentación que ha dado lugar a cada inscripción y de la prevista por la normativa que resulte de aplicación.</p>
+          <p class="parrafo">c) La legalización de los libros de actas y demás documentación que, obligatoriamente, han de llevar las asociaciones.</p>
+          <p class="parrafo">d) La comunicación al Registro Nacional de Asociaciones de los asientos de inscripción y disolución de las asociaciones.</p>
+          <p class="parrafo">e) La instrucción de los procedimientos de declaración de utilidad pública de conformidad con lo dispuesto en la normativa estatal y la instrucción de los procedimientos de declaración de interés público de Andalucía en la forma que se determine reglamentariamente.</p>
+          <p class="parrafo">f) La comunicación, cuando proceda, a otros registros o censos de los datos que le sean requeridos.</p>
+          <p class="parrafo">g) Aquellas otras que se determinen legal o reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 2.ª Utilización de medios electrónicos</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 29. Tratamiento informático y transmisión de datos.</p>
+          <p class="parrafo_2">1. El tratamiento y archivo de los datos contenidos en el Registro de Asociaciones de Andalucía se llevará a cabo mediante los medios y procedimientos informáticos que sean precisos para lograr los fines a aquél encomendado, respetando los principios de simplificación y agilización de trámites, gratuidad, libre acceso, confidencialidad y de seguridad y autenticidad en orden a la identificación de los sujetos y el objeto de la comunicación.</p>
+          <p class="parrafo">2. La aprobación del sistema de información, comunicación y acreditación de los datos inscritos por medios telemáticos se realizará de conformidad con la normativa de aplicación, respetando las disposiciones sobre protección de datos de carácter personal.</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 30. Acceso telemático a los datos del Registro de Asociaciones de Andalucía.</p>
+          <p class="parrafo_2">La Administración de la Junta de Andalucía propiciará la consulta de los datos relativos a los procedimientos de inscripción en el Registro de Asociaciones de Andalucía a través del portal de aquélla.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 31. Procedimientos electrónicos.</p>
+          <p class="parrafo_2">La Administración de la Junta de Andalucía impulsará la tramitación por medios electrónicos de los procedimientos de inscripción en el Registro de Asociaciones de Andalucía, de conformidad con la normativa de aplicación en la materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 32. Validez y eficacia de los documentos electrónicos.</p>
+          <p class="parrafo_2">Los documentos administrativos emitidos por los órganos competentes en los procedimientos tramitados por medios informáticos y telemáticos regulados en esta Ley serán válidos y eficaces, siempre que concurran en ellos las garantías de autenticidad, integridad, conservación y aquellas otras previstas en la normativa aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Medidas de fomento</p>
+        </version>
+      </bloque>
+      <bloque id="s1-3" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 1.ª Promoción del asociacionismo</p>
+        </version>
+      </bloque>
+      <bloque id="a33" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 33. Fomento del asociacionismo.</p>
+          <p class="parrafo_2">1. Las administraciones públicas de la Comunidad Autónoma de Andalucía promoverán el asociacionismo e impulsarán el desarrollo de las asociaciones que persigan fines de interés general, así como la unión de asociaciones, y de las federaciones y confederaciones, respetando su libertad y autonomía frente a los poderes públicos.</p>
+          <p class="parrafo">Asimismo, las administraciones públicas promoverán acciones positivas para eliminar los obstáculos que impidan la presencia y participación paritaria de mujeres y hombres en todos los ámbitos y espacios asociativos.</p>
+          <p class="parrafo">2. El fomento del asociacionismo se realizará mediante el establecimiento de mecanismos de asistencia, servicios de información, formación y asesoramiento y campañas de divulgación y reconocimiento de las actividades de las asociaciones que persigan fines de interés general.</p>
+        </version>
+      </bloque>
+      <bloque id="a34" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 34. Subvenciones.</p>
+          <p class="parrafo_2">1. Las asociaciones cuyos fines sean de interés general, inscritas en el Registro de Asociaciones de Andalucía, podrán ser beneficiarias de subvenciones para el desarrollo de actividades y proyectos concretos, en los términos y con el alcance que establezcan las consejerías competentes.</p>
+          <p class="parrafo">2. Las subvenciones que se concedan estarán sujetas a la normativa general en la materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a35" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 35. Gestión de las subvenciones.</p>
+          <p class="parrafo_2">El órgano de representación de las asociaciones gestionará las subvenciones obtenidas de acuerdo con lo establecido en su normativa reguladora.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-3" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="seccion">Sección 2.ª Asociaciones de interés público de Andalucía</p>
+        </version>
+      </bloque>
+      <bloque id="a36" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 36. Declaración.</p>
+          <p class="parrafo_2">1. Podrán ser declaradas de interés público de Andalucía las asociaciones que desarrollen principalmente sus actividades en Andalucía en las que concurran los siguientes requisitos:</p>
+          <p class="parrafo">a) Que sus fines estatutarios tiendan a promover el interés general de Andalucía. Constituyen fines de interés general, a los efectos de esta Ley, los de carácter cívico, educativo, científico, cultural, deportivo, sanitario, de promoción de los valores constitucionales, de promoción de los derechos humanos, de asistencia social, de cooperación para el desarrollo, de promoción de la mujer, de promoción y protección de la familia, de protección de la infancia, promoción de la juventud, de fomento de la igualdad de oportunidades y de la tolerancia, de defensa del medio ambiente, de fomento de la economía social o de la investigación, de promoción del voluntariado social, de defensa de consumidores y usuarios de uno y otro sexo, de promoción y atención a las personas en riesgo de exclusión por razones físicas, sociales, económicas o culturales, y cualesquiera otros de similar naturaleza.</p>
+          <p class="parrafo">b) Que su actividad no esté restringida a favorecer a las personas asociadas exclusivamente, sino que pueda extenderse a cualquier otra persona que reúna las circunstancias y caracteres propios del ámbito y de la naturaleza de sus fines.</p>
+          <p class="parrafo">c) Que los miembros de los órganos de representación que perciban retribuciones no lo hagan con cargo a fondos y subvenciones públicos.</p>
+          <p class="parrafo">No obstante lo dispuesto en el párrafo anterior, y en los términos y condiciones que se determinen en los estatutos, dichos miembros podrán recibir una retribución adecuada por la realización de servicios diferentes a las funciones que les corresponden como tales miembros del órgano de representación.</p>
+          <p class="parrafo">d) Que dispongan de los medios materiales y personales adecuados, así como de la organización idónea para garantizar el cumplimiento de los fines establecidos en sus estatutos.</p>
+          <p class="parrafo">e) Que se encuentren inscritas en el Registro de Asociaciones de Andalucía, en funcionamiento y dando cumplimiento efectivo a sus fines estatutarios, ininterrumpidamente y concurriendo todos los requisitos precedentes, al menos durante los dos años inmediatamente anteriores a la presentación de la solicitud.</p>
+          <p class="parrafo">2. Las federaciones, confederaciones y uniones de asociaciones podrán ser declaradas de interés público de Andalucía, siempre que los requisitos previstos en el apartado anterior se cumplan, tanto por las propias federaciones, confederaciones y uniones, como por cada una de las entidades integradas, directa o indirectamente, en ellas.</p>
+        </version>
+      </bloque>
+      <bloque id="a37" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 37. Procedimiento.</p>
+          <p class="parrafo_2">1. El procedimiento de declaración de interés público de Andalucía se iniciará a solicitud de las asociaciones, federaciones, confederaciones y uniones de asociaciones y se resolverá por Orden de la persona titular de la Consejería competente en materia de régimen jurídico de asociaciones.</p>
+          <p class="parrafo">2. La declaración de interés público de Andalucía podrá ser revocada, por Orden de la persona titular de la Consejería competente en materia de régimen jurídico de asociaciones, previa audiencia de la asociación, federación, confederación o unión de asociaciones afectada, cuando desaparezca alguno de los requisitos exigidos para su otorgamiento.</p>
+          <p class="parrafo">3. El procedimiento de declaración de interés público de Andalucía y el de su revocación se determinarán reglamentariamente. El vencimiento del plazo establecido, en el procedimiento de declaración, sin haberse notificado resolución expresa, tendrá efectos desestimatorios.</p>
+          <p class="parrafo">4. La declaración de interés público de Andalucía y su revocación serán publicadas en el Boletín Oficial de la Junta de Andalucía.</p>
+        </version>
+      </bloque>
+      <bloque id="a38" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 38. Efectos.</p>
+          <p class="parrafo_2">Las asociaciones de interés público de Andalucía podrán utilizar, a continuación de su denominación, la mención «Declarada de Interés Público de Andalucía» en todos sus documentos, y disfrutarán de los beneficios fiscales, económicos y administrativos que en cada caso establezcan las leyes.</p>
+        </version>
+      </bloque>
+      <bloque id="cvii" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Consejos Sectoriales de Asociaciones</p>
+        </version>
+      </bloque>
+      <bloque id="a39" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 39. Naturaleza y composición.</p>
+          <p class="parrafo_2">1. A fin de propiciar la colaboración entre las administraciones públicas y las asociaciones, como cauce de participación ciudadana se podrán constituir Consejos Sectoriales de Asociaciones, como órganos de consulta, información y asesoramiento en ámbitos concretos de actuación.</p>
+          <p class="parrafo">2. Los Consejos Sectoriales de Asociaciones estarán integrados por representantes de las administraciones públicas, de las asociaciones, y por otros miembros que se designen por sus especiales condiciones de experiencia o conocimiento, atendiendo a la distribución competencial concreta que en cada materia exista.</p>
+        </version>
+      </bloque>
+      <bloque id="a40" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Artículo 40. Creación.</p>
+          <p class="parrafo_2">1. Se podrán crear, a propuesta de las consejerías afectadas, Consejos Sectoriales de Asociaciones para cada sector de actuación mediante Decreto del Consejo de Gobierno.</p>
+          <p class="parrafo">2. Corresponde a la Consejería competente en materia de régimen jurídico de asociaciones la coordinación de carácter orgánico de los diferentes Consejos Sectoriales de Asociaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Disposición adicional única. Conformidad con la normativa estatal con rango de ley orgánica o de aplicación directa en materia de asociaciones.</p>
+          <p class="parrafo_2">El contenido de los artículos 2, 3, 4, 7.1, 15.1, 16.2, 20.2, 27 y 28 d) de la presente Ley está redactado de conformidad con los preceptos con rango de ley orgánica y de directa aplicación de la Ley Orgánica 1/2002, de 22 de marzo, del Derecho de Asociación.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Disposición transitoria única. Régimen de las asociaciones inscritas y del Registro de Asociaciones de Andalucía.</p>
+          <p class="parrafo_2">1. Las asociaciones inscritas en el Registro de Asociaciones de Andalucía a la entrada en vigor de la presente Ley estarán sujetas a la misma y conservarán su personalidad jurídica y su plena capacidad de obrar, no siendo aplicables las disposiciones de sus estatutos que se opongan a lo previsto en la presente Ley o lo contradigan.</p>
+          <p class="parrafo">2. El Registro de Asociaciones de Andalucía continuará rigiéndose, en tanto no sea modificada, por la normativa de aplicación a la entrada en vigor de la presente Ley que no se oponga a lo previsto en ésta o lo contradiga.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo_2">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en esta Ley o lo contradigan.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Disposición final primera. Derecho supletorio.</p>
+          <p class="parrafo_2">La presente Ley tiene carácter supletorio respecto de las leyes aprobadas por el Parlamento de Andalucía que regulen tipos específicos de asociaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Disposición final segunda. Desarrollo y ejecución.</p>
+          <p class="parrafo_2">Se faculta al Consejo de Gobierno para dictar cuantas disposiciones sean necesarias para el desarrollo y ejecución de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor al mes de su publicación en el Boletín Oficial de la Junta de Andalucía.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2006-14195" fecha_publicacion="20060703" fecha_vigencia="20060803">
+          <p class="parrafo_2">Sevilla, a 23 de junio de 2006.</p>
+          <p class="parrafo"> </p>
+          <p class="firma_ministro">El Presidente de la Junta de Andalucía,</p>
+          <p class="firma_ministro">Manuel Chaves González</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

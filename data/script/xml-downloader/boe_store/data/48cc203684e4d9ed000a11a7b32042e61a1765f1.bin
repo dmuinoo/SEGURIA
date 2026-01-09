@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210512Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-9534</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20050513</fecha_disposicion>
+      <numero_oficial>521/2005</numero_oficial>
+      <titulo>Real Decreto 521/2005, de 13 de mayo, por el que se crea el Consejo Consultivo de Adopción Internacional.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050608</fecha_publicacion>
+      <diario_numero>136</diario_numero>
+      <fecha_vigencia>20050609</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2005/05/13/521</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-9534</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="97">Adopción</materia>
+        <materia codigo="1589">Consejos consultivos</materia>
+        <materia codigo="5001">Ministerio de Trabajo y Asuntos Sociales</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1997-7878</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 38 a 40 de la Ley 6/1997, de 14 de abril</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-9534</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">521</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5001"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-9534</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">521</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5001"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/con/20050608"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 521/2005, de 13 de mayo, por el que se crea el Consejo Consultivo de Adopción Internacional.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/con/20050608">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-9534</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">521</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/97"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1589"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5001"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/con/20050608/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 521/2005, de 13 de mayo, por el que se crea el Consejo Consultivo de Adopción Internacional.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/con/20050608"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/05/13/521/con/20050608/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/05/13/521/con/20050608/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="parrafo">La adopción internacional ha adquirido en España una dimensión e importancia social tal que hace que se le preste una creciente atención y apoyo tanto por parte de las Administraciones públicas competentes como de instituciones privadas comprometidas con el bienestar de la infancia.</p>
+          <p class="parrafo">Esa importancia y atención tiene fiel reflejo en los intensos trabajos llevados a cabo en el Senado en el seno de la Comisión sobre Adopción Internacional, constituida en su día para el estudio, el análisis y la mejora de su situación en España, para lo cual durante un largo período de tiempo la Comisión fue oyendo y conociendo las opiniones, informaciones y propuestas de todas las instituciones y expertos implicados en la materia.</p>
+          <p class="parrafo">Fruto de estos trabajos y comparecencias de los diferentes actores, la Comisión formuló una serie de importantes conclusiones y recomendaciones en el ámbito normativo de las Administraciones competentes y en relación con las entidades colaboradoras.</p>
+          <p class="parrafo">A lo largo de las referidas conclusiones y recomendaciones se pone el énfasis en la necesidad de favorecer la colaboración y participación de todos los agentes y actores a quienes de una u otra forma afecta la adopción internacional.</p>
+          <p class="parrafo">La referida Comisión del Senado recomienda a tal efecto la creación y regulación del Consejo Consultivo de Adopción Internacional, como órgano de participación y colaboración con las Administraciones públicas competentes de todos los sectores sociales afectados (asociaciones de padres adoptantes, asociaciones de hijos adoptivos, entidades colaboradoras de adopción internacional y otras entidades de carácter social, educativo y científico relacionadas con el ámbito de protección de menores).</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Trabajo y Asuntos Sociales y del Ministro de Asuntos Exteriores y de Cooperación, con la aprobación previa del Ministro de Administraciones Públicas y previa deliberación del Consejo de Ministros en su reunión del día 13 de mayo de 2005,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Artículo 1. Creación del Consejo Consultivo de Adopción Internacional.</p>
+          <p class="parrafo">Se crea el Consejo Consultivo de Adopción Internacional, como órgano colegiado, al amparo de lo dispuesto en los artículos 38, 39 y 40 de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, que queda integrado en el Ministerio de Trabajo y Asuntos Sociales.</p>
+          <p class="parrafo">Su régimen jurídico se ajustará a las normas contenidas en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Artículo 2. Objetivos.</p>
+          <p class="parrafo">El Consejo Consultivo tendrá los siguientes objetivos.</p>
+          <p class="parrafo_2">a) Servir de cauce para la participación y colaboración en materia de adopción internacional con las Administraciones públicas competentes de todos los sectores afectados.</p>
+          <p class="parrafo">b) El análisis permanente de la situación de la adopción internacional en España, y la formulación de propuestas tendentes a desarrollar mejoras sustantivas y de procedimiento en esta materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Artículo 3. Funciones.</p>
+          <p class="parrafo">El Consejo Consultivo tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) El análisis permanente de la adopción internacional en sus diferentes ámbitos.</p>
+          <p class="parrafo">b) La recogida y el análisis de la información disponible en las distintas fuentes nacionales e internacionales.</p>
+          <p class="parrafo">c) La formulación de recomendaciones y propuestas para una mejora de la intervención en adopción internacional.</p>
+          <p class="parrafo">d) Proponer estudios e informes técnicos; el análisis, el estudio y la valoración de los procesos de adopción, en particular, de situaciones problemáticas concretas y de propuestas de actuación.</p>
+          <p class="parrafo">e) Proponer la celebración de jornadas y seminarios para el intercambio de buenas prácticas y la mejora continua de los procesos.</p>
+          <p class="parrafo">f) Efectuar el seguimiento sobre la evolución de la adopción internacional.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Artículo 4. Composición.</p>
+          <p class="parrafo">El Consejo Consultivo estará integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">a) Presidenta: la Secretaria de Estado de Servicios Sociales, Familias y Discapacidad.</p>
+          <p class="parrafo">b) Vicepresidenta primera: la Directora General de las Familias y la Infancia, que sustituirá a la Presidenta cuando sea necesario y en quien esta podrá delegar las funciones que considere oportunas.</p>
+          <p class="parrafo">c) Vicepresidente segundo: el Director General de Asuntos y Asistencia Consulares.</p>
+          <p class="parrafo">d) Vicepresidente tercero: un representante de una comunidad autónoma o ciudad con Estatuto de Autonomía elegido por y entre los vocales de las comunidades autónomas y ciudades con Estatuto de Autonomía, en régimen de rotación anual.</p>
+          <p class="parrafo">e) 32 vocales, integrados por:</p>
+          <p class="parrafo_2">1.º Un representante de cada una de las comunidades autónomas y ciudades con Estatuto de Autonomía, además de un representante de cada una de las Diputaciones Forales de la Comunidad Autónoma del País Vasco y de los Consejos Insulares de la Comunidad Autónoma de las Illes Balears, competentes en materia de adopción internacional, designados por las autoridades correspondientes de dichos territorios.</p>
+          <p class="parrafo">2.º El Subdirector General de Infancia de la Dirección General de las Familias y la Infancia del Ministerio de Trabajo y Asuntos Sociales.</p>
+          <p class="parrafo">3.º Un representante, con cargo mínimo de subdirector general o equivalente, de los Ministerios de Asuntos Exteriores y de Cooperación, de Justicia y del Interior.</p>
+          <p class="parrafo">4.º Dos representantes de las entidades colaboradoras de adopción internacional (ECAIS), renovables cada dos años, designados por la Presidenta del Consejo a propuesta de las federaciones de entidades colaboradoras de adopción internacional.</p>
+          <p class="parrafo">5.º Dos representantes de las asociaciones de familias adoptivas, renovables cada dos años, designados por la Presidenta del Consejo a propuesta de las federaciones o uniones de asociaciones de familias adoptivas.</p>
+          <p class="parrafo">6.º Un representante de las asociaciones de adoptados, renovable cada dos años, designado por la Presidenta del Consejo a propuesta de las asociaciones, uniones de asociaciones o federaciones de asociaciones de adoptados, en su caso.</p>
+          <p class="parrafo_2">f) Secretario: un funcionario del Ministerio de Trabajo y Asuntos Sociales designado por la Secretaria de Estado de Servicios Sociales, Familias y Discapacidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Artículo 5. Funcionamiento.</p>
+          <p class="parrafo">1. El funcionamiento del Consejo Consultivo se regirá por los siguientes criterios:</p>
+          <p class="parrafo_2">a) El Consejo se reunirá al menos una vez al año con carácter ordinario, y excepcionalmente cuantas veces sea convocado por su Presidenta, a iniciativa propia o a propuesta de, al menos, una tercera parte de los vocales.</p>
+          <p class="parrafo">b) En el Consejo podrán participar expertos de reconocido prestigio convocados en cada caso para cuestiones específicas.</p>
+          <p class="parrafo">c) El Consejo acordará la creación de las comisiones o grupos de trabajo que estime oportuno, para el análisis de asuntos concretos referentes a la adopción internacional, en los que participarán los miembros del Consejo Consultivo que lo deseen.</p>
+          <p class="parrafo_2">2. En los extremos no previstos en el apartado anterior se estará a lo dispuesto en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Disposición adicional única. Medios personales y materiales.</p>
+          <p class="parrafo">El Ministerio de Trabajo y Asuntos Sociales atenderá con sus actuales medios personales y materiales a la constitución y funcionamiento del nuevo órgano colegiado, sin que se pueda generar en ningún caso aumento de las dotaciones presupuestarias.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Disposición final primera. Facultad de desarrollo.</p>
+          <p class="parrafo">Se autoriza al Ministro de Trabajo y Asuntos Sociales para dictar cuantas disposiciones sean necesarias para el desarrollo y ejecución de lo dispuesto en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2005-9534" fecha_publicacion="20050608" fecha_vigencia="20050609">
+          <p class="parrafo_2">Dado en Madrid, el 13 de mayo de 2005.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia,</p>
+          <p class="firma_ministro">MARÍA TERESA FERNÁNDEZ DE LA VEGA SANZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

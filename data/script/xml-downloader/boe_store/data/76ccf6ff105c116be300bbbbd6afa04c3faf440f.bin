@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190600Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-21717</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20011108</fecha_disposicion>
+      <numero_oficial>1230/2001</numero_oficial>
+      <titulo>Real Decreto 1230/2001, de 8 de noviembre, por el que se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20011121</fecha_publicacion>
+      <diario_numero>279</diario_numero>
+      <fecha_vigencia>20011122</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20161218</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2001/11/08/1230</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-21717</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="49">Aceitunas</materia>
+        <materia codigo="6021">Reglamentaciones técnico sanitarias</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-13006</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 1074/1983, de 25 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1986-10499</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 38 y 40.2 de la Ley 14/1986, de 25 de abril</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2016-11953</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por  Real Decreto 679/2016, de 16 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2013-3402</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>los arts. 5, 6, 7.2 y 3, 8, 9, 10.1, 12 y lo indicado del art. 11, por Real Decreto 176/2013, de 8 de marzo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-21717</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-08</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1230</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/49"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6021"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-21717</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1230</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/49"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6021"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20161217"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20130329"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20011121"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1230/2001, de 8 de noviembre, por el que se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-21</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET 1230/2001, de 8 de novembre, pel qual s'aprova la Reglamentació tecnicosanitària per a l'elaboració, la circulació i la venda de les olives de taula.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL DECRETO 1230/2001, do 8 de novembro, polo que se aproba a regulamentación técnico-sanitaria para a elaboración, circulación e venda das olivas de mesa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20161217">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-21717</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1230</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/49"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6021"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20161217/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1230/2001, de 8 de noviembre, por el que se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20161217"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20161217/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20161217/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20130329">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-21717</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1230</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/49"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6021"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20130329/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1230/2001, de 8 de noviembre, por el que se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20130329"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20130329/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20130329/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20011121">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-21717</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1230</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/49"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6021"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20011121/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1230/2001, de 8 de noviembre, por el que se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20011121"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20011121/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/11/08/1230/con/20011121/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2016-11953" fecha_publicacion="20161217" fecha_vigencia="20161218">
+          <p class="siempreSeVe">Norma derogada, con efectos de 18 de diciembre de 2016, por la disposición derogatoria única.b) del Real Decreto 679/2016, de 16 de diciembre. <a class="refPost">Ref. BOE-A-2016-11953#dd</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="parrafo">La Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa fue aprobada por el Real Decreto 1074/1983, de 25 de marzo.</p>
+          <p class="parrafo">Los avances científicos y técnicos realizados desde 1983 en un sector tan dinámico y especializado, ha dado lugar a que la reglamentación haya quedado desfasada y obsoleta.</p>
+          <p class="parrafo">Por otra parte, la amplia gama de tipos, elaboraciones, tratamientos, preparaciones y presentaciones aconsejan después de la experiencia adquirida, su simplificación, y asimismo la panoplia de defectos y tolerancias resulta de difícil aplicación desde el punto de vista analítico, ocasionando problemas de índole práctica, aconsejando por ello, la modificación de la Reglamentación técnico sanitaria.</p>
+          <p class="parrafo">Se pretende mediante esta modificación adecuar esta normativa a la legislación horizontal, en lo relativo a los aditivos, regulada en el Real Decreto 3177/1983, de 16 de noviembre, por el que se aprueba la Reglamentación técnico-sanitaria de aditivos alimentarios y disposiciones concordantes, al mismo tiempo, se actualiza el etiquetado para adaptarlo al Real Decreto 1334/1999, de 31 de julio, por el que se aprueba la Norma general de etiquetado, presentación y publicidad de los productos alimenticios, modificado por el Real Decreto 238/2000, de 18 de febrero, así como a los aspectos relativos al contenido efectivo de los productos alimenticios envasados, transpuestos a la legislación nacional por el Real Decreto 723/1988, de 24 de junio.</p>
+          <p class="parrafo">Asimismo, se han tenido en cuenta, el Real Decreto 202/2000, de 11 de febrero, por el que se establecen las normas relativas a los manipuladores de alimentos, el Real Decreto 2207/1995, de 28 de diciembre, por el que se establecen las normas de higiene relativas a los productos alimenticios, el Real Decreto 50/1993, de 15 de enero, por el que se regula el control oficial de los productos alimenticios, así como las normas del CODEX y el Consejo Oleícola Internacional, procurando cumplir con los compromisos adquiridos en esta materia.</p>
+          <p class="parrafo">El presente Real Decreto se dicta al amparo de lo dispuesto en el artículo 149.1.10.ª, 13.ª, y 16.ª de la Constitución Española y de acuerdo con lo establecido en los artículos 38 y 40.2 de la Ley 14/1986, de 25 de abril, General de Sanidad.</p>
+          <p class="parrafo">Esta disposición ha sido sometida al procedimiento de información en materia de normas y reglamentaciones técnicas y reglamentos, relativos a los servicios de la sociedad de la información, previsto en la Directiva 98/34/CEE, del Parlamento Europeo y del Consejo, de 22 de junio, por la que se establece un procedimiento de información en materia de normas y reglamentaciones técnicas, incorporada al ordenamiento jurídico interno por Real Decreto 1337/1999, de 31 de julio.</p>
+          <p class="parrafo">En su tramitación han sido consultadas las Comunidades Autónomas, así como los sectores afectados, habiendo emitido su preceptivo informe la Comisión Interministerial para la Ordenación Alimentaria.</p>
+          <p class="parrafo">En su virtud, a propuesta del Vicepresidente Segundo del Gobierno para Asuntos Económicos y Ministro de Economía, de los Ministros de Agricultura, Pesca y Alimentación y de Sanidad y Consumo y previa deliberación del Consejo de Ministros en su reunión del día 8 de noviembre de 2001,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo único. Objeto.</p>
+          <p class="parrafo_2">Se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Disposición adicional única. Cláusula de reconocimiento mutuo.</p>
+          <p class="parrafo_2">Las exigencias de la presente Reglamentación, no se aplicarán a los productos legalmente elaborados o comercializados en los restantes Estados miembros de la Unión Europea ni a los productos originarios de los países miembros de la Asociación Europea de Libre Comercio, de acuerdo con lo que se establece en el Protocolo 4, del Acuerdo sobre el Espacio Económico Europeo.</p>
+          <p class="parrafo">Los citados productos podrán ser comercializados en España, sin perjuicio de lo dispuesto en el artículo 30 del Tratado de la Unión Europea, en el artículo 13 del Acuerdo sobre el Espacio Económico Europeo.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Disposición transitoria única. Prórroga de comercialización.</p>
+          <p class="parrafo_2">Durante doce meses después de la entrada en vigor de esta norma, se podrán elaborar, etiquetar y comercializar aceitunas de mesa que, cumpliendo con las disposiciones vigentes a la entrada en vigor del presente Real Decreto, no se ajusten a lo dispuesto en el mismo.</p>
+          <p class="parrafo">No obstante, las aceitunas de mesa elaboradas, etiquetadas y comercializadas con anterioridad a la fecha de terminación del plazo citado anteriormente y que no se ajusten a lo dispuesto en el presente Real Decreto, podrán seguir comercializándose hasta la extinción de su vida comercial</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo_2">A partir de la entrada en vigor del presente Real Decreto, quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en el presente Real Decreto y en particular el Real Decreto 1074/1983, de 25 de marzo, por el que se aprueba la Reglamentación técnico-sanitaria para la elaboración, circulación y venta de las aceitunas de mesa.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo_2">El presente Real Decreto se dicta al amparo de las competencias que las reglas 10.ª, 13.ª y 16.ª del artículo 149.1 de la Constitución reservan al Estado en las materias de comercio exterior, bases y coordinación de la planificación general de la actividad económica, y sanidad exterior, bases y coordinación general de la sanidad, respectivamente, y de acuerdo con lo dispuesto en los artículos 38 y 40.2 de la Ley 14/1986, de 25 de abril, General de Sanidad.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Disposición final segunda. Facultad de desarrollo.</p>
+          <p class="parrafo_2">Los Ministros de Agricultura, Pesca y Alimentación, de Sanidad y Consumo y de Economía podrán dictar, en el ámbito de sus competencias, las disposiciones necesarias para el desarrollo de lo establecido en el presente Real Decreto y, en su caso, para la actualización de los anexos, cuando ello sea necesario.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo_2">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="parrafo_2">Dado en Madrid a 8 de noviembre de 2001.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de la Presidencia,</p>
+          <p class="firma_ministro">JUAN JOSÉ LUCAS GIMÉNEZ</p>
+        </version>
+      </bloque>
+      <bloque id="reglamentacion" tipo="encabezado" titulo="REGLAMENTACIÓN">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="anexo">REGLAMENTACIÓN TÉCNICO-SANITARIA PARA LA ELABORACIÓN, CIRCULACIÓN Y VENTA DE LAS ACEITUNAS DE MESA</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo_2">La presente Reglamentación tiene por objeto definir lo que se entiende por aceitunas de mesa y fijar, con carácter obligatorio, las normas de elaboración, de presentación, de comercialización y en general la ordenación jurídica de tal producto. Será de aplicación asimismo, a los productos importados.</p>
+          <p class="parrafo">Sus regulaciones son de aplicación a todos los tipos, elaboraciones y presentaciones que responden a las definiciones comprendidas en el artículo 2 de esta Reglamentación.</p>
+          <p class="parrafo">Esta Reglamentación obliga a todos los elaboradores, comerciantes e importadores de aceitunas de mesa.</p>
+          <p class="parrafo">Se consideran elaboradores de aceitunas de mesa aquellas personas, naturales o jurídicas, que en uso de las autorizaciones concedidas al efecto por los organismos oficiales competentes, dedican su actividad a la elaboración de los productos definidos en el artículo 2 de esta Reglamentación.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 2. Características.</p>
+          <p class="parrafo_2">1. Definición del producto. Se denomina «aceituna de mesa» al fruto de variedades determinadas del olivo cultivado (Olea europea sativa Hoffg. Link.) sano, cogido en el estado de madurez adecuado y de calidad tal que, sometido a las elaboraciones adecuadas previstas en el apartado 3.1.º del presente artículo, proporcione un producto listo para el consumo y de buena conservación.</p>
+          <p class="parrafo">2. Por su coloración se catalogan en:</p>
+          <p class="parrafo_2">a) Verdes. Son las obtenidas de frutos recogidos en el ciclo de maduración antes del envero y cuando han alcanzado tamaño normal. Estas aceitunas serán firmes, sanas, y no tendrán otras manchas distintas de las de su pigmentación natural. La coloración del fruto podrá variar del verde al amarillo paja.</p>
+          <p class="parrafo">b) De color cambiante. Obtenidas de frutos con color rosado, rosa vino o castaño recogidos antes de su completa madurez.</p>
+          <p class="parrafo">c) Negras naturales. Obtenidas de frutos recogidos en plena madurez o poco antes de ella, pudiendo presentar, según zona de producción y época de la recogida, color negro rojizo, negro violáceo, violeta, negro verdoso o castaño obscuro.</p>
+          <p class="parrafo">d) Negras. Son las aceitunas obtenidas de frutos que no estando totalmente maduros, han sido oscurecidos mediante oxidación y han perdido el amargor mediante el tratamiento con lejía alcalina, debiendo ser envasadas en salmuera y preservadas mediante esterilización con calor, o mediante cualquier otro procedimiento autorizado que garantice su conservación.</p>
+          <p class="parrafo_2">3. Procesos básicos de elaboración y conservación.</p>
+          <p class="parrafo_2">1.º Procesos básicos de elaboración:</p>
+          <p class="parrafo_2">a) Aderezo. Es el proceso por el que las aceitunas de cualesquiera de los tres primeros tipos anteriores, son tratadas con una lejía alcalina y acondicionadas posteriormente en salmuera en la que sufren una fermentación completa o parcial.</p>
+          <p class="parrafo">b) Curado en salmuera. Es el proceso por el que las aceitunas de cualesquiera de los tres primeros tipos anteriores, son tratadas directamente con una salmuera, donde sufren una fermentación completa o parcial.</p>
+          <p class="parrafo">c) Oxidación. Es el proceso por el cual las aceitunas de los tipos verdes y de color cambiante, que en una fase previa se conservan en salmuera fermentadas o no, se oxidan en medio alcalino.</p>
+          <p class="parrafo">d) Deshidratación. Es el proceso por el que las aceitunas de cualesquiera de los cuatro tipos anteriores, pierden parte de su humedad por colocación en sal seca y/o aplicando calor o cualquier otro proceso tecnológico.</p>
+          <p class="parrafo">e) Otros procesos de elaboración. Las aceitunas pueden elaborarse de formas diferentes o complementarias de las antes indicadas, siempre que los frutos utilizados respondan a las definiciones generales establecidas en la presente Reglamentación. Las denominaciones empleadas para estas especialidades deben ser lo suficientemente explícitas para no suscitar en los compradores o consumidores confusión en cuanto al origen y naturaleza del producto y en especial, con respecto a las denominaciones establecidas en la presente Reglamentación.</p>
+          <p class="parrafo_2">2.º Conservación. Las aceitunas dispuestas para el consumo, se podrán conservar por alguno de los siguientes métodos:</p>
+          <p class="parrafo_2">a) Características propias de la elaboración. La conservación es consecuencia de modificaciones físico-químicas debidas a la presencia de ciertas sustancias como sal, ácidos, especias, etc., añadidas o formadas en el proceso de elaboración.</p>
+          <p class="parrafo">b) Atmósfera protectora. Es la eliminación total o parcial del aire y la sustitución total o parcial por gases inertes autorizados.</p>
+          <p class="parrafo">c) Vacío. Es la eliminación total o parcial del aire.</p>
+          <p class="parrafo">d) Adición de conservadores. Las aceitunas se conservan mediante la adición de aditivos autorizados en la legislación vigente.</p>
+          <p class="parrafo">e) Refrigeración. Conservación mediante el almacenamiento de las aceitunas a una temperatura tal que se evite el crecimiento de los microorganismos causantes de toxi-infecciones alimentarias.</p>
+          <p class="parrafo">f) Pasteurización. Es el proceso de conservación por el que se someten a tratamiento térmico adecuado y mediante el cual se destruyen en las aceitunas de mesa las formas vegetativas de los microorganismos de naturaleza patógena y banal.</p>
+          <p class="parrafo">g) Esterilización. Es el proceso de conservación por el que se someten a tratamiento térmico adecuado y mediante el cual se destruyen o inactivan en las aceitunas de mesa, todas las formas de vida de los microorganismos patógenos y no patógenos y sus toxinas.</p>
+          <p class="parrafo_2">Estos procesos de conservación podrán aplicarse separada o conjuntamente y sumar sus efectos. En todo caso, los tratamientos responderán a los requisitos de conservación establecidos en el apartado 1 del anexo.</p>
+          <p class="parrafo_2">4. Denominación de producto.</p>
+          <p class="parrafo_2">Las aceitunas de mesa destinadas al consumidor final, pueden denominarse de una de las siguientes formas:</p>
+          <p class="parrafo_2">a) Aceitunas con hueso o enteras. Son las que conservan su forma original y a las que no se les ha sacado el hueso.</p>
+          <p class="parrafo">b) Aceitunas deshuesadas. Son las aceitunas a las que se ha sacado el hueso y conservan prácticamente su forma original.</p>
+          <p class="parrafo">c) Aceitunas rellenas. Son aceitunas deshuesadas, rellenadas con uno o más productos adecuados (pimiento, cebolla, almendras, apio, aceituna, cáscaras de naranja o limón, avellana, alcaparra, etc.) o rellenadas por el sistema de inyección con pastas preparadas para relleno (anchoa, atún, salmón, etc.) y el hueco cerrado con tapón. En este caso, la denominación del producto se completará con el nombre del relleno.</p>
+          <p class="parrafo">d) Aceitunas en mitades. Son aceitunas deshuesadas o rellenas, cortadas en dos mitades aproximadamente iguales, perpendicularmente al eje principal del fruto.</p>
+          <p class="parrafo">e) Aceitunas en cuartos. Son aceitunas deshuesadas, cortadas en cuatro partes aproximadamente iguales, siguiendo el eje principal del fruto y perpendicularmente a él.</p>
+          <p class="parrafo">f) Aceitunas en gajos. Son aceitunas deshuesadas, cortadas longitudinalmente en cuatro o más partes aproximadamente iguales.</p>
+          <p class="parrafo">g) Aceitunas en rodajas. Son aceitunas deshuesadas o rellenas, cortadas en segmentos de espesor relativamente uniformes.</p>
+          <p class="parrafo">h) Aceitunas troceadas. Son pequeños trozos de aceitunas deshuesadas, de forma indeterminada y prácticamente libres (lo que significa no más del 5 por 100 en masa de estas unidades), de unidades identificables de coronillas y trozos de rodajas, con o sin material de relleno.</p>
+          <p class="parrafo">i) Aceitunas rotas. Aceitunas que se han rasgado accidentalmente durante el proceso de deshuesado o rellenado. Ordinariamente contienen trozos de material de relleno.</p>
+          <p class="parrafo">j) Aceitunas machacadas o partidas. Obtenidas de frutos enteros, sometidos a un procedimiento destinado a abrir la pulpa sin fracturar el hueso que permanece entero.</p>
+          <p class="parrafo">k) Aceitunas seccionadas (rayadas). Aceitunas con incisiones practicadas en la piel y parte de la pulpa.</p>
+          <p class="parrafo">l) Aceitunas arrugadas. Son aceitunas que se han encogido, bien de forma natural en el árbol, o bien mediante tratamiento con sal seca o cualquier otro tratamiento autorizado.</p>
+          <p class="parrafo">m) Aceitunas punzadas. Son aceitunas a las que se les ha practicado perforaciones en la cutícula.</p>
+          <p class="parrafo">n) Alcaparrado. Es la presentación a base de aceitunas enteras o deshuesadas, generalmente de pequeño tamaño, con alcaparras y con material de relleno o sin él, en las que las aceitunas predominen en comparación con el conjunto del producto comercializado en esta forma.</p>
+          <p class="parrafo">ñ) Aceitunas para ensalada. Es la presentación a base de aceitunas enteras o deshuesadas, pudiendo presentarse en su caso rotas, en gajos, o en rodajas, con o sin alcaparras, y con o sin material de relleno cuando las aceitunas predominan en comparación con el conjunto del producto comercializado en esta forma.</p>
+          <p class="parrafo">o) Aceitunas colocadas. Son las aceitunas que van encajadas en envases rígidos transparentes que las contienen, de forma ordenada, guardando simetría o adoptando formas geométricas.</p>
+          <p class="parrafo">p) Aceitunas con pedúnculo. Aceitunas que conservan su pedúnculo.</p>
+          <p class="parrafo">q) Pasta de aceitunas. Es la presentación resultante de moler pulpa de aceituna con o sin otros productos alimenticios.</p>
+          <p class="parrafo">r) Aceitunas aderezadas o aliñadas. Son las aceitunas que han sido sometidas a un tratamiento especial que se confiere añadiendo al líquido de gobierno productos aromáticos vegetales (que no se consideran ni total ni parcialmente materia extraña a la misma), y eventualmente vinagre.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 3. Ingredientes.</p>
+          <p class="parrafo_2">1. En las elaboraciones de las aceitunas de mesa se autoriza el empleo de los siguientes productos que deberán cumplir los requisitos que les exijan, en su caso, sus Reglamentaciones específicas:</p>
+          <p class="parrafo_2">a) Aceituna.</p>
+          <p class="parrafo">b) Agua.</p>
+          <p class="parrafo">c) Sal.</p>
+          <p class="parrafo">d) Vinagre.</p>
+          <p class="parrafo">e) Aceite de oliva.</p>
+          <p class="parrafo">f) Azúcares alimenticios.</p>
+          <p class="parrafo">g) Cualquier producto alimenticio.</p>
+          <p class="parrafo">h) Especias, plantas o cualquier otro producto aromático o sus extractos naturales de acuerdo con la legislación vigente.</p>
+          <p class="parrafo">i) Salmuera.</p>
+          <p class="parrafo_2">2. Solamente se podrán utilizar en la elaboración de los productos que contempla la presente Reglamentación técnico-sanitaria los aditivos autorizados, conforme a lo dispuesto en la normativa específica.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 4. Características de los productos terminados.</p>
+          <p class="parrafo_2">1. Las aceitunas de mesa, tras su selección y procesado, deberán presentarse:</p>
+          <p class="parrafo_2">a) Sanas.</p>
+          <p class="parrafo">b) Limpias.</p>
+          <p class="parrafo">c) Exentas de olor y sabor anormales.</p>
+          <p class="parrafo">d) Exentas de defectos que puedan afectar su comestibilidad o adecuada conservación.</p>
+          <p class="parrafo">e) Sin síntomas de alteración en curso o de fermentación anormal.</p>
+          <p class="parrafo">f) Homogeneidad del tamaño dentro de su variedad, para las enteras, deshuesadas, rellenas y mitades.</p>
+          <p class="parrafo">g) De color uniforme, de acuerdo con las coloraciones definidas en el apartado 2 del artículo 2, salvo las aliñadas y de color cambiante.</p>
+          <p class="parrafo">h) Exentas de gérmenes patógenos y de sus toxinas o de cualquier otra fuente contaminante. En el caso de aceitunas fermentadas y conservadas mediante características propias, pueden detectarse los microorganismos que intervienen en el proceso de fermentación.</p>
+          <p class="parrafo_2">2. Según los defectos y tolerancias que figuran en los apartados 4 y 5 del presente artículo, las aceitunas que respondan a lo establecido en el apartado 1 anterior, se clasificarán en las categorías comerciales siguientes:</p>
+          <p class="parrafo_2">a) Extra. Se considerarán comprendidas dentro de esta categoría las aceitunas de calidad superior que posean en grado máximo las características propias de su variedad y un grado de madurez adecuado. En esta categoría sólo podrán comercializarse las aceitunas enteras, partidas, seccionadas, deshuesadas y rellenas.</p>
+          <p class="parrafo">b) Primera o «I» o selecta. En esta categoría se incluyen las aceitunas de buena calidad, con un grado de madurez adecuado y que presenten las características de su variedad.</p>
+          <p class="parrafo">c) Segunda o «II» o estándar. Comprende las aceitunas de mesa que, no hayan podido clasificarse en las dos categorías anteriores.</p>
+          <p class="parrafo_2">3. Además de las categorías comerciales definidas, y solamente para las presentaciones de aceitunas troceadas, pasta de aceituna, aceitunas rotas y aceitunas para ensalada, se admitirá otra clasificación cualitativa, que será una categoría comercial en sí misma, definida con el nombre de su presentación, siempre que las aceitunas que la integran cumplan las condiciones generales definidas para las aceitunas de mesa en el apartado 1, con exclusión de los párrafos f) y g). Esta categoría no ha de sujetarse a los defectos y tolerancias que figuran en el apartado 5 del presente artículo.</p>
+          <p class="parrafo">4. Los defectos en las aceitunas podrán ser:</p>
+          <p class="parrafo_2">a) Defectos de textura. Frutos excesiva o anormalmente blandos o fibrosos, en comparación con la firmeza que caracteriza al tipo y elaboración considerado, así como frutos arrugados hasta el punto que su aspecto se modifique sustancialmente, salvo la presentación aceitunas arrugadas.</p>
+          <p class="parrafo">b) Defectos de la epidermis sin afectar a la pulpa. Manchas y daños superficiales que no penetren en el mesocarpio, así como coloración anormal del fruto. No se consideran como manchas, las de dimensiones inferiores a 9 mm<sup>2</sup> siempre que no afecten a la apariencia del fruto.</p>
+          <p class="parrafo">c) Defectos de epidermis afectando a la pulpa. Manchas que penetran en el mesocarpio con una dimensión superior a 9 mm<sup>2</sup> en la superficie, orificios, cavernas, deformidades que se presentan en el fruto como consecuencia de ataques de insectos, enfermedades criptogámicas, etc.</p>
+          <p class="parrafo">d) Pedúnculos. Adheridos a la aceituna y que midan más de 3 mm desde la parte más saliente de la aceituna. No se considera defecto en la presentación «con pedúnculos».</p>
+          <p class="parrafo">e) Frutos rotos. Frutos que no están enteros.</p>
+          <p class="parrafo">f) Vacías. Frutos sin hueso que no llevan relleno.</p>
+          <p class="parrafo">g) Frutos con relleno incompleto o con defectos de relleno. Frutos sin hueso que no están completamente rellenos, excepto en el caso de las aceitunas rellenas con pastas preparadas para relleno.</p>
+          <p class="parrafo">h) Materias extrañas. Toda materia que resulte impropia de la elaboración, excluidas las sustancias cuya adición se permite en la legislación.</p>
+          <p class="parrafo_2">5. Número máximo de defectos y materias extrañas:</p>
+          <p class="parrafo_2">Deberán efectuarse controles para determinar los defectos y materias extrañas, como mínimo sobre una muestra para análisis de 200 aceitunas (enteras, deshuesadas o rellenas), no pudiendo exceder para cada una de las categorías comerciales ni para cada uno de los defectos en ellas especificados, parciales o globales los siguientes porcentajes:</p>
+          <table class="tabla" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="cabeza_tabla">Defectos</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Extra</p>
+                  <p class="cabeza_tabla">–</p>
+                  <p class="cabeza_tabla">Porcentaje</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Primera</p>
+                  <p class="cabeza_tabla">–</p>
+                  <p class="cabeza_tabla">Porcentaje</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Segunda</p>
+                  <p class="cabeza_tabla">o estándar</p>
+                  <p class="cabeza_tabla">–</p>
+                  <p class="cabeza_tabla">Porcentaje</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">1 Defectos de textura. Frutos blandos, arrugados ofibrosos.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">4</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">6</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">11</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">2. Defectos de la epidermis afectando a la pulpa. Daños por insectos, criptógamas, manchas que penetran en el interior del fruto.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">7</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">12</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">17</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">3. Defectos de la epidermis sin afectar a la pulpa. Manchas superficiales, coloración anormal.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">5</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">10</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">15 (1)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">4. Pedúnculos.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">3</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">6</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">5. Frutos rotos.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">3</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">5</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">7</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">6. Vacías o con relleno incompleto (2).</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">6</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">10</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">14</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Suma total de defectos (3).</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">12</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">17</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">22</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Materias extrañas inocuas.</p>
+                </td>
+                <td colspan="3">
+                  <p class="cuerpo_tabla_centro">1 unidad por</p>
+                  <p class="cuerpo_tabla_centro">kilogramo</p>
+                  <p class="cuerpo_tabla_centro">o fracción</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cita">(1) A estos efectos no deben contabilizarse los daños superficiales que no penetren en el mesocarpio.</p>
+          <p class="cita">(2) En aceitunas rellenas.</p>
+          <p class="cita">(3) Sin sobrepasar cantidades parciales.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 5. Requisitos de las instalaciones industriales.</p>
+          <p class="parrafo_2">Las instalaciones industriales deberán ajustarse a un diseño o esquema que garantice el adecuado tratamiento técnico e higiénico sanitario de la materia prima, sus productos y subproductos y que facilite una correcta aplicación de las distintas prácticas de fabricación en aras de la salud pública, en especial las que se establecen en el Real Decreto 2207/1995, de 28 de diciembre, por el que se establecen las normas de higiene relativas a los productos alimenticios, y, en todo caso, deberán cumplir los siguientes requisitos:</p>
+          <p class="parrafo_2">1. Todos los locales, zonas y espacios destinados a la elaboración envasada y, en general, manipulación de materias primas, productos intermedios o finales estarán adecuadamente aislados de cualquiera otros ajenos a sus cometidos específicos.</p>
+          <p class="parrafo">2. Los recipientes envases, máquinas y tuberías de conducción destinados a estar en contacto con los productos acabados, o con sus materias primas o con los productos intermedios serán de materiales que no alteren las características de su contenido ni la de ellos mismos. Igualmente deberán ser inalterables frente a los productos utilizados en su limpieza.</p>
+          <p class="parrafo">3. La maquinaria y utensilios utilizados en las manipulaciones previas a la elaboración, y útiles de trabajo, se limpiarán diariamente al final de la jornada de trabajo, tales como máquina perdigoneras batidoras, cintas transportadoras, clasificadoras, escogedoras, rodos, etc.</p>
+          <p class="parrafo">4. Los depósitos de mampostería y de materiales macromoleculares (plásticos) destinados al tratamiento alcalino deben presentar sus paredes perfectamente lisas para facilitar su limpieza.</p>
+          <p class="parrafo">5. Durante la fermentación y conservación se vigilarán periódicamente las bocas de los recipientes y se prestará especial atención a la existencia de películas o velos de levaduras o mohos que se eliminarán periódicamente. Un adecuado cierre anaerobio en los fermentadores reduce la existencia de dichos velos. Los salideros se deben evitar ya que facilitan la formación de velos en la propia aceituna, produciendo el ablandamiento y obscurecimiento del fruto.</p>
+          <p class="parrafo">6. Los envases de madera destinados a la fermentación y conservación de los frutos, una vez vacíos, deben conservarse limpios y completamente secos durante el período de conservación. Si han contenido aceitunas alteradas deberán esterilizarse con vapor de agua a presión, aunque es preferible su destrucción.</p>
+          <p class="parrafo">7. Los envases de materiales macromoleculares (plásticos) destinados a la fermentación y conservación de los frutos no cederán sustancias que determinen una sensible contaminación organoléptica o que signifiquen un riesgo para la salud. Se deben conservar limpios y secos. Si han contenido aceitunas alteradas se deben esterilizar perfectamente con cualquier detergente bactericida y/o sosa al 3 por 100.</p>
+          <p class="parrafo">8. Las bombas, tuberías pulmones etc., utilizados para el trasiego de la salmuera durante la fermentación y de los frutos fermentados a la nave de elaboración se deben limpiar todos los días con agua, preferible a 40 ºC-50 ºC, y una vez a la semana se empleará un detergente adecuado seguido de un aclarado.</p>
+          <p class="parrafo">9. La limpieza de las máquinas de clasificación, deshuesado y deshuesado-relleno de los frutos fermentados se realizará con agua preferiblemente templada y después con una solución de detergente seguida de un aclarado eficaz. Si las circunstancias lo requieren se puede emplear un agente desinfectante.</p>
+          <p class="parrafo">10. Para la operación de envasado, se dispondrá de los dispositivos necesarios que garanticen como mínimo la limpieza y, en su caso, la higienización de los envases.</p>
+          <p class="parrafo">11. Dispondrán en todo momento de agua corriente sanitariamente tolerable desde el punto de vista físico-químico y microbiológicamente potable, a presión fría o caliente, en cantidad suficiente para la elaboración y manipulación de productos, así como para el aseo del personal. El lavado de instalaciones y utensilios industriales podrá realizarse con agua de otras características, pero potable desde el punto de vista microbiológico. Podrá utilizarse agua de otras características en generadores de vapor, bocas de incendio y servicios auxiliares siempre que no exista conexión entre esta red y la de agua potable.</p>
+          <p class="parrafo">12. La sal común empleada cumplirá lo establecido en la Reglamentación técnico-sanitaria para la obtención, circulación y venta de la sal y salmueras comestibles, Real Decreto 1424/1983, de 27 de abril.</p>
+          <p class="parrafo">13. Los locales de fabricación y almacenamiento y sus anexos, en todo caso deberán ser adecuados para el uso a que se destinan, con emplazamiento idóneo, accesos amplios y fáciles situados a conveniente distancia de cualquier causa de contaminación o insalubridad y separados rigurosamente de viviendas o locales donde pernocte o haga sus comidas cualquier persona.</p>
+          <p class="parrafo">14. En su construcción o reparación se emplearán materiales idóneos, y en ningún caso, susceptibles de originar intoxicaciones o contaminaciones. Los pavimentos serán prácticamente impermeables, lavables e ignífugos, dotándoles de los sistemas de desagüe precisos. Las paredes y los techos se construirán con materiales que permitan su conservación en adecuadas condiciones de limpieza. Los desagües tendrán cierres hidráulicos cuando viertan a colectores de aguas contaminadas, y estarán protegidos con rejillas o placas perforadas de material resistente.</p>
+          <p class="parrafo">15. La ventilación e iluminación naturales o artificiales serán las reglamentarias y, en todo caso, apropiadas a la capacidad y volumen del local, según la finalidad a que se destine.</p>
+          <p class="parrafo">16. Dispondrán en todo momento de agua corriente, en cantidad suficiente para la limpieza y lavado de instalaciones y elementos industriales.</p>
+          <p class="parrafo">17. Habrán de tener servicios higiénicos y vestuarios en número y con características acomodadas a lo que prevean, para cada caso, las autoridades competentes.</p>
+          <p class="parrafo">18. Todos los locales deben mantenerse constantemente en estado de pulcritud y limpieza, adecuado a su función, lo que habrá de llevarse a cabo por los métodos más apropiados para no levantar polvo ni producir alteraciones o contaminaciones.</p>
+          <p class="parrafo">19. Contarán con servicios, defensas y utillajes e instalaciones adecuados en su construcción o emplazamiento para garantizar la conservación de sus productos en las mejores condiciones de higiene y limpieza y la no contaminación por la proximidad o contacto con cualquier clase de residuos o aguas residuales, suciedad y materias extrañas, así como por la presencia de Insectos, roedores, aves y otros animales.</p>
+          <p class="parrafo">20. Las temperaturas, humedad relativa y circulación del aire en sus locales, serán los convenientes para evitar que los productos sufran alteraciones o cambios en sus características. Estos locales estarán protegidos contra la acción directa de la luz solar, cuando ésta sea perjudicial a los productos.</p>
+          <p class="parrafo">21. El almacenamiento se realizará de tal manera que permita efectuar la rotación de las existencias y remociones periódicas en función del tiempo de almacenamiento y condiciones de conservación que exija cada producto.</p>
+          <p class="parrafo">22. Cualesquiera otras condiciones técnicas, sanitarias, higiénicas y laborales establecidas o que se establezcan, en sus respectivas competencias, por los Organismos de la Administración pública.</p>
+          <p class="parrafo">23. Instalación de selección de materias primas, que aseguren una selección efectiva.</p>
+          <p class="parrafo">24. Instalación de envasado y cerrado, con capacidad adecuada a línea o a líneas de fabricación que antecedan.</p>
+          <p class="parrafo">25. Generador de vapor u otra fuente de energía térmica.</p>
+          <p class="parrafo">26. Instalaciones específicas para tratamientos térmicos.</p>
+          <p class="parrafo_2">a) Instalación adecuada para conseguir un vacío parcial en los envases con espacio de cabeza libre de producto: precalentador, inyector de vapor, cerrador a vacío o llenadora en caliente.</p>
+          <p class="parrafo">b) En el caso de preparaciones térmicamente tratadas. La instalación consistirá en recipientes a presión atmosférica para las preparaciones de pH final 4,6 o inferiores, tal como se define en el Código Alimentario Español, artículo 2.05.09. En el caso de utilizar autoclaves, para preparaciones con valores de pH superiores a 4,6 éstos deberán estar provistos de equipos de registro gráfico de temperaturas y tiempos. Cuando se utilicen sistemas continuos o discontinuos a presión normal deberán realizarse los controles de tiempo y temperatura que permitan el conocimiento de la marcha del proceso. En los casos en que sea necesario, se dispondrá del equipo adecuado para garantizar el cumplimiento de lo establecido en cuanto a unidades de letalidad reflejadas en el apartado 1 del anexo.</p>
+          <p class="parrafo">27. Las instalaciones especificas para elaboraciones obtenidas por deshidratación permitirán reducir el contenido de humedad del producto hasta un nivel suficiente para su adecuada conservación por este medio.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 5. Requisitos de las instalaciones industriales.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 6. Condiciones generales referentes al personal.</p>
+          <p class="parrafo_2">El personal dedicado a la elaboración, envasado y venta de aceitunas cumplirá los requisitos que establecen y regulan el Real Decreto 2207/1995, de 28 de diciembre, por el que se establecen las normas de higiene relativas a los productos alimenticios, y el Real Decreto 202/2000, de 11 de febrero, por el que se establecen las normas relativas a los manipuladores de alimentos.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 6. Condiciones generales referentes al personal.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 7. Manipulaciones permitidas y prohibidas.</p>
+          <p class="parrafo_2">1. Se consideran prácticas permitidas las siguientes manipulaciones:</p>
+          <p class="parrafo_2">a) El tratamiento con lejías alcalinas para la eliminación del principio amargo en los tipos y preparaciones comerciales que así lo requieran.</p>
+          <p class="parrafo">b) El tratamiento de materias primas o productos semielaborados con sustancias químicas autorizadas.</p>
+          <p class="parrafo">c) El uso de iniciadores de la fermentación.</p>
+          <p class="parrafo">d) La aplicación de calor a la salmuera de fermentación.</p>
+          <p class="parrafo">e) El tratamiento de aceitunas con sustancias autorizadas para la obtención de sus diferentes elaboraciones.</p>
+          <p class="parrafo">f) Las operaciones encaminadas a mejorar las condiciones técnicas e higiénico-sanitarias del producto final.</p>
+          <p class="parrafo_2">2. Manipulaciones prohibidas.</p>
+          <p class="parrafo_2">a) El almacenamiento en condiciones inadecuadas.</p>
+          <p class="parrafo">b) La utilización de ingredientes y aditivos no autorizados.</p>
+          <p class="parrafo">c) La distribución y venta de aceitunas de mesa pasteurizadas o esterilizadas por el calor, en envases no herméticos, abombados, fracturados o con signos de haber sido resoldados. Asimismo los envases con oxidación externa que pueda afectar a la correcta conservación del producto.</p>
+          <p class="parrafo_2">3. Los envases herméticos esterilizados, pasteurizados y los envases no herméticos, una vez abiertos, se conservarán refrigerados.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 7. Manipulaciones permitidas y prohibidas.</p>
+          <p class="parrafo_2">1. Se consideran prácticas permitidas las siguientes manipulaciones:</p>
+          <p class="parrafo_2">a) El tratamiento con lejías alcalinas para la eliminación del principio amargo en los tipos y preparaciones comerciales que así lo requieran.</p>
+          <p class="parrafo">b) El tratamiento de materias primas o productos semielaborados con sustancias químicas autorizadas.</p>
+          <p class="parrafo">c) El uso de iniciadores de la fermentación.</p>
+          <p class="parrafo">d) La aplicación de calor a la salmuera de fermentación.</p>
+          <p class="parrafo">e) El tratamiento de aceitunas con sustancias autorizadas para la obtención de sus diferentes elaboraciones.</p>
+          <p class="parrafo">f) Las operaciones encaminadas a mejorar las condiciones técnicas e higiénico-sanitarias del producto final.</p>
+          <p class="parrafo_2">2.<strong>(Derogado)</strong></p>
+          <p class="parrafo_2">3.<strong>(Derogado)</strong></p>
+          <blockquote>
+            <p class="nota_pie">Se derogan los apartados 2 y 3 por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 8. Registros.</p>
+          <p class="parrafo_2">Las industrias dedicadas a las actividades reguladas por esta Reglamentación técnico-sanitaria deberán inscribirse en el Registro Sanitario de Alimentos, de acuerdo con lo dispuesto en el Real Decreto 1712/1991, de 29 de noviembre, en los demás registro exigidos en la legislación vigente, y, en particular, el previsto en la disposición adicional única del Real Decreto 2113/1998, de 2 de octubre, relativo a las industrias de transformación de aceituna de mesa, en este último caso, respecto de las industrias que lleven a cabo la transformación de aceitunas de mesa en el marco de las ayudas comunitarias a la aceituna de mesa.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 8. Registros.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 9. Almacenamiento, transporte y venta.</p>
+          <p class="parrafo_2">Los recipientes que transporten aceitunas de mesa a granel, así como las cajas y otros recipientes deben ser de materiales fácilmente limpiables y en ningún caso susceptibles de originar intoxicaciones o contaminaciones.</p>
+          <p class="parrafo">La conservación de útiles, envases, etc., hasta la siguiente campaña, se puede realizar en almacenes cubiertos o abiertos, siendo conveniente que circule el aire para que permanezcan perfectamente secos.</p>
+          <p class="parrafo">En la venta al público de aceitunas a granel se prohíbe su exposición en recipientes destapados.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 9. Almacenamiento, transporte y venta.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 10. Envases y envasado.</p>
+          <p class="parrafo_2">1. El control del contenido efectivo de los envases se realizará de acuerdo con lo establecido Real Decreto 723/1988, de 24 de junio, por el que se aprueba la norma general para el control del contenido efectivo de los productos alimenticios envasados, y disposiciones concordantes.</p>
+          <p class="parrafo">2. Para la determinación del peso escurrido se seguirá, además, lo indicado en el apartado 2 del anexo.</p>
+          <p class="parrafo">3. El peso mínimo escurrido correspondiente a cada envase se fija en el apartado 3 del anexo.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 10. Envases y envasado.</p>
+          <p class="parrafo_2">1.<strong>(Derogado)</strong></p>
+          <p class="parrafo">2. Para la determinación del peso escurrido se seguirá, además, lo indicado en el apartado 2 del anexo.</p>
+          <p class="parrafo">3. El peso mínimo escurrido correspondiente a cada envase se fija en el apartado 3 del anexo.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga el apartado 1 por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 11. Etiquetado, presentación y publicidad.</p>
+          <p class="parrafo_2">La información del etiquetado de los envases de los productos sujetos a esta Reglamentación se ajustará a lo dispuesto en el Real Decreto 1334/1999, de 31 de julio, por el que se aprueba la Norma general de etiquetado, presentación y publicidad de los productos alimenticios y, además, constará de las siguientes especificaciones:</p>
+          <p class="parrafo_2">a) Una de las denominaciones del producto previstas en el apartado 4 del artículo 2.</p>
+          <p class="parrafo">b) Categoría comercial. La clasificación cualitativa se ajustará a lo dispuesto en el apartado 2 del artículo 4. Quedan expresamente prohibidos adjetivos calificativos diferentes a los establecidos en dicho apartado. La denominación del producto se complementará con la indicación del color conforme a lo establecido en el apartado 2 del artículo 2.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 11. Etiquetado, presentación y publicidad.</p>
+          <p class="parrafo_2">
+            <strong>(Párrafo derogado)</strong>
+          </p>
+          <p class="parrafo_2">a) Una de las denominaciones del producto previstas en el apartado 4 del artículo 2.</p>
+          <p class="parrafo">b) Categoría comercial. La clasificación cualitativa se ajustará a lo dispuesto en el apartado 2 del artículo 4. Quedan expresamente prohibidos adjetivos calificativos diferentes a los establecidos en dicho apartado. La denominación del producto se complementará con la indicación del color conforme a lo establecido en el apartado 2 del artículo 2.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga el primer párrafo por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="articulo">Artículo 12. Régimen sancionador.</p>
+          <p class="parrafo_2">Las Administraciones públicas velarán, en el ámbito de sus respectivas competencias, por el cumplimiento de lo dispuesto en la presente Reglamentación.</p>
+          <p class="parrafo">Las infracciones contra lo dispuesto en la presente Reglamentación podrá ser objeto de sanción administrativa, previa instrucción del correspondiente procedimiento administrativo sancionador, de acuerdo con:</p>
+          <p class="parrafo_2">a) Lo previsto en el Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agroalimentaria, cuando la acción u omisión constitutiva de infracción no afecte a la salud pública.</p>
+          <p class="parrafo">b) Lo previsto en el capítulo VI del Título I de la Ley 14/1986, de 25 de abril. General de Sanidad, cuando la acción u omisión constitutiva de infracción afecte a la salud pública.</p>
+        </version>
+        <version id_norma="BOE-A-2013-3402" fecha_publicacion="20130329" fecha_vigencia="20130330">
+          <p class="articulo">Artículo 12. Régimen sancionador.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por el art. 52 del Real Decreto 176/2013, de 8 de marzo. <a class="refPost">Ref. BOE-A-2013-3402</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2001-21717" fecha_publicacion="20011121" fecha_vigencia="20011122">
+          <p class="anexo">ANEXO</p>
+          <p class="parrafo_2">1. Requisitos de conservación para su utilización en los procesos de elaboración de aceitunas de mesa.</p>
+          <p class="parrafo_2">Teniendo en cuenta lo establecido en el apartado 3.2.º del artículo 2, acerca de la utilización conjunta de estos procesos de conservación, cuando se requiera la comprobación de los parámetros establecidos en el presente anexo, por los servicios de inspección, las industrias elaboradoras deberán informar sobre los procesos de elaboración y métodos de conservación utilizados, así como facilitar la documentación necesaria relativa a las unidades de letalidad aplicadas.</p>
+          <p class="centro_cursiva">Requisitos de conservación</p>
+          <table class="tabla_ancha">
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro"> </p>
+              </td>
+              <td colspan="11">
+                <p class="cabeza_tabla">Métodos de conservación</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p class="cabeza_tabla">Puesto de elaboración</p>
+              </td>
+              <td colspan="3">
+                <p class="cabeza_tabla">Concentración mínima</p>
+                <p class="cabeza_tabla">de cloruro sódico (1)</p>
+                <p class="cabeza_tabla">–</p>
+                <p class="cabeza_tabla">Porcentaje</p>
+              </td>
+              <td colspan="3">
+                <p class="cabeza_tabla">Límite máximo</p>
+                <p class="cabeza_tabla">de pH (1)</p>
+              </td>
+              <td colspan="3">
+                <p class="cabeza_tabla">Acidez fáctica mínima</p>
+                <p class="cabeza_tabla">de ácido láctico</p>
+                <p class="cabeza_tabla">–</p>
+                <p class="cabeza_tabla">Porcentaje</p>
+              </td>
+              <td colspan="2">
+                <p class="cabeza_tabla">Unidades</p>
+                <p class="cabeza_tabla">de letalidad</p>
+                <p class="cabeza_tabla">mínimas</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cabeza_tabla">V</p>
+                <p class="cabeza_tabla">CPE,</p>
+                <p class="cabeza_tabla">ATP</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">C.</p>
+                <p class="cabeza_tabla">Refr.</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">P</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">V</p>
+                <p class="cabeza_tabla">CPE,</p>
+                <p class="cabeza_tabla">ATP</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">C</p>
+                <p class="cabeza_tabla">Refr.</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">P</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">V</p>
+                <p class="cabeza_tabla">CPE,</p>
+                <p class="cabeza_tabla">ATP</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">C.</p>
+                <p class="cabeza_tabla">Refr.</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">P</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">UP 5,25</p>
+                <p class="cabeza_tabla">62,4 ºC</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">F 10</p>
+                <p class="cabeza_tabla">121 ºC</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Aderezo</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">5</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4,0</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4,0</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4,3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">0,5</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">0,4</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">15</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Curado en salmuera</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">6</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">6</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4,3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4,3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4,3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">0,3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">0,3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">15</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Oxidación</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">15</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Deshidratación</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">10</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">10</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">–</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">(1) La concentración de cloruro sódico, y el límite máximo de pH, corresponden al líquido de gobierno salvo en el caso de las aceitunas que se presentan en atmósfera protectora sin salmuera que corresponde, solamente en este caso, a su jugo celular.</p>
+          <p class="parrafo">CPE: Características propias de la elaboración.</p>
+          <p class="parrafo">ATP: Atmósfera protectora.</p>
+          <p class="parrafo">C: Adición de conservadores.</p>
+          <p class="parrafo">P: Pasteurización.</p>
+          <p class="parrafo">E: Esterilización.</p>
+          <p class="parrafo">Refr.: Refrigeración.</p>
+          <p class="parrafo">V: Vacío.</p>
+          <p class="parrafo">z: Es la pendiente de la representación logarítmica de los «tiempos de destrucción térmica», en función de la temperatura (curva T.D.T.) y equivale al número de grados para que la curva complete un ciclo logarítmico.</p>
+          <p class="parrafo">Tr: Temperatura de referencia. Es la temperatura a la que corresponde un «tiempo de reducción decimal» y que junto a la pendiente z, definen la representación logarítmica de la curva T.D.T. de un microorganismo específico.</p>
+          <p class="parrafo">F<sup>z</sup> <sub>Tr</sub>: Valor de esterilidad acumulada. Es la integral, o suma de los valores de letalidad parcial, alcanzados durante el proceso de esterilización (no se incluye el enfriamiento), en términos de tiempos de exposición a una temperatura de referencia. Cuando la temperatura de referencia «Tr», se fija en 121 ºC y la pendiente «z» en 10, se obtiene el valor F<sub>o</sub> para las aceitunas negras oxidadas.</p>
+          <p class="parrafo">UP<sub>Tr</sub>: Unidades de pasteurización. Son los valores de letalidad acumulada en procesos térmicos aplicados a temperaturas inferiores a 100 ºC, alcanzados durante el proceso de pasteurizacion, en términos de tiempos de exposición a una temperatura de referencia. En el caso de las aceitunas de mesa, se toman como microorganismos de referencia las bacterias propiónicas, que tienen una ecuación de tiempos de destrucción térmica definida por una temperatura de referencia «Tr» de 62,4 ºC y una pendiente «z» de 5,25.</p>
+          <p class="parrafo">Tiempo de reducción decimal. Es el tiempo de exposición al calor, expresado en minutos, necesario para reducir la población viva de una suspensión bacteriana a la décima parte del número inicial.</p>
+          <p class="parrafo">Tiempo de destrucción térmica. Es el tiempo de exposición al calor a una temperatura y condiciones determinadas, necesario para reducir en un factor de 10<sup>12</sup>, la población microbiana inicial.</p>
+          <p class="parrafo">Valor de letalidad (Coeficiente de letalidad). Es el recíproco del número de minutos precisos de exposición al calor, para ocasionar la muerte de un microorganismo específico a una temperatura determinada.</p>
+          <p class="parrafo_2">2. Determinación del peso escurrido.</p>
+          <p class="parrafo_2">a) Escurrido previo.</p>
+          <p class="parrafo_2">La determinación del peso escurrido en las elaboraciones de aceitunas se llevará a cabo por vaciado y distribución uniforme del contenido de un envase sobre un cedazo circular UNE de 2,5 mm de luz de malla cuadrada.</p>
+          <p class="parrafo">Se usará un cedazo de 20 cm de diámetro para envases de 1,5 kg o menor y de 30 cm, si el contenido es mayor de 1,5 kg.</p>
+          <p class="parrafo">El cedazo se inclinará un ángulo comprendido entre 17 y 20 grados para facilitar el drenaje, sin sacudirlo o vibrarlo. Se dejará drenar durante dos minutos.</p>
+          <p class="parrafo_2">b) Peso escurrido.</p>
+          <p class="parrafo_2">El peso escurrido se calculará efectuando la operación consistente en restar al peso del cedazo más aceitunas, el peso del cedazo seco y aplicar lo establecido en la Norma sobre contenido efectivo de los productos alimenticios.</p>
+          <p class="parrafo_2">3. Pesos escurridos mínimos, exigidos en los envases no transparentes de aceitunas.</p>
+          <p class="parrafo_2">Para las aceitunas deshuesadas o rellenas, el peso escurrido mínimo expresado en gramos, se deducirá multiplicando la capacidad nominal del envase expresada en ml, por 0,4, redondeando el resultado al alza a múltiplos de 5.</p>
+          <p class="parrafo">Para el resto de las aceitunas enteras, el peso escurrido mínimo expresado en gramos, se deducirá multiplicando la capacidad nominal del envase expresada en ml, por 0,5, redondeando el resultado al alza a múltiplos de 5.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

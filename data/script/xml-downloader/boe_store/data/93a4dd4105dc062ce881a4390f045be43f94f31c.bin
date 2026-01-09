@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T203909Z</fecha_actualizacion>
+      <identificador>BOE-A-2004-3279</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20040213</fecha_disposicion>
+      <numero_oficial>256/2004</numero_oficial>
+      <titulo>Real Decreto 256/2004, de 13 de febrero, por el que se centraliza en la Dirección General de Relaciones con la Administración de Justicia la autorización de la nómina del personal de la Administración de Justicia.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20040221</fecha_publicacion>
+      <diario_numero>45</diario_numero>
+      <fecha_vigencia>20040301</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2004/02/13/256</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2004-3279</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3847">Funcionarios de la Administración de Justicia</materia>
+        <materia codigo="5158">Nóminas</materia>
+        <materia codigo="6230">Retribuciones</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1999-1827</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 29/1999, de 15 de enero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-3279</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">256</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3847"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5158"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6230"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-3279</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">256</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3847"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5158"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6230"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/con/20040221"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 256/2004, de 13 de febrero, por el que se centraliza en la Dirección General de Relaciones con la Administración de Justicia la autorización de la nómina del personal de la Administración de Justicia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-21</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/con/20040221">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-3279</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">256</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3847"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5158"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6230"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/con/20040221/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 256/2004, de 13 de febrero, por el que se centraliza en la Dirección General de Relaciones con la Administración de Justicia la autorización de la nómina del personal de la Administración de Justicia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/con/20040221"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2004/02/13/256/con/20040221/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2004/02/13/256/con/20040221/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="parrafo">Por el Real Decreto 29/1999, de 15 de enero, por el que se unifican las nóminas del personal al servicio de la Administración de Justicia, se centralizó en la Dirección General de Relaciones con la Administración de Justicia la autorización de la nómina del personal de la Administración de Justicia que no es objeto de traspaso a las comunidades autónomas que asumen funciones y servicios en la materia.</p>
+          <p class="parrafo">De esta forma, continuaba correspondiendo a las Gerencias Territoriales del Ministerio de Justicia la gestión de la nómina en el territorio de las comunidades autónomas sin traspaso de funciones y servicios.</p>
+          <p class="parrafo">En la actualidad, criterios de racionalidad administrativa aconsejan la plena centralización de la gestión de la nómina en la Dirección General de Relaciones con la Administración de Justicia.</p>
+          <p class="parrafo">En efecto, el progresivo traspaso de funciones en materia de Justicia a las Administraciones autonómicas pendientes de asumir dichos servicios aconseja unificar criterios y simplificar procedimientos mediante la plena centralización de la gestión. En última instancia, dicha medida permitirá un mejor aprovechamiento de los recursos humanos y medios técnicos existentes.</p>
+          <p class="parrafo">En su virtud, a propuesta de los Ministros de Justicia y de Hacienda y previa deliberación del Consejo de Ministros en su reunión del día 13 de febrero de 2004,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo">Este real decreto determina los órganos de la Administración General del Estado competentes para autorizar la nómina en la que se acreditan las obligaciones devengadas en concepto de retribución del siguiente personal de la Administración de Justicia:</p>
+          <p class="parrafo_2">a) Los miembros de las carreras judicial y fiscal.</p>
+          <p class="parrafo">b) Los funcionarios del Cuerpo de Secretarios Judiciales.</p>
+          <p class="parrafo">c) Los funcionarios al servicio de la Administración de Justicia destinados en órganos con jurisdicción en todo el territorio nacional o en las Ciudades de Ceuta y Melilla.</p>
+          <p class="parrafo">d) El personal del Instituto Nacional de Toxicología y Ciencias Forenses, con independencia del lugar en que presten sus servicios.</p>
+          <p class="parrafo">e) El resto del personal al servicio de la Administración de Justicia que no haya sido objeto de traspaso a las comunidades autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="articulo">Artículo 2. Autorización de la nómina.</p>
+          <p class="parrafo">Corresponde al Director General de Relaciones con la Administración de Justicia la autorización de la nómina en la que se acreditan las retribuciones del personal al que se refiere el artículo anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="articulo">Artículo 3. Habilitado central.</p>
+          <p class="parrafo">El Secretario de Estado de Justicia designará, a propuesta del Director General de Relaciones con la Administración de Justicia, a los funcionarios que desempeñarán las funciones de habilitado central como titular y como suplente, entre los destinados en la Subdirección General de Recursos Económicos de la Administración de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en este real decreto y, en particular, el Real Decreto 29/1999, de 15 de enero, por el que se unifican las nóminas del personal al servicio de la Administración de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="articulo">Disposición final primera. Habilitación normativa.</p>
+          <p class="parrafo">Se autoriza a los Ministros de Hacienda y de Justicia para dictar, en el ámbito de sus respectivas competencias, las disposiciones necesarias para el desarrollo de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el 1 de marzo de 2004.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2004-3279" fecha_publicacion="20040221" fecha_vigencia="20040301">
+          <p class="parrafo_2">Dado en Madrid, a 13 de febrero de 2004.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Segundo del Gobierno y Ministro de la Presidencia,</p>
+          <p class="firma_ministro">JAVIER ARENAS BOCANEGRA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T163938Z</fecha_actualizacion>
+      <identificador>BOE-A-2023-5750</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20230301</fecha_disposicion>
+      <numero_oficial>INT/212/2023</numero_oficial>
+      <titulo>Orden INT/212/2023, de 1 de marzo, de regulación de la dieta de los miembros de las mesas electorales.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20230306</fecha_publicacion>
+      <diario_numero>55</diario_numero>
+      <fecha_vigencia>20230307</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2023/03/01/int212</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2023-5750</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="2500">Dietas</materia>
+        <materia codigo="3135">Elecciones</materia>
+        <materia codigo="5706">Procedimiento Electoral</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2019-3641</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden INT/282/2019, de 7 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-11672</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 23, 25 y 28.2 de la Ley Orgánica 5/1985, de 19 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-5750</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int212</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5706"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-5750</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int212</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5706"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/con/20230306"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/212/2023, de 1 de marzo, de regulación de la dieta de los miembros de las mesas electorales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-06</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/con/20230306">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-5750</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int212</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5706"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-06</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/con/20230306/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/212/2023, de 1 de marzo, de regulación de la dieta de los miembros de las mesas electorales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/con/20230306"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2023/03/01/int212/con/20230306/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2023/03/01/int212/con/20230306/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="parrafo">Las mesas electorales, que encuentran su regulación en el artículo 23 y siguientes de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (LOREG), forman parte de la Administración Electoral, y, por tanto, velan por el principio de igualdad y por la transparencia y objetividad del proceso electoral.</p>
+          <p class="parrafo">El artículo 25 de la citada Ley Orgánica, 5/1985, de 19 de junio, precisa que la mesa electoral está formada por un Presidente y dos Vocales, cuyas dietas han de regularse por orden ministerial, según dispone su artículo 28.2.</p>
+          <p class="parrafo">La Orden INT/282/2019, de 7 de marzo, de regulación de la dieta de los miembros de las mesas electorales, determina el importe en 65 euros, indicando que posteriores actualizaciones se realizarían mediante orden ministerial. Hasta esa fecha las dietas de los miembros de mesas electorales se actualizaban en la misma medida que las retribuciones de los empleados públicos, si bien este sistema dificultaba considerablemente la gestión de los pagos, fundamentalmente en los casos, aun mayoritarios, en que se llevan a cabo en efectivo. Por lo tanto, se hacía aconsejable redondear el importe de la dieta para facilitar estos pagos.</p>
+          <p class="parrafo">La orden se adecúa a los principios de buena regulación, de conformidad con el artículo 129 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.</p>
+          <p class="parrafo">Los principios de necesidad y eficacia están justificados por la conveniencia de adaptar a la situación económica actual la compensación a percibir por los ciudadanos elegidos para participar como miembros de mesa en los procesos electorales que se celebren.</p>
+          <p class="parrafo">Se cumple también el principio de proporcionalidad, pues se llevan a cabo los cambios normativos imprescindibles para alcanzar estrictamente los objetivos perseguidos.</p>
+          <p class="parrafo">En cuanto al principio de transparencia, se garantiza con la publicación de la orden en el «Boletín Oficial de Estado», a efectos de que pueda ser conocido su contenido por todos los ciudadanos.</p>
+          <p class="parrafo">Por último, en relación con el principio de eficiencia se ha intentado que la norma genere las menores cargas administrativas para los ciudadanos.</p>
+          <p class="parrafo">En virtud de cuanto antecede, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Artículo 1. Importe de la dieta.</p>
+          <p class="parrafo">Las personas que sean designadas para los cargos de Presidente y Vocal de las mesas electorales, de conformidad con lo establecido en el artículo 25 y siguientes de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, percibirán una dieta de 70,00 euros.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Artículo 2. Miembros de la mesa electoral con derecho a percibir la dieta.</p>
+          <p class="parrafo">La dieta señalada en el artículo anterior será percibida por cada uno de los titulares de la mesa electoral y por jornada electoral, aun cuando en la misma se celebren varios procesos. Sólo tendrán derecho a la dieta aquellos que tengan la condición de titulares; los suplentes, únicamente cuando adquieran la condición de titulares.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Artículo 3. Importe íntegro.</p>
+          <p class="parrafo">El derecho a la dieta lo será en su importe íntegro, con independencia del tiempo de la jornada electoral que se haya estado desempeñando el cargo.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Disposición adicional primera. Procesos electorales afectados.</p>
+          <p class="parrafo">Lo dispuesto en esta orden será de aplicación a los procesos electorales regulados en la Ley Orgánica 5/1985, de 19 de junio, así como a las consultas populares por vía de referéndum reguladas en la Ley Orgánica 2/1980, de 18 de enero, de regulación de distintas modalidades de referéndum, que se celebren a partir de la publicación de esta orden en el «Boletín Oficial del Estado»</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Disposición adicional segunda. Remisiones normativas.</p>
+          <p class="parrafo">Las referencias normativas efectuadas en otras disposiciones a la Orden INT/282/2019, de 7 de marzo, de regulación de la dieta de los miembros de las mesas electorales, se entenderán realizadas a los preceptos de esta orden.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Se deroga la Orden INT/282/2019, de 7 de marzo.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Disposición final primera. Actualización de la dieta.</p>
+          <p class="parrafo">El importe fijado en el artículo 1 se actualizará mediante nueva orden ministerial.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2023-5750" fecha_publicacion="20230306" fecha_vigencia="20230307">
+          <p class="parrafo_2">Madrid, 1 de marzo de 2023.–El Ministro del Interior, Fernando Grande-Marlaska Gómez.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

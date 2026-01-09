@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T114553Z</fecha_actualizacion>
+      <identificador>BOE-A-2008-11987</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3150">Ministerio de Medio Ambiente, y Medio Rural y Marino</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20080627</fecha_disposicion>
+      <numero_oficial>1079/2008</numero_oficial>
+      <titulo>Real Decreto 1079/2008, de 27 de junio, por el que se regula el marcado de los jamones y paletas y los periodos de elaboración para la utilización de determinadas menciones en el etiquetado.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20080714</fecha_publicacion>
+      <diario_numero>169</diario_numero>
+      <fecha_vigencia>20080715</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20140619</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2008/06/27/1079</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2008-11987</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="998">Comercialización</materia>
+        <materia codigo="3493">Etiquetas</materia>
+        <materia codigo="4165">Información</materia>
+        <materia codigo="4537">Jamón</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1975-22210</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 30 de septiembre de 1975</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2002-80201</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento (CE) 178/2002 de, de 28 de enero</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-6435</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 474/2014, de 13 de junio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2009-13989</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 210 de 31 de agosto de 2009</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-11987</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-06-27</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1079</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/998"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4537"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-11987</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-06-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1079</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/998"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4537"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/corrigendum/20090831/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20140618"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20080714"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1079/2008, de 27 de junio, por el que se regula el marcado de los jamones y paletas y los periodos de elaboración para la utilización de determinadas menciones en el etiquetado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-14</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 1079/2008, de 27 de juny, pel qual es regula el marcatge dels pernils i espatlles i els períodes d'elaboració per a la utilització de determinades mencions a l'etiquetatge.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-14</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 1079/2008, do 27 de xuño, polo que se regula a marcaxe dos xamóns e paletas e os períodos de elaboración para a utilización de determinadas mencións na etiquetaxe. («BOE» 169, do 14-7-2008.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20140618">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-11987</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-06-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1079</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/998"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4537"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20140618/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1079/2008, de 27 de junio, por el que se regula el marcado de los jamones y paletas y los periodos de elaboración para la utilización de determinadas menciones en el etiquetado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20140618"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20140618/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20140618/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20080714">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-11987</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-06-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1079</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/998"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4537"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20080714/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1079/2008, de 27 de junio, por el que se regula el marcado de los jamones y paletas y los periodos de elaboración para la utilización de determinadas menciones en el etiquetado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20080714"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20080714/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/06/27/1079/con/20080714/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="nota_inicial">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 210, de 31 de agosto de 2009. <a class="refPost">Ref. BOE-A-2009-13989</a>.</p>
+          <p> </p>
+          <p> </p>
+        </version>
+        <version id_norma="BOE-A-2014-6435" fecha_publicacion="20140618" fecha_vigencia="20140619">
+          <p class="siempreSeVe">Norma derogada por la disposición derogatoria del Real Decreto 474/2014, de 13 de junio. <a class="refPost">Ref. BOE-A-2014-6435</a>.</p>
+          <p> </p>
+          <p> </p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="parrafo">Con el establecimiento de sistemas de trazabilidad en las empresas, en cumplimiento del Reglamento (CE) número 178/2002 del Parlamento Europeo y del Consejo, de 28 de enero de 2002, por el que se establecen los principios y los requisitos generales de la legislación alimentaria, se crea la Autoridad Europea de Seguridad Alimentaria y se fijan procedimientos relativos a la seguridad alimentaria, y la utilización de nuevas tecnologías el sistema de marcado de los jamones y paletas en fresco, que viene realizándose, ha quedado obsoleto y conviene flexibilizarlo para favorecer la innovación.</p>
+          <p class="parrafo">Además se ha comprobado, en el mercado, que existen jamones y paletas curados que se etiquetan utilizando menciones que califican el producto, otorgándole un valor añadido, que tienen tiempos de elaboración variados para una misma mención, lo que puede estar ocasionando dificultades al consumidor para llevar a cabo la elección de compra y competencia desleal entre operadores, por lo que conviene establecer la regulación de los períodos de elaboración para la utilización de determinadas menciones facultativas en el etiquetado. Estas menciones no forman parte de la denominación de venta del producto, sino que constituyen menciones facultativas que el elaborador puede incluir en la etiqueta de forma voluntaria.</p>
+          <p class="parrafo">Este real decreto tiene carácter de normativa básica, conforme a lo establecido en el artículo 149.1.13.ª de la Constitución, según la interpretación dada por la doctrina del Tribunal Constitucional, sobre la base del carácter marcadamente técnico del objeto de la regulación.</p>
+          <p class="parrafo">En la tramitación de este real decreto han sido consultados las comunidades autónomas y los sectores afectados, habiendo emitido informe la Comisión Interministerial para la Ordenación Alimentaria.</p>
+          <p class="parrafo">Asimismo, esta disposición ha sido sometida al procedimiento de información en materia de normas y reglamentaciones técnicas y de reglamentos relativos a los servicios de la sociedad de la información, previsto en la Directiva 98/34/CE, del Parlamento Europeo y del Consejo, de 22 de junio, modificado por la Directiva 98/48/CE de 20 de julio, así como el Real Decreto 1337/1999, de 31 de julio, que incorpora estas directivas al ordenamiento jurídico español.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Medio Ambiente, y Medio Rural y Marino, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 27 de junio de 2008,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este real decreto tiene por objeto regular el marcado de los jamones y paletas cuyo destino sea la curación-maduración del producto, así como establecer los periodos mínimos de elaboración, para poder utilizar determinadas menciones en su etiquetado.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo">A los efectos de este real decreto se entiende como:</p>
+          <p class="parrafo">a) Jamón curado: El producto cárnico elaborado con la extremidad posterior del cerdo que se ha sometido, con carácter general, a un proceso de salazón, acompañado eventualmente de adición de especias, condimentos y aditivos, lavado, reposo o post-salado y maduración y secado durante el tiempo suficiente para conferirle las características organolépticas propias.</p>
+          <p class="parrafo">b) Paleta curada: El producto cárnico elaborado con la extremidad anterior del cerdo que se ha sometido, con carácter general, a un proceso de salazón, acompañado eventualmente de adición de especias, condimentos y aditivos, lavado, reposo o post-salado y maduración y secado durante el tiempo suficiente para conferirle las características organolépticas propias.</p>
+          <p class="parrafo">c) Curado-Maduración: El tratamiento de las salazones cárnicas en condiciones ambientales adecuadas para provocar, en el transcurso de una lenta y gradual reducción de la humedad, la evolución de los procesos de fermentación o enzimáticos necesarios para conferir al producto cualidades organolépticas características garantizando su estabilidad durante el proceso de comercialización.</p>
+          <p class="parrafo">d) Período mínimo de elaboración: El período transcurrido entre la entrada del producto en salazón y su comercialización por la industria elaboradora, descontando aquellos periodos en los que el producto haya estado sometido a condiciones que interrumpan las reacciones bioquímicas que tienen lugar durante su elaboración.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Artículo 3. Ámbito de aplicación.</p>
+          <p class="parrafo">Este real decreto será de aplicación a los jamones y paletas comercializados en España, sin perjuicio de las normas sanitarias y otras disposiciones específicas, de ámbito voluntario, que afecten a la producción y comercialización de estos productos.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Artículo 4. Marcado e identificación para el control del período de elaboración.</p>
+          <p class="parrafo">Todos los jamones y paletas deberán ir marcados o identificados, individualmente, mediante un sistema que incluya, al menos, la semana y el año de entrada en salazón.</p>
+          <p class="parrafo">Este marcado o identificación deberá fijarse en el producto, antes de su entrada en salazón, de forma inviolable y perfectamente legible, acompañándolo en todas las etapas de elaboración y comercialización posterior del mismo.</p>
+          <p class="parrafo">Además, se incluirá en el registro de trazabilidad la información contenida en el marcado o identificación así como las posibles incidencias -como la sustitución del elemento de marcado o identificación por otro nuevo debido a deterioro- que hayan podido producirse en dicho marcado o identificación a lo largo de la cadena de producción y comercialización.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el párrafo 2 conforme a la corrección de errores publicada en BOE núm. 210, de 31 de agosto de 2009. <a class="refPost">Ref. BOE-A-2009-13989</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Artículo 5. Etiquetado.</p>
+          <p class="parrafo">Sin perjuicio del cumplimiento del Real Decreto 1334/1999, de 31 de julio, por el que se aprueba la Norma general de etiquetado, presentación y publicidad de los productos alimenticios, y lo establecido en otras disposiciones de la Unión Europea aplicables en la materia, el etiquetado de jamones y paletas curados deberá tener en cuenta las siguientes particularidades:</p>
+          <p class="parrafo">a) Menciones facultativas.</p>
+          <p class="parrafo">Atendiendo al periodo mínimo de elaboración, en el etiquetado de los jamones y paletas elaborados, independientemente de la forma de presentación del producto una vez concluida la elaboración del mismo, se podrán incluir las siguientes menciones, siempre que cumplan con el periodo mínimo de elaboración establecido para cada mención:</p>
+          <table class="tabla">
+            <tr>
+              <td/>
+              <td>
+                <p class="cabeza_tabla">Mención facultativa</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Período mínimo de elaboración</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3">
+                <p class="cuerpo_tabla_izq">Jamones.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Bodega o cava.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">9 meses</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Reserva o añejo.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">12 meses</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Gran Reserva.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">15 meses</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3">
+                <p class="cuerpo_tabla_izq">Paletas.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Bodega o cava.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">5 meses</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Reserva o añeja.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">7 meses</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Gran Reserva.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">9 meses</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo">Los jamones y paletas podrán emplear otras menciones facultativas distintas a las reguladas en este apartado, siempre que cumplan lo establecido en la Norma general de etiquetado, presentación y publicidad de los productos alimenticios.</p>
+          <p class="parrafo_2">b)	Información adicional en el etiquetado.</p>
+          <p class="parrafo">Los jamones y paletas curados podrán incluir opcionalmente en el etiquetado el periodo mínimo de elaboración. No obstante, esta información será obligatoria cuando se emplee alguna de las menciones facultativas no reguladas en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Artículo 6. Infracciones y sanciones.</p>
+          <p class="parrafo">Las infracciones cometidas contra lo dispuesto en este real decreto serán sancionadas de acuerdo con el Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agroalimentaria.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Disposición adicional primera. Excepción sobre el uso de las menciones facultativas.</p>
+          <p class="parrafo">Debido a las especiales características de elaboración, en particular, respecto a los tiempos de curación de los jamones y paletas que son regulados por el Real Decreto 1469/2007, de 2 de noviembre, por el que se aprueba la Norma de calidad para la carne, el jamón, la paleta y la caña de lomo ibéricos, las menciones del apartado a del artículo 5, no se utilizarán en dichos productos.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Disposición adicional segunda. Cláusula de reconocimiento mutuo.</p>
+          <p class="parrafo">Los requisitos establecidos en este real decreto no se aplicarán a los jamones y paletas legalmente fabricados o comercializados de acuerdo con otras especificaciones en los otros Estados Miembros de la Unión Europea ni a los productos originarios de los países de la Asociación Europea de Libre Comercio (AELC), Partes Contratantes en el Acuerdo sobre el Espacio Económico Europeo (EEE) y de Turquía.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Disposición transitoria única. Prórroga de comercialización.</p>
+          <p class="parrafo">Los productos que entran en el ámbito de aplicación de este real decreto, que hayan salido de la industria elaboradora antes de la entrada en vigor del mismo y que no se ajusten, por tanto, a lo dispuesto en la presente norma, podrán seguir comercializándose, hasta finalización de existencias o como máximo en los quince meses siguientes a la fecha de entrada en vigor, siempre que cumplan con las disposiciones vigentes anteriores.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas todas las disposiciones de igual o inferior rango que se opongan a lo dispuesto en el presente Real Decreto y, en particular, la Orden de 30 de septiembre de 1975, por la que se implanta el marcado para control de maduración de jamones curados y todas sus modificaciones posteriores.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm. 210, de 31 de agosto de 2009. <a class="refPost">Ref. BOE-A-2009-13989</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1. 13.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2008-11987" fecha_publicacion="20080714" fecha_vigencia="20080715">
+          <p class="parrafo_2">Dado en Madrid, el 27 de junio de 2008.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Ministra de Medio Ambiente, y Medio Rural y Marino,</p>
+          <p class="firma_ministro">ELENA ESPINOSA MANGANA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

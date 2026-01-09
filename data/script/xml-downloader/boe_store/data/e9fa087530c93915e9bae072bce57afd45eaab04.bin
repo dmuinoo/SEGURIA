@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T112129Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-22211</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20071213</fecha_disposicion>
+      <numero_oficial>INT/3782/2007</numero_oficial>
+      <titulo>Orden INT/3782/2007, de 13 de diciembre, de regulación de la dieta de los miembros de las mesas electorales.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20071225</fecha_publicacion>
+      <diario_numero>308</diario_numero>
+      <fecha_vigencia>20080114</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20190315</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2007/12/13/int3782</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-22211</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="2500">Dietas</materia>
+        <materia codigo="3135">Elecciones</materia>
+        <materia codigo="3137">Elecciones locales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1991-8332</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 3 de abril de 1991</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-11672</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 28.2 de la Ley Orgánica 5/1985, de 19 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2019-3641</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Orden INT/282/2019, de 7 de marzo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-22211</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int3782</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3137"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-22211</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int3782</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3137"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20190314"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20071225"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/3782/2007, de 13 de diciembre, de regulación de la dieta de los miembros de las mesas electorales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-25</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20190314">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-22211</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int3782</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3137"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20190314/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/3782/2007, de 13 de diciembre, de regulación de la dieta de los miembros de las mesas electorales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20190314"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20190314/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20190314/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20071225">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-22211</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int3782</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2500"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3135"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3137"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-25</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20071225/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/3782/2007, de 13 de diciembre, de regulación de la dieta de los miembros de las mesas electorales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20071225"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20071225/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/12/13/int3782/con/20071225/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2019-3641" fecha_publicacion="20190314" fecha_vigencia="20190315">
+          <p class="siempreSeVe">Norma derogada, con efectos de 15 de marzo de 2019, por la disposición derogatoria única de la Orden INT/282/2019, de 7 de marzo. <a class="refPost">Ref. BOE-A-2019-3641#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="parrafo">Las Mesas electorales, que encuentran su regulación en el artículo 23 y siguientes de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (LOREG), forman parte de la Administración Electoral, y por lo tanto, velan por el principio de igualdad, y por la transparencia y objetividad del proceso electoral.</p>
+          <p class="parrafo">La Mesa electoral está formada por un Presidente y dos Vocales (art. 25 LOREG), cuyas dietas han de regularse por Orden ministerial, según dispone el artículo 28.2 de la mencionada Ley Orgánica.</p>
+          <p class="parrafo">La Orden del Ministro del Interior, de 3 de abril de 1991, por la que se determina el importe de las dietas de los miembros de las Mesas Electorales, ha venido regulando las dietas a percibir por los Presidentes y Vocales de las Mesas, y para ello vinculó la cuantía de las mismas a las que percibiera, como manutención, el personal al servicio de la Administración del Estado encuadrado en el Grupo I del anexo I del Real Decreto 462/2002, de 24 de mayo, sobre indemnizaciones por razón del servicio.</p>
+          <p class="parrafo">La experiencia de estos años ha puesto de manifiesto la trascendental labor que desempeñan los miembros integrantes de las Mesas electorales para un adecuado desarrollo del proceso electoral. La excepcional responsabilidad que conlleva este deber cívico aconseja incrementar la retribución que perciben los Presidentes y Vocales de las Mesas electorales, desvinculándola, por lo tanto, de las indemnizaciones por razón del servicio en el ámbito de la Administración del Estado.</p>
+          <p class="parrafo">En virtud de cuanto antecede,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Primero. Importe de la dieta.</p>
+          <p class="parrafo_2">Las personas que sean designadas para los cargos de Presidente y Vocal de las Mesas electorales, de conformidad con lo establecido en los artículos 25 y siguientes de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, percibirán una dieta de 60,00 euros.</p>
+        </version>
+      </bloque>
+      <bloque id="se" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Segundo. Miembros de Mesa con derecho a percibir la dieta.</p>
+          <p class="parrafo_2">La dieta señalada en el apartado anterior será percibida por cada uno de los titulares de la Mesa electoral y por jornada electoral, aún cuando en la misma se celebren varios procesos. Sólo tendrán derecho a la dieta aquéllos que tengan la condición de titulares; los suplentes, únicamente cuando adquieran la condición de titulares.</p>
+        </version>
+      </bloque>
+      <bloque id="te" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Tercero. Importe íntegro.</p>
+          <p class="parrafo_2">El derecho a la dieta lo será en su importe íntegro, con independencia del tiempo de la jornada electoral que se haya estado desempeñando el cargo.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Disposición adicional única. Remisiones normativas.</p>
+          <p class="parrafo_2">Las referencias normativas efectuadas en otras disposiciones a la Orden Ministerial de 3 de abril de 1991, por la que se establece el importe de las dietas de los miembros de las Mesas electorales, se entenderán realizadas a los preceptos de esta Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo_2">Se deroga la Orden del Ministerio del Interior, de 3 de abril de 1991, por la que se determina el importe de las dietas de los miembros de las Mesas electorales.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Disposición final primera. Entrada en vigor.</p>
+          <p class="parrafo_2">Lo dispuesto en la presente Orden será de aplicación a los procesos electorales regulados en la Ley Orgánica 5/1985, así como a las consultas populares por vía de referéndum reguladas en la Ley Orgánica 2/1980, de 18 de enero, de regulación de distintas modalidades de referéndum, que se celebren a partir de la publicación de la Orden en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="articulo">Disposición final segunda. Actualización de la dieta.</p>
+          <p class="parrafo_2">El importe fijado en el apartado primero de esta Orden se actualizará en la misma medida que lo hagan las retribuciones del personal al servicio de las Administraciones Públicas en las correspondientes Leyes anuales de Presupuestos Generales del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2007-22211" fecha_publicacion="20071225" fecha_vigencia="20080114">
+          <p class="parrafo_2">Madrid, 13 de diciembre de 2007.–El Ministro del Interior, Alfredo Pérez Rubalcaba.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

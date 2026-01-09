@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T212211Z</fecha_actualizacion>
+      <identificador>BOE-A-1994-13735</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8110">Comunidad Autónoma de La Rioja</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19940524</fecha_disposicion>
+      <numero_oficial>2/1994</numero_oficial>
+      <titulo>Ley 2/1994, de 24 de mayo, de Artesanía.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19940616</fecha_publicacion>
+      <diario_numero>143</diario_numero>
+      <fecha_vigencia>19940617</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ri/l/1994/05/24/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1994-13735</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="310">Artesanía</materia>
+        <materia codigo="3166">Empresas</materia>
+        <materia codigo="6244">La Rioja</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOR núm. 67, de 28 de mayo de 1994.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-15030</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 8.1.11 del Estatuto aprobado por Ley Orgánica 3/1982, de 9 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-13735</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-24</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3166"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-13735</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3166"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/con/19940528"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/1994, de 24 de mayo, de Artesanía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-06-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/con/19940528">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-13735</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3166"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/con/19940528/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/1994, de 24 de mayo, de Artesanía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/con/19940528"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/1994/05/24/2/con/19940528/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/1994/05/24/2/con/19940528/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA RIOJA</p>
+          <p class="parrafo_2">Sepan todos los ciudadanos que la Diputación General de La Rioja ha aprobado y yo, en nombre de su Majestad el Rey y de acuerdo con lo que establece la Constitución y el Estatuto de Autonomía, promulgo la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">El Estatuto de Autonomía de La Rioja, en su artículo 8.1.11, atribuye a nuestra Comunidad Autónoma competencia exclusiva en materia de artesanía.</p>
+          <p class="parrafo">Es, pues, necesario establecer el marco legal de actuación de la Administración Regional, que permita instrumentar las medidas para la ordenación y desarrollo de este sector, de tanto interés para La Rioja, al objeto de mejorar sus condiciones y que alcance la importancia cultural, social y económica que le corresponde.</p>
+          <p class="parrafo">La presente Ley define la actividad artesanal, a la vez que regula el medio de acreditar la condición de artesano y de empresa artesana. Se crean asimismo el Consejo Riojano de Artesanía y el Registro General de Artesanía, en términos similares a los contemplados en otras leyes análogas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 1. Objeto de la Ley.</p>
+          <p class="parrafo">Esta Ley tiene por objeto:</p>
+          <p class="parrafo_2">a) Ayudar a la modernización y reestructuración de las actividades artesanas, mejorando sus condiciones de rentabilidad, gestión y competitividad en el mercado, velando al mismo tiempo por la calidad de su producción y eliminando los obstáculos que pueden oponerse a su desarrollo en la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">b) Colaborar en la creación de los cauces de comercialización necesarios para lograr que la actividad artesana, además de ser socialmente deseable, sea económicamente rentable.</p>
+          <p class="parrafo">c) Recuperar las manifestaciones artesanales propias de La Rioja y procurar la continuación de las ya existentes.</p>
+          <p class="parrafo">d) Favorecer el autoempleo.</p>
+          <p class="parrafo">e) Fomentar la creación de nuevas actividades artesanales.</p>
+          <p class="parrafo">f) Favorecer la formación de artesanos y propiciar el desarrollo de sus actividades, fomentando las vocaciones personales y la divulgación de técnicas artesanales.</p>
+          <p class="parrafo">g) Asegurar el acceso del sector artesano a las líneas de crédito preferenciales o a las subvenciones que puedan establecerse por parte del Gobierno Regional, así como fomentar la implantación de sistemas cooperativos y asociativos.</p>
+          <p class="parrafo">h) Coordinar las manifestaciones artesanales con los programas turísticos de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">La presente Ley será de aplicación a los artesanos y empresas artesanas ubicados en la Comunidad Autónoma de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 3. Concepto de artesanía.</p>
+          <p class="parrafo">A los efectos de la presente Ley, tendrá la consideración de actividad artesanal toda aquella que suponga la creación, producción, restauración o reparación de bienes de valor artístico o popular, así como la prestación de servicios siempre que tales actividades se realicen mediante procesos en los que la actividad desarrollada sea predominantemente manual y que el producto final sea de factura individualizada y distinta de la propiamente industrial.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 4. Clasificación de actividades artesanales.</p>
+          <p class="parrafo">1. Las actividades artesanas se clasifican en cuatro grupos:</p>
+          <p class="parrafo_2">a) Artesanía artística o de creación.</p>
+          <p class="parrafo">b) Artesanía de bienes de consumo.</p>
+          <p class="parrafo">c) Artesanía de servicios.</p>
+          <p class="parrafo">d) Artesanía tradicional o popular de La Rioja.</p>
+          <p class="parrafo_2">2. Cada uno de los grupos citados podrá ser objeto de un tratamiento específico y diferenciado.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 5. Empresa artesana.</p>
+          <p class="parrafo">1. Se considera empresa artesana a toda unidad económica que, realizando una actividad de acuerdo con lo señalado en el artículo 3, reúna las siguientes condiciones:</p>
+          <p class="parrafo_2">a) Que la actividad desarrollada tenga un carácter preferentemente manual, sin que pierda dicho carácter por el empleo de utillaje y maquinaria auxiliar, y origine un producto individualizado, pero no único.</p>
+          <p class="parrafo">b) Que, como responsable de la actividad de la empresa, figure un artesano que la dirija y participe en la misma.</p>
+          <p class="parrafo_2">2. No podrán tener la consideración de empresas artesanas aquellas que ejerzan su actividad de manera ocasional o accesoria.</p>
+          <p class="parrafo">3. Podrán gozar de la consideración de empresa artesana las fórmulas asociativas de artesanos dedicadas a la producción y comercialización de sus productos, siempre y cuando todos sus integrantes tengan la condición de artesanos.</p>
+          <p class="parrafo">4. El reconocimiento oficial por la Administración Regional de la condición de empresa artesana se acreditará mediante la posesión del documento de calificación artesanal, que será expedido por la Consejería competente a aquellas empresas artesanas que, reuniendo los requisitos anteriormente enumerados, así lo soliciten.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Articulo 6">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Articulo 6. Artesanos.</p>
+          <p class="parrafo">1. Tendrán la consideración de artesanos, a efectos de esta Ley, quienes acrediten esa condición por alguno de los siguientes medios:</p>
+          <p class="parrafo_2">a) Estar en posesión de título obtenido con arreglo a la legislación vigente en cada momento.</p>
+          <p class="parrafo">b) Disponer de título académico que habilite para la práctica artesana de que se trate.</p>
+          <p class="parrafo">c) Ejercer notoria y públicamente una actividad de oficio artesano y demostrarlo documentalmente.</p>
+          <p class="parrafo_2">2. El reconocimiento oficial por la Administración de la condición de artesano se acreditará mediante la posesión del documento de calificación artesanal, que será expedido por la Consejería competente a aquellos artesanos que, reuniendo alguno de los requisitos anteriormente enumerados, así lo soliciten.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 7. Consejo Riojano de Artesanía. Creación.</p>
+          <p class="parrafo">1. Se crea el Consejo Riojano de Artesanía, como Órgano Colegiado de representación de las distintas entidades y organismos y de asesoramiento a la Administración Regional, así como a los propios artesanos y a sus organizaciones profesionales.</p>
+          <p class="parrafo">2. La composición y funcionamiento del Consejo se determinará en las normas que desarrollen la presente Ley, quedando adscrito a la Consejería competente, cuyo titular será su Presidente.</p>
+          <p class="parrafo">En todo caso, la representación de la Administración y de los Artesanos será paritaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 8. Consejo Riojano de Artesanía. Funciones.</p>
+          <p class="parrafo">El Consejo Riojano de Artesanía tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Estudiar y proponer las disposiciones reguladoras de las condiciones necesarias y el procedimiento para otorgar el documento de artesano o empresa artesana.</p>
+          <p class="parrafo">b) Informar y proponer el Repertorio de Oficios y Actividades Artesanas y velar por su actualización.</p>
+          <p class="parrafo">c) Emitir informe preceptivo sobre los anteproyectos de Ley o proyectos de Decretos que afecten directamente al sector artesanal.</p>
+          <p class="parrafo">d) Proponer actuaciones de la Administración en el sector artesano.</p>
+          <p class="parrafo">e) Cualquier otra que le pueda ser encomendada.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Artículo 9. Registro General de Artesanía de La Rioja.</p>
+          <p class="parrafo">1. Se crea el Registro General de Artesanía de La Rioja, que será único, público y gratuito, constando de las siguientes secciones:</p>
+          <p class="parrafo_2">a) Censo de Empresas Artesanas. Tendrá por objeto la inscripción de las que hayan solicitado y obtenido la calificación de empresa artesana y su actividad se halle incluida en el Repertorio.</p>
+          <p class="parrafo">b) Censo de Artesanos. Tendrá por objeto la inscripción de los que, acreditando tal condición por alguno de los medios previstos en el artículo 6, así lo soliciten y la actividad que desarrollen esté incluida en el Repertorio.</p>
+          <p class="parrafo_2">2. La inscripción en las secciones anteriormente expuestas, no obstante su voluntariedad, será requisito indispensable para acceder a los beneficios que la Comunidad Autónoma de La Rioja tenga establecidos o establezca para la protección y ayuda a la artesanía, así como para hacer uso de los distintivos o certificados de origen y calidad que se determinen.</p>
+          <p class="parrafo">3. El Registro vendrá obligado a expedir las certificaciones que sean solicitadas por los interesados sobre los extremos que figuren en él.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Consejo de Gobierno para dictar las disposiciones necesarias y adoptar las medidas pertinentes de ejecución y desarrollo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Por la Consejería competente se procederá:</p>
+          <p class="parrafo_2">a) En el plazo de tres meses desde la publicación de la presente Ley, a proponer al Consejo de Gobierno el Decreto regulador de la composición y funcionamiento del Consejo Riojano de Artesanía.</p>
+          <p class="parrafo">b) En el plazo de tres meses, contados desde la fecha en que el Consejo de Gobierno apruebe aquel Decreto, a proponer a los vocales del indicado Consejo Riojano de Artesanía, y proceder a la constitución de éste.</p>
+          <p class="parrafo">c) En el plazo de seis meses, desde la constitución del Consejo Riojano de Artesanía, a aprobar el Repertorio de Oficios y Actividades artesanas.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">La presente Ley será publicada en el «Boletín Oficial del Estado» y en el «Boletín Oficial de La Rioja», siendo la fecha de su entrada en vigor la del día siguiente al de la última de dichas publicaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1994-13735" fecha_publicacion="19940528" fecha_vigencia="19940617">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos cumplan y cooperen al cumplimiento de la presente Ley y a los Tribunales y Autoridades la hagan cumplir.</p>
+          <p class="parrafo_2">Logroño, 24 de mayo de 1994.</p>
+          <p class="firma_ministro">JOSÉ IGNACIO PÉREZ SÁENZ,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

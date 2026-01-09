@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180307Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-344</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4430">Ministerio de Trabajo y Asuntos Sociales</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19981211</fecha_disposicion>
+      <numero_oficial>2664/1998</numero_oficial>
+      <titulo>Real Decreto 2664/1998, de 11 de diciembre, sobre devolución de complementos por mínimos de las pensiones de la Seguridad Social, en su modalidad contributiva, indebidamente percibidos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990108</fecha_publicacion>
+      <diario_numero>7</diario_numero>
+      <fecha_vigencia>19990108</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1998/12/11/2664</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-344</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="5541">Pensiones</materia>
+        <materia codigo="6499">Seguridad Social</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1995-23030</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Reglamento aprobado por Real Decreto 1637/1995, de 6 de occtubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1996-3691</id_norma>
+            <relacion codigo="331">EN RELACIÓN con</relacion>
+            <texto>el Real Decreto 148/1996, de 5 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-344</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-11</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2664</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5541"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-344</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-11</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2664</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5541"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/con/19990108"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2664/1998, de 11 de diciembre, sobre devolución de complementos por mínimos de las pensiones de la Seguridad Social, en su modalidad contributiva, indebidamente percibidos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/con/19990108">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-344</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-11</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2664</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5541"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/con/19990108/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 2664/1998, de 11 de diciembre, sobre devolución de complementos por mínimos de las pensiones de la Seguridad Social, en su modalidad contributiva, indebidamente percibidos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/con/19990108"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/12/11/2664/con/19990108/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/12/11/2664/con/19990108/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1999-344" fecha_publicacion="19990108" fecha_vigencia="19990108">
+          <p class="parrafo">Durante los ejercicios 1996 y 1997, la Administración de la Seguridad Social, dentro de las medidas adoptadas en el marco de la lucha contra el fraude social, ha procedido a verificar, entre otros, si los perceptores de complementos por mínimos de las pensiones de la Seguridad Social, en su modalidad contributiva, seguían cumpliendo los requisitos que posibilitan el reconocimiento y el mantenimiento del derecho a la percepción de tales complementos, a través del cruce informático de los datos que, sobre los ingresos percibidos en cada ejercicio económico, declararon los propios interesados respecto a los datos que, respecto a tales ingresos obran en poder de la Administración tributaria, todo ello en base a las previsiones del artículo 113 de la Ley General Tributaria.</p>
+          <p class="parrafo">La actuación anterior dio lugar a la comprobación de que un número de personas que venían percibiendo los complementos por mínimos carecían del derecho a ellos, por haber superado, en los diferentes ejercicios económicos, los ingresos percibidos los importes que las respectivas Leyes de Presupuestos Generales del Estado fijaron como límite para tener derecho a los mencionados complementos por mínimos. Detectada la percepción indebida de prestaciones económicas de la Seguridad Social, en cumplimiento del artículo 45 de la Ley General de la Seguridad Social, texto refundido aprobado por Real Decreto legislativo 1/1994, de 20 de junio, se ha procedido a solicitar el reintegro de los importes correspondientes, aplicando, para ello, los mecanismos previstos en el Real Decreto 148/1996, de 5 de febrero, que regula el procedimiento especial para el reintegro de las prestaciones de la Seguridad Social indebidamente percibidas.</p>
+          <p class="parrafo">Posteriormente, con fecha de 16 de junio de 1998, el Congreso de los Diputados ha aprobado una moción mediante la que la Cámara legislativa insta al Gobierno a modificar el procedimiento de descuento en la pensión con complementos por mínimos, de modo que a los pensionistas a los que se les declaró la percepción indebida de tales complementos durante los ejercicios 1994, 1995, 1996 y 1997, que tengan unos ingresos inferiores anuales a 1.500.000 pesetas, la cantidad a devolver será equivalente al 5 por 100 de la pensión, aunque ello dé lugar a superar el plazo máximo de cinco años, previsto en el artículo 4 del mencionado Real Decreto 148/1996.</p>
+          <p class="parrafo">En su virtud, a efectos de dar cumplimiento a la moción parlamentaria, a propuesta del Ministro de Trabajo y Asuntos Sociales, con la aprobación del Ministro de Administraciones Públicas, de acuerdo con el dictamen del Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 11 de diciembre de 1998,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-1999-344" fecha_publicacion="19990108" fecha_vigencia="19990108">
+          <p class="articulo">Artículo único. Ámbito de aplicación.</p>
+          <p class="parrafo_2">La devolución de las cantidades indebidamente percibidas, en razón de complementos por mínimos de las pensiones de la Seguridad Social, en su modalidad contributiva, correspondientes a los ejercicios económicos de 1994, 1995, 1996 y 1997, siempre que los ingresos de las personas que hayan percibido tales complementos, incluidos en aquéllos el importe de la pensión, hubiesen sido durante 1997 no superiores a 1.500.000 pesetas, se realizará mediante la deducción del 5 por 100 de la pensión a percibir por el pensionista, sin que sea de aplicación el plazo máximo de cinco años a que se refiere el párrafo d), apartado 1, del artículo 4, del Real Decreto 148/1996, de 5 de febrero, por el que se regula el procedimiento especial para el reintegro de las prestaciones de la Seguridad Social indebidamente percibidas.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-1999-344" fecha_publicacion="19990108" fecha_vigencia="19990108">
+          <p class="articulo">Disposición transitoria única. Procedimientos iniciados de reintegro de complementos por mínimos.</p>
+          <p class="parrafo_2">1. Lo dispuesto en el presente Real Decreto será de aplicación, a solicitud del interesado, a los procedimientos especiales para el reintegro de complementos por mínimos de pensiones indebidamente percibidas, en los que, con anterioridad a la entrada en vigor del mismo, ya se hubiese dictado resolución administrativa, si bien únicamente respecto a la deuda que, en su caso, esté pendiente de devolución.</p>
+          <p class="parrafo">La solicitud deberá formularse ante la Entidad gestora correspondiente y surtirá efectos económicos el día 1 del mes siguiente al de la solicitud.</p>
+          <p class="parrafo">2. En los supuestos en que, por aplicación del Real Decreto 148/1996, no hubiese sido posible aplicar, a la totalidad de la deuda o a parte de la misma, el procedimiento especial de descuento en la pensión y se hubiese comunicado la deuda a la Tesorería General de la Seguridad Social, a los efectos de su reclamación por el procedimiento recaudatorio, se actuará del siguiente modo:</p>
+          <p class="parrafo_2">a) Una vez comprobado por la Entidad gestora que el interesado reúne los requisitos para la aplicación de lo previsto en el presente Real Decreto, aquélla dictará resolución por la que se deje sin efecto su resolución definitiva anterior y lo comunicará a la Tesorería General de la Seguridad Social, al objeto de que ésta acuerde la terminación del procedimiento administrativo de recaudación que viniere siguiendo frente al interesado, conforme a lo dispuesto en el párrafo d) del artículo 185 del Reglamento General de Recaudación de los Recursos del Sistema de la Seguridad Social, aprobado por Real Decreto 1637/1995, de 6 de octubre, y demás disposiciones complementarias.</p>
+          <p class="parrafo">b) La Tesorería General de la Seguridad Social, una vez acordada la terminación del procedimiento administrativo de recaudación, conforme al apartado anterior, comunicará a la Entidad gestora la deuda pendiente de reintegrar por el interesado, a efectos de que por esta última se efectúe la oportuna liquidación para la aplicación del procedimiento especial de deducción regulado en este Real Decreto.</p>
+          <p class="parrafo">La nueva deducción tendrá efectos desde el día 1 del mes siguiente al de la fecha en que por el citado Servicio común de la Seguridad Social se haya acordado la terminación del procedimiento administrativo de recaudación.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1999-344" fecha_publicacion="19990108" fecha_vigencia="19990108">
+          <p class="articulo">Disposición final primera. Facultades de aplicación y desarrollo.</p>
+          <p class="parrafo_2">Se faculta al Ministro de Trabajo y Asuntos Sociales para dictar las disposiciones de carácter general que sean necesarias para la aplicación y desarrollo del presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1999-344" fecha_publicacion="19990108" fecha_vigencia="19990108">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo_2">El presente Real Decreto entrará en vigor el día de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1999-344" fecha_publicacion="19990108" fecha_vigencia="19990108">
+          <p class="parrafo_2">Dado en Madrid a 11 de diciembre de 1998.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Trabajo y Asuntos Sociales,</p>
+          <p class="firma_ministro">JAVIER ARENAS BOCANEGRA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

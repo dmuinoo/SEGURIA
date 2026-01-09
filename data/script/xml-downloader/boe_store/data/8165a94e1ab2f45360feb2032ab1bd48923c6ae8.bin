@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183806Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-6704</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20150522</fecha_disposicion>
+      <numero_oficial>384/2015</numero_oficial>
+      <titulo>Real Decreto 384/2015, de 22 de mayo, por el que se aprueba el Reglamento de matriculación de aeronaves civiles.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20150617</fecha_publicacion>
+      <diario_numero>144</diario_numero>
+      <fecha_vigencia>20151201</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <fecha_derogacion>20260513</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2015/05/22/384</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-6704</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="100">Aeronaves</materia>
+        <materia codigo="3067">Distintivos</materia>
+        <materia codigo="5144">Navegación aérea</materia>
+        <materia codigo="5977">Registro de Matricula de Aeronaves</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-29134</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Arts. 2, párrafo 1, y 7 a 13, y MODIFICA el título del Real Decreto 2876/1982, de 15 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-13477</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Art. 18 de la Orden de 31 de mayo de 1982</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1978-413</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Art. 2.4 de la Resolución de 17 de noviembre de 1977</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1969-357</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto 416/1969, de 13 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1960-10905</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 32 y disposición final 4 de la Ley 48/1960, de 21 de julio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2025-22950</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, con efectos desde el 13 de mayo de 2026, por Real Decreto 1029/2025, de 12 de noviembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2024-11377</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 3 y 31.4, por Real Decreto 517/2024, de 4 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-6704</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">384</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5977"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-6704</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">384</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20251113"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20240605"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20150617"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 384/2015, de 22 de mayo, por el que se aprueba el Reglamento de matriculación de aeronaves civiles.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 384/2015, de 22 de maig, pel qual s'aprova el Reglament de matriculació d'aeronaus civils.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 384/2015, do 22 de maio, polo que se aproba o Regulamento de matriculación de aeronaves civís.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20251113">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-6704</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">384</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20251113/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 384/2015, de 22 de mayo, por el que se aprueba el Reglamento de matriculación de aeronaves civiles.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20251113"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20251113/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20251113/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20240605">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-6704</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">384</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20240605/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 384/2015, de 22 de mayo, por el que se aprueba el Reglamento de matriculación de aeronaves civiles.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20240605"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20240605/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20240605/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20150617">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-6704</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">384</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5977"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-06-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20150617/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 384/2015, de 22 de mayo, por el que se aprueba el Reglamento de matriculación de aeronaves civiles.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20150617"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20150617/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2015/05/22/384/con/20150617/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2025-22950" fecha_publicacion="20251113" fecha_vigencia="20251203">
+          <p class="siempreSeVe">Norma derogada, con efectos de 3 de diciembre de 2025, por la disposición derogatoria única.1.a) del Real Decreto 1029/2025, de 12 de noviembre, <a class="refPost">Ref. BOE-A-2025-22950#dd</a>, excepto los Capítulos II, III y IV del Reglamento, que seguirán aplicándose hasta el 13 de mayo de 2026, según establece la disposición transitoria 1 del citado Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="parrafo">El Registro de Matrícula de Aeronaves es un registro de naturaleza administrativa regulado en el capítulo V de la Ley 48/1960, de 21 de julio, sobre Navegación Aérea, y en el Reglamento del Registro de Matrícula de Aeronaves, aprobado por el Decreto 416/1969, de 13 de marzo.</p>
+          <p class="parrafo">Este real decreto aborda una nueva regulación del Registro de Matrícula de Aeronaves Civiles y establece un régimen registral único para todas las aeronaves civiles, incluidas las aeronaves de estructura ultraligera y de aeronaves privadas de uso no mercantil que hasta ahora contaban con un régimen específico, determina las aeronaves excluidas de inscripción e incorpora y ordena la regulación sobre matrículas de prueba para aeronaves nuevas de serie, que necesitan realizar vuelos de prueba para verificación, puesta a punto y mantenimiento, y para prototipos de aeronaves empleadas para vuelos de ensayo, desarrollo, verificación, puesta a punto o certificación.</p>
+          <p class="parrafo">Se introduce un concepto novedoso, la reserva de matrícula, para los casos en que se tenga prevista la matriculación de una aeronave en España, que se concede en tanto se sustancia el procedimiento de matriculación definitiva y se regula la cancelación temporal de una matrícula por un tiempo no superior a 5 años, cuando la misma vaya a ser temporalmente inscrita en el extranjero.</p>
+          <p class="parrafo">Por otro lado, se instrumenta la relación de este registro administrativo y el Registro de Bienes Muebles previendo la comunicación por medios telemáticos, para agilizar los trámites de inscripción, y precisando que corresponde al Registro de Matrícula de Aeronaves Civiles la función de otorgar la nacionalidad y asignar las marcas de nacionalidad y matrícula. La calificación de los títulos jurídicos aportados para la inscripción se realiza por el Registro de Bienes Muebles. Además, en este real decreto, atendiendo a lo informado por el Ministerio de Justicia, se establecen las previsiones necesarias para permitir la aplicación del Convenio relativo a garantías internacionales sobre elementos de equipo móvil (Ciudad del Cabo, noviembre de 2001), concretando que el Registro de Bienes Muebles es el punto de acceso con el Registro Internacional creado por dicho instrumento.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de la habilitación que el artículo 32 y la disposición final cuarta de la Ley 48/1960, de 21 de julio, de Navegación Aérea, otorgan al Gobierno para dictar las disposiciones necesarias para el desarrollo y ejecución de dicha ley.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Fomento, con la aprobación previa del Ministro de Hacienda y Administraciones Públicas, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 22 de mayo de 2015,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo único. Aprobación del Reglamento de matriculación de aeronaves civiles.</p>
+          <p class="parrafo">Se aprueba el Reglamento de matriculación de aeronaves civiles cuyo texto se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición adicional primera. Medios materiales y personales.</p>
+          <p class="parrafo">Las medidas incorporadas en este real decreto no suponen incremento de las asignaciones presupuestarias de cada ejercicio ni de dotaciones, retribuciones u otros gastos de personal.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición adicional segunda. Cédula de identificación.</p>
+          <p class="parrafo">La cédula de identificación a que se refieren los artículos 3, 5 y 6, del Real Decreto 2876/1982, de 15 de octubre, por el que se regula el registro y uso de aeronaves de estructura ultraligera y se modifica el registro de aeronaves privadas no mercantiles, se entenderá referida al certificado de matrícula regulado en el Reglamento aprobado por este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición adicional tercera. Asignación de matrículas hasta la terminación de las series disponibles.</p>
+          <p class="parrafo">1. A la entrada en vigor de este real decreto, el distintivo de marca de matrícula de las aeronaves del Registro de Matrícula de Aeronaves de España seguirá consistiendo en un grupo de tres letras del alfabeto español.</p>
+          <p class="parrafo">En las aeronaves de construcción por aficionados, las marcas de matrícula seguirán empezando por las letras Y, Z o X.</p>
+          <p class="parrafo">Los ultraligeros seguirán utilizando para la marca de matrícula dos letras que se formarán sucesivamente, según el orden alfabético y a las que seguirá un número, del 1 al 9, de forma también sucesiva.</p>
+          <p class="parrafo">2. Una vez agotadas las marcas de matrícula a que se refiere el apartado anterior, estas se empezarán a asignar de acuerdo con lo previsto en el Reglamento de matriculación de aeronaves civiles aprobado por este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dacuaa" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición adicional cuarta. Validez de la matrícula y de la Cédula de Identificación de las aeronaves ultraligeras emitidas con anterioridad a la entrada en vigor de este real decreto.</p>
+          <p class="parrafo">Las aeronaves de estructura ultraligera matriculadas en el Régimen Especial de Ultraligeros, a partir de la entrada en vigor de este real decreto, quedarán integradas en el Registro de Matrícula de Aeronaves Civiles, conservando la validez de la matrícula y de la Cédula de Identificación.</p>
+        </version>
+      </bloque>
+      <bloque id="daquinta" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición adicional quinta. Certificados de matrícula emitidos en papel.</p>
+          <p class="parrafo">Los certificados de matrícula originales, emitidos en soporte de papel antes de la entrada en vigor de este real decreto, deberán aportarse en el momento de la cancelación de la matrícula o cambio de titularidad de la aeronave, o en un plazo máximo de quince días desde que alguna de esas circunstancias tuviese lugar.</p>
+          <p class="parrafo">En caso de sustracción, extravío o de deterioro del certificado de matrícula emitido en papel, el titular registral podrá solicitar la emisión de un duplicado digital del certificado de matrícula, aportando la denuncia presentada ante la autoridad policial competente, en los casos de sustracción.</p>
+        </version>
+      </bloque>
+      <bloque id="dasexta" tipo="precepto" titulo="Disposición adicional sexta">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición adicional sexta. Registros internacionales.</p>
+          <p class="parrafo">Cuando de conformidad con lo previsto en un Convenio o Tratado internacional suscritos por España y en los protocolos y reglamentos de desarrollo de aquéllos, ciertos derechos y garantías impuestos sobre aeronaves matriculadas en España fueren susceptibles de inscripción en un Registro Internacional, sin perjuicio de la aplicación preferente de las normas internacionales, se procederá del modo siguiente:</p>
+          <p class="parrafo_2">a) Una vez practicada la inscripción de la garantía o derecho internacional en el Registro de Bienes Muebles, o desde el propio asiento de presentación cuando se prevea la reserva de prioridad sobre derechos de constitución futura, el Registrador competente de Bienes Muebles deberá hacer constar la reserva de prioridad internacional en el Registro Internacional correspondiente en los términos y requisitos previstos en el correspondiente Tratado y Protocolo.</p>
+          <p class="parrafo">A los efectos de lo previsto en el artículo 18 del Convenio relativo a garantías internacionales sobre elementos de equipo móvil, hecho en Ciudad del Cabo el 16 de noviembre de 2001, el Registro de Bienes Muebles es el punto de acceso nacional de la información necesaria para la práctica de la inscripción internacional.</p>
+          <p class="parrafo">Los requisitos sustantivos y formales de la garantía o del derecho internacional inscribible y los del procedimiento ante el Registro Internacional se rigen por lo previsto en el correspondiente instrumento internacional. De las comunicaciones practicadas al Registro Internacional dará cuenta inmediata el Registrador de Bienes Muebles al Registro de Matrícula de Aeronaves Civiles.</p>
+          <p class="parrafo">b) Cuando las garantías y derechos sujetos a Ley española fueran también susceptibles de inscripción en un Registro Internacional a los efectos de lo previsto en el correspondiente Tratado, protocolo o reglamento y los interesados lo solicitaren expresamente del Registrador de Bienes Muebles para ganar prioridad internacional, el Registrador, practicada la inscripción, procederá en la forma prevista anteriormente para la reserva de prioridad internacional.</p>
+          <p class="parrafo">c) De conformidad con lo previsto en el correspondiente Tratado, tendrán prioridad sobre la garantía y derechos internacionales sobre bienes muebles registrables sitos en España los derechos y privilegios o categoría de los mismos, aún no inscritos en el Registro Internacional, que el legislador Español se hubiere reservado como prioritarios en el correspondiente instrumentos de adhesión, ratificación o aprobación del Tratado, protocolo o reglamento.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición transitoria única. Régimen de los procedimientos iniciados con anterioridad a la entrada en vigor de este real decreto.</p>
+          <p class="parrafo">Los procedimientos iniciados antes de la entrada en vigor de este real decreto proseguirán su tramitación conforme al nuevo régimen del registro de matrícula, conservándose todos los trámites realizados con anterioridad.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogados:</p>
+          <p class="parrafo_2">a) El Decreto 416/1969, de 13 de marzo, sobre el Reglamento del Registro de Matrícula de Aeronaves.</p>
+          <p class="parrafo">b) El primer párrafo del artículo 2, y los artículos del 7 al 13, ambos inclusive, del Real Decreto 2876/1982, de 15 de octubre, por el que se regula el registro y uso de aeronaves de estructura ultraligera y se modifica el registro de aeronaves privadas no mercantiles.</p>
+          <p class="parrafo">c) El artículo 18 de la Orden de 31 de mayo de 1982, por el que se aprueba un nuevo reglamento para la construcción de aeronaves por aficionados.</p>
+          <p class="parrafo">d) El apartado 4, del artículo 2, de la Resolución de la Subsecretaría de Aviación Civil de 17 de noviembre de 1977, por la que se aprueba el texto refundido del Reglamento de Marcas de Nacionalidad y de Matrícula de las Aeronaves Civiles.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición final primera. Modificación del Real Decreto 2876/1982, de 15 de octubre, por el que se regula el registro y uso de aeronaves de estructura ultraligera y se modifica el registro de aeronaves privadas no mercantiles.</p>
+          <p class="parrafo">Se modifica el título que pasa a rubricarse «Real Decreto 2876/1982, de 15 de octubre, por el que se regula el registro y uso de aeronaves de estructura ultraligera».</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición final segunda. Normativa de aplicación supletoria.</p>
+          <p class="parrafo">En lo no previsto en este real decreto serán de aplicación las disposiciones generales sobre procedimientos administrativos contenidas en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición final tercera. Desarrollo normativo.</p>
+          <p class="parrafo">El Ministro de Fomento dictará las normas de desarrollo que precise este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfcuaa" tipo="precepto" titulo="Disposición final cuarta">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición final cuarta. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de la competencia exclusiva del Estado sobre aeropuertos de interés general; control del espacio aéreo, tránsito y transporte aéreo, y matriculación de aeronaves, establecida en el artículo 149.1.20.ª de la Constitución.</p>
+        </version>
+      </bloque>
+      <bloque id="dfquinta" tipo="precepto" titulo="Disposición final quinta">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Disposición final quinta. Entrada en vigor.</p>
+          <p class="parrafo">Este real decreto entrará en vigor el 1 de diciembre de 2015.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="parrafo_2">Dado en Madrid, el 22 de mayo de 2015.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Ministra de Fomento,</p>
+          <p class="firma_ministro">ANA MARÍA PASTOR JULIÁN</p>
+        </version>
+      </bloque>
+      <bloque id="reglamento" tipo="encabezado" titulo="REGLAMENTO">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="anexo">REGLAMENTO DE MATRICULACIÓN DE AERONAVES CIVILES</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Este reglamento tiene por objeto regular los requisitos, forma y efectos de la inscripción de las aeronaves civiles en el Registro de Matrícula de Aeronaves Civiles, así como los actos y documentos inscribibles, de conformidad con lo dispuesto en la Ley 48/1960, de 21 de julio, sobre Navegación Aérea.</p>
+          <p class="parrafo">Asimismo, regula los requisitos para la asignación de matrículas de prueba para aeronaves nuevas de serie o prototipos de aeronaves.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">1. Este reglamento se aplicará a todas las aeronaves civiles que sean inscribibles de conformidad con lo dispuesto en el artículo 18 de la Ley 48/1960, de 21 de julio.</p>
+          <p class="parrafo">2. Quedan incluidos en el ámbito de aplicación de este reglamento los ultraligeros, las aeronaves históricas y las aeronaves construidas por aficionados, con la excepción de las aeronaves que se enumeran en el artículo 3.</p>
+          <p class="parrafo">3. Este reglamento no se aplicará a las aeronaves militares, considerándose como tales las establecidas en el artículo 14.1.º de la Ley 48/1960, de 21 de julio, que están sujetas a su regulación específica.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 3. Aeronaves excluidas de su inscripción en el Registro de Matrícula de Aeronaves Civiles.</p>
+          <p class="parrafo">En virtud de lo dispuesto en el artículo 151 de la Ley 48/1960, de 21 de julio, en su texto modificado por la Ley 55/1999, de 29 de diciembre, de Medidas fiscales, administrativas y del orden social, las siguientes aeronaves quedan exentas del requisito de inscripción en el Registro de Matrícula de Aeronaves:</p>
+          <p class="parrafo_2">a) Alas delta y otras alas de vuelo libre: Se consideran alas delta y alas de vuelo libre aquellas aeronaves dotadas de estructuras sustentadoras, rígidas o semirrígidas, que precisan de la acción humana para el despegue y el aterrizaje, así como para desplazarse por la atmósfera.</p>
+          <p class="parrafo">b) Parapentes: Se consideran parapentes aquellas estructuras sustentadoras no rígidas, para cuyo despegue y aterrizaje se requiere únicamente el esfuerzo físico de sus ocupantes.</p>
+          <p class="parrafo">c) Parapentes motorizados: Se consideran parapentes motorizados o para motores aquellos parapentes que cuentan con un sistema de propulsión auxiliar, ya sea éste soportado por un ocupante o por una estructura auxiliar.</p>
+          <p class="parrafo">d) Otras aeronaves que precisen del esfuerzo físico para el despegue o el aterrizaje, aun cuando estén dotadas de un sistema de propulsión auxiliar para facilitar el despegue.</p>
+          <p class="parrafo">e) Microplaneadores: Se consideran microplaneadores aquellas aeronaves sin motor cuyo peso en vacío sea inferior a 80 kilogramos en el caso de monoplazas o 100 kilogramos en el de biplazas, incluidos los de lanzamiento a pie.</p>
+          <p class="parrafo">f) Otras aeronaves cuyo peso total al despegue, descontado el peso del piloto, sea inferior a 70 kilogramos.</p>
+          <p class="parrafo">g) Globos cautivos: Se consideran globos cautivos aquellos aeróstatos no susceptibles de ser tripulados, que principalmente se sostienen en el aire en virtud de su fuerza ascensional y que no se desplazan libremente en la atmósfera por cuanto permanecen amarrados a tierra o a un vehículo que se desplace sobre la superficie terrestre o acuática.</p>
+          <p class="parrafo">h) Globos libres no tripulados, cuyo peso máximo al despegue sea inferior a 6 kilogramos. Se consideran globos libres no tripulados aquellos aerostatos no susceptibles de ser tripulados ni controlados.</p>
+          <p class="parrafo">i) Aeromodelos, entendiendo por tales, las aeronaves, capaces de sostenerse en la atmósfera, no susceptibles de llevar una persona a bordo, siempre que sean utilizadas exclusivamente para demostraciones aéreas, actividades deportivas, recreativas o de competición cuyo peso máximo al despegue sea inferior a 150 kilogramos.</p>
+          <p class="parrafo">j) Las aeronaves pilotadas por control remoto cuya inscripción no proceda, conforme a lo previsto en su normativa específica.</p>
+        </version>
+        <version id_norma="BOE-A-2024-11377" fecha_publicacion="20240605" fecha_vigencia="20240625">
+          <p class="articulo">Artículo 3. Aeronaves excluidas de su inscripción en el Registro de Matrícula de Aeronaves Civiles.</p>
+          <p class="parrafo">En virtud de lo dispuesto en el artículo 151 de la Ley 48/1960, de 21 de julio, las siguientes aeronaves quedan exentas del requisito de inscripción en el Registro de Matrícula de Aeronaves:</p>
+          <p class="parrafo_2">a) Alas delta y otras alas de vuelo libre: se consideran alas delta y alas de vuelo libre aquellas aeronaves dotadas de estructuras sustentadoras, rígidas o semirrígidas, que precisan de la acción humana para el despegue y el aterrizaje, así como para desplazarse por la atmósfera.</p>
+          <p class="parrafo">b) Parapentes: se consideran parapentes aquellas estructuras sustentadoras no rígidas, para cuyo despegue y aterrizaje se requiere únicamente el esfuerzo físico de sus ocupantes.</p>
+          <p class="parrafo">c) Parapentes motorizados: se consideran parapentes motorizados o para motores aquellos parapentes que cuentan con un sistema de propulsión auxiliar, ya sea éste soportado por un ocupante o por una estructura auxiliar.</p>
+          <p class="parrafo">d) Otras aeronaves que precisen del esfuerzo físico para el despegue o el aterrizaje, aun cuando estén dotadas de un sistema de propulsión auxiliar para facilitar el despegue.</p>
+          <p class="parrafo">e) Microplaneadores: se consideran microplaneadores aquellas aeronaves sin motor cuyo peso en vacío sea inferior a 80 kilogramos en el caso de monoplazas o 100 kilogramos en el de biplazas, incluidos los de lanzamiento a pie.</p>
+          <p class="parrafo">f) Otras aeronaves cuyo peso total al despegue, descontado el peso del piloto, sea inferior a 70 kilogramos.</p>
+          <p class="parrafo">g) Globos cautivos cuyo diseño no esté sujeto a certificación conforme a lo previsto en su normativa específica: se consideran globos cautivos aquellos aeróstatos no susceptibles de ser tripulados, que principalmente se sostienen en el aire en virtud de su fuerza ascensional y que no se desplazan libremente en la atmósfera por cuanto permanecen amarrados a tierra o a un vehículo que se desplace sobre la superficie terrestre o acuática.</p>
+          <p class="parrafo">h) Globos libres no tripulados, cuyo diseño no esté sujeto a certificación conforme a lo previsto en su normativa específica, o cuyo peso máximo al despegue sea inferior a 6 kilogramos. Se consideran globos libres no tripulados aquellos aerostatos no susceptibles de ser tripulados ni controlados.</p>
+          <p class="parrafo">i) Las aeronaves no tripuladas cuyo diseño no esté sujeto a certificación conforme a lo previsto en su normativa específica.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición final 4.1 del Real Decreto 517/2024, de 4 de junio. <a class="refPost">Ref. BOE-A-2024-11377#df-4</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Del Registro de Matrícula de Aeronaves Civiles</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 4. Sede.</p>
+          <p class="parrafo">El Registro de Matrícula de Aeronaves Civiles depende de la Agencia Estatal de Seguridad Aérea, y su ámbito geográfico se extiende a todo el territorio nacional. Consta de una sola oficina con sede en Madrid.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 5. Naturaleza.</p>
+          <p class="parrafo">1. El Registro de Matrícula de Aeronaves Civiles es un registro de naturaleza administrativa, cuyas inscripciones otorgan la matrícula y nacionalidad española a las aeronaves civiles inscritas en él.</p>
+          <p class="parrafo">2. Los datos que figuren anotados en el Registro de Matrícula de Aeronaves Civiles no prejuzgarán las cuestiones de propiedad, cumplimiento de contratos y, en general, cuantas otras de naturaleza civil o mercantil puedan suscitarse respecto a las aeronaves</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 6. Publicidad.</p>
+          <p class="parrafo">1. El Registro de Matrícula de Aeronaves Civiles es un registro público, accesible a aquellas personas que acrediten un interés legítimo. La publicidad se realizará mediante certificación de los datos inscritos, que constarán en soporte informático.</p>
+          <p class="parrafo">2. La autoridad registral emitirá los siguientes certificados:</p>
+          <p class="parrafo_2">a) Certificado de titularidad.</p>
+          <p class="parrafo">b) Certificado de flota.</p>
+          <p class="parrafo">c) Certificado sobre la historia registral de una aeronave</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 7. Régimen registral único.</p>
+          <p class="parrafo">En el Registro de Matrícula de Aeronaves Civiles existirá un único régimen registral que será común para todas las aeronaves.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 8. Tipo de asientos y efectos.</p>
+          <p class="parrafo">1. En el Registro de Matrícula de Aeronaves Civiles se practicarán dos tipos de asientos, inscripciones y anotaciones. Las inscripciones, otorgan la matrícula y nacionalidad española, sólo surtirán efectos administrativos para la operación de las aeronaves y las consecuencias asociadas a ella, sin perjuicio de las consecuencias tributarias que puedan derivarse de la matriculación de las aeronaves, y las anotaciones se producen a los exclusivos efectos de publicidad.</p>
+          <p class="parrafo">2. Inscripciones registrales:</p>
+          <p class="parrafo_2">a) Matriculación.</p>
+          <p class="parrafo">b) Cancelación.</p>
+          <p class="parrafo_2">3. Anotaciones registrales, de los títulos jurídicos que afecten a la aeronave, al propietario y al operador de la aeronave, relativas a:</p>
+          <p class="parrafo_2">a) Cambios de titularidad.</p>
+          <p class="parrafo">b) Cargas y gravámenes.</p>
+          <p class="parrafo">c) Vicisitudes técnicas de conformidad con el artículo 30.</p>
+          <p class="parrafo_2">Se anotará cualquier acto o contrato por el que se adquiera o transmita la propiedad, contratos de arrendamiento o cualquier otro título traslativo de la posesión o uso de la aeronave, junto con las novaciones a dichos contratos posesorios si las hubiere, siempre que dichas novaciones impliquen cambio en la posición jurídica del poseedor, o supongan la modificación subjetiva de una de las partes del contrato ya inscrito. También se anotarán las cargas, gravámenes e hipotecas que afecten a las aeronaves.</p>
+          <p class="parrafo">Quedan excluidos los contratos de arrendamiento de corta duración contemplados en el artículo 27.</p>
+          <p class="parrafo">4. Para llevar a cabo las inscripciones y anotaciones en el Registro de Matrícula de Aeronaves Civiles se abrirá una hoja de asiento para cada aeronave en la que se harán constar su matriculación, los datos técnicos de la aeronave y sus vicisitudes técnicas, la referencia al título jurídico, los seguros aéreos obligatorios a los que está sujeta, las cargas y gravámenes, así como los cambios de titularidad que se produzcan en relación con ella. La hoja de asiento para cada aeronave se cerrará con la cancelación de la matrícula.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 9. Competencia para practicar los asientos registrales y la emisión de certificaciones.</p>
+          <p class="parrafo">La competencia para practicar las inscripciones y anotaciones registrales, así como para la emisión de los correspondientes certificados, corresponde a quien determine el Estatuto de la Agencia Estatal de Seguridad Aérea, aprobado por Real Decreto 184/2008, de 8 de febrero.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 10. Relación con el Registro de Bienes Muebles.</p>
+          <p class="parrafo">1. Las aeronaves habrán de inscribirse necesariamente en el Registro de Matrícula de Aeronaves Civiles y, cuando proceda de conformidad con lo previsto en su normativa específica, en el Registro de Bienes Muebles, con excepción de las aeronaves con matrícula de pruebas.</p>
+          <p class="parrafo">2. La primera inscripción de una aeronave se practicará en el Registro de Matrícula de Aeronaves Civiles, quien a la vista de la documentación presentada, mencionada en el artículo 21, asignará a la aeronave una matrícula con el carácter de provisional y emitirá un Certificado de Matrícula provisional, realizando la anotación preventiva del título jurídico que origina la concesión de la matrícula provisional.</p>
+          <p class="parrafo">La inscripción definitiva de la aeronave se realizará en los términos previstos en el artículo 23, procediendo la autoridad registral a la emisión del Certificado de Matrícula definitivo.</p>
+          <p class="parrafo">3. Los actos jurídicos posteriores a la matriculación de las aeronaves que sean inscribibles en el Registro de Bienes Muebles, conforme a su legislación específica, se inscribirán primero en dicho Registro.</p>
+          <p class="parrafo">Los actos a que se refiere el párrafo anterior, que impliquen cambio de titularidad se anotarán en el Registro de Matrícula de Aeronaves, a petición de los interesados, siempre que quede acreditada la inscripción previa en el Registro de Bienes Muebles mediante la comunicación efectuada por éste. Las cargas y gravámenes se anotarán de oficio en virtud del comunicado del Registro de Bienes Muebles.</p>
+          <p class="parrafo">4. Si se produjera alguna causa de cancelación de la matrícula de las previstas en este reglamento, el Registro de Matrícula de Aeronaves cancelará la matrícula y lo comunicará, al Registro de Bienes Muebles, cuando la aeronave estuviera inscrita en dicho Registro.</p>
+          <p class="parrafo">5. Todas las inscripciones que se realicen en el Registro de Bienes Muebles o en el Registro de Matrícula de Aeronaves, se comunicarán entre ellos por vía telemática.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Procedimiento de matriculación de aeronaves</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="seccion">Sección 1.ª Normas comunes</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 11. Legitimación activa.</p>
+          <p class="parrafo">Estarán facultados para solicitar las inscripciones y anotaciones registrales contempladas en el artículo 8, las personas físicas o jurídicas que tengan la nacionalidad de cualquiera de los Estados miembros del Espacio Económico Europeo, cuando operen las aeronaves a que se refiere el artículo 2, tanto si son propietarios de ellas, como si las explotan en virtud de un contrato de arrendamiento, o cualquier otro título posesorio reconocido en la legislación vigente.</p>
+          <p class="parrafo">También podrán solicitarlo las personas físicas o jurídicas que no siendo nacionales de Estados miembros, tengan respectivamente su residencia habitual o establecimiento permanente en España y destinen las aeronaves a un uso privado</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 12. Solicitudes.</p>
+          <p class="parrafo">1. Las inscripciones o anotaciones se practicarán a instancia de parte o de oficio, según corresponda.</p>
+          <p class="parrafo">2. Las solicitudes de inscripción o anotación, iniciadas a instancia de parte, que no cuenten con un procedimiento específico, deberán acompañar la siguiente documentación:</p>
+          <p class="parrafo_2">a) El justificante del abono de la tasa requerida para la prestación del servicio que se solicita.</p>
+          <p class="parrafo">b) Si es persona física, copia del pasaporte, DNI, NIE o tarjeta de residencia. En el caso de los españoles, consentimiento para que el Registro de Matrícula de Aeronaves pueda obtener ese dato del Sistema de verificación de datos de identidad.</p>
+          <p class="parrafo">c) Si se trata de persona jurídica, copia de la escritura de constitución y poderes de representación y, en su caso, certificación del Registro oficial donde esté inscrita la entidad, que acredite que está legalmente constituida en cualquier Estado miembro de la Unión Europea o del Espacio Económico Europeo.</p>
+          <p class="parrafo">d) Copia del Título jurídico y resto de la documentación que, en su caso, sea necesaria en función del mismo. Para el caso de aeronaves de origen militar español, se deberá aportar certificado de baja definitiva en el Registro de Aeronaves de la Defensa, en el que se indique el destino final de la misma.</p>
+          <p class="parrafo">Para el caso de los Títulos jurídicos que nos sean inscribibles en el Registro de Bienes Muebles, se aportará original y copia del mismo.</p>
+          <p class="parrafo">e) Documento de despacho de aduana, para los casos de importación o exportación de las aeronaves.</p>
+          <p class="parrafo">f) Autoliquidación del Impuesto Especial sobre Determinados Medios de Transporte o justificación de no sujeción o de exención.</p>
+          <p class="parrafo">g) Liquidación de los impuestos que corresponda o la declaración de no sujeción, exención, prescripción o aplazamiento de los mismos.</p>
+          <p class="parrafo_2">3. Las solicitudes dirigidas al Registro de Matrícula de Aeronaves podrán presentarse, con arreglo a modelos normalizados:</p>
+          <p class="parrafo_2">a) Por cualquiera de los medios indicados en el artículo 38.4 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común. Con arreglo a modelos normalizados, junto con la documentación requerida en cada caso.</p>
+          <p class="parrafo">b) Por medios electrónicos de conformidad con lo establecido en la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos y demás normativa aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 13. Títulos jurídicos.</p>
+          <p class="parrafo">La inscripción en el Registro de Matrícula de Aeronaves Civiles se practicará en virtud de documento público o privado que acredite la adquisición de la propiedad o la posesión de la aeronave, en el que conste la liquidación del Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados.</p>
+          <p class="parrafo">Los documentos públicos, cuando sean otorgados en territorio extranjero, deberán ser objeto de legalización conforme a lo estipulado en el Real Decreto 1497/2011, de 24 de octubre, por el que se determinan los funcionarios y autoridades competentes para realizar la legalización única o apostilla prevista por el Convenio XII de la Conferencia de La Haya de Derecho Internacional Privado, de 5 de octubre de 1961.</p>
+          <p class="parrafo">Los documentos privados, deberán contener la legitimación notarial de las firmas de los otorgantes. Para el caso de los otorgados en territorio extranjero deberán contener la legalización, mediante la apostilla de la Haya, de la intervención notarial.</p>
+          <p class="parrafo">En el caso de los países no firmantes del Convenio de La Haya, se efectuará la legalización por vía diplomática.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 14. Idioma.</p>
+          <p class="parrafo">Los títulos jurídicos no redactados en castellano deberán presentarse traducidos por intérprete jurado.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 15. Plazos para instar las inscripciones y anotaciones.</p>
+          <p class="parrafo">1. El plazo máximo para solicitar la inscripción de matriculación de una aeronave será de tres meses a contar desde la fecha de otorgamiento del título jurídico correspondiente o desde la fecha de entrega de la aeronave para el comienzo de las operaciones.</p>
+          <p class="parrafo">Si la aeronave estuviera matriculada en otro Estado, el plazo máximo para instar la inscripción contará desde la cancelación de matrícula en el Registro de Matrícula de Aeronaves del país de procedencia.</p>
+          <p class="parrafo">El plazo máximo para solicitar la cancelación de una aeronave será de tres meses a contar desde la fecha de otorgamiento del título jurídico correspondiente. En los casos de destrucción o inoperatividad será de un año desde que se produjo el siniestro o desde que la aeronave quedó inoperativa.</p>
+          <p class="parrafo">2. El plazo máximo para solicitar las anotaciones de cambios de titularidad, cargas y gravámenes será de 15 días, una vez quede acreditada la inscripción previa del título jurídico correspondiente en el Registro de Bienes Muebles mediante la comunicación efectuada por éste. En aquellos casos en los que el título jurídico aportado no sea inscribible en ese Registro, corresponde al Registro de Matrícula de Aeronaves Civiles la inscripción del mismo y su anotación en el plazo máximo de tres meses contados a partir del día siguiente al de la fecha de su presentación</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 16. Obligatoriedad de la inscripción.</p>
+          <p class="parrafo">1. De conformidad con lo dispuesto en el artículo 29 de la Ley 48/1960, de 21 de julio, las aeronaves deberán estar matriculadas en el Registro de Matrícula de Aeronaves Civiles excepto las aeronaves con matricula de prueba previstas en el capítulo IV y las que se relacionan en el artículo 3.</p>
+          <p class="parrafo">2. La obligación de instar la inscripción de matriculación o la anotación registral de cambio de titularidad de una aeronave recaerá en el adquirente por cualquier título de la misma, ya sea ínter vivos o mortis causa.</p>
+          <p class="parrafo">3. La obligación de instar la inscripción de cancelación de una matrícula recaerá en el titular registral.</p>
+          <p class="parrafo">4. El incumplimiento de las obligaciones derivadas del presente Reglamento serán sancionables de acuerdo con lo establecido en Ley 21/2003 de 7 de julio, de Seguridad Aérea.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 17. Marcas de nacionalidad y matrícula de aeronaves civiles.</p>
+          <p class="parrafo">1. Los distintivos de nacionalidad y matrícula de las aeronaves del Registro de Matrícula de Aeronaves Civiles de España están formados por la marca de nacionalidad española, que se determina por el grupo de letras EC, seguido, tras un guion, por 4 letras del alfabeto español, con omisión de la «ñ», que componen la matrícula, y que se combinarán sucesivamente, siguiendo el orden alfabético.</p>
+          <p class="parrafo">2. Para las aeronaves de estructura ultraligera y las construidas por aficionados, las marcas de matrícula consistirán, además de la marca de nacionalidad compuesta por las letras EC, en un grupo formado por una letra empezando por la U o por la A, respectivamente, y tres números, que se asignarán por orden sucesivo.</p>
+          <p class="parrafo">3. Las marcas de nacionalidad y matrícula de aeronaves civiles deberán cumplir con las estipulaciones fijadas en las normas de desarrollo de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 18. Individualización de las aeronaves.</p>
+          <p class="parrafo">La aeronave se individualizará por el número que le asigne el Registro de Matrícula de Aeronaves.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 19. Silencio administrativo y recursos.</p>
+          <p class="parrafo">1. Transcurridos los plazos establecidos para la resolución de los procedimientos previstos en este real decreto sin que se haya dictado resolución expresa, los interesados podrán entender desestimadas sus pretensiones por silencio administrativo de conformidad con lo previsto en la disposición adicional vigésimo novena, de la Ley 14/2000, de 29 de diciembre, de medidas fiscales, administrativas y del orden social.</p>
+          <p class="parrafo">2. Frente a los actos, expresos o presuntos, del Director de Seguridad de Aeronaves, que no agotan la vía administrativa, podrá interponerse recurso de alzada ante el Director de la Agencia Estatal de Seguridad Aérea, de conformidad con lo establecido en el artículo 4 del Real Decreto 184/2008, de 8 de febrero, por el que se aprueba el estatuto de la Agencia Estatal de Seguridad Aérea.</p>
+          <p class="parrafo">Los plazos para la interposición del recurso de alzada serán, según lo previsto en el artículo 115 de la Ley 30/1992, de 26 de noviembre, si el acto fuera expreso un mes, desde el día siguiente a la notificación del mismo, si no lo fuera, el plazo será de tres meses a partir del día siguiente a aquél en que se produzcan los efectos del silencio administrativo.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="seccion">Sección 2.ª Matriculación</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 20. Reserva de matrícula.</p>
+          <p class="parrafo">1. El Registro de Matrícula de Aeronaves Civiles podrá reservar una matrícula para las aeronaves nuevas o usadas cuyos adquirentes tengan prevista su matriculación en España. Para ello, el solicitante de dicha reserva de matrícula, deberá adjuntar a su solicitud, la siguiente documentación:</p>
+          <p class="parrafo_2">a) Solicitud de reserva de matrícula de la aeronave, junto con el justificante de liquidación de la tasa correspondiente.</p>
+          <p class="parrafo">b) Una declaración jurada por escrito, justificando la necesidad de reserva de matrícula y comprometiéndose, bajo su responsabilidad, a no hacer uso de la matrícula reservada hasta tanto el Registro de Matrícula de Aeronaves no emita el certificado de matrícula provisional de la aeronave.</p>
+          <p class="parrafo">c) Copia del título jurídico o acuerdo de intenciones, que acredite que se va a adquirir la propiedad o gozará de la posesión de la aeronave. En el caso de que el origen de la aeronave sea militar española, certificado con la situación administrativa de baja definitiva, o en proceso de baja, del Registro de Aeronaves de la Defensa.</p>
+          <p class="parrafo_2">2. Para obtener una reserva de matrícula es requisito necesario que la aeronave disponga del correspondiente certificado de tipo o esté en condiciones de disponer de un certificado de aeronavegabilidad restringido.</p>
+          <p class="parrafo">3. La reserva de matrícula adjudicada tendrá una duración máxima de seis meses, transcurridos los cuales se materializará en una matrícula provisional. En caso contrario, se cancelará de oficio la reserva.</p>
+          <p class="parrafo">4. No podrá reservarse una matrícula para aeronaves de estructura ultraligera o aeronaves construidas por aficionados.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 21. Matrícula provisional.</p>
+          <p class="parrafo">1. En el marco del procedimiento de matriculación definitiva de una aeronave y con carácter previo a su concesión, el Registro de Matrícula de Aeronaves asignará a la aeronave una matrícula provisional, siempre que la aeronave disponga del correspondiente certificado de tipo o esté en condiciones de disponer de un certificado de aeronavegabilidad restringido, a petición de la persona física o jurídica que reúna los requisitos establecidos en este Reglamento, y presente a tal efecto la documentación contemplada en el artículo 12.2, con excepción de la contemplada en sus apartados e), f) y g), junto con los siguientes documentos:</p>
+          <p class="parrafo_2">a) Copia del título jurídico que acredite suficientemente su condición de propietario o poseedor legítimo de la aeronave.</p>
+          <p class="parrafo">b) Certificado de no inscripción, en caso de aeronaves de nueva construcción, o de cancelación de matrícula, en el Registro de Matrícula de Aeronaves del país de procedencia, o certificado de baja, en el Registro de Aeronaves de la Defensa, para el caso de aeronaves de origen militar español.</p>
+          <p class="parrafo">c) Certificado de la compañía aseguradora o contrato de seguro realizado de conformidad con el Reglamento (CE) 785/2004 del Parlamento europeo y del Consejo, de 21 de abril de 2004, sobre los requisitos de seguro de las compañías aéreas y operadores aéreos, o, en su caso, conforme a lo previsto en la Ley de Navegación Aérea y otra normativa de aplicación.</p>
+          <p class="parrafo_2">Para la asignación de una matrícula provisional, podrán presentarse documentos en lengua extranjera y fotocopias de la documentación requerida.</p>
+          <p class="parrafo">2. Las aeronaves construidas por aficionado, además de la documentación prevista en la letra c) del apartado anterior, deben aportar la siguiente:</p>
+          <p class="parrafo_2">a) Copia de la Declaración de propiedad suscrita por el constructor de la aeronave, en el que conste como número de serie identificativo de la aeronave el número de la autorización de construcción.</p>
+          <p class="parrafo">b) Certificado de Aeronavegabilidad provisional o documento equivalente.</p>
+          <p class="parrafo_2">3. El Registro de Matrícula de Aeronaves Civiles emitirá un certificado de matrícula provisional que tendrá los mismos efectos que el certificado de matrícula definitivo.</p>
+          <p class="parrafo">Dicho certificado se emitirá en el plazo máximo de 15 días, desde la solicitud, siempre que se aporten la totalidad de los documentos contemplados en el apartado 1 o, en su caso, desde la subsanación de la solicitud, o en su defecto, desde la finalización del plazo de subsanación.</p>
+          <p class="parrafo">La matrícula provisional de una aeronave determinará la nacionalidad española durante la vigencia de dicha matrícula.</p>
+          <p class="parrafo">Concedida la matricula provisional, siempre que el título jurídico sea inscribible en el Registro de Bienes Muebles, el interesado deberá presentar el original del título jurídico en dicho Registro para su calificación e inscripción, como paso previo para la conversión de la matrícula provisional en definitiva. En aquellos casos en los que el título jurídico aportado no sea inscribible en ese Registro, el Registro de Matrícula de Aeronaves Civiles procederá a la inscripción del mismo.</p>
+          <p class="parrafo">4. La Agencia Estatal de Seguridad Aérea no emitirá el certificado de aeronavegabilidad hasta que el Registro de Matrícula de Aeronaves Civiles emita el certificado de matrícula provisional.</p>
+          <p class="parrafo">La Agencia Estatal de Seguridad Aérea, a la vista del certificado de matrícula provisional, podrá diligenciar el diario de a bordo o cuaderno de la aeronave, así como las cartillas de los motores de la aeronave. Los registros informáticos de los operadores de transporte aéreo comercial que reúnan la información contenida en dichos libros no serán diligenciados.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 22. Vigencia de la matrícula provisional.</p>
+          <p class="parrafo">El plazo de vigencia de la matrícula provisional será de tres meses desde la fecha de su emisión, transcurrido este plazo la matrícula provisional se cancelará de oficio. Dicho plazo podrá prorrogarse cuando se acredite por el solicitante la necesidad de prórroga, bien debido a causas imprevistas o de fuerza mayor, o por demora en la inscripción del título jurídico en el Registro de Bienes Muebles.</p>
+          <p class="parrafo">La prórroga tendrá una duración máxima de 45 días naturales desde la finalización de la vigencia de la matrícula provisional, y deberá solicitarse con, al menos, 2 días hábiles de antelación a su expiración. Una vez transcurrido el plazo máximo prorrogado, si no se ha aportado la documentación requerida para la matriculación definitiva de la aeronave, se procederá a la cancelación de oficio de la matrícula provisional.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 23. Matrícula definitiva.</p>
+          <p class="parrafo">1. Se procederá a realizar la inscripción definitiva de la aeronave y a emitir el certificado de matrícula definitivo, según proceda:</p>
+          <p class="parrafo_2">a) En el plazo máximo de 15 días, a partir de la recepción de la comunicación de la inscripción del título jurídico en el Registro de Bienes Muebles y se aporte la totalidad de los documentos contemplados en el artículo 12.2.</p>
+          <p class="parrafo">b) En aquellos casos en los que el título jurídico no sea inscribible en el Registro de Bienes Muebles, el plazo para practicar la inscripción definitiva de la aeronave será de tres meses a partir de la recepción de la solicitud regulada en el artículo 12.</p>
+          <p class="parrafo_2">2. Con carácter previo a la inscripción definitiva de la aeronave, el Registro de Matrícula de Aeronaves Civiles, incorporará al expediente una descripción técnica de la misma, conforme a los datos obrantes en la Agencia Estatal de Seguridad Aérea.</p>
+          <p class="parrafo">3. La inscripción definitiva se realizará por medios informáticos y figurarán al menos los datos que consten en el Certificado de Matrícula emitido, haciendo mención, en los casos en que proceda, a la comunicación recibida del Registro de Bienes Muebles sobre el título jurídico inscrito.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 24. Certificado de matrícula definitivo.</p>
+          <p class="parrafo">Practicada la inscripción definitiva de una aeronave en el Registro, el Director de Seguridad de Aeronaves emitirá el certificado de matrícula definitivo, en el que se consignará, el número de la aeronave en el Registro; las marcas de nacionalidad y matrícula; el fabricante, el modelo y el número de serie de fabricación; el nombre y domicilio del propietario, poseedor o arrendatario y la fecha de emisión del certificado, de conformidad con el Convenio sobre Aviación Civil Internacional de 7 de diciembre de 1944.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 25. Vigencia del certificado de matrícula.</p>
+          <p class="parrafo">1. El certificado de matrícula emitido a las aeronaves en propiedad tendrá vigencia indefinida mientras no se modifique la titularidad de la aeronave.</p>
+          <p class="parrafo">2. El certificado de matrícula emitido a la aeronave inscrita en virtud de un título jurídico de arrendamiento o cualquier otro traslativo de posesión por el que no se transfiera la propiedad de la aeronave, tendrá vigencia durante el plazo de validez del título que dio origen a la inscripción.</p>
+          <p class="parrafo">En el supuesto de prórroga contractual o de adquisición del pleno dominio por el poseedor, se deberá acreditar documentalmente tal extremo ante el Registro de Matrícula de Aeronaves Civiles, solicitando la práctica de la anotación del título jurídico correspondiente al menos con quince días de antelación a la finalización del plazo de vigencia de la matrícula. De no justificar las circunstancias mencionadas en un plazo de quince días desde el fin del anterior contrato, se procederá, de oficio, a iniciar el expediente de cancelación de la inscripción practicada.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 26. Efectos del Certificado de Matrícula.</p>
+          <p class="parrafo">El Certificado de Matrícula provisional y el de matrícula definitiva son títulos necesarios para la operación de las aeronaves, pero no son suficientes por sí solos para permitirla, por lo que la aeronave deberá contar con el resto de autorizaciones, habilitaciones y certificados requeridos por la Agencia Estatal de Seguridad Aérea para cada tipo de operación.</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 27. Arrendamientos de corta duración.</p>
+          <p class="parrafo">No se anotarán los títulos jurídicos de arrendamiento o subarrendamiento de aeronaves de duración igual o inferior a seis meses.</p>
+          <p class="parrafo">Para utilizar aeronaves sometidas a arrendamientos o subarrendamientos de corta duración, será necesario obtener previamente la autorización pertinente de la Agencia Estatal de Seguridad Aérea.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="seccion">Sección 3.ª Cambios de titularidad, cargas, gravámenes y vicisitudes técnicas</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 28. Cambio de titularidad.</p>
+          <p class="parrafo">1. Cuando se produjese el cambio de titularidad de la aeronave, el adquirente deberá instar la emisión de un nuevo Certificado de Matrícula.</p>
+          <p class="parrafo">2. Si se produjera un cambio en la titularidad de la aeronave, el adquirente deberá presentar una solicitud para actualizar los datos registrales de la aeronave dentro del plazo de un mes a contar desde la fecha de otorgamiento del contrato. El incumplimiento de esta obligación se considera un incumplimiento de lo previsto en el apartado 7.º del artículo 33 de la Ley 21/2003, de 21 de julio, de seguridad aérea.</p>
+          <p class="parrafo">3. Las anotaciones de los actos jurídicos relativos a la titularidad, posteriores a la matriculación de las aeronaves, se practicarán en el Registro de Matrícula de Aeronaves Civiles a solicitud del interesado, debiendo aportar el solicitante, junto con la solicitud, los siguientes documentos:</p>
+          <p class="parrafo_2">a) El justificante del abono de la tasa requerida para la prestación del servicio que se solicita.</p>
+          <p class="parrafo">b) Fotocopia del título jurídico.</p>
+          <p class="parrafo_2">4. Hasta tanto se practica la inscripción del cambio de titularidad y se emite un nuevo Certificado de Matrícula, la Agencia Estatal de Seguridad Aérea podrá autorizar la utilización de la aeronave al nuevo titular, para no paralizar su uso, durante un plazo de tres meses, que podrá prorrogarse como máximo, durante otros cuarenta y cinco días naturales. A tal efecto, el solicitante deberá cumplir los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Haber iniciado los trámites para la anotación del nuevo título jurídico.</p>
+          <p class="parrafo">b) Disponer de las autorizaciones, licencias o aprobaciones que, en cada caso, sean exigibles para realizar la actividad a la que pretende destinar la aeronave.</p>
+          <p class="parrafo">c) Que la aeronave sea adecuada al uso pretendido por el nuevo titular.</p>
+          <p class="parrafo_2">5. Los títulos jurídicos acreditativos del cambio de titularidad que se presenten ante el Registro de Matrícula de Aeronaves para instar la modificación registral, deberán reflejar el mutuo acuerdo entre las partes contractuales.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 29. Cargas y gravámenes.</p>
+          <p class="parrafo">1. Las cargas y gravámenes sobre aeronaves que figuren inscritas, conforme a su regulación específica, en el Registro de Bienes Muebles, se anotarán de oficio en el Registro de Matrícula de Aeronave a efectos informativos, en virtud de comunicación del Registro de Bienes Muebles.</p>
+          <p class="parrafo">2. En el supuesto de existir cargas y gravámenes sobre una aeronave, anotadas en el Registro de Matrícula de Aeronaves, sobre las que no conste su cancelación en el Registro de Bienes Muebles, para proceder a la cancelación de la matrícula de dicha aeronave, será necesario presentar previamente una autorización expresa de los acreedores cuyo derecho o interés proteja esa carga o, en su caso, de la autoridad que decretó la carga inscrita.</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 30. Vicisitudes técnicas.</p>
+          <p class="parrafo">Las vicisitudes técnicas que impliquen cambio en el modelo de la aeronave y le sean comunicadas al Registro de Matricula de Aeronaves Civiles por la Unidad correspondiente de la Agencia Estatal de Seguridad Aérea, se harán constar mediante anotación en él.</p>
+        </version>
+      </bloque>
+      <bloque id="s4" tipo="encabezado" titulo="Sección 4">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="seccion">Sección 4.ª Cancelaciones</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 31. Cancelación de la matrícula.</p>
+          <p class="parrafo">1. El Registro de Matrícula de Aeronaves Civiles, de oficio o a instancia de parte, procederá a la cancelación de la inscripción de matrícula de la aeronave.</p>
+          <p class="parrafo">2. Se procederá a la cancelación a instancia de parte por las siguientes causas:</p>
+          <p class="parrafo_2">a) Destrucción o pérdida total de la aeronave.</p>
+          <p class="parrafo">b) Inoperatividad y desguace de la aeronave.</p>
+          <p class="parrafo">c) Adquisición, con carácter permanente, de la condición de aeronave militar.</p>
+          <p class="parrafo">d) Matriculación en país extranjero.</p>
+          <p class="parrafo">e) Enajenación válida a favor de personas que no tengan la nacionalidad española o la de alguno de los Estados miembros del Espacio Económico Europeo, salvo que residieran habitualmente o tuvieran un establecimiento permanente en España y fueran a destinar la aeronave a un uso no lucrativo.</p>
+          <p class="parrafo_2">3. Para proceder a la cancelación de la matrícula de una aeronave a instancia de su titular registral, será necesario que éste presente previamente, junto con la documentación prevista en el artículo 12.2, la siguiente:</p>
+          <p class="parrafo_2">a) Original y fotocopia del Título jurídico que motive la cancelación.</p>
+          <p class="parrafo">b) En el caso de que la aeronave esté arrendada, original y fotocopia del documento de resolución del contrato de arrendamiento o documento que muestre la conformidad de ambas partes para cancelar la matrícula.</p>
+          <p class="parrafo">c) Copia del Documento de Despacho de aduana para la exportación de la aeronave, si su destino es un Estado no miembro del Espacio Económico Europeo.</p>
+          <p class="parrafo_2">Cuando el destino de la aeronave sea un país no perteneciente al Espacio Económico Europeo, no se cancelará la matrícula de la aeronave hasta que el solicitante obtenga el certificado de aeronavegabilidad para la exportación, si éste fuera necesario para inscribir la aeronave en aquel país.</p>
+          <p class="parrafo">Si la aeronave se enajena a personas físicas o jurídicas extranjeras no residentes o no establecidas en España, no será preciso presentar la declaración de no sujeción al Impuesto sobre transmisiones patrimoniales y actos jurídicos documentados.</p>
+          <p class="parrafo">4. Se procederá a la cancelación de oficio en los siguientes casos:</p>
+          <p class="parrafo_2">a) Por resolución judicial firme.</p>
+          <p class="parrafo">b) En los casos en que su titular registral sea el poseedor de la aeronave en virtud de un título jurídico anotado cuya vigencia haya expirado, y no se haya aportado un nuevo título que acredite la continuidad en la posesión de la misma.</p>
+          <p class="parrafo">c) Por el transcurso de cinco años desde la fecha de cancelación temporal de una aeronave, de acuerdo con el artículo 32 sin que su titular registral haya solicitado la reanudación de la vigencia del certificado de matrícula.</p>
+          <p class="parrafo">d) En los casos de destrucción de la aeronave, o cuando ésta quedara inoperativa, si no se hubiera producido la cancelación de la misma a instancia de parte de acuerdo con lo establecido en las letras a) y b) del apartado 2, de este artículo.</p>
+          <p class="parrafo_2">Una aeronave queda inoperativa cuando no se haya renovado su certificado de revisión de aeronavegabilidad o documento equivalente en cinco años y su titular registral no haya presentado en ese tiempo una solicitud de cancelación. Podrá concederse una prórroga de hasta diez años, como máximo, para las aeronaves históricas, definidas conforme al anexo II del Reglamento (CE) 216/2008, del Parlamento Europeo y del Consejo, de 20 de febrero de 2008, sobre normas comunes en el ámbito de la aviación civil y por el que se crea una Agencia Europea de Seguridad Aérea, y se deroga la Directiva 91/670/CEE, del Consejo, el Reglamento (CE) n.º 1592/2002 y la Directiva 2004/36/CE.</p>
+          <p class="parrafo">Antes de proceder a la cancelación de oficio, el Registro notificará al titular registral la incoación del expediente de cancelación, para que en un plazo de diez días hábiles pueda formular alegaciones.</p>
+        </version>
+        <version id_norma="BOE-A-2024-11377" fecha_publicacion="20240605" fecha_vigencia="20240625">
+          <p class="articulo">Artículo 31. Cancelación de la matrícula.</p>
+          <p class="parrafo">1. El Registro de Matrícula de Aeronaves Civiles, de oficio o a instancia de parte, procederá a la cancelación de la inscripción de matrícula de la aeronave.</p>
+          <p class="parrafo">2. Se procederá a la cancelación a instancia de parte por las siguientes causas:</p>
+          <p class="parrafo_2">a) Destrucción o pérdida total de la aeronave.</p>
+          <p class="parrafo">b) Inoperatividad y desguace de la aeronave.</p>
+          <p class="parrafo">c) Adquisición, con carácter permanente, de la condición de aeronave militar.</p>
+          <p class="parrafo">d) Matriculación en país extranjero.</p>
+          <p class="parrafo">e) Enajenación válida a favor de personas que no tengan la nacionalidad española o la de alguno de los Estados miembros del Espacio Económico Europeo, salvo que residieran habitualmente o tuvieran un establecimiento permanente en España y fueran a destinar la aeronave a un uso no lucrativo.</p>
+          <p class="parrafo_2">3. Para proceder a la cancelación de la matrícula de una aeronave a instancia de su titular registral, será necesario que éste presente previamente, junto con la documentación prevista en el artículo 12.2, la siguiente:</p>
+          <p class="parrafo_2">a) Original y fotocopia del Título jurídico que motive la cancelación.</p>
+          <p class="parrafo">b) En el caso de que la aeronave esté arrendada, original y fotocopia del documento de resolución del contrato de arrendamiento o documento que muestre la conformidad de ambas partes para cancelar la matrícula.</p>
+          <p class="parrafo">c) Copia del Documento de Despacho de aduana para la exportación de la aeronave, si su destino es un Estado no miembro del Espacio Económico Europeo.</p>
+          <p class="parrafo_2">Cuando el destino de la aeronave sea un país no perteneciente al Espacio Económico Europeo, no se cancelará la matrícula de la aeronave hasta que el solicitante obtenga el certificado de aeronavegabilidad para la exportación, si éste fuera necesario para inscribir la aeronave en aquel país.</p>
+          <p class="parrafo">Si la aeronave se enajena a personas físicas o jurídicas extranjeras no residentes o no establecidas en España, no será preciso presentar la declaración de no sujeción al Impuesto sobre transmisiones patrimoniales y actos jurídicos documentados.</p>
+          <p class="parrafo">4. Se procederá a la cancelación de oficio en los siguientes casos:</p>
+          <p class="parrafo_2">a) Por resolución judicial firme.</p>
+          <p class="parrafo">b) En los casos en que su titular registral sea el poseedor de la aeronave en virtud de un título jurídico anotado cuya vigencia haya expirado, y no se haya aportado un nuevo título que acredite la continuidad en la posesión de la misma.</p>
+          <p class="parrafo">c) Por el transcurso de cinco años desde la fecha de cancelación temporal de una aeronave, de acuerdo con el artículo 32 sin que su titular registral haya solicitado la reanudación de la vigencia del certificado de matrícula.</p>
+          <p class="parrafo">d) En los casos de destrucción de la aeronave, o cuando ésta quedara inoperativa, si no se hubiera producido la cancelación de la misma a instancia de parte de acuerdo con lo establecido en las letras a) y b) del apartado 2 de este artículo.</p>
+          <p class="parrafo">Una aeronave queda inoperativa cuando no se haya renovado su certificado de revisión de aeronavegabilidad o documento equivalente en cinco años y su titular registral no haya presentado en ese tiempo una solicitud de cancelación. Podrá concederse una prórroga de hasta diez años, como máximo, para las aeronaves históricas, definidas conforme al anexo I del Reglamento (UE) 2018/1139 del Parlamento Europeo y del Consejo de 4 de julio de 2018 sobre normas comunes en el ámbito de la aviación civil y por el que se crea una Agencia de la Unión Europea para la Seguridad Aérea y por el que se modifican los Reglamentos (CE) n.º 2111/2005, (CE) n.º 1008/2008, (UE) n.º 996/2010, (CE) n.º 376/2014 y las Directivas 2014/30/UE y 2014/53/UE del Parlamento Europeo y del Consejo y se derogan los Reglamentos (CE) n.º 552/2004 y (CE) n.º 216/2008 del Parlamento Europeo y del Consejo y el Reglamento (CEE) n.º 3922/91 del Consejo.</p>
+          <p class="parrafo">e) En los casos en que una aeronave obligada a estar matriculada haya dejado de estar sujeta a dicha obligación debido a un cambio en la normativa aplicable a la aeronave.</p>
+          <p class="parrafo_2">Antes de proceder a la cancelación de oficio, el Registro notificará al titular registral la incoación del expediente de cancelación, para que en un plazo de diez días hábiles pueda formular alegaciones.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 4 por la disposición final 4.2 del Real Decreto 517/2024, de 4 de junio. <a class="refPost">Ref. BOE-A-2024-11377#df-4</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 32. Cancelación temporal de la matrícula.</p>
+          <p class="parrafo">El titular registral de una aeronave podrá solicitar la cancelación temporal de su matrícula por un tiempo no superior a cinco años, cuando aquélla vaya a ser temporalmente matriculada en país extranjero en virtud de un título traslativo de posesión, o cuando la aeronave adquiera por un período de tiempo igual o inferior y con carácter temporal, en virtud de los distintos tipos de posesión que la ley contempla, la condición de aeronave militar.</p>
+          <p class="parrafo">Para proceder a la cancelación temporal de la matrícula de la aeronave, el titular registral aportará la documentación contemplada en el artículo 31.3.</p>
+          <p class="parrafo">No se procederá a la cancelación temporal de la matrícula de la aeronave hasta que el solicitante obtenga el certificado de aeronavegabilidad para la exportación cuando el destino de la aeronave sea un país no perteneciente al Espacio Económico Europeo.</p>
+          <p class="parrafo">El Registro de Matrícula de Aeronaves notificará, mediante resolución, la cancelación temporal de matrícula de la aeronave y lo comunicará al Registro de Matrícula de Aeronaves del país donde ésta vaya a matricularse.</p>
+        </version>
+      </bloque>
+      <bloque id="a33" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 33. Recuperación de la matrícula.</p>
+          <p class="parrafo">1. A la finalización de la vigencia del título que motivó la cancelación temporal de la matrícula, el titular registral solicitará la reanudación de la vigencia del certificado de matrícula, para lo cual aportará los siguientes documentos:</p>
+          <p class="parrafo_2">a) Solicitud de reanudación de vigencia del certificado de matrícula.</p>
+          <p class="parrafo">b) Comunicado de cancelación del país donde estuvo matriculada la aeronave.</p>
+          <p class="parrafo">c) Documento de Despacho de Aduana para la importación de la aeronave, en caso de proceder de un Estado no miembro del Espacio Económico Europeo.</p>
+          <p class="parrafo">d) Certificado de la compañía aseguradora o contrato de seguro realizado de conformidad con el Reglamento (CE) 785/2004, del Parlamento Europeo y del Consejo, de 21 de abril de 2004, o, en su caso, conforme a lo previsto en la Ley de Navegación Aérea y otra normativa de aplicación.</p>
+          <p class="parrafo">e) Certificado de baja definitiva en el Registro de Aeronaves de la Defensa, para el caso de aeronaves militares que no han adquirido con carácter permanente la condición de aeronave militar.</p>
+          <p class="parrafo_2">2. Transcurridos cinco años desde la fecha de la cancelación temporal de la matrícula de la aeronave, sin que el titular registral solicite la reanudación de la vigencia del certificado de matrícula, el Registro de Matrícula de Aeronaves Civiles procederá de oficio a la cancelación definitiva de la matrícula de la aeronave de acuerdo con lo establecido en el artículo 31.4.c).</p>
+        </version>
+      </bloque>
+      <bloque id="a34" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 34. Inscripción de cancelación.</p>
+          <p class="parrafo">1. La inscripción se practicará cuando tenga lugar la cancelación de la matrícula de la aeronave, de acuerdo con alguna de las causas de los artículos 31.2 y 31.4.</p>
+          <p class="parrafo">2. La inscripción de cancelación expresará que quedan canceladas las inscripciones anteriormente practicadas y que se extingue la eficacia del certificado de matrícula.</p>
+          <p class="parrafo">Además de lo anterior, se hará mención de la causa y del documento que la motiven, si la cancelación se produce a instancia de su titular registral. Si es de oficio, en la inscripción se mencionará la autoridad que la decrete y el hecho que la haya motivado.</p>
+          <p class="parrafo">3. El Registro de Matrícula de Aeronaves Civiles, cuando realice la cancelación de la matrícula de la aeronave, lo comunicará de oficio al Registro de Matrícula de Aeronaves del país donde la aeronave vaya a matricularse, o al Registro de Aeronaves de la Defensa en el caso de aeronaves españolas, si procediera atendiendo a la causa de la cancelación.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Matrícula de prueba</p>
+        </version>
+      </bloque>
+      <bloque id="a35" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 35. Concesión.</p>
+          <p class="parrafo">1. Podrá concederse una matrícula de prueba en los siguientes supuestos, con la finalidad y condiciones de utilización que se indican en cada caso:</p>
+          <p class="parrafo_2">a) Aeronaves de fabricación en serie: para la realización de vuelos de verificación, puesta a punto y mantenimiento, durante su proceso de fabricación hasta su entrega al cliente.</p>
+          <p class="parrafo">b) Aeronaves prototipo: para la realización de vuelos de prueba para investigación, desarrollo, verificación, puesta a punto o certificación.</p>
+          <p class="parrafo_2">2. Asimismo, podrá concederse una matrícula de prueba a aeronaves referidas en las letras a) y b) del apartado anterior para la realización de demostraciones para la venta o el entrenamiento de tripulaciones, cuando la inscripción de la aeronave en el Registro de Matrícula de Aeronaves Civiles fuera inviable o poco práctica, dado su carácter experimental sujeto a cambios de configuración constantes, o debido al corto período de tiempo previsto hasta su enajenación.</p>
+        </version>
+      </bloque>
+      <bloque id="a36" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 36. Marca de matrícula en pruebas.</p>
+          <p class="parrafo">La matrícula de prueba consistirá en las marca de nacionalidad EC seguida por un guión y a continuación tres números. Esta matrícula se fijará sobre la aeronave siguiendo las disposiciones vigentes al respecto.</p>
+        </version>
+      </bloque>
+      <bloque id="a37" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 37. Número de matrículas de prueba asignables.</p>
+          <p class="parrafo">La Agencia Estatal de Seguridad Aérea podrá asignar a cada solicitante una o varias matrículas de prueba, según sus necesidades acreditadas en la solicitud, con indicación de los datos de las aeronaves a las que se podrán aplicar.</p>
+        </version>
+      </bloque>
+      <bloque id="a38" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 38. Uso de las matrículas de prueba.</p>
+          <p class="parrafo">1. En el caso de los vuelos de prueba descritos en el artículo 35.1.a), el solicitante podrá usar una misma matrícula de prueba en las diversas aeronaves nuevas fabricadas por él cada vez que necesite realizar vuelos de prueba, pero no podrá aplicarla a más de una aeronave al mismo tiempo.</p>
+          <p class="parrafo">Cada aplicación de la matrícula de prueba a una aeronave distinta, identificada por su número de serie, deberá ser comunicada con una antelación mínima de tres días a la fecha prevista para su utilización, a la Agencia Estatal de Seguridad Aérea, a fin de que ésta pueda efectuar las inspecciones pertinentes y llevar el control de la utilización de las matrículas por el fabricante.</p>
+          <p class="parrafo">2. La matrícula de prueba obtenida en los casos contemplados en el artículo 35.1.b), sólo podrá aplicarse al prototipo de aeronave designado, identificado por su número de serie, durante un plazo de un año que podrá ser prorrogado por la Agencia Estatal de Seguridad Aérea por iguales periodos sucesivos, si ello fuese necesario para el desarrollo y certificación de un modelo de aeronave.</p>
+        </version>
+      </bloque>
+      <bloque id="a39" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 39. Condiciones para su utilización.</p>
+          <p class="parrafo">1. La utilización de matrículas de prueba estará supeditada a que la aeronave cumpla con los requisitos de aeronavegabilidad aplicables según normativa vigente, incluyendo disponer del documento de aeronavegabilidad que le corresponda.</p>
+          <p class="parrafo">2. La eficacia de las matrículas de prueba estará supeditada a que la aeronave sea operada por el solicitante de acuerdo con los requisitos que le corresponda según la normativa vigente. Su operación por un tercero supondrá su cancelación automática.</p>
+        </version>
+      </bloque>
+      <bloque id="a40" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 40. Procedimiento.</p>
+          <p class="parrafo">La Agencia estatal de seguridad aérea dispone de un mes para resolver las solicitudes de matrícula de prueba.</p>
+          <p class="parrafo">Transcurrido el mencionado plazo, si no hubiera resolución expresa, la solicitud se entenderá desestimada, en virtud de lo previsto en el artículo 19.1 de este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a41" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2015-6704" fecha_publicacion="20150617" fecha_vigencia="20151201">
+          <p class="articulo">Artículo 41. Control.</p>
+          <p class="parrafo">Si bien la concesión de matrícula de prueba no implica la inscripción de la aeronave en el Registro de Matrícula de Aeronaves Civiles, la Agencia Estatal de Seguridad Aérea llevará el necesario control de las mismas.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

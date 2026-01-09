@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T112006Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-11076</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20070525</fecha_disposicion>
+      <numero_oficial>663/2007</numero_oficial>
+      <titulo>Real Decreto 663/2007, de 25 de mayo, por el que se aprueba el Estatuto del Centro Nacional de Información Geográfica.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20070605</fecha_publicacion>
+      <diario_numero>134</diario_numero>
+      <fecha_vigencia>20070606</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20210522</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2007/05/25/663</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-11076</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="749">Centro Nacional de Información Geográfica</materia>
+        <materia codigo="4378">Instituto Geográfico Nacional</materia>
+        <materia codigo="4987">Ministerio de la Presidencia</materia>
+        <materia codigo="5268">Organismos autónomos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1999-644</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Apartados 2 y 3 del art. 2 del Real Decreto 2724/1998, de 18 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-25040</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 1243/1990, de 11 de octubre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2021-8452</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 310/2021, de 4 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2009-17892</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 2, 5 y 15, por Real Decreto 1637/2009, de 30 de octubre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11076</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-25</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">663</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/749"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4378"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4987"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11076</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">663</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/749"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4987"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20210521"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20091110"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20070605"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 663/2007, de 25 de mayo, por el que se aprueba el Estatuto del Centro Nacional de Información Geográfica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20210521">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11076</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">663</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/749"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4987"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-21</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20210521/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 663/2007, de 25 de mayo, por el que se aprueba el Estatuto del Centro Nacional de Información Geográfica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20210521"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20210521/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20210521/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20091110">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11076</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">663</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/749"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4987"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20091110/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 663/2007, de 25 de mayo, por el que se aprueba el Estatuto del Centro Nacional de Información Geográfica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20091110"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20091110/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20091110/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20070605">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-11076</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">663</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/749"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4378"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4987"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5268"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20070605/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 663/2007, de 25 de mayo, por el que se aprueba el Estatuto del Centro Nacional de Información Geográfica.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20070605"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20070605/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2007/05/25/663/con/20070605/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2021-8452" fecha_publicacion="20210521" fecha_vigencia="20210522">
+          <p class="siempreSeVe">Norma derogada, con efectos de 22 de mayo de 2021, por la disposición derogatoria única del Real Decreto 310/2021, de 4 de mayo. <a class="refPost">Ref. BOE-A-2021-8452#dd</a></p>
+          <p> </p>
+          <p> </p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="parrafo_2">El Centro Nacional de Información Geográfica (CNIG) fue creado como organismo autónomo de carácter comercial a los efectos de lo establecido en el artículo 4.1.b) del Texto Refundido de la Ley General Presupuestaria, por el artículo 122 de la Ley 37/1988, de 28 de diciembre, de Presupuestos Generales para 1989. El punto dos del citado artículo 122 señala que el CNIG «tendrá por finalidad producir, desarrollar y distribuir los trabajos y publicaciones que demande la sociedad, incluyendo la comercialización de los que realiza la Dirección General del Instituto Geográfico Nacional en ejecución de las funciones que le están atribuidas legalmente, la elaboración de productos derivados y temáticos y su distribución nacional e internacional, sin perjuicio de las posibles competencias atribuidas a otros organismos de la Administración en la producción y mantenimiento de diversos productos cartográficos, con especial dedicación a la realización de proyectos basados en tecnologías avanzadas, programas de investigación y desarrollo y prestación de asistencia técnica en el ámbito de las ciencias y técnicas geográficas».</p>
+          <p class="parrafo">El tiempo transcurrido desde la aprobación del Real Decreto 1243/1990, de 11 de octubre, que establece la estructura orgánica del Centro Nacional de Información Geográfica y desarrolla las normas básicas de funcionamiento del organismo, y la diversidad de normas reguladoras que le afectan, aconsejan la aprobación de un nuevo texto que recoja, de manera clara, conjunta y sistemática, su ordenación y estatuto jurídico, ajustado a las previsiones de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado.</p>
+          <p class="parrafo">La Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, ha racionalizado la normativa aplicable a los organismos públicos, determinando en su disposición transitoria tercera la necesidad de adaptar los organismos autónomos y demás entidades de derecho público actualmente existentes a los dos tipos de organismo autónomo y entidad pública empresarial regulados en la citada Ley. El artículo 60, apartado uno, de la Ley 50/1998, de 30 de diciembre, de Medidas fiscales, administrativas y del orden social, adaptó los organismos autónomos de carácter comercial, industrial, financiero o análogos a la Ley 6/1997, estableciendo que tales organismos, entre los que se cita el Centro Nacional de Información Geográfica, adoptarán la configuración de organismos autónomos de los previstos en el artículo 43.1.a) de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, con las peculiaridades que se recogen en el propio artículo 60 de la Ley 50/1998.</p>
+          <p class="parrafo">Otros factores que hacen necesaria esta reforma son la necesidad de reforzar la presencia física y el contacto directo con el territorio, sobre el que tanto la Dirección General del Instituto Geográfico Nacional como su organismo autónomo han de informar y prestar servicios a los ciudadanos, asumiendo además una representación institucional en Ferias del Libro, Exposiciones, Congresos y Salones Especializados y unas relaciones fluidas con el sector empresarial mediante la certificación de datos, productos y servicios cartográficos, circunstancias todas ellas que obligan a mantener operativa una red de servicio unificada, efectiva y eficiente.</p>
+          <p class="parrafo">Por otra parte, el Real Decreto 2724/1998, de 16 de diciembre, de integración de los servicios regionales de la Dirección General del Instituto Geográfico Nacional en las Delegaciones del Gobierno, señala en su disposición adicional segunda que «los servicios integrados de la Dirección General del Instituto Geográfico Nacional continuarán llevando a cabo la venta de publicaciones y la correspondiente recaudación de ingresos por cuenta del organismo autónomo Centro Nacional de Información Geográfica». A estos efectos, debe tenerse presente que, conforme al Real Decreto 1476/2004, de 18 de junio, por el que se desarrolla la estructura orgánica básica del Ministerio de Fomento, el Centro Nacional de Información Geográfica está adscrito a este Ministerio a través de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">No obstante, la actividad de los Servicios Regionales no puede circunscribirse a la mera gestión comercial, sino que debe suponer un acercamiento y un contacto más directo con la sociedad. Además, la continua evolución de las nuevas tecnologías posibilita la atención de la demanda social de cartografía e información geográfica no solamente en el soporte impreso tradicional, sino también en nuevos soportes y configuraciones informáticas, a los que debe prestárseles una dedicación especial. Asimismo, han de garantizarse y preservarse a favor del Estado los derechos de propiedad intelectual y derechos de difusión cuando la información geográfica se aporta, total o parcialmente, a posteriores obras realizadas o comercializadas por terceros. En este sentido, se hace preciso señalar la existencia en el ámbito comunitario de la Directiva 2003/98/CE del Parlamento Europeo y del Consejo, de 17 de diciembre, relativa a la reutilización de la información del sector público, en cuyo considerando número 4 se cita expresamente como tal la información geográfica.</p>
+          <p class="parrafo">Debe significarse, además, que el entorno en el que se desenvuelven las actividades del Centro Nacional de Información Geográfica ha experimentado cambios y transformaciones de tal envergadura que obligan a un replanteamiento de su ejecutoria, para permitir un mejor desarrollo de los objetivos que, a medio y largo plazo, ha de cumplir y que le deben ser demandados, adecuando su funcionamiento a la realidad del contexto en el que opera y a la demanda social existente, tanto nacional como internacional, y sin que ello suponga incremento alguno de gasto público.</p>
+          <p class="parrafo">En este mismo sentido, resulta imprescindible reforzar el papel del Centro Nacional de Información Geográfica como gestor de determinadas actividades por cuenta de la Dirección General del Instituto Geográfico Nacional. Es el caso de la gestión económica, administrativa, financiera y, eventualmente, comercial de los proyectos de investigación dirigidos por el personal de la Dirección General del Instituto Geográfico Nacional, conforme a las previsiones de la disposición adicional segunda del real decreto.</p>
+          <p class="parrafo">En su virtud, a iniciativa de la Ministra de Fomento, y a propuesta conjunta de los Ministros de Administraciones Públicas y de Economía y Hacienda, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 25 de mayo de 2007,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 1. Aprobación del Estatuto.</p>
+          <p class="parrafo">Se aprueba el Estatuto del organismo autónomo Centro Nacional de Información Geográfica, cuyo texto se inserta a continuación del presente real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 2. Los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">1. Los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional, integrados en las respectivas Delegaciones del Gobierno, dependen directamente del Director del Área de Fomento y recibirán sus instrucciones funcionales del Centro Nacional de Información Geográfica.</p>
+          <p class="parrafo">2. En cualquier caso, se aplicarán a los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional las previsiones del Real Decreto 1330/1997, de 1 de agosto, sobre dependencia funcional del Ministerio de Fomento, competencias sobre el personal y sobre planificación y gestión de los medios de los servicios integrados y aquellos otros preceptos de dicho real decreto y sus normas de desarrollo que les resulten de aplicación.</p>
+          <p class="parrafo">3. Podrá existir un Servicio Regional en cada Delegación del Gobierno, conforme se determine mediante Orden del Ministerio de Administraciones Públicas a propuesta del titular del Ministerio de Fomento, en la que se explicitará el territorio que se adscribe a cada Servicio Regional y la ciudad en la que se establece su sede.</p>
+          <p class="parrafo">4. Conforme se determine por Orden del Ministerio de Administraciones Públicas a propuesta del titular del Ministerio de Fomento, podrán existir Dependencias Territoriales, adscritas al Servicio Regional correspondiente y bajo su directa responsabilidad, en el ámbito territorial de una o varias provincias.</p>
+          <p class="parrafo">5. Los Servicios Regionales del Instituto Geográfico Nacional darán soporte a las actividades que desarrolle la Dirección General del Instituto Geográfico Nacional en el ámbito territorial que les corresponda. Las Casas del Mapa del organismo autónomo Centro Nacional de Información Geográfica estarán adscritas funcionalmente a los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Disposición adicional primera. Modificaciones presupuestarias.</p>
+          <p class="parrafo">Por el Ministerio de Economía y Hacienda se realizarán las modificaciones presupuestarias precisas para el cumplimiento de lo previsto en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Disposición adicional segunda. Proyectos de investigación.</p>
+          <p class="parrafo">El Centro Nacional de Información Geográfica, a los exclusivos efectos de la obtención y gestión de financiación pública, podrá desarrollar los proyectos de investigación que la Dirección General del Instituto Geográfico Nacional determine en los términos y materias de su propia competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en este real decreto y, en particular:</p>
+          <p class="parrafo">a) El Real Decreto 1243/1990, de 11 de octubre, por el que se establece la estructura orgánica del organismo autónomo Centro Nacional de Información Geográfica.</p>
+          <p class="parrafo">b) Los apartados 2 y 3 del artículo 2 del Real Decreto 2724/1998, de 16 de diciembre, de integración de los servicios regionales de la Dirección General del Instituto Geográfico Nacional en las Delegaciones del Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Disposición final primera. Medidas de aplicación.</p>
+          <p class="parrafo">Se autoriza al titular del Ministerio de Fomento, previo cumplimiento de los trámites establecidos en la legislación vigente, a dictar las disposiciones necesarias para la aplicación y desarrollo de lo establecido en este real decreto, y a proponer al titular del Ministerio de Administraciones Públicas las disposiciones que considere necesarias para la mejor regulación de los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="parrafo_2">Dado en Madrid, el 25 de mayo de 2007.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia,</p>
+          <p class="firma_ministro">MARÍA TERESA FERNÁNDEZ DE LA VEGA SANZ</p>
+        </version>
+      </bloque>
+      <bloque id="estatuto" tipo="encabezado" titulo="ESTATUTO">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="anexo">ESTATUTO DEL ORGANISMO AUTÓNOMO CENTRO NACIONAL DE INFORMACIÓN GEOGRÁFICA</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Naturaleza, régimen jurídico y adscripción</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 1. Naturaleza del organismo autónomo.</p>
+          <p class="parrafo">El Centro Nacional de Información Geográfica es un organismo autónomo, de los previstos en el artículo 43.1.a) de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, con personalidad jurídica pública diferenciada, patrimonio y tesorería propios, así como autonomía de gestión y plena capacidad jurídica y de obrar y, dentro de su esfera de competencias, le corresponden las potestades administrativas precisas para el cumplimiento de sus fines, salvo la potestad expropiatoria.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 2. Régimen jurídico del organismo autónomo.</p>
+          <p class="parrafo">El organismo autónomo Centro Nacional de Información Geográfica se rige por la Ley 50/1998, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social; por la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado; por el artículo 122 de la Ley 37/1988, de 28 de diciembre, de Presupuestos Generales del Estado para 1989, en lo no derogado por aquellas; por la Ley 7/1986, de 24 de enero, de Ordenación de la Cartografía; por la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común; por el Real Decreto legislativo 2/2000, de 16 de junio, por el que se aprueba el texto refundido de la Ley de Contratos de las Administraciones Públicas; por la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Publicas; por la Ley 47/2003, de 26 de noviembre, General Presupuestaria; por este Estatuto y por las demás disposiciones aplicables a los organismos autónomos de la Administración General del Estado.</p>
+        </version>
+        <version id_norma="BOE-A-2009-17892" fecha_publicacion="20091110" fecha_vigencia="20091111">
+          <p class="articulo">Artículo 2. Régimen jurídico del organismo autónomo.</p>
+          <p class="parrafo">El organismo autónomo Centro Nacional de Información Geográfica se rige por la Ley 50/1998, de 30 de diciembre, de Medidas fiscales, administrativas y del orden social; por la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado; por el artículo 122 de la Ley 37/1988, de 28 de diciembre, de Presupuestos Generales del Estado para 1989, en lo no derogado por aquellas; por la Ley 7/1986, de 24 de enero, de Ordenación de la Cartografía; por la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común; por la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público; por la Ley 47/2003, de 26 de noviembre, General Presupuestaria; por la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas; por este Estatuto y por las demás disposiciones aplicables a los Organismos autónomos de la Administración General del Estado.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.1 del Real Decreto 1637/2009, de 30 de octubre. <a class="refPost">Ref. BOE-A-2009-17892</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 3. Adscripción del organismo autónomo.</p>
+          <p class="parrafo">El Centro Nacional de Información Geográfica está adscrito al Ministerio de Fomento a través de la Dirección General del Instituto Geográfico Nacional, a la que corresponde la dirección estratégica, la evaluación y el control de los resultados de su actividad. Igualmente, le corresponde ejercer el control de eficacia respecto al grado de cumplimiento de los objetivos propuestos y la adecuada utilización de los recursos asignados, la inspección del funcionamiento del personal y de los servicios centrales y periféricos, y el informe de los convenios, instrucciones y otros proyectos normativos, todo ello sin perjuicio del control establecido al respecto por la Ley General Presupuestaria.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Fines y funciones</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 4. Fines.</p>
+          <p class="parrafo">1. El Centro Nacional de Información Geográfica tiene por finalidad, de acuerdo con el artículo 122.Dos de la Ley 37/1988, de 28 de diciembre, producir, desarrollar y distribuir los trabajos y publicaciones de carácter geográfico que demande la sociedad, incluyendo la comercialización de los que realiza la Dirección General del Instituto Geográfico Nacional en ejecución de las funciones que le están atribuidas legalmente, la elaboración de productos derivados y temáticos y su distribución nacional e internacional, sin perjuicio de las posibles competencias atribuidas a otros organismos de la Administración en la producción y mantenimiento de diversos productos cartográficos, con especial dedicación a la realización de proyectos basados en tecnologías avanzadas, programas de investigación y desarrollo y prestación de asistencia técnica en el ámbito de las ciencias y técnicas geográficas, todo ello en un marco estratégico común con la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">2. Para el cumplimento de sus fines, el Centro Nacional de Información Geográfica podrá promover y participar directa o indirectamente en sociedades cuyo objetivo social consista en los mismos fines y objetivos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 5. Funciones.</p>
+          <p class="parrafo">El Centro Nacional de Información Geográfica ejercerá, en el marco estratégico definido por la Dirección General del Instituto Geográfico Nacional y como su unidad especializada en la difusión pública de sus productos y servicios, las siguientes funciones:</p>
+          <p class="parrafo">1. Comercializar y difundir los productos y servicios de la Dirección General del Instituto Geográfico Nacional y, en concreto:</p>
+          <p class="parrafo">a) La difusión y comercialización, en su caso, nacional e internacional de la producción cartográfica y de los servicios de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">b) La distribución y comercialización de los demás datos, aplicaciones y servicios de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">c) La gestión comercial y explotación de los desarrollos de alta tecnología de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">d) El impulso, la promoción y la comercialización en el ámbito de las Administraciones Públicas de los servicios de la Imprenta Nacional de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">e) La gestión de la «Editorial Centro Nacional de Información Geográfica».</p>
+          <p class="parrafo">f) La promoción de exposiciones y de infraestructuras para la difusión del patrimonio histórico de la Dirección General del Instituto Geográfico Nacional y de su museo.</p>
+          <p class="parrafo_2">2. Garantizar la calidad y distribución de la información geográfica oficial y, en concreto:</p>
+          <p class="parrafo">a) Dar soporte técnico al Consejo Superior Geográfico ejerciendo funciones de Certificación Oficial de datos, productos y servicios cartográficos.</p>
+          <p class="parrafo">b) Mantener un Observatorio para el seguimiento y análisis del sector de la Información Cartográfica en España, definiendo los indicadores adecuados y, en especial, coordinándolos con los de la Unión Europea en la materia.</p>
+          <p class="parrafo">c) Promover la formación y capacitación de cuadros especializados en materia cartográfica y geográfica.</p>
+          <p class="parrafo">d) Difundir el conocimiento cartográfico en la sociedad española e iberoamericana.</p>
+          <p class="parrafo">e) Dictar resoluciones de carácter técnico en materia de replanteos de líneas límite, cuando oficialmente sea requerido para ello.</p>
+          <p class="parrafo_2">3. Apoyar el desarrollo y utilización de la cartografía nacional y, en concreto:</p>
+          <p class="parrafo">a) Prestar asistencia técnica especializada e infraestructura cartográfica tanto al sector público como al privado, con atención prioritaria al Ministerio de Fomento y a los servicios públicos de seguridad y protección civil.</p>
+          <p class="parrafo">b) Impulsar la calidad, la competitividad, la innovación y el desarrollo tecnológico en el sector cartográfico.</p>
+          <p class="parrafo">c) Establecer, mantener y gestionar un sistema informático de difusión, comercio electrónico y servicios de información geográfica.</p>
+          <p class="parrafo">d) Informar y, en su caso, comercializar la producción cartográfica oficial, especialmente la desarrollada por la Administración General del Estado y sus organismos dependientes.</p>
+          <p class="parrafo">e) Propiciar y facilitar el uso de la Cartografía Oficial, manteniendo un servicio público de información geográfica, así como el asesoramiento a sus usuarios.</p>
+          <p class="parrafo">f) Conservar y explotar un banco de datos de fotografía aérea y cartografía de imagen sobre todo el territorio nacional.</p>
+          <p class="parrafo_2">4. Desarrollar productos y servicios a demanda y, en concreto:</p>
+          <p class="parrafo">a) El diseño y elaboración de productos cartográficos de valor añadido que demande la sociedad.</p>
+          <p class="parrafo">b) La participación en proyectos de investigación, desarrollo tecnológico e innovación, teniendo en cuenta las directrices contenidas en los planes europeos y nacionales y colaborando con los diferentes Organismos, Entidades y Universidades, tanto públicos como privados.</p>
+          <p class="parrafo">c) El desarrollo y mantenimiento de una línea de productos cartográficos específica para la educación y la docencia.</p>
+          <p class="parrafo">d) La realización de operaciones comerciales de replanteo de líneas límite, a petición de cualquier Administración pública o cualquier particular, sobre las Actas y Cuadernos de Campo que custodia la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo_2">5. Mantener un sistema territorializado de información al público y gestionar funcionalmente los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional y, en su caso, de sus Dependencias Territoriales, así como la gestión orgánica y funcional de la red de Casas del Mapa.</p>
+          <p class="parrafo">6. Administrar los recursos públicos puestos a su disposición y, en concreto:</p>
+          <p class="parrafo">a) El diseño y mantenimiento de la Carta de Servicios del Organismo.</p>
+          <p class="parrafo">b) La gestión y el control de los Recursos Humanos, Servicios Generales, Económicos y Presupuestarios, mantenimiento e inventario y demás servicios de carácter general.</p>
+          <p class="parrafo">c) La representación del Estado español en los foros internacionales en que sea designado por la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">d) La cooperación con las Administraciones Autonómicas y Locales para lograr la máxima eficacia en el cumplimiento de sus fines, y la suscripción de Acuerdos y Convenios con las distintas Administraciones públicas y con el sector privado para la producción, distribución y comercialización de productos y servicios cartográficos.</p>
+          <p class="parrafo">e) Cualesquiera otras actividades que redunden en beneficio de sus fines.</p>
+        </version>
+        <version id_norma="BOE-A-2009-17892" fecha_publicacion="20091110" fecha_vigencia="20091111">
+          <p class="articulo">Artículo 5. Funciones.</p>
+          <p class="parrafo">El Centro Nacional de Información Geográfica ejercerá, en el marco estratégico definido por la Dirección General del Instituto Geográfico Nacional y como su unidad especializada en la difusión pública de sus productos y servicios, las siguientes funciones:</p>
+          <p class="parrafo">1. Comercializar y difundir los productos y servicios de la Dirección General del Instituto Geográfico Nacional y, en concreto:</p>
+          <p class="parrafo">a) La difusión y comercialización, en su caso, nacional e internacional de la producción cartográfica y de los servicios de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">b) La distribución y comercialización de los demás datos, aplicaciones y servicios de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">c) La gestión comercial y explotación de los desarrollos de alta tecnología de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">d) El impulso, la promoción y la comercialización en el ámbito de las Administraciones Públicas de los servicios de la Imprenta Nacional de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">e) La gestión de la «Editorial Centro Nacional de Información Geográfica».</p>
+          <p class="parrafo">f) La promoción de exposiciones y de infraestructuras para la difusión del patrimonio histórico de la Dirección General del Instituto Geográfico Nacional y de su museo.</p>
+          <p class="parrafo_2">2. Garantizar la calidad y distribución de la información geográfica oficial y, en concreto:</p>
+          <p class="parrafo">a) Dar soporte técnico al Consejo Superior Geográfico ejerciendo funciones de Certificación Oficial de datos, productos y servicios cartográficos.</p>
+          <p class="parrafo">b) Mantener un Observatorio para el seguimiento y análisis del sector de la Información Cartográfica en España, definiendo los indicadores adecuados y, en especial, coordinándolos con los de la Unión Europea en la materia.</p>
+          <p class="parrafo">c) Promover la formación y capacitación de cuadros especializados en materia cartográfica y geográfica.</p>
+          <p class="parrafo">d) Difundir el conocimiento cartográfico en la sociedad española e iberoamericana.</p>
+          <p class="parrafo">e) Dictar resoluciones de carácter técnico en materia de replanteos de líneas límite, cuando oficialmente sea requerido para ello.</p>
+          <p class="parrafo_2">3. Apoyar el desarrollo y utilización de la cartografía nacional y, en concreto:</p>
+          <p class="parrafo">a) Prestar asistencia técnica especializada e infraestructura cartográfica tanto al sector público como al privado, con atención prioritaria al Ministerio de Fomento y a los servicios públicos de seguridad y protección civil.</p>
+          <p class="parrafo">b) Impulsar la calidad, la competitividad, la innovación y el desarrollo tecnológico en el sector cartográfico.</p>
+          <p class="parrafo">c) Establecer, mantener y gestionar un sistema informático de difusión, comercio electrónico y servicios de información geográfica.</p>
+          <p class="parrafo">d) Informar y, en su caso, comercializar la producción cartográfica oficial, especialmente la desarrollada por la Administración General del Estado y sus organismos dependientes.</p>
+          <p class="parrafo">e) Propiciar y facilitar el uso de la Cartografía Oficial, manteniendo un servicio público de información geográfica, así como el asesoramiento a sus usuarios.</p>
+          <p class="parrafo">f) Conservar y explotar un banco de datos de fotografía aérea y cartografía de imagen sobre todo el territorio nacional.</p>
+          <p class="parrafo_2">4. Desarrollar productos y servicios a demanda y, en concreto:</p>
+          <p class="parrafo">a) El diseño y elaboración de productos cartográficos de valor añadido que demande la sociedad.</p>
+          <p class="parrafo">b) La participación en proyectos de investigación, desarrollo tecnológico e innovación, teniendo en cuenta las directrices contenidas en los planes europeos y nacionales y colaborando con los diferentes Organismos, Entidades y Universidades, tanto públicos como privados.</p>
+          <p class="parrafo">c) El desarrollo y mantenimiento de una línea de productos cartográficos específica para la educación y la docencia.</p>
+          <p class="parrafo">d) La realización de operaciones comerciales de replanteo de líneas límite, a petición de cualquier Administración pública o cualquier particular, sobre las Actas y Cuadernos de Campo que custodia la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo_2">5. Mantener un sistema territorializado de información al público y gestionar funcionalmente los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional y, en su caso, de sus Dependencias Territoriales, así como la gestión orgánica y funcional de la red de Casas del Mapa.</p>
+          <p class="parrafo">6. Administrar los recursos públicos puestos a su disposición y, en concreto:</p>
+          <p class="parrafo">a) El diseño y mantenimiento de la Carta de Servicios del Organismo.</p>
+          <p class="parrafo">b) La gestión y el control de los Recursos Humanos, Servicios Generales, Económicos y Presupuestarios, mantenimiento e inventario y demás servicios de carácter general.</p>
+          <p class="parrafo">c) La representación del Estado español en los foros internacionales en que sea designado por la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">d) La cooperación con las Administraciones Autonómicas y Locales para lograr la máxima eficacia en el cumplimiento de sus fines, y la suscripción de Acuerdos y Convenios con las distintas Administraciones públicas y con el sector privado para la producción, distribución y comercialización de productos y servicios cartográficos.</p>
+          <p class="parrafo">e) Cualesquiera otras actividades que redunden en beneficio de sus fines.</p>
+          <p class="parrafo">7. Realizar prestaciones de asistencia técnica especializada en el ámbito de las técnicas y ciencias geográficas y de las funciones establecidas en este Estatuto, así como en aquellas que determine el Consejo Superior Geográfico respecto de las Administraciones Públicas integradas en el Sistema Cartográfico Nacional.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 7 por el art. único.2 del Real Decreto 1637/2009, de 30 de octubre. <a class="refPost">Ref. BOE-A-2009-17892</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Órganos de dirección</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 6. Órganos de dirección.</p>
+          <p class="parrafo">Los órganos de dirección del Centro Nacional de Información Geográfica son el Presidente y el Director.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 7. El Presidente.</p>
+          <p class="parrafo">El Presidente del Centro Nacional de Información Geográfica es el Director General del Instituto Geográfico Nacional a quien, bajo la supervisión del titular de la Subsecretaría de Fomento, le corresponde:</p>
+          <p class="parrafo">1. La alta dirección y representación del Organismo.</p>
+          <p class="parrafo">2. La aprobación de los planes anuales de objetivos y del correspondiente anteproyecto de presupuestos.</p>
+          <p class="parrafo">3. El seguimiento y el control de las actividades del Centro, incluidos sus Servicios Periféricos.</p>
+          <p class="parrafo">4. La dirección funcional y el control operativo de la gestión de los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">5. El informe y propuesta de disposiciones o de adopción de medidas que correspondan al titular del Ministerio de Fomento y, en particular:</p>
+          <p class="parrafo">a) Las líneas estratégicas de actuación.</p>
+          <p class="parrafo">b) Los planes generales de actividad.</p>
+          <p class="parrafo">c) Los presupuestos de ingresos y gastos.</p>
+          <p class="parrafo">d) Los programas de inversiones.</p>
+          <p class="parrafo">e) Las memorias anuales de gestión.</p>
+          <p class="parrafo">f) La realización de auditorías anuales de gestión del Organismo.</p>
+          <p class="parrafo_2">6. La aprobación, previa autorización del titular del Ministerio de Fomento, de los precios públicos de la cartografía oficial producida por la Dirección General del Instituto Geográfico Nacional o por el Centro Nacional de Información Geográfica.</p>
+          <p class="parrafo">7. La celebración de toda clase de actos y contratos en nombre del organismo, salvo los atribuidos al Director en el artículo siguiente, y aprobar su participación en las actividades a las que se refiere el artículo 4.2 de este Estatuto.</p>
+          <p class="parrafo">8. La aprobación de los gastos y la ordenación de los pagos, salvo los atribuidos al Director en el artículo siguiente, así como proponer las modificaciones presupuestarias que sean pertinentes.</p>
+          <p class="parrafo">9. La aprobación y rendición de cuentas del organismo al Tribunal de Cuentas, a través de la Intervención General de la Administración del Estado.</p>
+          <p class="parrafo">10. Ejercer las restantes atribuciones que le confiera el ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 8. El Director.</p>
+          <p class="parrafo">El Director del Centro Nacional de Información Geográfica tiene el nivel orgánico de Subdirector General y es nombrado y separado de su cargo por el titular del Ministerio de Fomento a propuesta del Director General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">Corresponde al Director:</p>
+          <p class="parrafo">1. Ostentar la representación legal del organismo, en nombre del Presidente.</p>
+          <p class="parrafo">2. La dirección del Centro y de su personal, en los términos previstos en las disposiciones vigentes.</p>
+          <p class="parrafo">3. Impulsar y supervisar el ejercicio de las funciones recogidas en el artículo 5 de este estatuto y de las demás actividades que formen parte de la gestión ordinaria del Organismo.</p>
+          <p class="parrafo">4. Proponer al Presidente las medidas necesarias para la mejor gestión del organismo.</p>
+          <p class="parrafo">5. Elaborar la propuesta de anteproyecto de presupuesto anual del Centro Nacional de Información Geográfica, así como la ejecución presupuestaria y la gestión económica y contable del organismo.</p>
+          <p class="parrafo">6. La aprobación de gastos y celebración de contratos regulados por el artículo 56 del texto refundido de la Ley de Contratos de las Administraciones Públicas y la ordenación de pagos correspondientes a los anticipos de Caja fija.</p>
+          <p class="parrafo">7. La concesión de Licencias de Uso de la Información Geográfica.</p>
+          <p class="parrafo">8. La ejecución de los planes de actuación del Centro en el marco estratégico común con la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">9. La participación en el Comité de Dirección de la Dirección General del Instituto Geográfico Nacional.</p>
+          <p class="parrafo">10. La confección de las memorias anuales de gestión.</p>
+          <p class="parrafo">11. Cuantas atribuciones se le atribuyan normativamente o le delegue el Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Estructura orgánica básica</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 9. Estructura.</p>
+          <p class="parrafo">1. Del Director del Centro Nacional de Información Geográfica dependen las unidades y servicios con el nivel orgánico que determine la correspondiente relación de puestos de trabajo del Centro, comprendiendo los siguientes Departamentos:</p>
+          <p class="parrafo">a) Departamento de Comercialización, para el ejercicio de las funciones recogidas en el artículo 5.1 de este Estatuto.</p>
+          <p class="parrafo">b) Departamento de Calidad, para el ejercicio de las funciones recogidas en el artículo 5.2 de este Estatuto.</p>
+          <p class="parrafo">c) Departamento de Información, para el ejercicio de las funciones recogidas en el artículo 5.3 de este Estatuto.</p>
+          <p class="parrafo">d) Departamento de Desarrollo, para el ejercicio de las funciones recogidas en el artículo 5.4 de este Estatuto.</p>
+          <p class="parrafo">e) Departamento Territorial, para el ejercicio de las funciones recogidas en el artículo 5.5 de este Estatuto.</p>
+          <p class="parrafo">f) Departamento de Administración, para el ejercicio de las funciones recogidas en el artículo 5.6 de este Estatuto.</p>
+          <p class="parrafo_2">2. Por Resolución del Director General del Instituto Geográfico Nacional y Presidente del Centro Nacional de Información Geográfica se establecerán las relaciones entre estos Departamentos y las Unidades correspondientes de la Dirección General del Instituto Geográfico Nacional, especialmente para dar cumplimiento a lo dispuesto en el artículo 13.1.j) del Real Decreto 1476/2004, de 18 de junio, por el que se desarrolla la estructura orgánica básica del Ministerio de Fomento.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 10. Servicios Periféricos.</p>
+          <p class="parrafo">Para el desarrollo de sus actividades, el Centro Nacional de Información Geográfica mantendrá las necesarias relaciones funcionales de gestión con los Servicios Regionales de la Dirección General del Instituto Geográfico Nacional, integrados en las Delegaciones del Gobierno y, en su caso, con las Dependencias Territoriales.</p>
+          <p class="parrafo">Además, contará con la red de Casas del Mapa, bajo cuya denominación se establecerán locales y servicios de información geográfica y, en su caso, venta al público de, entre otros, los productos y servicios de cartografía oficial de la Administración General del Estado y sus organismos dependientes. Existirá una Casa del Mapa, al menos, en cada Comunidad Autónoma. Los Directores de las Casas del Mapa ejercerán su función bajo la superior autoridad del Director del correspondiente Servicio Regional de la Dirección General del Instituto Geográfico Nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Régimen de personal</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 11. Personal.</p>
+          <p class="parrafo">El personal del Centro Nacional de Información Geográfica será funcionario o laboral, en los mismos términos que los establecidos para la Administración General del Estado, y estará integrado en la correspondiente relación de puestos de trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 12. Incompatibilidades.</p>
+          <p class="parrafo">El personal funcionario o laboral que preste sus servicios en el Centro Nacional de Información Geográfica estará sometido al régimen general de incompatibilidades establecido en la Ley 53/1984, de 26 de diciembre, de Incompatibilidades para el Personal al Servicio de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Régimen económico-financiero</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 13. Recursos económicos.</p>
+          <p class="parrafo">Los recursos económicos del Centro Nacional de Información Geográfica podrán provenir de las siguientes fuentes:</p>
+          <p class="parrafo">a) Los bienes y valores que constituyen su patrimonio.</p>
+          <p class="parrafo">b) Los productos y rentas de dicho patrimonio.</p>
+          <p class="parrafo">c) Las consignaciones específicas que tuviere asignadas en los Presupuestos Generales del Estado, especialmente las destinadas a cubrir el déficit originado por la distribución gratuita o de bajo coste de información geográfica oficial.</p>
+          <p class="parrafo">d) Las transferencias corrientes o de capital procedentes de Administraciones o entidades públicas.</p>
+          <p class="parrafo">e) Los ingresos que se obtengan de sus operaciones comerciales, así como los derivados de las actuaciones convenidas con otros órganos e instituciones de las Administraciones Públicas para el desarrollo de las funciones del Organismo o de su participación en sociedades.</p>
+          <p class="parrafo">f) Las donaciones, legados y otras aportaciones de Entidades privadas o de particulares.</p>
+          <p class="parrafo">g) Cualquier otro recurso que pueda serle atribuido.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 14. Régimen presupuestario, económico-financiero, de contabilidad, intervención y control financiero.</p>
+          <p class="parrafo">1. El régimen presupuestario, económico-financiero, de contabilidad, intervención y control financiero será el establecido en la Disposición transitoria primera de la Ley 47/2003, de 26 de noviembre, General Presupuestaria, en atención a las especialidades derivadas de las operaciones de carácter comercial del Centro.</p>
+          <p class="parrafo">2. Por Orden del titular del Ministerio de Fomento se establecerán las relaciones entre la Dirección General del Instituto Geográfico Nacional y su Organismo autónomo Centro Nacional de Información Geográfica, a fin de garantizar el adecuado desarrollo del marco estratégico conjunto y la evolución armónica de sus respectivas ejecuciones presupuestarias y, en especial, la viabilidad financiera del Centro Nacional de Información Geográfica en relación con la distribución gratuita o de bajo coste de la información geográfica oficial.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 15. Régimen de contratación.</p>
+          <p class="parrafo">1. De acuerdo con lo previsto en el artículo 49 de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, el Centro Nacional de Información Geográfica se regirá en materia de contratación por el texto refundido de la Ley de Contratos de las Administraciones Públicas, aprobado por Real Decreto Legislativo 2/2000, de 16 de junio, siéndole de aplicación lo previsto para los organismos autónomos de carácter comercial, industrial, financiero o análogo, en el artículo 3.1.f) del citado texto refundido.</p>
+          <p class="parrafo">2. El Presidente del Centro Nacional de Información Geográfica es el órgano de contratación y ostenta las prerrogativas contenidas en el artículo 59 del texto refundido de la Ley de Contratos de las Administraciones Públicas, aprobado por Real Decreto Legislativo 2/2000, de 16 de junio.</p>
+          <p class="parrafo">3. No obstante lo anterior, el titular del Ministerio de Fomento podrá autorizar la celebración de aquellos contratos cuya cuantía exceda de la previamente fijada por aquél.</p>
+        </version>
+        <version id_norma="BOE-A-2009-17892" fecha_publicacion="20091110" fecha_vigencia="20091111">
+          <p class="articulo">Artículo 15. Régimen de contratación.</p>
+          <p class="parrafo">1. De acuerdo con lo previsto en el artículo 49 de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, el Centro Nacional de Información Geográfica se regirá en materia de contratación por la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+          <p class="parrafo">2. El Presidente del Centro Nacional de Información Geográfica es el órgano de contratación y ostenta las prerrogativas enumeradas en el artículo 194 de la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+          <p class="parrafo">3. No obstante lo anterior, el titular del Ministerio de Fomento podrá autorizar la celebración de aquellos contratos cuya cuantía exceda de la previamente fijada por aquel, en virtud de lo establecido en el artículo 292.5 de la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público.</p>
+          <p class="parrafo">4. A los efectos de lo señalado en el artículo 24.6 de la Ley 30/2007, de 30 de octubre, de Contratos del Sector Público, y demás normativa pública que resulte de aplicación, el CNIG tendrá la consideración de medio propio y servicio técnico de la Administración General del Estado, en los términos previstos en los artículos 4.1.n) y 24.6 de dicho texto legal, así como de aquellos entes, organismos y entidades vinculados o dependientes de ella que, de conformidad con el artículo 3.3 de la Ley 30/2007, de 30 de octubre, tengan la consideración de poderes adjudicadores.</p>
+          <p class="parrafo">5. Los poderes adjudicadores respecto a los cuales el CNIG sea medio propio y servicio técnico podrán conferirle encomiendas de gestión para la realización de trabajos y tareas comprendidas en el ámbito de sus competencias. Dichas encomiendas serán de ejecución obligatoria para el CNIG y se realizarán de acuerdo con instrucciones fijadas unilateralmente por el encomendante. Las encomiendas establecerán los términos y condiciones de realización de los citados trabajos o tareas.</p>
+          <p class="parrafo">6. De acuerdo con lo dispuesto en el artículo 24.6 de la Ley 30/2007, de 30 de octubre, la condición de medio propio y servicio técnico respecto de un poder adjudicador determina la imposibilidad de que el CNIG participe en las licitaciones públicas convocadas por el mismo, sin perjuicio de que, cuando a ellas no concurra ningún licitador, la ejecución de la prestación objeto de las mismas pueda ser encargada al CNIG.</p>
+          <p class="parrafo">7. Las tarifas de los servicios prestados por el CNIG en su condición de medio propio y servicio técnico serán aprobadas por resolución del titular de la Secretaría General de Relaciones Institucionales y Coordinación del Ministerio de Fomento, a propuesta del Director General del Instituto Geográfico Nacional.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.3 del Real Decreto 1637/2009, de 30 de octubre. <a class="refPost">Ref. BOE-A-2009-17892</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cvii" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Régimen patrimonial</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 16. Patrimonio.</p>
+          <p class="parrafo">1. El régimen patrimonial del Centro Nacional de Información Geográfica será el establecido en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas.</p>
+          <p class="parrafo">2. El organismo contará, para el cumplimiento de sus fines, con los bienes y derechos que integren su patrimonio, con aquellos otros que le sean adscritos por la Administración General del Estado, con los que adquiera en el desarrollo de su gestión y con los que, por cualquier título, le sean incorporados por cualquier persona, pública o privada.</p>
+          <p class="parrafo">3. Se atribuye al Centro Nacional de Información Geográfica la utilización y eventual comercialización de las marcas de las que sea titular el Estado para la promoción y difusión de la cartografía oficial.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 17. Inventario.</p>
+          <p class="parrafo">1. El Centro Nacional de Información Geográfica formará y mantendrá actualizado el inventario de sus bienes y derechos, con excepción de los de carácter fungible, de acuerdo con las previsiones de la Ley de Patrimonio de las Administraciones Públicas. El inventario se revisará, en su caso, anualmente con referencia al 31 de diciembre y se incluirá en el balance que se incorpore a la cuenta anual del Organismo.</p>
+          <p class="parrafo">2. Anualmente, el Centro Nacional de Información Geográfica remitirá al Ministerio de Economía y Hacienda el inventario de bienes y derechos del organismo.</p>
+        </version>
+      </bloque>
+      <bloque id="cviii" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Actos y resoluciones</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 18. Actos y resoluciones del Presidente.</p>
+          <p class="parrafo">1. Los actos y resoluciones adoptados por el Presidente del Centro Nacional de Información Geográfica, en el ejercicio de sus funciones, ponen fin a la vía administrativa, sin perjuicio del recurso potestativo de reposición, previsto en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">2. Las reclamaciones previas en asuntos civiles y laborales serán resueltas por el Presidente del Centro Nacional de Información Geográfica.</p>
+          <p class="parrafo">3. Los procedimientos de responsabilidad patrimonial se resolverán de acuerdo con lo establecido en el artículo 142.2 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 19. Actos y resoluciones del Director.</p>
+          <p class="parrafo">Los actos y resoluciones adoptados por el Director del Centro Nacional de Información Geográfica, en el ejercicio de sus funciones, podrán ser recurridos en alzada ante el Presidente del Organismo.</p>
+        </version>
+      </bloque>
+      <bloque id="cix" tipo="encabezado" titulo="CAPÍTULO IX">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Invenciones y patentes</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 20. Invenciones y Patentes.</p>
+          <p class="parrafo">Corresponde al Centro Nacional de Información Geográfica la titularidad de las invenciones realizadas por su personal, o por el de la Dirección General del Instituto Geográfico Nacional, como consecuencia del ejercicio de sus funciones. La explotación y cesión de tales invenciones se regirá por lo establecido en el artículo 20 de la Ley 11/1986, de 20 de marzo, de Patentes de Invención y Modelos de Utilidad, y en el Real Decreto 55/2002, de 18 de enero, sobre explotación y cesión de invenciones realizadas en los entes públicos de investigación.</p>
+        </version>
+      </bloque>
+      <bloque id="cx" tipo="encabezado" titulo="CAPÍTULO X">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="capitulo_num">CAPÍTULO X</p>
+          <p class="capitulo_tit">Imagen institucional</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2007-11076" fecha_publicacion="20070605" fecha_vigencia="20070606">
+          <p class="articulo">Artículo 21. Imagen institucional.</p>
+          <p class="parrafo">La imagen institucional del Centro Nacional de Información Geográfica será común con la propia de la Dirección General del Instituto Geográfico Nacional y se ajustará a lo establecido en la normativa que regule los criterios de imagen institucional y la producción documental y el material impreso de la Administración General del Estado.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

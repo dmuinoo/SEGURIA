@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165938Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-13841</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3120">Ministerio de Agricultura, Pesca y Alimentación</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>19980610</fecha_disposicion>
+      <titulo>Orden de 10 de junio de 1998 por la que se crea el Comité Consultivo del Sector Pesquero.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980612</fecha_publicacion>
+      <diario_numero>140</diario_numero>
+      <fecha_vigencia>19980613</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/1998/06/10/(1)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-13841</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4960">Ministerio de Agricultura Pesca y Alimentación</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="6389">Secretaría General de Pesca Marítima</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13841</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-10</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6389"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13841</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6389"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/con/19980612"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 10 de junio de 1998 por la que se crea el Comité Consultivo del Sector Pesquero.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-12</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/con/19980612">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13841</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4960"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6389"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/con/19980612/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 10 de junio de 1998 por la que se crea el Comité Consultivo del Sector Pesquero.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/con/19980612"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1998/06/10/(1)/con/19980612/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1998/06/10/(1)/con/19980612/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="parrafo">La evolución de la política pesquera y el dinamismo del sector, que se traducen en la permanente actualización de la normativa comunitaria y nacional, hacen necesaria la creación de un órgano de consulta y asesoramiento del Ministerio de Agricultura, Pesca y Alimentación en los asuntos de su competencia relativos a la pesca marítima, la ordenación del sector pesquero y la acuicultura.</p>
+          <p class="parrafo">El Comité Consultivo del Sector Pesquero será presidido por el Secretario general de Pesca Marítima y se integran en el mismo representantes del Ministerio de Agricultura, Pesca y Alimentación y del sector pesquero, tanto empresarios como trabajadores, previéndose asimismo la incorporación de otras Administraciones o de especialistas de prestigio contrastado cuando resulte conveniente.</p>
+          <p class="parrafo">Dicho órgano funcionará en Pleno y en Comisiones de trabajo especializadas a efectos de dotar de agilidad su funcionamiento.</p>
+          <p class="parrafo">En la elaboración de la presente Orden han sido consultadas las organizaciones representativas de los sectores afectados.</p>
+          <p class="parrafo">En su virtud, previa aprobación del Ministro de Administraciones Públicas, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Artículo 1. El Comité Consultivo del Sector Pesquero.</p>
+          <p class="parrafo">Se crea el Comité Consultivo del Sector Pesquero como órgano de consulta, deliberación y asesoramiento del Ministerio de Agricultura, Pesca y Alimentación en los asuntos de su competencia relativos a la pesca marítima, la ordenación del sector pesquero, la ordenación de la comercialización de los productos de la pesca, la investigación pesquera y la acuicultura.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Artículo 2. Estructura.</p>
+          <p class="parrafo">1. El Comité Consultivo del Sector Pesquero estará integrado por representantes del Ministerio de Agricultura, Pesca y Alimentación y de las organizaciones o asociaciones de empresarios y trabajadores del sector pesquero de mayor implantación.</p>
+          <p class="parrafo">2. Cuando la naturaleza de los asuntos a tratar lo aconseje podrán participar en las reuniones del Comité representantes de las Comunidades Autónomas.</p>
+          <p class="parrafo">3. Asimismo, podrán ser convocadas a las reuniones expertos de reconocido prestigio cuando se considere necesario.</p>
+          <p class="parrafo">4. El Comité Consultivo del Sector Pesquero se adscribe a la Secretaría General de Pesca Marítima.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Artículo 3. Composición.</p>
+          <p class="parrafo">1. El Comité Consultivo del Sector Pesquero tendrá la siguiente composición:</p>
+          <p class="parrafo_2">El Presidente, que será el Secretario general de Pesca Marítima.</p>
+          <p class="parrafo">Cuatro Vocales en representación de la Secretaría General de Pesca Marítima, que serán designados por el Presidente entre los funcionarios de la misma.</p>
+          <p class="parrafo">Cuatro Vocales en representación de las corporaciones de derecho público del sector pesquero, de ámbito nacional.</p>
+          <p class="parrafo">Cuatro Vocales en representación del sector empresarial al pesquero extractivo, de ámbito nacional.</p>
+          <p class="parrafo">Cuatro Vocales en representación de las organizaciones sindicales del sector pesquero de ámbito nacional.</p>
+          <p class="parrafo">Cuatro Vocales en representación del sector de la transformación y comercialización, de ámbito nacional.</p>
+          <p class="parrafo">Dos Vocales en representación del sector de la acuicultura, de ámbito nacional.</p>
+          <p class="parrafo">Dos Vocales de libre designación del Presidente, elegidos entre profesionales de reconocido prestigio.</p>
+          <p class="parrafo">Un Secretario, que será el Subdirector general de Apoyo y Coordinación de la Secretaría General de Pesca Marítima.</p>
+          <p class="parrafo_2">2. El Secretario general de Pesca Marítima podrá delegar la Presidencia en un Director general de la Secretaría General de Pesca Marítima.</p>
+          <p class="parrafo">3. Los Vocales representantes de los distintos sectores serán nombrados por el Presidente, a propuesta de cada uno de dichos sectores.</p>
+          <p class="parrafo_2">En casos de vacante, ausencia, enfermedad u otra causa legal, de los Vocales a que se refiere el apartado anterior, el sector correspondiente propondrá el suplente o sustituto, acreditándolo ante el Secretario del Comité.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Artículo 4. Funciones.</p>
+          <p class="parrafo">El Comité Consultivo del Sector Pesquero tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Deliberar sobre los asuntos o cuestiones que le someta el Presidente, asesorándole al respecto.</p>
+          <p class="parrafo">b) Elaborar los informes que le sean solicitados sobre proyectos de disposiciones de carácter general o de actuaciones concretas que hayan de realizarse.</p>
+          <p class="parrafo">c) Elevar a los órganos competentes del Ministerio de Agricultura, Pesca y Alimentación propuestas en relación con las competencias de la Secretaría General de Pesca Marítima para su estudio y aplicación, en su caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Artículo 5. Funcionamiento.</p>
+          <p class="parrafo">1. El Pleno, que aprobará su Reglamento de Funcionamiento, deberá reunirse al menos una vez al año.</p>
+          <p class="parrafo">2. Con el fin de elaborar propuestas e informes que sirvan de base para las funciones del Comité Consultivo, se crean las siguientes Comisiones de Trabajo Especializadas integradas por expertos y representantes del sector en las materias correspondientes:</p>
+          <p class="parrafo_2">Comisión de Pesca de Arrastre de Gran Altura.</p>
+          <p class="parrafo">Comisión de Pesca de Grandes Migradores.</p>
+          <p class="parrafo">Comisión de Pesca en Aguas Comunitarias.</p>
+          <p class="parrafo">Comisión de Pesca en Aguas del África Occidental.</p>
+          <p class="parrafo">Comisión de Pesca de Arrastre en el Caladero Nacional del Cantábrico y Noroeste.</p>
+          <p class="parrafo">Comisión de Pesca de Cerco en el Cantábrico y N.O.</p>
+          <p class="parrafo">Comisión de Pesca de Artes Fijas y Artes Menores en el Caladero Nacional del Cantábrico y N.O.</p>
+          <p class="parrafo">Comisión de Pesca de Arrastre en el Mediterráneo.</p>
+          <p class="parrafo">Comisión de Pesca de Cerco en el Mediterráneo.</p>
+          <p class="parrafo">Comisión de Pesca de Artes Fijas y Artes Menores en el Mediterráneo.</p>
+          <p class="parrafo">Comisión de Pesca en el Golfo de Cádiz.</p>
+          <p class="parrafo">Comisión de Pesca en el Archipiélago Canario.</p>
+          <p class="parrafo">Comisión de Acuicultura.</p>
+          <p class="parrafo">Comisión de Comercialización Pesquera.</p>
+          <p class="parrafo">Comisión de Industria de Transformación.</p>
+          <p class="parrafo">Comisión de Enseñanzas Náutico-Pesqueras.</p>
+          <p class="parrafo">Comisión de Asuntos Sociales.</p>
+          <p class="parrafo">Comisión de Coordinación con las Instituciones Comunitarias.</p>
+          <p class="parrafo">Comisión de Sociedades Mixtas.</p>
+          <p class="parrafo_2">3. De los asuntos que traten las Comisiones de Trabajo Especializadas se dará cuenta periódicamente al Pleno del Comité.</p>
+          <p class="parrafo">4. Por el Secretario general de Pesca Marítima, con la aprobación del Pleno del Comité Consultivo del Sector Pesquero, podrán crearse nuevas Comisiones Especializadas de Trabajo, suprimirse alguna de ellas o refundirse.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Artículo 6. Comisiones Extraordinarias.</p>
+          <p class="parrafo">Podrán crearse Comisiones Extraordinarias para tratar asuntos concretos y con duración definida, cuya composición no superará los siete miembros, excluidos los del Ministerio de Agricultura, Pesca y Alimentación. La formación de Comisiones Extraordinarias se decidirá por el Secretario general de Pesca Marítima, previo conocimiento del Pleno del Comité Consultivo. En la creación de las Comisiones Extraordinarias se definirán sus cometidos concretos y plazo de vigencia.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Disposición adicional única. Normativa de aplicación.</p>
+          <p class="parrafo">Sin perjuicio de las peculiaridades organizativas contenidas en esta Orden, el Comité Consultivo del Sector Pesquero se regirá por lo dispuesto en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Disposición final primera. Facultad de desarrollo.</p>
+          <p class="parrafo">Se faculta al Secretario general de Pesca Marítima para adoptar cuantas disposiciones sean necesarias para el cumplimiento y desarrollo de esta disposición.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1998-13841" fecha_publicacion="19980612" fecha_vigencia="19980613">
+          <p class="parrafo_2">Madrid, 10 de junio de 1998.</p>
+          <p class="firma_ministro">DE PALACIO DEL VALLE-LERSUNDI</p>
+          <p class="parrafo_2">Ilmo. Sr. Secretario general de Pesca Marítima.</p>
+          <p class="parrafo_2"> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T181222Z</fecha_actualizacion>
+      <identificador>BOE-A-2014-6476</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1290">Ley Orgánica</rango>
+      <fecha_disposicion>20140618</fecha_disposicion>
+      <numero_oficial>3/2014</numero_oficial>
+      <titulo>Ley Orgánica 3/2014, de 18 de junio, por la que se hace efectiva la abdicación de Su Majestad el Rey Don Juan Carlos I de Borbón.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20140619</fecha_publicacion>
+      <diario_numero>148</diario_numero>
+      <fecha_vigencia>20140619</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/lo/2014/06/18/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2014-6476</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1731">Corona</materia>
+        <materia codigo="3994">Heredero de la Corona</materia>
+        <materia codigo="6239">Rey</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1978-31229</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 57.5 de la Constitución de 27 de diciembre de 1978</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-6476</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-18</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1731"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3994"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6239"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-6476</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-18</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1731"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3994"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6239"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/con/20140619"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 3/2014, de 18 de junio, por la que se hace efectiva la abdicación de Su Majestad el Rey Don Juan Carlos I de Borbón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei orgànica 3/2014, de 18 de juny, per la qual es fa efectiva l'abdicació de Sa Majestat el Rei Joan Carles I de Borbó.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/eus">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/eus"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3/2014 Lege Organikoa, ekainaren 18koa, Errege Juan Carlos I Borboikoaren abdikazioa indarrean jartzen duena.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/eus/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/eus"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei orgánica 3/2014, do 18 de xuño, pola que se fai efectiva a abdicación da súa maxestade o rei don Juan Carlos I de Borbón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/vci">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/vci"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei Orgànica 3/2014, de 18 de juny, per la qual es fa efectiva l'abdicació de Sa Majestat el Rei Juan Carlos I de Borbó.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/vci/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof/vci"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/con/20140619">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/lo"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-6476</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-18</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1731"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3994"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6239"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/con/20140619/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley Orgánica 3/2014, de 18 de junio, por la que se hace efectiva la abdicación de Su Majestad el Rey Don Juan Carlos I de Borbón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/con/20140619"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/lo/2014/06/18/3/con/20140619/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/lo/2014/06/18/3/con/20140619/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2014-6476" fecha_publicacion="20140619" fecha_vigencia="20140619">
+          <p class="centro_redonda">JUAN CARLOS I</p>
+          <p class="centro_redonda">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren,</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley orgánica.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El 2 de junio de 2014, Su Majestad el Rey Don Juan Carlos I comunicó al Sr. Presidente del Gobierno su voluntad de abdicar mediante entrega de un escrito, firmado en su presencia, con el siguiente tenor literal:</p>
+          <p class="sangrado_2">
+            <em>«En mi proclamación como Rey, hace ya cerca de cuatro décadas, asumí el firme compromiso de servir a los intereses generales de España, con el afán de que llegaran a ser los ciudadanos los protagonistas de su propio destino y nuestra Nación una democracia moderna, plenamente integrada en Europa.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Me propuse encabezar entonces la ilusionante tarea nacional que permitió a los ciudadanos elegir a sus legítimos representantes y llevar a cabo esa gran y positiva transformación de España que tanto necesitábamos.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Hoy, cuando vuelvo atrás la mirada, no puedo sino sentir orgullo y gratitud hacia el pueblo español.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Orgullo, por lo mucho y bueno que entre todos hemos conseguido en estos años.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Y gratitud, por el apoyo que me han dado los españoles para hacer de mi reinado, iniciado en plena juventud y en momentos de grandes incertidumbres y dificultades, un largo periodo de paz, libertad, estabilidad y progreso.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Fiel al anhelo político de mi padre, el Conde de Barcelona, de quien heredé el legado histórico de la monarquía española, he querido ser Rey de todos los españoles. Me he sentido identificado y comprometido con sus aspiraciones, he gozado con sus éxitos y he sufrido cuando el dolor o la frustración les han embargado.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>La larga y profunda crisis económica que padecemos ha dejado serias cicatrices en el tejido social pero también nos está señalando un camino de futuro de grandes esperanzas.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Estos difíciles años nos han permitido hacer un balance autocrítico de nuestros errores y de nuestras limitaciones como sociedad.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Y, como contrapeso, también han reavivado la conciencia orgullosa de lo que hemos sabido y sabemos hacer y de lo que hemos sido y somos: una gran nación.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Todo ello ha despertado en nosotros un impulso de renovación, de superación, de corregir errores y abrir camino a un futuro decididamente mejor.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>En la forja de ese futuro, una nueva generación reclama con justa causa el papel protagonista, el mismo que correspondió en una coyuntura crucial de nuestra historia a la generación a la que yo pertenezco.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Hoy merece pasar a la primera línea una generación más joven, con nuevas energías, decidida a emprender con determinación las transformaciones y reformas que la coyuntura actual está demandando y a afrontar con renovada intensidad y dedicación los desafíos del mañana.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Mi única ambición ha sido y seguirá siendo siempre contribuir a lograr el bienestar y el progreso en libertad de todos los españoles.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Quiero lo mejor para España, a la que he dedicado mi vida entera y a cuyo servicio he puesto todas mis capacidades, mi ilusión y mi trabajo.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Mi hijo, Felipe, heredero de la Corona, encarna la estabilidad, que es seña de identidad de la institución monárquica.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Cuando el pasado enero cumplí setenta y seis años consideré llegado el momento de preparar en unos meses el relevo para dejar paso a quien se encuentra en inmejorables condiciones de asegurar esa estabilidad.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>El Príncipe de Asturias tiene la madurez, la preparación y el sentido de la responsabilidad necesarios para asumir con plenas garantías la Jefatura del Estado y abrir una nueva etapa de esperanza en la que se combinen la experiencia adquirida y el impulso de una nueva generación. Contará para ello, estoy seguro, con el apoyo que siempre tendrá de la Princesa Letizia.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Por todo ello, guiado por el convencimiento de prestar el mejor servicio a los españoles y una vez recuperado tanto físicamente como en mi actividad institucional, he decidido poner fin a mi reinado y abdicar la Corona de España, deponiendo en manos del Gobierno y de las Cortes Generales mi magistratura y autoridad para que provean a la efectividad de la sucesión en la Corona conforme a las previsiones constitucionales.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Deseo expresar mi gratitud al pueblo español, a todas las personas que han encarnado los poderes y las instituciones del Estado durante mi reinado y a cuantos me han ayudado con generosidad y lealtad a cumplir mis funciones.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Y mi gratitud a la Reina, cuya colaboración y generoso apoyo no me han faltado nunca.</em>
+          </p>
+          <p class="sangrado_2">
+            <em>Guardo y guardaré siempre a España en lo más hondo de mi corazón.»</em>
+          </p>
+          <p class="parrafo_2">Su Majestad el Rey lo puso en conocimiento de los Presidentes del Congreso de los Diputados y del Senado y el Presidente del Gobierno dio traslado del escrito al Consejo de Ministros.</p>
+          <p class="parrafo_2">El artículo 57.5 de la Constitución Española dispone que «las abdicaciones y renuncias y cualquier duda de hecho o de derecho que ocurra en el orden de sucesión a la Corona se resolverán por una ley orgánica». Este precepto sigue los precedentes históricos del constitucionalismo español, que en los textos fundamentales de 1845, 1869 y 1876 y, con variaciones, en otros precedentes, ya reservaban al poder legislativo la solución de las cuestiones a que diera lugar la sucesión así como la autorización de la abdicación, incluso mediante una ley especial para cada caso. Si bien la Constitución en vigor no utiliza este último término, los citados antecedentes y el mandato del artículo 57 de que el acto regio sea resuelto por una ley orgánica hacen que sea éste el instrumento legal idóneo para regular la efectividad de la decisión.</p>
+          <p class="parrafo_2">La entrada en vigor de la presente ley orgánica determinará, en consecuencia, que la abdicación despliegue sus efectos y que se produzca la sucesión en la Corona de España de forma automática, siguiendo el orden previsto en la Constitución.</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2014-6476" fecha_publicacion="20140619" fecha_vigencia="20140619">
+          <p class="articulo">Artículo único. Abdicación de Su Majestad el Rey Don Juan Carlos I de Borbón.</p>
+          <p class="parrafo_2">1. Su Majestad el Rey Don Juan Carlos I de Borbón abdica la Corona de España.</p>
+          <p class="parrafo">2. La abdicación será efectiva en el momento de entrada en vigor de la presente ley orgánica.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2014-6476" fecha_publicacion="20140619" fecha_vigencia="20140619">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo_2">La presente ley orgánica entrará en vigor en el momento de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma-2" tipo="firma">
+        <version id_norma="BOE-A-2014-6476" fecha_publicacion="20140619" fecha_vigencia="20140619">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley orgánica.</p>
+          <p class="parrafo_2">Madrid, 18 de junio de 2014.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="imagen3">
+            <img src="/datos/imagenes/disp/2014/148/06476_001.png" alt=""/>
+          </p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">MARIANO RAJOY BREY</p>
+          <p class="imagen2">
+            <img src="/datos/imagenes/disp/2014/148/06476_002.png" alt=""/>
+          </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T123646Z</fecha_actualizacion>
+      <identificador>BOE-A-2010-4447</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3150">Ministerio de Medio Ambiente, y Medio Rural y Marino</departamento>
+      <rango codigo="1370">Resolución</rango>
+      <fecha_disposicion>20100304</fecha_disposicion>
+      <titulo>Resolución de 4 de marzo de 2010, del Fondo Español de Garantía Agraria, por la que se crea la Sede Electrónica del Organismo.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20100317</fecha_publicacion>
+      <diario_numero>66</diario_numero>
+      <fecha_vigencia>20100318</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/res/2010/03/04/(2)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2010-4447</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1508">Administración electrónica</materia>
+        <materia codigo="3762">Fondo Español de Garantía Agraria</materia>
+        <materia codigo="4506">Internet</materia>
+        <materia codigo="7869">Registros telemáticos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2009-18358</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 3 del Real Decreto 1671/2009, de 6 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2010-4512</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 67 de 18 de marzo de 2010</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4447</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-04</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1508"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3762"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4506"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7869"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4447</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1508"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3762"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4506"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7869"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/corrigendum/20100318/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/con/20100317"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolución de 4 de marzo de 2010, del Fondo Español de Garantía Agraria, por la que se crea la Sede Electrónica del Organismo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/con/20100317">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4447</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1508"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3762"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4506"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7869"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/con/20100317/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolución de 4 de marzo de 2010, del Fondo Español de Garantía Agraria, por la que se crea la Sede Electrónica del Organismo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/con/20100317"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/res/2010/03/04/(2)/con/20100317/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2010/03/04/(2)/con/20100317/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="textoCompleto">Incluye corrección de errores publicada en BOE núm. 67, de 18 de marzo de 2010. <a class="refPost">Ref. BOE-A-2010-4512</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="parrafo">La Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos, reconoce, entre otros, el derecho de los ciudadanos a relacionarse con las Administraciones Públicas utilizando medios electrónicos para el ejercicio de los derechos previstos en el artículo 35 de la Ley 30/1992, de 26 de noviembre.</p>
+          <p class="parrafo">Por otro lado, el artículo 10 de la citada Ley 11/2007, de 22 de junio, regula la creación de la sede electrónica como aquella dirección electrónica disponible para los ciudadanos a través de las redes de telecomunicaciones cuya titularidad, gestión y administración corresponde a una Administración Pública, órgano o entidad administrativa en el ejercicio de sus competencias.</p>
+          <p class="parrafo">De conformidad con el artículo 3.2 del Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos, la sede electrónica se crea mediante Orden del Ministro correspondiente o Resolución del titular del organismo público.</p>
+          <p class="parrafo">En consecuencia, mediante la presente Resolución se crea y regula la sede electrónica del Fondo Español de Garantía Agraria.</p>
+          <p class="parrafo">En su virtud, resuelvo:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La presente Resolución tiene por objeto crear la sede electrónica del Fondo Español de Garantía Agraria (en adelante FEGA), con el fin de dar cumplimiento a lo establecido en el artículo 3 del Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="articulo">Artículo 2. Características de la sede electrónica.</p>
+          <p class="parrafo">La sede electrónica del Fondo Español de Garantía Agraria se crea con las siguientes características:</p>
+          <p class="parrafo_2">a) Ámbito de aplicación de la sede: Se realizarán a través de la sede electrónica del FEGA todas las actuaciones, procedimientos y servicios relacionados con el ámbito de actuación del Organismo que requieran la autenticación de los ciudadanos o de la Administración Pública, así como aquellos otros respecto a los que se decida su inclusión en la sede por razones de eficacia y calidad en la prestación de servicios a los ciudadanos.</p>
+          <p class="parrafo">b) Dirección electrónica. La dirección electrónica de referencia de la sede será https://www.sede.fega.gob.es, siendo accesible directamente así como a través del portal de internet http://www.fega.es. De manera subordinada existirán las siguientes direcciones electrónicas directamente accesibles desde la dirección electrónica de referencia de la sede: https://www1.sede.fega.gob.es, https://www2.sede.fega.gob.es y https://www3.sede.fega.gob.es.</p>
+          <p class="parrafo">c) Titular: La titularidad de la sede electrónica corresponde al FEGA.</p>
+          <p class="parrafo">d) Gestión tecnológica: La gestión tecnológica de la sede corresponderá a la Dependencia Informática del FEGA, dependiente de la Secretaría General del citado Organismo.</p>
+          <p class="parrafo">e) Gestión de los contenidos: La Unidad de Apoyo a la Presidencia del FEGA será responsable de la coordinación de los contenidos, procedimientos y servicios puestos a disposición de los ciudadanos en la sede electrónica del FEGA. Asimismo, serán responsables de la gestión de los contenidos y de los servicios puestos a disposición de los ciudadanos en la sede, los titulares de los órganos directivos del Organismo de acuerdo con las competencias que cada uno de sus titulares tenga atribuidas por la normativa vigente.</p>
+          <p class="parrafo">f) Serán canales de acceso a los servicios disponibles en la sede:</p>
+          <p class="parrafo_2">1. Para el acceso electrónico, internet, con las características definidas en la presente Resolución.</p>
+          <p class="parrafo">2. Para la atención presencial, las oficinas del Organismo, conforme a las competencias definidas en el Estatuto del FEGA, aprobado por Real Decreto 1441/2001, de 21 de diciembre, modificado por el Real Decreto 1516/2006, de 7 de diciembre. Todo ello sin perjuicio del acceso previsto a través de los registros regulados en el artículo 38 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">3. Para la atención telefónica, se expresarán en la sede los números de teléfono con los que se puede contactar a tal objeto.</p>
+          <blockquote>
+            <p class="nota_pie">Redactada la letra b) conforme a la corrección de errores publicada en BOE núm. 67, de 18 de marzo de 2010. <a class="refPost">Ref. BOE-A-2010-4512</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="articulo">Artículo 3. Contenidos de la sede electrónica.</p>
+          <p class="parrafo">Los contenidos y servicios mínimos a incluir en la sede son:</p>
+          <p class="parrafo">a)	Identificación de la sede, así como del órgano titular y de los responsables de la gestión de los contenidos puestos a disposición en las mismas.</p>
+          <p class="parrafo">b)	Información necesaria para la correcta utilización de la sede incluyendo el mapa de la sede electrónica, así como la relacionada con la propiedad intelectual.</p>
+          <p class="parrafo">c)	Sistema de verificación de los certificados de la sede, que estará accesible de forma directa y gratuita.</p>
+          <p class="parrafo">d)	Servicios de asesoramiento electrónico al usuario para la correcta utilización de la sede.</p>
+          <p class="parrafo">e)	Relación de sistemas de firma electrónica que sean admitidos o utilizados en la sede.</p>
+          <p class="parrafo">f)	Catálogo de trámites y servicios disponibles en la sede.</p>
+          <p class="parrafo">g)	Carta de Servicios y Carta de Servicios Electrónicos de la sede.</p>
+          <p class="parrafo">h)	Fecha y hora oficial, y días declarados oficialmente como inhábiles.</p>
+          <p class="parrafo">i)	Buzón general de sugerencias y quejas.</p>
+          <p class="parrafo">j)	Información relacionada con la protección de datos de carácter personal, incluyendo un enlace con la sede electrónica de la Agencia Española de Protección de Datos.</p>
+          <p class="parrafo">k)	Resolución por la que se crea y regula la sede, así como normas de creación del registro electrónico y reguladoras de los trámites y servicios accesibles desde la sede.</p>
+          <p class="parrafo">l)	Servicio de comprobación de la autenticidad e integridad de los documentos autenticados mediante código seguro de verificación.</p>
+          <p class="parrafo">m)	Acceso al estado de tramitación de los expedientes.</p>
+          <p class="parrafo">n)	Relación de los medios electrónicos que los ciudadanos puedan utilizar en cada supuesto para comunicarse con la sede.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="articulo">Artículo 4. Medios y procedimientos para la formulación de quejas y sugerencias.</p>
+          <p class="parrafo">1. La formulación de quejas y sugerencias en relación con el contenido, gestión y servicios ofrecidos en la sede que se crea por la presente Resolución, se realizarán por los medios y procedimientos que a continuación se dispone:</p>
+          <p class="parrafo_2">a) La presentación telemática, a través del buzón general de sugerencias y quejas de la propia sede.</p>
+          <p class="parrafo">b) Presentación presencial o por correo postal ante el registro general del Organismo, dirigidas a la Unidad de Apoyo a la Presidencia, de acuerdo con el procedimiento establecido en el artículo 15 del Real Decreto 951/2005, de 29 de julio, por el que se establece el marco general para la mejora de la calidad en la Administración General del Estado.</p>
+          <p class="parrafo_2">2. No se considerarán medios para la formulación de quejas y sugerencias los servicios de asesoramiento electrónico que se pongan a disposición de los ciudadanos para resolver dudas o incidencias de la utilización de las aplicaciones y sistemas que sustenta la sede, sin perjuicio de su obligación, cuando existan, de atender los problemas que susciten los ciudadanos.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="articulo">Disposición transitoria única. Puesta en funcionamiento de la sede electrónica.</p>
+          <p class="parrafo">La sede electrónica que se crea mediante la presente Resolución comenzará a operar en el momento en que lo determine el Presidente del FEGA, dentro del plazo establecido para ello en la disposición final cuarta del Real Decreto 1671/2009, de 6 de noviembre.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente Resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2010-4447" fecha_publicacion="20100317" fecha_vigencia="20100318">
+          <p class="parrafo_2">Madrid, 4 de marzo de 2010.–El Presidente del Fondo Español de Garantía Agraria, Fernando Miranda Sotillos.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180432Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-17590</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8131">Comunidad de Madrid</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19990429</fecha_disposicion>
+      <numero_oficial>17/1999</numero_oficial>
+      <titulo>Ley 17/1999, de 29 de abril, sobre aprovechamiento de pastos y rastrojeras para la protección de la ganadería extensiva.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990816</fecha_publicacion>
+      <diario_numero>195</diario_numero>
+      <fecha_vigencia>19990517</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-md/l/1999/04/29/17</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-17590</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4831">Madrid</materia>
+        <materia codigo="5422">Pastos</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOCM núm. 115, de 17 de mayo de 1999.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6317</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 27 del Estatuto aprobado por Ley Orgánica 3/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1969-774</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento aprobado por Decreto 1256/1969, de 6 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1938-11758</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley sobre aprovechamiento de pastos y rastrojeras, de 7 de octubre de 1938 (GAZETA)</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-md"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-17590</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4831"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5422"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-md"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-17590</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4831"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5422"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/con/19990517"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/1999, de 29 de abril, sobre aprovechamiento de pastos y rastrojeras para la protección de la ganadería extensiva.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-08-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/con/19990517">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-md"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-17590</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4831"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5422"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/con/19990517/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 17/1999, de 29 de abril, sobre aprovechamiento de pastos y rastrojeras para la protección de la ganadería extensiva.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/con/19990517"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/17/con/19990517/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/17/con/19990517/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD DE MADRID</p>
+          <p class="parrafo_2">Hago saber que la Asamblea de Madrid ha aprobado la presente Ley, que yo, en nombre del Rey, promulgo.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Ley Orgánica 5/1998, de 7 de julio, de reforma de la Ley Orgánica 3/1983, de 25 de febrero, de Estatuto de Autonomía de la Comunidad de Madrid, modifica el artículo 27 del Estatuto, estableciendo la competencia de la Comunidad de Madrid en el desarrollo legislativo, la potestad reglamentaria y la ejecución, en el marco de la legislación básica del Estado, entre otras materias, el régimen de los montes y aprovechamientos forestales, con especial referencia a los montes vecinales en mano común, montes comunales, vías pecuarias y pastos.</p>
+          <p class="parrafo">Una vez publicada la Ley 6/1998, de 28 de mayo, de Régimen Jurídico de la Cámara Agraria, que ha creado el marco jurídico para la renovación de esta institución y la Ley 8/1998, de 15 de junio, de Vías Pecuarias, que apostando por un modelo conservacionista, sirve a la circulación pecuaria y a otros usos medioambientales, se hace necesario ahora la elaboración de una Ley de pastos y rastrojeras, que actualice el régimen de aprovechamientos pecuarios a la realidad social y económica vigente. La íntima relación entre los aprovechamientos de pastos y rastrojeras y las Cámaras Agrarias y las Vías Pecuarias, aconsejaron abordar en primer lugar estas materias, que con la nueva regulación que ahora se aborda, completa la modernización de las instituciones e instrumentos jurídicos de la agricultura y concretamente de la ganadería extensiva.</p>
+          <p class="parrafo">La legislación del Estado en la materia de pastos y rastrojeras, la constituye la Ley de 7 de octubre de 1938, sobre aprovechamientos de pastos y rastrojeras, que dado el tiempo transcurrido necesita adaptarse a la nueva realidad, a las modificaciones que se han producido y a las características del ámbito territorial de la Comunidad de Madrid. Esta Ley se limita a establecer las Juntas Locales y las Juntas Provinciales de Fomento Pecuario, atribuyendo a las primeras la competencia para elaborar las Ordenanzas municipales que deben regir el aprovechamiento de los pastos y delimitar y concertar los núcleos parcelarios objeto de los aprovechamientos, de los que quedan excluidas las fincas que puedan ser objeto de aprovechamientos independientes y otras superficies como los montes, cuyos aprovechamientos son gestionados de conformidad con su legislación específica. Las Juntas Provinciales podrán imponer sanciones a los infractores.</p>
+          <p class="parrafo">El Decreto 1256/1969, de 6 de junio, aprueba el Reglamento de Pastos, Hierbas y Rastrojeras y deroga el anterior de 8 de enero de 1954. El nuevo reglamento se basa en las Ordenanzas municipales, dicta norma sobre la organización administrativa de las Juntas, normas generales de aprovechamientos, adjudicación de pastos, fijación de precios, sanciones y recursos.</p>
+          <p class="parrafo">La nueva regulación de pastos y rastrojeras que se contiene en este texto, parte de la experiencia de la aplicación de la normativa citada y respeta las costumbres inmemoriales que dieron lugar a esta institución. Así se mantiene el hecho mismo de la adjudicación de pastos, basada en el mejor aprovechamiento de los recursos naturales, que sin perjudicar a la agricultura sirve para el mantenimiento de la ganadería tradicional: la extensiva, a la que ahora se reconoce su efecto benéfico en el medio ambiente. Igualmente se mantiene la adjudicación a través de una instancia que agrupa a agricultores y ganaderos, como es la actual Cámara Agraria y que respeta el anterior procedimiento de adjudicación que se realizaba a través de las Cámaras Agrarias Locales, como la mejor garantía de respeto a los intereses de ambos colectivos. También se respeta la clasificación de superficies sujetas a la regulación, superficies excluidas y la posibilidad de segregar fincas o agrupaciones de fincas.</p>
+          <p class="parrafo">No obstante, era necesario adaptar determinados procedimientos que si eran necesarios hace sesenta años debido a las dificultades administrativas, hoy la técnica hace posible su gestión rápida y eficaz. La gestión de los pastos independiente en cada término municipal, en muchos casos ha creado una organización excesiva para el fin perseguido e ineficaz por no permitir una óptima distribución al no contemplar su ámbito de actuación más que los pastos locales. Además obliga a los ganaderos que no obtengan pastos en su municipio a recurrir a subastas que pueden encarecer los precios. La adjudicación a través de una instancia con ámbito de toda la Comunidad de Madrid, hará posible una distribución transparente, pública y en las mismas condiciones en todo el territorio.</p>
+          <p class="parrafo">La transparencia es el principal objetivo de la clasificación de superficies y el establecimiento de cargas ganaderas por superficie, que junto con el establecimiento de órdenes de preferencia, permitirán adjudicar los pastos de manera casi automática. De igual forma ocurrirá con los precios, ya que una vez establecido el precio de unidad ganadera mayor, las equivalencias y las cargas por superficie, convierte el establecimiento del precio en una simple operación matemática que se conocerá con mucha antelación al inicio del año ganadero.</p>
+          <p class="parrafo">Se respeta por otra parte, la libertad de los agricultores y ganaderos para pactar privadamente sobre los aprovechamientos pecuarios y la autonomía de estos colectivos en el ámbito municipal, que con ciertas condiciones podrán establecer sus propias Ordenanzas.</p>
+          <p class="parrafo">La Ley se completa con la regulación de las infracciones y sanciones, que era el punto más débil de la anterior normativa y que sirve como última garantía de la aplicación de la regulación de los pastos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La presente Ley tiene por objeto regular y ordenar los aprovechamientos de superficies agrarias a fin de favorecer la explotación ganadera en régimen extensivo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 2. Concepto de ganadería extensiva.</p>
+          <p class="parrafo">Se considera extensiva la explotación ganadera que para la alimentación del ganado utiliza los aprovechamientos a diente de los pastos procedentes de prados, pastizales, hierbas y rastrojos; propios, ajenos o comunales, de forma permanente o temporal. La disposición adicional segunda establece las cargas ganaderas por hectárea y por tipo de superfie y también establece las equivalencias de cabezas de ganado por edad y especie, en Unidades de Ganado Mayor, en adelante UGM.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 3. Órganos administrativos.</p>
+          <p class="parrafo">1. Son órganos competentes en materia de aprovechamientos de pastos:</p>
+          <p class="parrafo_2">1.1 La Cámara Agraria de la Comunidad de Madrid, en adelante Cámara Agraria.</p>
+          <p class="parrafo">1.2 La Junta de Fomento Pecuario de la Comunidad de Madrid, en adelante Junta de Fomento Pecuario.</p>
+          <p class="parrafo">1.3 Las Consejerías competentes en cada momento en materia de agricultura, ganadería y montes.</p>
+          <p class="parrafo_2">2. Reglamentariamente se establecerán las funciones de los órganos anteriores en esta materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 4. Superficies incluidas.</p>
+          <p class="parrafo">1. Quedan incluidas en la regulación de aprovechamientos para la ganadería extensiva, las superficies agrarias productivas, los pastos comunales, las dehesas boyales y las superficies tradicionalmente destinadas al pastoreo, que no se excluyan expresamente en el artículo 5.</p>
+          <p class="parrafo">2. Son de pastoreo libre las superficies que constituyen el dominio público formado por las vías pecuarias. Los órganos competentes de la Comunidad de Madrid adoptarán las medidas necesarias para facilitar el tránsito pecuario, de acuerdo con lo dispuesto en la Ley 8/1998 de 15 de junio, reguladora de las Vías Pecuarias de la Comunidad de Madrid.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 5. Superficies excluidas.</p>
+          <p class="parrafo">1. Quedan excluidas de la regulación:</p>
+          <p class="parrafo_2">1.1 Las superficies ocupadas por viñedos, olivares, algarrobos o frutales.</p>
+          <p class="parrafo">1.2 Las huertas y terrenos de regadío.</p>
+          <p class="parrafo">1.3 Los montes catalogados de utilidad pública, protectores, protegidos, de propiedad estatal o autonómica y los consorciados o conveniados con personas físicas o jurídicas.</p>
+          <p class="parrafo">1.4 Las fincas cercadas con carácter permanente, de forma natural o artificial.</p>
+          <p class="parrafo">1.5 Las fincas enclavadas en alguna de las superficies anteriores. Se entenderá por fincas enclavadas, aquéllas cuyo único acceso se realice atravesando cualquiera de las superficies excluidas o que, aun teniendo otro, sea impracticable para el ganado.</p>
+          <p class="parrafo_2">2. No obstante, las superficies anteriormente enumeradas, a excepción de las recogidas en el apartado 1.3 de este artículo, podrán ser objeto de aprovechamiento pecuario, con el consentimiento expreso del titular manifestado por escrito.</p>
+          <p class="parrafo">3. Reglamentariamente se desarrollará el procedimiento a seguir para resolver los conflictos que se puedan plantear por la aplicación de este artículo.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 6. Segregación de fincas.</p>
+          <p class="parrafo">1. Las superficies inicialmente incluidas podrán ser segregadas a petición de los interesados. Teniendo en cuenta que el inicio del año ganadero tiene lugar el 29 de junio de cada año, dicha petición deberá ser formulada entre el 1 de enero y el 28 de febrero, al objeto de que no coincida con el plazo de solicitud de adjudicación de pastos, previsto en el artículo 8.1.</p>
+          <p class="parrafo">2. La Cámara Agraria resolverá las peticiones de segregación de fincas, excepto las de pastos comunales y dehesas boyales que no podrán ser objeto de segregación. La segregación afectará a las fincas que se encuentren en alguna de las situaciones siguientes:</p>
+          <p class="parrafo_2">a) Las que por sus características o condiciones no deban ser destinadas a los aprovechamientos ganaderos.</p>
+          <p class="parrafo">b) Las que hallándose bajo una misma linde, sean objeto de explotación ganadera de los aprovechamientos de pastos por el propio titular de la finca con una carga ganadera anual mínima de 0,1 UGM/Ha.</p>
+          <p class="parrafo">c) Las que bajo una misma linde o colindantes unas con otras, formando un conjunto o coto o polígono, sean objeto de aprovechamiento ganadero dependiente, mediante acuerdo privado del propietario o cultivador con el ganadero y admitan un aprovechamiento mínimo de 40 UGM y una carga ganadera anual mínima de 0,1 UGM/Ha. Dicho acuerdo puede ser suscrito por agrupaciones de agricultores o de ganaderos o de ambas conjuntamente. En estos casos, los conflictos que puedan suscitarse entre las partes contratantes, se resolverán en la jurisdicción ordinaria, previo arbitraje de la Junta de Fomento Pecuario, de acuerdo con lo previsto en el artículo 5.3.</p>
+          <p class="parrafo_2">3. La Cámara Agraria podrá anular las segregaciones de fincas otorgadas, cuando incumplan los requisitos de los apartados anteriores.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 7. Segregación de términos municipales.</p>
+          <p class="parrafo">La Cámara Agraria podrá segregar términos municipales de la adjudicación de pastos, respetando las exclusiones de fincas acordadas de acuerdo con el artículo 5, en el caso de que lo solicite una Asociación con personalidad jurídica propia y del ámbito local, que reúna las siguientes condiciones:</p>
+          <p class="parrafo_2">1. Que entre sus fines quede expresamente reflejado el de gestión de pastos y rastrojeras, de acuerdo con los contenidos de esta Ley.</p>
+          <p class="parrafo">2. Que dicha Asociación, integre al 50 por 100 de electores a la Cámara Agraria y que representen al menos al 40 por 100 de las hectáreas pastables y ganado del término municipal.</p>
+          <p class="parrafo">3. Que presenten para la aprobación de la Cámara Agraria, las Ordenanzas que han de regir los aprovechamientos en el término municipal, que en todo caso deben respetar los preceptos de esta Ley y su legislación de desarrollo, y garantizar que ninguna explotación ganadera quede excluida del aprovechamiento de pastos.</p>
+          <p class="parrafo">Las Ordenanzas tendrán el siguiente contenido mínimo:</p>
+          <p class="parrafo_2">3.1 Estatutos de la Asociación, órganos de gobierno y procedimiento para su elección.</p>
+          <p class="parrafo">3.2 Extensión y límites de los polígonos de superficies incluidas en la regulación para aprovechamientos de pastos por tipo de superficie, de acuerdo con lo estipulado en el artículo 2 de esta Ley.</p>
+          <p class="parrafo">3.3 Número de explotaciones ganaderas, por especies y equivalencia en UGM.</p>
+          <p class="parrafo">3.4 Procedimiento de adjudicación de pastos.</p>
+          <p class="parrafo">3.5 Forma de tasación, de cobro de los pastos y reintegro a los agricultores.</p>
+          <p class="parrafo">3.6 Normas de aprovechamiento.</p>
+          <p class="parrafo_2">4. El incumplimiento de la Ordenanza por los órganos de gobierno, será motivo para su anulación por la Junta de Fomento Pecuario.</p>
+          <p class="parrafo">5. La Cámara Agraria resolverá las reclamaciones que puedan presentar los agricultores y ganaderos contra los acuerdos de los órganos de gobierno de la Asociación.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 8. Adjudicación de pastos.</p>
+          <p class="parrafo">1. Los pastos serán adjudicados por la Cámara Agraria, a solicitud del titular de la explotación ganadera presentada entre el 29 de marzo y 29 de mayo de cada año, de acuerdo con lo preceptuado en esta Ley y el procedimiento que se establecerá reglamentariamente. Para el mejor aprovechamiento de los pastos, podrán realizarse adjudicaciones extraordinarias de superficies que no hayan resultado adjudicadas una vez finalizado el procedimiento ordinario.</p>
+          <p class="parrafo">2. Los terrenos de titularidad pública que se encuentren incluidos en esta regulación, se equiparan a los de propiedad particular, a los exclusivos efectos de adjudicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 9. Orden de preferencia en la adjudicación.</p>
+          <p class="parrafo">1. Los primeros pastos a adjudicar serán los comunales, asignando a cada ganadero residente, de acuerdo con los aprovechamientos establecidos en la disposición adicional segunda, un número de hectáreas de pastos en función de las UGM que realmente disponga. Una vez cubiertas todas las necesidades de los ganaderos del municipio, podrán adjudicarse pastos a ganaderos de municipios limítrofes de conformidad con lo establecido en la legislación sobre Corporaciones Locales.</p>
+          <p class="parrafo">2. Una vez adjudicados los pastos comunales en la forma prevista en el apartado anterior, se procederá al reparto del resto de superficies, que no estén excluidas ni segregadas, distribuidas en polígonos formados con el mismo tipo de terrenos y teniendo preferencia las explotaciones ganaderas radicadas en el mismo municipio sobre las de los municipios limítrofes y éstas sobre el resto de solicitudes.</p>
+          <p class="parrafo">3. Si dentro del mismo orden de preferencia, establecido en el apartado anterior, coinciden solicitudes sobre el mismo polígono, que superen la carga ganadera establecida en la disposición adicional segunda, tendrán preferencia:</p>
+          <p class="parrafo_2">3.1 Las ganaderías que tengan calificación sanitaria.</p>
+          <p class="parrafo">3.2 Quienes lo tuvieran adjudicado en años anteriores.</p>
+          <p class="parrafo">3.3 Las cooperativas de explotación ganadera y las S.A.T. (Sociedades Agrarias de Transformación).</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 10. Normas sobre las adjudicaciones.</p>
+          <p class="parrafo">1. En la solicitud de pastos constarán todos los datos que permitan identificar la ganadería, así como la preferencia por los polígonos a los que se pretende acceder, en la forma que se establecerá reglamentariamente. No podrán acceder a las adjudicaciones los ganaderos que no hayan satisfecho las indemnizaciones fijadas de conformidad con el artículo 13 de esta Ley, ni los que hayan sido sancionados en firme por una infracción muy grave, que lleve aparejada esta medida, conforme al procedimiento establecido en el artículo 21 de esta Ley.</p>
+          <p class="parrafo">2. En el acto de adjudicación definitiva, como mínimo se hará constar: Titular del aprovechamiento, identificación, extensión y tipo de terreno del polígono o polígonos adjudicados, clase de ganado, número de cabezas y UGM que representan, plazo de aprovechamiento y precio.</p>
+          <p class="parrafo">3. Las adjudicaciones tendrán validez permanente en tanto no se modifiquen las condiciones que motivaron la misma. No obstante, las adjudicaciones de pastos libres extraordinarias, realizadas una vez iniciado el año ganadero, sólo tendrán validez para ese ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 11. Normas sobre los aprovechamientos.</p>
+          <p class="parrafo">1. Los aprovechamientos adjudicados no podrán ser subarrendados ni cedidos, salvo que se transmita la propiedad de la explotación ganadera. No obstante, los adjudicatarios podrán permutar todo o parte de los pastos adjudicados, en el mes posterior al de inicio del año ganadero. El acuerdo de permuta debe realizarse ante la Cámara Agraria como órgano competente para adjudicar los pastos.</p>
+          <p class="parrafo">2. El ganado no podrá entrar en las parcelas hasta que no se haya recogido la cosecha, ni podrá permanecer en los barbechos labrados.</p>
+          <p class="parrafo">3. El agricultor no podrá labrar ni quemar los rastrojos antes del 30 de septiembre de cada año, sin perjuicio del cumplimiento del resto de disposiciones vigentes en materia de prevención de incendios forestales o de protección del medio ambiente.</p>
+          <p class="parrafo">4. Las adjudicaciones para aprovechamientos de pastos podrán ser suspendidas o anuladas por la autoridad competente, por razones de sanidad y evitación de la propagación de enfermedades infecto-contagiosas. Igualmente se podrán adoptar medidas de aislamiento o las que sean necesarias, siempre con el citado fin y por el tiempo que sea preciso.</p>
+          <p class="parrafo">Reglamentariamente se establecerán los efectos que puedan derivarse de la suspensión o anulación de la adjudicación.</p>
+          <p class="parrafo">5. En todos los montes o terrenos forestales de la Comunidad de Madrid, el aprovechamiento de los pastos se realizará de forma compatible con la conservación de los mismos y de la regeneración de su masa vegetal, conforme, en su caso, a lo que establezcan los proyectos de ordenación o planes técnicos del monte.</p>
+          <p class="parrafo">6. En todos los terrenos incluidos en espacios naturales protegidos, así como en aquellos otros que tengan un Plan de Ordenación de Recursos Naturales aprobado, los aprovechamientos de pastos se realizarán de acuerdo en lo establecido por su norma de declaración o instrumentos de planificación y gestión aprobados.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 12. Fijación de precios.</p>
+          <p class="parrafo">1. La Junta de Fomento Pecuario fijará el precio por UGM que deberá regir para las adjudicaciones, cuatro meses antes del inicio del año ganadero. El precio será notificado a la Cámara Agraria, que podrán aplicar hasta un 10 por 100 de recargo en concepto de gastos de gestión de las adjudicaciones.</p>
+          <p class="parrafo">2. Con un mes de antelación como mínimo al inicio del año ganadero, los adjudicatarios deberán aceptar la adjudicación, ingresando en la Cámara Agraria el importe de los pastos, tras lo que la adjudicación se entenderá definitiva. De igual forma se procederá en los años siguientes, mientras se mantenga la validez de la adjudicación. En caso de falta de ingreso, la Cámara Agraria podrá adjudicar los pastos a otro solicitante o utilizar el procedimiento extraordinario.</p>
+          <p class="parrafo">3. El agricultor o el propietario, en aquellas fincas que no sean objeto de cultivo, tendrán derecho a percibir el precio establecido en proporción a las hectáreas que aporta en el polígono adjudicado, por el procedimiento que se establecerá reglamentariamente.</p>
+          <p class="parrafo">4. En el caso de pastos comunales, al menos un 50 por 100 del precio de los aprovechamientos deberá destinarse a mejoras y gestión de los pastos y de las dehesas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 13. Reclamación de daños.</p>
+          <p class="parrafo">Los agricultores y ganaderos podrán reclamar los daños que estimen que les ha producido por incumplimiento de la normativa sobre aprovechamientos de pastos a la Cámara Agraria y sin perjuicio de las acciones legales que les corresponda.</p>
+          <p class="parrafo">Una vez admitida la reclamación y previa peritación de los daños, que realizarán los servicios técnicos de la Consejería competente, la Cámara Agraria establecerá el valor de la indemnización que corresponda.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 14. Publicidad.</p>
+          <p class="parrafo">Las relaciones previas y definitivas de adjudicatarios de pastos, serán públicas y se expondrán para general conocimiento en la sede y oficinas de la Cámara Agraria, y en los Ayuntamientos donde estuvieran ubicados los terrenos afectados. En las relaciones constará: el nombre del adjudicatario, municipio de adjudicación y de residencia, número de hectáreas, tipo de superficie, si se trata de pastos comunales y UGM concedidas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 15. Registro.</p>
+          <p class="parrafo">1. La Cámara Agraria formará un Registro de los titulares de explotaciones ganaderas que soliciten pastos, en el que se incluirán todos los datos que consten en la adjudicación aceptada, las reclamaciones que hayan dado lugar a indemnización y las sanciones firmes impuestas.</p>
+          <p class="parrafo">2. Los órganos competentes de la Comunidad de Madrid facilitarán a la Cámara Agraria los datos de los agricultores y ganaderos que sean necesarios para la gestión de los pastos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 16. Catálogo de pastos comunales.</p>
+          <p class="parrafo">La Consejería que tenga atribuida la competencia en pastos, elaborará un catálogo de superficies destinadas a pastos comunales, tanto en municipios en los que la adjudicación se realice por la Cámara Agraria, como en los que queden sujetos a Ordenanza. La citada Consejería ejercerá la tutela que sobre estas superficies encomienda a la Comunidad de Madrid la legislación sobre Corporaciones Locales.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 17. Recursos.</p>
+          <p class="parrafo">1. Los acuerdos de la Cámara Agraria serán recurribles en el plazo de un mes ante la Junta de Fomento Pecuario.</p>
+          <p class="parrafo">2. Los acuerdos de la Junta de Fomento Pecuario serán recurribles en el plazo máximo de veinte días ante el titular de la Consejería a la que se refiere el artículo 16, quien resolverá en el plazo máximo de veinte días. Dicha resolución pondrá fin a la vía administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 18. Infracciones.</p>
+          <p class="parrafo">Las infracciones a la presente Ley constituyen faltas administrativas que se clasifican en leves, graves y muy graves, de acuerdo con la siguiente tipificación:</p>
+          <p class="parrafo_2">1. Faltas leves:</p>
+          <p class="parrafo_2">a) El pastoreo de superficies excluidas o segregadas indebidamente identificadas y sin que medie mala fe.</p>
+          <p class="parrafo">b) El pastoreo excediendo entre un 10 por 100 y un 15 por 100 las condiciones de la adjudicación definitiva o extraordinaria.</p>
+          <p class="parrafo">c) La aportación de datos inexactos en las solicitudes de adjudicación o en los contratos de segregación, sin que medie mala fe.</p>
+          <p class="parrafo">d) La no utilización de pastos adjudicados.</p>
+          <p class="parrafo">e) No comunicar al órgano competente las modificaciones sobrevenidas en las condiciones de la adjudicación o de los contratos sobre pastos, siempre que no se derive un beneficio ilícito para el responsable.</p>
+          <p class="parrafo_2">2. Faltas graves:</p>
+          <p class="parrafo_2">a) El pastoreo de superficies excluidas, produciendo daños en menos de tres hectáreas.</p>
+          <p class="parrafo">b) El pastoreo de superficies segregadas, debidamente identicadas.</p>
+          <p class="parrafo">c) El pastoreo excediendo en más de un 15 por 100 las condiciones de la adjudicación definitiva o extraordinaria.</p>
+          <p class="parrafo">d) La cesión gratuita de pastos adjudicados.</p>
+          <p class="parrafo">e) El levantamiento o quema de rastrojos anticipado, cuando afecte hasta tres hectáreas.</p>
+          <p class="parrafo">f) No comunicar al órgano competente las modificaciones sobrevenidas en las condiciones de la adjudicación o de los contratos sobre pastos, cuando de la comunicación se derivara la falta de validez de la adjudicación o la anulación de la segregación.</p>
+          <p class="parrafo">g) El pastoreo careciendo de adjudicación definitiva o extraordinaria.</p>
+          <p class="parrafo">h) La comisión de dos faltas leves en tres años ganaderos.</p>
+          <p class="parrafo_2">3. Faltas muy graves:</p>
+          <p class="parrafo_2">a) El pastoreo de superficies excluidas, produciendo daños en tres hectáreas o más.</p>
+          <p class="parrafo">b) El pastoreo de superficies segregadas habiendo sido apercibido de este hecho.</p>
+          <p class="parrafo">c) La aportación de datos falsos a fin de obtener una adjudicación indebidamente.</p>
+          <p class="parrafo">d) El subarriendo o cesión mediante precio de pastos adjudicados.</p>
+          <p class="parrafo">e) El levantamiento o quema de rastrojos anticipado, cuando afecte a tres hectáreas o más.</p>
+          <p class="parrafo">f) La simulación de contratos para segregar fincas indebidamente o la comunicación de datos falsos con la misma finalidad.</p>
+          <p class="parrafo">g) La comisión de tres faltas graves en cinco años ganaderos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 19. Responsables.</p>
+          <p class="parrafo">1. Son responsables de las infracciones a la presente Ley, las personas físicas o jurídicas adjudicatarias de pastos o cedentes de pastos, que por acción u omisión hayan participado en las mismas.</p>
+          <p class="parrafo">2. Cuando en la comisión de una infracción concurrieran varias personas, éstas responderán solidariamente y el procedimiento se podrá dirigir contra cualquiera de ellas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 20. Sanciones.</p>
+          <p class="parrafo">1. Las faltas administrativas tipificadas en la presente Ley se sancionarán con amonestación, multa y pérdida del derecho de pastos, de acuerdo con la siguiente calificación de las infracciones:</p>
+          <p class="parrafo_2">a) Faltas leves: Multa de 10.000 a 75.000 pesetas, o su equivalente en euros, que podrá sustituirse por amonestación, cuando se trate de la primera falta o no se deriven daños o el responsable los repare inmediatamente.</p>
+          <p class="parrafo">b) Faltas graves: Multa de 75.001 a 300.000 pesetas, o su equivalente en euros. Se impondrán en la cuantía mínima cuando se produzca reparación voluntaria de los daños.</p>
+          <p class="parrafo">c) Faltas muy graves: Multa de 300.001 a 1.000.000 de pesetas, o su equivalente en euros, y en los casos a), b), c), y g) del artículo 18.3, sanción accesoria de pérdida de la adjudicación de pastos o del derecho a concurrir a las adjudicaciones del siguiente año ganadero, en el caso de no desistir inmediatamente en la conducta infractora. En el caso d), se sancionará a las partes por el importe establecido en este mismo apartado más el importe del precio del subarriendo o cesión.</p>
+          <p class="parrafo_2">2. Para el pago de las multas se estará a lo dispuesto en la Ley General Tributaria y el Reglamento de Recaudación.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 21. Procedimiento sancionador.</p>
+          <p class="parrafo">1. El ejercicio de la potestad sancionadora se desarrollará de conformidad con lo establecido en la Ley 30/1992, de 26 de noviembre, y Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común y normas de la Comunidad de Madrid dictadas en su desarrollo.</p>
+          <p class="parrafo">2. El órgano competente para el ejercicio de la potestad sancionadora, en función de la cuantía de la sanción a imponer, se determinará reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Artículo 22. Prescripción y caducidad.</p>
+          <p class="parrafo">1. Las infracciones leves prescribirán al año de su comisión, las graves a los tres años y las muy graves a los cinco años.</p>
+          <p class="parrafo">2. Caducará la acción para perseguir las infracciones, cuando conocida por el órgano competente por algún medio fehaciente admitido en derecho, transcurran seis meses sin que se haya ordenado iniciar el oportuno procedimiento sancionador.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">En lo no previsto en la presente Ley, se aplicará supletoriamente el Decreto 1256/1969, de 6 de junio, por el que se aprueba el Reglamento de Pastos, Hierbas y Rastrojeras.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Las Cargas Ganaderas máximas por tipo de superficie son las siguientes:</p>
+          <p class="parrafo_2">Prados o praderas naturales: Los prados o praderas naturales son las superficies que requieren humedad, con cubierta herbácea natural, no sembrada.</p>
+          <p class="parrafo">El aprovechamiento por siega o pecuario es indefinido. Admiten un aprovechamiento de 1,4 UGM/Ha.</p>
+          <p class="parrafo">Pastizales: Son prados naturales de clima seco que no admiten aprovechamiento por siega. La carga ganadera es de 0,20 UGM/Ha.</p>
+          <p class="parrafo">Erial a pastos: Terrenos no cultivados, rasos, ocupados por pastos accidentales. La carga ganadera es de 0,05 UGM/Ha.</p>
+          <p class="parrafo">Rastrojeras: Las superficies habitualmente bajo cultivos de temporada, incluidas las praderas sembradas, después de recogida la cosecha y antes de iniciar el barbecho. Admiten un aprovechamiento de 0,24 UGM/Ha.</p>
+          <p class="parrafo_2">Las equivalencias en UGM son las siguientes:</p>
+          <p class="parrafo_2">Bovino de más de dos años: 1 UGM.</p>
+          <p class="parrafo">Bovino de seis meses hasta dos años: 0,6 UGM.</p>
+          <p class="parrafo">Bovino hasta seis meses: 0,4 UGM.</p>
+          <p class="parrafo">Équidos de más de seis meses: 1 UGM.</p>
+          <p class="parrafo">Équidos hasta seis meses: 0,6 UGM.</p>
+          <p class="parrafo">Ovino-caprino (cualquier edad): 0,15 UGM.</p>
+          <p class="parrafo_2">UGM: Es la unidad de ganado mayor, correspondiente a una cabeza de bovino o équido adulto.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">Se declaran subsistentes los polígonos y las adjudicaciones de pastos existentes en el momento de entrada en vigor de la presente Ley, sin perjuicio de las modificaciones posteriores que podrá realizar la Cámara Agraria de la Comunidad de Madrid.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">En el momento de la extinción de las Cámaras Agrarias Locales, la Cámara Agraria de la Comunidad de Madrid asumirá las tasaciones, adjudicaciones, cobros y pagos de los pastos de conformidad con el Decreto 1256/1969, de 6 de junio, y las Ordenanzas de Pastos, si las hubiere y fueran posteriores al citado Decreto, hasta el inicio del nuevo año ganadero en el que será plenamente aplicable la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Hasta el momento en el que se constituya el Pleno de la Cámara Agraria de la Comunidad de Madrid, las Cámaras Agrarias Locales continuarán aplicando el Decreto 1256/1969. No obstante, los artículos 9, 18, 19, 20, 21 y 22, se aplicarán desde la entrada en vigor de la Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo">Todas las ordenanzas de pastos dictadas al amparo del Decreto 1256/1969 y legislación anterior, quedarán derogadas en el momento de constitución de la Cámara Agraria de la Comunidad de Madrid y supresión de las Cámaras Locales.</p>
+        </version>
+      </bloque>
+      <bloque id="dl" tipo="precepto" titulo="Disposición local primera">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición local primera.</p>
+          <p class="parrafo">En el plazo máximo de seis meses, el Gobierno elaborará el reglamento ejecutivo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dl-2" tipo="precepto" titulo="Disposición local segunda">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición local segunda.</p>
+          <p class="parrafo">El Gobierno, mediante Decreto, podrá modificar las Cargas Ganaderas máximas por tipo de superficie y las equivalencias en UGM que figuran en la disposición adicional segunda, así como revisar periódicamente las sanciones consistentes en multas en proporción a la elevación de los precios y actualización de la moneda.</p>
+        </version>
+      </bloque>
+      <bloque id="dl-3" tipo="precepto" titulo="Disposición local tercera">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="articulo">Disposición local tercera.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de la Comunidad de Madrid».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1999-17590" fecha_publicacion="19990517" fecha_vigencia="19990517">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a los que sea de aplicación esta Ley que la cumplan, y a los Tribunales y autoridades que corresponda, la guarden y la hagan guardar.</p>
+          <p class="parrafo_2">Madrid, 29 de abril de 1999.</p>
+          <p class="firma_ministro">ALBERTO RUIZ-GALLARDÓN,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210544Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-14079</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8070">Comunidad Autónoma de Cataluña</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20050707</fecha_disposicion>
+      <numero_oficial>9/2005</numero_oficial>
+      <titulo>Ley 9/2005, de 7 de julio, del Jurado de Expropiación de Cataluña.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050817</fecha_publicacion>
+      <diario_numero>196</diario_numero>
+      <fecha_vigencia>20050716</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ct/l/2005/07/07/9</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-14079</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="665">Cataluña</materia>
+        <materia codigo="3525">Expropiación forzosa</materia>
+        <materia codigo="5281">Organización de las Comunidades Autónomas</materia>
+        <materia codigo="5331">Órganos colegiados</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el DOGC núm. 4427, de 15 de julio de 2005.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1995-19104</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Ley 6/1995, de 28 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-30178</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 33.2 del Estatuto aprobado por la Ley Orgánica 4/1979, de 18 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Decreto 79/2001, de 6 de marzo (DOGC del 22)</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2020-5569</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 12, por Ley 5/2020, de 29 de abril</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-14079</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-07</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3525"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5331"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-14079</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3525"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5331"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20200430"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20050715"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2005, de 7 de julio, del Jurado de Expropiación de Cataluña.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-08-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI 9/2005, de 7 de juliol, del Jurat d'Expro­piació de Catalunya.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20200430">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-14079</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3525"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5331"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20200430/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2005, de 7 de julio, del Jurado de Expropiación de Cataluña.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20200430"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20200430/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20200430/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20050715">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-14079</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-07</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3525"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5281"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5331"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20050715/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2005, de 7 de julio, del Jurado de Expropiación de Cataluña.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20050715"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20050715/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2005/07/07/9/con/20050715/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://portaljuridic.gencat.cat/eli/es-ct/l/2005/07/07/9"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="centro_redonda">EL PRESIDENTE DE LA GENERALIDAD DE CATALUÑA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de Cataluña ha aprobado y yo, en nombre del Rey y de acuerdo con lo que establece el artículo 33.2 del Estatuto de autonomía de Cataluña, promulgo la siguiente Ley 9/2005, de 7 de julio, del Jurado de Expropiacion de Cataluña</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El Jurado de Expropiación de Cataluña fue creado por la Ley 6/1995, del 28 de junio, en el marco de las competencias de la Generalidad de Cataluña de desarrollo en materia de expropiación forzosa y régimen local, y de la competencia exclusiva de regulación del procedimiento administrativo derivado de su organización.</p>
+          <p class="parrafo">Transcurridos casi diez años, es preciso introducir cambios en la regulación y el funcionamiento del Jurado de Expropiación. Algunos de estos cambios derivan de circunstancias ajenas al propio Jurado y a la Administración de la Generalidad, otros son fruto de la experiencia de funcionamiento acumulada y otros son imprescindibles para adaptar el Jurado a las nuevas circunstancias políticas y sociales de Cataluña.</p>
+          <p class="parrafo">A raíz de distintos pronunciamientos de la jurisprudencia constitucional ya se modificó la composición del Jurado sustituyendo la presidencia de un magistrado o magistrada por un jurista o una jurista de reconocido prestigio. Aquella modificación, que se hizo efectiva mediante la Ley 31/2002, del 30 de diciembre, de medidas fiscales y administrativas, se incorpora ahora a la presente ley.</p>
+          <p class="parrafo">En cuanto al funcionamiento del Jurado, la experiencia de establecer un trámite previo de avenencia con el fin de llegar a acuerdos entre la administración expropiante y la persona titular del bien o derecho expropiado, que se ha recogido en el reglamento del Jurado, ha demostrado ser suficientemente positiva y por ello se incorpora a la presente ley.</p>
+          <p class="parrafo">La presente ley pretende también agilizar los plazos de resolución de los expedientes de justiprecio, por lo que simplifica su tramitación y dota al Jurado del grado de profesionalización y especialización idóneo.</p>
+          <p class="parrafo">Por último, la división del Jurado en secciones territoriales se amplía con la sección correspondiente a las Terres de l'Ebre, de acuerdo con el Decreto 79/2001, del 6 de marzo, de creación de la Delegación Territorial del Gobierno de la Generalidad en las Terres de l'Ebre, y prevé la adaptación de la organización del Jurado al sistema de división territorial de Cataluña vigente en cada momento.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 1. Naturaleza.</p>
+          <p class="parrafo_2">El Jurado de Expropiación de Cataluña es un órgano colegiado permanente de la Generalidad de Cataluña, de carácter administrativo y sin personalidad jurídica, y con independencia jerárquica. El Jurado está adscrito al departamento de la Generalidad que el Gobierno determine.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo_2">Corresponde al Jurado de Expropiación de Cataluña la tasación, el peritaje y la fijación del justiprecio en los expedientes expropiatorios de las administraciones públicas de Cataluña.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 3. Estructura territorial.</p>
+          <p class="parrafo_2">1. El Jurado de Expropiación de Cataluña se estructura en secciones territoriales cuya demarcación se corresponde con los ámbitos territoriales que se establezcan por reglamento.</p>
+          <p class="parrafo">2. Las secciones territoriales ejercen sus funciones en relación con las expropiaciones que se llevan a cabo en el territorio de los municipios incluidos en cada demarcación.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 4. Composición.</p>
+          <p class="parrafo_2">1. Cada una de las secciones del Jurado de Expropiación de Cataluña está formada por los siguientes miembros:</p>
+          <p class="parrafo_2">a) El presidente o presidenta, que debe ser un jurista o una jurista de prestigio que no ejerza profesionalmente la abogacía ni el asesoramiento en materia de bienes inmuebles o urbanismo.</p>
+          <p class="parrafo">b) Los siguientes vocales:</p>
+          <p class="parrafo_2">Un funcionario o funcionaria con la licenciatura en derecho o en economía, del cuerpo superior de administración de la Generalidad o del cuerpo de abogados de la Generalidad o uno equivalente, que acredite experiencia en materia de valoraciones.</p>
+          <p class="parrafo">Un funcionario o funcionaria del cuerpo de titulados superiores de la Generalidad, con la titulación que corresponda según la naturaleza del bien o derecho a valorar.</p>
+          <p class="parrafo">Dos titulados superiores que acrediten experiencia en materia de valoraciones, propuestos por acuerdo de las entidades municipalistas.</p>
+          <p class="parrafo">Una persona en representación de las cámaras, los colegios profesionales, las organizaciones empresariales o las asociaciones representativas de la propiedad. El presidente o presidenta de cada una de las secciones debe decidir, según la naturaleza del bien expropiado, la entidad que debe estar representada.</p>
+          <p class="parrafo">Un registrador o registradora de la propiedad, o un notario o notaria, designado por el colegio correspondiente.</p>
+          <p class="parrafo">El secretario o secretaria, que debe ser un funcionario o funcionaria del cuerpo superior de administración de la Generalidad, con la licenciatura en derecho, con voz pero sin voto.</p>
+          <p class="parrafo_2">2. El presidente o presidenta y los vocales son nombrados por el consejero o consejera del departamento al que está adscrito el Jurado, a propuesta, si procede, de las entidades que representan. Debe nombrarse una persona titular y una suplente.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 5. Incompatibilidades y causas de abstención.</p>
+          <p class="parrafo_2">1. La condición de miembro del Jurado de Expropiación de Cataluña es incompatible con el ejercicio de actividades profesionales privadas relativas a la transacción o el asesoramiento en materia de bienes inmuebles de naturaleza rústica o urbana o a la planificación y la promoción urbanísticas. Los vocales que, de acuerdo con la presente ley, deben ser funcionarios están sometidos a la legislación vigente sobre incompatibilidades del personal al servicio de la Administración de la Generalidad.</p>
+          <p class="parrafo">2. Los miembros del Jurado de Expropiación de Cataluña tienen la obligación de abstenerse en caso de interés, directo o indirecto, en relación con el bien o derecho expropiado. En ningún caso pueden actuar como miembros del Jurado las personas que tienen algún derecho, obligación o carga en relación con el bien o derecho expropiado o con los arrendatarios. Las causas de abstención se extienden a los casos en que el derecho, la obligación o la carga la tengan los cónyuges o las parejas de hecho o los familiares de los miembros del Jurado, hasta el cuarto grado de consanguinidad o de afinidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 6. Soporte administrativo.</p>
+          <p class="parrafo_2">El departamento del Gobierno al cual se adscribe el Jurado de Expropiación de Cataluña debe prestar el soporte técnico y administrativo necesario para su funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 7. Funcionamiento.</p>
+          <p class="parrafo_2">1. Para que la constitución de la correspondiente sección del Jurado de Expropiación sea válida se requiere la presencia, como mínimo, del presidente o presidenta; del secretario o secretaria; de los dos vocales funcionarios de la Generalidad; y del registrador o registradora de la propiedad o el notario o notaria, o bien de la persona en representación de la cámara o asociación.</p>
+          <p class="parrafo">2. Los acuerdos de las secciones del Jurado deben ser adoptados por mayoría de los miembros presentes. Los casos de empate son dirimidos por el voto del presidente o presidenta.</p>
+          <p class="parrafo">3. En todo aquello no establecido por la presente ley y la demás normativa de aplicación, las secciones del Jurado se rigen por la normativa de aplicación vigente para los órganos colegiados de la Administración de la Generalidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 8. Pleno.</p>
+          <p class="parrafo_2">1. El Pleno del Jurado de Expropiación de Cataluña está constituido por los presidentes, los secretarios y los vocales de cada una de las secciones. Los vocales que, de acuerdo con el artículo 4, asisten a las reuniones de las secciones según la naturaleza del bien, deben asistir a las sesiones del Pleno también según les afecten los temas incluidos en el orden del día correspondiente.</p>
+          <p class="parrafo">2. Los presidentes de las distintas secciones presiden el Pleno por turno, en mandatos de un año. Durante el mismo periodo actúa de secretario o secretaria del Pleno el de la sección a la que pertenece el presidente o presidenta.</p>
+          <p class="parrafo">3. Las funciones del Pleno son las siguientes:</p>
+          <p class="parrafo_2">a) Coordinar, armonizar y acordar los criterios de valoración que deben aplicar las secciones, de acuerdo con la legislación vigente.</p>
+          <p class="parrafo">b) Analizar la jurisprudencia en materia de expropiación forzosa, y concretamente las valoraciones de justiprecio que hagan los tribunales de justicia.</p>
+          <p class="parrafo">c) Resolver los conflictos de competencia entre las distintas secciones y cualquier otra cuestión que las secciones planteen sobre interpretación y aplicación de la normativa vigente.</p>
+          <p class="parrafo">d) Aprobar la memoria anual del Jurado, que tiene que ser pública.</p>
+          <p class="parrafo_2">4. El Pleno del Jurado se reúne, como mínimo, tres veces al año.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 9. Inicio del procedimiento.</p>
+          <p class="parrafo_2">1. El procedimiento ante el Jurado de Expropiación se inicia mediante la remisión del expediente de justiprecio por la administración expropiante a la correspondiente sección territorial. El plazo de envío del expediente es de un mes, desde la fecha en la que la Administración tiene constancia de la no aceptación del precio por la persona titular del bien o derecho objeto de expropiación.</p>
+          <p class="parrafo">2. El expediente de justiprecio debe contener toda la documentación que establece la legislación de expropiación forzosa y la legislación sectorial de aplicación. En caso de que la administración expropiante no envíe el expediente en el plazo establecido en el apartado 1, la persona titular del bien o derecho a expropiar puede presentar directamente la hoja de aprecio a la sección competente del Jurado.</p>
+          <p class="parrafo">3. El Jurado, en el plazo de diez días desde la recepción del expediente, debe comunicar este hecho a los interesados, indicando la fecha de recepción, el número del expediente, el plazo máximo de resolución, la fecha prevista para el trámite de avenencia y el sentido y los efectos del silencio administrativo.</p>
+          <p class="parrafo">4. El secretario o secretaria de la sección del Jurado debe revisar el expediente. Si el expediente está incompleto o contiene algún error o carencia, el secretario o secretaria debe otorgar un plazo de entre diez días y un mes a la administración expropiante para que lo complete y aporte la correspondiente documentación. Si el procedimiento ante el Jurado se ha iniciado mediante la presentación de la hoja de aprecio por la persona titular del bien o derecho objeto de la expropiación, y sin perjuicio de que puedan serle reclamados los datos y los documentos de que disponga que fundamenten su derecho y que sean necesarios para resolver, hay que reclamar a la administración expropiante, en el mismo plazo, el envío del expediente.</p>
+          <p class="parrafo">5. Si la administración expropiante o, en su caso, la persona titular del bien o derecho objeto de la expropiación, no completa el expediente o no enmienda los errores en el plazo establecido, debe continuarse la tramitación del expediente para la determinación del justiprecio, y la sección del Jurado no puede dejar de resolver mediante la adopción del correspondiente acuerdo por este motivo.</p>
+          <p class="parrafo">6. La sección del Jurado, constituida válidamente y antes de iniciar la sesión de avenencia, debe resolver las incidencias que se hayan producido en relación con el expediente y puede acordar su inadmisión si el expediente no puede calificarse de expropiatorio. El resto de incidencias debe resolverse teniendo en cuenta el principio de celeridad en la tramitación y la obligación del Jurado de resolver en la determinación del justiprecio.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 10. Sesiones.</p>
+          <p class="parrafo_2">Las reuniones se dividen en dos sesiones: una sesión de avenencia, que tiene carácter potestativo para las partes, y una sesión de toma del acuerdo de justiprecio.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 11. Sesión de avenencia.</p>
+          <p class="parrafo_2">1. A la sesión de avenencia, de carácter potestativo para las partes, debe asistir la persona en representación de la administración expropiante con el beneficiario o beneficiaria, si lo hay, y la persona titular o arrendataria del bien o derecho a expropiar o sus representantes, que pueden ir acompañados por una persona que los asesore.</p>
+          <p class="parrafo">2. Las partes deben exponer las hojas de aprecio y justificar los criterios aplicados y los valores obtenidos. Durante esta sesión, los miembros de la sección del Jurado y las partes pueden solicitar aclaraciones y hacer observaciones al objeto de intentar un acuerdo entre las partes.</p>
+          <p class="parrafo">3. En caso de que las partes lleguen a un acuerdo, este debe consignarse por escrito en el mismo momento en un acta firmada por las partes conjuntamente con el secretario o secretaria y el presidente o presidenta de la sección.</p>
+          <p class="parrafo">4. El acuerdo es de cumplimiento obligatorio para las partes firmantes. Los efectos del acuerdo son los que establece la presente ley y la legislación de expropiación forzosa, en cuanto a la determinación del justiprecio por el Jurado, y los que establece la legislación sobre procedimiento administrativo, en cuanto a la finalización convencional de los procedimientos.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 12. Acuerdo de justiprecio.</p>
+          <p class="parrafo_2">1. En caso de que las partes no acepten participar en la sesión de avenencia o si, habiendo participado en ella, no han llegado a un acuerdo, debe convocarse la correspondiente sesión para que la sección del Jurado, sin la presencia de las partes, adopte el acuerdo de justiprecio.</p>
+          <p class="parrafo">2. La sección del Jurado debe analizar el expediente y las hojas de aprecio y debe adoptar el correspondiente acuerdo en el plazo de dos meses, desde el día después del registro de entrada del expediente de justiprecio. Excepcionalmente, el plazo establecido puede prorrogarse hasta un máximo de cuatro meses si la naturaleza de los asuntos a considerar en el expediente expropiatorio aconseja que se inspeccionen directamente sobre el terreno los bienes o los derechos expropiables o si la complejidad del asunto lo requiere. El trámite para completar el expediente establecido por el artículo 9 suspende el plazo para la adopción del acuerdo.</p>
+          <p class="parrafo">3. Los acuerdos de las secciones del Jurado tienen que ser motivados con justificación expresa de los criterios utilizados para la valoración. Los criterios de valoración son los que establece la legislación de expropiación forzosa y la demás normativa sobre valoraciones de aplicación. El justiprecio acordado no puede ser superior al global solicitado por la persona titular del bien o derecho a expropiar ni inferior al aprecio global planteado por la administración expropiante, salvo detección de errores materiales en las valoraciones de las partes, que deben ser solucionados en el trámite previo de incidencias.</p>
+        </version>
+        <version fpub="20200602" id_norma="BOE-A-2020-5569" fecha_publicacion="20200430" fecha_vigencia="20200501">
+          <p class="articulo">Artículo 12. Acuerdo de justiprecio.</p>
+          <p class="parrafo_2">1. En caso de que las partes no acepten participar en la sesión de avenencia o si, habiendo participado en ella, no han llegado a un acuerdo, debe convocarse la correspondiente sesión para que la sección del Jurado, sin la presencia de las partes, adopte el acuerdo de justiprecio.</p>
+          <p class="parrafo">2. La sección del Jurado debe analizar el expediente y las hojas de aprecio y debe adoptar el acuerdo correspondiente en el plazo de tres meses, a contar desde el día siguiente del registro de entrada del expediente de precio justo. Excepcionalmente, el plazo establecido puede ser prorrogado hasta un máximo de seis meses si la naturaleza de los asuntos a considerar en el expediente expropiatorio aconseja que se inspeccionen directamente sobre el terreno los bienes o derechos expropiables o si la complejidad del asunto lo requiere. El trámite para completar el expediente establecido por el artículo 9 suspende el plazo para la adopción del acuerdo.</p>
+          <p class="parrafo">3. Los acuerdos de las secciones del Jurado tienen que ser motivados con justificación expresa de los criterios utilizados para la valoración. Los criterios de valoración son los que establece la legislación de expropiación forzosa y la demás normativa sobre valoraciones de aplicación. El justiprecio acordado no puede ser superior al global solicitado por la persona titular del bien o derecho a expropiar ni inferior al aprecio global planteado por la administración expropiante, salvo detección de errores materiales en las valoraciones de las partes, que deben ser solucionados en el trámite previo de incidencias.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 2 por el art. 140 de la Ley 5/2020, de 29 de abril. <a class="refPost">Ref. BOE-A-2020-5569</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 13. Efectos de los acuerdos.</p>
+          <p class="parrafo_2">1. Los acuerdos de las secciones del Jurado agotan la vía administrativa y son inmediatamente ejecutivos, sin perjuicio de los recursos que procedan. Dichos acuerdos deben notificarse a la administración expropiante y al beneficiario o beneficiaria de la expropiación, si lo hay, así como a las personas titulares de los bienes y derechos afectados, en el plazo máximo de diez días.</p>
+          <p class="parrafo">2. El carácter ejecutivo de los acuerdos del Jurado obliga a la administración expropiante a hacer efectivo el pago del justiprecio acordado. Si el acuerdo de justiprecio ha sido impugnado ante la jurisdicción contenciosa administrativa por la administración expropiante o por el beneficiario o beneficiaria de la expropiación, es preciso, para hacer efectivo el pago, que la persona expropiada preste la caución o la fianza suficiente por el importe que supere la cantidad no discutida.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 14. Obligación de resolver.</p>
+          <p class="parrafo_2">Las secciones territoriales del Jurado tienen la obligación de resolver mediante la adopción de los correspondientes acuerdos en el plazo establecido por la presente ley. La falta de acuerdo puede comportar la exigencia de responsabilidades a los miembros del Jurado, sin perjuicio de que los interesados, una vez finalizado el plazo establecido, puedan entender que el Jurado acepta el precio establecido por la administración expropiante y quede abierta la vía de recurso.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 15. Expedientes expropiatorios por ministerio de la ley.</p>
+          <p class="parrafo_2">1. En los expedientes expropiatorios iniciados por ministerio de la ley de conformidad con el artículo 108 de la Ley 2/2002, del 14 de marzo, de urbanismo, los titulares de los bienes o derechos afectados deben presentar a la sección competente del Jurado la correspondiente solicitud de acuerdo de justiprecio.</p>
+          <p class="parrafo">2. En la solicitud de acuerdo de justiprecio, la persona titular del bien o derecho a expropiar debe acreditar que se han cumplido los requisitos y trámites establecidos por la Ley de urbanismo para iniciar el expediente expropiatorio por ministerio de la ley, y aportar la correspondiente hoja de aprecio.</p>
+          <p class="parrafo">3. El secretario o secretaria de la sección correspondiente del Jurado debe comunicar a la administración expropiante el inicio del procedimiento de aprecio para que formule su valoración en el plazo de un mes, o manifieste, en su caso, la improcedencia de la expropiación, la falta de competencia o la existencia de otras administraciones implicadas. Visto el expediente o, en su caso, transcurrido el plazo sin respuesta de la administración expropiante, deben efectuarse las comunicaciones establecidas por el artículo 9.3 y deben seguirse los trámites establecidos por los artículos 11 y 12 para determinar el justiprecio de acuerdo con los criterios que establece la legislación de expropiación forzosa y la demás normativa de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Artículo 16. Organización administrativa del jurado.</p>
+          <p class="parrafo_2">1. El Jurado de Expropiación de Cataluña tiene una secretaría en cada una de las secciones territoriales, al frente de la cual está el secretario o secretaria de cada sección del Jurado. La estructura de cada secretaría debe determinarse por decreto.</p>
+          <p class="parrafo">2. El secretario o secretaria de cada una de las secciones del Jurado, de acuerdo con las directrices del presidente o presidenta y sin perjuicio de las funciones que le corresponden como secretario o secretaria del órgano colegiado, ejerce las siguientes funciones:</p>
+          <p class="parrafo_2">a) Las relativas a la gestión administrativa de la correspondiente sección del Jurado, de acuerdo con los correspondientes órganos del departamento al que está adscrito.</p>
+          <p class="parrafo">b) La coordinación de las tareas de los miembros del Jurado.</p>
+          <p class="parrafo">c) La coordinación del Jurado, en cada territorio, con las administraciones expropiantes, sin perjuicio de las funciones de representación que corresponden al presidente o presidenta.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición adicional primera. Jurados provinciales de expropiación.</p>
+          <p class="parrafo">Todas las referencias que la normativa sectorial hace a los jurados provinciales de expropiación se entiende que se hacen al Jurado de Expropiación de Cataluña.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición adicional segunda. Expropiaciones de la Administración del Estado.</p>
+          <p class="parrafo">El Jurado de Expropiación de Cataluña puede intervenir en los expedientes de justiprecio en las expropiaciones que lleva a cabo la Administración del Estado en el territorio de Cataluña, según lo dispuesto por la normativa vigente o mediante los correspondientes acuerdos institucionales.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición adicional tercera. Adaptación a la organización territorial.</p>
+          <p class="parrafo">El funcionamiento en secciones del Jurado de Expropiación de Cataluña, determinado por el artículo 3, debe adaptarse a la legislación que se apruebe sobre organización territorial.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición transitoria primera. Demarcaciones de las secciones territoriales</p>
+          <p class="parrafo">Mientras no se desarrolle lo establecido por el artículo 3.1, el Jurado de Expropiación de Cataluña se estructura en las secciones territoriales de Barcelona, Girona, Lleida, Tarragona y Terres de l'Ebre, cuya demarcación se corresponde con los ámbitos territoriales de las delegaciones territoriales del Gobierno de la Generalidad en el momento de la entrada en vigor de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición transitoria segunda. Referencias al departamento de la Presidencia.</p>
+          <p class="parrafo">Hasta que no se apruebe el nuevo reglamento del Jurado de Expropiación de Cataluña, se entiende que las referencias al Departamento de la Presidencia lo son al departamento al que se adscribe el Jurado.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición transitoria tercera. Expedientes previos a la entrada en vigor.</p>
+          <p class="parrafo">Los expedientes de justiprecio en tramitación en el momento de la entrada en vigor de la presente ley se rigen por lo que establece la Ley 6/1995, del 28 de junio, del Jurado de Expropiación de Cataluña, y la normativa que la desarrolla.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo_2">Se derogan la Ley 6/1995, del 28 de junio, del Jurado de Expropiación de Cataluña, y las demás normas de rango igual o inferior en todo aquello que sea contradictorio con lo dispuesto por la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición final primera. Aprobación del Reglamento.</p>
+          <p class="parrafo">El Gobierno de la Generalidad, en el plazo de seis meses desde la entrada en vigor, debe aprobar el reglamento de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente ley entra en vigor al día siguiente de su publicación en el Diari Oficial de la Generalitat de Catalunya.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2005-14079" fecha_publicacion="20050715" fecha_vigencia="20050716">
+          <p class="parrafo">Por tanto, ordeno que todos los ciudadanos a los que sea de aplicación esta Ley cooperen en su cumplimiento y que los tribunales y autoridades a los que corresponda la hagan cumplir</p>
+          <p class="parrafo_2">Palacio de la Generalidad, 7 de julio de 2005.-Pasqual Maragall i Mira, Presidente.-Joan Carretero i Grau, Consejero de Gobernación y Administraciones Públicas.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

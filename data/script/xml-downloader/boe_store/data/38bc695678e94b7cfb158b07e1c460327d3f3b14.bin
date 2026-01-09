@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200257Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-3131</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5110">Ministerio de Economía</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20030214</fecha_disposicion>
+      <numero_oficial>181/2003</numero_oficial>
+      <titulo>Real Decreto 181/2003, de 14 de febrero, por el que se desarrolla el régimen de aplicación de la tasa del Instituto de Contabilidad y Auditoría de Cuentas por emisión de informes de auditoría de cuentas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030215</fecha_publicacion>
+      <diario_numero>40</diario_numero>
+      <fecha_vigencia>20030216</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2003/02/14/181</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-3131</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="119">Agencia Estatal de la Administración Tributaria</materia>
+        <materia codigo="385">Auditoría de Cuentas</materia>
+        <materia codigo="4319">Instituto de Contabilidad y Auditoría de Cuentas</materia>
+        <materia codigo="5876">Recaudación</materia>
+        <materia codigo="6836">Tasas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1988-17704</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 23 de la Ley 19/1988, de 12 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2002-22807</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 44/2002, de 22 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2016-3830</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>aprobando el modelo de autoliquidación y pago previsto en el art. 6: Orden ECC/570/2016, de 18 de abril</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3131</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-14</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/119"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/385"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4319"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6836"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3131</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/119"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/385"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4319"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6836"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/con/20030215"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 181/2003, de 14 de febrero, por el que se desarrolla el régimen de aplicación de la tasa del Instituto de Contabilidad y Auditoría de Cuentas por emisión de informes de auditoría de cuentas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/con/20030215">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3131</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">181</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/119"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/385"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4319"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5876"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6836"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/con/20030215/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 181/2003, de 14 de febrero, por el que se desarrolla el régimen de aplicación de la tasa del Instituto de Contabilidad y Auditoría de Cuentas por emisión de informes de auditoría de cuentas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/con/20030215"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2003/02/14/181/con/20030215/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2003/02/14/181/con/20030215/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="parrafo">La Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero, a través del apartado noveno de su artículo 53, ha introducido un nuevo artículo 23 en la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas, creando la tasa del Instituto de Contabilidad y Auditoría de Cuentas por emisión de informes de auditoría de cuentas.</p>
+          <p class="parrafo">El apartado 7 de dicho artículo 23 establece que las normas de liquidación y pago de la citada tasa se determinarán reglamentariamente. Asimismo, mediante la disposición final tercera de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas, se autoriza al Gobierno a dictar las normas necesarias para el desarrollo de dicha ley.</p>
+          <p class="parrafo">El presente Real Decreto, en uso de dicha autorización, da cumplimiento al desarrollo reglamentario de las normas de liquidación y pago, y completa la regulación de la tasa, incrementando la seguridad jurídica de sus destinatarios principales, no solamente las autoridades que deben aplicarla, sino fundamentalmente los sujetos obligados a satisfacerla.</p>
+          <p class="parrafo">En este sentido, se ha establecido que tendrán la consideración de informes de auditoría de cuentas, únicamente, los emitidos por auditores de cuentas y sociedades de auditoría como consecuencia de la realización de trabajos que tengan la naturaleza de actividad de auditoría de cuentas, conforme a la definición de dicha actividad contenida en el artículo 1 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas, no teniendo tal consideración a estos efectos los trabajos que no tengan la naturaleza de auditoría de cuentas, a los que no será de aplicación esta tasa.</p>
+          <p class="parrafo">El devengo de esta tasa se produce el último día de cada trimestre natural respecto a los informes de auditoría emitidos en dicho trimestre. En los supuestos en los que un auditor o una sociedad de auditoría cause baja en la situación de ejerciente en el Registro oficial de auditores de cuentas antes de que finalice un trimestre natural, la fecha de devengo será también el último día de éste.</p>
+          <p class="parrafo">La tasa será objeto de autoliquidación, de tal forma que los sujetos pasivos deberán presentar y suscribir una declaración-liquidación trimestral e ingresar el importe de la deuda tributaria correspondiente. Se establece el plazo para la presentación de la declaración-liquidación y el pago de la deuda tributaria, que deberá efectuarse en las entidades colaboradoras en la recaudación, conforme a lo dispuesto a este respecto en el Reglamento General de Recaudación, aprobado por el Real Decreto 1684/1990, de 20 de diciembre. Se aplicarán en todo caso en la gestión de la tasa lo previsto en la Ley General Tributaria en relación con las normas reguladoras de las liquidaciones tributarias, la recaudación, la inspección de los tributos y la revisión de los actos en vía administrativa.</p>
+          <p class="parrafo">En su virtud, a propuesta del Vicepresidente Segundo del Gobierno para Asuntos Económicos y Ministro de Economía, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 14 de febrero de 2003,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 1. Objeto y régimen jurídico de la tasa.</p>
+          <p class="parrafo">1. El presente Real Decreto tiene por objeto establecer el régimen de aplicación de la tasa del Instituto de Contabilidad y Auditoría de Cuentas por emisión de informes de auditoría de cuentas, prevista en el artículo 23 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas.</p>
+          <p class="parrafo">2. El régimen de la tasa por emisión de informes de auditoría de cuentas se rige por lo establecido en el artículo 23 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas y por las normas del presente Real Decreto en cuanto su liquidación y pago y, en su caso, por lo prevenido en la Ley 8/1989, de 13 de abril, de Tasas y Precios Públicos, en la Ley 230/1963, de 28 de diciembre, General Tributaria, en el texto refundido de la Ley General Presupuestaria aprobado por Real Decreto Legislativo 1091/1988, de 23 de septiembre, así como por las disposiciones dictadas para su desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 2. Hecho imponible.</p>
+          <p class="parrafo">Con arreglo a lo dispuesto en el artículo 23.2 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas, constituye el hecho imponible de esta tasa el ejercicio por el Instituto de Contabilidad y Auditoría de Cuentas de las competencias a que se refiere el artículo 22.1 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas, en relación con los informes de auditoría de cuentas emitidos por los auditores de cuentas y sociedades de auditoría.</p>
+          <p class="parrafo">A este respecto, tendrán la consideración de informes de auditoría de cuentas los emitidos por los auditores de cuentas ejercientes y las sociedades de auditoría como consecuencia de la realización de los trabajos que tengan la naturaleza de actividad de auditoría de cuentas conforme a lo establecido en el artículo 1 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 3. Devengo.</p>
+          <p class="parrafo">Con arreglo a lo dispuesto en el artículo 23.5 de la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas, la tasa se devengará el último día de cada trimestre natural, en relación con los informes de auditoría emitidos o fechados en cada trimestre. En los supuestos de baja como auditores ejercientes o baja de sociedades en el Registro oficial de auditores de cuentas en fecha distinta a la de finalización del trimestre natural, la tasa se devengará asimismo el último día de éste.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 4. Órganos gestores.</p>
+          <p class="parrafo">1. La gestión y recaudación en período voluntario de la tasa corresponde al Instituto de Contabilidad y Auditoría de Cuentas.</p>
+          <p class="parrafo">2. La recaudación en vía ejecutiva corresponde a la Agencia Estatal de Administración Tributaria conforme a la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 5. Autoliquidación.</p>
+          <p class="parrafo">1. Esta tasa será objeto de autoliquidación.</p>
+          <p class="parrafo">2. Los sujetos pasivos de esta tasa al tiempo de presentar su declaración deberán determinar la deuda tributaria correspondiente e ingresarla en el lugar, forma y plazos determinados en este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 6. Pago en período voluntario.</p>
+          <p class="parrafo">1. El obligado al pago realizará el ingreso del importe correspondiente a la tasa mediante la presentación de la autoliquidación y documento de ingreso ajustado al modelo que se determine en las normas de desarrollo del presente Real Decreto, en cualquier sucursal de las entidades de depósito que presten el servicio de colaboración en la gestión recaudatoria, al amparo de lo dispuesto en los artículos 78, 79 y 80 del Reglamento General de Recaudación y su normativa de desarrollo.</p>
+          <p class="parrafo">2. El pago de la tasa en período voluntario mediante ingreso efectuado a favor del Tesoro Público deberá hacerse a través de la cuenta restringida para la recaudación de tasas de Organismos autónomos del Estado abierta en la entidad de depósito autorizada, la cual validará en ese mismo momento la operación, con indicación de fecha e importe.</p>
+          <p class="parrafo">3. Será de aplicación para lo no previsto expresamente en este Real Decreto lo dispuesto en la Orden de 4 de junio de 1998, modificada por la Orden de 11 de diciembre de 2001, que regula determinados aspectos de la gestión recaudatoria de las tasas que constituyen derechos de la Hacienda pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 7. Plazo de ingreso.</p>
+          <p class="parrafo">El ingreso de las tasas en período voluntario deberá realizarse en el plazo de los veinte primeros días naturales de los meses de abril, julio, octubre y enero en relación con el trimestre natural inmediato anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 8. Recaudación en vía ejecutiva.</p>
+          <p class="parrafo">1. La Agencia Estatal de Administración Tributaria efectuará la gestión recaudatoria ejecutiva de la tasa que corresponde percibir al Instituto de Contabilidad y Auditoría de Cuentas.</p>
+          <p class="parrafo">2. Vencido el plazo de ingreso en período voluntario sin haberse satisfecho las deudas, se iniciará el procedimiento de apremio mediante providencia, expedida por el órgano competente, notificada al deudor, en la que se identificará la deuda pendiente y requerirá para que se efectúe el pago.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Artículo 9. Incumplimiento de la obligación de autoliquidación y pago de la tasa.</p>
+          <p class="parrafo">Vencido el plazo de ingreso en período voluntario sin haberse presentado la correspondiente autoliquidación ni satisfecho la deuda de ella derivada, el Instituto de Contabilidad y Auditoría de Cuentas dictará de oficio las correspondientes liquidaciones y las notificará a los sujetos pasivos, de conformidad con lo establecido en la Ley General Tributaria.</p>
+          <p class="parrafo">Estas liquidaciones se practicarán con base en los honorarios que los auditores de cuentas hayan comunicado al Instituto de Contabilidad y Auditoría de Cuentas en relación con los informes de auditoría realizados, con expresión de la fecha de emisión en virtud de lo establecido en la disposición adicional decimocuarta de la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero.</p>
+          <p class="parrafo">Transcurrido el plazo de ingreso establecido en el artículo 20 del Reglamento General de Recaudación sin que se haya efectuado el pago, dichas liquidaciones serán remitidas al órgano competente de la Agencia Estatal de Administración Tributaria para que éste proceda a la exacción en vía de apremio.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Disposición final primera. Facultades de desarrollo.</p>
+          <p class="parrafo">Por el Ministro de Economía se dictarán cuantas disposiciones sean necesarias para el desarrollo y aplicación del presente Real Decreto.</p>
+          <p class="parrafo">En dicho desarrollo se procederá a la determinación del modelo de autoliquidación y pago al que se refiere el artículo 6 del presente Real Decreto y de las condiciones para la presentación de la autoliquidación y pago de la tasa por medios telemáticos.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2003-3131" fecha_publicacion="20030215" fecha_vigencia="20030216">
+          <p class="parrafo_2">Dado en Madrid, a 14 de febrero de 2003.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Segundo del Gobierno para Asuntos Económicos y Ministro de Economía,</p>
+          <p class="firma_ministro">RODRIGO DE RATO Y FIGAREDO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T144214Z</fecha_actualizacion>
+      <identificador>BOE-A-1996-25753</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>19961113</fecha_disposicion>
+      <titulo>Orden de 13 de noviembre de 1996 por la que se establece la lista de medicamentos veterinarios que podrán formar parte de los botiquines de urgencia.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19961120</fecha_publicacion>
+      <diario_numero>280</diario_numero>
+      <fecha_vigencia>19961121</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/1996/11/13/(2)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1996-25753</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="526">Botiquines</materia>
+        <materia codigo="4909">Medicamentos veterinarios</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1995-5653</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 92 del Real Decreto 109/1995, de 27 de enero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-25753</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-11-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/526"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4909"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-25753</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-11-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/526"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4909"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/con/19961120"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 13 de noviembre de 1996 por la que se establece la lista de medicamentos veterinarios que podrán formar parte de los botiquines de urgencia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-11-20</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/con/19961120">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1996-25753</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-11-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/526"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4909"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-11-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/con/19961120/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 13 de noviembre de 1996 por la que se establece la lista de medicamentos veterinarios que podrán formar parte de los botiquines de urgencia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/con/19961120"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/1996/11/13/(2)/con/19961120/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/1996/11/13/(2)/con/19961120/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1996-25753" fecha_publicacion="19961120" fecha_vigencia="19961121">
+          <p class="parrafo">En el Real Decreto 109/1995, de 27 de enero, sobre medicamentos veterinarios, se regula en su artículo 92 los botiquines de urgencia que podrán establecerse, por razones de lejanía y urgencia, cuando no exista en un municipio oficina de farmacia ni otro centro de suministro de medicamentos veterinarios autorizado.</p>
+          <p class="parrafo">Los botiquines de urgencia constituyen una excepción a Io dispuesto sobre dispensación en el Real Decreto 109/1995, según el cual sólo las oficinas de farmacia, los centros comerciales detallistas y las entidades o agrupaciones ganaderas están autorizados para dispensar medicamentos veterinarios.</p>
+          <p class="parrafo">La autorización de estos botiquines depende del cumplimiento de una serie de garantías, entre las cuales se encuentra la limitación de los medicamentos veterinarios de que pueden disponer a los establecidos por el Ministerio de Agricultura, Pesca y Alimentación, de acuerdo con el de Sanidad y Consumo.</p>
+          <p class="parrafo">En consecuencia, el objeto de la presente Orden es fijar la lista de los grupos terapéuticos entre los que obligatoriamente habrán de estar comprendidos los medicamentos veterinarios de que podrán disponer los botiquines de urgencia. Estos botiquines no podrán disponer de ningún medicamento veterinario que no esté comprendido en dicha lista.</p>
+          <p class="parrafo">En su virtud, a propuesta de los Ministros de Agricultura, Pesca y Alimentación y de Seguridad y Consumo, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-1996-25753" fecha_publicacion="19961120" fecha_vigencia="19961121">
+          <p class="articulo">Artículo único.</p>
+          <p class="parrafo">Los botiquines de urgencia a que se refiere el artículo 92 del Real Decreto 109/1995, de 27 de enero, sobre medicamentos veterinarios, podrán disponer únicamente de los medicamentos veterinarios comprendidos en los grupos terapéuticos incluidos en la lista que figura en el anexo de la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1996-25753" fecha_publicacion="19961120" fecha_vigencia="19961121">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente disposición entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1996-25753" fecha_publicacion="19961120" fecha_vigencia="19961121">
+          <p class="parrafo_2">Madrid, 13 de noviembre de 1996.</p>
+          <p class="firma_ministro">ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+          <p class="parrafo_2">Excmos. Sres. Ministros de Agricultura, Pesca y Alimentación y de Sanidad y Consumo.</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-1996-25753" fecha_publicacion="19961120" fecha_vigencia="19961121">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Grupos terapéuticos en los que habrán de estar comprendidos los medicamentos veterinarios que podrán formar parte en un botiquín de urgencia</p>
+          <p class="centro_cursiva">A) Grupo inmunológicos</p>
+          <p class="parrafo_2">1. Sueros gatos y perros:</p>
+          <p class="parrafo_2">Sueros moquillo.</p>
+          <p class="parrafo_2">2. Sueros óvidos y cápridos:</p>
+          <p class="parrafo_2">Sueros enterotoxemia óvidos y cápridos.</p>
+          <p class="parrafo_2">3. Sueros bóvidos:</p>
+          <p class="parrafo_2">Sueros pasteurelosis bóvidos.</p>
+          <p class="parrafo">Sueros colibacilosis bóvidos.</p>
+          <p class="parrafo">Sueros enterotoxemia bóvidos.</p>
+          <p class="parrafo">Sueros salmonelosis bóvidos.</p>
+          <p class="parrafo_2">4. Suero équidos:</p>
+          <p class="parrafo_2">Suero antitetánico.</p>
+          <p class="centro_cursiva">B) Grupo farmacológicos</p>
+          <p class="parrafo_2">1. Antiparasitarios internos:</p>
+          <p class="parrafo_2">Anticoccidiósicos pirimidinas.</p>
+          <p class="parrafo">Anticoccidiósicos sulfamidas.</p>
+          <p class="parrafo">Antiprotozoarios histómonicidas.</p>
+          <p class="parrafo">Antiprotozoarios piroplasmicidas.</p>
+          <p class="parrafo">Antiprotozoarios treponemicidas (disentericidas).</p>
+          <p class="parrafo_2">2. Antisépticos.</p>
+          <p class="parrafo">3. Desinfectantes uterinos.</p>
+          <p class="parrafo">4. Antibacterianos:</p>
+          <p class="parrafo_2">Antibióticos.</p>
+          <p class="parrafo">Sulfamidas.</p>
+          <p class="parrafo">Quinolonas.</p>
+          <p class="parrafo_2">5. Antihistamínicos.</p>
+          <p class="parrafo">6. Antinflamatorios esferoides.</p>
+          <p class="parrafo">7. Sistema nervioso autónomo y periférico:</p>
+          <p class="parrafo_2">Colinérgicos de acción directa.</p>
+          <p class="parrafo">Anticolinérgicos sintéticos y semisintóticos.</p>
+          <p class="parrafo_2">8. Espasmolíticos.</p>
+          <p class="parrafo">9. Sistema nervioso central:</p>
+          <p class="parrafo_2">Antinflamatorios, analgésicos y antipiréticos, no esferoides.</p>
+          <p class="parrafo">Tranquilizantes fenotiacinas.</p>
+          <p class="parrafo_2">10. Hemostasis:</p>
+          <p class="parrafo_2">Hemostáticos.</p>
+          <p class="parrafo_2">11. Cardiovasculares:</p>
+          <p class="parrafo_2">Cardiotónicos.</p>
+          <p class="parrafo">Vasocontrictores.</p>
+          <p class="parrafo_2">12. Diuréticos:</p>
+          <p class="parrafo_2">Diuréticos saluréticos.</p>
+          <p class="parrafo">Diuréticos diversos.</p>
+          <p class="parrafo_2">13. Expectorantes, mucolíticos y antitusígenos:</p>
+          <p class="parrafo_2">Expectorantes.</p>
+          <p class="parrafo">Mucolíticos.</p>
+          <p class="parrafo">Antitusígenos.</p>
+          <p class="parrafo_2">14. Broncodilatadores:</p>
+          <p class="parrafo_2">Brocodilatadores selectivos no catecolaminas.</p>
+          <p class="parrafo_2">15. Gastrointestinales:</p>
+          <p class="parrafo_2">Antiácidos.</p>
+          <p class="parrafo">Absorbentes y astringentes.</p>
+          <p class="parrafo">Antidiarréicos.</p>
+          <p class="parrafo">Antieméticos benzamidas.</p>
+          <p class="parrafo">Antitimpáticos, antimeteorismo y ruminatorios.</p>
+          <p class="parrafo">Carminativos y eupépticos.</p>
+          <p class="parrafo">Purgantes, laxantes y catárticos.</p>
+          <p class="parrafo_2">16. Hepáticos:</p>
+          <p class="parrafo_2">Coleréticos y colagogos.</p>
+          <p class="parrafo">Lipotrópicos y hepatoprotectores.</p>
+          <p class="parrafo_2">17. Hormonas ácidos grasos:</p>
+          <p class="parrafo_2">Prostaglandinas.</p>
+          <p class="parrafo_2">18. Hormonas, péptidos y proteínas:</p>
+          <p class="parrafo_2">Oxitócicos.</p>
+          <p class="parrafo">Progesterona.</p>
+          <p class="parrafo_2">19. Metabolismo hídrico, calórico y mineral:</p>
+          <p class="parrafo_2">Antiacetonémicos.</p>
+          <p class="parrafo">Calcio inyectable.</p>
+          <p class="parrafo">Fósforo inyectable.</p>
+          <p class="parrafo">Magnesio inyectable.</p>
+          <p class="parrafo">Electrolitos rehidratantes.</p>
+          <p class="parrafo">Sueros rehidratantes.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

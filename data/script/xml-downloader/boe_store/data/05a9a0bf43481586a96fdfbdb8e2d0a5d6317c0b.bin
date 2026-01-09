@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210615Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-20554</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7210">Ministerio de Administraciones Públicas</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20051202</fecha_disposicion>
+      <numero_oficial>1456/2005</numero_oficial>
+      <titulo>Real Decreto 1456/2005, de 2 de diciembre, por el que se regulan las Direcciones Territoriales y Provinciales de Comercio.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20051215</fecha_publicacion>
+      <diario_numero>299</diario_numero>
+      <fecha_vigencia>20060101</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2005/12/02/1456</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-20554</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1002">Comercio exterior</materia>
+        <materia codigo="4370">Instituto Español de Comercio Exterior</materia>
+        <materia codigo="7934">Ministerio de Industria Turismo y Comercio</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2005-1302</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Lo indicado del Real Decreto 2397/2004, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2004-12016</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>art. 2.8 y disposición transitoria 5 del Real Decreto 1554/2004, de 25 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1999-22494</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>arts. 5.1.d), 8, 10.1.e), 14 y lo indicado de la Orden de 18 de noviembre de 1999</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1998-6188</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Lo indicado de los arts. 7 y 9 del Real Decreto 390/1998, de 13 de marzo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2021-20371</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>el art. 2.g), por Real Decreto 986/2021, de 16 de noviembre de 2021</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2022-19914</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>, con efectos desde el 16 de enero de 2023, el art. 2.e), por Real Decreto 993/2022, de 29 de noviembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2008-4730</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 2.e), por Real Decreto 330/2008, de 29 de febrero</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-20554</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-02</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1456</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1002"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4370"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-20554</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1456</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1002"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4370"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20221130"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20211210"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20080312"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20051215"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1456/2005, de 2 de diciembre, por el que se regulan las Direcciones Territoriales y Provinciales de Comercio.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20221130">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-20554</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1456</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1002"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4370"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20221130/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1456/2005, de 2 de diciembre, por el que se regulan las Direcciones Territoriales y Provinciales de Comercio.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20221130"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20221130/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20221130/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20211210">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-20554</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1456</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1002"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4370"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20211210/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1456/2005, de 2 de diciembre, por el que se regulan las Direcciones Territoriales y Provinciales de Comercio.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20211210"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20211210/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20211210/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20080312">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-20554</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1456</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1002"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4370"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-03-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20080312/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1456/2005, de 2 de diciembre, por el que se regulan las Direcciones Territoriales y Provinciales de Comercio.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20080312"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20080312/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20080312/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20051215">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-20554</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1456</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1002"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4370"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7934"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20051215/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1456/2005, de 2 de diciembre, por el que se regulan las Direcciones Territoriales y Provinciales de Comercio.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20051215"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20051215/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/12/02/1456/con/20051215/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="parrafo">Las Direcciones Regionales y Territoriales de Comercio, en adelante Direcciones Territoriales y Provinciales de Comercio, conforme a lo previsto en la Disposición transitoria quinta del Real Decreto 1554/2004, de 25 de junio, por el que se desarrolla la estructura orgánica básica del Ministerio de Industria, Turismo y Comercio, modificado por el Real Decreto 2397/2004, de 30 de diciembre, por el que se regulan determinados aspectos organizativos en el ámbito del Ministerio de Industria, Turismo y Comercio, han mantenido hasta ahora su actual regulación y dependencia, y está prevista su integración el 1 de enero de 2006 en las Delegaciones del Gobierno.</p>
+          <p class="parrafo">No obstante dicha previsión, la singularidad de las funciones y el volumen de gestión administrativa encomendado a las Direcciones Territoriales y Provinciales de Comercio unido a sus especiales características orgánicas y funcionales avalan la conveniencia de preservar la actual estructura coordinada de la red exterior y territorial propia de la Secretaría de Estado de Turismo y Comercio, sin perjuicio de reforzar las funciones de dirección, supervisión y coordinación que el artículo 22 de la Ley de Organización y Funcionamiento de la Administración General del Estado atribuye a los Delegados del Gobierno.</p>
+          <p class="parrafo">En efecto, la Red Territorial de Comercio constituye una pieza fundamental en el marco de la política de la Administración estatal de apoyo a la internacionalización de la empresa española, pues actúa de forma integrada con la Red de Oficinas Económicas y Comerciales de España en el Exterior en la implementación de la política estatal de promoción comercial exterior y de fomento de las inversiones de las empresas españolas, y en especial de las PYMES. De ello resulta, pues, la existencia de una Red única con dos vertientes, una en el territorio nacional y otra en el exterior. Por otro lado, el momento por el que atraviesa el proceso de integración europea, aconseja no modificar la estructura de la red exterior y territorial que sirve de soporte a la acción administrativa estatal sobre el comercio exterior y a la política de apoyo a la internacionalización de nuestras empresas.</p>
+          <p class="parrafo">Asimismo, conviene señalar que las Direcciones Territoriales y Provinciales de Comercio ejercen, en sus respectivas demarcaciones, competencias exclusivas del Estado en materia de comercio exterior, transacciones exteriores, promoción comercial y de inversiones así como del fomento de la internacionalización, que destacan por su volumen, en cuanto red periférica de la Secretaría de Estado de Turismo y Comercio, y por su singularidad, al servir como Centros de Actuación del Instituto Español de Comercio Exterior (ICEX), ente público que goza por Ley de una autonomía de actuación y gestión.</p>
+          <p class="parrafo">Por último, la Ley 6/1997, de 14 de abril de Organización y Funcionamiento de la Administración General del Estado, prevé en su artículo 33 la dependencia directa de los órganos centrales correspondientes de aquéllos servicios que por las singularidades de sus funciones o por el volumen de gestión resulte aconsejable, en aras de una mayor eficacia de sus actuaciones, características ambas que se dan en las Direcciones Territoriales y Provinciales de Comercio.</p>
+          <p class="parrafo">En su virtud, a iniciativa del Ministro de Industria, Turismo y Comercio, a propuesta del Ministro de Administraciones Públicas y previa deliberación del Consejo de Ministros en su reunión del día 2 de diciembre de 2005,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 1. Organización y dependencia.</p>
+          <p class="parrafo">Las Direcciones Territoriales y Provinciales de Comercio son servicios periféricos de la Administración General del Estado, dependientes orgánica y funcionalmente del Ministerio de Industria, Turismo y Comercio que establece sus objetivos de actuación y funcionamiento, a través de la Secretaría de Estado de Turismo y Comercio.</p>
+          <p class="parrafo">Sin perjuicio de lo previsto en el párrafo anterior, corresponde al Delegado del Gobierno, en los términos previstos en el artículo 22 de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, la dirección y supervisión de estos servicios, así como su coordinación con el resto de los servicios de la Administración General del Estado en el territorio de la respectiva comunidad autónoma.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo">Corresponde a las Direcciones Territoriales y Provinciales de Comercio en su ámbito territorial propio, y conforme a la distribución de competencias establecida reglamentariamente, el ejercicio de las siguientes funciones en materia de comercio:</p>
+          <p class="parrafo">a) La gestión, tramitación y resolución de los expedientes relativos al comercio exterior, incluido el intracomunitario, de productos agrícolas e industriales, así como de material de defensa y doble uso.</p>
+          <p class="parrafo">b) La tramitación de expedientes administrativos en materia de transacciones exteriores.</p>
+          <p class="parrafo">c) Estudiar e informar sobre los efectos del arancel y de los regímenes arancelarios especiales en la economía de su demarcación.</p>
+          <p class="parrafo">d) Recoger y procesar datos sobre las magnitudes que intervienen en la distribución y comercialización de bienes y servicios.</p>
+          <p class="parrafo">e) La inspección y control de calidad comercial de productos objeto de comercio exterior, incluido el intracomunitario, en cuanto a normas y especificaciones técnicas, envases y embalajes, almacenes, depósitos, medios de transporte, etc. La realización de los controles de conformidad con las normas comunes de comercialización en el sector de frutas y hortalizas frescas.</p>
+          <p class="parrafo">f) La expedición de certificados de conformidad en el desarrollo de actividades de certificación voluntaria y asistencia técnica a empresas y sectores en el ámbito del comercio exterior.</p>
+          <p class="parrafo">g) La emisión de los permisos y certificados sobre productos y especimenes en el ámbito del Convenio sobre comercio internacional de especies amenazadas de fauna y flora silvestre (CITES), así como el desarrollo de las actuaciones de control e inspección derivadas de la condición de la Secretaria General de Comercio Exterior de Autoridad Administrativa CITES y órgano de gestión principal según la normativa comunitaria de desarrollo.</p>
+          <p class="parrafo">h) Las que les corresponda en función del desarrollo de las actividades del Instituto Español de Comercio Exterior en sus respectivos ámbitos territoriales, conforme a lo previsto en el Real Decreto 1165/2005, de 30 de septiembre, por el que se modifica la estructura orgánica del Instituto Español de Comercio Exterior.</p>
+          <p class="parrafo">i) La información a organismos y particulares interesados en las materias citadas.</p>
+          <p class="parrafo">j) Las de carácter sancionador que estén previstas en las correspondientes normas.</p>
+          <p class="parrafo">k) En general, las restantes atribuidas en su ámbito territorial a la Secretaría de Estado de Turismo y Comercio, a sus organismos autónomos o al ICEX.</p>
+        </version>
+        <version id_norma="BOE-A-2008-4730" fecha_publicacion="20080312" fecha_vigencia="20080612">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo">Corresponde a las Direcciones Territoriales y Provinciales de Comercio en su ámbito territorial propio, y conforme a la distribución de competencias establecida reglamentariamente, el ejercicio de las siguientes funciones en materia de comercio:</p>
+          <p class="parrafo_2">a) La gestión, tramitación y resolución de los expedientes relativos al comercio exterior, incluido el intracomunitario, de productos agrícolas e industriales, así como de material de defensa y doble uso.</p>
+          <p class="parrafo">b) La tramitación de expedientes administrativos en materia de transacciones exteriores.</p>
+          <p class="parrafo">c) Estudiar e informar sobre los efectos del arancel y de los regímenes arancelarios especiales en la economía de su demarcación.</p>
+          <p class="parrafo">d) Recoger y procesar datos sobre las magnitudes que intervienen en la distribución y comercialización de bienes y servicios.</p>
+          <p class="parrafo">e) La inspección y control de calidad comercial de productos objeto de comercio exterior, incluido el intracomunitario, en cuanto a normas y especificaciones técnicas, envases y embalajes, almacenes, depósitos, medios de transporte, etc. La realización de los controles de conformidad con las normas comunes de comercialización en el sector de frutas y hortalizas frescas. El control de la conformidad respecto a las normas aplicables de seguridad y de etiquetado de determinados productos industriales a importar de terceros países, previo a su despacho a libre práctica, en la forma que reglamentariamente se establezca sin perjuicio de las competencias atribuidas a otros departamentos ministeriales u organismos de la Administración General del Estado.</p>
+          <p class="parrafo">f) La expedición de certificados de conformidad en el desarrollo de actividades de certificación voluntaria y asistencia técnica a empresas y sectores en el ámbito del comercio exterior.</p>
+          <p class="parrafo">g) La emisión de los permisos y certificados sobre productos y especimenes en el ámbito del Convenio sobre comercio internacional de especies amenazadas de fauna y flora silvestre (CITES), así como el desarrollo de las actuaciones de control e inspección derivadas de la condición de la Secretaria General de Comercio Exterior de Autoridad Administrativa CITES y órgano de gestión principal según la normativa comunitaria de desarrollo.</p>
+          <p class="parrafo">h) Las que les corresponda en función del desarrollo de las actividades del Instituto Español de Comercio Exterior en sus respectivos ámbitos territoriales, conforme a lo previsto en el Real Decreto 1165/2005, de 30 de septiembre, por el que se modifica la estructura orgánica del Instituto Español de Comercio Exterior.</p>
+          <p class="parrafo">i) La información a organismos y particulares interesados en las materias citadas.</p>
+          <p class="parrafo">j) Las de carácter sancionador que estén previstas en las correspondientes normas.</p>
+          <p class="parrafo">k) En general, las restantes atribuidas en su ámbito territorial a la Secretaría de Estado de Turismo y Comercio, a sus organismos autónomos o al ICEX.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra e) por la disposición final 2 del Real Decreto 330/2008, de 29 de febrero. <a class="refPost">Ref. BOE-A-2008-4730</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2021-20371" fecha_publicacion="20211210" fecha_vigencia="20220102">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo">Corresponde a las Direcciones Territoriales y Provinciales de Comercio en su ámbito territorial propio, y conforme a la distribución de competencias establecida reglamentariamente, el ejercicio de las siguientes funciones en materia de comercio:</p>
+          <p class="parrafo_2">a) La gestión, tramitación y resolución de los expedientes relativos al comercio exterior, incluido el intracomunitario, de productos agrícolas e industriales, así como de material de defensa y doble uso.</p>
+          <p class="parrafo">b) La tramitación de expedientes administrativos en materia de transacciones exteriores.</p>
+          <p class="parrafo">c) Estudiar e informar sobre los efectos del arancel y de los regímenes arancelarios especiales en la economía de su demarcación.</p>
+          <p class="parrafo">d) Recoger y procesar datos sobre las magnitudes que intervienen en la distribución y comercialización de bienes y servicios.</p>
+          <p class="parrafo">e) La inspección y control de calidad comercial de productos objeto de comercio exterior, incluido el intracomunitario, en cuanto a normas y especificaciones técnicas, envases y embalajes, almacenes, depósitos, medios de transporte, etc. La realización de los controles de conformidad con las normas comunes de comercialización en el sector de frutas y hortalizas frescas. El control de la conformidad respecto a las normas aplicables de seguridad y de etiquetado de determinados productos industriales a importar de terceros países, previo a su despacho a libre práctica, en la forma que reglamentariamente se establezca sin perjuicio de las competencias atribuidas a otros departamentos ministeriales u organismos de la Administración General del Estado.</p>
+          <p class="parrafo">f) La expedición de certificados de conformidad en el desarrollo de actividades de certificación voluntaria y asistencia técnica a empresas y sectores en el ámbito del comercio exterior.</p>
+          <p class="parrafo">g) <strong>(Derogada)</strong></p>
+          <p class="parrafo">h) Las que les corresponda en función del desarrollo de las actividades del Instituto Español de Comercio Exterior en sus respectivos ámbitos territoriales, conforme a lo previsto en el Real Decreto 1165/2005, de 30 de septiembre, por el que se modifica la estructura orgánica del Instituto Español de Comercio Exterior.</p>
+          <p class="parrafo">i) La información a organismos y particulares interesados en las materias citadas.</p>
+          <p class="parrafo">j) Las de carácter sancionador que estén previstas en las correspondientes normas.</p>
+          <p class="parrafo">k) En general, las restantes atribuidas en su ámbito territorial a la Secretaría de Estado de Turismo y Comercio, a sus organismos autónomos o al ICEX.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga la letra g) por la disposición derogatoria única.2 del Real Decreto 986/2021, de 16 de noviembre de 2021. <a class="refPost">Ref. BOE-A-2021-20371#dd</a></p>
+            <p class="nota_pie">Se modifica la letra e) por la disposición final 2 del Real Decreto 330/2008, de 29 de febrero. <a class="refPost">Ref. BOE-A-2008-4730</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2022-19914" fecha_publicacion="20221130" fecha_vigencia="20230116">
+          <p class="articulo">Artículo 2. Funciones.</p>
+          <p class="parrafo">Corresponde a las Direcciones Territoriales y Provinciales de Comercio en su ámbito territorial propio, y conforme a la distribución de competencias establecida reglamentariamente, el ejercicio de las siguientes funciones en materia de comercio:</p>
+          <p class="parrafo_2">a) La gestión, tramitación y resolución de los expedientes relativos al comercio exterior, incluido el intracomunitario, de productos agrícolas e industriales, así como de material de defensa y doble uso.</p>
+          <p class="parrafo">b) La tramitación de expedientes administrativos en materia de transacciones exteriores.</p>
+          <p class="parrafo">c) Estudiar e informar sobre los efectos del arancel y de los regímenes arancelarios especiales en la economía de su demarcación.</p>
+          <p class="parrafo">d) Recoger y procesar datos sobre las magnitudes que intervienen en la distribución y comercialización de bienes y servicios.</p>
+          <p class="parrafo">e) La inspección y control de calidad comercial de productos objeto de comercio exterior, incluido el intracomunitario, en cuanto a normas y especificaciones técnicas, envases y embalajes, almacenes, depósitos, medios de transporte, etc. La realización de los controles de conformidad con las normas comunes de comercialización en el sector de frutas y hortalizas frescas. Autorización, control e inspección, de los productos ecológicos procedentes de terceros países para el despacho a libre práctica en la Unión Europea. El control de la conformidad respecto a las normas aplicables en materia de seguridad y de etiquetado de determinados productos industriales a importar de terceros países, previo a su despacho a libre práctica, en la forma que reglamentariamente se establezca sin perjuicio de las competencias atribuidas a otros departamentos ministeriales u organismos de la Administración General del Estado. El control de conformidad e inspección de aparatos eléctricos y electrónicos, pilas y acumuladores procedentes de terceros países para el despacho a libre práctica en la Unión Europea, con el fin de asegurar que no entrañen ningún riesgo para la seguridad de los usuarios, el medio ambiente u otros intereses públicos, por la presencia de determinadas sustancias peligrosas. La verificación del cumplimiento de las obligaciones de registro en el Registro Integrado Industrial establecido en el Real Decreto 106/2008, de 1 de febrero, y en el Real Decreto 110/2015, de 20 de febrero.</p>
+          <blockquote caduca="20230116" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que esta actualización de la letra e), establecida por la disposición final 1 del Real Decreto 993/2022, de 29 de noviembre, <a class="refPost">Ref. BOE-A-2022-19914#df</a>, entra en vigor el 16 de enero de 2023, según determina su disposición final 5.</p>
+            <p class="cita_con_pleca">Redacción anterior:</p>
+            <p class="parrafo">"e) La inspección y control de calidad comercial de productos objeto de comercio exterior, incluido el intracomunitario, en cuanto a normas y especificaciones técnicas, envases y embalajes, almacenes, depósitos, medios de transporte, etc. La realización de los controles de conformidad con las normas comunes de comercialización en el sector de frutas y hortalizas frescas. El control de la conformidad respecto a las normas aplicables de seguridad y de etiquetado de determinados productos industriales a importar de terceros países, previo a su despacho a libre práctica, en la forma que reglamentariamente se establezca sin perjuicio de las competencias atribuidas a otros departamentos ministeriales u organismos de la Administración General del Estado."</p>
+          </blockquote>
+          <p class="parrafo">f) La expedición de certificados de conformidad en el desarrollo de actividades de certificación voluntaria y asistencia técnica a empresas y sectores en el ámbito del comercio exterior.</p>
+          <p class="parrafo">g) <strong>(Derogada)</strong></p>
+          <p class="parrafo">h) Las que les corresponda en función del desarrollo de las actividades del Instituto Español de Comercio Exterior en sus respectivos ámbitos territoriales, conforme a lo previsto en el Real Decreto 1165/2005, de 30 de septiembre, por el que se modifica la estructura orgánica del Instituto Español de Comercio Exterior.</p>
+          <p class="parrafo">i) La información a organismos y particulares interesados en las materias citadas.</p>
+          <p class="parrafo">j) Las de carácter sancionador que estén previstas en las correspondientes normas.</p>
+          <p class="parrafo">k) En general, las restantes atribuidas en su ámbito territorial a la Secretaría de Estado de Turismo y Comercio, a sus organismos autónomos o al ICEX.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra e), con efectos de 16 de enero de 2023, por la disposición final 1 del Real Decreto 993/2022, de 29 de noviembre. <a class="refPost">Ref. BOE-A-2022-19914#df</a></p>
+            <p class="nota_pie">Se deroga la letra g) por la disposición derogatoria única.2 del Real Decreto 986/2021, de 16 de noviembre de 2021. <a class="refPost">Ref. BOE-A-2021-20371#dd</a></p>
+            <p class="nota_pie">Se modifica la letra e) por la disposición final 2 del Real Decreto 330/2008, de 29 de febrero. <a class="refPost">Ref. BOE-A-2008-4730</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 3. Dotación de personal y presupuestaria.</p>
+          <p class="parrafo">Para el desempeño de sus funciones las Direcciones Territoriales y Provinciales de Comercio contarán con la dotación de personal recogida en las correspondientes relaciones de puestos de trabajo para el personal funcionario y en los catálogos de puestos de trabajo para el personal laboral. Asimismo, cuentan con los conceptos presupuestarios asignados en los Presupuestos Generales del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 4. Nombramiento de los Directores de las Direcciones Territoriales y Provinciales de Comercio.</p>
+          <p class="parrafo">Los Directores de las Direcciones Territoriales y Provinciales de Comercio serán designados por el Ministerio de Industria, Turismo y Comercio. En todo caso, será preceptivo oír con carácter previo a los Delegados del Gobierno correspondientes, cuya conformidad se entenderá otorgada si no hay manifestación en contrario en el plazo de 15 días.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 5. Actos y convocatorias públicas.</p>
+          <p class="parrafo">Los Delegados y Subdelegados del Gobierno, podrán presidir en el ámbito de su demarcación los actos y convocatorias públicas organizadas por las Direcciones Territoriales y Provinciales de Comercio, y estarán en todo momento informados plenamente de la actividad que estas desarrollen.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 6. Funciones de coordinación de las Delegaciones y Subdelegaciones del Gobierno.</p>
+          <p class="parrafo">1. Con objeto de establecer una coordinación eficaz con las Delegaciones del Gobierno y Subdelegaciones del Gobierno, los Directores Territoriales y Provinciales de Comercio:</p>
+          <p class="parrafo_2">a) Asistirán a cuantas reuniones de coordinación se convoquen con este fin.</p>
+          <p class="parrafo">b) Informarán y prestarán asesoramiento y asistencia al Delegado o Subdelegado del Gobierno en el ámbito de los asuntos comerciales.</p>
+          <p class="parrafo">c) Anualmente entregarán al Delegado o al Subdelegado del Gobierno, al término del ejercicio, una memoria de sus actividades.</p>
+          <p class="parrafo">d) Asimismo, pondrán en su conocimiento todos aquéllos asuntos y cuestiones que tengan relevancia económica o repercusiones de otra índole en el ámbito de la Comunidad Autónoma o en la provincia respectiva.</p>
+          <p class="parrafo_2">2. Los Delegados y Subdelegados del Gobierno podrán recabar de las Direcciones Territoriales y Provinciales cualquier información o dato de carácter económico o comercial que consideren conveniente.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Disposición adicional primera. Gasto presupuestario.</p>
+          <p class="parrafo">La aplicación de las previsiones de este real decreto, así como la ejecución de las medidas previstas en el mismo, no implicarán aumento del gasto presupuestado.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Disposición adicional segunda. Cambio de denominación.</p>
+          <p class="parrafo">1. Desde la entrada en vigor del presente real decreto, las actuales Direcciones Regionales de Comercio pasarán a denominarse Direcciones Territoriales de Comercio y las actuales Direcciones Territoriales de Comercio se denominarán Direcciones Provinciales de Comercio.</p>
+          <p class="parrafo">El número y emplazamiento de estas Direcciones Territoriales y Provinciales, será el establecido en el Anexo que acompaña a la presente disposición.</p>
+          <p class="parrafo">2. Por Orden del Ministro de Industria, Comercio y Turismo, se podrá modificar el número y emplazamiento de las Direcciones Territoriales y Provinciales de Comercio.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango que se opongan, contradigan o resulten incompatibles con lo dispuesto en este real decreto, y en especial:</p>
+          <p class="parrafo">El apartado 8 del artículo 2 del Real Decreto 1554/2004, de 25 de junio, por el que se desarrolla la estructura orgánica básica del Ministerio de Industria, Turismo y Comercio.</p>
+          <p class="parrafo">La Disposición Transitoria Quinta del Real Decreto 1554/2004 y la prórroga del plazo que ésta prevé, introducida por el Real Decreto 2397/2004, de 30 de diciembre, por el que se regulan determinados aspectos organizativos en el ámbito del Ministerio de Industria, Turismo y Comercio.</p>
+          <p class="parrafo">Los artículos 7.1.f), 9.1.2.ª y el último inciso del artículo 9.2 del Real Decreto 390/1998, de 13 de marzo, por el que se regulan las funciones y la estructura orgánica de las Delegaciones de Economía y Hacienda</p>
+          <p class="parrafo">Los artículos 5.1.d), 8, 10.1.e) y 14 de la Orden de 18 de noviembre de 1999, de desarrollo del Real Decreto 390/1998, y las referencias a las Direcciones Regionales y Territoriales de comercio contenidas en el resto de sus artículos.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Disposición final primera. Facultad de desarrollo.</p>
+          <p class="parrafo">Se autoriza a los Ministros de Industria, Turismo y Comercio, de Economía y Hacienda y de Administraciones Públicas a dictar las disposiciones necesarias para el desarrollo y aplicación de este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día 1 de enero de 2006.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="parrafo_2">Dado en Madrid, el 2 de diciembre de 2005.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Administraciones Públicas,</p>
+          <p class="firma_ministro">JORDI SEVILLA SEGURA</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2005-20554" fecha_publicacion="20051215" fecha_vigencia="20060101">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Direcciones Territoriales y Provinciales de Comercio</p>
+          <p class="parrafo_2">Direcciones Territoriales:</p>
+          <p class="parrafo">Existirá una Dirección Territorial de Comercio en cada una de las comunidades autónomas, salvo en la Comunidad Autónoma de Canarias, que contará con dos de estas delegaciones. La sede de las mismas se encontrará en las ciudades que a continuación se detallan:</p>
+          <p class="parrafo_2">Dirección Territorial de Barcelona.</p>
+          <p class="parrafo">Dirección Territorial de Badajoz.</p>
+          <p class="parrafo">Dirección Territorial de Bilbao.</p>
+          <p class="parrafo">Dirección Territorial de Las Palmas de Gran Canaria.</p>
+          <p class="parrafo">Dirección Territorial de Santa Cruz de Tenerife.</p>
+          <p class="parrafo">Dirección Territorial de Logroño.</p>
+          <p class="parrafo">Dirección Territorial de Madrid.</p>
+          <p class="parrafo">Dirección Territorial de Murcia.</p>
+          <p class="parrafo">Dirección Territorial de Oviedo.</p>
+          <p class="parrafo">Dirección Territorial de Palma de Mallorca.</p>
+          <p class="parrafo">Dirección Territorial de Pamplona.</p>
+          <p class="parrafo">Dirección Territorial de Santander.</p>
+          <p class="parrafo">Dirección Territorial de Sevilla.</p>
+          <p class="parrafo">Dirección Territorial de Toledo.</p>
+          <p class="parrafo">Dirección Territorial de Valencia.</p>
+          <p class="parrafo">Dirección Territorial de Valladolid.</p>
+          <p class="parrafo">Dirección Territorial de Vigo.</p>
+          <p class="parrafo">Dirección Territorial de Zaragoza.</p>
+          <p class="parrafo_2">Direcciones Provinciales:</p>
+          <p class="parrafo_2">Alicante.</p>
+          <p class="parrafo">Almería.</p>
+          <p class="parrafo">Burgos.</p>
+          <p class="parrafo">Cádiz, con sede en Algeciras.</p>
+          <p class="parrafo">Castellón.</p>
+          <p class="parrafo">Ceuta.</p>
+          <p class="parrafo">Girona.</p>
+          <p class="parrafo">Granada.</p>
+          <p class="parrafo">Huelva.</p>
+          <p class="parrafo">Málaga.</p>
+          <p class="parrafo">San Sebastián.</p>
+          <p class="parrafo">Tarragona.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

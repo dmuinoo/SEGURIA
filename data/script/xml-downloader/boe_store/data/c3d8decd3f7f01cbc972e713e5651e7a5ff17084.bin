@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210440Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-4214</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8110">Comunidad Autónoma de La Rioja</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20050301</fecha_disposicion>
+      <numero_oficial>2/2005</numero_oficial>
+      <titulo>Ley 2/2005, de 1 de marzo, de Estadística de La Rioja.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050315</fecha_publicacion>
+      <diario_numero>63</diario_numero>
+      <fecha_vigencia>20050323</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ri/l/2005/03/01/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-4214</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3455">Estadística</materia>
+        <materia codigo="6244">La Rioja</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOR núm. 31 de 3 de marzo de 2005.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-15030</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 3/1982, de 9 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2018-1917</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 35.1.e), por Ley 2/2018, de 30 de enero de 2018</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-4214</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-4214</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20180131"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20050303"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/2005, de 1 de marzo, de Estadística de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20180131">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-4214</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20180131/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/2005, de 1 de marzo, de Estadística de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20180131"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20180131/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20180131/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20050303">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ri"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-4214</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6244"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20050303/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 2/2005, de 1 de marzo, de Estadística de La Rioja.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20050303"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20050303/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ri/l/2005/03/01/2/con/20050303/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA RIOJA</p>
+          <p class="parrafo_2">Sepan todos los ciudadanos que el Parlamento de La Rioja ha aprobado, y yo, en nombre de su Majestad el Rey y de acuerdo con el que establece la Constitución y el Estatuto de Autonomía, promulgo la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="centro_redonda">1</p>
+          <p class="parrafo_2">El Estatuto de Autonomía de La Rioja establece en su artículo octavo que corresponde a la Comunidad Autónoma de La Rioja la competencia exclusiva en materia de estadística para fines no estatales.</p>
+          <p class="parrafo">La experiencia acumulada desarrollada en el ejercicio de las competencias establecidas en el Estatuto de Autonomía aconseja que el ordenamiento jurídico de La Rioja recoja y regule el ejercicio de la actividad estadística, como instrumento que permite conocer mejor la realidad demográfica, social, económica, territorial, medioambiental y cultural de nuestra región.</p>
+          <p class="parrafo">La información ofrecida por la estadística hará que los poderes públicos y las diferentes instituciones económicas y sociales tengan mayor acercamiento a la realidad, con lo que podrán diseñar las líneas políticas y estratégicas que determinarán sus actuaciones y permitirán llevar a cabo la posterior evaluación de su resultado. La información estadística desagregada es imprescindible para poder llevar a cabo una planificación regional adecuada.</p>
+          <p class="parrafo">Para ello, es necesario potenciar una actividad estadística específicamente dirigida a producir información sistematizada de interés regional, aunque con metodologías que permitan obtener datos comparables con los homólogos de otros territorios e instituciones tal y como lo recomiendan las Directivas Comunitarias en la materia.</p>
+          <p class="parrafo">La planificación regional también ha de estar orientada a procurar la mayor cohesión social posible, por lo que es necesario realizar análisis comparativos intrarregionales e interregionales, por lo que esta Ley es el instrumento que ordena, homologa y habilita, dentro del territorio de La Rioja, la tarea estadística que permitirá el conocimiento de los desequilibrios existentes y la necesidad de actuación de los poderes públicos para su solución.</p>
+          <p class="parrafo">Frente a esta necesidad de estadísticas desagregadas, la respuesta de la Administración General del Estado es a veces insuficiente y se requiere actividad complementaria específica por parte de la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">Por otra parte, la aplicación subsidiaria de la legislación del Estado, vigente en materia estadística, ofrece lagunas, lógicamente, ya que no es su objetivo regular la actividad estadística de interés regional.</p>
+          <p class="parrafo">Por ello, se plantea la necesidad de regular un marco legal que ordene la actividad estadística regional, que defina sus límites, sus cauces orgánicos y las reglas fundamentales de las diversas relaciones que la tarea pueda implicar.</p>
+          <p class="centro_redonda">2</p>
+          <p class="parrafo_2">La presente Ley se estructura en un Título preliminar y tres Títulos de desarrollo.</p>
+          <p class="parrafo">El Título preliminar define el objeto y ámbito de aplicación de la Ley que se refiere a la regulación de la actividad estadística pública para fines no estatales de interés para la Comunidad Autónoma de La Rioja. El ámbito de actuación incluye la Administración Pública Regional, los Entes Locales y los organismos y entes dependientes de ellos.</p>
+          <p class="parrafo">El Título I comienza con la definición del concepto de actividad estadística e incluye tres Capítulos. El Capítulo I, bajo la rúbrica «principios rectores de la actividad estadística de la Comunidad Autónoma de La Rioja», define, en el marco de la Ley los principios de interés público, transparencia, homogeneidad, proporcionalidad, y especialidad, rigor y corrección técnica, respeto a la intimidad, publicidad y difusión de las estadísticas oficiales, carácter oficial de los resultados, obligación de proporcionar datos, principio de conservación y custodia de la información y principio de cooperación con las administraciones públicas.</p>
+          <p class="parrafo">El Capítulo II, bajo la rúbrica «del secreto estadístico» aborda el concepto, ámbito de aplicación y excepciones al secreto estadístico, y otros aspectos como la comunicación entre unidades estadísticas con fines científicos y las consecuencias del incumplimiento del deber de secreto estadístico.</p>
+          <p class="parrafo">El Capítulo III regula la obligatoriedad de proporcionar la información estableciendo los supuestos y los límites de este deber.</p>
+          <p class="parrafo">El Capítulo IV aborda todos los aspectos relativos a la Planificación de la actividad estadística, desde la elaboración del Plan, definición, contenido, aprobación y duración, hasta los Programas Anuales: definición, aprobación y duración y el procedimiento para la aprobación de operaciones estadísticas no contempladas en el Plan o en los Programas estadísticos.</p>
+          <p class="parrafo">El Título II regula el Sistema Estadístico de La Rioja. Se compone de cinco Capítulos. Define la composición estadística regional integrada por los distintos órganos de gestión, de coordinación y de participación encabezados por el Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">El Título III regula el régimen sancionador, tipifica las sanciones, se remite a la legislación correspondiente para los aspectos procedimentales y define la competencia para imponer las sanciones, que corresponderá al titular de la Dirección General a la que esté adscrito el Instituto, en las sanciones leves y graves, y al titular de la Consejería al que esté adscrito el Instituto, en las muy graves.</p>
+          <p class="parrafo">Por último, la Ley recoge dos Disposiciones Adicionales, una Transitoria, una Derogatoria y una Final.</p>
+        </version>
+      </bloque>
+      <bloque id="tp" tipo="encabezado" titulo="TÍTULO PRELIMINAR">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="titulo_num">TÍTULO PRELIMINAR</p>
+          <p class="titulo_tit">Objeto y ámbito de aplicación de la Ley</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 1. Concepto de actividad estadística.</p>
+          <p class="parrafo">1. A efectos de la presente Ley se entiende por actividad estadística:</p>
+          <p class="parrafo_2">a) La obtención, recopilación y elaboración metódica de datos, su conservación, organización, comparación y análisis, así como la publicación y difusión de los datos debidamente organizados y de los resultados de los análisis realizados.</p>
+          <p class="parrafo">b) Las actividades instrumentales previas o complementarias a las especificadas en el punto anterior que son legalmente exigibles, o técnicamente necesarias, para poder cumplir los requisitos que establece la legislación sobre estadística, tales como las de investigación y desarrollo técnico, metodológico y normativo en el campo estadístico.</p>
+          <p class="parrafo_2">2. Se entenderá por actividad estadística pública de interés de la Comunidad Autónoma de La Rioja la que afecte a distintos ámbitos de la realidad territorial, demográfica, social, medioambiental, cultural y económica de su territorio, así como cualquier otra materia relacionada con las competencias de la Comunidad Autónoma de La Rioja y se declare actividad estadística de acuerdo con lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 2. Objeto y ámbito de aplicación de la Ley.</p>
+          <p class="parrafo">1. Es objeto de la presente Ley la regulación de la actividad estadística pública de interés de la Comunidad Autónoma de La Rioja, conforme a lo establecido en el artículo octavo del Estatuto de Autonomía de La Rioja donde se recoge como competencia exclusiva de la Comunidad Autónoma de La Rioja la estadística para fines no estatales.</p>
+          <p class="parrafo">2. La presente Ley es de aplicación a la actividad estadística de interés de la Comunidad Autónoma de La Rioja realizada por:</p>
+          <p class="parrafo_2">a) La Administración General de la Comunidad Autónoma de La Rioja y los organismos públicos, y entes instrumentales dependientes de ella.</p>
+          <p class="parrafo">b) Las entidades locales de la Comunidad Autónoma de La Rioja y los organismos, entes y empresas dependientes de ellas.</p>
+          <p class="parrafo">c) Las personas físicas o jurídicas, los institutos o centros de investigación universitarios, siempre que hayan suscrito convenio o contrato con alguno de los entes especificados en las letras anteriores.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 3. Exclusiones.</p>
+          <p class="parrafo">La presente Ley no será de aplicación a:</p>
+          <p class="parrafo_2">a) La actividad estadística para fines estatales a que se refiere el artículo 149.1.31 de la Constitución, tanto si la efectúan directamente los órganos competentes de la Administración General del Estado como si es efectuado por otras entidades, por convenio, encargo o en colaboración con las mismas.</p>
+          <p class="parrafo">b) La actividad estadística elaborada por personas físicas o jurídicas privadas o de derecho público, no comprendidas en el artículo 1.2 de la presente Ley.</p>
+          <p class="parrafo">c) Las encuestas de opinión, ya sean realizadas por organismos públicos o entidades privadas de cualquier naturaleza, y los sondeos electorales.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">La estadística de la Comunidad Autónoma de La Rioja</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Principios rectores de la actividad estadística de la Comunidad Autónoma de La Rioja</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 4. Principios.</p>
+          <p class="parrafo">La actividad estadística regulada por la presente Ley se regirá por los principios de interés público, transparencia, homogeneidad, proporcionalidad y especialidad, rigor y corrección técnica, respeto a la intimidad, publicidad y difusión de las estadísticas oficiales, carácter oficial de los resultados, obligación de proporcionar datos, principio de conservación y custodia de la información y principio de cooperación de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 5. Principio de interés público.</p>
+          <p class="parrafo">La presente Ley regula la actividad estadística desarrollada con motivo de interés público, teniendo tal consideración las incluidas en el Plan de Estadística de La Rioja, sin perjuicio de lo establecido en el artículo 28.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 6. Principio de transparencia.</p>
+          <p class="parrafo">1. En aplicación del principio de transparencia, los sujetos que suministren datos con fines estadísticos tienen derecho a obtener información completa sobre:</p>
+          <p class="parrafo_2">a) La protección que corresponda a dichos datos.</p>
+          <p class="parrafo">b) La finalidad a la que se destinan.</p>
+          <p class="parrafo">c) El carácter obligatorio o no de la respuesta.</p>
+          <p class="parrafo_2">2. Las unidades administrativas que realizan actividades estadísticas están obligadas a proporcionar dicha información.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 7. Principio de homogeneidad.</p>
+          <p class="parrafo">Para la realización de la actividad estadística regulada por la presente Ley, se aplicará un conjunto unificado de unidades estadísticas y territoriales, nomenclaturas, códigos, clasificaciones y definiciones, así como cualquier otra característica metodológica que contribuya a homogeneizar la actividad estadística, asegurando la compatibilidad y correspondencia con los homólogos de uso obligatorio en los ámbitos estatal, europeo e internacional.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 8. Principios de especialidad y proporcionalidad.</p>
+          <p class="parrafo">En virtud del principio de especialidad, los datos recogidos para la elaboración de estadísticas se destinarán a los fines que justificaron la obtención de los mismos.</p>
+          <p class="parrafo">Según el principio de proporcionalidad, debe existir relación entre la naturaleza y el volumen de la información que se solicita y los resultados que se pretenden obtener.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 9. Principios de rigor y corrección técnica.</p>
+          <p class="parrafo">Toda la actividad estadística regulada por la presente Ley se llevará a cabo de acuerdo con una metodología, procedimiento de trabajo y principios científicos que garanticen su corrección, exactitud, y calidad técnica.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 10. Del respeto a la intimidad.</p>
+          <p class="parrafo">La actividad estadística regulada en esta Ley se llevará a cabo con absoluto respeto a los derechos constitucionales, al honor y a la intimidad personal y familiar. En todo caso, serán de aportación estrictamente voluntaria y, en consecuencia, sólo podrán recogerse, previo consentimiento expreso de los interesados, los datos susceptibles de revelar el origen étnico, las opiniones políticas, las convicciones religiosas o ideológicas, y, en general, cuantas circunstancias puedan afectar a la intimidad personal o familiar. Los datos de identificación no serán tratados, salvo cuando sea estrictamente necesario.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 11. Publicidad y difusión de las estadísticas oficiales.</p>
+          <p class="parrafo">1. El Gobierno de La Rioja difundirá imparcial y ampliamente los resultados de la actividad estadística que realice, ofreciendo siempre datos agregados, sin referencia a datos individuales, de conformidad con las normas reguladoras del secreto estadístico contenidas en esta Ley. Las metodologías utilizadas para la elaboración de los datos tendrán carácter público. La difusión de los datos tendrá en cuenta el interés público, la racionalidad de costes y el respeto a las leyes. Los resultados se difundirán por los medios más efectivos y en un plazo adecuado a sus características.</p>
+          <p class="parrafo">2. Cualquier órgano, organismo público o ente instrumental de la Comunidad Autónoma de La Rioja, que elabore una estadística facilitará a quien lo solicite, en un plazo acorde con sus recursos, otras tabulaciones o elaboraciones estadísticas distintas de las publicadas, si dicha petición reúne las siguientes características:</p>
+          <p class="parrafo_2">a) No contravenir el secreto estadístico. En ningún caso los servicios estadísticos podrán difundir datos de carácter personal.</p>
+          <p class="parrafo">b) Reunir las suficientes garantías técnicas.</p>
+          <p class="parrafo">c) No alterar de manera significativa el normal desenvolvimiento de los servicios estadísticos.</p>
+          <p class="parrafo_2">La prestación del servicio se efectuará previo pago, si procede, de un precio proporcional a su coste, de acuerdo con la normativa de tasas y precios públicos. La entrega de tabulaciones y estadísticas no publicadas sólo es gratuita cuando así lo determine la norma reguladora respectiva.</p>
+          <p class="parrafo">3. El personal vinculado a las unidades que realizan actividad estadística regulada por la presente Ley y las personas físicas o jurídicas que colaboren con aquellas unidades en virtud de acuerdos, convenios o contratos deberán guardar absoluta reserva por razón de su trabajo profesional hasta que éstos se hayan hecho públicos oficialmente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 12. Carácter oficial de los resultados.</p>
+          <p class="parrafo">Los resultados de las estadísticas de interés para la Comunidad Autónoma de La Rioja tendrán carácter oficial desde el momento en que se hagan públicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 13. Principio de conservación y custodia de la información.</p>
+          <p class="parrafo">Las unidades estadísticas conservarán y custodiarán la información obtenida como consecuencia de su propia actividad, de forma que se garantice la observación de los principios establecidos en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 14. Principio de cooperación de las Administraciones Públicas.</p>
+          <p class="parrafo">Para lograr una mayor eficiencia y eficacia en la utilización de los recursos públicos en la actividad estadística, el Gobierno de La Rioja, dentro del marco de sus competencias, fomentará y favorecerá la cooperación, mediante la firma de convenios y acuerdos, o mediante los demás instrumentos previstos en el ordenamiento jurídico, con las Entidades Locales, con la Administración General del Estado, con las de otras Comunidades Autónomas, con la Unión Europea y con los organismos internacionales en todos los niveles de la actividad estadística.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Del secreto estadístico</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 15. Definición.</p>
+          <p class="parrafo">1. A los efectos de la presente Ley, se entiende por deber de secreto estadístico la obligación de no divulgar ni comunicar el conocimiento que una persona posee como consecuencia de la actividad estadística, así como la obligación de no actuar sobre la base de dicho conocimiento.</p>
+          <p class="parrafo">2. La obligación de guardar el secreto estadístico se iniciará desde el momento en que se obtenga la información por él amparada.</p>
+          <p class="parrafo">3. Los datos amparados por el deber de secreto estadístico solo podrán ser conocidos y utilizados por quienes deban emplearlos para la realización de las estadísticas. Con el fin de proteger el secreto estadístico los servicios estadísticos estarán obligados a adoptar medidas técnicas y organizativas necesarias para proteger la información. Estas medidas incluirán la destrucción de los datos amparados por el secreto estadístico cuando su conservación resulte innecesaria para la realización de operaciones estadísticas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 16. Ámbito de aplicación del secreto estadístico.</p>
+          <p class="parrafo">Serán objeto de protección y quedarán amparados por el secreto estadístico la totalidad de datos individualizados, con independencia de las fuentes de donde se obtengan. Se entiende por datos individualizados, aquellos relativos a personas físicas o personas jurídicas que permitan la identificación directa de los interesados o bien aquellos que por su estructura, contenido o grado de desagregación permitan la identificación indirecta de los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 17. Excepciones al secreto estadístico.</p>
+          <p class="parrafo">No quedan amparados por el secreto estadístico los casos siguientes:</p>
+          <p class="parrafo_2">a) Los que son de conocimiento público y no afectan a la intimidad de las personas.</p>
+          <p class="parrafo">b) Los directorios que sólo contienen como datos las simples relaciones de establecimientos, empresas, explotaciones u organismos de cualquier tipo, con sus denominaciones, emplazamientos, indicadores de actividad, tamaños y otras características generales incluidas habitualmente en los registros o los directorios de difusión general.</p>
+          <p class="parrafo">c) Los directorios de edificios y de viviendas que sólo contienen como datos los identificadores, el emplazamiento, el tipo de unidad y otras características generales que se incluyen habitualmente en los registros o los directorios de distribución general.</p>
+          <p class="parrafo">d) Los datos protegidos cuando el interesado manifieste por escrito su consentimiento expreso a que sean públicamente consultados.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 18. Comunicación entre las unidades estadísticas.</p>
+          <p class="parrafo">Los datos estadísticos amparados por el secreto estadístico podrán ser transferidos a los órganos estadísticos de las Administraciones Públicas siempre que se cumplan los siguientes requisitos, que habrán de ser comprobados por la unidad estadística que los tenga en custodia:</p>
+          <p class="parrafo_2">a) Que dichas unidades desarrollen funciones fundamentalmente estadísticas y hayan sido expresamente calificadas de acuerdo a la normativa legal vigente como sujetos del secreto estadístico.</p>
+          <p class="parrafo">b) Que la información a transferir esté directamente relacionada con las funciones estadísticas que dichas unidades tengan encomendadas.</p>
+          <p class="parrafo">c) Que las unidades estadísticas destinatarias dispongan de los medios necesarios para preservar el secreto estadístico.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 19. Comunicación con fines científicos.</p>
+          <p class="parrafo">Podrá permitirse a los institutos de investigación científica y a los investigadores el acceso a los datos amparados por el secreto estadístico, siempre que dichas instituciones o personas cumplan las condiciones adecuadas con el objeto de garantizar la protección física e informática de los datos amparados por el secreto estadístico, y a evitar cualquier riesgo de divulgación ilícita. Cuando dicho acceso se produzca, se le comunicará previamente a la Agencia de Protección de Datos o al órgano correspondiente de la Comunidad Autónoma de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 20. Obligados a mantener el secreto estadístico.</p>
+          <p class="parrafo">1. Tienen obligación de mantener el secreto estadístico todas las personas físicas o jurídicas, organismos o instituciones de cualquier naturaleza que intervengan en cualquiera de las fases del proceso estadístico. Este deber se iniciará desde el momento en que se obtenga la información por él amparada y se mantendrá aun después de que las personas obligadas a preservarlo concluyan su vinculación a los Servicios Estadísticos.</p>
+          <p class="parrafo">2. Quienes no estando sometidos al deber del secreto estadístico tuvieran conocimiento de datos amparados por el mismo, por incumplimiento de los obligados a él, quedarán obligados también a su cumplimiento en los términos establecidos para los demás sujetos obligados, siempre que conociesen también la naturaleza protegida de los datos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 21. La utilización de los datos amparados por el secreto estadístico.</p>
+          <p class="parrafo">Queda prohibida la utilización de los datos amparados por el secreto estadístico para fines distintos de los estadísticos y especialmente para finalidades fiscales y policiales.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 22. Incumplimiento del deber de secreto estadístico.</p>
+          <p class="parrafo">El incumplimiento del deber de secreto estadístico dará lugar a responsabilidades indemnizatorias de los daños y perjuicios causados, en los términos establecidos en el ordenamiento jurídico, sin perjuicio de las demás responsabilidades penales o disciplinarias sobre los funcionarios y demás personal público, y de la potestad sancionadora a que se refiere el Título III de la presente norma, sin menoscabo de las demás responsabilidades que se pudieran ejercitar ante la jurisdicción correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De la obligatoriedad del suministro de la información</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 23. Estadísticas de respuesta obligatoria.</p>
+          <p class="parrafo">Son estadísticas de respuesta obligatoria, por parte de los sujetos requeridos, aquellas que así se determine en el Plan de Estadística de La Rioja, en los Programas Anuales de Estadística y las aprobadas por el Consejo de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 24. Personas físicas o jurídicas obligadas a suministrar información.</p>
+          <p class="parrafo">1. Las personas o entidades que se determinan conforme a lo dispuesto en los apartados siguientes, tienen la obligación de suministrar la información a que se refiere el artículo anterior, que les sea requerida. En el supuesto de que dicha información venga constituida por datos individualizados, amparados por la normativa vigente en cada momento sobre el derecho al honor y a la intimidad personal y familiar, su suministro es voluntario, debiendo constar esta circunstancia en las peticiones de información que se hagan, de manera expresa, en lugar visible, y con tipo de letra no inferior al de la citada petición.</p>
+          <p class="parrafo">2. Cada operación estadística debe determinar las personas o entidades obligadas a suministrar la información, con independencia de su naturaleza física o jurídica, pública o privada, y de su nacionalidad, siempre que tengan su domicilio, residencia o estén establecidas dentro del ámbito territorial de la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">3. Los órganos y entes de la Administración General o institucional de la Comunidad Autónoma de La Rioja, de las Entidades Locales, de los demás órganos y entes públicos comprendidos en el ámbito territorial de la Comunidad de La Rioja, así como las asociaciones de defensa de los intereses colectivos radicadas en la misma, vienen obligados a suministrar al Instituto de Estadística de La Rioja la información que se determine.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 25. Forma de suministrar la información.</p>
+          <p class="parrafo">1. Toda persona física o jurídica, pública o privada, que suministre información en el ámbito de actividades reguladas por la presente Ley, debe contestar de forma veraz, exacta, y completa, ajustarse al plazo de respuesta y respetar las demás circunstancias que figuran en las normas reguladoras de la estadística de que se trate.</p>
+          <p class="parrafo">2. Cuando para la realización de la actividad estadística se requieran datos que obran en poder de administraciones públicas, los órganos, las autoridades y los funcionarios responsables, en cada caso, deben prestar la más rápida y ágil colaboración a los servicios estadísticos.</p>
+          <p class="parrafo">3. Las normas reguladoras de cada actividad estadística pueden establecer, si procede, modalidades de compensación por los gastos que se deriven del suministro de la información.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Planificación de la actividad estadística</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 26. El Plan de Estadística de La Rioja. Definición, aprobación y duración.</p>
+          <p class="parrafo">El instrumento de ordenación, planificación y sistematización de la actividad estadística pública de interés para La Rioja, será el Plan de Estadística de La Rioja que se aprobará mediante Decreto de Consejo de Gobierno y tendrá una vigencia máxima de cinco años, quedando prorrogado cada Plan hasta la entrada en vigor del siguiente.</p>
+          <p class="parrafo">El Plan contendrá como mínimo:</p>
+          <p class="parrafo_2">a) La determinación de la información estadística que se debe elaborar y de los objetivos a alcanzar.</p>
+          <p class="parrafo">b) Las operaciones estadísticas que se llevarán a cabo en el período de vigencia del Plan, su contenido, características técnicas, periodicidad, unidad o servicio que las realizará, las personas afectadas, el ámbito territorial, la finalidad principal a que se destinan los datos, la obligatoriedad, en su caso, de colaborar y la protección que les dispensa el secreto estadístico. Se harán constar aquellas operaciones derivadas de convenios entre la Comunidad Autónoma de La Rioja y otras Administraciones u Organismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 27. Programas Anuales de Estadística. Definición, aprobación y duración.</p>
+          <p class="parrafo">Para definir la actividad estadística a desarrollar, cada año se elaborará un Programa Anual de Estadística, tomando como referencia el Plan Regional de Estadística vigente, que será aprobado por el Consejo de Gobierno, a propuesta del titular de la Consejería competente en materia de estadística, y publicado en el «Boletín Oficial de La Rioja». En el caso de que al inicio del año no se hubiera aprobado el correspondiente Programa Anual de Estadística, quedará automáticamente prorrogado el del año anterior hasta su aprobación. El programa anual incluirá una memoria económica con la estimación de las necesidades derivadas de las operaciones estadísticas incluidas en el mismo. El Gobierno se asegurará de que exista dotación económica suficiente para el cumplimiento de estos programas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 28. Aprobación de operaciones estadísticas no contempladas en el Plan o en los Programas estadísticos.</p>
+          <p class="parrafo">Con independencia de lo dispuesto en los artículos anteriores, el Consejo de Gobierno por motivos de oportunidad o urgencia debidamente motivados, podrá autorizar mediante Decreto la realización de operaciones estadísticas no contempladas en el Plan de Estadística o en el Programa Anual. Estas estadísticas tendrán la consideración de estadísticas de interés para La Rioja.</p>
+          <p class="parrafo">Cuando tales operaciones estadísticas impliquen petición de información a personas físicas o jurídicas, al margen de las relaciones administrativas propias de sus funciones, necesitarán, para realizarlas, informe preceptivo y vinculante del Instituto de Estadística de La Rioja, en aras de evitar duplicaciones y asegurar la necesaria coordinación.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Sistema estadístico de La Rioja</p>
+        </version>
+      </bloque>
+      <bloque id="ci-5" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 29. Sistema Estadístico de La Rioja.</p>
+          <p class="parrafo">1. El sistema estadístico de La Rioja es el conjunto ordenado de los entes y órganos que intervienen en las actividades estadísticas que han sido declaradas de interés de la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">2. El Sistema Estadístico de La Rioja está integrado por:</p>
+          <p class="parrafo_2">a) El Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">b) Las Unidades de las Consejerías y organismos públicos y entes instrumentales que realicen actividad estadística.</p>
+          <p class="parrafo">c) El Consejo Superior de Estadística de La Rioja, como órgano consultivo.</p>
+          <p class="parrafo">d) Las unidades de las Entidades Locales, los organismos, entes o empresas dependientes de ellas que realicen actividad estadística de interés regional.</p>
+          <p class="parrafo_2">3. Las unidades del Sistema Estadístico de La Rioja podrán desarrollar la actividad estadística directamente o celebrando acuerdos, convenios o contratos con otras Administraciones Públicas o con entidades públicas o privadas, que quedarán sometidas en materia estadística a la presente Ley y a las normas que la desarrollen.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-6" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Del Instituto de Estadística de La Rioja</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 30. El Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">El Instituto de Estadística de La Rioja tiene como fines los siguientes:</p>
+          <p class="parrafo_2">a) Planificar, promover, dirigir y coordinar la actividad estadística pública de interés para la región.</p>
+          <p class="parrafo">b) Elaborar el Plan Regional de Estadística de La Rioja y Programas Anuales de Estadística, en coordinación con el resto de unidades que forman parte de la organización estadística regional.</p>
+          <p class="parrafo">c) Elaborar informes y estudios económicos, demográficos, sociológicos, medioambientales, culturales y aquellos otros que tengan fundamento en las estadísticas regionales.</p>
+          <p class="parrafo">d) Recopilar, ordenar, almacenar y llevar a cabo el tratamiento de la información estadística de interés para la región.</p>
+          <p class="parrafo">e) Proponer la normalización de conceptos, definiciones, clasificaciones, nomenclaturas y códigos para la clasificación de los datos y presentación de resultados e impulsar su utilización en la actividad estadística de la Comunidad.</p>
+          <p class="parrafo">f) Promover la coordinación metodológica con las estadísticas de Ayuntamientos, de otras Comunidades Autónomas, de la Administración del Estado, de la Unión Europea y de organismos internacionales.</p>
+          <p class="parrafo">g) Promover la investigación estadística y la formación y el perfeccionamiento profesional del personal estadístico.</p>
+          <p class="parrafo">h) Promover la difusión de las estadísticas de La Rioja a través de publicaciones, medios informáticos y las nuevas tecnologías de información.</p>
+          <p class="parrafo">i) Mantenerse en contacto con otras unidades administrativas municipales, autonómicas, estatales e internacionales especializadas en materia estadística, promoviendo la coordinación y la colaboración con ellas en la actividad estadística. Para el ejercicio de esta función contará con la colaboración de las Unidades especializadas de las Consejerías, pudiendo delegar esta función en las mismas por razón de su especialización en la materia.</p>
+          <p class="parrafo">j) Establecer y mantener relación con los órganos internacionales, estatales y autonómicos con competencias sobre materia estadística y, si procede, proponer la firma de convenios con los mismos.</p>
+          <p class="parrafo">k) Velar por la aplicación y el respeto del secreto estadístico.</p>
+          <p class="parrafo">l) Informar preceptivamente cualquier acuerdo o convenio de contenido estadístico entre cualquier órgano del Gobierno de La Rioja y de otras administraciones públicas o entes privados.</p>
+          <p class="parrafo">m) Cualquier otra función estadística que tenga legalmente asignada.</p>
+          <p class="parrafo">n) Instruir expedientes sancionadores en las materias reguladas en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 31. Recursos técnicos y personales.</p>
+          <p class="parrafo">El Instituto de Estadística de La Rioja contará con los medios informáticos y personal especializado necesarios para la realización de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-7" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De las unidades estadísticas de las Consejerías</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 32. Funciones.</p>
+          <p class="parrafo">1. Corresponde a las Unidades que desarrollan actividad estadística en las Consejerías:</p>
+          <p class="parrafo_2">a) Proponer al Instituto de Estadística de La Rioja las operaciones estadísticas que desean incluir en el Plan Estadístico y en el Programa Anual.</p>
+          <p class="parrafo">b) Colaborar con el Instituto de Estadística de La Rioja en la normalización de definiciones, clasificaciones, códigos y normas de carácter general.</p>
+          <p class="parrafo">c) Elaborar aquellas estadísticas o fases de las mismas incluidas en el Plan Estadístico de La Rioja que les corresponda por razón de la materia.</p>
+          <p class="parrafo_2">2. Si las Unidades son específicamente estadísticas y disponen de capacidad funcional suficiente para garantizar el desarrollo de sus funciones, podrán ser cesionarios de datos sujetos al secreto estadístico, al que estarán sometidas en los términos establecidos en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-8" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Del Consejo Superior de Estadística de La Rioja</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 33. El Consejo Superior de Estadística de La Rioja.</p>
+          <p class="parrafo">El Consejo Superior es el órgano consultivo y de participación del sistema estadístico regional, que se creará mediante Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 34. Funciones del Consejo Superior de Estadística de La Rioja.</p>
+          <p class="parrafo">Las funciones que se atribuirán al Consejo Superior de Estadística de La Rioja incluirán, al menos, las siguientes:</p>
+          <p class="parrafo_2">1. Informar el Plan Regional de Estadística y los Programas Anuales de Estadística.</p>
+          <p class="parrafo">2. Presentar recomendaciones sobre la difusión de la estadística regional; sobre las relaciones entre órganos estadísticos e informantes; y sobre la aplicación práctica del secreto estadístico.</p>
+          <p class="parrafo">3. Informar cualquier otro proyecto o cuestión que en materia de estadística someta a su consideración el Gobierno de La Rioja.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 35. Composición del Consejo de Estadística de La Rioja.</p>
+          <p class="parrafo">1. El Consejo estará compuesto por los siguientes miembros:</p>
+          <p class="parrafo_2">a) El Presidente, que será el titular de la Consejería a la que esté adscrito el Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">b) El Vicepresidente primero, que será el Titular de la Dirección General a la que esté adscrito el Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">c) Vicepresidente segundo, que será el Director del Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">d) El Secretario General Técnico de cada una de las Consejerías o persona en quien delegue.</p>
+          <p class="parrafo">e) Actuará como Secretario, un jefe de servicio con competencias en materia estadística que actuará con voz pero sin voto.</p>
+          <p class="parrafo">f) El Consejo, además, estará formado por un máximo de 14 miembros designados por la Consejería a la que esté adscrito el Instituto de Estadística de La Rioja, entre las organizaciones empresariales, sindicales, económicas y sociales, instituciones académicas o profesionales, administraciones públicas, y Federación de Municipios y expertos en la materia.</p>
+          <p class="parrafo_2">2. El Consejo se reunirá, al menos, una vez al año, y su régimen de organización y funcionamiento se determinará reglamentariamente.</p>
+        </version>
+        <version id_norma="BOE-A-2018-1917" fpub="20180213" fecha_publicacion="20180131" fecha_vigencia="20180201">
+          <p class="articulo">Artículo 35. Composición del Consejo de Estadística de La Rioja.</p>
+          <p class="parrafo">1. El Consejo estará compuesto por los siguientes miembros:</p>
+          <p class="parrafo_2">a) El Presidente, que será el titular de la Consejería a la que esté adscrito el Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">b) El Vicepresidente primero, que será el Titular de la Dirección General a la que esté adscrito el Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">c) Vicepresidente segundo, que será el Director del Instituto de Estadística de La Rioja.</p>
+          <p class="parrafo">d) El Secretario General Técnico de cada una de las Consejerías o persona en quien delegue.</p>
+          <p class="parrafo">e) Actuará como secretario, con voz pero sin voto, un funcionario de la consejería a la que esté adscrito el Consejo Superior de Estadística, perteneciente al grupo A, subgrupo A1 o A2, y que desempeñe en su puesto de trabajo competencias en materia estadística.</p>
+          <p class="parrafo">f) El Consejo, además, estará formado por un máximo de 14 miembros designados por la Consejería a la que esté adscrito el Instituto de Estadística de La Rioja, entre las organizaciones empresariales, sindicales, económicas y sociales, instituciones académicas o profesionales, administraciones públicas, y Federación de Municipios y expertos en la materia.</p>
+          <p class="parrafo_2">2. El Consejo se reunirá, al menos, una vez al año, y su régimen de organización y funcionamiento se determinará reglamentariamente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra e) del apartado 1 por el art. 3 de la Ley 2/2018, de 30 de enero de 2018. <a class="refPost">Ref. BOE-A-2018-1917</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">De las relaciones estadísticas con las Entidades Locales</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 36. Unidades Estadísticas de las Entidades Locales.</p>
+          <p class="parrafo">1. Compete a las Entidades Locales el desarrollo de la actividad estadística relativa a su propio ámbito territorial y competencial. Serán responsables, en cualquier caso, del secreto estadístico en los términos establecidos por la Ley.</p>
+          <p class="parrafo">2. Las Entidades Locales podrán participar, en el ámbito de sus competencias, en la elaboración y difusión de estadísticas públicas de interés para la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">3. Las Entidades Locales, organismos y empresas de ellas dependientes, podrán solicitar la inclusión de estadísticas públicas de interés en el anteproyecto del Plan Estadístico y en los Programas Anuales de Estadística. La solicitud irá acompañada de una Memoria explicativa del interés público, sus características técnicas, memoria económica, propuesta de financiación y unidad encargada de su realización.</p>
+          <p class="parrafo">En este caso, la actividad estadística local se ajustará a las correspondientes normas técnicas de la Administración Regional con el fin de lograr la comparación de sus datos y facilitar la agregación de los mismos a nivel regional y estatal.</p>
+          <p class="parrafo">4. En el caso de estadísticas no incluidas en Planes o Programas Anuales de Estadística, las Entidades Locales, organismos y empresas de ellas dependientes que las realicen, podrán dar traslado al Instituto de Estadística de La Rioja de todos los resultados obtenidos con relación a las mismas.</p>
+          <p class="parrafo">5. Las Entidades Locales podrán designar, como órgano estadístico propio, una unidad dedicada en exclusiva a la actividad estadística. Este órgano será sujeto del secreto estadístico en los términos establecidos en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 37. Infracciones.</p>
+          <p class="parrafo">1. El incumplimiento de las obligaciones contenidas en la presente Ley constituye infracción administrativa en materia de estadística en la Comunidad Autónoma de La Rioja.</p>
+          <p class="parrafo">2. Se considerarán responsables de las infracciones reguladas en esta Ley, las personas físicas o jurídicas a quienes resulte imputable la acción u omisión constitutiva de la infracción. Las personas jurídicas serán responsables subsidiariamente del pago de las sanciones impuestas como consecuencia de las infracciones cometidas por sus órganos, empleados o agentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 38. Principios sancionadores.</p>
+          <p class="parrafo">Serán de aplicación a lo establecido en la presente norma, los principios del régimen y del procedimiento sancionador establecidos en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, así como la normativa autonómica que corresponda.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 39. Infracciones de los obligados a prestar colaboración.</p>
+          <p class="parrafo">1. Las infracciones cometidas por personas físicas o jurídicas obligadas a prestar colaboración estadística se clasifican en leves, graves y muy graves.</p>
+          <p class="parrafo">2. Se consideran infracciones leves:</p>
+          <p class="parrafo_2">a) No suministrar información obligatoria, existiendo requerimiento previo de la unidad estadística, formalmente notificado, cuando tal hecho no provoque un perjuicio grave.</p>
+          <p class="parrafo">b) Suministrar la información obligatoria requerida con datos inexactos, incompletos o de forma distinta de la establecida cuando este hecho no provoque perjuicio grave.</p>
+          <p class="parrafo_2">3. Se considerarán infracciones graves:</p>
+          <p class="parrafo_2">a) Las establecidas en los apartados a) y b) del punto anterior siempre que el perjuicio que cause sea grave.</p>
+          <p class="parrafo">b) La reincidencia en la comisión de faltas leves.</p>
+          <p class="parrafo_2">4. Se consideran infracciones muy graves:</p>
+          <p class="parrafo_2">a) La reincidencia en la comisión de infracciones graves.</p>
+          <p class="parrafo">b) No suministrar la información obligatoria requerida o suministrar datos inexactos, tanto si son de comunicación obligatoria como voluntaria, cuando pueda ser imputada malicia o negligencia grave.</p>
+          <p class="parrafo_2">5. Se entenderá por reincidencia la comisión de una infracción análoga a la que motivó la sanción en el plazo de los dos años siguientes a la notificación de ésta. En este supuesto se requerirá que la primera resolución sancionadora haya adquirido firmeza en vía administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 40. Infracciones administrativas de los que realizan actividad estadística.</p>
+          <p class="parrafo">1. Las infracciones imputables a unidades que realizan actividad estadística regulada por la presente Ley, y los cometidos por su personal o por las personas físicas o jurídicas que colaboren con aquéllos en virtud de acuerdos, convenios o contratos, podrán ser leves, graves, o muy graves.</p>
+          <p class="parrafo">2. Se consideran infracciones leves:</p>
+          <p class="parrafo_2">a) La incorrección con los informantes.</p>
+          <p class="parrafo">b) El descuido o negligencia en el cumplimiento de las funciones estadísticas.</p>
+          <p class="parrafo">c) La falta de comunicación o comunicación incompleta de las normas que han de observarse en la cumplimentación de los cuestionarios, o de los documentos de similar naturaleza, y de las sanciones que legalmente podrán imponerse por su incumplimiento.</p>
+          <p class="parrafo_2">3. Se consideran infracciones graves:</p>
+          <p class="parrafo_2">a) La reincidencia en la comisión de infracciones tipificadas como leves.</p>
+          <p class="parrafo">b) El incumplimiento de las normas técnicas aprobadas en materia estadística.</p>
+          <p class="parrafo">c) La negativa a exhibir la acreditación de su condición de personal estadístico, al informante que lo solicite.</p>
+          <p class="parrafo_2">4. Se consideran infracciones muy graves:</p>
+          <p class="parrafo_2">a) La reincidencia en la comisión de infracciones graves.</p>
+          <p class="parrafo">b) La difusión o comunicación de datos amparados por el secreto estadístico a personas no autorizadas.</p>
+          <p class="parrafo">c) La utilización de datos estadísticos con fines no estadísticos.</p>
+          <p class="parrafo">d) La exigencia como obligatoria de información que no goza de ese carácter.</p>
+          <p class="parrafo">e) La difusión de resultados sin que se hayan hecho públicos oficialmente o sin la autorización pertinente del responsable de la unidad estadística correspondiente.</p>
+          <p class="parrafo_2">5. Se entenderá por reincidencia la comisión de una infracción, análoga a la que motivó la sanción, en el plazo de los dos años siguientes a la notificación de ésta. En este supuesto, se requerirá que la primera resolución sancionadora haya adquirido firmeza en vía administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 41. Sanciones.</p>
+          <p class="parrafo">1. Las infracciones leves se sancionarán con multa de hasta 600 euros.</p>
+          <p class="parrafo">2. Las infracciones graves se sancionarán con multa de 600,01 euros hasta 3.000 euros.</p>
+          <p class="parrafo">3. Las infracciones muy graves se sancionarán con multa de 3.000,01 euros hasta 30.000 euros.</p>
+          <p class="parrafo">4. Cuando el infractor haya obtenido un beneficio económico evaluable y concreto mediante la comisión de las infracciones citadas, superior al tope máximo indicado en los puntos anteriores de este artículo, podrá sancionarse con multa de hasta el doble del beneficio obtenido.</p>
+          <p class="parrafo">5. Las cuantías de las sanciones establecidas en los apartados anteriores se graduarán atendiendo, en cada caso, a la propia gravedad de la infracción, a la naturaleza de los daños y perjuicios causados y a la conducta anterior de los infractores, salvo que ya hubiese sido tomada en consideración para la calificación de la sanción.</p>
+          <p class="parrafo">6. No serán de aplicación las sanciones establecidas en el presente artículo cuando las infracciones sean cometidas por funcionarios públicos o personal laboral al servicio de las Administraciones Públicas. En estos casos, las sanciones quedarán sujetas al régimen disciplinario regulado en la legislación específica que resulte aplicable en cada caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Artículo 42. Competencia y procedimiento sancionador.</p>
+          <p class="parrafo">1. Las infracciones referidas en los artículos 39 y 40 de esta Ley serán objeto de sanción administrativa, previa instrucción del correspondiente expediente sancionador, de conformidad con los principios que rigen la potestad sancionadora contenidos en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, así como en la normativa autonómica que resulta de aplicación.</p>
+          <p class="parrafo">2. Las sanciones calificadas como leves y graves serán impuestas por el Titular de la Dirección General a la que esté adscrito el Instituto de Estadística de La Rioja. Las calificadas como muy graves serán impuestas por el Titular de la Consejería a la que esté adscrito el Instituto.</p>
+          <p class="parrafo">3. Las infracciones y sanciones previstas en esta Ley, prescribirán conforme se establece en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">4. Las sanciones administrativas a que hace referencia este Título, se impondrán sin perjuicio de otras responsabilidades a las que pudiera haber lugar por los mismos hechos.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición Adicional Primera">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Disposición Adicional Primera.</p>
+          <p class="parrafo">Se faculta al Gobierno de La Rioja para revisar anualmente la cuantía de las sanciones, con el fin de actualizarlas conforme al Índice General de Precios al Consumo.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición Adicional Segunda">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Disposición Adicional Segunda.</p>
+          <p class="parrafo">Se autoriza al Gobierno de La Rioja para dictar cuantas disposiciones sean precisas para el desarrollo y ejecución de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición Transitoria Única">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Disposición Transitoria Única.</p>
+          <p class="parrafo">Los convenios o acuerdos firmados por el Gobierno de La Rioja en materia estadística con anterioridad a la entrada en vigor de la presente Ley, seguirán rigiéndose por la normativa que les fuera de aplicación en tanto que no contradigan lo dispuesto en la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición Derogatoria Única">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Disposición Derogatoria Única.</p>
+          <p class="parrafo">Quedan derogadas todas las normas de rango igual o inferior que se opongan a lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición Final Única">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="articulo">Disposición Final Única.</p>
+          <p class="parrafo">La presente Ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de La Rioja».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2005-4214" fecha_publicacion="20050303" fecha_vigencia="20050323">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos cumplan y cooperen al cumplimiento de la presente Ley y a los Tribunales y Autoridades la hagan cumplir.</p>
+          <p class="parrafo_2">Logroño, 1 de marzo de 2005.</p>
+          <p class="firma_ministro">PEDRO SANZ ALONSO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

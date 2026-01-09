@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T111908Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-1031</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20070110</fecha_disposicion>
+      <numero_oficial>PRE/23/2007</numero_oficial>
+      <titulo>Orden PRE/23/2007, de 10 de enero, por la que se aprueba la norma específica de peritación de daños en la producción de melón y sandía, amparados por el Seguro Agrario Combinado.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20070117</fecha_publicacion>
+      <diario_numero>15</diario_numero>
+      <fecha_vigencia>20070118</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2007/01/10/pre23</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-1031</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4749">Legumbres de fruto</materia>
+        <materia codigo="6020">Reglamentaciones técnicas</materia>
+        <materia codigo="6522">Seguros agrarios combinados</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1988-21563</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 13 de septiembre de 1988</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1979-23945</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 26 del Real Decreto 2329/1979, de 14 de septiembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-1031</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-10</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre23</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4749"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6020"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6522"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-1031</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre23</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4749"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6020"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6522"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/con/20070117"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden PRE/23/2007, de 10 de enero, por la que se aprueba la norma específica de peritación de daños en la producción de melón y sandía, amparados por el Seguro Agrario Combinado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/con/20070117">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-1031</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre23</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4749"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6020"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6522"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/con/20070117/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden PRE/23/2007, de 10 de enero, por la que se aprueba la norma específica de peritación de daños en la producción de melón y sandía, amparados por el Seguro Agrario Combinado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/con/20070117"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2007/01/10/pre23/con/20070117/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2007/01/10/pre23/con/20070117/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2007-1031" fecha_publicacion="20070117" fecha_vigencia="20070118">
+          <p class="parrafo">La aplicación de la Orden de 13 de septiembre de 1988 por la que se aprueba la Norma específica para la peritación de siniestros del cultivo de melón y sandía en el Seguro Agrario Combinado ha puesto de manifiesto por la práctica adquirida, la necesidad de sustitución, tratándose de esta forma de dar un nuevo impulso para lograr una mayor exactitud en la peritación de los daños y consecuentemente en su tasación, por lo que se elabora la nueva norma de peritación de siniestros de los cultivos de melón y sandía de conformidad con lo dispuesto en el artículo 26 del Reglamento para aplicación de la Ley 87/1978, de 28 de diciembre, de Seguros Agrarios Combinados, aprobado por Real Decreto 2329/1979, de 14 de septiembre, en cumplimiento de la Orden comunicada del Ministerio de Economía y Hacienda de 27 de diciembre de 1985, por la que se constituye una Comisión para la elaboración de las normas de peritación de siniestros de los Seguros Agrarios Combinados y visto el proyecto de norma específica de peritación de daños en la producción de melón y sandía, amparados por el Seguro Agrario Combinado, oídas las Organizaciones y Asociaciones de Agricultores, así como las Entidades Aseguradoras.</p>
+          <p class="parrafo">En su virtud, a propuesta de los Ministros de Economía y Hacienda y de Agricultura, Pesca y Alimentación, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2007-1031" fecha_publicacion="20070117" fecha_vigencia="20070118">
+          <p class="articulo">Artículo único. Aprobación de la norma específica de peritación.</p>
+          <p class="parrafo">Se aprueba la norma específica de peritación de daños en la producción de melón y sandía, amparados por el Seguro Agrario Combinado, que se inserta a continuación, como anexo de la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2007-1031" fecha_publicacion="20070117" fecha_vigencia="20070118">
+          <p class="articulo">Disposición derogatoria única. Derogación Normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en la presenta Orden y, en particular, las siguientes:</p>
+          <p class="parrafo_2">Orden de 13 de septiembre de 1988 por la que se aprueba la Norma específica para la peritación de siniestros del cultivo de melón y sandía en el Seguro Agrario Combinado.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2007-1031" fecha_publicacion="20070117" fecha_vigencia="20070118">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente Orden Ministerial entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2007-1031" fecha_publicacion="20070117" fecha_vigencia="20070118">
+          <p class="parrafo_2">Madrid, 10 de enero de 2007.–La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia, María Teresa Fernández de la Vega Sanz.</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2007-1031" fecha_publicacion="20070117" fecha_vigencia="20070118">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Norma específica de peritación de daños en la producción de melón y sandía, amparados por el Seguro Agrario Combinado</p>
+          <p class="parrafo_2">1. Marco legal.–La presente Norma Específica de Peritación ha sido dictada como desarrollo de la Norma General de Peritación de los daños ocasionados sobre las producciones agrícolas, amparados por el seguro agrario combinado (en lo sucesivo, Norma General) vigente, de Orden PRE/623/2003, de 14 de marzo (BOE n.º 69, de 21 de marzo de 2003).</p>
+          <p class="parrafo">En su aplicación, se estará a lo dispuesto en el condicionado del Seguro suscrito.</p>
+          <p class="parrafo">2. Objeto de la norma.–Establecer las líneas de actuación que deben aplicarse en la peritación de daños ocasionados sobre las producciones de melón y sandía amparadas por el Seguro Agrario Combinado.</p>
+          <p class="parrafo">3. Ámbito de la norma.–Será de aplicación para la evaluación de los daños producidos por los riesgos amparados en las producciones de melón y sandía para consumo en fresco.</p>
+          <p class="parrafo">4. Definiciones.–Además de las recogidas en la Norma General, son de aplicación las que a efectos del seguro se fijan en las Condiciones Especiales de cada cultivo.</p>
+          <p class="parrafo">5. Procedimiento para la peritación de daños.–La peritación de daños se realizará en dos fases (Inspección Inmediata y Tasación Definitiva) o sólo en una (Tasación Definitiva), en función de la época de ocurrencia del siniestro y de sus características. Sólo se realizará Tasación Definitiva cuando el siniestro sea cercano a la recolección o cuando se puedan determinar todos los factores que definen la tasación en una sola visita.</p>
+          <p class="parrafo_2">5.1 Inspección Inmediata.–Como ampliación a lo expuesto en la Norma General de Peritación, el acto de Inspección Inmediata constará de dos fases:</p>
+          <p class="parrafo_2">a) Comprobación de documentos.–En esta fase, se revisarán los datos reseñados en la Declaración de Seguro y se cotejarán con los reflejados en la declaración de siniestro enviada por el asegurado.</p>
+          <p class="parrafo">b) Inspección práctica o de campo.–En esta fase, se realizarán tanto las comprobaciones mínimas en parcelas que deben tenerse en cuenta para la verificación de los daños declarados, así como su cuantificación cuando proceda.</p>
+          <p class="parrafo">En el documento de Inspección Inmediata, además de las observaciones y comprobaciones que se indican en la Norma General de Peritación, se harán constar las que resulten de interés sobre:</p>
+          <p class="parrafo_2">1. Identificación de las parcelas siniestradas, comprobación de las superficie, especie, variedad, marco de plantación, fecha de siembra o trasplante y número de plantas.</p>
+          <p class="parrafo">2. Estimación, si procede, del grado de afectación de las plantas, en órganos distintos del producto asegurado:</p>
+          <p class="parrafo_2">Tronchado, rotura o pérdida de tallos o brotes de la planta que pueda suponer una pérdida de la producción a obtener.</p>
+          <p class="parrafo">Incisiones o magulladuras en brotes o tallos, así como pérdida de superficie foliar de la planta, que pueda incidir en un menor tamaño o peso del producto en aquellos frutos de floración o recolección posterior al siniestro.</p>
+          <p class="parrafo_2">3. Determinación, en su caso, de la pérdida ocasionada por la incidencia del siniestro sobre el producto asegurado, según se establece en el apartado 5.2.3 y 5.2.4 de esta Norma.</p>
+          <p class="parrafo">4. Determinación, cuando proceda, de la producción recolectada, hasta el momento de la ocurrencia del siniestro.</p>
+          <p class="parrafo">5. Período estimado de recolección:</p>
+          <p class="parrafo_2">5.2 Tasación: La tasación de los daños causados por un siniestro, tal y como se indica en la Norma General, se efectuará antes de la recolección.</p>
+          <p class="parrafo">Cuando ello no fuera posible, y el asegurado hubiera procedido a la recolección, se deberá comprobar si las muestras dejadas para la tasación reúnen las características establecidas en las Condiciones Generales de los Seguros Agrícolas y Especiales que regulan este Seguro y lo establecido en la presente Norma. Si ello no fuera así, se consignará la disposición de las muestras existentes en la parcela, indicando su medición y ubicación; aplicándose lo dispuesto en dichas Condiciones.</p>
+          <p class="parrafo">Para la realización de la tasación se seguirán los siguientes pasos:</p>
+          <p class="parrafo_2">5.2.1 Muestreo: La evaluación de los daños y determinación de la producción real esperada y real final de la parcela se realizará sobre muestras tomadas mediante sistema aleatorio simple, sistemático o estratificado.</p>
+          <p class="parrafo">Elección de la muestra: para la toma de muestras se tendrá en cuenta los siguientes criterios:</p>
+          <p class="parrafo_2">a) Excluir todos los elementos de la población comprendidos en las dos primeras filas de plantas próximas a los márgenes y líneas permanentes del interior de la parcela, excepto cuando estas constituyan una proporción importante de la parcela o de la parte dañada de la misma, en cuyo caso las muestras se repartirán proporcionalmente al número de plantas existentes en cada grupo.</p>
+          <p class="parrafo">b) Se excluirán, igualmente, aquellas plantas que no sean representativas del conjunto muestreado.</p>
+          <p class="parrafo">c) En caso de procederse a un muestreo aleatorio estratificado, las muestras se distribuirán proporcionalmente al número de individuos de la población existente en cada estrato.</p>
+          <p class="parrafo">d) Se considera unidad de muestreo 10 plantas, tomadas consecutivamente en una línea.</p>
+          <p class="parrafo">e) Las muestras mínimas a tomar son:</p>
+          <table class="tabla">
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">N.º de unidades muestrales</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Marco-posición</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Suplemento por exceso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">2 ud./parcela.</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">1*2</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">1 ud./ ha</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo">Marco-posición: El primer número indica el número de unidades muestrales en cada posición. El segundo indica el número de posiciones a realizar en la parcela.</p>
+          <p class="parrafo">Suplemento por exceso: Cuando la superficie de la parcela sea superior a 1 ha. el número de muestras será el número mínimo por parcela, más el suplemento por exceso fijado.</p>
+          <p class="parrafo">5.2.2 Muestras testigo: En el supuesto que la tasación de los daños no se hubiera realizado o no se hubiera llegado a un acuerdo y el asegurado tuviera que proceder a la recolección, deberá dejar muestras testigo, de acuerdo a lo establecido en la Norma General de Peritación (apartado 4.1.2) así como en las Condiciones Especiales que rigen en esta línea de seguro.</p>
+          <p class="parrafo">Si la declaración de siniestro se ha recibido en la Agrupación Española de Entidades Aseguradoras de los Seguros Agrarios Combinados S.A. (en adelante Agrupación) antes del inicio de la recolección, el asegurado estará obligado a mantener la muestra durante un plazo máximo de 20 días desde la recolección.</p>
+          <p class="parrafo">Para aquellas declaraciones de siniestro que se reciban en la Agrupación durante la recolección o en fechas posteriores a la misma, el asegurado está obligado a mantener la muestra testigo durante 20 días, contados a partir de la fecha de la recepción de la declaración de siniestro por la Agrupación.</p>
+          <p class="parrafo">Si se hubiera iniciado el procedimiento de tasación contradictoria, el Asegurado mantendrá en todo caso y hasta su finalización las muestras testigo.</p>
+          <p class="parrafo">Si las muestras hubiesen perdido su representatividad en este periodo, por causas imputables al asegurado, se estará a lo dispuesto en las Condiciones Generales y Especiales.</p>
+          <p class="parrafo">Para la evaluación de los daños en parcelas en las que se hayan dejado las muestras testigo, cumpliendo con lo estipulado, se seguirán los mismos criterios de muestreo que los reflejados en el apartado 5.2.1 de esta Norma.</p>
+          <p class="parrafo">5.2.3: Daños en cantidad: Los daños en cantidad se obtendrán teniendo en cuenta la pérdida de superficie foliar y lesiones en los brotes (Tabla I), así como los frutos perdidos y destruidos en el momento del siniestro por la incidencia directa de el o los riesgos cubiertos por la Declaración de Seguro, en función del estado y técnica del cultivo, especie y variedad, recuperación de la planta, tamaño y porcentaje de los frutos existentes en el momento de ocurrencia del siniestro.</p>
+          <p class="parrafo">El daño en cantidad producido se referirá a la producción real esperada de la parcela, cifrándose en un porcentaje de la misma.</p>
+          <p class="parrafo">5.2.4 Daños en calidad: La valoración de estos daños se realizará sobre las plantas elegidas como muestras, de la siguiente forma:</p>
+          <p class="parrafo_2">1. Se tipificarán los frutos existentes en las plantas, según la sintomatología del daño, de acuerdo con las tablas, para cada cultivo.</p>
+          <p class="parrafo">No se considerarán en esta valoración los frutos no comercializables por causas no amparadas por el seguro, así como aquellos frutos que por su desarrollo no van a alcanzar al final de garantías el tamaño, color, etc., de la variedad en cuestión.</p>
+          <p class="parrafo">2. La pérdida en calidad, se fijará inicialmente en un valor traducido en su caso a kilogramos, aplicando los baremos que figuran en la tabla de cada cultivo, deduciéndose, cuando proceda, las pérdidas ya cuantificadas en siniestros anteriores.</p>
+          <p class="parrafo">3. La pérdida en calidad así obtenida, se multiplicará por un factor K, de valor máximo 1, que asimila toda la producción a una categoría única, y que se obtendrá por aplicación de los coeficientes de conversión que figuran en la Tabla II, de la siguiente manera:</p>
+          <p class="parrafo_2">Se clasificarán los frutos elegidos de mutuo acuerdo, en las calidades indicadas en la tabla II, haciendo abstracción de los daños producidos por riesgos cubiertos.</p>
+          <p class="parrafo">El porcentaje de frutos respecto al total existente de cada calidad, se multiplicará por su correspondiente coeficiente, siendo el factor K el resultado de sumar los anteriores productos.</p>
+          <p class="parrafo_2">Este factor se aplicará cuando las características de la producción de la parcela afectada sea inferior a la calidad media que debe reunir la producción de una parcela «tipo» de la misma especie y variedad, obtenida según el buen quehacer del horticultor en la comarca.</p>
+          <p class="parrafo">A título orientativo deberá aplicarse el factor K, cuando existan factores que puedan afectar a la calidad de los frutos, no imputables al riesgo cubierto, como por ejemplo:</p>
+          <p class="parrafo_2">Deficiente estado sanitario y cultural de la parcela.</p>
+          <p class="parrafo">Falta de desarrollo, coloración de los frutos para la variedad así muestreada.</p>
+          <p class="parrafo">Defectos en el fruto, como manchas, heridas, deformaciones, daños de plagas y enfermedades.</p>
+          <p class="parrafo_2">Los daños en calidad así obtenidos se aplicarán a la producción que resta de la producción real esperada, una vez deducidos los daños en cantidad. La pérdida resultante se referirá a la producción real esperada de la parcela, obteniéndose un porcentaje final de daño en calidad.</p>
+          <p class="parrafo_2">5.5.5 Daño total: La pérdida total será la suma de la pérdida en calidad y en cantidad expresada en porcentaje sobre la producción real esperada de la parcela.</p>
+          <p class="parrafo">5.2.6 Deducciones y compensaciones: El cálculo de las deducciones se realizará de mutuo acuerdo conforme a lo establecido en las Condiciones Especiales del Seguro y en la Norma General de Peritación.</p>
+          <p class="parrafo">Igualmente se pactarán las compensaciones a que hubiera lugar conforme a lo establecido en las Condiciones Generales y Especiales del Seguro y en la Norma General de Peritación, si se han realizado y procede.</p>
+          <p class="parrafo">El documento de tasación recogerá, cuando proceda, a efecto del pago de las muestras testigo, la valoración de los mínimos muestrales así como los gastos de su mantenimiento, según la normativa aplicable.</p>
+          <p class="parrafo">5.2.7 Estimación de cosecha:</p>
+          <p class="parrafo_2">1. En siniestros tempranos que afecten en los primeros estadios, se podrá estimar únicamente la capacidad productiva de la parcela. En el acto de tasación definitiva se ajustará la capacidad productiva a la producción real esperada, como consecuencia de las condiciones climáticas, vegetativas, estado sanitario y cultural existentes en ese año, deduciendo las pérdidas ocasionadas por siniestros no amparados en el seguro.</p>
+          <p class="parrafo">2. Para la obtención de la producción real esperada de una parcela podrán seguirse los siguientes criterios:</p>
+          <p class="parrafo_2">a. En función de la producción media de las muestras tomadas en la parcela: La producción real esperada será el producto del número de plantas productivas de la parcela por la producción media de las muestras analizadas.</p>
+          <p class="parrafo">Si además se hubiesen producido en la parcela pérdidas en cantidad, la Producción Real Esperada (PRE) será la suma del anterior producto más las citadas pérdidas.</p>
+          <p class="parrafo">b. Mediante la aplicación directa de la relación:</p>
+          <p class="centro_redonda">
+            <img alt="MathML (base64):PG1hdGggbWF0aHNpemU9IjIwIj4KICAgIDxtdGV4dD5QUkU8L210ZXh0PgogICAgPG1pIHN0eWxlPSJtYXJnaW4tbGVmdDozcHg7bWFyZ2luLXJpZ2h0OjNweDsiPj08L21pPgogICAgPG1pPjwvbWk+CiAgICA8bWZyYWM+CiAgICAgICAgPG1yb3c+CiAgICAgICAgICAgIDxtdGV4dCBzdHlsZT0ibWFyZ2luLXJpZ2h0OjNweDsiPlByb2R1Y2NpJiN4RjM7biBSZWFsIEZpbmFsPC9tdGV4dD4KICAgICAgICAgICAgPG1pPjwvbWk+CiAgICAgICAgICAgIDxtZmVuY2VkIHNlcGFyYXRvcnM9InwiPgogICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgPG10ZXh0PlBSRjwvbXRleHQ+CiAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgIDwvbWZlbmNlZD4KICAgICAgICAgICAgPG10ZXh0IHN0eWxlPSJtYXJnaW4tbGVmdDozcHg7Ij4mI3hENzsgMTAwPC9tdGV4dD4KICAgICAgICA8L21yb3c+CiAgICAgICAgPG1yb3c+CiAgICAgICAgICAgIDxtdGV4dD4xMDAgLSUgRGEmI3hGMTtvcyBlbiBjYW50aWRhZDwvbXRleHQ+CiAgICAgICAgPC9tcm93PgogICAgPC9tZnJhYz4KPC9tYXRoPg==" class="formula" src="data:image/png;base64,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"/>
+          </p>
+          <p class="parrafo_2">No podrá considerarse como producción real esperada, aquella producción que no alcanzará las características comerciales (tamaño, color, etc.) típicas de la especie y variedad para ser recolectadas, antes de la finalización del periodo de garantía y la que no podría comercializarse legalmente por incumplimiento de los requisitos mínimos de comercialización que establecen las Normas de Calidad vigentes.</p>
+          <p class="publicado">Tabla I</p>
+          <p class="centro_redonda">Pérdidas máximas en cantidad por incisiones, roturas en los brotes y pérdida de superficie foliar</p>
+          <table class="tabla">
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="3">Estado vegetativo de la plantación</th>
+                <th class="cabeza_tabla" colspan="3" rowspan="1">Grado de afectación de la planta</th>
+              </tr>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Leve</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Media</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Intensa</th>
+              </tr>
+              <tr>
+                <th class="cabeza_tabla" colspan="3" rowspan="1">% Perdidas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">Desde la nascencia hasta la aparición de los primeros botones florales.</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">0</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1"> 4</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">15</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">Desde botones florales a cuajado de la segunda floración (frutos 3-4 cm.).</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">2</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1"> 6</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">20</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">Desde fruto de diámetro 3-4 cm. hasta inicios de engorde (frutos 8-10 cm.).</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">4</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">11</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">30</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">Desde fruto de diámetro 8-10 cm. hasta maduración.</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">2</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1"> 8</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">15</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo">Los porcentajes de pérdidas son límites máximos.</p>
+          <p class="parrafo">El grado de afectación de la planta se fijará en base al aspecto general de la plantación después del siniestro considerándose principalmente las lesiones en tallos y brotes vegetativos de la planta</p>
+          <p class="parrafo">Estos porcentajes, cuando proceda, se aplicarán sobre la producción restante de deducir a la producción real esperada la producción recolectada y los frutos con tamaño comercial en el momento del siniestro</p>
+          <p class="publicado">Tabla II</p>
+          <p class="centro_redonda">Coeficiente de conversión</p>
+          <table class="tabla">
+            <colgroup>
+              <col/>
+              <col/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Calidades según normas</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Coeficiente de conversión</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">Primera.</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">1,10</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" colspan="1" rowspan="1">Segunda.</td>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">0,75</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cita">Nota: Estas categorías se refieren a las existentes en la Norma de Calidad vigente para el mercado interior.</p>
+          <p class="publicado">Tabla III</p>
+          <p class="centro_redonda">Pérdida de calidad por pedrisco y viento en melón</p>
+          <table class="tabla">
+            <colgroup>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="2">Grupo</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="2">Sintomatología</th>
+                <th class="cabeza_tabla" colspan="2" rowspan="1">Daños</th>
+              </tr>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Amarillo oro</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Resto cultivares</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">I</td>
+                <td colspan="1" rowspan="1">Leves contusiones o magulladuras externas.</td>
+                <td class="cuerpo_tabla_der" rowspan="2">0%</td>
+                <td class="cuerpo_tabla_der" rowspan="2">0%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Leves rozaduras.</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro" colspan="1" rowspan="1">II</td>
+                <td colspan="1" rowspan="1">Contusiones, magulladuras y rozaduras que afectan a una superficie significativa del fruto (más del 10% de su superficie). Ligeras lesiones cicatrizadas en el epicarpio.</td>
+                <td class="cuerpo_tabla_der" colspan="1" rowspan="1">15%</td>
+                <td class="cuerpo_tabla_der" colspan="1" rowspan="1">10%</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">III</td>
+                <td colspan="1" rowspan="1">Rozaduras y lesiones incisas cicatrizadas en el epicarpio que afectan de forma significativa al aspecto global del fruto.</td>
+                <td class="cuerpo_tabla_der" rowspan="2">60%</td>
+                <td class="cuerpo_tabla_der" rowspan="2">50%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Lesiones incisas cicatrizadas que alcanzan y afectan al mesocarpio.</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">IV</td>
+                <td colspan="1" rowspan="1">Graves lesiones incisas cicatrizadas que afectan al mesocarpio.</td>
+                <td class="cuerpo_tabla_der" rowspan="2">100%</td>
+                <td class="cuerpo_tabla_der" rowspan="2">100%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Frutos deformados y/o inutilizados a consecuencia del siniestro.</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cita">Nota.–Estas depreciaciones son de aplicación para frutos con tamaño comercial dentro del periodo de garantías.</p>
+          <p class="publicado">Tabla IV</p>
+          <p class="centro_redonda">Pérdida de calidad por helada en melón</p>
+          <table class="tabla">
+            <colgroup>
+              <col/>
+              <col/>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td colspan="1" rowspan="1">
+                  <p class="cuerpo_tabla_centro">Frutos que presentan claramente la sintomatología de helada</p>
+                </td>
+                <td colspan="1" rowspan="1">
+                  <p class="cuerpo_tabla_centro">100 %</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="publicado">Tabla V</p>
+          <p class="centro_redonda">Pérdida de calidad por pedrisco y viento en sandía</p>
+          <table>
+            <thead>
+              <tr>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Grupo</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Sintomatología</th>
+                <th class="cabeza_tabla" colspan="1" rowspan="1">Daño</th>
+              </tr>
+            </thead>
+            <colgroup>
+              <col/>
+              <col/>
+              <col/>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">I</td>
+                <td colspan="1" rowspan="1">Leves contusiones o magulladuras externas.</td>
+                <td class="cuerpo_tabla_der" rowspan="2">0%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Leves rozaduras.</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">II</td>
+                <td colspan="1" rowspan="1">Contusiones, magulladuras y rozaduras que afectan a una superficie significativa del fruto (más del 10% de la superficie del fruto).</td>
+                <td class="cuerpo_tabla_der" rowspan="2">15%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Ligeras lesiones cicatrizadas en el epicarpio.</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">III</td>
+                <td colspan="1" rowspan="1">Lesiones incisas cicatrizadas en el epicarpio que afectan de forma significativa al aspecto global del fruto.</td>
+                <td class="cuerpo_tabla_der" rowspan="2">60%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Lesiones incisas cicatrizadas que alcanzan y afectan al mesocarpio.</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro" rowspan="2">IV</td>
+                <td colspan="1" rowspan="1">Graves lesiones incisas cicatrizadas que afectan al mesocarpio.</td>
+                <td class="cuerpo_tabla_der" rowspan="2">100%</td>
+              </tr>
+              <tr>
+                <td colspan="1" rowspan="1">Frutos deformados y/o inutilizados a consecuencia del siniestro.</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cita">Nota: Estas depreciaciones son de aplicación para frutos con tamaño comercial dentro del periodo de garantías.</p>
+          <p class="publicado">Tabla VI</p>
+          <p class="centro_redonda">Pérdida de calidad por helada en sandía</p>
+          <table class="tabla">
+            <colgroup>
+              <col/>
+              <col/>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td colspan="1" rowspan="1">
+                  <p class="cuerpo_tabla_centro">Frutos que presentan claramente la sintomatología de helada</p>
+                </td>
+                <td colspan="1" rowspan="1">
+                  <p class="cuerpo_tabla_centro">100 %</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="cita">Nota: No se computarán en ningún caso:</p>
+          <p class="cita">* Los frutos que aun llegando a la madurez comercial dentro de las garantías, no tuvieran un peso superior a 1,5 Kg. en la madurez comercial, (excepto en variedades tipo mini para las que se aceptarán pesos inferiores) así como los que no cumplan las características mínimas de calidad establecidas en las normas de calidad vigentes.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

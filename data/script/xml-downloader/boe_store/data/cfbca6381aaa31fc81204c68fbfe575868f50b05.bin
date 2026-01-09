@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T194016Z</fecha_actualizacion>
+      <identificador>BOE-A-2002-1373</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8070">Comunidad Autónoma de Cataluña</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20011231</fecha_disposicion>
+      <numero_oficial>18/2001</numero_oficial>
+      <titulo>Ley 18/2001, de 31 de diciembre, de Orientación Agraria.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20020124</fecha_publicacion>
+      <diario_numero>21</diario_numero>
+      <fecha_vigencia>20020110</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="4">Desactualizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ct/l/2001/12/31/18</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2002-1373</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="158">Agricultura</materia>
+        <materia codigo="665">Cataluña</materia>
+        <materia codigo="2478">Desarrollo regional</materia>
+        <materia codigo="3879">Ganadería</materia>
+        <materia codigo="4520">Investigación agraria</materia>
+        <materia codigo="5053">Montes</materia>
+        <materia codigo="5640">Política agrícola</materia>
+        <materia codigo="5723">Producción alimentaria</materia>
+        <materia codigo="5726">Producción vegetal</materia>
+        <materia codigo="6283">Sanidad vegetal</materia>
+        <materia codigo="6284">Sanidad veterinaria</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  DOGC núm. 3549, de 9 de enero de 2002.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1979-30178</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 33.2 del Estatuto aprobado por Ley Orgánica 4/1979, de 18 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>DOGC-f-2025-90246</id_norma>
+            <relacion codigo="407">SE AÑADE</relacion>
+            <texto>la disposición adicional 8, por Decreto-ley 21/2025, de 14 de octubre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2017-7353</id_norma>
+            <relacion codigo="407">SE AÑADE</relacion>
+            <texto>el capítulo VII, por Ley 5/2017, de 28 de marzo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2003-14567</id_norma>
+            <relacion codigo="331">SE DICTA EN RELACIÓN</relacion>
+            <texto>, sobre calidad agroalimentaria: Ley 14/2003, de 13 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-1373</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-31</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/158"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2478"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3879"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4520"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5053"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5640"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5723"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5726"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6283"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6284"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-1373</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-31</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/158"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2478"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3879"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4520"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5053"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5640"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5723"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5726"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6283"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6284"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20170330"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20020109"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 18/2001, de 31 de diciembre, de Orientación Agraria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-24</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI 18/2001, de 31 de desembre, d'orientació agrària.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20170330">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-1373</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-31</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/158"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2478"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3879"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4520"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5053"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5640"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5723"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5726"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6283"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6284"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20170330/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 18/2001, de 31 de diciembre, de Orientación Agraria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20170330"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20170330/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20170330/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20020109">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-1373</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-31</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/158"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/665"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2478"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3879"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4520"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5053"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5640"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5723"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5726"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6283"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6284"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-09</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20020109/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 18/2001, de 31 de diciembre, de Orientación Agraria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20020109"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20020109/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ct/l/2001/12/31/18/con/20020109/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://portaljuridic.gencat.cat/eli/es-ct/l/2001/12/31/18"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="centro_redonda">EL PRESIDENTE DE LA GENERALIDAD DE CATALUÑA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de Cataluña ha aprobado y yo, en nombre del Rey y de acuerdo con lo que establece el artículo 33.2 del Estatuto de autonomía de Cataluña, promulgo la siguiente Ley 18/2001, de 31 de diciembre, de Orientación Agraria.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">Estos últimos años el sector agrario y el mundo rural de Cataluña han sufrido transformaciones profundas. La necesidad de definir un marco de referencia es una constante que se inicia con la creación de una nueva administración, con el Departamento de Agricultura, Ganadería y Pesca, a partir de la asunción de las competencias transferidas de acuerdo con el régimen de autogobierno introducido como consecuencia de la aplicación de la Constitución y del Estatuto de autonomía. El Plan nacional agrario, de ámbito estatal, el Plan director de política agraria y pesquera y el Plan general de política forestal significaron un esfuerzo de análisis y de definición de una estrategia para el desarrollo de la agricultura y la modernización de sus estructuras, así como para la potenciación del medio rural. Estas estrategias han quedado plasmadas en el Programa de desarrollo rural de Cataluña, financiado por la Generalidad, el Estado y la Unión Europea.</p>
+          <p class="parrafo">La adhesión, en 1986, a las Comunidades Europeas y la reforma de la política agrícola común del año 1992 comportaron un esfuerzo adicional, tanto de las administraciones como de todo el sector agrario, para conseguir adaptarse a los nuevos condicionantes económicos y al nuevo marco normativo. Recientemente, la necesidad de adecuar la política agraria a los acuerdos sobre intercambios internacionales, tomados en el seno de la Organización Mundial del Comercio, obliga a todos los países de la Unión Europea a un replanteamiento de los objetivos y las prioridades, de acuerdo con las formulaciones de la Agenda 2000, las cuales apuntan hacia una reducción progresiva de las ayudas de la política agraria común.</p>
+          <p class="parrafo">Es por todo esto que, a principios del año 2000, las organizaciones profesionales agrarias, la representación del mundo cooperativo y la Administración nacional agraria iniciaron una reflexión colectiva, que después se extendió a otros ámbitos, con la finalidad de conocer las inquietudes de las personas dedicadas a la agricultura, la ganadería y la explotación forestal, y constatar las demandas de una sociedad cada vez más preocupada por la integridad del medio, la calidad de los alimentos y el equilibrio territorial. Este proceso de análisis y debate ha permitido establecer los principios para la creación de un nuevo marco de referencia, que se concreta en el contenido del Libro blanco del sector agrario. Las propuestas para la agricultura, la ganadería, los bosques y la industria agroalimentaria que contiene este documento tienen en cuenta, a la vez, las funciones económicas, las medioambientales, las sociales y las de equilibrio territorial, las cuales han de permitir lograr un desarrollo sostenible y hacer compatible la explotación económica con la preservación de los valores naturales.</p>
+          <p class="parrafo">Este es el espíritu que inspira la Ley, la cual quiere poner las bases y establecer las directrices para orientar la intervención de los poderes públicos en la economía agraria y el mundo rural, para la mejora de las condiciones de vida y trabajo y el impulso y reconocimiento decididos del carácter multifuncional de la actividad agraria.</p>
+          <p class="parrafo">La presente Ley se estructura en seis capítulos. El capítulo I contiene las disposiciones generales referentes al objeto y las finalidades de la Ley, centradas básicamente en la mejora de las condiciones en que se ejerce la actividad agraria.</p>
+          <p class="parrafo">El capítulo II reconoce la multifuncionalidad de la agricultura, sus aportaciones al equilibrio territorial y la existencia de un medio rural vivo, y establece las medidas para la reestructuración de las explotaciones agrarias para adaptarlas a las nuevas necesidades.</p>
+          <p class="parrafo">El capítulo III introduce las orientaciones para el desarrollo de las actividades productivas, con la promoción de la ocupación, la prevención de los riesgos y las actuaciones respetuosas con el medio, para conseguir una mejora de la competitividad de las explotaciones.</p>
+          <p class="parrafo">La producción forestal, tratada en la sección tercera de este capítulo, queda ya regulada por la Ley 6/1988, de 30 de marzo, forestal de Cataluña.</p>
+          <p class="parrafo">El capítulo IV potencia la valoración del factor humano mediante la formación agraria, la investigación y la transferencia de las innovaciones tecnológicas, con la potenciación del asociacionismo técnico agrario.</p>
+          <p class="parrafo">El capítulo V fija los objetivos y las medidas de refuerzo de la cadena agroalimentaria, a fin de promover la producción y la exportación de productos de calidad, e incrementar la participación de los productores en el valor añadido final.</p>
+          <p class="parrafo">El capítulo VI propone la adaptación de la Administración agraria a las nuevas necesidades del sector para mejorar su competitividad con unos nuevos condicionantes de sostenibilidad. La prestación de los servicios agrarios y el establecimiento de un sistema contractual entre las personas dedicadas a la agricultura, la ganadería y la explotación forestal con la Administración agraria, que permita el ejercicio de modelos específicos de actividad agraria son un claro exponente de la voluntad de promover un desarrollo del medio rural participativo.</p>
+          <p class="parrafo">La presente Ley concluye con siete disposiciones adicionales, que establecen algunos de los mecanismos necesarios para su mejor aplicación, y una disposición final.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 1. Objeto de la Ley.</p>
+          <p class="parrafo">1. El objeto de la presente Ley es establecer los objetivos de la actuación de la Administración de la Generalidad y de los agentes económicos y sociales en los ámbitos agrícola, ganadero, forestal y agroindustrial que permitan favorecer la consolidación de la actividad agraria en Cataluña y la mejora de las condiciones en que esta se ejerce, con especial atención a las zonas de montaña mediante la legislación específica en materia de montaña.</p>
+          <p class="parrafo">2. A los efectos de la presente Ley, la consolidación de la actividad agraria y la mejora de las condiciones en que ésta se ejerce pretende lograr:</p>
+          <p class="parrafo_2">a) Un sector agrario competitivo y profesional, respetuoso con el medio, con unas producciones de calidad al servicio del consumo.</p>
+          <p class="parrafo">b) El mantenimiento de la actividad agraria, ligada a la consolidación del suelo agrario, como elemento básico para contribuir al asentamiento de la población rural, y al equilibrio y la ordenación territoriales de Cataluña.</p>
+          <p class="parrafo">c) La consolidación de la interrelación entre las empresas agrarias y la actividad que llevan a cabo, el territorio y la sociedad.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 2. Finalidades de la política de desarrollo rural.</p>
+          <p class="parrafo">La Administración de la Generalidad, en cooperación y colaboración con los agentes económicos y sociales, especialmente con las organizaciones profesionales agrarias más representativas y la representación del mundo cooperativo, ha de hacer políticas de desarrollo rural, que tiendan a:</p>
+          <p class="parrafo_2">a) Consolidar la agricultura, la ganadería, la producción forestal y la agroindustria como actividades económicas de referencia en el medio rural, con el fomento, cuando proceda, de otras actividades con carácter complementario, y hacerlas compatibles con el respeto de los valores naturales, la integridad del entorno y la protección de los animales, en los términos establecidos por la normativa vigente, y, en general, garantizar el bienestar de las personas que viven en el territorio y lo cuidan.</p>
+          <p class="parrafo">b) Potenciar las explotaciones agrarias directas, a las cuales, como modelo mayoritario, se ha de dar prioridad en la aplicación de las líneas de actuación que contiene la presente Ley, fomentando su concentración y su redimensionamiento, para dar lugar a unas estructuras económicamente viables, que permitan asumir inversiones a largo plazo y equiparar la renta agraria a la media de la renta procedente de otras actividades económicas. En este sentido, hay que impulsar el uso de las nuevas tecnologías y fomentar la empresa familiar agraria y, especialmente, la incorporación de los jóvenes y de las mujeres a las responsabilidades empresariales.</p>
+          <p class="parrafo">c) Promover la formación y la capacitación profesionales de las personas dedicadas a la agricultura, la ganadería y la explotación forestal, a fin de facilitar la introducción de nuevas tecnologías que permitan mejorar la calidad de los productos y la competitividad de las explotaciones agrarias, de manera sostenible, y fomentar la ocupación y la prevención de riesgos laborales, de acuerdo con las potencialidades de los distintos ámbitos territoriales.</p>
+          <p class="parrafo">d) Fomentar las actividades agrarias respetuosas con el medio, mediante el establecimiento de contratos entre la Administración agraria y las explotaciones, a fin de asegurar una gestión del territorio adecuada a las necesidades de la ciudadanía.</p>
+          <p class="parrafo">e) Promover el reconocimiento social y medioambiental de la actividad agraria y su carácter multifuncional, como productora de alimentos y de otros bienes, como elemento de equilibrio territorial, especialmente en las zonas de montaña y las zonas de influencia de presión urbanística, de preservación del paisaje y la biodiversidad, y como conservadora del medio rural y del patrimonio natural y cultural de Cataluña.</p>
+          <p class="parrafo">f) Promover las actuaciones necesarias para lograr un desarrollo equilibrado de todos los agentes de la producción y la transformación, y crear las condiciones para que las exigencias sociales de calidad y seguridad de los alimentos estén reflejadas en los procesos relacionados con su producción, generando una nueva cultura alimentaria. Además, ha de recoger las tradiciones y asegurar la trazabilidad de los productos agroalimentarios, para poder reproducir su historial en cualquier momento, a fin de localizar rápidamente el origen de los problemas que puedan surgir en la elaboración o la distribución y evitarlos en el futuro.</p>
+          <p class="parrafo">g) Promover la participación del sector agroalimentario, especialmente el cooperativo, en el crecimiento económico, consolidar su vocación exportadora con la potenciación del reconocimiento internacional de los productos, y favorecer su acceso a los mercados exteriores, sin descuidar la demanda interna.</p>
+          <p class="parrafo">h) Promover y consolidar el cooperativismo agrario, con el impulso de las cooperativas de segundo grado y las de transformación como la fórmula más extendida en Cataluña de sociedad participada por los mismos payeses y ganaderos.</p>
+          <p class="parrafo">i) Adaptar la estructura y el funcionamiento de la Administración agraria a fin de mejorar el servicio a las personas dedicadas a la agricultura, la ganadería y la explotación forestal, facilitar la participación de los agentes sociales y económicos en el diseño y la aplicación de la política agraria y potenciar los instrumentos de interlocución y concertación que permitan adecuar las propuestas de actuación a las necesidades del sector agrario.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Modernización de la empresa agraria, desarrollo rural y equilibrio territorial</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 1.ª Modernización de la empresa agraria</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 3. Objetivos en el ámbito de la modernización de la empresa agraria.</p>
+          <p class="parrafo">Los objetivos de la Ley en el ámbito de la modernización de la empresa agraria son los siguientes:</p>
+          <p class="parrafo_2">a) Actualizar las estructuras empresariales de las explotaciones agrarias y las de la industria y el comercio agroalimentarios.</p>
+          <p class="parrafo">b) Adaptar los sectores agrario y agroindustrial a las condiciones y a la realidad del mercado.</p>
+          <p class="parrafo">c) Asegurar la continuidad de las explotaciones agrarias como instrumento básica del desarrollo económico en el mundo rural y del equilibrio territorial.</p>
+          <p class="parrafo">d) Incrementar las actividades agrarias sostenibles.</p>
+          <p class="parrafo">e) Dar el máximo de facilidades a las mujeres que emprendan iniciativas empresariales de autoocupación, asociación o agrupación.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 4. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 3, se han de seguir las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Dar prioridad a un modelo de explotación agraria fundamentado en el cumplimiento de criterios de profesionalidad y de viabilidad económica, modulados en función de las circunstancias físicas y geográficas en las zonas con limitaciones específicas, como las zonas de montaña, las zonas desfavorecidas y las zonas bajo la influencia de presión urbanística.</p>
+          <p class="parrafo">b) Fomentar la ocupación y la incorporación a la actividad agraria de jóvenes con formación y capacitación profesionales suficientes, los cuales han de tener prioridad en los procesos de distribución de derechos y cuotas de producción.</p>
+          <p class="parrafo">c) Impulsar iniciativas para la incorporación de las mujeres a la actividad agraria y a otras actividades económicas complementarias o de diversificación relacionadas con el desarrollo rural.</p>
+          <p class="parrafo">d) Fomentar las actividades complementarias que permitan asegurar la viabilidad económica de las explotaciones. Con este fin, se han de potenciar y regular el agroturismo y la diversificación de las actividades agrarias ligadas a la producción, la transformación y la comercialización de productos agrarios.</p>
+          <p class="parrafo">e) Impulsar la concentración parcelaria a fin de adecuar la dimensión de las explotaciones agrarias a la viabilidad propia de la actividad agraria de que se trate.</p>
+          <p class="parrafo">f) Promover la adaptación del régimen jurídico de los contratos de explotación a fin de adecuarlos a la realidad agraria de Cataluña, de acuerdo con la finalidad señalada en el artículo 2.d).</p>
+          <p class="parrafo">g) Adecuar y favorecer los mecanismos que contribuyan a la transparencia en el mercado de la tierra y la gestión de las tierras de cultivo donde se ha cesado la actividad agraria, y que permitan la ampliación de la base territorial de las explotaciones con cualquier modalidad de titularidad.</p>
+          <p class="parrafo">h) Crear un órgano administrativo que promueva la mejora de la dimensión y la reestructuración de las explotaciones agrarias.</p>
+          <p class="parrafo">i) Fomentar fórmulas asociativas de producción, con el impulso de la explotación directa y la potenciación de las empresas de servicios participadas por los propios payeses.</p>
+          <p class="parrafo">j) Promover y fomentar los seguros agrarios, especialmente los colectivos, y establecer mecanismos para paliar los efectos de las catástrofes naturales.</p>
+          <p class="parrafo">k) Incentivar en las explotaciones agrarias el acceso a las nuevas tecnologías de la información y la comunicación.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 2.ª Desarrollo rural y equilibrio territorial</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 5. Objetivos en el ámbito del desarrollo rural y el equilibrio territorial.</p>
+          <p class="parrafo">Los objetivos principales de la Ley en el ámbito del desarrollo rural y el equilibrio territorial son los siguientes:</p>
+          <p class="parrafo_2">a) Consolidar y mejorar el espacio rural, con el establecimiento de medidas especiales de mantenimiento de la actividad agraria y agroalimentaria, especialmente en las zonas de montaña, las zonas desfavorecidas y las que están bajo la influencia de presión urbanística.</p>
+          <p class="parrafo">b) Consolidar las actividades agrarias compatibles con la conservación del medio como actividades económicas básicas que vertebran y equilibran el territorio y el mundo rural.</p>
+          <p class="parrafo">c) Mantener y mejorar el medio y los ecosistemas agrícolas.</p>
+          <p class="parrafo">d) Mejorar las condiciones de vida y el bienestar de las personas dedicadas a la agricultura, la ganadería y la explotación forestal, con una atención específica a las que viven en núcleos diseminados.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 6. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 5, se han de seguir las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Impulsar la mejora y la transformación de regadíos, y la racionalización de los que ya existen, dar prioridad a los riegos de apoyo, a la eficiencia en el uso sostenible del agua en la actividad agraria y al aprovechamiento de las aguas residuales, de acuerdo con los principios de coordinación y colaboración entre las administraciones, así como con el sector privado. Estas líneas de actuación se han de complementar con mecanismos de financiación para las explotaciones agrarias en obras de mejora o creación de nuevos regadíos.</p>
+          <p class="parrafo">b) Coordinar las intervenciones de las administraciones a fin de proteger el suelo agrario, especialmente el situado en zonas bajo la influencia de presión urbanística.</p>
+          <p class="parrafo">c) Establecer un sistema de ayudas al sector agroalimentario condicionado al cumplimiento de exigencias de mejora estructural, el bienestar de los animales, el respeto del medio ambiente, la formación especializada o la profesionalización de la gestión.</p>
+          <p class="parrafo">d) Fomentar las actividades agrarias que conllevan una mejora de la gestión del medio natural, y dar prioridad a las actuaciones agroambientales e incentivarlas.</p>
+          <p class="parrafo">e) Coordinarse con las administraciones públicas competentes en la materia a fin de llevar a cabo obras de infraestructuras básicas, especialmente en las zonas de montaña, las zonas desfavorecidas y las que están bajo la influencia de presión urbanística.</p>
+          <p class="parrafo">f) Potenciar las alternativas económicas y la diversificación de las actividades, especialmente las de transformación y venta directa de los productos artesanales y las de turismo rural a fin de incrementar las posibilidades de creación de puestos de trabajo y la generación de nuevas rentas.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Producción agraria</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 1ª. Producción agrícola y sanidad vegetal</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 7. Objetivos en el ámbito de la producción agrícola y la sanidad vegetal.</p>
+          <p class="parrafo">Los objetivos de la Ley en el ámbito de la producción agrícola y la sanidad vegetal son los siguientes:</p>
+          <p class="parrafo_2">a) Adecuar la planificación y la orientación de la producción a la demanda del mercado, mediante la elaboración de planes estratégicos para varias producciones.</p>
+          <p class="parrafo">b) Controlar y optimizar el uso de los medios de producción, a fin de que las explotaciones agrarias sean gestionadas con la racionalización de los medios de producción y que se lleven a cabo programas de formación para la gestión de los recursos naturales.</p>
+          <p class="parrafo">c) Mejorar la producción agrícola y la sanidad vegetal, con la introducción de sistemas de producción respetuosos con el medio, la constitución de agrupaciones de productores que faciliten la integración de innovaciones para la mejora sanitaria y la sostenibilidad y la promoción de programas de prevención y lucha contra agentes nocivos vegetales y programas de gestión de residuos.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 8. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 7, se han de seguir las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Fomentar iniciativas encaminadas a una gestión correcta de los cultivos, mediante los mecanismos siguientes:</p>
+          <p class="parrafo_2">Primero.–Crear y mantener los inventarios de recursos productivos, atendiendo especialmente a mapa de suelos de Cataluña, los inventarios agronómicos, la caracterización agroclimática del territorio y el mantenimiento y mejora de la red agrometeorológica, con el objetivo de orientar las producciones de acuerdo con los factores geográficos y climáticos.</p>
+          <p class="parrafo">Segundo.–Fomentar el uso de semillas y plantas certificadas.</p>
+          <p class="parrafo">Tercero.–Favorecer la fertilización del suelo con productos orgánicos que procedan tanto de las deyecciones ganaderas como de los residuos urbanos, y racionalizar el uso de fertilizantes como complemento de la ejecución de programas de medidas aplicadas a las zonas vulnerables.</p>
+          <p class="parrafo">Cuarto.–Promover el control y el uso racional de productos fitosanitarios y potenciar las estaciones de avisos fitosanitarios a fin de contribuir a asegurar que estos productos se apliquen en condiciones que preserven la salud de los productores y los consumidores y mantengan la sostenibilidad de los ecosistemas agrícolas y forestales.</p>
+          <p class="parrafo_2">b) Fomentar y promover las agrupaciones técnicas agrarias como entidades especializadas en función de la actividad y potenciar acuerdos con la Administración que contribuyan a la gestión integrada de la producción agrícola, la mejora de la sanidad vegetal y la prestación de servicios de gestión, asistencia y transferencia tecnológica.</p>
+          <p class="parrafo">c) Fomentar la adquisición de maquinaria agrícola de uso común y establecer programas obligatorios de inspección técnica y control de características, a fin de mejorar el rendimiento del suelo y prevenir riesgos en materia de salud y seguridad en la actividad agraria.</p>
+          <p class="parrafo">d) Fomentar el uso de energías renovables, como factor de ahorro de costes de producción y como práctica agraria sostenible.</p>
+          <p class="parrafo">e) Fomentar los métodos de producción agraria integrada y ecológica, y potenciar el uso de tecnologías alternativas que permitan una mejora de las técnicas de control integrado de plagas.</p>
+          <p class="parrafo">f) Fomentar una planificación adecuada del saneamiento vegetal que tenga en cuenta especialmente las tierras abandonadas, incluso las que lo son temporalmente, con el objeto de delimitar las áreas sensibles al ataque de plagas o enfermedades, y definir las medidas de prevención y lucha pertinentes, especialmente las colectivas. Con este fin se han de establecer programas de lucha contra las plagas, los cuales pueden determinar la obligatoriedad de ser aplicados individual o colectivamente por medio de organizaciones reconocidas por la Administración agraria cuando la acción individual pueda interferir a la colectiva en perjuicio de la efectividad o haya que adoptar medidas especiales o utilizar medios extraordinarios.</p>
+          <p class="parrafo">g) Fomentar actuaciones agroambientales destinadas a prevenir la lucha contra la erosión.</p>
+          <p class="parrafo">h) Impulsar la adopción de medidas tributarias para evitar la infrautilización y el abandono de las tierras de cultivo.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 2ª. Producción y sanidad ganaderas</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 9. Objetivos en el ámbito de la producción y la sanidad ganaderas.</p>
+          <p class="parrafo">Los objetivos de la Ley en el ámbito de la producción y la sanidad ganaderas son los siguientes:</p>
+          <p class="parrafo_2">a) Planificar la producción y orientarla a la demanda del mercado y a la sostenibilidad del territorio, mediante la elaboración de planes estratégicos para los distintos subsectores.</p>
+          <p class="parrafo">b) Ordenar sanitaria y zootécnicamente las explotaciones ganaderas con el establecimiento de los instrumentos que permitan realizar su seguimiento y control.</p>
+          <p class="parrafo">c) Mejorar el rendimiento de los medios de producción ganadera.</p>
+          <p class="parrafo">d) Mejorar la calidad y la seguridad de los productos ganaderos, mediante la potenciación de un sistema de seguimiento que asegure su trazabilidad para poder disponer de la información necesaria sobre todos los procesos de tratamiento y transformación que experimenten, y mediante el refuerzo de los controles sobre la aplicación de las normativas de etiquetado y la certificación de los productos ganaderos.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 10. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 9, se han de seguir las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Realizar el seguimiento y el control de las condiciones en que se lleva a cabo la actividad ganadera y dar un apoyo y una protección especiales a la de las zonas de montaña y a la de las industrias que se relacionan con éstas.</p>
+          <p class="parrafo">b) Promover la adaptación de las explotaciones ganaderas a fin de que los sistemas de producción sean más autosuficientes y respondan a las exigencias técnicas, sanitarias y de mercado.</p>
+          <p class="parrafo">c) Potenciar la mejora de las estructuras y los equipos de gestión de las deyecciones ganaderas, y fomentar su utilización como sustitutivo de fertilizantes químicos y otros abonos orgánicos.</p>
+          <p class="parrafo">d) Fomentar la mejora de los sistemas de manipulación y destrucción de animales muertos, de residuos y de otros subproductos derivados de la actividad ganadera para reducir el impacto medioambiental.</p>
+          <p class="parrafo">e) Impulsar los instrumentos que permitan una mejora del control de las actividades relacionadas con la obtención del producto final ganadero y de su calidad.</p>
+          <p class="parrafo">f) Potenciar los programas de fomento de la ganadería extensiva y de la mejora genética, y tener en cuenta especialmente las razas autóctonas, con la finalidad de conservar el territorio, el paisaje y los ecosistemas y mejorar las producciones ganaderas, su calidad y su adaptación al territorio.</p>
+          <p class="parrafo">g) Establecer las directrices o protocolos de actuación en materia de prevención, control y lucha contra las enfermedades que afectan a los animales, y adoptar medidas para evitar que se introduzcan otras nuevas y que se difundan las ya existentes, y para lograr erradicarlas. Estas directrices o estos protocolos han de tener especialmente en cuenta las actuaciones relacionadas con el movimiento pecuario y la coordinación de las medidas y las funciones de inspección y control, con la colaboración necesaria de las autoridades, de ámbito territorial catalán, estatal o comunitario, en esta materia.</p>
+          <p class="parrafo">h) Fomentar agrupaciones técnicas agrarias especializadas, en función de la actividad ganadera, y potenciar que establezcan acuerdos con la Administración para contribuir a la gestión integrada de la producción ganadera, la mejora de la sanidad y la prestación de servicios de gestión, asistencia y transferencia tecnológica.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 3ª. Producción forestal</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 11. Objetivos en el ámbito de la producción forestal.</p>
+          <p class="parrafo">1. Los objetivos y las medidas de actuación de la producción forestal son regulados por la Ley 6/1988, de 30 de marzo, forestal de Cataluña. Sin embargo, la presente Ley determina los objetivos y las líneas de actuación que han de permitir integrar la producción forestal en la actividad económica de la explotación agraria.</p>
+          <p class="parrafo">2. Los objetivos específicos de la política forestal de la Administración de la Generalidad son los siguientes:</p>
+          <p class="parrafo_2">a) Incrementar la productividad de los bosques.</p>
+          <p class="parrafo">b) Conservar y mejorar la diversidad biológica.</p>
+          <p class="parrafo">c) Optimizar las utilidades complementarias de los bosques.</p>
+          <p class="parrafo">d) Proteger los bosques ante los incendios y otras catástrofes de origen natural o antrópico.</p>
+          <p class="parrafo">e) Utilizar todas las posibilidades que ofrece el marco legislativo actual, especialmente la mencionada Ley forestal de Cataluña, la Ley 7/1999, de 30 de julio, del Centro de la Propiedad Forestal, y la Ley 12/1985, de 13 de junio, de espacios naturales.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 12. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 11, las líneas de actuación fundamentales de la política forestal son los siguientes:</p>
+          <p class="parrafo_2">a) Considerar cada finca forestal, que deviene la unidad de gestión forestal.</p>
+          <p class="parrafo">b) Fomentar la planificación y la gestión forestal, tanto en las fincas de titularidad pública como en las de titularidad privada.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Innovación y transferencia de tecnología agroalimentaria y formación agraria</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 13. Objetivos en el ámbito de la innovación, la transferencia de tecnología agroalimentaria y la formación agraria.</p>
+          <p class="parrafo">Los objetivos de la Administración de la Generalidad en el ámbito de la innovación, la transferencia de tecnología agroalimentaria y la formación agraria son los siguientes:</p>
+          <p class="parrafo_2">a) Incrementar la investigación y la innovación tecnológicas en materia agroalimentaria, facilitar la transferencia rápida y eficaz de los adelantos científicos y valorar los adelantos tecnológicos propios de cada empresa agroalimentaria.</p>
+          <p class="parrafo">b) Gestionar la transferencia tecnológica, tanto la pública como la privada concertada, en los distintos aspectos que la definen: orientación, ejecución y financiación.</p>
+          <p class="parrafo">c) Hacer participar, por medio de sus representantes, los sectores agrario y agroalimentario en el diseño de los programas públicos de investigación y desarrollo.</p>
+          <p class="parrafo">d) Mejorar la cualificación de los profesionales del sector agrario mediante programas de formación que incorporen las disciplinas que les permitan una correcta adaptación a la realidad del sector.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 14. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 13, se han de seguir las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Establecer un sistema de transferencia que coordine o integre las distintas actuaciones de los sectores públicos y privados afectados. Este sistema ha de tener en cuenta las necesidades que se pongan de manifiesto, ha de definir las acciones que han de coordinar o integrar los estamentos públicos y las entidades privadas y ha de establecer la reciprocidad en la transmisión de conocimientos e información de los entes públicos y las entidades privadas que participen en el mismo.</p>
+          <p class="parrafo">b) Potenciar los centros y las estaciones experimentales como instrumentos de transmisión de la investigación y el desarrollo (I+D) públicos a los sectores agrario, agroalimentario y forestal.</p>
+          <p class="parrafo">c) Implantar los mecanismos necesarios para acceder a la tecnología con agilidad, oportunidad y economía.</p>
+          <p class="parrafo">d) Promover medidas que tiendan a hacer compatibles las actividades del sector agrario con el medio ambiente.</p>
+          <p class="parrafo">e) Fomentar la utilización de las innovaciones tecnológicas en toda la cadena agroalimentaria, así como en las actividades de divulgación y formación, especialmente las relacionadas con la transmisión de la información y la comunicación.</p>
+          <p class="parrafo">f) Elaborar y aplicar programas de formación que tengan en cuenta las diferentes necesidades de adaptación, especialmente las relativas a la práctica de una actividad agraria sostenible, la mejora de la gestión técnica y económica de las explotaciones, la transformación y la comercialización de los productos agroalimentarios, y las tecnologías de acceso a la información y la comunicación.</p>
+          <p class="parrafo">g) Coordinar la oferta formativa de la Administración de la Generalidad con la de otras instituciones y la de los agentes sociales, mediante la elaboración de un plan integral de formación agraria que ha de incluir la validación de las actividades formativas promovidas por entidades y organizaciones profesionales del sector.</p>
+          <p class="parrafo">h) Establecer sistemas de fomento de la cualificación profesional, promover la formación continuada y facilitar la obtención de titulaciones académicas de formación profesional de grado medio y superior a las personas ya incorporadas a explotaciones agrarias, con la participación de las organizaciones profesionales agrarias más representativas y la representación del mundo cooperativo.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Transformación, comercialización y calidad de los productos agroalimentarios</p>
+        </version>
+      </bloque>
+      <bloque id="s1-3" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 1ª. Transformación y comercialización agroalimentarias</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 15. Objetivos en el ámbito de la transformación y la comercialización agroalimentarias.</p>
+          <p class="parrafo">Los objetivos de la Ley en el ámbito de la transformación y la comercialización agroalimentarias son los siguientes:</p>
+          <p class="parrafo_2">a) Mejorar las estructuras de la transformación y la comercialización agroalimentarias y las condiciones en que se realizan estas actividades, a fin de adaptarlas a las exigencias del mercado.</p>
+          <p class="parrafo">b) Conocer la estructura de la industria agroalimentaria en los ámbitos territorial y sectorial a fin de aplicar a la misma políticas que garanticen la calidad y el control de los productos y eviten la preponderancia de sectores distintos al agrario.</p>
+          <p class="parrafo">c) Consolidar y fomentar la concentración de la oferta agroalimentaria, especialmente la efectuada por el tejido cooperativo agrario.</p>
+          <p class="parrafo">d) Aumentar el nivel de participación de los productores en el incremento del valor añadido de las producciones agrarias generado por los procesos de transformación y comercialización.</p>
+          <p class="parrafo">e) Fomentar nuevas ofertas y nuevos productos agroalimentarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 16. Líneas de actuación.</p>
+          <p class="parrafo">Con la finalidad de lograr los objetivos establecidos por el artículo 15, se han de seguir las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Analizar los hábitos alimentarios y las tendencias que manifiestan para adaptar a los mismos la oferta agroalimentaria.</p>
+          <p class="parrafo">b) Impulsar los instrumentos para modernizar la estructura de la industria agroalimentaria en los ámbitos sectorial y territorial.</p>
+          <p class="parrafo">c) Fomentar las organizaciones interprofesionales agroalimentarias.</p>
+          <p class="parrafo">d) Promover la reestructuración del sector cooperativo y potenciar su modernización, su concentración y su capacidad de transformación de los productos a fin de mejorar la oferta agroalimentaria.</p>
+          <p class="parrafo">e) Potenciar y modernizar las lonjas y los mercados en el lugar de origen de los productos como instrumentos de referencia en las transacciones agroalimentarias.</p>
+          <p class="parrafo">f) Dar prioridad a las iniciativas de fomento de la transformación agroindustrial que suponga más participación de los productores en los valores añadidos de los productos.</p>
+          <p class="parrafo">g) Fomentar la mejora de las condiciones en que se realizan la transformación y la comercialización agroalimentarias.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-3" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="seccion">Sección 2ª. Calidad agroalimentaria</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 17. Objetivos en el ámbito de la calidad de los productos agroalimentarios.</p>
+          <p class="parrafo">Los objetivos de la Ley en el ámbito de la calidad de los productos agroalimentarios son los siguientes:</p>
+          <p class="parrafo_2">a) Incrementar la producción agroalimentaria de origen y calidad diferenciados.</p>
+          <p class="parrafo">b) Mejorar y potenciar el control y la inspección de los productos agroalimentarios de conformidad con la legislación en materia de calidad y origen y de seguridad alimentaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 18. Líneas de actuación.</p>
+          <p class="parrafo">Para lograr los objetivos a que haga referencia el artículo 17 se han de llevar a cabo las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Fomentar la calidad de los productos agrarios y agroalimentarios, tanto los industriales como los artesanales.</p>
+          <p class="parrafo">b) Consolidar las denominaciones de origen protegidas, las indicaciones geográficas protegidas, las marcas de calidad y las demás figuras de calidad agroalimentarias, y fomentar nuevas figuras.</p>
+          <p class="parrafo">c) Proteger, potenciar y promocionar los productos tradicionales propios de la gastronomía del territorio de Cataluña.</p>
+          <p class="parrafo">d) Potenciar acciones para el fomento de los productos obtenidos mediante los sistemas de producción ecológica y de producción integrada.</p>
+          <p class="parrafo">e) Fomentar la certificación de calidad de los productos agroalimentarios.</p>
+          <p class="parrafo">f) Reforzar los mecanismos de seguimiento, control e inspección de la calidad y la seguridad agroalimentarias y de la defensa contra fraudes, como la elaboración del marco legal pertinente y el establecimiento del régimen sancionador.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Administración agraria</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 19. Modelo de Administración agraria.</p>
+          <p class="parrafo">1. Con la finalidad de lograr los objetivos establecidos por la presente Ley, la Administración agraria ha de adaptar la estructura y el funcionamiento a fin de consolidarse como administración relacional y de servicios a las persones dedicadas a la agricultura, la ganadería, la explotación forestal y al sector de la agroindustria.</p>
+          <p class="parrafo">2. Con la finalidad del apartado 1, la Administración agraria ha de actuar bajo el principio de descentralización administrativa que ha de informar su organización territorial en beneficio del servicio prestado a la ciudadanía.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 20. Administración agraria de servicios.</p>
+          <p class="parrafo">Con el objetivo de consolidar la Administración agraria como administración de servicios, se han de llevar a cabo las líneas de actuación siguientes:</p>
+          <p class="parrafo_2">a) Promover la instauración de sistemas de gestión de calidad que garanticen su agilidad, eficacia y eficiencia con la máxima optimización de los recursos.</p>
+          <p class="parrafo">b) Potenciar los servicios técnicos en las distintas vertientes de la actividad agraria, la sanidad animal y la vegetal, la estructural, la de gestión empresarial, la transferencia tecnológica y la formación.</p>
+          <p class="parrafo">c) Impulsar un proceso de renovación de la red de comunicaciones y establecer nuevos marcos de relación con las personas dedicadas a la agricultura, la ganadería, la explotación forestal y la agroindustria, con los medios que ofrecen las nuevas tecnologías, a fin de mejorar los sistemas de acceso al servicio.</p>
+          <p class="parrafo">d) Gestionar y mejorar los recursos financieros de la Administración de la Generalidad para el sector agrario y promover la adaptación de las líneas de financiación existentes y la creación de nuevas líneas específicas.</p>
+          <p class="parrafo">e) La publicación anual de la relación de los beneficiarios de las ayudas propias del sector agrario y en materia de desarrollo rural.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Artículo 21. Administración agraria relacional.</p>
+          <p class="parrafo">De acuerdo con los objetivos del artículo 19 se han de llevar a cabo las actuaciones siguientes:</p>
+          <p class="parrafo_2">a) Fomentar entre el sector la concertación del diseño y la puesta en práctica de la política agraria para favorecer su colaboración, participación y corresponsabilización mediante las entidades que lo representan.</p>
+          <p class="parrafo">b) Promover, cuando proceda, mecanismos de coordinación en la prestación de los servicios, aprovechando la labor llevada a cabo por los agentes sociales y económicos.</p>
+          <p class="parrafo">c) Reconocer como entidades colaboradoras de la Administración, en el ámbito respectivo, a las organizaciones profesionales agrarias más representativas y las que representan al mundo cooperativo.</p>
+          <p class="parrafo">d) Impulsar la planificación multianual de la política agraria, que ha de fijar los objetivos, las propuestas de actuación, el desarrollo y la ejecución, y las previsiones presupuestarias, así como los mecanismos adecuados para realizar su seguimiento anual y aplicar a la misma los ajustes necesarios. Las organizaciones profesionales agrarias más representativas y las que representan el mundo cooperativo han de participar en la elaboración, el seguimiento y la evaluación de estos planes.</p>
+          <p class="parrafo">e) Promover sistemas contractuales que permitan el ejercicio de modelos específicos de actividad agraria en función de la adopción voluntaria de determinados compromisos entre cada persona dedicada a la agricultura o la ganadería y la Administración, de acuerdo con los modelos de explotaciones, haciendo uso de los recursos públicos disponibles de la Unión Europea y de la Administración del Estado, así como de la modulación establecida por la normativa comunitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Régimen sancionador en materia de gestión de las deyecciones ganaderas y otros fertilizantes y del personal técnico habilitado redactor de planes de gestión de deyecciones ganaderas</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="s1-4" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="seccion">Sección 1ª. Régimen sancionador en materia de gestión de deyecciones ganaderas y otros fertilizantes</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 22. Tipificación de las infracciones en materia de gestión de deyecciones ganaderas y otros fertilizantes.</p>
+          <p class="parrafo">1. Son infracciones muy graves las siguientes acciones u omisiones:</p>
+          <p class="parrafo_2">a) Aplicar deyecciones ganaderas u otros fertilizantes en dosis superiores al doble de las máximas establecidas por reglamento, cuando afecte a una superficie igual o superior a cuatro hectáreas.</p>
+          <p class="parrafo">b) Superar en más del doble el contenido máximo de nitrógeno en el suelo, en las condiciones establecidas por reglamento, cuando afecte a una superficie igual o superior a cuatro hectáreas.</p>
+          <p class="parrafo">c) En los suelos en los que la concentración de cualquier nutriente, a excepción del nitrógeno, esté por encima del umbral establecido por reglamento, superar los incrementos máximos de concentración del nutriente establecidos por reglamento, cuando afecte a una superficie igual o superior a cuatro hectáreas.</p>
+          <p class="parrafo">d) Disponer de un censo de animales que dé lugar a un incremento anual en la generación de nitrógeno en las deyecciones superior a 10.000 kg de nitrógeno calculado con coeficientes estándares de excreción, establecidos por reglamento, respecto a la capacidad autorizada en el Registro de explotaciones ganaderas.</p>
+          <p class="parrafo">e) Incumplir el tipo de alimentación a que se ha comprometido la explotación ganadera para reducir la excreción nitrogenada de los animales, si este incumplimiento da lugar a un incremento en la generación de nitrógeno en las deyecciones superior a 10.000 kg anuales.</p>
+          <p class="parrafo">f) Falsear los datos en los estudios por la reducción en la excreción nitrogenada mediante la mejora de la alimentación.</p>
+          <p class="parrafo">g) No permitir o impedir la actuación de los servicios de inspección.</p>
+          <p class="parrafo">h) Coaccionar, amenazar, injuriar o agredir al personal que realiza funciones de inspección o a los instructores de los expedientes sancionadores, tomar represalias contra estas personas o ejercer cualquier otra forma de presión.</p>
+          <p class="parrafo_2">2. Son infracciones graves las siguientes acciones u omisiones:</p>
+          <p class="parrafo_2">a) En el caso de explotaciones sometidas al régimen de comunicación en las que la generación de nitrógeno con las deyecciones ganaderas del ganado intensivo, calculada con los coeficientes estándar de excreción, establecidos por reglamento, sea superior a 1.500 kg de nitrógeno anuales, ejercer la actividad sin haber presentado el plan de gestión de deyecciones o, habiéndolo presentado, sin que haya recibido informe favorable por el departamento competente en materia de agricultura y ganadería de acuerdo con lo establecido por la normativa específica de aplicación, o haberlo presentado sin la firma del técnico habilitado cuando sea necesaria de acuerdo con la normativa específica de aplicación.</p>
+          <p class="parrafo">b) Disponer de un sistema de almacenaje de deyecciones ganaderas o de efluentes generados en bodegas o almazaras que no alcance el noventa por ciento del volumen mínimo establecido por reglamento, o que no sea estanco e impermeable.</p>
+          <p class="parrafo">c) El derramamiento del sistema de almacenaje de deyecciones ganaderas o de otros fertilizantes.</p>
+          <p class="parrafo">d) Esparcir, aplicar o incorporar deyecciones ganaderas u otros fertilizantes en el suelo en terrenos donde esté prohibido por reglamento, cuando afecte a una superficie superior a una hectárea.</p>
+          <p class="parrafo">e) Aplicar deyecciones ganaderas u otros fertilizantes en las épocas prohibidas para los distintos cultivos y zonas, de acuerdo con la normativa, cuando afecte a una superficie igual o superior a cuatro hectáreas.</p>
+          <p class="parrafo">f) Aplicar deyecciones ganaderas u otros fertilizantes en dosis superiores al doble de las máximas establecidas por reglamento, cuando afecte a una superficie superior a una hectárea e inferior a cuatro.</p>
+          <p class="parrafo">g) Superar en más del doble el contenido máximo de nitrógeno en el suelo, en las condiciones establecidas por reglamento, cuando afecte a una superficie superior a una hectárea e inferior a cuatro.</p>
+          <p class="parrafo">h) En los suelos en los que la concentración de cualquier nutriente, a excepción del nitrógeno, esté por encima del umbral establecido por reglamento, superar los incrementos máximos de concentración del nutriente establecidos por reglamento, cuando afecte a una superficie superior a una hectárea e inferior a cuatro.</p>
+          <p class="parrafo">i) Disponer de un censo de animales que dé lugar a un incremento anual en la generación de nitrógeno en las deyecciones superior a 5.000 kg e inferior o igual a 10.000 kg de nitrógeno calculado con coeficientes estándares de excreción, establecidos por reglamento, respecto a la capacidad autorizada en el Registro de explotaciones ganaderas.</p>
+          <p class="parrafo">j) Incumplir el tipo de alimentación a que se ha comprometido la explotación ganadera para reducir la excreción nitrogenada de los animales, si este incumplimiento da lugar a un incremento anual en la generación de nitrógeno en las deyecciones superior a 5.000 kg anuales e igual o inferior a 10.000.</p>
+          <p class="parrafo">k) Aplicar deyecciones directamente desde el barril de transporte sin mediación de dispositivos de reparto o esparcimiento o utilizando sistemas de riego no permitidos para la aplicación de purines.</p>
+          <p class="parrafo">l) Incumplir las obligaciones relativas a la instalación de dispositivos electrónicos de posicionamiento global (GPS) o relativas a unidades de adquisición y registro de datos, para los casos y en los términos establecidos por reglamento.</p>
+          <p class="parrafo">m) Incumplir las condiciones establecidas en las resoluciones de los planes de gestión de deyecciones ganaderas, o incumplir las condiciones impuestas en la autorización ambiental o en la licencia ambiental referentes a la gestión de las deyecciones ganaderas que hayan sido impuestas por la Administración agraria, sin perjuicio de las funciones del órgano competente en materia de aguas, siempre y cuando el incumplimiento no corresponda a ninguna otra infracción tipificada en esta sección.</p>
+          <p class="parrafo">n) Falsear u omitir datos, declaraciones o documentos o informaciones referentes a la gestión de deyecciones ganaderas, a la gestión de efluentes de bodegas y almazaras, a la gestión de otros fertilizantes o a la gestión de los piensos si estos piensos sirven o tienen que servir para reducir la excreción del ganado en cuanto al nitrógeno u otros elementos que pueden limitar la utilización de las deyecciones como fertilizantes.</p>
+          <p class="parrafo">o) No presentar a la dirección general competente en materia de agricultura, en relación con bodegas o almazaras, la declaración anual establecida por reglamento.</p>
+          <p class="parrafo">p) No disponer del libro de gestión de las deyecciones ganaderas o de los libros de gestión de otros fertilizantes en los que se anoten las aplicaciones hechas durante la campaña o no conservarlo durante el plazo fijado por la normativa vigente.</p>
+          <p class="parrafo">q) Negarse o resistirse a suministrar datos, o a facilitar la información requerida por los órganos competentes, por los inspectores o por el personal de inspección y control y suministrar, con conocimiento e intencionalidad, información inexacta o documentación falsa.</p>
+          <p class="parrafo">r) Haber iniciado la aplicación agrícola de efluentes producidos en bodegas y almazaras sin haber tramitado, en su caso, la comunicación previa a la dirección general competente en materia de agricultura.</p>
+          <p class="parrafo_2">3. Son infracciones leves las siguientes acciones u omisiones:</p>
+          <p class="parrafo">a) En el caso de explotaciones sometidas al régimen de comunicación en las que la generación de nitrógeno con las deyecciones ganaderas del ganado intensivo, calculada con los coeficientes estándar de excreción, establecidos por reglamento, sea igual o inferior a 1.500 kg de nitrógeno anuales, ejercer la actividad sin haber presentado el plan de gestión de deyecciones o, habiéndolo presentado, sin que haya recibido informe favorable del departamento competente en materia de agricultura y ganadería de acuerdo con lo establecido por la normativa específica de aplicación, o haberlo presentado sin la firma del técnico habilitado cuando sea necesaria de acuerdo con la normativa específica aplicación.</p>
+          <p class="parrafo">b) Aplicar agrícolamente deyecciones ganaderas u otros fertilizantes sin ajustarse a la normativa sobre distancias que deben respetarse en la aplicación y sobre plazos máximos de incorporación al suelo.</p>
+          <p class="parrafo">c) Incumplir la normativa sobre ubicación y duración máxima de los apilamientos temporales de estiércol, u otros productos orgánicos con valor fertilizante, a pie de finca.</p>
+          <p class="parrafo">d) Cualquier otro incumplimiento de la normativa relativa a la gestión de las deyecciones ganaderas como fertilizantes, o a la gestión de los otros fertilizantes, o a la gestión de los efluentes de bodegas o almazaras, cuando no esté tipificado como infracción grave o muy grave.</p>
+          <p class="parrafo">e) Disponer de un censo de animales que dé lugar a un incremento anual en la generación de nitrógeno en las deyecciones superior a 1.500 kg e inferior o igual a 5.000 kg de nitrógeno calculado con coeficientes estándares de excreción, establecidos por reglamento, respecto a la capacidad autorizada en el Registro de explotaciones ganaderas.</p>
+          <p class="parrafo">f) No presentar las declaraciones o los documentos relativos a la gestión de deyecciones ganaderas o presentarlos incompletos, con inexactitudes, errores u omisiones, o fuera del plazo reglamentario.</p>
+          <p class="parrafo">g) La falta de actualización de los libros de gestión de las deyecciones ganaderas o de los libros de gestión de otros fertilizantes, o la presencia de inexactitudes, errores u omisiones en los mismos.</p>
+          <p class="parrafo">h) No prestar la colaboración necesaria para llevar a cabo las actuaciones inspectoras o de control, sin llegar a impedir su realización.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 23. Sanciones.</p>
+          <p class="parrafo">1. Las sanciones aplicables a las infracciones tipificadas por el artículo 22 son las siguientes:</p>
+          <p class="parrafo_2">a) Por infracciones muy graves: sanción pecuniaria entre 15.001 y 60.000 euros.</p>
+          <p class="parrafo">b) Por infracciones graves: sanción pecuniaria entre 3.001 y 15.000 euros.</p>
+          <p class="parrafo">c) Por infracciones leves: sanción pecuniaria entre 100 y 3.000 euros.</p>
+          <p class="parrafo_2">2. En el caso de las infracciones graves y muy graves, el órgano competente para resolver puede imponer como sanción accesoria la prohibición de entrada o la obligación de retirada de animales de la explotación ganadera.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 24. Responsabilidad por las infracciones en materia de gestión de deyecciones ganaderas y otros fertilizantes.</p>
+          <p class="parrafo">1. Son responsables de las infracciones las personas físicas o jurídicas que incurren en las acciones u omisiones tipificadas como infracción en esta sección.</p>
+          <p class="parrafo">2. La responsabilidad debe ser solidaria si hay varias personas responsables y no es posible determinar el grado de participación de cada una en la comisión de la infracción.</p>
+          <p class="parrafo">3. En el caso de infracciones graves o muy graves, cuando una infracción es imputada a una persona jurídica, pueden ser consideradas también responsables las personas que integran sus órganos rectores o de dirección o los técnicos responsables de la actividad.</p>
+          <p class="parrafo">4. La responsabilidad administrativa por las infracciones a que se refiere esta sección es compatible con la exigencia al infractor de la reposición de la situación alterada por este a su estado originario, así como con la indemnización por los daños y perjuicios, y es independiente de la responsabilidad civil, penal o de otro orden que, en su caso, pueda exigirse, en los términos establecidos por el ordenamiento jurídico.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="s2-4" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="seccion">Sección 2ª. Régimen sancionador del personal técnico habilitado redactor de planes de gestión</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 25. Tipificación de las infracciones cometidas por el personal técnico habilitado redactor de planes de gestión de deyecciones ganaderas.</p>
+          <p class="parrafo">1. Son infracciones muy graves las siguientes acciones u omisiones:</p>
+          <p class="parrafo_2">a) Firmar como técnico habilitado planes de gestión que se presenten a la Administración sin cumplir la normativa sobre la materia o los criterios técnicos aprobados por el departamento competente en materia de agricultura y ganadería, si el incumplimiento consiste en alguno de los siguientes hechos o comporta alguna de las siguientes consecuencias:</p>
+          <p class="parrafo_2">a.1) Incremento de capacidad de ganado superior, en términos equivalentes, a una excreción de deyecciones de 4.000 kg N, contabilizándolo con los coeficientes estándares de excreción, establecidos por reglamento para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o superior a 6.000 kg N si la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.2) Falta de base agrícola para aplicar las deyecciones, o falta de otras vías de gestión, cuando eso afecta a una cantidad de deyecciones equivalente superior a 15.000 kg N, contabilizándolo con los valores estándar de excreción para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o superior a 30.000 kg N, si la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.3) Falta de acreditación documental de la disponibilidad de la base agrícola para aplicar las deyecciones, si afecta a más de 75 ha cuando la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o si afecta a más de 150 ha cuando la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.4) Falta de capacidad de almacenaje impermeable de deyecciones ganaderas, si esta carencia es superior a 1.000 m³, cuando la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o si es superior a 1.500 m³ cuando la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.5) Tratamiento de deyecciones en origen que no cumpla los criterios admitidos cuando afecte a una cantidad de deyecciones superior, en términos equivalentes, a 15.000 kg N, contabilizándolo con los valores estándar de excreción para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o superior a 30.000 kg N, si la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo_2">b) Falsear datos, declaraciones o documentos relativos al plan de gestión.</p>
+          <p class="parrafo_2">2. Son infracciones graves las siguientes acciones u omisiones:</p>
+          <p class="parrafo_2">a) Firmar como técnico habilitado planes de gestión que se presenten a la Administración sin cumplir la normativa sobre la materia o los criterios técnicos aprobados por el departamento competente en materia de agricultura y ganadería, si el incumplimiento consiste en alguno de los siguientes hechos o comporta alguna de las siguientes consecuencias:</p>
+          <p class="parrafo_2">a.1) Incremento de capacidad de ganado superior, en términos equivalentes, a una excreción de deyecciones de 2.000 kg N, contabilizándolo con los coeficientes estándares de excreción, establecidos por reglamento para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o superior a 3.000 kg N, si la instalación ganadera está situada fuera de zonas vulnerables.</p>
+          <p class="parrafo">a.2) Falta de base agrícola para aplicar las deyecciones o falta de otras vías de gestión, cuando eso afecta a una cantidad de deyecciones equivalente superior a 5.000 kg N, contabilizándolo con los valores estándar de excreción para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o superior a 10.000 kg N, si la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.3) Falta de acreditación documental de la disponibilidad de la base agrícola para aplicar las deyecciones, si afecta a más de 25 ha, cuando la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o si afecta a más de 50 ha, cuando la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.4) Falta de capacidad de almacenaje impermeable de deyecciones ganaderas, si esta carencia es superior a 500 m³, cuando la instalación ganadera está situada en zona vulnerable a la contaminación por nitratos, o si es superior a 750 m³, cuando la instalación ganadera está situada fuera de zona vulnerable.</p>
+          <p class="parrafo">a.5) Tratamiento de deyecciones en origen que no cumpla los criterios admitidos, cuando afecte a una cantidad de deyecciones superior, en términos equivalentes, a 5.000 kg N, contabilizándolo con los valores estándar de excreción para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en zona vulnerable a la contaminación por nitratos, o superior a 10.000 kg N, si la instalación ganadera está situada fuera de zona vulnerable.</p>
+          <p class="parrafo_2">3. Son infracciones leves las siguientes acciones u omisiones:</p>
+          <p class="parrafo_2">a) Firmar, como técnico habilitado, planes de gestión de las deyecciones ganaderas que se presenten a la Administración, sin cumplir la normativa sobre la materia o los criterios técnicos aprobados por el departamento competente en materia de agricultura y ganadería, si el incumplimiento consiste en alguno de los siguientes hechos o comporta alguna de las siguientes consecuencias:</p>
+          <p class="parrafo_2">a.1) Incremento de capacidad de ganado superior, en términos equivalentes, a una excreción de deyecciones inferior a 2.000 kg N, contabilizándolo con los coeficientes estándares de excreción, establecidos por reglamento para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o inferior a 3.000 kg N, si la instalación ganadera está situada fuera de zonas vulnerables.</p>
+          <p class="parrafo">a.2) Falta de base agrícola para aplicar las deyecciones o falta de otras vías de gestión, cuando eso afecta a una cantidad de deyecciones equivalente inferior a 5.000 kg N, contabilizándolo con los valores estándar de excreción para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o inferior a 10.000 kg N, si la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.3) Falta de acreditación documental de la disponibilidad de la base agrícola para aplicar las deyecciones, si afecta a menos de 25 ha, cuando la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o si afecta a menos de 50 ha, cuando la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.4) Falta de capacidad de almacenaje impermeable de deyecciones ganaderas, si esta carencia es inferior a 500 m³, cuando la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o si es inferior a 750 m³, cuando la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo">a.5) Tratamiento de deyecciones en origen que no cumpla los criterios admitidos, cuando afecte a una cantidad de deyecciones inferior, en términos equivalentes, a 5.000 kg N, contabilizándolo con los valores estándar de excreción para cada tipo de ganado y fase productiva, si la instalación ganadera está situada en una zona vulnerable a la contaminación por nitratos, o inferior a 10.000 kg N, si la instalación ganadera está situada fuera de una zona vulnerable.</p>
+          <p class="parrafo_2">b) Cualquier error o incumplimiento en la elaboración y presentación de planes de gestión, cuando no esté tipificado como infracción grave o muy grave.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 26. Sanciones.</p>
+          <p class="parrafo">Las sanciones aplicables a las infracciones tipificadas por el artículo 25 son las siguientes:</p>
+          <p class="parrafo_2">a) Por infracciones muy graves: retirada de la habilitación por un período entre 2 y 4 años.</p>
+          <p class="parrafo">b) Por infracciones graves: retirada de la habilitación por un período entre 1 a 2 años.</p>
+          <p class="parrafo">c) Por infracciones leves: retirada de la habilitación por un período entre 4 meses y 1 año.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 27. Responsabilidad por las infracciones.</p>
+          <p class="parrafo">Son responsables de las infracciones tipificadas por el artículo 25 los técnicos habilitados redactores de planes de gestión de deyecciones ganaderas.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="s3-2" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="seccion">Sección 3ª. Disposiciones comunes al régimen sancionador en materia de gestión de las deyecciones ganaderas y otros fertilizantes y del personal técnico habilitado redactor de planes de gestión de deyecciones ganaderas</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 28. Criterios de graduación de las sanciones.</p>
+          <p class="parrafo">1. La imposición de sanciones debe adecuarse a la gravedad del hecho constitutivo de la infracción y a la graduación de las sanciones establecidas por este capítulo i al resto de la normativa sectorial aplicable al ámbito de la agricultura y la ganadería, y deben tenerse en cuenta las siguientes circunstancias:</p>
+          <p class="parrafo_2">a) El grado de culpabilidad o la existencia de intencionalidad.</p>
+          <p class="parrafo">b) La continuidad o persistencia en la conducta infractora.</p>
+          <p class="parrafo">c) La naturaleza de los perjuicios causados.</p>
+          <p class="parrafo">d) La reincidencia.</p>
+          <p class="parrafo">e) El incumplimiento de las advertencias.</p>
+          <p class="parrafo">f) El beneficio derivado de la actividad infractora.</p>
+          <p class="parrafo">g) Los kilogramos de nitrógeno de deyecciones cuya gestión no está prevista en el plan de gestión de las deyecciones ganaderas.</p>
+          <p class="parrafo">h) Los riesgos que la infracción puede producir para la salud humana o de los animales y la afectación del medioambiente.</p>
+          <p class="parrafo">i) La concurrencia de diversas infracciones en unos mismos hechos.</p>
+          <p class="parrafo">j) La afectación de una zona vulnerable.</p>
+          <p class="parrafo_2">2. Cuando lo justifique la adecuación debida entre la sanción que deba aplicarse con la gravedad del hecho constitutivo de la infracción y las circunstancias concurrentes, el órgano competente para resolver puede imponer la sanción en el grado inferior, siempre y cuando la persona imputada no haya sido sancionada por una infracción igual o similar en los últimos cinco años.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 29. Concurrencia de infracciones.</p>
+          <p class="parrafo">1. A la persona responsable de dos o más infracciones se le deben imponer todas las sanciones correspondientes a las distintas infracciones.</p>
+          <p class="parrafo">2. Las conductas tipificadas de infracción administrativa por este capítulo se entienden sin perjuicio de las otras que resulten de la legislación sectorial que afecte a las deyecciones ganaderas y no puedan ser subsumidas en las establecidas por este capítulo.</p>
+          <p class="parrafo">3. Cuando la comisión de las infracciones tipificadas por este capítulo produzca consecuencias que comporten la comisión de infracciones tipificadas en otros ámbitos materiales, las sanciones para cada una de las infracciones son compatibles, sin perjuicio de que, si se aprecia identidad de sujetos, hechos y fundamentos, se aplique el régimen que sancione con más gravedad la conducta infractora.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2017-7353" fecha_publicacion="20170330" fecha_vigencia="20170331">
+          <p class="articulo">Artículo 30. Competencias para la imposición de sanciones y para la resolución de recursos.</p>
+          <p class="parrafo">1. Corresponde al director o directora de los servicios territoriales correspondientes del departamento competente en materia de agricultura y ganadería acordar el inicio de los procedimientos sancionadores y designar al instructor o instructora.</p>
+          <p class="parrafo">2. Son competentes para imponer las sanciones establecidas por este capítulo los siguientes órganos:</p>
+          <p class="parrafo_2">a) El director o directora de los servicios territoriales correspondientes del departamento competente en materia de agricultura y ganadería, en caso de infracciones leves y graves.</p>
+          <p class="parrafo">b) El director o directora general competente en materia de agricultura y ganadería, en caso de infracciones muy graves.</p>
+          <p class="parrafo_2">3. Los órganos competentes para resolver los recursos de alzada son:</p>
+          <p class="parrafo_2">a) El director o directora general competente en materia de agricultura y ganadería, si el recurso se interpone contra actos dictados por el director o directora de los servicios territoriales correspondientes.</p>
+          <p class="parrafo">b) El consejero o consejera del departamento competente en materia de agricultura y ganadería, si el recurso se interpone contra actos dictados por el director o directora general competente en materia de agricultura y ganadería.</p>
+          <blockquote>
+            <p class="nota_pie"> Se añade por el art. 209 de la Ley 5/2017, de 28 de marzo. <a class="refPost">Ref. BOE-A-2017-7353#a2-21</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional primera. Coordinación administrativa en la actuación de la Administración de la Generalidad.</p>
+          <p class="parrafo">1. En cumplimiento de lo que establece la presente Ley, la actuación de la Administración de la Generalidad se ha de llevar a cabo de acuerdo con los principios que rigen la organización y el funcionamiento de la Administración, especialmente bajo el principio de coordinación con las demás administraciones públicas.</p>
+          <p class="parrafo">2. En el ámbito interno, la Administración de la Generalidad y las entidades que dependen de aquélla han de actuar de acuerdo con los principios de colaboración y coordinación. Con esta finalidad, para facilitar la coordinación en el ejercicio de las competencias que tiene atribuidas, se pueden crear órganos temporales o permanentes.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional segunda. Desarrollo normativo.</p>
+          <p class="parrafo">1. El Gobierno ha de iniciar el proceso de desarrollo normativo necesario para la ejecución de las líneas de actuación establecidas, con respeto, cuando proceda, de las directrices de los instrumentos de programación de la política agraria común.</p>
+          <p class="parrafo">2. Para garantizar la eficacia del sistema de gestión y control en aplicación de la política agraria que gestionan los departamentos de la Generalidad, el Gobierno ha de regular la creación y el funcionamiento del Registro de Explotaciones Agrarias.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional tercera. Previsiones presupuestarias.</p>
+          <p class="parrafo">Dentro de las previsiones presupuestarias, el Gobierno ha de consignar las dotaciones necesarias para la ejecución de las medidas de actuación que la presente Ley establece.</p>
+        </version>
+      </bloque>
+      <bloque id="dacuaa" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional cuarta. Presentación de un proyecto de ley sobre calidad agroalimentaria.</p>
+          <p class="parrafo">El Gobierno ha de presentar al Parlamento un proyecto de ley sobre calidad agroalimentaria en el plazo de seis meses a contar desde el día siguiente al de la entrada en vigor de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="daquinta" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional quinta. Informe.</p>
+          <p class="parrafo">1. A efectos de lo que establece el artículo 6.b) el departamento competente en materia de agricultura y ganadería ha de emitir un informe durante la tramitación de las figuras de planeamiento urbanístico.</p>
+          <p class="parrafo">2. El departamento competente en materia de agricultura y ganadería, si no hay planes sectoriales agrarios, ha de emitir un informe sobre los efectos y las repercusiones que, entre otros, los proyectos y las actuaciones de interés público en el suelo no urbanizable que establece la legislación urbanística pueden ocasionar al funcionamiento normal de la actividad de las explotaciones agrarias que puedan resultar afectadas. Dicho informe tiene carácter preceptivo y vinculante y se ha de emitir antes de la aprobación de los proyectos y las actuaciones mencionados.</p>
+        </version>
+      </bloque>
+      <bloque id="dasexta" tipo="precepto" titulo="Disposición adicional sexta">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional sexta. Subproductos orgánicos de origen no agrario.</p>
+          <p class="parrafo">El Gobierno ha de elaborar un reglamento que regule el uso de los subproductos orgánicos de origen no agrario como abono y vele para que se apliquen con idoneidad y para que se eviten los daños al suelo y al medio ambiente derivados de hacer un uso incorrecto de los mismos o bien de la misma composición de estos productos.</p>
+        </version>
+      </bloque>
+      <bloque id="daseptima" tipo="precepto" titulo="Disposición adicional séptima">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición adicional séptima. Elaboración de un plan de actuaciones.</p>
+          <p class="parrafo">El Gobierno ha de elaborar un plan de actuaciones de nuevos regadíos para el período 2002-2008 y lo ha de presentar al Parlamento antes del 30 de junio de 2002.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entra en vigor el día siguiente de su publicación en el «Diario Oficial de la Generalidad de Cataluña».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2002-1373" fecha_publicacion="20020109" fecha_vigencia="20020110">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos a los que sea de aplicación esta Ley cooperen en su cumplimiento y que los tribunales y autoridades a los que corresponda la hagan cumplir.</p>
+          <p class="parrafo_2">Palacio de la Generalidad, 31 de diciembre de 2001.</p>
+          <p class="firma_ministro">JORDI PUJOL,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

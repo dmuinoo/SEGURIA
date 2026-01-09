@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T120501Z</fecha_actualizacion>
+      <identificador>BOE-A-2009-19439</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4210">Ministerio de Educación</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20091113</fecha_disposicion>
+      <numero_oficial>1677/2009</numero_oficial>
+      <titulo>Real Decreto 1677/2009, de 13 de noviembre, por el que se aprueba el Reglamento del Consejo de Universidades.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20091204</fecha_publicacion>
+      <diario_numero>292</diario_numero>
+      <fecha_vigencia>20091205</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2009/11/13/1677</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2009-19439</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1436">Consejo de Universidades</materia>
+        <materia codigo="3214">Enseñanza Universitaria</materia>
+        <materia codigo="4973">Ministerio de Educación</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="7090">Universidades</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2003-22340</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 1504/2003, de 28 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-24515</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 28 de la Ley Orgánica 6/2001, de 21 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2015-13780</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 11, por Real Decreto 1112/2015, de 11 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-19439</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1677</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1436"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3214"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-19439</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1677</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1436"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3214"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20151218"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20091204"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1677/2009, de 13 de noviembre, por el que se aprueba el Reglamento del Consejo de Universidades.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 1677/2009, de 13 de novembre, pel qual s'aprova el Reglament del Consell d'Universitats.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real decreto 1677/2009, do 13 de novembro, polo que se aproba o Regulamento do Consello de Universidades.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20151218">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-19439</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1677</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1436"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3214"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-12-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20151218/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1677/2009, de 13 de noviembre, por el que se aprueba el Reglamento del Consejo de Universidades.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20151218"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20151218/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20151218/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20091204">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-19439</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1677</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1436"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3214"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4973"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20091204/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1677/2009, de 13 de noviembre, por el que se aprueba el Reglamento del Consejo de Universidades.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20091204"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20091204/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2009/11/13/1677/con/20091204/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="parrafo">El título IV de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, modificada por la Ley Orgánica 4/2007, de 12 de abril, sienta los principios que habrán de regir la coordinación en el ámbito de la educación universitaria. El artículo 28 de dicha ley crea el Consejo de Universidades, como órgano de coordinación académica y de cooperación, consulta y propuesta en materia universitaria.</p>
+          <p class="parrafo">De acuerdo con lo establecido en el artículo 30, el Consejo de Universidades funcionará en Pleno y en Comisiones, correspondiendo al Pleno, entre otras funciones, la elaboración del reglamento de dicho Consejo y su elevación al Ministro competente en materia de universidades para su aprobación por el Gobierno.</p>
+          <p class="parrafo">En cumplimiento del referido mandato, el Pleno del Consejo de Universidades, reunido en sesión del día 1 de junio de 2009, ha acordado elevar al Ministro de Educación el presente reglamento, por el que se regula su organización, sus competencias y su funcionamiento.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Educación, con la aprobación previa de la Vicepresidenta Primera y Ministra de la Presidencia, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 13 de noviembre de 2009,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo único. Aprobación del Reglamento del Consejo de Universidades.</p>
+          <p class="parrafo">Se aprueba el Reglamento del Consejo de Universidades, cuyo texto se inserta a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Disposición adicional única. Medios.</p>
+          <p class="parrafo">El Ministerio de Educación proporcionará al Consejo de Universidades los recursos humanos, técnicos y económicos necesarios para el desarrollo de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 1504/2003, de 28 de noviembre, por el que se aprueba el Reglamento del Consejo de Coordinación Universitaria, y cuantas otras disposiciones de igual o inferior rango se opongan a lo dispuesto en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="parrafo_2">Dado en Madrid, el 13 de noviembre de 2009.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Educación,</p>
+          <p class="firma_ministro">ÁNGEL GABILONDO PUJOL</p>
+        </version>
+      </bloque>
+      <bloque id="reglamento" tipo="encabezado" titulo="REGLAMENTO">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="anexo">REGLAMENTO DEL CONSEJO DE UNIVERSIDADES</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 1. Naturaleza y funciones.</p>
+          <p class="parrafo">1. El Consejo de Universidades es el órgano de coordinación académica, así como de cooperación, consulta y propuesta en materia universitaria. Con carácter general le corresponden, según lo previsto en el artículo 28 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, así como en el Real Decreto 1312/2007, de 5 de octubre, por el que se establece la acreditación nacional para el acceso a los cuerpos docentes universitarios, dictado en desarrollo del artículo 58 de la citada Ley, y de acuerdo con lo establecido en el Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales, las siguientes funciones:</p>
+          <p class="parrafo_2">a) Servir de cauce para la colaboración, la cooperación y la coordinación en el ámbito académico.</p>
+          <p class="parrafo">b) Informar las disposiciones legales y reglamentarias que afectan al sistema universitario en su conjunto.</p>
+          <p class="parrafo">c) Prestar el asesoramiento que en materia universitaria le sea requerido por el Ministerio de Educación, la Conferencia General de Política Universitaria o, en su caso, los órganos competentes en materia de universidades de las comunidades autónomas.</p>
+          <p class="parrafo">d) Formular propuestas al Gobierno, en materias relativas al sistema universitario y a la Conferencia General de Política Universitaria.</p>
+          <p class="parrafo">e) La verificación de la adecuación de los planes de estudios a las directrices y condiciones establecidas por el Gobierno para los títulos oficiales, así como su acreditación, de acuerdo con los procedimientos establecidos en el capítulo VI del Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales.</p>
+          <p class="parrafo">f) La acreditación nacional para el acceso a los cuerpos docentes universitarios, de acuerdo con el procedimiento establecido en el anteriormente citado Real Decreto 1312/2007, de 5 de octubre.</p>
+          <p class="parrafo">g) El desarrollo de cuantas otras tareas le encomienden las leyes y sus disposiciones de desarrollo.</p>
+          <p class="parrafo_2">2. El Consejo de Universidades se relaciona administrativamente con el Ministerio de Educación a través de la Secretaría General de Universidades.</p>
+          <p class="parrafo">3. Para el cumplimiento de sus funciones y la consecución de sus objetivos, el Consejo de Universidades colaborará con las Administraciones públicas competentes en materia de educación superior, así como con las universidades, en el ámbito de sus respectivas competencias.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De los miembros del Consejo de Universidades</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 2. Composición.</p>
+          <p class="parrafo">1. El Consejo de Universidades será presidido por la persona titular del Ministerio de Educación y estará compuesto por los siguientes vocales de conformidad con lo previsto en el artículo 29 de la Ley Orgánica 6/2001, de 21 de diciembre:</p>
+          <p class="parrafo_2">a) Los Rectores y Rectoras de las universidades.</p>
+          <p class="parrafo">b) Cinco miembros designados por la Presidencia del Consejo, de los cuales uno lo será a propuesta de la persona titular del Ministerio de Ciencia e Innovación de entre los titulares de los órganos de su Departamento con rango mínimo de Director General.</p>
+          <p class="parrafo">Con independencia de la representación que ostenten, los miembros del Consejo de Universidades ejercerán sus funciones atendiendo en todo momento a los intereses generales de la educación superior y velarán por el cumplimiento de las funciones y objetivos del Consejo de Universidades.</p>
+          <p class="parrafo_2">2. Los rectores y las rectoras ejercerán sus funciones desde la fecha en que hubieran tomado posesión de su cargo y cesarán al finalizar su desempeño.</p>
+          <p class="parrafo">Los rectores y las rectoras podrán ser sustituidos, a petición propia y para una sesión determinada, por un vicerrector o vicerrectora o por el secretario o secretaria general de la universidad correspondiente, salvo que, por la importancia o especiales características de los asuntos que se vayan a tratar, la Presidencia del Consejo estime que no procede la sustitución. De no ser posible la sustitución, esta circunstancia se hará constar en la convocatoria.</p>
+          <p class="parrafo">En el caso de vacante, ausencia, enfermedad, abstención o recusación, se convocará a quien actúe como rector en funciones o rector suplente.</p>
+          <p class="parrafo">3. Los vocales del Consejo de Universidades a los que se refiere el anterior apartado 1.b), serán nombrados y cesados mediante resolución del Presidente del Consejo de Universidades.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De los órganos del Consejo de Universidades, su composición y funciones</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 3. De los órganos del Consejo de Universidades.</p>
+          <p class="parrafo">1. El Consejo de Universidades contará con los siguientes órganos:</p>
+          <p class="parrafo_2">a) Presidencia.</p>
+          <p class="parrafo">b) Vicepresidencias.</p>
+          <p class="parrafo">c) Secretario o Secretaria.</p>
+          <p class="parrafo">d) Pleno.</p>
+          <p class="parrafo">e) Comisiones.</p>
+          <p class="parrafo_2">2. El Consejo de Universidades ejercerá sus funciones organizado en Pleno y en comisiones.</p>
+          <p class="parrafo">3. Las comisiones del Consejo de Universidades son, además de las que puedan establecerse conforme a lo previsto en el apartado 4, las siguientes:</p>
+          <p class="parrafo_2">a) Comisión Permanente.</p>
+          <p class="parrafo">b) Comisiones de Acreditación de profesorado, previstas en el capítulo II del Real Decreto 1312/2007.</p>
+          <p class="parrafo">c) Comisión de Reclamaciones de Acreditación de profesorado, prevista en el artículo 16.1 del Real Decreto 1312/2007.</p>
+          <p class="parrafo">d) Comisión de Verificación y Acreditación de Planes de Estudios en relación con los procedimientos previstos en el capítulo VI del Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales.</p>
+          <p class="parrafo">e) Comisión de Reclamaciones de Verificación y Acreditación de Planes de Estudios.</p>
+          <p class="parrafo_2">4. El Pleno, a propuesta de su Presidente, podrá aprobar la creación de cuantas otras comisiones sean necesarias para abordar las distintas funciones del Consejo de Universidades.</p>
+          <p class="parrafo">5. Previo acuerdo de la Conferencia General de Política Universitaria, el Pleno podrá acordar, a propuesta de su Presidente, la participación del Consejo de Universidades en comisiones mixtas Conferencia-Consejo.</p>
+          <p class="parrafo">6. El Pleno y las comisiones del Consejo de Universidades podrán crear ponencias y grupos de trabajo en relación con las materias de su ámbito competencial, y podrán contar con la colaboración de expertos y expertas externos en las materias que les sean propias.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 4. Presidencia.</p>
+          <p class="parrafo">1. El Presidente o Presidenta del Consejo de Universidades será el titular del Ministerio de Educación.</p>
+          <p class="parrafo">2. Corresponden al Presidente las siguientes funciones:</p>
+          <p class="parrafo_2">a) Ostentar la representación del Consejo de Universidades, ejercer su dirección y velar por el adecuado funcionamiento de sus órganos y servicios.</p>
+          <p class="parrafo">b) Acordar la convocatoria de las sesiones ordinarias y extraordinarias del Pleno y de las comisiones y la fijación del orden del día, teniendo en cuenta, en su caso, las peticiones de los demás miembros formuladas con la suficiente antelación.</p>
+          <p class="parrafo">c) Presidir las sesiones del Pleno, de la Comisión Permanente y de las comisiones creadas por el Pleno, moderar el desarrollo de los debates y suspenderlos por causas justificadas.</p>
+          <p class="parrafo">d) Dirimir con su voto los empates, a los efectos de adoptar acuerdos.</p>
+          <p class="parrafo">e) Legitimar con su firma los acuerdos, dictámenes y recomendaciones adoptados por el Consejo de Universidades.</p>
+          <p class="parrafo">f) Visar las actas y las certificaciones de los acuerdos del Consejo, expedidas por el Secretario.</p>
+          <p class="parrafo">g) Cuidar del cumplimiento de este reglamento y resolver las dudas sobre su interpretación.</p>
+          <p class="parrafo">h) Nombrar y cesar mediante resolución a los vocales previstos en el artículo 2.1.b).</p>
+          <p class="parrafo">i) Velar por la resolución de las reclamaciones planteadas por las universidades contra las resoluciones de verificación de la Comisión de Verificación de Planes de Estudios.</p>
+          <p class="parrafo">j) Nombrar a los Vicepresidentes o Vicepresidentas del Consejo de Universidades mediante resolución, de acuerdo con lo dispuesto en el artículo 5.</p>
+          <p class="parrafo">k) Ejercer cualquier otra función que le atribuya este reglamento o sea inherente a su condición de Presidente del Consejo de Universidades.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 5. Vicepresidencias.</p>
+          <p class="parrafo">1. El Consejo de Universidades tendrá dos vicepresidentes o vicepresidentas de igual rango, uno de ellos será designado de entre los rectores y rectoras por el Pleno; el otro será designado por el Presidente de entre los vocales nombrados conforme al artículo 2.1.b).</p>
+          <p class="parrafo">2. En el caso de vacante, ausencia, enfermedad u otra causa legal, el Presidente será sustituido por el Vicepresidente que aquél designe.</p>
+          <p class="parrafo">3. Los vicepresidentes asistirán al Presidente en el desempeño de sus funciones y ejercerán las que éste les delegue.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 6. El Secretario o Secretaria.</p>
+          <p class="parrafo">1. El Secretario o Secretaria del Consejo de Universidades será nombrado por el Ministro de Educación de entre los vocales a que se refiere el artículo 2.1.b) de este Reglamento.</p>
+          <p class="parrafo">2. El Secretario o Secretaria ejercerá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Asistir a las sesiones del Pleno y de las comisiones y ofrecer apoyo técnico al Consejo de Universidades, recibir los actos de comunicación de los miembros con el órgano y las notificaciones, peticiones de datos, rectificaciones o cualquiera otra clase de escritos de los que deba tener conocimiento; preparar el despacho de los asuntos; redactar y autorizar acta de las sesiones, así como certificar o notificar los acuerdos adoptados a los organismos competentes o interesados en el procedimiento.</p>
+          <p class="parrafo">b) Elaborar la memoria anual del Consejo de Universidades.</p>
+          <p class="parrafo">c) La realización de cuantas otras funciones sean inherentes a su condición de Secretario, así como cualquier otra función que le asignen el Presidente, el Pleno o las comisiones.</p>
+          <p class="parrafo">Además, proveerá los medios materiales y humanos para implementar los acuerdos.</p>
+          <p class="parrafo_2">3. El Subdirector General de Coordinación Universitaria de la Dirección General de Política Universitaria actuará, en sustitución del Secretario en caso de ausencia, vacante, enfermedad u otra causa legal.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 7. El Pleno.</p>
+          <p class="parrafo">1. El Pleno del Consejo de Universidades estará integrado por el Presidente o Presidenta y por todos los miembros del Consejo. El Secretario o Secretaria del Consejo de Universidades ejercerá la secretaría del Pleno.</p>
+          <p class="parrafo">2. El Pleno estará presidido por el Presidente del Consejo de Universidades o por el Vicepresidente que le sustituya.</p>
+          <p class="parrafo">3. El Pleno tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Elaborar el reglamento del Consejo y elevarlo al Ministro competente en materia de universidades para su aprobación por el Gobierno.</p>
+          <p class="parrafo">b) Proponer, en su caso, las modificaciones que se juzguen oportunas del reglamento del Consejo de Universidades.</p>
+          <p class="parrafo">c) Informar las disposiciones legales y reglamentarias que afectan al sistema universitario en su conjunto.</p>
+          <p class="parrafo">d) Informar los criterios de coordinación sobre las actividades de evaluación, certificación y acreditación reguladas en el título V de la Ley Orgánica 6/2001.</p>
+          <p class="parrafo">e) Aprobar la memoria anual del Consejo de Universidades.</p>
+          <p class="parrafo">f) Examinar, a iniciativa del Presidente o de alguna de las comisiones, cualquier asunto relativo a la educación superior o a la investigación científica en las universidades, y elevar, en su caso, informes o propuestas a los poderes públicos y a las universidades.</p>
+          <p class="parrafo">g) Examinar, en fase de audiencia, la oferta general de enseñanzas y plazas.</p>
+          <p class="parrafo">h) Informar previamente las normas que regulen el progreso y la permanencia en la universidad de los estudiantes.</p>
+          <p class="parrafo">i) Informar sobre el establecimiento en España de los centros que impartan enseñanzas conducentes a la obtención de títulos extranjeros de educación superior universitaria.</p>
+          <p class="parrafo">j) Informar las normas reguladoras del marco general en el que habrán de impartirse en España enseñanzas conducentes a la obtención de títulos extranjeros de educación superior universitaria, así como las condiciones que habrán de reunir los centros que pretendan impartir tales enseñanzas.</p>
+          <p class="parrafo">k) Designar a los vocales de las distintas comisiones previstas en este reglamento.</p>
+          <p class="parrafo">l) Resolver las reclamaciones contra las resoluciones de verificación dictadas por la Comisión de Verificación y Acreditación de Planes de Estudios.</p>
+          <p class="parrafo">m) Cualquier otra que corresponda al Consejo de Universidades y no esté expresamente atribuida a otro órgano.</p>
+          <p class="parrafo_2">4. En los asuntos que afecten en exclusiva al sistema universitario público tendrán derecho a voto el Presidente del Consejo, los rectores y rectoras de las universidades públicas y los cinco miembros del Consejo designados por el Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 8. Las comisiones.</p>
+          <p class="parrafo">1. El Pleno del Consejo de Universidades, a propuesta de su Presidente, podrá constituir cuantas comisiones estime necesarias para la correcta ejecución de las competencias y funciones del Consejo, además de las comisiones previstas expresamente en este reglamento.</p>
+          <p class="parrafo">2. Las comisiones se crearán por acuerdo del Pleno del Consejo de Universidades, que deberá establecer:</p>
+          <p class="parrafo_2">a) La composición de la comisión.</p>
+          <p class="parrafo">b) Sus funciones.</p>
+          <p class="parrafo">c) Su duración.</p>
+          <p class="parrafo_2">Asimismo, la composición, funciones y duración habrán de ajustarse a lo previsto por la normativa específica.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 9. La Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente del Consejo de Universidades estará integrada por el Presidente o Presidenta, los vicepresidentes o vicepresidentas y ocho vocales elegidos por el Pleno a propuesta del Presidente, entre los que deberá figurar uno de los vocales previstos en el artículo 2.1.b). El Secretario del Consejo de Universidades actuará como Secretario o Secretaria.</p>
+          <p class="parrafo">2. Corresponden a la Comisión Permanente las siguientes funciones:</p>
+          <p class="parrafo_2">a) Coordinar e impulsar las tareas de los distintos órganos del Consejo de Universidades.</p>
+          <p class="parrafo">b) Preparar los informes que corresponda emitir al Pleno del Consejo de Universidades.</p>
+          <p class="parrafo">c) Preparar la propuesta de modificación de este reglamento.</p>
+          <p class="parrafo">d) Cualquier otra que le atribuya el Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 10. Comisiones de Acreditación Nacional para el acceso a los cuerpos docentes universitarios.</p>
+          <p class="parrafo">1. Las Comisiones de Acreditación Nacional para el acceso a los cuerpos docentes universitarios se regirán por lo dispuesto en el artículo 4 del Real Decreto 1312/2007.</p>
+          <p class="parrafo">2. Asimismo, se constituirá la comisión destinada a evaluar los méritos del profesorado que pertenezca al cuerpo de Titulares de Escuelas Universitarias que posean el título de doctor, de acuerdo con lo dispuesto en la disposición adicional primera del citado Real Decreto 1312/2007.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 11. Comisión de Reclamaciones de Acreditación Nacional para el acceso a los cuerpos docentes universitarios.</p>
+          <p class="parrafo">1. La Comisión de Reclamaciones prevista en el artículo 66 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, estará compuesta por siete miembros, elegidos por el Pleno a propuesta de la Presidencia, entre los que deberá figurar uno de los vocales previstos en el artículo 2.1.b), que ejercerá la presidencia de la comisión.</p>
+          <p class="parrafo">2. La Comisión de Reclamaciones tendrá como función principal el examen de las reclamaciones formuladas contra las propuestas de las comisiones de acreditación para velar por las garantías establecidas en la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, y sus disposiciones de desarrollo en materia de acreditación.</p>
+          <p class="parrafo">3. La comisión examinará el expediente relativo a la verificación para velar por las garantías establecidas y podrá ratificar la resolución o, en su caso, aceptar la reclamación y remitirla a la Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA), indicando de forma concreta los aspectos de la evaluación que deben ser revisados, todo ello en un plazo máximo de tres meses.</p>
+          <p class="parrafo">4. Cuando la Comisión de Reclamaciones delibere sobre una solicitud presentada por un profesor perteneciente a una universidad cuyo rector pertenezca a la misma, éste deberá abstenerse.</p>
+          <p class="parrafo">5. Actuará como instructor de los procedimientos de reclamación contra las resoluciones de las Comisiones de Acreditación, dispuestos en el artículo 16 del Real Decreto 1312/2007, de 5 de octubre, el titular de la Subdirección General del Profesorado e Innovación Docente del Ministerio de Educación.</p>
+          <p class="parrafo">6. Actuará como instructor de los procedimientos de recurso dispuestos en el apartado 5 del artículo 16 del citado real decreto el titular de la Subdirección General del Profesorado e Innovación Docente del Ministerio de Educación.</p>
+        </version>
+        <version id_norma="BOE-A-2015-13780" fecha_publicacion="20151218" fecha_vigencia="20160101">
+          <p class="articulo">Artículo 11. Comisión de Reclamaciones de Acreditación Nacional para el acceso a los cuerpos docentes universitarios.</p>
+          <p class="parrafo">1. La Comisión de Reclamaciones prevista en el artículo 66 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, estará compuesta por siete miembros, elegidos por el Pleno a propuesta de la Presidencia, entre los que deberá figurar uno de los vocales previstos en el artículo 2.1.b), que ejercerá la presidencia de la comisión.</p>
+          <p class="parrafo">2. La Comisión de Reclamaciones tendrá como función principal el examen de las reclamaciones formuladas contra las propuestas de las comisiones de acreditación para velar por las garantías establecidas en la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, y sus disposiciones de desarrollo en materia de acreditación.</p>
+          <p class="parrafo">3. La comisión examinará el expediente relativo a la verificación para velar por las garantías establecidas y podrá ratificar la resolución o, en su caso, aceptar la reclamación y remitirla a la Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA), indicando de forma concreta los aspectos de la evaluación que deben ser revisados, todo ello en un plazo máximo de tres meses.</p>
+          <p class="parrafo">4. Cuando la Comisión de Reclamaciones delibere sobre una solicitud presentada por un profesor perteneciente a una universidad cuyo rector pertenezca a la misma, éste deberá abstenerse.</p>
+          <p class="parrafo">5. Actuará como instructor de los procedimientos de reclamación contra las resoluciones de las Comisiones de Acreditación, dispuestos en el artículo 16 del Real Decreto 1312/2007, de 5 de octubre, el titular de la Subdirección General a la que el Real Decreto de estructura del Departamento competente en materia de universidades atribuya las funciones en materia de acreditación de profesorado universitario.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 5 y se suprime el apartado 6 por la disposición final 2 del Real Decreto 1112/2015, de 11 de diciembre. <a class="refPost">Ref. BOE-A-2015-13780#dfsegunda</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 12. La Comisión de Verificación y Acreditación de Planes de Estudios.</p>
+          <p class="parrafo">1. La Comisión de Verificación y Acreditación de Planes de Estudios estará compuesta por siete vocales elegidos por el Pleno, a propuesta del Presidente, entre los que deberá figurar uno de los vocales previstos en el artículo 2.1.b), que ejercerá la presidencia de la comisión.</p>
+          <p class="parrafo">2. Las funciones de la Comisión de Verificación y Acreditación de Planes de Estudios serán las siguientes:</p>
+          <p class="parrafo_2">a) Dictar la resolución de verificación a que se refiere el apartado 7 del artículo 25 del Real Decreto 1393/2007, de 29 de octubre, que deberá motivarse en todo caso, una vez recibido el informe de evaluación de la ANECA.</p>
+          <p class="parrafo">b) Aquellas otras funciones referidas a la verificación de los planes de estudios de las universidades que se le encomienden.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 13. La Comisión de Reclamaciones de Verificación y Acreditación de Planes de Estudios.</p>
+          <p class="parrafo">1. La Comisión de Reclamaciones de Verificación y Acreditación de Planes de Estudios estará compuesta por siete vocales elegidos por el Pleno, a propuesta del Presidente, entre los que deberá figurar uno de los vocales previstos en el artículo 2.1.b), que ejercerá la presidencia de la comisión.</p>
+          <p class="parrafo">2. La comisión examinará el expediente relativo a la verificación para velar por las garantías establecidas y decidirá si cuenta con elementos de juicio suficientes para proponer al Pleno la ratificación de la resolución anterior o si, por el contrario, estima procedente remitir de nuevo el expediente a la ANECA, indicando de forma concreta los aspectos de la evaluación que deben ser revisados.</p>
+          <p class="parrafo">3. La Comisión de reclamaciones, una vez recibido, en su caso, el informe de la ANECA, elaborará una propuesta de resolución y la elevará al Pleno, que resolverá de acuerdo con lo establecido en el artículo 25.11 del Real Decreto 1393/2007, de 29 de octubre, en un plazo máximo de tres meses.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 14. Otros órganos.</p>
+          <p class="parrafo">1. El Consejo de Universidades podrá acordar la creación de grupos de trabajo y ponencias para el estudio de cuestiones concretas.</p>
+          <p class="parrafo">2. La composición y el régimen de funcionamiento de cada órgano, así como los cometidos que correspondan a su finalidad, deberán especificarse en el acuerdo del Consejo de Universidades que disponga su creación.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 15. De los derechos y obligaciones de los miembros del Consejo de Universidades.</p>
+          <p class="parrafo">A los miembros del Consejo de Universidades les corresponde, respecto del órgano del que formen parte:</p>
+          <p class="parrafo_2">a) Proponer a la Presidencia la inclusión de asuntos en el orden del día.</p>
+          <p class="parrafo">b) Recibir, con antelación suficiente la convocatoria y el orden del día de las reuniones. La información sobre los asuntos que figuren en el orden del día estará a disposición de los miembros en igual plazo, salvo razones de urgencia.</p>
+          <p class="parrafo">c) Participar en las deliberaciones de las sesiones.</p>
+          <p class="parrafo">d) Ejercer su derecho al voto, salvo en los casos expresamente establecidos en este reglamento, y formular su voto particular, así como expresar el sentido de su voto y los motivos que lo justifican.</p>
+          <p class="parrafo">e) Formular ruegos y preguntas.</p>
+          <p class="parrafo">f) Obtener la información precisa para cumplir las funciones asignadas al órgano del que forman parte.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Del funcionamiento de los órganos del Consejo de Universidades</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 16. Sesiones de órganos colegiados.</p>
+          <p class="parrafo">1. El Pleno del Consejo de Universidades se reunirá con carácter ordinario al menos durante tres sesiones anuales. Con carácter extraordinario, el Pleno se reunirá cuando así lo acuerde su Presidente, la Comisión Permanente o a solicitud de un tercio de los miembros del Pleno. En este último caso, deberá acompañarse a la solicitud el orden del día que deba tratarse en el Pleno.</p>
+          <p class="parrafo">2. Las Comisiones se reunirán cuando lo acuerde su Presidente o Presidenta o a solicitud de un tercio de sus miembros, de acuerdo con el procedimiento previsto en el apartado anterior.</p>
+          <p class="parrafo">3. La Comisión Permanente se reunirá cuando sea convocada por el Presidente del Consejo de Universidades y, al menos, una vez cada tres meses.</p>
+          <p class="parrafo">4. La convocatoria de las reuniones será suscrita por el Secretario o Secretaria y contendrá el orden del día de cada sesión. Éste sólo podrá modificarse, incluyendo nuevos asuntos, si, estando presentes todos sus miembros, así lo acuerde la mayoría de los componentes del Pleno o de las comisiones.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 17. Convocatoria de órganos colegiados.</p>
+          <p class="parrafo">1. La convocatoria para la reunión de los órganos colegiados se efectuará con una antelación mínima de siete días.</p>
+          <p class="parrafo">2. La convocatoria deberá incluir la hora, el día y el lugar de la reunión, así como el orden del día de la sesión y copia de la documentación específica más relevante sobre los asuntos que se vayan a tratar.</p>
+          <p class="parrafo">3. En la citación para la primera convocatoria se incluirá la de la segunda, de acuerdo con lo establecido en el artículo 18.2.</p>
+          <p class="parrafo">4. Podrá ampliarse el orden del día o remitirse documentación complementaria por parte del Secretario o Secretaria hasta cuarenta y ocho horas antes de la celebración del Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 18. Constitución de los órganos.</p>
+          <p class="parrafo">1. Para la válida constitución de los órganos del Consejo de Universidades se requerirá la presencia del Presidente y del Secretario o, en su caso, de quienes les sustituyan, y de la mitad, al menos, de sus miembros.</p>
+          <p class="parrafo">2. En el supuesto de no alcanzarse el quórum suficiente en la primera convocatoria, se entenderá efectuada una segunda convocatoria pasada media hora de la fijada inicialmente, y se podrá celebrar la sesión que corresponda con los miembros asistentes, siempre que representen al menos un tercio de sus miembros de derecho.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 19. De las deliberaciones.</p>
+          <p class="parrafo">1. En las sesiones serán objeto de deliberación los asuntos incluidos en el orden del día.</p>
+          <p class="parrafo">Sin perjuicio de lo anterior, en las sesiones podrán ser objeto de deliberación o, en su caso, de acuerdo, otros asuntos no incluidos en el orden del día, siempre que estén presentes todos los miembros del órgano colegiado y así lo acuerde la mayoría de sus componentes.</p>
+          <p class="parrafo">2. Los miembros de los órganos del Consejo de Universidades podrán intervenir en las deliberaciones, previa petición y obtención de la palabra por parte del Presidente del órgano o de quien le sustituya.</p>
+          <p class="parrafo">A instancia del Presidente o previo acuerdo del órgano que corresponda, los titulares de unidades administrativas del Ministerio, de las comunidades autónomas o de otros órganos que tengan atribuidas competencias relacionadas con la materia universitaria podrán asistir a sus sesiones, sin derecho a voto, para informar, en su caso, de los asuntos de su competencia.</p>
+          <p class="parrafo">3. El Presidente del órgano ordenará las deliberaciones; para ello, establecerá el número de intervenciones a favor y en contra de cualquier propuesta o informe, fijará el tiempo máximo para cada una de ellas, otorgará la palabra a los aludidos, determinará el orden de las intervenciones, los turnos de réplica, la duración de las intervenciones y del debate y la forma de votación y cerrará una deliberación cuando estime que un asunto está suficientemente debatido, así como cualquier otro aspecto referido al desarrollo de los debates.</p>
+          <p class="parrafo">El Presidente velará por el buen orden del desarrollo de la sesión; a tal efecto, podrá realizar advertencias a los intervinientes y miembros asistentes, hacer llamadas a la cuestión o al orden y retirar la palabra.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 20. De las votaciones y adopción de acuerdos.</p>
+          <p class="parrafo">1. Los acuerdos de los órganos del Consejo de Universidades se adoptarán por mayoría de los miembros presentes con derecho a voto, sin perjuicio de lo establecido para determinados supuestos previstos en este reglamento.</p>
+          <p class="parrafo">2. Sin perjuicio de lo previsto en el apartado anterior, para modificar el reglamento del Consejo de Universidades será necesario el acuerdo de los dos tercios de los componentes del Pleno.</p>
+          <p class="parrafo">3. En los asuntos que afecten en exclusiva al sistema universitario público, en el Consejo de Universidades y sus órganos no tendrán derecho a voto los rectores y rectoras de las universidades privadas.</p>
+          <p class="parrafo">4. Durante el desarrollo de la votación, el Presidente no concederá el uso de la palabra y ninguno de los miembros del órgano podrá entrar en el salón de sesiones ni abandonarlo.</p>
+          <p class="parrafo">5. La votación podrá ser:</p>
+          <p class="parrafo_2">a) Por asentimiento a la propuesta del Presidente.</p>
+          <p class="parrafo">b) Pública, a mano alzada o por llamamiento.</p>
+          <p class="parrafo">c) Secreta, por papeletas, cuando se trate de elección de personas, si así lo decide el Presidente o lo solicita un mínimo de tres vocales.</p>
+          <p class="parrafo_2">6. En caso de producirse empate en los resultados de las votaciones, el voto del Presidente, o de los Vicepresidentes en el supuesto de que le sustituyan, resolverá.</p>
+          <p class="parrafo">7. En cualquier caso, los miembros del Consejo de Universidades podrán exponer su parecer individual sobre un acuerdo adoptado, presentándolo por escrito dentro de las cuarenta y ocho horas siguientes a la fecha de adopción del acuerdo, para que figure como anejo del acta de la sesión, siempre que se haya hecho expresa mención de la intención de utilizar dicha facultad en el momento de la resolución o acuerdo adoptado.</p>
+          <p class="parrafo">8. Las resoluciones de carácter general que adopten los órganos del Consejo de Universidades en el ejercicio de sus respectivas competencias serán publicadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 21. Informes del Consejo de Universidades.</p>
+          <p class="parrafo">1. El Consejo de Universidades evacuará los informes que preceptúa la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, en el plazo máximo de tres meses, contados a partir de la fecha en que el órgano que tenga atribuida la competencia lo solicite.</p>
+          <p class="parrafo">2. Cuando para la emisión de un informe del Consejo de Universidades sea preceptivo el informe previo de alguna de sus comisiones, la Comisión Permanente deberá fijar en cada caso los términos y el plazo en que dichos informes deben realizarse.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 22. De las actas.</p>
+          <p class="parrafo">1. De cada sesión que celebren los distintos órganos del Consejo de Universidades el Secretario levantará un acta, que, tras su aprobación en la reunión posterior, será visada por el Presidente del órgano.</p>
+          <p class="parrafo">2. El acta contendrá necesariamente los siguientes extremos:</p>
+          <p class="parrafo_2">a) Indicación de los asistentes.</p>
+          <p class="parrafo">b) Orden del día de la reunión.</p>
+          <p class="parrafo">c) Circunstancias de lugar y tiempo en que la reunión se ha celebrado.</p>
+          <p class="parrafo">d) Puntos principales de las deliberaciones.</p>
+          <p class="parrafo">e) Contenido de los acuerdos adoptados.</p>
+          <p class="parrafo">f) El resultado de las votaciones que, en su caso, se hayan producido.</p>
+          <p class="parrafo">g) A solicitud de los respectivos miembros del correspondiente órgano, el acta reflejará sucintamente los motivos de las abstenciones y de los votos favorables o contrarios emitidos.</p>
+          <p class="parrafo_2">3. Cualquier miembro del órgano tiene derecho a solicitar la trascripción íntegra de su intervención o propuesta, siempre que aporte en el acto, o en el plazo que señale el Presidente del órgano, el texto que se corresponda fielmente con su intervención; este se hará constar en el acta o una copia de aquel se unirá como anexo a esta última.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2009-19439" fecha_publicacion="20091204" fecha_vigencia="20091205">
+          <p class="articulo">Artículo 23. Régimen Jurídico.</p>
+          <p class="parrafo">En lo no previsto en esta norma, se estará a lo previsto sobre órganos colegiados en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, así como en el capítulo IV del título II de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

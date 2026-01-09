@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T185949Z</fecha_actualizacion>
+      <identificador>BOE-A-2025-12862</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4335">Ministerio de Sanidad</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20250624</fecha_disposicion>
+      <numero_oficial>536/2025</numero_oficial>
+      <titulo>Real Decreto 536/2025, de 24 de junio, por el que se aprueban los Estatutos del Consejo General de Colegios Oficiales de Farmacéuticos de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20250625</fecha_publicacion>
+      <diario_numero>152</diario_numero>
+      <fecha_vigencia>20250715</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2025/06/24/536</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2025-12862</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="1467">Consejo General de Colegios Oficiales de Farmacéuticos de España</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1957-7337</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Reglamento aprobado por Orden de 16 de mayo de 1957 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1934-8485</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el título VII del Estatuto aprobado por Orden de 28 de septiembre de 1934 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1974-289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 9.1 de la Ley 2/1974, de 13 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2025-12862</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-24</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">536</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1467"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2025-12862</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">536</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1467"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/con/20250625"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 536/2025, de 24 de junio, por el que se aprueban los Estatutos del Consejo General de Colegios Oficiales de Farmacéuticos de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-25</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 536/2025, de 24 de juny, pel qual s'aproven els Estatuts del Consell General de Col·legis Oficials de Farmacèutics d'Espanya.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-25</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/con/20250625">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2025-12862</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">536</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1467"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-25</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/con/20250625/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 536/2025, de 24 de junio, por el que se aprueban los Estatutos del Consejo General de Colegios Oficiales de Farmacéuticos de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/con/20250625"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/24/536/con/20250625/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/24/536/con/20250625/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="parrafo">El Consejo General de Colegios Oficiales de Farmacéuticos viene rigiéndose por el título VII de la Orden del Ministerio de Trabajo, Sanidad y Previsión de 28 de septiembre de 1934, sobre la Confederación de los Colegios Farmacéuticos y por la Orden del Ministerio de la Gobernación de 16 de mayo de 1957, por la que se aprueba el Reglamento del Consejo General de Colegios Oficiales de Farmacéuticos, con las modificaciones introducidas por: el Real Decreto 1774/1979, de 22 de junio, por el que se aprueba la modificación del Reglamento del Consejo General de Colegios Oficiales de Farmacéuticos; el Real Decreto 616/1982, de 17 de marzo, por el que se modifica el Reglamento del Consejo General de Colegios Oficiales de Farmacéuticos y el Real Decreto 249/1985, de 23 de enero, por el que se modifica el Reglamento del Consejo General de Colegios Oficiales de Farmacéuticos.</p>
+          <p class="parrafo">El marco normativo regulador de los colegios profesionales ha experimentado diversas reformas, como consecuencia de los cambios introducidos, entre otras, por la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias, por la Ley 2/2007, de 15 de marzo, de sociedades profesionales y por la Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres.</p>
+          <p class="parrafo">Del mismo modo, la incorporación al ordenamiento jurídico español de la Directiva 2006/123/CE del Parlamento Europeo y del Consejo, de 12 de diciembre de 2006, relativa a los servicios en el mercado interior, mediante las Leyes 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio, y 25/2009, de 22 de diciembre, de modificación de diversas leyes para su adaptación a la Ley sobre el libre acceso a las actividades de servicios y su ejercicio, supuso la reforma de la propia Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales.</p>
+          <p class="parrafo">Con objeto de adaptar su régimen regulador a dicho marco normativo, el Consejo General de Colegios Oficiales de Farmacéuticos, de conformidad con el artículo 9.1.b) de la Ley 2/1974, de 13 de febrero, elaboró y aprobó en Asamblea General de Colegios los días 28 y 29 de enero de 2010 un proyecto de estatutos que, tras el informe del Consejo de Estado, vieron suspendida la conclusión de su tramitación por decisión de la Asamblea General de 16 de diciembre de 2020, comunicando dicha decisión a la Dirección General de Ordenación Profesional del Ministerio de Sanidad el 22 de diciembre de ese mismo año.</p>
+          <p class="parrafo">Fruto de la tramitación en fase corporativa fue aprobado un nuevo texto de estatutos por el Pleno y la Asamblea General de Colegios en sesión celebrada el 14 y 15 de diciembre de 2021, respectivamente, siendo recibidos por registro electrónico en el Ministerio de Sanidad el 18 de diciembre de 2023.</p>
+          <p class="parrafo">El nuevo texto incorpora las observaciones que efectuara el Consejo de Estado en la tramitación anteriormente referida, así como las de los distintos departamentos ministeriales, para ofrecer una regulación con mayor capacidad de adaptación y más flexible a los cambios que devengan en un futuro.</p>
+          <p class="parrafo">El objeto de estos estatutos es regular las funciones, organización y régimen jurídico del Consejo General de Colegios Oficiales de Farmacéuticos.</p>
+          <p class="parrafo">Los estatutos constan de treinta y un artículos distribuidos en cuatro capítulos:</p>
+          <p class="parrafo_2">En el capítulo I se aborda la naturaleza y funciones del Consejo General.</p>
+          <p class="parrafo">El capítulo II, sobre la organización y funcionamiento, contempla en la sección primera las reglas generales aplicables a todos los órganos y personas y, las referidas a cada concreto órgano en particular: Asamblea General, Pleno y Comité Directivo en las secciones segunda, tercera y cuarta respectivamente.</p>
+          <p class="parrafo">El capítulo III regula los órganos unipersonales del Consejo General, es decir la Presidencia, las Vicepresidencias, la Secretaría General, la Tesorería, la Vicesecretaría, la Vicetesorería y las Vocalías Nacionales de Sección. Este capítulo se organiza en dos secciones: la primera, que trata de sus atribuciones; y la segunda, sobre el régimen de provisión, elección y remoción de cargos.</p>
+          <p class="parrafo">El capítulo IV incluye en su sección primera las claves principales del régimen jurídico y en la segunda las del régimen económico.</p>
+          <p class="parrafo_2">El texto se cierra con dos disposiciones adicionales y dos disposiciones transitorias.</p>
+          <p class="parrafo">El presente real decreto se adecúa a los principios de buena regulación previstos en el artículo 129.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. En concreto, se han respetado los principios de necesidad, eficiencia y proporcionalidad, al contener la regulación imprescindible y con el rango necesario para la consecución del objetivo previamente mencionado, sin incremento de gasto público y sin restringir derechos de los ciudadanos ni imponerles obligaciones directas. Al ser acorde con la normativa en materia de colegios profesionales, este real decreto refuerza el principio de seguridad jurídica. Con respecto al principio de transparencia, la tramitación se ha ajustado a lo establecido en el artículo 26 de la Ley 50/1997, de 27 de noviembre, del Gobierno, particularmente en lo relativo al trámite de audiencia e información pública, realizado del 11 de junio al 1 de julio de 2024. Respecto al trámite de consulta pública previa, y conforme a lo establecido en el artículo 26.2 de la citada ley, se ha prescindido del mismo dado que la propuesta normativa, de carácter organizativo, no tiene un impacto significativo en la actividad económica. Por último, con respecto al principio de eficiencia, el real decreto no supone la creación de cargas administrativas.</p>
+          <p class="parrafo">Verificada la adaptación de los estatutos a la legalidad vigente, procede la aprobación de este real decreto en cuya tramitación han sido oídos los colegios de ámbito territorial, consultadas las comunidades autónomas y ciudades de Ceuta y Melilla e informada por el Consejo Interterritorial del Sistema Nacional de Salud y su Comité Consultivo.</p>
+          <p class="parrafo">El proyecto normativo se dicta en virtud de lo dispuesto en el artículo 149.1.18.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para dictar las bases del régimen jurídico de las Administraciones Públicas.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Sanidad, de acuerdo con el Consejo de Estado, y previa deliberación del Consejo de Ministros en su reunión del día 24 de junio de 2025,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos del Consejo General de Colegios Oficiales de Farmacéuticos de España.</p>
+          <p class="parrafo">Se aprueban los Estatutos del Consejo General de Colegios Oficiales de Farmacéuticos, cuyo texto figura a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas normas de igual o inferior rango se opongan a lo establecido en este real decreto y, expresamente, el título VII de la Orden del Ministerio de Trabajo, Sanidad y Previsión de 28 de septiembre de 1934 y el Reglamento del Consejo General de Colegios Oficiales de Farmacéuticos, aprobado por el Ministerio de la Gobernación mediante Orden de 16 de mayo de 1957.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición final primera. Salvaguarda de las competencias de las comunidades autónomas.</p>
+          <p class="parrafo">Lo dispuesto en los estatutos que se aprueban por este real decreto se entenderá sin perjuicio de la legislación que, al amparo de sus competencias en la materia, aprueben las comunidades autónomas para los colegios y consejos que se constituyan en sus respectivos ámbitos territoriales.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición final segunda. Título competencial.</p>
+          <p class="parrafo">El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución Española, que atribuye al Estado competencia exclusiva para dictar las bases del régimen jurídico de las Administraciones Públicas.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="parrafo_2">Dado en Madrid, el 24 de junio de 2025.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Ministra de Sanidad,</p>
+          <p class="firma_ministro">MÓNICA GARCÍA GÓMEZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatutos del Consejo General de Colegios Oficiales de Farmacéuticos de España</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Naturaleza y funciones</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 1. Naturaleza.</p>
+          <p class="parrafo">1. El Consejo General de Colegios Oficiales de Farmacéuticos de España (CGCOF) es una Corporación de Derecho Público, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines, que integra, coordina y representa a todos los Colegios Oficiales de Farmacéuticos de España.</p>
+          <p class="parrafo">2. Su domicilio radica en Madrid, sin perjuicio de poder celebrar reuniones en cualquier otro lugar.</p>
+          <p class="parrafo">3. El CGCOF se relaciona con la Administración General del Estado a través del Ministerio de Sanidad o del departamento que en cada momento tenga atribuidas las competencias en materia de sanidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 2. Competencias generales.</p>
+          <p class="parrafo">1. Corresponde al CGCOF el ejercicio de todas las funciones que la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales, atribuye a los Consejos Generales, así como las restantes que le atribuya el resto del ordenamiento jurídico, y en particular las previstas en los artículos 3 a 6 de estos estatutos.</p>
+          <p class="parrafo">2. Corresponde igualmente al CGCOF el ejercicio de las funciones atribuidas a los colegios por el artículo 5 de la Ley 2/1974, de 13 de febrero, en cuanto tengan ámbito o repercusión nacional.</p>
+          <p class="parrafo">3. El CGCOF ejercerá todas sus funciones sin perjuicio de las que correspondan, en el ámbito de su respectiva competencia, a los Colegios Oficiales de Farmacéuticos y, en su caso, a los Consejos Autonómicos de Colegios.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 3. Funciones de representación e informe.</p>
+          <p class="parrafo">Son funciones de representación del CGCOF:</p>
+          <p class="parrafo_2">a) Asumir, en su ámbito, las funciones de representación institucional exclusiva de la profesión farmacéutica y de su organización colegial ante las Administraciones y Entidades públicas de ámbito estatal y supraestatal, así como en las organizaciones y congresos internacionales y ante otras profesiones y entidades de ámbito estatal o internacional.</p>
+          <p class="parrafo">b) Informar preceptivamente los proyectos de disposiciones normativas de competencia estatal que se refieran o afecten a las atribuciones o competencias profesionales de las personas de la profesión farmacéutica o a las condiciones generales de su actividad profesional.</p>
+          <p class="parrafo">c) Informar preceptivamente todo proyecto de modificación de la legislación sobre colegios profesionales.</p>
+          <p class="parrafo">d) Participar en la ordenación de las enseñanzas universitarias oficiales en los términos contemplados por la legislación vigente.</p>
+          <p class="parrafo">e) Formalizar con los colegios y Consejos Autonómicos de Colegios, así como con cualquier otra institución u organismo público o privado, acuerdos y convenios de colaboración.</p>
+          <p class="parrafo">f) Cooperar con los poderes públicos en la promoción de la salud y prevención de la enfermedad y colaborar con la Administración sanitaria, a nivel estatal, cuando sea requerido para ello.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 4. Funciones de ordenación.</p>
+          <p class="parrafo">Son funciones de ordenación del CGCOF:</p>
+          <p class="parrafo_2">a) Elaborar y aprobar, previa audiencia de los distintos colegios de ámbito territorial, los Estatutos del Consejo General, para su posterior aprobación por el Gobierno.</p>
+          <p class="parrafo">b) Elaborar y aprobar, previa audiencia de los colegios de ámbito territorial, los Estatutos Generales de la Organización Farmacéutica Colegial, para su ulterior aprobación por el Gobierno.</p>
+          <p class="parrafo">c) Elaborar y aprobar el Código Deontológico, así como la normativa común de ordenación del ejercicio de la profesión que sea precisa para garantizar el cumplimiento de las competencias del CGCOF.</p>
+          <p class="parrafo">d) Conocer y resolver los recursos contra las resoluciones y disposiciones de los colegios de ámbito territorial cuando así esté previsto en sus estatutos o lo contemple la legislación autonómica.</p>
+          <p class="parrafo">e) Ejercer la potestad disciplinaria sobre sus propios miembros y sobre los de los órganos de gobierno de los colegios de ámbito territorial cuando esta competencia no esté atribuida por la legislación autonómica a otra instancia colegial.</p>
+          <p class="parrafo">f) Adoptar las medidas necesarias para que los colegios de ámbito territorial cumplan las resoluciones del CGCOF dictadas en materia de su competencia.</p>
+          <p class="parrafo">g) Elaborar y aprobar el reglamento de premios y distinciones.</p>
+          <p class="parrafo">h) Realizar, en su caso, actividades de formación continuada de las personas de la profesión farmacéutica, por sí mismo o en colaboración con otras instituciones públicas o privadas, promoviendo la acreditación y registro de dichas actividades y fomentar la investigación y promoción científica, promoviendo eventos técnicos o científicos.</p>
+          <p class="parrafo">i) Promover la certificación electrónica que permita la autenticación de las personas de la profesión farmacéutica en colaboración con los colegios de ámbito territorial y la puesta en marcha de sistemas de gestión de calidad en los diferentes ámbitos de actuación profesional.</p>
+          <p class="parrafo">j) Expedir, previo informe de los correspondientes colegios de ámbito territorial, las certificaciones que le sean requeridas por las personas colegiadas o la administración sobre la práctica profesional de las personas colegiadas.</p>
+          <p class="parrafo">k) Velar por el cumplimiento de la legislación sanitaria y de la legislación farmacéutica.</p>
+          <p class="parrafo">l) Impulsar las medidas necesarias para fomentar la igualdad entre mujeres y hombres en el ejercicio de la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 5. Funciones de coordinación.</p>
+          <p class="parrafo">1. Son funciones de coordinación del CGCOF:</p>
+          <p class="parrafo_2">a) Acordar directrices generales en materias de interés común para la organización colegial de la profesión farmacéutica.</p>
+          <p class="parrafo">b) Dirimir los conflictos que puedan suscitarse entre los colegios cuando esta competencia no esté atribuida a los Consejos Autonómicos de Colegios.</p>
+          <p class="parrafo">c) Gestionar el registro central de personas de la profesión farmacéutica colegiadas y el registro central de sociedades profesionales.</p>
+          <p class="parrafo">d) Promover y organizar, en colaboración con los colegios de ámbito territorial, instituciones y servicios de asistencia y previsión con carácter estatal.</p>
+          <p class="parrafo">e) Publicar de forma agregada para el conjunto de la organización colegial la información estadística que se desprende de las memorias anuales de los colegios de ámbito territorial.</p>
+          <p class="parrafo">f) Crear y ejecutar proyectos tecnológicos de información y comunicación que faciliten el equipamiento técnico, la interoperabilidad entre los diferentes sistemas y el empleo de soluciones que mejoren la prestación de servicios y el ejercicio de sus funciones de las personas colegiadas.</p>
+          <p class="parrafo">g) Informar y asesorar a los colegios de ámbito territorial en cuantas materias de carácter profesional o colegial se le sometan, así como elaborar estadísticas y estudios sobre la profesión.</p>
+          <p class="parrafo">h) Mantener la debida comunicación y cooperación entre los colegios de ámbito territorial para el mejor ejercicio de sus funciones.</p>
+          <p class="parrafo_2">2. Los colegios de ámbito territorial facilitarán al Consejo General la información que este requiera para el ejercicio de sus funciones de coordinación y competencias, en particular, la concerniente a todos los datos relativos a los registros centrales a que se refiere la letra c), de conformidad con la normativa que sobre los mismos apruebe el CGCOF.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 6. Funciones de organización.</p>
+          <p class="parrafo">Son funciones de organización del CGCOF:</p>
+          <p class="parrafo_2">a) Elaborar y aprobar su reglamento de régimen interno.</p>
+          <p class="parrafo">b) Aprobar sus presupuestos y regular y fijar equitativamente las aportaciones de los colegios de ámbito territorial.</p>
+          <p class="parrafo">c) Administrar su patrimonio y disponer sobre sus derechos y bienes.</p>
+          <p class="parrafo">d) Elaborar y aprobar el reglamento de régimen interno de las Vocalías Nacionales de Sección y crear, modificar, suprimir o cambiar la denominación de las mismas.</p>
+          <p class="parrafo">e) Mantener la web institucional que aloje la ventanilla única del Consejo General.</p>
+          <p class="parrafo">f) Elaborar y publicar la Memoria Anual del Consejo General, que contendrá la información establecida en el artículo 11.1 de la Ley 2/1974, de 13 de febrero, y en el resto de normativa vigente en que sea de aplicación.</p>
+          <p class="parrafo">g) Confeccionar bases de datos, editar y difundir revistas informativas, científicas y cualesquiera otras publicaciones de interés para la profesión farmacéutica o su organización colegial.</p>
+          <p class="parrafo">h) Constituir o participar en cuantas entidades de derecho público o privado estime conveniente para prestar toda clase de servicios o realizar actividades en beneficio de las personas colegiadas.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Organización y funcionamiento</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 1.ª Reglas generales</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 7. Composición del Consejo General.</p>
+          <p class="parrafo">Son órganos necesarios del CGCOF:</p>
+          <p class="parrafo_2">a) De carácter colegiado:</p>
+          <p class="parrafo_2">1. La Asamblea General.</p>
+          <p class="parrafo">2. El Pleno.</p>
+          <p class="parrafo">3. El Comité Directivo.</p>
+          <p class="parrafo_2">b) Unipersonales:</p>
+          <p class="parrafo_2">1. La Presidencia.</p>
+          <p class="parrafo">2. La Vicepresidencia 1.ª</p>
+          <p class="parrafo">3. La Vicepresidencia 2.ª</p>
+          <p class="parrafo">4. La Secretaría General.</p>
+          <p class="parrafo">5. La Tesorería.</p>
+          <p class="parrafo">6. La Vicesecretaría.</p>
+          <p class="parrafo">7. La Vicetesorería.</p>
+          <p class="parrafo">8. Las Vocalías Nacionales de Sección.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 8. Formación de la voluntad a distancia de los órganos colegiados.</p>
+          <p class="parrafo">1. Todos los órganos colegiados del CGCOF podrán convocar, constituir, celebrar sesiones, adoptar acuerdos y remitir actas tanto de forma presencial como a distancia.</p>
+          <p class="parrafo">2. El reglamento de régimen interno desarrollará el procedimiento de adopción de acuerdos a distancia por medios electrónicos de los órganos colegiados, de conformidad con las siguientes reglas:</p>
+          <p class="parrafo_2">a) En las sesiones que celebren a distancia cuando se asegure por medios electrónicos: la identidad de los miembros y, en su caso, de las personas que los suplan; el contenido de sus manifestaciones; el momento en que éstas se producen; la interactividad e intercomunicación entre sus miembros en tiempo real; y la disponibilidad de los medios durante la sesión.</p>
+          <p class="parrafo">b) Se consideran medios electrónicos válidos las audioconferencias, videoconferencias u otros sistemas tecnológicos que garanticen adecuadamente los requerimientos anteriores.</p>
+          <p class="parrafo">c) Las personas que participen a distancia tendrán a todos los efectos la consideración de asistentes y en particular a los de determinación del quórum para la válida constitución del órgano colegiado y el régimen de mayorías en la adopción de acuerdos.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 2.ª Asamblea General</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 9. Composición de la Asamblea General.</p>
+          <p class="parrafo">1. La Asamblea General del CGCOF es el órgano supremo de representación del CGCOF.</p>
+          <p class="parrafo">2. Tienen la condición de miembros de la Asamblea General, con derecho a voz y voto:</p>
+          <p class="parrafo_2">a) La persona titular de la Presidencia del CGCOF.</p>
+          <p class="parrafo">b) Las personas titulares de la Presidencia de los Colegios Oficiales de Farmacéuticos.</p>
+          <p class="parrafo_2">3. Son miembros de la Asamblea General, con derecho a voz, pero sin voto:</p>
+          <p class="parrafo_2">a) Las personas pertenecientes al Comité Directivo.</p>
+          <p class="parrafo">b) Las personas titulares de las Vocalías Nacionales de Sección.</p>
+          <p class="parrafo">c) Las personas titulares de la Presidencia de Consejos Autonómicos de Colegios.</p>
+          <p class="parrafo_2">4. En casos de ausencia justificada, los miembros podrán ser suplidos por quien estatutaria o reglamentariamente les sustituya.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 10. Competencias de la Asamblea General.</p>
+          <p class="parrafo">Son competencias de la Asamblea General:</p>
+          <p class="parrafo_2">a) Aprobar los Estatutos, el Reglamento de Régimen Interno, el Reglamento de Procedimiento para el Ejercicio de la Potestad Disciplinaria y el Reglamento de Procedimiento Electoral del Consejo General.</p>
+          <p class="parrafo">b) Aprobar los Estatutos Generales de la Organización Farmacéutica Colegial para su ulterior aprobación por el Gobierno.</p>
+          <p class="parrafo">c) Aprobar el Código Deontológico, así como la normativa común de ordenación del ejercicio de la profesión.</p>
+          <p class="parrafo">d) Aprobar, con carácter ordinario o extraordinario, los presupuestos y su liquidación, así como determinar las contribuciones de los colegios.</p>
+          <p class="parrafo">e) Crear, modificar, suprimir o cambiar la denominación de las Vocalías Nacionales de Sección y aprobar su Reglamento de Régimen Interno.</p>
+          <p class="parrafo">f) Las demás consignadas en estos estatutos y aquellas otras que, siendo competencia del Pleno o del Comité Directivo, acuerden éstos someter a consideración de la Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 11. Reglas básicas de funcionamiento.</p>
+          <p class="parrafo">1. La Asamblea General podrá celebrar sesiones ordinarias y extraordinarias.</p>
+          <p class="parrafo">2. Se reunirá con carácter ordinario dos veces en el año natural, en el primer y en el segundo semestre. La primera reunión conocerá necesariamente de la liquidación de los presupuestos del ejercicio del año anterior y la segunda del presupuesto para el ejercicio siguiente.</p>
+          <p class="parrafo">3. Podrá reunirse en sesión extraordinaria para conocer de los asuntos propios de la convocatoria cuando lo acuerde la Presidencia a iniciativa propia, o a solicitud de al menos la tercera parte de sus miembros con derecho a voto, con independencia del porcentaje de votos que representen. En este segundo caso, la solicitud expresará los asuntos que hayan de ser tratados con aportación, en su caso, de la documentación correspondiente. La sesión extraordinaria deberá celebrarse dentro de los treinta días hábiles siguientes a la presentación de su solicitud.</p>
+          <p class="parrafo">4. La Asamblea General será convocada por orden de la Presidencia del CGCOF con una antelación mínima de quince días naturales a la fecha de celebración e incluirá el orden del día de los asuntos a tratar. La documentación necesaria para la deliberación estará a disposición de las personas pertenecientes a la Asamblea General con al menos cinco días de antelación a la celebración de la reunión. Por razones de urgencia, podrá convocarse con setenta y dos horas de antelación.</p>
+          <p class="parrafo">5. La Asamblea General quedará válidamente constituida en primera convocatoria cuando asistan las personas titulares de la Presidencia y la Secretaría o quienes estatutariamente las sustituyan y la mitad más uno de las personas pertenecientes a la Asamblea con derecho a voto, cualesquiera que fuera el número de votos que a éstas corresponda, y en segunda convocatoria con los asistentes, cualesquiera que fuera su número y el de votos que a éstos correspondan.</p>
+          <p class="parrafo">6. Los acuerdos serán adoptados por mayoría favorable de votos emitidos por las personas asistentes. Cada Colegio Oficial de Farmacéuticos tendrá en la Asamblea General el número de votos que resulte de tomar la décima parte de la raíz cuadrada del número de personas colegiadas (√n/10), de cada colegio provincial, referidos al 31 de diciembre del año inmediato anterior, redondeando al entero más próximo. Si la fracción decimal de este número fuese de medio entero exacto, se redondeará al inmediato superior. La persona titular de la Presidencia ostenta voto dirimente en caso de empate.</p>
+          <p class="parrafo">7. El voto será personal, no admitiéndose su delegación.</p>
+          <p class="parrafo">8. Las deliberaciones tendrán carácter reservado, debiendo sus miembros guardar secreto de las mismas.</p>
+          <p class="parrafo">9. Los acuerdos serán ejecutivos desde el momento de su adopción.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 3.ª Pleno</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 12. Composición del Pleno.</p>
+          <p class="parrafo">1. El Pleno está integrado por los siguientes miembros:</p>
+          <p class="parrafo_2">a) Las personas pertenecientes al Comité Directivo.</p>
+          <p class="parrafo">b) Las personas titulares de las Vocalías Nacionales de Sección.</p>
+          <p class="parrafo">c) Una persona representante de los Colegios Oficiales de Farmacéuticos de cada una de las comunidades autónomas y de las Ciudades de Ceuta y Melilla.</p>
+          <p class="parrafo_2">2. Para determinar la persona representante autonómica de los Colegios Oficiales de Farmacéuticos se seguirán estas reglas:</p>
+          <p class="parrafo_2">a) Cuando esté constituido el correspondiente Consejo Autonómico de Colegios, será la persona titular de su Presidencia o quien se designe por acuerdo del competente órgano de gobierno. Éste deberá determinar el tiempo al que se extienda la representación.</p>
+          <p class="parrafo">b) Cuando no exista Consejo Autonómico de Colegios, será la persona titular de la Presidencia de uno de los Colegios de Farmacéuticos de la comunidad autónoma designado por las personas titulares de la Presidencia de todos los colegios de la correspondiente comunidad autónoma; salvo que exista un solo colegio que coincida con el territorio de la comunidad autónoma o de la Ciudad de Ceuta o de Melilla, en cuyo caso será la persona titular de su Presidencia o quien estatutariamente le sustituya.</p>
+          <p class="parrafo_2">La designación como representante autonómico de la persona titular de la Presidencia de uno de los Colegios de Farmacéuticos se hará conforme al procedimiento establecido por los colegios, que deberá determinar el tiempo al que se extiende la representación. En defecto de acuerdo, se elegirá con arreglo al procedimiento que reglamentariamente se determine por el Consejo General.</p>
+          <p class="parrafo">3. Cuando la persona representante autonómica determinada con arreglo a lo dispuesto en el apartado anterior formase parte del Comité Directivo, el Consejo Autonómico de Colegios o el colegio o colegios designarán expresamente y a este efecto a su persona representante en el Pleno, de entre sus cargos electos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 13. Competencias del Pleno.</p>
+          <p class="parrafo">El Pleno es el órgano de gobierno del CGCOF. Tiene las siguientes competencias:</p>
+          <p class="parrafo_2">a) Autorizar a la persona titular de la Presidencia para la interposición de toda clase de recursos contra todo tipo de actos y disposiciones, mostrarse parte y entablar todas las acciones legales que considere necesarias para la defensa de la profesión farmacéutica y/o de sus propios derechos e intereses, ante toda clase de Tribunales.</p>
+          <p class="parrafo">b) Aprobar, con carácter ordinario o extraordinario, el proyecto de presupuestos del CGCOF y su liquidación, previo informe de la Tesorería, con carácter previo a la aprobación definitiva por la Asamblea General.</p>
+          <p class="parrafo">c) Autorizar la adquisición o gravamen por el CGCOF de toda clase de bienes inmuebles, así como de aquellos otros bienes muebles que por su cuantía excedan de la vigésima parte del presupuesto anual.</p>
+          <p class="parrafo">d) Resolver los procedimientos disciplinarios de conformidad con lo previsto en el artículo 28 de los estatutos.</p>
+          <p class="parrafo">e) Resolver los recursos corporativos cuyo conocimiento esté atribuido al Consejo General en los términos dispuestos por el artículo 27 de los estatutos.</p>
+          <p class="parrafo">f) Conceder premios y distinciones con arreglo a lo previsto en la normativa correspondiente y conceder ayudas a la cooperación con fines solidarios.</p>
+          <p class="parrafo">g) Convocar las elecciones y aprobar el calendario electoral, conforme a lo previsto en el Reglamento de Procedimiento Electoral.</p>
+          <p class="parrafo">h) Autorizar la constitución o participación en cuantas entidades de derecho público o privado estime conveniente para prestar toda clase de servicios o realizar actividades en beneficio de la organización colegial.</p>
+          <p class="parrafo">i) Aprobar la Memoria Anual del Consejo General.</p>
+          <p class="parrafo">j) Ejercer las competencias del CGCOF que no se asignen a otros órganos de conformidad con los presentes estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 14. Reglas básicas de funcionamiento.</p>
+          <p class="parrafo">1. El Pleno celebrará sesiones, al menos, una vez cada trimestre y además se reunirá cuantas veces lo convoque la persona titular de la Presidencia, a iniciativa propia o a solicitud de la tercera parte de sus integrantes.</p>
+          <p class="parrafo">2. Cuando la convocatoria se inste por personas miembros del Pleno, la solicitud expresará los asuntos que hayan de ser tratados con aportación, en su caso, de la documentación correspondiente. La sesión extraordinaria deberá celebrarse dentro de los quince días hábiles siguientes a la presentación de su solicitud.</p>
+          <p class="parrafo">3. El Pleno será convocado por la persona titular de la Presidencia del CGCOF con una antelación mínima de ocho días naturales a la fecha de celebración e incluirá el orden del día de los asuntos a tratar. La documentación e información necesaria para la deliberación estará a disposición de las personas integrantes del Pleno con al menos cinco días de antelación a la celebración, salvo que no fuera posible por motivos debidamente justificados. Por razones de urgencia, el Pleno podrá convocarse con veinticuatro horas de antelación.</p>
+          <p class="parrafo">4. Las personas integrantes del Pleno tienen el derecho y el deber de asistir a las reuniones del Pleno. No obstante, podrán serán suplidas en los términos establecidos en el apartado segundo del artículo 12.</p>
+          <p class="parrafo">5. El Pleno quedará válidamente constituido cuando asistan las personas titulares de la Presidencia y de la Secretaría o quienes estatutariamente les sustituyan y la mitad más uno de sus miembros, en primera convocatoria; y en segunda, con las personas integrantes asistentes cualquiera que fuera su número.</p>
+          <p class="parrafo">6. Las deliberaciones tendrán carácter reservado, debiendo sus integrantes guardar secreto de las mismas.</p>
+          <p class="parrafo">7. Los acuerdos serán adoptados por mayoría de las personas integrantes asistentes, salvo cuando los Estatutos o el Reglamento de Régimen Interno dispongan otra cosa. Cada persona integrante del Pleno tiene un voto. La persona titular de la Presidencia ostenta voto dirimente en caso de empate.</p>
+          <p class="parrafo">8. Los acuerdos serán ejecutivos desde el momento de su adopción.</p>
+        </version>
+      </bloque>
+      <bloque id="s4" tipo="encabezado" titulo="Sección 4">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 4.ª Comité Directivo</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 15. Composición del Comité Directivo.</p>
+          <p class="parrafo">El Comité Directivo está integrado por:</p>
+          <p class="parrafo_2">a) La Presidencia.</p>
+          <p class="parrafo">b) La Vicepresidencia 1.ª</p>
+          <p class="parrafo">c) La Vicepresidencia 2.ª</p>
+          <p class="parrafo">d) La Secretaría General.</p>
+          <p class="parrafo">e) La Tesorería.</p>
+          <p class="parrafo">f) La Vicesecretaría.</p>
+          <p class="parrafo">g) La Vicetesorería.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 16. Competencias del Comité Directivo.</p>
+          <p class="parrafo">1. El Comité Directivo es el órgano de dirección, gestión y administración del CGCOF.</p>
+          <p class="parrafo">2. Son competencias del Comité Directivo:</p>
+          <p class="parrafo_2">a) Organizar y dirigir todos los órganos internos de gestión del CGCOF y prestar toda clase de servicios en interés de la profesión o de su organización colegial.</p>
+          <p class="parrafo">b) Gestionar los asuntos administrativos y de cometido ordinario inherentes al funcionamiento del CGCOF, así como todas aquellas otras cuestiones de mero trámite.</p>
+          <p class="parrafo">c) Ejercer por delegación las competencias que el Pleno y, en su caso, la Asamblea General le encomienden.</p>
+          <p class="parrafo">d) En casos de urgencia o en los que por no admitir dilación no sea posible convocar al Pleno, asumir las facultades del Pleno adoptando las medidas adecuadas, dando cuenta justificada de los mismos en la primera sesión que aquel celebre.</p>
+          <p class="parrafo">e) Elaborar la Memoria Anual del Consejo General y disponer su publicación una vez sea aprobada la misma.</p>
+          <p class="parrafo_2">3. El Comité Directivo podrá delegar el ejercicio de sus funciones en uno o más de sus miembros. El acuerdo de delegación determinará las condiciones de ejercicio de las funciones objeto de delegación.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De los órganos unipersonales del Consejo General</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 1.ª Atribuciones</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 17. La Presidencia.</p>
+          <p class="parrafo">1. Son atribuciones de la Presidencia del CGCOF:</p>
+          <p class="parrafo_2">a) Representar a la profesión farmacéutica y su organización colegial en los términos del artículo 3 de estos estatutos.</p>
+          <p class="parrafo">b) Ostentar la representación legal del CGCOF, estándole asignado el ejercicio de cuantos derechos y funciones le atribuyan la Ley 2/1974, de 13 de febrero, y estos estatutos en todas las relaciones con los poderes públicos, entidades, corporaciones y personas jurídicas o naturales de cualquier orden.</p>
+          <p class="parrafo">c) Ejercitar toda clase de derechos y acciones que correspondan en defensa de los derechos e intereses de la profesión y la organización colegial ante cualesquiera órganos jurisdiccionales, administrativos e institucionales.</p>
+          <p class="parrafo">d) Coordinar e impulsar la actividad del Consejo General, dirigiendo la actividad de sus órganos, autorizar los informes y comunicaciones que hayan de cursarse, y ejecutar o hacer que se ejecuten los acuerdos de los órganos colegiados.</p>
+          <p class="parrafo">e) Convocar, presidir y ordenar las sesiones de la Asamblea General, del Pleno y del Comité Directivo; y presidir las juntas, reuniones o sesiones a las que asistiere.</p>
+          <p class="parrafo">f) Autorizar, en su caso, los libramientos o movimientos de fondos y la domiciliación de cobros y pagos en los términos previstos en el artículo 30.5.</p>
+          <p class="parrafo">g) Constituir y nombrar las comisiones, ponencias y grupos de trabajo que estime necesarios para el mejor desarrollo de las funciones y el estudio y resolución de los asuntos que competen al Consejo.</p>
+          <p class="parrafo">h) Formalizar convenios y/o conciertos de colaboración con las Administraciones Públicas, Universidades y/o cualesquiera asociaciones o entidades públicas o privadas, así como establecer los medios necesarios para su cumplimiento y efectividad. El ejercicio de esta atribución requerirá en todo caso la previa autorización del Pleno y la de la Asamblea General cuando comporte obligaciones económicas para los colegios oficiales.</p>
+          <p class="parrafo_2">2. En el ejercicio de la función de representación legal a que se refiere la letra b) del apartado anterior, la persona titular de la Presidencia, previa autorización del Pleno, podrá designar apoderados especiales a personas que no sean miembros del Comité Directivo para los actos que se determinen en el propio acto de delegación y de acuerdo con sus propios términos, siempre que no sean de competencia del Pleno o de la Asamblea General y, en ejercicio de la función consignada en la letra c) del mismo apartado, otorgar los correspondientes mandamientos en nombre del CGCOF, a favor de letrados y procuradores.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 18. Vicepresidencias.</p>
+          <p class="parrafo">1. Las Vicepresidencias, que se denominan 1.ª y 2.ª, asumirán por este orden las funciones de Presidencia, en los casos de ausencia, enfermedad o vacancia de ésta.</p>
+          <p class="parrafo">2. Las Vicepresidencias ejercerán todas aquellas funciones que les delegue la Presidencia, pudiendo ésta en cualquier momento avocar el conocimiento y resolución de los asuntos de que estén tratando.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 19. Secretaría General y Vicesecretaría.</p>
+          <p class="parrafo">1. Corresponden a la Secretaría General las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Ejecutar los acuerdos de los órganos colegiados del CGCOF, así como las resoluciones que adopte la Presidencia.</p>
+          <p class="parrafo">b) Auxiliar a la Presidencia en el ejercicio de sus funciones y orientar y promover cuantas iniciativas de orden técnico-profesional deban adoptarse.</p>
+          <p class="parrafo">c) Extender las actas de las sesiones de la Asamblea General y del Pleno, dar cuenta de las inmediatamente anteriores para su aprobación, en su caso, e informar, si procede, los asuntos que en tales reuniones deban tratarse y le encomiende la Presidencia.</p>
+          <p class="parrafo">d) Llevar y custodiar los documentos y libros de actas, extender y autorizar los certificados que procedan, así como despachar la correspondencia, comunicaciones ordinarias y circulares que hayan sido, en su caso, autorizadas por los órganos colegiados del CGCOF o la Presidencia.</p>
+          <p class="parrafo">e) Llevar el Registro central de personas de la profesión farmacéutica colegiadas y el Registro Central de sociedades profesionales.</p>
+          <p class="parrafo">f) Ejercer la alta dirección de los servicios que los estatutos le atribuyen, y de cualesquiera otros que el Pleno o el Comité Directivo le encomienden.</p>
+          <p class="parrafo">g) Asumir la jefatura de personal y de las dependencias del CGCOF.</p>
+          <p class="parrafo">h) Autorizar en su caso los libramientos o movimientos de fondos y la domiciliación de cobros y pagos en los términos previstos en el artículo 30.5.</p>
+          <p class="parrafo_2">2. En caso de vacancia, ausencia o enfermedad de la persona titular de la Secretaría General, sustituye a ésta la persona titular de la Vicesecretaría. La Vicesecretaría ejercerá todas aquellas funciones propias que le delegue la Secretaría General, pudiendo ésta en cualquier momento avocar el conocimiento y resolución de los asuntos que esté tratando.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 20. Tesorería y Vicetesorería.</p>
+          <p class="parrafo">1. A la Tesorería le corresponden las siguientes funciones:</p>
+          <p class="parrafo_2">a) Preparar y redactar los proyectos de presupuestos y la liquidación de los del ejercicio anterior.</p>
+          <p class="parrafo">b) Fiscalizar la gestión económica, inspección y control de la contabilidad del Consejo General, y verificar la Caja.</p>
+          <p class="parrafo">c) Llevar el inventario de los bienes del CGCOF, de los que será Administrador.</p>
+          <p class="parrafo">d) Informar periódicamente al Pleno de la marcha de la ejecución del presupuesto.</p>
+          <p class="parrafo">e) Materializar la recaudación y custodiar los fondos del CGCOF.</p>
+          <p class="parrafo">f) Autorizar los libramientos o movimientos de fondos y la domiciliación de cobros y pagos en los términos previstos en el artículo 30.5.</p>
+          <p class="parrafo">g) Proponer y gestionar cuantos extremos sean conducentes a la buena marcha contable y de inversión de los fondos del Consejo General.</p>
+          <p class="parrafo_2">2. La persona titular de la Vicetesorería sustituye a la persona titular de la Tesorería en caso de vacancia, ausencia o enfermedad. La Vicetesorería ejercerá todas aquellas funciones propias que le delegue la Tesorería, pudiendo ésta en cualquier momento avocar el conocimiento y resolución de los asuntos de que esté tratando.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 21. Vocalías Nacionales de Sección.</p>
+          <p class="parrafo">1. Al frente de las Vocalías Nacionales de Sección existirá una persona representante elegida de conformidad con lo dispuesto en los presentes estatutos y, en su desarrollo, por el Reglamento de Procedimiento Electoral.</p>
+          <p class="parrafo">2. La creación de nuevas Vocalías, la modificación, supresión o cambio de denominación de las existentes y la aprobación de su Reglamento de Régimen Interno requerirá del acuerdo de la Asamblea General.</p>
+          <p class="parrafo">3. Las personas representantes de las respectivas Vocalías formarán parte de cuantas comisiones se constituyan en el CGCOF para tratar de problemas que afecten al ámbito de actuación profesional de su Vocalía.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 2.ª Régimen de provisión y remoción de cargos</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 22. Elección y procedimiento.</p>
+          <p class="parrafo">1. Los miembros del Comité Directivo y las personas titulares de las Vocalías Nacionales de Sección serán elegidas cada cuatro años, mediante sufragio directo, libre y secreto, en elecciones convocadas por el Pleno, de conformidad con el procedimiento que disponga al efecto el Reglamento de Procedimiento Electoral.</p>
+          <p class="parrafo">2. Cuando se proceda a la renovación de todos los cargos del Comité Directivo, las candidaturas deberán ser necesariamente conjuntas y cerradas para todos los cargos.</p>
+          <p class="parrafo">3. Las diferentes Vocalías Nacionales de Sección se elegirán en un proceso electoral único. Las candidaturas para cubrir los cargos de las Vocalías Nacionales de Sección deberán presentarse de forma aislada e independiente para cada una de las Vocalías.</p>
+          <p class="parrafo">Las Vocalías Nacionales de Sección son elegidas por las personas titulares de las Vocalías representantes de las Secciones de los Colegios Oficiales de Farmacéuticos de acuerdo con lo establecido en el Reglamento de Procedimiento Electoral. En todo caso, por cada Colegio Oficial de Farmacéuticos no se podrá emitir más de un voto para cada Vocalía Nacional de Sección.</p>
+          <p class="parrafo">La Presidencia del COCGF y los demás cargos integrantes del Comité Directivo son elegidos por las personas titulares de la Presidencia de los Colegios Oficiales de Farmacéuticos o quienes estatutariamente les sustituyan. Cada Presidencia ostenta un voto.</p>
+          <p class="parrafo">4. La participación de mujeres y hombres en la composición del Comité Directivo del CGCOF se adecuará a lo dispuesto en el artículo 15.2 de la Ley 2/1974, de 13 de febrero.</p>
+          <p class="parrafo">De conformidad con dicho artículo, la persona responsable de la coordinación en materia de igualdad se encargará de supervisar las condiciones de aplicación de la excepción referida a la que se refiere el párrafo anterior, así como las medidas a adoptar para alcanzar ese porcentaje mínimo establecido.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 23. Duración de los mandatos, reelección limitada y vacantes.</p>
+          <p class="parrafo">1. La duración del mandato de los cargos del Comité Directivo y de las Vocalías Nacionales de Sección será de cuatro años.</p>
+          <p class="parrafo">2. Solo podrán ser elegidos consecutivamente tres veces para el mismo cargo.</p>
+          <p class="parrafo">3. En caso de expiración anticipada del mandato de algún cargo, su sustitución se proveerá del modo siguiente:</p>
+          <p class="parrafo_2">a) En el caso del Comité Directivo, el cargo se suplirá automáticamente por quien asuma sus funciones en el supuesto de vacancia de acuerdo con lo previsto en estos estatutos; y en caso de que no hubiere dicho sustituto, se suplirá por quien acuerde el Comité Directivo de entre sus propios miembros. Sin perjuicio de lo anterior, cuando se produjere el cese anticipado de tres o más de sus cargos durante el mismo mandato, el Comité Directivo propondrá los correspondientes sustitutos de entre los miembros de la Asamblea General, que deberán ser ratificados por ésta. En este último caso, la duración se extenderá hasta la conclusión del mandato original.</p>
+          <p class="parrafo">b) En el caso de las Vocalías Nacionales de Sección, se convocarán elecciones para cubrir el cargo o cargos vacantes, en cuyo caso la duración del mandato se extenderá hasta la conclusión del mandato original del sustituido. No obstante lo anterior, cuando el período de tiempo que restare para la renovación ordinaria fuera inferior a seis meses no procederá la convocación de elecciones, permaneciendo vacante el cargo en este caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 24. Condiciones de elegibilidad.</p>
+          <p class="parrafo">1. Son condiciones de elegibilidad aplicables a todos los cargos:</p>
+          <p class="parrafo_2">a) Ser persona colegiada y encontrarse en el ejercicio de la profesión.</p>
+          <p class="parrafo">b) No estar condenada mediante sentencia firme que lleve aparejada inhabilitación o suspensión del ejercicio de la profesión o cargo público.</p>
+          <p class="parrafo">c) No estar sancionada disciplinariamente mediante resolución firme por falta grave o muy grave.</p>
+          <p class="parrafo_2">2. Son condiciones particulares de elegibilidad:</p>
+          <p class="parrafo_2">a) De los Vocales Nacionales de Sección: ser persona colegiada con una antigüedad mínima de tres años en cualquier Colegio Oficial de Farmacéuticos como ejerciente en la concreta modalidad que corresponda, en su caso, de acuerdo con lo establecido en el Reglamento de Procedimiento Electoral.</p>
+          <p class="parrafo">b) De los cargos del Comité Directivo: ser persona colegiada como ejerciente con una antigüedad mínima de tres años en cualquier Colegio Oficial de Farmacéuticos.</p>
+          <p class="parrafo_2">3. Las condiciones de elegibilidad indicadas en los apartados anteriores deben cumplirse en el momento de convocatoria de las elecciones y mantenerse durante toda la duración del mandato.</p>
+          <p class="parrafo">4. Ninguna persona candidata podrá presentarse a más de un cargo en un proceso electoral.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 25. Moción de censura.</p>
+          <p class="parrafo">1. La moción de censura al Comité Directivo deberá sustanciarse en sesión extraordinaria de la Asamblea General convocada a ese solo efecto.</p>
+          <p class="parrafo">2. La solicitud de su convocatoria deberá ser suscrita, como mínimo, por la tercera parte de sus miembros que tengan la condición de titular de la Presidencia de colegio oficial con independencia del número de votos que ostente cada colegio y expresará con claridad las razones en que se funde.</p>
+          <p class="parrafo">3. La sesión extraordinaria deberá celebrarse dentro de los treinta días hábiles siguientes a la presentación de la solicitud.</p>
+          <p class="parrafo">4. La válida constitución de la sesión extraordinaria requerirá la asistencia de más de la mitad de las personas electoras. El voto será nominal y público.</p>
+          <p class="parrafo">5. La aprobación de la moción de censura requerirá en todo caso de la mayoría de votos favorables emitidos por las personas titulares de la Presidencia de los colegios o quienes estatutariamente les sustituyan. Cada Presidencia ostenta un voto.</p>
+          <p class="parrafo">6. La aprobación de la moción de censura determinará el cese del mandato de los cargos, cuyos titulares permanecerán en funciones, y la inmediata convocatoria del proceso electoral, que se celebrarán en el plazo máximo de tres meses.</p>
+          <p class="parrafo">7. Si la moción de censura fuera rechazada, quienes hubieran suscrito la solicitud no podrán avalar con su firma nuevas propuestas de censura durante el periodo restante del mandato del Comité Directivo.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen del Consejo General</p>
+        </version>
+      </bloque>
+      <bloque id="s1-3" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 1.ª Régimen jurídico</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 26. Normas aplicables.</p>
+          <p class="parrafo">1. En el ejercicio de sus funciones y competencias, el CGCOF se rige por lo dispuesto en las siguientes normas:</p>
+          <p class="parrafo_2">a) La Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales.</p>
+          <p class="parrafo">b) Los presentes estatutos y, en desarrollo de los mismos, por el Reglamento de Régimen Interno del Consejo General.</p>
+          <p class="parrafo">c) La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en los términos de su artículo 2.4.</p>
+          <p class="parrafo">d) La Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público, en cuanto se refiere a los principios de la potestad sancionadora establecidos en el capítulo III de su título preliminar y el régimen de los órganos colegiados en la sección 3.ª del capítulo II de su título preliminar.</p>
+          <p class="parrafo">e) El título I de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, de acuerdo con lo dispuesto en su artículo 2.1.e).</p>
+          <p class="parrafo">f) El resto del ordenamiento jurídico en cuanto le sea de aplicación.</p>
+          <p class="parrafo_2">2. Los acuerdos, decisiones o recomendaciones del CGCOF deberán observar los límites de la Ley 15/2007, de 3 de julio, de Defensa de la Competencia.</p>
+          <p class="parrafo">3. El ejercicio de las funciones atribuidas normativa y estatutariamente al CGCOF se realizará de acuerdo con los límites señalados por la Ley 20/2013, de 9 de diciembre, de garantía de la unidad de mercado, en particular los derivados de la aplicación de los principios de buena regulación y administración.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 27. Recursos corporativos.</p>
+          <p class="parrafo">1. Las disposiciones y resoluciones adoptadas por el CGCOF conforme a Derecho Administrativo ponen fin a la vía corporativa y son directamente recurribles ante la jurisdicción contencioso-administrativa. Los demás actos emanados del CGCOF podrán ser impugnados ante la jurisdicción civil o social, según corresponda.</p>
+          <p class="parrafo">2. El Consejo General será competente para conocer de los siguientes recursos corporativos:</p>
+          <p class="parrafo_2">a) Recurso potestativo de reposición contra las resoluciones, disposiciones o acuerdos adoptados por el propio Consejo General.</p>
+          <p class="parrafo">b) Recurso de alzada contra las resoluciones, disposiciones o acuerdos adoptados por cualesquiera órganos de los Colegios Oficiales de Farmacéuticos cuando así esté previsto en sus estatutos o lo disponga la correspondiente legislación autonómica.</p>
+          <p class="parrafo_2">3. Los recursos de alzada a que se refiere el apartado anterior serán resueltos por el Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 28. Régimen en materia disciplinaria.</p>
+          <p class="parrafo">1. El ejercicio por el Consejo General de su potestad disciplinaria requerirá la incoación del correspondiente procedimiento que se ajustará a lo dispuesto en el Reglamento de Procedimiento para el Ejercicio de la Potestad Disciplinaria.</p>
+          <p class="parrafo">2. Dicho reglamento regulará el procedimiento disciplinario en el marco de los principios de la potestad sancionadora establecidos en la Ley 40/2015, de 1 de octubre, y con arreglo a las prescripciones sobre los procedimientos sancionadores contenidos en la Ley 39/2015, de 1 de octubre.</p>
+          <p class="parrafo">3. La resolución de los procedimientos disciplinarios competencia del Consejo General corresponde al Pleno. El reglamento podrá prever la constitución de una comisión de régimen disciplinario como órgano dotado de autonomía funcional con el cometido de asumir la instrucción de los expedientes y formular las oportunas propuestas de resolución.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-3" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="seccion">Sección 2.ª Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 29. Recursos económicos.</p>
+          <p class="parrafo">1. Son recursos económicos del CGCOF:</p>
+          <p class="parrafo_2">a) Las contribuciones de los Colegios Oficiales de Farmacéuticos que lo integran.</p>
+          <p class="parrafo">b) Las contraprestaciones por la utilización de los servicios de toda clase que preste o de las actividades que realice.</p>
+          <p class="parrafo">c) Los derechos u honorarios por la emisión de certificaciones, dictámenes, informes u otros asesoramientos que se le requieran.</p>
+          <p class="parrafo">d) Los rendimientos de cualquier naturaleza que produzcan los bienes y derechos que integren su patrimonio.</p>
+          <p class="parrafo">e) Las subvenciones, donativos, herencias o legados que pueda recibir.</p>
+          <p class="parrafo">f) Cuantos otros puedan corresponderle legalmente.</p>
+          <p class="parrafo_2">2. Las contribuciones económicas ordinarias de los colegios serán fijadas en los presupuestos anuales de acuerdo con los criterios que determine la Asamblea General, entre los que se incluirá el número de personas colegiadas adscritas a cada colegio. Se abonarán en la forma y tiempo que determine el Reglamento de Régimen Interno o, en su defecto, la propia Asamblea General.</p>
+          <p class="parrafo">3. El incumplimiento por los colegios del abono de las contraprestaciones establecidas por la prestación de servicios o realización de actividades por el CGOF al propio colegio o a sus personas colegiadas a través de éste, dará lugar a la suspensión de forma automática de la prestación de dichos servicios o actividades. No obstante, el Pleno del CGCOF podrá acordar la prestación de los servicios o actividades dirigidas a las personas colegiadas pertenecientes al colegio deudor, previo pago por dichas personas colegiadas al CGCOF de las cantidades establecidas para su prestación. Esta suspensión no se producirá cuando la prestación de estos servicios o actividades sean necesarias para el cumplimiento por los colegios de obligaciones legalmente impuestas.</p>
+          <p class="parrafo">4. La adopción de las medidas referidas en el apartado anterior se entiende sin perjuicio de la reclamación por la vía judicial correspondiente de las cantidades adeudadas al Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 30. Presupuestos y cuentas.</p>
+          <p class="parrafo">1. El CGCOF actuará, con carácter ordinario, en régimen de presupuesto anual y equilibrado. El ejercicio económico coincidirá con el año natural.</p>
+          <p class="parrafo">2. La competencia para la aprobación definitiva de los presupuestos corresponde a la Asamblea General, previa aprobación de su proyecto por el Pleno.</p>
+          <p class="parrafo">3. De iniciarse un nuevo ejercicio económico sin que se hubiera aprobado el presupuesto correspondiente, quedará prorrogado automáticamente el del ejercicio anterior hasta la aprobación del nuevo.</p>
+          <p class="parrafo">4. Vencido el ejercicio, las cuentas y la liquidación del presupuesto se sujetarán a una auditoría externa, como condición necesaria para que se sometan a su aprobación definitiva.</p>
+          <p class="parrafo">5. Los libramientos o movimientos de fondos que hayan de realizarse, y la autorización de la domiciliación de cobros y pagos, precisarán de dos firmas, una de las cuales será la de la persona titular de la Tesorería y otra la de la persona titular de la Presidencia o la persona titular de la Secretaría General, cuando excedan de tres mil euros. Este umbral podrá ser objeto de actualización en el Reglamento de Régimen Interno.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Artículo 31. Retribuciones y dietas de los cargos.</p>
+          <p class="parrafo">1. Las personas titulares de la Presidencia, Secretaría General y Tesorería del CGCOF percibirán, por el desempeño de sus respectivos cargos la cantidad anual que la Asamblea General acuerde consignar en los presupuestos de cada ejercicio. Asimismo, la Asamblea General determinará las cantidades que podrán percibir el resto de los miembros del Comité Directivo por razón de su dedicación al cargo.</p>
+          <p class="parrafo">2. Los gastos que se ocasionen a las restantes personas integrantes del Pleno y, en su caso, a los miembros de las comisiones, por asistencia a sus reuniones, serán satisfechos por el CGCOF, que abonará también los gastos ocasionados a las personas integrantes del Pleno y del Comité Directivo cuando se trasladen fuera de la localidad donde se encuentre ubicada la sede del CGCOF, por acuerdo de la Asamblea General, del Pleno o por orden de la Presidencia del Consejo.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición adicional primera. Desarrollos reglamentarios y adaptaciones a los estatutos.</p>
+          <p class="parrafo">1. Todas las disposiciones normativas y acuerdos aprobados por el CGCOF continuarán vigentes en tanto no se opongan a lo previsto en los presentes estatutos.</p>
+          <p class="parrafo">2. Sin perjuicio de lo anterior, el CGCOF procederá a la aprobación y/o adaptación de las normas de desarrollo que precisan los presentes estatutos y en particular, entre otros:</p>
+          <p class="parrafo_2">a) El Reglamento de Régimen Interno del Consejo General.</p>
+          <p class="parrafo">b) El Reglamento de Procedimiento Electoral.</p>
+          <p class="parrafo">c) El Reglamento de Procedimiento para el Ejercicio de la Potestad Disciplinaria del Consejo General.</p>
+          <p class="parrafo">d) El Reglamento de Régimen Interno de las Vocalías Nacionales de Sección.</p>
+          <p class="parrafo">e) El Reglamento de premios y distinciones.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición adicional segunda. Igualdad de trato y no discriminación.</p>
+          <p class="parrafo">El acceso y ejercicio a profesiones colegiadas se regirá por el principio de igualdad de trato y no discriminación por razón de sexo, origen racial o étnico, religión, convicción u opinión, edad, discapacidad, orientación sexual, identidad sexual o de género, expresión de género, características sexuales o cualquier otra circunstancia personal o social, en los términos previstos en la Ley 62/2003, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social; en la Ley Orgánica 3/2007, de 22 de marzo; en la Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación, y en la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición transitoria primera. Representantes de las Vocalías Nacionales de Sección.</p>
+          <p class="parrafo">1. A la entrada en vigor de los presentes estatutos, tienen la condición de integrantes del Pleno del Consejo General las personas representantes de las Vocalías Nacionales de Sección definidas en el Reglamento del Consejo General aprobado por Orden del Ministerio de la Gobernación de 16 de mayo de 1957.</p>
+          <p class="parrafo">2. En caso de creación de una nueva Vocalía Nacional de Sección, la duración del mandato de la Vocalía que resultare elegida en las primeras elecciones celebradas se extenderá hasta el momento en que se proceda a la renovación conjunta de los cargos del Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2025-12862" fecha_publicacion="20250625" fecha_vigencia="20250715">
+          <p class="articulo">Disposición transitoria segunda. Renovación de los cargos del Consejo General.</p>
+          <p class="parrafo">1. Los actuales miembros de la Junta Directiva y Vocalías representantes de Secciones continuarán en sus cargos hasta la fecha en que, con arreglo al Reglamento del Consejo aprobado por Orden Ministerial de 16 de mayo de 1957, corresponda la primera renovación parcial de cargos. En dicha fecha se procederá a la renovación de la totalidad de dichos cargos, que se proveerán con arreglo a elecciones convocadas de conformidad con lo establecido en los presentes estatutos y en su desarrollo por el Reglamento de Procedimiento Electoral.</p>
+          <p class="parrafo">2. Efectuada la toma de posesión de los nuevos cargos del Comité Directivo y Vocalías Nacionales de Sección a que se refiere el apartado anterior, se procederá a la constitución del Pleno del Consejo.</p>
+          <p class="parrafo">3. En los casos de Consejos Autonómicos de Colegios que se constituyeran con posterioridad a la constitución del Pleno, pasará a formar parte como integrante del Pleno del CGCOF la Presidencia de dicho Consejo Autonómico de Colegios, o quien se designe por acuerdo del competente órgano de gobierno, cesando automáticamente en el cargo la Presidencia de colegio que, hasta entonces, hubiera venido desempeñando dicho cargo.</p>
+          <p class="parrafo">4. La limitación a la reelección de mandatos que se introduce en el apartado segundo del artículo 23 se aplicará a partir de las primeras elecciones celebradas de conformidad con lo dispuesto en los presentes estatutos, momento a partir del cual comenzará el cómputo del número de veces que pueden ser objeto de reelección.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

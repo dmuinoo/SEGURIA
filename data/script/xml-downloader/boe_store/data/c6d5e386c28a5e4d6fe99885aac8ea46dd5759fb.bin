@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T203920Z</fecha_actualizacion>
+      <identificador>BOE-A-2004-5640</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20040310</fecha_disposicion>
+      <numero_oficial>FOM/799/2004</numero_oficial>
+      <titulo>Orden FOM/799/2004, de 10 de marzo, por la que se aprueban los Estatutos provisionales del Consejo General de los Colegios Oficiales de Decoradores.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20040329</fecha_publicacion>
+      <diario_numero>76</diario_numero>
+      <fecha_vigencia>20040330</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2004/03/10/fom799</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2004-5640</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="2277">Decoración</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-3591</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Disposición transitoria 1 de la Ley 2/2002, de 21 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1974-289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 6.2 de la Ley 2/1974, de 13 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-5640</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-10</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fom799</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2277"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-5640</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fom799</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2277"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/con/20040329"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden FOM/799/2004, de 10 de marzo, por la que se aprueban los Estatutos provisionales del Consejo General de los Colegios Oficiales de Decoradores.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/con/20040329">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-5640</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fom799</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2277"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/con/20040329/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden FOM/799/2004, de 10 de marzo, por la que se aprueban los Estatutos provisionales del Consejo General de los Colegios Oficiales de Decoradores.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/con/20040329"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/03/10/fom799/con/20040329/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/03/10/fom799/con/20040329/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="parrafo">El artículo 1 de la Ley 2/2002, de 21 de febrero, crea el Consejo General de los Colegios Oficiales de Decoradores, como Corporación de Derecho público, que tendrá personalidad jurídica y plena capacidad para el cumplimiento de sus fines con arreglo a la Ley.</p>
+          <p class="parrafo">A su vez, en su Disposición Transitoria Primera, punto 2, se indica que la Comisión Gestora, constituida en el plazo y composición señalados en el punto 1 de la citada Disposición, elaborará unos Estatutos provisionales reguladores de los órganos de gobierno del Consejo General de los Colegios Oficiales de Decoradores, que deberán incluir las normas de constitución y funcionamiento de dichos órganos. Dichos Estatutos provisionales se remitirán al Ministerio de Fomento que verificará su adecuación a la legalidad y ordenará, en su caso, su aprobación.</p>
+          <p class="parrafo">En su virtud, elaborados por la Comisión Gestora los Estatutos provisionales, conforme a la legalidad de las normas vigentes que le son de aplicación, y, de acuerdo con el Consejo de Estado, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos provisionales.</p>
+          <p class="parrafo">Se aprueban los Estatutos provisionales del Consejo General de los Colegios Oficiales de Decoradores que figuran en el anexo a esta Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Disposición transitoria primera. Gestión provisional del Colegio.</p>
+          <p class="parrafo">La Comisión Gestora del Consejo General de los Colegios Oficiales de Decoradores se hará cargo provisionalmente del citado Consejo hasta que se constituyan sus órganos de gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Disposición transitoria segunda. Estatutos definitivos.</p>
+          <p class="parrafo">Constituidos los órganos de gobierno del Consejo General de los Colegios Oficiales de Decoradores, en el plazo de un año elaborarán los Estatutos previstos en el artículo 6, punto 2, de la Ley 2/1974, de 13 de febrero, de Colegios Profesionales, que serán sometidos a la aprobación del Gobierno a través del Ministerio de Fomento.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Disposición final primera. Salvaguarda de competencias.</p>
+          <p class="parrafo">Lo dispuesto en esta Orden será de aplicación sin perjuicio de que las Comunidades Autónomas, al amparo de las competencias atribuidas en materia de Colegios Profesionales, puedan constituir Colegios Profesionales de Decoradores o Consejos autonómicos en sus respectivos territorios.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="parrafo_2">Madrid, 10 de marzo de 2004.</p>
+          <p class="firma_ministro">ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatutos Provisionales de Consejo General de los Colegios Oficiales de Decoradores</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Normas generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 1. Consejo General.</p>
+          <p class="parrafo">Es una Corporación de Derecho Público con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines y funciones, creada por la Ley 2/2002, de 21 de febrero, regida por dicha Ley, por la Ley de Colegios Profesionales y por los presentes Estatutos provisionales.</p>
+          <p class="parrafo">La Organización Colegial está formada por: los Colegios Oficiales Territoriales cualquiera que sea su ámbito provincial o autonómico, incluido el Colegio Nacional, los Consejos Autonómicos que se constituyan y finalmente el Consejo General.</p>
+          <p class="parrafo">Los Colegios Oficiales están integrados por aquellas personas que estén en posesión de la Titulación Académica Oficial o equivalente para ejercer la profesión que regula el Real Decreto 902/1977, de 1 de abril, de Atribuciones y Facultades.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 2. Sede.</p>
+          <p class="parrafo">La sede del Consejo General radicará en Madrid o donde en su momento se determine.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 3. Fines.</p>
+          <p class="parrafo">En desarrollo del artículo 1 de la Ley 2/2002, de 21 de febrero, de creación del Consejo General, se consideran fines del Consejo General:</p>
+          <p class="parrafo_2">a) Coordinar a los Colegios Oficiales pertenecientes a las diferentes Comunidades Autónomas en materias de interés común.</p>
+          <p class="parrafo">b) Representar a los Colegios Oficiales ante la Administración del Estado.</p>
+          <p class="parrafo">c) Representar a los Colegios Oficiales ante las Instituciones Internacionales.</p>
+          <p class="parrafo">d) Fomentar que a través del control normativo y el visado de los proyectos por los Colegios Oficiales se contribuya a la mejora de la calidad de vida de los usuarios de los servicios profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 4. Órganos de Gobierno.</p>
+          <p class="parrafo">El Órgano de Gobierno Colegiado del Consejo General es el Pleno. Los Órganos unipersonales del Consejo General son: Presidente, Vicepresidente I, Vicepresidente II, Tesorero, Secretario, Vocal.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Del Pleno</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 5. Composición.</p>
+          <p class="parrafo">El Consejo General está regido por el Pleno, integrado exclusivamente por los Decanos o Presidentes de todos los Colegios Oficiales de los distintos ámbitos territoriales, formalmente creados en España incluyendo al Colegio Nacional.</p>
+          <p class="parrafo"> </p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 6. Funciones y Competencias.</p>
+          <p class="parrafo">El Pleno es el Órgano de Gobierno y representación del Consejo General y como tal asume todas las competencias atribuidas por la Ley de Colegios Profesionales y en particular las siguientes:</p>
+          <p class="parrafo_2">a) Designar a los órganos unipersonales del Consejo General de conformidad con lo establecido en el artículo 10 de estos Estatutos.</p>
+          <p class="parrafo">b) Elaborar los Estatutos del Consejo General de los Colegios Oficiales previstos en el artículo 6, punto 2, de la Ley de Colegios Profesionales y someterlos a la aprobación del Gobierno, en el plazo de un año desde la formal constitución del Consejo General.</p>
+          <p class="parrafo">c) Dictar y aprobar, en su caso, el presupuesto del Consejo General, administrar los recursos que contemple y aprobar su liquidación.</p>
+          <p class="parrafo">d) Dirimir los conflictos entre Colegios a petición de los mismos siempre que la Legislación Autonómica lo permita.</p>
+          <p class="parrafo">e) Desarrollar Comisiones Profesionales, Educativas, Culturales, etc. y todas aquellas que sean de interés corporativo y social.</p>
+          <p class="parrafo">f) Los órganos unipersonales y otros miembros del Pleno podrán formar una Comisión Permanente para evacuar los trámites Corporativos.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 7. Reuniones.</p>
+          <p class="parrafo">1. El Pleno se reunirá con carácter ordinario, al menos, una vez al año.</p>
+          <p class="parrafo">2. El Pleno se reunirá con carácter extraordinario por iniciativa del Presidente del Consejo General o cual lo soliciten el 50% de sus miembros, en cuyo caso deberá celebrarse en el plazo de dos meses a contar desde la solicitud y comprender en su orden del día los asuntos propuestos por los solicitantes.</p>
+          <p class="parrafo">3. La convocatoria será realizada por escrito y se cursará junto con el correspondiente orden del día por el Secretario por mandato del Presidente, con al menos quince días de antelación, salvo en casos de urgencia en los que podrá realizarse con tres días de anticipación.</p>
+          <p class="parrafo">4. El Pleno quedará válidamente constituido cuando concurran la mayoría de sus miembros siempre que entre ellos se encuentre al menos el Presidente y el Secretario.</p>
+          <p class="parrafo">5. En caso de ausencia al Pleno por motivos justificados del Decano o Presidente de un Colegio, podrá delegar por escrito en un miembro de su Junta de Gobierno para que le represente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 8. Adopción de acuerdos.</p>
+          <p class="parrafo">1. Los acuerdos del Pleno se tomarán por representación del número de colegiados dividiendo el censo de cada Colegio por dos, adjudicando un voto a la primera mitad y un voto por cada cincuenta colegiados o fracción de la segunda mitad.</p>
+          <p class="parrafo">2. Anualmente los Colegios proporcionarán al Consejo General el censo actualizado de Colegiados, con una antelación de dos meses a la celebración del Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 9. Estatutos definitivos.</p>
+          <p class="parrafo">El texto de los Estatutos definitivos será debatido y aprobado en el Pleno del Consejo General y presentado a la Administración del Estado en el plazo de un año desde la formal constitución del Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De los órganos unipersonales</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 10. Designación y función de los órganos unipersonales.</p>
+          <p class="parrafo">1. El Pleno elegirá entre sus miembros un Presidente, dos Vicepresidentes, un Secretario, un Tesorero y un Vocal, la duración será de tres años.</p>
+          <p class="parrafo">2. Los miembros del Pleno conservarán su condición mientras ostente el cargo que haya determinado su nombramiento. Cuando dejen de desempeñar el cargo serán sustituidos por el nuevo Decano del Colegio al que representen. En el supuesto de dimisión del cargo, el Pleno, en caso de aceptarla, procederá a su sustitución en la siguiente reunión ordinaria o extraordinaria que se celebre.</p>
+          <p class="parrafo">3. Los órganos unipersonales deben ejercer sus funciones de forma independiente, aunque coordinada y de forma no tanto jerárquica como presidida por la idea principal de servir a los Colegios y a la profesión, cumpliendo los objetivos asignados por la Ley al Consejo General.</p>
+          <p class="parrafo">4. Los gastos de gestión, desplazamiento y dietas de los órganos unipersonales se incluirán en los Presupuestos generales, en caso de interés Corporativo alguno de los órganos unipersonales podrá ser remunerado.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 11. Del Presidente.</p>
+          <p class="parrafo">1. El Presidente convocará y presidirá las reuniones del Pleno.</p>
+          <p class="parrafo">2. El Presidente organizará las tareas del Pleno de manera que facilite y contribuya al cumplimiento de su mandato.</p>
+          <p class="parrafo">3. El Presidente tiene asignada la representación del Consejo General en todos los ámbitos de su actuación, y en tal calidad asume la titularidad de cuantos derechos y deberes incumbe a la Corporación frente a terceros, sean públicos o privados.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 12. De los Vicepresidentes.</p>
+          <p class="parrafo">Los Vicepresidentes por el orden establecido sustituirán al Presidente por ausencia de este a petición suya, o por dimisión del mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 13. Del Secretario.</p>
+          <p class="parrafo">El Secretario tiene asignada la constancia documental de los acuerdos del Pleno, certificándolos, a petición legítima, con el visto bueno del Presidente. Asimismo asume la coordinación administrativa de los distintos órganos y Servicios del Consejo General velando por el cumplimiento de los requisitos aplicables a su actuación. El Secretario cursará las convocatorias del Pleno.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 14. Del Tesorero.</p>
+          <p class="parrafo">El Tesorero tiene especialmente asignada la gestión económica del Consejo General y, por consiguiente, a su cargo los fondos con los que se dote, y su administración. Conjuntamente con el Presidente, puede abrir, disponer y cancelar cuentas corrientes y de ahorro y, en general, llevar a cabo en la expresada calidad las operaciones propias del tráfico bancario.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 15. Del Vocal.</p>
+          <p class="parrafo">El Vocal realizará la gestión a determinar que se le encomiende.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 16. Incumplimientos.</p>
+          <p class="parrafo">La reiterada dejación de funciones por parte de alguno de los órganos unipersonales será suficiente motivo para incoar el proceso de sustitución.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">De la Financiación del Consejo General</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 17. Cuotas a aportar por los Colegios.</p>
+          <p class="parrafo">a) Para el sostenimiento económico del Consejo General se aprobará en el Pleno el Presupuesto anual cuya cuota total por Colegio incluye la pertenencia a las Instituciones Internacionales, de las que el Consejo General es miembro de Pleno Derecho, así como el Seguro de Responsabilidad Civil, global, que cubre todos los trabajos visados por los Colegios Oficiales a sus miembros ejercientes.</p>
+          <p class="parrafo">b) Las cuotas las abonarán los Colegios Oficiales al Consejo General trimestralmente.</p>
+          <p class="parrafo">c) El impago de más de dos trimestres por parte de un Colegio Oficial deudor supone la pérdida de voz y voto en los Plenos.</p>
+          <p class="parrafo">d) De persistir la deuda un trimestre, se verá incrementada en un 10%.</p>
+          <p class="parrafo">e) El presupuesto anual se ajustará a la efectividad de la gestión, evitando todo tipo de gasto desproporcionado, que lesione gravemente la economía y subsistencia de los Colegios Oficiales.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Artículo 18. Otros recursos.</p>
+          <p class="parrafo">El Consejo podrá contar para su financiación, además de las cuotas a las que se refiere el artículo anterior, con subvenciones, ayudas, beneficios de publicaciones y en general, cualquier otra aportación.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Disposición transitoria primera. Constitución de los Órganos de Gobierno.</p>
+          <p class="parrafo">Dentro de los quince días siguientes a la publicación de estos Estatutos provisionales en el BOE, la Comisión Gestora del Consejo General efectuará convocatoria para la sesión constitutiva del Pleno, a lo largo de la cual se procederá a la toma de posesión de los cargos, procediéndose por el sistema de elección establecido en el artículo 10, punto 1, de estos Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-4" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2004-5640" fecha_publicacion="20040329" fecha_vigencia="20040330">
+          <p class="articulo">Disposición transitoria segunda. Incorporación de nuevos Colegios.</p>
+          <p class="parrafo">Cuando sean formalmente creados nuevos Colegios Oficiales en el territorio nacional, los Decanos o Presidentes de los mismos o, en su caso, de la Correspondiente Comisión Gestora, se incorporarán a la reunión de Pleno en la primera sesión, ordinaria o extraordinaria, que el mismo celebre.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

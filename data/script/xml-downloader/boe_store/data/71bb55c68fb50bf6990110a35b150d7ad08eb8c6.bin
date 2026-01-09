@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T194054Z</fecha_actualizacion>
+      <identificador>BOE-A-2002-9333</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="9531">Comunidad de Castilla y León</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20020409</fecha_disposicion>
+      <numero_oficial>3/2002</numero_oficial>
+      <titulo>Ley 3/2002, de 9 de abril, de Educación de Personas Adultas de Castilla y León.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20020515</fecha_publicacion>
+      <diario_numero>116</diario_numero>
+      <fecha_vigencia>20020423</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-cl/l/2002/04/09/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2002-9333</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="657">Castilla y León</materia>
+        <materia codigo="3121">Educación de Adultos</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOCYL núm. 76, suplemento, de 22 de abril de 2002.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6483</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 35.1 del Estatuto aprobado por Ley Orgánica 4/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-24172</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 1/1990, de 3 de octubre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cl"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-9333</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-04-09</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/657"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3121"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cl"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-9333</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-04-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/657"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3121"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/con/20020422"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/2002, de 9 de abril, de Educación de Personas Adultas de Castilla y León.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-05-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/con/20020422">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cl"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-9333</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-04-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/657"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3121"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-04-22</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/con/20020422/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/2002, de 9 de abril, de Educación de Personas Adultas de Castilla y León.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/con/20020422"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cl/l/2002/04/09/3/con/20020422/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cl/l/2002/04/09/3/con/20020422/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="parrafo">Sea notorio a todos los ciudadanos que las Cortes de Castilla y León han aprobado y yo en nombre del Rey y de acuerdo con lo que se establece en el artículo 16.4 del Estatuto de Autonomía, promulgo y ordeno la publicación de la siguiente Ley</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="centro_redonda">1</p>
+          <p class="parrafo_2">El artículo 35.1 del Estatuto de Autonomía de Castilla y León, aprobado por la Ley Orgánica 4/1983, de 25 de febrero y reformado por las Leyes Orgánicas 11/1994, de 24 de marzo y 4/1999, de 8 de enero, atribuye a la Comunidad de Castilla y León la competencia de desarrollo legislativo y ejecución de la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades, de acuerdo con el derecho a la educación que todos los ciudadanos tienen, según lo establecido en el artículo 27 de la Constitución Española y las leyes orgánicas que lo desarrollan.</p>
+          <p class="parrafo">La Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo (LOGSE), reestructuró éste en su conjunto. El artículo 2.º de la citada Ley consagra la educación permanente como principio básico del sistema educativo, a cuyo fin deberá facilitarse a las personas adultas su incorporación a las distintas enseñanzas. Esta previsión se desarrolla en el Título III de la Ley bajo la rúbrica «De la educación de las personas adultas», estableciendo los objetivos y directrices a que ésta debe ajustarse.</p>
+          <p class="parrafo">El artículo 51.1 de la LOGSE garantiza que las personas adultas puedan adquirir, actualizar, completar o ampliar sus conocimientos y aptitudes para su desarrollo personal y profesional.</p>
+          <p class="centro_redonda">2</p>
+          <p class="parrafo_2">La Comunidad de Castilla y León se caracteriza por su gran extensión territorial, un marcado carácter rural y un considerable grado de dispersión de municipios, con las dificultades que entraña llegar a todos los habitantes para mantener y elevar los niveles educativos alcanzados.</p>
+          <p class="parrafo">La educación de personas adultas, en sus modalidades presencial y a distancia y apoyada en las nuevas tecnologías, tiene como finalidad conseguir que en toda nuestra geografía exista una oferta educativa suficiente que garantice la conservación y el enriquecimiento de nuestra lengua, nuestra historia y nuestro desarrollo, valores prioritarios en este ámbito.</p>
+          <p class="parrafo">La presente ley establece el marco general de la educación de las personas adultas. La sociedad del conocimiento exige una educación permanente que dé respuesta a los avances tecnológicos y a las situaciones cambiantes que precisa nuestra sociedad. La educación es el mejor instrumento para fomentar la igualdad de oportunidades, permitir la inserción laboral de los colectivos desfavorecidos y desarrollar la participación de las personas adultas de Castilla y León en la sociedad.</p>
+          <p class="parrafo">Son metas a alcanzar con la presente Ley: Erradicar el analfabetismo, garantizar una educación básica que posibilite el acceso a otros niveles del sistema educativo, posibilitar el desarrollo personal, la participación y el fomento de los derechos y responsabilidades de las personas adultas y dar respuesta a las necesidades específicas del medio rural.</p>
+          <p class="parrafo">Los programas destinados a las personas adultas de Castilla y León abarcarán los ámbitos reglado y no reglado, prestando especial atención a las áreas de: formación instrumental y básica, formación para el mundo laboral y formación para la participación social, cultural, política y económica.</p>
+          <p class="parrafo">La educación de personas adultas utilizará una metodología específica adaptada a este colectivo, de acuerdo con las necesidades objetivas que se detecten.</p>
+          <p class="centro_redonda">3</p>
+          <p class="parrafo_2">Asumidas por la Comunidad de Castilla y León competencias en materia de educación no universitaria mediante Real Decreto 1340/1999, de 31 de julio, sobre traspaso de funciones y servicios de la Administración del Estado a la Comunidad de Castilla y León en materia de enseñanza no universitaria, es necesaria una Ley que sirva de referente y contribuya a desarrollar la educación de las personas adultas, según el principio de la educación permanente y lo establecido en el Título III de la LOGSE, que favorezca la coordinación entre las entidades públicas y privadas para atender la demanda de educación de personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">La presente Ley tiene como objeto establecer el marco general de la educación de las personas adultas y los instrumentos precisos para su desarrollo en la Comunidad de Castilla y León.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 2. Definición.</p>
+          <p class="parrafo_2">A los efectos de esta Ley se entiende por educación de personas adultas el conjunto de actuaciones y procesos de aprendizaje, reglados o no, que tienen como finalidad ofrecer a los ciudadanos de Castilla y León que hayan superado la edad máxima de escolarización obligatoria, la posibilidad de desarrollar sus capacidades, enriquecer sus conocimientos, acceder a los bienes culturales y formativos, mejorar sus competencias técnicas o profesionales, reorientar las mismas con el fin de atender sus propias necesidades y las de la sociedad, así como desarrollar la capacidad crítica y de participación en la realidad cultural, social, económica y política.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 3. Finalidad y objetivos.</p>
+          <p class="parrafo_2">1. La educación de las personas adultas en Castilla y León tenderá al desarrollo individual y colectivo de éstas, educando sobre la base del principio de igualdad de oportunidades, superando el carácter exclusivamente compensatorio y posibilitando su preparación para participar en la sociedad.</p>
+          <p class="parrafo">2. Son objetivos de la presente Ley:</p>
+          <p class="parrafo_2">a) Garantizar la educación de las personas adultas basadas en el principio de la educación permanente.</p>
+          <p class="parrafo">b) Regular la educación de las personas adultas asegurando los recursos necesarios que permitan su participación en las distintas ofertas formativas.</p>
+          <p class="parrafo">c) Elevar el nivel de educación básica y cualificación profesional de la población adulta, con atención especial a los colectivos desfavorecidos.</p>
+          <p class="parrafo">d) Atender las demandas que impone una sociedad cambiante, desarrollando nuevas tecnologías y favoreciendo hábitos que permitan vivir el tiempo dedicado al ocio de forma creativa.</p>
+          <p class="parrafo">e) Preparar para la inserción socio-laboral y comunitaria de las personas adultas de Castilla y León.</p>
+          <p class="parrafo">f) Promover el acceso a los distintos niveles del sistema educativo y potenciar las modalidades de educación presencial y a distancia.</p>
+          <p class="parrafo">g) Conseguir el equilibrio entre el ámbito rural y el urbano.</p>
+          <p class="parrafo">h) Promover el conocimiento de nuestra realidad regional, estatal y de la Unión Europea.</p>
+          <p class="parrafo">i) Fomentar las actividades de investigación, estudio e intercambio de experiencias relacionadas con los procesos formativos destinados a las personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">De las actuaciones, áreas y programas formativos</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 4. Actuaciones.</p>
+          <p class="parrafo_2">La consecución de los objetivos expresados en el artículo anterior se llevará a cabo conforme a las siguientes actuaciones:</p>
+          <p class="parrafo_2">a) Desarrollar programas formativos destinados a la iniciación y desarrollo profesional de la persona adulta, en las áreas formativas previstas en esta Ley.</p>
+          <p class="parrafo">b) Planificar el Mapa Autonómico de Educación de Personas Adultas de acuerdo con las necesidades existentes.</p>
+          <p class="parrafo">c) Colaborar con otras administraciones, instituciones u organizaciones para aunar esfuerzos, racionalizar la distribución de los recursos y proporcionar más amplios y mejores servicios.</p>
+          <p class="parrafo">d) Atender a la formación específica y perfeccionamiento del profesorado que desarrolle sus tareas en el ámbito de la educación de personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 5. Áreas.</p>
+          <p class="parrafo_2">Las acciones encaminadas a la educación de las personas adultas de la Comunidad de Castilla y León, en sus modalidades presencial y a distancia, contemplarán ofertas formativas incluidas en las áreas siguientes:</p>
+          <p class="parrafo_2">a) Educación básica que permita el acceso a otros niveles del sistema educativo.</p>
+          <p class="parrafo">b) Formación que posibilite la adquisición, actualización y perfeccionamiento necesarios para desempeñar una profesión u oficio que favorezca la inserción laboral.</p>
+          <p class="parrafo">c) Formación para la participación social, cultural, política y económica, profundizando en los valores cívicos y en el conocimiento de los bienes culturales.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 6. Programas formativos.</p>
+          <p class="parrafo_2">La educación de las personas adultas se llevará a cabo mediante los siguientes programas formativos:</p>
+          <p class="parrafo_2">a) Programas de alfabetización de personas adultas.</p>
+          <p class="parrafo">b) Programas orientados a la obtención de titulaciones regladas que permitan acceder al mundo del trabajo y a otros niveles del sistema educativo.</p>
+          <p class="parrafo">c) Programas destinados a colectivos desfavorecidos que permitan su integración y participación en el mundo laboral.</p>
+          <p class="parrafo">d) Programas orientados a promover el conocimiento de Castilla y León en todos sus aspectos.</p>
+          <p class="parrafo">e) Programas para la preparación de la prueba destinada a la obtención del título de educación secundaria, de acceso a ciclos formativos de formación profesional, prueba para la obtención del título de bachillerato, así como de la prueba de acceso a la Universidad.</p>
+          <p class="parrafo">f) Programas que ayuden a la integración en la sociedad a inmigrantes residentes en la Comunidad de Castilla y León.</p>
+          <p class="parrafo">g) Programas que fomenten el estudio de los idiomas y el uso de las tecnologías de la información y de la comunicación.</p>
+          <p class="parrafo">h) Programas que fomenten la creatividad o contribuyan al enriquecimiento de la formación personal.</p>
+          <p class="parrafo">i) Programas que tengan como objetivo fomentar la dimensión europea.</p>
+          <p class="parrafo">j) Programas que hagan incidencia especial en la educación en valores democráticos, sociales y culturales.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 7. Competencia.</p>
+          <p class="parrafo_2">La ordenación, regulación, inspección y evaluación de los programas formativos corresponderá a la Consejería competente en materia de Educación, así como la coordinación de éstos con otras Consejerías, Administraciones e Instituciones.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">De los centros y del personal</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Centros</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 8. Clases de centros.</p>
+          <p class="parrafo_2">1. La educación de personas adultas podrá impartirse en centros públicos o privados, ordinarios o específicos.</p>
+          <p class="parrafo">2. Son centros públicos de educación de personas adultas aquellos cuya titularidad corresponde a la Administración y que impartan programas de educación de personas adultas.</p>
+          <p class="parrafo">3. Son centros privados de educación de personas adultas aquellos cuya titularidad corresponda a personas físicas o jurídicas privadas y que impartan programas de educación de personas adultas.</p>
+          <p class="parrafo">4. Son centros específicos de educación de personas adultas los que desarrollan programas de actuación regulados en la presente Ley; abarcarán un ámbito de influencia concreto y actuarán como dinamizadores en su ámbito.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 9. Creación, modificación y supresión.</p>
+          <p class="parrafo_2">1. La creación, modificación y supresión de centros públicos de educación de personas adultas, se efectuará por Decreto de la Junta de Castilla y León a propuesta de la Consejería competente en materia de Educación, de acuerdo con los requisitos y el procedimiento que se establezca normativamente.</p>
+          <p class="parrafo">2. La autorización, modificación y extinción de centros privados de educación de personas adultas corresponderá a la Consejería competente en materia de Educación, de acuerdo con los requisitos y el procedimiento que se establezca normativamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 10. Inscripción.</p>
+          <p class="parrafo_2">Los centros específicos de educación de personas adultas, tanto públicos como privados, se inscribirán en el Registro de Centros Docentes de la Comunidad de Castilla y León.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 11. Enseñanzas.</p>
+          <p class="parrafo_2">1. Los centros específicos de educación de personas adultas, públicos y privados, podrán impartir programas de alfabetización y aquellos orientados a adquirir, completar o actualizar la formación básica, así como los programas correspondientes a enseñanzas no regladas.</p>
+          <p class="parrafo">Para impartir la educación secundaria deberán ser autorizados por la Administración competente en materia de educación.</p>
+          <p class="parrafo">2. Los centros ordinarios podrán impartir, previa autorización, el segundo ciclo de educación secundaria y los estudios de bachillerato y de formación profesional específica, en los que se programe una oferta adaptada a las necesidades de la población adulta.</p>
+          <p class="parrafo">3. Las enseñanzas de idiomas, en la modalidad de educación a distancia, se impartirán en las Escuelas Oficiales de Idiomas ; excepcionalmente podrán autorizarse en centros de enseñanza secundaria y en centros públicos específicos de educación de personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Personal</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 12. Requisitos.</p>
+          <p class="parrafo_2">1. El personal que imparta enseñanzas conducentes a la obtención de un título académico o profesional de los establecidos en la LOGSE, deberá estar en posesión de la titulación y requisitos que determine la legislación vigente.</p>
+          <p class="parrafo">2. El personal que imparta otros programas formativos contará con la adecuada cualificación y especialización.</p>
+          <p class="parrafo">3. El personal dedicado a la educación de personas adultas, además de las actividades docentes que le son propias, colaborará en su orientación y promoción, junto con el personal orientador que la legislación determine.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 13. Puestos de trabajo.</p>
+          <p class="parrafo_2">Las plantillas de los centros establecerán las características de los puestos de trabajo, con indicación de los cuerpos concretos a que corresponde su provisión y los requisitos de titulación y especialización.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 14. Colaboradores.</p>
+          <p class="parrafo_2">En los centros públicos específicos de educación de personas adultas de Castilla y León podrá colaborar ocasionalmente y previo acuerdo de las partes, personal de otra administración o entidad distinta a la de la titularidad del centro, para un mejor desarrollo y extensión de los programas y ofertas formativas en su ámbito territorial.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 15. Formación del profesorado.</p>
+          <p class="parrafo_2">1. La Consejería competente en materia de Educación programará actividades específicas destinadas al profesorado de educación de personas adultas en sus centros de formación y podrá desarrollar programas de innovación para potenciar la investigación y el desarrollo de la educación de adultos en sus modalidades presencial y a distancia, además de favorecer el intercambio de experiencias, conocimientos y estudios entre los profesionales dedicados a la educación de adultos.</p>
+          <p class="parrafo">2. Las universidades y otras entidades autorizadas podrán impartir formación específica en materia de educación de personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">De los destinatarios y la participación</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 16. Destinatarios.</p>
+          <p class="parrafo_2">1. Serán destinatarios de los programas de educación de personas adultas:</p>
+          <p class="parrafo_2">a) Las personas que hayan superado la edad máxima de permanencia en los centros ordinarios para cursar la educación básica obligatoria fijada en el sistema educativo, en los programas destinados a adquirir la formación básica.</p>
+          <p class="parrafo">b) Las personas que tengan la edad mínima que se determine reglamentariamente, en los programas dirigidos a alcanzar otros niveles y grados del sistema educativo.</p>
+          <p class="parrafo">c) Las personas que hayan cumplido dieciocho años, para el resto de los programas formativos. Excepcionalmente y con los requisitos que se establezcan, podrán acceder a los programas que se determinen participantes menores de dieciocho años y mayores de dieciséis.</p>
+          <p class="parrafo_2">2. Se garantizará prioritariamente el acceso a los programas que se impartan en los centros específicos de educación de personas adultas, a las personas carentes de formación básica o que tengan dificultades para su inserción laboral.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 17. Participación.</p>
+          <p class="parrafo_2">1. Las personas adultas, que accedan a cualquiera de los programas desarrollados en los centros específicos, podrán participar en los órganos de representación que se establezcan.</p>
+          <p class="parrafo">2. La Administración educativa reglamentará los citados cauces de participación de todos los agentes que intervienen en el centro y facilitará la promoción del asociacionismo mediante la adopción de las medidas adecuadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 18. Consejo de Educación de Personas Adultas de Castilla y León.</p>
+          <p class="parrafo_2">El Consejo de Educación de Personas Adultas de Castilla y León es el órgano de participación y asesoramiento de las instituciones que intervienen en la educación de personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">De la financiación</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 19. Financiación.</p>
+          <p class="parrafo_2">1. La Ley de Presupuestos Generales de la Comunidad de Castilla y León consignará anualmente los créditos necesarios para el desarrollo y la consecución de los objetivos de esta Ley.</p>
+          <p class="parrafo">2. Los programas para personas adultas podrán financiarse con fondos procedentes de instituciones públicas o de procedencia privada.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Artículo 20. Colaboración con otras entidades.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Educación podrá establecer convenios de colaboración con otras Administraciones Públicas y entidades para la realización de programas de educación de personas adultas.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Disposición transitoria.</p>
+          <p class="parrafo_2">Los Centros, Círculos y Aulas de educación de adultos que, en el momento de la asunción de competencias educativas por la Comunidad de Castilla y León, estén autorizados para impartir las enseñanzas de graduado escolar, continuarán con dicha autorización hasta el momento de la desaparición de dichas enseñanzas.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo_2">En el plazo de seis meses desde la publicación de la presente Ley, la Junta de Castilla y León procederá a regular la estructura, organización y funcionamiento del Consejo de Educación de Personas Adultas de Castilla y León.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Educación aprobará el Reglamento Orgánico de Centros específicos de educación de personas adultas dentro de los seis meses siguientes a la publicación de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo_2">Se autoriza a la Junta de Castilla y León a dictar las disposiciones necesarias para el desarrollo y ejecución de lo dispuesto en esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfcuaa" tipo="precepto" titulo="Disposición final cuarta">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="articulo">Disposición final cuarta.</p>
+          <p class="parrafo_2">La presente Ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial de Castilla y León».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2002-9333" fecha_publicacion="20020422" fecha_vigencia="20020423">
+          <p class="parrafo_2">Por lo tanto, mando a todos los ciudadanos a los que sea de aplicación esta Ley la cumplan, y a todos los Tribunales y Autoridades que corresponda que la hagan cumplir.</p>
+          <p class="parrafo_2">Valladolid, a 9 de abril de 2002.</p>
+          <p class="firma_rey">JUAN VICENTE HERRERA CAMPO,<br/>Presidente.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

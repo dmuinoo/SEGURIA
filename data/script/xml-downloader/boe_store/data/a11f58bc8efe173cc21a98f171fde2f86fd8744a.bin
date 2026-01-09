@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T194117Z</fecha_actualizacion>
+      <identificador>BOE-A-2002-14421</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4310">Ministerio de Sanidad y Consumo</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20020701</fecha_disposicion>
+      <numero_oficial>SCO/1840/2002</numero_oficial>
+      <titulo>Orden SCO/1840/2002, de 1 de julio, por la que se publican los Estatutos Provisionales del Consejo General de Colegios de Protésicos Dentales.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20020718</fecha_publicacion>
+      <diario_numero>171</diario_numero>
+      <fecha_vigencia>20020719</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20240418</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2002/07/01/sco1840</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2002-14421</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="1459">Consejo General de Colegios de Protésicos Dentales</materia>
+        <materia codigo="5781">Protésicos dentales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2001-6007</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición transitoria 1 de la Ley 2/2001, de 26 de marzo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2024-7594</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 381/2024, de 16 de abril</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-14421</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sco1840</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1459"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5781"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-14421</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sco1840</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1459"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5781"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20240417"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20020718"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden SCO/1840/2002, de 1 de julio, por la que se publican los Estatutos Provisionales del Consejo General de Colegios de Protésicos Dentales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-18</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20240417">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-14421</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sco1840</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1459"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5781"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20240417/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden SCO/1840/2002, de 1 de julio, por la que se publican los Estatutos Provisionales del Consejo General de Colegios de Protésicos Dentales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20240417"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20240417/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20240417/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20020718">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-14421</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sco1840</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1459"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5781"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20020718/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden SCO/1840/2002, de 1 de julio, por la que se publican los Estatutos Provisionales del Consejo General de Colegios de Protésicos Dentales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20020718"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20020718/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2002/07/01/sco1840/con/20020718/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2024-7594" fecha_publicacion="20240417" fecha_vigencia="20240418">
+          <p class="siempreSeVe">Norma derogada, con efectos de 18 de abril de 2024, por la disposición derogatoria única del Real Decreto 381/2024, de 16 de abril. <a class="refPost">Ref. BOE-A-2024-7594#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="parrafo_2">La Ley 2/2001, de 26 de marzo, por la que se crea el Consejo General de Colegios de Protésicos Dentales, prevé en su disposición transitoria primera la constitución de una Comisión gestora, compuesta por un representante de cada uno de los Colegios de Protésicos Dentales existentes en el territorio nacional, que elaborará unos Estatutos Provisionales que incluyan las normas de constitución y funcionamiento de los Órganos de Gobierno de dicho Consejo General.</p>
+          <p class="parrafo">Elaborados, por dicha Comisión gestora, los indicados Estatutos Provisionales y verificada su adecuación a la legalidad, procede, conforme a lo previsto en el apartado tres de la citada disposición transitoria, ordenar su publicación en el «Boletín Oficial del Estado».</p>
+          <p class="parrafo">En su virtud dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Primero.</p>
+          <p class="parrafo">Publicar en el «Boletín Oficial del Estado» los Estatutos Provisionales del Consejo General de Colegios de Protésicos Dentales, que figuran como anexo a esta Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Segundo.</p>
+          <p class="parrafo">La Comisión gestora del Consejo General de Colegios de Protésicos Dentales remitirá a este Ministerio copia certificada de la convocatoria a que se refiere el artículo 23.1 de los Estatutos Provisionales. Se remitirá, asimismo, a este departamento, copia certificada del acta de la sesión constitutiva de la Asamblea general del Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Tercero.</p>
+          <p class="parrafo">Esta Orden y los Estatutos Provisionales que figuran en el anexo entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="parrafo_2">Madrid, 1 de julio de 2002.</p>
+          <p class="firma_ministro">VILLALOBOS TALERO</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">ESTATUTOS PROVISIONALES DEL CONSEJO GENERAL DE COLEGIOS DE PROTÉSICOS DENTALES</p>
+        </version>
+      </bloque>
+      <bloque id="disposicionesgenerales" tipo="encabezado" titulo="Disposiciones generales">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="titulo">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Naturaleza y Funciones</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 1. Naturaleza.</p>
+          <p class="parrafo">1. El Consejo General de Colegios de Protésicos Dentales de España es el órgano coordinador y representativo, tanto en el ámbito nacional como internacional, de los Colegios Profesionales de Protésicos Dentales existentes en España.</p>
+          <p class="parrafo">2. El Consejo General tiene la condición de Corporación de Derecho Público, con personalidad jurídica propia y plena capacidad de obrar para el cumplimiento de sus fines, de acuerdo con la Ley de Colegios Profesionales.</p>
+          <p class="parrafo">3. El domicilio del Consejo General de Colegios de Protésicos Dentales de España radicará en la capital de España temporalmente, sin perjuicio de que pueda cambiar y que se puedan celebrar reuniones en cualquier otro lugar del territorio español.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 2. Competencias y funciones.</p>
+          <p class="parrafo">Las competencias y funciones del Consejo General de Colegios de Protésicos Dentales son las que atribuye la Ley 2/1974 de 13 de febrero, de Colegios Profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Composición</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 3. Composición del Consejo General.</p>
+          <p class="parrafo">1. El Gobierno del Consejo General está presidido por los principios de democracia, autonomía y participación de sus miembros integrantes.</p>
+          <p class="parrafo">2. El Consejo General de Colegios de Protésicos Dentales de España está constituido por órganos colegiados y cargos unipersonales.</p>
+          <p class="parrafo">3. Los Órganos colegiados del Consejo General son:</p>
+          <p class="parrafo_2">a) La Asamblea general.</p>
+          <p class="parrafo">b) El Comité Ejecutivo.</p>
+          <p class="parrafo_2">4. Los cargos unipersonales del Consejo General, que en conjunto constituyen el Comité Ejecutivo, son:</p>
+          <p class="parrafo_2">a) El Presidente.</p>
+          <p class="parrafo">b) El Vicepresidente primero.</p>
+          <p class="parrafo">c) El Vicepresidente segundo.</p>
+          <p class="parrafo">d) El Secretario.</p>
+          <p class="parrafo">e) El Vicesecretario.</p>
+          <p class="parrafo">f) El Tesorero.</p>
+          <p class="parrafo">g) El Interventor de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De la Asamblea general</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 4. Competencias.</p>
+          <p class="parrafo">1. La Asamblea general es el órgano de representación de la colegiación en el Consejo General. Por consiguiente, asume todas las competencias de este que requieren contribución o participación directa de los colegiados, y en particular, las siguientes:</p>
+          <p class="parrafo_2">a) La aprobación de créditos extraordinarios para actuaciones que exigieran derramas de los colegiados.</p>
+          <p class="parrafo">b) Las funciones de carácter normativo con respecto a la colegiación, elaboración de los Estatutos, Código Deontológico y sus desarrollos en reglamentos y normativas correspondientes.</p>
+          <p class="parrafo">c) Establecer el marco de honorarios orientativos que garanticen una actuación profesional compatible con la calidad del servicio, sin perjuicio de los principios de libre competencia en el ejercicio profesional que declaran la ley de Colegios Profesionales y la Ley de Defensa de la Competencia.</p>
+          <p class="parrafo">d) Elegir al Comité Ejecutivo.</p>
+          <p class="parrafo">e) Cesar al Comité Ejecutivo o a algunos de sus cargos mediante la adopción de voto de reprobación o censura.</p>
+          <p class="parrafo">f) La aprobación de los presupuestos ordinarios y extraordinarios, y las cuentas anuales del Consejo General.</p>
+          <p class="parrafo">g) Designar al Comité Central de Ética.</p>
+          <p class="parrafo">h) Establecer el régimen de condecoraciones, premios y galardones, otorgados por el Consejo General.</p>
+          <p class="parrafo_2">2. Las decisiones de la Asamblea son vinculantes para todos los Colegios y para toda la estructura de la organización colegial.</p>
+          <p class="parrafo">3. La Asamblea general podrá delegar alguna de sus funciones en el Comité Ejecutivo.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 5. Composición y cuota de votos.</p>
+          <p class="parrafo">La Asamblea general está integrada por los siguientes miembros:</p>
+          <p class="parrafo_2">1. Los Presidentes de todos los Colegios Profesionales de Protésicos Dentales, que podrán estar representados por sus Vicepresidentes o el miembro de la Junta en quien deleguen, contando cada uno con un voto.</p>
+          <p class="parrafo">2. Los miembros del Comité Ejecutivo. Como tales no tendrán voto en las decisiones relativas a la Asamblea general, pero sí el de su Colegio respectivo.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 6. Reuniones.</p>
+          <p class="parrafo">1. La Asamblea se reunirá con carácter ordinario dos veces al año, sin perjuicio de poder ser convocada con carácter extraordinario cuantas veces sea necesario.</p>
+          <p class="parrafo">2. El Presidente deberá convocar la Asamblea con carácter extraordinario cuando así lo solicite:</p>
+          <p class="parrafo_2">a) El Comité Ejecutivo.</p>
+          <p class="parrafo">b) Un tercio de los miembros de la Asamblea previsto en el artículo 5.1.</p>
+          <p class="parrafo_2">3. La convocatoria se notificará por escrito junto con el Orden del día correspondiente, por la Secretaría General, por mandato de la Presidencia con, al menos, quince días de antelación, salvo en casos de urgencia, en que podrá realizarse por cualquier medio escrito que deje constancia, con cuarenta y ocho horas de anticipación.</p>
+          <p class="parrafo">4. Tanto las Asambleas ordinarias, como las extraordinarias se constituirán válidamente en primera convocatoria, cuando concurran la mayoría de sus miembros que representen la mayoría de los votos posibles y siempre que entre ellos se encuentren el Presidente y el Secretario o quienes les sustituyan. En segunda convocatoria, que deberá celebrarse después de transcurridos treinta minutos de la hora anunciada para la primera, quedará válidamente constituida cualquiera que sea el número de miembros presentes.</p>
+          <p class="parrafo">5. En caso de ausencia, los Presidentes de los Colegios podrán estar representados por los Vicepresidentes respectivos, o por el miembro de su Junta de Gobierno en quien hayan delegado expresa y especialmente para dicha Asamblea, debidamente acreditados.</p>
+          <p class="parrafo">6. Salvo disposición contraria en estos Estatutos, los acuerdos se adoptarán por mayoría simple de votos presentes y representados.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Del Comité Ejecutivo</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 7. Del Comité Ejecutivo.</p>
+          <p class="parrafo">Al Comité Ejecutivo le compete:</p>
+          <p class="parrafo_2">a) La representación oficial del Consejo General.</p>
+          <p class="parrafo">b) La ejecución de los acuerdos de la Asamblea general.</p>
+          <p class="parrafo">c) El control y supervisión de los órganos de expresión oficial del Consejo General.</p>
+          <p class="parrafo">d) La coordinación entre los Colegios Profesionales.</p>
+          <p class="parrafo">e) La elaboración de borradores de anteproyectos de reglamentos, códigos y demás normas de ámbito estatal.</p>
+          <p class="parrafo">f) La aprobación de los anteproyectos de presupuestos del Consejo General.</p>
+          <p class="parrafo">g) El cuidado y mantenimiento de los bienes inmuebles, mobiliario, instalaciones y patrimonio, en general, del Consejo.</p>
+          <p class="parrafo">h) La coordinación y el apoyo a las sociedades científicas vinculadas al Consejo.</p>
+          <p class="parrafo">i) La elaboración y emisión de informes sobre las propuestas legislativas de la Administración General del Estado.</p>
+          <p class="parrafo">j) La ejecución de los presupuestos del Consejo General.</p>
+          <p class="parrafo">k) Resolver los recursos ante el Consejo General, cuando sea competencia de este.</p>
+          <p class="parrafo">l) Ejercer las funciones disciplinarias que los Estatutos atribuyan al Consejo General, para lo que nombrará, en su caso, instructor y secretario, quienes instruirán el expediente y confeccionarán la propuesta de resolución que presentarán al Comité Ejecutivo.</p>
+          <p class="parrafo">m) Promover medidas de imagen de la profesión.</p>
+          <p class="parrafo">n) Informar a los Colegios de cuantas cuestiones les afecten.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 8. Reuniones.</p>
+          <p class="parrafo">1. El Comité Ejecutivo elaborará y aprobará un Reglamento para regular sus reuniones y organización de trabajo.</p>
+          <p class="parrafo">2. El Comité Ejecutivo deberá reunirse en pleno, como mínimo, una vez al mes, sin perjuicio de que pueda hacerlo, en pleno o en Comisión permanente, con mayor frecuencia.</p>
+          <p class="parrafo">3. La Comisión permanente estará constituida, al menos, por el Presidente o el Vicepresidente, el Secretario, el Tesorero y un Vocal, y entenderá, por delegación del Pleno del Comité, los asuntos que en el Reglamento se le deleguen.</p>
+          <p class="parrafo">4. Las convocatorias, con el orden del día, serán cursadas por el Secretario por cualquier medio de comunicación escrito, con una semana de antelación, salvo en casos de urgencia, en que podrá acortarse el plazo a veinticuatro horas.</p>
+          <p class="parrafo">5. Los acuerdos se adoptarán por mayoría simple, debiendo estar presentes como mínimo la mitad más uno de los miembros del Comité Ejecutivo.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">De los cargos unipersonales</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 9. Del Presidente.</p>
+          <p class="parrafo">1. Corresponde al Presidente:</p>
+          <p class="parrafo_2">a) Representar al Consejo General en todos los actos y contratos, así como ante las autoridades o Tribunales y Juzgados de la clase que sea, pudiendo otorgar los mandatos que sean necesarios.</p>
+          <p class="parrafo">b) Autorizar los informe y comunicaciones que hayan de cursarse, y ejecutar o hacer que se ejecuten los acuerdos adoptados por los órganos colegiados.</p>
+          <p class="parrafo">c) Autorizar las comunicaciones y escritos que por no ser de mero trámite le corresponde.</p>
+          <p class="parrafo">d) Visar, junto con el Tesorero o cualquier otra persona a la que el Comité Ejecutivo hubiera facultado expresamente para ello, los pagos para satisfacer las obligaciones del Consejo General y sus órganos filiales.</p>
+          <p class="parrafo">e) Autorizar actas y certificados que procedan.</p>
+          <p class="parrafo">f) Convocar, presidir y levantar las sesiones de los órganos colegiados, tanto ordinarias como extraordinarias, así como mantener el orden y otorgar el uso de la palabra, salvo que delegue expresamente en otro miembro de los mismos.</p>
+          <p class="parrafo">g) Nombrar por acuerdo del Comité Ejecutivo, las comisiones, ponencias y grupos de trabajo que estime necesarios para el mejor desarrollo de la función de la organización colegial y el estudio y resolución de los asuntos o intereses que competen al Consejo, pudiendo hacerlo directamente, en caso de urgencia, en cuyo caso dará cuenta al Comité Ejecutivo en la primera reunión de este que se celebre.</p>
+          <p class="parrafo">h) Presidir o delegar la presidencia de cualquier comisión, ponencia o grupo de trabajo.</p>
+          <p class="parrafo">i) Informar al Consejo y a sus miembros, con facultad de iniciativa, en todos cuantos asuntos sean de competencia del propio Consejo General.</p>
+          <p class="parrafo">j) Todas aquellas acciones que sean precisas para llevar a cabo el normal funcionamiento administrativo y económico del Consejo General.</p>
+          <p class="parrafo_2">2. El Presidente se esforzará específicamente en mantener la mayor armonía y hermandad entre los miembros del Consejo General, procurando que todo litigio entre los mismos, sea cual fuere la índole o naturaleza, se resuelva dentro de la organización colegial, y velará por que las actuaciones del Consejo y de los Colegios se atemperen a los fines de la coligación.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 10. De los Vicepresidentes.</p>
+          <p class="parrafo">1. El Vicepresidente primero llevará a cabo todas aquellas funciones que le confiera el Presidente, asumiendo las de este en caso de ausencia, enfermedad, abstención, recusación o vacante, sin necesidad de justificación ante terceros.</p>
+          <p class="parrafo">2. El Vicepresidente segundo llevará a cabo todas aquellas funciones que le confiera el Presidente, asumiendo las de este en caso de ausencia, enfermedad, abstención, recusación o vacante, del Presidente y del Vicepresidente primero, sin necesidad de justificación ante terceros.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 11. Del Secretario.</p>
+          <p class="parrafo">Corresponde al Secretario:</p>
+          <p class="parrafo_2">a) Velar por la ejecución de los acuerdos de los órganos colegiados, así como las resoluciones que, con arreglo a los Estatutos, dicte la Presidencia.</p>
+          <p class="parrafo">b) Custodiar la documentación del Colegio.</p>
+          <p class="parrafo">c) Realizar todas aquellas actividades tendentes a los fines señalados en los apartados anteriores.</p>
+          <p class="parrafo">d) Auxiliar en su misión al Presidente y orientar y promocionar cuantas iniciativas de orden técnico profesional deban adoptarse.</p>
+          <p class="parrafo">e) Extender las actas de las reuniones de los órganos colegiados del Consejo General, dar cuenta de las inmediatamente anteriores, para su aprobación en su caso, e informar, si procede, los asuntos que en tales reuniones deban tratarse y le encomiende el Presidente.</p>
+          <p class="parrafo">f) Llevar el censo de colegiados de España, en un fichero-registro con todos los datos y especificaciones oportunas.</p>
+          <p class="parrafo">g) Llevar los libros de actas necesarios, extender los certificados que procedan, así como las comunicaciones ordinarias y circulares que hayan sido, en su caso, autorizadas por los órganos colegiados o el Presidente.</p>
+          <p class="parrafo">h) Proponer y gestionar cuantos extremos sean conducentes a la buena marcha administrativa.</p>
+          <p class="parrafo">i) Dirigir las misiones que los Estatutos le atribuyen, y cualesquiera otras que el Comité Ejecutivo del Consejo le encomienden.</p>
+          <p class="parrafo">j) Asumir la jefatura del personal y de las dependencias del Consejo General.</p>
+          <p class="parrafo">k) Actuar con plenitud de atribuciones en el ejercicio de las funciones propias de su cargo. Para ello, podrá oír las orientaciones e informes que según la naturaleza de los asuntos a resolver, le faciliten la Dirección Ejecutiva, si la hubiera, la Asesoría Jurídica y cualesquiera otras asesoramientos que considere pertinente recabar. Estos informes, sin embargo, no serán vinculantes para el Secretario general.</p>
+          <p class="parrafo">l) Redactar la Memoria Anual.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 12. Del Vicesecretario.</p>
+          <p class="parrafo">El Vicesecretario llevará a cabo todas aquellas funciones que le confiera el Secretario, asumiendo las de este en caso de ausencia, enfermedad, abstención, recusación o vacante, sin necesidad de justificación ante terceros.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 13. Del Tesorero.</p>
+          <p class="parrafo">Corresponde al Tesorero:</p>
+          <p class="parrafo_2">a) Recaudar y custodiar bajo su responsabilidad los fondos pertenecientes al Consejo General, no pudiendo tener en caja cantidad superior a la que el Comité Ejecutivo acuerde.</p>
+          <p class="parrafo">b) Llevar, con las debidas formalidades, los libros de entrada y salida de fondos, debiendo conservar los justificantes de caja para presentarlos en cualquier momento que alguno de los miembros de los órganos colegiados lo solicite.</p>
+          <p class="parrafo">c) Formalizar todos los trimestres las correspondientes cuentas de ingresos y gastos, sometiéndolas a la aprobación del Comité Ejecutivo y dándole cuenta del estado de caja.</p>
+          <p class="parrafo">d) Ingresar y retirar fondos de las cuentas corrientes, firmando mancomunadamente con el Presidente, Vicepresidente, Secretario, o cualquier otra persona que el Comité Ejecutivo hubiera facultado expresamente.</p>
+          <p class="parrafo">e) Constituir y cancelar depósitos por acuerdo del Comité Ejecutivo uniendo su firma a la del Presidente.</p>
+          <p class="parrafo">f) Formalizar, sometiéndola a la aprobación del Comité Ejecutivo, la cuenta anual de ingresos y gastos del Consejo.</p>
+          <p class="parrafo">g) Formular el presupuesto de ingresos y gastos para el desenvolvimiento normal del Consejo durante el ejercicio económico siguiente.</p>
+          <p class="parrafo">h) Informar al Comité Ejecutivo, cuando se le requiera para ello, de la marcha económica del Consejo.</p>
+          <p class="parrafo">i) Examinar e informar todos los años la cuenta de Tesorería.</p>
+          <p class="parrafo">j) Hacer el inventario de muebles, enseres y efectos del Consejo, y dar cuenta anualmente de la entrada y salida, así como del deterioro de los mismos.</p>
+          <p class="parrafo">k) Presentar en las sesiones del Comité Ejecutivo la relación de los pagos que hayan de verificarse.</p>
+          <p class="parrafo">l) Aquellas otras funciones que le fueran encomendadas por el Comité Ejecutivo.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 14. Del Interventor de Cuentas.</p>
+          <p class="parrafo">Son funciones del Interventor el control interno de las finanzas y cuentas del Consejo General.</p>
+          <p class="parrafo">Asimismo, controlará los cobros y pagos e intervendrá todas las operaciones de ingreso y gasto.</p>
+          <p class="parrafo">Juntamente con el Tesorero, formará el proyecto de presupuestos y elaborará las cuentas generales para su aprobación en Junta General.</p>
+          <p class="parrafo">Asumirá las funciones del Tesorero en caso de ausencia, enfermedad, abstención, recusación o vacante, sin necesidad de justificación ante terceros.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 15. Posibilidad de remuneración de los cargos unipersonales.</p>
+          <p class="parrafo">Algunos de los cargos unipersonales del Consejo General podrán ser remunerados, a propuesta razonada del Comité Ejecutivo, a cuyos efectos se fijarán las partidas precisas en los presupuestos anuales, así como atender decorosamente los gastos de representación del Consejo y del Comité Ejecutivo.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Duración, cese y sustitución de cargos de los Órganos de Gobierno</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 16.</p>
+          <p class="parrafo">1. El mandato de los cargos del Comité Ejecutivo surgido de los Estatutos provisionales reguladores de los órganos de gobierno, en virtud de la Disposición Transitoria Primera de la Ley de Creación del Consejo General de Colegios de Protésicos Dentales, finalizará una vez aprobados los Estatutos generales, según el artículo 6.2 de la Ley de Colegios Profesionales, momento en que se abrirá el correspondiente proceso electoral, de conformidad con lo previsto en la Ley de creación y con lo que determinen los citados Estatutos generales.</p>
+          <p class="parrafo">2. Durante este período podrán cesar en sus cargos de los órganos de gobierno por las siguientes causas:</p>
+          <p class="parrafo_2">a) Renuncia personal voluntaria.</p>
+          <p class="parrafo">b) Pérdida de los requisitos estatutarios para desempeñar el cargo.</p>
+          <p class="parrafo">c) Falta de asistencia injustificada al 40 por 100 de las reuniones convocadas en un año.</p>
+          <p class="parrafo">d) Reprobación con arreglo a las normas de los presentes Estatutos provisionales.</p>
+          <p class="parrafo">e) Sanción disciplinaria firme por falta grave o muy grave, recaída por resolución firme administrativa, judicial o corporativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 17. Vacantes.</p>
+          <p class="parrafo">1. Si durante el período de vigencia de los presentes Estatutos provisionales reguladores de los órganos de gobierno, quedara vacante la Presidencia, asumirá sus funciones el Vicepresidente primero y en su defecto el Vicepresidente segundo.</p>
+          <p class="parrafo">2. Si quedare vacante cualquier otro cargo, incluido el de Vicepresidente segundo cuando este hubiera asumido la Vicepresidencia primera, su puesto será automáticamente asumido por el siguiente miembro en el orden de composición del Comité Ejecutivo. Para las vocalías, el Comité Ejecutivo propondrá a un colegiado que reúna las correspondientes condiciones de elegibilidad para ocuparlo hasta la finalización del período de mandato, si bien el nombramiento no será firme hasta su ratificación por la Asamblea, a la que deberá formularse la propuesta en su próxima reunión.</p>
+          <p class="parrafo">3. Si simultáneamente se produjeran vacantes en la Presidencia y Vicepresidencia primera y segunda, o en más de la mitad de los cargos de la Junta de Gobierno, inmediatamente, se procederá al correspondiente proceso electoral.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 18. Cuestión de confianza.</p>
+          <p class="parrafo">1. Cualquier cargo unipersonal o el Comité Ejecutivo en pleno podrán someterse voluntariamente, cuando se dieran circunstancias que a su juicio lo recomendaran, al voto de confianza de la Asamblea general.</p>
+          <p class="parrafo">2. Para la confianza, los miembros de la Asamblea a los que se refiere el artículo 5.1 contarán con un voto único.</p>
+          <p class="parrafo">3. La no superación de la cuestión de confianza tendrá la consideración de reprobación, y conllevará el cese en el cargo sometido a la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 19. Reprobación.</p>
+          <p class="parrafo">1. La Asamblea general podrá reprobar al Comité Ejecutivo o alguno de sus cargos.</p>
+          <p class="parrafo">2. La petición expresará con claridad las razones en las que se funda, y deberá ser suscrita al menos por un tercio de los miembros de la Asamblea.</p>
+          <p class="parrafo">3. Presentada la petición, el Presidente deberá convocar a la Asamblea general con carácter extraordinario, en el plazo máximo de un mes y con quince días de antelación a su celebración, como mínimo. De no hacerlo al cabo de tal plazo, quedará facultado para convocarla el miembro más antiguo de los solicitantes de la moción.</p>
+          <p class="parrafo">4. Para la reprobación, los miembros de la Asamblea a los que se refiere el artículo 5.1, contarán con un voto único.</p>
+          <p class="parrafo">5. Para que prospere la moción de reprobación, deberá ser aprobada por las dos terceras partes de los votos presentes y representados.</p>
+          <p class="parrafo">6. De prosperar la moción de reprobación, los cargos unipersonales reprobados cesarán en su mandato y, si con ello se dieran los supuestos contemplados en el artículo 17.3, se abrirá un proceso electoral, constituyéndose interinamente una Gestora que deberá convocar elecciones a los cargos unipersonales en un plazo máximo de quince días.</p>
+          <p class="parrafo">7. Los proponentes no podrán plantear más de una moción de reprobación a un mismo cargo en el término de un año.</p>
+        </version>
+      </bloque>
+      <bloque id="cvii" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Del régimen electoral</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 20.</p>
+          <p class="parrafo">El régimen electoral para los órganos de gobierno se regirá por lo dispuesto en los presentes Estatutos provisionales.</p>
+          <p class="parrafo">Las candidaturas se presentarán en listas cerradas, que serán votadas globalmente.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 21. Condiciones de elegibilidad.</p>
+          <p class="parrafo">1. Solo podrán optar a cualquiera de los cargos del Comité Ejecutivo las personas que designe su Colegio.</p>
+          <p class="parrafo">2. Ningún candidato podrá optar a más de un cargo del Consejo General.</p>
+          <p class="parrafo">3. No podrán ser candidatos quienes se encuentren inhabilitados para el ejercicio de la profesión o no gocen de la plenitud de sus derechos colegiales.</p>
+          <p class="parrafo">4. Los cargos del Comité Ejecutivo serán incompatibles con los cargos en cualquier tipo de asociaciones o federaciones de carácter empresarial.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 22. Electores.</p>
+          <p class="parrafo">1. Tendrán derecho a voto todos los miembros de la Asamblea, salvo el Comité Ejecutivo.</p>
+          <p class="parrafo">2. Los electores tienen derecho a votar de manera libre y secreta.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 23. Procedimiento de votación, escrutinio y proclamación de cargos y toma de posesión.</p>
+          <p class="parrafo">1. La convocatoria de elecciones deberá efectuarla la Comisión Gestora, treinta días naturales antes, como mínimo, de la fecha de su celebración y será enviada a los Presidentes de los colegios oficiales con la lista definitiva de miembros con derecho a participar en la Asamblea general. La convocatoria expresará el día, lugar y hora concreta en que se producirá la votación.</p>
+          <p class="parrafo">2. Los miembros de la Asamblea que deseen formular reclamación contra la lista de electores deberán formalizarla en el plazo de ocho días de haber sido enviada. Estas reclamaciones deberán ser resueltas por la Comisión Gestora del Consejo General dentro de los tres días siguientes al de la expiración del plazo para formularlas, y la resolución deberá ser notificada a cada reclamante dentro de los ocho días siguientes.</p>
+          <p class="parrafo">3. Las candidaturas deberán presentarse ante la secretaría de la Comisión Gestora dentro del plazo de un mes siguiente a aquel en que se haya hecho pública la convocatoria. Transcurrido dicho plazo, la Comisión Gestora, en el plazo de quince días hábiles siguientes, deberá hacer pública la relación de candidaturas presentadas. Siendo expresamente notificadas a los interesados cuyas candidaturas no fueran admitidas.</p>
+          <p class="parrafo">A partir de la proclamación, cualquier candidato excluido, dispone de un plazo de quince días hábiles para interponer recurso contra los acuerdos de proclamación ante la Comisión Gestora. En el mismo acto de interposición debe presentar las alegaciones que estime pertinentes acompañadas de los elementos de prueba oportunos. El plazo para interponer el recurso discurre a partir de la publicación de los candidatos proclamados, sin perjuicio de la preceptiva notificación a aquel o aquellos que hubieran sido excluidos. La resolución del recurso que pone a fin a la vía administrativa deberá resolverse en el plazo a de los dos días siguientes al de su interposición, debiendo notificarse a los interesados y quedando abierta a partir de ese momento la vía contencioso-administrtiva.</p>
+          <p class="parrafo">4. El día y hora fijada para las elecciones se constituirá en los locales señalados al efecto, la correspondiente Mesa electoral, que estará formada por un Presidente y un Secretario, que en ningún caso podrán tener la condición de candidatos a dicha elección, siendo el Presidente de la Mesa el protésico dental de más edad y el Secretario el de menor edad de entre los miembros de la Asamblea. Cada candidatura podrá designar entre los colegiados un interventor que la represente en las operaciones electorales. El interventor no podrá ser candidato.</p>
+          <p class="parrafo">5. Constituida la Mesa Electoral, el Presidente dará inicio a la sesión, y los asistentes a la Asamblea votarán utilizando exclusivamente una papeleta. Tras su identificación, se entregará la papeleta al Presidente, el cual la depositará en la urna en presencia del votante. El Secretario de la Mesa señalará en la lista de lectores los que vayan depositando su voto.</p>
+          <p class="parrafo">6. Acabada la votación se procederá al escrutinio. Serán declaradas nulas aquellas papeletas que contengan expresiones ajenas al estricto contenido de la votación o borrones o enmiendas que imposibilitaren la perfecta identificación de la voluntad del elector, así como aquellas que designen o nombren más de una candidatura o las que nombren candidaturas incompletas.</p>
+          <p class="parrafo">7. Finalizado el escrutinio, se levantará acta del desarrollo de la votación que será firmada por el Presidente y Secretario de la Mesa Electoral y los interventores. De dicha acta se dará copia a los interventores debidamente acreditados. Los electores, así como los interventores, podrán formular en el plazo de diez días hábiles cuantas reclamaciones o alegaciones consideren pertinentes, que serán resueltas por la Comisión Gestora en el plazo de dos igualmente hábiles. Resueltas las reclamaciones se procederá a la proclamación de candidatos.</p>
+          <p class="parrafo">8. Los miembros elegidos de la Junta de Gobierno tomarán posesión de los cargos tras la proclamación de la candidatura electa. En un plazo máximo de treinta días naturales, los nombramientos que se produzcan serán comunicados al Departamento correspondiente del Ministerio de Sanidad y Consumo.</p>
+        </version>
+      </bloque>
+      <bloque id="cviii" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 24. Competencias.</p>
+          <p class="parrafo">1. La economía del Consejo General es independiente de la de los Colegios Profesionales, con autonomía de gestión y financiación.</p>
+          <p class="parrafo">2. El Consejo General deberá aprobar un Reglamento General regulador de sus presupuestos, donde se establecerán los criterios generales de desagregación en objetivos, capítulos y cuentas, y los de limitación, vinculación y autorización de transferencias de créditos.</p>
+          <p class="parrafo">Su aprobación es competencia de la Asamblea general.</p>
+          <p class="parrafo">3. La aprobación de los presupuestos de cada ejercicio y de su normativa presupuestaria específica es competencia de la Asamblea general.</p>
+          <p class="parrafo">4. La aprobación de créditos extraordinarios para destinos específicos que comporten derramas colegiales es competencia de la Asamblea general.</p>
+          <p class="parrafo">5. El Consejo General dispondrá de los siguientes recursos económicos:</p>
+          <p class="parrafo_2">a) Las cuotas de cada colegio, que será determinada en orden al número de colegiados de cada uno, dividiendo su número de colegiados en tramos de doscientos colegiados, de modo que la cantidad a abonar por cada uno de los tramos sucesivos se verá disminuida en un 25 por 100 respecto del tramo anterior. La aportación por colegiado en cada tramo será la misma para cada colegio.</p>
+          <p class="parrafo">b) Por los bienes y derechos que constituyen su patrimonio.</p>
+          <p class="parrafo">c) Las subvenciones, donaciones y legados, así como cualquier otra cantidad que el Consejo pueda percibir.</p>
+          <p class="parrafo">d) Las derramas extraordinarias, que podrán determinarse en circunstancias excepcionales por el Consejo a cargo de los Colegios.</p>
+          <p class="parrafo">e) Los derechos por prestación de servicios y actividades y cuantos ingresos pueda percibir el Consejo con motivo de las mismas, así como el importe de los derechos económicos por certificaciones y cuantos documentos se expidan.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 25. Presupuestos y normativa presupuestaria.</p>
+          <p class="parrafo">1. El Comité Ejecutivo presentará a aprobación, ante la Asamblea general, el Proyecto de Presupuestos del Consejo General y su normativa específica, antes del inicio de cada ejercicio.</p>
+          <p class="parrafo">2. En caso de no aprobación, se considerarán automáticamente prorrogados los presupuestos del ejercicio anterior, en cuyo caso, el comité ejecutivo podrán establecer las restricciones de gasto que se hagan imprescindibles para mantener el equilibrio con la cuenta de ingresos.</p>
+          <p class="parrafo">3. Todo el ejercicio es período hábil para la aprobación de su presupuesto y para la aprobación de modificaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Artículo 26. Ejecución presupuestaria y control de cuentas.</p>
+          <p class="parrafo">1. La aprobación de las cuentas anuales corresponde a la Asamblea general. Será propuesta por el Comité Ejecutivo, con la correspondiente memoria explicativa, en el primer trimestre del año siguiente al ejercicio correspondiente.</p>
+          <p class="parrafo">2. La Asamblea general podrá nombrar a tres de sus respectivos miembros para que actúen como censores, previo a la aprobación de las cuentas de cada ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2002-14421" fecha_publicacion="20020718" fecha_vigencia="20020719">
+          <p class="articulo">Disposición transitoria única.</p>
+          <p class="parrafo">Según dispone la Ley 2/2001 de 26 de marzo, en el plazo de un año desde la constitución del Consejo General de Colegios de Protésicos Dentales se elaborarán unos Estatutos generales según lo previsto en el artículo 6.2 de la Ley de Colegios Profesionales, que serán sometidos a aprobación del Gobierno, a través del Ministerio de Sanidad y Consumo.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

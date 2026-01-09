@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165933Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-13082</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19980529</fecha_disposicion>
+      <numero_oficial>1062/1998</numero_oficial>
+      <titulo>Real Decreto 1062/1998, de 29 de mayo, por el que se establecen los requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980605</fecha_publicacion>
+      <diario_numero>134</diario_numero>
+      <fecha_vigencia>19980606</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1998/05/29/1062</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-13082</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1625">Consumo de energía</materia>
+        <materia codigo="3824">Frigoríficos</materia>
+        <materia codigo="5159">Normalización</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>DOUE-L-1996-81529</id_norma>
+            <relacion codigo="426">TRANSPONE</relacion>
+            <texto>la Directiva 96/57/CE, de 3 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1992-17363</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 21/1992, de 16 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1981-1898</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 82/1980, de 30 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2007-18398</id_norma>
+            <relacion codigo="407">SE AÑADE</relacion>
+            <texto>un art. 8, por Real Decreto 1369/2007, de 19 de octubre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13082</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1062</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1625"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3824"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13082</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1062</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1625"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3824"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/20071023"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/19980605"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1062/1998, de 29 de mayo, por el que se establecen los requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/20071023">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13082</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1062</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1625"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3824"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-10-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/20071023/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1062/1998, de 29 de mayo, por el que se establecen los requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/20071023"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/20071023/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/20071023/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/19980605">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13082</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1062</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1625"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3824"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5159"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/19980605/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1062/1998, de 29 de mayo, por el que se establecen los requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/19980605"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/19980605/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1998/05/29/1062/con/19980605/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="parrafo">Aprobada la Directiva del Parlamento Europeo y del Consejo 96/57/CE, de 3 de septiembre, relativa a la aproximación de las legislaciones de los Estados miembros sobre requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico (publicada en el «Diario Oficial de las Comunidades Europeas» número L236, de 18 de septiembre de 1996), se hace necesario establecer la correspondiente normativa interna, que debe comprender también la regulación y modificación de determinadas materias conexas derivadas de dicha aplicación.</p>
+          <p class="parrafo">El presente Real Decreto tiene por objeto trasponer al ordenamiento jurídico interno español la Directiva 96/57/CE, relativa a los requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico.</p>
+          <p class="parrafo">La Directiva 96/57/CE, del Parlamento Europeo y del Consejo, constituye una acción en el marco del programa SAVE, relativo a la promoción de la eficacia energética en la Unión Europea.</p>
+          <p class="parrafo">La Ley 82/1980, de 30 de diciembre, de Conservación de la Energía, establece las normas y principios básicos encaminados a potenciar el uso racional de la energía, habiéndose concretado en los sucesivos Planes Energéticos Nacionales los objetivos correspondientes.</p>
+          <p class="parrafo">Por último, la Ley 21/1992, de 16 de julio, de Industria, define el marco en el que ha de desenvolverse la actividad industrial, estableciendo los instrumentos necesarios para su puesta en aplicación, de conformidad con las competencias que correspondan a las distintas Administraciones públicas.</p>
+          <p class="parrafo">En su virtud, a propuesta de los Ministros de Industria y Energía y de Sanidad y Consumo, oídos los sectores afectados, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 29 de mayo de 1998,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 1. Objeto de la norma.</p>
+          <p class="parrafo">El presente Real Decreto tiene por objeto el establecimiento de los requisitos de rendimiento energético de los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">El presente Real Decreto se aplicará a los frigoríficos, muebles para el almacenamiento de alimentos congelados, congeladores de alimentos y aparatos combinados nuevos, de uso doméstico y conectados a la red eléctrica, tal como se definen en el anexo I, denominados en lo sucesivo «aparatos frigoríficos».</p>
+          <p class="parrafo">No obstante, quedan excluidos los aparatos frigoríficos que puedan alimentarse también mediante otras fuentes de energía y, en particular, mediante acumuladores, así como los aparatos frigoríficos de uso doméstico que funcionen por absorción y los aparatos fabricados según especificaciones particulares.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 3. Publicidad de normas de aplicación.</p>
+          <p class="parrafo">El Ministerio de Industria y Energía publicará en el «Boletín Oficial del Estado», mediante Resolución, la relación de normas españolas UNE relativas a los requisitos establecidos por el presente Real Decreto que incorporan las correspondientes normas europeas armonizadas y cuyas referencias hayan sido publicadas en el «Diario Oficial de las Comunidades Europeas».</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 4. Requisitos para la comercialización y entrada en servicio.</p>
+          <p class="parrafo">1. Los frigoríficos, congeladores y aparatos combinados eléctricos de uso doméstico que se comercializen en España deberán llevar el marcado «CE».</p>
+          <p class="parrafo">2. Cuando se trate de aparatos frigoríficos sujetos a otros requisitos exigibles en la Unión Europea, el marcado «CE» presupondrá que cumple también dichas exigencias.</p>
+          <p class="parrafo">No obstante, cuando la normativa en vigor autorice al fabricante a elegir, durante un período transitorio, el sistema que aplicará, el marcado «CE» señalará únicamente la conformidad con las normas aplicadas por el fabricante; debiendo en tal caso incluirse en los documentos, folletos o instrucciones relativos a los aparatos frigoríficos las referencias a las Directivas correspondientes, tal y como se publicaron en el «Diario Oficial de las Comunidades Europeas».</p>
+          <p class="parrafo">3. Desde la entrada en vigor del presente Real Decreto, sólo podrán comercializarse o entrar en servicio los aparatos frigoríficos cuyo consumo de electricidad sea inferior o igual al consumo máximo de electricidad autorizado para su categoría, calculado según los procedimientos definidos en el anexo I.</p>
+          <p class="parrafo">4. Los fabricantes de los aparatos frigoríficos objeto del presente Real Decreto, así como sus representantes o las personas responsables de la puesta en el mercado del aparato de que se trate, deberán velar por que cada aparato puesto en el mercado cumpla el requisito contemplado en el apartado anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 5. Marcado de los aparatos frigoríficos.</p>
+          <p class="parrafo">1. Cuando los aparatos sean puestos en el mercado, deberán llevar el marcado «CE». Ésta habrá de fijarse de manera visible, legible e indeleble en el aparato frigorífico y, en su caso, en el embalaje, de acuerdo con el modelo recogido en el anexo III.</p>
+          <p class="parrafo">2. Queda prohibido colocar en los aparatos frigoríficos marcados que puedan inducir a error a terceros en cuanto al significado y al logotipo del marcado «CE». Podrá colocarse cualquier otro marcado en los aparatos, los embalajes, las instrucciones de uso o en otros documentos, a condición de que no reduzca la legibilidad ni la visibilidad del marcado «CE».</p>
+          <p class="parrafo">3. Los procedimientos de evaluación de la conformidad y las obligaciones relativas al marcado «CE» de los aparatos frigoríficos se harán de acuerdo con lo establecido en el anexo II.</p>
+          <p class="parrafo">4. El órgano de la Comunidad Autónoma competente deberá llevar a cabo las actuaciones de restricción o prohibición de la comercialización en caso de utilización indebida del marcado «CE».</p>
+          <p class="parrafo">Cuando el órgano competente de la Comunidad Autónoma compruebe que se ha colocado indebidamente el marcado «CE», recaerá en el fabricante o en su mandatario autorizado establecido en la Unión Europa la obligación de restablecer la conformidad del producto y de poner fin a la infracción en las condiciones establecidas por la legislación vigente. Cuando ni el fabricante ni su representante estén establecidos en la Unión Europea, esta obligación corresponderá a la persona responsable de la puesta en el mercado comunitario del aparato frigorífico. En caso de que persistiera la no conformidad, el órgano competente de la Comunidad Autónoma adoptará todas las medidas necesarias para restringir o prohibir la puesta en el mercado del producto considerado o retirarlo del mercado.</p>
+          <p class="parrafo">La Comunidad Autónoma en el plazo de quince días pondrá en conocimiento de la Administración General del Estado, a través del Ministerio de Industria y Energía, la adopción de las medidas a que se refiere el párrafo anterior, quien lo comunicará a la Comisión Europea, por el cauce establecido, exponiendo de forma motivada las razones de su decisión.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 6. Puesta en el mercado.</p>
+          <p class="parrafo">Cualquier decisión tomada en aplicación del presente Real Decreto, que restrinja la puesta en el mercado de un aparato frigorífico, deberá indicar con precisión los motivos en que se basa. Tal decisión será notificada sin demora a la parte interesada, que será al mismo tiempo informada de los recursos existentes con arreglo a lo dispuesto en los artículos 114 a 119 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Artículo 7. Información de los resultados obtenidos.</p>
+          <p class="parrafo">Las Comunidades Autónomas remitirán anualmente al Ministerio de Industria y Energía, por el cauce legalmente establecido, informe sobre los resultados obtenidos y los progresos técnicos realizados durante los primeros cuatro años de aplicación del presente Real Decreto, y el Ministerio de Industria y Energía transmitirá a la Comisión Europea el correspondiente informe nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2007-18398" fecha_publicacion="20071023" fecha_vigencia="20071024">
+          <p class="articulo">Artículo 8. Medidas de ejecución.</p>
+          <p class="parrafo">El presente real decreto constituye una medida de ejecución, con respecto a la eficiencia energética, en el marco para el establecimiento de requisitos de diseño ecológico aplicables a los productos que utilizan energía.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por la disposición final 2 del Real Decreto 1369/2007, de 19 de octubre. <a class="refPost">Ref. BOE-A-2007-18398</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Disposición transitoria única. Comercialización.</p>
+          <p class="parrafo">Los aparatos frigoríficos que respeten las disposiciones nacionales vigentes en la fecha de entrada en vigor del presente Real Decreto podrán seguir comercializándose hasta el 3 de septiembre de 1999.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en el presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Disposición final primera. Habilitación normativa.</p>
+          <p class="parrafo">Se faculta a los Ministros de Industria y Energía y de Sanidad y Consumo para dictar las disposiciones necesarias para el desarrollo y cumplimiento del presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="parrafo_2">Dado en Madrid a 29 de mayo de 1998.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Vicepresidente Primero del Gobierno y Ministro de la Presidencia,</p>
+          <p class="firma_ministro">FRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+      <bloque id="ani" tipo="encabezado" titulo="ANEXO I">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Procedimiento de cálculo del consumo de electricidad máximo autorizado para un aparato frigorífico y procedimiento de verificación de la conformidad con este consumo máximo</p>
+          <p class="parrafo_2">El consumo de electricidad de un aparato frigorífico (que puede expresarse en kWh por veinticuatro horas) está en función del tipo de aparato (por ejemplo, frigorífico de una estrella, congelador de tipo arcón, etc.), de su volumen y del rendimiento energético del modelo (grosor de aislante, eficiencia del compresor, etc.) y la diferencia entre la temperatura que rodea al aparato y la de su interior. Por lo tanto, al establecer normas de rendimiento energético, deben tenerse en cuenta los principales factores endógenos que influyen en el consumo de energía (es decir, el tipo de aparato y su volumen). Por ello, los consumos máximos de electricidad autorizados para un determinado tipo de aparato frigorífico se definen mediante una ecuación lineal que es función del volumen del aparato, habiendo diferentes ecuaciones para cada categoría de aparato.</p>
+          <p class="parrafo">Por lo tanto, para calcular el consumo máximo de electricidad autorizado de un determinado aparato, habrá que situarlo en la categoría adecuada de la lista siguiente:</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cabeza_tabla">Categoría</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Descripción</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">1</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico sin compartimiento para alimentos congelados (1).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">2</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico-conservador de 5 ºC y/o 12 ºC .</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados sin estrellas.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">4</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados de una estrella (*).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">5</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados de dos estrellas (**).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">6</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados de tres estrellas (***).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">7</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico/congelador con compartimiento de congelación de cuatro estrellas (****).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">8</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Congelador vertical.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">9</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Congelador tipo arcón.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">10</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico/congelador con más de dos puertas, u otros aparatos no descritos entre los mencionados.</p>
+              </td>
+            </tr>
+          </table>
+          <p class="cita">(1) Todo compartimiento de una temperatura igual o inferior a –6 ºC.</p>
+          <p class="parrafo_2">Dado que los aparatos frigoríficos constan de diferentes compartimientos que se mantienen a temperaturas distintas (lo cual influye evidentemente en su consumo de electricidad), el consumo máximo de electricidad autorizado se define, de hecho, en función del volumen ajustado, que es una suma ponderada de los volúmenes de los diferentes compartimientos.</p>
+          <p class="parrafo">Así pues, a los efectos del presente Real Decreto, el volumen ajustado (V<sub>adj</sub>) de un aparato frigorífico se define como</p>
+          <p class="centro_redonda">V<sub>adj</sub> = Σ V<sub>c</sub> × W<sub>c</sub> × F<sub>c</sub> × C<sub>c</sub></p>
+          <p class="parrafo">W<sub>c</sub> = (25 – T<sub>c</sub>)/20</p>
+          <p class="parrafo_2">Siendo T<sub>c</sub> la temperatura nominal de cada compartimiento (en ºC).</p>
+          <p class="parrafo_2">Siendo V<sub>c</sub> el volumen neto de un determinado tipo de compartimiento del aparato y F<sub>c</sub> un factor igual a 1,2 para los compartimientos sin escarcha y a 1 para los demás compartimientos.</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">C<sub>c</sub> = 1</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">para frigoríficos que pertenezcan a las clases climáticas normales (N) y subnormales (SN)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">C<sub>c</sub> = X<sub>c</sub></p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">para frigoríficos que pertenezcan a la clase climática subtropical (ST)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">C<sub>c</sub> = Y<sub>c</sub></p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">para frigoríficos que pertenezcan a la clase climática tropical (T)</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">Los coeficientes de ponderación X<sub>c</sub> y Y<sub>c</sub> de los diferentes tipos de comportamientos son los siguientes:</p>
+          <p class="centro_redonda">Cuadro de los coeficientes de ponderación X<sub>c</sub> y Y<sub>c</sub> según la temperatura del compartimiento</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro"> </p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">X<sub>c</sub></p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Y<sub>c</sub></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento conservador</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,25</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,35</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento para alimentos frescos</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,20</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,30</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento 0 ºC</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,15</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,25</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento sin estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,15</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,25</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento de una estrella</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,12</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,20</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento de dos estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,08</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,15</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Compartimiento de tres y cuatro estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,05</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1,10</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">Tanto el volumen ajustado como el volumen neto se expresan en litros.</p>
+          <p class="parrafo_2">El consumo máximo de electricidad permisible E<sub>max</sub> (en kilowatios por veinticuatro horas aproximado a dos decimales), para un tipo de aparato con un volumen ajustado V<sub>adj</sub> para cada categoría de aparato se define mediante las siguientes ecuaciones:</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cabeza_tabla">Categoría</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Descripción</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">E<sub>max</sub> kWh/24 horas)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">1</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico sin compartimiento para alimentos congelados</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,207 x V<sub>adj </sub>+ 218)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">2</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico-conservador de 5 ºC y/o 12 ºC</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,207 x V<sub>adj </sub>+ 218)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico sin estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,207 x V<sub>adj </sub>+ 218)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">4</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados de una estrella</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,557 x V<sub>adj </sub>+ 166)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">5</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados de dos estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,402 x V<sub>adj </sub>+ 219)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">6</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con compartimiento para alimentos congelados de tres estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,573 x V<sub>adj </sub>+ 206)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">7</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Frigorífico con congelador de cuatro estrellas</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,697 x V<sub>adj </sub>+ 272)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">8</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Congelador vertical</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,434 x V<sub>adj </sub>+ 262)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_centro">9</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Congelador de arcón</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">(0,480 x V<sub>adj </sub>+ 195)/365</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">Para frigoríficos/congeladores con más de dos puertas, u otros aparatos no descritos entre los mencionados, el consumo máximo de electricidad permisible (E<sub>max</sub>) se determinará con arreglo a la temperatura y al número de estrellas del compartimiento cuya temperatura sea la más baja, del siguiente modo:</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cabeza_tabla">Temperatura del compartimiento más frío</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Categoría</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Emax kWh/24 h)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">&gt; –6 ºC</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">1/2/3</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">(0,207 x V<sub>adj</sub> + 218)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">≤ –6 ºC (*)</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">4</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">(0,557 x V<sub>adj</sub> + 166)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">≤ –12 ºC (**)</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">5</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">(0,402 x V<sub>adj</sub> + 219)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">≤ –18 ºC (***)</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">6</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">(0,573 x V<sub>adj</sub> + 206)/365</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">≤ –18 ºC (****)</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">7</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">(0,697 x V<sub>adj</sub> + 272)/365</p>
+              </td>
+            </tr>
+          </table>
+          <p class="centro_negrita">Procedimientos de ensayo para comprobar si el aparato se ajusta a los requisitos sobre consumo de electricidad que establece el presente Real Decreto</p>
+          <p class="parrafo">Cuando el consumo de electricidad de un aparato frigorífico sujeto a verificación sea menor o igual que el consumo máximo autorizado de electricidad (E<sub>max</sub>), tal como se define anteriormente, más un 15 por 100, quedará confirmado que dicho aparato se ajusta a los requisitos sobre consumo de electricidad que establece el presente Real Decreto. Si el consumo de electricidad del aparato es superior al consumo máximo autorizado de electricidad, más un 15 por 100, se medirá el consumo de electricidad de otros tres aparatos. Si la media aritmética del consumo de electricidad de dichos tres aparatos es menor o igual que el consumo máximo autorizado de electricidad, más el 10 por 100, se confirmará que el aparato se ajusta a los requisitos sobre consumo de electricidad que establece el presente Real Decreto. Si la media aritmética supera el consumo máximo autorizado de electricidad, más un 10 por 100, se juzgará que el aparato no se ajusta a dichos requisitos.</p>
+          <p class="parrafo_2">Definiciones:</p>
+          <p class="parrafo">Los términos que aparecen en el presente anexo están definidos con arreglo a la Norma Europea del Comité Europeo de Normalización EN 153, de julio de 1995.</p>
+        </version>
+      </bloque>
+      <bloque id="anii" tipo="encabezado" titulo="ANEXO II">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="anexo_num">ANEXO II</p>
+          <p class="anexo_tit">Procedimientos para la evaluación de la conformidad</p>
+          <p class="centro_negrita">(Módulo A)</p>
+          <p class="parrafo_2">1. Este módulo describe el procedimiento por el cual el fabricante, o su mandatario establecido en la Unión Europea, habiendo cumplido las obligaciones fijadas en el apartado 2, garantiza y declara que el aparato frigorífico cumple los requisitos del Real Decreto. El fabricante estampará el marcado «CE» en todos los aparatos frigoríficos que fabrique y extenderá una declaración escrita de conformidad.</p>
+          <p class="parrafo">2. El fabricante elaborará la documentación técnica que se describe en el apartado 3. El fabricante, o su mandatario establecido en la Unión Europea, deberá conservarla a disposición de las autoridades nacionales, con fines de inspección, durante un plazo de, por lo menos, tres años a partir de la última fecha de fabricación del aparato.</p>
+          <p class="parrafo">Cuando ni el fabricante ni su mandatario estén establecidos en la Unión Europea, la obligación de conservar disponible la documentación técnica corresponderá a la persona responsable de la puesta en el mercado comunitario del aparato frigorífico.</p>
+          <p class="parrafo">3. La documentación técnica deberá permitir la evaluación de la conformidad del aparato frigorífico con los requisitos del presente Real Decreto. Además, deberá cubrir el diseño, la fabricación y el funcionamiento del aparato frigorífico y, en la medida necesaria para la evaluación, deberá incluir:</p>
+          <p class="parrafo_2">a) Nombre y dirección del fabricante.</p>
+          <p class="parrafo">b) Descripción general del modelo suficiente para que pueda ser identificado sin ambigüedad.</p>
+          <p class="parrafo">c) Información, incluidos, cuando es necesario, planos de las principales características del modelo y, en particular, de los aspectos que afectan apreciablemente al consumo de electricidad, como las dimensiones, el volumen, las características del compresor, otras características especiales, etc.</p>
+          <p class="parrafo">d) Las instrucciones de uso, si existieren.</p>
+          <p class="parrafo">e) Los resultados de los ensayos para la medición del consumo de electricidad, con arreglo al apartado 5.</p>
+          <p class="parrafo">f) Detalles sobre la conformidad de estas exigencias de medición con los requisitos de consumo de energía indicados en el anexo I.</p>
+          <p class="parrafo_2">4. Podrá utilizarse la documentación técnica prescrita por otras normas comunitarias en la medida en que se ajuste a lo dispuesto en el presente anexo.</p>
+          <p class="parrafo">5. Los fabricantes de aparatos frigoríficos tendrán a su cargo la determinación del consumo de electricidad de todos los aparatos frigoríficos a los que se aplique el presente Real Decreto, de acuerdo con los procedimientos especificados en la Norma Europea EN 153, y el establecimiento de la conformidad del aparato con lo dispuesto en el artículo 2.</p>
+          <p class="parrafo">6. El fabricante o su representante conservarán, junto con la documentación técnica, una copia de la declaración de conformidad.</p>
+          <p class="parrafo">7. El fabricante adoptará todas las medidas necesarias para que el proceso de fabricación garantice la conformidad de los aparatos frigoríficos fabricados con la documentación técnica mencionada en el apartado 2 y con los requisitos del Real Decreto que les sean aplicables.</p>
+        </version>
+      </bloque>
+      <bloque id="aniii" tipo="encabezado" titulo="ANEXO III">
+        <version id_norma="BOE-A-1998-13082" fecha_publicacion="19980605" fecha_vigencia="19980606">
+          <p class="anexo_num">ANEXO III</p>
+          <p class="anexo_tit">Marcado «CE» de conformidad</p>
+          <p class="parrafo_2">El marcado «CE» de conformidad estará compuesto de las iniciales «CE» diseñadas de la siguiente manera:</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/2004/262/18571_001.png"/>
+          </p>
+          <p class="parrafo">En caso de reducirse o aumentarse el tamaño del marcado «CE» deberán conservarse las proporciones de este logotipo.</p>
+          <p class="parrafo">Los diferentes elementos del marcado «CE» deberán tener una dimensión vertical apreciablemente igual, que no será inferior a 5 mm.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T150903Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-8204</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19970414</fecha_disposicion>
+      <numero_oficial>489/1997</numero_oficial>
+      <titulo>Real Decreto 489/1997, de 14 de abril, sobre publicación de las Leyes en las lenguas cooficiales de las Comunidades Autónomas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19970417</fecha_publicacion>
+      <diario_numero>92</diario_numero>
+      <fecha_vigencia>19970418</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1997/04/14/489</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-8204</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="4757">Lenguas españolas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12666</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 6/1985, de 1 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1889-4763</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Código Civil de 24 de julio de 1889</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8204</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">489</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4757"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8204</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">489</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4757"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/con/19970417"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 489/1997, de 14 de abril, sobre publicación de las Leyes en las lenguas cooficiales de las Comunidades Autónomas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/con/19970417">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8204</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">489</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4757"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/con/19970417/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 489/1997, de 14 de abril, sobre publicación de las Leyes en las lenguas cooficiales de las Comunidades Autónomas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/con/19970417"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/489/con/19970417/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/489/con/19970417/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="parrafo">El artículo 3 de la Constitución Española dispone que el castellano es la lengua española oficial del Estado, y que todos los españoles tienen el deber de conocerla y el derecho a usarla. Este mismo precepto constitucional establece que las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas, de acuerdo con sus Estatutos. </p>
+          <p class="parrafo">De conformidad con estos principios constitucionales, nuestro ordenamiento jurídico contempla, en diferentes disposiciones legales, la utilización de las lenguas oficiales de las diversas Comunidades Autónomas, tanto en las relaciones entre la Administración y los ciudadanos como en las relaciones jurídico-privadas. Así, el artículo 231 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, regula la utilización de cualquiera de las lenguas oficiales dentro de la Comunidad Autónoma, en todas las actuaciones judiciales, siempre y cuando no se produzca indefensión, y el artículo 36 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, permite que los interesados elijan la lengua oficial en la que se tramitará el procedimiento ante los órganos de la Administración General del Estado radicados en la correspondiente Comunidad Autónoma. </p>
+          <p class="parrafo">En aplicación de los principios constitucionales expresados y en armonía con las pautas legales, antes reseñadas, parece aconsejable difundir y extender el conocimiento de la legislación del Estado mediante la utilización de aquellas otras lenguas que también tienen el carácter de oficiales en las diferentes Comunidades Autónomas. </p>
+          <p class="parrafo">Esta medida debe ser compatible, por elementales razones de seguridad jurídica, con el principio de univocidad del Derecho. </p>
+          <p class="parrafo">Dada la remisión expresa que la Constitución hace a los Estatutos de Autonomía como garantes de las lenguas oficiales de las diferentes Comunidades Autónomas, se considera conveniente facilitar la cooperación de éstas con la Administración General del Estado en todas las cuestiones relativas a la traducción, edición y distribución de los textos legales vertidos en las correspondientes lenguas vernáculas. A tal efecto, se contempla la posibilidad de suscribir convenios de colaboración, al amparo de lo establecido en el artículo 6 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común. </p>
+          <p class="parrafo">Debido a las dificultades objetivas que entraña la publicación de las disposiciones de carácter general en diferentes lenguas oficiales, se ha considerado prudente limitar inicialmente la medida al ámbito de las normas con rango de Ley. Contrastada esta primera experiencia, podrá considerarse la posibilidad de extender la medida a otras disposiciones de carácter reglamentario. </p>
+          <p class="parrafo">En su virtud, a propuesta del Vicepresidente Primero del Gobierno y Ministro de la Presidencia y previa deliberación del Consejo de Ministros en su reunión del día 4 de abril de 1997,</p>
+          <p class="centro_redonda">DISPONGO: </p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="articulo">Artículo 1. </p>
+          <p class="parrafo">1. Las Leyes, los Reales Decretos-leyes y los Reales Decretos legislativos, una vez sancionados por el Rey, serán publicados en castellano en el «Boletín Oficial del Estado», a efectos de lo previsto en el artículo 2.1 del Código Civil, derivándose, en consecuencia, de dicha publicación su plena eficacia, a tenor de lo previsto en el título preliminar del Código Civil. </p>
+          <p class="parrafo">2. Las disposiciones generales a que se refiere el apartado anterior podrán ser también publicadas en las demás lenguas oficiales de las diferentes Comunidades Autónomas, con arreglo a lo dispuesto en el artículo siguiente del presente Real Decreto, si así lo decidieran los órganos competentes de las respectivas Comunidades. </p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="articulo">Artículo 2. </p>
+          <p class="parrafo">1. En el marco de lo establecido en el artículo 6 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, el Gobierno de la Nación y los Órganos de Gobierno de las Comunidades Autónomas podrán suscribir convenios de colaboración a fin de cooperar en la traducción, edición y distribución de las publicaciones a que se refiere el apartado 2 del artículo 1 del presente Real Decreto. </p>
+          <p class="parrafo">2. La publicación de dichas disposiciones generales podrá efectuarse en el «Boletín Oficial del Estado» o en el Boletín propio de la Comunidad Autónoma, en los términos y plazos que se establezcan en el convenio de colaboración al que hace referencia el apartado 1 de este artículo. </p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="articulo">Disposición adicional única. </p>
+          <p class="parrafo">A efectos del ámbito de aplicación del presente Real Decreto, los convenios de colaboración previstos en el apartado 1 del artículo 2 podrán contemplar la posibilidad de incluir otras disposiciones de carácter general, a partir de los seis meses de la entrada en vigor del convenio. </p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="articulo">Disposición final primera. </p>
+          <p class="parrafo">Los presupuestos del Organismo autónomo Boletín Oficial del Estado se adaptarán a las previsiones contenidas en este Real Decreto. </p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="articulo">Disposición final segunda. </p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». </p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1997-8204" fecha_publicacion="19970417" fecha_vigencia="19970418">
+          <p class="parrafo_2">Dado en Madrid a 14 de abril de 1997. </p>
+          <p class="firma_rey">JUAN CARLOS R. </p>
+          <p class="firma_ministro">El Vicepresidente Primero del Gobierno y Ministro de la Presidencia,</p>
+          <p class="firma_ministro">FRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

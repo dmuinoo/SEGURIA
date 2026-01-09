@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180432Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-17588</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8131">Comunidad de Madrid</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19990429</fecha_disposicion>
+      <numero_oficial>15/1999</numero_oficial>
+      <titulo>Ley 15/1999, de 29 de abril, de las academias de ámbito de la Comunidad de Madrid.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990816</fecha_publicacion>
+      <diario_numero>195</diario_numero>
+      <fecha_vigencia>19990605</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-md/l/1999/04/29/15</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-17588</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="30">Academias</materia>
+        <materia codigo="4831">Madrid</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOCM núm. 131, de 4 de junio de 1999.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6317</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 26.1.1.20 del Estatuto aprobado por Ley Orgánica 3/1983, de 25 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-md"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-17588</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4831"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-md"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-17588</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4831"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/con/19990604"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 15/1999, de 29 de abril, de las academias de ámbito de la Comunidad de Madrid.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-08-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/con/19990604">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-md"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-17588</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/30"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4831"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-06-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/con/19990604/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 15/1999, de 29 de abril, de las academias de ámbito de la Comunidad de Madrid.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/con/19990604"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-md/l/1999/04/29/15/con/19990604/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-md/l/1999/04/29/15/con/19990604/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD DE MADRID</p>
+          <p class="parrafo_2">Hago saber que la Asamblea de Madrid ha aprobado la presente Ley, que yo, en nombre del Rey, promulgo.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Constitución Española encomienda a los poderes públicos promover la ciencia y la investigación en beneficio del interés general (artículo 44.2). Del mismo modo, el Estatuto de Autonomía de la Comunidad de Madrid señala como competencia exclusiva de las mismas el fomento de la cultura y la investigación científica y técnica (artículo 61.20). El derecho de asociación en sus múltiples manifestaciones ha de entenderse dentro de la defensa y promoción de la libertad y el pluralismo asociativo. Dado que la prosperidad de los pueblos guarda directa relación con el cultivo de las artes, las ciencias y las humanidades, las academias llevan a cabo una importante labor en el desarrollo de éstas.</p>
+          <p class="parrafo">De otra parte, las academias se vienen conceptuando como instituciones integradas por expertos en materias científicas, literarias, artísticas y humanísticas en general, dedicadas al estudio e investigación de la materia correspondiente y con cierta relevancia pública, que se traduce, normalmente, en el carácter público de su personalidad jurídica, en la intervención de la Administración de su creación o reconocimiento como tal corporación pública e incluso en el ejercicio de funciones públicas delegadas de la Administración. Estas entidades han sido desde su creación cuerpos asesores de las Administraciones y exponentes destacados de la cultura en sus diversos campos.</p>
+          <p class="parrafo">La Comunidad de Madrid pretende a través de la presente Ley fomentar y apoyar a las distintas academias científicas, artísticas, literarias y humanísticas de ámbito autonómico, regulando su estatuto jurídico, en ejercicio de la competencia exclusiva de la Comunidad de Madrid en materia de fomento de la cultura y de la investigación científica y técnica contemplada en el artículo 26.1.1.20 del Estatuto de Autonomía, si bien con estricto respeto de su autonomía organizativa y libertad intelectual.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 1. Ámbito de aplicación.</p>
+          <p class="parrafo">1. La presente Ley será de aplicación a las academias que, teniendo su sede en la Comunidad de Madrid, desarrollen su actividad específica principal en el territorio de la misma, sin perjuicio de la extraterritorialidad de otras actividades secundarias directamente relacionadas con aquélla.</p>
+          <p class="parrafo">2. Quedan excluidas de la aplicación de la presente Ley las Reales Academias integradas en el Instituto de España y las que, con idéntica condición, fueran incorporadas al mismo en el futuro, que se regirán por su propia normativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 2. Definición.</p>
+          <p class="parrafo">A los efectos de la presente Ley son academias las corporaciones de derecho público que tienen como finalidad principal la investigación, y el ensayo en el campo de las ciencias, las artes o las letras, excluyéndose expresamente la obtención de beneficios económicos a fin de distribuirlos posteriormente entre sus socios.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 3. Régimen estatutario.</p>
+          <p class="parrafo">Las academias se regirán por sus estatutos, que deberán contener como mínimo su denominación, domicilio, finalidad, medios institucionales y económicos, organización corporativa necesaria para su funcionamiento y derechos y deberes de los académicos.</p>
+          <p class="parrafo">Una vez aprobados los Estatutos podrán ser elevados a escritura pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 4. Creación o reconocimiento.</p>
+          <p class="parrafo">1. La creación o reconocimiento de las academias y la aprobación de sus estatutos se realizará por Decreto del Gobierno, debiendo publicarse en el «Boletín Oficial de la Comunidad de Madrid», previa verificación de que en los mismos se garantiza el libre ejercicio de los derechos de sus miembros.</p>
+          <p class="parrafo">2. La creación o reconocimiento y la aprobación de los estatutos de las academias que se dediquen a las áreas del saber y la creación relacionadas con las propias de las Reales Academias integradas en el Instituto de España, exigirá dictamen preceptivo favorable del Instituto de España y la previa atribución por éste a la academia cuya creación o reconocimiento se pretende de la condición de academia asociada al mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 5. Atribuciones de la Comunidad de Madrid.</p>
+          <p class="parrafo">1. Las funciones administrativas inherentes a la institución y régimen jurídico del funcionamiento de las academias corresponde a la Consejería competente en materia de cultura.</p>
+          <p class="parrafo">2. Las funciones de fomento, ayuda y, en su caso, de coordinación de las academias, corresponde a las Consejerías que sean competentes en virtud de las finalidades que cada una se proponga.</p>
+          <p class="parrafo">3. La Comunidad de Madrid velará por facilitar la máxima información sobre las actividades de la academia a las que se refiere esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 6. Registro.</p>
+          <p class="parrafo">Se crea en la Consejería competente en materia de cultura el Registro de academias, con carácter de registro administrativo público, donde se inscribirán los actos de creación, reconocimiento o extinción, los estatutos y sus modificaciones y los órganos de Gobierno y dirección de aquéllas.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 7. Uso de la denominación de academias.</p>
+          <p class="parrafo">1. A partir de la entrada en vigor de la presente Ley, la denominación de academia sólo podrá ser utilizada por aquellas que, creadas o reconocidas conforme a lo previsto en la presente Ley, consten inscritas en el Registro a que se refiere el artículo anterior.</p>
+          <p class="parrafo">2. No se creará o reconocerá más que una academia en cada campo del saber ni con la misma denominación.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Artículo 8. Funciones de las academias.</p>
+          <p class="parrafo">Además de las funciones previstas en sus estatutos, las academias podrán actuar como órganos asesores de la Comunidad de Madrid y, en su caso, de las Corporaciones Locales, en las materias propias de su finalidad institucional.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">Las academias creadas o reconocidas al amparo de la presente Ley, fuera del ámbito territorial de la Comunidad de Madrid, tendrán la consideración que la legislación del Estado les atribuya.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Las referencias de la presente Ley a instituciones, entidades y órganos se entienden efectuadas a las que en cada momento sean competentes.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">Las academias creadas conforme a esta Ley tendrán, fuera de la Comunidad de Madrid, la consideración que la legislación del Estado les atribuya.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Disposición transitoria única.</p>
+          <p class="parrafo">Se reconoce el carácter de corporaciones de derecho público de las academias ya constituidas, a las que el Instituto de España haya reconocido su condición de academias asociadas y que se encuentran en el ámbito de aplicación de la presente Ley. Dichas academias deberán solicitar su inscripción en el Registro en el plazo de seis meses desde la entrada en vigor de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza a las Consejerías afectadas por la presente Ley para que, en el ámbito de sus competencias, dicten o adopten las disposiciones y medidas necesarias para el desarrollo, eficacia y ejecución de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La presente Ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial de la Comunidad de Madrid», debiendo publicarse, asimismo, en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1999-17588" fecha_publicacion="19990604" fecha_vigencia="19990605">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a los que sea de aplicación esta Ley que la cumplan, y a los Tribunales y Autoridades que corresponda, la guarden y la hagan guardar.</p>
+          <p class="parrafo_2">Madrid, a 29 de abril de 1999.</p>
+          <p class="firma_ministro">ALBERTO RUIZ-GALLARDÓN,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

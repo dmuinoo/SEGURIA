@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190421Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-2343</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20010119</fecha_disposicion>
+      <numero_oficial>37/2001</numero_oficial>
+      <titulo>Real Decreto 37/2001, de 19 de enero, por el que se actualiza la cuantía de las indemnizaciones por daños previstas en la Ley 48/1960, de 21 de julio, de Navegación Aérea.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20010202</fecha_publicacion>
+      <diario_numero>29</diario_numero>
+      <fecha_vigencia>20010502</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2001/01/19/37</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-2343</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="100">Aeronaves</materia>
+        <materia codigo="4136">Indemnizaciones</materia>
+        <materia codigo="4935">Mercancías</materia>
+        <materia codigo="5144">Navegación aérea</materia>
+        <materia codigo="6933">Transportes aéreos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-23967</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 2333/1983, de 4 de agosto</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1960-10905</id_norma>
+            <relacion codigo="404">ACTUALIZA</relacion>
+            <texto>las cuantías de los arts. 117, 118 y 119 de la Ley 48/1960, de 21 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-1997-81943</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento (CE) 2027/97, de 9 de octubre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-2343</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-19</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4136"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4935"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6933"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-2343</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4136"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4935"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6933"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/con/20010202"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 37/2001, de 19 de enero, por el que se actualiza la cuantía de las indemnizaciones por daños previstas en la Ley 48/1960, de 21 de julio, de Navegación Aérea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-02-02</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/con/20010202">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-2343</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/100"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4136"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4935"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5144"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6933"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-02-02</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/con/20010202/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 37/2001, de 19 de enero, por el que se actualiza la cuantía de las indemnizaciones por daños previstas en la Ley 48/1960, de 21 de julio, de Navegación Aérea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/con/20010202"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/01/19/37/con/20010202/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/01/19/37/con/20010202/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="parrafo">La Ley 48/1960, de 21 de julio, de Navegación Aérea, regula en el capítulo XIII la responsabilidad por daños en el transporte de viajeros, equipajes y mercancías, así como por los que causen a las personas o a las cosas en la superficie terrestre, por acción de la aeronave o por cuanto de la misma se desprenda o arroje. Las disposiciones finales segunda y cuarta de dicha Ley autorizan al Gobierno a revisar los importes de las indemnizaciones establecidas al respecto, en función de las circunstancias económicas.</p>
+          <p class="parrafo">En ejecución de la disposición final segunda de la citada Ley, las cuantías de las indemnizaciones recogidas en este capítulo fueron actualizadas por el Real Decreto 2333/1983, de 4 de agosto.</p>
+          <p class="parrafo">Para las indemnizaciones relativas a pasajeros, las cuantías que ahora se elevan, lo hacen teniendo en cuenta las establecidas para las compañías aéreas de la Unión Europea en el Reglamento (CE) 2027/1997, del Consejo, de 9 de octubre, sobre responsabilidad de las compañías aéreas en caso de accidente, que aplica un sistema uniforme dentro de su ámbito.</p>
+          <p class="parrafo">Para las indemnizaciones relativas a equipajes y mercancías, la elevación de los límites de la responsabilidad responde a la tendencia que se viene produciendo en el ámbito internacional, reflejada en los importes que recoge el Convenio para la unificación de ciertas reglas para el transporte aéreo internacional, concluido en Montreal el 28 de mayo de 1999 y firmado por España el 14 de enero de 2000.</p>
+          <p class="parrafo">Asimismo, en lo que se refiere a las indemnizaciones relativas a daños que se causen a las personas o a las cosas en la superficie terrestre por acción de la aeronave o por cuanto de la misma se desprenda o arroje, el Convenio de Roma de 7 de octubre de 1952, que regula este tipo de daños, no resulta ya el referente adecuado, por lo que se han tenido en cuenta las cuantías aplicables en los países de nuestro entorno.</p>
+          <p class="parrafo">En consecuencia, al objeto de aproximar los límites de las cuantías indemnizatorias recogidas en los ámbitos europeo e internacional señalados y las establecidas en el ámbito interno español, es preciso actualizar nuevamente dichas cuantías.</p>
+          <p class="parrafo">Con el fin de garantizar la equivalencia de los nuevos importes de las indemnizaciones que se establecen en este Real Decreto, con los fijados en las normas internacionales tomadas como referencia, se ha optado por expresar su valor en derechos especiales de giro, según la definición del Fondo Monetario Internacional.</p>
+          <p class="parrafo">A efectos de responsabilidad por daños causados a terceros en la superficie, se ha diferenciado una nueva cuantía para aeronaves de hasta 500 kilogramos, al objeto de tener en cuenta el amplio desarrollo alcanzado por la aviación ligera, sus especiales características y sus límites y restricciones operacionales.</p>
+          <p class="parrafo">Por otra parte, se ha considerado necesario establecer la aplicación de las indemnizaciones recogidas en el artículo 1 de este Real Decreto, a los alumnos pilotos, a los ocupantes de vuelos de iniciación o panorámicos que no constituyen transporte y a los ocupantes de aeronaves dedicadas a trabajos aéreos comerciales que no formen parte de la tripulación.</p>
+          <p class="parrafo">Asimismo, se establecen requisitos para asegurar la adecuada información a los interesados y a los usuarios sobre las indemnizaciones que correspondan cuando se produzcan daños.</p>
+          <p class="parrafo_2">En su virtud, a propuesta del Ministro de Fomento, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión de 19 de enero de 2001,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Artículo 1. Indemnizaciones relativas a pasajeros.</p>
+          <p class="parrafo">A los efectos previstos en el artículo 117 de la Ley 48/1960, de 21 de julio, de Navegación Aérea, las indemnizaciones a favor del viajero que deberán abonar las compañías aéreas no sujetas a la aplicación del Reglamento (CE) 2027/1997, del Consejo, de 9 de octubre, sobre responsabilidad de las compañías aéreas en caso de accidente, que aplica un sistema uniforme dentro de su ámbito serán, en su equivalencia en pesetas o euros, las siguientes:</p>
+          <p class="parrafo_2">1.<sup>a</sup> Por muerte o incapacidad total permanente: 100.000 derechos especiales de giro.</p>
+          <p class="parrafo">2.<sup>a</sup> Por incapacidad parcial permanente, hasta el límite de 58.000 derechos especiales de giro.</p>
+          <p class="parrafo">3.<sup>a</sup> Por incapacidad parcial temporal, hasta el límite de 29.000 derechos especiales de giro.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Artículo 2. Indemnizaciones relativas a ocupantes de vuelos que no constituyen transporte.</p>
+          <p class="parrafo">Las entidades dedicadas a la formación de pilotos y las entidades que realizan vuelos de iniciación o panorámicos, cuando éstos no suponen transporte, al tener un ámbito local con salida y llegada en el mismo aeródromo, serán responsables de los daños corporales que se ocasionen, respectivamente, a los alumnos con tarjeta de alumno piloto expedida por la Dirección General de Aviación Civil o a los ocupantes que no formen parte de la tripulación, siempre que los daños se ocasionen a dichas personas mientras se encuentran a bordo o por acción de las aeronaves empleadas en las referidas actividades, o bien como consecuencia de las operaciones de embarque y desembarque.</p>
+          <p class="parrafo">Asimismo, las empresas que realicen trabajos aéreos técnicos o científicos de carácter comercial serán igualmente responsables en relación con los daños corporales que se ocasionen a los técnicos especialistas en trabajos aéreos, tales como fotógrafos, agrimensores, miembros de cuadrillas de extinción de incendios u otros técnicos, ocupantes de las aeronaves dedicadas a dichas operaciones, que no formen parte de la tripulación.</p>
+          <p class="parrafo">Las entidades y empresas mencionadas estarán obligadas a suscribir seguros que cubran dicha responsabilidad.</p>
+          <p class="parrafo">Las indemnizaciones a favor de las personas a que se refiere este artículo serán las mismas que las que se establecen para los viajeros en el artículo 1 de este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Artículo 3. Indemnizaciones relativas a equipajes y mercancías.</p>
+          <p class="parrafo">A los efectos previstos en el artículo 118 de la Ley 48/1960, las indemnizaciones respecto a la carga o equipaje facturado o de mano serán, en su equivalencia en pesetas o euros, las siguientes:</p>
+          <p class="parrafo_2">1.<sup>a</sup> Por pérdida o avería de la carga, hasta el límite de 17 derechos especiales de giro por kilogramo de peso bruto.</p>
+          <p class="parrafo">2.<sup>a</sup> Por pérdida o avería de equipajes, facturados o de mano, hasta el límite de 500 derechos especiales de giro por unidad.</p>
+          <p class="parrafo">3.<sup>a</sup> Por retraso en la entrega de la carga o equipaje facturado, hasta el límite de una cantidad equivalente al precio del transporte.</p>
+          <p class="parrafo_2">Si la carga o equipaje facturado o de mano se transporta bajo manifestación de valor declarado, aceptado por el transportista, el límite de responsabilidad corresponde a ese valor.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Artículo 4. Indemnizaciones relativas a daños en la superficie.</p>
+          <p class="parrafo">Son indemnizables los daños que se causen a las personas o a las cosas que se encuentren en la superficie terrestre por la acción de la aeronave, en vuelo o en tierra, o por cuanto de ella se desprenda o arroje.</p>
+          <p class="parrafo">A los efectos previstos en el artículo 119 de la Ley 48/1960, las indemnizaciones debidas, por aeronave y accidente, estarán limitadas al importe equivalente en pesetas o euros de las que a continuación se establecen:</p>
+          <p class="parrafo_2">1.<sup>a</sup> Para aeronaves de hasta 500 kilogramos de peso bruto, 220.000 derechos especiales de giro.</p>
+          <p class="parrafo">2.<sup>a</sup> Para aeronaves de peso bruto mayor de 500 kilogramos y hasta 1.000 kilogramos, 660.000 derechos especiales de giro.</p>
+          <p class="parrafo">3.<sup>a</sup> 660.000 derechos especiales de giro, más 520 derechos especiales de giro por kilogramo que exceda de los 1.000, para aeronaves que pesen más de 1.000 y no excedan de 6.000 kilogramos.</p>
+          <p class="parrafo">4.<sup>a</sup> 3.260.000 derechos especiales de giro, más 330 derechos especiales de giro por kilogramo que exceda de los 6.000, para aeronaves que pesen más de 6.000 y no excedan de 20.000 kilogramos.</p>
+          <p class="parrafo">5.<sup>a</sup> 7.880.000 derechos especiales de giro, más 190 derechos especiales de giro por kilogramo que exceda de 20.000, para aeronaves que pesen más de 20.000 y no excedan de 50.000 kilogramos.</p>
+          <p class="parrafo">6.<sup>a</sup> 13.580.000 derechos especiales de giro, más 130 derechos especiales de giro por kilogramo que exceda de los 50.000, para aeronaves que pesen más de 50.000 kilogramos.</p>
+          <p class="parrafo_2">Se entiende como peso de la aeronave, a los efectos de este artículo, el máximo autorizado para el despegue en el certificado de aeronavegabilidad de la aeronave de que se trate.</p>
+          <p class="parrafo">Las indemnizaciones por muerte o lesiones de personas se ajustarán a lo dispuesto en el artículo 1 de este Real Decreto, incrementadas en un 20 por 100. Si fuesen varios los perjudicados y la suma global de los daños causados excediera de los límites antes citados, se reducirá proporcionalmente la cantidad que haya de percibir cada uno.</p>
+          <p class="parrafo">No obstante, las indemnizaciones debidas por daños a las personas gozarán de preferencia para el cobro con respecto a cualquier otra exigible por el siniestro, si el responsable no alcanza a cubrirlas todas.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Artículo 5. Estipulación sobre los límites.</p>
+          <p class="parrafo">No obstante las limitaciones de las indemnizaciones que se establecen en esta disposición, los obligados a asegurar sus responsabilidades podrán estipular límites más elevados o bien la responsabilidad ilimitada.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Artículo 6. Obligación de informar.</p>
+          <p class="parrafo">Las compañías aéreas, empresas y entidades que realicen las actividades previstas en este Real Decreto, estarán obligadas a proporcionar información a las personas interesadas y a los usuarios sobre la cuantía de las indemnizaciones aplicables en cada caso, expresando necesariamente su equivalencia en pesetas o euros.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 2333/1983, de 4 de agosto, por el que se actualiza la cuantía de las indemnizaciones por daños.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Disposición final primera. Facultad de desarrollo.</p>
+          <p class="parrafo">Se autoriza al Ministro de Fomento a dictar las disposiciones necesarias para el desarrollo de este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">Este Real Decreto entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2001-2343" fecha_publicacion="20010202" fecha_vigencia="20010502">
+          <p class="parrafo_2">Dado en Madrid a 19 de enero de 2001.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Fomento,</p>
+          <p class="firma_ministro">FRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

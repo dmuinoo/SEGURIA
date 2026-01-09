@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T151020Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-21605</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7786">Presidencia del Gobierno</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19971010</fecha_disposicion>
+      <numero_oficial>1560/1997</numero_oficial>
+      <titulo>Real Decreto 1560/1997, de 10 de octubre, por el que se regula el Himno Nacional.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19971011</fecha_publicacion>
+      <diario_numero>244</diario_numero>
+      <fecha_vigencia>19971011</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1997/10/10/1560</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-21605</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4009">Himno Nacional</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1942-6608</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto de 17 de julio de 1942 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>lo indicado de la Real Orden Circular de 27 de agosto de 1908 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1997-21524</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1543/1997, de 3 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1987-25628</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 22/1987, de 11 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1964-6135</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley de Bases del Patrimonio del Estado, texto articulado aprobado por Decreto 1022/1964, de 15 de abril</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-1997-22261</id_norma>
+            <relacion codigo="202">CORRECCIÓN de erratas</relacion>
+            <texto>en BOE núm. 253, de 22 de octubre de 1997</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-21605</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-10</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1560</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4009"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-21605</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1560</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4009"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/corrigendum/19971022/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/con/19971011"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1560/1997, de 10 de octubre, por el que se regula el Himno Nacional.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/con/19971011">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-21605</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-10</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1560</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4009"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/con/19971011/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1560/1997, de 10 de octubre, por el que se regula el Himno Nacional.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/con/19971011"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/10/10/1560/con/19971011/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/10/10/1560/con/19971011/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="textoCompleto">Incluye la corrección de erratas publicada en BOE núm. 253, de 22 de octubre de 1997. <a class="refPost">Ref. BOE-A-1997-22261</a>.</p>
+          <p> </p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="parrafo">De conformidad con lo previsto en el artículo 97 de la Ley del Patrimonio del Estado de 15 de abril de 1964, y en el artículo 43 de la Ley de Propiedad Intelectual de 12 de abril de 1996, el Real Decreto 1543/1997, de 3 de octubre, dispuso la adquisición exclusiva por el Estado de los derechos de explotación de la obra tradicionalmente conocida como «Marcha Granadera» o «Marcha Real Española».</p>
+          <p class="parrafo">Dada la naturaleza de esta obra, resulta oportuno regular, asimismo, su carácter y utilización como himno nacional de España y establecer, formalmente, la partitura oficial, sus diferentes versiones y las distintas modalidades de interpretación.</p>
+          <p class="parrafo">En su virtud, a propuesta del Presidente del Gobierno y previa deliberación del Consejo de Ministros en su reunión del día 10 de octubre de 1997,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">El himno nacional de España es el conocido tradicionalmente por «Marcha Granadera» o «Marcha Real Española». Su partitura oficial será la que figura en el anexo del presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">El himno nacional de España se interpretará de acuerdo con las siguientes directrices:</p>
+          <p class="parrafo_2">a) Constará técnicamente de una frase de dieciséis compases, dividida en dos secciones, cada una de las cuales tendrá cuatro compases repetidos. La indicación metronómica será de negra igual a setenta y seis y la tonalidad de Si b mayor. Sus duraciones serán de cincuenta y dos segundos para la versión completa y de veintisiete segundos para la versión breve.</p>
+          <p class="parrafo">b) Se entenderá por versión breve la interpretación de los cuatro compases de cada sección, sin repetición.</p>
+          <p class="parrafo">c) Las partituras de banda, de orquesta y de reducción para órgano son las que se contienen en el anexo de este Real Decreto y servirán de referencia para cualquier versión de grupo de cámara.</p>
+          <p class="parrafo">d) El himno nacional de España, en cualquiera de sus dos versiones, se interpretará siempre íntegramente y una sola vez.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">El himno nacional será interpretado, cuando proceda:</p>
+          <p class="parrafo_2">1. En versión completa:</p>
+          <p class="parrafo_2">a) En los actos de homenaje a la Bandera de España.</p>
+          <p class="parrafo">b) En los actos oficiales a los que asista Su Majestad el Rey o Su Majestad la Reina.</p>
+          <p class="parrafo">c) En los actos oficiales a los que asista la Reina consorte o el consorte de la Reina.</p>
+          <p class="parrafo">d) En los demás actos previstos en el Reglamento de Honores Militares.</p>
+          <p class="parrafo_2">2. En versión breve:</p>
+          <p class="parrafo_2">a) En los actos oficiales a los que asistan Su Alteza Real el Príncipe de Asturias, Su Alteza Real la Princesa de Asturias o Sus Altezas Reales los Infantes de España.</p>
+          <p class="parrafo">b) En los actos oficiales a los que asista el Presidente del Gobierno.</p>
+          <p class="parrafo">c) En los actos deportivos o de cualquier otra naturaleza en los que haya una representación oficial de España.</p>
+          <p class="parrafo">d) En los demás casos previstos en el Reglamento de Honores Militares.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">La actitud de respeto al himno nacional de los asistentes a los actos en los que sea interpretado se expresará, en el caso del personal uniformado de las Fuerzas Armadas y de las Fuerzas de Seguridad, efectuando el saludo reglamentario.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">De acuerdo con la costumbre y usos protocolarios habituales, cuando las Personas Reales o Autoridades a que se refiere el artículo 3 del presente Real Decreto asistan a actos oficiales de carácter general, organizados por una Comunidad Autónoma o Corporación Local, siempre que la naturaleza del acto requiera la interpretación del himno nacional, ésta se realizará de acuerdo con los siguientes criterios:</p>
+          <p class="parrafo_2">a) Cuando al iniciarse el acto esté prevista la ejecución de los himnos oficiales de las Comunidades Autónomas o de las Corporaciones Locales, el himno nacional de España se interpretará en primer lugar.</p>
+          <p class="parrafo">b) En los casos en que esté prevista la ejecución de los expresados himnos al finalizar el acto, el himno nacional de España se interpretará en último lugar.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">1. En los actos y visitas oficiales de carácter internacional celebrados en territorio español, cuando deban ejecutarse himnos nacionales, se interpretarán, en primer lugar, los himnos extranjeros y después el himno nacional de España. En las despedidas, se interpretarán en orden inverso. Igual orden se observará en las visitas oficiales de buques de guerra extranjeros.</p>
+          <p class="parrafo">2. En puertos extranjeros, a bordo de los buques de la Armada, se interpretará en primer lugar el himno nacional de España y a continuación el de la nación anfitriona.</p>
+          <p class="parrafo">3. En todo caso, la interpretación de himnos nacionales extranjeros irá acompañada siempre del himno nacional de España.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">1. En el plazo de dos meses a partir de la publicación del presente Real Decreto, los distintos organismos e instituciones, tanto públicos como privados, adaptarán la interpretación del himno nacional de España a la partitura oficial.</p>
+          <p class="parrafo">2. Durante el plazo señalado, las modalidades y tiempos de duración de la interpretación del himno nacional se podrán ajustar a la versión vigente hasta la entrada en vigor del presente Real Decreto o, en su caso, a lo establecido en la costumbre.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">Hasta tanto se modifique el Reglamento de Honores Militares, y a los efectos previstos en el artículo 3 del presente Real Decreto, las referencias que el expresado Reglamento contiene al «himno nacional completo» y «la primera parte completa» se entenderán hechas a la versión completa. Igualmente, las referencias de esta misma disposición a la «primera parte sin repetición» se entenderán hechas a la versión breve.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo">Queda derogada la Real Orden circular de 27 de agosto de 1908, en lo que se refiere a la ejecución de la Marcha Real; el Decreto de 17 de julio de 1942, sobre el himno nacional, y cuantas disposiciones se opongan a lo establecido por el presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="parrafo">Dado en Madrid a 10 de octubre de 1997.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ MARÍA AZNAR LÓPEZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <p class="anexo">ANEXO</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/244/21605_001.png" alt=""/>
+          </p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/244/21605_002.png" alt=""/>
+          </p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/244/21605_003.png" alt=""/>
+          </p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/244/21605_004.png" alt=""/>
+          </p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/244/21605_005.png" alt=""/>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de erratas publicada en BOE núm. 253, de 22 de octubre de 1997. <a class="refPost">Ref. BOE-A-1997-22261</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ir" tipo="encabezado" titulo="[Información relacionada]">
+        <version id_norma="BOE-A-1997-21605" fecha_publicacion="19971011" fecha_vigencia="19971011">
+          <blockquote class="docrel">
+            <p class="inforel">Información relacionada</p>
+            <p class="nota_pie">Véase el Real Decreto 2027/1998, de 18 de septiembre, de aceptación de la cesión gratuita efectuada por el maestro don Francisco Grau Vergara de los derechos de explotación por la revisión y orquestación del Himno Nacional y atribución de la administración de tales derechos al Ministerio de Educación y Cultura, <a class="refPost">Ref. BOE-A-1998-22549</a>., que en su art. 1 establece:</p>
+            <p class="parrafo_2">"1. Aceptar la cesión a título gratuito a favor del Estado de todos los derechos de explotación y en especial los derechos de reproducción, distribución, comunicación pública y transformación de la revisión y orquestación del Himno Nacional efectuadas por el maestro don Francisco Grau Vergara.</p>
+            <p class="parrafo">La correspondiente cesión reviste el carácter de exclusiva, se otorga para un ámbito territorial mundial y tendrá una duración por todo el tiempo de protección que conceden a los autores, sus sucesores y derechohabientes las actuales leyes y convenciones internacionales propias de la materia de propiedad intelectual y las que en lo sucesivo se puedan dictar o acordar.</p>
+            <p class="parrafo">2. Los derechos citados en el primer párrafo del apartado 1 anterior han sido cedidos en todas sus modalidades de explotación y especialmente en las que a continuación se detallan:</p>
+            <p class="parrafo_2">a) En lo que afecta al derecho de reproducción, la reproducción en forma gráfica, sonora, visual y audiovisual, o cualquier otra forma en todo tipo de soportes, ya sea dicha reproducción efectuada por procedimientos analógicos, digitales o cualesquiera otros.</p>
+            <p class="parrafo">b) En lo que afecta al derecho de distribución, su venta, alquiler, préstamo o cualquier otra forma de puesta a disposición del público.</p>
+            <p class="parrafo">c) En lo que afecta al derecho de comunicación pública, su representación y ejecución por todos los medios y procedimientos; su proyección y/o exhibición a partir de soportes sonoros y/o audiovisuales; su emisión por radio y televisión, incluso la efectuada vía satélite de telecomunicación o radiodifusión, así como por cualquier otro medio que sirva para la difusión inalámbrica; su transmisión por hilo, cable, fibra óptica u otro procedimiento análogo; su retransmisión por cualquiera de los medios ya citados; la emisión o transmisión, en lugar accesible al público, mediante cualquier instrumento idóneo de la obra radiodifundida; su puesta a disposición al público por medios alámbricos o inalámbricos, de forma que los miembros de ese público puedan acceder a dicha obra desde el lugar y en el momento que cada uno de ellos elija; el acceso público en cualquier forma a la obra incorporada a una base de datos, aunque dicha base no esté protegida por el derecho de autor.</p>
+            <p class="parrafo">d) En lo que afecta al derecho de transformación, su arreglo, adaptación, traducción y cualquier otra modificación en su forma de la que se deriven unas obras diferentes.</p>
+            <p class="parrafo_2">La cesión de los derechos aquí aceptados no alcanza a las modalidades de utilización o medios de difusión inexistentes o desconocidos al tiempo de la cesión; pero si en un futuro el Estado quisiera explotar los derechos por una nueva modalidad o por un nuevo medio actualmente desconocido, lo comunicará fehacientemente a su cedente o, en su caso, a sus herederos, entendiéndose que queda prestada su total conformidad, si en un plazo de quince días no hacen reserva alguna."</p>
+          </blockquote>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

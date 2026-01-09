@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T132848Z</fecha_actualizacion>
+      <identificador>BOE-A-2012-411</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8140">Comunidad Autónoma del País Vasco</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19970530</fecha_disposicion>
+      <numero_oficial>4/1997</numero_oficial>
+      <titulo>Ley 4/1997, de 30 de mayo, de reconocimiento de la Universidad "Mondragon Unibertsitatea".</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20120111</fecha_publicacion>
+      <diario_numero>9</diario_numero>
+      <fecha_vigencia>19970620</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20231014</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-pv/l/1997/05/30/4</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2012-411</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="5345">País Vasco</materia>
+        <materia codigo="7069">Universidad de Mondragón</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOPV núm. 116, de 19 de junio de 1997.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1979-30177</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 16 del Estatuto aprobado por Ley Orgánica 3/1979, de 18 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1983-23432</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 11/1983, de 25 de agosto</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2023-23222</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Decreto Legislativo 7/2023, de 21 de septiembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-411</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-05-30</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7069"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-411</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-05-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7069"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/20231013"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/19970619"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/1997, de 30 de mayo, de reconocimiento de la Universidad "Mondragon Unibertsitatea".</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/20231013">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-411</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-05-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7069"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-13</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/20231013/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/1997, de 30 de mayo, de reconocimiento de la Universidad "Mondragon Unibertsitatea".</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/20231013"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/20231013/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/20231013/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/19970619">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-411</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-05-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7069"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-06-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/19970619/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/1997, de 30 de mayo, de reconocimiento de la Universidad "Mondragon Unibertsitatea".</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/19970619"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/19970619/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1997/05/30/4/con/19970619/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2023-23222" fpub="20231116" fecha_publicacion="20231013" fecha_vigencia="20231014">
+          <p class="siempreSeVe">Norma derogada, con efectos de 14 de octubre de 2023, por la disposición derogatoria del Decreto Legislativo 7/2023, de 21 de septiembre. <a class="refPost">Ref. BOE-A-2023-23222</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="parrafo">Se hace saber a todos los/las ciudadanos/as de Euskadi que el Parlamento Vasco ha aprobado la siguiente Ley 4/1997, de 30 de mayo, de reconocimiento de la universidad Mondragon Unibertsitatea.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">Las entidades titulares de las escuelas universitarias ubicadas en la comarca del Alto Deba, y adscritas actualmente a la Universidad del País Vasco/Euskal Herriko Unibertsitatea, han venido madurando un proyecto de creación de una Universidad y, con este fin, han procedido a la constitución de la entidad cooperativa de segundo grado «Mondragon Unibertsitatea, S. Coop.» (en adelante M. U. S. Coop.). Además de los titulares de los centros educativos universitarios, forman parte de M. U. S. Coop. los socios colaboradores de investigación Ikerlan S. Coop. e Ideko AIE, los socios colaboradores empresariales Mondragón Corporación Cooperativa y el Grupo Ulma S. Coop., y el socio colaborador institucional Fundación Gizabidea.</p>
+          <p class="parrafo">El Consejo Rector de M.U.S. Coop., en reunión celebrada el 18 de diciembre de 1996, acordó aprobar la creación de la Universidad «Mondragon Unibertsitatea» y solicitar su reconocimiento oficial como Universidad privada.</p>
+          <p class="parrafo">Según la memoria presentada a efectos de su reconocimiento, la nueva Universidad parte de la existencia de unos centros docentes cuyas actividades académicas y científicas se desea consolidar y potenciar. La participación de los centros de investigación Ikerlan e Ideko como centros de investigación asociados persigue la colaboración y la integración de las actividades de investigación y de educación.</p>
+          <p class="parrafo">La Universidad «Mondragon Unibertsitatea» es un fruto más de la llamada «Experiencia Cooperativa de Mondragón». En los estatutos por los que se ha de regir se define como una institución enmarcada en la filosofía cooperativa cuyo objetivo es la capacitación de sus alumnos para el ejercicio de actividades profesionales y la contribución al desarrollo y al progreso social, cultural y económico de la sociedad vasca, así como el desarrollo personal de los colectivos implicados en la comunidad universitaria.</p>
+          <p class="parrafo">Esta Universidad potenciará la filosofía cooperativa, educativa y empresarial propias de sus centros. Y, por otra parte, en el desarrollo de sus actividades docente e investigadora, prestará una especial atención a las materias de interés para la empresa, y más específicamente para la empresa vasca, tanto en las vertientes tecnológica y económica como en la humanística.</p>
+          <p class="parrafo">El artículo 16 de la Ley Orgánica 3/1979, de 18 de diciembre, de Estatuto de Autonomía para el País Vasco, establece que, en aplicación de lo dispuesto en la disposición adicional primera de la Constitución, es de la competencia de la Comunidad Autónoma del País Vasco la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades, sin perjuicio del artículo 27 de la Constitución y leyes orgánicas que lo desarrollen, de las facultades que atribuya al Estado el artículo 149.1.30 de la misma y de la alta inspección necesaria para su cumplimiento y garantía.</p>
+          <p class="parrafo">La Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, en su Título VIII, recoge la libertad de creación de centros docentes garantizada en el apartado 6 del artículo 27 de la Constitución, que comprende la libertad de creación de Universidades y de centros docentes de enseñanza superior de titularidad privada, en los términos establecidos en dicho título. Y, así, en el artículo 58 dispone que son Universidades privadas las que sean reconocidas como tales por ley de la Asamblea Legislativa en cuyo ámbito territorial hayan de establecerse. También en el mismo artículo, remite a un desarrollo posterior la determinación con carácter general del número de centros y las exigencias materiales y de personal mínimo necesarios que deberán reunir las Universidades privadas para su reconocimiento. El Real Decreto 557/1991, de 12 de abril, sobre reconocimiento de Universidades y centros universitarios, ampliado por Real Decreto 485/1995, de 7 de abril, desarrolla dicho mandato.</p>
+          <p class="parrafo">En este contexto, la cooperativa de segundo grado M. U. S. Coop., deseando ejercer el derecho constitucional de libre creación de Universidades de titularidad privada, ha presentado el expediente requerido por la normativa en vigor. La entidad promotora ha cumplido los requisitos precisos, y asume el compromiso del cumplimiento de cuantas otras obligaciones exija el ordenamiento jurídico aplicable a las Universidades privadas.</p>
+          <p class="parrafo">El expediente de reconocimiento de la Universidad «Mondragon Unibertsitatea» se adecua a los intereses generales del País Vasco en materia de enseñanza superior.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 1. Reconocimiento de la Universidad.</p>
+          <p class="parrafo">1. Se reconoce la Universidad «Mondragon Unibertsitatea» como Universidad privada.</p>
+          <p class="parrafo">2. La Universidad «Mondragon Unibertsitatea» se regirá por la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, por la presente ley y por sus propias normas de organización y funcionamiento.</p>
+          <p class="parrafo">3. Las normas de organización y funcionamiento de «Mondragon Unibertsitatea» deberán ser conformes con los principios constitucionales y respetar y garantizar, de forma plena y efectiva, el principio de libertad académica que se manifiesta en las libertades de cátedra, de investigación y de estudio.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 2. Estructura organizativa.</p>
+          <p class="parrafo">1. Entre las unidades estructurales en las que se organiza, la Universidad «Mondragon Unibertsitatea» contará inicialmente con los siguientes centros docentes:</p>
+          <p class="parrafo_2">Escuela Politécnica Superior.</p>
+          <p class="parrafo">Facultad de Ciencias Empresariales.</p>
+          <p class="parrafo">Facultad de Humanidades y Ciencias de la Educación.</p>
+          <p class="parrafo_2">2. Estos centros estarán encargados de la gestión administrativa y la organización de las enseñanzas conducentes a la obtención de los siguientes títulos oficiales:</p>
+          <p class="parrafo_2">Escuela Politécnica Superior:</p>
+          <p class="parrafo_2">Ingeniero Técnico en Diseño Industrial.</p>
+          <p class="parrafo">Ingeniero Técnico Industrial, Especialidad en Electrónica Industrial.</p>
+          <p class="parrafo">Ingeniero Técnico Industrial, Especialidad en Mecánica.</p>
+          <p class="parrafo">Ingeniero Técnico en Informática de Sistemas.</p>
+          <p class="parrafo">Ingeniero en Automática y Electrónica Industrial (de sólo segundo ciclo).</p>
+          <p class="parrafo">Ingeniero de Organización Industrial (de sólo segundo ciclo).</p>
+          <p class="parrafo_2">Facultad de Ciencias Empresariales:</p>
+          <p class="parrafo_2">Diplomado en Ciencias Empresariales.</p>
+          <p class="parrafo">Ingeniero Técnico en Informática de Gestión.</p>
+          <p class="parrafo">Licenciado en Administración y Dirección de Empresas.</p>
+          <p class="parrafo_2">Facultad de Humanidades y Ciencias de la Educación:</p>
+          <p class="parrafo_2">Maestro-Especialidad de Educación Especial.</p>
+          <p class="parrafo">Maestro-Especialidad de Educación Infantil.</p>
+          <p class="parrafo">Maestro-Especialidad de Lengua Extranjera.</p>
+          <p class="parrafo">Licenciado en Humanidades.</p>
+          <p class="parrafo_2">3. Para el reconocimiento de nuevos centros e implantación de nuevas enseñanzas conducentes a títulos oficiales, así como para la homologación de estos títulos, la Universidad deberá cumplir los requisitos a que se refieren el artículo 58 de la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria y las normas que lo desarrollen.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 3. Autorización para la puesta en funcionamiento de la Universidad.</p>
+          <p class="parrafo">1. La Universidad, siguiendo el procedimiento establecido en el artículo 58.4 de la Ley Orgánica 11/1983, solicitará la homologación de los títulos a expedir.</p>
+          <p class="parrafo">2. Una vez homologados los títulos, a solicitud de la entidad titular y comprobado el cumplimiento de los compromisos adquiridos por ella, el Gobierno, a propuesta del Consejero de Educación, Universidades e Investigación, autorizará mediante decreto y en un plazo no superior a seis meses la puesta en funcionamiento de la Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 4. Acceso y permanencia de los alumnos.</p>
+          <p class="parrafo">1. Podrán acceder a la Universidad «Mondragon Unibertsitatea» los alumnos que cumplan los requisitos establecidos en la normativa vigente para acceder a la enseñanza universitaria.</p>
+          <p class="parrafo">2. La Universidad regulará libremente el régimen de acceso y permanencia de los alumnos en sus centros. En todo caso, entre los distintos méritos que puedan alegar los solicitantes, deberá atribuirse una valoración preferente a los méritos académicos.</p>
+          <p class="parrafo">3. La Universidad velará para que el derecho de acceso y permanencia, tanto en su regulación como en las situaciones de hecho, sea reconocido sin discriminación alguna por razón de nacimiento, raza, sexo, orientación sexual, religión, opinión o cualquier otra condición o circunstancia personal o social.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 5. Plazo de funcionamiento de la Universidad y de sus centros.</p>
+          <p class="parrafo">La Universidad «Mondragon Unibertsitatea», y cada uno de sus centros, deberá mantenerse en funcionamiento, al menos, durante el período de tiempo necesario para que los alumnos que hubieran iniciado sus estudios en ella, con un aprovechamiento académico normal, puedan finalizarlos.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 6. Inspección.</p>
+          <p class="parrafo">1. A efectos de lo establecido en el artículo 27.8 de la Constitución, el Departamento de Educación, Universidades e Investigación inspeccionará el cumplimiento de las normas que sean de aplicación y de las obligaciones que haya asumido la Universidad.</p>
+          <p class="parrafo">2. La Universidad colaborará con los órganos competentes del Departamento en la tarea de inspección, facilitando la documentación y el acceso a sus instalaciones que le sean requeridos a ese exclusivo efecto.</p>
+          <p class="parrafo">3. La Universidad pondrá en conocimiento del Departamento de Educación, Universidades e Investigación las variaciones que se produzcan en sus normas de organización y funcionamiento, en su situación patrimonial y en la regulación de sus becas y ayudas al estudio y a la investigación. Esta puesta en conocimiento se efectuará en el plazo de dos meses desde que las variaciones acaezcan.</p>
+          <p class="parrafo">4. Si con posterioridad al inicio de las actividades de la Universidad el Departamento de Educación, Universidades e Investigación apreciara que la Universidad incumple los requisitos exigidos por el ordenamiento jurídico o los compromisos adquiridos por la entidad titular al solicitar el reconocimiento, el Departamento de Educación, Universidades e Investigación requerirá a la Universidad para que regularice en plazo su situación. Transcurrido el plazo sin que la Universidad haya atendido el requerimiento, y previa audiencia de la Universidad y del Consejo de Universidades, el Gobierno informará al Parlamento Vasco a efectos de la posible revocación del indicado reconocimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Artículo 7. Memoria de actividades.</p>
+          <p class="parrafo">La Universidad «Mondragon Unibertsitatea» elaborará anualmente una memoria comprensiva de las actividades docentes e investigadoras, que deberá ser remitida al Parlamento, al Departamento de Educación, Universidades e Investigación y al Consejo de Universidades.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Disposición transitoria primera. Integración de centros docentes ya existentes.</p>
+          <p class="parrafo">Los centros docentes «Escuela Universitaria de Ingeniería Técnica de Mondragón», «Escuela de Estudios Empresariales de Oñate» e «Irakasle Eskola, Escuela de Magisterio de Eskoriatza», actualmente escuelas universitarias adscritas a la Universidad del País Vasco/Euskal Herriko Unibertsitatea, pasan a ser unidades estructurales de la Universidad «Mondragon Unibertsitatea» como centros docentes integrados, con las denominaciones de «Escuela Politécnica Superior», «Facultad de Ciencias Empresariales» y «Facultad de Humanidades y Ciencias de la Educación», respectivamente.</p>
+          <p class="parrafo">Los alumnos que cursen sus estudios en las actuales escuelas universitarias «Escuela Universitaria de Ingeniería Técnica de Mondragón», «Escuela de Estudios Empresariales de Oñati» e «Irakasle Eskola, Escuela de Magisterio de Eskoriatza» en el momento de la entrada en vigor de esta ley podrán optar por continuar sus estudios en la nueva Universidad o en el centro de la Universidad del País Vasco/Euskal Herriko Unibertsitatea que corresponda.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Disposición transitoria segunda. Integración de Colegio Mayor.</p>
+          <p class="parrafo">El Colegio Mayor Universitario «Pedro Viteri y Arana», adscrito en la actualidad a la Universidad del País Vasco / Euskal Herriko Unibertsitatea, pasa a formar parte de la Universidad «Mondragon Unibertsitatea».</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Disposición adicional única. Caducidad del reconocimiento legal.</p>
+          <p class="parrafo">El reconocimiento de la Universidad caducará si transcurridos tres años desde la entrada en vigor de esta ley no se hubiera solicitado por parte de la entidad titular la autorización para la puesta en funcionamiento a que se refiere el artículo 3 de la presente ley. Igualmente caducará si se hiciera firme la revocación por incumplimiento a que hace referencia el artículo 6.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Disposición final primera. Desarrollo reglamentario.</p>
+          <p class="parrafo">Se autoriza al Gobierno y al Consejero de Educación, Universidades e Investigación, en el ámbito de sus atribuciones, a dictar las disposiciones necesarias para el desarrollo y aplicación de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del País Vasco».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2012-411" fecha_publicacion="19970619" fecha_vigencia="19970620">
+          <p class="parrafo_2">Por consiguiente, ordeno a todos los/las ciudadanos/as de Euskadi, particulares y autoridades, que la guarden y hagan guardarla.</p>
+          <p> </p>
+          <p class="parrafo_2">Vitoria-Gasteiz, 11 junio de 1997.–El Lehendakari, José Antonio Ardanza Garro.</p>
+          <p class="publicado"> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

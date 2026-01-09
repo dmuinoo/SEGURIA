@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T203908Z</fecha_actualizacion>
+      <identificador>BOE-A-2004-2755</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7210">Ministerio de Administraciones Públicas</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20040202</fecha_disposicion>
+      <numero_oficial>APU/284/2004</numero_oficial>
+      <titulo>Orden APU/284/2004, de 2 de febrero, que regula el procedimiento de ingreso de las cotizaciones de los mutualistas a la Mutualidad General de Funcionarios Civiles del Estado.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20040214</fecha_publicacion>
+      <diario_numero>39</diario_numero>
+      <fecha_vigencia>20040215</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2004/02/02/apu284</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2004-2755</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="3845">Funcionarios Civiles del Estado</materia>
+        <materia codigo="5117">Mutualidad General de Funcionarios Civiles del Estado</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1995-26666</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Orden de 1 de diciembre de 1995</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1981-7843</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Orden de 3 de abril de 1981</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2003-7527</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Reglamento aprobado por Real Decreto 375/2003, de 28 de marzo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-1013</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>sobre normas para ingreso de las cotizaciones y control de la recaudación: Resolución  de 20 de enero de 2014</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2004-18249</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>sobre normas para ingreso de las cotizaciones y control de la recaudación: Resolución de 8 de octubre de 2004</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-2755</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-02</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apu284</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3845"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5117"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-2755</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apu284</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3845"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5117"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/con/20040214"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden APU/284/2004, de 2 de febrero, que regula el procedimiento de ingreso de las cotizaciones de los mutualistas a la Mutualidad General de Funcionarios Civiles del Estado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-14</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/con/20040214">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-2755</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-02</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apu284</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3845"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5117"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-14</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/con/20040214/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden APU/284/2004, de 2 de febrero, que regula el procedimiento de ingreso de las cotizaciones de los mutualistas a la Mutualidad General de Funcionarios Civiles del Estado.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/con/20040214"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2004/02/02/apu284/con/20040214/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2004/02/02/apu284/con/20040214/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="parrafo">El Real Decreto Legislativo 4/2000, de 23 de junio, por el que se aprueba el Texto Refundido de la Ley sobre Seguridad Social de los Funcionarios Civiles del Estado y el Real Decreto 375/2003, de 28 de marzo, por el que se aprueba el Reglamento General del Mutualismo Administrativo, en su capítulo III, introducen novedades en el régimen de ingresos por cotizaciones a la Mutualidad General de Funcionarios Civiles del Estado.</p>
+          <p class="parrafo">En concreto, articula un régimen general de cotización en el que se incluyen los mutualistas obligatorios cuyas cuotas se recaudan mediante descuentos en nómina y un régimen singular que lo conforman los mutualistas voluntarios y los mutualistas obligatorios en alta en situación de servicios especiales a los que no se les retenga la cuota en el puesto efectivo que desempeñen y no perciban trienios de su destino de origen o los perciban en cuantía insuficiente para cubrir la correspondiente cotización, satisfaciéndose esta última por el procedimiento que se determine.</p>
+          <p class="parrafo">Mediante el presente Proyecto de Orden se desarrolla lo dispuesto en el Reglamento General en materia de cotizaciones y específicamente el procedimiento para la recaudación e ingreso de la cuota en virtud de la habilitación dada en este sentido al Ministro de Administraciones Públicas –disposición final segunda– por el mencionado Reglamento.</p>
+          <p class="parrafo">En consecuencia, previo informe del Ministerio de Hacienda, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Primero. Base de cotización.</p>
+          <p class="parrafo_2">1. La base de cotización a la Mutualidad General de Funcionarios Civiles del Estado (MUFACE) será la establecida en cada momento, como haber regulador a efectos de cotización de derechos pasivos.</p>
+          <p class="parrafo">2. La base de cotización de los funcionarios en prácticas será la correspondiente al Cuerpo de la Administración Civil del Estado al que aspiren acceder como funcionarios de carrera. Para determinar la base de cotización de los funcionarios en prácticas que ya tuvieran la condición de mutualistas en alta, se estará a lo dispuesto en el artículo 25.4 c) del Reglamento General del Mutualismo Administrativo.</p>
+          <p class="parrafo">3. En los supuestos de cesación progresiva de actividades así como en los casos de funcionarios a los que cualquier norma autorice a prestar servicio en régimen de jornada reducida, la base reguladora se reducirá en la misma proporción que sus retribuciones, de acuerdo con lo previsto en la disposición adicional quinta, apartado 4, del Real Decreto 365/1995, de 10 de marzo, por el que se aprueba el Reglamento de situaciones administrativas de los Funcionarios Civiles de la Administración General del Estado y en el artículo 25.4 a) del Reglamento General del Mutualismo Administrativo, respectivamente.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Segundo. Determinación de la cuota.</p>
+          <p class="parrafo_2">1. La cuantía mensual de la cuota se obtendrá multiplicando la base de cotización anual –reducida en su caso–, por el tipo de cotización establecido por la Ley de Presupuestos Generales del Estado para cada ejercicio, y dividiendo el resultado entre catorce. En los meses de junio y diciembre se abonará la cuota doble.</p>
+          <p class="parrafo">2. La determinación de la cuota en los meses en los que se cause el alta o la baja en MUFACE y en aquéllos en los que las pagas extraordinarias no se perciban completas, se ajustará a las siguientes reglas:</p>
+          <p class="parrafo_2">a) La cuota mensual se liquidará por días en el mes de toma de posesión del primer destino en el Cuerpo, Escala o plaza de los incluidos en el ámbito de MUFACE, en el de reingreso al servicio activo desde una situación que hubiese llevado consigo la baja en MUFACE y en el de cese en el servicio activo, siempre que no sea por fallecimiento o jubilación, con pase a una situación que implique la baja en MUFACE. Igual criterio se adoptará para los mutualistas que pasen a la situación de excedencia para atender el cuidado de hijos o familiares y, en el mes que, desde esa situación, pasen a otra con obligación de cotizar.</p>
+          <p class="parrafo">b) La cuota correspondiente a la cotización por la paga extraordinaria se reducirá, cualquiera que sea la fecha de su devengo, en la misma proporción en que se minore dicha paga, como consecuencia de abonarse la misma en cuantía proporcional al tiempo en que se haya permanecido en situación de servicio activo.</p>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Tercero. Cumplimiento de la obligación de cotizar. Procedimientos de ingreso de cuotas.</p>
+          <p class="parrafo_2">1. Régimen General de cotización.</p>
+          <p class="parrafo_2">1.1 Están sometidos al Régimen General de cotización los mutualistas obligatorios cuyas habilitaciones u oficinas pagadoras retienen de su nómina el importe de la cuota de la Mutualidad.</p>
+          <p class="parrafo">1.2 Procedimiento de ingreso e información a MUFACE.–El procedimiento de ingreso y remisión de información periódica a MUFACE será el siguiente:</p>
+          <p class="parrafo_2">a) Por el importe de las cuotas deducidas cada mes y dentro de los cinco primeros días del siguiente, los sujetos responsables del ingreso de las cuotas a que se refiere el artículo 31.1 del Reglamento General del Mutualismo Administrativo expedirán órdenes de transferencia a las cuentas bancarias abiertas con esta finalidad a nombre de la Mutualidad General de Funcionarios Civiles del Estado.</p>
+          <p class="parrafo">Igualmente comunicarán la ejecución de dichas órdenes de transferencia por la entidad financiera correspondiente en la forma que establezca la Mutualidad.</p>
+          <p class="parrafo">b) Las habilitaciones y oficinas pagadoras facilitarán a MUFACE, bien directamente cuando a ellas corresponda la transferencia de los ingresos, bien a través de los órganos a que se refiere el apartado a) en otros supuestos, relación informatizada de los descuentos efectuados, con periodicidad mensual.</p>
+          <p class="parrafo">Dicha relación se confeccionará y remitirá de acuerdo con las especificaciones que se señalen por la Mutualidad y se consignará el contenido mínimo a que se refiere el artículo 35.1 del Reglamento.</p>
+          <p class="parrafo_2">2. Régimen Singular de Cotización.</p>
+          <p class="parrafo_2">2.1 Están sometidos al Régimen Singular de Cotización:</p>
+          <p class="parrafo_2">a) Los mutualistas obligatorios en alta en situación de servicios especiales, en el supuesto de que sus cuotas no puedan ser hechas efectivas por el régimen general de cotización, retención en la retribución de su puesto de trabajo o cargo efectivo que desempeñen, o con cargo a los trienios que perciba de su puesto de destino de origen.</p>
+          <p class="parrafo">b) Los funcionarios que soliciten el mantenimiento facultativo del alta como mutualistas voluntarios.</p>
+          <p class="parrafo_2">2.2 Procedimiento de pago.–El régimen singular de cotización consiste en el pago directo por los mutualistas de las cuotas correspondientes, mediante el sistema de cargo en cuenta, sin preaviso, de las órdenes de adeudo correspondientes a los recibos emitidos por la Mutualidad General. Para ello, los interesados deberán tramitar, a través de los Servicios Provinciales u Oficinas Delegadas de MUFACE, la correspondiente autorización para dicho adeudo bancario.</p>
+          <p class="parrafo">2.3 Períodos de liquidación y de ingreso de las cuotas.–La emisión de los recibos correspondientes a las cuotas de los mutualistas a que se refiere el apartado tercero, punto 2.1, se hará por trimestres naturales vencidos y, en la cuantía que figure en los mismos, aparecerá prorrateada la parte correspondiente a las cuotas de las pagas extraordinarias.</p>
+          <p class="parrafo">En el caso de los mutualistas voluntarios, los recibos incluirán su cotización correspondiente y la aportación del Estado.</p>
+          <p class="parrafo">2.4 Plazo de ingreso.–El ingreso se llevará a cabo en el mes siguiente al trimestre al que corresponden las cuotas, es decir, en los meses de abril, julio, octubre y enero.</p>
+          <p class="parrafo">2.5 Recargos.–Las cuotas ingresadas fuera de plazo por los sujetos indicados en el punto 2.1 b) tendrán el siguiente recargo de mora:</p>
+          <p class="parrafo_2">a) El cinco por ciento si se abonan dentro de los dos meses naturales siguientes al vencimiento del plazo reglamentario.</p>
+          <p class="parrafo">b) El veinte por ciento si se abonan transcurrido el plazo anterior y antes de iniciarse la vía de apremio.</p>
+          <p class="parrafo_2">2.6 Baja por impago.–En el supuesto del mantenimiento facultativo de la situación de alta, transcurridos seis meses desde el vencimiento del plazo de ingreso indicado en el apartado tercero, punto 2.4, sin que el interesado hubiera ingresado las cuotas adeudadas con sus correspondientes recargos, causará baja en la Mutualidad General, sin perjuicio de la obligación de abonar las cuotas pendientes hasta la fecha efectiva de baja.</p>
+          <p class="parrafo">2.7 Acreditación de ingreso de cuotas.–Los mutualistas que pagan sus cotizaciones a través del Régimen Singular de Cotización deberán aportar los justificantes de pago en el caso de que les fuesen requeridos por la Mutualidad.</p>
+        </version>
+      </bloque>
+      <bloque id="cuarto" tipo="precepto" titulo="Cuarto">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Cuarto. Procedimiento de devolución de cuotas.</p>
+          <p class="parrafo_2">1. Los mutualistas obligados a cotizar tendrán derecho a la devolución total o parcial de las cuotas o al exceso de las mismas ingresadas indebidamente. El plazo para ejercitar este derecho será de cuatro años, a partir de la fecha en que se hubieran hecho efectivas.Formarán parte de la cotización a devolver los recargos, intereses y costas que se hubieren satisfecho cuando el ingreso indebido se hubiere realizado por vía de apremio así como el interés legal del dinero aplicado, en su caso, a las cantidades ingresadas.</p>
+          <p class="parrafo">2. Las devoluciones de cuotas ingresadas indebidamente, se acordarán por la Mutualidad General, previa instrucción del oportuno procedimiento, a solicitud del mutualista interesado o bien de oficio. No obstante, si la devolución tuviera su origen en errores de hecho, materiales o aritméticos, comprobados por las respectivas intervenciones, serán las habilitaciones correspondientes las que lleven a cabo, de oficio, la devolución.</p>
+          <p class="parrafo">El procedimiento será el siguiente:</p>
+          <p class="parrafo_2">2.1 Devolución mediante descuento o deducción en las cotizaciones a MUFACE.</p>
+          <p class="parrafo_2">a) A estos efectos los habilitados, a partir de la primera nómina que se elabore, una vez tengan conocimiento de los acuerdos de MUFACE reconociendo el derecho de devolución a los interesados, o, en su caso, una vez comprobados los errores de hecho, materiales o aritméticos, que den lugar a devolución, deducirán el importe a devolver en concepto de cuota del interesado.</p>
+          <p class="parrafo">Los importes que se deducirán en cada nómina no podrán exceder para cada interesado del importe de la cuota correspondiente a cada mensualidad. Por lo tanto, si el importe de la devolución fuera superior a dicha cuota, se seguirán practicando descuentos en las nóminas sucesivas hasta la total compensación de la cantidad a devolver.</p>
+          <p class="parrafo">b) La transferencia o ingreso mensual se efectuará por la diferencia entre ingresos por cuotas y pagos por devoluciones, reflejándose en la relación informatizada que se envíe el importe de éstas realizadas en el mes al que se refiere dicha relación, con indicación de los mutualistas a quienes corresponden.</p>
+          <p class="parrafo">c) En la nómina en la que se produjo la causa de la devolución se dejará constancia del motivo de la misma y de la operación de rectificación.</p>
+          <p class="parrafo">d) Las nóminas donde se recojan las devoluciones que se regulan en la presente Orden deberán incluir, a efectos justificativos, según los casos, copia de la comunicación de la Mutualidad sobre el acuerdo de devolución o certificación de los habilitados correspondientes sobre los datos personales y circunstancias que inciden en la devolución.</p>
+          <p class="parrafo_2">2.2 Devolución por la Mutualidad, mediante mandamiento de pago.–Cuando el cobro de las cuotas no se efectúe a través de deducción en nómina, o la cantidad a devolver exceda del producto de multiplicar por catorce la cuota a MUFACE con cargo a la cual procedería practicar la primera deducción, o así se decida por la Mutualidad General a la vista de las circunstancias alegadas por el mutualista, la devolución se realizará directamente, mediante el correspondiente mandamiento de pago a favor del interesado. A tal efecto, éste indicará la cuenta bancaria donde debe efectuarse la transferencia de la devolución.</p>
+        </version>
+      </bloque>
+      <bloque id="quinto" tipo="precepto" titulo="Quinto">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Quinto. Procedimiento de ingreso de las cuotas a las mutualidades integradas en el Fondo Especial de MUFACE.</p>
+          <p class="parrafo_2">1. El ingreso de las cuotas de los socios y beneficiarios de las mutualidades integradas en el Fondo Especial de MUFACE, a los que se refiere la disposición adicional sexta del Real Decreto Legislativo 4/2000, de 23 de junio, por el que se aprueba el Texto Refundido de la Ley sobre Seguridad Social de los Funcionarios Civiles del Estado, que continúen cotizando voluntariamente a las mismas, se realizará a través del Régimen Singular de cotización, mediante el sistema de pago domiciliado en cuenta bancaria.</p>
+          <p class="parrafo">2. El ingreso de estas cuotas se realizará de acuerdo con el siguiente procedimiento:</p>
+          <p class="parrafo_2">2.1 Períodos de liquidación y de ingreso de las cuotas.–El período de liquidación de las cuotas de los mutualistas comprendidos en este apartado será semestral.</p>
+          <p class="parrafo">La emisión de los recibos correspondientes se hará por semestres naturales vencidos.</p>
+          <p class="parrafo">El ingreso se realizará mediante cargo en cuenta sin preaviso de las órdenes de adeudo de los recibos emitidos por la Mutualidad, a través de la entidad bancaria propuesta por los mutualistas, en el mes siguiente al semestre al que corresponden las cuotas.</p>
+          <p class="parrafo">2.2 Bajas por impago de cuota.–Transcurridos seis meses desde el vencimiento de los plazos de ingreso a los que se refiere el apartado quinto, punto 2.1, es decir desde el 31 de julio para las cuotas correspondientes al primer semestre, y desde el 31 de enero siguiente para las del segundo semestre, sin que el interesado haya ingresado las cuotas con los recargos que procedan, se causará baja en la correspondiente Mutualidad integrada en MUFACE, sin perjuicio de la obligación de abonar las cuotas debidas y, en su caso, los recargos establecidos en el apartado tercero, punto 2.5 de esta Orden.</p>
+          <p class="parrafo">2.3 Procedimiento de devolución de cuotas.–La devolución de las cuotas ingresadas indebidamente se acordará por MUFACE y se realizará en la forma establecida en el apartado cuarto, punto 2.2.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Disposición transitoria.</p>
+          <p class="parrafo_2">A los efectos de puesta en marcha del procedimiento de ingreso de las cuotas a las mutualidades integradas en el Fondo Especial de MUFACE, establecido en el apartado quinto de la presente Orden, los cotizantes deberán autorizar el cargo en cuenta bancaria de las órdenes de adeudo emitidas por MUFACE, para lo que se les solicitarán los datos bancarios.</p>
+          <p class="parrafo">Los Habilitados, que venían reteniendo estas cuotas en la nómina correspondiente, dejarán a partir de la nómina del mes de enero de 2004, de practicar dichos descuentos en nómina relativos a estos cotizantes, ya que la primera emisión de recibos se pondrá al cobro en el mes de julio de 2004, y corresponderá al semestre anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo_2">1. A la entrada en vigor de la presente Orden quedan derogadas las siguientes disposiciones:</p>
+          <p class="parrafo_2">a) Orden de Presidencia del Gobierno de 3 de abril de 1981, sobre normas de cotización al Fondo Especial.</p>
+          <p class="parrafo">b) Orden del Ministerio de Administraciones Públicas de 1 de diciembre de 1995, por la que se establecen las normas para el ingreso y control de las cotizaciones de los mutualistas a MUFACE.</p>
+          <p class="parrafo_2">2. Asimismo, quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo previsto en esta Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="articulo">Disposición final. Entrada en vigor de la Orden.</p>
+          <p class="parrafo_2">La presente Orden entrará en vigor el día siguiente al de su publicación en el BOE.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2004-2755" fecha_publicacion="20040214" fecha_vigencia="20040215">
+          <p class="parrafo_2">Madrid, 2 de febrero de 2004.</p>
+          <p class="firma_rey">GARCÍA-VALDECASAS SALGADO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

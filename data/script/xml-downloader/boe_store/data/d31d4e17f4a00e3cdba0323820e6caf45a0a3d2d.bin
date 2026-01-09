@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190543Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-19610</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8040">Comunidad Autónoma de Cantabria</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20010925</fecha_disposicion>
+      <numero_oficial>3/2001</numero_oficial>
+      <titulo>Ley 3/2001, de 25 de septiembre, de Bibliotecas de Cantabria.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20011022</fecha_publicacion>
+      <diario_numero>253</diario_numero>
+      <fecha_vigencia>20011203</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-cb/l/2001/09/25/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-19610</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="493">Bibliotecas</materia>
+        <materia codigo="603">Cantabria</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOCT núm. 192, de 3 de octubre de 2001.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1999-652</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 113 de la Ley 11/1998, de 13 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-635</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>arts. 24 y 26 del Estatuto aprobado por Ley Orgánica 8/1981, de 30 de diciembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-19610</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-09-25</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/493"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-19610</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-09-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/con/20011003"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/2001, de 25 de septiembre, de Bibliotecas de Cantabria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-10-22</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/con/20011003">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-19610</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-09-25</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/493"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-10-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/con/20011003/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/2001, de 25 de septiembre, de Bibliotecas de Cantabria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/con/20011003"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2001/09/25/3/con/20011003/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2001/09/25/3/con/20011003/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE CANTABRIA</p>
+          <p class="parrafo_2">Conózcase que el Parlamento de Cantabria ha aprobado y yo, en nombre de Su Majestad el Rey, de acuerdo con lo dispuesto en el artículo 15.2.<sup>o</sup> del Estatuto de Autonomía para Cantabria, promulgo la siguiente:</p>
+          <p class="parrafo_2">Ley de Cantabria 3/2001, de 25 de septiembre, de Bibliotecas de Cantabria.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Constitución Española, en su artículo 46, determina que es tarea de los poderes públicos garantizar la conservación y promover el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera que sea su régimen jurídico y titularidad. Dentro del patrimonio histórico, es de primordial importancia el patrimonio bibliográfico y documental, como medio para el mantenimiento de la identidad histórica y del propio idioma, entendido éste como vehículo básico de comunicación y de convivencia social.</p>
+          <p class="parrafo">La consecución de estos objetivos en el ámbito geográfico de Cantabria le corresponde a la Comunidad Autónoma, como se desprende del contenido de los párrafos 16 y 18 del artículo 24 y del párrafo 5 del artículo 26 del Estatuto de Autonomía para Cantabria en el que se confiere a ésta la competencia exclusiva en materias de cultura y bibliotecas, por un lado, y la función ejecutiva de gestión de bibliotecas de titularidad estatal que el Estado no se reserve, por otro.</p>
+          <p class="parrafo">En desarrollo de esta previsión constitucional y estatutaria se aprobó la Ley 11/1998, de 13 de octubre, de Patrimonio Cultural de Cantabria, que dedica el Capítulo IV del Título IV al patrimonio bibliográfico definiéndolo y estableciendo mecanismos de protección. El artículo 113 de la Ley de Patrimonio Cultural de Cantabria crea el Sistema de Bibliotecas fijando la obligación de regularlo mediante una ley específica. El presente texto legal pretende dar respuesta a dicho mandato regulando el sistema de bibliotecas a que se refiere la citada Ley bajo la denominación de Sistema de Lectura Pública de Cantabria, ya que la pretensión del sistema no debe ser simplemente la de crear una infraestructura bibliotecaria en la Comunidad Autónoma sino que el fomento de la lectura y su acercamiento a todos los sectores de la sociedad cántabra y a todos los rincones de su geografía se conviertan en un objetivo clave para los poderes públicos.</p>
+          <p class="parrafo">Son dos las ideas básicas en torno a las cuales se construye el Sistema de Lectura Pública de Cantabria: en primer lugar, se pretende crear un sistema basado en el principio de coordinación y dotado de la flexibilidad necesaria para atender las demandas diversas que plantea nuestra sociedad. Ejemplos de ello son las bibliotecas itinerantes, el préstamo interbibliotecario o la constitución de fondos de contenido local. En segundo lugar, se potencia el principio de colaboración entre Administraciones, Instituciones y titulares privados como método de desarrollo del sistema que gana su fuerza de la integración de las diferentes ofertas bibliotecarias que unos y otros pueden aportar.</p>
+          <p class="parrafo">La Ley se estructura en torno a cinco títulos que contienen treinta y un artículos, tres disposiciones adicionales, una disposición transitoria, una disposición derogatoria y dos disposiciones finales.</p>
+          <p class="parrafo">El Título I establece las disposiciones generales de la Ley, a saber, objeto, ámbito de aplicación, definición y clases de bibliotecas y establece el principio de colaboración como elemento esencial del sistema.</p>
+          <p class="parrafo">El Título II regula el Sistema de Lectura Pública definiéndolo, estableciendo los servicios básicos y mínimos que deben ofrecer las bibliotecas y la oferta bibliotecaria que deben efectuar las diferentes Administraciones. Se determinan las funciones de la Biblioteca Central de Cantabria, como cabecera del sistema, y diversas cuestiones relativas a la gestión de los fondos bibliográficos, cualquiera que sea su soporte material, incluyendo el acceso libre y gratuito a los mismos.</p>
+          <p class="parrafo">Los Títulos III, IV y V regulan, respectivamente, la Comisión de Bibliotecas de Cantabria como órgano consultivo del Gobierno en la materia, los medios personales y financieros necesarios para el cumplimiento de la Ley y el régimen sancionador de las infracciones a sus mandatos.</p>
+          <p class="parrafo">Las disposiciones adicionales prevén la puesta en marcha de un programa de animación a la lectura que haga especial incidencia en los sectores jóvenes de la población, la formación del personal de biblioteca y la necesaria conexión con el Gobierno de la Nación en una cuestión de interés común como es la cultura.</p>
+          <p class="parrafo">Así pues, en virtud de las competencias citadas en el Estatuto de Autonomía y teniendo en cuenta la importancia de las bibliotecas, públicas y privadas, en el acceso a la información y como instrumentos de conservación y difusión del patrimonio bibliográfico, se promulga la presente Ley que ha de ser norma básica para estimular y dirigir la acción de los poderes públicos.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 1. Objeto de la Ley.</p>
+          <p class="parrafo_2">El objeto de la presente Ley es el establecimiento de las bases y estructuras fundamentales necesarias para la planificación, creación, organización, funcionamiento y coordinación del Sistema de Lectura Pública de Cantabria, a la vez que se garantizan los servicios que faciliten el funcionamiento de las bibliotecas y el derecho de los ciudadanos a la lectura y al acceso a la información en el marco actual de la sociedad de la información y las nuevas tecnologías.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 2. Concepto de biblioteca.</p>
+          <p class="parrafo_2">1. Se entiende por biblioteca, a los efectos de esta Ley, cualquier conjunto organizado de libros, publicaciones periódicas, grabados, mapas, grabaciones sonoras, documentación gráfica y otros materiales bibliográficos, manuscritos, impresos o reproducidos en cualquier soporte, reunidos y organizados para facilitar su conservación y acceso público para la información, la investigación, la educación o el ocio, sin discriminación de ningún tipo, mediante los medios técnicos y personales adecuados.</p>
+          <p class="parrafo">2. Las bibliotecas, a los efectos de esta Ley, podrán ser públicas, de interés público o privadas:</p>
+          <p class="parrafo_2">a) Biblioteca pública: es la creada y sostenida por organismos públicos, con la finalidad de prestar un servicio público.</p>
+          <p class="parrafo">b) Biblioteca de interés público: es la que, siendo creada por personas físicas o jurídicas de carácter privado, presta un servicio público.</p>
+          <p class="parrafo">c) Biblioteca privada: es aquella cuyos propietarios, personas físicas o jurídicas, pertenecen al ámbito privado y están destinadas para el uso de sus propietarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 3. Concepto de colección.</p>
+          <p class="parrafo_2">Se entiende por colección, a los efectos de esta Ley, cualquier fondo de interés especial que no tenga el tratamiento biblioteconómico que establece la normativa vigente para las bibliotecas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 4. Ámbito de aplicación.</p>
+          <p class="parrafo_2">1. El ámbito de aplicación de la Ley incluye:</p>
+          <p class="parrafo_2">a) Todas las bibliotecas públicas y las de interés público a las que hace referencia el apartado 2 del artículo 2.</p>
+          <p class="parrafo">b) Las bibliotecas privadas y las colecciones, públicas o privadas, que tengan un fondo formalmente declarado como perteneciente al Patrimonio Cultural de Cantabria, conforme a la Ley que lo regula.</p>
+          <p class="parrafo_2">2. La Administración de la Comunidad Autónoma de Cantabria podrá establecer convenios con la Administración del Estado para asumir la gestión de la Biblioteca Pública del Estado en Santander. La presente Ley le será plenamente aplicable como Biblioteca Central de Cantabria y en los términos que fije el convenio de gestión como Biblioteca Pública del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 5. Acceso a la información bibliográfica.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Cultura garantizará el acceso a la información bibliográfica de las Bibliotecas integrantes del Sistema de Lectura Pública de Cantabria mediante la creación de un catálogo colectivo. Por su parte, las bibliotecas incluidas en el Sistema de Lectura Pública de Cantabria se ajustarán a las disposiciones reglamentarias que se dicten y adoptarán las medidas técnicas necesarias para hacer posible el intercambio de la información.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 6. Principio de colaboración.</p>
+          <p class="parrafo_2">La Administración de la Comunidad Autónoma de Cantabria colaborará con las Administraciones Locales, así como con instituciones bibliotecarias del Estado y de otras Comunidades Autónomas en orden al fomento y mejora de la infraestructura bibliotecaria autonómica y de sus fondos.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">El Sistema de Lectura Pública de Cantabria</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">El Sistema de Lectura Pública</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 7. Composición.</p>
+          <p class="parrafo_2">El Sistema de Lectura Pública de Cantabria es el conjunto organizado de los servicios bibliotecarios existentes en Cantabria, tanto los de titularidad autonómica como aquellos que, perteneciendo a cualquier titular o ámbito de gestión, hayan suscrito con la Administración de la Comunidad Autónoma de Cantabria un convenio de integración. La finalidad del Sistema de Lectura Pública de Cantabria es asegurar el servicio de biblioteca y de acceso a la información a todos los ciudadanos de Cantabria, a través de la cooperación y la coordinación de actuaciones. Integran el Sistema de Lectura Pública de Cantabria:</p>
+          <p class="parrafo_2">a) La Biblioteca Central de Cantabria. El correspondiente convenio de gestión determinará el alcance de su integración en el Sistema, derivada de su función de Biblioteca Pública del Estado en Santander.</p>
+          <p class="parrafo">b) Las Bibliotecas públicas municipales y comarcales que se integren mediante los correspondientes convenios con la Administración de la Comunidad Autónoma de Cantabria.</p>
+          <p class="parrafo">c) Las Bibliotecas de cualquier otra titularidad, pública o privada, que se integren mediante los correspondientes convenios con la Administración de la Comunidad Autónoma de Cantabria.</p>
+          <p class="parrafo">d) Las bibliotecas que cree la Administración de la Comunidad Autónoma de Cantabria y aquellas bibliotecas auxiliares de centros de titularidad autonómica o de titularidad estatal cuya gestión se haya transferido al Gobierno de Cantabria.</p>
+          <p class="parrafo">e) Las bibliotecas de los centros públicos escolares y universitarios.</p>
+          <p class="parrafo">f) Los servicios bibliotecarios, fijos o móviles, dependientes de las bibliotecas citadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 8. Organización del Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo_2">Las bibliotecas que formen parte del Sistema deberán integrarse en el mismo, de acuerdo con la planificación general que se desarrolle, formando parte de los sistemas bibliotecarios municipales o comarcales ya existentes o que en el futuro se creen.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 9. Competencias administrativas.</p>
+          <p class="parrafo_2">La Administración de la Comunidad Autónoma de Cantabria, a través de la Consejería competente en materia de Cultura, ejercerá las siguientes competencias en relación con las bibliotecas y colecciones integradas en el Sistema de Lectura Pública:</p>
+          <p class="parrafo_2">a) Diseñar y planificar la política bibliotecaria y sus prioridades.</p>
+          <p class="parrafo">b) Gestionar el Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo">c) Coordinar el funcionamiento de las bibliotecas integradas en el sistema para que puedan cumplir los fines que tienen encomendados.</p>
+          <p class="parrafo">d) Inspeccionar la organización y servicios de las bibliotecas y colecciones para comprobar el respeto a la legislación vigente.</p>
+          <p class="parrafo">e) Colaborar con otras Administraciones e Instituciones en los términos establecidos en el artículo 6 mediante la celebración de convenios.</p>
+          <p class="parrafo">f) Organizar, actualizar y gestionar el Registro de bibliotecas y colecciones de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 10. Registro de las bibliotecas integrantes del Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Cultura llevará un registro actualizado de las bibliotecas que formen parte del Sistema de Lectura Pública de Cantabria y lo difundirá como servicio público a los ciudadanos.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 11. Integración de una biblioteca en el Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo_2">La integración de cualquier biblioteca en el Sistema de Lectura Pública de Cantabria se efectuará mediante convenio entre el titular de la biblioteca y la Consejería competente en materia de Cultura que se publicará en el «Boletín Oficial de Cantabria». Dicho convenio recogerá la regulación de los aspectos relativos al horario de apertura, servicios que presta la biblioteca, financiación e instalaciones y cuantos otros sean necesarios para el cumplimiento de sus fines.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 12. Efectos y obligaciones de la pertenencia al Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo_2">1. Todas las bibliotecas integradas en el Sistema de Lectura Pública de Cantabria ajustarán su funcionamiento a las disposiciones reglamentarias dictadas por el Gobierno de Cantabria.</p>
+          <p class="parrafo">2. La integración de una biblioteca en el Sistema de Lectura Pública de Cantabria da derecho a acceder a los servicios de apoyo a la lectura pública.</p>
+          <p class="parrafo">3. Las bibliotecas integradas en el Sistema están obligadas a participar en los programas cooperativos comunes, así como a recoger y enviar los datos bibliográficos y estadísticos que se les soliciten.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 13. Fondos locales.</p>
+          <p class="parrafo_2">Las bibliotecas públicas del Sistema fomentarán:</p>
+          <p class="parrafo_2">1. La formación de una sección local, cuyo fin será la conservación y difusión de los fondos especializados en el estudio e información sobre temas de interés local.</p>
+          <p class="parrafo">2. La creación de una sección infantil-juvenil, con servicios y medios adecuados a las necesidades de los usuarios en razón de su edad.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 14. Inspección del Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo_2">1. Todos los centros integrados en el Sistema de Lectura Pública de Cantabria tienen el deber de facilitar a la Consejería competente en materia de Cultura la información que se les solicite para comprobar el cumplimiento de la normativa vigente. Igualmente, deberán permitir el acceso a las instalaciones de los funcionarios designados por la Consejería competente en materia de Cultura, facilitando la actuación de los mismos.</p>
+          <p class="parrafo">2. Si de la inspección de una biblioteca integrada en el Sistema de Lectura Pública de Cantabria se desprende el incumplimiento de la normativa legal o reglamentaria existente, el titular de la biblioteca adoptará las medidas correctoras que establezca la Consejería competente en materia de Cultura. En caso contrario, el titular de la misma perderá el derecho de acceso a los mecanismos de apoyo a la lectura pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 15. Mapa de la Lectura Pública de Cantabria.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Cultura elaborará y actualizará el Mapa de la Lectura Pública de Cantabria, recogiendo las necesidades de lectura pública y estableciendo los diferentes tipos de servicios bibliotecarios correspondientes a cada núcleo de población. El Mapa se aprobará por el Gobierno de Cantabria, una vez oídas la Comisión de Bibliotecas de Cantabria y la Federación de Municipios de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">La Biblioteca Central de Cantabria</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 16. Definición y funciones.</p>
+          <p class="parrafo_2">La Biblioteca Central de Cantabria es la cabecera del Sistema de Lectura Pública de Cantabria y, como tal, tiene las siguientes funciones:</p>
+          <p class="parrafo_2">a) Reunir, conservar y difundir una colección lo más amplia posible de todo tipo de materiales bibliográficos e informativos producidos en Cantabria, que traten sobre cualquier aspecto de Cantabria o que hayan sido realizados por autores cántabros o con relación directa con Cantabria.</p>
+          <p class="parrafo">b) Formar colecciones de material de difícil adquisición por parte de las restantes bibliotecas de la Comunidad Autónoma, facilitando el préstamo interbibliotecario de los mismos.</p>
+          <p class="parrafo">c) Fomentar, reunir, conservar y difundir el Patrimonio Bibliográfico de Cantabria.</p>
+          <p class="parrafo">d) Elaborar y difundir la información bibliográfica pertinente que facilite las tareas de selección y catalogación a las bibliotecas pertenecientes al Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo">e) Elaborar, mantener y difundir los catálogos colectivos relativos a los fondos de las bibliotecas integrantes del Sistema de Lectura Pública de Cantabria.</p>
+          <p class="parrafo">f) Asesorar técnicamente a las bibliotecas integradas en el sistema.</p>
+          <p class="parrafo">g) Cuantas otras se le encomienden para el mejor funcionamiento del Sistema de Lectura Pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 17. Estructura.</p>
+          <p class="parrafo_2">La Biblioteca Central de Cantabria se estructurará en las secciones y departamentos que sean necesarios. El Gobierno de Cantabria consignará en los presupuestos de la Comunidad Autónoma las partidas necesarias para dotar a la Biblioteca Central de Cantabria de los medios materiales suficientes y del personal especializado preciso, para llevar a cabo las funciones descritas en el artículo anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Los servicios de lectura pública</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 18. Definición de servicios de bibliotecas.</p>
+          <p class="parrafo_2">1. Se consideran servicios básicos de la biblioteca pública, tanto para la población adulta, como para los niños y jóvenes:</p>
+          <p class="parrafo_2">a) La consulta de publicaciones monográficas y seriadas en sala.</p>
+          <p class="parrafo">b) La copia de documentos de acuerdo con las normas legales establecidas.</p>
+          <p class="parrafo">c) La información y referencia.</p>
+          <p class="parrafo">d) El préstamo individual de libros.</p>
+          <p class="parrafo">e) El préstamo interbibliotecario.</p>
+          <p class="parrafo">f) El acceso a la información mediante las nuevas tecnologías, como garantía del acceso de los ciudadanos a la «sociedad de la información».</p>
+          <p class="parrafo_2">2. Se consideran servicios mínimos:</p>
+          <p class="parrafo_2">a) La consulta de las principales obras de referencia.</p>
+          <p class="parrafo">b) El préstamo individual de libros.</p>
+          <p class="parrafo_2">3. Las bibliotecas integradas en el Sistema de Lectura Pública ofrecerán los servicios básicos de forma libre y gratuita. No obstante, en los servicios de préstamo interbibliotecario, reprografía y la utilización de servicios informáticos, podrá exigirse a los usuarios el pago del coste de los mismos.</p>
+          <p class="parrafo">4. La prestación de los servicios básicos se adaptará, en su caso, a las peculiaridades de las bibliotecas escolares, universitarias, especializadas y de interés público.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 19. Distribución de los servicios bibliotecarios.</p>
+          <p class="parrafo_2">1. En los municipios cuyo volumen de población o la dispersión geográfica de la misma lo aconsejen las Administraciones autonómica y municipal impulsarán la creación de sistemas municipales de bibliotecas.</p>
+          <p class="parrafo">2. En los municipios de más de cinco mil habitantes, de acuerdo con lo dispuesto en la Ley de Bases de Régimen Local, existirá una biblioteca pública capaz de procurar a los ciudadanos los servicios básicos definidos en el apartado 1 del artículo 18 de la presente Ley.</p>
+          <p class="parrafo">3. Las localidades de más de mil quinientos habitantes deberán contar con una biblioteca pública con fondos locales y personal cualificado suficientes para proporcionar a los ciudadanos, al menos, los servicios mínimos que se detallan en el apartado 2 del artículo 18 de la presente Ley. A estos efectos, y mediante los correspondientes convenios, podrán prestarse estos servicios a través de las bibliotecas escolares.</p>
+          <p class="parrafo">4. El Gobierno de Cantabria, por sí mismo, o en colaboración con otras Administraciones, garantizará el acceso de los habitantes de los municipios y localidades no mencionados en los apartados precedentes, a los servicios bibliotecarios mínimos por el medio que se considere más oportuno.</p>
+          <p class="parrafo">5. El Gobierno de Cantabria promoverá la cooperación entre las bibliotecas públicas municipales y la creación de redes bibliotecarias comarcales.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 20. Acceso a los fondos.</p>
+          <p class="parrafo_2">1. La prestación de los servicios bibliotecarios en los centros pertenecientes al Sistema de Bibliotecas de Cantabria se realizará sin discriminación alguna hacia ningún ciudadano por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia social, de acuerdo con la Constitución.</p>
+          <p class="parrafo">2. Donde sea necesario, se adoptarán las medidas precisas para que sean tenidos en cuenta los derechos de las minorías étnicas, religiosas o lingüísticas.</p>
+          <p class="parrafo">3. No obstante, por razones de seguridad y de conservación, se podrá restringir el acceso a los manuscritos, incunables y aquellos otros fondos que se determine, sin perjuicio de facilitar a los investigadores su consulta y estudio.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 21. Extensión bibliotecaria.</p>
+          <p class="parrafo_2">El Gobierno de Cantabria promoverá, a través de los centros bibliotecarios integrados en el Sistema, programas de extensión bibliotecaria, tales como los dirigidos a escuelas, centros penitenciarios, centros sanitarios o empresas, y procurará la coordinación entre los servicios bibliotecarios y cualesquiera otros servicios culturales que pudieran existir en su entorno.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 22. Convenios y préstamo interbibliotecario.</p>
+          <p class="parrafo_2">Las bibliotecas pertenecientes al Sistema de Lectura Pública de Cantabria podrán establecer convenios de colaboración o realizar actividades de préstamo interbibliotecario al margen de la Biblioteca Central de Cantabria, siempre que estas colaboraciones y actividades se realicen dentro de la norma bibliotecaria y de las determinaciones técnicas que se establezcan.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 23. Protección de los fondos.</p>
+          <p class="parrafo_2">A los fondos pertenecientes a bibliotecas y colecciones integrantes del Sistema de Lectura Pública de Cantabria les serán de aplicación las normas que, en materia de protección del patrimonio bibliográfico, establece la Ley de Patrimonio Cultural de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">La Comisión de Bibliotecas de Cantabria</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 24. Definición.</p>
+          <p class="parrafo_2">La Comisión de Bibliotecas de Cantabria es el órgano asesor y consultivo del Gobierno de Cantabria en las materias objeto de la presente Ley. Su organización, composición y régimen de funcionamiento se establecerán mediante un reglamento que posibilitará la participación de todos los sectores implicados en el hecho bibliotecario.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 25. Funciones.</p>
+          <p class="parrafo_2">Son funciones de la Comisión de Bibliotecas de Cantabria:</p>
+          <p class="parrafo_2">a) Informar sobre los proyectos de disposiciones generales en materia de bibliotecas y servicios bibliotecarios.</p>
+          <p class="parrafo">b) Informar sobre la declaración de los fondos bibliográficos de interés general.</p>
+          <p class="parrafo">c) Sugerir iniciativas para la mejora del funcionamiento, la organización y la coordinación del Sistema de Lectura Pública de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">De los medios personales y financieros</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Medios personales</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 26. Dotación y cualificación del personal.</p>
+          <p class="parrafo_2">1. Las bibliotecas y servicios bibliotecarios que formen parte del Sistema de Lectura Pública de Cantabria deberán contar con el personal suficiente en número, cualificación y nivel profesional adecuados a cada caso.</p>
+          <p class="parrafo">2. Los procesos de selección se realizarán de acuerdo con lo previsto en la legislación aplicable en cada caso y las directrices técnicas que establezca la Consejería competente en materia de Cultura. En el caso de las bibliotecas de titularidad pública, en la composición de los tribunales correspondientes deberá figurar, al menos, un representante de la profesión bibliotecaria, de categoría igual o superior a la plaza ofertada.</p>
+          <p class="parrafo">3. La Consejería competente en materia de Cultura asegurará la formación permanente del personal de las bibliotecas pertenecientes al Sistema de Lectura Pública de Cantabria, usando a tal fin todos aquellos medios que sean adecuados y suficientes.</p>
+        </version>
+      </bloque>
+      <bloque id="cii-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Medios financieros</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 27. Obligaciones de los titulares.</p>
+          <p class="parrafo_2">Los titulares, cuyas bibliotecas se adhieran al Sistema de Lectura Pública de Cantabria, se comprometerán, a través del convenio de integración, a consignar en sus presupuestos anuales las cantidades necesarias para el sostenimiento de las bibliotecas y de los servicios bibliotecarios de que se disponga.</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 28. Obligaciones del Gobierno de Cantabria.</p>
+          <p class="parrafo_2">El Gobierno de Cantabria, a través de la Consejería competente en materia de Cultura, consignará en sus partidas presupuestarias las cantidades necesarias para:</p>
+          <p class="parrafo_2">a) Mantener la dotación económica adecuada para la Biblioteca Central de Cantabria a fin de que desarrolle las funciones encomendadas en la presente Ley.</p>
+          <p class="parrafo">b) Mantener y potenciar la creación y mejora de bibliotecas y servicios bibliotecarios allí donde no existan o resulten insuficientes.</p>
+          <p class="parrafo">c) Fomentar el establecimiento, mantenimiento y buen funcionamiento de sistemas y redes de bibliotecas, facilitando el incremento equitativo de fondos bibliográficos e introduciendo las nuevas tecnologías en la gestión de los mismos.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 29. Otras aportaciones económicas.</p>
+          <p class="parrafo_2">Los titulares de las Bibliotecas podrán recibir para su financiación aportaciones procedentes de subvenciones, legados, herencias, donativos o de cualquier otro medio a título gratuito.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 30. Infracciones.</p>
+          <p class="parrafo_2">1. Además de las previstas con carácter general en la Ley del Patrimonio Histórico Español y en la Ley de Patrimonio Cultural de Cantabria, constituyen infracciones administrativas específicas en materia de bibliotecas y colecciones las acciones u omisiones que vulneren los deberes y obligaciones establecidos en la presente Ley.</p>
+          <p class="parrafo">2. Concretamente, se consideran infracciones graves:</p>
+          <p class="parrafo_2">a) El incumplimiento del deber de garantizar la seguridad y conservación de sus fondos.</p>
+          <p class="parrafo">b) La discriminación en el acceso a los servicios bibliotecarios.</p>
+          <p class="parrafo_2">3. El resto de infracciones tendrán la consideración de leves salvo que merezcan otra calificación conforme a lo dispuesto en la Ley de Patrimonio Histórico Español o en la Ley de Patrimonio Cultural de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Artículo 31. Sanciones y régimen aplicable.</p>
+          <p class="parrafo_2">Las sanciones aplicables a las infracciones contempladas en la presente Ley, así como el régimen de responsabilidad, la competencia, el procedimiento y efectos de su imposición y la prescripción de infracciones y sanciones se regirán por lo dispuesto en el Título VI de la Ley de Patrimonio Cultural de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición adicional primera. Animación a la lectura.</p>
+          <p class="parrafo_2">La Administración de la Comunidad Autónoma de Cantabria planificará y ejecutará un programa de animación a la lectura dirigido, principalmente, a los jóvenes.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición adicional segunda. Personal de bibliotecas.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Cultura cuidará de que el actual personal de las bibliotecas públicas de Cantabria cumpla los objetivos establecidos en el artículo 26 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición adicional tercera. Convenios o acuerdos con el Ministerio de Educación y Cultura.</p>
+          <p class="parrafo_2">La Consejería competente en materia de Cultura establecerá con el Ministerio de Educación y Cultura todos aquellos convenios o acuerdos necesarios que permitan la mejora o ampliación de las bibliotecas y de los servicios bibliotecarios. Especial atención se prestará al patrimonio bibliográfico y a la introducción de las nuevas tecnologías.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición transitoria única. Adaptación de bibliotecas.</p>
+          <p class="parrafo_2">Las bibliotecas existentes en la Comunidad Autónoma de Cantabria dispondrán de un plazo de dos años a partir de la entrada en vigor de la presente Ley para adaptarse a lo dispuesto en la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición derogatoria única.</p>
+          <p class="parrafo_2">Quedan derogadas cuantas disposiciones de igual o inferior rango que se opongan a lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición final primera. Autorización de desarrollo reglamentario.</p>
+          <p class="parrafo_2">Se autoriza al Gobierno de Cantabria para dictar las disposiciones reglamentarias que sean necesarias para el cumplimiento de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo_2">La presente Ley entrará en vigor a los dos meses de su publicación en el «Boletín Oficial de Cantabria».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2001-19610" fecha_publicacion="20011003" fecha_vigencia="20011203">
+          <p class="parrafo_2">Palacio del Gobierno de Cantabria, veinticinco de septiembre de dos mil uno.</p>
+          <p class="firma_ministro">JOSÉ JOAQUÍN MARTÍNEZ SIESO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

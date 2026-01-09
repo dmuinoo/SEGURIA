@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T123629Z</fecha_actualizacion>
+      <identificador>BOE-A-2010-2162</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8020">Comunidad Autónoma de Aragón</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20091230</fecha_disposicion>
+      <numero_oficial>11/2009</numero_oficial>
+      <titulo>Ley 11/2009, de 30 de diciembre, de la Cámara de Cuentas de Aragón.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20100210</fecha_publicacion>
+      <diario_numero>36</diario_numero>
+      <fecha_vigencia>20100120</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ar/l/2009/12/30/11</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2010-2162</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="265">Aragón</materia>
+        <materia codigo="1778">Cuentas Generales de las Comunidades Autónomas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOA núm. 253, de 31 de diciembre de 2009.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2001-13273</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Ley 10/2001, de 18 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-8444</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 112 del Estatuto aprobado por Ley Orgánica 5/2007, de 20 de abril</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-2162</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-30</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1778"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-2162</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1778"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/con/20091231"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/2009, de 30 de diciembre, de la Cámara de Cuentas de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-10</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/con/20091231">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-2162</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1778"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/con/20091231/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 11/2009, de 30 de diciembre, de la Cámara de Cuentas de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/con/20091231"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2009/12/30/11/con/20091231/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2009/12/30/11/con/20091231/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="parrafo">En nombre del Rey y como Presidente de la Comunidad Autónoma de Aragón, promulgo la presente Ley, aprobada por las Cortes de Aragón, y ordeno se publique en el «Boletín Oficial de Aragón» y en el «Boletín Oficial del Estado», todo ello de conformidad con lo dispuesto en el artículo 45 del Estatuto de Autonomía de Aragón.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Ley 10/2001, de 18 de junio, de creación de la Cámara de Cuentas de Aragón, supuso incorporar a las instituciones de autogobierno de nuestra Comunidad Autónoma un órgano esencial para el ejercicio de la autonomía financiera que la Constitución española de 1978 reconoce y garantiza a Aragón.</p>
+          <p class="parrafo">Con dicha Ley, la Comunidad Autónoma de Aragón se sumaba a otras Comunidades Autónomas que han regulado órganos de control externo de las cuentas públicas, dotados de una naturaleza jurídica y unas funciones, en sus respectivos ámbitos de actuación, similares a las asignadas por la Constitución al Tribunal de Cuentas del Estado.</p>
+          <p class="parrafo">Nuestra Comunidad Autónoma entroncaba así con el precedente histórico de los órganos de control externo de cuentas, a través de la figura del Maestre Racional, institución procedente de la administración siciliana, que fue introducida en Aragón por Pedro III en 1283 y afianzada por Jaime II en 1293. A pesar de ser en origen una institución única para toda la Corona de Aragón, probablemente en el siglo XV se creara una similar en cada uno de los reinos, puesto que en el siglo XVII todavía consta su existencia en el Reino de Aragón.</p>
+          <p class="parrafo">A la institución del Maestre Racional le correspondía la administración del patrimonio real como interventor general de ingresos y gastos, en un intento de impulsar la racionalización de la estructura político-administrativa de la Corona. Así mismo le fueron asignadas funciones de previsión, dirección y control último de la administración financiera real, destacando, entre todas ellas, la de fiscalización de la gestión financiera.</p>
+          <p class="parrafo">A diferencia del primer Estatuto de Autonomía de Aragón, del año 1982, en el que no se contemplaba expresamente la posible existencia de un órgano propio de la Comunidad Autónoma para el control externo del sector público de Aragón, el vigente Estatuto de Autonomía, aprobado por Ley Orgánica 5/2007, de 20 de abril, regula la Cámara de Cuentas de Aragón en el artículo 112, configurándola como el órgano fiscalizador de la gestión económico-financiera, contable y operativa del sector público de la Comunidad Autónoma de Aragón y de las entidades locales del territorio aragonés, sin perjuicio de las competencias que la Constitución atribuye al Tribunal de Cuentas.</p>
+          <p class="parrafo">La Cámara de Cuentas de Aragón ha adquirido ya, por tanto, relevancia estatutaria, dotándose así la Comunidad Autónoma en su norma institucional básica de un órgano especializado de control de los poderes públicos de Aragón, caracterizado por la plena independencia en el ejercicio de sus funciones con respecto a las Administraciones públicas y demás entidades en general sujetas a su labor de fiscalización. En este sentido, el Estatuto de Autonomía dispone que la Cámara de Cuentas depende directamente de las Cortes de Aragón y ejerce sus funciones por delegación de éstas.</p>
+          <p class="parrafo">La efectiva constitución de la Cámara de Cuentas de Aragón y el ejercicio de las funciones atribuidas por la Ley 10/2001 no han sido posibles hasta ahora. La presente reforma legal tiene por objeto, precisamente, dar cumplimiento al mandato contenido en el Estatuto de Autonomía de 2007, introduciéndose como novedad más significativa con respecto a la Ley de 2001 la configuración de la Cámara de Cuentas de Aragón como un órgano colegiado, integrado por tres miembros, frente al carácter unipersonal concebido inicialmente.</p>
+          <p class="parrafo">La presente Ley está estructurada en cinco Títulos, con un total de treinta y dos artículos y diez disposiciones de la parte final.</p>
+          <p class="parrafo">El Título I contiene la regulación de la naturaleza jurídica de la Cámara de Cuentas de Aragón, concebida como el órgano técnico al que corresponde la fiscalización externa de la gestión económico-financiera, contable y operativa del sector público de Aragón. Asimismo, delimita su ámbito de actuación, tanto subjetivo como objetivo, y relaciona sus funciones y competencias.</p>
+          <p class="parrafo">El Título II está dedicado a la función fiscalizadora de la Cámara de Cuentas, detallando el programa anual de fiscalización, el contenido y la finalidad de dicha función, así como el procedimiento de sus actuaciones, cuyo resultado se plasmará en los informes definitivos que deberán ser remitidos a las Cortes de Aragón y al Tribunal de Cuentas, y serán objeto de publicación oficial, así como en la elaboración de una memoria anual sobre la cual habrán de pronunciarse las Cortes de Aragón.</p>
+          <p class="parrafo">El Título III regula la composición de la Cámara de Cuentas, que pasa a ser ahora un órgano colegiado, integrado por tres miembros, previéndose igualmente diversas cuestiones relacionadas con el estatuto personal de éstos: causas de inelegibilidad; elección, nombramiento y duración de su mandato; régimen de incompatibilidades; y cese de los miembros de la Cámara de Cuentas.</p>
+          <p class="parrafo">En el Título IV se incluyen las disposiciones relativas a la organización de la Cámara de Cuentas, estableciéndose como órganos de la misma el Consejo y el Presidente, fijando determinadas normas de funcionamiento y las respectivas atribuciones de ambos órganos.</p>
+          <p class="parrafo">El Título V regula el régimen económico, patrimonial, de contratación y de personal de la Cámara de Cuentas que, con carácter general, será el mismo que rija para las Cortes de Aragón.</p>
+          <p class="parrafo">Por último, las disposiciones adicionales de esta Ley prevén un plazo para la constitución de la Cámara de Cuentas y la aprobación de su Reglamento de Organización y Funcionamiento. En las disposiciones transitorias se alude, entre otras cuestiones, a cuáles son las primeras cuentas a fiscalizar del sector público de Aragón. Asimismo, la disposición derogatoria única contempla expresamente la derogación íntegra de la Ley 10/2001.</p>
+          <p class="parrafo">En definitiva, la creación de la Cámara de Cuentas de Aragón responde a la necesidad de potenciar el control de la actividad financiera en el ámbito autonómico, vinculada a la creciente ampliación competencial, y constituye, al mismo tiempo, un paso significativo en el desarrollo del autogobierno, mediante el pleno autocontrol y la transparencia contable.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Naturaleza y ámbito de actuación</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 1. Naturaleza.</p>
+          <p class="parrafo">1. La Cámara de Cuentas de Aragón es el órgano al que corresponde la fiscalización externa de la gestión económico-financiera, contable y operativa del sector público de Aragón.</p>
+          <p class="parrafo">2. La Cámara de Cuentas dependerá directamente de las Cortes de Aragón y ejercerá sus funciones por delegación de éstas.</p>
+          <p class="parrafo">3. La Cámara de Cuentas, en el ejercicio de sus funciones, actuará con plena independencia de los entes sujetos a su fiscalización, con sometimiento pleno a la Constitución, al Estatuto de Autonomía de Aragón y al resto del ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 2. Ámbito de actuación.</p>
+          <p class="parrafo">1. A los efectos de la presente ley, integran el sector público de Aragón:</p>
+          <p class="parrafo_2">a) La Administración y los organismos públicos de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">b) Las entidades locales de Aragón y sus organismos públicos.</p>
+          <p class="parrafo">c) Los organismos, consorcios, empresas, fundaciones, asociaciones y demás entidades con personalidad jurídica propia en los que las entidades integrantes del sector público citadas en los apartados anteriores participen, directa o indirectamente, mayoritariamente en su capital, en su dotación fundacional o en la constitución de sus recursos propios, o financien mayoritariamente sus actividades, o tengan capacidad de nombramiento de más de la mitad de los miembros de los órganos de dirección, administración o control.</p>
+          <p class="parrafo">d) Aquellas entidades y organismos públicos no incluidos en los apartados anteriores y que tengan a su cargo la gestión o manejo de fondos públicos del sector público de Aragón.</p>
+          <p class="parrafo_2">2. A la Cámara de Cuentas le corresponde la fiscalización de la totalidad de los fondos públicos, entendidos estos como los gestionados por el sector público de Aragón, así como de las subvenciones, créditos, avales u otras ayudas del sector público de Aragón percibidos por personas físicas o jurídicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 3. Funciones de la Cámara de Cuentas.</p>
+          <p class="parrafo">1. Son funciones de la Cámara de Cuentas:</p>
+          <p class="parrafo_2">a) La fiscalización externa de la gestión económico-financiera y operativa del sector público de Aragón, velando para que se ajuste al ordenamiento jurídico, a los principios contables y a los criterios de eficacia, eficiencia y economía.</p>
+          <p class="parrafo">b) Emitir los dictámenes y resolver las consultas que, en materia de contabilidad pública y gestión económico-financiera y operativa, le soliciten los entes que integran el sector público de Aragón.</p>
+          <p class="parrafo">c) Fiscalizar los procesos de privatización de las empresas y servicios públicos, si los hubiere, comprobando además el cumplimiento de la legalidad y la transparencia de los mismos.</p>
+          <p class="parrafo_2">2. Las funciones de la Cámara de Cuentas se entienden sin perjuicio de las legalmente atribuidas al Tribunal de Cuentas, correspondiéndole también las que le sean delegadas por este en los términos previstos por su Ley Orgánica.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 4. Competencias de la Cámara de Cuentas.</p>
+          <p class="parrafo">Serán competencias de la Cámara de Cuentas:</p>
+          <p class="parrafo_2">a) Preparar y presentar, para su aprobación, en su caso, a las Cortes de Aragón las propuestas de normas que afecten a su gobierno, régimen interior y personal a su servicio y desarrollar las funciones relativas a dichas materias.</p>
+          <p class="parrafo">b) Elaborar el proyecto de su presupuesto para que sea sometido a la aprobación de las Cortes de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Función fiscalizadora</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Principios generales</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 5. Programa anual de fiscalización.</p>
+          <p class="parrafo">1. La Cámara de Cuentas, de acuerdo con su presupuesto, aprobará cada año un programa de fiscalización, de cuya ejecución pueda derivarse un juicio suficiente sobre la calidad y regularización de la gestión económico-financiera, contable y operativa del sector público de Aragón.</p>
+          <p class="parrafo">2. La Cámara de Cuentas, en orden a la elaboración del programa anual de fiscalización, y previamente a su aprobación definitiva, consultará preceptivamente a las Cortes de Aragón a fin de que, por los mecanismos que disponga su Reglamento, expresen las prioridades que, a su juicio, puedan existir en el ejercicio de la función fiscalizadora, que serán vinculantes para la Cámara de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 6. Contenido.</p>
+          <p class="parrafo">1. En el ejercicio de la función fiscalizadora, corresponde a la Cámara de Cuentas el examen y la comprobación de la Cuenta General de la Comunidad Autónoma de Aragón y las cuentas de los demás entes integrantes del sector público de Aragón.</p>
+          <p class="parrafo">2. La Cámara de Cuentas fiscalizará, en particular:</p>
+          <p class="parrafo_2">a) Los créditos extraordinarios, suplementos, incorporaciones, ampliaciones, transferencias y demás modificaciones de los créditos presupuestarios iniciales.</p>
+          <p class="parrafo">b) La situación y variaciones patrimoniales de los entes integrantes del sector público de Aragón.</p>
+          <p class="parrafo">c) Los contratos, cualquiera que sea su naturaleza, de los entes integrantes del sector público de Aragón, de acuerdo con lo dispuesto en la legislación de contratos del sector público.</p>
+          <p class="parrafo">d) La concesión y aplicación de las ayudas otorgadas por los entes integrantes del sector público de Aragón a personas físicas o jurídicas, incluidas las exenciones y bonificaciones fiscales.</p>
+          <p class="parrafo">e) La contabilidad electoral en los términos previstos por la legislación electoral.</p>
+          <p class="parrafo_2">3. Las cuentas generales de la Comunidad Autónoma de Aragón y de las principales Administraciones locales de Aragón se revisarán anualmente de acuerdo con lo previsto en el programa anual de fiscalización.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 7. Finalidad.</p>
+          <p class="parrafo">1. En el ejercicio de la función fiscalizadora, la Cámara de Cuentas verificará el efectivo sometimiento de la actividad económico-financiera de los entes integrantes del sector público de Aragón a los principios de legalidad, eficacia, eficiencia y economía.</p>
+          <p class="parrafo">2. La función fiscalizadora se extenderá también al control de la contabilidad pública, verificando que la misma refleje correctamente la realidad económica del sujeto controlado.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Procedimiento</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 8. Iniciativa.</p>
+          <p class="parrafo">1. La iniciativa en el ejercicio de la función fiscalizadora corresponde a las Cortes de Aragón y a la propia Cámara de Cuentas. En el primer caso se realizará a requerimiento del Pleno y, en el segundo, de acuerdo con su programa anual de fiscalización.</p>
+          <p class="parrafo">2. La Cámara de Cuentas notificará la decisión de iniciar las actuaciones fiscalizadoras a las Administraciones, organismos, consorcios, empresas, fundaciones, asociaciones y demás entidades que vayan a ser controladas.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 9. Colaboración.</p>
+          <p class="parrafo">1. La Cámara de Cuentas, en el ejercicio de su función fiscalizadora, podrá requerir a todos los entes sometidos a su control cuantos documentos, antecedentes e informes estime convenientes.</p>
+          <p class="parrafo">2. En el caso del otorgamiento de ayudas, la Cámara de Cuentas podrá realizar en la contabilidad de los beneficiarios las comprobaciones que fueran necesarias.</p>
+          <p class="parrafo">3. Cuando la colaboración no se preste o se produzca cualquier clase de obstrucción que impida o dificulte el ejercicio de sus funciones, la Cámara de Cuentas pondrá tal circunstancia en conocimiento de las Cortes de Aragón, proponiendo, en su caso, a quien corresponda la exigencia de responsabilidades en que se hubiera incurrido.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 10. Remisión de Cuentas.</p>
+          <p class="parrafo">1. La Cuenta General de la Comunidad Autónoma de Aragón habrá de presentarse antes del 30 de junio inmediato posterior al ejercicio económico al que se refiera.</p>
+          <p class="parrafo">2. Las Cuentas de las corporaciones locales habrán de presentarse antes del 15 de octubre inmediato posterior al ejercicio económico al que se refieran.</p>
+          <p class="parrafo">3. Las cuentas de los restantes organismos, entidades o empresas se presentarán en el plazo que sea señalado por la Cámara de Cuentas en el programa anual de fiscalización.</p>
+          <p class="parrafo">4. Las Cuentas podrán ser remitidas a la Cámara de Cuentas a través de medios telemáticos o en soporte informatizado en los términos legalmente previstos.</p>
+          <p class="parrafo">5. La Cámara de Cuentas procederá al examen y comprobación de la Cuenta General de la Comunidad Autónoma de Aragón y a la emisión del informe definitivo dentro del plazo de seis meses a partir de la fecha en que se haya presentado.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 11. Audiencia.</p>
+          <p class="parrafo">La Cámara de Cuentas, previamente a la emisión de cualquier informe definitivo, dará audiencia a los organismos controlados para que estos realicen alegaciones en el plazo de treinta días naturales, prorrogables por un período igual, como máximo, si mediara justa causa.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 12. Contenido de los informes.</p>
+          <p class="parrafo">1. El ejercicio de la función fiscalizadora de la Cámara de Cuentas se expondrá por medio de informes.</p>
+          <p class="parrafo">2. Los informes emitidos por la Cámara de Cuentas, una vez aprobados por su Consejo, pondrán fin a cada actuación.</p>
+          <p class="parrafo">3. En dichos informes se hará constar:</p>
+          <p class="parrafo_2">a) La observancia de la legalidad reguladora de la actividad económico-financiera del sector público y de los principios contables aplicables.</p>
+          <p class="parrafo">b) El grado de cumplimiento de los objetivos previstos y si la gestión, tanto económico-financiera como operativa, se ha ajustado a los criterios de eficacia, eficiencia y economía.</p>
+          <p class="parrafo">c) La existencia, en su caso, de infracciones, abusos o prácticas irregulares.</p>
+          <p class="parrafo">d) Las medidas que, en su caso, se proponen para la mejora de la gestión económico-financiera y operativa de las entidades fiscalizadas.</p>
+          <p class="parrafo">e) Las alegaciones y manifestaciones que, en su caso, hayan formulado las entidades fiscalizadas y no aceptadas por la Cámara de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 13. lnformes definitivos.</p>
+          <p class="parrafo">1. El resultado de cada actuación fiscalizadora de la Cámara de Cuentas se expondrá por medio de un informe, que será elevado a las Cortes de Aragón, remitido al Tribunal de Cuentas del Estado y publicado en el Boletín Oficial de las Cortes de Aragón.</p>
+          <p class="parrafo">2. Cuando los informes se refieran a la gestión económico-financiera de las entidades locales, se dará traslado, además, a las propias entidades locales.</p>
+          <p class="parrafo">3. La Cámara de Cuentas remitirá al Gobierno de Aragón los informes relativos a la gestión de cualesquiera de las entidades que integran el sector público autonómico y los correspondientes a las entidades locales aragonesas y su sector público, a los exclusivos efectos del ejercicio de la tutela financiera, en los términos previstos en el artículo 114.1 del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo">4. Si, en el ejercicio de su función fiscalizadora, la Cámara de Cuentas advirtiera la existencia de indicios de responsabilidad contable o de responsabilidad penal, lo trasladará sin dilación al Tribunal de Cuentas del Estado y a la Fiscalía del Tribunal Superior de Justicia de Aragón, respectivamente, a los efectos de su posible enjuiciamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 14. Memoria anual.</p>
+          <p class="parrafo">1. El resultado de las actuaciones de la Cámara de Cuentas se recogerá en una Memoria anual que el Consejo deberá remitir a las Cortes de Aragón durante el primer trimestre del año, para su tramitación conforme a lo dispuesto por el Reglamento de las Cortes de Aragón.</p>
+          <p class="parrafo">2. La Memoria anual y las resoluciones que sobre la misma adopten las Cortes de Aragón se publicarán en el «Boletín Oficial de Aragón» y en el «Boletín Oficial de las Cortes de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Composición</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 15. Miembros.</p>
+          <p class="parrafo">1. La Cámara de Cuentas la componen tres miembros, de los cuales uno será el Presidente.</p>
+          <p class="parrafo">2. Los miembros de la Cámara de Cuentas deberán ser personas que estén en posesión de título académico superior con más de diez años de experiencia profesional relacionada con el ámbito funcional de la misma.</p>
+          <p class="parrafo">3. No podrán ser designados miembros de la Cámara de Cuentas quienes, en los dos años inmediatamente anteriores, hayan desempeñado el cargo de miembro del Gobierno de Aragón o Viceconsejero, Interventor General, Director General de Presupuestos o Director General de Tributos de la Administración de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">4. Los miembros de la Cámara de Cuentas tendrán los derechos económicos aprobados por las Cortes de Aragón incluidos en los Presupuestos de la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 16. Elección, nombramiento y duración del mandato.</p>
+          <p class="parrafo">1. Los miembros de la Cámara de Cuentas serán nombrados por el Presidente de las Cortes de Aragón, entre los candidatos propuestos por los Grupos Parlamentarios, de acuerdo con lo previsto en el Reglamento de las Cortes. La Mesa de las Cortes elevará la propuesta al Pleno para su elección por mayoría de tres quintos. Su nombramiento será publicado en el «Boletín Oficial de Aragón».</p>
+          <p class="parrafo">2. El mandato de los miembros de la Cámara de Cuentas tendrá una duración de seis años, pudiendo ser reelegidos.</p>
+          <p class="parrafo">3. El nombramiento como miembro de la Cámara de Cuentas implica, en su caso, pasar a la situación de servicios especiales.</p>
+          <p class="parrafo">4. El Presidente de la Cámara de Cuentas será elegido entre sus miembros, a propuesta de éstos, y nombrado por el Presidente de las Cortes de Aragón por un periodo de seis años, pudiendo ser reelegido. Su nombramiento se publicará en el «Boletín Oficial de Aragón».</p>
+          <p class="parrafo">5. En el supuesto de cese de alguno de los miembros de la Cámara de Cuentas por cualesquiera de las causas previstas en esta ley, la Mesa de las Cortes elevará una propuesta al Pleno de las Cortes de Aragón para la elección del nuevo miembro hasta el fin del periodo para el que fue elegido el cesado, que requerirá mayoría de tres quintos.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 17. Incompatibilidades.</p>
+          <p class="parrafo">1. A los miembros de la Cámara de Cuentas les será de aplicación el régimen de incompatibilidades de los altos cargos de la Administración de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">2. En todo caso, la condición de miembro de la Cámara de Cuentas será incompatible con la de Diputado a las Cortes de Aragón; Diputado al Congreso de los Diputados; Senador; miembro del Tribunal de Cuentas; Justicia de Aragón; Defensor del Pueblo; cualquier otro cargo político o función administrativa del Estado, Comunidades Autónomas y entidades locales o sus organismos, consorcios, empresas, fundaciones, asociaciones y demás entidades públicas y empresas participadas, cualquiera que sea su forma jurídica; el cumplimiento de funciones directivas o ejecutivas en partidos políticos, sindicatos y asociaciones empresariales, o en colegios profesionales, y con el ejercicio de su profesión o de cualquier otra actividad remunerada.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 18. Abstención y recusación.</p>
+          <p class="parrafo">Los miembros de la Cámara de Cuentas, sin perjuicio de la aplicación de las causas de abstención y recusación previstas en la normativa reguladora del régimen jurídico de las Administraciones públicas, se abstendrán de la fiscalización de actos o expedientes en los que, por cualquier cargo o actividad, hayan intervenido con anterioridad a su designación.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 19. Cese.</p>
+          <p class="parrafo">1. Los miembros de la Cámara de Cuentas cesarán por las siguientes causas:</p>
+          <p class="parrafo_2">a) Por renuncia.</p>
+          <p class="parrafo">b) Por expiración del plazo de su mandato.</p>
+          <p class="parrafo">c) Por incompatibilidad sobrevenida o incumplimiento de sus deberes, apreciados por el Pleno de las Cortes por mayoría de tres quintos.</p>
+          <p class="parrafo">d) Por condena por delito en virtud de sentencia judicial firme.</p>
+          <p class="parrafo">e) Por fallecimiento.</p>
+          <p class="parrafo_2">2. En los supuestos previstos en las letras a) y b) del apartado anterior, los miembros de la Cámara de Cuentas continuarán en el ejercicio de sus funciones hasta que tomen posesión quienes hubieran de sucederles.</p>
+          <p class="parrafo">3. El cese se formalizará mediante Resolución del Presidente de las Cortes de Aragón y será publicado en el «Boletín Oficial de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Organización</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 20. Facultades de organización.</p>
+          <p class="parrafo">La Cámara de Cuentas tendrá plenas facultades para organizar todos los asuntos relacionados con su régimen interno de acuerdo con lo establecido en la presente ley y en su propio Reglamento de Organización y Funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 21. Órganos.</p>
+          <p class="parrafo">La Cámara de Cuentas se organiza en los siguientes órganos:</p>
+          <p class="parrafo_2">a) El Consejo.</p>
+          <p class="parrafo">b) El Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 22. El Consejo.</p>
+          <p class="parrafo">1. El Consejo es el órgano de la Cámara de Cuentas integrado por la totalidad de sus miembros.</p>
+          <p class="parrafo">2. El Consejo quedará válidamente constituido con la asistencia de la mayoría de sus miembros, debiendo ser uno de ellos el Presidente o quien le sustituya de conformidad con lo dispuesto en el Reglamento de Organización y Funcionamiento. Sus acuerdos se adoptarán con el voto favorable de al menos dos miembros de la Cámara de Cuentas.</p>
+          <p class="parrafo">3. Uno de los miembros de la Cámara de Cuentas ejercerá las funciones de secretariado del Consejo, de acuerdo con lo que disponga el Reglamento de Organización y Funcionamiento.</p>
+          <p class="parrafo">4. El Consejo será convocado por el Presidente, a iniciativa propia o siempre que lo soliciten dos miembros de la Cámara de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 23. Funciones del Consejo.</p>
+          <p class="parrafo">Corresponden al Consejo de la Cámara de Cuentas las siguientes funciones:</p>
+          <p class="parrafo_2">a) Aprobar el programa anual de fiscalización sometido a la consideración de las Cortes de Aragón.</p>
+          <p class="parrafo">b) Aprobar las memorias y los informes de la Cámara de Cuentas.</p>
+          <p class="parrafo">c) Aprobar el proyecto de presupuesto de la propia Cámara de Cuentas.</p>
+          <p class="parrafo">d) Elaborar y proponer para su aprobación por las Cortes de Aragón el proyecto de Reglamento de Organización y Funcionamiento de la Cámara de Cuentas.</p>
+          <p class="parrafo">e) Establecer las directrices técnicas a que deban sujetarse los procedimientos de fiscalización y los criterios que han de presidir su actuación en el ejercicio de la función fiscalizadora.</p>
+          <p class="parrafo">f) Las demás funciones no atribuidas a los otros órganos de la Cámara de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 24. El Presidente.</p>
+          <p class="parrafo">1. El Presidente de la Cámara de Cuentas tendrá las siguientes atribuciones:</p>
+          <p class="parrafo_2">a) Representar ante cualquier instancia a la Cámara de Cuentas.</p>
+          <p class="parrafo">b) Convocar y presidir el Consejo.</p>
+          <p class="parrafo">c) Ejercer la jefatura superior del personal y las funciones relativas a su nombramiento y contratación.</p>
+          <p class="parrafo">d) Asignar las tareas a desarrollar de acuerdo con el programa de fiscalizaciones que apruebe el Consejo.</p>
+          <p class="parrafo">e) Dirigir los servicios técnicos y administrativos de la Cámara de Cuentas, en particular, autorizar y disponer del gasto, así como ordenar los pagos que correspondan a la Cámara de Cuentas y autorizar los documentos de formalización de los ingresos.</p>
+          <p class="parrafo">f) Notificar y certificar todos los informes que se realicen por la Cámara de Cuentas en el ejercicio de sus funciones.</p>
+          <p class="parrafo">g) Comparecer ante las Cortes de Aragón para la aclaración de los informes remitidos cuando así sea requerido por el Pleno de las Cortes.</p>
+          <p class="parrafo">h) Autorizar con su firma todas las certificaciones que se expidan.</p>
+          <p class="parrafo">i) Las demás funciones que le reconozca la presente ley y las normas que la desarrollen.</p>
+          <p class="parrafo_2">2. En caso de vacante, ausencia o enfermedad, el Presidente de la Cámara de Cuentas será sustituido por el miembro de la misma que corresponda según lo dispuesto en el Reglamento de Organización y Funcionamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">Régimen económico, patrimonial y de personal</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 25. Régimen económico, patrimonial, de contratación y de personal.</p>
+          <p class="parrafo">1. El régimen económico, patrimonial, de contratación y de personal de la Cámara de Cuentas será el que rija para las Cortes de Aragón y sus instituciones dependientes, con observancia, en todo caso, de lo dispuesto en este capítulo.</p>
+          <p class="parrafo">2. La Cámara de Cuentas se encuentra sujeta al régimen de intervención y de contabilidad pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 26. Presupuesto de la Cámara de Cuentas.</p>
+          <p class="parrafo">El presupuesto de la Cámara de Cuentas estará integrado en los Presupuestos de la Comunidad Autónoma, conformando un Servicio de la Sección destinada a las Cortes de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 27. Patrimonio de la Cámara de Cuentas.</p>
+          <p class="parrafo">El patrimonio de la Cámara de Cuentas estará integrado dentro del patrimonio de las Cortes de Aragón y se regirá por la normativa reguladora del de la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 28. Personal al servicio de la Cámara de Cuentas.</p>
+          <p class="parrafo">Para el cumplimiento de sus funciones, la Cámara de Cuentas podrá disponer de los medios personales necesarios de acuerdo con las partidas que figuren en el presupuesto de las Cortes de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 29. Auditores.</p>
+          <p class="parrafo">1. La Cámara de Cuentas podrá designar libremente a los Auditores, en el número que reglamentariamente se determine, que considere necesarios para la ejecución de los controles previstos en los planes anuales de fiscalización. En particular, corresponderá a los Auditores de la Cámara de Cuentas realizar el control de cuentas y de la gestión económica del sector público de Aragón, proponiendo al Consejo de la Cámara de Cuentas, para su estudio y elaboración, los informes de fiscalización y las conclusiones a que llegasen en el ejercicio de la actuación fiscalizadora.</p>
+          <p class="parrafo">2. Para ser nombrado Auditor de la Cámara de Cuentas será necesario estar en posesión de título universitario superior y haber desempeñado actividades profesionales relacionadas con el ámbito funcional de la Cámara de Cuentas.</p>
+          <p class="parrafo">3. Los auditores que sean funcionarios, mientras desempeñen su función, pasarán a la situación administrativa de servicios especiales.</p>
+          <p class="parrafo">4. El ejercicio del cargo de Auditor está sometido a idéntico régimen de incompatibilidades que el previsto para los miembros de la Cámara de Cuentas.</p>
+          <p class="parrafo">5. Los Auditores podrán ser cesados libremente por la Cámara de Cuentas y, en todo caso, cesarán cuando finalice el mandato de los miembros de la Cámara de Cuentas. El nombramiento y cese de los Auditores serán objeto de publicación en el «Boletín Oficial de Aragón» y en el «Boletín Oficial de las Cortes de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 30. Otro personal.</p>
+          <p class="parrafo">1. Además de los Auditores, el personal al servicio de la Cámara de Cuentas estará integrado por los funcionarios y personal laboral previstos en la correspondiente relación de puestos de trabajo, de acuerdo con el régimen general de ordenación de la función pública de la Comunidad Autónoma de Aragón, sin perjuicio de las especialidades que le sean de aplicación.</p>
+          <p class="parrafo">2. El presidente de la Cámara de Cuentas podrá nombrar hasta un máximo de dos personas, con destino en su gabinete, para su asistencia directa. Estas personas tendrán la consideración de cargos de confianza y de asesoramiento especial de naturaleza eventual. El nombramiento y cese de los miembros del gabinete serán objeto de publicación en el «Boletín Oficial de Aragón» y en el «Boletín Oficial de las Cortes de Aragón».</p>
+          <p class="parrafo">3. El personal que realice funciones de auditoría se abstendrá de participar en la fiscalización de instituciones, organismos o entidades con los que tengan relación, o la hayan tenido durante el período a fiscalizar, si esto pudiera interferir en su trabajo; en cualquier caso, estarán obligados a comunicarlo a su inmediato superior.</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 31. Ayuda externa.</p>
+          <p class="parrafo">Para la realización de estudios y actuaciones concretas, la Cámara de Cuentas podrá contratar, de acuerdo con la normativa aplicable en materia de contratos del sector público, los servicios de profesionales o empresas o suscribir contratos y convenios con la Universidad, centros públicos de investigación o colegios profesionales, asegurándose de que se den las suficientes garantías de independencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Artículo 32. Procedimiento administrativo.</p>
+          <p class="parrafo">En relación con las materias a que se refiere el presente capítulo, la Cámara de Cuentas se regirá por la normativa sobre procedimiento administrativo vigente en la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición adicional primera. Términos genéricos.</p>
+          <p class="parrafo">Las menciones genéricas en masculino que aparecen en el articulado de la presente ley se entenderán referidas también a su correspondiente femenino.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición adicional segunda. Constitución de la Cámara de Cuentas.</p>
+          <p class="parrafo">En plazo no superior a tres meses desde la entrada en vigor de la presente ley se deberá proceder a la elección y nombramiento de los miembros de la Cámara de Cuentas.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición adicional tercera. Reglamento.</p>
+          <p class="parrafo">En el plazo de tres meses desde la constitución de la Cámara de Cuentas, el Consejo elevará el proyecto de Reglamento de Organización y Funcionamiento a las Cortes de Aragón para su aprobación.</p>
+        </version>
+      </bloque>
+      <bloque id="dacuaa" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición adicional cuarta. Plazo para examen y comprobación de las Cuentas Generales de Aragón.</p>
+          <p class="parrafo">La Cámara de Cuentas, dentro del plazo de seis meses desde su renovación, procederá al examen y comprobación de las Cuentas Generales de la Comunidad Autónoma de Aragón que se hayan rendido ante la Cámara de Cuentas saliente y sobre las que no exista pronunciamiento definitivo.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición transitoria primera. Primeras cuentas a fiscalizar.</p>
+          <p class="parrafo">Las primeras cuentas del sector público de Aragón que se fiscalicen por la Cámara de Cuentas serán las del ejercicio económico en el que quede efectivamente constituida.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición transitoria segunda. Normativa aplicable transitoriamente.</p>
+          <p class="parrafo">Hasta la aprobación y entrada en vigor del Reglamento previsto en la disposición adicional tercera, regirá, con las adaptaciones necesarias, la normativa aplicable al funcionamiento del Tribunal de Cuentas del Estado en tanto no se oponga al contenido de la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición transitoria tercera. Medios personales transitorios.</p>
+          <p class="parrafo">Mientras la Cámara de Cuentas no disponga de los medios personales necesarios para el cumplimiento de sus funciones, podrá solicitar la adscripción provisional de funcionarios de cualquier Administración pública que posean la titulación requerida y experiencia en su ámbito funcional.</p>
+        </version>
+      </bloque>
+      <bloque id="dtcuaa" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición transitoria cuarta. Medios económicos.</p>
+          <p class="parrafo">Para atender los gastos necesarios para el funcionamiento adecuado de la Cámara de Cuentas se tramitarán las modificaciones de crédito que resulten necesarias en los Presupuestos de la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Ley 10/2001, de 18 de junio, de creación de la Cámara de Cuentas de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">La presente ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2010-2162" fecha_publicacion="20091231" fecha_vigencia="20100120">
+          <p class="parrafo_2">Así lo dispongo a los efectos del artículo 9.1 de la Constitución y los correspondientes del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo_2">Zaragoza, 30 de diciembre de 2009.</p>
+          <p class="firma_ministro">El Presidente del Gobierno de Aragón,</p>
+          <p class="firma_ministro">Marcelino Iglesias Ricou</p>
+          <p class="centro_cursiva"> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

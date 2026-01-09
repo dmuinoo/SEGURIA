@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T174501Z</fecha_actualizacion>
+      <identificador>BOE-A-2013-9510</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20130830</fecha_disposicion>
+      <numero_oficial>FOM/1634/2013</numero_oficial>
+      <titulo>Orden FOM/1634/2013, de 30 de agosto, por la que se aprueban las tarifas por los servicios prestados por la Sociedad de Salvamento y Seguridad Marítima.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20130912</fecha_publicacion>
+      <diario_numero>219</diario_numero>
+      <fecha_vigencia>20130913</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2013/08/30/fom1634</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2013-9510</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="6664">Sociedad de Salvamento y Seguridad Marítima</materia>
+        <materia codigo="6827">Tarifas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2007-10486</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden FOM/1435/2007, de 14 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2011-16467</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 268 de la Ley de Puertos del Estado y de la Marina Mercante, texto refundido aprobado por Real Decreto Legislativo 2/2011, de 5 de septiembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-9510</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-30</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fom1634</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6664"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6827"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-9510</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fom1634</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6664"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6827"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/con/20130912"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden FOM/1634/2013, de 30 de agosto, por la que se aprueban las tarifas por los servicios prestados por la Sociedad de Salvamento y Seguridad Marítima.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-09-12</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/con/20130912">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-9510</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fom1634</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6664"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6827"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-09-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/con/20130912/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden FOM/1634/2013, de 30 de agosto, por la que se aprueban las tarifas por los servicios prestados por la Sociedad de Salvamento y Seguridad Marítima.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/con/20130912"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2013/08/30/fom1634/con/20130912/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2013/08/30/fom1634/con/20130912/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="parrafo">De acuerdo con el artículo 267 del Real Decreto Legislativo 2/2011, de 5 de septiembre, por el que se aprueba el Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, la Sociedad de Salvamento y Seguridad Marítima (en adelante SASEMAR) se configura como una Entidad Pública Empresarial adscrita al Ministerio de Fomento. Las funciones y el régimen general de dicha entidad se rige conforme a lo previsto por el artículo 53.1 de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado y por el Real Decreto 370/1999, de 5 de marzo, de adaptación de diversas Entidades a dicha ley.</p>
+          <p class="parrafo">Según dispone el artículo 268 del Texto Refundido anteriormente citado, constituye el objeto de SASEMAR la prestación de los servicios públicos de salvamento de la vida humana en la mar y de prevención y lucha contra la contaminación del medio marino, la prestación de los servicios de seguimiento y ayuda al tráfico marítimo, de seguridad marítima y de la navegación y de remolque y asistencia a buques, así como aquellos que sean complementarios de los anteriores.</p>
+          <p class="parrafo">A su vez, el apartado 2.h) del artículo 270 del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante permite a SASEMAR facturar las tarifas correspondientes a la prestación de los servicios relacionados con su objeto social, y atribuye su aprobación al Ministro de Fomento, previa propuesta del Consejo de Administración de la Entidad.</p>
+          <p class="parrafo">Las tarifas de SASEMAR, en la actualidad, se encuentran reguladas por la Orden FOM 1435/2007, de 14 de mayo, en aplicación del artículo 92.2.h) de la Ley 27/1992, de 24 de noviembre de Puertos del Estado y de la Marina Mercante.</p>
+          <p class="parrafo">No obstante, los incrementos de los costes de los medios materiales precisos para la prestación de los servicios encomendados, así como los derivados de la legislación laboral y del precio de los combustibles, obligan a regular y a aplicar nuevas tarifas que cubran los gastos derivados de la prestación de dichos servicios en régimen de concurrencia de mercado.</p>
+          <p class="parrafo">Por otra parte, el apartado 4 del artículo 268 del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante establece la posibilidad de que la Administración marítima encomiende a SASEMAR la adopción de medidas preventivas tendentes a evitar la contaminación del medio marino, así como la realización de las operaciones de limpieza pertinentes una vez producida aquélla.</p>
+          <p class="parrafo">La realización de dichas operaciones implica unos gastos que se han de cubrir mediante la aplicación de las correspondientes tarifas por las actividades anteriormente reseñadas, cuya aprobación corresponde al Ministro de Fomento, de acuerdo con el artículo 270.2. h) del citado Texto Refundido.</p>
+          <p class="parrafo">En relación con este último supuesto, cabe también que la petición para las operaciones referidas en el ámbito de la contaminación del medio marino, pueda provenir de otras Administraciones Públicas distintas de la Administración marítima o de particulares interesados, siendo necesario también en este caso cubrir los costes derivados de la realización de las operaciones.</p>
+          <p class="parrafo">El conjunto de circunstancias descritas obliga a dictar una nueva orden ministerial por la que se regulen las tarifas por la prestación de los servicios que presta SASEMAR, en sustitución de la Orden FOM 1435/2007, de 14 de mayo, que se deroga.</p>
+          <p class="parrafo">El Consejo de Administración de SASEMAR, en su reunión del día 22 de febrero de 2013, aprobó la propuesta de las nuevas tarifas, de acuerdo con lo previsto por el artículo 270.2.h) del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante. La citada propuesta es objeto de aprobación por la Ministra de Fomento mediante esta orden ministerial.</p>
+          <p class="parrafo">En la tramitación de esta orden se ha procedido a dar audiencia a los interlocutores sociales interesados, así mismo se ha recabado informe del Ministerio de Hacienda y Administraciones Públicas.</p>
+          <p class="parrafo">Esta orden se dicta al amparo de las competencias que al Estado confiere el artículo 149.1.20.ª de la Constitución, en materia de marina mercante.</p>
+          <p class="parrafo">En su virtud, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Esta orden tiene por objeto la aprobación de las tarifas que corresponde percibir a SASEMAR como contraprestación por la realización de los servicios que constituyen el objeto social de la Entidad, de conformidad con lo previsto por el artículo 268 del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, aprobado por del Real Decreto Legislativo 2/2011, de 5 de septiembre.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 2. Actividades excluidas.</p>
+          <p class="parrafo">Quedan excluidas de lo dispuesto en esta orden las contraprestaciones derivadas de las actividades desarrolladas por SASEMAR consistentes en:</p>
+          <p class="parrafo_2">– Las actuaciones que constituyan prestación del servicio público de salvamento de la vida humana en la mar.</p>
+          <p class="parrafo">– Las actividades de control y ayuda al tráfico marítimo en las áreas marítimas sometidas a especial regulación y en las zonas cubiertas por dispositivos de separación del tráfico marítimo.</p>
+          <p class="parrafo">– Las actividades de apoyo y asesoramiento a la Administración marítima y a otras Administraciones Públicas.</p>
+          <p class="parrafo">– Las operaciones de salvamento de bienes que se rigen de acuerdo con lo establecido por el Convenio Internacional sobre Salvamento Marítimo de 1989 y por la Ley 60/1992, de 24 de diciembre, sobre auxilios, salvamentos, remolques, hallazgos y extracciones marítimas, así como por cualquier otra norma del mismo rango que sustituya a las citadas.</p>
+          <p class="parrafo">– Las actividades de formación, docencia, ensayos y homologación delegadas por la Administración marítima, que se regirán por la legislación que le sea de aplicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 3. Actividades encomendadas en materia de contaminación.</p>
+          <p class="parrafo">Cuando, conforme a lo previsto por el artículo 268.4 del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, la Administración marítima encomiende a SASEMAR la adopción de medidas preventivas, tendentes a evitar o minimizar la contaminación del medio marino, así como la realización de operaciones de limpieza una vez producida aquélla, o cualquier otro servicio derivado de un accidente o incidente marítimo, SASEMAR reclamará del responsable del siniestro el pago de los costes y gastos en los que hubiera incurrido.</p>
+          <p class="parrafo">En dichos costes y gastos se incluirán los relativos a la utilización de las distintas unidades aéreas, marítimas, equipos, vehículos y otros medios materiales empleados, así como los del personal especializado propio de la Sociedad o contratados por ésta que se desplieguen en cada operación.</p>
+          <p class="parrafo">Asimismo, dichos costes y gastos comprenderán, entre otros, los originados por la prestación de actividades, tales como:</p>
+          <p class="parrafo_2">– La ejecución de las medidas preventivas, de las medidas de evitación de nuevos daños, y de las medidas reparadoras y los de evaluación de los daños medioambientales ya producidos.</p>
+          <p class="parrafo">– Los dirigidos a evaluar y establecer las opciones de acción posible, y los necesarios para elegir la opción más adecuada.</p>
+          <p class="parrafo">– Los derivados de la recopilación de documentación o datos precisos para el ejercicio de las actividades encomendadas.</p>
+          <p class="parrafo">– Los que impliquen el seguimiento y ejecución de las acciones realizadas.</p>
+          <p class="parrafo">– Los costes administrativos jurídicos y de materiales y técnicas necesarios para el ejercicio de las actividades citadas.</p>
+          <p class="parrafo_2">La determinación de los costes y gastos se realizarán de acuerdo con lo establecido en el anexo I de esta orden.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 4. Operaciones en el ámbito de la contaminación marítima a requerimiento de terceros.</p>
+          <p class="parrafo">Cuando las operaciones de prevención y lucha contra la contaminación del medio marino se realicen a petición de terceros interesados, ya sean éstos Administraciones Públicas distintas de la Administración marítima o particulares, los costes y gastos a los que dichas operaciones dieran lugar serán los contemplados en el artículo 3 y en el anexo I de esta orden.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 5. Otras actividades solicitadas por interesados.</p>
+          <p class="parrafo">Las actividades realizadas por SASEMAR a solicitud de los interesados, no contempladas en los artículos 2, 3 y 4 de esta orden, pero incluidas en el objeto social de la Entidad, darán lugar al pago del importe de las tarifas recogidas en el anexo II de esta orden.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 6. Aceptación de los servicios.</p>
+          <p class="parrafo">La aceptación de los servicios objeto del artículo anterior presupone la conformidad de los peticionarios con las tarifas reguladas en esta orden.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 7. Tiempo de servicio.</p>
+          <p class="parrafo">Para calcular el importe por la utilización de los medios materiales y personales de SASEMAR, el tiempo de servicio se computará desde el momento en que las unidades de SASEMAR salgan de su base hasta el regreso a la misma, una vez realizadas las operaciones.</p>
+          <p class="parrafo">Los servicios cancelados por decisión del peticionario, una vez que se hubiera iniciado su prestación, serán abonados de acuerdo con el tiempo invertido desde el comienzo de su prestación hasta el retorno de los medios a su base.</p>
+          <p class="parrafo">En el caso de que la prestación se realice en un puerto, el receptor de la misma estará sujeto al cumplimiento de las normas y al pago de las tarifas establecidas por la administración portuaria correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 8. Plazo para el pago.</p>
+          <p class="parrafo">El plazo para el pago de las tarifas correspondientes será de 30 días hábiles, contados a partir de la fecha de comunicación de la obligación del pago.</p>
+          <p class="parrafo">En caso de que no se realizara el pago en dicho plazo, se añadirán a la cantidad principal los intereses de demora que correspondan.</p>
+          <p class="parrafo">En todo caso SASEMAR ejercerá las acciones legales que correspondan para hacer efectivo el cumplimiento de las obligaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 9. Publicidad.</p>
+          <p class="parrafo">En los centros e instalaciones de las Capitanías Marítimas, de los Distritos Marítimos y de SASEMAR se exhibirá para su consulta al menos una copia de esta orden, incluidos sus anexos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Artículo 10. Legislación tributaria.</p>
+          <p class="parrafo">Los importes resultantes de lo dispuesto en esta orden estarán sujetos al cumplimiento de la legislación tributaria aplicable.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Orden FOM 1435/2007, de 14 de mayo, por la que se aprueban las tarifas por los servicios prestados por la Sociedad Estatal de Salvamento y Seguridad Marítima y cuantas disposiciones de igual rango se opongan a lo establecido en esta orden.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="parrafo_2">Madrid, 30 de agosto de 2013.–La Ministra de Fomento, Ana María Pastor Julián.</p>
+        </version>
+      </bloque>
+      <bloque id="ai" tipo="encabezado" titulo="ANEXO I">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Relación de costes y gastos susceptibles de reclamación por SASEMAR derivados de prevención y lucha contra la contaminación del medio marino</p>
+          <p class="parrafo_2">Los costes y gastos a los que se refiere el artículo 268.4 de Real Decreto Legislativo 2/2011, de 5 de septiembre, por el que se aprueba el Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, se calcularán siguiendo la siguiente fórmula:</p>
+          <p class="centro_redonda">I= ∑CU +∑CE +∑OG</p>
+          <p class="parrafo_2">• ∑CU= Coste del personal y unidades participantes. El coste total del personal y unidades se calculará sumando los costes de cada una de las unidades y personal participantes. El coste de cada unidad/personal se calculará en base a la siguiente fórmula:</p>
+          <p class="centro_redonda">CU=C x t</p>
+          <p class="parrafo_2">Donde:</p>
+          <p class="parrafo_2">CU= Coste de una unidad por la participación en una operación.</p>
+          <p class="parrafo">C= Coste unitario de la unidad correspondiente. El valor de C se determina en la siguiente tabla. En el valor de C de unidades marítimas y aéreas queda incluido el combustible así como la tripulación habitual correspondiente:</p>
+          <table class="ning_n_estilo_de_tabla">
+            <colgroup>
+              <col class="row_column_1"/>
+              <col class="row_column_2"/>
+              <col class="row_column_3"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cabeza_tabla">Unidad</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Valor de C</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">ud</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Helicóptero	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">8.334</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Avión	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">5.876</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Buque Polivalente 80 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.026</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Buque Polivalente 56 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">879</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Resto Remolcadores y Guardamares	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">749</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Salvamares de 15 y 21 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">350</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Personal Técnico	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">956</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/día.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Buzo	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">908</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/día.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Mecánico	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">502</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/día.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Camión	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">679</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/día.</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Todoterreno	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">199</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">€/día.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">t= tiempo empleado en el servicio.</p>
+          <p class="parrafo_2">• ∑CE: Coste de equipos movilizados. Respecto a los equipos de lucha contra la contaminación utilizados durante una operación, el importe ascenderá a la suma de los costes de la totalidad de equipos movilizados. El importe a cobrar por cada equipo se calculará a partir de la siguiente fórmula:</p>
+          <p class="centro_redonda">CE=∑(C1 x t1)+ ∑(C2 x t2) +∑(C3)</p>
+          <p class="parrafo_2">Donde:</p>
+          <p class="parrafo_2">CE= Coste de cada equipo movilizado.</p>
+          <p class="parrafo">C1= Coste del equipo en uso. El valor de este coste se especifica en tabla adjunta. Se aplicará este coste durante los días que el equipo esté siendo utilizado.</p>
+          <p class="parrafo">t1= Número de días en los que el equipo está en uso.</p>
+          <p class="parrafo">C2= Coste del equipo en stand by. El valor de este coste se especifica en tabla adjunta. Se aplicará durante todo el periodo de movilización exceptuando los días en los que el equipo haya sido utilizado. Los tiempos de transporte y limpieza serán incluidos como stand by. El periodo de movilización imputable comprende desde que el equipo sale de su base hasta su regreso a la misma en el mismo estado en que salió.</p>
+          <p class="parrafo">En el supuesto de deterioro o avería del equipo deberá incrementarse el coste del equipo con el de la correspondiente reparación o nueva adquisición.</p>
+          <p class="parrafo">t2= Número de días en los que el equipo está en stand by.</p>
+          <p class="parrafo">C3= Coste del equipo consumido. El valor de este coste se especifica en tabla adjunta. Se aplicará cuando sea necesaria la reposición del equipo, bien porque sea un consumible que se haya utilizado, bien porque el equipo se haya deteriorado en la operación y la reparación no sea factible. En este caso, el precio de adquisición se añadirá a los costes generados durante usos anteriores, siempre y cuando el coste total del equipo no exceda el 150% del valor de adquisición.</p>
+          <p class="parrafo">El listado actualizado de equipos con sus importes podrá ser consultado en la página web de Salvamento Marítimo.</p>
+          <p class="imagen">
+            <img class="frame-7" alt="5165.png" src="/datos/imagenes/disp/2013/219/09510_5165.png" width="2126" height="2776"/>
+          </p>
+          <p class="imagen">
+            <img class="frame-7" alt="5284.png" src="/datos/imagenes/disp/2013/219/09510_5284.png" width="2126" height="2776"/>
+          </p>
+          <p class="parrafo">• ∑OG= Otros gastos. Serán calculados conforme a su precio de adquisición por SASEMAR, según factura que se adjuntará a toda reclamación. Estos gastos serán, entre otros, gastos de asesoría jurídica, gastos legales, compra u alquiler de material y equipos, asesoría técnica, alquiler de vehículos y gastos de viaje.</p>
+          <p class="parrafo">En el caso de que se haya realizado un análisis de muestras el coste será el siguiente:</p>
+          <p class="parrafo_2">Coste por análisis de muestras: 388€/análisis.</p>
+        </version>
+      </bloque>
+      <bloque id="ai-2" tipo="encabezado" titulo="ANEXO II">
+        <version id_norma="BOE-A-2013-9510" fecha_publicacion="20130912" fecha_vigencia="20130913">
+          <p class="anexo_num">ANEXO II</p>
+          <p class="anexo_tit">Tarifas por los servicios prestados por la Sociedad de Salvamento y Seguridad Marítima (SASEMAR)</p>
+          <p class="parrafo_2">El importe de la presente contraprestación será el resultado de aplicar la siguiente fórmula:</p>
+          <p class="centro_redonda">I= ∑(T x t x B x S)</p>
+          <p class="parrafo_2">Donde:</p>
+          <p class="parrafo_2">I= Importe de la contraprestación. En el caso de que intervenga más de una unidad, el importe de la contraprestación corresponderá a la suma de los importes de las n unidades participantes.</p>
+          <p class="parrafo">T= Tarifa unitaria de la unidad que realiza el servicio. En función de la unidad, el importe será el que corresponda en base a la tabla que se indica a continuación. En el valor de T de unidades marítimas y aéreas queda incluido el combustible así como la tripulación habitual correspondiente.</p>
+          <table class="ning_n_estilo_de_tabla">
+            <colgroup>
+              <col class="row_column_8"/>
+              <col class="row_column_9"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cabeza_tabla">Unidad</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Valor de T</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Helicóptero	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">8.334 €/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Avión	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">5.876 €/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Buque Polivalente 80 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">2.026 €/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Buque Polivalente 56 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">879 €/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_izq">Resto Remolcadores y Guardamares	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">749 €/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Salvamares de 15 y 21 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">350 €/hora.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">En los siguientes casos, el valor de T no superará el valor que se indica a continuación:</p>
+          <table class="ning_n_estilo_de_tabla">
+            <colgroup>
+              <col class="row_column_10"/>
+              <col class="row_column_9"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_11">
+                <td>
+                  <p class="cabeza_tabla">Casos</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Valor máximo de T</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Remolque de embarcaciones menores de 20 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">350 €/hora.</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Remolque de embarcaciones entre 20 y 30 m de eslora	</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">749 €/hora.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">t: tiempo empleado en el servicio, de acuerdo con lo especificado en el artículo 7 sobre tiempos de servicio.</p>
+          <p class="parrafo">B: Coeficiente corrector. El valor de B será el que le corresponda según la siguiente tabla:</p>
+          <table class="ning_n_estilo_de_tabla">
+            <colgroup>
+              <col class="row_column_12"/>
+              <col class="row_column_13"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cabeza_tabla">Casos</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Valor B</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Evacuaciones médicas realizadas por un helicóptero.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">0,5</p>
+                </td>
+              </tr>
+              <tr class="row_column_14">
+                <td>
+                  <p class="cuerpo_tabla_izq">Asistencias a buques de bandera española registrados en las listas 3.ª y 4.ª del registro marítimo español y buques de similares características que arbolen pabellón de países miembros de la UE o del Espacio Económico Europeo (buques destinados a la captura y extracción con fines comerciales de pescado y otros recursos marinos vivos y embarcaciones auxiliares de pesca, de explotaciones de acuicultura y artefactos dedicados al cultivo o estabulación de especies marinas).</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">0,7</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_izq">Resto de casos.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">1</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">En caso de coincidir en una misma asistencia más de una opción, se aplicará el coeficiente corrector de menor valor.</p>
+          <p class="parrafo">S: Ajuste progresivo de tarifas. El valor de S será el indicado a continuación, según la fecha de realización del servicio:</p>
+          <table class="ning_n_estilo_de_tabla">
+            <colgroup>
+              <col class="row_column_15"/>
+              <col class="row_column_16"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cabeza_tabla">Año de realización del servicio</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Valor de S</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_centro">2013</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0.8</p>
+                </td>
+              </tr>
+              <tr class="row_column_6">
+                <td>
+                  <p class="cuerpo_tabla_centro">2014</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0.9</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_centro">2015 y años sucesivos</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

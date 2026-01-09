@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T191856Z</fecha_actualizacion>
+      <identificador>BOE-A-2016-11670</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8020">Comunidad Autónoma de Aragón</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20161103</fecha_disposicion>
+      <numero_oficial>9/2016</numero_oficial>
+      <titulo>Ley 9/2016, de 3 de noviembre, de reducción de la pobreza energética de Aragón.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20161208</fecha_publicacion>
+      <diario_numero>296</diario_numero>
+      <fecha_vigencia>20161112</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ar/l/2016/11/03/9</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2016-11670</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="265">Aragón</materia>
+        <materia codigo="5632">Pobreza</materia>
+        <materia codigo="6806">Suministro de energía</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOA núm. 218, de 11 de noviembre de 2016.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2007-8444</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 5/2007, de 20 de abril</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-11670</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5632"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6806"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-11670</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5632"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6806"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/con/20161111"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2016, de 3 de noviembre, de reducción de la pobreza energética de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/con/20161111">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-11670</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5632"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6806"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/con/20161111/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/2016, de 3 de noviembre, de reducción de la pobreza energética de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/con/20161111"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/2016/11/03/9/con/20161111/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/2016/11/03/9/con/20161111/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="parrafo">En nombre del Rey y como Presidente de la Comunidad Autónoma de Aragón, promulgo la presente Ley, aprobada por las Cortes de Aragón, y ordeno se publique en el «Boletín Oficial de Aragón» y en el «Boletín Oficial del Estado», todo ello de conformidad con lo dispuesto en el artículo 45 del Estatuto de Autonomía de Aragón.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Directiva 2009/72/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior de la electricidad, y por la que se deroga la Directiva 2003/54/CE, así como la Directiva 2009/73/CE, del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior del gas natural, y por la que se deroga la Directiva 2003/55/CE, contienen el mandato de garantizar el suministro de energía necesario para los clientes vulnerables estableciendo la prohibición de desconexión de dichos clientes en períodos críticos, considerando, por otra parte, que podría aplicarse un enfoque integrado, por ejemplo, en el marco de la política social, de modo que las medidas para hacer frente a la pobreza energética puedan incluir políticas sociales o mejoras de la eficiencia energética para la vivienda.</p>
+          <p class="parrafo">Asimismo, la Directiva 2012/27/UE del Parlamento Europeo y del Consejo, de 25 de octubre de 2012, relativa a la eficiencia energética, por la que se modifican las Directivas 2009/125/CE y 2010/30/UE, y por la que se derogan las Directivas 2004/8/CE y 2006/32/CE, establece que debe asegurarse que los consumidores vulnerables de energía eléctrica tengan acceso a los beneficios que supone una mayor eficiencia energética.</p>
+          <p class="parrafo">Por su parte, el artículo 45 de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, que regula los consumidores vulnerables y el bono social, no define las características sociales, de consumo y poder adquisitivo para ser considerado un consumidor vulnerable, sino que remite a la normativa de desarrollo y aclara que, en todo caso, se circunscribirá a personas físicas en su vivienda habitual.</p>
+          <p class="parrafo">La disposición transitoria décima, en espera de que se desarrolle reglamentariamente el citado precepto, concede el derecho a beneficiarse de la tarifa del bono social a consumidores con una potencia contratada inferior a 3 kW, a consumidores de 60 años o más que sean pensionistas por jubilación, incapacidad permanente o viudedad que perciban las cuantías mínimas, a consumidores que sean familia numerosa y a los consumidores que tengan a todos los miembros de la unidad familiar en situación de desempleo.</p>
+          <p class="parrafo">A pesar de estas medidas, la pobreza energética no ha hecho sino aumentar en los últimos años. A la crisis económica, que ha reducido el poder adquisitivo de muchas familias, se une la subida de precios de los suministros energéticos, que ha agravado la situación. Medidas como el bono social eléctrico u otras, como los bonos sociales de entidades suministradoras de agua, no han tenido el efecto esperado a la hora de garantizar estos suministros básicos para la ciudadanía y se han mostrado ineficaces.</p>
+          <p class="parrafo">Tal ineficacia se produce por una definición errónea de los destinatarios de las ayudas. El bono social eléctrico, puesto en marcha en 2009, es una tarifa con un descuento fijado por el Gobierno de España sobre el Precio Voluntario para el Pequeño Consumidor (PVPC), la nueva denominación de la Tarifa de Último Recurso (TUR), que pretende proteger a un grupo de consumidores considerados vulnerables. Dos son los problemas que tiene esta medida: el primero es que la distribución se realiza sin tener como elemento clave la renta de las familias. Y el segundo, que se solicita exclusivamente a través de internet. El hecho de que se aplique el bono social sin solicitud de renta hace que el 80 % de las solicitudes se hagan bajo el criterio de tener menos de 3 kW contratados y que un porcentaje muy alto de estas sean viviendas de segunda residencia, en las que son más habituales este tipo de contratos. En definitiva, se destinan recursos a las segundas residencias de hogares no vulnerables en lugar de destinarlos a las viviendas habituales de familias vulnerables.</p>
+          <p class="parrafo">El hecho de que la solicitud solo se pueda hacer por medios telemáticos hace que para los hogares vulnerables se añada una dificultad, puesto que es frecuente que las familias con dificultades económicas dejen de contratar esta conexión. Dicha situación resulta especialmente palpable si se consideran las familias numerosas solicitantes del bono social, dado que no todas ellas están en una situación de vulnerabilidad clara que justifique la prioridad en la percepción de estas ayudas. El cambio en la forma de solicitud y la intervención de los Servicios Sociales competentes son fundamentales para hacer eficientes estas medidas.</p>
+          <p class="parrafo">El resultado es que entre el año 2011 y 2014, de acuerdo a los datos de la Comisión Nacional del Mercado y la Competencia, han disminuido de 63.457 a 61.477 los beneficiarios en Aragón de este tipo de tarifa social. Se trata de un descenso del 3,22 % en el periodo en que la crisis económica en las familias ha sido más dura, por ejemplo con un notable aumento de hogares con todos sus miembros en paro. A ello debe añadirse que en estos años ha aumentado el gasto de municipios, comarcas y organismos privados, como Cáritas, a ayudas de urgencia, entre ellas, las que palían situaciones de pobreza energética. En este concepto de ayudas de urgencia, se ha calculado un desembolso de 646.024 euros en 2013 y un gasto estimado de 1.219.285 euros en 2014, lo que supone una exigencia añadida para unas cuentas locales ya constreñidas.</p>
+          <p class="centro_redonda">Tabla 1. Evolución del número de consumidores con una potencia contratada inferior a 3 kW, distinguidos por tipo de consumidor. Años 2009 a 2014</p>
+          <table class="tabla_b_sica">
+            <colgroup>
+              <col class="row_column_1"/>
+              <col class="row_column_1"/>
+              <col class="row_column_1"/>
+              <col class="row_column_1"/>
+              <col class="row_column_1"/>
+              <col class="row_column_1"/>
+            </colgroup>
+            <thead>
+              <tr class="row_column_2">
+                <td>
+                  <p class="cabeza_tabla">Años</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Consumidores con P &lt; 3 kW</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Desempleados</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Familias numerosas</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Pensionistas</p>
+                </td>
+                <td>
+                  <p class="cabeza_tabla">Total</p>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row_column_3">
+                <td>
+                  <p class="cuerpo_tabla_centro">2009</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.646.928</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">15.032</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">64.832</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">277.815</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">3.004.607</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_centro">2010</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.402.511</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">23.776</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">100.581</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">317.205</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.844.073</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_centro">2011</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.169.869</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">31.067</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">118.611</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">307.893</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.627.440</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_centro">2012</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.067.585</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">33.736</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">129.466</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">283.110</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.513.896</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_centro">2013</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">1.986.822</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">48.881</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">150.872</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">283.790</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.470.365</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_centro">2014</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">1.961.179</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">54.824</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">162.174</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">289.113</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">2.467.290</p>
+                </td>
+              </tr>
+              <tr class="row_column_5">
+                <td>
+                  <p class="cuerpo_tabla_centro">% 2014/2009</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">–25,91 %</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">264,72 %</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">150,14 %</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">4,07 %</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_der">–17,88 %</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">Fuente: Comisión Nacional del Mercado y la Competencia.</p>
+          <p class="parrafo_2">Según el estudio «Alcance de la pobreza energética en la Comunidad Autónoma de Aragón» de 2014, promovido por el Gobierno, de un tiempo a esta parte han aumentado de forma exponencial los hogares incapaces de pagar un cantidad de servicios de la energía suficiente para satisfacer sus necesidades domésticas, que durante el año 2014 sería de unos 1.300 hogares, y los que se ven obligados a destinar una parte excesiva de sus ingresos a pagar la factura energética de la vivienda. Este dato situaría aproximadamente 6.000 hogares aragoneses en situación de vulnerabilidad energética.</p>
+          <p class="parrafo">El bono social para el gas tiene una formulación más reciente, a través de la reformulación de la Ley de Hidrocarburos. Más allá de los supuestos de acceso a dicho bono, lo verdaderamente relevante es que se asocie el desarrollo del bono a la promoción del fracking. Los supuestos de acceso aún no han sido desarrollados.</p>
+          <p class="parrafo">A la escasa eficiencia de las medidas para enfrentar el problema de la pobreza energética se unen los altos costes que los ciudadanos deben de afrontar una vez que, después de un corte del suministro, han de volver a activar el mismo. El conjunto de medidas puestas en marcha hasta este momento han obviado la relación existente entre pobreza energética y renta, que constituye la base sobre la que se fundamenta la presente ley.</p>
+          <p class="parrafo">Esta situación exige una inmediata respuesta de los poderes públicos para hacer efectivos los derechos proclamados por la Constitución Española a una vivienda digna y adecuada, con acceso a los suministros básicos para satisfacer las necesidades vitales que la dignidad de la persona requiere, así como para asegurar la protección social, económica y jurídica de la familia y mantener un régimen público de Seguridad Social para todos los ciudadanos que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad. Sin que, a tal efecto, pueda olvidarse que el Estatuto de Autonomía de Aragón enumera en su artículo 12 entre los derechos de las personas el de vivir con dignidad, así como el derecho a las prestaciones sociales destinadas a su bienestar, reconociendo asimismo en su artículo 16 que todas las personas tienen derecho a acceder en condiciones de igualdad a unos servicios públicos de calidad. En coherencia con la cláusula de transformación social que contiene el artículo 9.2 de la Constitución Española, también los artículos 20 y 23 del Estatuto de Autonomía de Aragón incluyen un mandato expreso a los poderes públicos de Aragón en materia de bienestar y cohesión social, orientado a la eliminación de las causas y efectos de las diversas formas de marginación o exclusión social.</p>
+          <p class="parrafo">Del mismo modo, sin perjuicio de las competencias que el Estatuto de Autonomía de Aragón atribuye a la Comunidad Autónoma en materia de vivienda (artículo 71.10.ª); consumo (artículo 71.26.ª); acción social (artículo 71.34.ª); aguas (artículo 72); energía, calidad del suministro y eficiencia energética (artículo 75.4.ª), y actividad de fomento (artículo 79.1), debe tenerse en cuenta la posibilidad que la Sentencia del Tribunal Constitucional 62/2016, de 17 de marzo, reconoce al legislador autonómico de desarrollar medidas asistenciales consistentes en prestaciones económicas tendentes a evitar la interrupción del suministro de electricidad y gas a las personas vulnerables.</p>
+          <p class="parrafo">En ejercicio de las indicadas competencias y para garantizar el suministro energético a los ciudadanos y adoptar medidas de ahorro a largo plazo, se definen unas situaciones de vulnerabilidad y especial vulnerabilidad que combinan la consideración del nivel de renta de las personas o unidades de convivencia con otras circunstancias sociofamiliares que justifican una mayor protección. Estas categorías ofrecen a los servicios sociales competentes para la valoración unas condiciones objetivas, junto a la propia imposibilidad de hacer frente a las facturas energéticas, para valorar el acceso a la ayuda y la cuantía, que se define en distintos tramos de cobertura según la consideración de la situación como vulnerable o especialmente vulnerable.</p>
+          <p class="parrafo">En cuanto al procedimiento a seguir, se establecen dos vías de acceso a la ayuda, tanto a instancia de los usuarios afectados como a iniciativa de los propios servicios sociales competentes. En este sentido, es importante la incorporación de las empresas suministradoras a la prevención de la pobreza energética, al establecer obligaciones de información al consumidor sobre la existencia de estas ayudas, así como deberes de abstención durante su tramitación que aseguren la efectividad de las ayudas.</p>
+          <p class="parrafo">A todo ello hay que unir la previsión de un conjunto de intervenciones de microeficiencia destinadas a generar ahorro en el consumo energético y, asimismo, a dinamizar sectores de producción que permiten una reconversión del modelo productivo hacia sectores de innovación que tienen el cuidado del medio ambiente como eje.</p>
+          <p class="parrafo">Con el objetivo de que las personas que se encuentran en situación de pobreza y vulnerabilidad energética puedan tener acceso a formación y a un puesto de trabajo posterior, son precisos planes de cursos de formación y empleo específicos. Para enfrentar el problema de la pobreza energética hacen falta líneas de acción desde los diferentes departamentos existentes a nivel laboral, social, sanitario y educativo que solucionen el problema no solo a corto plazo, sino también en el medio y largo plazo.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Constituye el objeto de la presente ley la adopción de medidas para paliar y reducir la pobreza energética en los hogares en situación de vulnerabilidad de la Comunidad Autónoma de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo">1. A efectos de la presente ley, se entenderá por pobreza energética aquella situación de dificultad en la que se encuentra una persona o unidad de convivencia en la Comunidad Autónoma de Aragón para hacer frente al pago del consumo energético con el que satisfacer sus necesidades domésticas básicas, lo que conlleva una falta de acceso normalizado a los servicios básicos de electricidad, gas y agua. Reglamentariamente, se determinarán el mínimo de servicios energéticos garantizados a los efectos de esta ley.</p>
+          <p class="parrafo">2. Se entenderá por medidas para paliar y reducir la pobreza energética todas las actuaciones encaminadas a disminuir sus efectos inmediatos, así como el número de personas que la padecen.</p>
+          <p class="parrafo">3. Se entenderá por hogar en situación de vulnerabilidad la vivienda habitual de una persona o unidad familiar en situación de vulnerabilidad o especial vulnerabilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 3. Definición de situación de vulnerabilidad y de especial vulnerabilidad.</p>
+          <p class="parrafo">1. Tienen la consideración de personas o unidades de convivencia en situación de vulnerabilidad aquellas que se encuentren en situación de riesgo de exclusión social, que sufran o que tengan algún miembro que sufra violencia de género o violencia familiar, que sean o que tengan algún miembro que sea víctima de terrorismo, y aquellas que así se califiquen en virtud de las especiales circunstancias socioeconómicas que les afecten.</p>
+          <p class="parrafo_2">a) Se entenderá por persona o unidad de convivencia en situación de vulnerabilidad aquella cuyos ingresos totales sean superiores a una vez el IPREM e iguales o inferiores a dos veces el IPREM, en cómputo anual.</p>
+          <p class="parrafo">b) También se entenderá, entre otros supuestos, por persona o unidad de convivencia en situación de vulnerabilidad aquella cuyos ingresos totales sean superiores a dos veces el IPREM e iguales o inferiores a 2,5 veces el IPREM, en cómputo anual, que se encuentren, además, bien individualmente o en el seno de la unidad de convivencia, en alguna de las situaciones que se relacionan a continuación:</p>
+          <p class="parrafo_2">1.ª La unidad de convivencia con, al menos, un menor a cargo.</p>
+          <p class="parrafo">2.ª La familia numerosa, de conformidad con la legislación vigente.</p>
+          <p class="parrafo">3.ª Persona que sufra violencia de género o unidad de convivencia en la que exista violencia de género.</p>
+          <p class="parrafo">4.ª Personas afectadas por procesos de ejecución hipotecaria o desahucio por falta de pago de renta.</p>
+          <p class="parrafo">5.ª Víctimas de terrorismo.</p>
+          <p class="parrafo">6.ª Persona que tenga o unidad de convivencia en la que alguno de sus miembros tenga declarada una discapacidad igual o superior al 33  %, situación de dependencia o enfermedad que le incapacite de forma permanente, de forma acreditada, para realizar una actividad laboral.</p>
+          <p class="parrafo">7.ª Persona que sea o unidad de convivencia que tenga un deudor hipotecario, que se encuentre en situación de desempleo y haya agotado las prestaciones por desempleo.</p>
+          <p class="parrafo">8.ª Persona que sea o unidad de convivencia que tenga una persona deudora hipotecaria mayor de 60 años.</p>
+          <p class="parrafo">9.ª Afectados por situaciones catastróficas.</p>
+          <p class="parrafo_2">2. En situación de especial vulnerabilidad se encuentran las personas o unidades de convivencia cuyos miembros padecen una situación de vulnerabilidad agravada por sufrir una situación económica severa, o en la que se produce la concurrencia de factores como la edad, número de personas que integran la unidad de convivencia, discapacidad, dependencia, enfermedad, exclusión social, víctimas de violencia de género o circunstancias que afecten a los derechos humanos, económicas, situaciones de desempleo, así como otras de naturaleza análoga que provoquen en la persona o unidad de convivencia una situación de especial riesgo de sufrir una grave desestructuración personal, económica, social o afectiva.</p>
+          <p class="parrafo_2">a) Se entiende que se encuentran en una situación de especial vulnerabilidad las personas o unidades de convivencia cuyos ingresos totales sean iguales o inferiores a una vez el IPREM, en cómputo anual.</p>
+          <p class="parrafo">b) También se considerará en situación de especial vulnerabilidad a las personas o unidades de convivencia cuyos ingresos totales sean superiores a una vez el IPREM e iguales o inferiores a 1,5 veces el IPREM, en cómputo anual, que se encuentren, además, en alguna de las situaciones relacionadas en la letra b del apartado anterior.</p>
+          <p class="parrafo_2">3. Además de los supuestos contemplados en los apartados anteriores, se entiende que se encuentran en una situación de vulnerabilidad y especial vulnerabilidad aquellos casos de emergencia social que determinen los servicios sociales, de acuerdo con los criterios establecidos en los apartados anteriores.</p>
+          <p class="parrafo">4. La situación de vulnerabilidad y de especial vulnerabilidad se acreditará, a solicitud de la persona o unidad de convivencia interesada, mediante informe de la Administración competente en materia de servicios sociales en los términos que se establezcan reglamentariamente.</p>
+          <p class="parrafo">Ambas situaciones se mantendrán vigentes mientras permanezcan las circunstancias que dieron lugar a su reconocimiento, sin perjuicio de su revisión periódica.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Medidas para paliar y reducir los efectos de la pobreza energética</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 4. Ayuda en el pago de la factura del consumo energético.</p>
+          <p class="parrafo">1. El derecho de acceso a los suministros básicos energéticos se garantizará mediante la concesión de las ayudas que por su naturaleza correspondan en el marco de las prestaciones económicas del sistema público de servicios sociales, además de las ayudas de urgencia destinadas a resolver necesidades básicas de subsistencia.</p>
+          <p class="parrafo">2. La situación de vulnerabilidad o de especial vulnerabilidad de una persona o unidad de convivencia conllevará el acceso a las ayudas de urgencia para el pago de los consumos energéticos que no puedan ser afrontados por su situación económica.</p>
+          <p class="parrafo">El pago de los consumos energéticos con cargo a esta ayuda se realizará previa acreditación de la necesidad por la persona o unidad de convivencia interesada y en las condiciones y cuantía que informen los servicios sociales correspondientes. Estas ayudas formarán parte del régimen de las ayudas de urgencia y tendrán naturaleza esencial.</p>
+          <p class="parrafo">3. Las personas o unidades de convivencia en situación de especial vulnerabilidad que cumplan las condiciones de acceso al derecho recibirán un pago de hasta el 100 % de la factura energética que no puedan afrontar, en los términos de la valoración social y con la finalidad de evitar el corte de suministro.</p>
+          <p class="parrafo">4. Las personas o unidades de convivencia en situación de vulnerabilidad que cumplan las condiciones de acceso al derecho recibirán hasta el 50 % de la factura energética que no puedan afrontar, en los términos de la valoración social y con la finalidad de evitar el corte de suministro. Se podrá incrementar hasta el 75 % tomando en consideración los miembros de la unidad de convivencia.</p>
+          <p class="parrafo">5. En los dos casos anteriores se analizará, asimismo, la factura energética de los hogares para considerar si existen medidas disponibles de eficiencia energética que se puedan llevar a cabo de manera simultánea a la ayuda en la factura para evitar el corte del suministro.</p>
+          <p class="parrafo">6. Las ayudas en el pago de la factura del consumo energético se concederán tanto para evitar el corte del suministro como para restaurarlo en el supuesto de haber sido interrumpido, de manera que el importe de la ayuda podrá incluir el coste para el beneficiario de la reanudación del suministro.</p>
+          <p class="parrafo">7. El pago de los consumos energéticos con cargo a esta ayuda no podrá incluir los costes derivados de la interrupción del suministro ejecutado por el suministrador sin cumplimentar los procedimientos de información previstos en esta ley.</p>
+          <p class="parrafo">No obstante, el incumplimiento de los deberes de información que para asegurar la efectividad de las ayudas establece la presente ley en ningún caso deberá impedir la reanudación del suministro a la persona o unidad de convivencia beneficiarios de la ayuda, por lo que excepcionalmente podrán sufragarse los anteriores costes.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 5. Procedimiento para evitar la suspensión del suministro o proceder a su restablecimiento.</p>
+          <p class="parrafo">1. Cuando los profesionales de los Centros de Servicios Sociales detecten el caso de una persona o unidad de convivencia en que se haya procedido o pueda procederse a la suspensión del suministro correspondiente a su vivienda habitual como consecuencia del impago de la factura, realizarán una valoración técnica para verificar si cumplen los requisitos para ser beneficiario de las ayudas previstas en el artículo anterior. En este supuesto, se pondrá en conocimiento del suministrador a los efectos de posibilitar la continuidad o restablecimiento del servicio.</p>
+          <p class="parrafo">2. En el caso de que una empresa comercializadora de energía haya procedido o quiera proceder al corte del suministro en la vivienda habitual de una persona o unidad de convivencia por razones de impago, el usuario comunicará dicha circunstancia a los Servicios Sociales competentes.</p>
+          <p class="parrafo">3. Con el objetivo de asegurar la eficacia de las medidas de protección social establecidas en esta ley, existiendo acreditación de persona o unidad de convivencia en situación de vulnerabilidad o de especial vulnerabilidad o encontrándose la misma en tramitación, la empresa suministradora no procederá a la suspensión del suministro mientras se gestiona la concesión de la prestación económica que corresponda destinada al pago de la factura del consumo energético.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 6. Cooperación con las empresas suministradoras.</p>
+          <p class="parrafo">1. Las administraciones públicas establecerán los acuerdos o convenios necesarios con los suministradores de agua potable, de gas y de electricidad para el desarrollo de estas medidas para evitar la pobreza energética y apoyar a las familias en situación de vulnerabilidad energética.</p>
+          <p class="parrafo">2. Para evitar la interrupción del suministro por falta de recursos económicos de las personas o unidades de convivencia en situación de riesgo de emergencia social, se fomentará la concesión de ayudas o la aplicación de descuentos en el coste de los consumos mínimos.</p>
+          <p class="parrafo">3. El suministrador de los servicios básicos de agua potable, gas y de electricidad informará a los usuarios, en cualquier aviso o comunicación que haga referencia a la falta de pago del servicio, de las previsiones relativas a la pobreza energética establecidas en esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 7. Incompatibilidades.</p>
+          <p class="parrafo">1. La prestación establecida en esta ley es incompatible con otras ayudas destinadas a paliar las situaciones de pobreza energética.</p>
+          <p class="parrafo">2. Se exceptúan de esta incompatibilidad las situaciones en las que las cuantías percibidas por estas ayudas sean inferiores a las establecidas en esta ley, en cuyo caso podrán completarse hasta el límite de las cuantías que como máximo cabe recibir conforme a esta ley, y durante los periodos del año en los que en un hogar en situación de vulnerabilidad no se esté recibiendo ningún pago en virtud de esta condición.</p>
+          <p class="parrafo">3. En cualquier caso, el beneficiario de la prestación establecida en esta ley deberá hacer constar que es beneficiario de otra ayuda o que ha iniciado un trámite similar ante otra Administración Pública.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 8. Plan de medidas de eficiencia energética.</p>
+          <p class="parrafo">1. El Gobierno de Aragón elaborará un Plan de medidas de eficiencia energética en el que se priorizarán las actuaciones en hogares en situación de vulnerabilidad energética.</p>
+          <p class="parrafo">2. Estas medidas estarán destinadas a promover el cambio en los hábitos de consumo y, especialmente, el ahorro energético que permitirá reducir el consumo y, por lo tanto, el coste de la factura de electricidad, agua y gas en los hogares en situación de vulnerabilidad.</p>
+          <p class="parrafo">El Plan se instrumentará de manera que facilite a estos hogares la realización de auditorías energéticas y la posterior implementación de las medidas propuestas más rentables.</p>
+          <p class="parrafo">3. El Plan incluirá también acciones dirigidas a estudiar las posibilidades de reducir la potencia contratada de los hogares y se estudiará si concurre alguno de los presupuestos habilitantes para solicitar el bono social, en caso de que el consumidor vulnerable no se estuviera beneficiando de dicha tarifa reducida.</p>
+          <p class="parrafo">4. Este Plan tendrá una duración de tres años y para su elaboración se creará un Comité de seguimiento, que trabajará con las entidades locales y sus servicios sociales, así como con los agentes sociales involucrados en la protección de los derechos de los consumidores y las empresas de suministro energético a la hora de definir su alcance, diseñar sus objetivos y establecer una serie de indicadores que permitan evaluar los resultados de su implementación y arrojar datos sobre la reducción de la pobreza energética en la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">5. Los hogares en situación de vulnerabilidad en esta materia tendrán prioridad en el acceso a las medidas de microeficiencia energética, con una financiación pública de sus intervenciones que supondrá entre el 25 % y el 100 % de su coste en función de la situación de vulnerabilidad.</p>
+          <p class="parrafo">Como acción previa y necesaria a la elaboración de este Plan, se realizará un proyecto piloto que permita profundizar en el conocimiento de las diferentes tipologías de las viviendas en cuanto a las características de sus cerramientos y de los equipos consumidores de energía, así como de los propios hábitos de consumo de las familias.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Financiación de las medidas previstas en la ley</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 9. Financiación de la ayuda en el pago de la factura del consumo energético.</p>
+          <p class="parrafo">1. La financiación de las prestaciones económicas dispuestas en esta ley dependerá de los presupuestos de la Comunidad Autónoma de Aragón.</p>
+          <p class="parrafo">Las cuantías recaudadas por el cobro de las sanciones derivadas de esta ley podrán incorporarse a estas prestaciones económicas.</p>
+          <p class="parrafo">2. El Gobierno de Aragón impulsará ante el Gobierno de España aquellas modificaciones legislativas que permitan obtener tarifas más accesibles a las personas y hogares en situación de pobreza energética y vulnerabilidad energética.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 10. Financiación de los planes de medidas de microeficiencia energética.</p>
+          <p class="parrafo">La financiación de las medidas de microeficiencia energética se podrá realizar mediante financiación autonómica, mediante fondos procedentes de la Administración General del Estado, como el Fondo Nacional de Eficiencia Energética, y a través de fondos europeos por la implementación de los Programas Operativos de los Fondos EIE correspondientes al periodo de financiación 2014- 2020, enmarcados en el Acuerdo de Asociación firmado entre España y la Comisión Europea para el mencionado periodo.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Procedimientos de tramitación y colaboración con las Administraciones locales</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 11. Tramitación ante las entidades locales.</p>
+          <p class="parrafo">Las entidades locales pondrán a disposición de los ciudadanos los medios necesarios para que estos puedan solicitar las ayudas, así como otras medidas dispuestas en esta ley de manera presencial, sin perjuicio de que se puedan habilitar los medios para solicitarla telemáticamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 12. Colaboración entre la Comunidad Autónoma y las entidades locales.</p>
+          <p class="parrafo">La Comunidad Autónoma de Aragón y las administraciones locales establecerán los canales de colaboración y comunicación oportunos para la tramitación de las solicitudes y demás obligaciones establecidas en esta ley. A tal efecto, la Comunidad Autónoma de Aragón establecerá con las entidades locales competentes los convenios de colaboración pertinentes para que estas puedan afrontar sus costes.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 13. Inspección, control y potestad sancionadora.</p>
+          <p class="parrafo">La función de inspección, control y potestad sancionadora corresponde al departamento competente en materia de servicios sociales de acuerdo con lo establecido en la Ley 5/2009, de 30 de junio, de Servicios Sociales de Aragón.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Artículo 14. Infracciones y sanciones.</p>
+          <p class="parrafo">1. Constituyen infracciones leves:</p>
+          <p class="parrafo_2">a) El incumplimiento de la obligación de los beneficiarios de comunicar la percepción de otras ayudas para evitar o paliar el problema de la pobreza energética o de otras informaciones que les pudieran ser requeridas por los trabajadores sociales competentes para valorar la existencia del derecho a las ayudas reguladas en esta ley.</p>
+          <p class="parrafo">b) El incumplimiento por los suministradores de los deberes de información que para asegurar la efectividad de las ayudas establece el artículo 6.3.</p>
+          <p class="parrafo_2">2. Constituyen infracciones graves:</p>
+          <p class="parrafo_2">a) La reiteración de las conductas tipificadas como infracciones leves.</p>
+          <p class="parrafo">b) El incumplimiento por los suministradores de los deberes que para asegurar la efectividad de las ayudas establece el artículo 5.3.</p>
+          <p class="parrafo_2">3. Constituirá infracción muy grave la reiteración de las conductas tipificadas como infracción grave en el apartado anterior.</p>
+          <p class="parrafo">4. Se establecen las siguientes sanciones:</p>
+          <p class="parrafo_2">a) Las infracciones leves serán sancionadas con la suspensión del derecho de acceso a las ayudas previstas en esta ley por un tiempo no superior a 3 meses o con multa equivalente al resultado de multiplicar hasta 25 la cantidad adeudada.</p>
+          <p class="parrafo">b) Las infracciones graves serán sancionadas con multa equivalente al resultado de multiplicar hasta 50 la cantidad adeudada.</p>
+          <p class="parrafo">c) Las infracciones muy graves serán sancionadas con multa equivalente al resultado de multiplicar hasta 100 la cantidad adeudada.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Disposición adicional única. Evaluación de las medidas sobre pobreza energética.</p>
+          <p class="parrafo">1. La Administración de la Comunidad Autónoma, en el plazo de seis meses desde la aprobación de esta ley, presentará un estudio de evaluación de las medidas aplicadas en materia de pobreza energética. En él se contendrá una memoria descriptiva de los procedimientos activados en el marco de los convenios firmados con los diferentes suministradores, para evitar la suspensión del suministro, el análisis de las necesidades básicas energéticas a los efectos de considerar el mínimo vital garantizado y recomendaciones de actuación.</p>
+          <p class="parrafo">2. La Administración Pública de la Comunidad Autónoma de Aragón y las entidades locales de Aragón, con la participación de la Federación Aragonesa de Municipios Comarcas y Provincias, actuarán bajo el principio de colaboración en el estudio, análisis e implantación de medidas para evitar y superar la pobreza energética.</p>
+          <p class="parrafo">3. En el seno del Consejo Interadministrativo de Servicios Sociales, se incluirá el análisis de la pobreza energética y las líneas de acción a desarrollar en el conjunto de las políticas sociales.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Disposición final primera. Desarrollo reglamentario.</p>
+          <p class="parrafo">El Gobierno de Aragón aprobará el reglamento de desarrollo de esta ley en el plazo de seis meses desde la entrada en vigor de la misma, sin perjuicio de la inmediata implementación de las prestaciones para paliar las situaciones de vulnerabilidad en materia de pobreza energética.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Disposición final segunda. Plazo para la aprobación del Plan de medidas de eficiencia energética.</p>
+          <p class="parrafo">El Plan de medidas de eficiencia energética deberá estar aprobado en el plazo máximo de nueve meses desde la entrada en vigor de esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="articulo">Disposición final tercera. Publicación y entrada en vigor.</p>
+          <p class="parrafo">La presente Ley se publicará en el «Boletín Oficial de Aragón» y entrará en vigor el día siguiente al de su publicación.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2016-11670" fecha_publicacion="20161111" fecha_vigencia="20161112">
+          <p class="parrafo_2">Así lo dispongo a los efectos del artículo 9.1 de la Constitución y los correspondientes del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo_2">Zaragoza, 3 de noviembre de 2016.</p>
+          <p class="firma_ministro">El Presidente del Gobierno de Aragón,</p>
+          <p class="firma_ministro">Javier Lambán Montañés.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

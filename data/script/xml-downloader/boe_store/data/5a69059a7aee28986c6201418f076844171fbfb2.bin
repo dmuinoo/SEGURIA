@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T185946Z</fecha_actualizacion>
+      <identificador>BOE-A-2025-11070</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9585">Ministerio de la Presidencia, Justicia y Relaciones con las Cortes</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20250603</fecha_disposicion>
+      <numero_oficial>423/2025</numero_oficial>
+      <titulo>Real Decreto 423/2025, de 3 de junio, por el que se fija la plantilla de la Guardia Civil para el periodo 2025-2029.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20250604</fecha_publicacion>
+      <diario_numero>134</diario_numero>
+      <fecha_vigencia>20250701</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2025/06/03/423</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2025-11070</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1983">Cuerpo de la Guardia Civil</materia>
+        <materia codigo="5618">Plantillas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2021-13265</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>, con efectos desde el 1 de julio de 2025, el Real Decreto 687/2021, de 3 de agosto</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2014-12408</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 25.1 de la Ley 29/2014, de 28 de noviembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2025-11070</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">423</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5618"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2025-11070</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">423</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5618"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/con/20250604"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 423/2025, de 3 de junio, por el que se fija la plantilla de la Guardia Civil para el periodo 2025-2029.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial decret 423/2025, de 3 de juny, pel qual es fixa la plantilla de la Guàrdia Civil per al període 2025-2029.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/con/20250604">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2025-11070</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">423</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5618"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/con/20250604/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 423/2025, de 3 de junio, por el que se fija la plantilla de la Guardia Civil para el periodo 2025-2029.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/con/20250604"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2025/06/03/423/con/20250604/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2025/06/03/423/con/20250604/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="parrafo">El artículo 25.1 de la Ley 29/2014, de 28 de noviembre, de Régimen del Personal de la Guardia Civil, prevé que la plantilla de dicho Cuerpo, en situación de activo, se ajustará a los créditos establecidos en las Leyes de Presupuestos Generales del Estado. Asimismo, su apartado 2 señala que el Consejo de Ministros, a propuesta conjunta de las personas titulares de los Ministerios de Defensa y del Interior, fijará, con vigencia para periodos de cuatro años cada uno, la plantilla reglamentaria para los distintos empleos y escalas, excepto los correspondientes al primer empleo de cada escala, cuyos efectivos serán los que resulten de la provisión anual de plazas.</p>
+          <p class="parrafo">Con vigencia para el periodo comprendido desde el 1 de julio de 2021 hasta el 30 de junio de 2025, ambos inclusive, el Real Decreto 687/2021, de 3 de agosto, por el que se fija la plantilla de la Guardia Civil para el periodo 2021-2025, determinó la plantilla reglamentaria para los distintos empleos y escalas de la Guardia Civil, estableciendo los efectivos máximos en las situaciones administrativas de servicio activo y suspenso de funciones.</p>
+          <p class="parrafo">Esta plantilla reglamentaria se aborda una vez concluido el proceso de integración de las escalas de oficiales, y debe hacer frente a la ubicación final de todos ellos, bien en la constituida en julio de 2017 o en cualquiera de las declaradas a extinguir por la Ley 29/2014, de 28 de noviembre; ha de constituirse, por tanto, en un elemento que ofrezca un escenario de estabilidad y certidumbre hacia un adecuado dimensionamiento del conjunto de escalas.</p>
+          <p class="parrafo">Para dar cumplimiento al mandato legal, hacer posible el desarrollo de carrera del personal de la Guardia Civil a través de su régimen de ascensos, y favorecer la consecución de la máxima efectividad en la prestación de los servicios y los objetivos del Gobierno en materia de seguridad pública, se hace necesario fijar una nueva plantilla reglamentaria para los próximos cuatro años.</p>
+          <p class="parrafo">Todo ello, se ha abordado de acuerdo con los principios previstos para la regulación normativa en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y, en particular, con los principios de buena regulación previstos en el artículo 129 de dicha ley. Concretamente, en lo referente al principio de transparencia, se han llevado a cabo tanto los trámites de audiencia e información pública, como los de información y consulta a las asociaciones profesionales representativas de guardias civiles.</p>
+          <p class="parrafo">Asimismo, se han considerado los principios de eficiencia y seguridad jurídica, al darse continuidad a la norma que le antecede, sin crear nuevas cargas administrativas y teniendo en cuenta el resto de disposiciones de carácter general que informan la gestión del personal del conjunto de la administración pública; y de necesidad y proporcionalidad, al proponerse una plantilla que permita abordar los importantes retos que afronta la Guardia Civil a corto y medio plazo, tanto en lo concerniente al desarrollo de carrera profesional de sus integrantes, como a la eficiencia y calidad en la prestación de servicio que se ofrece a la ciudadanía.</p>
+          <p class="parrafo">En cuanto al principio de eficacia, la vigencia cuatrienal de la plantilla reglamentaria a la que se refiere el precitado artículo 25 de la ley, obliga a fijar una nueva para el siguiente período de cuatro años (2025-2029), toda vez que la actual dejaría de tener efecto el próximo 30 de junio de 2025, constituyendo este proyecto de real decreto el instrumento más adecuado y que mayor eficacia aporta de cara a la consecución de los fines de interés general que persigue, toda vez que contribuye al desarrollo de carrera del personal de la Guardia Civil y a maximizar la efectividad en la prestación de los servicios.</p>
+          <p class="parrafo">Por último, en cumplimiento de lo dispuesto en el artículo 54 de la Ley Orgánica 11/2007, de 22 de octubre, reguladora de los derechos y deberes de los miembros de la Guardia Civil, este real decreto ha sido sometido al informe del Consejo de la Guardia Civil.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro del Interior y de la Ministra de Defensa, con la aprobación previa del Ministro para la Transformación Digital y de la Función Pública, de acuerdo con el Consejo de Estado, y previa deliberación del Consejo de Ministros en su reunión del día 3 de junio de 2025,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Artículo 1. Plantilla reglamentaria.</p>
+          <p class="parrafo">1. Con vigencia para el periodo comprendido desde el día 1 de julio de 2025 hasta el 30 de junio de 2029, ambos inclusive, la plantilla reglamentaria para los distintos empleos y escalas del Cuerpo de la Guardia Civil, excepto la correspondiente al primer empleo de cada escala será la siguiente:</p>
+          <table class="tabla" data-omitir-repetir-tfoot="true">
+            <colgroup>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="cabeza_tabla">Escala</th>
+                <th class="cabeza_tabla">Empleo</th>
+                <th class="cabeza_tabla">2025/2026</th>
+                <th class="cabeza_tabla">2026/2027</th>
+                <th class="cabeza_tabla">2027/2028</th>
+                <th class="cabeza_tabla">2028/2029</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_izq" rowspan="7">Oficiales.</td>
+                <td class="cuerpo_tabla_izq">Teniente General.</td>
+                <td class="cuerpo_tabla_coma">5</td>
+                <td class="cuerpo_tabla_coma">5</td>
+                <td class="cuerpo_tabla_coma">5</td>
+                <td class="cuerpo_tabla_coma">5</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">General de División.</td>
+                <td class="cuerpo_tabla_coma">9</td>
+                <td class="cuerpo_tabla_coma">9</td>
+                <td class="cuerpo_tabla_coma">9</td>
+                <td class="cuerpo_tabla_coma">10</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">General de Brigada.</td>
+                <td class="cuerpo_tabla_coma">24</td>
+                <td class="cuerpo_tabla_coma">24</td>
+                <td class="cuerpo_tabla_coma">25</td>
+                <td class="cuerpo_tabla_coma">27</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Coronel.</td>
+                <td class="cuerpo_tabla_coma">137</td>
+                <td class="cuerpo_tabla_coma">142</td>
+                <td class="cuerpo_tabla_coma">150</td>
+                <td class="cuerpo_tabla_coma">162</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Teniente Coronel.</td>
+                <td class="cuerpo_tabla_coma">259</td>
+                <td class="cuerpo_tabla_coma">269</td>
+                <td class="cuerpo_tabla_coma">285</td>
+                <td class="cuerpo_tabla_coma">311</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Comandante.</td>
+                <td class="cuerpo_tabla_coma">470</td>
+                <td class="cuerpo_tabla_coma">487</td>
+                <td class="cuerpo_tabla_coma">513</td>
+                <td class="cuerpo_tabla_coma">556</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Capitán.</td>
+                <td class="cuerpo_tabla_coma">641</td>
+                <td class="cuerpo_tabla_coma">667</td>
+                <td class="cuerpo_tabla_coma">697</td>
+                <td class="cuerpo_tabla_coma">732</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" rowspan="3">Facultativa Superior Ley 42/1999.</td>
+                <td class="cuerpo_tabla_izq">Coronel.</td>
+                <td class="cuerpo_tabla_coma">8</td>
+                <td class="cuerpo_tabla_coma">8</td>
+                <td class="cuerpo_tabla_coma">8</td>
+                <td class="cuerpo_tabla_coma">12</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Teniente Coronel.</td>
+                <td class="cuerpo_tabla_coma">18</td>
+                <td class="cuerpo_tabla_coma">21</td>
+                <td class="cuerpo_tabla_coma">25</td>
+                <td class="cuerpo_tabla_coma">17</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Comandante.</td>
+                <td class="cuerpo_tabla_coma">17</td>
+                <td class="cuerpo_tabla_coma">10</td>
+                <td class="cuerpo_tabla_coma">0</td>
+                <td class="cuerpo_tabla_coma">0</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" rowspan="3">Oficiales Ley 42/1999.</td>
+                <td class="cuerpo_tabla_izq">Teniente Coronel.</td>
+                <td class="cuerpo_tabla_coma">58</td>
+                <td class="cuerpo_tabla_coma">58</td>
+                <td class="cuerpo_tabla_coma">58</td>
+                <td class="cuerpo_tabla_coma">58</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Comandante.</td>
+                <td class="cuerpo_tabla_coma">124</td>
+                <td class="cuerpo_tabla_coma">124</td>
+                <td class="cuerpo_tabla_coma">124</td>
+                <td class="cuerpo_tabla_coma">124</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Capitán.</td>
+                <td class="cuerpo_tabla_coma">536</td>
+                <td class="cuerpo_tabla_coma">536</td>
+                <td class="cuerpo_tabla_coma">536</td>
+                <td class="cuerpo_tabla_coma">536</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" rowspan="3">Facultativa Técnica Ley 42/1999.</td>
+                <td class="cuerpo_tabla_izq">Teniente Coronel.</td>
+                <td class="cuerpo_tabla_coma">0</td>
+                <td class="cuerpo_tabla_coma">0</td>
+                <td class="cuerpo_tabla_coma">8</td>
+                <td class="cuerpo_tabla_coma">13</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Comandante.</td>
+                <td class="cuerpo_tabla_coma">28</td>
+                <td class="cuerpo_tabla_coma">28</td>
+                <td class="cuerpo_tabla_coma">18</td>
+                <td class="cuerpo_tabla_coma">13</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Capitán.</td>
+                <td class="cuerpo_tabla_coma">2</td>
+                <td class="cuerpo_tabla_coma">1</td>
+                <td class="cuerpo_tabla_coma">0</td>
+                <td class="cuerpo_tabla_coma">0</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" rowspan="4">Suboficiales.</td>
+                <td class="cuerpo_tabla_izq">Suboficial Mayor.</td>
+                <td class="cuerpo_tabla_coma">81</td>
+                <td class="cuerpo_tabla_coma">89</td>
+                <td class="cuerpo_tabla_coma">106</td>
+                <td class="cuerpo_tabla_coma">130</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Subteniente.</td>
+                <td class="cuerpo_tabla_coma">662</td>
+                <td class="cuerpo_tabla_coma">688</td>
+                <td class="cuerpo_tabla_coma">744</td>
+                <td class="cuerpo_tabla_coma">830</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Brigada.</td>
+                <td class="cuerpo_tabla_coma">1.180</td>
+                <td class="cuerpo_tabla_coma">1.220</td>
+                <td class="cuerpo_tabla_coma">1.304</td>
+                <td class="cuerpo_tabla_coma">1.453</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Sargento Primero.</td>
+                <td class="cuerpo_tabla_coma">2.360</td>
+                <td class="cuerpo_tabla_coma">2.442</td>
+                <td class="cuerpo_tabla_coma">2.576</td>
+                <td class="cuerpo_tabla_coma">2.816</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq" rowspan="3">Cabos y Guardias.</td>
+                <td class="cuerpo_tabla_izq">Cabo Mayor.</td>
+                <td class="cuerpo_tabla_coma">132</td>
+                <td class="cuerpo_tabla_coma">148</td>
+                <td class="cuerpo_tabla_coma">183</td>
+                <td class="cuerpo_tabla_coma">225</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Cabo Primero.</td>
+                <td class="cuerpo_tabla_coma">6.940</td>
+                <td class="cuerpo_tabla_coma">6.952</td>
+                <td class="cuerpo_tabla_coma">6.985</td>
+                <td class="cuerpo_tabla_coma">7.040</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_izq">Cabo.</td>
+                <td class="cuerpo_tabla_coma">1.200</td>
+                <td class="cuerpo_tabla_coma">1.210</td>
+                <td class="cuerpo_tabla_coma">1.236</td>
+                <td class="cuerpo_tabla_coma">1.280</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">La distribución que se hace por periodos anuales entrará en vigor el 1 de julio y estará vigente hasta el 30 de junio del año siguiente.</p>
+          <p class="parrafo">2. Cuando se designe a un Oficial General para ocupar cargos en el ámbito de los órganos centrales u organismos autónomos de los Ministerios de Defensa y del Interior o en organizaciones internacionales, así como en misiones para mantener la paz y seguridad internacionales que conlleven el cese en el destino, en la Casa de Su Majestad el Rey, en la Presidencia del Gobierno o en departamentos ministeriales, se considerará plantilla adicional, salvo que estén específicamente asignados al Cuerpo de la Guardia Civil.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Artículo 2. Personal de plantilla.</p>
+          <p class="parrafo">La plantilla que se establece en el artículo 1 representa los efectivos máximos en cada empleo e incluye a todo el personal que se encuentre en las situaciones administrativas de servicio activo y suspensión de funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Artículo 3. Amortización de excedentes.</p>
+          <p class="parrafo">Los excedentes de plantilla que existan en todo momento en los diferentes empleos y escalas en relación con la plantilla fijada en el artículo 1, se amortizarán no dando al ascenso las siguientes vacantes:</p>
+          <p class="parrafo_2">a) En los empleos de la categoría de Oficiales Generales, las primeras que se produzcan.</p>
+          <p class="parrafo">b) En los restantes empleos, la primera que se produzca de cada tres.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Disposición adicional única. Cobertura de la plantilla.</p>
+          <p class="parrafo">La plantilla recogida en el presente real decreto será cubierta en la medida en que las disponibilidades presupuestarias lo permitan. Asimismo, su cobertura no podrá suponer incrementos netos de gastos de personal, debiéndose compensar, en caso de que se produzcan, con la reducción de otras partidas de gastos de personal de la Dirección General de la Guardia Civil.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Disposición derogatoria única. Derogaciones.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 687/2021, de 3 de agosto, por el que se fija la plantilla de la Guardia Civil para el periodo 2021-2025, así como cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1 apartados 4.ª y 29.ª de la Constitución, que atribuyen al Estado la competencia exclusiva en materia de Defensa y Fuerzas Armadas y en materia de seguridad pública, respectivamente.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">Este real decreto entrará en vigor el día 1 de julio de 2025.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2025-11070" fecha_publicacion="20250604" fecha_vigencia="20250701">
+          <p class="parrafo_2">Dado en Madrid, el 3 de junio de 2025.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">El Ministro de la Presidencia, Justicia y Relaciones con las Cortes,</p>
+          <p class="firma_ministro">FÉLIX BOLAÑOS GARCÍA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

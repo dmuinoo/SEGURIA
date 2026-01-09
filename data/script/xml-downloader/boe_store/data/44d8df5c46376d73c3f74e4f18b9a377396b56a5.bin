@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T132926Z</fecha_actualizacion>
+      <identificador>BOE-A-2012-4379</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8140">Comunidad Autónoma del País Vasco</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19860626</fecha_disposicion>
+      <numero_oficial>8/1986</numero_oficial>
+      <titulo>Ley 8/1986, de 26 de junio, de Iniciativa Legislativa Popular.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20120330</fecha_publicacion>
+      <diario_numero>77</diario_numero>
+      <fecha_vigencia>19860810</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20160708</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-pv/l/1986/06/26/8</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2012-4379</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="4270">Iniciativa legislativa</materia>
+        <materia codigo="5345">País Vasco</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOPV núm. 145, de 21 de julio de 1986.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1979-30177</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 27.4 del Estatuto aprobado por Ley Orgánica 3/1979, de 18 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2016-6996</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Ley 10/2016, de 30 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-4379</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-06-26</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4270"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-4379</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-06-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4270"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/20160707"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/19860810"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1986, de 26 de junio, de Iniciativa Legislativa Popular.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-03-30</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/20160707">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-4379</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-06-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4270"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-07</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/20160707/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1986, de 26 de junio, de Iniciativa Legislativa Popular.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/20160707"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/20160707/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/20160707/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/19860810">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-pv"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-4379</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-06-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4270"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5345"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-08-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/19860810/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 8/1986, de 26 de junio, de Iniciativa Legislativa Popular.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/19860810"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/19860810/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-pv/l/1986/06/26/8/con/19860810/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2016-6996" fecha_publicacion="20160707" fecha_vigencia="20160708">
+          <p class="siempreSeVe">Norma derogada, con efectos desde el 8 de julio de 2016, por la disposición derogatoria de la Ley 10/2016, de 30 de junio. <a class="refPost">Ref. BOE-A-2016-6996#dd</a>.</p>
+          <p> </p>
+          <p> </p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="parrafo_2">Se hace saber a todos los ciudadanos de Euskadi que el Parlamento Vasco ha aprobado la Ley 8/1986, de 26 de junio, de Iniciativa Legislativa Popular.</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">En el constitucionalismo contemporáneo se observa desde el término de la Segunda Guerra Mundial un proceso de adaptación del viejo armazón institucional de la democracia liberal basado en la intermediación entre los ciudadanos y los órganos constitucionales a través del mecanismo electoral, y centrado en el juego de las relaciones Parlamento-Gobierno, a una realidad social radicalmente distinta a la que lo alumbró y cuya nota más característica es el pluralismo y su ansia expansiva de participación.</p>
+          <p class="parrafo">Este fenómeno que se dirige no sólo a ampliar las bases de legitimación del sistema, sino fundamentalmente, a lograr una mayor estabilidad política mediante la correspondencia entre las normas y la realidad social, enlaza al tiempo con la vieja tensión, presente desde los orígenes del estado liberal, entre el ideal de la democracia directa y la solución representativa adoptada finalmente.</p>
+          <p class="parrafo">La principal manifestación de la tendencia descrita es la constitucionalización por los ordenamientos democráticos de las formaciones sociales que canalizan las demandas de los individuos y sus grupos, especialmente los partidos políticos como instrumentos fundamentales de participación política. Otra importante muestra es, sin duda, el mandato dirigido a todos los poderes públicos de promover y facilitar la participación sin circunscribirla ámbito político, sino extendiéndola también, al económico, social y cultural, tal y como se establece en el artículo 9.2.e) del Estatuto Vasco. También puede reseñarse la proyección de las fórmulas participativas a la Administración Pública o al Poder Judicial.</p>
+          <p class="parrafo">En este contexto la iniciativa legislativa popular cumple una importante función, en cuanto que, inspirada en la espontaneidad social sirve de cauce de expresión de demandas de los ciudadanos asumidas por los partidos políticos con representación parlamentaria y se dirige a la institución central de la democracia representativa, el Parlamento, que, en última instancia, como titular de la potestad legislativa asumirá o no como producto propio, el texto articulado cuya tramitación ante la Cámara se pretende efectuar mediante el ejercicio de la iniciativa.</p>
+          <p class="parrafo">El Estatuto de Autonomía, en su artículo 27.4 ha contemplado la institución de la iniciativa legislativa popular, y coherentemente con el sistema de gobierno por él diseñado, la ha hecho compatible con la preeminencia del Parlamento. De ese modo, la iniciativa popular se concibe como un mecanismo participativo más al servicio de los ciudadanos, inscribiéndose así la previsión estatutaria en la línea marcada por el artículo 10 del Estatuto del País Vasco de 1936.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Los ciudadanos que tengan la condición política de vascos, mayores de edad, inscritos en el censo electoral, tienen derecho a ejercer la iniciativa legislativa popular prevista en el artículo 27.4 del Estatuto de Autonomía del País Vasco, de acuerdo con lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">Se excluyen de la iniciativa legislativa popular las materias siguientes:</p>
+          <p class="parrafo_2">a) Aquéllas sobre las que la Comunidad Autónoma carezca de competencia legislativa, así como las relativas a la organización, régimen jurídico y competencias de las Instituciones Comunes de la Comunidad Autónoma y a las. competencias de las Instituciones de los Territorios Históricos y las que afecten a la organización territorial de la Comunidad Autónoma.</p>
+          <p class="parrafo">b) Las de naturaleza tributaria.</p>
+          <p class="parrafo">c) La reforma del Estatuto de Autonomía.</p>
+          <p class="parrafo">d) Las referidas a la planificación general de la actividad económica.</p>
+          <p class="parrafo">e) La iniciativa y procedimiento legislativo.</p>
+          <p class="parrafo">f) El régimen electoral.</p>
+          <p class="parrafo">g) Aquéllas respecto de las que el Estatuto de Autonomía o las Leyes reservan la iniciativa al Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">La iniciativa legislativa popular se ejercerá mediante la presentación ante la Mesa del Parlamento Vasco, de proposiciones de Ley suscritas por las firmas de al menos treinta mil ciudadanos vascos autenticadas en la forma que determina la presente Ley.</p>
+          <p class="parrafo">La Comisión Promotora ostentará la representación de los firmantes en todo cuanto se derive de la iniciativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">1. El procedimiento se iniciará mediante la presentación ante la Mesa del Parlamento Vasco, a través de su Secretaria General, de un escrito que contendrá:</p>
+          <p class="parrafo_2">a) El texto articulado de la proposición de Ley, precedido de una Exposición de Motivos.</p>
+          <p class="parrafo">b) Una detallada exposición de las razones que, a juicio de los firmantes, aconsejen la tramitación y aprobación por la Cámara de la proposición de Ley.</p>
+          <p class="parrafo">c) La relación de los miembros que componen la Comisión Promotora de la Iniciativa Popular, expresando los datos personales de todos ellos y, el miembro de aquélla designado a efectos de notificación.</p>
+          <p class="parrafo_2">2. El escrito a que se refiere el párrafo anterior deberá estar suscrito con la firma de los miembros de la Comisión Promotora.</p>
+          <p class="parrafo">3. Si la iniciativa se presentará fuera de los periodos de Sesión Parlamentaría, loa plazos se comenzarán a computar en el periodo siguiente al de la presentación de dicha documentación.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">1. La Mesa del Parlamento examinará la documentación remitida y se pronunciará sobre su admisibilidad en el plazo de treinta días a partir de la presentación.</p>
+          <p class="parrafo">2. Serán causas de inadmisibilidad de la proposición las siguientes:</p>
+          <p class="parrafo_2">a) Que tenga por objeto alguna de las materias excluidas en el artículo 2 de esta Ley.</p>
+          <p class="parrafo">b) Que no se hayan observado los requisitos exigidos en el artículo 4 de la presente Ley. No obstante, si se tratara de un defecto subsanable, la Mesa del Parlamento lo comunicará a la Comisión Promotora para que proceda, en su caso, a la subsanación en el plazo de un mes.</p>
+          <p class="parrafo">c) Que el texto verse sobre materias diversas o carentes de homogeneidad entre si.</p>
+          <p class="parrafo">d) Que exista en tramitación en el Parlamento un proyecto o proposición de Ley que verse sobre el mismo objeto de la iniciativa popular.</p>
+          <p class="parrafo">e) Que sea reproducción de otra iniciativa popular de contenido sustancialmente idéntico presentada en el transcurso de la misma legislatura.</p>
+          <p class="parrafo">f) La previa existencia de una proposición no de ley aprobada por el Parlamento en la misma Legislatura, que verse sobre idéntico objeto que el de la iniciativa popular.</p>
+          <p class="parrafo_2">3. La resolución adoptada por la Mesa del Parlamento será notificada, a todos los efectos, a la Comisión Promotora de la Iniciativa Popular y publicada en el Boletín Oficial del Parlamento Vasco.</p>
+          <p class="parrafo">4. Los acuerdos de inadmisibilidad dictados por la Mesa son susceptibles de recurso de amparo ante el Tribunal Constitucional.</p>
+          <p class="parrafo">5. Si el Tribunal decidiera que la proposición no incurre en alguna de las causas de inadmisión previstas en el apartado 2 del artículo S, el procedimiento seguirá su curso.</p>
+          <p class="parrafo">6. Si por el contrario, el Tribunal decidiera que la irregularidad afecta a determinados preceptos de la proposición, la Mesa del Parlamento lo comunicará a los promotores, a fin de que éstos manifiesten si desean retirar la iniciativa o mantenerla una vez que hayan efectuado las modificaciones correspondientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">1. Admitida la proposición, la Mesa del Parlamento lo comunicará a la Junta Electoral de la Comunidad Autónoma, que garantizará la regularidad del procedimiento de recogida de firmas.</p>
+          <p class="parrafo">2. La Junta Electoral de la Comunidad Autónoma notificará a la Comisión Promotora la admisión de la proposición, si objeto de que proceda a la recogida de las firmas requeridas.</p>
+          <p class="parrafo">3. El procedimiento al que se refieren los números anteriores deberá finalizar con entrega a las Juntas Electorales de loa Territorios Históricos de las firmas recogidas, en el plazo de cuatro meses a contar desde la notificación a que se refiere el apartado anterior. Agotado el plazo sin que se haya hecho entrega de las firmas recogidas caducará la iniciativa.</p>
+          <p class="parrafo">4. Cuando concurra fuerza mayor, apreciada por la Mesa del Parlamento Vasco, el plazo de recogida de firmas podrá ser prorrogado por dos meses.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">1. Recibida la notificación de admisión de la proposición, la Comisión Promotora presentará ante la Junta Electoral de la Comunidad Autónoma. en papel común, los pliegos necesarios para la recogida de firmas. Estos pliegos reproducirán el texto integro de la proposición.</p>
+          <p class="parrafo">2. Si el texto de la proposición superase en extensión las tres caras de cada pliego, se acompañará en pliegos aparte que se unirán al destinado a recoger las firmas de modo que no puedan ser separados, sellándose y numerándose, de acuerdo con lo dispuesto en el apartado siguiente.</p>
+          <p class="parrafo">3. Recibidos los pliegos por la Junta Electoral de la Comunidad Autónoma, Esta, dentro de las cuarenta y ocho horas siguientes, los sellará, numerará y devolverá a la Comisión Promotora.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">1. Junto a la firma del elector se indicará su nombre y apellidos, número del Documento Nacional de Identidad y municipio en cuyas listas electorales se halle inscrito.</p>
+          <p class="parrafo">2. La firma deberá ser autenticada por un Notario, por un Cónsul, por un Secretario Judicial o por el Secretario Municipal correspondiente al Municipio en cuyo censo electoral se halle inscrito el firmante, o por fedatarios especiales designados por la Comisión Promotora.</p>
+          <p class="parrafo">La designación de fedatarios especiales se hará por escritura pública ante Notario, y el nombramiento deberá recaer en personas mayores de edad, que tengan la condición política de vascos y carezcan de antecedentes penales.</p>
+          <p class="parrafo">Los fedatarios especiales, en caso de falsedad, incurrirán en las responsabilidades penales previstas en la Ley.</p>
+          <p class="parrafo">La autenticación deberá indicar la fecha y podrá ser colectiva, pliego por pliego. En este caso, junto a la fecha deberá consignarse el número de firmas contenidas en el pliego.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo">1. Los pliegos que contengan las firmas recogidas, a cada uno de los cuales se acompañará certificado que acredite la inscripción de los firmantes en el censo electoral como mayores de edad, serán elevados a las Juntas Electorales de los Territorios Históricos, para su comprobación y recuento inicial. Las Juntas Electorales de los Territorios Históricos, en el plazo de treinta días, lo remitirán a la Junta Electoral de la Comunidad Autónoma.</p>
+          <p class="parrafo">2. La Junta Electoral de la Comunidad Autónoma podrá solicitar de las Juntas Electorales de los Territorios Históricos la ayuda necesaria para la acreditación de las firmas.</p>
+          <p class="parrafo">3. La Comisión Promotora podrá recabar en cualquier momento de las Juntas Electorales de los Territorios Históricos la información que estime pertinente respecto del número de firmas recogidas y acreditadas como válidas.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 10.</p>
+          <p class="parrafo">1. Una vez remitidos los pliegos a la Junta Electoral de la Comunidad Autónoma, ésta procederá a su comprobación y recuento definitivo.</p>
+          <p class="parrafo">2. Las firmas que no reúnan los requisitos exigidos en esta Ley se declararán inválidas y no serán computadas.</p>
+          <p class="parrafo">3. Comprobado el cumplimiento de los requisitos exigidos para la válida presentación de la proposición, la Junta Electoral de la Comunidad Autónoma elevará al Parlamento certificación acreditativa del número de firmas válidas y procederá a destruir los pliegos de firmas que obren en su poder.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo">Recibida por la Mesa del Parlamento la certificación acreditativa de haberse obtenido el número de firmas exigido, se seguirá la tramitación que para las proposiciones de ley se establece en el artículo 105 del Reglamento de la Cámara, con la salvedad de que el debate se iniciará mediante la lectura del documento a que se refiere el artículo 4.b) de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 12.</p>
+          <p class="parrafo">La iniciativa legislativa popular que estuviera en tramitación en el momento de la disolución del Parlamento, no decaerá por este hecho. Una vez constituida la nueva Cámara, la Mesa del Parlamento acordará el trámite a partir del cual se reiniciará el procedimiento legislativo, sin que sea preciso en ningún caso ejercitar nuevamente la iniciativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Artículo 13.</p>
+          <p class="parrafo">1. Los gastos realizados por la Comisión Promotora en la difusión de la proposición y en la recogida de firmas serán resarcidos cuando, reuniendo los requisitos exigidos en esta Ley, haya alcanzado la publicación en el Boletín Oficial del Parlamento Vasco.</p>
+          <p class="parrafo">2. Los gastos deberán ser justificados en forma por la Comisión Promotora ante la Mesa del Parlamento Vasco. El Parlamento revisará anualmente la cantidad destinada a cubrir tales gastos, que serán abonados con cargo a la partida presupuestaria habilitada a tal fin en los presupuestos de la Cámara.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Disposición adicional.</p>
+          <p class="parrafo">La compensación destinada a cubrir los gastos de la Comisión Promotora no será superior a dos millones de pesetas, en tanto no sea revisada conforme al procedimiento previsto en el artículo 13.2 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo">Se autoriza al Gobierno para dictar las disposiciones pertinentes para el desarrollo y cumplimiento de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="firma-2" tipo="firma">
+        <version id_norma="BOE-A-2012-4379" fecha_publicacion="19860810" fecha_vigencia="19860810">
+          <p class="parrafo_2">Por consiguiente, ordeno a todos los ciudadanos de Euskadi, particulares y autoridades que la guarden y hagan guardarla.</p>
+          <p class="parrafo_2">Vitoria-Gasteiz, 27 de junio de 1986.</p>
+          <p class="firma_ministro">El Lehendakari, José Antonio Ardanza Garro.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

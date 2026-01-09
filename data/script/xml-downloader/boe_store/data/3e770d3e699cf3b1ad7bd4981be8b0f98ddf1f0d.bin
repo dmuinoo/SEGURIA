@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T184031Z</fecha_actualizacion>
+      <identificador>BOE-A-2000-19652</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20001027</fecha_disposicion>
+      <titulo>Orden de 27 de octubre de 2000 por la que se determina el régimen reglamentario aplicable a un artefacto denominado cañón lanza-redes.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20001101</fecha_publicacion>
+      <diario_numero>262</diario_numero>
+      <fecha_vigencia>20001102</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2000/10/27/(1)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2000-19652</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="234">Animales</materia>
+        <materia codigo="289">Armas</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1993-6202</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Reglamento aprobado por Real Decreto 137/1993, de 29 de enero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-19652</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-10-27</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/234"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-19652</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-10-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/234"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/con/20001101"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 27 de octubre de 2000 por la que se determina el régimen reglamentario aplicable a un artefacto denominado cañón lanza-redes.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-11-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/con/20001101">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-19652</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-10-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/234"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/289"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-11-01</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/con/20001101/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden de 27 de octubre de 2000 por la que se determina el régimen reglamentario aplicable a un artefacto denominado cañón lanza-redes.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/con/20001101"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2000/10/27/(1)/con/20001101/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2000/10/27/(1)/con/20001101/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2000-19652" fecha_publicacion="20001101" fecha_vigencia="20001102">
+          <p class="parrafo"> La disposición final tercera, apartado a) del Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas, establece que, mediante Órdenes del Ministro del Interior, dictadas a propuesta de la Dirección General de la Guardia Civil, previo informe favorable de la Comisión Interministerial Permanente de Armas y Explosivos, se podrá determinar, entre los regímenes comprendidos en el Reglamento, el aplicable a las armas no comprendidas específicamente en ninguna de las categorías configuradas en el artículo 3 del aludido Reglamento.</p>
+          <p class="parrafo">En el supuesto previsto en la disposición mencionada se encuentra el artefacto denominado cañón lanza-redes, no comprendido específicamente en el referido artículo 3 del citado Reglamento, por lo que resulta necesario determinar el régimen aplicable al mismo, a cuyo efecto se ha seguido el procedimiento administrativo prevenido, de estudio y clasificación.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Dirección General de la Guardia Civil, previo informe favorable de la Comisión Interministerial Permanente de Armas y Explosivos, y en uso de la facultad conferida por el citado Real Decreto, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="pr-2" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2000-19652" fecha_publicacion="20001101" fecha_vigencia="20001102">
+          <p class="articulo">Primero.</p>
+          <p class="parrafo">Al artefacto denominado cañón lanza-redes le será de aplicación el régimen de adquisición, tenencia y uso que establece el artículo 96.8 del Reglamento de Armas para las armas de inyección anestésica de la categoría 7ª, 1.</p>
+        </version>
+      </bloque>
+      <bloque id="se" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2000-19652" fecha_publicacion="20001101" fecha_vigencia="20001102">
+          <p class="articulo">Segundo.</p>
+          <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2000-19652" fecha_publicacion="20001101" fecha_vigencia="20001102">
+          <p class="parrafo_2">Madrid, 27 de octubre de 2000.</p>
+          <p class="firma_ministro">MAYOR OREJA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

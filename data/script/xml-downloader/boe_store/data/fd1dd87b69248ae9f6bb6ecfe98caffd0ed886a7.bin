@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180349Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-10037</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19990504</fecha_disposicion>
+      <numero_oficial>16/1999</numero_oficial>
+      <titulo>Ley 16/1999, de 4 de mayo, de creación del Colegio de Geógrafos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990505</fecha_publicacion>
+      <diario_numero>107</diario_numero>
+      <fecha_vigencia>19990525</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1999/05/04/16</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-10037</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="3908">Geógrafos</materia>
+      </materias>
+      <referencias>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2015-5853</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>la disposición transitoria 2 y aprueba los estatutos: Real Decreto 377/2015, de 14 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2001-11748</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>con la disposición transitoria 2, aprobando los estatutos provisionales: Orden de 30 de mayo de 2001</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-10037</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-04</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3908"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-10037</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3908"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/con/19990505"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 16/1999, de 4 de mayo, de creación del Colegio de Geógrafos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-05</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLEI 16/1999, de 4 de maig, de creació del Col·legi de Geògrafs.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEI 16/1999, do 4 de maio, de creación do Colexio de Xeógrafos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/con/19990505">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-10037</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3908"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/con/19990505/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 16/1999, de 4 de mayo, de creación del Colegio de Geógrafos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/con/19990505"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1999/05/04/16/con/19990505/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1999/05/04/16/con/19990505/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">El desarrollo científico de la Geografía en la segunda mitad de este siglo debido a la ampliación de sus conocimientos, ayudado por la evolución de las técnicas, ha comportado una demanda profesional, por parte de la sociedad, desconocida hasta hace relativamente poco tiempo.</p>
+          <p class="parrafo">La sociedad española ha vivido también este cambio y no es ajena a esta evolución, siendo muy elevado el número de profesionales de la Geografía que se hallan en posesión de la titulación académica que les habilita para su ejercicio. Como consecuencia de ello actualmente 26 universidades españolas imparten la Licenciatura de Geografía, creada desde hace algunos años diferenciada de la de Filosofía y Letras, con una oferta de 2.000 plazas anuales, hecho que permite prever una promoción de 1.000 profesionales potenciales anuales, cuyo destino último les sitúa en los campos de la información territorial (cartográfica o alfanumérica), la enseñanza, la investigación, la ordenación del territorio, el medio ambiente, la evaluación de los procesos socioterritoriales, etc., con especialidades, a la luz de los planes de estudio, muy variadas y caracterizadas, generalmente, por su naturaleza interdisciplinaria, pero claramente diferenciadas de otras profesiones con las que habitualmente trabajan conjuntamente.</p>
+          <p class="parrafo">Buena prueba de ello es que de los 6.500 titulados superiores que han orientado su licenciatura a los conocimientos geográficos, la mitad ejercen profesionalmente como tales. Asimismo, las Administraciones públicas han ido dotando y cubriendo un número significativo de plazas específicas para estas titulaciones, con una perspectiva cada vez mayor.</p>
+          <p class="parrafo">Los geógrafos profesionales y los docentes e investigadores en Geografía han venido agrupándose y asociándose desde hace tiempo tanto para fines profesionales como científicos, en el ámbito estatal y autonómico, con estrechas relaciones entre ellos para alcanzar un enriquecimiento mutuo y una mejor defensa de sus comunes intereses, llegando a crear un organismo común llamado «Gestora del Colegio de Geógrafos».</p>
+          <p class="parrafo">Por todo ello, parece llegado el momento de crear un Colegio Profesional de Geógrafos como instrumento necesario para la regulación y ordenación de la profesión y para su mejor disposición al servicio de la sociedad, así como para la defensa de los intereses profesionales en igualdad de condiciones con otros titulados universitarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Se crea el Colegio de Geógrafos, como corporación de Derecho público, que tendrá personalidad jurídica y plena capacidad para el cumplimiento de sus fines con sujeción a la Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">1. El Colegio de Geógrafos agrupará a los licenciados en Geografía. Se podrán integrar también en el Colegio de Geógrafos los licenciados en Geografía e Historia (Sección de Geografía), y en Filosofía y Letras, licenciados con anterioridad a la fecha que para las distintas universidades determinen los Estatutos. Asimismo, se podrán integrar aquellos titulados superiores que demuestren ante los órganos de gobierno del Colegio de Geógrafos una dedicación continuada a la Geografía y cumplan los requisitos que reglamentariamente se establezcan.</p>
+          <p class="parrafo">2. La colegiación tendrá los efectos establecidos por la legislación general sobre Colegios Profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">El Colegio de Geógrafos se relacionará con la Administración General del Estado a través del Ministerio de Fomento.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">La Comisión Gestora del Colegio de Geógrafos, surgida de la agrupación de la Asociación de Geógrafos Españoles (AGE), la Real Sociedad Geográfica, la Asociación de Geógrafos Profesionales de Andalucía, la Associació de Geògrafs Professionals de Catalunya, la Associació de Geògrafs de les Illes Balears, GAIA Asociación Canaria de Geógrafos, GEA Asociación de Geografía de Asturias y la Asociación de Geógrafos de Galicia, se hará cargo provisionalmente del Colegio de Geógrafos hasta su definitiva regulación y la constitución de sus órganos de gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">El Ministerio de Fomento, previa audiencia de la «Gestora del Colegio de Geógrafos», aprobará los Estatutos provisionales del Colegio, que regularán, conforme a la ley, los requisitos para la adquisición de la condición de colegiado que permite participar en las elecciones de los órganos de gobierno, el procedimiento y plazo de convocatoria de las mencionadas elecciones, así como de la constitución de los órganos de gobierno elegidos.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Constituidos los órganos de gobierno colegiados, según lo establecido en la disposición precedente, aquéllos remitirán al Ministerio de Fomento, en el plazo de seis meses, los Estatutos a que se refiere la legislación vigente sobre Colegios Profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">Se faculta al Ministerio de Fomento para dictar las disposiciones necesarias para la ejecución de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1999-10037" fecha_publicacion="19990505" fecha_vigencia="19990525">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta Ley.</p>
+          <p class="parrafo_2">Madrid, 4 de mayo de 1999.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ MARÍA AZNAR LÓPEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

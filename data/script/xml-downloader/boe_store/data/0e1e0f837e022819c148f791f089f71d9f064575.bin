@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T150905Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-8668</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4430">Ministerio de Trabajo y Asuntos Sociales</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19970414</fecha_disposicion>
+      <numero_oficial>485/1997</numero_oficial>
+      <titulo>Real Decreto 485/1997, de 14 de abril, sobre disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19970423</fecha_publicacion>
+      <diario_numero>97</diario_numero>
+      <fecha_vigencia>19970513</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1997/04/14/485</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-8668</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="6496">Seguridad e higiene en el trabajo</materia>
+        <materia codigo="6909">Trabajadores</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1986-18099</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 1403/1986, de 9 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-1992-81448</id_norma>
+            <relacion codigo="426">TRANSPONE</relacion>
+            <texto>la Directiva 92/58/CEE, de 24 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1995-24292</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 6 de la Ley 31/1995, de 8 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1997-1853</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 39/1997, de 17 de enero</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2015-7458</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 1 y anexos III y VII, por Real Decreto 598/2015, de 3 de julio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8668</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">485</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6496"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8668</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">485</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6496"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/con/20150704"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/con/19970423"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 485/1997, de 14 de abril, sobre disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/con/20150704">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8668</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">485</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6496"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/con/20150704/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 485/1997, de 14 de abril, sobre disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/con/20150704"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/con/20150704/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/con/20150704/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/con/19970423">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-8668</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-14</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">485</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6496"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-04-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/con/19970423/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 485/1997, de 14 de abril, sobre disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/con/19970423"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1997/04/14/485/con/19970423/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1997/04/14/485/con/19970423/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="parrafo">La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, determina el cuerpo básico de garantías y responsabilidades preciso para establecer un adecuado nivel de protección de la salud de los trabajadores frente a los riesgos derivados de las condiciones de trabajo, en el marco de una política coherente, coordinada y eficaz. Según el artículo 6 de la misma serán las normas reglamentarias las que irán fijando y concretando los aspectos más técnicos de las medidas preventivas.</p>
+          <p class="parrafo">Así, son las normas de desarrollo reglamentario las que deben fijar las medidas mínimas que deben adoptarse para la adecuada protección de los trabajadores. Entre ellas se encuentran las destinadas a garantizar que en los lugares de trabajo existe una adecuada señalización de seguridad y salud, siempre que los riesgos no puedan evitarse o limitarse suficientemente a través de medios técnicos de protección colectiva o de medidas, métodos o procedimientos de organización del trabajo.</p>
+          <p class="parrafo">En el mismo sentido hay que tener en cuenta que en el ámbito de la Unión Europea se han fijado mediante las correspondientes Directivas criterios de carácter general sobre las acciones en materia de seguridad y salud en los centros de trabajo, así como criterios específicos referidos a medidas de protección contra accidentes y situaciones de riesgo. Concretamente, la Directiva 92/58/CEE del Consejo, de 24 de junio, establece las disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo. Mediante el presente Real Decreto se procede a la transposición al Derecho español del contenido de la Directiva 92/58/CEE antes mencionada.</p>
+          <p class="parrafo">En su virtud, de conformidad con el artículo 6 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, a propuesta del Ministro de Trabajo y Asuntos Sociales, consultadas las organizaciones empresariales y sindicales más representativas, oída la Comisión Nacional de Seguridad y Salud en el Trabajo, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 4 de abril de 1997,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo_2">1. El presente Real Decreto establece las disposiciones mínimas para la señalización de seguridad y salud en el trabajo.</p>
+          <p class="parrafo">2. Las disposiciones de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, se aplicarán plenamente al conjunto del ámbito contemplado en el apartado anterior.</p>
+          <p class="parrafo">3. El presente Real Decreto no afectará a la señalización prevista por la normativa sobre comercialización de productos y equipos y sobre sustancias y preparados peligrosos, salvo que dicha normativa disponga expresamente otra cosa.</p>
+          <p class="parrafo">4. El presente Real Decreto no será aplicable a la señalización utilizada para la regulación del tráfico por carretera, ferroviario, fluvial, marítimo y aéreo, salvo que los mencionados tipos de tráfico se efectúen en los lugares de trabajo, y sin perjuicio de lo establecido en el anexo VII, ni a la utilizada por buques, vehículos y aeronaves militares.</p>
+        </version>
+        <version id_norma="BOE-A-2015-7458" fecha_publicacion="20150704" fecha_vigencia="20150705">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo_2">1. El presente Real Decreto establece las disposiciones mínimas para la señalización de seguridad y salud en el trabajo.</p>
+          <p class="parrafo">2. Las disposiciones de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, se aplicarán plenamente al conjunto del ámbito contemplado en el apartado anterior.</p>
+          <p class="parrafo">3. El presente Real Decreto no se aplicará a la señalización prevista por la normativa sobre comercialización de sustancias y mezclas, productos y equipos peligrosos, salvo que dicha normativa disponga expresamente otra cosa.</p>
+          <p class="parrafo">4. El presente Real Decreto no será aplicable a la señalización utilizada para la regulación del tráfico por carretera, ferroviario, fluvial, marítimo y aéreo, salvo que los mencionados tipos de tráfico se efectúen en los lugares de trabajo, y sin perjuicio de lo establecido en el anexo VII, ni a la utilizada por buques, vehículos y aeronaves militares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 3 por el art. 2.1 del Real Decreto 598/2015, de 3 de julio. <a class="refPost">Ref. BOE-A-2015-7458</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo_2">A efectos de este Real Decreto se entenderá por:</p>
+          <p class="parrafo_2">a) Señalización de seguridad y salud en el trabajo: una señalización que, referida a un objeto, actividad o situación determinadas, proporcione una indicación o una obligación relativa a la seguridad o la salud en el trabajo mediante una señal en forma de panel, un color, una señal luminosa o acústica, una comunicación verbal o una señal gestual, según proceda.</p>
+          <p class="parrafo">b) Señal de prohibición: una señal que prohíbe un comportamiento susceptible de provocar un peligro.</p>
+          <p class="parrafo">c) Señal de advertencia: una señal que advierte de un riesgo o peligro.</p>
+          <p class="parrafo">d) Señal de obligación: una señal que obliga a un comportamiento determinado.</p>
+          <p class="parrafo">e) Señal de salvamento o de socorro: una señal que proporciona indicaciones relativas a las salidas de socorro, a los primeros auxilios o a los dispositivos de salvamento.</p>
+          <p class="parrafo">f) Señal indicativa: una señal que proporciona otras informaciones distintas de las previstas en los párrafos b) a e).</p>
+          <p class="parrafo">g) Señal en forma de panel: una señal que, por la combinación de una forma geométrica, de colores y de un símbolo o pictograma, proporciona una determinada información, cuya visibilidad está asegurada por una iluminación de suficiente intensidad.</p>
+          <p class="parrafo">h) Señal adicional: una señal utilizada junto a otra señal de las contempladas en el párrafo g) y que facilita informaciones complementarias.</p>
+          <p class="parrafo">i) Color de seguridad: un color al que se atribuye una significación determinada en relación con la seguridad y salud en el trabajo.</p>
+          <p class="parrafo">j) Símbolo o pictograma: una imagen que describe una situación u obliga a un comportamiento determinado, utilizada sobre una señal en forma de panel o sobre una superficie luminosa.</p>
+          <p class="parrafo">k) Señal luminosa: una señal emitida por medio de un dispositivo formado por materiales transparentes o translúcidos, iluminados desde atrás o desde el interior, de tal manera que aparezca por sí misma como una superficie luminosa.</p>
+          <p class="parrafo">l) Señal acústica: una señal sonora codificada, emitida y difundida por medio de un dispositivo apropiado, sin intervención de voz humana o sintética.</p>
+          <p class="parrafo">m) Comunicación verbal: un mensaje verbal predeterminado, en el que se utiliza voz humana o sintética.</p>
+          <p class="parrafo">n) Señal gestual: un movimiento o disposición de los brazos o de las manos en forma codificada para guiar a las personas que estén realizando maniobras que constituyan un riesgo o peligro para los trabajadores.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Artículo 3. Obligación general del empresario.</p>
+          <p class="parrafo_2">Siempre que resulte necesario teniendo en cuenta los criterios del artículo siguiente, el empresario deberá adoptar las medidas precisas para que en los lugares de trabajo exista una señalización de seguridad y salud que cumpla lo establecido en los anexos I a VII del presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Artículo 4. Criterios para el empleo de la señalización.</p>
+          <p class="parrafo_2">1. Sin perjuicio de lo dispuesto específicamente en otras normativas particulares, la señalización de seguridad y salud en el trabajo deberá utilizarse siempre que el análisis de los riesgos existentes, de las situaciones de emergencia previsibles y de las medidas preventivas adoptadas, ponga de manifiesto la necesidad de:</p>
+          <p class="parrafo_2">a) Llamar la atención de los trabajadores sobre la existencia de determinados riesgos, prohibiciones u obligaciones.</p>
+          <p class="parrafo">b) Alertar a los trabajadores cuando se produzca una determinada situación de emergencia que requiera medidas urgentes de protección o evacuación.</p>
+          <p class="parrafo">c) Facilitar a los trabajadores la localización e identificación de determinados medios o instalaciones de protección, evacuación, emergencia o primeros auxilios.</p>
+          <p class="parrafo">d) Orientar o guiar a los trabajadores que realicen determinadas maniobras peligrosas.</p>
+          <p class="parrafo_2">2. La señalización no deberá considerarse una medida sustitutoria de las medidas técnicas y organizativas de protección colectiva y deberá utilizarse cuando mediante estas últimas no haya sido posible eliminar los riesgos o reducirlos suficientemente. Tampoco deberá considerarse una medida sustitutoria de la formación e información de los trabajadores en materia de seguridad y salud en el trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Artículo 5. Obligaciones en materia de formación e información.</p>
+          <p class="parrafo_2">1. Sin perjuicio de lo dispuesto en el artículo 18 de la Ley de Prevención de Riesgos Laborales, el empresario adoptará las medidas adecuadas para que los trabajadores y los representantes de los trabajadores sean informados de todas las medidas que se hayan de tomar con respecto a la utilización de la señalización de seguridad y de salud en el trabajo.</p>
+          <p class="parrafo">2. Sin perjuicio de lo dispuesto en el artículo 19 de la Ley de Prevención de Riesgos Laborales, el empresario proporcionará a los trabajadores y a los representantes de los trabajadores una formación adecuada, en particular mediante instrucciones precisas, en materia de señalización de seguridad y salud en el trabajo. Dicha formación deberá incidir, fundamentalmente, en el significado de las señales, especialmente de los mensajes verbales y gestuales, y en los comportamientos generales o específicos que deban adoptarse en función de dichas señales.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Artículo 6. Consulta y participación de los trabajadores.</p>
+          <p class="parrafo_2">La consulta y participación de los trabajadores o sus representantes sobre las cuestiones a las que se refiere este Real Decreto se realizarán de conformidad con lo dispuesto en el apartado 2 del artículo 18 de la Ley de Prevención de Riesgos Laborales.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Disposición transitoria única. Plazo para ajustar la señalización de seguridad y salud.</p>
+          <p class="parrafo_2">La señalización de seguridad y salud utilizada en los lugares de trabajo con anterioridad a la fecha de entrada en vigor del presente Real Decreto deberá ajustarse a lo dispuesto en el mismo en un plazo de doce meses desde la citada entrada en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa singular.</p>
+          <p class="parrafo_2">Queda derogado el Real Decreto 1403/1986, de 9 de mayo, por el que se aprueba la norma sobre señalización de seguridad en los centros y locales de trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Disposición final primera. Elaboración de la Guía Técnica sobre señalización de seguridad y salud en el trabajo.</p>
+          <p class="parrafo_2">El Instituto Nacional de Seguridad e Higiene en el Trabajo, de acuerdo con lo dispuesto en el apartado 3 del artículo 5 del Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los servicios de prevención, elaborará y mantendrá actualizada una Guía Técnica sobre señalización de seguridad y salud en el trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="articulo">Disposición final segunda. Habilitación normativa.</p>
+          <p class="parrafo_2">Se autoriza al Ministro de Trabajo y Asuntos Sociales, previo informe de la Comisión Nacional de Seguridad y Salud en el Trabajo, a dictar cuantas disposiciones sean necesarias para la aplicación y desarrollo de este Real Decreto, así como para las adaptaciones de carácter estrictamente técnico de sus anexos en función del progreso técnico y de la evolución de normativas o especificaciones internacionales o de los conocimientos en materia de señalización de seguridad y salud en el trabajo.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="parrafo_2">Dado en Madrid a 14 de abril de 1997.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Trabajo y Asuntos Sociales,</p>
+          <p class="firma_ministro">JAVIER ARENAS BOCANEGRA</p>
+        </version>
+      </bloque>
+      <bloque id="ani" tipo="encabezado" titulo="ANEXO I">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Disposiciones mínimas de carácter general relativas a la señalización de seguridad y salud en el lugar de trabajo</p>
+          <p class="parrafo_2">1. La elección del tipo de señal y del número y emplazamiento de las señales o dispositivos de señalización a utilizar en cada caso se realizará de forma que la señalización resulte lo más eficaz posible, teniendo en cuenta:</p>
+          <p class="parrafo_2">a) Las características de la señal.</p>
+          <p class="parrafo">b) Los riesgos, elementos o circunstancias que hayan de señalizarse.</p>
+          <p class="parrafo">c) La extensión de la zona a cubrir.</p>
+          <p class="parrafo">d) El número de trabajadores afectados.</p>
+          <p class="parrafo_2">En cualquier caso, la señalización de los riesgos, elementos o circunstancias indicadas en el anexo VII se realizará según lo dispuesto en dicho anexo.</p>
+          <p class="parrafo_2">2. La eficacia de la señalización no deberá resultar disminuida por la concurrencia de señales o por otras circunstancias que dificulten su percepción o comprensión.</p>
+          <p class="parrafo">La señalización de seguridad y salud en el trabajo no deberá utilizarse para transmitir informaciones o mensajes distintos o adicionales a los que constituyen su objetivo propio. Cuando los trabajadores a los que se dirige la señalización tengan la capacidad o la facultad visual o auditiva limitadas, incluidos los casos en que ello sea debido al uso de equipos de protección individual, deberán tomarse las medidas suplementarias o de sustitución necesarias.</p>
+          <p class="parrafo">3. La señalización deberá permanecer en tanto persista la situación que la motiva.</p>
+          <p class="parrafo">4. Los medios y dispositivos de señalización deberán ser, según los casos, limpiados, mantenidos y verificados regularmente, y reparados o sustituidos cuando sea necesario, de forma que conserven en todo momento sus cualidades intrínsecas y de funcionamiento. Las señalizaciones que necesiten de una fuente de energía dispondrán de alimentación de emergencia que garantice su funcionamiento en caso de interrupción de aquélla, salvo que el riesgo desaparezca con el corte del suministro.</p>
+        </version>
+      </bloque>
+      <bloque id="anii" tipo="encabezado" titulo="ANEXO II">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO II</p>
+          <p class="anexo_tit">Colores de seguridad</p>
+          <p class="parrafo_2">1. Los colores de seguridad podrán formar parte de una señalización de seguridad o constituirla por sí mismos. En el siguiente cuadro se muestran los colores de seguridad, su significado y otras indicaciones sobre su uso:</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cabeza_tabla">Color</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Significado</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Indicaciones y precisiones</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3">
+                <p class="cuerpo_tabla_izq">Rojo.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Señal de prohibición.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Comportamientos peligrosos.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Peligro-alarma.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Alto, parada, dispositivos de desconexión de emergencia.Evacuación.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Material y equipos de lucha contra incendios.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Identificación y localización.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Amarillo o amarillo anaranjado.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Señal de advertencia.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Atención, precaución.Verificación.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Azul.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Señal de obligación.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Comportamiento o acción específica.</p>
+                <p class="cuerpo_tabla_izq">Obligación de utilizar un equipo de protección individual.</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p class="cuerpo_tabla_izq">Verde.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Señal de salvamento o de auxilio.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Puertas, salidas, pasajes, material, puestos de salvamento o de socorro, locales.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Situación de seguridad.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_izq">Vuelta a la normalidad.</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">2. Cuando el color de fondo sobre el que tenga que aplicarse el color de seguridad pueda dificultar la percepción de este último, se utilizará un color de contraste que enmarque o se alterne con el de seguridad, de acuerdo con la siguiente tabla:</p>
+          <table class="tabla">
+            <tr>
+              <td>
+                <p class="cabeza_tabla">Color de seguridad</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Color de contraste</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Rojo</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">Blanco.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Amarillo o amarillo anaranjado</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">Negro.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Azul</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">Blanco.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="cuerpo_tabla_izq">Verde</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">Blanco.</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_2">3. Cuando la señalización de un elemento se realice mediante un color de seguridad, las dimensiones de la superficie coloreada deberán guardar proporción con las del elemento y permitir su fácil identificación.</p>
+        </version>
+      </bloque>
+      <bloque id="aniii" tipo="encabezado" titulo="ANEXO III">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO III</p>
+          <p class="anexo_tit">Señales en forma de panel</p>
+          <p class="centro_cursiva">1. Características intrínsecas</p>
+          <p class="parrafo_2">1.º La forma y colores de estas señales se definen en el apartado 3 de este anexo, en función del tipo de señal de que se trate.</p>
+          <p class="parrafo">2.º Los pictogramas serán lo más sencillos posible, evitándose detalles inútiles para su comprensión. Podrán variar ligeramente o ser más detallados que los indicados en el apartado 3, siempre que su significado sea equivalente y no existan diferencias o adaptaciones que impidan percibir claramente su significado.</p>
+          <p class="parrafo">3.º Las señales serán de un material que resista lo mejor posible los golpes, las inclemencias del tiempo y las agresiones medioambientales.</p>
+          <p class="parrafo">4.º Las dimensiones de las señales, así como sus características colorimétricas y fotométricas, garantizarán su buena visibilidad y comprensión.</p>
+          <p class="centro_cursiva">2. Requisitos de utilización</p>
+          <p class="parrafo_2">1.º Las señales se instalarán preferentemente a una altura y en una posición apropiadas en relación al ángulo visual, teniendo en cuenta posibles obstáculos, en la proximidad inmediata del riesgo u objeto que deba señalizarse o, cuando se trate de un riesgo general, en el acceso a la zona de riesgo.</p>
+          <p class="parrafo">2.º El lugar de emplazamiento de la señal deberá estar bien iluminado, ser accesible y fácilmente visible. Si la iluminación general es insuficiente, se empleará una iluminación adicional o se utilizarán colores fosforescentes o materiales fluorescentes.</p>
+          <p class="parrafo">3.º A fin de evitar la disminución de la eficacia de la señalización no se utilizarán demasiadas señales próximas entre sí.</p>
+          <p class="parrafo">4.º Las señales deberán retirarse cuando deje de existir la situación que las justificaba.</p>
+          <p class="centro_cursiva">3. Tipos de señales</p>
+          <p class="parrafo_2">1.º Señales de advertencia.</p>
+          <p class="parrafo_2">Forma triangular. Pictograma negro sobre fondo amarillo (el amarillo deberá cubrir como mínimo el 50 por 100 de la superficie de la señal), bordes negros.</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_001.png"/>
+          </p>
+          <p class="parrafo_2">Como excepción, el fondo de la señal sobre «materias nocivas o irritantes» será de color naranja, en lugar de amarillo, para evitar confusiones con otras señales similares utilizadas para la regulación del tráfico por carretera.</p>
+          <p class="parrafo_2">2.º Señales de prohibición.</p>
+          <p class="parrafo_2">Forma redonda. Pictograma negro sobre fondo blanco, bordes y banda (transversal descendente de izquierda a derecha atravesando el pictograma a 45<sup>o</sup> respecto a la horizontal) rojos (el rojo deberá cubrir como mínimo el 35 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_002.png"/>
+          </p>
+          <p class="parrafo_2">3.º Señales de obligación.</p>
+          <p class="parrafo_2">Forma redonda. Pictograma blanco sobre fondo azul (el azul deberá cubrir como mínimo el 50 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_003.png"/>
+          </p>
+          <p class="parrafo_2">4.º Señales relativas a los equipos de lucha contra incendios.</p>
+          <p class="parrafo_2">Forma rectangular o cuadrada. Pictograma blanco sobre fondo rojo (el rojo deberá cubrir como mínimo el 50 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_004.png"/>
+          </p>
+          <p class="parrafo_2">5.º Señales de salvamento o socorro.</p>
+          <p class="parrafo_2">Forma rectangular o cuadrada. Pictograma blanco sobre fondo verde (el verde deberá cubrir como mínimo el 50 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_005.png"/>
+          </p>
+        </version>
+        <version id_norma="BOE-A-2015-7458" fecha_publicacion="20150704" fecha_vigencia="20150705">
+          <p class="anexo_num">ANEXO III</p>
+          <p class="anexo_tit">Señales en forma de panel</p>
+          <p class="centro_cursiva">1. Características intrínsecas</p>
+          <p class="parrafo_2">1.º La forma y colores de estas señales se definen en el apartado 3 de este anexo, en función del tipo de señal de que se trate.</p>
+          <p class="parrafo">2.º Los pictogramas serán lo más sencillos posible, evitándose detalles inútiles para su comprensión. Podrán variar ligeramente o ser más detallados que los indicados en el apartado 3, siempre que su significado sea equivalente y no existan diferencias o adaptaciones que impidan percibir claramente su significado.</p>
+          <p class="parrafo">3.º Las señales serán de un material que resista lo mejor posible los golpes, las inclemencias del tiempo y las agresiones medioambientales.</p>
+          <p class="parrafo">4.º Las dimensiones de las señales, así como sus características colorimétricas y fotométricas, garantizarán su buena visibilidad y comprensión.</p>
+          <p class="centro_cursiva">2. Requisitos de utilización</p>
+          <p class="parrafo_2">1.º Las señales se instalarán preferentemente a una altura y en una posición apropiadas en relación al ángulo visual, teniendo en cuenta posibles obstáculos, en la proximidad inmediata del riesgo u objeto que deba señalizarse o, cuando se trate de un riesgo general, en el acceso a la zona de riesgo.</p>
+          <p class="parrafo">2.º El lugar de emplazamiento de la señal deberá estar bien iluminado, ser accesible y fácilmente visible. Si la iluminación general es insuficiente, se empleará una iluminación adicional o se utilizarán colores fosforescentes o materiales fluorescentes.</p>
+          <p class="parrafo">3.º A fin de evitar la disminución de la eficacia de la señalización no se utilizarán demasiadas señales próximas entre sí.</p>
+          <p class="parrafo">4.º Las señales deberán retirarse cuando deje de existir la situación que las justificaba.</p>
+          <p class="centro_cursiva">3. Tipos de señales</p>
+          <p class="parrafo_2">1.º Señales de advertencia.</p>
+          <p class="parrafo_2">Forma triangular. Pictograma negro sobre fondo amarillo (el amarillo deberá cubrir como mínimo el 50 por 100 de la superficie de la señal), bordes negros.</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/2015/159/08668_001.png" alt=""/>
+          </p>
+          <p class="parrafo_2">La señal de "Peligro en general" no se utilizará para advertir a las personas de la existencia de sustancias o mezclas peligrosas, excepto en los casos en que se use conforme al tercer párrafo del punto 4.º del apartado 4 del anexo VII, para indicar el almacenamiento de sustancias o mezclas peligrosas.</p>
+          <p class="parrafo_2">2.º Señales de prohibición.</p>
+          <p class="parrafo_2">Forma redonda. Pictograma negro sobre fondo blanco, bordes y banda (transversal descendente de izquierda a derecha atravesando el pictograma a 45<sup>o</sup> respecto a la horizontal) rojos (el rojo deberá cubrir como mínimo el 35 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_002.png" alt=""/>
+          </p>
+          <p class="parrafo_2">3.º Señales de obligación.</p>
+          <p class="parrafo_2">Forma redonda. Pictograma blanco sobre fondo azul (el azul deberá cubrir como mínimo el 50 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_003.png" alt=""/>
+          </p>
+          <p class="parrafo_2">4.º Señales relativas a los equipos de lucha contra incendios.</p>
+          <p class="parrafo_2">Forma rectangular o cuadrada. Pictograma blanco sobre fondo rojo (el rojo deberá cubrir como mínimo el 50 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_004.png" alt=""/>
+          </p>
+          <p class="parrafo_2">5.º Señales de salvamento o socorro.</p>
+          <p class="parrafo_2">Forma rectangular o cuadrada. Pictograma blanco sobre fondo verde (el verde deberá cubrir como mínimo el 50 por 100 de la superficie de la señal).</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_005.png" alt=""/>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 3.1º por el art. 2.2 del Real Decreto 598/2015, de 3 de julio. <a class="refPost">Ref. BOE-A-2015-7458</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="aniv" tipo="encabezado" titulo="ANEXO IV">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO IV</p>
+          <p class="anexo_tit">Señales luminosas y acústicas</p>
+          <p class="centro_cursiva">1. Características y requisitos de las señales luminosas</p>
+          <p class="parrafo_2">1.º La luz emitida por la señal deberá provocar un contraste luminoso apropiado respecto a su entorno, en función de las condiciones de uso previstas. Su intensidad deberá asegurar su percepción, sin llegar a producir deslumbramientos.</p>
+          <p class="parrafo">2.º La superficie luminosa que emita una señal podrá ser de color uniforme, o llevar un pictograma sobre un fondo determinado. En el primer caso, el color deberá ajustarse a lo dispuesto en el apartado 1 del anexo II; en el segundo caso, el pictograma deberá respetar las reglas aplicables a las señales en forma de panel definidas en el anexo III.</p>
+          <p class="parrafo">3.º Si un dispositivo puede emitir una señal tanto continua como intermitente, la señal intermitente se utilizará para indicar, con respecto a la señal continua, un mayor grado de peligro o una mayor urgencia de la acción requerida.</p>
+          <p class="parrafo">4.º No se utilizarán al mismo tiempo dos señales luminosas que puedan dar lugar a confusión, ni una señal luminosa cerca de otra emisión luminosa apenas diferente.</p>
+          <p class="parrafo">Cuando se utilice una señal luminosa intermitente, la duración y frecuencia de los destellos deberán permitir la correcta identificación del mensaje, evitando que pueda ser percibida como continua o confundida con otras señales luminosas.</p>
+          <p class="parrafo">5.º Los dispositivos de emisión de señales luminosas para uso en caso de peligro grave deberán ser objeto de revisiones especiales o ir provistos de una bombilla auxiliar.</p>
+          <p class="centro_cursiva">2. Características y requisitos de uso de las señales acústicas</p>
+          <p class="parrafo_2">1.º La señal acústica deberá tener un nivel sonoro superior al nivel de ruido ambiental, de forma que sea claramente audible, sin llegar a ser excesivamente molesto. No deberá utilizarse una señal acústica cuando el ruido ambiental sea demasiado intenso.</p>
+          <p class="parrafo">2.º El tono de la señal acústica o, cuando se trate de señales intermitentes, la duración, intervalo y agrupación de los impulsos, deberá permitir su correcta identificación y clara distinción frente a otras señales acústicas o ruidos ambientales.</p>
+          <p class="parrafo">No deberán utilizarse dos señales acústicas simultáneamente.</p>
+          <p class="parrafo">3.º Si un dispositivo puede emitir señales acústicas con un tono o intensidad variables o intermitentes, o con un tono o intensidad continuos, se utilizarán las primeras para indicar, por contraste con las segundas, un mayor grado de peligro o una mayor urgencia de la acción requerida.</p>
+          <p class="parrafo">El sonido de una señal de evacuación deberá ser continuo.</p>
+          <p class="centro_cursiva">3. Disposiciones comunes</p>
+          <p class="parrafo_2">1.º Una señal luminosa o acústica indicará, al ponerse en marcha, la necesidad de realizar una determinada acción, y se mantendrá mientras persista tal necesidad.</p>
+          <p class="parrafo">Al finalizar la emisión de una señal luminosa o acústica se adoptarán de inmediato las medidas que permitan volver a utilizarlas en caso de necesidad.</p>
+          <p class="parrafo">2.º La eficacia y buen funcionamiento de las señales luminosas y acústicas se comprobará antes de su entrada en servicio, y posteriormente mediante las pruebas periódicas necesarias.</p>
+          <p class="parrafo">3.º Las señales luminosas y acústicas intermitentes previstas para su utilización alterna o complementaria deberán emplear idéntico código.</p>
+        </version>
+      </bloque>
+      <bloque id="anv" tipo="encabezado" titulo="ANEXO V">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO V</p>
+          <p class="anexo_tit">Comunicaciones verbales</p>
+          <p class="centro_cursiva">1. Características intrínsecas</p>
+          <p class="parrafo_2">1.º La comunicación verbal se establece entre un locutor o emisor y uno o varios oyentes, en un lenguaje formado por textos cortos, frases, grupos de palabras o palabras aisladas, eventualmente codificados.</p>
+          <p class="parrafo">2.º Los mensajes verbales serán tan cortos, simples y claros como sea posible; la aptitud verbal del locutor y las facultades auditivas del o de los oyentes deberán bastar para garantizar una comunicación verbal segura.</p>
+          <p class="parrafo">3.º La comunicación verbal será directa (utilización de la voz humana) o indirecta (voz humana o sintética, difundida por un medio apropiado).</p>
+          <p class="centro_cursiva">2. Reglas particulares de utilización</p>
+          <p class="parrafo_2">1.º Las personas afectadas deberán conocer bien el lenguaje utilizado, a fin de poder pronunciar y comprender correctamente el mensaje verbal y adoptar, en función de éste, el comportamiento apropiado en el ámbito de la seguridad y la salud.</p>
+          <p class="parrafo">2.º Si la comunicación verbal se utiliza en lugar o como complemento de señales gestuales, habrá que utilizar palabras tales como, por ejemplo:</p>
+          <p class="parrafo_2">a) Comienzo: para indicar la toma de mando.</p>
+          <p class="parrafo">b) Alto: para interrumpir o finalizar un movimiento.</p>
+          <p class="parrafo">c) Fin: para finalizar las operaciones.</p>
+          <p class="parrafo">d) Izar: para izar una carga.</p>
+          <p class="parrafo">e) Bajar: para bajar una carga.</p>
+          <p class="parrafo">f) Avanzar, retroceder, a la derecha, a la izquierda: para indicar el sentido de un movimiento (el sentido de estos movimientos debe, en su caso, coordinarse con los correspondientes códigos gestuales)</p>
+          <p class="parrafo">g) Peligro: para efectuar una parada de emergencia.</p>
+          <p class="parrafo">h) Rápido: para acelerar un movimiento por razones de seguridad.</p>
+        </version>
+      </bloque>
+      <bloque id="anvi" tipo="encabezado" titulo="ANEXO VI">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO VI</p>
+          <p class="anexo_tit">Señales gestuales</p>
+          <p class="centro_cursiva">1. Características</p>
+          <p class="parrafo_2">Una señal gestual deberá ser precisa, simple, amplia, fácil de realizar y comprender y claramente distinguible de cualquier otra señal gestual.</p>
+          <p class="parrafo">La utilización de los dos brazos al mismo tiempo se hará de forma simétrica y para una sola señal gestual.</p>
+          <p class="parrafo">Los gestos utilizados, por lo que respecta a las características indicadas anteriormente, podrán variar o ser más detallados que las representaciones recogidas en el apartado 3, a condición de que su significado y comprensión sean, por lo menos, equivalentes.</p>
+          <p class="centro_cursiva">2. Reglas particulares de utilización</p>
+          <p class="parrafo_2">1.º La persona que emite las señales, denominada «encargado de las señales», dará las instrucciones de maniobra mediante señales gestuales al destinatario de las mismas, denominado «operador».</p>
+          <p class="parrafo">2.º El encargado de las señales deberá poder seguir visualmente el desarrollo de las maniobras sin estar amenazado por ellas.</p>
+          <p class="parrafo">3.º El encargado de las señales deberá dedicarse exclusivamente a dirigir las maniobras y a la seguridad de los trabajadores situados en las proximidades.</p>
+          <p class="parrafo">4.º Si no se dan las condiciones previstas en el apartado 2.2.º se recurrirá a uno o varios encargados de las señales suplementarias.</p>
+          <p class="parrafo">5.º El operador deberá suspender la maniobra que esté realizando para solicitar nuevas instrucciones cuando no pueda ejecutar las órdenes recibidas con las garantías de seguridad necesarias.</p>
+          <p class="parrafo">6.º Accesorios de señalización gestual.</p>
+          <p class="parrafo_2">El encargado de las señales deberá ser fácilmente reconocido por el operador.</p>
+          <p class="parrafo">El encargado de las señales llevará uno o varios elementos de identificación apropiados tales como chaqueta, manguitos, brazal o casco y, cuando sea necesario, raquetas.</p>
+          <p class="parrafo">Los elementos de identificación indicados serán de colores vivos, a ser posible iguales para todos los elementos, y serán utilizados exclusivamente por el encargado de las señales.</p>
+          <p class="centro_cursiva">3. Gestos codificados</p>
+          <p class="parrafo_2">Consideración previa.</p>
+          <p class="parrafo_2">El conjunto de gestos codificados que se incluye no impide que puedan emplearse otros códigos, en particular en determinados sectores de actividad, aplicables a nivel comunitario e indicadores de idénticas maniobras.</p>
+          <p class="centro_cursiva">A) Gestos generales</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_006.png"/>
+          </p>
+          <p class="centro_cursiva">B) Movimientos verticales</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_007.png"/>
+          </p>
+          <p class="centro_cursiva">B) Movimientos horizontales</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_008.png"/>
+          </p>
+          <p class="centro_cursiva">D) Peligro</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_009.png"/>
+          </p>
+        </version>
+      </bloque>
+      <bloque id="anvii" tipo="encabezado" titulo="ANEXO VII">
+        <version id_norma="BOE-A-1997-8668" fecha_publicacion="19970423" fecha_vigencia="19970513">
+          <p class="anexo_num">ANEXO VII</p>
+          <p class="anexo_tit">Disposiciones mínimas relativas a diversas señalizaciones</p>
+          <p class="centro_cursiva">1. Riesgos, prohibiciones y obligaciones</p>
+          <p class="parrafo_2">La señalización dirigida a advertir a los trabajadores de la presencia de un riesgo, o a recordarles la existencia de una prohibición u obligación, se realizará mediante señales en forma de panel que se ajusten a lo dispuesto, para cada caso, en el anexo III.</p>
+          <p class="centro_cursiva">2. Riesgo de caídas, choques y golpes</p>
+          <p class="parrafo_2">1.º Para la señalización de desniveles, obstáculos u otros elementos que originen riesgos de caída de personas, choques o golpes podrá optarse, a igualdad de eficacia, por el panel que corresponda según lo dispuesto en el apartado anterior o por un color de seguridad, o bien podrán utilizarse ambos complementariamente.</p>
+          <p class="parrafo">2.º La delimitación de aquellas zonas de los locales de trabajo a las que el trabajador tenga acceso con ocasión de éste, en las que se presenten riesgos de caída de personas, caída de objetos, choques o golpes, se realizará mediante un color de seguridad.</p>
+          <p class="parrafo">3.º La señalización por color referida en los dos apartados anteriores se efectuará mediante franjas alternas amarillas y negras. Las franjas deberán tener una inclinación aproximada de 45<sup>o</sup> y ser de dimensiones similares de acuerdo con el siguiente modelo:</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_010.png"/>
+          </p>
+          <p class="centro_cursiva">3. Vías de circulación</p>
+          <p class="parrafo_2">1.º Cuando sea necesario para la protección de los trabajadores, las vías de circulación de vehículos deberán estar delimitadas con claridad mediante franjas continuas de un color bien visible, preferentemente blanco o amarillo, teniendo en cuenta el color del suelo. La delimitación deberá respetar las necesarias distancias de seguridad entre vehículos y objetos próximos, y entre peatones y vehículos.</p>
+          <p class="parrafo">2.º Las vías exteriores permanentes que se encuentren en los alrededores inmediatos de zonas edificadas deberán estar delimitadas cuando resulte necesario, salvo que dispongan de barreras o que el propio tipo de pavimento sirva como delimitación.</p>
+          <p class="centro_cursiva">4. Tuberías, recipientes y áreas de almacenamiento de sustancias y preparados peligrosos</p>
+          <p class="parrafo_2">1.º Los recipientes y tuberías visibles que contengan o puedan contener productos a los que sea de aplicación la normativa sobre comercialización de sustancias o preparados peligrosos deberán ser etiquetados según lo dispuesto en la misma. Se podrán exceptuar los recipientes utilizados durante corto tiempo y aquellos cuyo contenido cambie a menudo, siempre que se tomen medidas alternativas adecuadas, fundamentalmente de formación e información, que garanticen un nivel de protección equivalente.</p>
+          <p class="parrafo">2.º Las etiquetas se pegarán, fijarán o pintarán en sitios visibles de los recipientes o tuberías. En el caso de éstas, las etiquetas se colocarán a lo largo de la tubería en número suficiente, y siempre que existan puntos de especial riesgo, como válvulas o conexiones, en su proximidad. Las características intrínsecas y condiciones de utilización de las etiquetas deberán ajustarse, cuando proceda, a lo dispuesto para los paneles en los apartados 1.3.º y 2 del anexo III.</p>
+          <p class="parrafo">La información de la etiqueta podrá complementarse con otros datos, tales como el nombre o fórmula de la sustancia o preparado peligroso o detalles adicionales sobre el riesgo.</p>
+          <p class="parrafo">3.º El etiquetado podrá ser sustituido por las señales de advertencia contempladas en el anexo III, con el mismo pictograma o símbolo; en el caso del transporte de recipientes dentro del lugar de trabajo, podrá sustituirse o complementarse por señales en forma de panel de uso reconocido, en el ámbito comunitario, para el transporte de sustancias o preparados peligrosos.</p>
+          <p class="parrafo">4.º Las zonas, locales o recintos utilizados para almacenar cantidades importantes de sustancias o preparados peligrosos deberán identificarse mediante la señal de advertencia apropiada, de entre las indicadas en el anexo III, o mediante la etiqueta que corresponda, de acuerdo con la normativa mencionada en el aparta do 4.1.º, colocadas, según el caso, cerca del lugar de almacenamiento o en la puerta de acceso al mismo. Ello no será necesario cuando las etiquetas de los distintos embalajes y recipientes, habida cuenta de su tamaño, hagan posible por sí mismas dicha identificación.</p>
+          <p class="parrafo">El almacenamiento de diversas sustancias o preparados peligrosos puede indicarse mediante la señal de advertencia «peligro en general».</p>
+          <p class="centro_cursiva">5. Equipos de protección contra incendios</p>
+          <p class="parrafo_2">1.º Los equipos de protección contra incendios deberán ser de color rojo o predominantemente rojo, de forma que se puedan identificar fácilmente por su color propio.</p>
+          <p class="parrafo">2.º El emplazamiento de los equipos de protección contra incendios se señalizará mediante el color rojo o por una señal en forma de panel de las indicadas en el apartado 3.4.º del anexo III. Cuando sea necesario, las vías de acceso a los equipos se mostrarán mediante las señales indicativas adicionales especificadas en dicho anexo.</p>
+          <p class="centro_cursiva">6. Medios y equipos de salvamento y socorro</p>
+          <p class="parrafo_2">La señalización para la localización e identificación de las vías de evacuación y de los equipos de salvamento o socorro se realizará mediante señales en forma de panel de las indicadas en el apartado 3.5.º del anexo III.</p>
+          <p class="centro_cursiva">7. Situaciones de emergencia</p>
+          <p class="parrafo_2">La señalización dirigida a alertar a los trabajadores o a terceros de la aparición de una situación de peligro y de la consiguiente y urgente necesidad de actuar de una forma determinada o de evacuar la zona de peligro, se realizará mediante una señal luminosa, una señal acústica o una comunicación verbal. A igualdad de eficacia podrá optarse por una cualquiera de las tres; también podrá emplearse una combinación de una señal luminosa con una señal acústica o con una comunicación verbal.</p>
+          <p class="centro_cursiva">8. Maniobras peligrosas</p>
+          <p class="parrafo_2">La señalización que tenga por objeto orientar o guiar a los trabajadores durante la realización de maniobras peligrosas que supongan un riesgo para ellos mismos o para terceros se realizará mediante señales gestuales o comunicaciones verbales. A igualdad de eficacia podrá optarse por cualquiera de ellas, o podrán emplearse de forma combinada.</p>
+        </version>
+        <version id_norma="BOE-A-2015-7458" fecha_publicacion="20150704" fecha_vigencia="20150705">
+          <p class="anexo_num">ANEXO VII</p>
+          <p class="anexo_tit">Disposiciones mínimas relativas a diversas señalizaciones</p>
+          <p class="centro_cursiva">1. Riesgos, prohibiciones y obligaciones</p>
+          <p class="parrafo_2">La señalización dirigida a advertir a los trabajadores de la presencia de un riesgo, o a recordarles la existencia de una prohibición u obligación, se realizará mediante señales en forma de panel que se ajusten a lo dispuesto, para cada caso, en el anexo III.</p>
+          <p class="centro_cursiva">2. Riesgo de caídas, choques y golpes</p>
+          <p class="parrafo_2">1.º Para la señalización de desniveles, obstáculos u otros elementos que originen riesgos de caída de personas, choques o golpes podrá optarse, a igualdad de eficacia, por el panel que corresponda según lo dispuesto en el apartado anterior o por un color de seguridad, o bien podrán utilizarse ambos complementariamente.</p>
+          <p class="parrafo">2.º La delimitación de aquellas zonas de los locales de trabajo a las que el trabajador tenga acceso con ocasión de éste, en las que se presenten riesgos de caída de personas, caída de objetos, choques o golpes, se realizará mediante un color de seguridad.</p>
+          <p class="parrafo">3.º La señalización por color referida en los dos apartados anteriores se efectuará mediante franjas alternas amarillas y negras. Las franjas deberán tener una inclinación aproximada de 45<sup>o</sup> y ser de dimensiones similares de acuerdo con el siguiente modelo:</p>
+          <p class="imagen">
+            <img src="/datos/imagenes/disp/1997/97/08668_010.png" alt=""/>
+          </p>
+          <p class="centro_cursiva">3. Vías de circulación</p>
+          <p class="parrafo_2">1.º Cuando sea necesario para la protección de los trabajadores, las vías de circulación de vehículos deberán estar delimitadas con claridad mediante franjas continuas de un color bien visible, preferentemente blanco o amarillo, teniendo en cuenta el color del suelo. La delimitación deberá respetar las necesarias distancias de seguridad entre vehículos y objetos próximos, y entre peatones y vehículos.</p>
+          <p class="parrafo">2.º Las vías exteriores permanentes que se encuentren en los alrededores inmediatos de zonas edificadas deberán estar delimitadas cuando resulte necesario, salvo que dispongan de barreras o que el propio tipo de pavimento sirva como delimitación.</p>
+          <p class="centro_cursiva">4. Tuberías, recipientes y áreas de almacenamiento de sustancias y mezclas peligrosas.</p>
+          <p class="parrafo_2">1.º Los recipientes y tuberías visibles que contengan o puedan contener productos a los que sea de aplicación la normativa sobre comercialización de sustancias o mezclas peligrosas deberán ser etiquetados según lo dispuesto en la misma. Se podrán exceptuar los recipientes utilizados durante corto tiempo y aquellos cuyo contenido cambie a menudo, siempre que se tomen medidas alternativas adecuadas, en particular de información y/o formación, que garanticen un nivel de protección equivalente.</p>
+          <p class="parrafo">2.º Las etiquetas se pegarán, fijarán o pintarán en sitios visibles de los recipientes o tuberías. En el caso de éstas, las etiquetas se colocarán a lo largo de la tubería en número suficiente, y siempre que existan puntos de especial riesgo, como válvulas o conexiones, en su proximidad. Las características intrínsecas y condiciones de utilización de las etiquetas deberán ajustarse, cuando proceda, a lo dispuesto para los paneles en los apartados 1.3.º y 2 del anexo III.</p>
+          <p class="parrafo">La información de la etiqueta podrá complementarse con otros datos, tales como el nombre o fórmula de la sustancia o mezcla peligrosa o detalles adicionales sobre el riesgo.</p>
+          <p class="parrafo">3.º El etiquetado podrá ser sustituido por las señales de advertencia contempladas en el anexo III, con el mismo pictograma o símbolo. Si no existe señal de advertencia equivalente en el anexo III, se deberá utilizar el pictograma de peligro correspondiente, conforme al anexo V del Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008.</p>
+          <p class="parrafo">En el caso del transporte de recipientes dentro del lugar de trabajo, podrá sustituirse o complementarse por señales que sean de aplicación en toda la Unión Europea, para el transporte de sustancias o mezclas peligrosas.</p>
+          <p class="parrafo">4.º Las zonas, locales o recintos utilizados para almacenar cantidades importantes de sustancias o mezclas peligrosas deberán identificarse mediante la señal de advertencia apropiada, de entre las indicadas en el anexo III, o mediante la etiqueta que corresponda, de acuerdo con la normativa mencionada en el apartado 4.1.º, colocadas, según el caso, cerca del lugar de almacenamiento o en la puerta de acceso al mismo. Ello no será necesario cuando las etiquetas de los distintos embalajes y recipientes, habida cuenta de su tamaño, hagan posible dicha identificación.</p>
+          <p class="parrafo">Si no existe señal de advertencia equivalente en el anexo III para advertir a las personas de la existencia de sustancias o mezclas peligrosas, se deberá utilizar el pictograma de peligro correspondiente, conforme al anexo V del Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo.</p>
+          <p class="parrafo">El almacenamiento de diversas sustancias o mezclas peligrosas puede indicarse mediante la señal de advertencia "peligro en general".</p>
+          <p class="centro_cursiva">5. Equipos de protección contra incendios</p>
+          <p class="parrafo_2">1.º Los equipos de protección contra incendios deberán ser de color rojo o predominantemente rojo, de forma que se puedan identificar fácilmente por su color propio.</p>
+          <p class="parrafo">2.º El emplazamiento de los equipos de protección contra incendios se señalizará mediante el color rojo o por una señal en forma de panel de las indicadas en el apartado 3.4.º del anexo III. Cuando sea necesario, las vías de acceso a los equipos se mostrarán mediante las señales indicativas adicionales especificadas en dicho anexo.</p>
+          <p class="centro_cursiva">6. Medios y equipos de salvamento y socorro</p>
+          <p class="parrafo_2">La señalización para la localización e identificación de las vías de evacuación y de los equipos de salvamento o socorro se realizará mediante señales en forma de panel de las indicadas en el apartado 3.5.º del anexo III.</p>
+          <p class="centro_cursiva">7. Situaciones de emergencia</p>
+          <p class="parrafo_2">La señalización dirigida a alertar a los trabajadores o a terceros de la aparición de una situación de peligro y de la consiguiente y urgente necesidad de actuar de una forma determinada o de evacuar la zona de peligro, se realizará mediante una señal luminosa, una señal acústica o una comunicación verbal. A igualdad de eficacia podrá optarse por una cualquiera de las tres; también podrá emplearse una combinación de una señal luminosa con una señal acústica o con una comunicación verbal.</p>
+          <p class="centro_cursiva">8. Maniobras peligrosas</p>
+          <p class="parrafo_2">La señalización que tenga por objeto orientar o guiar a los trabajadores durante la realización de maniobras peligrosas que supongan un riesgo para ellos mismos o para terceros se realizará mediante señales gestuales o comunicaciones verbales. A igualdad de eficacia podrá optarse por cualquiera de ellas, o podrán emplearse de forma combinada.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 4 por el art. 2.3 del Real Decreto 598/2015, de 3 de julio. <a class="refPost">Ref. BOE-A-2015-7458</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

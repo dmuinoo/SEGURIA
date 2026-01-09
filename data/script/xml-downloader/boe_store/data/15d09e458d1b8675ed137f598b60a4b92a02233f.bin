@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210430Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-2529</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5251">Ministerio de Industria, Turismo y Comercio</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20050204</fecha_disposicion>
+      <numero_oficial>118/2005</numero_oficial>
+      <titulo>Real Decreto 118/2005, de 4 de febrero, por el que se aprueban los Estatutos generales de los Colegios de Agentes Comerciales de España y de su Consejo General.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050216</fecha_publicacion>
+      <diario_numero>40</diario_numero>
+      <fecha_vigencia>20050217</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2005/02/04/118</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-2529</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="147">Agentes comerciales</materia>
+        <materia codigo="931">Colegios de Agentes Comerciales</materia>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="1482">Consejo General de los Colegios de Agentes Comerciales de España</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1978-4272</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Estatuto aprobado por Real Decreto 3595/1977, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1974-289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 2/1974, de 13 de febrero</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2022-9378</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3.2 de los Estatutos, por Real Decreto 394/2022, de 24 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-2529</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-04</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/147"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/931"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1482"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-2529</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/147"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/931"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1482"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20220608"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20050216"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 118/2005, de 4 de febrero, por el que se aprueban los Estatutos generales de los Colegios de Agentes Comerciales de España y de su Consejo General.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20220608">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-2529</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/147"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/931"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1482"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20220608/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 118/2005, de 4 de febrero, por el que se aprueban los Estatutos generales de los Colegios de Agentes Comerciales de España y de su Consejo General.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20220608"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20220608/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20220608/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20050216">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2005-2529</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">118</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/147"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/931"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1482"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-02-16</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20050216/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 118/2005, de 4 de febrero, por el que se aprueban los Estatutos generales de los Colegios de Agentes Comerciales de España y de su Consejo General.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20050216"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20050216/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2005/02/04/118/con/20050216/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="parrafo">Los Colegios de Agentes Comerciales fueron creados por el Real Decreto de 8 de enero de 1926, aprobándose el 24 de mayo de ese mismo año el Reglamento Provisional de los Colegios Oficiales de Agentes Comerciales de España y de su Junta General. Tras experimentar diversas modificaciones, los Colegios de Agentes Comerciales se rigen actualmente por el Real Decreto 3595/1977, de 30 de diciembre, por el que se aprueban sus Estatutos.</p>
+          <p class="parrafo">Desde la publicación de este Real Decreto 3595/1977, de 30 de diciembre, se han producido cambios sustanciales en nuestro ordenamiento jurídico que hacen necesaria la adaptación de los estatutos a la normativa actual.</p>
+          <p class="parrafo">Cabe señalar, entre otros, la incorporación al Derecho interno español de la Directiva 86/653/CEE del Consejo, de 18 de diciembre de 1986, relativa a la coordinación de los derechos de los Estados miembros en lo referente a los agentes comerciales independientes, la Ley 12/1992, de 27 de mayo, sobre Contrato de Agencia; la Ley 7/1997, de 14 de abril, de medidas liberalizadoras en materia de suelo y de colegios profesionales, o el Real Decreto Ley 6/2000, de 23 de junio, de medidas urgentes de intensificación de la competencia en mercados de bienes y servicios, que modifica la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales.</p>
+          <p class="parrafo">Con estos estatutos se trata de cumplir con el doble objetivo de adecuar la estructura interna y el funcionamiento de los órganos colegiados de los agentes comerciales, tanto a la normativa vigente como a la realidad actual del Estado español y su organización territorial.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Industria, Turismo y Comercio, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 4 de febrero de 2005,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos.</p>
+          <p class="parrafo">Se aprueban los Estatutos generales de los Colegios de Agentes Comerciales de España y de su Consejo General, que se insertan a continuación.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogado el Real Decreto 3595/1977, de 30 de diciembre, por el que se aprueba el Estatuto General de Colegios de Agentes Comerciales de España.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="parrafo_2">Dado en Madrid, el 4 de febrero de 2005.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Industria, Turismo y Comercio,</p>
+          <p class="firma_ministro">JOSÉ MONTILLA AGUILERA</p>
+        </version>
+      </bloque>
+      <bloque id="es" tipo="encabezado" titulo="ESTATUTOS">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="anexo">ESTATUTOS GENERALES DE LOS COLEGIOS DE AGENTES COMERCIALES DE ESPAÑA Y DE SU CONSEJO GENERAL</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Del Agente Comercial, de los Colegios Profesionales y del Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Del Agente Comercial y de sus Colegios Profesionales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 1. Ámbito subjetivo.</p>
+          <p class="parrafo">1. La profesión de Agente Comercial se ejercerá por todo aquel que cumpla con los requisitos establecidos en la legislación vigente para obtener dicha calificación y una vez incorporado en calidad de ejerciente al Colegio de Agentes Comerciales donde se encuentre el domicilio profesional único o principal. La incorporación a un Colegio facultará a los Agentes Comerciales para el ejercicio de esta profesión en todo el territorio del Estado.</p>
+          <p class="parrafo">2. El ejercicio de la profesión de Agente Comercial se realizará en régimen de libre competencia y estará sujeto a la Ley 16/1989, de 17 de julio, de Defensa de la Competencia, y a la Ley 3/1991, de 10 de enero, de Competencia Desleal, y se regirá por las leyes y las disposiciones legales en materia de incompatibilidades.</p>
+          <p class="parrafo">3. También podrán pertenecer a los Colegios de Agentes Comerciales, con la denominación de colegiados «no ejercientes» quienes cumplan los requisitos necesarios para incorporarse a un Colegio, no ejerzan la actividad de agencia comercial o hayan cesado en el ejercicio de sus actividades.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 2. Definición.</p>
+          <p class="parrafo_2">Se considerará Agente Comercial aquella persona que, actuando como intermediario independiente, se encargue de manera continuada o estable y a cambio de una remuneración, de promover actos u operaciones de comercio por cuenta ajena, o a promoverlos y concluirlos por cuenta y en nombre ajenos, sin asumir, salvo pacto en contrario, el riesgo y ventura de tales operaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De la Colegiación</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 3. Requisitos para la colegiación.</p>
+          <p class="parrafo">1. Para incorporarse a un Colegio de Agentes Comerciales se deberá acreditar estar en posesión del Título de Agente Comercial, solicitarlo y satisfacer la cuota de ingreso.</p>
+          <p class="parrafo">2. Para la obtención del título de Agente Comercial será necesario:</p>
+          <p class="parrafo_2">a) Tener capacidad legal para ejercer el comercio.</p>
+          <p class="parrafo">b) No estar inhabilitado para ejercer la profesión.</p>
+          <p class="parrafo">c) Haber superado la prueba de aptitud convocada por el Consejo General previa aprobación del temario por el Ministerio de Industria, Turismo y Comercio. La prueba se convocará, al menos, una vez al año.</p>
+          <p class="parrafo_2">Cumplidos los requisitos anteriores, el Ministerio de Industria, Turismo y Comercio, a través de la Dirección General de Política Comercial, y a propuesta del Consejo General de Colegios de Agentes Comerciales de España, expedirá el título de Agente Comercial que se exige para la colegiación.</p>
+          <p class="parrafo_2">3. Para la incorporación tanto de nacionales de Estados miembros del Espacio Económico Europeo como de ciudadanos de terceros países será necesario cumplir con los mismos requisitos que los nacionales españoles.</p>
+          <p class="parrafo">En el primer caso, les será de aplicación el Real Decreto 253/2003, de 28 de febrero, por el que se incorpora al ordenamiento jurídico español la Directiva 1999/42/CE del Parlamento Europeo y del Consejo, de 7 de junio de 1999, por la que se establece un mecanismo de reconocimiento de títulos respecto a las actividades profesionales a que se refieren las directivas de liberalización y de medidas transitorias.</p>
+          <p class="parrafo">En el segundo, los ciudadanos de terceros países podrán acreditar los títulos extranjeros que sean homologados al título de Agente Comercial conforme a lo establecido en los Tratados Internacionales en los que sea parte el Reino de España o en aquellos en que lo sea la Unión Europea.</p>
+        </version>
+        <version id_norma="BOE-A-2022-9378" fecha_publicacion="20220608" fecha_vigencia="20220609">
+          <p class="articulo">Artículo 3. Requisitos para la colegiación.</p>
+          <p class="parrafo">1. Para incorporarse a un Colegio de Agentes Comerciales se deberá acreditar estar en posesión del Título de Agente Comercial, solicitarlo y satisfacer la cuota de ingreso.</p>
+          <p class="parrafo">2. Para la obtención del título de Agente Comercial será necesario:</p>
+          <p class="parrafo_2">a) Tener capacidad legal para ejercer el comercio.</p>
+          <p class="parrafo">b) No estar inhabilitado para ejercer la profesión.</p>
+          <p class="parrafo">c) Haber superado la prueba de aptitud convocada por el Consejo General previa aprobación del temario por el Ministerio de Industria, Turismo y Comercio. La prueba se convocará, al menos, una vez al año.</p>
+          <p class="parrafo_2">Cumplidos los requisitos anteriores, el Ministerio de Industria, Comercio y Turismo, a través de la Secretaría de Estado de Comercio, y a propuesta del Consejo General de Colegios de Agentes Comerciales de España, expedirá el título de Agente Comercial que se exige para la colegiación.</p>
+          <p class="parrafo_2">3. Para la incorporación tanto de nacionales de Estados miembros del Espacio Económico Europeo como de ciudadanos de terceros países será necesario cumplir con los mismos requisitos que los nacionales españoles.</p>
+          <p class="parrafo">En el primer caso, les será de aplicación el Real Decreto 253/2003, de 28 de febrero, por el que se incorpora al ordenamiento jurídico español la Directiva 1999/42/CE del Parlamento Europeo y del Consejo, de 7 de junio de 1999, por la que se establece un mecanismo de reconocimiento de títulos respecto a las actividades profesionales a que se refieren las directivas de liberalización y de medidas transitorias.</p>
+          <p class="parrafo">En el segundo, los ciudadanos de terceros países podrán acreditar los títulos extranjeros que sean homologados al título de Agente Comercial conforme a lo establecido en los Tratados Internacionales en los que sea parte el Reino de España o en aquellos en que lo sea la Unión Europea.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el último párrafo del apartado 2 por el art. único del Real Decreto 394/2022, de 24 de mayo. <a class="refPost">Ref. BOE-A-2022-9378</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 4. Procedimiento de colegiación.</p>
+          <p class="parrafo">El procedimiento para la solicitud, admisión y, en su caso, denegación de la colegiación será el siguiente:</p>
+          <p class="parrafo_2">1. La solicitud, en el modelo colegialmente aprobado, junto con la documentación que en cada caso proceda, se presentará en el Colegio que corresponda.</p>
+          <p class="parrafo">2. El Colegio dictará resolución expresa y la notificará dentro del mes siguiente a la fecha de presentación de la solicitud de colegiación.</p>
+          <p class="parrafo">3. Si transcurrido el plazo para resolver y notificar no se hubiera dictado resolución expresa, se entenderá estimada la solicitud.</p>
+          <p class="parrafo">4. Si la decisión del Colegio fuera contraria a la colegiación, la resolución contendrá los motivos en que se fundamente la denegación. Contra este acuerdo podrá interponerse recurso de alzada en el plazo de un mes a contar desde el día siguiente a aquel en que tenga lugar la notificación del acto.</p>
+          <p class="parrafo">5. La resolución del recurso deberá producirse en el plazo de tres meses a contar desde la fecha de su presentación en el Registro correspondiente. Transcurrido dicho plazo, si el Órgano competente no hubiese notificado al interesado resolución expresa, se entenderá desestimado el recurso.</p>
+          <p class="parrafo">6. La resolución de este recurso pondrá fin a la vía corporativa interna. Contra esta resolución cabrá interponer el correspondiente recurso contencioso-administrativo.</p>
+          <p class="parrafo">7. Los Colegios darán traslado al Consejo General de todas las solicitudes de colegiación admitidas, para la formación del censo general.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De la pérdida, modificación y recuperación de la condición de colegiado</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 5. Pérdida de la condición de colegiado.</p>
+          <p class="parrafo">Se pierde la condición de colegiado por:</p>
+          <p class="parrafo_2">1. Fallecimiento.</p>
+          <p class="parrafo">2. Baja voluntaria.</p>
+          <p class="parrafo">3. Sanción administrativa o sentencia judicial firme y definitiva que implique inhabilitación para el ejercicio de la profesión.</p>
+          <p class="parrafo">4. Sanción disciplinaria, impuesta por el Colegio en forma reglamentaria, que lleve aparejada la suspensión del carácter de colegiado.</p>
+          <p class="parrafo">5. Impago de las cuotas colegiales, previo cumplimiento por el Colegio de lo dispuesto en el artículo 7.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 6. Suspensión colegial por sanción.</p>
+          <p class="parrafo">En caso de suspensión como consecuencia de un expediente sancionador, procederán los recursos que se establecen en estos Estatutos y que serán detallados en la comunicación que se remita al interesado.</p>
+          <p class="parrafo">La decisión de suspensión así acordada no será ejecutiva hasta que haya transcurrido el plazo para recurrir sin ejercitarse este derecho o haya sido confirmada la sanción.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 7. Baja colegial por morosidad.</p>
+          <p class="parrafo">La falta de pago de una cuota anual será causa de baja en el Colegio. El Colegio correspondiente requerirá en forma al colegiado para que abone las cuotas pendientes. Pasados treinta días desde la fecha del requerimiento sin haber abonado las cuotas y sin perjuicio de las acciones judiciales pertinentes para exigir su pago, se le dará de baja sin más trámites, se le notificará y se le hará saber que contra este acuerdo podrá interponer recurso de alzada ante el Consejo General en el plazo de treinta días hábiles, a contar desde el siguiente a aquel en que haya recibido la notificación o en el plazo que, en su caso, proceda si fuera competente el Consejo Autonómico.</p>
+          <p class="parrafo">El colegiado que haya causado baja por falta de pago de las cuotas colegiales y solicite su reingreso, abonará las cuotas devengadas hasta el momento de la notificación colegial de baja, con recargo del 10 por ciento simple anual y, en su caso, los gastos ocasionados debidamente acreditados.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 8. Censo de bajas y modificaciones.</p>
+          <p class="parrafo">De todas las bajas y modificaciones, los Colegios harán la difusión oportuna y darán traslado al Consejo General, para su constancia y publicación, en su caso, en los medios de comunicación colegial.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 9. Recuperación de la condición de colegiado.</p>
+          <p class="parrafo">Podrá recuperarse la condición de colegiado, siempre que en el momento de la reincorporación se cumplan las condiciones precisas para ello, en los siguientes casos:</p>
+          <p class="parrafo_2">1. Por solicitud de reincorporación cuando la baja se hubiera producido por decisión del colegiado.</p>
+          <p class="parrafo">2. Por indulto o condonación de las sanciones impuestas por autoridades administrativas o judiciales.</p>
+          <p class="parrafo">3. Por el cumplimiento de la sanción de suspensión colegial.</p>
+          <p class="parrafo">4. Por la satisfacción de las cuotas pendientes, de conformidad con el artículo 7 de estos Estatutos, cuando ello hubiera sido la causa de la baja.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">De los derechos y deberes de los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 10. Derechos de los colegiados.</p>
+          <p class="parrafo">Los colegiados tendrán los siguientes derechos:</p>
+          <p class="parrafo_2">1. Participar en la vida de su Colegio y asistir con voz y voto a las reuniones de los Órganos respectivos, en las condiciones previstas en los Estatutos generales o particulares y en los Reglamentos correspondientes.</p>
+          <p class="parrafo">2. Ser elector y elegible respecto de los Órganos de Gobierno del Colegio, de acuerdo con las normas electorales.</p>
+          <p class="parrafo">3. Informar y ser informado oportunamente de las actuaciones y de la vida de su Colegio en sus aspectos esenciales y de las cuestiones que concreta y personalmente les afecten en este ámbito.</p>
+          <p class="parrafo">4. Utilizar los servicios establecidos por los respectivos Colegios y acogerse a los sistemas de asistencia y previsión organizados por ellos, por los Consejos Autonómicos en su caso y por el Consejo General, de acuerdo con sus normas.</p>
+          <p class="parrafo">5. Disfrutar del asesoramiento del Colegio en cuestiones profesionales de acuerdo con las normas establecidas en sus Estatutos o Reglamentos.</p>
+          <p class="parrafo">6. Solicitar la mediación de los Órganos de Gobierno del Colegio en los casos de discrepancia entre colegiados, mediación que se llevará a efecto si la acepta la otra parte.</p>
+          <p class="parrafo">7. Ejercer ante los Órganos jurisdiccionales o de gobierno las reclamaciones o recursos que procedan, de acuerdo con lo establecido en los Estatutos y Reglamentos colegiales.</p>
+          <p class="parrafo">8. Hacer uso del emblema colegial.</p>
+          <p class="parrafo">9. Todos los demás derechos previstos en las normas legales y en los Estatutos y Reglamentos colegiales.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 11. Obligaciones de los colegiados.</p>
+          <p class="parrafo">Son obligaciones de los colegiados:</p>
+          <p class="parrafo_2">1. La aceptación y cumplimiento de lo establecido en los respectivos Estatutos y Reglamentos colegiales, así como en las normas y acuerdos legal y estatutariamente adoptados por los Órganos de Gobierno colegiales.</p>
+          <p class="parrafo">2. Contribuir al sostenimiento económico del Colegio satisfaciendo las cuotas que se establezcan.</p>
+          <p class="parrafo">3. Cumplir respecto de los Órganos de Gobierno del Colegio, de sus miembros y de todos los colegiados, los deberes que impone el compañerismo, la armonía y la ética profesional.</p>
+          <p class="parrafo">4. Asistir a los actos corporativos cuando desempeñen cargos representativos.</p>
+          <p class="parrafo">5. Respetar la libre manifestación de pareceres y no entorpecer directa o indirectamente el funcionamiento de los Órganos de Gobierno del Colegio.</p>
+          <p class="parrafo">6. Comunicar al Colegio sus cambios de domicilio a efectos colegiales.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">De los Colegios de Agentes Comerciales</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 12. Normas generales.</p>
+          <p class="parrafo">Los Colegios de Agentes Comerciales, creados por Real Decreto de 8 de enero de 1926, con sus reformas posteriores, se regirán en lo sucesivo por los presentes Estatutos Generales y por las disposiciones contenidas en la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales, y posteriores modificaciones, así como el resto de las normas de ordenamiento jurídico que les sean de aplicación, y conservarán su actual patrimonio.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 13. Ámbito territorial.</p>
+          <p class="parrafo">Podrá existir un Colegio de Agentes Comerciales en cada capital de provincia, con delegación en las localidades de su demarcación que se consideren oportunas, en atención al número de profesionales con domicilio en éstas. Continuarán subsistiendo los Colegios de Agentes Comerciales ya constituidos en localidades que no sean capitales de provincia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 14. Naturaleza jurídica.</p>
+          <p class="parrafo">Los Colegios de Agentes Comerciales tendrán la condición de Corporaciones de Derecho público, y les corresponderá la ordenación del ejercicio de la profesión, la representación exclusiva de la misma y la defensa de los intereses profesionales de los colegiados. Gozarán de autonomía económica en el desarrollo de su gestión.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 15. Funciones.</p>
+          <p class="parrafo">Corresponde a los Colegios de Agentes Comerciales, en su respectivo ámbito territorial y de acuerdo con la Ley, el ejercicio de las siguientes funciones:</p>
+          <p class="parrafo_2">1. Ejercer cuantas funciones le sean encomendadas por la Administración y colaborar con ésta mediante la realización de estudios, emisión de informes, elaboración de estadísticas y otras actividades relacionadas con sus fines que puedan serles solicitadas y acuerden formar por propia iniciativa.</p>
+          <p class="parrafo">2. Ejercer la representación que establecen las Leyes para el cumplimiento de sus fines.</p>
+          <p class="parrafo">3. Participar en los Consejos u Organismos consultivos de la Administración en la materia de competencia de la profesión.</p>
+          <p class="parrafo">4. Realizar los exámenes de aptitud conforme a lo establecido en el artículo 3, apartado 2, párrafo c), del presente Estatuto.</p>
+          <p class="parrafo">5. Elaborar los Estatutos particulares y sus modificaciones, así como los Reglamentos de régimen interior.</p>
+          <p class="parrafo">6. Ejercer en su ámbito, la representación y defensa de la profesión ante la Administración, Instituciones, Tribunales, Entidades y particulares, con legitimación para ser parte de cuantos litigios afecten a los intereses profesionales y ejercitar el derecho de petición conforme a la Ley Orgánica 4/2001, de 12 de noviembre, reguladora del Derecho de Petición, sin perjuicio de lo dispuesto en el apartado 3 del artículo 1 de dicha Ley.</p>
+          <p class="parrafo">7. Facilitar a los Tribunales, conforme a las Leyes, la relación de colegiados que pudieran ser requeridos para intervenir como peritos en los asuntos judiciales, o designarlos por sí mismos, en virtud de rotación o turno dentro de su respectiva especialidad o ramo a que pertenezcan, siempre que acrediten su capacidad para ello.</p>
+          <p class="parrafo">8. Ordenar, en el ámbito de su competencia, la actividad profesional de los colegiados, velando por la ética y dignidad profesional y ejercer la facultad disciplinaria en el orden colegial.</p>
+          <p class="parrafo">9. Organizar actividades y servicios comunes de interés para los colegiados, de carácter profesional, formativo, cultural, asistencial y de previsión y otros análogos, proveyendo al sostenimiento económico mediante los necesarios medios.</p>
+          <p class="parrafo">10. Procurar la armonía y colaboración entre los colegiados, impidiendo la competencia desleal entre los mismos a través del ejercicio de las acciones que las leyes propugnan.</p>
+          <p class="parrafo">11. Ejercitar las acciones que las leyes establecen para la represión del intrusismo.</p>
+          <p class="parrafo">12. Intervenir, en vía de conciliación o arbitraje, en las cuestiones que, por motivos profesionales, se susciten entre los colegiados.</p>
+          <p class="parrafo">13. Resolver por laudo, a instancia de las partes interesadas, las discrepancias que puedan surgir sobre el cumplimiento de las obligaciones dimanantes de los trabajos realizados por los colegiados en el ejercicio de la profesión.</p>
+          <p class="parrafo">14. Establecer baremos de honorarios, que tendrán carácter meramente orientativo, así como asistir a los colegiados en la celebración de sus contratos profesionales.</p>
+          <p class="parrafo">15. Facilitar la participación de los colegiados en los servicios y medios de formación y promoción profesional que con carácter general se organicen.</p>
+          <p class="parrafo">16. Cumplir y hacer cumplir a los colegiados las leyes generales y especiales y los Estatutos particulares y Reglamentos de régimen interior, así como las normas y decisiones adoptadas por los órganos colegiales en materia de su competencia.</p>
+          <p class="parrafo">17. Cuantas otras funciones redunden en beneficio de los intereses profesionales de los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">De los Órganos de Gobierno de los Colegios</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 16. Órganos de Gobierno.</p>
+          <p class="parrafo">1. Sin perjuicio de las peculiaridades organizativas contenidas en los Estatutos particulares de cada Colegio, los Órganos de Gobierno de los Colegios, las normas y procedimiento de su elección, serán los que se determinan en estos Estatutos.</p>
+          <p class="parrafo">2. Constituyen los Órganos de Gobierno de los Colegios:</p>
+          <p class="parrafo_2">a) La Asamblea General.</p>
+          <p class="parrafo">b) La Junta de Gobierno.</p>
+          <p class="parrafo">c) La Comisión Permanente.</p>
+          <p class="parrafo">d) El Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 17. Asamblea General.</p>
+          <p class="parrafo">1. La Asamblea General de colegiados es el órgano supremo del Colegio. Está compuesta por todo el censo de colegiados del ámbito territorial que en su caso corresponda, cada uno de los cuales tendrá derecho a voz y voto, siempre que se encuentre al corriente de sus obligaciones corporativas.</p>
+          <p class="parrafo">2. La participación en la Asamblea General será personal, aunque podrá ser por representación en la forma establecida en el artículo 37.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 18. Competencias y funcionamiento de la Asamblea General.</p>
+          <p class="parrafo">Son competencias propias y exclusivas de la Asamblea General:</p>
+          <p class="parrafo_2">a) Conocer y sancionar la memoria anual de actividades que le someta la Junta de Gobierno.</p>
+          <p class="parrafo">b) Aprobar los presupuestos y regular, conforme a los Estatutos, los recursos económicos del Colegio, así como designar una Comisión Revisora de Cuentas o unos auditores para verificar el estado de cuentas.</p>
+          <p class="parrafo">c) Conocer y aprobar, en su caso, definitivamente la liquidación de los presupuestos y las cuentas de gastos, inversiones e ingresos de cada ejercicio vencido.</p>
+          <p class="parrafo">d) Acordar las cuotas que pudieran establecerse.</p>
+          <p class="parrafo">e) Autorizar los actos de disposición de los bienes inmuebles y derechos reales constituidos sobre los mismos, así como de los restantes bienes patrimoniales que figuren inventariados como de considerable valor.</p>
+          <p class="parrafo">f) Promover la fusión o absorción, segregación, o disolución del Colegio, y establecer, en su caso, las delegaciones que estime convenientes, determinando su demarcación, normas de funcionamiento y competencias.</p>
+          <p class="parrafo">g) Además, la Asamblea General conocerá cuantos otros asuntos le someta la Junta de Gobierno por propia iniciativa o a solicitud del número de colegiados que el Estatuto particular establezca.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 19. La Junta de Gobierno del Colegio.</p>
+          <p class="parrafo">1. La Junta de Gobierno es el órgano de administración y dirección del Colegio que ejerce las competencias no reservadas a la Asamblea General conforme al artículo anterior, ni asignadas específicamente por los Estatutos particulares a otros órganos colegiales, así como las que se le atribuyen expresamente en estos Estatutos.</p>
+          <p class="parrafo">2. La Junta de Gobierno está integrada por:</p>
+          <p class="parrafo_2">a) El Presidente.</p>
+          <p class="parrafo">b) El Vicepresidente.</p>
+          <p class="parrafo">c) El Tesorero y el Contador.</p>
+          <p class="parrafo">d) El Secretario, que tendrá voz pero no voto cuando el cargo sea ocupado por una persona contratada al servicio del Colegio y no por un colegiado electo.</p>
+          <p class="parrafo">e) Los Vocales que los estatutos particulares determinen, en número no superior a 12, de los cuales como máximo una cuarta parte podrán ser colegiados no ejercientes.</p>
+          <p class="parrafo_2">3. Los cargos de la Junta de Gobierno durarán cuatro años y se renovarán por mitades cada dos, con arreglo al procedimiento que se señale en el Estatuto particular.</p>
+          <p class="parrafo">4. La Junta de Gobierno se reunirá, al menos, una vez al trimestre.</p>
+          <p class="parrafo">5. Todos los miembros de la Junta de Gobierno tienen derecho a:</p>
+          <p class="parrafo_2">a) Recibir, con la antelación necesaria, la convocatoria conteniendo el orden del día de las reuniones.</p>
+          <p class="parrafo">b) Participar en los debates de las sesiones.</p>
+          <p class="parrafo">c) Ejercer su derecho al voto y formular su voto particular, así como expresar el sentido de su voto y los motivos que lo justifican.</p>
+          <p class="parrafo">d) Formular ruegos y preguntas.</p>
+          <p class="parrafo">e) Obtener la información precisa para cumplir las funciones asignadas.</p>
+          <p class="parrafo_2">6. Los miembros de la Junta de Gobierno o de la Comisión Permanente no podrán atribuirse las funciones de representación reconocidas a estos órganos colegiados, salvo que expresamente se les haya otorgado por un acuerdo válidamente adoptado, para cada caso concreto, por el propio órgano.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 20. Competencias de la Junta de Gobierno.</p>
+          <p class="parrafo">Son competencias de la Junta de Gobierno:</p>
+          <p class="parrafo_2">1. Convocar las reuniones de la Asamblea General fijando el orden del día.</p>
+          <p class="parrafo">2. Proponer a la Asamblea la elaboración o modificación de sus estatutos particulares.</p>
+          <p class="parrafo">3. Informar los presupuestos, proponer las cuotas ordinarias y extraordinarias y formular balances, cuentas, inventarios, memoria anual y planes de actuación para someterlos a la Asamblea General.</p>
+          <p class="parrafo">4. Defender los intereses profesionales y colegiales, ostentando en su ámbito la plena representación del Colegio, sin perjuicio de la delegación de todas o parte de sus facultades.</p>
+          <p class="parrafo">5. Acordar y aplicar, de conformidad con estos Estatutos y el reglamento disciplinario, las sanciones que procedan.</p>
+          <p class="parrafo">6. Ejercer cuantas funciones correspondan al Colegio, siempre que no estén expresamente reservadas a la Asamblea General, desarrollando, en su caso, las líneas generales que ésta señale.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 21. Régimen Electoral de la Junta de Gobierno.</p>
+          <p class="parrafo">1. Todos los miembros de la Junta de Gobierno serán elegidos por votación ajustada al principio de libre e igual participación de los colegiados, figurando como electores todos los inscritos en el censo que se encuentren en el ejercicio de sus derechos y al corriente de sus obligaciones corporativas.</p>
+          <p class="parrafo">2. Podrán ser candidatos los colegiados que, gozando de la condición de electores, sean proclamados de acuerdo a las normas y condiciones señaladas en los presentes Estatutos o en la normativa particular de cada Colegio. Salvo los cargos reservados a colegiados no ejercientes, para ser elegible es necesario encontrarse en el ejercicio activo de la profesión debidamente acreditado.</p>
+          <p class="parrafo">3. El voto se ejercerá personalmente de forma secreta, o también por correo en la forma prevista en las normas electorales.</p>
+          <p class="parrafo">4. Las normas electorales dictadas por el Colegio o contenidas en el Estatuto particular o, en su defecto, las emanadas desde el Consejo General, desarrollarán el régimen, requisitos y calendario de las elecciones y, en su caso, la composición, régimen y funciones de la Junta Electoral.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 22. La Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente está compuesta por el Presidente, el Vicepresidente, el Tesorero, el Contador y por el Secretario.</p>
+          <p class="parrafo">2. Los miembros de la Comisión Permanente serán nombrados por la Junta de Gobierno del Colegio, órgano al que también corresponderá acordar el cese, renovación y sustitución de estos cargos. Salvo acuerdo en contrario, el cese en un cargo de la Comisión Permanente coincidirá con el cese como miembro de la Junta de Gobierno.</p>
+          <p class="parrafo">3. Para ocupar un cargo en la Comisión Permanente se requiere encontrarse en el ejercicio activo de la agencia comercial.</p>
+          <p class="parrafo">4. La Comisión Permanente se reunirá, al menos, una vez al mes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 23. Funciones de la Comisión Permanente.</p>
+          <p class="parrafo">Serán funciones de la Comisión Permanente:</p>
+          <p class="parrafo_2">1. Preparar los trabajos para la Junta de Gobierno.</p>
+          <p class="parrafo">2. Adoptar los acuerdos de trámite en los expedientes.</p>
+          <p class="parrafo">3. Ejercer las funciones que le pueda delegar la Junta de Gobierno o la Asamblea General.</p>
+          <p class="parrafo">4. Administrar y gestionar el Colegio con las limitaciones que determine la Junta de Gobierno.</p>
+          <p class="parrafo">5. En general, ejecutar los acuerdos de la Junta de Gobierno, pudiendo, en caso de urgencia, acordar lo que estime conveniente para el buen régimen del Colegio, con la obligación de dar cuenta a la Junta de Gobierno a la primera reunión que ésta celebre.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-3" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">De los cargos de la Junta de Gobierno</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 24. El Presidente y el Vicepresidente.</p>
+          <p class="parrafo">1. El Presidente del Colegio tendrá las siguientes facultades y atribuciones:</p>
+          <p class="parrafo_2">a) Ejercer, en virtud de su cargo y sin perjuicio de la representación colectiva de la Junta de Gobierno, la representación del Colegio.</p>
+          <p class="parrafo">b) Asumir la alta dirección del Colegio y de los servicios colegiales en cuantos asuntos lo requieran, de acuerdo con las normas de la Asamblea General y la Junta de Gobierno.</p>
+          <p class="parrafo">c) Convocar a la Comisión Permanente y a la Junta de Gobierno.</p>
+          <p class="parrafo">d) Presidir las reuniones que celebren los Órganos de Gobierno del Colegio y Comisiones del mismo.</p>
+          <p class="parrafo">e) Contar, tanto en la Junta de Gobierno como en la Comisión Permanente, en su caso, con voto dirimente si se produjera empate en las votaciones de los miembros asistentes a la respectiva reunión.</p>
+          <p class="parrafo">f) Firmar o autorizar con su visto bueno, según proceda, las actas, certificaciones, informes, circulares y normas generales.</p>
+          <p class="parrafo">g) Ordenar los pagos que hayan de realizarse con cargo a los fondos del Colegio y autorizar la disposición de los fondos de las cuentas o depósitos, uniendo su firma a la del Tesorero.</p>
+          <p class="parrafo">h) Delegar en el Vicepresidente cometidos concretos.</p>
+          <p class="parrafo_2">2. Corresponde al Vicepresidente sustituir al Presidente en caso de ausencia, enfermedad o vacante, con las mismas facultades y atribuciones, así como llevar a cabo todas aquellas funciones colegiales que le encomiende o delegue el Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 25. El Secretario.</p>
+          <p class="parrafo">1. El Secretario podrá ser un miembro de la Junta de Gobierno o una persona al servicio del Colegio; en este caso tendrá voz, pero no voto, en los órganos de gobierno de los que forme parte y su designación y cese corresponderá a la Junta de Gobierno.</p>
+          <p class="parrafo">2. Son funciones del Secretario del Colegio:</p>
+          <p class="parrafo_2">a) Asistir a las reuniones con voz y voto, salvo en el caso previsto en el apartado anterior.</p>
+          <p class="parrafo">b) Efectuar la convocatoria de las sesiones de los órganos colegiados por orden de su Presidente, así como las citaciones a los miembros del mismo.</p>
+          <p class="parrafo">c) Recibir los actos de comunicación de los miembros del órgano colegiado y, por tanto, las notificaciones, peticiones de datos, rectificaciones o cualquier otra clase de escritos de los que deba tener conocimiento.</p>
+          <p class="parrafo">d) Preparar el despacho de los asuntos, redactar y autorizar las actas de las sesiones.</p>
+          <p class="parrafo">e) Expedir certificaciones de las consultas, dictámenes y acuerdos aprobados.</p>
+          <p class="parrafo">f) Redactar las actas y correspondencia oficial, dirigiendo los trabajos administrativos del Colegio, así como el archivo y custodia de la documentación.</p>
+          <p class="parrafo">g) Desempeñar la jefatura directa e inmediata de todos los servicios colegiales y de las personas afectas a los mismos.</p>
+          <p class="parrafo">h) Cuantas otras funciones sean inherentes a su condición de Secretario.</p>
+          <p class="parrafo_2">3. La decisión sobre la sustitución temporal del Secretario en supuestos de vacante, ausencia o enfermedad se realizará por la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 26. Tesorero y Contador.</p>
+          <p class="parrafo">1. Al Tesorero le corresponderá la custodia y responsabilidad de los fondos de la Corporación, la ejecución o efectividad de los cobros y pagos, llevando al efecto el oportuno libro de caja y la autorización, junto con la firma del Presidente, de las disposiciones de fondos. En caso de vacante, ausencia o enfermedad del Tesorero, su firma podrá ser sustituida por la de quien o quienes reglamentariamente se determinen.</p>
+          <p class="parrafo">2. Corresponderá al Contador, la intervención de todos los documentos contables, así como la redacción, para su examen y formulación por la Junta de Gobierno, de los balances, cuentas, presupuestos y de cualquier estudio económico que se le encargue por la Comisión Permanente o la Junta de Gobierno.</p>
+          <p class="parrafo">3. Por acuerdo de la Junta de Gobierno podrán acumularse en una sola persona los cargos de Tesorero y Contador, con todas sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-4" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">De los Consejos Autonómicos</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 27. Consejos Autonómicos.</p>
+          <p class="parrafo">1. Los Consejos Autonómicos, cuando existan, podrán asumir ante el Consejo General la representación de los Colegios, de acuerdo con su normativa, salvo en aquellas materias y actos que la legislación y regulación estatal prevé la participación directa de los Colegios o sus representantes.</p>
+          <p class="parrafo">2. El Colegio cuyo ámbito territorial coincida con el de toda la Comunidad Autónoma asumirá, respecto al Consejo General, todas las funciones que en estos Estatutos o reglamentos complementarios se asignen a los Consejos Autonómicos.</p>
+          <p class="parrafo">3. La participación de los Consejos Autonómicos en el gobierno y en la financiación del Consejo General se regirán por las normas de este último.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-5" tipo="encabezado" titulo="CAPÍTULO IX">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Del Consejo General de Colegios</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 28. El Consejo General y sus funciones.</p>
+          <p class="parrafo">1. El Consejo General de Colegios de Agentes Comerciales de España tiene a todos los efectos la condición de Corporación de Derecho público, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines. Su domicilio radicará en la capital del Estado sin perjuicio de poder celebrar reuniones en cualquier otro lugar.</p>
+          <p class="parrafo">2. El Consejo General, sin perjuicio de las funciones que correspondan a los Consejos Autonómicos, tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) En general, todas las atribuidas por el artículo 15 de estos Estatutos a los Colegios de Agentes Comerciales en cuanto tengan ámbito o repercusión nacional.</p>
+          <p class="parrafo">b) Elaborar y aprobar el Reglamento de régimen interior del propio Consejo.</p>
+          <p class="parrafo">c) Dirimir los conflictos que puedan suscitarse entre los distintos Colegios de Agentes comerciales de España.</p>
+          <p class="parrafo">d) Resolver los recursos que se interpongan contra los actos de los Colegios por los colegiados o por terceras personas cuando esta función no haya sido asumida por los Consejos Autonómicos o, en defecto de este último, la Ley autonómica en esta materia no establezca un sistema especial.</p>
+          <p class="parrafo">e) Adoptar las medidas necesarias para que los Colegios cumplan las resoluciones del propio Consejo General dictadas en materia de su competencia.</p>
+          <p class="parrafo">f) Ejercer las funciones disciplinarias con respecto a los miembros del Consejo General y a las Juntas de Gobierno de los Colegios donde no existan Consejos Autonómicos.</p>
+          <p class="parrafo">g) Aprobar, previo informe de una Comisión Revisora de Cuentas designada por la Asamblea General, la memoria, los balances y las cuentas anuales, así como el presupuesto de cada ejercicio, en el que se señalará la aportación económica que corresponda.</p>
+          <p class="parrafo">h) Informar preceptivamente los proyectos de modificación de la normativa sobre colegios profesionales. Este informe se pondrá en conocimiento de las Juntas de Gobierno de los Colegios.</p>
+          <p class="parrafo">i) Organizar y coordinar los servicios de asesoramiento fiscal a sus colegiados.</p>
+          <p class="parrafo">j) Asumir la representación de los profesionales colegiados y de sus respectivos Colegios ante Entidades similares en otras naciones.</p>
+          <p class="parrafo">k) Promover la formación y perfeccionamiento técnico y profesional de los Agentes Comerciales en todas sus facetas.</p>
+          <p class="parrafo">l) Organizar los servicios adecuados de defensa jurídica de los colegiados a nivel nacional, que les facilite el cobro de comisiones devengadas o indemnizaciones que les corresponda.</p>
+          <p class="parrafo">m) Promover y, en su caso, regir o administrar servicios, prestaciones e instituciones que faciliten la actividad profesional de los colegiados y la gestión de sus Colegios.</p>
+          <p class="parrafo">n) En el ámbito de su competencia, coordinar la celebración de elecciones para la renovación de las Juntas de Gobierno de los Colegios de Agentes Comerciales y resolver los recursos que puedan formularse sobre la presentación y proclamación de candidatos para los cargos de la Junta de Gobierno de los mismos, adoptándose las medidas que estimen convenientes para que, cuando se produzcan las vacantes de más de la mitad de los cargos de una Junta de Gobierno, sean provistas provisionalmente con los colegiados más antiguos.</p>
+          <p class="parrafo">o) Elaborar el temario y convocar la realización de los exámenes de aptitud conforme a lo establecido en el apartado 2 del artículo 3 del presente Estatuto.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 29. Órganos de gobierno.</p>
+          <p class="parrafo">Son Órganos de gobierno del Consejo General:</p>
+          <p class="parrafo_2">a) La Asamblea General.</p>
+          <p class="parrafo">b) La Junta de Gobierno.</p>
+          <p class="parrafo">c) La Comisión Permanente.</p>
+          <p class="parrafo">d) El Presidente.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 30. La Asamblea General.</p>
+          <p class="parrafo">1. La Asamblea General es el órgano supremo del Consejo General y está constituida por el Presidente del Consejo, los restantes miembros de la Junta de Gobierno y por los Presidentes de todos los Colegios y Consejos Autonómicos.</p>
+          <p class="parrafo">2. Serán funciones de la Asamblea General:</p>
+          <p class="parrafo_2">a) Aprobar las normas deontológicas y las resoluciones relativas a la ordenación del ejercicio de la profesión en el ámbito estatal.</p>
+          <p class="parrafo">b) Aprobar las cuentas anuales -ingresos, gastos e inversiones-, memoria, presupuesto y liquidación del presupuesto del Consejo General.</p>
+          <p class="parrafo">c) Fijar y aprobar las aportaciones de los Colegios al sostenimiento del Consejo General.</p>
+          <p class="parrafo">d) Designar una Comisión Revisora de Cuentas o unos auditores para verificar el estado de cuentas.</p>
+          <p class="parrafo">e) Aprobar su propio reglamento interno de funcionamiento.</p>
+          <p class="parrafo_2">3. La Asamblea General se reunirá preceptivamente, al menos, una vez al año, por acuerdo de la Comisión Permanente, y también se reunirá cuando lo solicite la Junta de Gobierno o, al menos, un tercio de los miembros de la Asamblea.</p>
+          <p class="parrafo">4. Los acuerdos de la Asamblea General serán adoptados por mayoría de los asistentes. El reglamento de régimen interior del Consejo General establecerá el régimen de delegación de voto en la Asamblea. Serán Presidente y Secretario de la sesión los que lo sean de la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 31. La Junta de Gobierno.</p>
+          <p class="parrafo">1. La Junta de Gobierno del Consejo General estará compuesta por:</p>
+          <p class="parrafo_2">b) El Presidente del Consejo General.</p>
+          <p class="parrafo">c) Los restantes miembros de la Comisión Permanente.</p>
+          <p class="parrafo">d) Un representante por cada Comunidad Autónoma y uno por cada una de las ciudades de Ceuta y Melilla.</p>
+          <p class="parrafo_2">2. Los representantes de los Colegios de cada Autonomía en la Junta de Gobierno serán designados por el Órgano de Gobierno competente y representativo del Consejo que agrupe a todos los Colegios del ámbito territorial o, en defecto de éste, por acuerdo mayoritario entre los Colegios de ese ámbito territorial. Salvo normas específicas, los representantes de estos Colegios designarán, por mayoría, al Vocal que les represente en la Junta de Gobierno, con las excepciones que reglamentariamente se determinen.</p>
+          <p class="parrafo">Transcurrido el plazo determinado por el Consejo General para que los electores de cada Autonomía comuniquen la identidad del Vocal designado, se convocará a la Asamblea General para que elija o determine a las personas que deben ocupar los cargos vacantes.</p>
+          <p class="parrafo">3. Los cargos de la Junta de Gobierno durarán cuatro años, sin perjuicio de que puedan cesar o ser removidos anticipadamente por alguna de las siguientes causas:</p>
+          <p class="parrafo_2">a) Por la sustitución válidamente acordada por el órgano que le designó.</p>
+          <p class="parrafo">b) Por renuncia del interesado. c) Por causar baja o suspensión como colegiado.</p>
+          <p class="parrafo">d) Por imposición de sanción disciplinaria grave o muy grave.</p>
+          <p class="parrafo_2">4. Cuando en un proceso electoral para elegir miembros de la Junta de Gobierno resulte proclamado un solo candidato para una vacante, no será necesaria la celebración del acto electoral para ese cargo, que quedará proclamado electo.</p>
+          <p class="parrafo">5. Corresponden a la Junta de Gobierno todas las funciones del Consejo General enumeradas en el artículo 28.2, salvo las contenidas en los apartados b) y h) que correspondan a la Asamblea General.</p>
+          <p class="parrafo">6. La Junta de Gobierno se reunirá ordinariamente, al menos tres veces al año, sin perjuicio de las reuniones extraordinarias, o de las que sean promovidas por, al menos, un tercio de sus miembros.</p>
+          <p class="parrafo">7. Los acuerdos serán adoptados por mayoría de votos, siempre que éstos hayan sido emitidos por, al menos, un tercio de los miembros asistentes. Cada miembro de la Junta tendrá tantos votos como colegiados tuviere el Consejo Autonómico o Colegio al que represente, el día anterior a 31 de diciembre, según el censo existente en el Consejo General.</p>
+          <p class="parrafo">El número de votos atribuido a cada uno de los cuatro miembros de la Comisión Permanente será de una decimoctava parte del censo nacional cerrado a 31 de diciembre último.</p>
+          <p class="parrafo">8. Si coincidiere en un representante de una Comunidad Autónoma, de Ceuta o Melilla alguno de los cargos de la Comisión Permanente, sólo se le atribuirán los votos del cargo que más votos tenga atribuidos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 32. La Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente quedará integrada por el Presidente del Consejo, el Vicepresidente, el Tesorero y el Contador.</p>
+          <p class="parrafo">2. Los miembros de la Comisión Permanente son elegidos, por la Junta de Gobierno, salvo el Presidente, que será elegido por todos los Presidentes de los Colegios de España o quienes reglamentariamente les sustituyan.</p>
+          <p class="parrafo">Todos los cargos de la Comisión Permanente son compatibles con el desempeño del cargo de Vocal de la Junta de Gobierno. Cada miembro de la Comisión Permanente tiene derecho a un solo voto, sin perjuicio del voto de calidad del Presidente.</p>
+          <p class="parrafo">3. Los cargos en la Comisión Permanente durarán cuatro años, y su elección se ajustará a las normas electorales emanadas del Consejo General.</p>
+          <p class="parrafo">4. El Vicepresidente, el Tesorero y el Contador cesarán en sus cargos al cesar como miembros de la Junta de Gobierno, o cuando fueran sustituidos por la propia Junta.</p>
+          <p class="parrafo">5. Son elegibles para miembros de la Comisión Permanente aquellos colegiados que gocen de la condición de electores en su Colegio y, en cualquier caso, se encuentren en el ejercicio activo de la agencia comercial.</p>
+          <p class="parrafo">6. Son funciones de la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Ejecutar los acuerdos adoptados por la Asamblea General o Junta de Gobierno.</p>
+          <p class="parrafo">b) Dirigir y administrar el Consejo General.</p>
+          <p class="parrafo">c) Recaudar, gestionar y administrar los fondos del Consejo General y preparar los presupuestos, memorias y planes de actuación para su formulación por la Junta de Gobierno.</p>
+          <p class="parrafo">d) Designar y contratar los asesores y el personal que estime necesarios para el mejor funcionamiento del Consejo General.</p>
+          <p class="parrafo">e) Resolver los recursos corporativos que se planteen ante el Consejo General de acuerdo con lo previsto en estos Estatutos.</p>
+          <p class="parrafo">f) Preparar los trabajos de la Junta de Gobierno y de la Asamblea General.</p>
+          <p class="parrafo">g) Ejercer las funciones que le pueda delegar expresamente la Asamblea General o la Junta de Gobierno.</p>
+          <p class="parrafo_2">7. La Comisión Permanente se reunirá, al menos, una vez al mes.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 33. El Presidente.</p>
+          <p class="parrafo">El Presidente del Consejo General tendrá las siguientes facultades y atribuciones:</p>
+          <p class="parrafo_2">1. Ejercer, por razón de su cargo y sin perjuicio de la representación que asuman colectivamente, en su caso, los órganos corporativos, la representación del Consejo General.</p>
+          <p class="parrafo">2. Asumir la alta dirección del Consejo General y servicios colegiales en cuantos asuntos lo requieran.</p>
+          <p class="parrafo">3. Convocar a la Comisión Permanente y, por acuerdo de ésta, a la Junta de Gobierno, y fijar el orden del día.</p>
+          <p class="parrafo">4. Presidir las reuniones que celebren los Órganos de Gobierno del Consejo General y Comisiones del mismo.</p>
+          <p class="parrafo">5. Firmar o autorizar con su visto bueno, según proceda, las actas, certificaciones, informes, circulares y normas generales que se dicten.</p>
+          <p class="parrafo">6. Ordenar los pagos que hayan de realizarse con cargo a los fondos del Consejo General y autorizar la disposición de los fondos, uniendo a su firma la del Tesorero o a la de la persona o personas que reglamentariamente se establezcan.</p>
+          <p class="parrafo">7. Delegar en el Vicepresidente, sin perjuicio de las funciones que específicamente le corresponden, cometidos concretos.</p>
+          <p class="parrafo">8. Dirimir con voto de calidad los empates que resulten de las votaciones de los órganos de gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 34. Otros cargos de la Comisión Permanente.</p>
+          <p class="parrafo">El Vicepresidente, el Tesorero y el Contador del Consejo General tendrán las funciones relacionadas en los artículos 24.2 y 26 correspondientes a los mismos cargos de las Juntas de Gobierno de los Colegios, pero referidas al Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 35. El Secretario General.</p>
+          <p class="parrafo">1. Corresponde a la Junta de Gobierno decidir sobre el nombramiento y cese del Secretario General.</p>
+          <p class="parrafo">2. Son funciones del Secretario General:</p>
+          <p class="parrafo_2">a) Extender las actas y las certificaciones, con el visto bueno del Presidente.</p>
+          <p class="parrafo">b) Cursar las convocatorias para las sesiones de los Órganos de Gobierno del Consejo General, previo mandato del Presidente.</p>
+          <p class="parrafo">c) Custodiar los libros, archivos y documentos del Consejo General.</p>
+          <p class="parrafo">d) En general, cuantas se relacionan en el artículo 25.2 respecto al Secretario del Colegio, con relación al Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="cx" tipo="encabezado" titulo="CAPÍTULO X">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO X</p>
+          <p class="capitulo_tit">Del Régimen Jurídico</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 36. Normativa aplicable.</p>
+          <p class="parrafo">Los Colegios se rigen por las normas siguientes:</p>
+          <p class="parrafo_2">1. Sus Estatutos particulares, Reglamentos de régimen interior y acuerdos de alcance general que se adopten para su desarrollo y aplicación.</p>
+          <p class="parrafo">2. Por estos Estatutos Generales.</p>
+          <p class="parrafo">3. La legislación estatal y autonómica en materia de Colegios Profesionales.</p>
+          <p class="parrafo">4. La Ley de 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, en lo que resulte de aplicación.</p>
+          <p class="parrafo">5. El resto del ordenamiento jurídico </p>
+          <p class="parrafo">6. Los acuerdos, decisiones o recomendaciones de los Colegios de Agentes Comerciales con trascendencia económica observarán los límites establecidos en el artículo 1 de la Ley 16/1989, de 17 de julio, de Defensa de la Competencia, sin perjuicio de que los Colegios puedan solicitar la autorización legal prevista en el artículo 3 de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 37. Régimen general de funcionamiento de los órganos colegiados.</p>
+          <p class="parrafo">1. Salvo que el Estatuto particular de un Colegio o Consejo Autonómico establezca otra cosa, los órganos colegiados de los Colegios, Consejos Autonómicos y Consejo General se regirán por las normas contenidas en este precepto.</p>
+          <p class="parrafo">2. La Asamblea General y la Junta de Gobierno deberán convocarse con una antelación mínima de quince días y la Comisión Permanente con una antelación mínima de una semana.</p>
+          <p class="parrafo">3. La Junta de Gobierno y la Comisión Permanente podrán reunirse con carácter de urgencia sin sujeción a los plazos de convocatoria establecidos, mediante telegrama u otro medio idóneo; en cuyo caso, el primer acuerdo del órgano convocado deberá recaer sobre si considera justificada la urgencia.</p>
+          <p class="parrafo">4. En las convocatorias deberán constar los puntos del orden del día que se vayan a tratar en la reunión, no siendo válidos aquellos acuerdos que se adopten sin estar el asunto al que se contrae previamente contenido en el orden del día de la reunión.</p>
+          <p class="parrafo">5. Las Asambleas Generales y Juntas de Gobierno convocadas con los requisitos antes señalados en el presente capítulo se considerarán válidamente constituidas cuando concurran en la primera convocatoria la mitad más uno de sus miembros y, en segunda convocatoria, señalada media hora más tarde como mínimo, con cualquiera que sea el número de miembros asistentes. La Comisión Permanente necesitará siempre la mitad de sus miembros. En todo caso, será preceptiva la asistencia del Presidente y del Secretario o de quienes deban sustituirles.</p>
+          <p class="parrafo">6. La aprobación de cualquier asunto sometido a debate exigirá el voto favorable de la mitad más uno de los miembros asistentes con derecho a voto, salvo para los casos en que esté fijado un porcentaje distinto. No podrán ejercer su derecho a voto los colegiados que no estén al corriente en el pago de sus cuotas ordinarias o extraordinarias. Las votaciones se realizarán de la forma y por el orden que la Presidencia fije, la cual decidirá si han de ser a mano alzada, nominales o secretas, salvo que afecten a personas, en cuyo caso serán siempre secretas. A petición, al menos, de la cuarta parte de los asistentes, las votaciones podrán ser nominales o secretas, con la salvedad anterior en cuanto a estas últimas.</p>
+          <p class="parrafo">7. En las Asambleas Generales de los Colegios, de su Junta de Gobierno o Comisión Permanente, cualquier miembro podrá hacerse representar por otro del mismo órgano, mediante delegación especial escrita para cada reunión, sin que se pueda ostentar más de una delegación.</p>
+          <p class="parrafo">8. A todas las reuniones de Órganos de Gobierno asistirá el Secretario o quien haga sus funciones, que levantará la correspondiente acta, que podrá ser aprobada por el propio órgano al término de la reunión, o por delegación, en el plazo de treinta días, por los Interventores nombrados en cada reunión con este objeto.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 38. Eficacia de los actos y acuerdos.</p>
+          <p class="parrafo">1. Los acuerdos adoptados por los órganos colegiales, a excepción de los que impongan sanciones en virtud de la aplicación del régimen disciplinario los cuales no se ejecutarán ni se harán públicos mientras no sean firmes, se considerarán ejecutivos desde su adopción sin más requisito que su notificación o publicación cuando proceda y salvo que de sus propios términos resulten sometidos a plazo o condición de eficacia.</p>
+          <p class="parrafo">2. Los Reglamentos colegiales y sus modificaciones, así como los restantes acuerdos de alcance general asimilables a aquéllos por su contenido y la extensión de sus efectos, entrarán en vigor a los veinte días naturales de su publicación en el boletín o circular colegial, salvo que expresamente se establezca en ellos otro término.</p>
+          <p class="parrafo">3. Deberán notificarse las resoluciones y acuerdos particulares, o que afecten a los derechos o intereses de los colegiados. La notificación deberá realizarse en el plazo de diez días a partir de la fecha en que el acto haya sido dictado por cualquier medio que permita tener constancia de la recepción por el interesado o su representante, así como de la fecha, la identidad y el contenido del acto notificado, con indicación de los recursos que proceden y los plazos para interponerlos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 39. Recurso de alzada.</p>
+          <p class="parrafo">Contra los actos emanados de los Colegios podrá interponerse recurso de alzada ante el Consejo General si no hubiere Consejo Autonómico o si la Ley autonómica en esta materia no establece un sistema especial. El recurso será presentado por los colegiados o particulares interesados en el plazo de un mes contado a partir del día siguiente a aquel en que tenga lugar la notificación del acto contra el que se recurre, si el acto fuera expreso. Si no lo fuera, el plazo será de tres meses y se contará a partir del día siguiente a aquel en que se produzcan los efectos del silencio.</p>
+          <p class="parrafo">Las resoluciones de estos recursos ponen fin a la vía corporativa interna.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 40. Recurso potestativo de reposición.</p>
+          <p class="parrafo">Contra los acuerdos dictados por el Consejo General cabrá recurso de reposición ante el mismo.</p>
+          <p class="parrafo">El plazo para la interposición del recurso de reposición será de un mes contado a partir del día siguiente a aquel en que tenga lugar la notificación del acto contra el que se recurre, si fuera expreso. Si no lo fuera, el plazo será de tres meses y se contará a partir del día siguiente a aquel en que se produzca el acto presunto.</p>
+          <p class="parrafo">Los actos emanados de los órganos colegiales relativos a la ordenación del funcionamiento de los Colegios y en materia disciplinaria, sujetos al Derecho Administrativo, podrán ser recurribles ante la jurisdicción contencioso-administrativa.</p>
+          <p class="parrafo">No se podrá interponer recurso contencioso-administrativo hasta que sea resuelto expresamente o se haya producido la desestimación presunta del recurso interpuesto.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-3" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 41. Procedimiento del régimen de recursos.</p>
+          <p class="parrafo">Todos los recursos, tanto de alzada como de reposición, se formalizarán, tramitarán y resolverán en la forma prevista en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">La legitimación activa para el recurso contencioso-administrativo se ajustará a lo dispuesto en la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-Administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="cx-2" tipo="encabezado" titulo="CAPÍTULO XI">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO XI</p>
+          <p class="capitulo_tit">Del régimen económico de los Colegios y de su Consejo General</p>
+        </version>
+      </bloque>
+      <bloque id="a4-4" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 42. Financiación.</p>
+          <p class="parrafo">1. Sin perjuicio de la existencia de otras fuentes de ingreso, la financiación del Consejo General procede de los colegios oficiales, que contribuirán a su sostenimiento con las aportaciones que sean fijadas por la Asamblea General con carácter obligatorio para todos los Colegios de España. Tales aportaciones serán independientes de las que los Colegios pudieran efectuar, con carácter obligatorio o voluntario, para el sostenimiento de otras corporaciones o asociaciones y, en particular, de los Consejos Autonómicos a los que eventualmente pertenecieran.</p>
+          <p class="parrafo">2. Las aportaciones serán aprobadas por la Asamblea General en la misma sesión en que se aprueben los presupuestos del Consejo General. Si por cualquier causa no se aprobaran los presupuestos para un ejercicio determinado, las aportaciones de los colegios oficiales se mantendrán invariables en relación con las vigentes en ese momento.</p>
+          <p class="parrafo">Las aportaciones de los colegios oficiales se calcularán en proporción al número de colegiados de que disponga cada Colegio el día 1 de enero del año al que va referido el presupuesto aprobado.</p>
+          <p class="parrafo">A los efectos del cálculo de las aportaciones, se tendrá en cuenta la diferente carga funcional del Consejo General en relación con los colegios oficiales, según pertenezcan o no a un consejo autonómico en funcionamiento. En este sentido, aquellas partidas presupuestarias que se refieran al ejercicio por el Consejo General de funciones que tuvieran asumidas los Consejos Autonómicos, o los Colegios en aquellos territorios donde no hubiera Consejos Autonómicos, serán sufragadas únicamente por las aportaciones de los Colegios destinatarios de aquéllas, calculadas en proporción a su número de colegiados.</p>
+          <p class="parrafo">3. Los Colegios quedan obligados a pagar su aportación al Consejo General por trimestres vencidos, dentro de los 15 primeros días hábiles del siguiente trimestre.</p>
+          <p class="parrafo">4. La falta de pago por algún Colegio de las aportaciones relativas a dos o más períodos trimestrales permitirá su reclamación por el Consejo General ante la jurisdicción civil. Las cantidades impagadas devengarán un tipo de interés equivalente al legal más dos puntos, desde la fecha en que debió haberse producido el pago hasta la fecha en que efectivamente éste se reciba.</p>
+          <p class="parrafo">Asimismo, la falta de pago de dos o más períodos trimestrales dará lugar de forma automática a la suspensión de la participación del respectivo Colegio en los órganos del Consejo General o en las actividades y servicios que dicho Consejo preste en ejercicio de sus funciones hasta tanto no sean efectuados los pagos adeudados, con sus correspondientes intereses y eventuales gastos ocasionados al Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-5" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 43. Otras fuentes de financiación.</p>
+          <p class="parrafo">También figurarán entre los ingresos del Colegio y del Consejo General los derechos que perciban por servicios prestados a requerimiento de los colegiados o de terceras personas, como asimismo toda clase de donativos, herencias o legados que se constituyan a favor de los mismos, y los rendimientos de su respectivo patrimonio, así como las subvenciones y ayudas.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-6" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 44. Bienes inmuebles.</p>
+          <p class="parrafo">La enajenación y gravamen de bienes inmuebles de los Colegios o del Consejo General deberán contar con la aprobación de su respectiva Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Régimen disciplinario y de recompensas y distinciones</p>
+        </version>
+      </bloque>
+      <bloque id="ci-6" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Régimen disciplinario</p>
+        </version>
+      </bloque>
+      <bloque id="a4-7" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 45. Competencia de los Colegios.</p>
+          <p class="parrafo">De conformidad con lo establecido en el artículo 6.3, letra g), de la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales, corresponde a los Colegios de Agentes Comerciales la competencia para exigir las responsabilidades disciplinarias en que puedan incurrir los colegiados, en caso de infracción de sus deberes colegiales, sin perjuicio de la responsabilidad civil o penal que les sea exigible.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-8" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 46. Principios generales.</p>
+          <p class="parrafo">1. No podrán sancionarse los hechos que hayan sido sancionados penalmente, en los supuestos en que exista identidad de sujetos, de acciones y de fundamentos.</p>
+          <p class="parrafo">2. Iniciado el procedimiento sancionador, si el Instructor aprecia que la presunta infracción puede ser constitutiva de delito o falta penal, lo pondrá inmediatamente en conocimiento del órgano que haya ordenado la incoación del expediente para que éste lo ponga en conocimiento del Ministerio Fiscal y suspender el procedimiento disciplinario hasta que recaiga sentencia firme en el proceso penal.</p>
+          <p class="parrafo">3. Reanudada la tramitación del expediente disciplinario, tras la suspensión acordada en el supuesto previsto en el párrafo anterior, la resolución que se dicte deberá respetar los hechos determinantes del pronunciamiento judicial.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-9" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 47. Responsabilidad disciplinaria.</p>
+          <p class="parrafo">La responsabilidad disciplinaria se exigirá a través del correspondiente expediente, ajustado al Reglamento disciplinario aprobado por el Colegio respectivo. A falta de este Reglamento, se ajustará al Reglamento disciplinario aprobado por el Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-10" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 48. Anotación en expediente personal.</p>
+          <p class="parrafo">Las penas y sanciones derivadas del ejercicio profesional que impongan los Tribunales a los Agentes Comerciales se harán constar en su expediente personal, salvo en el caso de que la Junta de Gobierno lo estime improcedente.</p>
+          <p class="parrafo">Las sanciones disciplinarias corporativas se harán constar, en todo caso, en el expediente personal del colegiado.</p>
+        </version>
+      </bloque>
+      <bloque id="a4-11" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 49. Clases de faltas.</p>
+          <p class="parrafo_2">1. Las faltas que pueden llevar aparejadas sanciones, se clasifican en muy graves, graves y leves.</p>
+          <p class="parrafo">2. Son faltas muy graves:</p>
+          <p class="parrafo_2">a) El ejercicio de la profesión de Agente Comercial en cualquiera de sus modalidades por toda persona que por el desempeño de sus funciones, sean éstas de índole oficial o privada, pueda ejercer coacción o gozar de privilegio para la compraventa de mercancías o el encargo de servicios.</p>
+          <p class="parrafo">b) El incumplimiento de las obligaciones contraídas con el empresario o empresarios por cuya cuenta actúe, tanto de lealtad, como en la dimensión económica y profesional de su contrato.</p>
+          <p class="parrafo">c) El abuso de poder o lucro ilícito en el desempeño de cargos colegiales.</p>
+          <p class="parrafo">d) El encubrimiento o complicidad en el intrusismo profesional.</p>
+          <p class="parrafo_2">3. Son faltas graves:</p>
+          <p class="parrafo_2">a) El incumplimiento de los acuerdos adoptados por el Consejo General, por los Consejos Autonómicos o por el Colegio. Estos acuerdos no podrán ir en contra de lo establecido en estos estatutos.</p>
+          <p class="parrafo">b) La lesión deliberada de la imagen y el buen nombre de sus competidores en el ámbito de la Agencia comercial.</p>
+          <p class="parrafo">c) La competencia desleal, una vez que haya sido calificada como tal por la jurisdicción competente.</p>
+          <p class="parrafo">d) La negligencia y desinterés habitual en el cumplimiento de las obligaciones inherentes al cargo para el que hubiese sido elegido por sus compañeros.</p>
+          <p class="parrafo">e) La reincidencia por comisión en el término de un año de más de una falta leve cuando así haya sido declarada por resolución firme.</p>
+          <p class="parrafo_2">4. Son faltas leves:</p>
+          <p class="parrafo_2">a) Entorpecer deliberadamente las reuniones de los órganos colegiales.</p>
+          <p class="parrafo">b) No facilitar al Colegio los datos o información que se solicite en el cumplimiento de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-2" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 50. Clases de sanciones.</p>
+          <p class="parrafo">Las sanciones disciplinarias que puedan imponerse como consecuencia de las infracciones previstas son las siguientes:</p>
+          <p class="parrafo_2">1. Por faltas muy graves:</p>
+          <p class="parrafo_2">a) La suspensión de la condición de colegiado por un plazo de tres meses y un día a dos años.</p>
+          <p class="parrafo">b) La pérdida del cargo que desempeñe en los órganos colegiales.</p>
+          <p class="parrafo_2">2. Por faltas graves:</p>
+          <p class="parrafo_2">a) La suspensión de la condición de colegiado por un plazo no superior a tres meses.</p>
+          <p class="parrafo">b) La pérdida del cargo que desempeñe en los órganos colegiales.</p>
+          <p class="parrafo_2">3. Por faltas leves: Apercibimiento por escrito.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-3" tipo="precepto" titulo="Artículo 51">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 51. Competencia disciplinaria.</p>
+          <p class="parrafo">1. Corresponde el ejercicio de la competencia disciplinaria, según los casos, a la Junta de Gobierno del Colegio, respecto de sus colegiados; a la Asamblea General del Consejo General o de los Consejos Autonómicos, respecto de sus miembros.</p>
+          <p class="parrafo">2. Los acuerdos de suspensión por más de seis meses deberán ser adoptados por la Junta de Gobierno del Colegio o la Asamblea del Consejo General o de los Consejos Autonómicos, en su caso, mediante votación secreta y con la conformidad, por lo menos, de dos terceras partes de los miembros asistentes.</p>
+          <p class="parrafo">3. Las faltas leves se sancionarán por los órganos competentes y, en su nombre, por la Comisión Permanente de los mismos. El expediente se ajustará al procedimiento simplificado de los artículos 23 y 24 del Reglamento de procedimiento para el ejercicio de la potestad sancionadora, aprobado por Real Decreto 1398/1993, de 4 de agosto.</p>
+          <p class="parrafo">4. Las Juntas de Gobierno de los colegios remitirán al Consejo General de Colegios de Agentes Comerciales de España y, en su caso, al Consejo Autonómico, el testimonio de sus acuerdos de condena en los expedientes sobre responsabilidad disciplinaria de los Agentes Comerciales por faltas graves o muy graves. De igual forma procederán los Consejos con los Colegios, en los casos de su competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-4" tipo="precepto" titulo="Artículo 52">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 52. Prescripción y rehabilitación.</p>
+          <p class="parrafo">1. Las faltas determinantes de sanción disciplinaria corporativa prescribirán si son leves, a los dos meses; si son graves, al año, y si son muy graves, a los dos años, de los hechos que las motivaron.</p>
+          <p class="parrafo">2. Los sancionados podrán pedir su rehabilitación, con la consiguiente cancelación de la nota de su expediente personal, al órgano corporativo que impuso la sanción.</p>
+          <p class="parrafo">3. Los Colegios remitirán al Consejo General, y en su caso al Autonómico, testimonio de sus resoluciones en los expedientes de rehabilitación de que conozcan; y de igual forma procederán los Consejos con los Colegios en los casos dependientes de su competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-5" tipo="precepto" titulo="Artículo 53">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 53. Régimen supletorio.</p>
+          <p class="parrafo">En lo no previsto en este capítulo se aplicará el régimen contenido en el Título IX de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, sobre la potestad sancionadora.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-7" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De las recompensas y distinciones</p>
+        </version>
+      </bloque>
+      <bloque id="a5-6" tipo="precepto" titulo="Artículo 54">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 54. Competencia.</p>
+          <p class="parrafo">Corresponde al Consejo General, a propuesta de cada uno de los Colegios, la concesión de recompensas o distinciones a aquellos colegiados o terceras personas que se hayan distinguido notablemente en el ejercicio de la profesión o en defensa y divulgación de la función atribuida a la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-7" tipo="precepto" titulo="Artículo 55">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 55. Clases de recompensas.</p>
+          <p class="parrafo">Las recompensas que podrán concederse serán la Medalla al Mérito Profesional en cualquiera de sus categorías de oro, plata y bronce, acompañada del respectivo diploma con arreglo a las normas contenidas en el Reglamento de concesión de esta Medalla que será redactado por el Consejo General.</p>
+          <p class="parrafo">La concesión de la Medalla podrá hacerse también a título póstumo, como reconocimiento a los méritos contraídos por el interesado, o en aquellos casos de fallecimiento sobrevenido en accidente profesional.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-8" tipo="precepto" titulo="Artículo 56">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 56. Distinciones.</p>
+          <p class="parrafo">Podrá también ser otorgada la condición de Colegiado de Honor o de Presidente de Mérito a aquellos colegiados o particulares que sean acreedores de esa distinción.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">De la nulidad y anulabilidad de los actos corporativos y de las relaciones con la Administración del Estado</p>
+        </version>
+      </bloque>
+      <bloque id="ci-8" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">De la nulidad y anulabilidad de los actos corporativos</p>
+        </version>
+      </bloque>
+      <bloque id="a5-9" tipo="precepto" titulo="Artículo 57">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 57. Nulidad de los actos.</p>
+          <p class="parrafo">Serán nulos de pleno derecho los actos de los órganos corporativos en que se den alguno de los supuestos enumerados en el artículo 62.1 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a5-10" tipo="precepto" titulo="Artículo 58">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 58. Anulabilidad de los actos.</p>
+          <p class="parrafo">Serán anulables los actos que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-9" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De las relaciones con la Administración General del Estado</p>
+        </version>
+      </bloque>
+      <bloque id="a5-11" tipo="precepto" titulo="Artículo 59">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Artículo 59. Relaciones con la Administración General del Estado.</p>
+          <p class="parrafo">Corresponde al Consejo General servir de cauce de relación entre los Colegios de Agentes Comerciales o sus Consejos Autonómicos y la Administración General del Estado, a través del órgano competente del Ministerio de Industria, Turismo y Comercio, a la que comunicará la composición de los órganos de gobierno de estas Corporaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Disposición adicional única. Competencias de los Consejos Autonómicos.</p>
+          <p class="parrafo">En aquellos supuestos en los que exista Consejo Autonómico, éste tendrá atribuidas en su ámbito territorial las competencias del Consejo General.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Disposición transitoria única. Régimen transitorio.</p>
+          <p class="parrafo">Los actuales miembros del Consejo General continuarán en sus cargos hasta el final de su mandato. En los tres meses siguientes a la entrada en vigor de estos estatutos, la Asamblea General del Consejo General convocará elecciones para cubrir las Vocalías de las Autonomías que no estén representadas en la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2005-2529" fecha_publicacion="20050216" fecha_vigencia="20050217">
+          <p class="articulo">Disposición final única. Estatutos particulares y Reglamentos de régimen interior.</p>
+          <p class="parrafo">En el plazo de doce meses a partir de la aprobación de estos Estatutos, el Consejo General de Colegios de Agentes Comerciales de España aprobará unos Estatutos particulares y un Reglamento de régimen interior tipos que podrán servir de modelo para los Colegios de Agentes Comerciales, sin perjuicio de las especialidades que puedan introducir cada uno de los Colegios en los mismos.</p>
+          <p class="parrafo"> </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

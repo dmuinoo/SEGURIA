@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T183922Z</fecha_actualizacion>
+      <identificador>BOE-A-2000-3196</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20000209</fecha_disposicion>
+      <numero_oficial>1/2000</numero_oficial>
+      <titulo>Circular 1/2000, de 9 de febrero, de la Comisión Nacional del Mercado de Valores, por la que se establecen las condiciones particulares de admisión y permanencia del "Nuevo Mercado".</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20000217</fecha_publicacion>
+      <diario_numero>41</diario_numero>
+      <fecha_vigencia>20000218</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2000/02/09/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2000-3196</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="521">Bolsas de Valores</materia>
+        <materia codigo="3166">Empresas</materia>
+        <materia codigo="6896">Títulos valores</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1999-24791</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Orden de 22 de diciembre de 1999</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-3196</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-09</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3166"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-3196</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3166"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/con/20000217"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 1/2000, de 9 de febrero, de la Comisión Nacional del Mercado de Valores, por la que se establecen las condiciones particulares de admisión y permanencia del "Nuevo Mercado".</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/con/20000217">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2000-3196</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-09</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3166"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-02-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/con/20000217/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 1/2000, de 9 de febrero, de la Comisión Nacional del Mercado de Valores, por la que se establecen las condiciones particulares de admisión y permanencia del "Nuevo Mercado".</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/con/20000217"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2000/02/09/1/con/20000217/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2000/02/09/1/con/20000217/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="parrafo">La realidad económica y empresarial española ha puesto de manifiesto que el marco jurídico que rige los mercados de valores españoles basado en la distinción entre primero y segundo mercado se muestra insuficiente para servir de manera eficiente a las necesidades de financiación de empresas de alta tecnología de producto o de proceso productivo o de alto potencial de crecimiento.</p>
+          <p class="parrafo">Para dar respuesta a esta situación, la Orden de 22 de diciembre de 1999 ha creado un segmento especial de negociación en las Bolsas de Valores denominado «Nuevo Mercado». En esta Orden se prevé que la Comisión Nacional de Mercado de Valores (en adelante CNMV) establecerá los criterios generales que determinan que los valores de una empresa negocien en el Nuevo Mercado, así como las condiciones particulares de admisión y permanencia que, en su caso, sean necesarias y hayan de cumplir las empresas que vayan a negociar allí.</p>
+          <p class="parrafo">Además, en ausencia de una regulación específica, algunas Bolsas españolas habían establecido índices sectoriales para agrupar los valores tecnológicos que ya estaban admitidos a cotización. Indudablemente, los valores incluidos en estos índices tecnológicos responden a la naturaleza y objeto del Nuevo Mercado.</p>
+          <p class="parrafo">Para el establecimiento de los criterios y condiciones contenidos en esta Circular se han analizado los criterios existentes en segmentos especiales de negociación de características similares existentes en otras Bolsas europeas, los mercados regulados (en términos de la Directiva de Servicios de Inversión) tipo «NM», y se han adaptado a las circunstancias de la realidad económica empresarial española. A este respecto, dado que los elevados estándares informativos y de transparencia de los mercados tipo «NM» europeos, mucho más exigentes que los de segundos mercados e incluso en algún extremo más rigurosos que los de los primeros mercados, son bastante parecidos a los que rigen en los mercados bursátiles españoles, esta coincidencia ha facilitado su aplicación al Nuevo Mercado español, pues ha bastado con establecer la correspondiente referencia a la normativa de carácter general española allí donde había similitud.</p>
+          <p class="parrafo">Al objeto de dar cumplimiento al mandato de la Orden mencionada, esta Circular contiene cinco normas en las que se abordan: 1) El tipo de empresas al que se dirige el Nuevo Mercado; 2) las condiciones de admisión; 3) los requisitos de información y transparencia de los emisores; 4) las particularidades del procedimiento de admisión de valores al Nuevo Mercado, y 5) las condiciones específicas de contratación que han de establecer para la negociación de valores en el Nuevo Mercado, habida cuenta la presumible alta variabilidad de precios que puede darse en dicha negociación. Como cierre de la Circular se incluye una disposición final de entrada en vigor.</p>
+          <p class="parrafo">En su virtud, en desarrollo de la Orden de Ministro de Economía y Hacienda de 22 de diciembre de 1999 por la que se crea el segmento especial de negociación en la Bolsa de Valores denominado Nuevo Mercado objeto de esta Circular y haciendo uso de las habilitaciones previstas, previo informe del Comité Consultivo de la Comisión Nacional del Mercado de Valores, el Consejo de la Comisión Nacional de Mercado de Valores, en su reunión de 9 de febrero de 2000, ha dispuesto lo siguiente:</p>
+        </version>
+      </bloque>
+      <bloque id="n1" tipo="precepto" titulo="Norma 1">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="articulo">Norma 1.ª Tipo de empresas a las que se dirige el Nuevo Mercado.</p>
+          <p class="parrafo_2">El Nuevo Mercado de las Bolsas españolas tiene por objeto la negociación de los valores emitidos por las siguientes empresas:</p>
+          <p class="parrafo_2">a) Aquellas cuya actividad principal se enmarque en un sector innovador tecnológicamente puntero en el ámbito de producto o en el ámbito de proceso productivo.</p>
+          <p class="parrafo">b) Aquellas cuya actividad pertenezca a sectores que ofrezcan, por su mercado potencial, grandes posibilidades de crecimiento.</p>
+          <p class="parrafo_2">En ambos casos, la actividad principal del emisor estará sujeta a mayores niveles de riesgo y la cotización de sus valores sometida a mayor variabilidad que los valores de sectores tradicionales, por estar su proceso productivo, su ciclo económico o su mercado potencial sujetos a la incertidumbre de lo novedoso.</p>
+        </version>
+      </bloque>
+      <bloque id="n2" tipo="precepto" titulo="Norma 2">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="articulo">Norma 2.ª Condiciones de admisión al Nuevo Mercado.</p>
+          <p class="parrafo_2">Para que sus valores sean admitidos en el Nuevo Mercado, los emisores deberán cumplir los requisitos de carácter general establecidos en la Ley del Mercado de Valores, en su normativa de desarrollo y en el Reglamento de las Bolsas.</p>
+        </version>
+      </bloque>
+      <bloque id="n3" tipo="precepto" titulo="Norma 3">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="articulo">Norma 3.ª Requisitos de información y transparencia de los emisores.</p>
+          <p class="parrafo_2">1. Las obligaciones relativas a la transparencia informativa de las actividades y situación financiera de las empresas cuyos valores negocien en el Nuevo Mercado, tales como deberes de información pública periódica y publicidad de hechos relevantes, serán las previstas en la Ley del Mercado de Valores y su normativa de desarrollo.</p>
+          <p class="parrafo">2. Al menos una vez al año los emisores pondrán a disposición del público, en forma de hecho relevante, una información explicativa de la evolución y perspectivas del negocio y de los planes de inversión y financiación previstos para su futuro desarrollo o expansión.</p>
+        </version>
+      </bloque>
+      <bloque id="n4" tipo="precepto" titulo="Norma 4">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="articulo">Norma 4.ª Sobre el procedimiento de admisión.</p>
+          <p class="parrafo_2">1. Toda empresa que reúna los requisitos de la norma 1.<sup>a</sup> de esta Circular deberá obtener de las Bolsas un informe no vinculante sobre la idoneidad para cotizar en el Nuevo Mercado con anterioridad a la verificación del folleto informativo que ampare su admisión en él.</p>
+          <p class="parrafo">2. En lo demás, el procedimiento de emisión, oferta pública y admisión de los valores se regirá por lo previsto en la Ley del Mercado de Valores y su normativa de desarrollo, debiendo incorporar el folleto informativo correspondiente las siguientes informaciones específicas:</p>
+          <p class="parrafo_2">a) En el capítulo IV del folleto completo o continuado se incluirán descripciones del ciclo económico, mercado potencial, aspectos tecnológicos y demás factores relevantes para el desarrollo de la actividad de la empresa, así como los elementos de incertidumbre o riesgos asociados a ellos, que influyen en sus posibilidades de crecimiento y que son indicativos de que la empresa cumple los criterios de la norma 1.<sup>a</sup> de esta Circular.</p>
+          <p class="parrafo">b) El capítulo VII del folleto completo o continuado contendrá una información detallada acerca de las ulteriores operaciones y planes concretos futuros de inversión y financiación que la empresa tiene proyectado acometer y que incidirán sobre la estructura de capital y sobre la evolución y perspectivas de desarrollo de su actividad.</p>
+          <p class="parrafo">c) El capítulo II del folleto informativo recogerá de forma clara los compromisos adoptados, en su caso, por los accionistas con una participación significativa respecto de su permanencia en el capital de la empresa y su participación en ulteriores operaciones de financiación de la empresa, así como su pertenencia al Consejo de Administración.</p>
+          <p class="parrafo">d) El capítulo II también recogerá el alcance y pormenores de los eventuales acuerdos que la empresa hubiera concertado con los miembros de las Bolsas en los que éstos se obliguen a fomentar la liquidez de los valores de la empresa.</p>
+        </version>
+      </bloque>
+      <bloque id="n5" tipo="precepto" titulo="Norma 5">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="articulo">Norma 5.ª Condiciones específicas de contratación de valores en el Nuevo Mercado.</p>
+          <p class="parrafo_2">1. Las reglas de contratación de valores que establezcan las Bolsas deberán:</p>
+          <p class="parrafo_2">a) Fijar límites de fluctuación diaria de precio específicos para el Nuevo Mercado.</p>
+          <p class="parrafo">b) Regular las circunstancias y mecanismos automáticos o discrecionales de ampliación de dichos límites.</p>
+          <p class="parrafo">c) Crear sistemas para la resolución de situaciones que impidan la formación de precio y la negociación de los valores.</p>
+          <p class="parrafo">d) Fijar tanto los límites como las normas de transparencia de carácter general para la actuación de los miembros que se obliguen a fomentar la liquidez de los valores, de forma que no interfieran en la correcta formación de precios del mercado.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo_2">Esta Circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2000-3196" fecha_publicacion="20000217" fecha_vigencia="20000218">
+          <p class="parrafo_2">Madrid, 9 de febrero de 2000.–El Presidente, Juan Fernández-Armesto Fernández España.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200247Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-1211</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="3210">Ministerio de Fomento</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20021220</fecha_disposicion>
+      <numero_oficial>1378/2002</numero_oficial>
+      <titulo>Real Decreto 1378/2002, de 20 de diciembre, por el que se aprueban los Estatutos generales del Colegio Oficial de Pilotos de la Aviación Comercial.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030120</fecha_publicacion>
+      <diario_numero>17</diario_numero>
+      <fecha_vigencia>20030121</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2002/12/20/1378</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-1211</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="5581">Pilotos de aviación</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1999-15497</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 2 de julio de 1999</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1998-24773</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 1 de la Ley 35/1998, de 27 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1974-289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 6.2 de la Ley 2/1974, de 13 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-1211</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-12-20</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1378</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5581"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-1211</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-12-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1378</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5581"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/con/20030120"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1378/2002, de 20 de diciembre, por el que se aprueban los Estatutos generales del Colegio Oficial de Pilotos de la Aviación Comercial.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-01-20</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/con/20030120">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-1211</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-12-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1378</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5581"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-01-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/con/20030120/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1378/2002, de 20 de diciembre, por el que se aprueban los Estatutos generales del Colegio Oficial de Pilotos de la Aviación Comercial.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/con/20030120"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2002/12/20/1378/con/20030120/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2002/12/20/1378/con/20030120/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="parrafo">El Colegio Oficial de Pilotos de la Aviación Comercial (COPAC) fue creado por la Ley 35/1998, de 27 de octubre, que dispuso en su artículo 1 que agrupará para el ejercicio de la profesión, de conformidad con lo dispuesto en las Leyes 2/1974, de 13 de febrero, y 77/1997, de 14 de abril, a todos los profesionales que se encuentren en posesión de los títulos aeronáuticos civiles de Pilotos Comerciales y de Pilotos de Transporte de Línea Aérea, en sus modalidades de avión o helicóptero.</p>
+          <p class="parrafo">Para permitir la constitución del Colegio, el Ministerio de Fomento, mediante Orden de 2 de julio de 1999, procedió a la aprobación de unos Estatutos Provisionales, en cumplimiento de mandato contenido en la disposición transitoria primera de aquella Ley. Esta norma ha cumplido su finalidad, pues ha permitido organizar el proceso electoral conducente a la elección de la primera Junta de Gobierno del Colegio, pero resulta manifiestamente insuficiente en la actualidad para regular la organización y funcionamiento de esta corporación de derecho público.</p>
+          <p class="parrafo">Por este motivo, y en aplicación de lo dispuesto también en la disposición transitoria segunda de la Ley de creación del Colegio, la Asamblea General del Colegio Oficial de Pilotos de la Aviación Comercial aprobó los nuevos Estatutos Generales del Colegio para su sometimiento a la aprobación del Gobierno de la Nación, de modo que permitan completar su marco normativo institucional mínimo que permita al Colegio desplegar todas las funciones y cometidos que el ordenamiento jurídico le atribuye.</p>
+          <p class="parrafo">En su virtud, de conformidad con lo dispuesto en el artículo 6.2 de la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales, a propuesta del Ministerio de Fomento, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 20 de diciembre de 2002,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="au" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo único. Aprobación de los Estatutos generales.</p>
+          <p class="parrafo">Se aprueban los Estatutos generales del Colegio Oficial de Pilotos de la Aviación Comercial, que figura como anexo al presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Disposición adicional única. Respeto a las competencias de las Comunidades Autónomas.</p>
+          <p class="parrafo">Lo dispuesto en los presentes Estatutos generales del Colegio Oficial de Pilotos de la Aviación Comercial se entiende sin perjuicio de las competencias que, en materia de Colegios Profesionales, corresponden a las Comunidades Autónomas conforme a su legislación propia.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa singular.</p>
+          <p class="parrafo">Queda derogada la Orden del Ministerio de Fomento de 2 de julio de 1999 por la que se aprobaron los Estatutos provisionales del Colegio Oficial de Pilotos de la Aviación Comercial.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="parrafo_2">Dado en Madrid a 20 de diciembre de 2002.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Fomento,</p>
+          <p class="firma_ministro">FRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatutos generales del Colegio Oficial de Pilotos de la Aviación Comercial</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 1. Configuración y naturaleza jurídica del Colegio.</p>
+          <p class="parrafo">El Colegio Oficial de Pilotos de la Aviación Comercial (COPAC), creado por Ley 35/1998, de 27 de octubre, es una corporación de derecho público amparada por la Ley y reconocida por el Estado, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines, de conformidad con el artículo 1 de la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 2. Ámbito del Colegio.</p>
+          <p class="parrafo">El Colegio Oficial de Pilotos de la Aviación Comercial se constituye como Colegio único de ámbito nacional.</p>
+          <p class="parrafo">La sede central del Colegio radica en Madrid, pero podrán crearse otras sedes, atendiendo a criterios de concentración de profesionales o por razones geográficas, que permitan el ejercicio descentralizado de funciones de administración del Colegio, según se establezca en el Reglamento de régimen interior del Colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 3. Relación con las Administraciones.</p>
+          <p class="parrafo">El Colegio Oficial de Pilotos de la Aviación Comercial se relacionará con la Administración General del Estado a través del Ministerio de Fomento, y con las Administraciones de las Comunidades Autónomas a través de la Consejería respectiva competente por razón de la materia de la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 4. Fines esenciales.</p>
+          <p class="parrafo">El Colegio Oficial de Pilotos de la Aviación Comercial se constituye para la satisfacción de los siguientes fines esenciales: ordenar, en el marco del ordenamiento jurídico, el ejercicio de la profesión; procurar la observancia de la deontología profesional; representar y defender la profesión y los intereses profesionales de sus colegiados, sin perjuicio de las específicas competencias de los sindicatos en materia de relaciones laborales; realizar las actividades de interés general propias de la aviación comercial que estime oportunas o le encomienden los poderes públicos; y velar por la seguridad y la legalidad de las operaciones de vuelo en garantía de los derechos fundamentales de los ciudadanos como usuarios del transporte aéreo y de la aviación comercial.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 5. Incorporación al Colegio.</p>
+          <p class="parrafo">De conformidad con lo dispuesto en el artículo 3.2 de la Ley 2/1974, de 13 de febrero, sobre Colegios Profesionales, y para la adecuada satisfacción de los fines esenciales del Colegio señalados, el ingreso en el Colegio es requisito indispensable para el ejercicio en territorio español de la profesión de piloto de la aviación comercial.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 6. Uniforme profesional.</p>
+          <p class="parrafo">El uniforme profesional, en misiones de transporte público de viajeros, consistirá en un traje oscuro, siendo indispensable portar los distintivos de la función que realicen a bordo y que serán: cuatro galones dorados en la bocamanga y las hombreras, para los comandantes de aeronave; tres galones dorados en la bocamanga y las hombreras para el copiloto; y dos galones dorados para pilotos en prácticas y alumnos pilotos. Podrán usar el distintivo del Colegio Oficial de Pilotos de la Aviación Comercial o de la Dirección General de Aviación Civil bordados o prendidos en su uniforme. La utilización de gorro de plato y la inclusión del emblema de la compañía en la botonadura es opcional.</p>
+          <p class="parrafo">En el resto de las misiones en que no pueda vestirse el uniforme profesional, el ejercicio de la profesión se realizará con ropa acorde a la dignidad de la profesión que representa; debiendo ostentar en todo caso los distintivos de la función profesional asumida anteriormente especificados.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 1.ª Régimen de la colegiación</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 7. Condiciones de ingreso en el Colegio.</p>
+          <p class="parrafo">1. Son condiciones necesarias para ingresar en el Colegio Oficial de Pilotos de la Aviación Comercial:</p>
+          <p class="parrafo_2">a) Poseer la titulación legalmente admitida en España para el ejercicio de la profesión de piloto de la aviación comercial.</p>
+          <p class="parrafo">b) No hallarse inhabilitado para el ejercicio de la profesión como consecuencia de una resolución judicial penal firme.</p>
+          <p class="parrafo">c) Cualesquiera otras exigibles por las disposiciones legales vigentes reguladoras de la aviación comercial.</p>
+          <p class="parrafo_2">2. Es obligatoria la incorporación al Colegio Oficial de Pilotos de la Aviación Comercial para el ejercicio habitual, en territorio español, de las atribuciones que, de conformidad con la normativa vigente reguladora de los títulos aeronáuticos civiles en vigor, son inherentes a los títulos de Piloto Comercial y Piloto de Transporte de Línea Aérea, en sus modalidades de avión y/o helicóptero, expedidos por las autoridades aeronáuticas españolas, o de la titulación o autorización equivalente expedidos por las autoridades aeronáuticas españolas o de cualquier otro Estado siempre que habiliten legalmente en España para ejercer la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 8. Procedimiento de incorporación.</p>
+          <p class="parrafo">1. Para ingresar en el Colegio Oficial de Pilotos de la Aviación Comercial se solicitará mediante escrito dirigido a la Junta de Gobierno, acompañando los documentos necesarios que acrediten el cumplimiento de las condiciones de acceso exigidas.</p>
+          <p class="parrafo">La condición señalada en el apartado 1.a) del artículo anterior se acreditará mediante copia auténtica del título profesional o testimonio notarial de éste. En caso de tratarse de un título profesional extranjero se aportará, además, la documentación acreditativa de su homologación o reconocimiento en España a efectos profesionales. La condición descrita en el apartado 1.b) se entenderá acreditada por declaración del interesado. Igualmente se declararán y, en su caso, acreditarán los restantes datos que deban constar en el registro que constituya el Colegio Oficial de Pilotos de la Aviación Comercial de conformidad con lo dispuesto en el artículo 14.a) de estos Estatutos.</p>
+          <p class="parrafo">2. La Junta de Gobierno del Colegio resolverá las solicitudes de colegiación en el plazo máximo de un mes, pudiendo denegarlas únicamente cuando no se cumplan las condiciones fijadas en el artículo anterior. La Junta de Gobierno podrá delegar en uno de sus miembros el ejercicio de la competencia anterior. Podrá suspenderse por un plazo máximo de tres meses la resolución de la solicitud para subsanar deficiencias de la documentación presentada o efectuar las comprobaciones que sean procedentes a fin de verificar su legitimidad y suficiencia. Transcurrido el plazo señalado sin que la Junta de Gobierno se hubiera pronunciado sobre la solicitud, ésta se entenderá estimada.</p>
+          <p class="parrafo">3. El acuerdo de denegación de incorporación al Colegio debe ser motivado. Dicho acuerdo será recurrible ante la Junta de Gobierno del Colegio, y contra su resolución sólo cabrá el recurso contencioso-administrativo, que se interpondrá de conformidad con lo dispuesto en la vigente Ley de la Jurisdicción Contencioso-Administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 9. Pérdida de la condición de colegiado.</p>
+          <p class="parrafo">1. Son causas de la pérdida de la condición de colegiado:</p>
+          <p class="parrafo_2">a) La renuncia, manifestada por escrito, del colegiado; siempre que a la misma siga el cese, voluntario o legal, en el ejercicio profesional.</p>
+          <p class="parrafo">b) La pérdida o la incorrección, debidamente comprobadas, de las condiciones de acceso al Colegio; en particular, la inhabilitación para el ejercicio de la profesión como consecuencia de una resolución judicial penal firme.</p>
+          <p class="parrafo">c) El impago de las cuotas colegiales, que sean acordadas por la Asamblea General, durante un año. El descubierto debe ser previamente notificado al colegiado antes de hacerse efectiva la baja, previa instrucción del correspondiente expediente disciplinario con audiencia del interesado. La reincorporación quedará condicionada al pago de las cantidades adeudadas con sus correspondientes intereses legales.</p>
+          <p class="parrafo">d) La expulsión del Colegio en virtud de sanción disciplinaria firme a la que alude el artículo 31 de estos Estatutos.</p>
+          <p class="parrafo">e) El fallecimiento del colegiado.</p>
+          <p class="parrafo_2">2. La concurrencia de una causa de pérdida de la condición de colegiado será apreciada por la Junta de Gobierno del Colegio, quien la acordará en su caso.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 2.ª Derechos y obligaciones de los colegiados</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 10. Principios generales.</p>
+          <p class="parrafo">1. La incorporación al Colegio confiere a todo piloto de la aviación comercial los derechos y deberes inherentes a la condición de miembro del Colegio. El Colegio protegerá y defenderá a sus colegiados en el ejercicio recto y legítimo de la profesión.</p>
+          <p class="parrafo">2. Todos los colegiados son iguales en los derechos y deberes establecidos en este capítulo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 11. Derechos.</p>
+          <p class="parrafo">Son derechos de los pilotos de la aviación comercial colegiados:</p>
+          <p class="parrafo_2">a) Intervenir y votar en la Asamblea General.</p>
+          <p class="parrafo">b) Participar en el gobierno del Colegio y ejercer el derecho a elegir y ser elegido para los cargos de Junta de Gobierno, en los términos señalados en el capítulo III de estos Estatutos.</p>
+          <p class="parrafo">c) Dirigirse a los órganos del Colegio formulando peticiones y presentando quejas.</p>
+          <p class="parrafo">d) Ejercer el derecho de recurso contra los acuerdos y resoluciones de los órganos colegiales.</p>
+          <p class="parrafo">e) Recibir información regular sobre la actividad corporativa y de interés profesional, y examinar los documentos contables en que se refleja la actividad económica del Colegio, en la forma y plazos que determine el Reglamento de régimen interior del Colegio.</p>
+          <p class="parrafo">f) Obtener información y, en su caso, certificación de los documentos y actos colegiales que le afecten personalmente.</p>
+          <p class="parrafo">g) Utilizar los servicios que tenga establecidos el Colegio, en la forma y condiciones fijadas al efecto.</p>
+          <p class="parrafo">h) Ser asesorado o defendido por el Colegio, dentro de su competencia, en cuantas cuestiones se susciten relativas a sus derechos e intereses legítimos de carácter profesional, en la forma y condiciones que se fijen al efecto.</p>
+          <p class="parrafo">i) Ser mantenido en pleno uso de sus derechos hasta tanto no se produzca su suspensión o baja conforme a los Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 12. Obligaciones.</p>
+          <p class="parrafo">1. Son deberes de todo miembro del Colegio:</p>
+          <p class="parrafo_2">a) Ejercer la profesión con rectitud y sentido ético, observando las reglas deontológicas de la profesión contenidas en las normas o código deontológico que se apruebe por el Colegio.</p>
+          <p class="parrafo">b) Cumplir las disposiciones de los presentes Estatutos, así como las normas y resoluciones dictadas por los órganos colegiales y prestar el respeto debido a los titulares de dichos órganos.</p>
+          <p class="parrafo">c) Comunicar al Colegio la forma de ejercicio profesional y sus modificaciones, así como los restantes datos que le sean recabados, siempre que fueren estrictamente necesarios para el cumplimiento de las funciones colegiales.</p>
+          <p class="parrafo">d) Observar las incompatibilidades profesionales y causas de abstención legalmente establecidas.</p>
+          <p class="parrafo">e) Contribuir puntualmente al sostenimiento económico del Colegio conforme a los Estatutos y a los acuerdos adoptados por los órganos colegiales para su aplicación.</p>
+          <p class="parrafo">f) Actuar con fidelidad y diligencia en el desempeño de los cargos colegiales para los que sea elegido o designado.</p>
+          <p class="parrafo_2">2. Estos deberes configuran el régimen necesario de la actuación profesional y colegial del colegiado, constituyendo su observancia el objeto propio de las potestades colegiales de control y disciplina reguladas en estos Estatutos y en las normas deontológicas de actuación profesional que en desarrollo de los anteriores se aprueben por el Colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Funcionamiento, organización y régimen electoral del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 1.ª Funciones del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 13. Funciones del Colegio.</p>
+          <p class="parrafo">Para la consecución de los fines esenciales del Colegio señalados en el Título I, el Colegio desempeña, al amparo de la vigente legislación sobre Colegios Profesionales, funciones de ordenación del ejercicio profesional; representación y defensa de la profesión y de sus colegiados; servicio a los colegiados, y autoorganización.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 14. De la ordenación del ejercicio y la actividad profesional de los colegiados.</p>
+          <p class="parrafo">Son funciones de ordenación del ejercicio y la actividad profesional de los colegiados:</p>
+          <p class="parrafo_2">a) El registro de todos sus miembros, para lo que llevarán al día una relación de aquéllos en que conste, como mínimo, copia auténtica del título profesional o testimonio notarial del título, la fecha de alta, el domicilio profesional y de residencia, y cuantas circunstancias afecten a su habilitación para el ejercicio profesional. El Colegio facilitará a los órganos jurisdiccionales y a las Administraciones públicas, de conformidad con las leyes, la relación de colegiados que pudieran ser requeridos para intervenir como peritos o designarlos directamente.</p>
+          <p class="parrafo">b) Velar por que la actividad profesional de los colegiados se someta, en todo caso, a la ética y dignidad de la profesión, y al debido respeto a los derechos de los ciudadanos en garantía de sus derechos fundamentales como usuarios del transporte aéreo y de la aviación comercial. Para el cumplimiento de esta función esencial, el Colegio aprobará normas deontológicas que rijan la actividad profesional de sus colegiados. Las normas deontológicas no podrán contravenir lo dispuesto en estos Estatutos.</p>
+          <p class="parrafo">c) El ejercicio, en el orden profesional y colegial, de la potestad disciplinaria sobre los colegiados que incumplan las prescripciones legales o deontológicas.</p>
+          <p class="parrafo">d) Cumplir y hacer cumplir a los colegiados las leyes generales y especiales, los Estatutos generales y el Reglamento de régimen interior, así como todas las normas y decisiones acordadas por los órganos colegiales.</p>
+          <p class="parrafo">e) La adopción de las medidas conducentes a la evitación del intrusismo profesional.</p>
+          <p class="parrafo">f) Procurar la armonía y colaboración entre los colegiados, adoptando las medidas conducentes a evitar la competencia desleal entre ellos.</p>
+          <p class="parrafo">g) Mediar, en vía de conciliación o arbitraje, en las cuestiones que, por motivos profesionales, se susciten entre los colegiados.</p>
+          <p class="parrafo">h) Colaborar con las Administraciones y autoridades aeronáuticas, nacionales e internacionales, para la mejora del transporte aéreo, y solicitar de ellas los medios indispensables que garanticen la seguridad y los derechos fundamentales de los ciudadanos como usuarios del transporte aéreo y de la aviación comercial.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 15. De la representación y defensa de la profesión y de sus colegiados.</p>
+          <p class="parrafo">El Colegio ejerce las siguientes funciones de representación y defensa de la profesión y de sus colegiados:</p>
+          <p class="parrafo_2">a) Ostentar, en su ámbito, la representación y defensa de la profesión ante las Administraciones públicas, los tribunales y demás poderes públicos, así como ante cualesquiera instituciones, entidades y particulares.</p>
+          <p class="parrafo">b) Actuar ante los jueces y tribunales en cuantos litigios afecten a los intereses profesionales, con la legitimación que la Ley les otorga, pudiendo hacerlo en representación o sustitución procesal de sus miembros.</p>
+          <p class="parrafo">c) Informar en los procedimientos, administrativos o judiciales, en que se discutan cualesquiera cuestiones profesionales, cuando sean requeridos para ello o cuando se prevea su intervención con arreglo a la legislación vigente; en particular, cuando se refieran a accidentes o incidentes de aeronaves en territorio o con matrícula española.</p>
+          <p class="parrafo">d) Informar, con arreglo a las leyes, los proyectos de disposiciones normativas que regulen o afecten directamente las condiciones generales de las funciones profesionales o a la navegación aérea.</p>
+          <p class="parrafo">e) Cooperar al mejoramiento de la enseñanza e investigación de la profesión, para lo que podrán crear instituciones científicas, educativas o culturales, o colaborar con ellas mediante los convenios que el Colegio pueda suscribir con las mismas.</p>
+          <p class="parrafo">f) Participar, cuando así se encuentre establecido por disposiciones legales o reglamentarias, en los consejos, organismos consultivos, comisiones u órganos análogos de las Administraciones y autoridades aeronáuticas, nacionales o internacionales, en materia de aviación comercial, en particular, cuando afecte a la mejora, ordenación y seguridad del tráfico aéreo, así como a la investigación de accidentes o incidentes aéreos.</p>
+          <p class="parrafo">g) Ejercer cuantas funciones le sean encomendadas por la Administración, de conformidad con los instrumentos previstos en la vigente legislación sobre procedimiento administrativo común; y colaborar con ella mediante la realización de estudios, emisión de informes, elaboración de estadísticas y otras actividades relacionadas con sus fines que pueden serles solicitadas o acuerden formular por propia iniciativa.</p>
+          <p class="parrafo">h) Realizar peritajes, bien por cuenta propia, o bien a petición de los colegiados, de las Administraciones o autoridades aeronáuticas, de los jueces y tribunales, o de cualesquiera otras entidades públicas y privadas, en particular con ocasión de siniestros, accidentes o incidentes aéreos.</p>
+          <p class="parrafo">i) Cuantas otras funciones redunden en beneficio de los intereses profesionales de los colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 16. De servicio.</p>
+          <p class="parrafo">El Colegio podrá ofrecer a sus colegiados, de acuerdo con las condiciones que crea más convenientes, y entre otros, los servicios siguientes:</p>
+          <p class="parrafo_2">a) Resolver, por laudo, con arreglo a la legislación vigente sobre arbitrajes, los conflictos y discrepancias que le fueran sometidos.</p>
+          <p class="parrafo">b) Organizar actividades y servicios de interés para los colegiados de índole profesional, formativa, cultural, médico-profesional, asistencial, de previsión y otros análogos; o colaborar, en su caso, con instituciones de este carácter. El Colegio podrá crear una mutualidad o institución análoga, siendo su incorporación, en todo caso, de naturaleza voluntaria.</p>
+          <p class="parrafo">c) Asesorar a sus colegiados y promover cursos de formación y especialización.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 17. De la autoorganización.</p>
+          <p class="parrafo">El Colegio, en el ejercicio de su potestad de autoorganización interna, ejercerá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Aprobar el Reglamento de régimen interior, en desarrollo y con sujeción a los presentes Estatutos generales.</p>
+          <p class="parrafo">b) Aprobar y ejecutar sus presupuestos.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 2.ª Organización interna</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 18. Órganos colegiales.</p>
+          <p class="parrafo">1. Son órganos colegiales del Colegio Oficial de Pilotos de la Aviación Comercial:</p>
+          <p class="parrafo_2">a) La Asamblea General de colegiados.</p>
+          <p class="parrafo">b) La Junta de Gobierno.</p>
+          <p class="parrafo">c) El Decano del Colegio.</p>
+          <p class="parrafo_2">2. La Junta de Gobierno creará una Comisión Deontológica para el estudio de las cuestiones éticas relacionadas con el ejercicio profesional y demás actuaciones que se le atribuyan de conformidad con estos Estatutos, así como cuantas otras comisiones estime convenientes para el estudio o dirección de los asuntos de interés para la entidad y los colegiados.</p>
+          <p class="parrafo">El Reglamento de régimen interior del Colegio concretará la composición, atribuciones y régimen de funcionamiento de la Comisión Deontológica, sin perjuicio de lo que pueda establecer con carácter general para todas las comisiones que se creen por la Junta de Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 19. Asamblea General de colegiados.</p>
+          <p class="parrafo">1. La Asamblea General de colegiados es el órgano supremo de expresión de la voluntad del Colegio y se rige por los principios de participación igual y democrática de todos los colegiados.</p>
+          <p class="parrafo">2. La participación en la Asamblea General será personal, pudiendo ser también por representación o delegación; admitiéndose un número máximo de cinco votos delegados por colegiado presente. La representación deberá otorgarse por escrito y será válida sólo para cada Asamblea General.</p>
+          <p class="parrafo">3. Son competencias de la Asamblea General:</p>
+          <p class="parrafo_2">a) Aprobar las propuestas de modificación de los vigentes Estatutos Generales para su sometimiento a la aprobación definitiva del Gobierno de la Nación, y aprobar el Reglamento de régimen interior del Colegio, sin perjuicio de la facultad de la Junta de Gobierno para aprobar las correspondientes normativas de desarrollo. Aprobar el código deontológico de ejercicio profesional.</p>
+          <p class="parrafo">b) Aprobar los presupuestos y acordar los recursos económicos del Colegio; fijando un sistema de cuotas, ordinarias o extraordinarias.</p>
+          <p class="parrafo">c) Aprobar definitivamente la liquidación de los presupuestos y las cuentas de gastos e ingresos de cada ejercicio vencido.</p>
+          <p class="parrafo">d) Autorizar los actos de disposición de los bienes inmuebles propios y derechos reales constituidos sobre éstos así como de los restantes bienes patrimoniales propios que figuren inventariados como de considerable valor.</p>
+          <p class="parrafo">e) Controlar la gestión de la Junta de Gobierno, recabando informes y adoptando o resolviendo, en su caso, las oportunas mociones.</p>
+          <p class="parrafo">f) Además, la Asamblea conocerá cuantos otros asuntos le someta la Junta de Gobierno.</p>
+          <p class="parrafo_2">4. Todos los años se celebrará al menos una Asamblea General del Colegio en el segundo trimestre, que tendrá carácter ordinario. Asimismo pueden celebrarse Asambleas Generales extraordinarias cuando lo acuerde la Junta de Gobierno por propia iniciativa o a solicitud de, al menos, el 20 por 100 de colegiados. La Asamblea General ordinaria tratará, como mínimo, los asuntos relacionados en los párrafos b), c) y e) del apartado anterior; y las extraordinarias de los asuntos objeto de convocatoria.</p>
+          <p class="parrafo">5. Las Asambleas Generales, sean ordinarias o extraordinarias, deberán convocarse por la Junta de Gobierno del Colegio con un mes de antelación; que en casos de urgencia, apreciada y debidamente justificada, se podrá acortar a diez días. Las convocatorias señalarán un orden del día provisional y serán notificadas a todos los colegiados por correo escrito o mediante procedimientos informatizados, acompañando, cuando sea imprescindible, la documentación concerniente a los temas debatidos, sin perjuicio de su consulta por los colegiados en las oficinas colegiales. El Reglamento de régimen interior del Colegio determinará el procedimiento de presentación de propuestas para deliberación y acuerdo de la Asamblea General por los colegiados.</p>
+          <p class="parrafo">6. Las Asambleas se celebrarán en el lugar, día y hora señalados en la primera o segunda convocatoria, si procediera. Estarán presididas y dirigidas por el Decano del Colegio o, en su defecto, por quien legalmente le sustituya. Abierta la sesión, se procederá a la lectura y aprobación, en su caso, del borrador del acta de la sesión anterior, debatiéndose seguidamente los asuntos que figuren en el orden del día definitivo. El Decano moderará el debate y concederá el turno de palabra según usos democráticos.</p>
+          <p class="parrafo">Las votaciones serán a mano alzada, salvo cuando una tercera parte de los colegiados presentes solicite que sean nominales o secretas. En cualquier caso, la votación será secreta en los asuntos en que pudiera verse condicionada la libertad en la emisión del voto. No podrán tomarse acuerdos sobre los asuntos que no figuren en el orden del día.</p>
+          <p class="parrafo">Como regla general, los acuerdos serán adoptados por mayoría de votos emitidos, sin necesidad de quorum de asistencia. No obstante, cuando se trate de la modificación de los Estatutos generales será preciso la concurrencia, por sí o debidamente representados, de al menos el 20 por 100 de los colegiados.</p>
+          <p class="parrafo">7. Con objeto de que la aprobación del acta de la Asamblea General no se demore hasta la próxima reunión, el Secretario confeccionará un borrador de acta que someterá a la aprobación y firma del Decano y Secretario del Colegio y de dos colegiados designados por la Asamblea General de entre sus asistentes, en el plazo de quince días siguientes a la reunión. Obtenida la conformidad a la redacción, el Secretario hará constar la aprobación de la misma en el libro de actas. El acta habrá de ser ratificada en la próxima Asamblea General.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 20. Junta de Gobierno.</p>
+          <p class="parrafo">1. La Junta de Gobierno es el órgano de administración y dirección del Colegio que ejerce las competencias de éste no reservadas a la Asamblea General conforme al artículo anterior, ni asignadas específicamente por los Estatutos a otros órganos colegiales. En todo caso, le corresponde:</p>
+          <p class="parrafo_2">a) Ostentar la representación del Colegio en todos aquellos aspectos que no estén expresamente atribuidos a la Asamblea General de colegiados o al Decano.</p>
+          <p class="parrafo">b) Convocar las Asambleas Generales de colegiados.</p>
+          <p class="parrafo">c) Resolver sobre las solicitudes de incorporación, así como los recursos que se interpusieran contra su denegación, según lo establecido en el artículo 8 de estos Estatutos.</p>
+          <p class="parrafo">d) Cumplir o hacer cumplir las obligaciones que impongan los Estatutos, Reglamento de régimen interior y acuerdos de la Asamblea General de colegiados o de la Junta de Gobierno.</p>
+          <p class="parrafo">e) Ejercer la función disciplinaria imponiendo, en su caso, las correspondientes sanciones.</p>
+          <p class="parrafo">f) Nombrar a los miembros de la Comisión Deontológico y de las demás comisiones que se creen.</p>
+          <p class="parrafo">g) Tomar, en caso de urgencia, resoluciones de la competencia de la Asamblea General de colegiados, dando cuenta de ellas en el plazo de un mes como máximo, la cual ratificará o no dichas resoluciones, sin perjuicio de los acuerdos a que haya lugar sobre el proceder de la Junta de Gobierno.</p>
+          <p class="parrafo">h) Acordar toda clase de gastos e ingresos de los que figuren en presupuesto aprobado por la Asamblea General de colegiados.</p>
+          <p class="parrafo">i) Confeccionar los presupuestos del Colegio.</p>
+          <p class="parrafo">j) Someter a la Asamblea General la rendición de cuentas del ejercicio vencido.</p>
+          <p class="parrafo_2">2. La Junta de Gobierno estará formada por el Decano, el Vicedecano, Secretario, el Vicesecretario, el Tesorero y nueve vocales.</p>
+          <p class="parrafo">3. Los cargos de la Junta de Gobierno tienen una duración ordinaria de cuatro años, debiendo procederse a su finalización a la convocatoria de nuevas elecciones. La convocatoria será inmediata, si antes de la renovación hubiera prosperado una moción de censura. Podrá ostentarse un cargo colegial como máximo durante dos mandatos consecutivos. Este límite temporal comenzará a contarse a partir de las primeras elecciones organizadas de conformidad con estos Estatutos.</p>
+          <p class="parrafo">4. Quienes desempeñen los cargos de Decano o de miembro de Junta de Gobierno deberán encontrarse en el ejercicio efectivo de la profesión y tener una antigüedad mínima de cinco años en el ejercicio profesional.</p>
+          <p class="parrafo">5. Se considera incompatible para ocupar cargos de la Junta de Gobierno, mientras no renuncien a la situación que genera la incompatibilidad, la concurrencia de alguna de las siguientes circunstancias: tener cargo electo o directivo en juntas o secciones de sindicatos; ostentar la jefatura de departamento, o cargo similar de responsabilidad, en compañía aérea; tener responsabilidades en puesto o cargo público de regulación, operación o control de la aviación comercial; ocupar puesto o cargo en institución pública o privada con intereses específicos en el ámbito de la aviación comercial; o cualquier otro cuyo cometido pudiera comprometer la independencia o libertad de criterio o fuese representativo de intereses contrapuestos a los del Colegio, los cuales deberán ser previamente declarados de conformidad con lo dispuesto en el Reglamento de régimen interno.</p>
+          <p class="parrafo">6. Cuando se produzcan ceses o vacantes en la Junta de Gobierno, los mismos se cubrirán por los colegiados que figuran como suplentes en la lista electoral en que figuraba el cargo a sustituir. Si el número de aquéllas fuese igual o superior a la mitad más uno de los miembros de dicha Junta, se procederá a la convocatoria de nuevas elecciones.</p>
+          <p class="parrafo">7. Los cargos de la Junta de Gobierno no tendrán carácter retribuido.</p>
+          <p class="parrafo">8. Los acuerdos de la Junta de Gobierno se adoptarán por mayoría de votos presentes. El voto del Decano tiene valor doble en caso de empate.</p>
+          <p class="parrafo">9. Los miembros de la Junta de Gobierno se abstendrán de participar en las deliberaciones y votaciones que se refieran a acuerdos y resoluciones que puedan afectar a sus derechos e intereses particulares.</p>
+          <p class="parrafo">10. La Junta de Gobierno podrá ser sometida a una moción de censura, que será debatida y votada en Asamblea General extraordinaria. Para su presentación es preciso la concurrencia, por sí o debidamente representados, de al menos el 15 por 100 de los colegiados. Para que la misma prospere, es preciso que obtenga la mayoría de los votos emitidos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 21. Órganos unipersonales.</p>
+          <p class="parrafo">1. Decano.</p>
+          <p class="parrafo_2">El Decano, o en su caso, por sustitución el Vicedecano, ostenta la representación legal del Colegio, preside la Asamblea General y la Junta de Gobierno, velando por la debida ejecución de sus acuerdos. En todo caso, le corresponde:</p>
+          <p class="parrafo_2">a) Ostentar la representación ordinaria del Colegio y la de la Junta de Gobierno.</p>
+          <p class="parrafo">b) Firmar, en nombre y representación del Colegio, con plenos poderes, toda clase de escrituras, contratos y compromisos en los que sea parte el Colegio y cuya suscripción haya sido acordada estatutariamente, así como firmar por ante notario público cartas de pago que deban librarse por razón de legados, mandas, donaciones o cancelación de hipotecas, así como cualesquiera otra clase de documentos y comunicaciones que lo requieran.</p>
+          <p class="parrafo">c) Ejercitar en nombre del Colegio cuantas acciones y derechos le correspondan, desistir de éstos, y conceder poderes generales para pleitos a letrados y procuradores, previo acuerdo o autorización de la Junta de Gobierno.</p>
+          <p class="parrafo">d) Adoptar en casos urgentes las medidas que estime necesarias, aun cuando sean competencia de la Junta de Gobierno, dando cuenta a ésta en el plazo de cinco días hábiles.</p>
+          <p class="parrafo">e) Establecer los puntos del orden del día a tratar en las reuniones de la Junta de Gobierno, presidir y dirigir el desarrollo de las Asambleas Generales y de las Juntas de Gobierno, y delegar, por motivo justificado, tales facultades en el Vicedecano o, en su defecto, en otro miembro de la Junta.</p>
+          <p class="parrafo_2">El Decano será elegido directamente por los colegiados, siendo éste el cabeza de la lista electoral ganadora en las elecciones a Junta de Gobierno.</p>
+          <p class="parrafo_2">2. Secretario.</p>
+          <p class="parrafo_2">Concierne al Secretario, o en su caso, por sustitución, al Vicesecretario:</p>
+          <p class="parrafo_2">a) Estructurar y asentar, de acuerdo con las directrices e instrucciones fijadas por el Decano y su Junta de Gobierno, la Secretaría Técnica del Colegio.</p>
+          <p class="parrafo">b) Formular anualmente las listas de colegiados, donde conste como mínimo:</p>
+          <p class="parrafo_2">1.° El testimonio auténtico del título.</p>
+          <p class="parrafo">2.° Fecha del alta.</p>
+          <p class="parrafo">3.° Domicilio profesional y residencia.</p>
+          <p class="parrafo">4.° Cuantas circunstancias afecten a su habilitación para el ejercicio profesional.</p>
+          <p class="parrafo_2">c) Custodiar los archivos de documentos colegiales.</p>
+          <p class="parrafo">d) Cualquier otra atribución que le venga encomendada por la normativa de desarrollo colegial.</p>
+          <p class="parrafo_2">3. Tesorero.</p>
+          <p class="parrafo_2">Concierne al Tesorero:</p>
+          <p class="parrafo_2">a) Llevar los libros correspondientes a las cuentas de caja y cuentas corrientes de banco.</p>
+          <p class="parrafo">b) Preparar y presentar a la Junta de Gobierno las cuentas del Colegio y dar lectura de ellas en la Asamblea General en el segundo trimestre de cada año.</p>
+          <p class="parrafo">c) Realizar cuantos pagos y cobros correspondan a los fondos del Colegio, siendo el encargado de su libramiento el Decano.</p>
+          <p class="parrafo">d) Recaudar, custodiar y distribuir los fondos del Colegio, depositándolos en las entidades bancarias designadas por la institución colegial.</p>
+          <p class="parrafo">e) Cualquier otra atribución que le venga encomendada por la normativa de desarrollo colegial.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 3.ª Régimen electoral</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 22. Régimen electoral.</p>
+          <p class="parrafo">1. Todos los cargos de los órganos colegiales de gobierno tienen carácter electivo.</p>
+          <p class="parrafo">2. El Reglamento de régimen interior regulará el procedimiento de convocatoria y celebración de las elecciones, contemplando, en su caso, la confección de las listas, que tendrán carácter cerrado, de elegibles y suplentes; el sistema de proclamación de candidatos; la toma de posesión de éstos; y el régimen de impugnación. En desarrollo de sus previsiones, la Junta de Gobierno podrá aprobar normas electorales que rijan cada proceso electivo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 23. Derecho de sufragio.</p>
+          <p class="parrafo">Tienen la condición de electores todos los colegiados que, habiéndose incorporado al Colegio con la antelación que determinen las normas electorales, no se encuentren suspendidos en sus derechos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 24. Votación.</p>
+          <p class="parrafo">1. El voto electoral es directo y secreto y se podrá ejercitar personalmente, por correo o por procedimientos informatizados.</p>
+          <p class="parrafo">2. La votación por correo puede realizarse a través del servicio postal, requiriendo, en todo caso, que quede constancia del envío, se acredite la identidad del votante, se garantice el secreto del voto y que éste sea recibido por la mesa electoral antes de finalizar la votación. Todo elector podrá revocar su voto por correo compareciendo a votar personalmente; en tal caso, el sobre será destruido en el mismo acto y en su presencia.</p>
+          <p class="parrafo">3. Cuando el Colegio tenga los servicios informáticos adecuados, el voto podrá también emitirse a través de correo electrónico o mecanismos informatizados análogos, de acuerdo con el procedimiento que se desarrolle, que deberá garantizar en todo caso el carácter secreto y la autenticidad del voto emitido.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-4" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Régimen económico</p>
+        </version>
+      </bloque>
+      <bloque id="s1-3" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 1.ª Medios económicos</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 25. Recursos económicos.</p>
+          <p class="parrafo">1. El Colegio Oficial de Pilotos de la Aviación Comercial dispondrá de los siguientes recursos económicos, que podrán tener carácter ordinario o extraordinario.</p>
+          <p class="parrafo">2. Constituyen sus recursos ordinarios:</p>
+          <p class="parrafo_2">a) Los productos de los bienes, derechos y obligaciones del patrimonio colegial.</p>
+          <p class="parrafo">b) Las contribuciones económicas de los colegiados con arreglo a lo dispuesto en el artículo siguiente.</p>
+          <p class="parrafo">c) Los ingresos procedentes de la elaboración de informes, dictámenes, peritajes, estudios y cualesquiera otros asesoramientos técnicos que se le requieran.</p>
+          <p class="parrafo">d) Los beneficios que obtenga por sus publicaciones u otros servicios o actividades remuneradas que realicen.</p>
+          <p class="parrafo">e) Los que por cualquier otro concepto legalmente procedan.</p>
+          <p class="parrafo_2">3. Son recursos extraordinarios:</p>
+          <p class="parrafo_2">a) Las subvenciones, donativos, herencias o legados de los que el Colegio pueda ser beneficiario.</p>
+          <p class="parrafo">b) El producto de la enajenación de los bienes de su patrimonio.</p>
+          <p class="parrafo">c) Los que por cualquier otro concepto legalmente procedan.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 26. Cuotas colegiales.</p>
+          <p class="parrafo">Son contribuciones de los profesionales colegiados:</p>
+          <p class="parrafo_2">a) Los derechos de entrada o de incorporación de los colegiados.</p>
+          <p class="parrafo">b) Las cuotas ordinarias que se determinen por acuerdo de la Asamblea General. Su devengo se producirá trimestralmente.</p>
+          <p class="parrafo">c) Las cantidades que, en su caso, se establezcan por el uso individualizado de los servicios colegiales.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-3" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 2.ª Régimen presupuestario y patrimonio del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 27. Régimen presupuestario.</p>
+          <p class="parrafo">1. El régimen económico del Colegio Oficial de Pilotos de la Aviación Comercial es presupuestario. El presupuesto será único y comprenderá la totalidad de ingresos, gastos e inversiones del Colegio referido al año natural.</p>
+          <p class="parrafo">2. En cada presupuesto se cifrarán con la suficiente especificación los gastos previstos en función del programa de actividades a desarrollar por los distintos órganos colegiales, así como los ingresos que se prevea devengar durante el correspondiente ejercicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 28. Patrimonio del Colegio.</p>
+          <p class="parrafo">Constituye el patrimonio del Colegio el conjunto de todos sus bienes, derechos y obligaciones. El Colegio ostenta su titularidad, sin perjuicio de la adscripción de bienes determinados procedentes de otros entes públicos o privados.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Régimen disciplinario y régimen de distinciones</p>
+        </version>
+      </bloque>
+      <bloque id="s1-4" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 1.ª Régimen disciplinario</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 29. Ejercicio de la función disciplinaria.</p>
+          <p class="parrafo">El Colegio sancionará disciplinariamente todas las acciones y omisiones de los colegiados que infrinjan las normas reguladoras de la profesión, los Estatutos generales, el Reglamento de régimen interior, las normas deontológicas o cualesquiera otras normas y acuerdos colegiales de carácter obligatorio emanados de los órganos colegiales en el ejercicio de su competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 30. Tipificación de infracciones.</p>
+          <p class="parrafo">1. Las faltas que puedan llevar aparejada sanción disciplinaria se clasificarán en muy graves, graves y leves.</p>
+          <p class="parrafo">2. Constituyen faltas leves:</p>
+          <p class="parrafo_2">a) Los actos de desconsideración hacia los demás colegiados.</p>
+          <p class="parrafo">b) La desconsideración hacia los usuarios del transporte aéreo.</p>
+          <p class="parrafo_2">3. Son faltas graves:</p>
+          <p class="parrafo_2">a) El incumplimiento de los deberes colegiales y profesionales establecidos en los Estatutos Generales.</p>
+          <p class="parrafo">b) Los actos u omisiones que atenten a la ética, dignidad o prestigio de la profesión.</p>
+          <p class="parrafo">c) El encubrimiento del intrusismo profesional o la colaboración al ejercicio de actividades propias de la profesión por quien no reúna la debida aptitud legal para ello.</p>
+          <p class="parrafo">d) La práctica de actos de competencia desleal en el ejercicio de la profesión, cuando así haya sido declarado por el órgano judicial competente.</p>
+          <p class="parrafo">e) El falseamiento de la documentación profesional y la ocultación o simulación de datos que el Colegio deba conocer.</p>
+          <p class="parrafo">f) Los actos de desconsideración hacia los miembros de la Junta de Gobierno y los que supongan desconsideración ofensiva hacia los demás colegiados.</p>
+          <p class="parrafo">g) La desconsideración ofensiva a los usuarios del transporte aéreo.</p>
+          <p class="parrafo">h) La embriaguez o toxicomanía en el ejercicio de la profesión.</p>
+          <p class="parrafo">i) La falta de atención, de diligencia, o de fidelidad en el desempeño de los cargos colegiales.</p>
+          <p class="parrafo_2">4. Son faltas muy graves las infracciones reputadas como graves en las que concurra alguna de estas circunstancias: intencionalidad manifiesta; negligencia profesional inexcusable; desobediencia reiterada a acuerdos colegiales; daño o perjuicio grave a terceros; obtención de lucro ilegítimo merced a la actuación ilícita; hallarse en el ejercicio de cargo público o colegial al cometer la infracción, cuando exista prevalimiento de esta condición; incurrir en conflicto de intereses; haber sido sancionado anteriormente, por resolución colegial firme no cancelada, a causa de una infracción grave.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 31. Sanciones aplicables.</p>
+          <p class="parrafo">1. A la comisión de infracciones constitutivas como faltas leves, se impondrán las sanciones de:</p>
+          <p class="parrafo_2">a) Amonestación privada.</p>
+          <p class="parrafo">b) Apercibimiento por escrito.</p>
+          <p class="parrafo_2">2. La comisión de infracciones tipificadas como falta grave, tendrán una sanción de:</p>
+          <p class="parrafo_2">a) Reprensión pública en el boletín o circular informativa colegial.</p>
+          <p class="parrafo">b) Suspensión de la condición de colegiado, con prohibición del ejercicio profesional, por un plazo no superior a tres meses.</p>
+          <p class="parrafo">c) Suspensión de la condición de cargo colegial por un plazo no superior a un año.</p>
+          <p class="parrafo_2">3. A las infracciones calificadas como muy graves, corresponderán las sanciones de:</p>
+          <p class="parrafo_2">a) Suspensión de la condición de colegiado, con prohibición del ejercicio profesional, por un plazo superior a tres meses e inferior a un año.</p>
+          <p class="parrafo">b) Pérdida de la condición de cargo colegial.</p>
+          <p class="parrafo">c) Expulsión del Colegio.</p>
+          <p class="parrafo_2">Serán objeto de anotación en el expediente colegial correspondiente, sin perjuicio de su posterior cancelación, las sanciones establecidas en el apartado anterior, con excepción de la amonestación privada.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 32. Prescripción de infracciones y sanciones. Cancelación.</p>
+          <p class="parrafo">Las infracciones prescribirán a los seis meses las leves a los dos años las graves; y a los tres años las muy graves.</p>
+          <p class="parrafo">Las sanciones leves prescribirán a los seis meses; las graves, a los dos años; y las muy graves a los tres años.</p>
+          <p class="parrafo">El plazo de prescripción de la infracción comienza a contarse desde el día en que se hubiera cometido, y el plazo de prescripción de la sanción comienza a contarse desde el día siguiente a aquel en que adquiera firmeza la resolución por la que se impone la sanción.</p>
+          <p class="parrafo">La prescripción de las infracciones se interrumpirá por cualquier actuación colegial expresa y manifiesta dirigida a investigar la presunta infracción. La realización de cualquier acto colegial expreso y manifiesto de ejecución de la sanción interrumpirá el plazo de prescripción de éstas. Las actuaciones tendrán lugar con conocimiento del interesado.</p>
+          <p class="parrafo">Las sanciones se cancelarán: al año, si la falta fuera leve; a los dos años, si fuera grave; y a los cuatro años, si fuera muy grave. Los plazos anteriores serán contados a partir del cumplimiento efectivo de la sanción. La cancelación supone la anulación del antecedente sancionador a todos los efectos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 33. Competencia y procedimiento.</p>
+          <p class="parrafo">1. La Junta de Gobierno del Colegio ejercerá la función disciplinaria, imponiendo, en su caso, las sanciones correspondientes, siempre previa formación de expediente disciplinario, en el cual, en todo caso, se dará audiencia al interesado, y que se instruirá por la Comisión Deontológica conforme al procedimiento que se regula en los apartados siguientes.</p>
+          <p class="parrafo">2. El procedimiento disciplinario se iniciará de oficio por la Junta de Gobierno; o a instancia del Decano del Colegio, o en virtud de denuncia firmada por un colegiado o por un tercero con interés legítimo, señalando, en cualquier caso, las presuntas faltas y acompañando las pruebas oportunas.</p>
+          <p class="parrafo">Cuando medie denuncia, la Junta de Gobierno dispondrá la apertura de un trámite de admisibilidad previo, en el que, tras analizar los antecedentes disponibles, podrá ordenar el archivo de las actuaciones o dar trámite al expediente.</p>
+          <p class="parrafo">El acuerdo por el que se inicie un expediente disciplinario deberá recoger la identificación de la persona o personas presuntamente responsables, los hechos sucintamente expuestos que motivan la incoación del expediente disciplinario, su posible calificación y las sanciones que pudieran corresponder, sin perjuicio de lo que resulte de la instrucción, así como la indicación del derecho a formular alegaciones y a la audiencia en el procedimiento y de los plazos para su ejercicio.</p>
+          <p class="parrafo">3. La Junta de Gobierno dará traslado del acuerdo de incoación del expediente a la Comisión Deontológica, acompañándolo de sus antecedentes y cualquier información que sea relevante para la instrucción. Asimismo, dicho acuerdo se notificará a los interesados, entendiendo en todo caso por tal al presunto responsable de la infracción.</p>
+          <p class="parrafo">4. La Comisión Deontológica podrá practicar las diligencias indagatorias que estime necesarias para decidir si procede proponer a la Junta de Gobierno el sobreseimiento del expediente, si no aprecia indicios de ilícito disciplinario, o continuar la instrucción del expediente disciplinario.</p>
+          <p class="parrafo">La resolución de la Junta de Gobierno que declare el sobreseimiento del expediente disciplinario será inmediatamente notificada a los interesados.</p>
+          <p class="parrafo">5. En otro caso, la Comisión Deontológica formulará un pliego de concreción de los hechos constitutivos de infracción, que notificará al presunto responsable. En este pliego habrá de indicarse con precisión y claridad, y debidamente motivados, los actos profesionales o colegiales que se presumen ilícitos, la calificación del tipo de infracción en que incurre aquella conducta, así como la sanción a que, en su caso, ésta puede ser acreedora. Asimismo, hará expresa indicación de la identidad de las personas que asuman la instrucción, del órgano competente para imponer la sanción y de la norma que le atribuye tal competencia.</p>
+          <p class="parrafo">La notificación recogerá también el derecho del expedientado a formular las alegaciones, aportar los documentos e informaciones y, en su caso, proponer las pruebas, concretando los medios de que pretende valerse, que considere convenientes para su defensa, en el plazo de quince días hábiles desde su recepción.</p>
+          <p class="parrafo">6. Concluidas las anteriores actuaciones, y a la vista de éstas, la Comisión Deontológica formulará la correspondiente propuesta de resolución, que fijará con precisión los hechos imputados al expedientado y expresará la falta supuestamente cometida y las sanciones que se propone imponer.</p>
+          <p class="parrafo">De esta propuesta se dará traslado al expedientado, al que se concederá audiencia para que formule las alegaciones que estime oportunas o convenientes a su derecho.</p>
+          <p class="parrafo">7. Concluida la instrucción del expediente disciplinario, la Comisión Deontológica dará cuenta de su actuación y remitirá la correspondiente propuesta de resolución, junto con todos los documentos, testimonios, actuaciones, actos administrativos, notificaciones y demás diligencias que se hayan realizado en el procedimiento, a la Junta de Gobierno para que ésta adopte la resolución que estime procedente. La Junta de Gobierno antes de resolver podrá disponer la práctica de nuevas diligencias por dicha Comisión, con la consiguiente redacción de nueva propuesta de resolución por parte de esta última.</p>
+          <p class="parrafo">8. La resolución de la Junta de Gobierno habrá de ser motivada y decidir todas las cuestiones planteadas. No podrá versar sobre hechos distintos de los que sirvieron de base a la propuesta de resolución.</p>
+          <p class="parrafo">En la notificación de la resolución se expresarán los recursos que procedan contra ella, los órganos colegiales o judiciales ante los que hayan de presentarse y los plazos para interponerlos.</p>
+          <p class="parrafo">9. Contra la resolución que ponga fin al expediente disciplinario podrá recurrirse ante la misma Junta de Gobierno, de conformidad con lo dispuesto en el artículo 39.1 de los presentes Estatutos.</p>
+          <p class="parrafo">10. En el expediente son utilizables todos los medios de prueba admisibles en Derecho, correspondiendo a la Comisión Deontológica la práctica de las que habiendo sido propuestas estime oportunas o las que ella misma pueda acordar. De las audiencias y pruebas practicadas deberá existir constancia escrita en el expediente.</p>
+          <p class="parrafo">11. En tanto no se cree la Comisión Deontológica, la Junta de Gobierno nombrará directamente a los instructores de los expedientes disciplinarios.</p>
+          <p class="parrafo">12. Este procedimiento disciplinario podrá ser desarrollado, de conformidad con lo dispuesto en estos Estatutos generales, por el Reglamento de régimen interior del Colegio.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-4" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="seccion">Sección 2.ª Régimen de distinciones y premios</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 34. Distinciones y premios.</p>
+          <p class="parrafo">El Colegio, por medio de su Junta de Gobierno, podrá distinguir a los colegiados que especial y destacadamente hayan contribuido al progreso y buen hacer de la profesión.</p>
+          <p class="parrafo">Asimismo, la Junta de Gobierno podrá acordar investir como «colegiados de honor» a las personalidades relevantes que a su juicio lo merezcan por la contribución al desarrollo de la profesión o de la organización colegial.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Normas aplicables y régimen jurídico de los actos y acuerdos corporativos</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 35. Normas aplicables.</p>
+          <p class="parrafo">1. El Colegio Oficial de Pilotos de la Aviación Comercial, en tanto que corporación de derecho público, se rige en su organización y funcionamiento por:</p>
+          <p class="parrafo_2">a) La legislación básica estatal en materia de colegios profesionales.</p>
+          <p class="parrafo">b) Los presentes Estatutos generales.</p>
+          <p class="parrafo">c) El Reglamento de régimen interior que el Colegio apruebe en desarrollo y aplicación de las previsiones de sus Estatutos generales.</p>
+          <p class="parrafo">d) El resto del ordenamiento jurídico en cuanto sea aplicable.</p>
+          <p class="parrafo_2">2. En lo no previsto por los Estatutos generales, será de aplicación la legislación vigente sobre régimen jurídico de las Administraciones públicas y procedimiento administrativo común. El régimen jurídico de los órganos colegiados del Colegio Profesional se ajustará a las normas contenidas en estos Estatutos generales y, en su caso, en el Reglamento de régimen interior. El Reglamento de régimen interior deberá respetar, en todo caso, lo dispuesto en estos Estatutos generales.</p>
+          <p class="parrafo">3. Salvo exención legal, los acuerdos, decisiones o recomendaciones del Colegio con trascendencia económica deberán observar los límites establecidos en el artículo 1 de la Ley 16/1989, de 1 7 de julio, de Defensa de la Competencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 36. Actos nulos de pleno derecho y actos anulables.</p>
+          <p class="parrafo">1. Son nulos de pleno derecho los actos de los órganos colegiados en los que se dé alguno de los siguientes supuestos:</p>
+          <p class="parrafo_2">a) Los que lesionen los derechos y libertades susceptibles de amparo constitucional.</p>
+          <p class="parrafo">b) Los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio.</p>
+          <p class="parrafo">c) Los que tengan un contenido imposible.</p>
+          <p class="parrafo">d) Los que sean constitutivos de infracción penal o se dicten como consecuencia de ésta.</p>
+          <p class="parrafo">e) Los dictados prescindiendo total y absolutamente del procedimiento legalmente establecido o de las normas que contienen las reglas esenciales para la formación de la voluntad de los órganos colegiados, según lo dispuesto en los respectivos Estatutos.</p>
+          <p class="parrafo">f) Los actos expresos o presuntos contrarios al ordenamiento jurídico por los que se adquieren facultades o derechos cuando se carezca de los requisitos esenciales para su adquisición.</p>
+          <p class="parrafo">g) Los acuerdos, decisiones y recomendaciones que estando prohibidos en virtud de lo dispuesto en el artículo 1.1 de la Ley 16/1989, de 17 de julio, de Defensa de la Competencia, no estén amparados por la debida exención legal.</p>
+          <p class="parrafo">h) Cualquier otro que se establezca expresamente en una disposición de rango legal.</p>
+          <p class="parrafo_2">2. Son anulables los restantes actos que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 37. Ejecución de los actos administrativos.</p>
+          <p class="parrafo">Los actos y resoluciones adoptados por los órganos del Colegio en el ejercicio legítimo de potestades administrativas serán ejecutivos desde su adopción, en los términos señalados en la legislación sobre procedimiento administrativo.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 38. Recursos corporativos.</p>
+          <p class="parrafo">1. Los acuerdos y disposiciones de la Junta de Gobierno agotan la vía corporativa. Tales acuerdos y disposiciones podrán ser objeto de recurso de reposición ante la misma Junta, en el plazo de un mes, de conformidad con lo dispuesto en la vigente legislación sobre procedimiento administrativo.</p>
+          <p class="parrafo">2. Los acuerdos, actos y resoluciones de los demás órganos colegiales, excepto los de la Asamblea General, no ponen fin a la vía corporativa y son recurribles en alzada ante la Junta de Gobierno, en el plazo de un mes, de conformidad con lo dispuesto en la legislación general reguladora del procedimiento administrativo.</p>
+          <p class="parrafo">3. Los acuerdos y disposiciones de la Asamblea General del Colegio agotan la vía corporativa y son impugnables directamente ante la Jurisdicción Contencioso-Administrativa.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-3" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">De la disolución del Colegio</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-2003-1211" fecha_publicacion="20030120" fecha_vigencia="20030121">
+          <p class="articulo">Artículo 39. Disolución del Colegio.</p>
+          <p class="parrafo">1. El Colegio sólo podrá disolverse por decisión propia, tomada en Asamblea General extraordinaria convocada al efecto. Para la aprobación de la disolución es preciso que voten a favor de la misma las tres cuartas partes del número legal de miembros del Colegio.</p>
+          <p class="parrafo">2. Como consecuencia de la disolución, el patrimonio resultante de la liquidación se atribuirá a fundaciones o asociaciones, benéficas o asistenciales, de carácter aeronáutico. La determinación de aquéllas se realizará en la propia Asamblea General que tome la decisión de disolución, no pudiendo aprobarse sin determinar el destino final de dicho patrimonio, que propondrá la Junta de Gobierno del Colegio, quien actuará como comisión liquidadora.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

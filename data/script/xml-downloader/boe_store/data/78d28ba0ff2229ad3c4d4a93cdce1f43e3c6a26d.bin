@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200305Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-5574</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20030313</fecha_disposicion>
+      <numero_oficial>INT/574/2003</numero_oficial>
+      <titulo>Orden INT/574/2003, de 13 de marzo, por la que se regula la especialidad de tráfico en la Guardia Civil.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030319</fecha_publicacion>
+      <diario_numero>67</diario_numero>
+      <fecha_vigencia>20030320</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20210610</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2003/03/13/int574</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-5574</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="161">Agrupación de Tráfico de la Guardia Civil</materia>
+        <materia codigo="1983">Cuerpo de la Guardia Civil</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2001-20623</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 9 de la Orden de 29 de octubre de 2001</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1999-22670</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 14 de la Ley 42/1999, de 25 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1980-9632</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 1 de la Orden de 16 de abril de 1980</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2020-5900</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Orden PCM/509/2020, de 3 de junio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2010-14041</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el apartado 7, por Orden INT/2379/2010, de 7 de septiembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2005-16415</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los apartados 1, 2, 4, 5, 7, 8 y la disposición transitoria 2 , por Orden INT/3051/2005, de 28 de septiembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-5574</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int574</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/161"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-5574</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int574</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/161"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20200610"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20100913"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20051005"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20030319"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/574/2003, de 13 de marzo, por la que se regula la especialidad de tráfico en la Guardia Civil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-19</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20200610">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-5574</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int574</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/161"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20200610/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/574/2003, de 13 de marzo, por la que se regula la especialidad de tráfico en la Guardia Civil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20200610"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20200610/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20200610/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20100913">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-5574</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int574</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/161"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-09-13</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20100913/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/574/2003, de 13 de marzo, por la que se regula la especialidad de tráfico en la Guardia Civil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20100913"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20100913/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20100913/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20051005">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-5574</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int574</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/161"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-10-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20051005/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/574/2003, de 13 de marzo, por la que se regula la especialidad de tráfico en la Guardia Civil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20051005"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20051005/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20051005/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20030319">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-5574</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int574</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/161"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20030319/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/574/2003, de 13 de marzo, por la que se regula la especialidad de tráfico en la Guardia Civil.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20030319"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20030319/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/03/13/int574/con/20030319/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="parrafo">La Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, en su artículo 12.1 B), apartado c, atribuye a la Guardia Civil, como integrante de las mismas, la vigilancia del tráfico, tránsito y transportes en las vías públicas interurbanas.</p>
+          <p class="parrafo">El Texto Articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por Real Decreto Legislativo 339/1990, de 2 de marzo, regula las competencias del Ministerio del Interior en relación con el tráfico, y más concretamente, las del Organismo Autónomo Jefatura Central de Tráfico y las de la Agrupación de Tráfico de la Guardia Civil, así como el régimen de relación y dependencia entre éstos.</p>
+          <p class="parrafo">La Orden Ministerial de 5 de abril de 2001, que modifica la de 16 de abril de 1980, sobre relaciones de la Agrupación de Tráfico de la Guardia Civil con la Dirección General de Tráfico, establece, en su artículo 1, que la Agrupación de Tráfico ejercerá las funciones de vigilancia, regulación, auxilio y control del tráfico que le atribuye la normativa vigente y constituye a efectos funcionales una Unidad especial dentro del Cuerpo de la Guardia Civil.</p>
+          <p class="parrafo">La Orden Ministerial de 29 de octubre de 2001, que desarrolla la estructura orgánica de los servicios centrales de la Dirección General de la Guardia Civil, en su artículo 9, dispone que a la Agrupación de Tráfico como Unidad especializada en materia de tráfico, seguridad Vial y transporte, le corresponde organizar, dirigir y gestionar todo lo relativo al ejercicio de las funciones encomendadas a la Guardia Civil en esta materia.</p>
+          <p class="parrafo">El cumplimiento de esta misión hace necesario disponer de personal especializado para elevar el nivel de eficacia y la calidad del servicio que se presta a la sociedad, contribuyendo de esta forma a prevenir y reducir los efectos negativos, tanto personales como económicos, que los accidentes generan.</p>
+          <p class="parrafo">El párrafo segundo del artículo 14 de la Ley 42/1999, de 25 de noviembre, del Régimen de Personal del Cuerpo de la Guardia Civil, establece que el Ministro de Defensa o el del Interior, según la naturaleza de la materia a que se refiera cada especialidad, y teniendo en cuenta el informe del otro Ministerio, determinará la definición de las especialidades, requisitos y condiciones para su obtención y ejercicio, compatibilidad entre ellas, así como Escalas y Empleos en los que se pueden adquirir y mantener.</p>
+          <p class="parrafo">Por todo ello, en el ejercicio de las atribuciones que me confiere el artículo 14 de la citada Ley 42/1999, con el informe favorable del Ministerio de Defensa y previa aprobación del Ministro de Administraciones Públicas,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+        <version id_norma="BOE-A-2020-5900" fecha_publicacion="20200610" fecha_vigencia="20210610">
+          <p class="siempreSeVe">Norma derogada, con efectos de 10 de junio de 2021, por la disposición derogatoria única.1 de la Orden PCM/509/2020, de 3 de junio. <a class="refPost">Ref. BOE-A-2020-5900</a></p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="parrafo">La Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, en su artículo 12.1 B), apartado c, atribuye a la Guardia Civil, como integrante de las mismas, la vigilancia del tráfico, tránsito y transportes en las vías públicas interurbanas.</p>
+          <p class="parrafo">El Texto Articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por Real Decreto Legislativo 339/1990, de 2 de marzo, regula las competencias del Ministerio del Interior en relación con el tráfico, y más concretamente, las del Organismo Autónomo Jefatura Central de Tráfico y las de la Agrupación de Tráfico de la Guardia Civil, así como el régimen de relación y dependencia entre éstos.</p>
+          <p class="parrafo">La Orden Ministerial de 5 de abril de 2001, que modifica la de 16 de abril de 1980, sobre relaciones de la Agrupación de Tráfico de la Guardia Civil con la Dirección General de Tráfico, establece, en su artículo 1, que la Agrupación de Tráfico ejercerá las funciones de vigilancia, regulación, auxilio y control del tráfico que le atribuye la normativa vigente y constituye a efectos funcionales una Unidad especial dentro del Cuerpo de la Guardia Civil.</p>
+          <p class="parrafo">La Orden Ministerial de 29 de octubre de 2001, que desarrolla la estructura orgánica de los servicios centrales de la Dirección General de la Guardia Civil, en su artículo 9, dispone que a la Agrupación de Tráfico como Unidad especializada en materia de tráfico, seguridad Vial y transporte, le corresponde organizar, dirigir y gestionar todo lo relativo al ejercicio de las funciones encomendadas a la Guardia Civil en esta materia.</p>
+          <p class="parrafo">El cumplimiento de esta misión hace necesario disponer de personal especializado para elevar el nivel de eficacia y la calidad del servicio que se presta a la sociedad, contribuyendo de esta forma a prevenir y reducir los efectos negativos, tanto personales como económicos, que los accidentes generan.</p>
+          <p class="parrafo">El párrafo segundo del artículo 14 de la Ley 42/1999, de 25 de noviembre, del Régimen de Personal del Cuerpo de la Guardia Civil, establece que el Ministro de Defensa o el del Interior, según la naturaleza de la materia a que se refiera cada especialidad, y teniendo en cuenta el informe del otro Ministerio, determinará la definición de las especialidades, requisitos y condiciones para su obtención y ejercicio, compatibilidad entre ellas, así como Escalas y Empleos en los que se pueden adquirir y mantener.</p>
+          <p class="parrafo">Por todo ello, en el ejercicio de las atribuciones que me confiere el artículo 14 de la citada Ley 42/1999, con el informe favorable del Ministerio de Defensa y previa aprobación del Ministro de Administraciones Públicas,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Primero. Concepto de la Especialidad de Tráfico en el Cuerpo de la Guardia Civil y modalidades.</p>
+          <p class="parrafo">1. La Especialidad de Tráfico capacita profesionalmente a los Guardias Civiles para ejercer de modo específico en las Unidades de la Agrupación de Tráfico de la Guardia Civil las competencias que la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, otorga en materia de vigilancia del tráfico, tránsito y transporte en las vías públicas interurbanas al Cuerpo de la Guardia Civil.</p>
+          <p class="parrafo">2. Esta especialidad tiene las siguientes modalidades:</p>
+          <p class="parrafo">Dirección: Para los Oficiales de la Guardia Civil que pudieran ejercer mando o apoyo al mando, dirección, impulso y vigilancia del servicio, gestión de personal, logística y recursos materiales en las Unidades de la Agrupación de Tráfico.</p>
+          <p class="parrafo">Motoristas: Para los Suboficiales y personal de la Escala Básica de Cabos y Guardias Civiles que presten servicio específico en Unidades de la Agrupación de Tráfico al objeto de garantizar la seguridad vial en las vías interurbanas, así como los cometidos recogidos en las normativas específicas de la Especialidad.</p>
+          <p class="parrafo">Atestados: Para los Suboficiales y personal de la Escala Básica de Cabos y Guardias Civiles que instruyan diligencias e informes técnicos o periciales consecuentes de accidentes de tráfico ocurridos en su demarcación territorial y que no se hubieran confeccionado diligencias a prevención.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Primero. Concepto de la Especialidad de Tráfico en el Cuerpo de la Guardia Civil y modalidades.</p>
+          <p class="parrafo">1. La Especialidad de Tráfico capacita profesionalmente a los Guardias Civiles para ejercer de modo específico en las Unidades de la Agrupación de Tráfico de la Guardia Civil las competencias que la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, otorga en materia de vigilancia del tráfico, tránsito y transporte en las vías públicas interurbanas al Cuerpo de la Guardia Civil.</p>
+          <p class="parrafo">2. Esta especialidad tiene las siguientes modalidades:</p>
+          <p class="parrafo">Dirección: Para los Oficiales de la Guardia Civil que pudieran ejercer mando o apoyo al mando, dirección, impulso y vigilancia del servicio, gestión de personal, logística y recursos materiales en las Unidades de la Agrupación de Tráfico.</p>
+          <p class="parrafo">Motoristas: Para los Suboficiales y personal de la Escala de Cabos y Guardias Civiles que presten servicio específico en Unidades de la Agrupación de Tráfico al objeto de garantizar la seguridad vial en las vías interurbanas, así como los cometidos recogidos en las normativas específicas de la Especialidad.</p>
+          <p class="parrafo">Atestados: Para los Suboficiales y personal de la Escala de Cabos y Guardias Civiles que instruyan diligencias e informes técnicos o periciales consecuentes de accidentes de tráfico ocurridos en su demarcación territorial y que no se hubieran confeccionado diligencias a prevención.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los párrafos segundo y tercero del apartado 2 por el art. único.1 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Segundo. Procedimiento de acceso a los cursos de especialización.</p>
+          <p class="parrafo">1. El procedimiento de acceso a los cursos de especialización será el establecido en las distintas convocatorias para las tres modalidades de la Especialidad aprobadas por Resolución del Director General de la Guardia Civil y publicadas en el Boletín Oficial del Cuerpo. Los contenidos de dichas convocatorias se ajustarán a los requisitos que establece el artículo 11 del Reglamento General de ingreso en los Centros Docentes de Formación del Cuerpo de la Guardia Civil, aprobado por Real Decreto 597/2002, de 28 de junio.</p>
+          <p class="parrafo">2. El sistema de selección de los concurrentes a los cursos de especialización será el concurso-oposición.</p>
+          <p class="parrafo">Las fases de dicho concurso-oposición, sus características y el procedimiento a seguir, serán las establecidas para la promoción interna en el artículo 6 del Reglamento antes referido.</p>
+          <p class="parrafo">3. Los requisitos para poder optar a dicho concurso-oposición y posteriormente al curso de especialización son:</p>
+          <p class="parrafo">A) Condiciones generales:</p>
+          <p class="parrafo">a) Estar en situación de servicio activo.</p>
+          <p class="parrafo">b) Llevar, como mínimo, dos años de servicio en el Cuerpo.</p>
+          <p class="parrafo">c) No cumplir ni tener cumplidos en el año de la convocatoria:</p>
+          <p class="parrafo">Treinta y cinco años de edad para la modalidad de Motorista.</p>
+          <p class="parrafo">Cuarenta y cinco años de edad para las modalidades de Dirección y de Atestados.</p>
+          <p class="parrafo">d) Estar en posesión del permiso de conducción civil o del Cuerpo de la clase B y además del A para los Motoristas.</p>
+          <p class="parrafo">e) Carecer de notas desfavorables sin invalidar.</p>
+          <p class="parrafo">f) No haber sido retenido en su empleo o no resultar apto para el ascenso</p>
+          <p class="parrafo">g) Otras que se determinen en las bases de la convocatoria.</p>
+          <p class="parrafo">B) Condiciones particulares según Escala y Empleo</p>
+          <p class="parrafo">a) A la modalidad de Dirección, se podrá acceder:</p>
+          <p class="parrafo">De la Escala Superior de Oficiales: En los empleos de Teniente y Capitán.</p>
+          <p class="parrafo">De la Escala de Oficiales: En los empleos de Alférez y Teniente.</p>
+          <p class="parrafo">b) A las modalidades de Motoristas y Atestados, se podrá acceder:</p>
+          <p class="parrafo">De la Escala de Suboficiales: En los empleos de Sargento o Sargento 1.o.</p>
+          <p class="parrafo">De la Escala de Cabos y Guardias: En todos sus empleos, excepto Cabo Mayor.</p>
+          <p class="parrafo">C) Condiciones específicas</p>
+          <p class="parrafo">En las bases de la convocatoria se podrá exigir:</p>
+          <p class="parrafo">a) La inexistencia de circunstancias que permitan prever que el interesado no podrá cumplir el tiempo obligatorio de ejercicio de la Especialidad.</p>
+          <p class="parrafo">b) No estar seleccionado como concurrente de otro curso de especialización en el mismo año de la convocatoria.</p>
+          <p class="parrafo">c) No haber sido eliminado en los dos últimos años, de cualquier curso de especialización por aplicación de las Normas de Régimen Interior.</p>
+          <p class="parrafo">d) No haber agotado tres convocatorias en un mismo curso de especialización.</p>
+          <p class="parrafo">e) No haber renunciado a un curso de especialización en un período de tres años.</p>
+          <p class="parrafo">4. El concurso-oposición será el mismo para las modalidades de Motoristas y Atestados, y para la modalidad de Dirección otro concurso-oposición independiente. Las bases de la convocatoria, atendiendo a las necesidades de personal de la Agrupación de Tráfico, señalarán número de plazas por modalidad y cupo a reservar según empleos. Se establecerá un temario general y unos conocimientos exigibles según la modalidad, que serán objeto de las pruebas de la fase de oposición.</p>
+          <p class="parrafo">5. Los aspirantes que superen ambas fases, una vez ordenados por puntuación, accederán a los cursos de especialización según la modalidad a la que hayan optado y el número de plazas asignadas a cada modalidad. Las plazas reservadas a un empleo y no cubiertas podrán ser transferidas a otros empleos siempre que sean de la misma modalidad.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Segundo. Procedimiento de acceso a los cursos de especialización.</p>
+          <p class="parrafo">1. El procedimiento de acceso a los cursos de especialización será el establecido en las distintas convocatorias para las tres modalidades de la Especialidad aprobadas por Resolución del Director General de la Guardia Civil y publicadas en el Boletín Oficial del Cuerpo. Los contenidos de dichas convocatorias se ajustarán a los requisitos que establece el artículo 11 del Reglamento General de ingreso en los Centros Docentes de Formación del Cuerpo de la Guardia Civil, aprobado por Real Decreto 597/2002, de 28 de junio.</p>
+          <p class="parrafo">2. El sistema de selección de los concurrentes a los cursos de especialización será el concurso-oposición.</p>
+          <p class="parrafo">Las fases de dicho concurso-oposición, sus características y el procedimiento a seguir, serán las establecidas para la promoción interna en el artículo 6 del Reglamento antes referido.</p>
+          <p class="parrafo">3. Los requisitos para poder optar a dicho concurso-oposición y posteriormente al curso de especialización son:</p>
+          <p class="parrafo">A) Condiciones generales:</p>
+          <p class="parrafo">a) Estar en situación de servicio activo.</p>
+          <p class="parrafo">b) Llevar, como mínimo, un año de servicio en el Cuerpo.</p>
+          <p class="parrafo">c) No cumplir ni tener cumplidos en el año de la convocatoria:</p>
+          <p class="parrafo">Treinta y cinco años de edad para la modalidad de Motorista.</p>
+          <p class="parrafo">Cuarenta y cinco años de edad para las modalidades de Dirección y de Atestados.</p>
+          <p class="parrafo">d) Estar en posesión de los permisos de conducción que habiliten para conducir los vehículos que según la modalidad sean de dotación en la Agrupación de Tráfico, de acuerdo con la determinación que se establezca en las bases generales de las convocatorias.</p>
+          <p class="parrafo">e) Carecer de notas desfavorables sin invalidar.</p>
+          <p class="parrafo">f) No haber sido declarado no apto para el ascenso o retenido en su empleo.</p>
+          <p class="parrafo">g) Otras que se determinen en las bases de la convocatoria.</p>
+          <p class="parrafo">B) Condiciones particulares según Escala y Empleo</p>
+          <p class="parrafo">a) A la modalidad de Dirección, se podrá acceder:</p>
+          <p class="parrafo">De la Escala Superior de Oficiales: En los empleos de Teniente y Capitán.</p>
+          <p class="parrafo">De la Escala de Oficiales: En los empleos de Alférez y Teniente.</p>
+          <p class="parrafo">b) A las modalidades de Motoristas y Atestados, se podrá acceder:</p>
+          <p class="parrafo">De la Escala de Suboficiales: En los empleos de Sargento o Sargento 1.o.</p>
+          <p class="parrafo">De la Escala de Cabos y Guardias: En todos sus empleos, excepto Cabo Mayor.</p>
+          <p class="parrafo">C) Condiciones específicas</p>
+          <p class="parrafo">En las bases de la convocatoria se podrá exigir:</p>
+          <p class="parrafo">a) La inexistencia de circunstancias que permitan prever que el interesado no podrá cumplir el tiempo obligatorio de ejercicio de la Especialidad.</p>
+          <p class="parrafo">b) No estar seleccionado como concurrente de otro curso de especialización en el mismo año de la convocatoria.</p>
+          <p class="parrafo">c) No haber sido eliminado en los dos últimos años, de cualquier curso de especialización por aplicación de las Normas de Régimen Interior.</p>
+          <p class="parrafo">d) No haber agotado tres convocatorias en un mismo curso de especialización.</p>
+          <p class="parrafo">e) No haber renunciado a un curso de especialización en un período de tres años.</p>
+          <p class="parrafo">4. El concurso-oposición será el mismo para las modalidades de Motoristas y Atestados, y para la modalidad de Dirección otro concurso-oposición independiente. Las bases de la convocatoria, atendiendo a las necesidades de personal de la Agrupación de Tráfico, señalarán número de plazas por modalidad y cupo a reservar según empleos. Se establecerá un temario general y unos conocimientos exigibles según la modalidad, que serán objeto de las pruebas de la fase de oposición.</p>
+          <p class="parrafo">5. Los aspirantes que superen ambas fases, una vez ordenados por puntuación, accederán a los cursos de especialización según la modalidad a la que hayan optado y el número de plazas asignadas a cada modalidad. Las plazas reservadas a un empleo y no cubiertas podrán ser transferidas a otros empleos siempre que sean de la misma modalidad.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 3.A).b), d) y f) por el art. único.2 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Tercero. Acceso a los cursos de especialización por necesidades del servicio.</p>
+          <p class="parrafo">1. Cuando las necesidades del servicio lo requieran, se podrán designar asistentes de forma directa que deberán concurrir a los mismos con carácter obligatorio.</p>
+          <p class="parrafo">2. Las necesidades del servicio serán apreciadas por el Subdirector General de Operaciones, a propuesta del General Jefe de la Agrupación de Tráfico, y requerirán la aprobación del Director General de la Guardia Civil.</p>
+          <p class="parrafo">3. Los requisitos que deben cumplir los que concurran con carácter obligatorio cuando lo requieran las necesidades del servicio son los recogidos en el punto 3 A, letras a), c), d) y e) del apartado segundo.</p>
+          <p class="parrafo">4. La realización de los cursos de especialización por necesidades del servicio tendrá carácter extraordinario.</p>
+        </version>
+      </bloque>
+      <bloque id="cuarto" tipo="precepto" titulo="Cuarto">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Cuarto. Cursos de especialización.</p>
+          <p class="parrafo">1. El Curso Básico de Tráfico, tanto en su modalidad de Motoristas como de Atestados, podrá convocarse en una misma Resolución para los empleos de Suboficiales y personal de la Escala Básica de Cabos y Guardias Civiles.</p>
+          <p class="parrafo">2. Los planes de estudios de la Escuela de Tráfico, que integrarán los módulos teórico-prácticos necesarios y el procedimiento para el cambio de modalidad, serán aprobados, conjuntamente, por las Direcciones Generales de la Guardia Civil y de Tráfico.</p>
+          <p class="parrafo">3. Todos los cursos de acceso a la especialidad o de cambio de modalidad se realizarán en la Academia de Tráfico.</p>
+          <p class="parrafo">4. La baja de los concurrentes en los cursos de la Especialidad de Tráfico se acordará, previo expediente sumario con audiencia al interesado, y por Resolución del Director General de la Guardia Civil, cuando aquéllos dejen de reunir las condiciones expresadas en el punto 3 del apartado segundo de la presente Orden o cualquiera otra exigida por las bases de la convocatoria. En el caso de los que accedan según lo previsto en el apartado tercero de esta Orden, igualmente dejen de reunir los requisitos exigidos en su punto 3.</p>
+          <p class="parrafo">5. La superación de los cursos dará derecho a los interesados a la obtención del correspondiente Diploma acreditativo que se concederá por Resolución de la Dirección General de la Guardia Civil y cuya publicación supondrá el acceso a la Especialidad.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Cuarto. Cursos de especialización.</p>
+          <p class="parrafo">1. El Curso de especialización, tanto en su modalidad de Motoristas como de Atestados, podrá convocarse en una misma Resolución para el personal de las Escalas de Suboficiales y de Cabos y Guardias.</p>
+          <p class="parrafo">2. Los planes de estudios de la Escuela de Tráfico, que integrarán los módulos teórico-prácticos necesarios y el procedimiento para el cambio de modalidad, serán aprobados, conjuntamente, por las Direcciones Generales de la Guardia Civil y de Tráfico.</p>
+          <p class="parrafo">3. Todos los cursos de acceso a la especialidad o de cambio de modalidad se realizarán en la Escuela de Tráfico.</p>
+          <p class="parrafo">4. La baja de los concurrentes en los cursos de la Especialidad de Tráfico se acordará, previo expediente sumario con audiencia al interesado, y por Resolución del Director General de la Guardia Civil, cuando aquéllos dejen de reunir las condiciones expresadas en el punto 3 del apartado segundo de la presente Orden o cualquiera otra exigida por las bases de la convocatoria. En el caso de los que accedan según lo previsto en el apartado tercero de esta Orden, igualmente dejen de reunir los requisitos exigidos en su punto 3.</p>
+          <p class="parrafo">5. La superación de los cursos dará derecho a los interesados a la obtención del correspondiente Diploma acreditativo que se concederá por Resolución de la Dirección General de la Guardia Civil y cuya publicación supondrá el acceso a la Especialidad.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 1 y 3 por el art. único.3 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="quinto" tipo="precepto" titulo="Quinto">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Quinto. Obligación de ejercer la Especialidad.</p>
+          <p class="parrafo">1. La obtención de la Especialidad de Tráfico obliga a los interesados a ejercerla en Unidades de la Agrupación de Tráfico, destinados durante cuatro años ininterrumpidos, salvo por motivos de ascenso, cambio de situación administrativa o necesidades del servicio. El cómputo de tiempo en el ejercicio de la Especialidad podrá también acreditarse por la suma de los años de servicio prestados de forma discontinua y como comisiones de servicio.</p>
+          <p class="parrafo">2. Durante el tiempo de ejercicio obligatorio de la Especialidad, no se podrán realizar cursos de especialización ajenos a la misma.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Quinto. Obligación de ejercer la Especialidad.</p>
+          <p class="parrafo">1. La obtención de la Especialidad de Tráfico obliga a los interesados a ejercer la modalidad respectiva en Unidades de la Agrupación de Tráfico, destinados durante cuatro años ininterrumpidos, salvo por motivos de ascenso, cambio de situación administrativa o necesidades del servicio. El cómputo de tiempo en el ejercicio de la modalidad también se acreditará por la suma de los años de servicio prestados de forma discontinua o en comisión de servicio.</p>
+          <p class="parrafo">2. Durante el tiempo de ejercicio obligatorio de la Especialidad, no se podrán realizar cursos de especialización ajenos a la misma.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.4 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="sexto" tipo="precepto" titulo="Sexto">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Sexto. Compatibilidad con otras Especialidades.</p>
+          <p class="parrafo">La Especialidad de Tráfico es compatible con todas las demás especialidades del Cuerpo, con la condición previa de haber cumplido su tiempo de ejercicio en aquella.</p>
+        </version>
+      </bloque>
+      <bloque id="septimo" tipo="precepto" titulo="Séptimo">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Séptimo. Renovación y caducidad de la Especialidad.</p>
+          <p class="parrafo">1. El personal que se encuentre en posesión de la Especialidad de Tráfico, vendrá obligado a superar las pruebas psicofísicas, físicas, prácticas y de conocimiento que se determinen, encaminadas a comprobar que se conservan las condiciones necesarias de aptitud para el ejercicio de la especialidad.</p>
+          <p class="parrafo">2. Periódicamente y, al menos, una vez al año, se convocará mediante Resolución publicada en el Boletín Oficial del Cuerpo la realización de dichas pruebas de aptitud a las que podrán optar o ser convocados de forma directa quienes posean la Especialidad, de acuerdo con el procedimiento establecido en los apartados siguientes.</p>
+          <p class="parrafo">3. El personal destinado en la Agrupación de Tráfico, realizará las pruebas de aptitud en los siguiente casos:</p>
+          <p class="parrafo">a) A los diez años de permanencia ininterrumpida o por períodos acumulados en la Agrupación. En este caso la convocatoria para realizar las pruebas se hará de oficio. Están exentos de realizar estas pruebas periódicas quienes deban pasar a la situación de reserva por edad dentro de los dos años siguientes al momento en que les corresponda efectuarlas.</p>
+          <p class="parrafo">b) Cuando a juicio del Jefe de la Unidad se haya perdido la aptitud necesaria. En este caso dicho Jefe lo solicitará mediante escrito motivado al General Jefe de la Agrupación.</p>
+          <p class="parrafo">4. El personal con la Especialidad, que durante cinco años consecutivos no preste servicio en la Agrupación de Tráfico, para conservarla, deberá solicitar la realización de las pruebas de aptitud y resultar apto en las mismas.</p>
+          <p class="parrafo">5. La no realización, cuando proceda, así como la no superación de las prueba de aptitud producirá la caducidad de la Especialidad, que será declarada de oficio por el Director General de la Guardia Civil y publicada en el Boletín Oficial del Cuerpo.</p>
+          <p class="parrafo">6. Para volver a obtener la Especialidad será preciso realizar de nuevo el Curso de Tráfico en la modalidad que corresponda.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Séptimo. Renovación y caducidad de la Especialidad.</p>
+          <p class="parrafo">1. El personal que se encuentre en posesión de la Especialidad de Tráfico, vendrá obligado a superar las pruebas psicofísicas, prácticas y de conocimientos que se determinen, encaminadas a comprobar que se conservan las condiciones necesarias de aptitud para el ejercicio de la modalidad respectiva.</p>
+          <p class="parrafo">2. Periódicamente y, al menos una vez al año, se convocará mediante resolución publicada en el Boletín Oficial del Cuerpo, la realización de dichas pruebas de aptitud, a las que será convocado directamente el personal destinado en la Agrupación de Tráfico y podrá optar quien no esté destinado en la citada Agrupación, teniendo en cuenta lo establecido en los puntos siguientes.</p>
+          <p class="parrafo">3. Con carácter general, el personal que esté en posesión de la Especialidad de Tráfico, cualquiera que sea su modalidad, deberá realizar las pruebas de renovación cada diez años, a partir de la fecha de obtención del diploma correspondiente.</p>
+          <p class="parrafo">No obstante lo indicado en el párrafo anterior:</p>
+          <p class="parrafo_2">a) Quienes durante cinco años consecutivos no hayan prestado servicio en la Agrupación de Tráfico, para conservar la Especialidad, deberán solicitar la realización de las pruebas de renovación en la primera convocatoria siguiente a la conclusión de dicho plazo.</p>
+          <p class="parrafo">b) Estará exento de realizar las citadas pruebas, el personal destinado en la Agrupación de Tráfico, que al cumplir el periodo de diez años, le falten menos de dos años para pasar a la situación de reserva por edad.</p>
+          <p class="parrafo">c) Cuando el jefe de una unidad de la Agrupación de Tráfico considere que algún subordinado ha perdido la aptitud necesaria, elevará escrito motivado al jefe de la citada Agrupación para que se le convoque a fin de realizar las pruebas pertinentes.</p>
+          <p class="parrafo">4. La no realización, cuando proceda, así como la no superación de las prueba de aptitud producirá la caducidad de la Especialidad, que será declarada de oficio por el Director General de la Guardia Civil y publicada en el Boletín Oficial del Cuerpo.</p>
+          <p class="parrafo">5. Para volver a obtener la Especialidad será preciso realizar de nuevo el Curso de Tráfico en la modalidad que corresponda.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.5 y 6 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2010-14041" fecha_publicacion="20100913" fecha_vigencia="20100914">
+          <p class="articulo">Séptimo. Renovación y caducidad de la Especialidad.</p>
+          <p class="parrafo">1. El personal que se encuentre en posesión de la Especialidad de Tráfico, vendrá obligado a superar las pruebas psicofísicas, prácticas y de conocimientos que se determinen, encaminadas a comprobar que se conservan las condiciones necesarias de aptitud para el ejercicio de la modalidad respectiva.</p>
+          <p class="parrafo">2. Periódicamente y, al menos una vez al año, se convocará mediante resolución publicada en el Boletín Oficial del Cuerpo, la realización de dichas pruebas de aptitud, a las que será convocado directamente el personal destinado en la Agrupación de Tráfico y podrá optar quien no esté destinado en la citada Agrupación, teniendo en cuenta lo establecido en los puntos siguientes.</p>
+          <p class="parrafo">3. Con carácter general, el personal que esté en posesión de la Especialidad de Tráfico, cualquiera que sea su modalidad, deberá realizar las pruebas de renovación cada diez años, a partir de la fecha de obtención del diploma correspondiente.</p>
+          <p class="parrafo">No obstante lo indicado en el párrafo anterior:</p>
+          <p class="parrafo_2">a) Quienes durante cinco años consecutivos no hayan prestado servicio en la Agrupación de Tráfico, para conservar la Especialidad, deberán solicitar la realización de las pruebas de renovación en la primera convocatoria siguiente a la conclusión de dicho plazo.</p>
+          <p class="parrafo">b) Estará exento de realizar las citadas pruebas, el personal destinado en la Agrupación de Tráfico, que al cumplir el periodo de diez años, le falten menos de dos años para pasar a la situación de reserva por edad.</p>
+          <p class="parrafo">Asimismo, estará exento de realizar las pruebas el personal que en dicho plazo supere los cursos de actualización de conocimientos que se establezcan y obtenga el certificado acreditativo correspondiente.</p>
+          <p class="parrafo">c) Cuando el jefe de una unidad de la Agrupación de Tráfico considere que algún subordinado ha perdido la aptitud necesaria, elevará escrito motivado al jefe de la citada Agrupación para que se le convoque a fin de realizar las pruebas pertinentes.</p>
+          <p class="parrafo">En este supuesto, se dará traslado de la propuesta al interesado a fin de que pueda formular las alegaciones que estime oportunas, que deberán ser tenidas en cuenta en la resolución sobre la convocatoria para la realización de las pruebas. En todo caso, la obligación de realizar las pruebas deberá notificarse al afectado.</p>
+          <p class="parrafo">4. La no realización, cuando proceda, así como la no superación de las prueba de aptitud producirá la caducidad de la Especialidad, que será declarada de oficio por el Director General de la Guardia Civil y publicada en el Boletín Oficial del Cuerpo.</p>
+          <p class="parrafo">5. Para volver a obtener la Especialidad será preciso realizar de nuevo el Curso de Tráfico en la modalidad que corresponda.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el párrafo segundo de los apartados 3.b) y c) por el art. único de la Orden INT/2379/2010, de 7 de septiembre. <a class="refPost">Ref. BOE-A-2010-14041</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta para su aplicación la disposición transitoria única.</p>
+            <p class="nota_pie">Se modifica por el art. único.5 y 6 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="octavo" tipo="precepto" titulo="Octavo">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Octavo. Pérdida de la Especialidad.</p>
+          <p class="parrafo">1. Se perderá la Especialidad de Tráfico, por Resolución del Director General de la Guardia Civil, previo expediente sumario con audiencia al interesado, por las siguientes causas:</p>
+          <p class="parrafo">a) La caducidad del permiso de conducir militar del Cuerpo de la clase que a cada uno le corresponda poseer.</p>
+          <p class="parrafo">b) Ser condenado en sentencia firme, por cualquier Juzgado o Tribunal a la pena de privación del permiso de conducir por tiempo superior a un año.</p>
+          <p class="parrafo">c) Ser declarado útil con limitaciones incompatibles con el ejercicio de la Especialidad.</p>
+          <p class="parrafo">d) Renuncia expresa del interesado, siempre que se haya cumplido el tiempo obligatorio de ejercicio de la Especialidad.</p>
+          <p class="parrafo">2. También se perderá la Especialidad, por pérdida de la condición de militar de carrera de la Guardia Civil. En este caso, la pérdida de la misma se entenderá implícita en la Resolución administrativa correspondiente.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Octavo. Pérdida de la Especialidad.</p>
+          <p class="parrafo">1. Se perderá la Especialidad de Tráfico, por Resolución del Director General de la Guardia Civil, previo expediente sumario con audiencia al interesado, por las siguientes causas:</p>
+          <p class="parrafo">a) La caducidad de alguno de los permisos de conducción habilitantes para el desempeño de la modalidad, de acuerdo con lo dispuesto en el apartado Segundo 3 A) d), sin haber obtenido prórroga o autorización temporal.</p>
+          <p class="parrafo">b) Ser condenado en sentencia firme, por cualquier Juzgado o Tribunal a la pena de privación del permiso de conducir por tiempo superior a un año.</p>
+          <p class="parrafo">c) Ser declarado útil con limitaciones incompatibles con el ejercicio de la Especialidad.</p>
+          <p class="parrafo">d) Renuncia expresa del interesado, siempre que se haya cumplido el tiempo obligatorio de ejercicio de la Especialidad.</p>
+          <p class="parrafo">2. También se perderá la Especialidad, por pérdida de la condición de militar de carrera de la Guardia Civil. En este caso, la pérdida de la misma se entenderá implícita en la Resolución administrativa correspondiente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1.a) por el art. único.7 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="noveno" tipo="precepto" titulo="Noveno">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Noveno. Cursos de Actualización.</p>
+          <p class="parrafo">Con la periodicidad que se determine, por el General Jefe de la Agrupación de Tráfico y previa autorización de la Dirección General de Tráfico, se impartirán cursos de actualización de conocimientos en materia de tráfico, transportes y seguridad vial, cuando las modificaciones normativas, incorporación de nuevas tecnologías o las circunstancias del servicio así lo requieran.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Disposición adicional única. Publicación de Resoluciones.</p>
+          <p class="parrafo">Se publicarán en el Boletín Oficial del Cuerpo de la Guardia Civil las Resoluciones sobre:</p>
+          <p class="parrafo_2">a) Convocatoria de los cursos para obtener la Especialidad de Tráfico en todas sus modalidades.</p>
+          <p class="parrafo">b) Designación y baja de concurrentes a dichos cursos.</p>
+          <p class="parrafo">c) Concesión de la Especialidad en todas sus modalidades.</p>
+          <p class="parrafo">d) Caducidad y pérdida de la Especialidad.</p>
+          <p class="parrafo">e) Convocatoria de las pruebas para la renovación de la Especialidad.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Disposición transitoria primera. Adaptación de situaciones jurídicas anteriores.</p>
+          <p class="parrafo">El personal que, con arreglo a la normativa anterior, hubiera adquirido la Especialidad de Tráfico, conservará la misma y quedará sujeto al régimen que se establece en la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Disposición transitoria segunda. Cómputo de los plazos para la renovación de la Especialidad.</p>
+          <p class="parrafo">Los plazos para la realización de las pruebas para la renovación de la Especialidad de Tráfico se computarán desde el momento de su entrada en vigor de la presente Orden, con arreglo al calendario que figura en el Anexo.</p>
+        </version>
+        <version id_norma="BOE-A-2005-16415" fecha_publicacion="20051005" fecha_vigencia="20051006">
+          <p class="articulo">Disposición transitoria segunda. Cómputo de los plazos para la renovación de la Especialidad.</p>
+          <p class="parrafo">Para el personal que esté en posesión de la Especialidad de Tráfico a la entrada en vigor de la presente Orden, los plazos para la realización de las pruebas de renovación se computarán a partir de esa fecha. No obstante, para el personal destinado en la Agrupación de Tráfico, con exigencia del título relativo a cada modalidad de la Especialidad, le será de aplicación el calendario que figura en el anexo.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.8 de la Orden INT/3051/2005, de 28 de septiembre. <a class="refPost">Ref. BOE-A-2005-16415</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto a la presente Orden.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Disposición final primera. Facultades de desarrollo.</p>
+          <p class="parrafo">Se faculta al Director General de la Guardia Civil para que apruebe las bases generales a las que han de ajustarse las convocatorias de los cursos para la obtención de la Especialidad de Tráfico, así como para dictar las disposiciones que exija el desarrollo de la presente Orden Ministerial.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Orden entrará en vigor el día siguiente al de su publicación en el Boletín Oficial del Estado.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="parrafo_2">Madrid, 13 de marzo de 2003.</p>
+          <p class="firma_rey">ACEBES PANIAGUA</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2003-5574" fecha_publicacion="20030319" fecha_vigencia="20030320">
+          <p class="anexo">ANEXO</p>
+          <p class="parrafo_2">Con la entrada en vigor de la presente Orden, el personal destinado en Unidades de la Agrupación de Tráfico, tendrá que renovar la titulación correspondiente a la Especialidad, con arreglo al siguiente calendario:</p>
+          <p class="parrafo_2">Años acumulados en la especialidad:</p>
+          <p class="parrafo_2">A los 2 años de su publicación: 18 años o más</p>
+          <p class="parrafo">A los 3 años de su publicación: 17 años.</p>
+          <p class="parrafo">A los 4 años de su publicación: 16 años.</p>
+          <p class="parrafo">A los 5 años de su publicación: 15 años.</p>
+          <p class="parrafo">A los 6 años de su publicación: 14 años.</p>
+          <p class="parrafo">A los 7 años de su publicación: 13 años.</p>
+          <p class="parrafo">A los 8 años de su publicación: 12 años.</p>
+          <p class="parrafo">A los 9 años de su publicación: 11 años.</p>
+          <p class="parrafo">A los 10 años de su publicación: 10 años.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

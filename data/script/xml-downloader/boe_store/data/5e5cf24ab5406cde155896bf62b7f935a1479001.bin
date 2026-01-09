@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T114531Z</fecha_actualizacion>
+      <identificador>BOE-A-2008-6997</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7786">Presidencia del Gobierno</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20080421</fecha_disposicion>
+      <numero_oficial>525/2008</numero_oficial>
+      <titulo>Real Decreto 525/2008, de 21 de abril, por el que se reestructura la Presidencia del Gobierno.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20080422</fecha_publicacion>
+      <diario_numero>97</diario_numero>
+      <fecha_vigencia>20080422</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2008/04/21/525</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2008-6997</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="5676">Presidencia del Gobierno</materia>
+        <materia codigo="6385">Secretaría General de la Presidencia del Gobierno</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1997-25336</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 2.2.j) de la Ley 50/1997, de 27 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2008-7161</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE num. 98 de 23 de abril de 2008</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2008-15366</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>, desarrollando su estructura orgánica: Real Decreto 1370/2008, de 1 de agosto</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-6997</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-21</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">525</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5676"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6385"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-6997</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">525</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5676"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6385"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/corrigendum/20080423/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/con/20080422"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 525/2008, de 21 de abril, por el que se reestructura la Presidencia del Gobierno.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-22</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/con/20080422">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-6997</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">525</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5676"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6385"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-22</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/con/20080422/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 525/2008, de 21 de abril, por el que se reestructura la Presidencia del Gobierno.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/con/20080422"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/04/21/525/con/20080422/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/04/21/525/con/20080422/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 98, de 23 de abril de 2008. <a class="refPost">Ref. BOE-A-2008-7161</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="parrafo">Constituido el nuevo Gobierno e iniciada la reestructuración de los departamentos ministeriales y la modificación de la estructura orgánica de la Administración General del Estado, se hace necesario reestructurar el Gabinete y la Secretaría General de la Presidencia del Gobierno.</p>
+          <p class="parrafo">En su virtud, a propuesta del Presidente del Gobierno de conformidad con lo previsto en el artículo 2.2.j) de la Ley 50/1997, de 27 de noviembre, del Gobierno,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Artículo 1. Funciones del Gabinete de la Presidencia del Gobierno.</p>
+          <p class="parrafo">El Gabinete de la Presidencia del Gobierno, como árgano de asistencia política y técnica del Presidente del Gobierno, ejercerá las siguientes funciones:</p>
+          <p class="parrafo">a) Proporcionar al Presidente del Gobierno la información política y técnica que resulte necesaria para el ejercicio de sus funciones</p>
+          <p class="parrafo">b) Asesorar al Presidente del Gobierno en aquellos asuntos y materias que este disponga.</p>
+          <p class="parrafo">c) Conocer los programas, planes y actividades de los distintos departamentos ministeriales, con el fin de facilitar al Presidente del Gobierno la coordinación de la acción del Gobierno.</p>
+          <p class="parrafo">d) Asistir al Presidente del Gobierno en los asuntos relacionados con la política económica.</p>
+          <p class="parrafo">e) Realizar aquellas otras actividades o funciones que le encomiende el Presidente del Gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Artículo 2. Director y estructura del Gabinete de la Presidencia del Gobierno.</p>
+          <p class="parrafo">1. Al frente del Gabinete de la Presidencia del Gobierno figurará un Director, con rango de secretario de Estado.</p>
+          <p class="parrafo">2. Dependerá directamente del Director del Gabinete un Director Adjunto, con rango de subsecretario.</p>
+          <p class="parrafo">3. Para el desarrollo de las funciones específicas que corresponden al Gabinete del Presidente del Gobierno existirán los siguientes departamentos, cuyos titulares tendrán el rango de director general:</p>
+          <p class="parrafo">a) Asuntos Institucionales.</p>
+          <p class="parrafo">b) Política Internacional y Seguridad.</p>
+          <p class="parrafo">c) Análisis y Estudios.</p>
+          <p class="parrafo">d) Educación y Cultura.</p>
+          <p class="parrafo_2">4. También bajo la dependencia directa del Director del Gabinete, existirá la Oficina Económica del Presidente del Gobierno a cuyo frente figurará un Director con rango de subsecretario.</p>
+          <p class="parrafo">Para el desarrollo de sus funciones, la Oficina se estructurará en los siguientes departamentos, cuyos titulares tendrán el rango de director general:</p>
+          <p class="parrafo">a) Política Económica.</p>
+          <p class="parrafo">b) Política Social e Industrial</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Artículo 3. Secretaría General de la Presidencia del Gobierno.</p>
+          <p class="parrafo">La Secretaría General de la Presidencia del Gobierno, cuyo titular tendrá el rango de secretario de Estado, se organiza en los siguientes departamentos, con nivel de dirección general:</p>
+          <p class="parrafo">a) Vicesecretaria General.</p>
+          <p class="parrafo">b) Protocolo.</p>
+          <p class="parrafo">c) Seguridad.</p>
+          <p class="parrafo">d) Infraestructura y Seguimiento para Situaciones de Crisis.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Artículo 4. Alto Representante para la Presidencia Española de la Unión Europea y otras reuniones de alto nivel.</p>
+          <p class="parrafo">Bajo la coordinación del Secretario General de la Presidencia del Gobierno y, en su caso, del Director del Gabinete, existirá un embajador en misión especial que actuará como Alto Representante para la Presidencia Española de la Unión Europea y otras reuniones de alto nivel, con el rango que determine el Real Decreto de nombramiento de su titular.</p>
+          <p class="parrafo">El Alto Representante ejercerá las funciones de preparación, coordinación, seguimiento e impulso necesarias para la organización y el desarrollo de estos acontecimientos.</p>
+          <p class="parrafo">Para el ejercicio de sus funciones, el Alto Representante dispondrá de los puestos de trabajo que se le adscriban en la correspondiente relación de puestos de trabajo.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm. 98, de 23 de abril de 2008. <a class="refPost">Ref. BOE-A-2008-7161</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Disposición adicional única. Dependencia funcional del Departamento de Infraestructura y Seguimiento para Situaciones de Crisis.</p>
+          <p class="parrafo">El Departamento de Infraestructura y Seguimiento para Situaciones de Crisis, adscrito orgánicamente a la Secretaría General de la Presidencia del Gobierno, dependerá funcionalmente del Director del Gabinete de la Presidencia del Gobierno, que asimismo ejercerá las funciones de Secretario de la Comisión Delegada del Gobierno para Situaciones de Crisis.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Disposición final primera. Supresión de órganos.</p>
+          <p class="parrafo">Quedan suprimidas la Subdirección de la Oficina Económica del Presidente del Gobierno y el Departamento de Sociedad del Bienestar.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado conforme a la corrección de errores publicada en BOE núm. 98, de 23 de abril de 2008. <a class="refPost">Ref. BOE-A-2008-7161</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Disposición final segunda. Subsistencia de órganos.</p>
+          <p class="parrafo">Los órganos de rango inferior a los regulados en este real decreto se entenderán subsistentes y conservarán su estructura y funciones en tanto no se realicen las oportunas modificaciones orgánicas.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Disposición final tercera. Modificaciones y habilitaciones presupuestarias.</p>
+          <p class="parrafo">Por el Ministerio de Economía y Hacienda se realizarán las modificaciones y habilitaciones presupuestarias precisas para el cumplimiento de lo previsto en este real decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="df-4" tipo="precepto" titulo="Disposición final cuarta">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="articulo">Disposición final cuarta. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2008-6997" fecha_publicacion="20080422" fecha_vigencia="20080422">
+          <p class="parrafo">Dado en Madrid, el 21 de abril de 2008.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">JOSÉ LUIS RODRÍGUEZ ZAPATERO</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

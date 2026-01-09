@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T174446Z</fecha_actualizacion>
+      <identificador>BOE-A-2013-8087</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8040">Comunidad Autónoma de Cantabria</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20130705</fecha_disposicion>
+      <numero_oficial>5/2013</numero_oficial>
+      <titulo>Ley 5/2013, de 5 de julio, por la que se reconoce como universidad privada a la Universidad Europea del Atlántico.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20130725</fecha_publicacion>
+      <diario_numero>177</diario_numero>
+      <fecha_vigencia>20130716</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-cb/l/2013/07/05/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2013-8087</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="603">Cantabria</materia>
+        <materia codigo="7090">Universidades</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOCT núm. 134, de 15 de julio de 2013.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-635</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 15.2 del Estatuto aprobado por Ley Orgánica 8/1981, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-24515</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 6/2001, de 21 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2015-5277</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>sobre aprobación de las normas de organización y funcionamiento: Decreto 22/2015, de 16 de abril</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-8087</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-05</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-8087</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/con/20130715"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2013, de 5 de julio, por la que se reconoce como universidad privada a la Universidad Europea del Atlántico.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-25</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/con/20130715">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2013-8087</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7090"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/con/20130715/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2013, de 5 de julio, por la que se reconoce como universidad privada a la Universidad Europea del Atlántico.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/con/20130715"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/2013/07/05/5/con/20130715/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/2013/07/05/5/con/20130715/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE CANTABRIA</p>
+          <p class="parrafo_2">Conózcase que el Parlamento de Cantabria ha aprobado y yo, en nombre de Su Majestad el Rey, de acuerdo con lo dispuesto en el artículo 15.2.º del Estatuto de Autonomía para Cantabria, promulgo la siguiente Ley de Cantabria 5/2013, de 5 de julio, por la que se reconoce como universidad privada a la «Universidad Europea del Atlántico».</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Constitución Española, en su artículo 27.1, garantiza el derecho de todos a la educación, así como la libertad de enseñanza. En su apartado 6 reconoce la libertad de las personas, físicas y jurídicas, para crear centros docentes dentro del respeto a los principios constitucionales y, en su apartado 10, contempla la autonomía de las universidades, en los términos que la ley establezca.</p>
+          <p class="parrafo">Por su parte, el artículo 149.1.30.ª de la misma establece que el Estado tiene competencia exclusiva en relación con las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.</p>
+          <p class="parrafo">En este sentido, y de conformidad con lo previsto en los artículos 53.1 y 81.1 de la Constitución, la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, regula los principales aspectos relativos a las condiciones y requisitos para el reconocimiento, funcionamiento y régimen jurídico de las universidades privadas.</p>
+          <p class="parrafo">Según lo dispuesto en el artículo 4.1 de la citada ley, el reconocimiento de universidades privadas se llevará a cabo por una Ley de la Asamblea Legislativa de la Comunidad Autónoma en cuyo ámbito territorial hayan de establecerse, teniendo dicho reconocimiento carácter constitutivo.</p>
+          <p class="parrafo">El traspaso de funciones y servicios de la Administración del Estado a la Comunidad Autónoma de Cantabria, en materia de universidades, se produjo por Real Decreto 1382/1996, de 7 de junio. Por Decreto 50/1996, de 10 de junio, de asunción de funciones y servicios transferidos por el Estado y atribución a órganos de la Administración, se atribuye la competencia de desarrollo legislativo y ejecución en materia de universidades a la entonces Consejería de Educación y Juventud cuyas competencias ostenta la actual Consejería de Educación, Cultura y Deporte.</p>
+          <p class="parrafo">La Comunidad Autónoma de Cantabria, en virtud de lo establecido en el artículo 28.1 del Estatuto de Autonomía para Cantabria, ostenta la competencia de desarrollo legislativo y ejecución de la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades, de acuerdo con lo dispuesto en el artículo 27 de la Constitución y las Leyes Orgánicas que conforme al apartado 1 del artículo 81 de la misma lo desarrollen y sin perjuicio de las facultades que atribuye al Estado el número 30 del apartado 1 del artículo 149, y de la alta inspección para su cumplimiento y garantía.</p>
+          <p class="parrafo">La entidad Fundación Universitaria Iberoamericana ha solicitado el reconocimiento de la «Universidad Europea del Atlántico» como universidad privada que, con sede en Santander, impartirá enseñanzas dirigidas a la obtención de títulos de carácter oficial y validez en todo el territorio nacional.</p>
+          <p class="parrafo">El reconocimiento de la «Universidad Europea del Atlántico» se ha tramitado de acuerdo con lo que se establece en la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades y en el Real Decreto 557/1991, de 12 de abril, sobre creación y reconocimiento de Universidades y centros universitarios.</p>
+          <p class="parrafo">Para llegar a constituir la «Universidad Europea del Atlántico» sus promotores han cumplido los requisitos exigidos por la normativa vigente y, en particular, se ha acreditado en el expediente que no están incursos en ninguna de las prohibiciones que contempla el artículo 5 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades.</p>
+          <p class="parrafo">En el expediente de reconocimiento de la «Universidad Europea del Atlántico» se ha solicitado y emitido el informe preceptivo de la Conferencia General de Política Universitaria en el marco de la programación general de la enseñanza universitaria, exigido por el artículo 4.5 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades.</p>
+          <p class="parrafo">Esta ley se justifica en el ejercicio de las competencias que a la Comunidad Autónoma de Cantabria le corresponden en materia de educación, de acuerdo con lo dispuesto en el artículo 28.1 del Estatuto de Autonomía para Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 1. Reconocimiento de la universidad.</p>
+          <p class="parrafo">Se reconoce a la «Universidad Europea del Atlántico» como universidad privada que, con sede en Santander, impartirá enseñanzas dirigidas a la obtención de títulos de carácter oficial y validez en todo el territorio nacional. Esta universidad tiene personalidad jurídica propia y forma de fundación, y ejercerá las funciones que como institución universitaria que realiza el servicio público de la educación superior le corresponden, a través de la investigación, la docencia y el estudio.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 2. Régimen Jurídico aplicable a la universidad.</p>
+          <p class="parrafo">1. La «Universidad Europea del Atlántico» se regirá por la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades y por las normas que dicten el Estado y la Comunidad Autónoma de Cantabria en el ejercicio de sus competencias, por la presente Ley, por sus normas de organización y funcionamiento, así como por las normas correspondientes a la clase de personalidad jurídica adoptada.</p>
+          <p class="parrafo">2. Las normas de organización y funcionamiento de la «Universidad Europea del Atlántico», de conformidad con el artículo 20.1.c) de la Constitución y con lo previsto en el artículo 2.3 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, reconocerán explícitamente que la actividad de la universidad se fundamente en la libertad académica, manifestada en las libertades de cátedra, de investigación y de estudio.</p>
+          <p class="parrafo">De conformidad con los apartados 2 y 5 del artículo 6 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, estas normas de organización y funcionamiento deberán ser elaboradas por la universidad y, previo su control de legalidad, aprobadas por el Gobierno de la Comunidad Autónoma de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 3. Estructura.</p>
+          <p class="parrafo">1. La «Universidad Europea del Atlántico» constará de los centros que se relacionan en el anexo. Dichos centros se encargarán de la organización de las enseñanzas y de los procesos académicos, administrativos y de gestión conducentes a la obtención de los títulos oficiales, con validez en todo el territorio nacional.</p>
+          <p class="parrafo">2. Para la creación de nuevos centros, modificación y supresión de los mismos, así como para la implantación y supresión de enseñanzas conducentes a la obtención de títulos oficiales con validez en todo el territorio nacional, se exigirá el cumplimiento de los requisitos establecidos en la Ley Orgánica 6/2001, de 21 de septiembre, de Universidades, en el Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales, en el Real Decreto 557/1991, de 12 de abril, sobre creación y reconocimiento de Universidades y centros universitarios y cuantas normas se dicten en su desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 4. Autorización para la puesta en funcionamiento de la universidad.</p>
+          <p class="parrafo">1. La autorización para el inicio de las actividades de la «Universidad Europea del Atlántico» se efectuará mediante Decreto del Gobierno de Cantabria, a propuesta de la Consejería competente en materia de universidades, en un plazo no superior a seis meses desde la entrada de la solicitud en el registro correspondiente, una vez comprobado el cumplimiento de los compromisos adquiridos por dicha entidad y de los requisitos básicos exigidos por la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades y por su normativa de desarrollo y de lo previsto en esta Ley. En el decreto de puesta en funcionamiento, una vez cumplidos los trámites preceptivos, se autorizará, asimismo, la implantación de las enseñanzas conducentes a la obtención de títulos oficiales.</p>
+          <p class="parrafo">2. A tales efectos, la «Universidad Europea del Atlántico» solicitará la autorización para el inicio de sus actividades en un plazo no superior a cuatro años desde la entrada en vigor de la presente Ley. En el momento de realizar dicha solicitud, la universidad deberá acreditar que se cumplen los compromisos adquiridos por la entidad promotora en la memoria que acompañó a la solicitud de reconocimiento y que han sido verificados los títulos oficiales que expedirá la misma, de acuerdo con lo previsto en el artículo 35 de la Ley Orgánica 6/2001 y en el Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 5. Requisitos de acceso.</p>
+          <p class="parrafo">1. Podrá acceder a la «Universidad Europea del Atlántico» el alumnado que cumpla los requisitos establecidos en la normativa vigente para acceder a las enseñanzas universitarias.</p>
+          <p class="parrafo">2. La «Universidad Europea del Atlántico» regulará el régimen de acceso y permanencia del alumnado en sus centros, con respeto a los principios de igualdad, mérito y capacidad, garantizando, en todo caso, que no exista discriminación por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 6. Plazo de funcionamiento de la universidad privada y sus centros.</p>
+          <p class="parrafo">1. La «Universidad Europea del Atlántico» deberá mantener en funcionamiento sus centros y enseñanzas, al menos, durante el período de tiempo que permita finalizar sus estudios a los alumnos que, con un aprovechamiento académico normal, los hubieran iniciado en ella.</p>
+          <p class="parrafo">2. En todo caso, en el supuesto de extinción de un plan de estudios, la «Universidad Europea del Atlántico» queda obligada a garantizar el adecuado desarrollo efectivo de las enseñanzas que hubieran iniciado sus estudiantes hasta su finalización.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 7. Inspección y control.</p>
+          <p class="parrafo">1. A los efectos previstos en el artículo 27.8 de la Constitución, la Consejería competente en materia de universidades ejercerá la función inspectora con el fin de constatar que la «Universidad Europea del Atlántico» y todos sus centros y estructuras docentes cumplen con carácter permanente los requisitos exigidos por la normativa vigente, así como los compromisos adquiridos por la entidad promotora.</p>
+          <p class="parrafo">2. La «Universidad Europea del Atlántico» colaborará con la Consejería competente en materia de universidades en la tarea de inspección y control, facilitando la documentación y el acceso a sus instalaciones que, a tal efecto, le sean requeridos.</p>
+          <p class="parrafo">3. Si con posterioridad al inicio de sus actividades la Consejería competente en materia de universidades apreciara que la «Universidad Europea del Atlántico» incumple los requisitos exigidos por el ordenamiento jurídico o los compromisos adquiridos al solicitarse su reconocimiento, o se separa de las funciones institucionales que le atribuye el artículo 1 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, la requerirá para que regularice su situación en el plazo que se establezca. Transcurrido éste sin que tal regularización se hubiera producido, previa audiencia de la universidad, el Gobierno lo comunicará al Parlamento de Cantabria, a efectos de la posible revocación del reconocimiento de la universidad, siguiendo el mismo procedimiento establecido para su reconocimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 8. Variación de las condiciones de reconocimiento.</p>
+          <p class="parrafo">1. La realización de actos y negocios jurídicos que modifiquen la personalidad jurídica o la estructura de la «Universidad Europea del Atlántico» o que impliquen la transmisión o cesión, intervivos, total o parcial, a título oneroso o gratuito, de la titularidad directa o indirecta que las personas físicas o jurídicas ostenten sobre ella, así como el cambio de denominación y de ubicación de los centros, se comunicará previamente a la Consejería competente en materia de universidades quien podrá denegar su conformidad en el plazo de tres meses.</p>
+          <p class="parrafo">2. La «Universidad Europea del Atlántico» deberá comunicar previamente a la Consejería competente en materia de universidades, para su autorización, los cambios que puedan producirse en los compromisos y condiciones que la entidad promotora adquirió en la solicitud, así como cualesquiera otros que pudieran exigirse con posterioridad al reconocimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 9. Memoria de las actividades.</p>
+          <p class="parrafo">La «Universidad Europea del Atlántico» presentará a la Consejería competente en materia de universidades, a la finalización de cada curso académico, una memoria académica que incluirá el alumnado matriculado, el personal docente e investigador contratado, el personal de administración y servicios y las actividades realizadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Artículo 10. Financiación.</p>
+          <p class="parrafo">La «Universidad Europea del Atlántico» deberá disponer de los recursos suficientes para asegurar su viabilidad financiera y para el desempeño de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Disposición adicional única. Caducidad del reconocimiento.</p>
+          <p class="parrafo">El reconocimiento de la «Universidad Europea del Atlántico» caducará en el caso de que, transcurrido el plazo de cuatro años desde la entrada en vigor de la presente Ley, no se hubiera solicitado la autorización para el inicio de las actividades académicas a que se refiere el artículo 4 de esta Ley, o cuando esta autorización hubiera sido denegada, mediante resolución firme, por falta de cumplimiento de los requisitos previstos en el ordenamiento jurídico.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Disposición final primera. Desarrollo reglamentario.</p>
+          <p class="parrafo">Se autoriza al Gobierno y a la Consejería competente en materia de universidades para dictar, en el ámbito de sus respectivas competencias, las disposiciones precisas para la aplicación y desarrollo de lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor al día siguiente al de su publicación en el «Boletín Oficial de Cantabria».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="parrafo_2">Palacio del Gobierno de Cantabria, 5 de julio de 2013.–El Presidente de la Comunidad Autónoma de Cantabria, Juan Ignacio Diego Palacios.</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-2013-8087" fecha_publicacion="20130715" fecha_vigencia="20130716">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Centros y enseñanzas iniciales en la Universidad Europea del Atlántico</p>
+          <p class="centro_cursiva">Facultad de Ciencias de la Salud</p>
+          <p class="parrafo_2">Grado en Ciencias de la Actividad Física y del Deporte.</p>
+          <p class="parrafo">Grado en Nutrición y Dietética.</p>
+          <p class="parrafo">Grado en Ciencia y Tecnologías de los Alimentos.</p>
+          <p class="parrafo">Máster en Innovación y Biotecnología Alimentaria.</p>
+          <p class="parrafo">Máster Internacional en Nutrición y Dietética Aplicada.</p>
+          <p class="parrafo">Máster en Actividad Física y Salud: Entrenamiento y Gestión Deportiva.</p>
+          <p class="centro_cursiva">Escuela Politécnica Superior</p>
+          <p class="parrafo_2">Grado en Ingenierías de las Industrias Agrarias y Alimentarias.</p>
+          <p class="parrafo">Grado en Ingeniería Informática.</p>
+          <p class="parrafo">Grado en Ingeniería de la Organización Industrial.</p>
+          <p class="parrafo">Máster en Dirección Estratégica en Tecnologías de la Información.</p>
+          <p class="parrafo">Máster en Gestión y Auditorías Ambientales.</p>
+          <p class="parrafo">Máster en Diseño, Gestión y Dirección de Proyectos.</p>
+          <p class="parrafo">Máster en Prevención de Riesgos Laborales.</p>
+          <p class="parrafo">Máster en Gestión Integrada: Prevención, Medio Ambiente y Calidad.</p>
+          <p class="centro_cursiva">Facultad de Ciencias Sociales y Humanidades</p>
+          <p class="parrafo_2">Grado en Administración y Dirección de Empresas.</p>
+          <p class="parrafo">Grado en Periodismo.</p>
+          <p class="parrafo">Grado en Publicidad y Relaciones Públicas.</p>
+          <p class="parrafo">Grado en Comunicación Audiovisual.</p>
+          <p class="parrafo">Grado en Psicología.</p>
+          <p class="parrafo">Grado en Ciencias Políticas y de la Administración.</p>
+          <p class="parrafo">Grado en Traducción e Interpretación.</p>
+          <p class="parrafo">Grado en Lenguas Aplicadas.</p>
+          <p class="parrafo">Máster en Mediación y Resolución de Conflictos.</p>
+          <p class="parrafo">Máster en Dirección Estratégica de Empresas Familiares.</p>
+          <p class="parrafo">Máster en Gobierno e Instituciones Públicas.</p>
+          <p class="parrafo">Máster en Recursos Humanos y Gestión del Conocimiento.</p>
+          <p class="parrafo">Máster en Administración y Dirección de Empresas.</p>
+          <p class="parrafo">Máster en Lingüística Aplicada: Inglés/Español.</p>
+          <p class="parrafo">Máster en Ciencias de la Comunicación.</p>
+          <p class="parrafo">Máster en Marketing Digital.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

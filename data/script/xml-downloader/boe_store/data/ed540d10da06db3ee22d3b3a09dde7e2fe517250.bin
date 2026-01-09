@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T114554Z</fecha_actualizacion>
+      <identificador>BOE-A-2008-12527</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8100">Comunidad Autónoma de la Región de Murcia</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>20070316</fecha_disposicion>
+      <numero_oficial>5/2007</numero_oficial>
+      <titulo>Ley 5/2007, de 16 de marzo, de Creación del Colegio Oficial de Periodistas de la Región de Murcia.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20080722</fecha_publicacion>
+      <diario_numero>176</diario_numero>
+      <fecha_vigencia>20070413</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-mc/l/2007/03/16/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2008-12527</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="974">Colegios Profesionales</materia>
+        <materia codigo="5069">Murcia</materia>
+        <materia codigo="5545">Periodismo</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOMU núm. 66, de 12 de abril de 2007.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2000-1652</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 3.1 de la Ley 6/1999, de 4 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-15031</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 11.10 del Estatuto aprobado por Ley Orgánica 4/1982, de 9 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1991-24677</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1428/1991, de 30 de agosto</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2013-8992</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3, por Ley 8/2013, de 15 de julio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-12527</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5545"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-12527</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5545"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20130718"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20070412"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2007, de 16 de marzo, de Creación del Colegio Oficial de Periodistas de la Región de Murcia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-22</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20130718">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-12527</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5545"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20130718/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2007, de 16 de marzo, de Creación del Colegio Oficial de Periodistas de la Región de Murcia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20130718"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20130718/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20130718/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20070412">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-12527</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-16</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/974"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5069"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5545"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20070412/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/2007, de 16 de marzo, de Creación del Colegio Oficial de Periodistas de la Región de Murcia.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20070412"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20070412/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/2007/03/16/5/con/20070412/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://www.borm.es/eli/es-mc/l/2007/03/16/5"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos de la Región de Murcia, que la Asamblea Regional ha aprobado la Ley 5/2007, de 16 de marzo, de Creación del Colegio Oficial de Periodistas de la Región de Murcia.</p>
+          <p class="parrafo">Por consiguiente, al amparo del artículo 30.Dos, del Estatuto de Autonomía, en nombre del Rey, promulgo y ordeno la publicación de la siguiente Ley.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El artículo primero del título preliminar de la Ley Orgánica 11/1983, de 25 de agosto (RCL 1983, 1856; ApNDL 13793), de Reforma Universitaria, establece, en su apartado b, que es función de la Universidad al servicio de la sociedad: «La preparación para el ejercicio de actividades profesionales que exijan la aplicación de conocimientos y métodos científicos o para la creación artística».</p>
+          <p class="parrafo">Por su parte, el artículo veintiocho de esta misma norma determina, en su primer punto, que «El Gobierno, a propuesta del Consejo de Universidades, establecerá los títulos que tengan carácter oficial y validez en todo el territorio nacional, así como las directrices generales de los planes de estudio que deban cursarse para su obtención y homologación».</p>
+          <p class="parrafo">Al amparo de la referida Ley Orgánica se promulgó el Real Decreto 1497/1987, de 27 de noviembre (RCL 1987, 2607), por el que se establecen las Directrices Generales Comunes de los Planes de Estudio de los Títulos Universitarios de Carácter Oficial y Validez en todo el Territorio Nacional.</p>
+          <p class="parrafo">Y, en consonancia con el mismo, vio la luz el Real Decreto 1428/1991, de 30 de agosto (RCL 1991, 2454), por el que se establece el título universitario oficial de Licenciado en Periodismo y las directrices generales propias de los planes de estudios conducentes a la obtención de aquél.</p>
+          <p class="parrafo">La Constitución española (RCL 1978, 2836; ApNDL 2875), en su artículo 149.1.18, reserva al Estado las competencias sobre las bases del régimen jurídico de las administraciones públicas, y el artículo 36 prevé que la Ley regulará las peculiaridades propias del régimen jurídico de los colegios profesionales.</p>
+          <p class="parrafo">La legislación básica estatal en esta materia se encuentra recogida en un texto normativo preconstitucional, la Ley 2/1974, de 13 de febrero (RCL 1974, 346; NDL 5773), de Colegios Profesionales, modificada por la Ley 74/1978, de 26 de diciembre (RCL 1979, 76; ApNDL 2400), y por la Ley 7/1997, de 14 de abril (RCL 1997, 880), de Medidas Liberalizadoras en Materia de Suelo y de Colegios Profesionales.</p>
+          <p class="parrafo">Por su parte, el Estatuto de Autonomía de la Región de Murcia, reformado por Ley Orgánica 1/1998, de 15 de junio (RCL 1998, 1467), en su artículo 11.10, determina que esta Comunidad posee competencias de desarrollo legislativo y ejecución, en el marco de la legislación básica del Estado, en materia de colegios oficiales o profesionales. En el ejercicio de tales competencias, se promulgó la Ley 6/1999, de 4 de noviembre (LRM 1999, 235 y LRM 2000, 142), de Colegios Profesionales de la Región de Murcia, en cuyo artículo 3.1 se establece que la creación de nuevos colegios profesionales sólo podrá realizarse por ley de la Asamblea Regional.</p>
+          <p class="parrafo">El artículo 20 de la Constitución española afirma que todo ciudadano tiene derecho a comunicar o recibir libremente información veraz por cualquier medio de difusión; ese derecho fundamental no estará realmente protegido si no existen sistemas de autocontrol en el ejercicio profesional del informador y organismos que garanticen el ejercicio digno de la profesión frente a los poderes públicos y empresariales. Por otro lado, el papel que la legislación confiere a los periodistas, a quienes la propia Carta Magna atribuye mecanismos de defensa tales como la cláusula de conciencia y el secreto profesional, es motivo más que suficiente para la vertebración de la profesión de periodista en una estructura colegial.</p>
+          <p class="parrafo">Desde el punto de vista del interés público, el singular carácter de la profesión de periodista, cuya labor incide en derechos fundamentales como el descrito de información o el relativo a la intimidad, entre otros, justifica la creación del Colegio Oficial de Periodistas que, aunque de adscripción voluntaria, integrará a los profesionales que disponiendo de los conocimientos y titulaciones necesarias y suficientes ejerzan esta profesión. Todo ello para una mejor defensa de la observancia de las reglas y código deontológico de la profesión, lo que redundará en un mejor servicio a los ciudadanos y a sus derechos fundamentales, al tiempo que el Colegio se convierte en un cauce idóneo para la colaboración con las administraciones públicas.</p>
+          <p class="parrafo">La creación de un Colegio Oficial de Periodistas de la Región de Murcia como entidad de derecho público deberá servir, además, para ampliar y consolidar la tarea en defensa de la libertad de expresión que los periodistas de Murcia han venido desarrollando, tradicionalmente, desde la Asociación de la Prensa de Murcia, a lo largo de sus cien años de historia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Artículo 1. Objeto.</p>
+          <p class="parrafo">Se crea el Colegio Oficial de Periodistas de la Región de Murcia como corporación de Derecho público, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines y de cuantas funciones le sean propias, de conformidad con lo establecido en la legislación vigente en la materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Artículo 2. Ámbito territorial.</p>
+          <p class="parrafo">El Colegio Oficial de Periodistas de la Región de Murcia tiene como ámbito territorial el de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Artículo 3. Ámbito personal.</p>
+          <p class="parrafo">1. El Colegio Oficial de Periodistas de la Región de Murcia agrupará a aquellos profesionales que se encuentren en posesión de la titulación universitaria de Licenciado en Ciencias de la Información, rama de Periodismo, o titulación declarada equivalente, así como aquellos que se encuentren en alguno de los supuestos contemplados en la disposición adicional y disposición transitoria tercera.</p>
+          <p class="parrafo">2. Aquellas personas que tengan superado el primer ciclo de Periodismo podrán inscribirse en el Colegio, pero no adquirirán plenos derechos de colegiados hasta que no finalicen sus estudios.</p>
+        </version>
+        <version id_norma="BOE-A-2013-8992" fecha_publicacion="20130718" fecha_vigencia="20130802">
+          <p class="articulo">Artículo 3. Ámbito personal.</p>
+          <p class="parrafo">1. El Colegio Oficial de Periodistas de la Región de Murcia agrupará a aquellos profesionales que se encuentren en posesión de la titulación universitaria de Licenciado en Ciencias de la Información, rama de Periodismo o rama de Comunicación Audiovisual, Graduado en Periodismo o en Comunicación Audiovisual o titulaciones declaradas equivalentes; así como aquellos que se encuentren en alguno de los supuestos contemplados en la disposición adicional y disposición transitoria tercera.</p>
+          <p class="parrafo">2. Aquellas personas que tengan superado el primer ciclo o los dos primeros cursos de grado de las anteriores titulaciones podrán inscribirse en el colegio, pero no adquirirán plenos derechos de colegiados hasta que no finalicen sus estudios.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único de la Ley 8/2013, de 15 de julio. <a class="refPost">Ref. BOE-A-2013-8992</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Artículo 4. Relaciones con la Administración regional.</p>
+          <p class="parrafo">Para el cumplimiento de sus fines institucionales o corporativos, el Colegio Oficial de Periodistas de la Región de Murcia se relacionará, para las cuestiones institucionales y corporativas, con la consejería competente en materia general de colegios profesionales, y, en lo relativo a los contenidos propios de la profesión, con la consejería competente en materia de comunicación y con cuantos departamentos de la Administración regional sean necesarios para sus actividades profesionales.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Artículo 5. Régimen jurídico.</p>
+          <p class="parrafo">1. El Colegio Oficial de Periodistas se regirá por la legislación de colegios oficiales y profesionales así como por sus estatutos y, en su caso, por el Reglamento de Régimen Interior.</p>
+          <p class="parrafo">2. Los estatutos regularán aquellas materias que determine la Ley de Colegios Profesionales, observando para su elaboración, aprobación o modificación los requisitos que determine la legislación vigente.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Disposición adicional.</p>
+          <p class="parrafo">Con independencia de su titulación, podrán ser miembros de pleno derecho del Colegio Oficial de Periodistas de la Región de Murcia aquellos que pertenecieran a la Asociación de la Prensa de Murcia con anterioridad a la promulgación de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">Los miembros de la Junta Directiva de la Asociación de la Prensa de la Región de Murcia, actuando como comisión gestora, deben aprobar en el plazo de diez meses a partir de la entrada en vigor de esta Ley los estatutos provisionales del Colegio de Periodistas de la Región de Murcia. En estos estatutos deberá regularse la asamblea colegial constituyente, determinando la forma de su convocatoria y el procedimiento de su desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">1. Se deberá garantizar la máxima publicidad de la convocatoria de la asamblea colegial constituyente mediante la publicación en el «Boletín Oficial de la Región de Murcia» y en los diarios de mayor difusión de la Comunidad Autónoma de la Región de Murcia.</p>
+          <p class="parrafo">2. Las funciones de la asamblea colegial constituyente serán:</p>
+          <p class="parrafo_2">a) Aprobar los estatutos definitivos del Colegio.</p>
+          <p class="parrafo">b) Elegir a las personas que deben ocupar los cargos correspondientes en los órganos colegiales.</p>
+          <p class="parrafo_2">3. Los estatutos definitivos, una vez aprobados, junto con el certificado del acta de la asamblea colegial constituyente, deberán remitirse al órgano competente de la Comunidad Autónoma de la Región de Murcia para que dictamine sobre su legalidad y, en su caso, ordene su inserción en el «Boletín Oficial de la Región de Murcia».</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Con carácter excepcional, podrán solicitar su admisión en el Colegio quienes, sin encontrarse en los supuestos previstos en el artículo 3 y en la disposición adicional, acrediten de forma fehaciente ante la Comisión de Garantías y Asuntos Profesionales de la Federación de Asociaciones de Prensa de España, una profesionalidad contrastada, antigüedad y continuidad en el ejercicio de la profesión y la realización de funciones específicamente periodísticas.</p>
+          <p class="parrafo">La Asociación de la Prensa de la Región de Murcia, en su carácter de miembro federado de la Federación de Asociaciones de Prensa de España, será la encargada de elevar estas solicitudes ante la Comisión de Garantías y Asuntos Profesionales.</p>
+          <p class="parrafo">Se establece un plazo de seis meses, a partir de la entrada en vigor de esta Ley, para la recepción de las solicitudes de ingreso. Transcurrido dicho plazo sin presentar la pertinente solicitud quedará cerrada esta vía para hacerse colegiado.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Región de Murcia».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2008-12527" fecha_publicacion="20070412" fecha_vigencia="20070413">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a los que sea de aplicación esta Ley, que la cumplan y a los Tribunales y Autoridades que corresponda que la hagan cumplir.</p>
+          <p class="parrafo_2">Murcia, 16 de marzo de 2007.–El Presidente, Ramón Luis Valcárcel Siso.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

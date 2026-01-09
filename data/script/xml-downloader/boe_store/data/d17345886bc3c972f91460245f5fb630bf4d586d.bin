@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T165957Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-19940</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8040">Comunidad Autónoma de Cantabria</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19980605</fecha_disposicion>
+      <numero_oficial>7/1998</numero_oficial>
+      <titulo>Ley 7/1998, de 5 de junio, de Artesanía de Cantabria.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980815</fecha_publicacion>
+      <diario_numero>195</diario_numero>
+      <fecha_vigencia>19980625</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-cb/l/1998/06/05/7</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-19940</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="310">Artesanía</materia>
+        <materia codigo="603">Cantabria</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOCT núm. 125, de 24 de junio de 1998.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1982-635</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 22.12 del Estatuto aprobado por Ley Orgánica 8/1981, de 30 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2025-10884</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 3, 5 y 7, por Ley 2/2025, de 2 de abril</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-19940</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-05</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-19940</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/20250404"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/19980625"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1998, de 5 de junio, de Artesanía de Cantabria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-08-15</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/20250404">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-19940</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/20250404/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1998, de 5 de junio, de Artesanía de Cantabria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/20250404"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/20250404/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/20250404/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/19980625">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-cb"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-19940</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-05</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-25</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/19980625/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1998, de 5 de junio, de Artesanía de Cantabria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/19980625"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/19980625/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-cb/l/1998/06/05/7/con/19980625/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="centro_redonda">EL PRESIDENTE DE LA DIPUTACIÓN REGIONAL DE CANTABRIA</p>
+          <p class="parrafo_2">Conózcase que la Asamblea Regional ha aprobado y yo, en nombre de Su Majestad el Rey, de acuerdo con lo dispuesto en el artículo 15.2 del Estatuto de Autonomía para Cantabria, promulgo la siguiente Ley de Cantabria 7/1998, de 5 de junio, de Artesanía de Cantabria.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">La Constitución Española establece, en su artículo 130.1, que «los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía a fin de equiparar el nivel de vida de todos los españoles».</p>
+          <p class="parrafo">El Estatuto de Autonomía para Cantabria dispone, en su artículo 22.12, competencia exclusiva en materia de artesanía.</p>
+          <p class="parrafo">El sector artesano requiere especial atención de los poderes públicos para modernizarse y adaptarse a las nuevas demandas del mercado al mismo tiempo que para proteger sus formas tradicionales de producción frente a la industrialización y fabricación en serie de los productos tradicionalmente artesanos.</p>
+          <p class="parrafo">La artesanía constituye, además, en muchas de sus manifestaciones, la expresión formal y cultural de la historia de esta región y sus testimonios un componente fundamental del Patrimonio Etnográfico de Cantabria.</p>
+          <p class="parrafo">La presente Ley se orienta a diferentes aspectos de la artesanía regional; su ordenación como actividad profesional y empresarial, su promoción, la protección de formas y usos en vías de extinción, la representación de intereses, la formación de nuevos artesanos, etc.</p>
+          <p class="parrafo">La presente Ley define la actividad artesanal a la vez que regula el medio de acreditar la condición de artesano, maestro artesano y taller artesano. Dispone el marco adecuado para fomentar la actividad y formación de artesanos y talleres a través de diversos medios. Se crea, asimismo, el Consejo de Artesanía y Talleres Artesanos de Cantabria en términos similares a los contemplados en otras leyes análogas.</p>
+          <p class="parrafo">Se estructura la Ley en cuatro capítulos, dieciséis artículos, dos disposiciones adicionales y una disposición final.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Objeto, ámbito y delimitación de la actividad artesana</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 1. Objeto de la Ley.</p>
+          <p class="parrafo">Esta Ley tiene por objeto:</p>
+          <p class="parrafo_2">a) Ayudar a la modernización y reestructuración de las actividades artesanas, mejorando sus condiciones de rentabilidad, gestión y competitividad en el mercado, velando, al mismo tiempo, por la calidad de su producción y eliminando los obstáculos que puedan oponerse a su desarrollo en la Comunidad Autónoma de Cantabria.</p>
+          <p class="parrafo">b) Colaborar en la creación de los cauces de comercialización necesarios para lograr que la actividad artesana, además de ser socialmente deseable, sea económicamente rentable.</p>
+          <p class="parrafo">c) Recuperar las manifestaciones artesanales propias de Cantabria, procurar la continuación de las ya existentes, difundirlas y divulgarlas.</p>
+          <p class="parrafo">d) Favorecer el autoempleo.</p>
+          <p class="parrafo">e) Fomentar la creación de nuevas actividades artesanales.</p>
+          <p class="parrafo">f) Favorecer la formación de artesanos y propiciar el desarrollo de sus actividades, fomentando las vocaciones personales y la divulgación de técnicas artesanales.</p>
+          <p class="parrafo">g) Favorecer el acceso del sector artesano a las líneas de crédito preferenciales o a las subvenciones que puedan establecerse por parte del Consejo de Gobierno y de las Administraciones Públicas en general; así como fomentar sistemas cooperativos y asociativos.</p>
+          <p class="parrafo">h) Coordinar las manifestaciones artesanales con los programas turísticos de Cantabria.</p>
+          <p class="parrafo">i) Estimular el desarrollo de la enseñanza de la artesanía en los sistemas educativos y los centros escolares.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">La presente Ley es de aplicación a los artesanos y empresas artesanas ubicadas en la Comunidad Autónoma de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 3. Concepto de artesanía.</p>
+          <p class="parrafo">A los efectos de la presente Ley, se considera actividad artesana toda actividad económica que suponga la creación, producción, restauración o reparación de bienes de carácter artístico o popular.</p>
+          <p class="parrafo">Igualmente, será considera actividad artesana la prestación de servicios realizados mediante procesos en los que la actividad desarrollada sea predominantemente manual y que dé como resultado un producto final individualizado y distinto de una producción industrial totalmente mecanizada o en grandes series.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10884" fpub="20250602" fecha_publicacion="20250404" fecha_vigencia="20250405">
+          <p class="articulo">Artículo 3. Concepto de artesanía.</p>
+          <p class="parrafo">A los efectos de la presente ley, se considera actividad artesana toda actividad económica que suponga la creación, producción, restauración o reparación de bienes de carácter artístico o popular.</p>
+          <p class="parrafo">Igualmente, será considera actividad artesana la prestación de servicios realizados mediante procesos en los que la actividad desarrollada sea predominantemente manual y que dé como resultado un producto final individualizado y distinto de una producción industrial totalmente mecanizada o en grandes series.</p>
+          <p class="parrafo">La actividad artesanal puede llevar implícito el empleo de herramientas digitales o analógicas, de maquinaria auxiliar y de otros activos, siempre y cuando su uso forme parte de alguno de los procesos de elaboración de los productos o servicios y no sustituya por completo la intervención personal para la obtención del producto o servicio final.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 90.1 de la Ley 2/2025, de 2 de abril. <a class="refPost">Ref. BOE-A-2025-10884#a9-2</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 4. Clasificación de las actividades artesanales.</p>
+          <p class="parrafo">1. Las actividades artesanales se clasifican en cuatro grupos:</p>
+          <p class="parrafo_2">a) Artesanía artística o de creación.</p>
+          <p class="parrafo">b) Artesanía de bienes de consumo.</p>
+          <p class="parrafo">c) Artesanía de servicios.</p>
+          <p class="parrafo">d) Artesanía tradicional o popular de Cantabria.</p>
+          <p class="parrafo_2">2. Cada uno de estos grupos podrá ser objeto de un tratamiento específico y diferenciado.</p>
+          <p class="parrafo">3. Las adscripciones de las actividades artesanales a una o varias de estas categorías se harán mediante un repertorio de actividades artesanas.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 5. Taller artesano.</p>
+          <p class="parrafo">1. La calificación de taller artesano podrá otorgarse a toda unidad económica en la que se realicen actividades artesanales y que reúna las siguientes condiciones:</p>
+          <p class="parrafo_2">a) Que la actividad desarrollada tenga un carácter preferentemente manual, sin que pierda este carácter por el empleo de utensilios y maquinaria auxiliar siempre que se origine un producto individualizado.</p>
+          <p class="parrafo">b) Que como responsable de la actividad figure un artesano o maestro artesano que la dirija y participe en la misma.</p>
+          <p class="parrafo">c) Que la actividad que desarrolle figure en el Registro de Actividades Artesanas de Cantabria.</p>
+          <p class="parrafo">d) Que el número de trabajadores no familiares empleados con carácter permanente no exceda de diez, excepto aprendices alumnos.</p>
+          <p class="parrafo_2">2. También podrán tener la consideración de taller artesano las unidades de carácter cooperativo o asociativo que, estando formadas por artesanos en activo, se dediquen exclusivamente a la comercialización de productos artesanos.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10884" fpub="20250602" fecha_publicacion="20250404" fecha_vigencia="20250405">
+          <p class="articulo">Artículo 5. Taller artesano.</p>
+          <p class="parrafo">1. Se entiende por taller artesano toda unidad económica en la que se realicen actividades artesanales y que reúna las siguientes condiciones:</p>
+          <p class="parrafo_2">a) Que la persona responsable de la actividad productiva sea la que dirija o controle la totalidad del proceso productivo, asegurando el carácter artesano del producto.</p>
+          <p class="parrafo">b) Que la persona titular de la unidad económica esté dada de alta en el impuesto de actividades económicas y se halle al corriente en el pago de sus obligaciones tributarias y de la Seguridad Social.</p>
+          <p class="parrafo">c) Que el número de personas empleadas no exceda de diez.</p>
+          <p class="parrafo_2">2. También podrán tener la consideración de taller artesano las unidades de carácter cooperativo o asociativo que, estando formadas por artesanos en activo, se dediquen exclusivamente a la comercialización de productos artesanos.</p>
+          <p class="parrafo">3. La calificación de taller artesano tiene carácter voluntario y no constituye un requisito para el ejercicio de la actividad artesanal.</p>
+          <p class="parrafo">La calificación oficial de taller artesano llevará implícita la acreditación de persona artesana.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 90.2 de la Ley 2/2025, de 2 de abril. <a class="refPost">Ref. BOE-A-2025-10884#a9-2</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 6. El artesano.</p>
+          <p class="parrafo">La Dirección General competente en la materia solicitará informe al Consejo de Artesanía de Cantabria para fijar las condiciones necesarias para obtener la calificación de artesano. En todo caso, para obtener la calificación de artesano será preciso hallarse al corriente en el pago de las obligaciones tributarias y de la Seguridad Social y reunir alguno de los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Estar en posesión de título obtenido con arreglo a la legislación vigente o disponer de título académico que habilite para la práctica artesana de que se trate.</p>
+          <p class="parrafo">b) Ejercer notoria y públicamente la actividad de oficio artesano, durante un período mínimo que será fijado por la Consejería competente a propuesta del Consejo de Artesanía de Cantabria.</p>
+          <p class="parrafo">c) Cualquier otro que se fije por la Consejería competente, previo informe del Consejo de Artesanía de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Registro y censo de artesanos y talleres artesanos</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 7. Acreditación y Registro.</p>
+          <p class="parrafo">1. La condición de artesano o taller artesano se acreditará mediante la posesión de documento de calificación artesanal expedido por la Consejería competente, previa consulta al Consejo de Artesanía de Cantabria, a aquellos artesanos o talleres artesanos que, reuniendo los requisitos exigidos en esta Ley y en las normas que se dictan para su desarrollo, así lo soliciten. Dicho documento tendrá una validez de tres años pudiendo ser renovados por iguales períodos, a petición del interesado, en la forma que reglamentariamente se establezca.</p>
+          <p class="parrafo">2. A tal efecto, se crea en la Consejería de Turismo, Trabajo y Comunicaciones e Industria, el Registro de Artesanos y Talleres Artesanos de la Comunidad Autónoma de Cantabria.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10884" fpub="20250602" fecha_publicacion="20250404" fecha_vigencia="20250405">
+          <p class="articulo">Artículo 7. Acreditación y Registro.</p>
+          <p class="parrafo">1. La condición de artesano o taller artesano se acreditará mediante la posesión de documento de calificación artesanal expedido por la Consejería competente, a aquellos artesanos o talleres artesanos que, reuniendo los requisitos exigidos normativamente, así lo comuniquen mediante la presentación de una declaración responsable que acredite el cumplimiento de los citados requisitos. Dicho documento tendrá una validez de tres años renovándose por iguales períodos de manera automática.</p>
+          <p class="parrafo">2. A tal efecto, se crea en la Consejería competente en materia de artesanía, el Registro de Artesanos y Talleres Artesanos de la Comunidad Autónoma de Cantabria.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 90.3 de la Ley 2/2025, de 2 de abril. <a class="refPost">Ref. BOE-A-2025-10884#a9-2</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 8. Acceso a beneficios.</p>
+          <p class="parrafo">Será requisito indispensable estar inscrito en el Registro de Artesanos y Talleres Artesanos de la Comunidad Autónoma de Cantabria para poder acceder a los beneficios que la Administración tenga establecidos o establezca para la protección, fomento y ayuda a la artesanía, así como para poder obtener los distintivos y certificados de origen, calidad y procedencia geográfica de los productos artesanos que se puedan instaurar al amparo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 9. Solicitudes.</p>
+          <p class="parrafo">Las solicitudes de inscripción en el Registro de Artesanos y Talleres de Cantabria se formularán ante la Consejería de Turismo, Transportes y Comunicaciones e Industria en los plazos, forma y condiciones que reglamentariamente se determinen.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 10. Censo y certificaciones.</p>
+          <p class="parrafo">1. El Registro de Artesanos y Talleres Artesanos de Cantabria será único y público y constará de las siguientes secciones:</p>
+          <p class="parrafo_2">a) Censo de actividades artesanas: Su objeto será la inscripción de cuantos trabajos y actividades obtengan el reconocimiento oficial de actividades artesanas.</p>
+          <p class="parrafo">b) Censo de talleres artesanos: Su objeto será la inscripción de todas las unidades económicas que solicitaren y obtuvieren la calificación de taller artesano.</p>
+          <p class="parrafo">c) Censo de artesanos y maestros artesanos: Su objeto será la inscripción de los que obtengan y acrediten el reconocimiento de tal condición.</p>
+          <p class="parrafo_2">2. El Registro estará obligado a expedir las certificaciones que sean solicitadas por los interesados sobre los extremos que figuren en él.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Consejo de Artesanía de Cantabria</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 11. Creación.</p>
+          <p class="parrafo">Se crea el Consejo de Artesanía de Cantabria como órgano colegiado de representación de las distintas entidades y organismos, así como de los propios artesanos y de sus organizaciones profesionales. Igualmente, el Consejo asesorará a la Administración Regional y estará adscrito a la Consejería de Turismo, Trabajo y Comunicaciones e Industria.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 12. Funciones.</p>
+          <p class="parrafo">El Consejo de Artesanía de Cantabria tendrá las siguientes funciones:</p>
+          <p class="parrafo_2">a) Informar preceptivamente los proyectos relativos a la elaboración del censo de actividades artesanales y a su permanente actualización, a las condiciones para el reconocimiento de la calidad de artesano y a la de los talleres de este carácter.</p>
+          <p class="parrafo">b) Estudiar y proponer a la Consejería de Turismo, Trabajo y Comunicaciones e Industria las disposiciones y medidas de todo tipo tendentes a fomentar la promoción, protección y comercialización de las actividades artesanas en Cantabria.</p>
+          <p class="parrafo">c) Informar, también preceptivamente, los programas de formación artesanal, las declaraciones de protección singularizada y la regulación de marcas de origen o calificaciones similares que se proyecten.</p>
+          <p class="parrafo">d) Evacuar los informes que le sean requeridos por el titular de la Consejería competente.</p>
+          <p class="parrafo">e) Proponer aquellas medidas que el Consejo considere precisas para cumplir lo establecido en el artículo 3 de esta Ley.</p>
+          <p class="parrafo">f) Proponer, al titular de la Consejería competente, medidas y acciones para incluir en los planes de fomento y difusión de la artesanía.</p>
+          <p class="parrafo">g) Informar preceptivamente los planes de fomento de la artesanía elaborados por la Consejería competente y las condiciones para adquirir la condición de artesano.</p>
+          <p class="parrafo">h) Fomentar el asociacionismo profesional en el sector.</p>
+          <p class="parrafo">i) Proponer la inclusión de actividades en la sección de actividades artesanas.</p>
+          <p class="parrafo">j) Estudiar y proponer las normas reguladoras para el otorgamiento de las certificaciones de calidad artesanal y de sus distintivos.</p>
+          <p class="parrafo">k) Emitir informe preceptivamente sobre los proyectos de declaración de zonas de interés artesanal.</p>
+          <p class="parrafo">l) Colaborar en labores de conservación y rehabilitación del Patrimonio Cultural de Cantabria.</p>
+          <p class="parrafo">m) Cualesquiera otras funciones que se le encomienden por disposición o acuerdo de rango suficiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 13. Constitución del Consejo.</p>
+          <p class="parrafo">El Consejo estará constituido por:</p>
+          <p class="parrafo_2">El titular de la Consejería de Turismo, Transportes y Comunicaciones e Industria, o miembro de la Dirección Regional en quien delegue, que actuará de Presidente del Consejo.</p>
+          <p class="parrafo">A propuesta del Consejero, formarán parte del mismo:</p>
+          <p class="parrafo_2">a) Cinco miembros designados por el Consejero de Turismo, Trabajo y Comunicaciones e Industria, de los cuales uno será un miembro de la Comisión Técnica del Patrimonio Etnográfico de la Consejería de Cultura y Deporte.</p>
+          <p class="parrafo">b) Cinco miembros designados por los artesanos, elegidos a través de sus asociaciones profesionales, que se renovarán periodicamente.</p>
+          <p class="parrafo">c) Un experto nombrado por la Universidad de Cantabria con voz y sin voto.</p>
+          <p class="parrafo">d) Actuará como Secretario, como voz y sin voto, un funcionario de la Consejería competente, designado al efecto.</p>
+          <p class="parrafo_2">El Consejo se reunirá al menos cada seis meses.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Desarrollo del sector</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 14. De las ayudas.</p>
+          <p class="parrafo">1. Los talleres artesanos y empresas artesanas, siempre que cumplan los requisitos que se establezcan reglamentariamente, podrán acogerse a:</p>
+          <p class="parrafo_2">a) Las distintas líneas de ayuda que pueda convocar la Administración autonómica para la instalación, ampliación, traslado o reforma del total o parte de la infraestructura y medios de producción.</p>
+          <p class="parrafo">b) Al apoyo a la comercialización de sus propios productos, mediante las siguientes acciones:</p>
+          <p class="parrafo_2">1.ª Participación en muestras, exposiciones y ferias impulsadas por la Administración Regional.</p>
+          <p class="parrafo">2.ª A subvenciones, en la forma que se determine, para la participación en actos similares fuera del territorio de la Comunidad Autónoma.</p>
+          <p class="parrafo">3.ª A ser declaradas de interés artesanal aquellas comarcas o áreas geográficas que se distingan por su actividad artesanal y por un producto homogéneo. Estas comarcas o áreas podrán utilizar, en la forma que reglamentariamente se establezca, un distintivo de su identidad y de procedencia geográfica creado al efecto.</p>
+          <p class="parrafo">4.ª A desarrollar centros de artesanía en áreas de interés artesano dedicados tanto a fomentar el conocimiento y conservación de la artesanía como a impulsar su comercialización, en concierto con programas de promoción turística.</p>
+          <p class="parrafo">5.ª A impulsar cooperativas artesanas de comercialización.</p>
+          <p class="parrafo_2">2. La Administración Regional incluirá en sus campañas publicitarias y folletos de promoción, referencias expresas a la artesanía tradicional de Cantabria.</p>
+          <p class="parrafo">3. El Gobierno de la Comunidad Autónoma creará un premio de artesanía para aquellos artesanos e investigadores que más hayan destacado en la recuperación de las tradiciones artesanas de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 15. De la formación.</p>
+          <p class="parrafo">1. Se crearán becas o ayudas para la formación y reciclaje de artesanos.</p>
+          <p class="parrafo">2. Se promoverán cursos formativos en técnicas de fabricación manual que apoyen la difusión de formas de trabajo artesanal tradicional.</p>
+          <p class="parrafo">3. Se establecerán convenios específicos con las escuelas-taller para facilitar a los jóvenes una formación específica en el terreno de la artesanía.</p>
+          <p class="parrafo">4. Se formalizarán acuerdos con la Consejería de Educación y Deporte para la introducción de la artesanía como materia optativa o actividad extraescolar y complementaria en los niveles de enseñanza no universitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 16. Proyectos y planes.</p>
+          <p class="parrafo">El Consejo de Gobierno solicitará del Consejo de Artesanía de Cantabria los informes necesarios para:</p>
+          <p class="parrafo_2">a) Elaborar y/o actualizar el censo de artesanos, las condiciones para el reconocimiento de la calidad de artesano y de los talleres de este carácter.</p>
+          <p class="parrafo">b) Poner en marcha los programas de formación artesanal, las declaraciones de protección singularizada y la regulación de marcas de origen o calificaciones similares que se proyecten.</p>
+          <p class="parrafo">c) Diseñar planes de fomento de la artesanía.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Regulación del sector</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 17. La calidad y distintivos.</p>
+          <p class="parrafo">La Consejería competente, oído el Consejo de Artesanía de Cantabria, dictará las normas precisas para acreditar la calidad de los productos artesanos, creará distintivos y otorgará certificaciones de calidad para su identificación en el mercado.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Artículo 18. Áreas geográficas.</p>
+          <p class="parrafo">Aquellas comarcas o áreas geográficas que se distingan por su actividad artesanal y por uno o varios productos homogéneos, podrán ser declaradas zonas de interés artesanal; lo que permitirá utilizar, en la forma que reglamentariamente se determine, un distintivo de su identidad de procedencia geográfica, creado al efecto.</p>
+          <p class="parrafo">La declaración y regulación de las zonas de interés geográfico y regulación de las zonas de interés geográfico correspondiente, la efectuará la Consejería de Turismo, Trabajo y Comunicaciones e Industria, oído el Consejo de Artesanía de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Consejo de Gobierno de Cantabria para que dicte las disposiciones reglamentarias que exija el desarrollo y aplicación de esta Ley.</p>
+          <p class="parrafo">Por la Consejería de Turismo, Trabajo y Comunicaciones e Industria se elevará al Consejo de Gobierno, en un plazo máximo de tres meses, la nueva estructura orgánica que contemple el reparto de las funciones de artesanía y las unidades administrativas encargadas de su gestión.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Por el Consejo de Gobierno se procederá a publicar en el «Boletín Oficial de Cantabria», en el plazo de tres meses, el Decreto regulador de la composición y funcionamiento del Consejo de Artesanía de Cantabria.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">Por la Consejería competente se procederá a:</p>
+          <p class="parrafo_2">a) Proponer en el plazo de un mes, a partir de la publicación del Decreto anteriormente mencionado, a los Vocales del Consejo de Artesanía y proceder a la constitución de éste.</p>
+          <p class="parrafo">b) Aprobar, en el plazo de dos meses desde la constitución del Consejo de Artesanía, el repertorio de actividades artesanas.</p>
+        </version>
+      </bloque>
+      <bloque id="dfcuaa" tipo="precepto" titulo="Disposición final cuarta">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="articulo">Disposición final cuarta.</p>
+          <p class="parrafo">La presente Ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial de Cantabria».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1998-19940" fecha_publicacion="19980625" fecha_vigencia="19980625">
+          <p class="parrafo_2">Palacio de la Diputación Regional de Cantabria, 5 de junio de 1998.</p>
+          <p class="firma_ministro">JOSÉ JOAQUÍN MARTÍNEZ SIESO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

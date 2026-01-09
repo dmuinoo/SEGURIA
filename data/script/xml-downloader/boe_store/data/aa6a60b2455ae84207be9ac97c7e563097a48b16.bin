@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190517Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-13171</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20010706</fecha_disposicion>
+      <numero_oficial>782/2001</numero_oficial>
+      <titulo>Real Decreto 782/2001, de 6 de julio, por el que se regula la relación laboral de carácter especial de los penados que realicen actividades laborales en talleres penitenciarios y la protección de Seguridad Social de los sometidos a penas de trabajo en beneficio de la comunidad.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20010707</fecha_publicacion>
+      <diario_numero>162</diario_numero>
+      <fecha_vigencia>20010708</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2001/07/06/782</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-13171</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1667">Contratos de trabajo</materia>
+        <materia codigo="1754">Cotización a la Seguridad Social</materia>
+        <materia codigo="5677">Presos y penados</materia>
+        <materia codigo="6499">Seguridad Social</materia>
+        <materia codigo="6909">Trabajadores</materia>
+        <materia codigo="6912">Trabajo y Prestaciones Penitenciarias</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1996-3307</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>arts. 134 a 152 del Reglamento aprobado por Real Decreto 190/1996, de 9 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1967-4988</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Real Decreto 573/1967, de 16 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1995-7730</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 2.1 c) de la Ley del Estatuto de los Trabajadores, texto refundido aprobado por Real Decreto Legislativo 1/1995, de 24 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-14960</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Disposición adicional 30 de la Ley General de la Seguridad Social, texto refundido aprobado por Real Decreto Legislativo 1/1994, de 20 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2009-869</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 22 y 23, por Real Decreto 2131/2008, de 26 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-13171</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-06</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">782</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1667"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1754"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6912"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-13171</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-06</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">782</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1667"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1754"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6912"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20090119"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20010707"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 782/2001, de 6 de julio, por el que se regula la relación laboral de carácter especial de los penados que realicen actividades laborales en talleres penitenciarios y la protección de Seguridad Social de los sometidos a penas de trabajo en beneficio de la comunidad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-07</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET 782/2001, de 6 de juliol, pel qual es regula la relació laboral de caràcter especial dels penats que exerceixin activitats laborals en tallers penitenciaris i la protecció de Seguretat Social dels sotmesos a penes de treball en benefici de la comunitat.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20090119">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-13171</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-06</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">782</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1667"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1754"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6912"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20090119/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 782/2001, de 6 de julio, por el que se regula la relación laboral de carácter especial de los penados que realicen actividades laborales en talleres penitenciarios y la protección de Seguridad Social de los sometidos a penas de trabajo en beneficio de la comunidad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20090119"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20090119/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20090119/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20010707">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-13171</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-06</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">782</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1667"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1754"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5677"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6499"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6909"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6912"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-07-07</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20010707/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 782/2001, de 6 de julio, por el que se regula la relación laboral de carácter especial de los penados que realicen actividades laborales en talleres penitenciarios y la protección de Seguridad Social de los sometidos a penas de trabajo en beneficio de la comunidad.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20010707"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20010707/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/07/06/782/con/20010707/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="parrafo">La Ley 55/1999, de 29 de diciembre, de Medidas fiscales, administrativas y del orden social, en su artículo 21, encomienda al Gobierno la regulación de dos aspectos diferenciados en relación con los penados: por un lado, le habilita para articular la relación laboral de carácter especial de los penados que realicen actividades laborales en talleres penitenciarios, contemplando, además, un marco de protección de Seguridad Social de este colectivo acorde con sus especiales características. Y así mismo, determina que a las cotizaciones a la Seguridad Social que hayan de efectuarse por las contingencias cuya cobertura se establezca, se les aplicarán las bonificaciones generales que se otorguen a favor de los trabajadores con especiales dificultades de inserción laboral o las que específicamente se fijen para este colectivo. Por otro lado, le habilita para regular la protección de Seguridad Social de los sometidos a penas de trabajo en beneficio de la comunidad.</p>
+          <p class="parrafo">Así mismo, la Ley 14/2000, de 29 de diciembre, de Medidas fiscales, administrativas y del orden social, en su artículo 24, apartado cuarto, introduce una nueva disposición adicional trigésima en el texto refundido de la Ley General de la Seguridad Social, aprobado por Real Decreto legislativo 1/1994, de 20 de junio, por la que se establecen determinadas bonificaciones en las cotizaciones a la Seguridad Social por los conceptos de recaudación conjunta, respecto de los penados que realicen actividades laborales en instituciones penitenciarias, y declara aplicables a las cuotas empresariales por contingencias comunes las bonificaciones generales que se otorguen a la contratación de trabajadores con especiales dificultades de inserción laboral. Por otro lado, la citada Ley 14/2000, en su disposición adicional trigésima primera (actualmente derogada), declaró aplicable el Programa de Fomento del Empleo al colectivo anteriormente mencionado, y prorrogó el Programa para el año 2000 establecido en el artículo 28 de la Ley 55/1999, hasta el 17 de mayo de 2001. El Real Decreto-ley 5/2001, de 2 de marzo, de medidas urgentes de reforma del mercado de trabajo para el incremento del empleo y mejora de su calidad, incluye nuevamente al colectivo citado en el Programa de Fomento de Empleo para el año 2001, derogando el anterior.</p>
+          <p class="parrafo">El primer aspecto, es decir, la relación laboral especial de los internos en los centros penitenciarios tiene como antecedentes próximos el artículo 25.2 de la Constitución, en cuanto que establece el derecho de los condenados a penas de prisión a un trabajo remunerado y a los beneficios correspondientes de la Seguridad Social, el capítulo II del Título II, y en particular el artículo 27.2, de la Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria, que establece que el trabajo directamente productivo que realicen los internos será remunerado y, por otro lado, el párrafo c) del apartado primero, del artículo 2 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por Real Decreto legislativo 1/1995, de 24 de marzo, que enuncia como relación laboral de carácter especial la de los penados en las instituciones penitenciarias.</p>
+          <p class="parrafo">Estas previsiones fueron desarrolladas en el capítulo IV del Título V del Reglamento Penitenciario, aprobado por Real Decreto 190/1996, de 9 de febrero.</p>
+          <p class="parrafo">En virtud del Real Decreto citado anteriormente y del Real Decreto 326/1995, de 3 de marzo, de regulación del Organismo Autónomo Trabajo y Prestaciones Penitenciarias, éste y el organismo autonómico equivalente tiene atribuidas, entre otras funciones, la gestión del trabajo de los internos.</p>
+          <p class="parrafo">Dentro de este marco el artículo 28 de la Ley 55/1999, regula el Programa de Fomento del Empleo para el año 2000, incluyendo, entre los colectivos beneficiarios de los incentivos previstos, a las empresas y entidades sin ánimo de lucro que contraten, indefinida o temporalmente, trabajadores desempleados en situación de exclusión social figurando entre ellos los internos de centros penitenciarios cuya situación penitenciaria les permita acceder a un empleo, así como los liberados condicionales y ex-reclusos.</p>
+          <p class="parrafo">Estos tres aspectos destacados anteriormente suponen un gran avance en el fomento de las políticas de inserción laboral del colectivo de reclusos, liberados condicionales y ex-reclusos, que es uno de los que presenta un mayor riesgo de exclusión social.</p>
+          <p class="parrafo">Por lo que respecta a los internos en régimen abierto que accedan a un empleo en el exterior del centro penitenciario, a los liberados condicionales y a los ex-reclusos, su relación laboral se somete a la normativa común.</p>
+          <p class="parrafo">Sin embargo, en el caso de los demás internos los principios básicos de la misma se contemplan actualmente en el Reglamento Penitenciario.</p>
+          <p class="parrafo">La habilitación que el artículo 21 de la Ley 55/1999 hace al Gobierno, las modificaciones que en la normativa laboral común se han producido en los últimos años, las medidas citadas en materia de fomento del empleo que afectan en particular a este colectivo y los propios cambios introducidos por la política penitenciaria para acomodarse a las nuevas tendencias en materia de formación integral de la persona adulta o de formación profesional ocupacional justifican su desarrollo reglamentario.</p>
+          <p class="parrafo">Esta norma está presidida por una concepción del trabajo de los internos que conjuga aspectos de formación y de ejercicio de una actividad laboral que tienen como finalidad última facilitar su futura inserción laboral.</p>
+          <p class="parrafo">Entre las novedades más relevantes que este Real Decreto incorpora destacan las siguientes: su propia filosofía general, combinando formación y actividad laboral ; la incorporación de un catálogo de oferta de los puestos de trabajo existentes por actividades que, en la medida de lo posible, han de seguir la tendencia del sector laboral, con el fin de que la tarea de inserción laboral sea lo más fácil posible ; la posibilidad de que la labor de preparación para la inserción no se vea interrumpida con motivo de traslados entre centros penitenciarios, en determinadas condiciones ; una mayor concreción en la regulación de aquellas situaciones en que la organización del trabajo se lleva a cabo en colaboración con personas físicas o jurídicas del exterior, que contribuyen así al objetivo de reinserción, proporcionando puestos de trabajo en el interior de los centros penitenciarios y constituyendo auténticas unidades productivas en los mismos ; y por último, se establece el marco normativo de protección de Seguridad Social de este colectivo, acorde con sus especiales características, tal como dispone el artículo 21 de la Ley 55/1999.</p>
+          <p class="parrafo">En cuanto al segundo aspecto, esto es, la regulación de la protección de la Seguridad Social de los sometidos a penas de trabajo en beneficio de la comunidad, se debe tener presente que una de las novedades más importantes del sistema de penas de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, es la pena de trabajo en beneficio de la comunidad. Con ella se evita alguno de los inconvenientes de las penas privativas de libertad, como la separación del delincuente de la sociedad, y, al mismo tiempo, se le hace partícipe de intereses públicos, al tener que cooperar con actividades que tienen ese carácter.</p>
+          <p class="parrafo">Según el artículo 49 del Código Penal "Los trabajos en beneficio de la comunidad, que no podrán imponerse sin consentimiento del penado, le obligan a prestar su cooperación no retribuida en determinadas actividades de utilidad pública". Consiste, por lo tanto, en una obligación asumida voluntariamente por el penado para prestar su cooperación en ciertas actividades de utilidad pública.</p>
+          <p class="parrafo">El Real Decreto 690/1996, de 26 de abril, por el que se establecen las circunstancias de ejecución de las penas de trabajo en beneficio de la comunidad y de arresto de fin de semana, además de establecer las circunstancias de ejecución de esta pena, aporta a la definición de la misma, por una parte, que la actividad de utilidad pública a la que se preste la colaboración personal tenga "interés social" y "valor educativo", haciendo énfasis en la prevención especial, y, por otra parte, que "sirva de reparación para la comunidad perjudicada", es decir, que sirva como retribución por el delito cometido.</p>
+          <p class="parrafo">Tanto el Código Penal como el Real Decreto citado disponen que los sentenciados a la pena de trabajo en beneficio de la comunidad gozarán de la protección dispensada a los penados por la legislación penitenciaria en materia de Seguridad Social. No obstante, el artículo 132 y siguientes del Reglamento Penitenciario regula el trabajo de los internos en los centros penitenciarios, como una actividad productiva y remunerada, características que no concurren en la pena de trabajo en beneficio de la comunidad por no tratarse de una relación laboral. La protección que en este caso se les dispensa es, al modo como se protegen las prestaciones personales obligatorias, la derivada de su inclusión en la acción protectora del sistema de la Seguridad Social en los casos de accidente de trabajo y enfermedad profesional.</p>
+          <p class="parrafo">En su virtud, a propuesta conjunta del Vicepresidente Primero del Gobierno y Ministro del Interior y del de Trabajo y Asuntos Sociales, previo informe del Consejo General del Poder Judicial y del Consejo Económico y Social, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 6 de julio de 2001,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 1. Ámbito de aplicación y exclusiones.</p>
+          <p class="parrafo">1. El presente Real Decreto regula la relación laboral de carácter especial existente entre el Organismo Autónomo Trabajo y Prestaciones Penitenciarias u organismo autonómico equivalente y los internos que desarrollen una actividad laboral en los talleres productivos de los centros penitenciarios, así como la de quienes cumplen penas de trabajo en beneficio de la comunidad.</p>
+          <p class="parrafo">2. Queda excluida de su ámbito de aplicación la relación laboral de los internos en régimen abierto, sometidos a un sistema de contratación ordinaria con empresarios, que se regulará por la legislación laboral común, sin perjuicio de la tutela que en la ejecución de estos contratos pueda realizarse por la autoridad penitenciaria.</p>
+          <p class="parrafo">3. También quedan excluidas de esta regulación las diferentes modalidades de ocupación no productiva que se desarrollen en los establecimientos penitenciarios, tales como la formación profesional ocupacional, el estudio y la formación académica, las ocupacionales que formen parte de un tratamiento, las prestaciones personales en servicios auxiliares comunes del establecimiento, las artesanales, intelectuales y artísticas y, en general, todas aquellas ocupaciones que no tengan naturaleza productiva.</p>
+          <p class="parrafo">4. La relación laboral especial penitenciaria se regula por lo dispuesto en este Real Decreto. Las demás normas de la legislación laboral común, incluido el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por Real Decreto legislativo 1/1995, de 24 de marzo, sólo serán aplicables en los casos en que se produzca una remisión expresa desde este Real Decreto o la normativa de desarrollo.</p>
+          <p class="parrafo">5. Las cuestiones litigiosas derivadas de los conflictos individuales que se promuevan por los internos trabajadores encuadrados en la relación laboral especial penitenciaria se regirán por el texto refundido de la Ley de Procedimiento Laboral, aprobado por Real Decreto legislativo 2/1995, de 7 de abril. Para demandar al Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente, será requisito previo haber reclamado en vía administrativa en la forma establecida en el artículo 69 y siguientes del texto refundido de la Ley de Procedimiento Laboral y en el artículo 125 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 2. Sujetos de la relación laboral.</p>
+          <p class="parrafo">1. A los efectos del presente Real Decreto son trabajadores los internos que desarrollen actividades laborales de producción por cuenta ajena en los talleres productivos de los centros penitenciarios.</p>
+          <p class="parrafo">2. También a dichos efectos el empleador será en todos los casos el Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 3. Acceso a los puestos de trabajo.</p>
+          <p class="parrafo">1. El Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente mantendrá una oferta de puestos de trabajo acorde con las disponibilidades económicas, ordenada en un catálogo y clasificada por actividades, especificando la formación requerida y las características de cada puesto.</p>
+          <p class="parrafo">2. El Organismo Autónomo Trabajo y Prestaciones Penitenciarias elaborará periódicamente la lista de puestos vacantes en los talleres productivos, detallando sus características. La Junta de Tratamiento, como órgano administrativo competente, adjudicará los puestos a los internos, siguiendo el siguiente orden de prelación:</p>
+          <p class="parrafo_2">1.º Los internos en cuyo programa individualizado de tratamiento se contemple el desarrollo de una actividad laboral.</p>
+          <p class="parrafo">2.º Los internos penados sobre los preventivos.</p>
+          <p class="parrafo">3.º La aptitud laboral del interno en relación con las características del puesto de trabajo.</p>
+          <p class="parrafo">4.º La conducta penitenciaria.</p>
+          <p class="parrafo">5.º El tiempo de permanencia en el establecimiento penitenciario.</p>
+          <p class="parrafo">6.º Las cargas familiares.</p>
+          <p class="parrafo">7.º La situación prevista en el artículo 14.1 de este Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 4. Objeto y finalidad de la relación laboral.</p>
+          <p class="parrafo">1. La finalidad esencial del trabajo es la preparación para la futura inserción laboral del interno, por cuya razón ha de conectarse con los programas de formación profesional ocupacional que se desarrollen en los centros penitenciarios, tanto a efectos de mejorar las capacidades de los mismos para el posterior desempeño de un puesto de trabajo en los talleres productivos como para su futura incorporación laboral cuando accedan a la libertad.</p>
+          <p class="parrafo">2. El trabajo que realice el penado objeto de relación laboral, deberá ser productivo y remunerado.</p>
+          <p class="parrafo">3. Con el fin de propiciar que la oferta de puestos de trabajo siga la evolución de la demanda del sector productivo, se revisará la misma, cuando las circunstancias así lo aconsejen.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Derechos y deberes laborales</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 5. Derechos laborales.</p>
+          <p class="parrafo">1. Los internos trabajadores tendrán los siguientes derechos laborales básicos:</p>
+          <p class="parrafo_2">a) A no ser discriminados para el empleo o una vez empleados, por razones de nacionalidad, sexo, estado civil, por la edad, dentro de los límites marcados por la legislación laboral penitenciaria, raza, condición social, ideas religiosas o políticas, así como por el idioma.</p>
+          <p class="parrafo">b) A su integridad física y a una adecuada política de prevención de riesgos laborales, de acuerdo con lo dispuesto en la legislación vigente sobre dicha materia.</p>
+          <p class="parrafo">c) Al trabajo productivo y remunerado que pudiere ofertar la Administración penitenciaria, así como a la percepción puntual de la remuneración establecida por la legislación penitenciaria, al descanso semanal y a las vacaciones anuales.</p>
+          <p class="parrafo">d) Al respeto a su intimidad, con las limitaciones exigidas por la ordenada vida en prisión, y a la consideración debida a su dignidad, comprendida la protección frente a ofensas verbales o físicas de naturaleza sexual.</p>
+          <p class="parrafo">e) A participar en la organización y planificación del trabajo en la forma y con las condiciones establecidas en la legislación penitenciaria.</p>
+          <p class="parrafo">f) A la formación para el desempeño del puesto, así como a la promoción en el trabajo.</p>
+          <p class="parrafo_2">2. Asimismo, tendrán derecho a que se valore el trabajo productivo realizado y la laboriosidad del interno en orden al régimen y tratamiento penitenciario, así como para la concesión de beneficios penitenciarios cuando se cumplan los requisitos establecidos por la legislación.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 6. Deberes laborales.</p>
+          <p class="parrafo">Los internos trabajadores tendrán los siguientes deberes laborales básicos:</p>
+          <p class="parrafo_2">a) Cumplir con las obligaciones concretas de su puesto de trabajo, con arreglo a las reglas de la buena fe, diligencia y disciplina, así como con las que se deriven de la actividad laboral comprendida en su programa individualizado de tratamiento.</p>
+          <p class="parrafo">b) Observar las medidas de prevención de riesgos laborales que se adopten.</p>
+          <p class="parrafo">c) Cumplir las órdenes e instrucciones del personal responsable de la organización y gestión de los talleres, en el ejercicio regular de sus funciones.</p>
+          <p class="parrafo">d) Contribuir a conseguir el cumplimiento de los fines de la relación laboral, tanto desde el punto de vista de su preparación para la inserción laboral, como en relación con el cumplimiento de los objetivos de la actividad laboral que se le encomienda.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Duración de la relación laboral</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 7. Inicio y duración de la relación laboral.</p>
+          <p class="parrafo">1. La relación laboral especial penitenciaria se formalizará con la inscripción del interno en el correspondiente Libro de Matrícula, con efectos desde la fecha en que se produzca el alta efectiva en el puesto de trabajo. También se anotará en dicho Libro la extinción de la relación laboral, así como su suspensión por causa de traslado del interno a otro centro penitenciario por tiempo no superior a dos meses.</p>
+          <p class="parrafo">2. La duración de la relación laboral coincidirá con la de la obra o servicio que se le encomiende.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Promoción</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 8. Promoción en el trabajo.</p>
+          <p class="parrafo">1. Los internos trabajadores, atendiendo a su nivel de conocimientos, capacidad laboral y funciones desempeñadas, serán clasificados en las siguientes categorías:</p>
+          <p class="parrafo_2">a) Operario base: los que desempeñen el conjunto de tareas necesarias para el funcionamiento de los talleres productivos.</p>
+          <p class="parrafo">b) Operario superior: los que, además de desempeñar las tareas necesarias para el funcionamiento de los talleres productivos, colaboran en su organización y su desarrollo.</p>
+          <p class="parrafo_2">2. Esta distinción se tendrá en cuenta en la fijación del módulo retributivo.</p>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Causas de suspensión y de extinción de la relación laboral</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 9. Suspensión de la relación laboral.</p>
+          <p class="parrafo">1. La relación laboral especial penitenciaria podrá suspenderse por las siguientes causas:</p>
+          <p class="parrafo_2">a) Mutuo acuerdo de las partes.</p>
+          <p class="parrafo">b) Incapacidad temporal de los trabajadores penitenciarios.</p>
+          <p class="parrafo">c) Maternidad y riesgo durante el embarazo. En el supuesto de parto la suspensión tendrá una duración de dieciséis semanas ininterrumpidas, ampliables en el supuesto de parto múltiple en dos semanas más por cada hijo a partir del segundo, distribuidas antes o después del parto a opción de la interesada, siempre que seis semanas sean inmediatamente posteriores al mismo.</p>
+          <p class="parrafo">d) Fuerza mayor temporal.</p>
+          <p class="parrafo_2">2. Asimismo, la relación laboral especial penitenciaria podrá suspenderse por las siguientes causas:</p>
+          <p class="parrafo_2">a) Suspensión de empleo y sueldo por el cumplimiento de sanciones disciplinarias penitenciarias de aislamiento.</p>
+          <p class="parrafo">b) Razones de tratamiento apreciadas por la Junta de Tratamiento.</p>
+          <p class="parrafo">c) Por traslados de los internos siempre que la ausencia no sea superior a dos meses, así como durante el disfrute de los permisos o salidas autorizadas.</p>
+          <p class="parrafo">d) Razones de disciplina y seguridad penitenciaria.</p>
+          <p class="parrafo_2">3. La suspensión de la relación laboral exonerará de las obligaciones recíprocas de trabajar y de remunerar el trabajo. En estos supuestos, el Director del centro penitenciario podrá designar a otro interno trabajador para el desempeño del puesto de trabajo mientras dure la suspensión.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 10. Extinción de la relación laboral.</p>
+          <p class="parrafo">1. La relación laboral especial penitenciaria se extinguirá:</p>
+          <p class="parrafo_2">a) Por mutuo acuerdo de las partes.</p>
+          <p class="parrafo">b) Por la terminación de la obra o servicio.</p>
+          <p class="parrafo">c) Por ineptitud del interno trabajador conocida o sobrevenida con posterioridad al desempeño del puesto de trabajo adjudicado.</p>
+          <p class="parrafo">d) Por muerte, gran invalidez o invalidez permanente total o absoluta del trabajador penitenciario.</p>
+          <p class="parrafo">e) Por jubilación del interno trabajador.</p>
+          <p class="parrafo">f) Por fuerza mayor que imposibilite definitivamente la prestación del trabajo.</p>
+          <p class="parrafo">g) Por renuncia del interno trabajador.</p>
+          <p class="parrafo">h) Por falta de adaptación del trabajador a las modificaciones técnicas operadas en su puesto de trabajo, siempre que hayan transcurrido, como mínimo, dos meses desde que se introdujo la modificación.</p>
+          <p class="parrafo_2">2. Asimismo, la relación laboral especial penitenciaria se extinguirá:</p>
+          <p class="parrafo_2">a) Por la excarcelación del trabajador penitenciario.</p>
+          <p class="parrafo">b) Por contratación con empresas del exterior en el caso de internos clasificados en tercer grado.</p>
+          <p class="parrafo">c) Por razones de tratamiento apreciadas por la Junta de Tratamiento.</p>
+          <p class="parrafo">d) Por traslado del interno trabajador a otro establecimiento penitenciario por un período superior a dos meses.</p>
+          <p class="parrafo">e) Por razones de disciplina y seguridad penitenciaria.</p>
+          <p class="parrafo">f) Por incumplimiento de los deberes laborales básicos en la relación laboral especial penitenciaria.</p>
+          <p class="parrafo_2">3. La extinción de la relación laboral penitenciaria se acordará, previa valoración de las circunstancias de cada caso, por el Director del centro penitenciario en su calidad de delegado del Organismo Autónomo Trabajo y Prestaciones Penitenciarias u organismo autonómico equivalente.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Organización del trabajo</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 11. Organización y dirección del trabajo.</p>
+          <p class="parrafo">1. Corresponde al Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente la planificación, organización y control del trabajo desarrollado por los internos en los talleres penitenciarios.</p>
+          <p class="parrafo">2. El trabajo de los internos en los talleres penitenciarios podrá organizarse directamente por el Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente o en colaboración con personas físicas o jurídicas del exterior. En todo caso, el Organismo autónomo u órgano autonómico equivalente no perderá su condición de empleador en relación con los internos trabajadores.</p>
+          <p class="parrafo">3. La organización y los métodos de trabajo que se apliquen en los talleres penitenciarios tratarán de asemejarse lo más posible a los de las empresas del exterior, con el fin de favorecer su futura inserción laboral.</p>
+          <p class="parrafo">4. La actividad desarrollada en los talleres penitenciarios estará sometida a la normativa correspondiente en materia de prevención de riegos laborales, sin perjuicio de las adaptaciones que fueren necesarias en función de las especifidades del medio penitenciario.</p>
+          <p class="parrafo">5. Sin perjuicio de lo previsto en el apartado segundo de este artículo, en el caso de que el trabajo se organice en colaboración con personas físicas o jurídicas del exterior, éstas vendrán obligadas a asegurar que se cumplan las obligaciones, de evaluación de riesgos y planificación de su prevención en el trabajo, de formación preventiva y de cumplimiento de las medidas preventivas que correspondan en función de la actividad desarrollada, de acuerdo con lo establecido en la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. Asimismo estarán obligadas a respetar la intimidad y dignidad del interno trabajador, a conservar adecuadamente las instalaciones que ocupe, a colaborar con el Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente en cuantos aspectos e informaciones le sean requeridas y, en general, a cumplir los compromisos acordados en el acuerdo de colaboración suscrito por ambas partes.</p>
+          <p class="parrafo">6. La dirección y control de la actividad concreta de los internos corresponde al Director del establecimiento penitenciario y al personal encargado de realizar las funciones de dirección y gestión de los talleres.</p>
+          <p class="parrafo">7. En sus relaciones recíprocas, el Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente y los trabajadores penitenciarios se someterán a las exigencias de la buena fe.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 12. Control de la actividad laboral.</p>
+          <p class="parrafo">El Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente podrá adoptar las medidas que estime más oportunas de vigilancia y control para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 13. Participación.</p>
+          <p class="parrafo">Para la mejora de los resultados, los internos que realicen trabajos productivos podrán participar, siempre que no interfieran los planes productivos establecidos por el organismo autónomo u órgano equivalente autonómico, en la organización y planificación del trabajo, con arreglo a los siguientes criterios:</p>
+          <p class="parrafo_2">a) Aportando ideas, individual o colectivamente, sobre los planes de trabajo y los sistemas laborales.</p>
+          <p class="parrafo">b) Participando en la evaluación y análisis de los sistemas de producción y formulando, a través de las comisiones sectoriales correspondientes, propuestas para la fijación anual del módulo retributivo por el Consejo de Administración del Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente.</p>
+          <p class="parrafo">c) Formando parte de los equipos encargados del control y mantenimiento de los sistemas de seguridad y prevención de riesgos laborales.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 14. Movilidad.</p>
+          <p class="parrafo">1. Con el fin de propiciar que la preparación para la inserción laboral no se vea interrumpida con ocasión de traslados entre centros penitenciarios motivados por razones de arraigo familiar u otras que redunden en beneficio del interno, los internos que hubiesen desempeñado un puesto de trabajo en un centro penitenciario por un período superior a un año, siempre que este desempeño haya sido valorado positivamente por el centro de procedencia, tendrán prioridad a la hora de acceder a puestos de trabajo vacantes del centro penitenciario de destino.</p>
+          <p class="parrafo">2. En caso de traslado del interno a otro centro penitenciario se le expedirá certificación acreditativa de todas sus circunstancias laborales.</p>
+        </version>
+      </bloque>
+      <bloque id="cvii" tipo="encabezado" titulo="CAPÍTULO VII">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO VII</p>
+          <p class="capitulo_tit">Salarios y calendario laboral</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 15. Régimen retributivo.</p>
+          <p class="parrafo">1. La retribución que reciban los internos trabajadores se determinará en función del rendimiento normal de la actividad de que se trate y del horario de trabajo efectivamente cumplido.</p>
+          <p class="parrafo">2. Para la determinación de la retribución, se aplicarán los parámetros señalados en el apartado anterior a un módulo, para cuyo cálculo se tomará como referencia el salario mínimo interprofesional vigente en cada momento, de tal manera que el salario resultante se fijará proporcionalmente al número de horas realmente trabajadas y al rendimiento conseguido por el trabajador.</p>
+          <p class="parrafo">3. El módulo retributivo a que se refiere el apartado anterior, que se determinará anualmente por el Consejo de Administración del Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente, incluirá la parte proporcional de la retribución de los días de descanso semanal y de vacaciones anuales retribuidas, así como las gratificaciones extraordinarias, en su caso.</p>
+          <p class="parrafo">4. Las retribuciones podrán calcularse por producto o servicio realizado, por tiempo o por cualquier otro sistema, aplicando lo señalado en los apartados anteriores.</p>
+          <p class="parrafo">Si el sistema aplicado es el de producto, y en el caso de que la organización del trabajo se lleve acabo en colaboración con personas físicas o jurídicas del exterior, el Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico competente se reserva el derecho a establecer los métodos y tiempos aplicables en la elaboración de los distintos productos.</p>
+          <p class="parrafo">5. El Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente podrá establecer primas a la producción, en función de la mejora de la calidad del trabajo, de la superación de determinados niveles de producción o de cualquier otra variable que se determine.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 16. Pago de las retribuciones.</p>
+          <p class="parrafo">1. El Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente efectuará el pago de las retribuciones mediante su ingreso mensual en la cuenta de peculio del interno.</p>
+          <p class="parrafo">2. Las retribuciones del trabajo de los internos sólo serán embargables en las condiciones y con los requisitos establecidos para el salario en el texto refundido de la Ley del Estatuto de los Trabajadores.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 17. Tiempo de trabajo.</p>
+          <p class="parrafo">1. El Director del centro penitenciario, en su calidad de delegado del Organismo Autónomo Trabajo y Prestaciones Penitenciarias u organismo autonómico equivalente, establecerá el calendario laboral que regirá a lo largo del año, incorporando, en su caso, las especifidades que proceda, sistemas de jornada continua, partida, nocturna o por turnos.</p>
+          <p class="parrafo">2. Los internos trabajadores tendrán derecho a un descanso semanal de día y medio ininterrumpido que se disfrutará, con carácter general, la tarde del sábado y el día completo del domingo, excepto en el sistema por turnos que se estará a lo establecido para la actividad de que se trate. También serán días de descanso las fiestas laborales de la localidad donde radique el centro penitenciario.</p>
+          <p class="parrafo">3. El horario de trabajo, dentro de los límites establecidos legalmente para la jornada de trabajo, será el necesario para el correcto desarrollo de la actividad productiva.</p>
+          <p class="parrafo">4. Previo acuerdo con los trabajadores, el Director del centro penitenciario podrá modificar, cuando las circunstancias excepcionales de producción lo exijan, el calendario laboral aprobado o la jornada habitual.</p>
+          <p class="parrafo">5. Las vacaciones anuales de los internos trabajadores tendrán una duración de treinta días naturales o la parte proporcional que corresponda en su caso. El momento de disfrute se condicionará a las orientaciones del tratamiento y a las necesidades de trabajo en los sectores laborales.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 18. Permisos e interrupciones.</p>
+          <p class="parrafo">El trabajador, previo aviso y justificación, podrá ausentarse del trabajo durante cualquier clase de permiso o salida autorizada. Las ausencias del trabajo no serán retribuidas.</p>
+        </version>
+      </bloque>
+      <bloque id="cviii" tipo="encabezado" titulo="CAPÍTULO VIII">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO VIII</p>
+          <p class="capitulo_tit">Protección de Seguridad Social de los internos que trabajen en talleres penitenciarios</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 19. Acción protectora de la Seguridad Social.</p>
+          <p class="parrafo">Los internos trabajadores sujetos a la relación laboral especial penitenciaria quedarán incluidos en el Régimen General de la Seguridad Social y gozarán de la prestación de asistencia sanitaria, así como de la acción protectora del mismo en las situaciones de maternidad, riesgo durante el embarazo, incapacidad permanente, muerte y supervivencia derivadas de enfermedad común y accidente no laboral, jubilación y situaciones derivadas de las contingencias de accidente de trabajo y enfermedad profesional. Asimismo, estarán protegidos por la contingencia de desempleo cuando sean liberados de prisión, en los términos establecidos en el Título III del texto refundido de la Ley General de la Seguridad Social, aprobado por Real Decreto legislativo 1/1994, de 20 de junio.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 20. Afiliación, altas, bajas y cotización.</p>
+          <p class="parrafo">1. El Organismo Autónomo Trabajo y Prestaciones Penitenciarias o el órgano autonómico equivalente competente asumirá, respecto de estos trabajadores, las obligaciones de afiliación, alta, baja y cotización, que las normas de Seguridad Social imponen al empresario.</p>
+          <p class="parrafo">2. Con carácter general, la cotización se realizará conforme a las normas siguientes:</p>
+          <p class="parrafo_2">a) El tipo de cotización será el correspondiente a las situaciones por contingencias comunes incluidas en la acción protectora de estos internos.</p>
+          <p class="parrafo">b) La cotización por las contingencias profesionales se efectuará aplicando la tarifa de primas vigente a las retribuciones efectivamente percibidas en función de las horas trabajadas, sin que, con carácter general, dicha base sea inferior a las bases mínimas de cotización por contingencias profesionales aplicables a los contratos a tiempo parcial.</p>
+          <p class="parrafo">c) En la cotización por la contingencia de desempleo se aplicará el tipo de cotización establecido para la contratación indefinida vigente en cada momento.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 21. Obligación de cotizar.</p>
+          <p class="parrafo">1. La obligación de cotizar se mantendrá mientras dure la relación laboral.</p>
+          <p class="parrafo">2. En los casos de suspensión de la relación laboral únicamente continuará la obligación de cotizar en las situaciones de maternidad y riesgo durante el embarazo.</p>
+        </version>
+      </bloque>
+      <bloque id="cix" tipo="encabezado" titulo="CAPÍTULO IX">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Protección de Seguridad Social de los sentenciados a la pena de trabajo en beneficio de la comunidad.</p>
+        </version>
+        <version id_norma="BOE-A-2008-869" fecha_publicacion="20090119" fecha_vigencia="20090119">
+          <p class="capitulo_num">CAPÍTULO IX</p>
+          <p class="capitulo_tit">Protección de Seguridad Social de los sentenciados a la pena de trabajo en beneficio de la comunidad.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 2131/2008, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-869</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 22. Protección de la Seguridad Social.</p>
+          <p class="parrafo">Los sentenciados a la pena de trabajo en beneficio de la comunidad que estén cumpliendo la misma, únicamente estarán incluidos en la acción protectora del Régimen General de la Seguridad Social a efectos de las contingencias de accidente de trabajo y enfermedad profesional.</p>
+        </version>
+        <version id_norma="BOE-A-2009-869" fecha_publicacion="20090119" fecha_vigencia="20090119">
+          <p class="articulo">Artículo 22. Protección de la Seguridad Social.</p>
+          <p class="parrafo">Los sentenciados a la pena de trabajo en beneficio de la comunidad que se encuentren cumpliéndola únicamente estarán incluidos en la acción protectora del Régimen General de la Seguridad Social a efectos de las contingencias de accidentes de trabajo y enfermedades profesionales por los días de prestación efectiva de dicho trabajo. La cobertura de dichas contingencias corresponderá al Instituto Nacional de la Seguridad Social.</p>
+          <p class="parrafo">El Ministerio del Interior asumirá las obligaciones que para la cobertura de las contingencias indicadas se establecen en el artículo siguiente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 2131/2008, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2009-869</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Artículo 23. Cotización y relaciones jurídicas de Seguridad Social.</p>
+          <p class="parrafo">Las personas jurídicas, en cuyo ámbito de organización y dirección dichos penados realicen el trabajo, cotizarán por las contingencias de accidentes de trabajo y enfermedades profesionales aplicando la tarifa de primas vigente al tope mínimo de cotización, y cumplirán las demás obligaciones para con la Seguridad Social.</p>
+        </version>
+        <version id_norma="BOE-A-2009-869" fecha_publicacion="20090119" fecha_vigencia="20090119">
+          <p class="articulo">Artículo 23. Relaciones jurídicas de Seguridad Social.</p>
+          <p class="parrafo">1. A efectos de la cotización por la cobertura prevista en el artículo anterior se procederá a la afiliación y/o alta de dichos penados en el Régimen General de la Seguridad Social, con efectos desde el día inicial del cumplimiento de la pena. La baja en el citado régimen se solicitará una vez que finalice la ejecución de la pena, con efectos desde el día de finalización de ésta y sin que proceda la comunicación de altas y bajas intermedias por los días de prestación efectiva de trabajo.</p>
+          <p class="parrafo">2. La cotización por las contingencias de accidentes de trabajo y enfermedades profesionales se efectuará aplicando al tope mínimo de cotización fijado en cada ejercicio en el Régimen General de la Seguridad Social el tipo de cotización establecido en la tarifa de primas vigente que corresponda a la actividad económica de prestación de servicios a la comunidad en general (CNAE-09.84.2), efectuándose el ingreso de las cuotas que procedan a favor de la Tesorería General de la Seguridad Social con carácter anual, dentro de los 15 primeros días del mes de diciembre de cada ejercicio.</p>
+          <p class="parrafo">A tal efecto, el Ministerio del Interior certificará los importes adeudados correspondientes a las cotizaciones devengadas en los 12 meses naturales anteriores, en los términos y con los requisitos que se determinen por la Tesorería General de la Seguridad Social.</p>
+          <p class="parrafo">3. A efectos del reconocimiento y pago de las prestaciones que pudieran causarse por las contingencias indicadas y como título acreditativo para su cobertura, el Ministerio del Interior emitirá los partes de accidentes de trabajo por el procedimiento legalmente establecido cuando estos se produzcan como consecuencia de los trabajos realizados en cumplimiento de las penas en beneficio de la comunidad.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 2131/2008, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2009-869</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ddunica" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">1. Quedan derogadas todas las normas de igual o inferior rango en lo que contradigan o se opongan a lo dispuesto en el presente Real Decreto.</p>
+          <p class="parrafo">2. Quedan derogadas expresamente las siguientes disposiciones:</p>
+          <p class="parrafo_2">a) El Decreto 573/1967, de 16 de marzo, por el que se asimilan a trabajadores por cuenta ajena, a efectos de su inclusión en el Régimen General de la Seguridad Social, a los reclusos que realicen trabajos penitenciarios retribuidos.</p>
+          <p class="parrafo">b) Los artículos 134 a 152, ambos inclusive, del Reglamento Penitenciario, aprobado por Real Decreto 190/1996, de 9 de febrero.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Disposición final primera. Desarrollo normativo.</p>
+          <p class="parrafo">Se autoriza a los Ministros del Interior y de Trabajo y Asuntos Sociales a dictar, en el ámbito de sus respectivas competencias, cuantas disposiciones sean necesarias para el desarrollo y ejecución de lo dispuesto en este Real Decreto, sin perjuicio de las habilitaciones específicas de desarrollo conferidas al Organismo Autónomo Trabajo y Prestaciones Penitenciarias u órgano autonómico equivalente en otros preceptos del mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el "Boletín Oficial del Estado". No obstante lo anterior, respecto de las cotizaciones a la Seguridad Social y demás conceptos de recaudación conjunta se aplicará con efectos desde el día 1 de enero de 2001.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2001-13171" fecha_publicacion="20010707" fecha_vigencia="20010708">
+          <p class="parrafo_2">Dado en Madrid a 6 de julio de 2001.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de la Presidencia,</p>
+          <p class="firma_ministro">JUAN JOSÉ LUCAS GIMÉNEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

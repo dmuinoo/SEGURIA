@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T112017Z</fecha_actualizacion>
+      <identificador>BOE-A-2019-2556</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9566">Ministerio para la Transición Ecológica</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20190208</fecha_disposicion>
+      <numero_oficial>51/2019</numero_oficial>
+      <titulo>Real Decreto 51/2019, de 8 de febrero, por el que se aprueba el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20190223</fecha_publicacion>
+      <diario_numero>47</diario_numero>
+      <fecha_vigencia>20190224</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20230211</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2019/02/08/51</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2019-2556</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="173">Aguas</materia>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="5609">Planificación hidrológica</materia>
+      </materias>
+      <notas>
+        <nota>Efectos desde el 24 de febrero de 2019.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2015-8045</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>el Real Decreto 701/2015, de 17 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-13182</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Reglamento aprobado por Real Decreto 907/2007, de 6 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-14276</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 40 de la Ley de Aguas, texto refundido aprobado por Real Decreto Legislativo 1/2001, de 20 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2007-4233</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Estatuto aprobado por la Ley Orgánica 1/2007, de 28 de febrero</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2023-3608</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Real Decreto 49/2023 de 24 de enero</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-2556</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-08</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5609"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-2556</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5609"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20230210"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20190223"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 51/2019, de 8 de febrero, por el que se aprueba el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20230210">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-2556</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5609"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20230210/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 51/2019, de 8 de febrero, por el que se aprueba el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20230210"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20230210/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20230210/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20190223">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-2556</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-08</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5609"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-02-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20190223/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 51/2019, de 8 de febrero, por el que se aprueba el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20190223"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20190223/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2019/02/08/51/con/20190223/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2023-3608" fecha_publicacion="20230210" fecha_vigencia="20230211">
+          <p class="siempreSeVe">Esta norma se deja sin efectos, desde el 11 de febrero de 2023, por el apartado cuarto del Real Decreto 49/2023 de 24 de enero. <a class="refPost">Ref. BOE-A-2023-3608#cu</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="parrafo">La Constitución Española establece como criterio principal para ordenar la distribución de competencias en materia de gestión de recursos hídricos la dimensión territorial de las cuencas hidrográficas, garantizando su gestión unitaria y no fragmentaria de conformidad con el principio de «unidad de cuenca». De este modo, el artículo 149.1.22.ª de la Constitución atribuye al Estado «la competencia exclusiva en materia de legislación, ordenación y concesión de recursos y aprovechamientos hidráulicos cuando las aguas discurran por más de una Comunidad Autónoma», siendo por tanto de competencia exclusiva autonómica las cuencas que discurran íntegramente por su territorio y así lo haya establecido su Estatuto de Autonomía; en este caso, el artículo 30.8 de la Ley Orgánica 1/2007, de 28 de febrero, de reforma del Estatuto de Autonomía de Illes Balears, recoge expresamente esta competencia.</p>
+          <p class="parrafo">En este sentido, tal y como ha venido interpretando el Tribunal Constitucional, el criterio del territorio por el que discurren las aguas es esencial dentro del sistema distribución de competencias que rige en esta materia, si bien, ello no implica la exclusión de otros títulos competenciales como sucede en la planificación hidrológica de las demarcaciones intracomunitarias, en que ha de cohonestarse el legítimo ejercicio por parte del Estado de los títulos competenciales que puedan concurrir o proyectarse, en particular con el ejercicio de la competencia estatal sobre bases y coordinación de la planificación general de la actividad económica en virtud del artículo 149.1.13.ª de la Constitución, por la especial relevancia del agua como un recurso de vital importancia, imprescindible para la realización de múltiples actividades económicas, independientemente de donde se hallen.</p>
+          <p class="parrafo">Por lo tanto, la necesaria participación estatal se materializa en un acto final de aprobación por el Gobierno mediante el cual se coordina la competencia planificadora autonómica –competente para la elaboración y revisión de los planes hidrológicos de las agua intracomunitarias– con las exigencias de la política hidráulica.</p>
+          <p class="parrafo">El artículo 40.3 del texto refundido de la Ley de Aguas, aprobado por el Real Decreto Legislativo 1/2001, de 20 de julio, dispone que la planificación hidrológica se llevará a cabo a través de los Planes hidrológicos de cuenca y del Plan Hidrológico Nacional.</p>
+          <p class="parrafo">De acuerdo con lo previsto en los artículos 41.1 y 40.6 del citado texto refundido de la Ley de Aguas, en las demarcaciones hidrográficas con cuencas comprendidas íntegramente en el ámbito territorial de una Comunidad Autónoma, la elaboración del Plan Hidrológico corresponde a la Administración Hidráulica competente, siendo por su parte competencia del Gobierno la aprobación, mediante real decreto, de dicho Plan si se ajusta a las prescripciones de los artículos 40.1, 3 y 4 y 42, no afecta a los recursos de otras cuencas y, en su caso, se acomoda a las determinaciones del Plan Hidrológico Nacional. Por otro lado, el artículo 20.1.b) dispone, a su vez, que el Plan Hidrológico sea informado por el Consejo Nacional del Agua, antes de su aprobación por el Gobierno.</p>
+          <p class="parrafo">El Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears, que se aprueba, sustituye al Plan Hidrológico de las Illes Balears aprobado por el Real Decreto 701/2015, de 17 de julio, incluye las cuencas íntegramente comprendidas en el ámbito territorial de esta comunidad autónoma y como tal ha sido elaborado por la Administración Hidráulica autonómica.</p>
+          <p class="parrafo">Este Plan incluye un Programa de Medidas que se concreta en los Programas de Actuación e Infraestructuras que se incorporan como anejo a la parte normativa.</p>
+          <p class="parrafo">En su elaboración se ha seguido lo señalado en el Reglamento de la Planificación Hidrológica aprobado por el Real Decreto 907/2007, de 6 de julio, así como las prescripciones técnicas establecidas por el Decreto-ley 1/2015, de 10 de abril, por el que se aprueba la Instrucción de Planificación Hidrológica para la demarcación hidrográfica intracomunitaria de las Illes Balears. Las mencionadas prescripciones fueron incorporadas en el ordenamiento jurídico autonómico, en atención al cumplimiento de la Sentencia del Tribunal de Justicia de la Unión Europa, de 24 de octubre de 2013, que declaró que en ciertas cuencas intracomunitarias se había realizado una incompleta o parcial transposición, de la Directiva 2000/60/CE, del Parlamento Europeo y del Consejo, de 23 de octubre, por la que se establece un marco comunitario en el ámbito de la política de aguas.</p>
+          <p class="parrafo">Asimismo, en su elaboración, se ha seguido el procedimiento de evaluación ambiental estratégica, conforme a lo establecido en la Ley 21/2013, de 9 de diciembre, de evaluación ambiental, y la Ley 11/2006, de 14 de septiembre, de evaluaciones de impacto ambiental y evaluaciones ambientales estratégicas en las Illes Balears.</p>
+          <p class="parrafo">La fase de elaboración autonómica, de conformidad con el artículo 4 del Decreto 129/2002, de 18 de octubre, de Organización y régimen jurídico de la Administración Hidráulica de las Illes Balears, concluye con la aprobación inicial del Consejo de Gobierno de las Illes Balears en su reunión de 21 de septiembre de 2018, y su remisión al Ministerio para la Transición Ecológica para tramitar su aprobación de conformidad con el artículo 83 del Reglamento de la Planificación Hidrológica.</p>
+          <p class="parrafo">Al tratarse de un plan hidrológico intracomunitario y teniendo en cuenta la extensión de cada una de las partes en las que se estructura, su publicidad se materializa a través de la publicación formal del contenido normativo del Plan y sus anejos en el «Boletín Oficial de la Comunidad Autónoma de las Illes Balears», de conformidad con el artículo 3.2 de la citada parte normativa del Plan, y la publicación de la Memoria y sus anexos en la página Web de Dirección General de Recursos Hídricos de la Consejería de Agricultura, Medio Ambiente y Territorio.</p>
+          <p class="parrafo">El Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears ha sido informado favorablemente por el Consejo Nacional del Agua en su reunión del día 16 de octubre de 2018, por lo que procede su aprobación mediante real decreto, al amparo de lo dispuesto en los artículos 40.5 y 6 del texto refundido de la Ley de Aguas.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra para la Transición Ecológica, y previa deliberación del Consejo de Ministros en su reunión del día 8 de febrero de 2019,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="pr-2" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="articulo">Primero. Aprobación del Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears.</p>
+          <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 40.6 del texto refundido de la Ley de Aguas, aprobado por Real Decreto Legislativo 1/2001, de 20 de julio, se aprueba el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears tal como fue aprobado inicialmente por el Consejo de Gobierno de las Illes Balears en su reunión del 21 de septiembre de 2018.</p>
+          <p class="parrafo">2. El ámbito territorial del Plan Hidrológico coincide con el de la Demarcación Hidrográfica de las Illes Balears, definido en el artículo 2.1 del Decreto 129/2002, de 18 de octubre, de organización y régimen jurídico de la Administración Hidráulica de las Illes Balears.</p>
+        </version>
+      </bloque>
+      <bloque id="se" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="articulo">Segundo. Condiciones para la realización de las infraestructuras hidráulicas promovidas por la Administración General del Estado.</p>
+          <p class="parrafo">1. Las infraestructuras hidráulicas promovidas por la Administración General del Estado y previstas en el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears serán sometidas, previamente a su realización, a un análisis sobre su viabilidad técnica, económica y ambiental por la Administración General del Estado. En cualquier caso, su construcción se supeditará a la normativa vigente sobre evaluación de impacto ambiental, a las disponibilidades presupuestarias y a los correspondientes planes sectoriales, cuando su normativa específica así lo prevea. La ejecución de las medidas previstas en el Plan en ningún caso podrá superar las disponibilidades presupuestarias provenientes de fondos nacionales o comunitarios.</p>
+          <p class="parrafo">2. Lo previsto en el apartado anterior no limita el carácter vinculante del programa de medidas en cuanto a la identificación de las actuaciones que deben quedar materializadas. Sin embargo, los agentes responsables de su ejecución indicados en el programa, lo serán en función de sus disponibilidades económicas, de sus competencias y de los acuerdos específicos que las autoridades competentes, para su eficaz desarrollo, puedan llegar a suscribir.</p>
+        </version>
+      </bloque>
+      <bloque id="te" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="articulo">Tercero. Publicidad.</p>
+          <p class="parrafo">1. Dado el carácter público de los planes hidrológicos, conforme a lo dispuesto en el artículo 40.4 del texto refundido de la Ley de Aguas, el contenido íntegro del Plan Hidrológico podrá consultarse por cualquier persona en las oficinas de la Dirección General de Recursos Hídricos de la Consejería de Medio Ambiente de Baleares. Igualmente, esta información estará disponible en la página Web (dma.caib.es) sin perjuicio de la publicación de la parte normativa del Plan y sus anexos en el «Boletín Oficial de la Comunidad Autónoma de las Illes Balears» de conformidad con el artículo 3 de la citada parte normativa del Plan.</p>
+          <p class="parrafo">2. Se podrá acceder al contenido del plan hidrológico en los términos previstos en la Ley 27/2006, de 18 de julio, por la que se regulan los derechos de acceso a la información, de participación pública y de acceso a la justicia en materia de medio ambiente, así como en la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.</p>
+        </version>
+      </bloque>
+      <bloque id="cu" tipo="precepto" titulo="Cuarto">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="articulo">Cuarto. Efectos.</p>
+          <p class="parrafo">A la entrada en vigor del presente real decreto queda sin efectos el Real Decreto 701/2015, de 17 de julio, por el que se aprueba el Plan Hidrológico de la demarcación hidrográfica de las Illes Balears.</p>
+        </version>
+      </bloque>
+      <bloque id="qu" tipo="precepto" titulo="Quinto">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="articulo">Quinto. Eficacia.</p>
+          <p class="parrafo">Este real decreto surtirá efectos el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-2019-2556" fecha_publicacion="20190223" fecha_vigencia="20190224">
+          <p class="parrafo_2">Dado en Madrid, el 8 de febrero de 2019.</p>
+          <p class="firma_rey">FELIPE R.</p>
+          <p class="firma_ministro">La Ministra para la Transición Ecológica,</p>
+          <p class="firma_ministro">TERESA RIBERA RODRÍGUEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T200242Z</fecha_actualizacion>
+      <identificador>BOE-A-2003-3500</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7320">Ministerio del Interior</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20030213</fecha_disposicion>
+      <numero_oficial>INT/316/2003</numero_oficial>
+      <titulo>Orden INT/316/2003, de 13 de febrero, sobre inspecciones técnicas en carretera de vehículos industriales.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20030220</fecha_publicacion>
+      <diario_numero>44</diario_numero>
+      <fecha_vigencia>20030221</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20180520</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2003/02/13/int316</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2003-3500</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1983">Cuerpo de la Guardia Civil</materia>
+        <materia codigo="4289">Inspección Técnica de Vehículos</materia>
+        <materia codigo="7116">Vehículos de motor</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-18325</id_norma>
+            <relacion codigo="490">DESARROLLA</relacion>
+            <texto>el Real Decreto 957/2002, de 13 de septiembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2017-6512</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, con efectos desde el 20 de mayo de 2018, por Real Decreto 563/2017, de 2 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3500</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-13</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int316</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4289"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3500</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int316</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4289"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20170609"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20030220"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/316/2003, de 13 de febrero, sobre inspecciones técnicas en carretera de vehículos industriales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-20</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDRE INT/316/2003, de 13 de febrer, sobre inspeccions tècniques en carretera de vehicles industrials.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDE INT/316/2003, do 13 de febreiro, sobre inspeccións técnicas en estrada de vehículos industriais.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20170609">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3500</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int316</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4289"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-09</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20170609/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/316/2003, de 13 de febrero, sobre inspecciones técnicas en carretera de vehículos industriales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20170609"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20170609/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20170609/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20030220">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/o"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2003-3500</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-13</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int316</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1983"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4289"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7116"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-02-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20030220/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orden INT/316/2003, de 13 de febrero, sobre inspecciones técnicas en carretera de vehículos industriales.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20030220"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20030220/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/o/2003/02/13/int316/con/20030220/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2017-6512" fecha_publicacion="20170609" fecha_vigencia="20180520">
+          <p class="siempreSeVe">Norma derogada, con efectos de 20 de mayo de 2018, por la disposición derogatoria única del Real Decreto 563/2017, de 2 de junio. <a class="refPost">Ref. BOE-A-2017-6512#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="parrafo">El Real Decreto 957/2002, de 13 de septiembre, por el que se regulan las inspecciones técnicas en carretera de los vehículos industriales que circulan en territorio español, entre las modalidades de dichas inspecciones técnicas, prevé una inspección visual del estado de mantenimiento del vehículo, controles de documentación acreditativa de precedentes inspecciones técnicas y una inspección técnica para detectar deficiencias de mantenimiento, modalidades todas que se integran naturalmente en las tareas de vigilancia del tráfico y que es preciso regular.</p>
+          <p class="parrafo">Por otra parte, los artículos 6.2 y 8 centralizan en el Organismo Autónomo Jefatura Central de Tráfico la recogida de datos de las mencionadas inspecciones técnicas a los efectos de comunicar a la Comisión Europea la información correspondiente.</p>
+          <p class="parrafo">Asimismo, el citado artículo 8 establece la obligación, en el caso de vehículos matriculados en otro Estado miembro de la Unión Europea, de comunicar a las autoridades competentes de dicho Estado las deficiencias observadas en la inspección cuando den lugar a una prohibición de circulación.</p>
+          <p class="parrafo">En virtud de cuanto se establece en la disposición final segunda del mencionado Real Decreto 957/2002, dispongo:</p>
+        </version>
+      </bloque>
+      <bloque id="primero" tipo="precepto" titulo="Primero">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="articulo">Primero.</p>
+          <p class="parrafo_2">Las inspecciones técnicas en carretera de vehículos industriales, en las modalidades previstas en el artículo 4.a) y b) del Real Decreto 957/2002, de 13 de septiembre, se efectuarán por los agentes encargados del servicio de vigilancia de tráfico en vías interurbanas. Las inspecciones técnicas previstas en el artículo 4.1.c) se realizarán por unidades móviles de estaciones de ITV, bajo control de los citados agentes.</p>
+        </version>
+      </bloque>
+      <bloque id="segundo" tipo="precepto" titulo="Segundo">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="articulo">Segundo.</p>
+          <p class="parrafo_2">La Agrupación de Tráfico de la Guardia Civil realizará las inspecciones conforme a las instrucciones que imparta el Director general de Tráfico.</p>
+        </version>
+      </bloque>
+      <bloque id="tercero" tipo="precepto" titulo="Tercero">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="articulo">Tercero.</p>
+          <p class="parrafo_2">Los agentes que practiquen inspecciones técnicas de vehículos en carretera llevarán un registro en donde conste el número de vehículos industriales inspeccionados clasificados por categorías, conforme al apartado 6 del anexo I del Real Decreto 957/2002, y por país de matriculación, así como los puntos controlados y las deficiencias encontradas de acuerdo con el apartado 10 del citado anexo I.</p>
+        </version>
+      </bloque>
+      <bloque id="cuarto" tipo="precepto" titulo="Cuarto">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="articulo">Cuarto.</p>
+          <p class="parrafo_2">Los Subsectores de la Agrupación de Tráfico de la Guardia Civil anotarán, directamente en el sistema informático de la Dirección General de Tráfico los datos recogidos de las inspecciones técnicas de vehículos industriales en carretera, en un plazo inferior a un mes.</p>
+        </version>
+      </bloque>
+      <bloque id="quinto" tipo="precepto" titulo="Quinto">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="articulo">Quinto.</p>
+          <p class="parrafo_2">Las Jefaturas Provinciales de Tráfico anotarán los datos de las inspecciones técnicas complementarias de vehículos industriales practicadas en las estaciones de ITV con arreglo al artículo 6 del Real Decreto 957/2002 de las que hayan tenido noticia a través del órgano competente de la Comunidad Autónoma de la que dependa la estación de ITV.</p>
+        </version>
+      </bloque>
+      <bloque id="sexto" tipo="precepto" titulo="Sexto">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="articulo">Sexto.</p>
+          <p class="parrafo_2">La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2003-3500" fecha_publicacion="20030220" fecha_vigencia="20030221">
+          <p class="parrafo_2">Madrid, 13 de febrero de 2003.</p>
+          <p class="firma_rey">ACEBES PANIAGUA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

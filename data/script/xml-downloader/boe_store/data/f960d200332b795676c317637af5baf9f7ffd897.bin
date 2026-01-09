@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T150950Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-16991</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8010">Comunidad Autónoma de Andalucía</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19970701</fecha_disposicion>
+      <numero_oficial>3/1997</numero_oficial>
+      <titulo>Ley 3/1997, de 1 de julio, de Creación de la Universidad Pablo de Olavide, de Sevilla.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19970729</fecha_publicacion>
+      <diario_numero>180</diario_numero>
+      <fecha_vigencia>19970704</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-an/l/1997/07/01/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-16991</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="7072">Universidad Pablo de Olavide</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOJA núm. 76, de 3 de julio de 1997.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1992-15289</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 1/1992, de 21 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-633</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Estatuto aprobado por Ley Orgánica 6/1981, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1983-23432</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 11/1983, de 25 de agosto</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-an"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-16991</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7072"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-an"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-16991</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7072"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/con/19970703"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/1997, de 1 de julio, de Creación de la Universidad Pablo de Olavide, de Sevilla.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-29</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/con/19970703">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-an"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-16991</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7072"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-03</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/con/19970703/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/1997, de 1 de julio, de Creación de la Universidad Pablo de Olavide, de Sevilla.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/con/19970703"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-an/l/1997/07/01/3/con/19970703/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-an/l/1997/07/01/3/con/19970703/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="centro_redonda">EL PRESIDENTE DE LA JUNTA DE ANDALUCÍA</p>
+          <p class="parrafo_2">A todos los que la presente vieren, sabed:</p>
+          <p class="parrafo_2">Que el Parlamento de Andalucía ha aprobado, y yo, en nombre del Rey y por la autoridad que me confieren la Constitución y el Estatuto de Autonomía, promulgo y ordeno la publicación de la siguiente Ley de Creación de la Universidad Pablo de Olavide, de Sevilla.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">Los cambios socioeconómicos experimentados en nuestro país han generado un notable incremento en la demanda de educación superior, que hace ineludible que los poderes públicos ofrezcan respuestas a esta demanda en el marco de la programación general de la enseñanza universitaria.</p>
+          <p class="parrafo">La Ley 1/1992, de 21 de mayo, de Coordinación del Sistema Universitario de Andalucía, que tiene como objetivo fundamental aunar los esfuerzos de todas las Universidades, garantizando que el proceso de expansión y reforma del sistema universitario andaluz atienda siempre a la calidad de la enseñanza y a los intereses generales de nuestra Comunidad Autónoma, prevé la creación de la nueva Universidad de Sevilla en el marco establecido por el Estatuto de Autonomía para Andalucía y la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria.</p>
+          <p class="parrafo">La presente Ley crea una Universidad concebida como instrumento de transformación social, docencia, formación, estudio e investigación, que oriente y contribuya al desarrollo económico, cultural y científico de la sociedad, posibilitando que adquiera su propia identidad dentro del conjunto de las Universidades de Andalucía, guiada sólo por la calidad y por el compromiso permanente con la sociedad en la que se inserta.</p>
+          <p class="parrafo">La creación de la Universidad Pablo de Olavide tiene como objetivo prioritario facilitar el ejercicio del derecho a la educación consagrado en el artículo 27.1 de la Constitución, a través de una política de inversiones que permita adecuar la capacidad de las plazas universitarias a la demanda de enseñanza.</p>
+          <p class="parrafo">Asimismo, pretende contribuir a corregir las disfuncionalidades que produce dicha demanda en las restantes Universidades andaluzas, evitando que el excesivo incremento del número de alumnos afecte negativamente al cumplimiento de las funciones que éstas tienen encomendadas. Por otra parte, y al tratarse de una nueva Universidad, ésta asume desde su inicio la estructura organizativa y académica establecida por la Ley de Reforma Universitaria, que le va a permitir responder con mayor garantía a los retos científicos, técnicos y culturales a los que se enfrenta la sociedad actual y ofrecer soluciones adecuadas a los mismos a través de la calidad docente e investigadora.</p>
+          <p class="parrafo">Dada la complejidad de la actividad universitaria y de las exigencias para la creación de Universidades, tanto de la Ley de Reforma Universitaria como de la Ley de Coordinación del Sistema Universitario Andaluz, es necesario prever un marco normativo transitorio hasta que la nueva Universidad alcance su pleno funcionamiento en régimen de autonomía. Para ello se determinan plazos, se crean órganos de gobierno y de participación provisionales, y se atribuyen competencias, sin que en ningún momento la provisionalidad signifique merma para la autonomía, o para la capacidad de autogobierno de la Universidad Pablo de Olavide.</p>
+          <p class="parrafo">En cumplimiento de las prescripciones legales y estatutarias mencionadas, y al objeto de satisfacer las necesidades sociales descritas, el Parlamento de Andalucía acuerda:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 1. Creación.</p>
+          <p class="parrafo">Se crea la Universidad Pablo de Olavide, de Sevilla, que se regirá por la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria; por la Ley 1/1992, de 21 de mayo, de Coordinación del Sistema Universitario de Andalucía; por la presente Ley; por las normas que las desarrollen, y por sus Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 2. Estructura.</p>
+          <p class="parrafo">Para la gestión administrativa y organización de las enseñanzas conducentes a la obtención de títulos académicos, la Universidad Pablo de Olavide consta, inicialmente, de los siguientes centros:</p>
+          <p class="parrafo_2">a) Facultad de Derecho.</p>
+          <p class="parrafo">b) Facultad de Ciencias Empresariales.</p>
+          <p class="parrafo">c) Facultad de Ciencias Experimentales.</p>
+          <p class="parrafo">d) Facultad de Humanidades.</p>
+          <p class="parrafo">e) Escuela Politécnica Superior.</p>
+          <p class="parrafo">f) Escuela Universitaria de Trabajo Social.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 3. Estudios.</p>
+          <p class="parrafo">Los centros que componen la Universidad Pablo de Olavide impartirán inicialmente las enseñanzas conducentes a la obtención de los siguientes títulos:</p>
+          <p class="parrafo_2">Facultad de Derecho:</p>
+          <p class="parrafo_2">Licenciatura de Derecho.</p>
+          <p class="parrafo">Diplomatura de Relaciones Laborales.</p>
+          <p class="parrafo_2">Facultad de Ciencias Empresariales:</p>
+          <p class="parrafo_2">Licenciatura de Administración y Dirección de Empresas.</p>
+          <p class="parrafo">Diplomatura de Ciencias Empresariales.</p>
+          <p class="parrafo_2">Facultad de Ciencias Experimentales:</p>
+          <p class="parrafo_2">Licenciatura de Ciencias Ambientales.</p>
+          <p class="parrafo_2">Facultad de Humanidades:</p>
+          <p class="parrafo_2">Licenciatura de Humanidades.</p>
+          <p class="parrafo_2">Escuela Politécnica Superior:</p>
+          <p class="parrafo_2">Ingeniería de Organización Industrial.</p>
+          <p class="parrafo_2">Escuela Universitaria de Trabajo Social:</p>
+          <p class="parrafo_2">Diplomatura de Trabajo Social.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 4. Normativa provisional.</p>
+          <p class="parrafo">1. Corresponde al Consejo de Gobierno de la Junta de Andalucía, previo informe del Consejo Andaluz de Universidades, la aprobación de la normativa provisional de la actividad de la Universidad hasta la aprobación de los Estatutos.</p>
+          <p class="parrafo">2. La normativa provisional deberá regular, entre otros aspectos, los relativos a la composición y procedimiento de elección de los siguientes órganos de gobierno provisionales: Claustro, Juntas de Centro y Consejos de Departamentos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 5. Órganos de gobierno provisionales.</p>
+          <p class="parrafo">1. Se crean los siguientes órganos de gobierno provisionales:</p>
+          <p class="parrafo_2">a) La Comisión Gestora, que asumirá las funciones de gobierno necesarias para la organización y puesta en marcha de la Universidad y desarrollo de sus actividades académicas.</p>
+          <p class="parrafo">b) El Consejo de Administración, que asumirá las funciones económicas y presupuestarias que el ordenamiento confiera al Consejo Social de la Universidad.</p>
+          <p class="parrafo">c) El Claustro Provisional, que es el órgano de participación en el Gobierno de la Universidad de los centros, departamentos y diferentes estamentos que la componen.</p>
+          <p class="parrafo_2">2. La Comisión Gestora se constituirá antes del día 15 de septiembre de 1997. De igual forma, el Consejo de Administración se constituirá en un plazo máximo de dos meses desde la constitución de la Comisión Gestora.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 6. Composición de la Comisión Gestora.</p>
+          <p class="parrafo">1. La Comisión Gestora está integrada por el Presidente, cinco Vicepresidentes, el Secretario general, el Gerente, los Decanos y Directores de los centros universitarios, dos representantes de los Directores de los Departamentos, un representante de los alumnos por centro y un representante del personal de Administración y Servicios.</p>
+          <p class="parrafo">2. El Presidente, que habrá de ser Catedrático de Universidad, será nombrado por el Consejo de Gobierno de la Junta de Andalucía a propuesta del Consejero de Educación y Ciencia, oído el Consejo Andaluz de Universidades. A los efectos de la Administración universitaria, el Presidente de la Comisión Gestora tendrá la condición de Rector.</p>
+          <p class="parrafo">3. Los Vicepresidentes y el Secretario general serán nombrados por el Presidente de la Comisión Gestora, en función de sus méritos profesionales. A los efectos de la Administración universitaria, los Vicepresidentes de la Comisión Gestora tendrán la condición de Vicerrector.</p>
+          <p class="parrafo">4. El Gerente, que habrá de tener reconocida acreditación en el conocimiento de la gestión económica-financiera, será nombrado por el Presidente de la Comisión Gestora, oído el Consejo de Administración y no podrá ejercer funciones docentes.</p>
+          <p class="parrafo">5. Los Vocales representantes de los Directores de Departamento en la Comisión Gestora serán elegidos por y de entre ellos.</p>
+          <p class="parrafo">6. Los representantes de los alumnos serán elegidos por y de entre ellos.</p>
+          <p class="parrafo">7. El representante del personal de Administración y Servicios en la Comisión Gestora será elegido por y de entre ellos.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 7. Funciones del Consejo de Administración.</p>
+          <p class="parrafo">Corresponde al Consejo de Administración:</p>
+          <p class="parrafo_2">a) La aprobación del presupuesto de la Universidad, a propuesta de la Comisión Gestora, así como de la liquidación del mismo.</p>
+          <p class="parrafo">b) La supervisión de las actividades de carácter económico de la Universidad y del rendimiento de los servicios.</p>
+          <p class="parrafo">c) Fomentar la colaboración de la sociedad en la financiación de la Universidad, promoviendo inversiones de instituciones públicas y privadas que favorezcan las actividades de la Universidad.</p>
+          <p class="parrafo">d) Proponer la creación, supresión y transformación de facultades, escuelas técnicas superiores, escuelas universitarias e institutos universitarios,</p>
+          <p class="parrafo">e) Promover líneas generales de colaboración de la Universidad con las Administraciones públicas, empresas y entidades privadas.</p>
+          <p class="parrafo">f) Informar los convenios de carácter económico que suscriba la Universidad.</p>
+          <p class="parrafo">g) Aprobar su reglamento interno de funcionamiento en el plazo de dos meses desde su constitución.</p>
+          <p class="parrafo">h) Cualesquiera otras funciones que se le atribuyan reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 8. Composición del Consejo de Administración.</p>
+          <p class="parrafo">1. El Consejo de Administración está integrado por el Presidente y veinticuatro Vocales.</p>
+          <p class="parrafo">2. El Presidente, que tendrá los requisitos que establece la Ley 1/1992, de 21 de mayo, de Coordinación del Sistema Universitario para el Presidente del Consejo Social, será nombrado por el Consejo de Gobierno de la Junta de Andalucía a propuesta del Consejero de Educación y Ciencia, previa consulta al Presidente de la Comisión Gestora.</p>
+          <p class="parrafo">A los efectos de la Administración universitaria, el Presidente del Consejo de Administración tendrá la condición de Presidente de Consejo Social.</p>
+          <p class="parrafo">3. Son Vocales:</p>
+          <p class="parrafo_2">a) El Presidente de la Comisión Gestora.</p>
+          <p class="parrafo">b) El Secretario general.</p>
+          <p class="parrafo">c) El Gerente.</p>
+          <p class="parrafo">d) Dos Directores de Centro o Decanos elegidos por y de entre ellos.</p>
+          <p class="parrafo">e) Dos Directores de Departamentos elegidos por y de entre ellos.</p>
+          <p class="parrafo">f) Dos representantes de los alumnos elegidos de entre los representantes de alumnos que forman parte de la Comisión Gestora.</p>
+          <p class="parrafo">g) El representante del personal de Administración y Servicios en la Comisión Gestora.</p>
+          <p class="parrafo">h) Tres miembros designados por el Parlamento de Andalucía, a propuesta de los diferentes grupos parlamentarios, con aprobación por mayoría absoluta de la Cámara, sin que necesariamente haya de concurrir en ellos la condición de parlamentario.</p>
+          <p class="parrafo">i) Un miembro designado por el Consejo Andaluz de Municipios a propuesta de los Vocales representantes de los municipios.</p>
+          <p class="parrafo">j) Un representante de la Diputación Provincial de Sevilla.</p>
+          <p class="parrafo">k) Dos miembros designados por las centrales sindicales más representativas en el territorio andaluz.</p>
+          <p class="parrafo">l) Dos miembros designados por las organizaciones empresariales más representativas en el territorio andaluz.</p>
+          <p class="parrafo">m) Dos miembros designados por las asociaciones de ámbito regional de entidades financieras públicas o privadas y, en su defecto, por las entidades designadas por la Consejería de Economía y Hacienda, de entre aquellas estrechamente vinculadas al desarrollo económico de la Comunidad Autónoma de Andalucía.</p>
+          <p class="parrafo">n) Tres miembros designados libremente por el Consejo de Gobierno de la Junta de Andalucía a propuesta del Consejero de Educación y Ciencia.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Artículo 9. Inspección y control.</p>
+          <p class="parrafo">A efectos de lo dispuesto en el artículo 30 de la Ley 1/1992, de 21 de mayo, de Coordinación del Sistema Universitario, el órgano competente de la Administración de la Junta de Andalucía realizará el seguimiento y control del cumplimiento por la Universidad Pablo de Olavide de los requisitos generales y específicos exigidos, así como de las normas que le son aplicables y de las obligaciones que tiene asumidas.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición adicional primera. Creación y composición de la Comisión de Transferencias.</p>
+          <p class="parrafo">Se crea una Comisión de Transferencias presidida por el Director general de Universidades e Investigación y de la que formarán parte dos representantes de la Consejería de Educación y Ciencia y dos representantes de la Universidad de Sevilla con objeto de determinar la integración en la Universidad Pablo de Olavide de las funciones, servicios, bienes materiales y personal de la Universidad de Sevilla ubicados en la sede de la citada Universidad que correspondan a las titulaciones relacionadas en el artículo 3.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición adicional segunda. Plazo de presentación de propuesta de la Comisión de Transferencias.</p>
+          <p class="parrafo">En el plazo máximo de un mes desde la entrada en vigor de la presente Ley, la Comisión de Transferencias elevará la correspondiente propuesta a la Consejería de Educación y Ciencia para posterior aprobación por el Consejo de Gobierno de la Junta de Andalucía. En el plazo de un mes, desde la presentación de la propuesta, el Consejo de Gobierno de la Junta de Andalucía aprobará el Decreto de Transferencias y de autorización de inicio de actividades en los términos del artículo 32 de la Ley 1/1992, de 21 de mayo, de Coordinación del Sistema Universitario.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición adicional tercera. Propuesta de normativa provisional.</p>
+          <p class="parrafo">La Comisión Gestora de la Universidad elaborará, en el plazo máximo de ocho meses desde su constitución, la propuesta de normativa provisional a que se refiere el artículo cuarto.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición transitoria primera. Elaboración y aprobación de los Estatutos.</p>
+          <p class="parrafo">1. Tres años después del inicio de las actividades docentes, la Universidad procederá a la elección del Claustro Universitario Constituyente. Éste elegirá al Rector y a continuación elaborará los Estatutos de la Universidad en el plazo máximo de un año desde la constitución del Claustro.</p>
+          <p class="parrafo">2. Transcurrido este último plazo sin que la Universidad hubiese sometido sus Estatutos a la aprobación del Consejo de Gobierno de la Junta de Andalucía, éste promulgará unos Estatutos provisionales, con una vigencia máxima de tres años.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición transitoria segunda. Competencias provisionales de la Consejería de Educación y Ciencia.</p>
+          <p class="parrafo">Hasta tanto no se aprueben los Estatutos de la Universidad, la Consejería de Educación y Ciencia mantendrá, respecto a ésta, las competencias que la Ley 11/1983 atribuye a las Universidades sin perjuicio del ejercicio por los órganos creados en la presente Ley de las funciones que les son propias.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición transitoria tercera. Competencias provisionales de la Comisión Gestora y Consejo de Administración.</p>
+          <p class="parrafo">Hasta tanto no se constituya el claustro provisional, sus funciones serán ejercidas por la Comisión Gestora y, en su caso, por el Consejo de Administración.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición final primera. Financiación.</p>
+          <p class="parrafo">La Universidad Pablo de Olavide, desde el momento de su creación, dispondrá de financiación con cargo a los presupuestos de la Comunidad Autónoma, gozando de participación independiente, como el resto de las Universidades de Andalucía, del presupuesto establecido para las enseñanzas universitarias.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición final segunda. Desarrollo reglamentario.</p>
+          <p class="parrafo">Quedan autorizados el Consejo de Gobierno de la Junta de Andalucía y la Consejería de Educación y Ciencia para dictar, en el ámbito de sus competencias respectivas, las disposiciones precisas para el cumplimiento y desarrollo de lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Junta de Andalucía».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1997-16991" fecha_publicacion="19970703" fecha_vigencia="19970704">
+          <p class="parrafo_2">Sevilla, 1 de julio de 1997.</p>
+          <p class="firma_ministro">MANUEL CHAVES GONZÁLEZ,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

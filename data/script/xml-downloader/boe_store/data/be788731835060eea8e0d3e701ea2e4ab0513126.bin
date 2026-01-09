@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T114559Z</fecha_actualizacion>
+      <identificador>BOE-A-2008-13531</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4110">Ministerio de Cultura</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20080724</fecha_disposicion>
+      <numero_oficial>1320/2008</numero_oficial>
+      <titulo>Real Decreto 1320/2008, de 24 de julio, por el que se crea la Orden de las Artes y las Letras de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20080807</fecha_publicacion>
+      <diario_numero>190</diario_numero>
+      <fecha_vigencia>20080808</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2008/07/24/1320</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2008-13531</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="61">Actos oficiales</materia>
+        <materia codigo="2256">Cultura</materia>
+        <materia codigo="4025">Honores</materia>
+        <materia codigo="4967">Ministerio de Cultura</materia>
+      </materias>
+      <referencias>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2011-4398</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 4, por Real Decreto 304/2011, de 4 de marzo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13531</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-24</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1320</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/61"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2256"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4025"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13531</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1320</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/61"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2256"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4025"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20110310"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20080807"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1320/2008, de 24 de julio, por el que se crea la Orden de las Artes y las Letras de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-07</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20110310">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13531</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1320</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/61"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2256"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4025"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20110310/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1320/2008, de 24 de julio, por el que se crea la Orden de las Artes y las Letras de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20110310"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20110310/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20110310/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20080807">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2008-13531</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-24</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1320</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/61"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2256"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4025"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4967"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-07</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20080807/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1320/2008, de 24 de julio, por el que se crea la Orden de las Artes y las Letras de España.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20080807"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20080807/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2008/07/24/1320/con/20080807/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="parrafo">La promoción y difusión internacional de la cultura española y de la imagen de España constituye uno de los objetivos del Ministerio de Cultura. Mediante la creación de la Orden de las Artes y las Letras de España se pretende conceder la adecuada distinción y reconocimiento a la labor de personas o instituciones que, bien con sus obras, bien a través de su participación activa en diversos ámbitos de la creación artística o literaria, contribuyen a la difusión de la cultura española y de la imagen de España, tanto dentro como fuera de nuestras fronteras.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Cultura, previa deliberación del Consejo de Ministros en su reunión del día 24 de julio de 2008,</p>
+          <p class="subseccion">D I S P O N G O :</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Artículo 1. Creación.</p>
+          <p class="parrafo">Se crea la Orden de las Artes y las Letras de España, con el fin de reconocer la labor de aquellas personas físicas o jurídicas que se hayan distinguido en la promoción, puesta en valor y difusión de la cultura española y de la imagen de España dentro y fuera de nuestras fronteras.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Artículo 2. Requisitos de los beneficiarios.</p>
+          <p class="parrafo">1. La Orden de las Artes y las Letras de España se concederá a personas físicas o jurídicas, nacionales o extranjeras.</p>
+          <p class="parrafo">2. Aquellas personas físicas o jurídicas que sean propuestas para la concesión de la Orden de las Artes y las Letras de España, deberán reunir los siguientes requisitos:</p>
+          <p class="parrafo">a) Poseer una acreditada y prestigiosa trayectoria profesional en el ámbito de la cultura.</p>
+          <p class="parrafo">b) Contribuir sustancialmente a la difusión internacional de nuestra cultura, fomentando su mejor conocimiento y apreciación por los ciudadanos de otros países.</p>
+          <p class="parrafo_2">En el caso de personas físicas o jurídicas extranjeras se valorará, además, haber consagrado una parte significativa de su trayectoria profesional o actividad a materias directamente relacionadas con la cultura española, así como mantener una intensa relación personal con nuestro país.</p>
+          <p class="parrafo">3. En caso de que el reconocimiento recaiga en una persona jurídica, el título lo recibirá la persona que ostente su máxima representación en el momento de la concesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Artículo 3. Concesión.</p>
+          <p class="parrafo">1. La Orden de las Artes y las Letras de España se otorgará por Real Decreto, a propuesta del Ministro de Cultura y previa deliberación del Consejo de Ministros.</p>
+          <p class="parrafo">2. En el supuesto de personas físicas o jurídicas extranjeras, el Ministerio de Cultura realizará una consulta previa a la propuesta al Ministerio de Asuntos Exteriores y de Cooperación, quien efectuará los trámites necesarios ante los Gobiernos de los países de los que sean nacionales.</p>
+          <p class="parrafo">3. El Ministerio de Asuntos Exteriores y de Cooperación podrá proponer al Ministerio de Cultura las personas físicas o jurídicas que, a su criterio, sean merecedoras de esta distinción por su labor de difusión de la cultura o de la imagen de España en el exterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Artículo 4. Entrega de la Orden de las Artes y las Letras de España.</p>
+          <p class="parrafo">1. Corresponde al Ministro de Cultura la imposición formal de la Orden de las Artes y las Letras de España a sus beneficiarios. Dicha imposición se efectuará mediante un acto solemne, celebrado de acuerdo con las circunstancias personales y de lugar que concurran en cada caso.</p>
+          <p class="parrafo">2. En el curso del acto de imposición, el Ministro de Cultura hará entrega a sus beneficiarios de una medalla y una insignia acreditativas.</p>
+        </version>
+        <version id_norma="BOE-A-2011-4398" fecha_publicacion="20110310" fecha_vigencia="20110311">
+          <p class="articulo">Artículo 4. Entrega de la Orden de las Artes y las Letras de España.</p>
+          <p class="parrafo">1. La imposición formal de la Orden de las Artes y las Letras de España a sus beneficiarios se efectuará mediante un acto solemne, celebrado de acuerdo con las circunstancias personales y de lugar que concurran en cada caso.</p>
+          <p class="parrafo">2. En el curso del acto de imposición, se hará entrega a sus beneficiarios de una medalla y una insignia acreditativas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único del Real Decreto 304/2011, de 4 de marzo. <a class="refPost">Ref. BOE-A-2011-4398</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Artículo 5. Carácter de la Orden de las Artes y las Letras de España.</p>
+          <p class="parrafo">1. La Orden de las Artes y las Letras de España tendrá exclusivamente carácter honorífico, sin que su otorgamiento pueda generar derecho económico alguno.</p>
+          <p class="parrafo">2. Los receptores de la Orden de las Artes y las Letras de España tendrán derecho a portar la insignia correspondiente y a ostentar su condición de acuerdo con los usos y costumbres sociales.</p>
+          <p class="parrafo">3. El otorgamiento de la Orden de las Artes y las Letras de España llevará aparejado respectivamente el tratamiento de Excelentísimo Señor o Excelentísima Señora.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Artículo 6. Seguimiento.</p>
+          <p class="parrafo">El Ministerio de Cultura creará un libro de registro de las Órdenes concedidas, en el que se hará constar las incidencias relativas al expediente, tramitación y concesión de las mismas.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2008-13531" fecha_publicacion="20080807" fecha_vigencia="20080808">
+          <p class="parrafo_2">Dado en Palma de Mallorca, el 24 de julio de 2008.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Cultura,</p>
+          <p class="firma_ministro">CÉSAR ANTONIO MOLINA SÁNCHEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

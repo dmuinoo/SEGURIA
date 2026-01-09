@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T134411Z</fecha_actualizacion>
+      <identificador>BOE-A-1995-16750</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5130">Ministerio de Economía y Hacienda</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19950623</fecha_disposicion>
+      <numero_oficial>1050/1995</numero_oficial>
+      <titulo>Real Decreto 1050/1995, de 23 de junio, por el que se aprueba el Estatuto del Consejo Rector de la Zona Especial Canaria.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19950711</fecha_publicacion>
+      <diario_numero>164</diario_numero>
+      <fecha_vigencia>19950712</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1995/06/23/1050</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1995-16750</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="599">Canarias</materia>
+        <materia codigo="1614">Consorcio de la Zona Especial Canaria</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1994-15794</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 19/1994, de 6 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-16750</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-06-23</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1050</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/599"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1614"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-16750</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-06-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1050</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/599"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1614"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/con/19950711"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1050/1995, de 23 de junio, por el que se aprueba el Estatuto del Consejo Rector de la Zona Especial Canaria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/con/19950711">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-16750</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-06-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1050</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/599"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1614"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/con/19950711/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 1050/1995, de 23 de junio, por el que se aprueba el Estatuto del Consejo Rector de la Zona Especial Canaria.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/con/19950711"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/1995/06/23/1050/con/19950711/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/1995/06/23/1050/con/19950711/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="parrafo">En el contexto de la reforma del tradicional Régimen Económico y Fiscal de Canarias, la Ley 19/1994, de 6 de julio, crea y regula la denominada Zona Especial Canaria, con la finalidad, según indica expresamente el artículo 28 de la citada Ley, de promover el desarrollo económico y social del archipiélago.</p>
+          <p class="parrafo">Dicha Zona Especial Canaria se organiza en torno a un Consorcio, con la naturaleza de ente de Derecho público adscrito al Ministerio de Economía y Hacienda, uno de cuyos órganos de gobierno y administración está constituido por el Consejo Rector, el cual aparece regulado básicamente en los artículos 34 y 37 de la antes citada Ley 19/1994.</p>
+          <p class="parrafo">Por su parte, la disposición transitoria primera del mismo texto legal encomienda a un órgano provisional, integrado por representantes de la Administración General del Estado y de la Comunidad Autónoma de Canarias, la elaboración de una propuesta de Estatuto del Consejo Rector del Consorcio de la Zona Especial Canaria, la cual, previo informe de las Cámaras Oficiales de Comercio, Industria y Navegación de Canarias, debía ser remitida al Gobierno de la Nación para su tramitación con carácter de urgencia.</p>
+          <p class="parrafo">Los representantes de la Administración General del Estado en el antes mencionado órgano provisional han sido designados por Orden ministerial de 29 de julio de 1994, y los representantes de la Comunidad Autónoma en el mismo lo han sido por Acuerdo del Consejo de Gobierno de aquélla de fecha 15 de julio de 1994.</p>
+          <p class="parrafo">Reunido el órgano provisional en cuestión, éste ha realizado las tareas necesarias en orden a la elaboración de una propuesta de Estatuto del Consejo Rector del Consorcio de la Zona Especial Canaria, la cual, tras haber sido informada por las Cámaras Oficiales de Comercio, Industria y Navegación de ambas provincias canarias, ha sido remitida al Gobierno de la Nación para su tramitación con carácter de urgencia.</p>
+          <p class="parrafo">Así, el Estatuto que aprueba el presente Real Decreto regula la naturaleza del Consejo Rector de la Zona Especial Canaria y el régimen aplicable a los miembros que lo integran; especifica y concreta las competencias atribuidas a dicho Consejo Rector, a la vez que determina cuáles de éstas pueden ser delegados por aquél en el Presidente del Consorcio de la Zona Especial Canaria; asimismo, fija el marco dentro del cual han de organizarse los servicios del Consejo Rector y establece el régimen de funcionamiento de éste y el aplicable a sus acuerdos y resoluciones.</p>
+          <p class="parrafo">Por consiguiente, con la aprobación del presente Estatuto se aporta el fundamento normativo suficiente a partir del cual resulta posible iniciar la puesta en marcha del Consorcio de la Zona Especial Canaria y, con ello, de la propia zona especial.</p>
+          <p class="parrafo">En su virtud, al amparo de lo previsto en la disposición transitoria primera y en el apartado 2 de la disposición final, ambas de la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, previo informe de las Cámaras Oficiales de Comercio, Industria y Navegación de Canarias, de acuerdo con el Consejo de Estado, a propuesta del Ministro de Economía y Hacienda y previa deliberación del Consejo de Ministros en su reunión del día 23 de junio de 1995,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="aunico" tipo="precepto" titulo="Artículo único">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo único. Aprobación del Estatuto del Consejo Rector de la Zona Especial Canaria.</p>
+          <p class="parrafo">Se aprueba el Estatuto del Consejo Rector de la Zona Especial Canaria, creado como órgano de gobierno y administración del Consorcio de dicha zona especial por la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, el cual se incluye en el anexo al presente Real Decreto.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Disposición adicional única. Modificación del Estatuto del Consejo Rector de la Zona Especial Canaria.</p>
+          <p class="parrafo">Cualquier modificación del Estatuto del Consejo Rector de la Zona Especial Canaria será aprobada por el Gobierno de la Nación mediante Real Decreto, a propuesta conjunta del Ministerio de Economía y Hacienda y de la Comunidad Autónoma de Canarias.</p>
+        </version>
+      </bloque>
+      <bloque id="dtunica" tipo="precepto" titulo="Disposición transitoria única">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Disposición transitoria única. Actuación como Secretario del Consejo Rector.</p>
+          <p class="parrafo">En tanto no se proceda a la designación del Secretario del Consejo Rector en los términos previstos en el artículo 4 del presente Estatuto, actuará como tal el Consejero de menor edad.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Disposición final única. Autorización al Ministro de Economía y Hacienda y entrada en vigor.</p>
+          <p class="parrafo">1. Se autoriza al Ministro de Economía y Hacienda a dictar, de acuerdo con la Comunidad Autónoma de Canarias, cuantas disposiciones sean necesarias en orden a la aplicación y desarrollo del presente Real Decreto.</p>
+          <p class="parrafo">2. El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="parrafo_2">Dado en Madrid a 23 de junio de 1995.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Economía y Hacienda,</p>
+          <p class="firma_ministro">PEDRO SOLBES MIRA</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Estatuto del Consejo Rector de la Zona Especial Canaria</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 1. Naturaleza del Consejo Rector.</p>
+          <p class="parrafo">El Consejo Rector de la Zona Especial Canaria (ZEC) se configura como uno de los órganos de gobierno y administración del Consorcio de dicha Zona Especial, creada por el artículo 28 de la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico Fiscal de Canarias.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 2. Miembros del Consejo Rector.</p>
+          <p class="parrafo">1. El Consejo Rector de la ZEC está integrado por un Presidente, un Vicepresidente y cinco Consejeros.</p>
+          <p class="parrafo">2. Será Presidente del Consejo Rector la persona que ostente la Presidencia del Consorcio de la ZEC y será nombrado por el Gobierno de la Nación, a propuesta conjunta del Ministro de Economía y Hacienda y del Gobierno de la Comunidad Autónoma de Canarias, entre personas de reconocida competencia en materias económicas y financieras. El nombramiento será publicado en el «Boletín Oficial del Estado» y en el «Boletín Oficial de Canarias».</p>
+          <p class="parrafo">3. El Vicepresidente será nombrado, entre personas de reconocida competencia en materias económicas y financieras, en la misma forma que el Presidente y su nombramiento será publicado en los mismos términos que el de éste.</p>
+          <p class="parrafo">4. Los Consejeros serán nombrados tres de ellos por el Ministro de Economía y Hacienda y los otros dos por el Gobierno de la Comunidad Autónoma de Canarias. Los nombramientos serán publicados en el «Boletín Oficial del Estado» y en el «Boletín Oficial de Canarias».</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 3. Duración del mandato y régimen aplicable a los miembros del Consejo Rector.</p>
+          <p class="parrafo">1. El mandato de los miembros del Consejo Rector tendrá una duración de cuatro años, a contar desde la fecha de su nombramiento, al término de los cuales dicho mandato podrá ser renovado por otros dos períodos de cuatro años cada uno.</p>
+          <p class="parrafo">En su caso, la renovación del mandato de los miembros del Consejo Rector deberá llevarse a cabo, en la forma prevista legalmente, dentro del último mes del mandato respectivo.</p>
+          <p class="parrafo">Los miembros del Consejo Rector cesarán en sus cargos:</p>
+          <p class="parrafo_2">a)	Por expiración del término de los respectivos mandatos, sin perjuicio de la renovación de éstos a que se refiere el párrafo anterior.</p>
+          <p class="parrafo">b)	Por renuncia expresamente aceptada por el órgano que los nombró.</p>
+          <p class="parrafo">c)	Por incumplimiento grave de sus obligaciones, el cual deberá ser declarado expresamente por el órgano que los nombró, previa la instrucción del oportuno expediente en el que se dará audiencia al interesado.</p>
+          <p class="parrafo">d)	Por incapacidad permanente para el ejercicio de su función, la cual deberá ser declarada en los términos indicados en el párrafo c) anterior.</p>
+          <p class="parrafo">e)	Por incompatibilidad sobrevenida de acuerdo con lo establecido en el apartado 2 siguiente de este artículo, declarada por el órgano que los nombró, previa instrucción del oportuno expediente en el que se dará audiencia al interesado.</p>
+          <p class="parrafo">f)	Por condena por delito doloso, declarándose en tal supuesto el cese por el órgano que los nombró, previa instrucción del oportuno expediente en el que se dará audiencia al interesado.</p>
+          <p class="parrafo_2">El cese del Presidente, del Vicepresidente y de los Consejeros, por cualquiera de las causas reseñadas, deberá ser publicado en el «Boletín Oficial del Estado» y en el «Boletín Oficial de Canarias».</p>
+          <p class="parrafo">En los supuestos de cese de algún miembro del Consejo Rector antes de la expiración de su mandato, la persona que le sustituya ejercerá su mandato por el período de tiempo que reste del correspondiente al miembro cesante, sin perjuicio de la renovación, en su caso, por otros dos períodos en los términos previstos en este apartado.</p>
+          <p class="parrafo">2. Los miembros del Consejo Rector del Consorcio de la ZEC estarán sometidos al mismo régimen de incompatibilidades que el previsto para los altos cargos de las Administraciones públicas por la legislación vigente en cada momento.</p>
+          <p class="parrafo">3. Durante los dos años posteriores a su cese, contados desde la fecha de éste, los miembros del Consejo Rector no podrán ejercer actividad profesional privada alguna relacionada con la Zona Especial Canaria.</p>
+          <p class="parrafo">4. Las retribuciones de los miembros del Consejo Rector de la ZEC serán fijadas por el Ministro de Economía y Hacienda, previo informe del Consejero de Economía y Hacienda de Canarias.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 4. El Secretario del Consejo Rector.</p>
+          <p class="parrafo">1. El Consejo Rector contará con un Secretario designado por aquél entre las personas de nivel directivo que presten servicios en el Consorcio de la Zona Especial Canaria.</p>
+          <p class="parrafo">2. La designación y cese del Secretario se producirá libremente por acuerdo del Consejo Rector.</p>
+          <p class="parrafo">3. El Secretario, con voz pero sin voto, tendrá las funciones que le asigne el Consejo Rector y, en general, las previstas en el artículo 25.3 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">4. En caso de vacante, ausencia o enfermedad, el Secretario del Consejo Rector será sustituido por quien designe dicho Consejo Rector.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 5. Competencias del Presidente del Consejo Rector.</p>
+          <p class="parrafo">1. Corresponde al Presidente del Consejo Rector:</p>
+          <p class="parrafo_2">a)	Ostentar la representación del Consejo.</p>
+          <p class="parrafo">b)	Ejercer las demás funciones que atribuye al Presidente de los órganos colegiados el artículo 23 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <p class="parrafo">c)	Ejercer cuantas competencias le sean delegadas por el Consejo Rector.</p>
+          <p class="parrafo">d)	Ejercer cuantas otras competencias le atribuya específicamente la legislación vigente.</p>
+          <p class="parrafo_2">En la toma de acuerdos y resoluciones del Consejo Rector, el voto del Presidente será dirimente.</p>
+          <p class="parrafo">2. El Vicepresidente del Consejo Rector sustituirá al Presidente en los casos de vacante, ausencia o enfermedad y ejercerá, asimismo, las funciones que le delegue el Consejo Rector.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 6. Competencias del Consejo Rector.</p>
+          <p class="parrafo">1. Corresponde al Consejo Rector:</p>
+          <p class="parrafo_2">a)	Tramitar y resolver las solicitudes de autorización de las entidades que pretendan acogerse al régimen especial de la Zona Especial Canaria.</p>
+          <p class="parrafo">b)	Gestionar el Registro Oficial Administrativo de entidades ZEC.</p>
+          <p class="parrafo">c)	Gestionar las tasas de inscripción y permanencia en el Registro Oficial de las entidades ZEC.</p>
+          <p class="parrafo">d)	Vigilar el cumplimiento por parte de las entidades ZEC de lo dispuesto en la Ley 19/1994, de 6 de julio, pudiendo para ello requerir cuanta información sea precisa, sin perjuicio de lo establecido en dicha Ley respecto de las competencias atribuidas a otros órganos u organismos públicos.</p>
+          <p class="parrafo">e)	Iniciar y resolver los expedientes sancionadores que se tramiten según lo dispuesto en las normas contenidas en el capítulo VI, Título V, de la antes mencionada Ley 19/1994, correspondiendo la instrucción de dichos expedientes al Presidente del Consejo Rector.</p>
+          <p class="parrafo">f)	Suministrar la información que le sea requerida por las Administraciones u organismos competentes, de acuerdo con lo establecido en la Ley 19/1994 y en sus normas de desarrollo.</p>
+          <p class="parrafo">g)	Dictar las instrucciones sobre el funcionamiento de la Zona Especial Canaria en aquellos aspectos en que tenga atribuida dicha competencia.</p>
+          <p class="parrafo">h)	Elaborar anualmente un anteproyecto de presupuesto, con la estructura que señale el Ministerio de Economía y Hacienda.</p>
+          <p class="parrafo">i)	Emitir cuantos informes preceptivos sean de su competencia, así como cualesquiera otros que le sean solicitados en relación a las materias propias de dicha competencia.</p>
+          <p class="parrafo">j)	Decidir sobre la utilización del remanente anual del Consorcio de la ZEC, sin perjuicio de lo dispuesto en el artículo 38.4 de la Ley 19/1994, de 6 de julio.</p>
+          <p class="parrafo">k)	Aprobar los conciertos fiscales con las entidades locales canarias a que se refiere el artículo 48 de la Ley 19/1994, de 6 de julio.</p>
+          <p class="parrafo">l)	Exigir las contraprestaciones a que se refiere el artículo 51 de la Ley 19/1994, de 6 de julio, de Modificación del Régimen Económico y Fiscal de Canarias.</p>
+          <p class="parrafo">m)	Administrar el patrimonio y los recursos económicos y tributarios del Consorcio de la ZEC previstos en el artículo 38 de la Ley 19/1994, de 6 de julio.</p>
+          <p class="parrafo">n)	Solicitar la aplicación a las entidades de crédito que operan en la ZEC de las medidas de intervención y sustitución previstas en el Título III de la Ley 26/1988, de 29 de julio, de Disciplina e Intervención de las Entidades de Crédito.</p>
+          <p class="parrafo">ñ)	Exigir a las entidades de seguro que operan en la ZEC la comunicación no sistemática de los modelos de pólizas, bases técnicas y tarifas de primas de las operaciones sometidas al régimen especial de la ZEC.</p>
+          <p class="parrafo">o)	Las competencias que en relación a la Bolsa de Valores, a la Sociedad Rectora de ésta y a las sociedades y agencias de bolsa y valores se atribuyen al Consorcio de la ZEC en la Sección 3.ª del capítulo IV del Título V de la Ley 19/1994, de 6 de julio.</p>
+          <p class="parrafo">p)	Las competencias que en relación a los Mercados Secundarios Oficiales se atribuyen al Consorcio de la ZEC en la Sección 4.ª del capítulo IV del título V de la Ley 19/1994, de 6 de julio.</p>
+          <p class="parrafo">q)	Aprobar y elevar las propuestas que estime necesarias de conformidad con lo dispuesto en el artículo 36.4 de la Ley 19/1994, de 6 de julio, de Modificación del Régimen Económico y Fiscal de Canarias.</p>
+          <p class="parrafo">r)	Informar las modificaciones que estime necesarias del presente Estatuto.</p>
+          <p class="parrafo">s)	Cualquier otra función o competencia que le sea atribuida directamente por la legislación vigente.</p>
+          <p class="parrafo_2">2. Corresponderán al Consejo Rector todas aquellas funciones no atribuidas específicamente al Presidente del citado órgano.</p>
+          <p class="parrafo">3. El Consejo Rector podrá delegar en el Presidente o en el Vicepresidente del mismo:</p>
+          <p class="parrafo_2">a)	Las competencias comprendidas en los párrafos b), c), d), f) y ñ) del apartado 1 del presente artículo.</p>
+          <p class="parrafo">b)	La tramitación de las solicitudes de autorización de las entidades que pretendan acogerse al régimen de la Zona Especial Canaria.</p>
+          <p class="parrafo">c)	Las facultades de administración, gestión y contratación patrimonial previstas en el párrafo m) del apartado 1 de este artículo, dentro de los límites que fije el Consejo Rector.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 7. Servicios del Consejo Rector.</p>
+          <p class="parrafo">1. El Consejo Rector promoverá, facilitará y organizará los servicios del Consorcio para el adecuado funcionamiento de la ZEC y la consecución de su finalidad, todo ello con arreglo a criterios de eficacia y según las disponibilidades presupuestarias de cada momento.</p>
+          <p class="parrafo">2. Corresponde al Consejo Rector:</p>
+          <p class="parrafo_2">a)	Estructurar los servicios del Consorcio.</p>
+          <p class="parrafo">b)	Dotar a los servicios del Consorcio de los recursos e infraestructuras materiales necesarias.</p>
+          <p class="parrafo">c)	Establecer el catálogo de puestos de trabajo y la asignación de los niveles y funciones correspondientes.</p>
+          <p class="parrafo">d)	Contratar al personal directivo al servicio del Consorcio.</p>
+          <p class="parrafo">e)	Seleccionar al personal no directivo mediante las oportunas convocatorias públicas, a través de sistemas basados en los principios de mérito y capacidad.</p>
+          <p class="parrafo_2">3. El Consejo Rector elaborará las normas de régimen interno del personal al servicio del Consorcio de la ZEC.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 8. Régimen de funcionamiento del Consejo Rector.</p>
+          <p class="parrafo">En lo no previsto por el presente estatuto, las normas de funcionamiento del Consejo Rector, en tanto que órgano colegiado, serán aprobadas por aquél con arreglo a los principios y criterios establecidos en el capítulo II del Título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, cuyos preceptos serán, en todo caso, de aplicación supletoria.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1995-16750" fecha_publicacion="19950711" fecha_vigencia="19950712">
+          <p class="articulo">Artículo 9. Acuerdos y resoluciones del Consejo Rector.</p>
+          <p class="parrafo">1. Los actos y resoluciones que dicte el Consejo Rector de la Zona Especial Canaria en el ejercicio de sus funciones públicas tienen la naturaleza de actos administrativos y agotan la vía administrativa, excepto en materia tributaria que serán recurribles en vía económico-administrativa ante el Tribunal Económico-Administrativo Regional de Canarias, sin perjuicio en ambos casos del posterior acceso a la Jurisdicción Contencioso-Administrativa.</p>
+          <p class="parrafo">2. Los acuerdos y resoluciones del Consejo Rector sobre las materias a que se refieren los párrafos a), g), j), k) del artículo 6.1 y del artículo 8 del presente Estatuto, así como las que tengan por objeto la delegación de competencias en el Presidente o Vicepresidente, serán aprobadas en todo caso por, al menos, cinco de los miembros con derecho a voto de dicho Consejo Rector.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

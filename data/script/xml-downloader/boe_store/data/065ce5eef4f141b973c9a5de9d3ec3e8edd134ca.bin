@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T134412Z</fecha_actualizacion>
+      <identificador>BOE-A-1995-17360</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19950717</fecha_disposicion>
+      <numero_oficial>23/1995</numero_oficial>
+      <titulo>Ley 23/1995, de 17 de julio, por la que se reconoce a la Universidad privada «Antonio de Nebrija», de Madrid.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19950718</fecha_publicacion>
+      <diario_numero>170</diario_numero>
+      <fecha_vigencia>19950719</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1995/07/17/23</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1995-17360</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="7014">Universidad Antonio de Nebrija</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1991-9609</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Real Decreto 557/1991, de 12 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1983-23432</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Ley Orgánica 11/1983, de 25 de agosto</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1995-10364</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 485/1995, de 7 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-13272</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1267/1994, de 10 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1987-27707</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1497/1987, de 27 de noviembre</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-17360</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-17</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7014"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-17360</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7014"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/con/19950718"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 23/1995, de 17 de julio, por la que se reconoce a la Universidad privada «Antonio de Nebrija», de Madrid.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-18</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 23/1995, de 17 de juliol, per la qual es reconeix la universitat privada Antonio de Nebrija, de Madrid. («BOE» 170, de 18-7-1995.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/con/19950718">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-17360</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-17</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7014"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-07-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/con/19950718/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 23/1995, de 17 de julio, por la que se reconoce a la Universidad privada «Antonio de Nebrija», de Madrid.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/con/19950718"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1995/07/17/23/con/19950718/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1995/07/17/23/con/19950718/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo">La Constitución española reconoce la libertad de enseñanza, así como la libertad de creación de centros docentes, dentro del respeto a los principios constitucionales.</p>
+          <p class="parrafo">Según exigen los artículos 53.1 y 81.1 de la Constitución, la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, regula en su Título VIII el ejercicio de aquellas libertades en lo que se refiere a la creación de Universidades y centros docentes de enseñanza superior de titularidad privada.</p>
+          <p class="parrafo">A su vez, mediante el Real Decreto 557/1991, de 12 de abril, ampliado por el Real Decreto 485/1995, sobre creación y reconocimiento de Universidades y centros universitarios, han quedado establecidos con carácter general los requisitos mínimos indispensables para ello, como dispone el artículo 58 de la citada Ley Orgánica 11/1983, que contempla el caso del reconocimiento de una Universidad privada mediante Ley de las Cortes Generales.</p>
+          <p class="parrafo">Para llegar a constituir la Universidad «Antonio de Nebrija», de Madrid, al amparo de tales previsiones, la entidad «Universitas Nebrissensis, Sociedad Anónima», promotora de la misma, ha cumplido los requisitos precisos, constituidos hoy fundamentalmente por el Título citado de la Ley Orgánica 11/1983 y determinados preceptos del Real Decreto 557/1991, de 12 de abril, ampliado por el Real Decreto 485/1995, para la creación de una Universidad privada.</p>
+          <p class="parrafo">Dicho cumplimiento ha parecido suficiente a los efectos de que se dicte la presente Ley de reconocimiento de la Universidad de que se trata. En particular, se ha comprobado que la entidad promotora garantiza el número mínimo de titulaciones a que hace referencia el artículo quinto del Real Decreto 557/1991 y que, igualmente, se asume el cumplimiento, en el momento correspondiente, de cuantas otras obligaciones exija el ordenamiento jurídico aplicable a las Universidades privadas, aportándose a tales efectos la documentación pertinente. Esta Ley, por tanto, habilita a la Universidad «Antonio de Nebrija», de Madrid, una vez reconocida, para desarrollar la actividad que haga posible, en su momento, el otorgamiento por parte de la Administración educativa competente de la autorización para el inicio de sus actividades.</p>
+          <p class="parrafo">El expediente de reconocimiento de la Universidad «Antonio de Nebrija» cuenta con el informe favorable del Consejo de Universidades y con la conformidad del Consejo de Gobierno de la Comunidad Autónoma de Madrid.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 1. Reconocimiento de la Universidad.</p>
+          <p class="parrafo">1. Se reconoce la Universidad «Antonio de Nebrija», de Madrid, como Universidad privada.</p>
+          <p class="parrafo">2. La Universidad «Antonio de Nebrija», de Madrid, se establecerá en la Comunidad Autónoma de Madrid y se regirá por los preceptos correspondientes de la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, y normas dictadas en su desarrollo, así como por la presente Ley y por sus propias normas de organización y funcionamiento.</p>
+          <p class="parrafo">3. Dichas normas, de conformidad con el artículo 20.1.c) de la Constitución y con lo previsto en el artículo 2.1 de la Ley Orgánica 11/1983 antes citada, reconocerán explícitamente que la actividad de la Universidad se fundamenta en la libertad académica, manifestada en las libertades de cátedra, de investigación y de estudio.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 2. Estructura.</p>
+          <p class="parrafo">1. La Universidad «Antonio de Nebrija», de Madrid, constará inicialmente de los centros que se relacionan en el anexo. Dichos centros se encargarán de la gestión administrativa y de la organización de las enseñanzas conducentes a la obtención de los títulos oficiales y con validez en todo el territorio nacional que igualmente se indican en el anexo.</p>
+          <p class="parrafo">2. Para el reconocimiento de nuevos centros en la Universidad «Antonio de Nebrija», de Madrid, y la implantación en ella de nuevas enseñanzas conducentes a títulos oficiales y con validez en todo el territorio nacional, así como para la homologación de éstos, se exigirá el cumplimiento de los requisitos a que se refiere el artículo 58 de la Ley Orgánica 11/1983, de 25 de agosto, y cuantas otras normas se dicten en su desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 3. Autorización para la puesta en funcionamiento de la Universidad.</p>
+          <p class="parrafo">1. El Gobierno, a solicitud de la entidad promotora de la Universidad «Antonio de Nebrija», de Madrid, mediante Real Decreto, a propuesta del Ministro de Educación y Ciencia, otorgará, en plazo no superior a seis meses, la autorización para la puesta en funcionamiento de la Universidad y homologará los títulos oficiales a expedir por ella, conforme a lo previsto en el artículo 58.4 de la Ley Orgánica 11/1983, de Reforma Universitaria.</p>
+          <p class="parrafo">2. Para ello deberá haberse comprobado previamente el cumplimiento de los compromisos adquiridos por la entidad titular y contarse con el correspondiente informe del Consejo de Universidades sobre las enseñanzas que se vayan a impartir.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 4. Requisitos de acceso.</p>
+          <p class="parrafo">1. Para el acceso a los centros de la Universidad «Antonio de Nebrija», de Madrid, será necesario haber superado previamente las pruebas de aptitud conforme a las normas generales reguladoras de las mismas, pruebas que se llevarán a cabo en una Universidad pública.</p>
+          <p class="parrafo">2. La Universidad regulará libremente el régimen de acceso y permanencia del alumnado en sus centros. No obstante, deberá atribuir una valoración preferente a los resultados académicos entre los distintos méritos que aleguen los solicitantes.</p>
+          <p class="parrafo">3. La Universidad cuidará de que en el derecho de acceso y permanencia no exista regulación o situación práctica de hecho que suponga una discriminación por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 5. Plazo de funcionamiento de la Universidad y de sus centros.</p>
+          <p class="parrafo">1. La Universidad «Antonio de Nebrija», de Madrid, y cada uno de sus centros deberán mantenerse en funcionamiento, al menos, durante el período de tiempo que permita finalizar sus estudios a los alumnos que, con un aprovechamiento académico normal, los hubieran iniciado en ella.</p>
+          <p class="parrafo">2. En todo caso, y en ausencia de compromiso específico previsto en las normas de organización y funcionamiento de la Universidad o en otras normas aplicables, se considerará que el tiempo mínimo a que se hace referencia en el apartado anterior es el que resulte de la aplicación de las normas de extinción de los planes de estudio modificados a que se refiere el artículo 11.3 del Real Decreto 1497/1987, de 27 de noviembre, modificado por el Real Decreto 1267/1994, de 10 de junio, o norma que lo sustituya.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 6. Inspección.</p>
+          <p class="parrafo">1. A los efectos previstos en el artículo 27.8 de la Constitución, el Ministerio de Educación y Ciencia inspeccionará el cumplimiento por parte de la Universidad «Antonio de Nebrija», de Madrid, de las normas que le sean de aplicación y de las obligaciones que tenga asumidas.</p>
+          <p class="parrafo">2. La Universidad colaborará con los órganos competentes de dicho Ministerio en la tarea de inspección, facilitando la documentación y el acceso a sus instalaciones que, a ese exclusivo efecto, le sean requeridos.</p>
+          <p class="parrafo">3. La Universidad comunicará al Ministerio de Educación y Ciencia, en los plazos y forma que reglamentariamente se determinen, cuantas variaciones puedan producirse en sus normas de organización y funcionamiento, su situación patrimonial y en su regulación específica de concesión de becas y ayudas a la investigación y al estudio.</p>
+          <p class="parrafo">4. Si con posterioridad al inicio de sus actividades el Ministerio de Educación y Ciencia apreciara que la Universidad incumple los requisitos exigidos por el ordenamiento jurídico, y en especial por el Real Decreto 557/1991, de 12 de abril, ampliado por el Real Decreto 485/1995, y los compromisos adquiridos al solicitarse su reconocimiento, requerirá a la misma la regularización en plazo de su situación. Transcurrido el mismo sin que la Universidad atienda el requerimiento, y previa audiencia de la misma y del Consejo de Universidades, el Gobierno informará de ello a las Cortes Generales, a efectos de la posible revocación del indicado reconocimiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Artículo 7. Memoria de las actividades.</p>
+          <p class="parrafo">1. La Universidad «Antonio de Nebrija», de Madrid, elaborará anualmente una Memoria comprensiva de las actividades docentes e investigadoras que en ella se realicen.</p>
+          <p class="parrafo">2. La Universidad pondrá dicha Memoria a disposición de las Cortes Generales, del Ministerio de Educación y Ciencia y del Consejo de Universidades.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Disposición adicional primera. Caducidad del reconocimiento legal.</p>
+          <p class="parrafo">El reconocimiento de la Universidad caducará en el caso de que, transcurridos cuatro años desde la entrada en vigor de la presente Ley, no se hubiera solicitado la autorización para el inicio de las actividades académicas a que hace referencia el artículo 3. Igualmente caducará si se hubiese denegado la autorización por ausencia de cumplimiento de los requisitos previstos en el ordenamiento jurídico, una vez haya llegado a ser firme la denegación.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Disposición adicional segunda. Transmisión o cesión de la titularidad.</p>
+          <p class="parrafo">En la realización de actos y negocios jurídicos que impliquen la transmisión o cesión, total o parcial, a título oneroso o gratuito, «inter vivos» o «mortis causa», de la titularidad de la Universidad, que se reconoce por la presente Ley, se estará a lo dispuesto en la disposición adicional tercera del Real Decreto 557/1991, de 12 de abril, ampliado por el Real Decreto 485/1995.</p>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Disposición adicional tercera. Traspaso a la Comunidad Autónoma de Madrid.</p>
+          <p class="parrafo">Una vez efectuados los traspasos de servicios en materia de Universidades a la Comunidad Autónoma de Madrid, las referencias contenidas en esta Ley a las Cortes Generales y al Gobierno y Ministerio de Educación y Ciencia, se entenderán hechas a la Asamblea de Madrid y al órgano correspondiente de la Comunidad Autónoma.</p>
+          <p class="parrafo">En todo caso, la homologación de los títulos oficiales a expedir por la Universidad se realizará conforme a lo previsto en el artículo 58.4 de la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Disposición final primera. Desarrollo reglamentario.</p>
+          <p class="parrafo">Se autoriza al Gobierno y al Ministro de Educación y Ciencia para dictar, en la esfera de sus respectivas atribuciones, las disposiciones precisas para la aplicación y desarrollo de lo dispuesto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="articulo">Disposición final segunda. Entrada en vigor.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades que guarden y hagan guardar esta Ley.</p>
+          <p class="parrafo_2">Madrid, 17 de julio de 1995.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">FELIPE GONZÁLEZ MÁRQUEZ</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-1995-17360" fecha_publicacion="19950718" fecha_vigencia="19950719">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Centros y enseñanzas iniciales de la Universidad «Antonio de Nebrija», de Madrid</p>
+          <p class="centro_cursiva">Facultad de Ciencias de la Comunicación</p>
+          <p class="parrafo">1. Licenciado en Periodismo.</p>
+          <p class="parrafo">2. Licenciado en Publicidad y Relaciones Públicas.</p>
+          <p class="centro_cursiva">Facultad de Ciencias Económicas y Empresariales</p>
+          <p class="parrafo">3. Licenciado en Administración y Dirección de Empresas.</p>
+          <p class="parrafo">4. Licenciado en Economía.</p>
+          <p class="parrafo">5. Diplomado en Ciencias Empresariales.</p>
+          <p class="centro_cursiva">Facultad de Derecho y Estudios Europeos</p>
+          <p class="parrafo">6. Licenciado en Derecho.</p>
+          <p class="centro_cursiva">Facultad de Lenguas Aplicadas (Filología)</p>
+          <p class="parrafo">7. Licenciado en Filología Alemana.</p>
+          <p class="parrafo">8. Licenciado en Filología Francesa.</p>
+          <p class="parrafo">9. Licenciado en Filología Hispánica.</p>
+          <p class="parrafo">10. Licenciado en Filología Inglesa.</p>
+          <p class="parrafo">11. Licenciado en Traducción e Interpretación.</p>
+          <p class="centro_cursiva">Escuela Técnica Superior de Informática</p>
+          <p class="parrafo">12. Ingeniero en Informática.</p>
+          <p class="parrafo">13. Ingeniero Técnico en Diseño Industrial.</p>
+          <p class="parrafo">14. Ingeniero Técnico en Informática de Gestión.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T134333Z</fecha_actualizacion>
+      <identificador>BOE-A-1995-5746</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1012">Agencia de Protección de Datos</departamento>
+      <rango codigo="1410">Instrucción</rango>
+      <fecha_disposicion>19950301</fecha_disposicion>
+      <numero_oficial>1/1995</numero_oficial>
+      <titulo>Instrucción 1/1995, de 1 de marzo, de la Agencia de Protección de Datos, relativa a prestación de servicios de información sobre solvencia patrimonial y crédito.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19950304</fecha_publicacion>
+      <diario_numero>54</diario_numero>
+      <fecha_vigencia>19950305</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/ins/1995/03/01/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1995-5746</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="1757">Créditos</materia>
+        <materia codigo="7854">Protección de datos personales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1992-24189</id_norma>
+            <relacion codigo="408">COMPLETA</relacion>
+            <texto>el art. 28 de la Ley Orgánica 5/1992, de 29 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-14121</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1332/1994, de 20 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1993-11252</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 428/1993, de 26 de marzo</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-5746</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-03-01</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-5746</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/con/19950304"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción 1/1995, de 1 de marzo, de la Agencia de Protección de Datos, relativa a prestación de servicios de información sobre solvencia patrimonial y crédito.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-03-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/con/19950304">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/ins"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1995-5746</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-03-01</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-03-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/con/19950304/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrucción 1/1995, de 1 de marzo, de la Agencia de Protección de Datos, relativa a prestación de servicios de información sobre solvencia patrimonial y crédito.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/con/19950304"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/ins/1995/03/01/1/con/19950304/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/ins/1995/03/01/1/con/19950304/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="parrafo">El artículo 36 de la Ley Orgánica 5/1992, de 29 de octubre, de regulación del tratamiento automatizado de los datos de carácter personal, al definir las funciones de la Agencia de Protección de Datos, incluye en su apartado c) la de dictar, en su caso y sin perjuicio de las competencias de otros órganos, las instrucciones precisas para adecuar los tratamientos automatizados a los principios de dicha Ley. Disposición que tiene su complemento en el artículo 5.c) del Estatuto de la Agencia, aprobado por Real Decreto 428/1993, de 26 de marzo, que señala entre las funciones de la misma la de dictar las instrucciones y recomendaciones precisas para adecuar los tratamientos automatizados a los principios de la Ley Orgánica.</p>
+          <p class="parrafo">El artículo 28 de la misma se refiere a la prestación de servicios de información sobre solvencia patrimonial y crédito desde una doble perspectiva. Por un lado, determina que quienes se dediquen a la prestación de servicios sobre la solvencia patrimonial y el crédito sólo podrán tratar automatizadamente datos de carácter personal obtenidos de fuentes accesibles al público o procedentes de informaciones facilitadas por el afectado o con su consentimiento. Por otro, regula el tratamiento de datos de carácter personal relativos al cumplimiento o incumplimiento de obligaciones dinerarias señalando que podrán tratarse dichos datos siempre que sean «facilitados por el acreedor o por quien actúe por su cuenta o interés».</p>
+          <p class="parrafo">Los primeros no se apartan de la regulación común que establece la Ley Orgánica; los segundos presentan, por el contrario, un conjunto de especialidades (excepción del principio del consentimiento tanto en la recogida del dato como en su tratamiento), que hacen necesario efectuar una serie de precisiones. Además, dentro de estos últimos, la realidad demuestra que coexisten perfectamente engarzados dos tipos de ficheros: Uno, el propio del acreedor, que se nutre de los datos personales que son consecuencia de las relaciones económicas mantenidas con el afectado, cuya única finalidad es obtener la satisfacción de la obligación dineraria, y otro, un fichero que se podría denominar común que, consolidando todos los datos personales contenidos en aquellos otros ficheros, tiene por finalidad proporcionar información sobre la solvencia de una persona determinada y cuyo responsable, al no ser el acreedor, no tiene competencia para modificar o cancelar los datos inexactos que se encuentran en aquéllos.</p>
+          <p class="parrafo">En consecuencia, en uso de las facultades que tiene conferidas, la Agencia de Protección de Datos ha dispuesto:</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Calidad de los datos objeto del tratamiento automatizado, forma y veces en que debe efectuarse la notificación y cómputo del plazo al que se refiere el artículo 28.3 de la Ley Orgánica</p>
+        </version>
+      </bloque>
+      <bloque id="normaprimera" tipo="precepto" titulo="Norma primera">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="articulo">Norma primera. Calidad de los datos objeto de tratamiento.</p>
+          <p class="parrafo_2">1. La inclusión de los datos de carácter personal en los ficheros relativos al cumplimiento o incumplimiento de obligaciones dinerarias, a los que se refiere el artículo 28 de la Ley Orgánica 5/1992, deberá efectuarse solamente cuando concurran los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Existencia previa de una deuda cierta, vencida y exigible, que haya resultado impagada.</p>
+          <p class="parrafo">b) Requerimiento previo de pago a quien corresponda, en su caso, el cumplimiento de la obligación.</p>
+          <p class="parrafo_2">2. No podrán incluirse en los ficheros de esta naturaleza datos personales sobre los que exista un principio de prueba documental que aparentemente contradiga alguno de los requisitos anteriores. Tal circunstancia determinará igualmente la desaparición cautelar del dato personal desfavorable en los supuestos en que ya se hubiera efectuado su inclusión en el fichero.</p>
+          <p class="parrafo">3. El acreedor o quien actúe por su cuenta e interés deberá asegurarse que concurren todos los requisitos exigidos en el número 1 de esta norma en el momento de notificar los datos adversos al responsable del fichero común.</p>
+          <p class="parrafo">4. La comunicación del dato inexistente o inexacto, con el fin de obtener su cancelación o modificación, deberá efectuarse por el acreedor o quien actúe por su cuenta al responsable del fichero común en el mínimo tiempo posible, y en todo caso en una semana. Dicho plazo es independiente del establecido en el artículo 15.2 del Real Decreto 1332/1994, de 20 de junio, y que se aplica al fichero del acreedor.</p>
+        </version>
+      </bloque>
+      <bloque id="normasegunda" tipo="precepto" titulo="Norma segunda">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="articulo">Norma segunda. Notificación de la inclusión en el fichero.</p>
+          <p class="parrafo_2">1. La notificación de la inclusión de datos personales en el fichero efectuada con posterioridad a la entrada en vigor de la Ley Orgánica 5/1992 se efectuará en la forma establecida en el artículo 28 de la misma.</p>
+          <p class="parrafo">2. Cuando se trate de datos personales incorporados al fichero con anterioridad a la entrada en vigor de la Ley Orgánica deberán notificarse al afectado en el menor plazo posible y, en todo caso, dentro del año siguiente contado desde la publicación de la presente Instrucción.</p>
+          <p class="parrafo">3. La inscripción en el fichero de la obligación incumplida se efectuará, bien en un solo asiento si fuese de vencimiento único, bien en tantos asientos como vencimientos periódicos incumplidos existan señalando, en este caso, la fecha de cada uno de ellos.</p>
+          <p class="parrafo">4. Se efectuará una notificación por cada deuda concreta y determinada con independencia de que ésta se tenga con el mismo o con distintos acreedores.</p>
+          <p class="parrafo">5. El responsable del fichero deberá adoptar las medidas organizativas y técnicas necesarias que permitan acreditar la realización material del envío de notificación y la fecha de entrega o intento de entrega de la misma.</p>
+          <p class="parrafo">6. La notificación se dirigirá a la última dirección conocida del afectado a través de un medio fiable e independiente del responsable del fichero.</p>
+        </version>
+      </bloque>
+      <bloque id="normatercera" tipo="precepto" titulo="Norma tercera">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="articulo">Norma tercera. Cómputo del plazo de seis años que establece el artículo 28.3 de la Ley Orgánica.</p>
+          <p class="parrafo_2">El cómputo del plazo a que se refiere el artículo 28.3 de la Ley Orgánica se iniciará a partir del momento de la inclusión del dato personal desfavorable en el fichero y, en todo caso, desde el cuarto mes, contado a partir del vencimiento de la obligación incumplida o del plazo en concreto de la misma si fuera de cumplimiento periódico.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPITULO II">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="capitulo_num">CAPITULO II</p>
+          <p class="capitulo_tit">Medidas de seguridad</p>
+        </version>
+      </bloque>
+      <bloque id="normacuaa" tipo="precepto" titulo="Norma cuarta">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="articulo">Norma cuarta. Forma de comprobación.</p>
+          <p class="parrafo_2">1. Los sistemas que almacenen o procesen información relativa al cumplimiento o incumplimiento de obligaciones dinerarias deberán acreditar la efectiva implantación de las medidas de seguridad exigidas por el artículo 9.1 de la Ley Orgánica dentro del año siguiente a la publicación de la presente Instrucción. Para los ficheros que se inscriban con posterioridad a esta Instrucción, el plazo se computará a partir de la fecha en que aquélla se haya efectuado en el Registro General de Protección de Datos.</p>
+          <p class="parrafo">2. La implantación, idoneidad y eficacia de dichas medidas se acreditará mediante la realización de una auditoría, proporcionada a la naturaleza, volumen y características de los datos personales almacenados y tratados, y la remisión del informe final de la misma a la Agencia de Protección de Datos.</p>
+          <p class="parrafo">3. La auditoría podrá ser realizada:</p>
+          <p class="parrafo_2">a) Por el departamento de auditoría interna del responsable del fichero, si cuenta con un departamento formalmente constituido, profesionalmente cualificado e independiente del órgano responsable del tratamiento y gestión de los datos.</p>
+          <p class="parrafo">b) Por un auditor externo, profesionalmente cualificado e independiente del responsable del fichero.</p>
+          <p class="parrafo_2">4. La auditoría deberá ser realizada de acuerdo con las normas y recomendaciones de ejercicio profesional aplicables en el momento de su ejecución.</p>
+          <p class="parrafo">5. El informe de auditoría deberá dictaminar sobre la adecuación de las medidas y controles destinados a garantizar la integridad y confidencialidad de los datos personales almacenados o tratados, identificar sus deficiencias o insuficiencias y proponer las medidas correctoras o complementarias necesarias. Deberá, igualmente, incluir los datos, hechos y observaciones en que se basan los dictámenes alcanzados y recomendaciones propuestas.</p>
+          <p class="parrafo">6. Adicionalmente, los sistemas que almacenen o procesen información relativa al cumplimiento o incumplimiento de obligaciones dinerarias deberán someterse a una nueva auditoría tras la adopción de las medidas específicas que, en su caso, la Agencia determine, a resultas del informe inicial de auditoría. En todo caso, dichos sistemas deberán ser auditados periódicamente, a intervalos no mayores de dos años.</p>
+        </version>
+      </bloque>
+      <bloque id="normafinal" tipo="precepto" titulo="Norma final">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="articulo">Norma final. Entrada en vigor.</p>
+          <p class="parrafo_2">La presente Instrucción entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1995-5746" fecha_publicacion="19950304" fecha_vigencia="19950305">
+          <p class="parrafo_2">Madrid, 1 de marzo de 1995.–El Director, Juan José Martín-Casallo López.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

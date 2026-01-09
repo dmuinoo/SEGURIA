@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T190526Z</fecha_actualizacion>
+      <identificador>BOE-A-2001-15216</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4810">Ministerio de Justicia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20010803</fecha_disposicion>
+      <numero_oficial>936/2001</numero_oficial>
+      <titulo>Real Decreto 936/2001, de 3 de agosto, por el que se regula el ejercicio permanente en España de la profesión de abogado con título profesional obtenido en otro estado miembro de la Unión Europea.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20010804</fecha_publicacion>
+      <diario_numero>186</diario_numero>
+      <fecha_vigencia>20010805</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2001/08/03/936</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2001-15216</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="8">Abogados</materia>
+        <materia codigo="930">Colegios de Abogados</materia>
+        <materia codigo="4021">Homologación de títulos académicos</materia>
+        <materia codigo="6893">Títulos académicos y profesionales</materia>
+        <materia codigo="7001">Unión Europea</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>DOUE-L-1998-80461</id_norma>
+            <relacion codigo="426">TRANSPONE</relacion>
+            <texto>la Directiva 98/5/CE de 16 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1986-8118</id_norma>
+            <relacion codigo="331">EN RELACIÓN con</relacion>
+            <texto>el Real Decreto 607/1986, de 21 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-1661</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Acuerdo de 2 de mayo de 1992</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1991-28262</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1665/1991, de 25 de octubre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-2523</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 2, por Real Decreto 103/2014, de 21 de febrero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2008-18702</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 2, por Real Decreto 1837/2008, de 8 de noviembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2001-17314</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE núm. 220, de 13 de septiembre de 2001</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-15216</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">936</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/930"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4021"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6893"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-15216</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">936</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/930"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4021"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6893"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/corrigendum/20010913/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20140310"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20081120"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20010804"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 936/2001, de 3 de agosto, por el que se regula el ejercicio permanente en España de la profesión de abogado con título profesional obtenido en otro estado miembro de la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIAL DECRET 936/2001, de 3 d'agost, pel qual es regula l'exercici permanent a Espanya de la professió d'advocat amb títol professional obtingut en un altre Estat membre de la Unió Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-09-01</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/glg">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL DECRETO 936/2001, do 3 de agosto, polo que se regula o exercicio permanente en España da profesión de avogado con título profesional obtido noutro estado membro da Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-16</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/glg/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof/glg"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20140310">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-15216</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">936</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/930"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4021"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6893"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20140310/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 936/2001, de 3 de agosto, por el que se regula el ejercicio permanente en España de la profesión de abogado con título profesional obtenido en otro estado miembro de la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20140310"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20140310/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20140310/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20081120">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-15216</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">936</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/930"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4021"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6893"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20081120/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 936/2001, de 3 de agosto, por el que se regula el ejercicio permanente en España de la profesión de abogado con título profesional obtenido en otro estado miembro de la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20081120"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20081120/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20081120/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20010804">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-15216</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">936</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/8"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/930"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4021"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6893"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7001"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20010804/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 936/2001, de 3 de agosto, por el que se regula el ejercicio permanente en España de la profesión de abogado con título profesional obtenido en otro estado miembro de la Unión Europea.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20010804"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20010804/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2001/08/03/936/con/20010804/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="textoCompleto">Incluye la corrección de errores publicada en BOE núm. 220, de 13 de septiembre de 2001. <a class="refPost">Ref. BOE-A-2001-17314</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="parrafo">La Directiva 98/5/CE del Parlamento Europeo y del Consejo, de 16 de febrero, destinada a facilitar el ejercicio permanente de la profesión de abogado en un Estado miembro distinto de aquel en el que se haya obtenido el título, regula, de forma específica para los abogados, un nuevo sistema de libre establecimiento de profesionales en el ámbito de la Unión Europea, que persigue suprimir obstáculos a la libre circulación de personas y servicios entre los Estados miembros, por tratarse de uno de los objetivos básicos de la Comunidad en cuanto a la efectiva implantación de un mercado interior.</p>
+          <p class="parrafo">El aspecto más destacado de dicho sistema radica en que se permite el ejercicio profesional permanente en el Estado de acogida con la mera posesión del título profesional de abogado obtenido en cualquier otro Estado miembro, si bien con una serie de limitaciones en cuanto al ámbito de actividad que puede desarrollar el abogado. Estas limitaciones desaparecen, y se produce la plena equiparación al abogado del Estado miembro de acogida, cuando los profesionales que ejerzan con su título de origen justifiquen una actividad efectiva y regular de una duración mínima de tres años en el Estado miembro de acogida en el ámbito del Derecho de este Estado, incluido el Derecho comunitario; justificación que está sujeta a una serie de condiciones y modalidades.</p>
+          <p class="parrafo">Por otro lado, la Directiva objeto de transposición prevé su coexistencia tanto con la Directiva 77/249/CEE del Consejo, de 22 de marzo, dirigida a facilitar el ejercicio efectivo de la libre prestación de servicios por los abogados, como con la Directiva 89/48/CEE del Consejo, de 21 de diciembre de 1988, relativa a un sistema general de reconocimiento de los títulos de enseñanza superior que sancionan formaciones profesionales de una duración mínima de tres años, transpuesta a nuestro ordenamiento mediante el Real Decreto 1665/1991, de 25 de octubre, desarrollado para la profesión de abogado por Orden del Ministerio de la Presidencia de 30 de abril de 1996. Ello supone que los abogados que ejerzan con su título profesional de origen en un Estado miembro de acogida podrán, en cualquier momento, solicitar el reconocimiento de su título, con objeto de acceder a la profesión de abogado en el Estado miembro de acogida amparándose en el sistema establecido por esta normativa.</p>
+          <p class="parrafo">Por lo demás, en aplicación de lo dispuesto en el Acuerdo sobre el Espacio Económico Europeo, suscrito en Oporto el 2 de mayo de 1992, y ratificado por España el 26 de noviembre de 1993, resulta necesario extender el ámbito de aplicación de la norma a los distintos Estados signatarios del mismo.</p>
+          <p class="parrafo">En consecuencia, mediante este Real Decreto se aprueban las normas que permiten hacer efectivo en España lo previsto en la citada Directiva 98/5/CE, con inclusión de las necesarias disposiciones relativas a los abogados con título español que se acojan a la misma en otros países.</p>
+          <p class="parrafo">El presente Real Decreto se dicta al amparo de lo dispuesto en el artículo 149.1.30.ª de la Constitución Española, y ha sido informado por el Consejo General de la Abogacía Española y por el Consejo General del Poder Judicial.</p>
+          <p class="parrafo">En su virtud, a propuesta del Ministro de Justicia, con la aprobación previa del Ministro de Administraciones Públicas, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 3 de agosto de 2001,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el párrafo tercero conforme a la corrección de errores publicada en BOE núm. 220, de 13 de septiembre de 2001. <a class="refPost">Ref. BOE-A-2001-17314</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 1. Objeto y ámbito de aplicación.</p>
+          <p class="parrafo">1. El presente Real Decreto tiene por objeto regular el ejercicio permanente en España de la profesión de abogado cuando se ha obtenido el título en otro Estado miembro de la Unión Europea u otros Estados partes en el Acuerdo sobre el Espacio Económico Europeo, así como establecer las normas aplicables a los abogados con título español que se establezcan en dichos Estados para el ejercicio permanente de su profesión.</p>
+          <p class="parrafo">2. Las disposiciones de este Real Decreto serán de aplicación a los nacionales de un Estado miembro de la Unión Europea o parte del Acuerdo sobre el Espacio Económico Europeo que, estando en posesión del título profesional de abogado obtenido en cualquiera de dichos Estados, tal y como aparece definido en el artículo siguiente, pretendan ejercer de forma permanente sus actividades profesionales en España, por cuenta propia o ajena, en forma individual o en grupo. Igualmente serán de aplicación a los abogados con título español que se establezcan en dichos Estados para el ejercicio permanente de su profesión las previsiones contenidas en el capítulo IV del presente Real Decreto.</p>
+          <p class="parrafo">Lo dispuesto en el presente Real Decreto se entiende, en todo caso, sin perjuicio de la posibilidad de acceder al ejercicio de la profesión de abogado en España de acuerdo con lo previsto en la Orden del Ministerio de Justicia de 30 de abril de 1996.</p>
+          <p class="parrafo">El ejercicio ocasional en España de la profesión de abogado bajo el régimen de libre prestación de servicios se regirá por lo dispuesto en el Real Decreto 607/1986, de 21 de marzo, por el que se incorpora al ordenamiento interno la Directiva 77/249/CEE del Consejo, de 22 de marzo, dirigida a facilitar el ejercicio efectivo de la libre prestación de servicios por los abogados.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo">A los efectos de lo dispuesto en los capítulos I, II y III del presente Real Decreto, se entenderá por:</p>
+          <p class="parrafo_2">a) «Abogado»: toda persona, nacional de un Estado miembro de la Unión Europea o parte del Acuerdo sobre el Espacio Económico Europeo, habilitada para el ejercicio de su actividad profesional con uno de los títulos siguientes:</p>
+          <p class="parrafo_2">Bélgica: Avocat/Advocaat/Rechtsanwalt.</p>
+          <p class="parrafo">Dinamarca: Advokat.</p>
+          <p class="parrafo">Alemania: Rechtsanwalt.</p>
+          <p class="parrafo">Grecia: Dikigoros.</p>
+          <p class="parrafo">Francia: Avocat.</p>
+          <p class="parrafo">Irlanda: Barrister/Solicitor.</p>
+          <p class="parrafo">Italia: Avvocato.</p>
+          <p class="parrafo">Luxemburgo: Avocat.</p>
+          <p class="parrafo">Países Bajos: Advocaat.</p>
+          <p class="parrafo">Austria: Rechtsanwalt.</p>
+          <p class="parrafo">Portugal: Advogado.</p>
+          <p class="parrafo">Finlandia: Asianajaja/Advokat.</p>
+          <p class="parrafo">Suecia: Advokat.</p>
+          <p class="parrafo">Reino Unido: Advocate/Barrister/Solicitor.</p>
+          <p class="parrafo">Islandia: Lögmaour.</p>
+          <p class="parrafo">Liechtenstein: Rechtsanwalt.</p>
+          <p class="parrafo">Noruega: Advokat.</p>
+          <p class="parrafo_2">b) «Estado miembro de origen»: el Estado miembro en el que el abogado haya adquirido el derecho de utilizar uno de los títulos profesionales a que se refiere el párrafo a) antes de ejercer la abogacía en otro Estado miembro;</p>
+          <p class="parrafo">c) «título profesional de origen»: el título profesional del Estado miembro en el que el abogado haya adquirido el derecho de utilizar dicho título antes de ejercer la abogacía en España;</p>
+          <p class="parrafo">d) «grupo»: cualquier entidad, con o sin personalidad jurídica, constituida de conformidad con la legislación de un Estado miembro, en la que varios abogados ejercen conjuntamente su actividad profesional, bajo una denominación común;</p>
+          <p class="parrafo">e) «abogado inscrito»: toda persona que, reuniendo la condición de abogado tal y como aparece definida en el párrafo a), haya sido inscrito en un Colegio de Abogados para ejercer la profesión en España de forma permanente con su título profesional de origen.</p>
+        </version>
+        <version id_norma="BOE-A-2008-18702" fecha_publicacion="20081120" fecha_vigencia="20081121">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo">A los efectos de lo dispuesto en los capítulos I, II y III del presente Real Decreto, se entenderá por:</p>
+          <p class="parrafo">a) "Abogado": toda persona, nacional de un Estado miembro de la Unión Europea o parte del Acuerdo sobre el Espacio Económico Europeo, habilitada para el ejercicio de su actividad profesional con uno de los títulos siguientes:</p>
+          <p class="parrafo">Alemania: Rechtsanwalt.</p>
+          <p class="parrafo">Austria: Rechtsanwalt.</p>
+          <p class="parrafo">Bélgica: Avocat / Advocaat / Rechtsanwalt.</p>
+          <p class="parrafo">Bulgaria: Адвокат.</p>
+          <p class="parrafo">Chipre: Δικιγορς.</p>
+          <p class="parrafo">Dinamarca: Advokat.</p>
+          <p class="parrafo">Eslovaquia: Advokát / Komerc˘ny' právnik.</p>
+          <p class="parrafo">Eslovenia: Odvetnik / Odvetnica.</p>
+          <p class="parrafo">Estonia: Vandeadvokaat.</p>
+          <p class="parrafo">Finlandia: Asianajaja / Advokat.</p>
+          <p class="parrafo">Francia: Avocat.</p>
+          <p class="parrafo">Grecia: Δικιγορς.</p>
+          <p class="parrafo">Hungría: Ügyvéd.</p>
+          <p class="parrafo">Irlanda: Barrister / Solicitor.</p>
+          <p class="parrafo">Islandia: Lögmaour.</p>
+          <p class="parrafo">Italia: Avvocato.</p>
+          <p class="parrafo">Letonia: Zve-rina-ts advoka-ts.</p>
+          <p class="parrafo">Liechtenstein: Rechtsanwalt.</p>
+          <p class="parrafo">Lituania: Advokatas.</p>
+          <p class="parrafo">Luxemburgo: Avocat.</p>
+          <p class="parrafo">Malta: Avukat / Prokuratur Legali.</p>
+          <p class="parrafo">Noruega: Advokat.</p>
+          <p class="parrafo">Países Bajos: Advocaat.</p>
+          <p class="parrafo">Polonia: Adwokat / Radca prawny.</p>
+          <p class="parrafo">Portugal: Advogado.</p>
+          <p class="parrafo">Reino Unido: Advocate / Barrister / Solicitor.</p>
+          <p class="parrafo">República Checa: Advokát.</p>
+          <p class="parrafo">Rumania: Avocat.</p>
+          <p class="parrafo">Suecia: Advokat.</p>
+          <p class="parrafo_2">b) «Estado miembro de origen»: el Estado miembro en el que el abogado haya adquirido el derecho de utilizar uno de los títulos profesionales a que se refiere el párrafo a) antes de ejercer la abogacía en otro Estado miembro;</p>
+          <p class="parrafo">c) «título profesional de origen»: el título profesional del Estado miembro en el que el abogado haya adquirido el derecho de utilizar dicho título antes de ejercer la abogacía en España;</p>
+          <p class="parrafo">d) «grupo»: cualquier entidad, con o sin personalidad jurídica, constituida de conformidad con la legislación de un Estado miembro, en la que varios abogados ejercen conjuntamente su actividad profesional, bajo una denominación común;</p>
+          <p class="parrafo">e) «abogado inscrito»: toda persona que, reuniendo la condición de abogado tal y como aparece definida en el párrafo a), haya sido inscrito en un Colegio de Abogados para ejercer la profesión en España de forma permanente con su título profesional de origen.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra a) por la disposición final 2 del Real Decreto 1837/2008, de 8 de noviembre. <a class="refPost">Ref. BOE-A-2008-18702</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2014-2523" fecha_publicacion="20140310" fecha_vigencia="20140311">
+          <p class="articulo">Artículo 2. Definiciones.</p>
+          <p class="parrafo">A los efectos de lo dispuesto en los capítulos I, II y III del presente Real Decreto, se entenderá por:</p>
+          <p class="parrafo">a) "Abogado": toda persona, nacional de un Estado miembro de la Unión Europea o parte del Acuerdo sobre el Espacio Económico Europeo, habilitada para el ejercicio de su actividad profesional con uno de los títulos siguientes:</p>
+          <p class="parrafo_2">Alemania: Rechtsanwalt.</p>
+          <p class="parrafo">Austria: Rechtsanwalt.</p>
+          <p class="parrafo">Bélgica: Avocat / Advocaat / Rechtsanwalt.</p>
+          <p class="parrafo">Bulgaria: Адвокат.</p>
+          <p class="parrafo">Chipre: Δικιγορς.</p>
+          <p class="parrafo">Croacia: Odvjetnik/Odvjetnica</p>
+          <p class="parrafo">Dinamarca: Advokat.</p>
+          <p class="parrafo">Eslovaquia: Advokát / Komercˇny' právnik.</p>
+          <p class="parrafo">Eslovenia: Odvetnik / Odvetnica.</p>
+          <p class="parrafo">Estonia: Vandeadvokaat.</p>
+          <p class="parrafo">Finlandia: Asianajaja / Advokat.</p>
+          <p class="parrafo">Francia: Avocat.</p>
+          <p class="parrafo">Grecia: Δικιγορς.</p>
+          <p class="parrafo">Hungría: Ügyvéd.</p>
+          <p class="parrafo">Irlanda: Barrister / Solicitor.</p>
+          <p class="parrafo">Islandia: Lögmaour.</p>
+          <p class="parrafo">Italia: Avvocato.</p>
+          <p class="parrafo">Letonia: Zveˇrina´ts advoka-ts.</p>
+          <p class="parrafo">Liechtenstein: Rechtsanwalt.</p>
+          <p class="parrafo">Lituania: Advokatas.</p>
+          <p class="parrafo">Luxemburgo: Avocat.</p>
+          <p class="parrafo">Malta: Avukat / Prokuratur Legali.</p>
+          <p class="parrafo">Noruega: Advokat.</p>
+          <p class="parrafo">Países Bajos: Advocaat.</p>
+          <p class="parrafo">Polonia: Adwokat / Radca prawny.</p>
+          <p class="parrafo">Portugal: Advogado.</p>
+          <p class="parrafo">Reino Unido: Advocate / Barrister / Solicitor.</p>
+          <p class="parrafo">República Checa: Advokát.</p>
+          <p class="parrafo">Rumania: Avocat.</p>
+          <p class="parrafo">Suecia: Advokat.</p>
+          <p class="parrafo_2">b) «Estado miembro de origen»: el Estado miembro en el que el abogado haya adquirido el derecho de utilizar uno de los títulos profesionales a que se refiere el párrafo a) antes de ejercer la abogacía en otro Estado miembro;</p>
+          <p class="parrafo">c) «título profesional de origen»: el título profesional del Estado miembro en el que el abogado haya adquirido el derecho de utilizar dicho título antes de ejercer la abogacía en España;</p>
+          <p class="parrafo">d) «grupo»: cualquier entidad, con o sin personalidad jurídica, constituida de conformidad con la legislación de un Estado miembro, en la que varios abogados ejercen conjuntamente su actividad profesional, bajo una denominación común;</p>
+          <p class="parrafo">e) «abogado inscrito»: toda persona que, reuniendo la condición de abogado tal y como aparece definida en el párrafo a), haya sido inscrito en un Colegio de Abogados para ejercer la profesión en España de forma permanente con su título profesional de origen.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra a) por el art. 2 del Real Decreto 103/2014, de 21 de febrero. <a class="refPost">Ref. BOE-A-2014-2523</a>.</p>
+            <p class="nota_pie">Se modifica la letra a) por la disposición final 2 del Real Decreto 1837/2008, de 8 de noviembre. <a class="refPost">Ref. BOE-A-2008-18702</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Ejercicio en España con el título profesional de origen</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 3. Derecho a ejercer con el título profesional de origen.</p>
+          <p class="parrafo">Los abogados de otros Estados miembros tendrán derecho a ejercer su actividad profesional en España, de forma permanente y con su título profesional de origen, de acuerdo con las normas y disposiciones recogidas en los artículos siguientes.</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="seccion">Sección 1.ª Inscripción en un Colegio de Abogados</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 4. Obligación de inscripción en un Colegio de Abogados.</p>
+          <p class="parrafo">Los abogados de otros Estados miembros que pretendan ejercer en España al amparo de lo dispuesto en este Real Decreto deberán inscribirse previamente ante la autoridad competente, que será el Colegio de Abogados correspondiente al domicilio profesional único o principal en el territorio español.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 5. Formalidades de la inscripción.</p>
+          <p class="parrafo">1. La inscripción de estos abogados se efectuará mediante la cumplimentación de una solicitud, que deberá estar a disposición de los interesados en todos los Colegios de Abogados de España y que habrá de contener como mínimo los siguientes datos:</p>
+          <p class="parrafo_2">a) Nombre y apellidos del solicitante.</p>
+          <p class="parrafo">b) Nacionalidad.</p>
+          <p class="parrafo">c) País de obtención del título profesional de abogado.</p>
+          <p class="parrafo">d) Autoridad competente del Estado de origen.</p>
+          <p class="parrafo">e) Domicilio profesional.</p>
+          <p class="parrafo">f) En el caso de pertenecer a un grupo en el Estado de origen, denominación y forma jurídica del mismo.</p>
+          <p class="parrafo_2">2. La solicitud de inscripción habrá de presentarse acompañada de la siguiente documentación:</p>
+          <p class="parrafo_2">a) Pasaporte, documento de identidad u otro documento acreditativo de poseer el interesado nacionalidad de un Estado miembro de la Unión Europea o del Espacio Económico Europeo.</p>
+          <p class="parrafo">b) Certificación de inscripción ante la autoridad competente del Estado miembro de origen, acreditativa de ser el interesado un profesional en el sentido recogido en el artículo 2 de este Real Decreto y expedida dentro de los tres meses anteriores a la fecha de su presentación, con inclusión de la correspondiente información disciplinaria.</p>
+          <p class="parrafo">c) Aquellos otros documentos que determine cada Colegio de Abogados, sin que puedan exigirse más de los requeridos con carácter general a los solicitantes con título español en el momento de la colegiación.</p>
+          <p class="parrafo_2">3. Todos los documentos que se aporten en fotocopia habrán de figurar debidamente autentificados, y aquellos que vengan redactados en el idioma de otros Estados miembros habrán de ir acompañados de su correspondiente traducción oficial al castellano.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 6. Cuotas de inscripción.</p>
+          <p class="parrafo">Los Colegios de Abogados podrán exigir a los interesados el abono de cuotas de inscripción siempre que se cumplan los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que no resulten superiores a los exigidos con carácter general a los solicitantes con título español en el momento de la colegiación.</p>
+          <p class="parrafo">b) Que resulten adecuados al mantenimiento de las cargas colegiales en proporción a los servicios de los cuales puedan beneficiarse estos abogados.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 7. Procedimiento para la inscripción.</p>
+          <p class="parrafo">1. Una vez presentada la solicitud, acompañada de la documentación mencionada en el apartado 2 del artículo 5, la Junta de Gobierno de dicho Colegio habrá de resolver motivadamente sobre la inscripción en el plazo máximo de dos meses, transcurrido el cual se considerará admitida.</p>
+          <p class="parrafo">2. Será aplicable a este procedimiento el régimen de recursos y revisión de actos establecido en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 8. Registro de abogados inscritos, información y publicidad.</p>
+          <p class="parrafo">1. Los Colegios de Abogados deberán llevar un Registro independiente de los profesionales que se inscriban al amparo de lo dispuesto en este Real Decreto, en donde se recogerá toda la información aportada en el momento de la inscripción.</p>
+          <p class="parrafo">2. En el plazo máximo de quince días contados a partir de la inscripción, el Colegio habrá de comunicar la misma al Consejo General de la Abogacía Española, con especificación de la autoridad competente del Estado miembro de origen del interesado, al objeto de que el Consejo General, en los quince días siguientes, informe de ello a dicha autoridad, así como al Ministerio de Justicia.</p>
+          <p class="parrafo">3. Cuando los Colegios de Abogados publiquen, o comuniquen a quien proceda, los nombres de sus colegiados, habrán de publicar y comunicar también los nombres de los abogados inscritos en virtud de este Real Decreto, con especial mención de tal circunstancia, así como del país de obtención del título profesional bajo el cual ejercen sus actividades en España.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="seccion">Sección 2.ª Estatuto del «Abogado inscrito»</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 9. Principio general de asimilación con el abogado local.</p>
+          <p class="parrafo">1. Sin perjuicio de la normativa profesional y deontológica a la que estén sujetos en su Estado miembro de origen, una vez producida la inscripción en un Colegio de Abogados español, conforme a lo dispuesto en los artículos anteriores, a los abogados procedentes de países de la Unión Europea o del Espacio Económico Europeo que ejerzan en España con su título profesional de origen les serán de aplicación, con carácter general, y en relación a todas las actividades que ejerzan en territorio español, las mismas reglas profesionales y deontológicas que rijan para los abogados ejercientes con título español.</p>
+          <p class="parrafo">En especial, quedarán sujetos a los mismos derechos, deberes, obligaciones, prohibiciones e incompatibilidades establecidos en el Estatuto General de la Abogacía Española, no admitiéndose más excepciones y diferencias que las recogidas en este Real Decreto.</p>
+          <p class="parrafo">2. La retirada, temporal o definitiva, de la autorización para ejercer la profesión en el Estado de origen, acordada por la autoridad competente de dicho Estado, conllevará para el «abogado inscrito» la prohibición, temporal o definitiva, de ejercer en España con el título profesional de origen.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 10. Obligación de ejercer con expresa mención del título profesional de origen.</p>
+          <p class="parrafo">1. Los abogados que ejerzan en España con su título profesional de origen estarán obligados a hacerlo con mención expresa de tal circunstancia, debiendo utilizarse en cualquier caso la denominación que corresponda de entre las recogidas en el párrafo a) del artículo 2, quedando prohibida la utilización de la denominación «abogado» expresada en cualquiera de las lenguas oficiales de España.</p>
+          <p class="parrafo">2. Cuando así lo considere el «abogado inscrito», y en cualquier caso cuando la denominación del título profesional sea coincidente en más de un Estado miembro, se añadirá al mismo una mención expresa del país de origen.</p>
+          <p class="parrafo">3. Asimismo, cuando la regulación de la profesión en el país de origen implique limitaciones o especialidades en cuanto al ámbito de actividad del «abogado inscrito», deberá éste añadir también una mención de la organización profesional a la que pertenezca en dicho país y , en su caso, del órgano u órganos jurisdiccionales ante los que esté habilitado para ejercer.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 11. Ámbito de actividad.</p>
+          <p class="parrafo">1. Los abogados que ejerzan en España con su título profesional de origen desempeñarán las mismas actividades profesionales que los abogados que ejerzan con título español y, en particular, podrán prestar asesoramiento jurídico en materia de Derecho de su Estado miembro de origen, en Derecho Comunitario, Derecho Internacional y Derecho español.</p>
+          <p class="parrafo">2. Por lo que respecta a las actividades de defensa del cliente, cuando en aplicación de la legislación española sea preceptiva la intervención de abogado para las actuaciones ante Juzgados y Tribunales o ante organismos públicos con funciones jurisdiccionales, así como para la asistencia, comunicación y visitas con detenidos y presos, el «abogado inscrito» deberá actuar concertadamente con un abogado colegiado en un Colegio español.</p>
+          <p class="parrafo">También será necesaria esta concertación cuando, aun no siendo preceptiva la intervención de abogado, la Ley exija que si el interesado no interviene por sí mismo ante el órgano judicial, no pueda hacerlo otra persona que no sea abogado.</p>
+          <p class="parrafo">En cualquier caso se respetarán las correspondientes normas internas de procedimiento, y el abogado con quien se actúe concertadamente responderá ante los órganos jurisdiccionales y organismos públicos.</p>
+          <p class="parrafo">3. Los «abogados inscritos» no podrán incorporarse a las listas del turno de oficio de los Colegios, ni ejercer actividades que en España se encuentren reservadas a otras profesiones a pesar de estar autorizados a realizarlas en su país de origen.</p>
+          <p class="parrafo">4. Los «abogados inscritos» podrán ejercer en España tanto por cuenta propia, como en calidad de abogado por cuenta de otras personas físicas o jurídicas, en la medida en que así lo permita la normativa aplicable a los abogados ejercientes con título español.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 12. Derecho de voto.</p>
+          <p class="parrafo">Los Colegios de Abogados garantizarán a los «abogados inscritos» el derecho de voto en las elecciones a Junta de Gobierno en idénticas condiciones que las establecidas para el resto de colegiados.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 13. Seguro de responsabilidad profesional.</p>
+          <p class="parrafo">El abogado inscrito bajo el título profesional de origen quedará sometido a las disposiciones que regulan el seguro de responsabilidad profesional de los abogados con título profesional español, salvo que justifique que está cubierto por un seguro o una garantía suscrito con arreglo a las normas del Estado miembro de origen, en la medida en que exista equivalencia en cuanto a la modalidad y a la cobertura. Si la equivalencia fuera sólo parcial, se estará en lo que falte a las disposiciones aplicables a los abogados con título profesional español.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 14. Responsabilidad disciplinaria.</p>
+          <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 9, cuando un «abogado inscrito» incumpla las obligaciones profesionales o normas deontológicas vigentes en España, le serán de aplicación las normas de procedimiento, las sanciones y los recursos establecidos con carácter general para cualquier colegiado, sin más especificaciones que las siguientes:</p>
+          <p class="parrafo_2">a) Previamente a la incoación de un procedimiento disciplinario, el Colegio de Abogados correspondiente habrá de informar, por el medio más rápido posible, a la autoridad competente del Estado de origen del «abogado inscrito», proporcionándole toda la información pertinente.</p>
+          <p class="parrafo">b) Sin perjuicio del poder de decisión que corresponde al Colegio, éste cooperará a lo largo de la tramitación del procedimiento con la autoridad competente del Estado miembro de origen, asegurando como mínimo que dicha autoridad pueda formular alegaciones en las distintas fases e instancias de la tramitación, así como en los posibles recursos.</p>
+          <p class="parrafo">c) En el supuesto de que, durante la tramitación del procedimiento disciplinario, la autoridad competente del Estado miembro de origen comunique al Colegio de Abogados que ha decidido retirar al abogado, temporal o definitivamente, la autorización para el ejercicio profesional, dicho Colegio procederá a prohibirle igualmente, con carácter temporal o definitivo, el ejercicio en España bajo el título profesional de origen, sin perjuicio de la resolución que finalmente se dicte en el procedimiento disciplinario.</p>
+          <p class="parrafo">d) La resolución final del procedimiento disciplinario, que habrá de estar debidamente motivada, será notificada inmediatamente por el Colegio a la autoridad competente del Estado de origen del abogado afectado, y la misma será susceptible de los recursos colegiales y jurisdiccionales establecidos con carácter general en la normativa aplicable a los abogados ejercientes con título español.</p>
+          <p class="parrafo_2">2. Al objeto de centralizar la información, y para garantizar en todo caso que la imposición de una sanción disciplinaria sea conocida por el resto de Colegios, la cooperación entre el Colegio afectado y la autoridad competente del Estado de origen, así como los distintos envíos recíprocos de información mencionados en el apartado anterior, se efectuarán con la intermediación del Consejo General de la Abogacía Española.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="seccion">Sección 3.ª Normas aplicables a los «abogados inscritos» en relación con el ejercicio en grupo de la profesión</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 15. Ejercicio de la profesión en grupo.</p>
+          <p class="parrafo">1. Los abogados que ejerzan en España con su título profesional de origen, y se encuentren inscritos en un Colegio de Abogados de acuerdo con las disposiciones recogidas en este Real Decreto, podrán ejercer en grupo con sujeción en todo caso a las mismas normas, modalidades, prohibiciones y limitaciones establecidas para los abogados con título español, y les serán de aplicación en especial las siguientes normas:</p>
+          <p class="parrafo_2">a) Uno o más «abogados inscritos» que sean miembros de un grupo en el Estado de origen podrán desempeñar sus actividades profesionales en una sucursal o agencia de su grupo en España. No obstante, cuando las normas fundamentales por las que se rija dicho grupo en el Estado de origen sean incompatibles con la normativa española sobre ejercicio en grupo de la profesión de abogado, se aplicará esta última.</p>
+          <p class="parrafo">b) Dos o más «abogados inscritos» que procedan de un mismo grupo o de un mismo Estado de origen podrán asociarse y ejercer en grupo en España, con sujeción en todo caso a las limitaciones y modalidades establecidas al respecto en la normativa aplicable a los abogados ejercientes con título español.</p>
+          <p class="parrafo">c) Con sujeción igualmente a la normativa mencionada en el párrafo anterior, podrán ejercer en grupo en España varios «abogados inscritos» procedentes de distintos Estados de origen, así como uno o más «abogados inscritos» procedentes de distintos Estados de origen y uno o más abogados ejercientes con título español.</p>
+          <p class="parrafo">d) Los «abogados inscritos» no podrán ejercer en España en calidad de miembros de su grupo, cuando el mismo incluya a personas ajenas a la profesión con quienes los abogados ejercientes con título español tengan prohibido ejercer en grupo. A estos efectos, se considerará que el grupo incluye a personas ajenas a la profesión cuando quienes no tengan la condición de abogado tal y como aparece definida en el párrafo a) del artículo 2 de este Real Decreto, estén en posesión, total o parcialmente, del capital del grupo, utilicen la denominación con la que ejerce el mismo, o ejerzan el poder de decisión en el grupo de hecho o de derecho.</p>
+          <p class="parrafo">Cuando las normas fundamentales que regulen en el Estado de origen este tipo de grupos con personas ajenas a la profesión resulten incompatibles con la normativa aplicable a los abogados ejercientes con título español, tampoco podrán los «abogados inscritos» abrir en España sucursales o agencias de tal grupo.</p>
+          <p class="parrafo_2">2. Los Colegios de Abogados, en el ámbito de sus competencias, velarán por el cumplimiento de estas normas. Para ello, cuando resulte necesario, solicitarán de la autoridad competente del Estado de origen información sobre la regulación interna del ejercicio en grupo de la profesión.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 16. Mención de la pertenencia a un grupo.</p>
+          <p class="parrafo">Independientemente de la forma en la cual los «abogados inscritos» ejerzan su profesión en España, y sin perjuicio de las normas recogidas en el artículo anterior, si en el Estado de origen forman parte de un grupo, podrán mencionar la denominación del mismo en el desarrollo de su actividad profesional en España, en cuyo caso deberán indicar además la forma jurídica de éste y, en su caso, los nombres de los miembros del mismo que ejerzan en España.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Integración en la profesión</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 17. Derecho a la integración en la Abogacía española.</p>
+          <p class="parrafo">1. Los abogados que ejercen en España con su título profesional de origen, y que hayan formalizado su inscripción en un Colegio conforme a lo dispuesto en la sección 1.ª del capítulo II de este Real Decreto, podrán solicitar y obtener la integración en la profesión, sin necesidad de tramitar el procedimiento de reconocimiento de su título profesional regulado en la Orden del Ministerio de la Presidencia de 30 de abril de 1996, por la que se desarrolla el Real Decreto 1665/1991, de 25 de octubre, en lo que afecta a las profesiones de abogado y procurador, siempre y cuando acrediten una actividad efectiva y regular en España de una duración mínima de tres años, conforme al procedimiento y modalidades establecidas en los artículos siguientes.</p>
+          <p class="parrafo">2. A efectos de lo dispuesto en este Real Decreto, por «actividad efectiva y regular» se entenderá el ejercicio efectivo de la actividad profesional propia de la Abogacía, sin otra interrupción que la que resulte de acontecimientos de la vida corriente.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 1 conforme a la corrección de errores publicada en BOE núm. 220, de 13 de septiembre de 2001. <a class="refPost">Ref. BOE-A-2001-17314</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 18. Procedimiento para la colegiación.</p>
+          <p class="parrafo">1. En cualquier momento posterior al transcurso de tres años contados a partir de la formalización de la inscripción en un Colegio de Abogados español, los abogados que estén ejerciendo en España con su título profesional de origen podrán solicitar la incorporación a dicho Colegio, presentando para ello la correspondiente solicitud, acompañada de cuantos documentos e informaciones se consideren pertinentes, relativos en particular al número y naturaleza de los asuntos que haya tratado.</p>
+          <p class="parrafo">2. Recibida la solicitud de colegiación, el Colegio procederá a analizar y valorar toda la información y documentación que el solicitante haya presentado.</p>
+          <p class="parrafo">3. En el caso de considerarlo necesario, podrá instar al abogado a que aporte, oralmente o por escrito, aclaraciones o precisiones adicionales relativas a las informaciones y documentación mencionadas.</p>
+          <p class="parrafo">4. Con carácter previo a la adopción de la resolución que corresponda, el Colegio solicitará informe del Consejo General de la Abogacía Española.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 19. Resolución del procedimiento.</p>
+          <p class="parrafo">1. Una vez cumplimentados los trámites anteriores, y en el plazo de tres meses desde la solicitud de colegiación, el Colegio de Abogados adoptará la correspondiente resolución, que contendrá alguno de los siguientes pronunciamientos:</p>
+          <p class="parrafo_2">a) Denegación de la colegiación, por considerar no acreditado un ejercicio efectivo y regular en España durante al menos tres años en los términos del artículo 17 de este Real Decreto, o por considerar que concurren motivos de orden público relacionados con procedimientos disciplinarios, quejas o incidentes de cualquier tipo.</p>
+          <p class="parrafo">b) Integración del solicitante en la Abogacía española, sin necesidad de tramitar el procedimiento de reconocimiento del título profesional regulado en la Orden del Ministerio de la Presidencia de 30 de abril de 1996, por considerar que ha quedado acreditada una actividad efectiva y regular en España, de una duración mínima de tres años, en el ámbito del Derecho español, incluido el Derecho comunitario.</p>
+          <p class="parrafo">c) Exigencia de que el solicitante se someta a una entrevista en el Colegio, por considerar que ha quedado acreditada una actividad efectiva y regular en España, de una duración mínima de tres años, pero de menor duración en materias relativas al Derecho español.</p>
+          <p class="parrafo_2">En este supuesto, tras la celebración de la entrevista, cuya finalidad será verificar el carácter efectivo y regular de la actividad ejercida, y tras tomar en consideración toda la información y documentación aportada en relación con los asuntos tratados por el solicitante y en relación con sus conocimientos y experiencia profesional en Derecho español, así como en cuanto a su participación en cursos o seminarios relativos a dicho Derecho, incluidas las normas reguladoras de la profesión y las normas deontológicas, el Colegio decidirá finalmente, bien autorizando la integración en la profesión sin necesidad de tramitar el procedimiento de reconocimiento del título profesional, bien denegando dicha integración, con los efectos que en cada caso procedan.</p>
+          <p class="parrafo">2. En cualquier caso, la decisión que adopte el Colegio habrá de estar debidamente motivada y será susceptible de los recursos colegiales y jurisdiccionales establecidos con carácter general para los procedimientos de colegiación tramitados por solicitantes con título español.</p>
+          <blockquote>
+            <p class="nota_pie">Redactado el apartado 1.b) conforme a la corrección de errores publicada en BOE núm. 220, de 13 de septiembre de 2001. <a class="refPost">Ref. BOE-A-2001-17314</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 20. Efectos de la resolución.</p>
+          <p class="parrafo">1. En el supuesto de que el Colegio de Abogados dicte resolución denegatoria de la integración en la profesión, el interesado podrá seguir ejerciendo en España bajo su condición de «abogado inscrito», y le seguirán siendo de aplicación las especialidades y limitaciones establecidas en las secciones 2.ª y 3.ª del capítulo II de este Real Decreto.</p>
+          <p class="parrafo">Asimismo, podrá hacer uso en cualquier momento del derecho que asiste a todas las personas que posean el título de abogado en cualquier Estado de la Unión Europea o parte en el Acuerdo sobre el Espacio Económico Europeo, tengan o no la condición de «abogado inscrito», de solicitar el reconocimiento en España de ese título profesional al amparo de lo dispuesto en la Orden del Ministerio de la Presidencia de 30 de abril de 1996.</p>
+          <p class="parrafo">2. En el caso de que el Colegio de Abogados dicte resolución autorizando la integración en la profesión sin necesidad de tramitar el procedimiento regulado en la Orden del Ministerio de la Presidencia de 30 de abril de 1996, el interesado habrá de cumplimentar los oportunos trámites de colegiación para poder hacer efectiva la mencionada integración.</p>
+          <p class="parrafo">A estos efectos, cada Colegio establecerá los requisitos formales que hayan de cumplimentarse, incluyendo en su caso el abono de cuotas de colegiación, siempre y cuando no hubieran sido ya exigidas en su totalidad en la inscripción, de acuerdo con lo dispuesto en los artículos 5 y 6 de este Real Decreto.</p>
+          <p class="parrafo">Formalizada la colegiación, el interesado tendrá la condición de «abogado» a todos los efectos, siéndole de aplicación sin especialidad ni limitación alguna las normas reguladoras de la profesión en España, y tendrá derecho a utilizar el título profesional de «abogado», añadiendo si lo desea mención del título profesional de origen.</p>
+          <blockquote>
+            <p class="nota_pie">Redactados los apartados 1 y 2 conforme a la corrección de errores publicada en BOE núm. 220, de 13 de septiembre de 2001. <a class="refPost">Ref. BOE-A-2001-17314</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 21. Comunicación de la resolución adoptada y de las colegiaciones.</p>
+          <p class="parrafo">1. Una vez adoptada por el Colegio la resolución que corresponda de acuerdo con lo dispuesto en el artículo 19, se dará traslado de la misma, en un plazo máximo de quince días, a la autoridad competente del Estado de origen del interesado, al Consejo General de la Abogacía Española y al Ministerio de Justicia.</p>
+          <p class="parrafo">2. Asimismo, en el plazo de quince días desde su formalización, se comunicarán a los mismos organismos mencionados en el apartado anterior las colegiaciones que se produzcan en virtud de lo dispuesto en el apartado 2 del artículo 20.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 22. Confidencialidad de la información.</p>
+          <p class="parrafo">1. Todas las autoridades y organismos participantes en el procedimiento regulado en este Real Decreto garantizarán la confidencialidad de las informaciones obtenidas.</p>
+          <p class="parrafo">2. Los interesados podrán, en cualquier momento, solicitar la devolución de los documentos que hayan presentado en los Colegios de Abogados.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Normas aplicables a los abogados que ejerzan permanentemente con título español en otros Estados miembros</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 23. Autoridad competente para certificar la condición de abogado.</p>
+          <p class="parrafo">La autoridad competente para certificar ante las autoridades de otros Estados miembros la condición de abogado en España, tal y como aparece definida en el párrafo a) del apartado 2 del artículo 1 de la Directiva 98/5/CE, será el Colegio de Abogados en cuyo ámbito territorial tenga el interesado el domicilio profesional único o principal.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Artículo 24. Información relativa a los abogados con título español que se inscriban en otros Estados miembros.</p>
+          <p class="parrafo">1. Cuando un abogado con título español se inscriba ante la autoridad competente de otro Estado miembro para ejercer en el mismo de forma permanente con tal título, será el Colegio de Abogados español en cuyo ámbito territorial tenga su domicilio profesional único o principal el competente para recibir la comunicación que al respecto debe cursar la autoridad competente de dicho Estado miembro.</p>
+          <p class="parrafo">2. Los Colegios de Abogados españoles mantendrán actualizada una lista con los abogados a los que se refiere el apartado anterior, al objeto de dar cumplimiento a las obligaciones de información y colaboración establecidas en la Directiva 98/5/CE, y en particular a la obligación de comunicar a la autoridad competente del Estado miembro en que se hayan inscrito la incoación, en su caso, de procedimientos disciplinarios, garantizando en todo caso la confidencialidad de la información que se intercambie.</p>
+          <p class="parrafo">3. La lista de abogados a la que se refiere el apartado anterior, así como los cambios que en la misma se produzcan, será comunicada por los Colegios al Consejo General de la Abogacía Española y al Ministerio de Justicia.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Disposición adicional única. Consejos de Colegios de Comunidad Autónoma.</p>
+          <p class="parrafo">En aquellas Comunidades Autónomas en donde estuvieren constituidos Consejos de Colegios de Abogados de Comunidad Autónoma, las comunicaciones reguladas en el presente Real Decreto entre el Consejo General de la Abogacía Española y los Colegios de Abogados que radiquen en su ámbito territorial se realizarán a través del correspondiente Consejo de ámbito autonómico.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="articulo">Disposición final única. Entrada en vigor.</p>
+          <p class="parrafo">El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-2001-15216" fecha_publicacion="20010804" fecha_vigencia="20010805">
+          <p class="parrafo_2">Dado en Palma de Mallorca a 3 de agosto de 2001.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Ministro de Justicia,</p>
+          <p class="firma_ministro">ÁNGEL ACEBES PANIAGUA</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

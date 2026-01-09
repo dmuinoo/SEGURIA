@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T123643Z</fecha_actualizacion>
+      <identificador>BOE-A-2010-4055</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="4110">Ministerio de Cultura</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20100219</fecha_disposicion>
+      <numero_oficial>172/2010</numero_oficial>
+      <titulo>Real Decreto 172/2010, de 19 de febrero, por el que se regula el Patronato del Museo Nacional y Centro de Investigación de Altamira.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20100311</fecha_publicacion>
+      <diario_numero>61</diario_numero>
+      <fecha_vigencia>20100312</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2010/02/19/172</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2010-4055</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="603">Cantabria</materia>
+        <materia codigo="2570">Dirección General de Bellas Artes y Bienes Culturales</materia>
+        <materia codigo="5079">Museos</materia>
+        <materia codigo="5278">Organización de la Administración del Estado</materia>
+        <materia codigo="5521">Patronatos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1985-9687</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Orden de 17 de mayo de 1985</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1987-11621</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 4 del Real Decreto 620/1987, de 10 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12534</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 61 de la Ley 16/1985, de 25 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2025-10489</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 1, 4, 8 y 9, por Real Decreto 403/2025, de 27 de mayo</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4055</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-19</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2570"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5521"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4055</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2570"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5521"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20250528"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20100311"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 172/2010, de 19 de febrero, por el que se regula el Patronato del Museo Nacional y Centro de Investigación de Altamira.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-11</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa/epub">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20250528">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4055</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2570"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5521"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20250528/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 172/2010, de 19 de febrero, por el que se regula el Patronato del Museo Nacional y Centro de Investigación de Altamira.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20250528"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20250528/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20250528/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20100311">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/rd"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2010-4055</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-19</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">172</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/603"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2570"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5079"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5278"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5521"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20100311/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Decreto 172/2010, de 19 de febrero, por el que se regula el Patronato del Museo Nacional y Centro de Investigación de Altamira.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20100311"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20100311/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/rd/2010/02/19/172/con/20100311/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="parrafo">La cueva de Altamira, obra maestra del primer arte de la humanidad y un hito en la Historia del Arte Universal, fue adquirida por el Estado tras acuerdo con el Ayuntamiento de Santillana del Mar en 1978.</p>
+          <p class="parrafo">En 1979, por Orden del Ministerio de Cultura de 15 de junio se crea el Museo y Centro de Investigación de Altamira como institución directamente responsable de su gestión. En esta disposición se establece que las instalaciones museográficas y la conservación y ordenación de su entorno dependen de la Dirección General del Patrimonio Artístico, Archivos y Museos a través de la Subdirección General de Museos.</p>
+          <p class="parrafo">Mediante Orden del Ministerio de Cultura de 17 de octubre de 1979 se crea el Patronato del Museo Nacional y Centro de Investigación de Altamira, con representación de la administración provincial y local.</p>
+          <p class="parrafo">Posteriormente, como consecuencia de lo establecido en el punto 5.1 del Convenio entre el Ministerio de Cultura y la Comunidad Autónoma de Cantabria, de 24 de septiembre de 1984, sobre gestión del Museo y Centro Nacional de Investigación de Altamira el Ministerio de Cultura, por Orden de 17 de mayo de 1985 se modifica la composición del Patronato de esta institución. Sin embargo, en ninguna de estas normas están regulados el funcionamiento y las funciones del citado órgano.</p>
+          <p class="parrafo">Por otra parte, desde la creación del Patronato hasta la actualidad se han producido importantes cambios en la gestión y la metodología aplicada a la conservación y difusión del arte paleolítico.</p>
+          <p class="parrafo">A estas circunstancias hay que añadir la inauguración en 2001 de la nueva sede del Museo, que transformó este centro en un referente museístico internacional acorde con la trascendencia de la propia cueva, inscrita en la Lista del Patrimonio Mundial de la Humanidad desde 1985. Así, en la actualidad este Museo tiene por misión generar conocimiento científico sobre la cueva de Altamira, referente del paleolítico europeo y de su arte, y conservar y divulgar sus valores históricos, artísticos y patrimoniales.</p>
+          <p class="parrafo">Como consecuencia de todo lo anterior, y conforme al artículo 61 de la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español, y el artículo 4 del Real Decreto 620/1987, de 10 de abril, por el que se aprueba el Reglamento de Museos de Titularidad Estatal y del Sistema Español de Museos, y tras treinta años de funcionamiento, se hace necesario modificar la composición y funciones de este órgano colegiado, reforzando en el Patronato la presencia de instituciones y expertos de la Arqueología, la Historia del Arte y la Museología.</p>
+          <p class="parrafo">Asimismo, la Comunidad Autónoma de Cantabria ha manifestado su voluntad de continuar en la línea de colaboración institucional establecida en el convenio de 1984 con la finalidad de potenciar las funciones del Museo Nacional de Altamira como instrumento administrativo y técnico encargado de la conservación, investigación y difusión de la cueva de Altamira, su contexto y los valores culturales que comporta.</p>
+          <p class="parrafo">En su virtud, a propuesta de la Ministra de Cultura, con la aprobación previa de la Ministra de la Presidencia y previa deliberación del Consejo de Ministros en su reunión del día 19 de febrero de 2010,</p>
+          <p class="centro_redonda">DISPONGO:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 1. El Patronato del Museo Nacional y Centro de Investigación de Altamira.</p>
+          <p class="parrafo">El Museo Nacional y Centro de Investigación de Altamira, adscrito al Ministerio de Cultura a través de la Dirección General de Bellas Artes y Bienes Culturales, se rige por su Patronato con la composición y funciones previstas en esta norma.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10489" fecha_publicacion="20250528" fecha_vigencia="20250529">
+          <p class="articulo">Artículo 1. El Patronato del Museo Nacional y Centro de Investigación de Altamira.</p>
+          <p class="parrafo">El Museo Nacional y Centro de Investigación de Altamira, adscrito al Ministerio de Cultura a través de la Dirección General de Patrimonio Cultural y Bellas Artes, se rige por su Patronato con la composición y funciones previstas en esta norma.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 2.1 del Real Decreto 403/2025, de 27 de mayo. <a class="refPost">Ref. BOE-A-2025-10489</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 2. Composición del Patronato.</p>
+          <p class="parrafo">El Patronato estará constituido por una Presidencia, una Vicepresidencia, una Secretaría y 18 Vocalías.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 3. Presidencia y Vicepresidencia.</p>
+          <p class="parrafo">1. Ejercerá la Presidencia del Patronato la persona titular del Ministerio de Cultura y la persona titular de la Presidencia del Gobierno de Cantabria de forma rotativa por periodos de un año, dando comienzo la del Ministerio de Cultura. A la Presidencia de turno le corresponde convocar y presidir las sesiones del Pleno del Patronato, participando mientras tanto la otra persona titular de la misma como vocal nato en el Patronato.</p>
+          <p class="parrafo">2. Ejercerá la Vicepresidencia una persona de reconocido prestigio, designada por el Patronato a propuesta de la persona titular del Ministerio de Cultura y de la Presidencia de Gobierno de Cantabria, que podrá sustituir a la persona que ostente la Presidencia en el ejercicio de sus funciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 4. Vocalías y Secretaría.</p>
+          <p class="parrafo">1. Vocalías natas: Las ejercerán las personas titulares de los siguientes órganos:</p>
+          <p class="parrafo_2">Subsecretaría del Ministerio de Cultura.</p>
+          <p class="parrafo">Consejería de Cultura, Turismo y Deporte del Gobierno de Cantabria.</p>
+          <p class="parrafo">Dirección General de Bellas Artes y Bienes Culturales del Ministerio de Cultura.</p>
+          <p class="parrafo">Alcaldía de Santillana del Mar.</p>
+          <p class="parrafo">Dirección General de Cultura del Gobierno de Cantabria.</p>
+          <p class="parrafo">Subdirección General de Museos Estatales.</p>
+          <p class="parrafo">Dirección de las Cuevas Prehistóricas de Cantabria o, en su defecto, persona designada por el Gobierno de Cantabria entre los responsables encargados de velar por la conservación de dichas cuevas.</p>
+          <p class="parrafo">Dirección del Museo Nacional y Centro de Investigación de Altamira.</p>
+          <p class="parrafo_2">2. Vocalías por designación: Nueve vocalías que serán ejercidas por personas elegidas por su reconocido prestigio en el área de la arqueología, la prehistoria, o la museología, de las cuales:</p>
+          <p class="parrafo_2">Cuatro Vocalías serán ejercidas por personas designadas por el Ministerio de Cultura.</p>
+          <p class="parrafo">Tres Vocalías serán ejercidas por personas designadas por el Gobierno de Cantabria.</p>
+          <p class="parrafo">Dos Vocalías serán ejercidas por personas designadas por el Ayuntamiento de Santillana del Mar.</p>
+          <p class="parrafo_2">3. Secretaría: Ejercerá la Secretaría la persona titular de la Dirección General de Cultura de la Consejería de Cultura, Turismo y Deporte del Gobierno de Cantabria.</p>
+          <p class="parrafo">4. Las personas que ejerzan Vocalías natas podrán ser suplidas por otras que ejerzan cargos en el área de cultura de la institución a la que representan designadas por el suplido o, en su caso, por quien ejerza sus competencias.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10489" fecha_publicacion="20250528" fecha_vigencia="20250529">
+          <p class="articulo">Artículo 4. Vocalías y Secretaría.</p>
+          <p class="parrafo_2">1. Vocalías natas: Las ejercerán las personas titulares de los siguientes órganos:</p>
+          <p class="parrafo_2">a) Secretaría de Estado de Cultura.</p>
+          <p class="parrafo">b) Subsecretaría de Cultura.</p>
+          <p class="parrafo">c) Consejería de Cultura, Turismo y Deporte del Gobierno de Cantabria.</p>
+          <p class="parrafo">d) Dirección General de Patrimonio Cultural y Bellas Artes del Ministerio de Cultura.</p>
+          <p class="parrafo">e) Alcaldía de Santillana del Mar.</p>
+          <p class="parrafo">f) Dirección General de Cultura y Patrimonio Histórico del Gobierno de Cantabria.</p>
+          <p class="parrafo">g) Subdirección General de Museos Estatales del Ministerio de Cultura.</p>
+          <p class="parrafo">h) Dirección de las Cuevas Prehistóricas de Cantabria o, en su defecto, persona designada por el Gobierno de Cantabria entre las personas responsables encargadas de velar por la conservación de dichas cuevas.</p>
+          <p class="parrafo">i) Dirección del Museo Nacional y Centro de Investigación de Altamira.</p>
+          <p class="parrafo_2">2. Vocalías por designación: Nueve vocalías que serán ejercidas por personas elegidas por su reconocido prestigio en el área de la arqueología, la prehistoria, o la museología, de las cuales:</p>
+          <p class="parrafo_2">Cuatro Vocalías serán ejercidas por personas designadas por el Ministerio de Cultura.</p>
+          <p class="parrafo">Tres Vocalías serán ejercidas por personas designadas por el Gobierno de Cantabria.</p>
+          <p class="parrafo">Dos Vocalías serán ejercidas por personas designadas por el Ayuntamiento de Santillana del Mar.</p>
+          <p class="parrafo_2">3. Secretaría: Ejercerá la Secretaría la persona titular de la Dirección General de Cultura y Patrimonio Histórico de la Consejería de Cultura, Turismo y Deporte del Gobierno de Cantabria.</p>
+          <p class="parrafo">4. Las personas que ejerzan Vocalías natas podrán ser suplidas por otras que ejerzan cargos en el área de cultura de la institución a la que representan designadas por el suplido o, en su caso, por quien ejerza sus competencias.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 1 y 3 por el art. 2.1 del Real Decreto 403/2025, de 27 de mayo. <a class="refPost">Ref. BOE-A-2025-10489</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 5. Duración del mandato.</p>
+          <p class="parrafo">Las personas que ejerzan la Vocalía por designación desempeñarán sus funciones por un período de tres años, a contar desde la fecha de sus respectivos nombramientos, salvo que la designación sea en razón de su cargo en alguna institución las cuales tendrán vinculado el nombramiento y el desempeño de la Vocalía en el Patronato mientras dure el ejercicio de dicho cargo.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 6. Régimen de funcionamiento.</p>
+          <p class="parrafo">1. El Patronato actúa en Pleno y en Comisión Permanente.</p>
+          <p class="parrafo">2. El Patronato podrá constituir en su seno grupos de trabajo para asuntos determinados, designando a los Presidentes y Vocales que las formen.</p>
+          <p class="parrafo">3. El Patronato podrá acordar que asistan a determinadas sesiones personas expertas cuya presencia se estime de interés en razón de los asuntos a tratar.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 7. Composición, funciones y funcionamiento del Pleno.</p>
+          <p class="parrafo">1. Integran el Pleno del Patronato la totalidad de sus miembros.</p>
+          <p class="parrafo">2. Son funciones del Pleno:</p>
+          <p class="parrafo_2">a) Proponer a las administraciones implicadas en el funcionamiento del Museo Nacional y Centro de Investigación de Altamira las acciones que sirvan para un mejor cumplimiento de los fines de la institución.</p>
+          <p class="parrafo">b) Fomentar e impulsar la participación de la sociedad en el conocimiento y disfrute de las colecciones del Museo y en el sostenimiento del mismo.</p>
+          <p class="parrafo">c) Informar el nombramiento del titular de la Dirección del Museo.</p>
+          <p class="parrafo">d) Informar el Plan Museológico del Museo y sus modificaciones.</p>
+          <p class="parrafo_2">3. Corresponden también al Pleno del Patronato las siguientes funciones, que podrá delegar en la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Informar la aceptación de aportaciones, donaciones, herencias o legados a favor del Museo.</p>
+          <p class="parrafo">b) Informar las modificaciones en la ordenación de las colecciones del Museo.</p>
+          <p class="parrafo">c) Informar y aprobar los tratamientos de carácter extraordinario o de especial importancia para la conservación de la Cueva de Altamira así como de los bienes culturales de la colección estable del Museo.</p>
+          <p class="parrafo">d) Informar las salidas de los fondos desde el Museo Nacional y Centro de Investigación de Altamira con carácter previo a su autorización por la Administración del Estado respetando, en su caso, las condiciones del depósito.</p>
+          <p class="parrafo">e) Informar las inversiones que se realicen en el Museo, programadas por el Ministerio de Cultura a iniciativa propia o a propuesta de la Comunidad Autónoma.</p>
+          <p class="parrafo">f) Informar los proyectos de investigación que podrán ser financiados por la Administración del Estado, con la colaboración de la Comunidad Autónoma.</p>
+          <p class="parrafo">g) Informar la Memoria y el Proyecto anuales de actividad del Museo.</p>
+          <p class="parrafo">h) Informar la programación de exposiciones temporales del Museo.</p>
+          <p class="parrafo">i) Requerir, a través del titular de la Dirección del Museo, la remisión de cuantos datos, informes y estudios considere de utilidad para el cumplimiento de sus funciones.</p>
+          <p class="parrafo">j) Informar los programas de formación que se establezcan para el personal del Museo.</p>
+          <p class="parrafo">k) Cualesquiera otras funciones atribuidas al Patronato en virtud del convenio de colaboración suscrito por el Ministerio de Cultura y la Comunidad Autónoma de Cantabria sobre la gestión del Museo Nacional y Centro de Investigación de Altamira, de fecha 24 de septiembre de 1984.</p>
+          <p class="parrafo_2">4. Las sesiones del Pleno del Patronato son ordinarias y extraordinarias. Las ordinarias se celebrarán, al menos, una vez al año y las extraordinarias, previa convocatoria de la Presidencia del Patronato, por propia iniciativa o a solicitud motivada de una tercera parte de sus miembros.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 8. La Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente está compuesta por las personas titulares de la Dirección General de Bellas Artes y Bienes Culturales, que presidirá sus sesiones, de la Dirección General de Cultura del Gobierno de Cantabria, de la Dirección del Museo Nacional y Centro de Investigación de Altamira y dos vocalías designadas por el Pleno.</p>
+          <p class="parrafo">2. Ejercerá las funciones de Secretaría la persona titular de la Secretaría del Pleno.</p>
+          <p class="parrafo">3. Son funciones de la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Estudiar, deliberar e informar las propuestas que se deban someter a la aprobación del Pleno.</p>
+          <p class="parrafo">b) Cuidar el cumplimiento, desarrollo y ejecución de los acuerdos adoptados por el Patronato.</p>
+          <p class="parrafo">c) Asumir cuantas otras funciones les sean encomendadas por el Pleno.</p>
+          <p class="parrafo">d) Dar cuenta al Pleno del Patronato de los acuerdos adoptados en el ejercicio de las anteriores facultades.</p>
+          <p class="parrafo_2">4. La Comisión Permanente se reunirá, en sesión ordinaria, al menos una vez cada seis meses.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10489" fecha_publicacion="20250528" fecha_vigencia="20250529">
+          <p class="articulo">Artículo 8. La Comisión Permanente.</p>
+          <p class="parrafo">1. La Comisión Permanente está compuesta por las personas titulares de la Dirección General de Patrimonio Cultural y Bellas Artes, que presidirá sus sesiones, de la Dirección General de Cultura y Patrimonio Histórico del Gobierno de Cantabria, de la Dirección del Museo Nacional y Centro de Investigación de Altamira y dos vocalías designadas por el Pleno.</p>
+          <p class="parrafo">2. Ejercerá las funciones de Secretaría la persona titular de la Secretaría del Pleno.</p>
+          <p class="parrafo">3. Son funciones de la Comisión Permanente:</p>
+          <p class="parrafo_2">a) Estudiar, deliberar e informar las propuestas que se deban someter a la aprobación del Pleno.</p>
+          <p class="parrafo">b) Cuidar el cumplimiento, desarrollo y ejecución de los acuerdos adoptados por el Patronato.</p>
+          <p class="parrafo">c) Asumir cuantas otras funciones les sean encomendadas por el Pleno.</p>
+          <p class="parrafo">d) Dar cuenta al Pleno del Patronato de los acuerdos adoptados en el ejercicio de las anteriores facultades.</p>
+          <p class="parrafo_2">4. La Comisión Permanente se reunirá, en sesión ordinaria, al menos una vez cada seis meses.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 2.3 del Real Decreto 403/2025, de 27 de mayo. <a class="refPost">Ref. BOE-A-2025-10489</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Artículo 9. Normativa de funcionamiento del Patronato.</p>
+          <p class="parrafo">Sin perjuicio de las peculiaridades establecidas en los artículos anteriores, el funcionamiento del Patronato se atendrá a lo dispuesto en el capítulo II del título II de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+        </version>
+        <version id_norma="BOE-A-2025-10489" fecha_publicacion="20250528" fecha_vigencia="20250529">
+          <p class="articulo">Artículo 9. Normativa de funcionamiento del Patronato.</p>
+          <p class="parrafo">Sin perjuicio de las peculiaridades establecidas en los artículos anteriores, el funcionamiento del Patronato se atendrá a lo dispuesto en el artículo 145 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 2.4 del Real Decreto 403/2025, de 27 de mayo. <a class="refPost">Ref. BOE-A-2025-10489</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria única">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Disposición derogatoria única. Derogación normativa.</p>
+          <p class="parrafo">Queda derogada la Orden del Ministerio de Cultura de 17 de mayo de 1985, por la que se modifica la composición del Patronato del Museo y Centro Nacional de Investigación de Altamira.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Disposición final primera. Título competencial.</p>
+          <p class="parrafo">El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.28.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre museos de titularidad estatal.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Disposición final segunda. Financiación.</p>
+          <p class="parrafo">El funcionamiento del Patronato no supondrá incremento de gasto público y será atendido con los créditos correspondientes del Ministerio de Cultura.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="articulo">Disposición final tercera. Entrada en vigor.</p>
+          <p class="parrafo">El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma">
+        <version id_norma="BOE-A-2010-4055" fecha_publicacion="20100311" fecha_vigencia="20100312">
+          <p class="parrafo_2">Dado en Madrid, el 19 de febrero de 2010.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">La Ministra de Cultura,</p>
+          <p class="firma_ministro">ÁNGELES GONZÁLEZ-SINDE REIG</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

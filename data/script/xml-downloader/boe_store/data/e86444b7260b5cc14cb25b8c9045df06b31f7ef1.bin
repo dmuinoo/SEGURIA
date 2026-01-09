@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T151046Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-28065</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8020">Comunidad Autónoma de Aragón</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19971203</fecha_disposicion>
+      <numero_oficial>12/1997</numero_oficial>
+      <titulo>Ley 12/1997, de 3 de diciembre, de Parques Culturales de Aragón.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19971231</fecha_publicacion>
+      <diario_numero>313</diario_numero>
+      <fecha_vigencia>19980101</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ar/l/1997/12/03/12</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-28065</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="265">Aragón</materia>
+        <materia codigo="5435">Patrimonio Histórico Artístico</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOA núm. 143, de 12 de diciembre de 1997.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 20 y 21 del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1996-29115</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley Orgánica 5/1996, de 30 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-12534</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 16/1985, de 25 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-28065</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5435"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-28065</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5435"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/con/19971212"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 12/1997, de 3 de diciembre, de Parques Culturales de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/con/19971212">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ar"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1997-28065</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/265"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5435"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-12-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/con/19971212/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 12/1997, de 3 de diciembre, de Parques Culturales de Aragón.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/con/19971212"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ar/l/1997/12/03/12/con/19971212/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ar/l/1997/12/03/12/con/19971212/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="parrafo">En nombre del Rey y como Presidente de la Comunidad Autónoma de Aragón, promulgo la presente Ley, aprobada por las Cortes de Aragón, y ordeno se publique en el «Boletín Oficial de Aragón» y en el «Boletín Oficial del Estado», todo ello de conformidad con lo dispuesto en los artículos 20 y 21 del Estatuto de Autonomía.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El Estatuto de Autonomía de Aragón vigente, tras las modificaciones introducidas por la Ley Orgánica 5/1996, de 30 de diciembre, atribuye a la Comunidad Autónoma la competencia exclusiva en materia de patrimonio cultural de interés para la Comunidad Autónoma (artículo 35.1.33). Ha de tenerse en cuenta, igualmente, que la Constitución, en su artículo 149.1.28, atribuye a la Administración General del Estado determinadas competencias en esta materia y que está vigente la Ley 16/1985, de 25 de junio, de Patrimonio Histórico Español. En todo caso, esta Ley de Parques Culturales se enmarcará, además, en lo que disponga la Ley de Patrimonio Cultural de Aragón.</p>
+          <p class="parrafo">Partiendo de estas premisas, que suponen tanto un mandato como un título competencial, la presente Ley regula y normaliza la existencia de Parques Culturales en Aragón que cuentan con una experiencia, ya contrastada, en la puesta en marcha de esta actividad tan importante para la conservación y protección del patrimonio, y que han demostrado ser un medio eficaz para el desarrollo sostenible en el ámbito rural aragonés.</p>
+          <p class="parrafo">En el Capítulo I se regulan el concepto y los objetivos de los Parques Culturales, mientras que en el Capítulo II se definen el procedimiento de declaración de los mismos y los efectos de la incoación del expediente a los elementos concretos incluidos en la misma.</p>
+          <p class="parrafo">En el Capítulo III se propone una protección integral del patrimonio, coordinada con las actividades y usos del suelo previstos en la legislación urbanística, en la ordenación territorial y en las normas medioambientales y turísticas.</p>
+          <p class="parrafo">Para que este instrumento de protección del patrimonio y de planificación integral tenga una verdadera traducción en actuaciones concretas, la presente Ley regula en el Capítulo IV la correlación entre la planificación y la gestión de los Parques Culturales, así como el organismo que debe desarrollar las funciones y las actividades propias de los mismos. Se establece igualmente el compromiso político de las colectividades territoriales afectadas y la vinculación social de la población en las áreas en las que se creen los Parques Culturales.</p>
+          <p class="parrafo">La presente Ley de Parques Culturales de Aragón establece un conjunto de posibilidades de fomento de la coordinación interadministrativa, previendo para los elementos concretos relevantes del Parque (edificios y paisajes) una protección especial. Asimismo, obliga a la coordinación entre el departamento de Educación y Cultura y los otros departamentos del Gobierno Autónomo y de éstos con Ayuntamientos, asociaciones y particulares; ello debe traducirse en un apoyo eficaz al desarrollo rural sostenible.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Definición y objeto</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 1. Concepto.</p>
+          <p class="parrafo">Un Parque Cultural está constituido por un territorio que contiene elementos relevantes del patrimonio cultural, integrados en un marco físico de valor paisajístico y/o ecológico singular, que gozará de promoción y protección global en su conjunto, con especiales medidas de protección para dichos elementos relevantes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 2. Políticas integradas.</p>
+          <p class="parrafo">1. Un Parque Cultural es un espacio singular de integración de los diversos tipos de patrimonio, tanto material-mobiliario e inmobiliario como inmaterial. Entre el Patrimonio material se incluye el histórico artístico, arquitectónico, arqueológico, antropológico, paleontológico, etnológico, museístico, paisajístico, geológico, industrial, agrícola y artesanal. Como Patrimonio inmaterial se considera el lingüístico, el gastronómico, las tradiciones, fiestas y vestimentas, y la acción cultural autóctona o externa. Todo ello en el marco de las definiciones establecidas por el Consejo de Europa y por la Unesco.</p>
+          <p class="parrafo">2. En el espacio de un Parque Cultural las actuaciones de las distintas administraciones y entidades se orientarán hacia la protección y restauración del patrimonio, la acción cultural, el desarrollo rural sostenible y el equilibrio territorial.</p>
+          <p class="parrafo">3. En el Parque Cultural deberán coordinarse las políticas territoriales con las sectoriales, especialmente las de patrimonio cultural y natural, fomento de la actividad económica, turismo rural, infraestructuras y equipamientos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 3. Del objeto de los Parques Culturales.</p>
+          <p class="parrafo">Los Parques Culturales tienen como objetivos:</p>
+          <p class="parrafo_2">a) Proteger, conservar y difundir el patrimonio cultural y, en su caso, natural, sin perjuicio de la normativa y sistemas de gestión relativos a la protección de los espacios naturales protegidos.</p>
+          <p class="parrafo">b) Estimular el conocimiento del público, promoviendo la información y la difusión cultural y turística de los valores patrimoniales y el máximo desarrollo de actividades culturales, tanto autóctonas, como de iniciativa externa, así como desarrollar actividades pedagógicas sobre el patrimonio cultural con escolares, asociaciones y público en general, promoviendo también la investigación científica y la divulgación de sus resultados.</p>
+          <p class="parrafo">c) Contribuir a la ordenación del territorio, corrigiendo desequilibrios socioeconómicos e impulsando una adecuada distribución de los usos del suelo compatible con el concepto rector del Parque.</p>
+          <p class="parrafo">d) Fomentar el desarrollo rural sostenible, mejorando el nivel y la calidad de vida de las áreas afectadas, con especial atención a los usos y aprovechamientos tradicionales.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Declaración de Parque Cultural</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 4. Iniciación del procedimiento.</p>
+          <p class="parrafo">1. La declaración de un Parque Cultural requerirá la previa incoación y tramitación de expediente administrativo por el Departamento de Educación y Cultura de la Administración de la Comunidad Autónoma, iniciado de oficio por la propia Administración autonómica, o a instancia de otra Administración pública o de cualquier persona física o jurídica. En la documentación del expediente se incluirá una propuesta de delimitación del Parque Cultural, y dentro del mismo, la enumeración y delimitación de los espacios, edificios y paisajes antrópicos que requerirían de especial protección, así como reseña de la especial singularidad de los valores, elementos y manifestaciones que justifican y aconsejan proceder a tal declaración.</p>
+          <p class="parrafo">2. La incoación del expediente de declaración de un Parque Cultural se notificará a los particulares afectados directamente en sus bienes o derechos por las propuestas de protección especial relativas a espacios concretos, edificios y paisajes antrópicos y a los Ayuntamientos incluidos en la propuesta de delimitación. Además, y sin perjuicio de su eficacia desde la notificación, la resolución de incoación se publicará en el «Boletín Oficial de Aragón».</p>
+          <p class="parrafo">3. En los espacios concretos, edificios y paisajes antrópicos para los que se solicita especial y singularizada protección en la propuesta de delimitación del parque, la incoación del expediente conllevará la aplicación inmediata y provisional del régimen de protección establecido para los bienes declarados de interés cultural.</p>
+          <p class="parrafo">4. El expediente deberá resolverse en el plazo máximo de veinticuatro meses, a partir de la fecha en que hubiese sido incoado. Transcurrido este plazo, se producirá la caducidad del mismo, no pudiéndose volver a iniciar en los tres años siguientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 5. Colaboración municipal.</p>
+          <p class="parrafo">Los Ayuntamientos colaborarán habitualmente con los órganos de administración de los Parques, transmitiéndoles la información que consideren relevante para el logro de sus fines y prestándoles el apoyo que precisen.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 6. Informes.</p>
+          <p class="parrafo">1. En el expediente incoado se procederá a la apertura de un período de información pública y se dará audiencia a los Ayuntamientos correspondientes.</p>
+          <p class="parrafo">2. El expediente deberá contener los informes técnicos necesarios y estudios previos, requiriéndose para la declaración de Parque Cultural el informe de, al menos, dos instituciones consultivas en materia de Patrimonio Cultural reconocidas por la Comunidad Autónoma, siendo necesariamente una de ellas la Universidad de Zaragoza.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 7. Declaración.</p>
+          <p class="parrafo">La declaración de Parque Cultural se realizará por el Gobierno de Aragón, a propuesta del Departamento de Educación y Cultura.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 8. Contenido de la declaración.</p>
+          <p class="parrafo">La declaración de un Parque Cultural incluirá las especificaciones relativas a su delimitación, así como a la enumeración, descripción y definición de las partes relevantes de especial protección, y, si procede, a pertenencias, accesorios y entorno de las mismas.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 9. Notificación y publicación de la declaración.</p>
+          <p class="parrafo">La declaración de un Parque Cultural se notificará a los interesados directamente afectados, y el decreto de declaración de Parque Cultural se publicará en el «Boletín Oficial de Aragón».</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 10. Registro de los Parques Culturales.</p>
+          <p class="parrafo">1. Los Parques Culturales declarados serán inscritos en el Registro de Parques Culturales de Aragón. En dicho registro también se anotará, preventivamente, la incoación de los expedientes de declaración. La gestión de este Registro corresponde al Departamento de Educación y Cultura.</p>
+          <p class="parrafo">2. En el Registro se harán constar todos los actos que afecten a la identificación y localización de los Parques, así como cualesquiera otros hechos y actos que puedan afectar al contenido de la declaración.</p>
+          <p class="parrafo">3. El titular de elementos relevantes de patrimonio cultural integrados en el Parque tendrá el deber de comunicar al Registro los hechos o actos que puedan afectar al estado de tales elementos. Cualquier inscripción o modificación de la misma efectuada de oficio será notificada a su titular.</p>
+          <p class="parrafo">4. Los datos del Registro serán públicos, salvo las informaciones que deban protegerse en razón de la seguridad de los bienes o sus titulares y la intimidad de las personas.</p>
+          <p class="parrafo">5. De las inscripciones y anotaciones en el Registro de Parques Culturales de Aragón relativas a bienes de interés cultural ubicados en los parques se dará cuenta al Registro General de Bienes de Interés Cultural de la Administración General del Estado, y al Registro de la Comunidad Autónoma si éste se constituye por la legislación sectorial correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Planificación integral del Parque Cultural</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 11. El Plan del Parque.</p>
+          <p class="parrafo">El Plan del Parque es un instrumento de planificación que, priorizando la protección del patrimonio cultural, procura la coordinación de los instrumentos de la planificación urbanística, ambiental, turística y territorial.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 12. Obligaciones del Plan del Parque.</p>
+          <p class="parrafo">Los municipios y otras entidades locales, así como las restantes Administraciones públicas y los particulares, vendrán obligados a respetar las determinaciones del Plan y a aplicar las medidas propuestas en él.</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 13. Objetivos del Plan del Parque.</p>
+          <p class="parrafo">El Plan del Parque es un documento que tiene como objetivos:</p>
+          <p class="parrafo_2">a) Definir y señalar el estado de conservación de los elementos del patrimonio cultural y natural.</p>
+          <p class="parrafo">b) Señalar los regímenes de protección que proceda y no cuenten con otro tipo de protección sectorial.</p>
+          <p class="parrafo">c) Promover medidas de conservación, restauración, mejora y rehabilitación de los elementos del patrimonio cultural que lo precisen.</p>
+          <p class="parrafo">d) Fomentar la acción cultural y la actividad económica en términos de desarrollo sostenible, señalando las actividades compatibles con la protección del patrimonio.</p>
+          <p class="parrafo">e) La promoción del turismo cultural y rural.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 14. Contenidos del Plan del Parque.</p>
+          <p class="parrafo">El Plan del Parque contemplará la delimitación de zonas y elementos especiales de protección, la promoción de los municipios afectados, la protección del patrimonio cultural y, en su caso natural, del turismo rural, infraestructuras y equipamientos, así como las actuaciones necesarias para su desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 15. Documentos del Plan del Parque.</p>
+          <p class="parrafo">1. El Plan del Parque constará de los siguientes documentos:</p>
+          <p class="parrafo_2">a) Memoria, que contendrá un diagnóstico integral del Territorio, incluyendo el inventario completo de los elementos del patrimonio cultural existentes dentro de los descritos en el párrafo 1 del artículo 2.</p>
+          <p class="parrafo">b) Modelo territorial, que comprenderá:</p>
+          <p class="parrafo_2">1. Actuaciones estructurantes y vertebradoras.</p>
+          <p class="parrafo">2. Actuaciones significativas en los principales valores del Parque Cultural.</p>
+          <p class="parrafo">3. Otras actuaciones.</p>
+          <p class="parrafo_2">c) Estudio económico-financiero de las actuaciones previamente descritas e indicación de las administraciones responsables de las mismas.</p>
+          <p class="parrafo">d) Plan de etapas.</p>
+          <p class="parrafo">e) Planos de compatibilización de los usos del suelo con la protección del patrimonio, distinguiendo dos niveles de protección: Los espacios, edificios y paisajes antrópicos de especial protección y el resto del territorio del Parque, que quedará sometido a la legislación correspondiente.</p>
+          <p class="parrafo_2">2. El Plan del Parque recogerá como anexo:</p>
+          <p class="parrafo_2">a) Listado de los bienes de interés cultural declarados, incoados u otros susceptibles de declarar en el interior del Parque, así como sus características principales.</p>
+          <p class="parrafo">b) Catálogo de patrimonio arquitectónico, arqueológico, etnológico y paleontológico que, en su caso, conllevará la modificación de los catálogos del planeamiento urbanístico en el plazo inferior a un año.</p>
+          <p class="parrafo">c) Una copia o resumen de los Planes de ordenación de los recursos naturales, cuando exista en el mismo territorio del Parque Cultural.</p>
+          <p class="parrafo">d) Una copia o resumen de los instrumentos de planeamiento urbanístico de los municipios afectados.</p>
+          <p class="parrafo">e) En el caso de que se trate de bienes inmuebles edificados o yacimientos arqueológicos y paleontológicos se acompañarán de documentación planimétrica de plantas y alzados, así como planes topográficos y cartográficos detallados.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 16. Tramitación del Plan del Parque.</p>
+          <p class="parrafo">1. El Plan del Parque, elaborado a iniciativa del Patronato, se aprobará inicialmente por el Departamento de Educación y Cultura, previo informe de la Comisión Provincial de Patrimonio Cultural y de la Comisión Provincial de Ordenación del Territorio.</p>
+          <p class="parrafo">2. El Plan aprobado inicialmente se someterá a información pública, por plazo de cuatro meses, mediante anuncio publicado en el «Boletín Oficial de Aragón».</p>
+          <p class="parrafo">3. A la vista de las alegaciones formuladas, y, previo informe del Consejo de Ordenación del Territorio de Aragón, el Gobierno aprobará el Plan del Parque, a propuesta del Departamento de Educación y Cultura.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Gestión del Parque Cultural</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 17. Órgano gestor del Parque.</p>
+          <p class="parrafo">El órgano gestor del Parque constará del Patronato, del Consejo Rector y de la Gerencia del Parque.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 18. Patronato.</p>
+          <p class="parrafo">1. El Patronato, órgano consultivo y de participación del Parque, estará compuesto por:</p>
+          <p class="parrafo_2">a) Un representante de cada Ayuntamiento con término municipal incluido en el Parque que haya suscrito un convenio de los mencionados en el artículo 23.</p>
+          <p class="parrafo">b) Cinco representantes elegidos por el Gobierno de Aragón de entre los Departamentos más relacionados con la materia.</p>
+          <p class="parrafo">c) Hasta un máximo de cinco representantes de asociaciones que realicen actividades relacionadas con el Parque, de asociaciones culturales y de desarrollo rural, de Cámaras de Comercio e Industria, de organizaciones agrarias, de organizaciones empresariales y sindicales, de la Universidad, de instituciones científicas y de colegios profesionales (cuando tengan implantación en la zona), en los términos que establezcan las normas de desarrollo.</p>
+          <p class="parrafo_2">2. El Presidente del Patronato será nombrado, de entre sus miembros, por la Diputación General de Aragón a propuesta del Consejero de Educación y Cultura y oído el citado Patronato.</p>
+          <p class="parrafo">3. Las funciones del Patronato serán las que le atribuya la norma de creación del Parque Cultural y, en todo caso, las siguientes:</p>
+          <p class="parrafo_2">a) Velar por el cumplimiento de las normas establecidas y formular propuestas para la eficaz defensa de los valores y singularidades del Parque Cultural.</p>
+          <p class="parrafo">b) Informar preceptivamente el Plan del Parque Cultural y sus modificaciones y proponer las que considere convenientes.</p>
+          <p class="parrafo">c) Aprobar las memorias anuales de actividades y resultados elaborados por la Gerencia del Parque.</p>
+          <p class="parrafo">d) Conocer la memoria-resumen anual sobre la gestión y resultados del Parque Cultural.</p>
+          <p class="parrafo">e) Aprobar los presupuestos del Parque Cultural.</p>
+          <p class="parrafo">f) Aprobar un reglamento de régimen interior de los órganos del Parque.</p>
+          <p class="parrafo">g) Designar a los representantes locales en el Consejo Rector a propuesta de los municipios presentes en el Patronato.</p>
+          <p class="parrafo">h) Nombrar a los representantes del Gobierno de Aragón, a propuesta suya, en el Consejo Rector.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 19. Composición, atribuciones y funcionamiento del Consejo Rector.</p>
+          <p class="parrafo">1. El Consejo Rector estará formado por siete miembros: tres representantes del Gobierno de Aragón, tres representantes de las entidades locales y el Gerente del Parque; todos actuarán con voz y voto. Podrán asistir con voz y sin voto los ayuntamientos no representados en el Consejo Rector cuando se traten cuestiones que les afecten.</p>
+          <p class="parrafo">2. Corresponde al Consejo Rector:</p>
+          <p class="parrafo_2">a) La redacción del Plan del Parque, en la que seguirá las directrices y líneas fijadas por el Patronato, o su participación en la elaboración del Plan cuando éste se redacte de oficio por la Administración.</p>
+          <p class="parrafo">b) La formulación y aprobación inicial de los presupuestos del Parque Cultural.</p>
+          <p class="parrafo">c) El nombramiento del personal del Parque, excepto del Gerente.</p>
+          <p class="parrafo">d) Informar los proyectos y propuestas de obras y trabajos que pretendan realizar las distintas Administraciones y que no estén contenidos en el Plan del Parque o en los distintos instrumentos de uso y gestión del espacio protegido.</p>
+          <p class="parrafo">e) Cualquier otra decisión relevante relativa a la gestión del Parque.</p>
+          <p class="parrafo_2">3. Los representantes de los entes locales serán elegidos por aquellos que forman parte del Patronato. En caso de carencia de acuerdo en los plazos que se establezcan, resolverá el Patronato.</p>
+          <p class="parrafo">4. El Presidente será nombrado por el Consejero de Educación y Cultura de entre los miembros del Consejo Rector.</p>
+          <p class="parrafo">5. Los municipios, de acuerdo con sus competencias, podrán crear mecanismos propios para el seguimiento del funcionamiento del Parque.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 20. Gerencia del Parque.</p>
+          <p class="parrafo">1. El Gerente será nombrado por el Consejero de Educación y Cultura a propuesta del Patronato.</p>
+          <p class="parrafo">2. Corresponde al Gerente:</p>
+          <p class="parrafo_2">a) La puesta en marcha y control de las acciones y las actividades propuestas en el Plan del Parque.</p>
+          <p class="parrafo">b) Organizar y gestionar la prestación de servicios del Parque, de acuerdo con el contenido del Plan del Parque.</p>
+          <p class="parrafo">c) La dirección administrativa del Parque y del personal adscrito al mismo.</p>
+          <p class="parrafo">d) Elaborar y presentar al Patronato el Plan anual de actividades, oído el Consejo Rector.</p>
+          <p class="parrafo">e) Elaborar y presentar ante el Patronato, oído el Consejo Rector, la memoria anual de actividades, incluyendo la ejecución presupuestaria.</p>
+          <p class="parrafo">f) La gestión económica del Parque.</p>
+          <p class="parrafo">g) Adoptar las medidas técnicas necesarias para la protección del patrimonio cultural del Parque.</p>
+          <p class="parrafo">h) Cualesquiera otras que le sean encomendadas por el Patronato en aras de la mejor gestión del Parque y sus servicios.</p>
+          <p class="parrafo_2">3. Cuando las dimensiones o complejidad del Parque Cultural así lo aconsejen, a juicio del Consejo Rector, se contará con un equipo técnico de apoyo al Gerente. Igualmente, podrán crearse diferentes comités de asesoramiento en las diferentes disciplinas científicas y de desarrollo.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 21. Funcionamiento.</p>
+          <p class="parrafo_2">1. Los aspectos básicos del funcionamiento y la composición de los órganos del Parque se regularán por una norma básica de desarrollo de aplicación genérica, que, en cada caso, se concretará en los reglamentos de régimen interior.</p>
+          <p class="parrafo">2. El Departamento de Educación y Cultura será el competente en materia de Parques Culturales, impulsará la creación de los mismos y colaborará en su gestión, en los términos descritos en esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 22. Actividades.</p>
+          <p class="parrafo">Independientemente de las acciones concretas que se formulen en el Plan del Parque, la Gerencia del Parque colaborará principalmente en el fomento de:</p>
+          <p class="parrafo_2">a) La protección del patrimonio natural y cultural.</p>
+          <p class="parrafo">b) La conservación y mejora paisajística.</p>
+          <p class="parrafo">c) El desarrollo de prácticas agrarias experimentales, de proyección didáctica y formativa, respetuosas con el medio ambiente.</p>
+          <p class="parrafo">d) La animación sociocultural.</p>
+          <p class="parrafo">e) La información al público en general.</p>
+          <p class="parrafo">f) Los programas de formación en la pedagogía del patrimonio y su divulgación, principalmente con escolares.</p>
+          <p class="parrafo">g) La recuperación de actividades y manifestaciones culturales tradicionales y el fomento de la artesanía.</p>
+          <p class="parrafo">h) El turismo cultural y ambiental, incluidos los alojamientos de turismo rural.</p>
+          <p class="parrafo">i) La construcción y mantenimiento de senderos, recorridos naturalísticos, culturales y paisajísticos, así como la recuperación y puesta en valor de las vías tradicionales de comunicación.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 23. Financiación.</p>
+          <p class="parrafo">1. La financiación de las actuaciones contenidas en el Plan del Parque, así como de los gastos corrientes del mismo, corresponderá al Gobierno de Aragón y a los ayuntamientos vinculados, en la proporción y forma que figure en el Plan del Parque, de conformidad con los acuerdos y convenios que se suscribieran por estas instituciones.</p>
+          <p class="parrafo">2. Se fomentará la consecución de ingresos extraordinarios procedentes del Estado y de la Unión Europea, así como de instituciones privadas y de donaciones de particulares, al amparo de la normativa reguladora del mecenazgo.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Artículo 24. Compensaciones económicas.</p>
+          <p class="parrafo">En el caso de que las acciones contempladas en el Plan del Parque limiten el ejercicio de derechos de propiedad de particulares, la Administración del Parque establecerá las correspondientes compensaciones económicas.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">La declaración de Parque Cultural será compatible con la declaración de Espacio Natural Protegido para un mismo espacio, estableciéndose una necesaria coordinación entre los Departamentos de Agricultura y Medio Ambiente y de Educación y Cultura del Gobierno de Aragón para la planificación y gestión conjunta, así como con el Departamento de Ordenación Territorial, Obras Públicas y Transportes.</p>
+          <p class="parrafo">Cuando en un mismo territorio coexistan o se pretendan crear las figuras de Parque Cultural y de Espacio Natural Protegido, se promoverá la posibilidad de integración de los órganos de gestión y consultivos o de participación social de ambas figuras y la existencia de un único director o gerente, en la forma que se determine en la Ley de Espacios Naturales Protegidos.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">El Departamento de Economía, Hacienda y Fomento del Gobierno de Aragón, previo informe del Departamento de Educación y Cultura, podrá conceder el distintivo de turismo rural de calidad, Parque Cultural de Excelencia Turística, de acuerdo con su normativa específica.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">Allí donde, a la aprobación de esta Ley, funcionen Parques Culturales con estructuras provisionales, continuarán rigiéndose de forma transitoria con los criterios y mecanismos de gestión actuales, en tanto se procede a su declaración y al nombramiento de los correspondientes órganos, de conformidad con lo establecido en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">En el plazo de un año se procederá a la incoación del expediente de declaración de Parque Cultural en aquellos espacios que reciben o pueden recibir en poco tiempo tal denominación, como son el Parque Cultural de Albarracín, el Parque Cultural del río Martín, el Parque Cultural del río Vero, el Parque Cultural de San Juan de la Peña y el Parque Cultural del Maestrazgo.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="articulo">Disposición final única.</p>
+          <p class="parrafo">Se autoriza al Gobierno de Aragón a dictar las disposiciones necesarias para el desarrollo y la aplicación de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1997-28065" fecha_publicacion="19971212" fecha_vigencia="19980101">
+          <p class="parrafo_2">Así lo dispongo a los efectos del artículo 9.1 de la Constitución y los correspondientes del Estatuto de Autonomía de Aragón.</p>
+          <p class="parrafo_2">Zaragoza, 3 de diciembre de 1997.</p>
+          <p class="firma_ministro">SANTIAGO LANZUELA MARINA,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

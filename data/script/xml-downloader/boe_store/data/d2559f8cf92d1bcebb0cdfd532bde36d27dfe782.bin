@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T212206Z</fecha_actualizacion>
+      <identificador>BOE-A-1994-12118</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19940526</fecha_disposicion>
+      <numero_oficial>12/1994</numero_oficial>
+      <titulo>Ley 12/1994, de 26 de mayo, de creación de la Universidad de Burgos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19940527</fecha_publicacion>
+      <diario_numero>126</diario_numero>
+      <fecha_vigencia>19940528</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1994/05/26/12</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1994-12118</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="7028">Universidad de Burgos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-23432</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley Orgánica 11/1983, de 25 de agosto</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1987-27707</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Real Decreto 1497/1987, de 27 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-1999-23714</id_norma>
+            <relacion codigo="440">SE DICTA DE CONFORMIDAD</relacion>
+            <texto>con la disposición transitoria 4, aprobando los estatutos: Decreto 263/1999, de 7 de octubre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-12118</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-26</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7028"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-12118</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7028"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/con/19940527"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 12/1994, de 26 de mayo, de creación de la Universidad de Burgos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-27</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof/cat">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llei 12/1994, de 26 de maig, de creació de la Universitat de Burgos. (BOE 126, de 27-5-1994.)</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-12-31</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/dof/cat/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof/cat"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/con/19940527">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1994-12118</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-26</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7028"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-05-27</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/con/19940527/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 12/1994, de 26 de mayo, de creación de la Universidad de Burgos.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/con/19940527"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es/l/1994/05/26/12/con/19940527/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es/l/1994/05/26/12/con/19940527/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="subseccion">JUAN CARLOS I</p>
+          <p class="subseccion">REY DE ESPAÑA</p>
+          <p class="parrafo_2">A todos los que la presente vieren y entendieren.</p>
+          <p class="parrafo">Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley.</p>
+          <p class="subseccion">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="subseccion">1</p>
+          <p class="parrafo">La evolución socioeconómica experimentada por nuestro país ha determinado una necesidad creciente de cualificación superior para atender las exigencias del desarrollo técnico y científico y ha provocado el incremento de la demanda social de educación universitaria, lo que impone a los poderes públicos darles respuesta en el marco de la programación general de la enseñanza.</p>
+          <p class="subseccion">2</p>
+          <p class="parrafo">A esto responde la creación de la Universidad de Burgos, que tiene como objetivos prioritarios atender dichas exigencias sociales de mayor cualificación, atender la demanda social de formación facilitando el acceso a la enseñanza superior y contribuir a mejorar la calidad de la enseñanza universitaria, en el marco de un desarrollo global y coherente del sistema público de enseñanza superior, además de facilitar el ejercicio del derecho a la educación reconocido por el artículo 27.5 de la Constitución, mediante la prestación del servicio público de la enseñanza superior, a través de la docencia, la investigación y la extensión universitaria.</p>
+          <p class="subseccion">3</p>
+          <p class="parrafo">La nueva Universidad, que cumple con los requisitos mínimos establecidos por el Gobierno al amparo de la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, nace con un triple cometido: consolidar los estudios que se imparten en el &lt;campus&gt; burgalés en la actualidad, que cuentan con mayor arraigo, demanda y recursos suficientes; ampliar a medio y largo plazo la oferta de enseñanzas universitarias en orden a satisfacer, por un lado, las necesidades del desarrollo económico y tecnológico y, por otro, la demanda social de formación cualificada asegurando su calidad y adecuación a las exigencias del tiempo actual; hacer de la Universidad un foco de producción científica, de formación profesional, de influencia cultural, integrado en las estructuras universitarias europeas, capaz de trascender el marco local en que se ubica con un perfil propio y diferenciado.</p>
+          <p class="parrafo">A tal fin la Universidad de Burgos se orienta, de modo preferente, hacia la formación de profesionales cualificados en las áreas tecnológicas, jurídico-económicas y sociales vinculadas con la demanda empresarial; se especializa en la producción científica y formación de personal de máxima cualificación en las ciencias experimentales y tecnologías alimentarias; y, de modo complementario, en el ámbito de las humanidades, en los estudios vinculados con el patrimonio histórico y las lenguas aplicadas, de acuerdo con el propio contexto cultural burgalés y en el marco de la nueva dimensión europea.</p>
+          <p class="parrafo">La nueva Universidad, inserta en el entorno provincial burgalés y regional castellano-leonés, aspira a ser un elemento dinámico de progreso, a través de la cualificación superior de los recursos humanos, de la prestación de servicios cualificados a la sociedad, de la producción científica de máximo nivel en el área de su especialización y de la producción y extensión cultural de calidad.</p>
+          <p class="subseccion">4</p>
+          <p class="parrafo">En la presente Ley se contemplan, por otra parte, las situaciones que la puesta en funcionamiento de una nueva Universidad lleva consigo, estableciendo un período normativo transitorio que rija la actividad académica y administrativa hasta su pleno funcionamiento en régimen de autonomía, una vez aprobados sus Estatutos, creando los órganos fundacionales que garanticen el normal funcionamiento inicial y el desarrollo posterior hacia la constitución estatutaria.</p>
+          <p class="subseccion">5</p>
+          <p class="parrafo">La creación de la Universidad de Burgos, que se dicta al amparo del artículo 5.1 de la Ley Orgánica 11/1983, citada, cuenta con el informe favorable del Consejo de Universidades, previsto por el artículo 5.2 de la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Artículo 1. Creación.</p>
+          <p class="parrafo">Se crea la Universidad de Burgos, con sede en Burgos, que se regirá por la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, por la presente Ley y por las normas que la desarrollen.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Artículo 2. Estructura.</p>
+          <p class="parrafo">1. En la Universidad de Burgos se impartirán, inicialmente, las enseñanzas conducentes a la obtención de los títulos de Licenciado en Ciencia y Tecnología de los Alimentos, en Derecho, en Humanidades y en Química; de Diplomado en Ciencias Empresariales, en Educación Social, en Gestión y Administración Pública y Maestro, especialidades en Educación Especial, Educación Infantil, Educación Musical, Educación Primaria y Lengua Extranjera; de Arquitecto Técnico, y de Ingeniero Técnico en Construcciones Civiles, en Electrónica Industrial, en Informática de Gestión, en Mecánica y en Transportes y Servicios Urbanos.</p>
+          <p class="parrafo">Se impartirán, inicialmente, estudios de tercer ciclo en las áreas del Derecho, de las Humanidades y de las Ciencias.</p>
+          <p class="parrafo">2. Se integran en la nueva Universidad los centros públicos universitarios existentes en el campus de Burgos, dependientes de la Universidad de Valladolid; Facultad de Derecho y Escuela Universitaria Politécnica, así como las Facultades de Ciencia y Tecnología de los Alimentos y de Filosofía y Letras y las Escuelas Universitarias de Estudios Empresariales y de Profesorado de Educación General Básica, que se transforman en Facultad de Ciencia y Tecnología de los Alimentos y Ciencias Químicas, Facultad de Humanidades y Educación y Escuela Universitaria de Ciencias Empresariales que, inicialmente, se ocuparán de la gestión administrativa y organización de las enseñanzas señaladas en el apartado anterior.</p>
+          <p class="parrafo">3. Las Escuelas Universitarias adscritas a la Universidad de Valladolid en la actualidad, radicadas en Burgos, se adscribirán a la nueva Universidad que se crea por la presente Ley.</p>
+          <p class="parrafo">4. Se extinguen los estudios de Química impartidos en el Colegio Universitario de Burgos, que quedará clausurado. Las enseñanzas correspondientes se integran en la Facultad de Ciencias y Tecnología de los Alimentos y Ciencias Químicas a que se refiere el apartado 2 anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Artículo 3. Inicio de la actividad académica.</p>
+          <p class="parrafo">1. La Universidad de Burgos, en el marco de la planificación económica establecida por el Gobierno, iniciará sus actividades en el curso 1994/1995.</p>
+          <p class="parrafo">2. El comienzo de las actividades de la Universidad que se crea será autorizado por el Ministerio de Educación y Ciencia, previa homologación por el Consejo de Universidades de los planes de estudio de las enseñanzas a impartir, cuyas directrices generales propias hayan sido aprobadas por el Gobierno, de conformidad con el Real Decreto 1497/1987, de 27 de noviembre, por el que se establecen las directrices generales comunes de los planes de estudios de los títulos universitarios de carácter oficial y validez en todo el territorio nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Disposición adicional única. Personal, edificios e instalaciones.</p>
+          <p class="parrafo">El Gobierno iniciará el procedimiento correspondiente, adoptando las medidas que legalmente procedan, en orden a la integración en la nueva Universidad de los medios humanos, recursos materiales, inmuebles e instalaciones de la Universidad de Valladolid en Burgos. Las Universidades de Valladolid y Burgos mantendrán el uso común del Complejo Residencial y Social de Sedano en la forma que convengan.</p>
+          <p class="parrafo">Desde la entrada en vigor de esta Ley y en el plazo que, con anterioridad a la finalización del curso académico 1994/1995, señale el Ministerio de Educación y Ciencia, el personal actual de los centros a que se refiere el artículo 2 podrá solicitar, por una sola vez, permanecer en la Universidad de Valladolid. El Ministerio de Educación y Ciencia resolverá, teniendo en cuenta las necesidades del servicio y de acuerdo con las Universidades de Burgos y Valladolid, adoptando, en su caso, las medidas oportunas.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Disposición transitoria primera. Régimen de funcionamiento.</p>
+          <p class="parrafo">Hasta tanto no se aprueben los Estatutos de la Universidad de Burgos, el Ministerio de Educación y Ciencia ejercerá, respecto a ésta, las competencias que la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, atribuye a las Universidades, pudiendo asimismo recabar el conocimiento de cuantos asuntos considere oportunos o delegar competencias en la referida Universidad; todo ello sin perjuicio de las que se asignan a los órganos creados en la presente Ley y de las que resulten de la normativa singular a que se refiere la disposición transitoria tercera.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Disposición transitoria segunda. Organos de gobierno provisionales.</p>
+          <p class="parrafo">A efectos de lo previsto en la disposición anterior se crean los siguientes órganos:</p>
+          <p class="parrafo_2">a) Comisión Gestora.</p>
+          <p class="parrafo">La Comisión Gestora ejercerá las funciones de gobierno precisas para la organización y puesta en funcionamiento de la nueva Universidad y el desarrollo de sus actividades académicas y administrativas. Estará formada por un Presidente, que habrá de ser Catedrático de Universidad, y un máximo de siete vocales, todos ellos nombrados por el Ministro de Educación y Ciencia.</p>
+          <p class="parrafo">Corresponden al Presidente de la Comisión Gestora, en el ámbito de la autonomía que a ésta se reconoce, las funciones que la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, atribuye al Rector, como máxima autoridad académica de la Universidad.</p>
+          <p class="parrafo">b) Consejo de Administración.</p>
+          <p class="parrafo">El Consejo de Administración ejercerá las funciones económicas y presupuestarias que la legislación atribuye al Consejo Social de la Universidad. Estará presidido por el Secretario de Estado de Universidades e Investigación y formarán parte del mismo el Director general de Enseñanza Superior y un representante del Consejo de Gobierno de la Comunidad Autónoma, ambos como Vicepresidentes, supliendo el primero de ellos al Presidente en caso de ausencia; dos por el Ministerio de Educación y Ciencia, uno de los cuales, funcionario de dicho Ministerio, actuará de Secretario; dos por la Comisión Gestora; uno por la Diputación Provincial de Burgos y uno por el Ayuntamiento de Burgos, elegidos ambos por sus respectivos Plenos.</p>
+          <p class="parrafo">c) Consejo Asesor.</p>
+          <p class="parrafo">Una vez que la Universidad inicie sus actividades se constituirá un Consejo Asesor que ejercerá funciones de comunicación y cooperación entre las diferentes estructuras universitarias, y de asesoramiento de la Comisión Gestora. Estará presidido por el Presidente de la Comisión Gestora y formarán parte del mismo representantes de los departamentos, centros y estamentos universitarios, incluidos los centros adscritos, en el número que establezca la referida Comisión.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Disposición transitoria tercera. Normativa singular.</p>
+          <p class="parrafo">En el plazo de un año, a partir de la publicación de la presente Ley, el Gobierno, a propuesta del Ministro de Educación y Ciencia, oída la Comisión Gestora de la Universidad de Burgos, determinará la restante normativa singular reguladora de la actividad de la Universidad hasta la aprobación de los Estatutos.</p>
+        </version>
+      </bloque>
+      <bloque id="dtcuaa" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Disposición transitoria cuarta. Estatutos.</p>
+          <p class="parrafo">En el plazo máximo de cinco años desde el inicio de las actividades académicas, la Universidad procederá a la elección del Claustro Universitario Constituyente. Este elegirá al Rector y elaborará, seguidamente, los Estatutos de la Universidad, en el plazo máximo de un año a partir de su constitución. Si, transcurrido dicho plazo, la Universidad no hubiera sometido sus Estatutos a la aprobación del Gobierno, éste promulgará unos Estatutos provisionales.</p>
+        </version>
+      </bloque>
+      <bloque id="dfunica" tipo="precepto" titulo="Disposición final única">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="articulo">Disposición final única. Entrada en vigor y desarrollo de la Ley.</p>
+          <p class="parrafo">1. Se autoriza al Gobierno y a los Ministros de Educación y Ciencia y de Economía y Hacienda para dictar, en la esfera de sus competencias, las disposiciones precisas para la aplicación y desarrollo de lo dispuesto en la presente Ley, así como para transferir a la Universidad de Burgos, a medida que ésta asuma la responsabilidad de las actividades de su competencia, hasta el momento desarrolladas por la Universidad de Valladolid, los créditos tanto de operaciones corrientes como de capital, asignados a tales actividades en los Presupuestos de Gastos vigentes en cada momento.</p>
+          <p class="parrafo">2. La presente Ley entrará en vigor el día siguiente al de su publicación en el &lt;Boletín Oficial del Estado&gt;.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1994-12118" fecha_publicacion="19940527" fecha_vigencia="19940528">
+          <p class="parrafo_2">Por tanto,</p>
+          <p class="parrafo">Mando a todos los españoles, particulares y autoridades que guarden y hagan guardar esta Ley.</p>
+          <p class="parrafo_2">Madrid, 26 de mayo de 1994.</p>
+          <p class="firma_rey">JUAN CARLOS R.</p>
+          <p class="firma_ministro">El Presidente del Gobierno,</p>
+          <p class="firma_ministro">FELIPE GONZÁLEZ MÁRQUEZ</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

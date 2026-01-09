@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T180328Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-4974</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8100">Comunidad Autónoma de la Región de Murcia</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19980803</fecha_disposicion>
+      <numero_oficial>5/1998</numero_oficial>
+      <titulo>Ley 5/1998, de 3 de agosto, de Creación de la Universidad Politécnica de Cartagena.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990302</fecha_publicacion>
+      <diario_numero>52</diario_numero>
+      <fecha_vigencia>19980808</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-mc/l/1998/08/03/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-4974</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="7076">Universidad Politécnica de Cartagena</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOMU núm. 182, de 8 de agosto de 1998.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-23432</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Ley Orgánica 11/1983, de 25 de agosto</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-15031</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 30.dos del Estatuto aprobado por Ley Orgánica 4/1982, de 9 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4974</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-08-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7076"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4974</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-08-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7076"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/con/19980808"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/1998, de 3 de agosto, de Creación de la Universidad Politécnica de Cartagena.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-03-02</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/con/19980808">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-mc"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1999-4974</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-08-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7076"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-08-08</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/con/19980808/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 5/1998, de 3 de agosto, de Creación de la Universidad Politécnica de Cartagena.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/con/19980808"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-mc/l/1998/08/03/5/con/19980808/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-mc/l/1998/08/03/5/con/19980808/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:is_another_publication_of rdf:resource="https://www.borm.es/eli/es-mc/l/1998/08/03/5"/>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos de la Región de Murcia que la Asamblea Regional ha aprobado la Ley 5/1998, de 3 de agosto, de Creación de la Universidad Politécnica de Cartagena.</p>
+          <p class="parrafo">Por consiguiente, al amparo del artículo 30.dos del Estatuto de Autonomía, en nombre del Rey, promulgo y ordeno la publicación de la siguiente Ley.</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">En los países democráticos, las Universidades se configuran como lugares de encuentro de personas interesadas primordialmente en el libre ejercicio del pensamiento creador, de la reflexión crítica y del diálogo encaminado a profundizar en los saberes. En el espíritu de acrecentar dichos ámbitos de libertad educativa e investigadora, la presente Ley crea la Universidad Politécnica de Cartagena.</p>
+          <p class="parrafo">Esta Ley de Creación de la Universidad Politécnica de Cartagena tiene su origen en la Resolución del Pleno de la Asamblea Regional de septiembre de 1997, que instaba al Gobierno Regional a su presentación, ante la Cámara Legislativa, en 1998.</p>
+          <p class="parrafo">Representa ello un paso importante en la evolución histórica de las enseñanzas superiores en Cartagena, que se inició con la promulgación, en 1883, de la Real Orden fundacional de la Escuela de Capataces de Minas y Maquinistas. La Universidad de Murcia ha jugado un importante papel en dicha evolución desde 1973 hasta el momento actual, en el que se imparten en el campus de Cartagena 17 títulos universitarios y estudian más de 5.000 alumnos.</p>
+          <p class="parrafo">Con la creación de la Universidad Politécnica de Cartagena, la Asamblea de la Región de Murcia, tras la transferencia de competencias en materia de Universidades en 1995, recogidas en el artículo 16 del Estatuto de Autonomía, modificado al efecto, ejerce por vez primera su capacidad de crear Universidades, establecida en el artículo 5 de la Ley Orgánica 11/1983, de Reforma Universitaria, que concreta la delimitación de derechos y responsabilidades en materia universitaria entre el Estado, las Comunidades Autónomas y las propias Universidades.</p>
+          <p class="parrafo">La evolución experimentada en nuestra Comunidad Autónoma determina una necesidad creciente de cualificación técnica para atender las necesidades del desarrollo técnico y científico que han provocado una demanda social de formación universitaria. Esto determina que la Administración pública tenga que dar respuesta en el marco de enseñanza universitaria.</p>
+          <p class="parrafo">A esto responde la creación de la Universidad Politécnica de Cartagena, que se plantea como objetivos prioritarios atender las exigencias sociales de mayor cualificación técnica y atender la demanda social facilitando el acceso a la enseñanza superior y contribuyendo a mejorar la calidad de la enseñanza universitaria, en un marco de desarrollo global y coherente del sistema público de enseñanza superior, además de facilitar también el acceso al ejercicio del derecho a la educación recogido en el artículo 27.5 de la Constitución, mediante la prestación del servicio público de la enseñanza superior, a través de la docencia, la investigación y la extensión universitaria.</p>
+          <p class="parrafo">Ahora bien, el significado de la creación de la Universidad Politécnica de Cartagena no se agota en la culminación de la tradición universitaria de la ciudad de Cartagena, ni en la profundización en el ejercicio de las competencias políticas y organizativas de la Región de Murcia. Hay que añadir, como elemento esencial, la voluntad de los hombres y las mujeres de la Región de Murcia de dotarse de un instrumento que sirva para favorecer la innovación, asimilación y transferencia de tecnología a las empresas de la Región de Murcia y para mejorar la calidad de la docencia de las enseñanzas superiores existentes en Cartagena, encaminadas básicamente a formar profesionales eficaces. En este sentido, la creación de la Universidad Politécnica de Cartagena contribuirá al mejor ejercicio, en la Región de Murcia, del derecho de las personas a la educación y la cultura que la Constitución Española reconoce y protege.</p>
+          <p class="parrafo">La Universidad Politécnica de Cartagena nace en el seno de una sociedad cada vez más interconectada en lo cultural, lo económico, lo tecnológico y lo científico, tendencia general que se acentúa por el vigente proceso de integración de España en la Unión Europea. Por ello, aunque cuidando de vincular la Universidad Politécnica de Cartagena a la milenaria historia de la ciudad, es legítimo aspirar a que su ámbito de influencia se extienda a toda la Región de Murcia y aún más allá, previéndose que establezca conexiones docentes e investigadoras con Universidades nacionales y extranjeras, dentro del respeto a la autonomía universitaria, tal como la proclama la Constitución Española, esto es, como libertad de estudio, docencia e investigación.</p>
+          <p class="parrafo">Así, junto a los centros docentes de la Universidad Politécnica de Cartagena, la Universidad contará con institutos de investigación, así como se establecerán Convenios de colaboración con Universidades de la Unión Europea para que, en el marco de la legislación vigente, se impartan en Cartagena títulos universitarios europeos.</p>
+          <p class="parrafo">Una vez creada la Universidad Politécnica de Cartagena, la Región de Murcia pasa a contar con dos Universidades públicas, haciéndose necesario garantizar la coherencia y coordinación del nuevo sistema universitario de la Región, para lo que ésta es competente en los términos previstos en el artículo 3 de la Ley de Reforma Universitaria. Previsoramente, la Ley de Creación de la Universidad Politécnica de Cartagena establece las premisas de dicha coordinación, ya que dibuja un diseño de la Universidad Politécnica de Cartagena fundamentado en los principios de territorialidad y complementariedad con la Universidad de Murcia, evitando la interpenetración de los enclaves de ambas Universidades y especializando a la nueva Universidad en las enseñanzas técnicas. Estos principios se desarrollarán en la futura Ley de Coordinación del Sistema Universitario de la Región de Murcia.</p>
+          <p class="parrafo">Por otra parte, dada la complejidad de la actividad universitaria, que se refleja en las exigencias que para la creación de nuevas Universidades recoge la Ley de Reforma Universitaria, es necesario prever un marco normativo transitorio, cuya vigencia durará hasta que la Universidad Politécnica de Cartagena alcance su pleno funcionamiento en régimen ordinario de autonomía tras la aprobación de sus Estatutos. Para ello, se crean unos órganos provisionales de gobierno y participación, se distribuyen competencias y se regulan las imprescindibles transferencias de recursos humanos y materiales. Asimismo, para garantizar el normal funcionamiento de las actividades académicas y administrativas durante el primer curso académico tras la creación de la Universidad Politécnica de Cartagena, se establece una colaboración transitoria con la Universidad de Murcia.</p>
+          <p class="parrafo">Así, de acuerdo con las normas citadas y para alcanzar los objetivos descritos, la Asamblea de la Región de Murcia dispone:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Se crea la Universidad Politécnica de Cartagena, con sede en Cartagena, que goza de personalidad jurídica y patrimonio propio, y cuya actividad se regulará por lo establecido en la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria; por la presente Ley y sus disposiciones de desarrollo, y, en general, por cuantas normas de la Unión Europea, estatales y autonómicas sean de aplicación en materia universitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">Para la organización y gestión de las enseñanzas conducentes a la obtención de títulos académicos, la Universidad consta, inicialmente, de los siguientes centros:</p>
+          <p class="parrafo_2">Escuela Técnica Superior de Ingeniería Industrial.</p>
+          <p class="parrafo">Escuela Técnica Superior de Ingeniería Agronómica.</p>
+          <p class="parrafo">Escuela Técnica Superior de Ingeniería de Telecomunicación.</p>
+          <p class="parrafo">Escuela Universitaria de Ingeniería Técnica Civil.</p>
+          <p class="parrafo">Escuela Universitaria de Ingeniería Técnica Naval. Facultad de Ciencias de la Empresa.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">La Universidad Politécnica de Cartagena impartirá, inicialmente, las enseñanzas conducentes a la obtención de los siguientes títulos oficiales:</p>
+          <p class="parrafo_2">Escuela Técnica Superior de Ingeniería Industrial:</p>
+          <p class="parrafo_2">Ingeniero Industrial.</p>
+          <p class="parrafo">Ingeniero en Automática y Electrónica Industrial. Ingeniero en Organización Industrial.</p>
+          <p class="parrafo">Ingeniero Técnico Industrial, especialidad en Mecánica.</p>
+          <p class="parrafo">Ingeniero Técnico Industrial, especialidad en Electricidad.</p>
+          <p class="parrafo">Ingeniero Técnico Industrial, especialidad en Electrónica Industrial.</p>
+          <p class="parrafo">Ingeniero Técnico Industrial, especialidad en Química Industrial.</p>
+          <p class="parrafo_2">Escuela Técnica Superior de Ingeniería Agronómica:</p>
+          <p class="parrafo_2">Ingeniero Agrónomo.</p>
+          <p class="parrafo">Ingeniero Técnico Agrícola, especialidad en Industrias Agrarias y Alimentarias.</p>
+          <p class="parrafo">Ingeniero Técnico Agrícola, especialidad en Hortofruticultura y Jardinería.</p>
+          <p class="parrafo_2">Escuela Técnica Superior de Ingeniería de Telecomunicación:</p>
+          <p class="parrafo_2">Ingeniero de Telecomunicación.</p>
+          <p class="parrafo">Ingeniero Técnico de Telecomunicación, especialidad en Telemática.</p>
+          <p class="parrafo_2">Escuela Universitaria de Ingeniería Técnica Civil:</p>
+          <p class="parrafo_2">Ingeniero Técnico de Minas, especialidad en Explotación de Minas.</p>
+          <p class="parrafo">Ingeniero Técnico de Minas, especialidad en Mineralurgia y Metalurgia.</p>
+          <p class="parrafo">Ingeniero Técnico de Minas, especialidad en Recursos Energéticos, Combustibles y Explosivos.</p>
+          <p class="parrafo">Arquitecto Técnico.</p>
+          <p class="parrafo_2">Escuela Universitaria de Ingeniería Técnica Naval:</p>
+          <p class="parrafo_2">Ingeniero Técnico Naval, especialidad en Estructuras Marinas.</p>
+          <p class="parrafo_2">Facultad de Ciencias de la Empresa:</p>
+          <p class="parrafo_2">Licenciado en Administración y Dirección de Empresas.</p>
+          <p class="parrafo">Diplomado en Ciencias Empresariales.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">A partir de la entrada en vigor de las previsiones del Decreto de transferencias se integrarán en la Universidad Politécnica de Cartagena los siguientes centros y enseñanzas universitarias de la Universidad de Murcia existentes en Cartagena:</p>
+          <p class="parrafo_2">Escuela Técnica Superior de Ingenieros Industriales:</p>
+          <p class="parrafo_2">Ingeniero industrial.</p>
+          <p class="parrafo">Ingeniero en Automática y Electrónica Industrial.</p>
+          <p class="parrafo">Ingeniero técnico industrial, especialidad en Mecánica.</p>
+          <p class="parrafo">Ingeniero técnico industrial, especialidad en Electricidad.</p>
+          <p class="parrafo">Ingeniero técnico industrial, especialidad en Electrónica Industrial.</p>
+          <p class="parrafo">Ingeniero técnico industrial, especialidad en Química Industrial.</p>
+          <p class="parrafo_2">Escuela Técnica Superior de Ingenieros Agrónomos:</p>
+          <p class="parrafo_2">Ingeniero agrónomo.</p>
+          <p class="parrafo">Ingeniero técnico agrícola, especialidad en Industrias Agrarias y Alimentarias.</p>
+          <p class="parrafo">Ingeniero técnico agrícola, especialidad en Hortofruticultura y Jardinería.</p>
+          <p class="parrafo_2">Escuela Universitaria de Ingenieros Técnicos de Minas:</p>
+          <p class="parrafo_2">Ingeniero técnico de Minas, especialidad en Explotación de Minas.</p>
+          <p class="parrafo">Ingeniero técnico de Minas, especialidad en Mineralurgia y Metalurgia.</p>
+          <p class="parrafo">Ingeniero técnico de Minas, especialidad en Recursos Energéticos, Combustibles y Explosivos.</p>
+          <p class="parrafo_2">Escuela Universitaria de Ingenieros Técnicos Navales:</p>
+          <p class="parrafo_2">Ingeniero técnico naval, especialidad en Estructuras Marinas.</p>
+          <p class="parrafo_2">Escuela Universitaria de Ciencias Empresariales:</p>
+          <p class="parrafo_2">Diplomado en Ciencias Empresariales.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">En el momento de su integración:</p>
+          <p class="parrafo_2">1. La Escuela Técnica Superior de Ingenieros Industriales pasará a denominarse Escuela Técnica Superior de Ingeniería Industrial.</p>
+          <p class="parrafo">2. La Escuela Técnica Superior de Ingenieros Agrónomos pasará a denominarse Escuela Técnica Superior de Ingeniería Agronómica.</p>
+          <p class="parrafo">3. La Escuela Universitaria de Ciencias Empresariales se integrará en la Facultad de Ciencias de la Empresa.</p>
+          <p class="parrafo">4. La Escuela Universitaria de Ingenieros Técnicos de Minas se integrará en la Escuela Universitaria de Ingeniería Técnica Civil.</p>
+          <p class="parrafo">5. La Escuela Universitaria de Ingenieros Técnicos Navales pasará a denominarse Escuela Universitaria de Ingeniería Técnica Naval.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo_2">Se autoriza la adscripción a la Universidad Politécnica de Cartagena, mediante los correspondientes Convenios, de los siguientes centros y enseñanzas universitarias existentes en Cartagena, actualmente adscritas a la Universidad de Murcia:</p>
+          <p class="parrafo_2">Escuela Universitaria de Enfermería: Diplomado en Enfermería.</p>
+          <p class="parrafo">Escuela Universitaria de Relaciones Laborales: Diplomado en Relaciones Laborales.</p>
+          <p class="parrafo">Escuela Universitaria de Turismo: Diplomado en Turismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">Se crean los siguientes órganos colegiados provisionales de gobierno de la Universidad Politécnica de Cartagena:</p>
+          <p class="parrafo_2">Comisión Gestora, que desempeñará las funciones de gobierno necesarias para el inicio y desarrollo de las actividades de la nueva Universidad y las conducentes al ejercicio de la propia autonomía configurada por la Ley de Reforma Universitaria, así como las actuaciones correspondientes a las actividades académicas y administrativas.</p>
+          <p class="parrafo">Consejo de Participación Social, que asume las funciones económicas, presupuestarias y de supervisión que la legislación atribuye al Consejo Social.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">Se crean los siguientes órganos unipersonales provisionales de gobierno de la Universidad Politécnica de Cartagena:</p>
+          <p class="parrafo_2">Rector-Presidente de la Universidad, que asume las funciones que la legislación atribuye al Rector y deberá ser Catedrático de Universidad.</p>
+          <p class="parrafo">Secretario general de la Universidad, que asume las funciones que la legislación atribuye al Secretario general y deberá ser Profesor de Universidad.</p>
+          <p class="parrafo">Gerente de la Universidad, que asume las funciones que la legislación atribuye al Gerente y deberá ser un especialista de reconocida solvencia en gestión y financiación universitaria.</p>
+          <p class="parrafo">Presidente del Consejo de Participación Social, que asume las funciones que la legislación atribuye al Presidente del Consejo Social. No podrá ser miembro de la comunidad universitaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo">Asimismo, para auxiliar al Rector-Presidente en el gobierno de la Universidad, podrán nombrarse hasta cinco Vicepresidentes, que deberán ser Profesores de Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 10.</p>
+          <p class="parrafo">El Rector-Presidente y el Presidente del Consejo de Participación Social serán nombrados por el Consejo de Gobierno de la Región de Murcia, a propuesta del titular de la Consejería de Cultura y Educación. El Secretario general, el Gerente y los Vicepresidentes serán nombrados por el titular de la Consejería de Cultura y Educación, a propuesta del Rector-Presidente de la Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo_2">La Comisión Gestora estará integrada por el Rector-Presidente de la Universidad, el Secretario general, los Vicepresidentes, el Gerente, los Decanos y Directores de los centros e institutos universitarios, un representante de los Directores de departamentos universitarios, un representante del personal docente e investigador, un representante de los alumnos y un representante del personal de administración y servicios, todos ellos elegidos por sus sectores respectivos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 12.</p>
+          <p class="parrafo">El Consejo de Participación Social, cuyos miembros serán nombrados por el titular de la Consejería de Cultura y Educación, estará integrado por su Presidente y los siguientes Vocales:</p>
+          <p class="parrafo_2">El Rector-Presidente de la Universidad.</p>
+          <p class="parrafo">El Secretario general de la Universidad.</p>
+          <p class="parrafo">El Gerente de la Universidad.</p>
+          <p class="parrafo">Un Profesor de la Universidad, elegido por el personal docente adscrito a la misma.</p>
+          <p class="parrafo">Un alumno de la Universidad, elegido por los estudiantes matriculados en la misma.</p>
+          <p class="parrafo">Un miembro de la plantilla de personal de administración y servicios de la Universidad, elegido por el personal de este sector adscrito a la misma.</p>
+          <p class="parrafo">Un miembro, que no pertenezca a ninguna Universidad y que puede o no ser Concejal, designado por el Ayuntamiento de Cartagena.</p>
+          <p class="parrafo">Un miembro, que no pertenezca a ninguna Universidad, designado por la Cámara de Comercio, Navegación e Industria de Cartagena.</p>
+          <p class="parrafo">Tres miembros, que no pertenezcan a ninguna Universidad, designados por las organizaciones empresariales más representativas en la Región de Murcia.</p>
+          <p class="parrafo">Tres miembros, que no pertenezcan a ninguna Universidad, designados por las organizaciones sindicales más representativas en la Región de Murcia.</p>
+          <p class="parrafo">Dos miembros, que no pertenezcan a ninguna Universidad, designados por las entidades financieras, públicas o privadas más vinculadas al desarrollo de la Región de Murcia.</p>
+          <p class="parrafo">Cinco miembros, que no pertenezcan a ninguna Universidad y que pueden o no ser Diputados, designados por el Pleno de la Asamblea Regional, a propuesta de los grupos parlamentarios y reflejando la proporción de los mismos en la Cámara.</p>
+          <p class="parrafo">Tres miembros, que no pertenezcan a ninguna Universidad, designados por el Consejo de Gobierno de la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Artículo 13.</p>
+          <p class="parrafo">Hasta la aprobación de sus Estatutos, la Universidad Politécnica de Cartagena se regirá por una normativa provisional, que será elaborada por la Comisión Gestora y aprobada por el Consejo de Gobierno de la Región de Murcia, a propuesta del Consejo de Participación Social.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">Para coordinar el proceso de transferencias, y en tanto que la Universidad Politécnica de Cartagena alcance el pleno desarrollo de sus funciones en el curso 1999-2000, el Consejo de Gobierno nombrará al Rector-Presidente de la Universidad Politécnica de Cartagena antes del comienzo del próximo curso académico. Una vez entren en vigor las previsiones del Decreto de transferencias, dicho Rector-Presidente quedará en funciones hasta el nombramiento del Rector-Presidente definitivo.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo_2">Se crea una Comisión de Transferencias, presidida por el titular de la Consejería de Cultura y Educación o persona en quien delegue, de la que formarán parte el Director general de Universidades, cuatro miembros designados por la Universidad de Murcia y otros cuatro designados por la Universidad Politécnica de Cartagena. Esta Comisión deberá constituirse en el plazo máximo de tres meses desde la entrada en vigor de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">En el plazo máximo de seis meses a partir de su constitución, la Comisión de Transferencias elaborará la propuesta de los servicios, medios materiales y recursos humanos actualmente adscritos a la Universidad de Murcia que deben adscribirse a la Universidad Politécnica de Cartagena. Esta propuesta se elaborará desde el reconocimiento de los derechos adquiridos de los funcionarios de la Universidad de Murcia que puedan resultar afectados. En particular, del derecho a optar entre permanecer en la Universidad de Murcia o integrarse en la Universidad Politécnica de Cartagena.</p>
+          <p class="parrafo">La Consejería de Cultura y Educación elevará dicha propuesta al Consejo de Gobierno para su aprobación como Decreto de transferencias.</p>
+          <p class="parrafo">Transcurrido dicho plazo sin que haya propuesta de la Comisión, la Consejería de Cultura y Educación, en el plazo de un mes, elaborará y elevará al Consejo de Gobierno una propuesta.</p>
+        </version>
+      </bloque>
+      <bloque id="da-4" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición adicional cuarta.</p>
+          <p class="parrafo_2">El Consejo de Gobierno presentará ante la Asamblea Regional, en la primera quincena del próximo mes de septiembre, el plan presupuestario plurianual necesario para la realización de los proyectos de inversión que garanticen la implantación de la Universidad Politécnica de Cartagena, según lo previsto en la Memoria de Creación.</p>
+        </version>
+      </bloque>
+      <bloque id="da-5" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición adicional quinta.</p>
+          <p class="parrafo">Se crea el Consejo Asesor de Planificación Estratégica de la Universidad Politécnica de Cartagena. Integrado por un máximo de diez miembros, tendrá como Vocales natos al Rector-Presidente de la Universidad, al Presidente del Consejo de Participación Social y a los Rectores de las otras Universidades Politécnicas del Estado. El resto de los miembros será nombrado por el titular de la Consejería de Cultura y Educación. Este Consejo establecerá sus propias normas de funcionamiento y desarrollará su labor hasta la elección del claustro constituyente. Sus funciones serán las de asesorar en la proyección y desarrollo de la Universidad en aquellas cuestiones que le sean planteadas por la misma.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">A fin de garantizar el normal funcionamiento de la Universidad Politécnica de Cartagena durante su primer curso académico, se autoriza a todos los organismos implicados en las actividades académicas de las Universidades públicas de la Región de Murcia a que, recurriendo al procedimiento de urgencia si fuese oportuno y en los términos que establezcan las normas correspondientes, faciliten los trámites necesarios para la puesta en marcha de la Universidad Politécnica de Cartagena.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo_2">El nombramiento del Rector-Presidente de la Universidad y de los restantes miembros de la Comisión Gestora serán declarados en la situación administrativa que corresponda, según lo establecido en su normativa propia.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Los cargos electos, las autoridades académicas electas y los representantes de los diferentes colectivos universitarios del campus de Cartagena quedarán en funciones, en el ámbito de la nueva Universidad, a la entrada en vigor de las previsiones del Decreto de transferencias. A partir de ese momento, se procederá a la renovación de dichos cargos.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-4" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición transitoria cuarta.</p>
+          <p class="parrafo">En el plazo de seis meses desde la entrada en vigor de esta Ley, la Universidad Politécnica de Cartagena elaborará y remitirá al Consejo de Gobierno de la Región Murcia, para su aprobación, la normativa provisional de la Universidad.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-5" tipo="precepto" titulo="Disposición transitoria quinta">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición transitoria quinta.</p>
+          <p class="parrafo">Mientras no se aprueben los Estatutos de la Universidad Politécnica de Cartagena, la Consejería de Cultura y Educación ostentará las competencias que la Ley Orgánica 11/1983, de 25 de agosto, de Reforma Universitaria, atribuye a las Universidades, sin perjuicio de que los órganos provisionales creados por esta Ley ejerzan las funciones específicas que se les asignen en la misma y en la normativa que la desarrolle.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-6" tipo="precepto" titulo="Disposición transitoria sexta">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición transitoria sexta.</p>
+          <p class="parrafo">Finalizado el cuarto curso académico, la Universidad Politécnica de Cartagena procederá a la elección de su claustro constituyente. El claustro elegirá al Rector de la Universidad Politécnica de Cartagena antes de que finalice el siguiente curso académico y elaborará los Estatutos de la Universidad en el plazo máximo de un año a partir de la toma de posesión del Rector.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Se autoriza al Consejo de Gobierno de la Región de Murcia y a la Consejería de Cultura y Educación a dictar, en el ámbito de sus respectivas competencias, las normas precisas para cumplir y desarrollar lo previsto en la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La Universidad Politécnica de Cartagena, desde el momento de su creación, dispondrá de financiación con cargo a los presupuestos de la Región de Murcia, gozando de participación independiente en el presupuesto establecido para las enseñanzas universitarias en la Región de Murcia.</p>
+        </version>
+      </bloque>
+      <bloque id="df-3" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">Esta Ley entrará en vigor el día de su publicación en el «Boletín Oficial de la Región de Murcia».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1999-4974" fecha_publicacion="19980808" fecha_vigencia="19980808">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos a los que sea de aplicación esta Ley que la cumplan y a los Tribunales y autoridades que correspondan que la hagan cumplir.</p>
+          <p class="parrafo_2">Murcia, 3 de agosto de 1998.</p>
+          <p class="firma_ministro">RAMÓN LUIS VALCÁRCEL SISO,</p>
+          <p class="firma_ministro">Presidente</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>
