@@ -1,38 +1,20 @@
 """
-BOE (datosabiertos) — Descarga + parseo SOLO XML (ELI) + ingesta en Neo4j y Qdrant
+BOE (datosabiertos) — Descarga SOLO XML (ELI) con cache en disco
 
 Objetivo
 --------
 1) Partiendo de una lista de URLs XML (idealmente en formato ELI) o de identificadores BOE-A-XXXX-YYYYY,
    descargamos únicamente la representación XML (con HTTP condicional: ETag/Last-Modified).
-2) Parseamos el XML para extraer:
-   - metadatos del recurso (identificador, título, fechas)
-   - unidades de contenido (artículos/disposiciones) como "chunks" textuales
-3) Ingestamos:
-   - Neo4j: grafo documental (Document -> CONTAINS -> Unit)
-   - Qdrant: embeddings por chunk para RAG (payload con evidencia y metadatos)
+2) Guardamos el XML y la metadata (etag/last-modified/sha256) en disco para evitar descargas repetidas.
 
 Requisitos (pip)
 ----------------
-pip install aiohttp lxml qdrant-client neo4j
+pip install aiohttp lxml
 
 Variables de entorno recomendadas
 --------------------------------
 # Almacenamiento local
 export BOE_STORE_DIR="./boe_xml_store"
-
-# Neo4j
-export NEO4J_URI="neo4j://localhost:7687"
-export NEO4J_USER="neo4j"
-export NEO4J_PASSWORD="password"
-
-# Qdrant
-export QDRANT_URL="http://localhost:6333"
-export QDRANT_COLLECTION="boe_eli_chunks"
-
-# Embeddings (Ollama)
-export OLLAMA_BASE_URL="http://localhost:11434"
-export OLLAMA_EMBED_MODEL="nomic-embed-text"   # o el que uses
 
 Uso
 ---
@@ -42,11 +24,12 @@ Uso
 Nota importante
 ---------------
 - El XML de BOE puede venir con namespaces y estructuras variables; por eso el parseo usa XPath por local-name()
-  y heurísticas. Ajusta extract_units_from_xml() si tu XML concreto tiene tags más específicos.
+  en las funciones de catálogo. Ajusta parse_catalog_items_xml() si tu XML concreto tiene tags más específicos.
 """
 
 import asyncio
 import hashlib
+from functools import lru_cache
 import json
 import os
 from dataclasses import dataclass
@@ -54,11 +37,6 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import aiohttp
 from lxml import etree
-
-from neo4j import AsyncGraphDatabase
-from qdrant_client import QdrantClient
-from qdrant_client.http import models as qmodels
-
 
 # ----------------------------
 # Configuración general
@@ -80,10 +58,10 @@ _sem = asyncio.Semaphore(MAX_CONCURRENCY)
 _inflight: Dict[str, asyncio.Task] = {}
 _inflight_lock = asyncio.Lock()
 
-
 # ----------------------------
 # Persistencia (disco): data + meta
 # ----------------------------
+
 
 @dataclass
 class StoredMeta:
@@ -153,6 +131,7 @@ def save_xml(doc_id: str, data: bytes) -> None:
 # HTTP: fetch condicional + dedupe
 # ----------------------------
 
+
 @dataclass
 class FetchResult:
     url: str
@@ -164,7 +143,9 @@ class FetchResult:
     not_modified: bool = False
 
 
-async def fetch_one(session: aiohttp.ClientSession, url: str, meta: StoredMeta) -> FetchResult:
+async def fetch_one(
+    session: aiohttp.ClientSession, url: str, meta: StoredMeta
+) -> FetchResult:
     """
     Descarga una URL con soporte de HTTP condicional:
     - If-None-Match / If-Modified-Since
@@ -202,7 +183,9 @@ async def fetch_one(session: aiohttp.ClientSession, url: str, meta: StoredMeta) 
             )
 
 
-async def fetch_dedup(session: aiohttp.ClientSession, url: str, meta: StoredMeta) -> FetchResult:
+async def fetch_dedup(
+    session: aiohttp.ClientSession, url: str, meta: StoredMeta
+) -> FetchResult:
     """
     Dedupe por URL: si varias corrutinas piden el mismo recurso, solo hace un GET real.
     """
@@ -219,7 +202,9 @@ async def fetch_dedup(session: aiohttp.ClientSession, url: str, meta: StoredMeta
                 _inflight.pop(url, None)
 
 
-async def download_xml_if_changed(session: aiohttp.ClientSession, doc_id: str, url_xml: str) -> Optional[bytes]:
+async def download_xml_if_changed(
+    session: aiohttp.ClientSession, doc_id: str, url_xml: str
+) -> Optional[bytes]:
     """
     Descarga XML, lo persiste en disco solo si cambió (por ETag/LM o por hash).
     Devuelve bytes (si hay cambios) o None (si 304 o mismo sha256).
@@ -254,6 +239,7 @@ async def download_xml_if_changed(session: aiohttp.ClientSession, doc_id: str, u
 # Helpers: construir URL XML (ELI/BOE)
 # ----------------------------
 
+
 def normalize_doc_id(s: str) -> str:
     """
     Usamos doc_id como nombre de carpeta:
@@ -263,7 +249,12 @@ def normalize_doc_id(s: str) -> str:
     if s.startswith("BOE-"):
         return s
     # ELI u otras URIs: hash corto + prefijo
-    return "ELI-" + hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
+    return "ELI-" + sha1_hex(s)[:16]
+
+
+@lru_cache(maxsize=4096)
+def sha1_hex(text: str) -> str:
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()
 
 
 def build_boe_eli_xml_url(identificador_boe: str) -> str:
@@ -279,16 +270,6 @@ def build_boe_eli_xml_url(identificador_boe: str) -> str:
 # ----------------------------
 # Parseo XML (robusto a namespaces)
 # ----------------------------
-
-@dataclass
-class ParsedDocument:
-    doc_id: str                 # interno (carpeta)
-    source_url: str             # URL origen
-    eli_uri: Optional[str]      # URI ELI si aparece
-    boe_id: Optional[str]       # BOE-A-... si aparece
-    title: Optional[str]
-    dates: Dict[str, Optional[str]]
-    units: List[Dict[str, Any]]  # chunks: {unit_id, label, text, path}
 
 
 def _t(el: Optional[etree._Element]) -> Optional[str]:
@@ -309,376 +290,56 @@ def _first_xpath_text(root: etree._Element, xpath: str) -> Optional[str]:
     return str(found[0]).strip() if str(found[0]).strip() else None
 
 
-def extract_units_from_xml(root: etree._Element) -> List[Dict[str, Any]]:
-    """
-    Heurística para extraer “unidades” (artículos/disposiciones) como chunks:
-    - Busca nodos cuyo nombre local sea 'articulo'/'artículo'/'disposicion'/'disposición'/'anexo'
-    - Si no existen, cae a párrafos grandes por secciones.
-    Ajusta aquí cuando veas la estructura real del XML de BOE (es el punto que más se personaliza).
-    """
-    units: List[Dict[str, Any]] = []
-
-    # 1) Candidatos típicos
-    candidates = root.xpath(
-        "//*["
-        "translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')="
-        "'articulo' or "
-        "translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')="
-        "'disposicion' or "
-        "translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')="
-        "'anexo'"
-        "]"
-    )
-
-    for idx, el in enumerate(candidates, start=1):
-        label = (
-            _first_xpath_text(el, ".//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='titulo'][1]")
-            or _first_xpath_text(el, ".//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='rubrica'][1]")
-            or el.get("id")
-            or f"unit-{idx}"
-        )
-        text = _t(el)
-        if not text or len(text) < 30:
-            continue
-
-        units.append(
-            {
-                "unit_id": el.get("id") or f"u{idx}",
-                "label": label,
-                "text": text,
-                "path": root.getroottree().getpath(el),
-            }
-        )
-
-    # 2) Fallback si no hay “artículos/disposiciones” detectables
-    if not units:
-        # Agrupar por bloques grandes (por ejemplo, secciones/capitulos)
-        blocks = root.xpath(
-            "//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='seccion' or "
-            "translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='capitulo' or "
-            "translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='titulo']"
-        )
-        for idx, el in enumerate(blocks[:50], start=1):
-            text = _t(el)
-            if not text or len(text) < 200:
-                continue
-            units.append(
-                {
-                    "unit_id": el.get("id") or f"b{idx}",
-                    "label": _first_xpath_text(el, ".//*[1]") or f"block-{idx}",
-                    "text": text,
-                    "path": root.getroottree().getpath(el),
-                }
-            )
-
-    return units
-
-
-def parse_boe_xml(doc_id: str, source_url: str, xml_bytes: bytes) -> ParsedDocument:
-    """
-    Parsea XML y devuelve un modelo ParsedDocument listo para:
-    - upsert en Neo4j
-    - indexado en Qdrant
-    """
-    parser = etree.XMLParser(recover=True, huge_tree=True, remove_comments=True)
-    root = etree.fromstring(xml_bytes, parser=parser)
-
-    # Metadatos (heurísticos)
-    boe_id = _first_xpath_text(root, "//*[local-name()='identificador'][1]")
-    eli_uri = _first_xpath_text(root, "//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='uri'][1]")
-
-    # En muchos XML de BOE el título está en <titulo> o similar (ojo: puede haber muchos)
-    title = (
-        _first_xpath_text(root, "/*//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='titulo'][1]")
-        or _first_xpath_text(root, "/*//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='titulo_disposicion'][1]")
-        or _first_xpath_text(root, "/*//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='titulo'][1]")
-    )
-
-    dates = {
-        "fecha_disposicion": _first_xpath_text(root, "//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='fecha_disposicion'][1]"),
-        "fecha_publicacion": _first_xpath_text(root, "//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='fecha_publicacion'][1]"),
-        "fecha_vigencia": _first_xpath_text(root, "//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='fecha_vigencia'][1]"),
-        "fecha_actualizacion": _first_xpath_text(root, "//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='fecha_actualizacion'][1]"),
-    }
-
-    units = extract_units_from_xml(root)
-
-    return ParsedDocument(
-        doc_id=doc_id,
-        source_url=source_url,
-        eli_uri=eli_uri,
-        boe_id=boe_id,
-        title=title,
-        dates=dates,
-        units=units,
-    )
-
-
 # ----------------------------
-# Embeddings (Ollama) + Qdrant
+# Orquestación: descargar
 # ----------------------------
 
-class OllamaEmbedder:
-    """
-    Cliente mínimo para embeddings con Ollama:
-    POST /api/embeddings {"model":"...", "prompt":"..."}
-    """
-    def __init__(self, base_url: str, model: str, session: aiohttp.ClientSession):
-        self.base_url = base_url.rstrip("/")
-        self.model = model
-        self.session = session
-
-    async def embed(self, text: str) -> List[float]:
-        url = f"{self.base_url}/api/embeddings"
-        payload = {"model": self.model, "prompt": text}
-        async with self.session.post(url, json=payload, headers=DEFAULT_HEADERS) as r:
-            r.raise_for_status()
-            data = await r.json()
-            # Respuesta típica: {"embedding":[...]}
-            emb = data.get("embedding")
-            if not emb:
-                raise RuntimeError(f"Ollama no devolvió embedding. Respuesta: {data}")
-            return emb
-
-
-def qdrant_ensure_collection(client: QdrantClient, collection: str, vector_size: int) -> None:
-    """
-    Crea colección si no existe (o valida tamaño). Para simplicidad, si existe no tocamos.
-    """
-    existing = {c.name for c in client.get_collections().collections}
-    if collection in existing:
-        return
-    client.create_collection(
-        collection_name=collection,
-        vectors_config=qmodels.VectorParams(size=vector_size, distance=qmodels.Distance.COSINE),
-    )
-
-
-async def qdrant_upsert_document(
-    qdrant: QdrantClient,
-    collection: str,
-    doc: ParsedDocument,
-    embedder: OllamaEmbedder,
-) -> None:
-    """
-    Inserta/actualiza en Qdrant un punto por unidad (chunk).
-    ID determinista por (doc_id + unit_id).
-    """
-    # Embeddings: en RAG, conviene chunk size razonable.
-    # Aquí usamos la unidad completa; si te queda muy grande, añade un chunker adicional.
-    points: List[qmodels.PointStruct] = []
-
-    # Para crear colección necesitamos conocer tamaño del vector: lo medimos con la primera unidad.
-    if not doc.units:
-        return
-
-    first_vec = await embedder.embed(doc.units[0]["text"])
-    qdrant_ensure_collection(qdrant, collection, vector_size=len(first_vec))
-
-    # Punto 0
-    points.append(
-        qmodels.PointStruct(
-            id=int(hashlib.sha1(f"{doc.doc_id}::{doc.units[0]['unit_id']}".encode()).hexdigest()[:16], 16),
-            vector=first_vec,
-            payload={
-                "doc_id": doc.doc_id,
-                "boe_id": doc.boe_id,
-                "eli_uri": doc.eli_uri,
-                "title": doc.title,
-                "source_url": doc.source_url,
-                "unit_id": doc.units[0]["unit_id"],
-                "label": doc.units[0]["label"],
-                "path": doc.units[0]["path"],
-                "text": doc.units[0]["text"],
-                **{k: v for k, v in doc.dates.items() if v},
-            },
-        )
-    )
-
-    # Resto en serie (puedes paralelizar, pero ojo con rate-limit y RAM)
-    for u in doc.units[1:]:
-        vec = await embedder.embed(u["text"])
-        points.append(
-            qmodels.PointStruct(
-                id=int(hashlib.sha1(f"{doc.doc_id}::{u['unit_id']}".encode()).hexdigest()[:16], 16),
-                vector=vec,
-                payload={
-                    "doc_id": doc.doc_id,
-                    "boe_id": doc.boe_id,
-                    "eli_uri": doc.eli_uri,
-                    "title": doc.title,
-                    "source_url": doc.source_url,
-                    "unit_id": u["unit_id"],
-                    "label": u["label"],
-                    "path": u["path"],
-                    "text": u["text"],
-                    **{k: v for k, v in doc.dates.items() if v},
-                },
-            )
-        )
-
-    qdrant.upsert(collection_name=collection, points=points)
-
-
-# ----------------------------
-# Neo4j: grafo documental
-# ----------------------------
-
-NEO4J_CONSTRAINTS = [
-    "CREATE CONSTRAINT doc_doc_id IF NOT EXISTS FOR (d:Document) REQUIRE d.doc_id IS UNIQUE",
-    "CREATE CONSTRAINT unit_key IF NOT EXISTS FOR (u:Unit) REQUIRE u.key IS UNIQUE",
-]
-
-
-async def neo4j_init(driver) -> None:
-    async with driver.session() as s:
-        for c in NEO4J_CONSTRAINTS:
-            await s.run(c)
-
-
-async def neo4j_upsert_document(driver, doc: ParsedDocument) -> None:
-    """
-    Modelo de grafo:
-      (:Document {doc_id, boe_id, eli_uri, title, ...})-[:CONTAINS]->(:Unit {key, unit_id, label, path})
-    """
-    async with driver.session() as s:
-        await s.run(
-            """
-            MERGE (d:Document {doc_id: $doc_id})
-            SET d.boe_id = coalesce($boe_id, d.boe_id),
-                d.eli_uri = coalesce($eli_uri, d.eli_uri),
-                d.title = coalesce($title, d.title),
-                d.source_url = coalesce($source_url, d.source_url),
-                d.fecha_disposicion = coalesce($fecha_disposicion, d.fecha_disposicion),
-                d.fecha_publicacion = coalesce($fecha_publicacion, d.fecha_publicacion),
-                d.fecha_vigencia = coalesce($fecha_vigencia, d.fecha_vigencia),
-                d.fecha_actualizacion = coalesce($fecha_actualizacion, d.fecha_actualizacion)
-            """,
-            {
-                "doc_id": doc.doc_id,
-                "boe_id": doc.boe_id,
-                "eli_uri": doc.eli_uri,
-                "title": doc.title,
-                "source_url": doc.source_url,
-                **doc.dates,
-            },
-        )
-
-        # Unidades
-        for u in doc.units:
-            key = f"{doc.doc_id}::{u['unit_id']}"
-            await s.run(
-                """
-                MATCH (d:Document {doc_id: $doc_id})
-                MERGE (u:Unit {key: $key})
-                SET u.unit_id = $unit_id,
-                    u.label = $label,
-                    u.path = $path,
-                    u.text = $text
-                MERGE (d)-[:CONTAINS]->(u)
-                """,
-                {
-                    "doc_id": doc.doc_id,
-                    "key": key,
-                    "unit_id": u["unit_id"],
-                    "label": u["label"],
-                    "path": u["path"],
-                    "text": u["text"],
-                },
-            )
-
-
-# ----------------------------
-# Orquestación: descargar -> parsear -> ingestar
-# ----------------------------
 
 async def process_one_xml(
     session: aiohttp.ClientSession,
     url_xml: str,
     doc_id_hint: str,
-    neo4j_driver,
-    qdrant: QdrantClient,
-    qdrant_collection: str,
-    embedder: OllamaEmbedder,
 ) -> None:
     """
     Pipeline por documento:
       1) descarga condicional (solo si cambia)
-      2) parseo XML
-      3) upsert Neo4j
-      4) upsert Qdrant
     """
     doc_id = normalize_doc_id(doc_id_hint)
 
     xml_bytes = await download_xml_if_changed(session, doc_id, url_xml)
     if xml_bytes is None:
-        # Si ya lo tienes en disco y quieres reingestar, podrías cargarlo:
         dp = data_path(doc_id)
         if not os.path.exists(dp):
             return
-        with open(dp, "rb") as f:
-            xml_bytes = f.read()
-
-    parsed = parse_boe_xml(doc_id=doc_id, source_url=url_xml, xml_bytes=xml_bytes)
-
-    # Neo4j
-    await neo4j_upsert_document(neo4j_driver, parsed)
-
-    # Qdrant
-    await qdrant_upsert_document(qdrant, qdrant_collection, parsed, embedder)
+        return
 
 
 async def ingest_urls(urls: List[Tuple[str, str]]) -> None:
     """
-    Ingesta desde lista explícita:
+    Descarga desde lista explícita:
       urls = [(doc_id_hint, url_xml), ...]
     doc_id_hint puede ser BOE-A-... o uri ELI.
     """
-    # Neo4j config
-    neo4j_uri = os.getenv("NEO4J_URI", "neo4j://localhost:7687")
-    neo4j_user = os.getenv("NEO4J_USER", "neo4j")
-    neo4j_pass = os.getenv("NEO4J_PASSWORD", "password")
-
-    # Qdrant config
-    qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
-    qdrant_collection = os.getenv("QDRANT_COLLECTION", "boe_eli_chunks")
-
-    # Ollama embeddings config
-    ollama_base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-    ollama_model = os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text")
-
-    qdrant = QdrantClient(url=qdrant_url)
-    neo4j_driver = AsyncGraphDatabase.driver(neo4j_uri, auth=(neo4j_user, neo4j_pass))
-
     async with aiohttp.ClientSession(timeout=TIMEOUT) as session:
-        embedder = OllamaEmbedder(base_url=ollama_base_url, model=ollama_model, session=session)
-
-        # Inicializa Neo4j (constraints)
-        await neo4j_init(neo4j_driver)
-
-        # Procesa en paralelo (semaforizado por _sem dentro de fetch)
         tasks = [
             process_one_xml(
                 session=session,
                 url_xml=url_xml,
                 doc_id_hint=doc_id_hint,
-                neo4j_driver=neo4j_driver,
-                qdrant=qdrant,
-                qdrant_collection=qdrant_collection,
-                embedder=embedder,
             )
             for (doc_id_hint, url_xml) in urls
         ]
         await asyncio.gather(*tasks)
-
-    await neo4j_driver.close()
 
 
 # ----------------------------
 # (Opcional) Descubrir URLs desde el catálogo de legislación consolidada
 # ----------------------------
 
-async def fetch_leg_consolidada_catalog(session: aiohttp.ClientSession) -> Dict[str, Any]:
+
+async def fetch_leg_consolidada_catalog(
+    session: aiohttp.ClientSession,
+) -> Dict[str, Any]:
     """
     Descarga el catálogo (si tu endpoint devuelve XML/JSON con items).
     IMPORTANTE: el formato exacto puede variar; ajusta según lo que tú ya ves (tu <item> ...).
@@ -706,8 +367,12 @@ def parse_catalog_items_xml(xml_bytes: bytes) -> List[Dict[str, Any]]:
     items = []
     for item in root.xpath("//*[local-name()='item']"):
         identificador = _first_xpath_text(item, ".//*[local-name()='identificador'][1]")
-        uri = _first_xpath_text(item, ".//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='uri'][1]")
-        url_xml = _first_xpath_text(item, ".//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='url_xml'][1]")
+        uri = _first_xpath_text(
+            item, ".//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='uri'][1]"
+        )
+        url_xml = _first_xpath_text(
+            item, ".//*[translate(local-name(), 'ÁÉÍÓÚÜÑ', 'AEIOUUN')='url_xml'][1]"
+        )
 
         # Si el catálogo NO trae url_xml, la construimos por identificador (aproximación)
         if not url_xml and identificador:
@@ -758,4 +423,3 @@ if __name__ == "__main__":
     else:
         # Caso B) Descubrir desde catálogo (si tu endpoint devuelve <item> como el ejemplo)
         asyncio.run(ingest_from_catalog(limit=50))
-

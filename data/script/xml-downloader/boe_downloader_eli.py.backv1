@@ -1,0 +1,2272 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# pylint: disable=too-many-lines,line-too-long,too-many-locals,too-many-branches
+# pylint: disable=too-many-statements,too-many-arguments,too-many-positional-arguments
+# pylint: disable=missing-function-docstring,missing-class-docstring,broad-exception-caught
+# pylint: disable=import-outside-toplevel,c-extension-no-member
+
+"""
+boe_downloader_eli.py
+
+Refactor completo con:
+- Modo sumario (por fecha AAAAMMDD): descarga JSON/XML (misma URL, distinto
+  Accept) y opcional PDF si se proporciona.
+- Modo consolidada (por BOE-A-xxxx): primero lee la página HTML act.php?id=... y extrae:
+  - URLs ELI (base) para descargar JSON/XML usando Accept
+  - URL PDF distinta (termina en .pdf)
+- Selección de formatos: --formats xml,json,pdf
+- Guarda payloads en disco por sha256 y registra en Postgres:
+  - ingest.resource (snapshot por formato)
+  - ingest.attempt (histórico por intento)
+- Opción --ingest-xml para parsear el XML BOE y poblar boe.document + materias +
+  notas + referencias + texto estructurado.
+"""
+
+from __future__ import annotations
+
+import argparse
+import asyncio
+import hashlib
+import json
+import os
+import secrets
+import re
+import sys
+import time
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Set, Tuple, cast
+
+import aiohttp
+
+
+# -----------------------------
+# Config
+# -----------------------------
+
+DEFAULT_TIMEOUT_S = 60
+DEFAULT_RETRIES = 4
+DEFAULT_CONCURRENCY = 10
+DEFAULT_STORE = "./boe_store"
+DEFAULT_USER_AGENT = "boe-downloader-eli/1.0"
+
+SUMARIO_ENDPOINT = "https://www.boe.es/datosabiertos/api/boe/sumario/{fecha}"
+ACT_CONSOLIDADA_PAGE = "https://www.boe.es/buscar/act.php?id={boe_id}"
+LEGIS_CONS_ANALISIS_ENDPOINT = (
+    "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{boe_id}/analisis"
+)
+LEGIS_CONS_TEXTO_INDICE_ENDPOINT = "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{boe_id}/texto/indice"
+
+
+# -----------------------------
+# Helpers
+# -----------------------------
+
+
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def utc_now_dt() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def ensure_dir(p: Path) -> None:
+    p.mkdir(parents=True, exist_ok=True)
+
+
+def sha256_bytes(data: bytes) -> str:
+    h = hashlib.sha256()
+    h.update(data)
+    return h.hexdigest()
+
+
+def parse_retry_after(headers: Dict[str, str]) -> Optional[int]:
+    ra = headers.get("Retry-After") or headers.get("retry-after")
+    if not ra:
+        return None
+    try:
+        return int(ra.strip())
+    except Exception:
+        return None
+
+
+def jitter_sleep(base_s: float, attempt: int) -> float:
+    cap = min(60.0, base_s * (2**attempt))
+    return secrets.SystemRandom().uniform(base_s, cap)
+
+
+def guess_ext(fmt: str, content_type: Optional[str]) -> str:
+    fmt = fmt.lower()
+    if fmt in ("pdf", "json", "xml"):
+        return fmt
+    if content_type:
+        ct = content_type.lower()
+        if "pdf" in ct:
+            return "pdf"
+        if "json" in ct:
+            return "json"
+        if "xml" in ct:
+            return "xml"
+    return "bin"
+
+
+def text_from_node(node) -> str:
+    # para ElementTree: concat itertext
+    return "".join(node.itertext()).strip()
+
+
+# -----------------------------
+# Storage
+# -----------------------------
+
+
+@dataclass
+class Store:
+    root: Path
+
+    def payload_path(self, fmt: str, sha256: str, ext: str) -> Path:
+        d = self.root / fmt
+        ensure_dir(d)
+        return d / f"{sha256}.{ext}"
+
+    def meta_path(self, fmt: str, sha256: str) -> Path:
+        d = self.root / fmt
+        ensure_dir(d)
+        return d / f"{sha256}.meta.json"
+
+
+# -----------------------------
+# HTTP
+# -----------------------------
+
+
+@dataclass
+class FetchResult:  # pylint: disable=too-many-instance-attributes
+    ok: bool
+    status: Optional[int]
+    headers: Dict[str, str]
+    content_type: Optional[str]
+    content_length: Optional[int]
+    body: Optional[bytes]
+    error_type: Optional[str]
+    error_detail: Optional[str]
+    duration_ms: int
+
+
+async def fetch(
+    session: aiohttp.ClientSession,
+    url: str,
+    accept: Optional[str],
+    timeout_s: int,
+    etag: Optional[str] = None,
+    last_modified: Optional[str] = None,
+) -> FetchResult:
+    headers = {"User-Agent": DEFAULT_USER_AGENT}
+    if accept:
+        headers["Accept"] = accept
+    if etag:
+        headers["If-None-Match"] = etag
+    if last_modified:
+        headers["If-Modified-Since"] = last_modified
+
+    t0 = time.perf_counter()
+    try:
+        timeout = aiohttp.ClientTimeout(total=timeout_s)
+        async with session.get(
+            url,
+            headers=headers,
+            timeout=timeout,
+        ) as resp:
+            status = resp.status
+            resp_headers = dict(resp.headers.items())
+            ctype = resp_headers.get("Content-Type")
+            clen = resp_headers.get("Content-Length")
+            content_length = int(clen) if clen and clen.isdigit() else None
+
+            if status == 304:
+                dt = int((time.perf_counter() - t0) * 1000)
+                return FetchResult(
+                    True,
+                    status,
+                    resp_headers,
+                    ctype,
+                    content_length,
+                    None,
+                    None,
+                    None,
+                    dt,
+                )
+
+            body = await resp.read()
+            dt = int((time.perf_counter() - t0) * 1000)
+
+            if 200 <= status < 300:
+                return FetchResult(
+                    True, status, resp_headers, ctype, len(body), body, None, None, dt
+                )
+
+            return FetchResult(
+                False,
+                status,
+                resp_headers,
+                ctype,
+                len(body),
+                body,
+                "http_error",
+                f"HTTP {status}",
+                dt,
+            )
+
+    except asyncio.TimeoutError:
+        dt = int((time.perf_counter() - t0) * 1000)
+        return FetchResult(False, None, {}, None, None, None, "timeout", "Timeout", dt)
+    except aiohttp.ClientError as e:
+        dt = int((time.perf_counter() - t0) * 1000)
+        return FetchResult(
+            False, None, {}, None, None, None, "client_error", str(e), dt
+        )
+    except Exception as e:
+        dt = int((time.perf_counter() - t0) * 1000)
+        return FetchResult(False, None, {}, None, None, None, "exception", repr(e), dt)
+
+
+async def fetch_with_retries(
+    session: aiohttp.ClientSession,
+    url: str,
+    accept: Optional[str],
+    timeout_s: int,
+    retries: int,
+    use_conditional_headers: bool = True,
+) -> FetchResult:
+    base_sleep = 1.0
+    etag = None
+    last_modified = None
+
+    for attempt in range(retries + 1):
+        if not use_conditional_headers:
+            etag = None
+            last_modified = None
+        res = await fetch(
+            session,
+            url,
+            accept=accept,
+            timeout_s=timeout_s,
+            etag=etag,
+            last_modified=last_modified,
+        )
+
+        if use_conditional_headers and res.headers:
+            etag = res.headers.get("ETag") or etag
+            last_modified = res.headers.get("Last-Modified") or last_modified
+
+        if res.ok:
+            return res
+
+        status = res.status
+        if status in (429, 500, 502, 503, 504) or res.error_type in (
+            "timeout",
+            "client_error",
+        ):
+            if attempt >= retries:
+                return res
+            ra = parse_retry_after(res.headers)
+            sleep_s = ra if ra is not None else jitter_sleep(base_sleep, attempt)
+            await asyncio.sleep(sleep_s)
+            continue
+
+        return res
+
+    return res
+
+
+# -----------------------------
+# DB layer (asyncpg)
+# -----------------------------
+
+DB_UPSERT_RESOURCE = """
+INSERT INTO ingest.resource (source_kind, resource_key, url_xml, url_json, url_pdf)
+VALUES ($1,$2,$3,$4,$5)
+ON CONFLICT (source_kind, resource_key)
+DO UPDATE SET
+  url_xml  = COALESCE(EXCLUDED.url_xml,  ingest.resource.url_xml),
+  url_json = COALESCE(EXCLUDED.url_json, ingest.resource.url_json),
+  url_pdf  = COALESCE(EXCLUDED.url_pdf,  ingest.resource.url_pdf),
+  updated_at = now()
+RETURNING resource_id;
+"""
+
+DB_ATTEMPT_START = """
+INSERT INTO ingest.attempt (resource_id, format, request_url, accept_header, requested_at)
+VALUES ($1,$2,$3,$4, now())
+RETURNING attempt_id;
+"""
+
+DB_ATTEMPT_FINISH = """
+UPDATE ingest.attempt
+SET finished_at = now(),
+    duration_ms = $2,
+    http_status = $3,
+    response_headers = $4,
+    content_type = $5,
+    content_length = $6,
+    sha256 = $7,
+    storage_uri = $8,
+    error_type = $9,
+    error_detail = $10
+WHERE attempt_id = $1;
+"""
+
+DB_UPDATE_RESOURCE_FORMAT_SQL = {
+    "xml": """
+UPDATE ingest.resource
+SET xml_downloaded = $2,
+    xml_downloaded_at = $3,
+    xml_http_status = $4,
+    xml_sha256 = $5,
+    xml_storage_uri = $6,
+    xml_error = $7,
+    updated_at = now()
+WHERE resource_id = $1;
+""",
+    "json": """
+UPDATE ingest.resource
+SET json_downloaded = $2,
+    json_downloaded_at = $3,
+    json_http_status = $4,
+    json_sha256 = $5,
+    json_storage_uri = $6,
+    json_error = $7,
+    updated_at = now()
+WHERE resource_id = $1;
+""",
+    "pdf": """
+UPDATE ingest.resource
+SET pdf_downloaded = $2,
+    pdf_downloaded_at = $3,
+    pdf_http_status = $4,
+    pdf_sha256 = $5,
+    pdf_storage_uri = $6,
+    pdf_error = $7,
+    updated_at = now()
+WHERE resource_id = $1;
+""",
+}
+
+DB_UPDATE_RESOURCE_FORMAT_304_SQL = {
+    "xml": """
+UPDATE ingest.resource
+SET xml_downloaded = $2,
+    xml_downloaded_at = $3,
+    xml_http_status = $4,
+    updated_at = now()
+WHERE resource_id = $1;
+""",
+    "json": """
+UPDATE ingest.resource
+SET json_downloaded = $2,
+    json_downloaded_at = $3,
+    json_http_status = $4,
+    updated_at = now()
+WHERE resource_id = $1;
+""",
+    "pdf": """
+UPDATE ingest.resource
+SET pdf_downloaded = $2,
+    pdf_downloaded_at = $3,
+    pdf_http_status = $4,
+    updated_at = now()
+WHERE resource_id = $1;
+""",
+}
+
+
+def db_update_resource_format_sql(fmt: str) -> str:
+    if fmt not in DB_UPDATE_RESOURCE_FORMAT_SQL:
+        raise ValueError(f"Formato inválido: {fmt}")
+    return DB_UPDATE_RESOURCE_FORMAT_SQL[fmt]
+
+
+def db_update_resource_format_304_sql(fmt: str) -> str:
+    if fmt not in DB_UPDATE_RESOURCE_FORMAT_304_SQL:
+        raise ValueError(f"Formato inválido: {fmt}")
+    return DB_UPDATE_RESOURCE_FORMAT_304_SQL[fmt]
+
+
+# boe.* ingestion SQL (idempotente a nivel de documento)
+DB_UPSERT_BOE_DOCUMENT = """
+INSERT INTO boe.document (
+  boe_id, url_eli, url_html_consolidada,
+  xml_sha256, xml_storage_uri, content_type,
+  fecha_actualizacion_utc, ambito_codigo, ambito_texto,
+  departamento_codigo, departamento_texto,
+  rango_codigo, rango_texto,
+  fecha_disposicion, numero_oficial, titulo, diario,
+  fecha_publicacion, diario_numero, fecha_vigencia,
+  estatus_derogacion, estatus_anulacion, vigencia_agotada,
+  estado_consolidacion_codigo, estado_consolidacion_texto,
+  metadatos_raw, analisis_raw, metadata_eli_raw, texto_raw, xml_raw
+)
+VALUES (
+  $1,$2,$3,
+  $4,$5,$6,
+  $7,$8,$9,
+  $10,$11,
+  $12,$13,
+  $14,$15,$16,$17,
+  $18,$19,$20,
+  $21,$22,$23,
+  $24,$25,
+  $26::jsonb, $27::jsonb, $28::xml, $29::xml, $30::xml
+)
+ON CONFLICT (boe_id)
+DO UPDATE SET
+  url_eli = COALESCE(EXCLUDED.url_eli, boe.document.url_eli),
+  url_html_consolidada = COALESCE(EXCLUDED.url_html_consolidada, boe.document.url_html_consolidada),
+  xml_sha256 = EXCLUDED.xml_sha256,
+  xml_storage_uri = EXCLUDED.xml_storage_uri,
+  content_type = EXCLUDED.content_type,
+  fecha_actualizacion_utc = EXCLUDED.fecha_actualizacion_utc,
+  ambito_codigo = EXCLUDED.ambito_codigo,
+  ambito_texto = EXCLUDED.ambito_texto,
+  departamento_codigo = EXCLUDED.departamento_codigo,
+  departamento_texto = EXCLUDED.departamento_texto,
+  rango_codigo = EXCLUDED.rango_codigo,
+  rango_texto = EXCLUDED.rango_texto,
+  fecha_disposicion = EXCLUDED.fecha_disposicion,
+  numero_oficial = EXCLUDED.numero_oficial,
+  titulo = EXCLUDED.titulo,
+  diario = EXCLUDED.diario,
+  fecha_publicacion = EXCLUDED.fecha_publicacion,
+  diario_numero = EXCLUDED.diario_numero,
+  fecha_vigencia = EXCLUDED.fecha_vigencia,
+  estatus_derogacion = EXCLUDED.estatus_derogacion,
+  estatus_anulacion = EXCLUDED.estatus_anulacion,
+  vigencia_agotada = EXCLUDED.vigencia_agotada,
+  estado_consolidacion_codigo = EXCLUDED.estado_consolidacion_codigo,
+  estado_consolidacion_texto = EXCLUDED.estado_consolidacion_texto,
+  metadatos_raw = EXCLUDED.metadatos_raw,
+  analisis_raw = EXCLUDED.analisis_raw,
+  metadata_eli_raw = EXCLUDED.metadata_eli_raw,
+  texto_raw = EXCLUDED.texto_raw,
+  xml_raw = EXCLUDED.xml_raw
+RETURNING document_id;
+"""
+
+DB_DELETE_DOC_CHILDREN = """
+-- borra dependientes del documento para reinsertar limpio (idempotencia)
+DELETE FROM boe.document_materia WHERE document_id = $1;
+DELETE FROM boe.document_nota WHERE document_id = $1;
+DELETE FROM boe.document_referencia WHERE document_id = $1;
+DELETE FROM boe.text_block WHERE document_id = $1; -- cascada a version/unit por FK
+"""
+
+DB_UPSERT_MATERIA = """
+INSERT INTO boe.materia (materia_codigo, materia_texto)
+VALUES ($1,$2)
+ON CONFLICT (materia_codigo) DO UPDATE SET materia_texto = EXCLUDED.materia_texto;
+"""
+
+DB_INSERT_DOC_MATERIA = """
+INSERT INTO boe.document_materia (document_id, materia_codigo)
+VALUES ($1,$2)
+ON CONFLICT DO NOTHING;
+"""
+
+DB_INSERT_NOTA = """
+INSERT INTO boe.document_nota (document_id, ordinal, nota_texto)
+VALUES ($1,$2,$3)
+ON CONFLICT (document_id, ordinal) DO UPDATE SET nota_texto = EXCLUDED.nota_texto;
+"""
+
+DB_UPSERT_RELACION_TIPO = """
+INSERT INTO boe.relacion_tipo (relacion_codigo, relacion_texto)
+VALUES ($1,$2)
+ON CONFLICT (relacion_codigo) DO UPDATE SET relacion_texto = COALESCE(
+  EXCLUDED.relacion_texto,
+  boe.relacion_tipo.relacion_texto
+);
+"""
+
+DB_INSERT_REFERENCIA = """
+INSERT INTO boe.document_referencia (
+  document_id, direccion, ordinal, id_norma, relacion_codigo, relacion_texto, texto
+)
+VALUES ($1,$2,$3,$4,$5,$6,$7)
+ON CONFLICT (document_id, direccion, ordinal)
+DO UPDATE SET
+  id_norma = EXCLUDED.id_norma,
+  relacion_codigo = EXCLUDED.relacion_codigo,
+  relacion_texto = EXCLUDED.relacion_texto,
+  texto = EXCLUDED.texto;
+"""
+
+DB_INSERT_TEXT_BLOCK = """
+INSERT INTO boe.text_block (
+  document_id, block_key, block_tipo, block_titulo, parent_block_id, ordinal, attrs
+)
+VALUES ($1,$2,$3,$4,$5,$6,$7::jsonb)
+RETURNING block_id;
+"""
+
+DB_INSERT_TEXT_BLOCK_VERSION = """
+INSERT INTO boe.text_block_version (
+  block_id, id_norma, fecha_publicacion, fecha_vigencia, vigencia_desde, vigencia_hasta, attrs
+)
+VALUES ($1,$2,$3,$4,$5,$6,$7::jsonb)
+RETURNING version_id;
+"""
+
+DB_INSERT_TEXT_UNIT = """
+INSERT INTO boe.text_unit (
+  version_id, ordinal, p_class, text, text_raw, attrs
+)
+VALUES ($1,$2,$3,$4,$5::xml,$6::jsonb)
+ON CONFLICT (version_id, ordinal)
+DO UPDATE SET
+  p_class = EXCLUDED.p_class,
+  text = EXCLUDED.text,
+  text_raw = EXCLUDED.text_raw,
+  attrs = EXCLUDED.attrs;
+"""
+
+
+@dataclass
+class DbCtx:
+    pool: Any  # asyncpg pool
+
+    async def upsert_resource(
+        self,
+        source_kind: str,
+        resource_key: str,
+        url_xml: Optional[str],
+        url_json: Optional[str],
+        url_pdf: Optional[str],
+    ) -> str:
+        async with self.pool.acquire() as con:
+            return await con.fetchval(
+                DB_UPSERT_RESOURCE,
+                source_kind,
+                resource_key,
+                url_xml,
+                url_json,
+                url_pdf,
+            )
+
+    async def attempt_start(
+        self,
+        resource_id: str,
+        fmt: str,
+        request_url: str,
+        accept: Optional[str],
+    ) -> str:
+        async with self.pool.acquire() as con:
+            return await con.fetchval(
+                DB_ATTEMPT_START, resource_id, fmt, request_url, accept
+            )
+
+    async def attempt_finish(
+        self,
+        attempt_id: str,
+        duration_ms: int,
+        http_status: Optional[int],
+        headers: Dict[str, str],
+        content_type: Optional[str],
+        content_length: Optional[int],
+        sha256: Optional[str],
+        storage_uri: Optional[str],
+        error_type: Optional[str],
+        error_detail: Optional[str],
+    ) -> None:
+        async with self.pool.acquire() as con:
+            await con.execute(
+                DB_ATTEMPT_FINISH,
+                attempt_id,
+                duration_ms,
+                http_status,
+                json.dumps(headers or {}, ensure_ascii=False),
+                content_type,
+                content_length,
+                sha256,
+                storage_uri,
+                error_type,
+                error_detail,
+            )
+
+    async def update_resource_format(
+        self,
+        resource_id: str,
+        fmt: str,
+        ok: bool,
+        downloaded_at_iso: Optional[datetime],
+        http_status: Optional[int],
+        sha256: Optional[str],
+        storage_uri: Optional[str],
+        error: Optional[str],
+    ) -> None:
+        q = db_update_resource_format_sql(fmt)
+        async with self.pool.acquire() as con:
+            await con.execute(
+                q,
+                resource_id,
+                ok,
+                downloaded_at_iso,
+                http_status,
+                sha256,
+                storage_uri,
+                error,
+            )
+
+    async def update_resource_format_not_modified(
+        self,
+        resource_id: str,
+        fmt: str,
+        ok: bool,
+        downloaded_at_iso: Optional[datetime],
+        http_status: Optional[int],
+    ) -> None:
+        q = db_update_resource_format_304_sql(fmt)
+        async with self.pool.acquire() as con:
+            await con.execute(
+                q,
+                resource_id,
+                ok,
+                downloaded_at_iso,
+                http_status,
+            )
+
+    # boe.* ingestion
+    async def ingest_boe_xml(
+        self,
+        boe_id: str,
+        url_eli: Optional[str],
+        url_html: Optional[str],
+        xml_sha256: str,
+        xml_storage_uri: str,
+        content_type: Optional[str],
+        parsed: Dict[str, Any],
+    ) -> str:
+        """
+        parsed contiene:
+          metadatos_fields (dict), metadatos_raw (dict), analisis_raw (dict),
+          metadata_eli_raw (str xml), texto_raw (str xml), xml_raw (str xml),
+          materias(list), notas(list), referencias(list), texto_blocks(list)
+        """
+        md = parsed.get("metadatos_fields", {})
+        metadatos_raw = parsed.get("metadatos_raw", {})
+        analisis_raw = parsed.get("analisis_raw", {})
+        metadata_eli_raw = parsed.get("metadata_eli_raw", None)
+        texto_raw = parsed.get("texto_raw", None)
+        xml_raw = parsed.get("xml_raw", None)
+
+        async with self.pool.acquire() as con:
+            async with con.transaction():
+                doc_id = await con.fetchval(
+                    DB_UPSERT_BOE_DOCUMENT,
+                    boe_id,
+                    url_eli,
+                    url_html,
+                    xml_sha256,
+                    xml_storage_uri,
+                    content_type,
+                    md.get("fecha_actualizacion_utc"),
+                    md.get("ambito_codigo"),
+                    md.get("ambito_texto"),
+                    md.get("departamento_codigo"),
+                    md.get("departamento_texto"),
+                    md.get("rango_codigo"),
+                    md.get("rango_texto"),
+                    md.get("fecha_disposicion"),
+                    md.get("numero_oficial"),
+                    md.get("titulo"),
+                    md.get("diario"),
+                    md.get("fecha_publicacion"),
+                    md.get("diario_numero"),
+                    md.get("fecha_vigencia"),
+                    md.get("estatus_derogacion"),
+                    md.get("estatus_anulacion"),
+                    md.get("vigencia_agotada"),
+                    md.get("estado_consolidacion_codigo"),
+                    md.get("estado_consolidacion_texto"),
+                    json.dumps(metadatos_raw, ensure_ascii=False),
+                    json.dumps(analisis_raw, ensure_ascii=False),
+                    metadata_eli_raw,
+                    texto_raw,
+                    xml_raw,
+                )
+
+                # limpia hijos y reinsertamos
+                await con.execute(DB_DELETE_DOC_CHILDREN, doc_id)
+
+                # materias
+                for m in parsed.get("materias", []):
+                    await con.execute(DB_UPSERT_MATERIA, m["codigo"], m["texto"])
+                    await con.execute(DB_INSERT_DOC_MATERIA, doc_id, m["codigo"])
+
+                # notas
+                for i, n in enumerate(parsed.get("notas", []), start=1):
+                    await con.execute(DB_INSERT_NOTA, doc_id, i, n)
+
+                # referencias
+                for ref in parsed.get("referencias", []):
+                    # upsert tipo relación (si hay código)
+                    if ref.get("relacion_codigo"):
+                        await con.execute(
+                            DB_UPSERT_RELACION_TIPO,
+                            ref["relacion_codigo"],
+                            ref.get("relacion_texto"),
+                        )
+                    await con.execute(
+                        DB_INSERT_REFERENCIA,
+                        doc_id,
+                        ref["direccion"],
+                        ref["ordinal"],
+                        ref.get("id_norma"),
+                        ref.get("relacion_codigo"),
+                        ref.get("relacion_texto"),
+                        ref.get("texto"),
+                    )
+
+                # texto estructurado
+                # Construimos jerarquía por heurística (stack de encabezados)
+                parent_stack: List[Tuple[int, str]] = []  # (level, block_id)
+                key_to_block_id: Dict[str, str] = {}
+
+                for b in parsed.get("texto_blocks", []):
+                    # heurística nivel
+                    level = b.get("level", 99)
+                    # buscar parent por nivel (último con level < current)
+                    parent_id = None
+                    while parent_stack and parent_stack[-1][0] >= level:
+                        parent_stack.pop()
+                    if parent_stack:
+                        parent_id = parent_stack[-1][1]
+
+                    block_id = await con.fetchval(
+                        DB_INSERT_TEXT_BLOCK,
+                        doc_id,
+                        b["block_key"],
+                        b["block_tipo"],
+                        b.get("block_titulo"),
+                        parent_id,
+                        b["ordinal"],
+                        json.dumps(b.get("attrs", {}), ensure_ascii=False),
+                    )
+                    key_to_block_id[b["block_key"]] = block_id
+
+                    # push si es encabezado (nivel bajo)
+                    if level <= 10:
+                        parent_stack.append((level, block_id))
+
+                    # versiones
+                    for v in b.get("versions", []):
+                        version_id = await con.fetchval(
+                            DB_INSERT_TEXT_BLOCK_VERSION,
+                            block_id,
+                            v.get("id_norma") or boe_id,
+                            v.get("fecha_publicacion"),
+                            v.get("fecha_vigencia"),
+                            v.get("vigencia_desde"),
+                            v.get("vigencia_hasta"),
+                            json.dumps(v.get("attrs", {}), ensure_ascii=False),
+                        )
+                        # unidades
+                        for u in v.get("units", []):
+                            await con.execute(
+                                DB_INSERT_TEXT_UNIT,
+                                version_id,
+                                u["ordinal"],
+                                u.get("p_class"),
+                                u.get("text") or "",
+                                u.get("text_raw"),
+                                json.dumps(u.get("attrs", {}), ensure_ascii=False),
+                            )
+
+                return str(doc_id)
+
+
+# -----------------------------
+# Parsing HTML consolidada page
+# -----------------------------
+
+
+def extract_urls_from_act_html(
+    html: str, boe_id: Optional[str] = None
+) -> Tuple[Optional[str], Optional[str]]:
+    """
+    Devuelve:
+      - url_eli_base (para JSON/XML con Accept) : primera URL https://www.boe.es/eli/...
+      - url_pdf : primera URL que termina en .pdf
+    Nota: la página puede contener varias. Ajustamos heurística:
+      - ELI: preferimos URLs que contengan /eli/
+      - PDF: preferimos URLs que terminen en .pdf y contengan boe.es
+    """
+    from urllib.parse import urljoin
+
+    import lxml.html
+
+    base_url = "https://www.boe.es"
+    urls: List[str] = []
+    try:
+        doc = lxml.html.fromstring(html)
+        for el in doc.iter():
+            href = (
+                el.get("href")
+                or el.get("data-href")
+                or el.get("data-url")
+                or el.get("src")
+            )
+            if href:
+                urls.append(urljoin(base_url, href))
+    except Exception:
+        urls = []
+
+    eli_candidates = [u for u in urls if "/eli/" in u and "boe.es" in u]
+    if boe_id:
+        boe_id_upper = boe_id.upper()
+        eli_boe = [u for u in eli_candidates if boe_id_upper in u.upper()]
+        if eli_boe:
+            eli_candidates = eli_boe
+    eli_strict = [u for u in eli_candidates if "/eli/id/" in u or "/eli/es/" in u]
+    if boe_id:
+        boe_id_upper = boe_id.upper()
+        eli_exact = [u for u in eli_strict if f"/{boe_id_upper}/" in u.upper()]
+        eli_strict = eli_exact or eli_strict
+    eli_candidates = eli_strict or eli_candidates
+    url_eli = eli_candidates[0] if eli_candidates else None
+
+    pdf_candidates = [u for u in urls if u.lower().endswith(".pdf")]
+    if boe_id:
+        boe_id_upper = boe_id.upper()
+        pdf_candidates = [
+            u for u in pdf_candidates if boe_id_upper in u.upper()
+        ] or pdf_candidates
+    pdf_prefs = [u for u in pdf_candidates if "/pdfs" in u.lower()]
+    if boe_id:
+        boe_id_upper = boe_id.upper()
+        pdf_exact = [u for u in pdf_prefs if boe_id_upper in u.upper()]
+        pdf_prefs = pdf_exact or pdf_prefs
+    pdf_candidates = pdf_prefs or pdf_candidates
+    pdf_candidates = sorted(
+        pdf_candidates, key=lambda u: (0 if "boe.es" in u else 1, len(u))
+    )
+    url_pdf = pdf_candidates[0] if pdf_candidates else None
+
+    if not url_eli or not url_pdf:
+        eli_rx = re.findall(
+            r"https?://www\.boe\.es/eli/[^\s\"'<>]+",
+            html,
+            flags=re.IGNORECASE,
+        )
+        if not url_eli and eli_rx:
+            if boe_id:
+                boe_id_upper = boe_id.upper()
+                eli_rx = [u for u in eli_rx if boe_id_upper in u.upper()] or eli_rx
+            eli_rx = [u for u in eli_rx if "/eli/id/" in u or "/eli/es/" in u] or eli_rx
+            if boe_id:
+                boe_id_upper = boe_id.upper()
+                eli_exact = [u for u in eli_rx if f"/{boe_id_upper}/" in u.upper()]
+                eli_rx = eli_exact or eli_rx
+            url_eli = eli_rx[0]
+        pdf_rx = re.findall(r"https?://[^\s\"'<>]+\.pdf", html, flags=re.IGNORECASE)
+        if not url_pdf and pdf_rx:
+            if boe_id:
+                boe_id_upper = boe_id.upper()
+                pdf_rx = [u for u in pdf_rx if boe_id_upper in u.upper()] or pdf_rx
+            pdf_rx = [u for u in pdf_rx if "/pdfs" in u.lower()] or pdf_rx
+            if boe_id:
+                boe_id_upper = boe_id.upper()
+                pdf_exact = [u for u in pdf_rx if boe_id_upper in u.upper()]
+                pdf_rx = pdf_exact or pdf_rx
+            pdf_rx = sorted(pdf_rx, key=lambda u: (0 if "boe.es" in u else 1, len(u)))
+            url_pdf = pdf_rx[0]
+
+    return url_eli, url_pdf
+
+
+# -----------------------------
+# XML parsing for boe.*
+# -----------------------------
+
+
+def parse_boe_xml_to_model(xml_bytes: bytes) -> Dict[str, Any]:
+    """
+    Parse básico con lxml:
+    - metadatos_fields + raw dict
+    - analisis_raw dict
+    - materias, notas, referencias
+    - texto_blocks con versiones y unidades
+    - metadata_eli_raw / texto_raw / xml_raw como strings XML (lossless)
+    """
+    import lxml.etree as ET
+
+    root = ET.fromstring(xml_bytes)
+    ns: Dict[str, str] = {}
+    if isinstance(root.tag, str) and root.tag.startswith("{"):
+        ns_uri = root.tag.split("}")[0].strip("{")
+        ns = {"n": ns_uri}
+
+    def q(path: str) -> str:
+        if path.startswith("./"):
+            path = path[2:]
+        if not ns:
+            return path
+        return "/".join(f"n:{p}" for p in path.split("/"))
+
+    def find_node(node, path: str):
+        return node.find(q(path), namespaces=ns)
+
+    def xpath_first(node, path: str):
+        res = node.xpath(path)
+        return res[0] if res else None
+
+    data_node = xpath_first(root, "//*[local-name()='data']")
+    md_node = None
+    anal_node = None
+
+    local_path_cache: Dict[str, str] = {}
+
+    def local_path_from(path: str) -> str:
+        cached = local_path_cache.get(path)
+        if cached:
+            return cached
+        tokens = [p for p in path.split("/") if p and p != "."]
+        local_path = ".//*" + "".join([f"/*[local-name()='{t}']" for t in tokens])
+        local_path_cache[path] = local_path
+        return local_path
+
+    def find_text_node(node, path: str) -> Optional[str]:
+        val = node.findtext(q(path), namespaces=ns)
+        if not val:
+            el = xpath_first(node, local_path_from(path))
+            if isinstance(el, str):
+                val = el
+            elif el is not None:
+                val = el.text
+        return val.strip() if val else None
+
+    def find_text(path: str, scope=None) -> Optional[str]:
+        node = scope if scope is not None else root
+        el = node.find(q(path), namespaces=ns)
+        if el is None:
+            el = xpath_first(node, local_path_from(path))
+        return el.text.strip() if el is not None and el.text else None
+
+    def parse_date_yyyymmdd(s: Optional[str]) -> Optional[str]:
+        if not s:
+            return None
+        s = s.strip()
+        if len(s) == 8 and s.isdigit():
+            return f"{s[0:4]}-{s[4:6]}-{s[6:8]}"
+        return None
+
+    def parse_ts_utc(s: Optional[str]) -> Optional[str]:
+        # ejemplo: 20251219T133017Z
+        if not s:
+            return None
+        s = s.strip()
+        try:
+            dt = datetime.strptime(s, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc)
+            return dt.isoformat()
+        except Exception:
+            return None
+
+    # metadatos
+    md_node = find_node(root, "data/metadatos")
+    if md_node is None and data_node is not None:
+        md_node = xpath_first(data_node, ".//*[local-name()='metadatos']")
+    metadatos_fields: Dict[str, Any] = {}
+    metadatos_raw: Dict[str, Any] = {}
+
+    if md_node is not None:
+        for child in md_node:
+            tag = ET.QName(child).localname
+            txt = child.text.strip() if child.text else ""
+            # guarda raw
+            item = {"text": txt}
+            if child.attrib:
+                item["attrs"] = dict(child.attrib)
+            metadatos_raw[tag] = item
+
+        # campos “hot”
+        metadatos_fields["fecha_actualizacion_utc"] = parse_ts_utc(
+            find_text("fecha_actualizacion", md_node)
+        )
+        ambito_node = find_node(md_node, "ambito")
+        if ambito_node is None:
+            ambito_node = md_node.find(".//*[local-name()='ambito']")
+        metadatos_fields["ambito_codigo"] = (
+            ambito_node.attrib.get("codigo") if ambito_node is not None else None
+        )
+        metadatos_fields["ambito_texto"] = find_text("ambito", md_node)
+        dept_node = find_node(md_node, "departamento")
+        if dept_node is None:
+            dept_node = md_node.find(".//*[local-name()='departamento']")
+        metadatos_fields["departamento_codigo"] = (
+            dept_node.attrib.get("codigo") if dept_node is not None else None
+        )
+        metadatos_fields["departamento_texto"] = find_text("departamento", md_node)
+        rango_node = find_node(md_node, "rango")
+        if rango_node is None:
+            rango_node = md_node.find(".//*[local-name()='rango']")
+        metadatos_fields["rango_codigo"] = (
+            rango_node.attrib.get("codigo") if rango_node is not None else None
+        )
+        metadatos_fields["rango_texto"] = find_text("rango", md_node)
+        metadatos_fields["fecha_disposicion"] = parse_date_yyyymmdd(
+            find_text("fecha_disposicion", md_node)
+        )
+        metadatos_fields["numero_oficial"] = find_text("numero_oficial", md_node)
+        metadatos_fields["titulo"] = find_text("titulo", md_node)
+        metadatos_fields["diario"] = find_text("diario", md_node)
+        metadatos_fields["fecha_publicacion"] = parse_date_yyyymmdd(
+            find_text("fecha_publicacion", md_node)
+        )
+        metadatos_fields["diario_numero"] = find_text("diario_numero", md_node)
+        metadatos_fields["fecha_vigencia"] = parse_date_yyyymmdd(
+            find_text("fecha_vigencia", md_node)
+        )
+        metadatos_fields["estatus_derogacion"] = find_text(
+            "estatus_derogacion", md_node
+        )
+        metadatos_fields["estatus_anulacion"] = find_text("estatus_anulacion", md_node)
+        metadatos_fields["vigencia_agotada"] = find_text("vigencia_agotada", md_node)
+        ec = find_node(md_node, "estado_consolidacion")
+        if ec is None:
+            ec = md_node.find(".//*[local-name()='estado_consolidacion']")
+        metadatos_fields["estado_consolidacion_codigo"] = (
+            ec.attrib.get("codigo") if ec is not None else None
+        )
+        metadatos_fields["estado_consolidacion_texto"] = (
+            ec.text.strip() if ec is not None and ec.text else None
+        )
+
+    # analisis
+    anal_node = find_node(root, "data/analisis")
+    if anal_node is None and data_node is not None:
+        anal_node = xpath_first(data_node, ".//*[local-name()='analisis']")
+    analisis_raw: Dict[str, Any] = {}
+    materias: List[Dict[str, str]] = []
+    notas: List[str] = []
+    referencias: List[Dict[str, Any]] = []
+
+    if anal_node is not None:
+        # materias
+        for m in anal_node.findall(q("materias/materia"), namespaces=ns):
+            materias.append(
+                {
+                    "codigo": m.attrib.get("codigo", ""),
+                    "texto": (m.text or "").strip(),
+                }
+            )
+        if not materias:
+            for m in anal_node.findall(
+                ".//*[local-name()='materias']/*[local-name()='materia']"
+            ):
+                materias.append(
+                    {
+                        "codigo": m.attrib.get("codigo", ""),
+                        "texto": (m.text or "").strip(),
+                    }
+                )
+        # notas
+        for n in anal_node.findall(q("notas/nota"), namespaces=ns):
+            notas.append((n.text or "").strip())
+        if not notas:
+            for n in anal_node.findall(
+                ".//*[local-name()='notas']/*[local-name()='nota']"
+            ):
+                notas.append((n.text or "").strip())
+        # referencias
+        for dir_tag, direccion in [
+            ("anteriores", "anterior"),
+            ("posteriores", "posterior"),
+        ]:
+            refs_node = find_node(anal_node, f"referencias/{dir_tag}")
+            if refs_node is None:
+                refs_node = xpath_first(
+                    anal_node,
+                    f".//*[local-name()='referencias']/*[local-name()='{dir_tag}']",
+                )
+            items = list(refs_node) if refs_node is not None else []
+            ordinal = 0
+            for it in items:
+                ordinal += 1
+                id_norma = find_text_node(it, "id_norma") or None
+                rel = find_node(it, "relacion")
+                if rel is None:
+                    rel = it.find(".//*[local-name()='relacion']")
+                relacion_codigo = rel.attrib.get("codigo") if rel is not None else None
+                relacion_texto = (rel.text or "").strip() if rel is not None else None
+                texto = find_text_node(it, "texto") or None
+                referencias.append(
+                    {
+                        "direccion": direccion,
+                        "ordinal": ordinal,
+                        "id_norma": id_norma,
+                        "relacion_codigo": relacion_codigo,
+                        "relacion_texto": relacion_texto,
+                        "texto": texto,
+                    }
+                )
+
+        # raw general
+        analisis_raw["materias"] = materias
+        analisis_raw["notas"] = notas
+        analisis_raw["referencias"] = referencias
+
+    # metadata-eli raw (subtree)
+    # Nota: ElementTree no preserva namespaces exactos al serializar, pero sirve
+    # como "lossless aproximado".
+    metadata_eli_node = find_node(root, "data/metadata-eli")
+    if metadata_eli_node is None and data_node is not None:
+        metadata_eli_node = xpath_first(data_node, ".//*[local-name()='metadata-eli']")
+    metadata_eli_raw = (
+        ET.tostring(metadata_eli_node, encoding="unicode")
+        if metadata_eli_node is not None
+        else None
+    )
+
+    # texto raw y estructura
+    texto_node = find_node(root, "data/texto")
+    if texto_node is None and data_node is not None:
+        texto_node = xpath_first(data_node, ".//*[local-name()='texto']")
+    texto_raw = (
+        ET.tostring(texto_node, encoding="unicode") if texto_node is not None else None
+    )
+
+    # bloques
+    texto_blocks: List[Dict[str, Any]] = []
+    if texto_node is not None:
+        ordinal_b = 0
+        bloques = list(texto_node.findall(q("bloque"), namespaces=ns))
+        if not bloques:
+            bloques = list(texto_node.findall(".//*[local-name()='bloque']"))
+
+        for bloque in bloques:
+            ordinal_b += 1
+            block_key = bloque.attrib.get("id") or f"b{ordinal_b}"
+            block_tipo = bloque.attrib.get("tipo") or "unknown"
+            block_titulo = bloque.attrib.get("titulo")
+
+            # nivel heurístico (encabezados primero)
+            titulo_u = (block_titulo or "").upper()
+            if "TÍTULO" in titulo_u:
+                level = 1
+            elif "CAPÍTULO" in titulo_u:
+                level = 2
+            elif "SECCIÓN" in titulo_u:
+                level = 3
+            elif block_tipo == "encabezado":
+                level = 4
+            else:
+                level = 10
+
+            block = {
+                "block_key": block_key,
+                "block_tipo": block_tipo,
+                "block_titulo": block_titulo,
+                "ordinal": ordinal_b,
+                "level": level,
+                "attrs": {
+                    k: v
+                    for k, v in bloque.attrib.items()
+                    if k not in ("id", "tipo", "titulo")
+                },
+                "versions": [],
+            }
+
+            versions = list(bloque.findall(q("version"), namespaces=ns))
+            if not versions:
+                versions = list(bloque.findall(".//*[local-name()='version']"))
+            for v in versions:
+                v_id_norma = v.attrib.get("id_norma")
+                fp = v.attrib.get("fecha_publicacion")
+                fv = v.attrib.get("fecha_vigencia")
+
+                version = {
+                    "id_norma": v_id_norma,
+                    "fecha_publicacion": parse_date_yyyymmdd(fp),
+                    "fecha_vigencia": parse_date_yyyymmdd(fv),
+                    "vigencia_desde": parse_date_yyyymmdd(fv),
+                    "vigencia_hasta": None,  # se puede calcular en fase 2
+                    "attrs": {
+                        k: val
+                        for k, val in v.attrib.items()
+                        if k
+                        not in (
+                            "id_norma",
+                            "fecha_publicacion",
+                            "fecha_vigencia",
+                        )
+                    },
+                    "units": [],
+                }
+
+                units = list(v.findall(q("p"), namespaces=ns))
+                if not units:
+                    units = list(v.findall(".//*[local-name()='p']"))
+                ordinal_u = 0
+                for p in units:
+                    ordinal_u += 1
+                    version["units"].append(
+                        {
+                            "ordinal": ordinal_u,
+                            "p_class": p.attrib.get("class"),
+                            "text": text_from_node(p),
+                            "text_raw": ET.tostring(p, encoding="unicode"),
+                            "attrs": {
+                                k: val for k, val in p.attrib.items() if k != "class"
+                            },
+                        }
+                    )
+
+                block["versions"].append(version)
+
+            texto_blocks.append(block)
+
+    xml_raw_text = None
+    try:
+        xml_raw_text = xml_bytes.decode("utf-8", errors="replace")
+    except Exception:
+        xml_raw_text = None
+
+    return {
+        "metadatos_fields": metadatos_fields,
+        "metadatos_raw": metadatos_raw,
+        "analisis_raw": analisis_raw,
+        "materias": materias,
+        "notas": notas,
+        "referencias": referencias,
+        "metadata_eli_raw": metadata_eli_raw,
+        "texto_raw": texto_raw,
+        "xml_raw": xml_raw_text,
+        "texto_blocks": texto_blocks,
+    }
+
+
+# -----------------------------
+# Core download one format + DB
+# -----------------------------
+
+
+async def download_one_format(
+    *,
+    session: aiohttp.ClientSession,
+    db: Optional[DbCtx],
+    store: Store,
+    resource_id: str,
+    fmt: str,
+    url: str,
+    accept: Optional[str],
+    timeout_s: int,
+    retries: int,
+) -> Tuple[bool, Optional[str], Optional[str], Optional[str]]:
+    """
+    Descarga un formato y lo registra:
+    - guarda payload por sha256
+    - attempt start/finish
+    - update resource snapshot del formato
+
+    Returns: (ok, sha256, storage_uri, content_type)
+    """
+    attempt_id = None
+    t0 = time.perf_counter()
+
+    if db:
+        attempt_id = await db.attempt_start(resource_id, fmt, url, accept)
+
+    base_sleep = 1.0
+    etag = None
+    last_modified = None
+
+    for attempt in range(retries + 1):
+        status = None
+        headers: Dict[str, str] = {}
+        content_type = None
+        content_length = None
+        error_type = None
+        error_detail = None
+        try:
+            req_headers = {"User-Agent": DEFAULT_USER_AGENT}
+            if accept:
+                req_headers["Accept"] = accept
+            if etag:
+                req_headers["If-None-Match"] = etag
+            if last_modified:
+                req_headers["If-Modified-Since"] = last_modified
+
+            timeout = aiohttp.ClientTimeout(total=timeout_s)
+            async with session.get(
+                url,
+                headers=req_headers,
+                timeout=timeout,
+            ) as resp:
+                status = resp.status
+                headers = dict(resp.headers.items())
+                content_type = headers.get("Content-Type")
+                clen = headers.get("Content-Length")
+                content_length = int(clen) if clen and clen.isdigit() else None
+
+                etag = headers.get("ETag") or etag
+                last_modified = headers.get("Last-Modified") or last_modified
+
+                if status == 304:
+                    duration_ms = int((time.perf_counter() - t0) * 1000)
+                    if db and attempt_id:
+                        await db.attempt_finish(
+                            attempt_id,
+                            duration_ms,
+                            304,
+                            headers,
+                            content_type,
+                            content_length,
+                            None,
+                            None,
+                            None,
+                            None,
+                        )
+                        await db.update_resource_format_not_modified(
+                            resource_id,
+                            fmt,
+                            True,
+                            utc_now_dt(),
+                            304,
+                        )
+                    return True, None, None, content_type
+
+                if status < 200 or status >= 300:
+                    error_type = "http_error"
+                    error_detail = f"HTTP {status}"
+                else:
+                    if fmt == "json":
+                        ext = "json"
+                        tmp_name = f".tmp_{secrets.token_hex(8)}"
+                        tmp_path = store.root / fmt / tmp_name
+                        ensure_dir(tmp_path.parent)
+                        if content_type and "json" not in content_type.lower():
+                            if tmp_path.exists():
+                                tmp_path.unlink()
+                            error_type = "unexpected_content_type"
+                            error_detail = f"{content_type} (esperado JSON)"
+                            continue
+                        h = hashlib.sha256()
+                        bytes_read = 0
+                        try:
+                            with tmp_path.open("wb") as fh:
+                                async for chunk in resp.content.iter_chunked(64 * 1024):
+                                    if not chunk:
+                                        continue
+                                    h.update(chunk)
+                                    fh.write(chunk)
+                                    bytes_read += len(chunk)
+                        except Exception as exc:
+                            if tmp_path.exists():
+                                tmp_path.unlink()
+                            error_type = "stream_error"
+                            error_detail = str(exc)
+                        else:
+                            if (
+                                content_length is not None
+                                and bytes_read != content_length
+                            ):
+                                if tmp_path.exists():
+                                    tmp_path.unlink()
+                                error_type = "content_length_mismatch"
+                                error_detail = (
+                                    f"Expected {content_length}, got {bytes_read}"
+                                )
+                            else:
+                                digest = h.hexdigest()
+                                payload_path = store.payload_path(fmt, digest, ext)
+                                if payload_path.exists():
+                                    tmp_path.unlink()
+                                else:
+                                    tmp_path.replace(payload_path)
+
+                                meta = {
+                                    "fetched_at_utc": utc_now_iso(),
+                                    "url": url,
+                                    "format": fmt,
+                                    "sha256": digest,
+                                    "content_type": content_type,
+                                    "content_length": bytes_read,
+                                    "http_status": status,
+                                    "etag": headers.get("ETag"),
+                                    "last_modified": headers.get("Last-Modified"),
+                                }
+                                try:
+                                    store.meta_path(fmt, digest).write_text(
+                                        json.dumps(meta, ensure_ascii=False, indent=2),
+                                        encoding="utf-8",
+                                    )
+                                except Exception as exc:
+                                    print(
+                                        "Aviso: no se pudo escribir metadata para "
+                                        f"{fmt} ({digest}): {exc}",
+                                        file=sys.stderr,
+                                    )
+
+                                storage_uri = f"file://{payload_path.resolve()}"
+                                duration_ms = int((time.perf_counter() - t0) * 1000)
+                                if db and attempt_id:
+                                    await db.attempt_finish(
+                                        attempt_id,
+                                        duration_ms,
+                                        status,
+                                        headers,
+                                        content_type,
+                                        bytes_read,
+                                        digest,
+                                        storage_uri,
+                                        None,
+                                        None,
+                                    )
+                                    await db.update_resource_format(
+                                        resource_id,
+                                        fmt,
+                                        True,
+                                        utc_now_dt(),
+                                        status,
+                                        digest,
+                                        storage_uri,
+                                        None,
+                                    )
+                                return True, digest, storage_uri, content_type
+
+                    if not error_type:
+                        ext = guess_ext(fmt, content_type)
+                        tmp_name = f".tmp_{secrets.token_hex(8)}"
+                        tmp_path = store.root / fmt / tmp_name
+                        ensure_dir(tmp_path.parent)
+                        h = hashlib.sha256()
+                        bytes_read = 0
+                        try:
+                            with tmp_path.open("wb") as fh:
+                                async for chunk in resp.content.iter_chunked(64 * 1024):
+                                    if not chunk:
+                                        continue
+                                    h.update(chunk)
+                                    fh.write(chunk)
+                                    bytes_read += len(chunk)
+                        except Exception as exc:
+                            if tmp_path.exists():
+                                tmp_path.unlink()
+                            error_type = "stream_error"
+                            error_detail = str(exc)
+                        else:
+                            if (
+                                content_length is not None
+                                and bytes_read != content_length
+                            ):
+                                if tmp_path.exists():
+                                    tmp_path.unlink()
+                                error_type = "content_length_mismatch"
+                                error_detail = (
+                                    f"Expected {content_length}, got {bytes_read}"
+                                )
+                            else:
+                                digest = h.hexdigest()
+                                payload_path = store.payload_path(fmt, digest, ext)
+                                if payload_path.exists():
+                                    tmp_path.unlink()
+                                else:
+                                    tmp_path.replace(payload_path)
+
+                                meta = {
+                                    "fetched_at_utc": utc_now_iso(),
+                                    "url": url,
+                                    "format": fmt,
+                                    "sha256": digest,
+                                    "content_type": content_type,
+                                    "content_length": bytes_read,
+                                    "http_status": status,
+                                    "etag": headers.get("ETag"),
+                                    "last_modified": headers.get("Last-Modified"),
+                                }
+                                try:
+                                    store.meta_path(fmt, digest).write_text(
+                                        json.dumps(meta, ensure_ascii=False, indent=2),
+                                        encoding="utf-8",
+                                    )
+                                except Exception as exc:
+                                    print(
+                                        "Aviso: no se pudo escribir metadata para "
+                                        f"{fmt} ({digest}): {exc}",
+                                        file=sys.stderr,
+                                    )
+
+                                storage_uri = f"file://{payload_path.resolve()}"
+                                duration_ms = int((time.perf_counter() - t0) * 1000)
+                                if db and attempt_id:
+                                    await db.attempt_finish(
+                                        attempt_id,
+                                        duration_ms,
+                                        status,
+                                        headers,
+                                        content_type,
+                                        bytes_read,
+                                        digest,
+                                        storage_uri,
+                                        None,
+                                        None,
+                                    )
+                                    await db.update_resource_format(
+                                        resource_id,
+                                        fmt,
+                                        True,
+                                        utc_now_dt(),
+                                        status,
+                                        digest,
+                                        storage_uri,
+                                        None,
+                                    )
+                                return True, digest, storage_uri, content_type
+
+        except asyncio.TimeoutError:
+            error_type = "timeout"
+            error_detail = "Timeout"
+        except aiohttp.ClientError as exc:
+            error_type = "client_error"
+            error_detail = str(exc)
+        except Exception as exc:
+            error_type = "exception"
+            error_detail = repr(exc)
+
+        retryable = status in (429, 500, 502, 503, 504) or error_type in (
+            "timeout",
+            "client_error",
+            "stream_error",
+            "content_length_mismatch",
+        )
+        if retryable and attempt < retries:
+            ra = parse_retry_after(headers)
+            sleep_s = ra if ra is not None else jitter_sleep(base_sleep, attempt)
+            await asyncio.sleep(sleep_s)
+            continue
+
+        duration_ms = int((time.perf_counter() - t0) * 1000)
+        if db and attempt_id:
+            await db.attempt_finish(
+                attempt_id,
+                duration_ms,
+                status,
+                headers,
+                content_type,
+                content_length,
+                None,
+                None,
+                error_type,
+                error_detail,
+            )
+            await db.update_resource_format(
+                resource_id,
+                fmt,
+                False,
+                None,
+                status,
+                None,
+                None,
+                f"{error_type}: {error_detail}",
+            )
+        return False, None, None, content_type
+
+    return False, None, None, None
+
+
+# -----------------------------
+# Workflows
+# -----------------------------
+
+
+def parse_formats(s: str) -> Set[str]:
+    fmts = {x.strip().lower() for x in s.split(",") if x.strip()}
+    if not fmts:
+        raise argparse.ArgumentTypeError("Debes indicar al menos un formato.")
+    invalid = fmts - {"xml", "json", "pdf"}
+    if invalid:
+        raise argparse.ArgumentTypeError(f"Formatos inválidos: {sorted(invalid)}")
+    return fmts
+
+
+BOE_ID_RE = re.compile(r"\bBOE-A-\d{4}-\d+\b")
+
+
+def extract_boe_ids_from_sumario_schema(data: Any) -> List[str]:
+    # Esquema esperado (resumen): sumario/diario/seccion/departamento/epigrafe/item -> item.id
+    def walk_path(obj: Any, keys: List[str]) -> List[Any]:
+        if not keys:
+            if isinstance(obj, list):
+                return obj
+            return [obj]
+        key = keys[0]
+        rest = keys[1:]
+        if isinstance(obj, dict):
+            if key in obj:
+                return walk_path(obj[key], rest)
+            return []
+        if isinstance(obj, list):
+            out: List[Any] = []
+            for it in obj:
+                out.extend(walk_path(it, keys))
+            return out
+        return []
+
+    paths = [
+        ["sumario", "diario", "seccion", "departamento", "epigrafe", "item"],
+        ["diario", "seccion", "departamento", "epigrafe", "item"],
+    ]
+    found_list: List[str] = []
+    found_seen: Set[str] = set()
+
+    def add_ids_in_order(items: List[Any]) -> None:
+        for it in items:
+            if isinstance(it, dict):
+                for key in ("id", "identificador"):
+                    val = it.get(key)
+                    if isinstance(val, str):
+                        val = val.strip()
+                        if BOE_ID_RE.fullmatch(val) and val not in found_seen:
+                            found_seen.add(val)
+                            found_list.append(val)
+
+    for p in paths:
+        items = walk_path(data, p)
+        add_ids_in_order(items)
+
+    return found_list
+
+
+def extract_boe_ids_from_sumario_bytes(raw: bytes) -> Tuple[List[str], str]:
+    try:
+        import ijson  # type: ignore
+    except Exception:
+        return [], "no-ijson"
+
+    found_schema_list: List[str] = []
+    found_schema_seen: Set[str] = set()
+    found_any_list: List[str] = []
+    found_any_seen: Set[str] = set()
+    import io
+
+    def parse_stream(stream) -> None:
+        for prefix, event, value in ijson.parse(stream):
+            if event != "string":
+                continue
+            if not isinstance(value, str):
+                continue
+            if not BOE_ID_RE.fullmatch(value.strip()):
+                continue
+            val = value.strip()
+            if prefix.endswith(".item.id") or prefix.endswith(".item.identificador"):
+                if val not in found_schema_seen:
+                    found_schema_seen.add(val)
+                    found_schema_list.append(val)
+            elif prefix.endswith(".id") or prefix.endswith(".identificador"):
+                if val not in found_any_seen:
+                    found_any_seen.add(val)
+                    found_any_list.append(val)
+
+    try:
+        parse_stream(io.BytesIO(raw))
+    except Exception:
+        try:
+            parse_stream(
+                io.TextIOWrapper(io.BytesIO(raw), encoding="utf-8", errors="replace")
+            )
+        except Exception:
+            return [], "parse-error"
+
+    if found_schema_list:
+        return found_schema_list, "schema-stream"
+    if found_any_list:
+        return found_any_list, "regex-stream"
+    return [], "empty"
+
+
+def extract_boe_ids_from_sumario_with_source(data: Any) -> Tuple[List[str], str]:
+    found = extract_boe_ids_from_sumario_schema(data)
+    if found:
+        return found, "schema"
+
+    found_text_list: List[str] = []
+    found_text_seen: Set[str] = set()
+
+    def walk_text(obj: Any) -> None:
+        if isinstance(obj, dict):
+            for v in obj.values():
+                walk_text(v)
+            return
+        if isinstance(obj, list):
+            for v in obj:
+                walk_text(v)
+            return
+        if isinstance(obj, str):
+            for m in BOE_ID_RE.findall(obj):
+                if m not in found_text_seen:
+                    found_text_seen.add(m)
+                    found_text_list.append(m)
+
+    walk_text(data)
+    return found_text_list, "regex"
+
+
+def extract_boe_ids_from_sumario(data: Any) -> List[str]:
+    ids, _ = extract_boe_ids_from_sumario_with_source(data)
+    return ids
+
+
+def normalize_boe_ids(raw_ids: List[str], source: str) -> List[str]:
+    cleaned: List[str] = []
+    seen: Set[str] = set()
+    for val in raw_ids:
+        val_norm = val.strip().upper()
+        if not val_norm:
+            continue
+        if val_norm in seen:
+            continue
+        seen.add(val_norm)
+        cleaned.append(val_norm)
+    invalid = [x for x in cleaned if not BOE_ID_RE.fullmatch(x)]
+    if invalid:
+        print(
+            f"Aviso: IDs inválidos descartados ({source}): {invalid[:5]}",
+            file=sys.stderr,
+        )
+        cleaned = [x for x in cleaned if BOE_ID_RE.fullmatch(x)]
+    return cleaned
+
+
+def extract_consolidada_urls_from_sumario_xml(
+    xml_bytes: bytes,
+) -> Tuple[List[str], Dict[str, Dict[str, str]]]:
+    import lxml.etree as ET
+    from urllib.parse import urljoin
+
+    def first_text(nodes: List[Any]) -> Optional[str]:
+        if not nodes:
+            return None
+        text_val = (getattr(nodes[0], "text", "") or "").strip()
+        return text_val or None
+
+    def pdf_text(el: Any) -> Optional[str]:
+        if list(el):
+            for child in el:
+                val = (getattr(child, "text", "") or "").strip()
+                if val:
+                    return val
+        val = (getattr(el, "text", "") or "").strip()
+        return val or None
+
+    boe_ids: List[str] = []
+    seen: Set[str] = set()
+    url_map: Dict[str, Dict[str, str]] = {}
+
+    root = ET.fromstring(xml_bytes)
+    items = cast(List[Any], root.xpath(".//*[local-name()='item']"))
+    for item in items:
+        boe_id = None
+        for tag in ("id", "identificador"):
+            el = cast(List[Any], item.xpath(f".//*[local-name()='{tag}']"))
+            text_val = first_text(el)
+            if text_val:
+                boe_id = text_val
+                break
+        if not boe_id:
+            continue
+        boe_id = boe_id.strip().upper()
+        if not BOE_ID_RE.fullmatch(boe_id):
+            continue
+        if boe_id not in seen:
+            seen.add(boe_id)
+            boe_ids.append(boe_id)
+
+        urls: Dict[str, str] = {}
+        url_nodes = cast(
+            List[Any], item.xpath(".//*[starts-with(local-name(), 'url')]")
+        )
+        for el in url_nodes:
+            tag = ET.QName(el).localname
+            if tag == "url_pdf":
+                val = pdf_text(el)
+                if val:
+                    urls[tag] = urljoin("https://www.boe.es", val)
+            else:
+                val = (getattr(el, "text", "") or "").strip()
+                if val:
+                    urls[tag] = urljoin("https://www.boe.es", val)
+        if urls:
+            url_map[boe_id] = urls
+
+    return boe_ids, url_map
+
+
+async def run_sumario(
+    args: argparse.Namespace, formats: Set[str], db: Optional[DbCtx], store: Store
+) -> None:
+    fecha = args.fecha
+    url = SUMARIO_ENDPOINT.format(fecha=fecha)
+
+    # URLs por formato
+    url_xml = url if "xml" in formats else None
+    url_json = url if "json" in formats else None
+    url_pdf = args.pdf_url if ("pdf" in formats) else None
+
+    # upsert resource
+    resource_id = "NO_DB"
+    if db:
+        resource_id = await db.upsert_resource(
+            "sumario_dia", fecha, url_xml, url_json, url_pdf
+        )
+
+    async with aiohttp.ClientSession() as session:
+        sem = asyncio.Semaphore(args.concurrency)
+
+        async def guarded(fmt: str, u: str, accept: Optional[str]) -> None:
+            async with sem:
+                await download_one_format(
+                    session=session,
+                    db=db,
+                    store=store,
+                    resource_id=resource_id,
+                    fmt=fmt,
+                    url=u,
+                    accept=accept,
+                    timeout_s=args.timeout,
+                    retries=args.retries,
+                )
+
+        tasks: List[asyncio.Task] = []
+        if "json" in formats:
+            tasks.append(asyncio.create_task(guarded("json", url, "application/json")))
+        if "xml" in formats:
+            tasks.append(asyncio.create_task(guarded("xml", url, "application/xml")))
+        if "pdf" in formats and url_pdf:
+            tasks.append(
+                asyncio.create_task(guarded("pdf", url_pdf, "application/pdf"))
+            )
+        if "pdf" in formats and not url_pdf:
+            print(
+                "Aviso: PDF solicitado en sumario pero no se proporcionó --pdf-url. Se omite PDF.",
+                file=sys.stderr,
+            )
+
+        if tasks:
+            await asyncio.gather(*tasks)
+
+
+async def run_consolidada(
+    args: argparse.Namespace, formats: Set[str], db: Optional[DbCtx], store: Store
+) -> None:
+    async with aiohttp.ClientSession() as session:
+        boe_ids: List[str] = []
+        url_map: Dict[str, Dict[str, str]] = {}
+        if args.ids:
+            boe_ids = normalize_boe_ids(
+                [x for x in args.ids.split(",") if x.strip()], "ids"
+            )
+        elif args.ids_file:
+            # archivo con una ID por línea o JSON array simple
+            p = Path(args.ids_file)
+            raw = p.read_text(encoding="utf-8", errors="replace").strip()
+            if raw.startswith("["):
+                data = json.loads(raw)
+                if not isinstance(data, list):
+                    raise SystemExit("El archivo JSON debe ser un array de IDs.")
+                boe_ids = [str(x).strip() for x in data if str(x).strip()]
+                boe_ids = normalize_boe_ids(boe_ids, "ids-file-json")
+            else:
+                boe_ids = normalize_boe_ids(
+                    [ln for ln in raw.splitlines() if ln.strip()],
+                    "ids-file-text",
+                )
+        elif args.fecha:
+            url = SUMARIO_ENDPOINT.format(fecha=args.fecha)
+            sumario_xml_res = await fetch_with_retries(
+                session,
+                url,
+                accept="application/xml",
+                timeout_s=args.timeout,
+                retries=args.retries,
+                use_conditional_headers=False,
+            )
+            if sumario_xml_res.ok and sumario_xml_res.body:
+                try:
+                    boe_ids, url_map = extract_consolidada_urls_from_sumario_xml(
+                        sumario_xml_res.body
+                    )
+                except Exception as exc:
+                    print(
+                        f"Aviso: sumario XML inválido; {exc}",
+                        file=sys.stderr,
+                    )
+            if not boe_ids:
+                sumario_json_res = await fetch_with_retries(
+                    session,
+                    url,
+                    accept="application/json",
+                    timeout_s=args.timeout,
+                    retries=args.retries,
+                    use_conditional_headers=False,
+                )
+                if not sumario_json_res.ok or not sumario_json_res.body:
+                    raise SystemExit(
+                        "No se pudo leer el sumario para obtener BOE-A-xxxx."
+                    )
+                boe_ids, source = extract_boe_ids_from_sumario_bytes(
+                    sumario_json_res.body
+                )
+                if not boe_ids:
+                    try:
+                        sumario_json = json.loads(
+                            sumario_json_res.body.decode("utf-8", errors="replace")
+                        )
+                    except Exception as exc:
+                        raise SystemExit(f"Sumario JSON inválido: {exc}") from exc
+                    boe_ids, source = extract_boe_ids_from_sumario_with_source(
+                        sumario_json
+                    )
+                if source not in ("schema", "schema-stream"):
+                    print(
+                        "Aviso: sumario JSON fuera de esquema esperado; usando "
+                        f"extracción por {source}.",
+                        file=sys.stderr,
+                    )
+            if not boe_ids:
+                raise SystemExit(
+                    "No se encontraron BOE-A-xxxx en el sumario de la fecha indicada."
+                )
+        else:
+            raise SystemExit("En consolidada debes indicar --ids, --ids-file o --fecha")
+
+        sem = asyncio.Semaphore(args.concurrency)
+
+        async def process_one(boe_id: str) -> None:
+            url_html = None
+            url_eli = None
+            url_pdf = None
+            url_xml = None
+            url_json = None
+
+            if boe_id in url_map:
+                entry = url_map[boe_id]
+                url_eli = entry.get("url_eli")
+                url_pdf = entry.get("url_pdf")
+                url_xml = entry.get("url_xml")
+                url_json = entry.get("url_json")
+                url_html = entry.get("url_html")
+
+            if args.fecha and not (url_eli or url_pdf or url_xml or url_json):
+                print(
+                    f"[{boe_id}] Aviso: sin URLs en sumario para este BOE.",
+                    file=sys.stderr,
+                )
+                return
+
+            if not url_eli and not url_pdf and not url_xml and not url_json:
+                url_html = ACT_CONSOLIDADA_PAGE.format(boe_id=boe_id)
+
+            if url_html:
+                # 1) leer HTML para extraer url_eli y url_pdf
+                async with sem:
+                    html_res = await fetch_with_retries(
+                        session,
+                        url_html,
+                        accept="text/html",
+                        timeout_s=args.timeout,
+                        retries=args.retries,
+                        use_conditional_headers=False,
+                    )
+                if not html_res.ok or not html_res.body:
+                    # registra como intento fallido "virtual" en ingest.attempt?
+                    # aqui no hay formato; lo dejamos en stderr.
+                    print(
+                        f"[{boe_id}] ERROR leyendo página de enlaces: "
+                        f"{html_res.error_type} {html_res.error_detail}",
+                        file=sys.stderr,
+                    )
+                    return
+
+                html_text = html_res.body.decode("utf-8", errors="replace")
+                url_eli, url_pdf = extract_urls_from_act_html(html_text, boe_id=boe_id)
+
+            if not url_xml and url_eli:
+                url_xml = url_eli
+            if not url_json:
+                url_json = None
+
+            # 2) upsert resource con urls encontradas
+            url_xml = url_xml if ("xml" in formats and url_xml) else None
+            url_json = url_json if ("json" in formats and url_json) else None
+            url_pdf2 = url_pdf if ("pdf" in formats and url_pdf) else None
+
+            resource_id = "NO_DB"
+            if db:
+                resource_id = await db.upsert_resource(
+                    "consolidada_id", boe_id, url_xml, url_json, url_pdf2
+                )
+
+            # 3) descargar formatos seleccionados
+            # JSON/XML: misma url_eli, distinto Accept
+            # PDF: url_pdf (termina en .pdf)
+            async def guarded(
+                fmt: str, u: str, accept: Optional[str]
+            ) -> Tuple[bool, Optional[str], Optional[str], Optional[str]]:
+                async with sem:
+                    return await download_one_format(
+                        session=session,
+                        db=db,
+                        store=store,
+                        resource_id=resource_id,
+                        fmt=fmt,
+                        url=u,
+                        accept=accept,
+                        timeout_s=args.timeout,
+                        retries=args.retries,
+                    )
+
+            # ejecutamos en paralelo los que se puedan
+            tasks: List[asyncio.Task] = []
+            xml_task = None
+
+            if "json" in formats:
+                print(
+                    f"[{boe_id}] Aviso: JSON en consolidada desactivado; "
+                    "los endpoints no devuelven JSON válido para estos BOE.",
+                    file=sys.stderr,
+                )
+
+            if "xml" in formats:
+                xml_url = url_xml or url_eli
+                if not xml_url:
+                    print(
+                        f"[{boe_id}] Aviso: XML solicitado pero no se encontró URL "
+                        "ELI en act.php",
+                        file=sys.stderr,
+                    )
+                else:
+                    xml_task = asyncio.create_task(
+                        guarded("xml", xml_url, "application/xml")
+                    )
+                    tasks.append(xml_task)
+
+            if "pdf" in formats:
+                if not url_pdf:
+                    print(
+                        f"[{boe_id}] Aviso: PDF solicitado pero no se encontró URL "
+                        ".pdf en act.php",
+                        file=sys.stderr,
+                    )
+                else:
+                    tasks.append(
+                        asyncio.create_task(guarded("pdf", url_pdf, "application/pdf"))
+                    )
+
+            if tasks:
+                await asyncio.gather(*tasks, return_exceptions=False)
+
+            # 4) si --ingest-xml, ingerir XML descargado en boe.*
+            if args.ingest_xml and xml_task is not None and db is not None:
+                ok, digest, storage_uri, ctype = await xml_task
+                if ok and digest and storage_uri:
+                    # leer bytes del archivo guardado
+                    ext = "xml"
+                    # reconstruimos la ruta igual que Store
+                    payload_path = store.payload_path("xml", digest, ext)
+                    if not payload_path.exists():
+                        # fallback: buscar cualquier extensión
+                        candidates = list((store.root / "xml").glob(f"{digest}.*"))
+                        if candidates:
+                            payload_path = candidates[0]
+                    xml_bytes = payload_path.read_bytes()
+
+                    parsed = parse_boe_xml_to_model(xml_bytes)
+
+                    # intenta deducir url_eli y url_html_consolidada
+                    await db.ingest_boe_xml(
+                        boe_id=boe_id,
+                        url_eli=url_eli,
+                        url_html=url_html,
+                        xml_sha256=digest,
+                        xml_storage_uri=storage_uri,
+                        content_type=ctype,
+                        parsed=parsed,
+                    )
+
+        if not boe_ids:
+            return
+
+        q: asyncio.Queue[Optional[str]] = asyncio.Queue()
+        for bid in boe_ids:
+            q.put_nowait(bid)
+
+        async def worker() -> None:
+            while True:
+                boe_id = await q.get()
+                try:
+                    if boe_id is None:
+                        return
+                    try:
+                        await process_one(boe_id)
+                    except Exception as exc:
+                        print(
+                            f"[{boe_id}] ERROR procesando: {exc}",
+                            file=sys.stderr,
+                        )
+                finally:
+                    q.task_done()
+
+        workers = min(args.concurrency, max(1, len(boe_ids)))
+        tasks = [asyncio.create_task(worker()) for _ in range(workers)]
+        await q.join()
+        for _ in tasks:
+            q.put_nowait(None)
+        await asyncio.gather(*tasks)
+
+
+# -----------------------------
+# CLI / main
+# -----------------------------
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        prog="boe_downloader_eli.py",
+        description=(
+            "Descarga BOE por fecha (sumario) o por consolidada (BOE-A-xxxx). "
+            "Registra en Postgres y guarda payloads por sha256."
+        ),
+    )
+    p.add_argument(
+        "--store",
+        default=DEFAULT_STORE,
+        help=f"Directorio base de almacenamiento. Default: {DEFAULT_STORE}",
+    )
+    p.add_argument(
+        "--timeout",
+        type=int,
+        default=DEFAULT_TIMEOUT_S,
+        help=f"Timeout total por request (s). Default: {DEFAULT_TIMEOUT_S}",
+    )
+    p.add_argument(
+        "--retries",
+        type=int,
+        default=DEFAULT_RETRIES,
+        help=f"Reintentos por URL (429/5xx/transitorios). Default: {DEFAULT_RETRIES}",
+    )
+    p.add_argument(
+        "--concurrency",
+        type=int,
+        default=DEFAULT_CONCURRENCY,
+        help=f"Concurrencia fija. Default: {DEFAULT_CONCURRENCY}",
+    )
+    p.add_argument(
+        "--formats",
+        type=parse_formats,
+        default={"xml"},
+        help="Formatos a descargar: xml,json,pdf (coma-separado). Default: xml",
+    )
+
+    p.add_argument(
+        "--db-dsn",
+        default=os.getenv("BOE_DB_DSN", ""),
+        help="DSN Postgres (asyncpg).",
+    )
+    p.add_argument(
+        "--no-db",
+        action="store_true",
+        help="No escribir en Postgres (solo descarga).",
+    )
+    p.add_argument(
+        "--ingest-xml",
+        action="store_true",
+        help="Si se descarga XML consolidado, parsea e inserta en boe.*",
+    )
+
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+    ps = sub.add_parser("sumario", help="Descarga sumario diario por fecha AAAAMMDD.")
+    ps.add_argument("--fecha", required=True, help="Fecha AAAAMMDD")
+    ps.add_argument(
+        "--pdf-url",
+        default=None,
+        help="URL PDF exacta del sumario (si quieres pdf en sumario).",
+    )
+
+    pc = sub.add_parser(
+        "consolidada",
+        help=(
+            "Descarga texto consolidado por BOE-A-xxxx (lee act.php para descubrir "
+            "URLs)."
+        ),
+    )
+    pc.add_argument(
+        "--ids", default=None, help="Lista separada por comas de BOE-A-xxxx."
+    )
+    pc.add_argument(
+        "--ids-file",
+        default=None,
+        help="Archivo con una BOE-A-xxxx por línea (o JSON array).",
+    )
+    pc.add_argument(
+        "--fecha",
+        default=None,
+        help="Fecha AAAAMMDD para obtener IDs desde el sumario.",
+    )
+
+    return p
+
+
+async def amain() -> int:
+    args = build_parser().parse_args()
+    date_re = re.compile(r"^\d{8}$")
+    if args.cmd == "sumario" and not date_re.fullmatch(args.fecha):
+        print("El valor de --fecha debe ser AAAAMMDD.", file=sys.stderr)
+        return 2
+    if args.cmd == "consolidada" and args.fecha and not date_re.fullmatch(args.fecha):
+        print("El valor de --fecha debe ser AAAAMMDD.", file=sys.stderr)
+        return 2
+    if args.cmd in ("sumario", "consolidada"):
+        fecha_val = args.fecha if args.cmd == "sumario" else (args.fecha or None)
+        if fecha_val:
+            try:
+                datetime.strptime(fecha_val, "%Y%m%d")
+            except ValueError:
+                print("El valor de --fecha no es una fecha valida.", file=sys.stderr)
+                return 2
+    if args.concurrency < 1:
+        print("El valor de --concurrency debe ser >= 1.", file=sys.stderr)
+        return 2
+    store = Store(Path(args.store))
+    ensure_dir(store.root)
+
+    db: Optional[DbCtx] = None
+    if not args.no_db:
+        if not args.db_dsn:
+            print("Falta --db-dsn o BOE_DB_DSN (o usa --no-db).", file=sys.stderr)
+            return 2
+        import asyncpg  # type: ignore[import-not-found,import-untyped]  # pylint: disable=import-error
+
+        pool = await asyncpg.create_pool(dsn=args.db_dsn, min_size=1, max_size=5)
+        db = DbCtx(pool=pool)
+
+    try:
+        if args.cmd == "sumario":
+            await run_sumario(args, args.formats, db, store)
+        elif args.cmd == "consolidada":
+            await run_consolidada(args, args.formats, db, store)
+        else:
+            raise RuntimeError(f"Comando no reconocido: {args.cmd}")
+        return 0
+    finally:
+        if db:
+            await db.pool.close()
+
+
+def main() -> None:
+    raise SystemExit(asyncio.run(amain()))
+
+
+if __name__ == "__main__":
+    main()

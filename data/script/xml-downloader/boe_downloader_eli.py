@@ -4,8 +4,10 @@ boe_downloader_eli.py
 
 Downloader/ingestor para BOE (orientado a ELI) con:
 
-- Descarga del catálogo de legislación consolidada (solo items con url_eli) y descarga del XML consolidado por doc_id.
-- Descarga del sumario BOE diario (AAAAMMDD) y descarga del XML de cada item (url_xml).
+- Descarga del catálogo de legislación consolidada (solo items con url_eli) y
+  descarga del XML consolidado por doc_id.
+- Descarga del sumario BOE diario (AAAAMMDD) y descarga del XML de cada item
+  (url_xml).
 - Caché HTTP condicional (ETag / Last-Modified) -> 304 no reescribe.
 - Manifest JSONL (index/) con run_id, status, hashes, etc.
 - Concurrencia fija o AUTO (AIMD) para adaptarse a rate limiting / saturación.
@@ -40,43 +42,61 @@ from __future__ import annotations
 
 import argparse
 import asyncio
-import email.utils
-import hashlib
 import json
 import os
-import random
 import re
-import time
-from dataclasses import dataclass, asdict
+import secrets
+import sys
+import webbrowser
+from dataclasses import dataclass
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import urljoin
+from typing import Any, Dict, List
 
-import aiofiles
-import aiofiles.os
+import aiofiles  # type: ignore[import-untyped]
+import aiofiles.os  # type: ignore[import-untyped]
 import aiohttp
+import asyncpg  # type: ignore[import-untyped]
 from aiohttp import ClientSession
+from rich.console import Console
 
+from boe_downloader_db import DbCtx
+from boe_downloader_parsing import (
+    extract_boe_ids_from_sumario_bytes,
+    extract_boe_ids_from_sumario_schema,
+    extract_boe_ids_from_sumario_with_source,
+    extract_sumario_item_urls,
+    extract_urls_from_act_html,
+    parse_boe_xml_to_model,
+)
+
+__all__ = [
+    "extract_boe_ids_from_sumario_bytes",
+    "extract_boe_ids_from_sumario_schema",
+    "extract_boe_ids_from_sumario_with_source",
+    "extract_urls_from_act_html",
+    "parse_boe_xml_to_model",
+]
+
+from boe_downloader_http import (
+    AdaptiveLimiter,
+    RunStats,
+    autotune_concurrency,
+    ensure_dirs,
+    fetch_with_cache,
+    paths_for_url,
+)
+from boe_downloader_pipeline import make_console, make_status_panel, run_queue_download
+from boe_downloader_web import WebState, start_web_server, stop_web_server
+
+
+BOE_ID_RE = re.compile(r"BOE-[A-Z]-\d{4}-\d+")
 
 # psutil es opcional: permite mostrar CPU/RAM en la barra de progreso.
 try:
-    import psutil  # type: ignore
-except Exception:  # pragma: no cover
-    psutil = None  # type: ignore
+    import psutil as psutil_module  # type: ignore
+except ImportError:  # pragma: no cover
+    psutil_module = None  # type: ignore
 
-from rich.console import Console
-from rich.live import Live
-from rich.progress import (
-    Progress,
-    BarColumn,
-    SpinnerColumn,
-    TextColumn,
-    TimeElapsedColumn,
-    TimeRemainingColumn,
-    MofNCompleteColumn,
-)
-from rich.table import Table
-from rich.panel import Panel
 
 BASE = "https://www.boe.es"
 SUMARIO_API = f"{BASE}/datosabiertos/api/boe/sumario"  # + /{fecha}
@@ -94,538 +114,18 @@ DEFAULT_CPU_HIGH_PCT = 85.0
 DEFAULT_CPU_LOW_PCT = 70.0
 
 
-def make_console(progress: bool) -> "Console":
-    """Create a Rich Console.
-
-    Some runners may not expose a real TTY even when running interactively.
-    If the user requested `--progress`, we force terminal rendering so the
-    progress UI is visible.
-    """
-    return Console(force_terminal=progress, force_interactive=progress)
-
-
-# -----------------------------
-# Persistencia (disco)
-# -----------------------------
-
-@dataclass
-class StoredMeta:
-    etag: Optional[str] = None
-    last_modified: Optional[str] = None
-    sha256: Optional[str] = None
-    content_type: Optional[str] = None
-    fetched_at_utc: Optional[str] = None
-
-
-def sha256_bytes(b: bytes) -> str:
-    return hashlib.sha256(b).hexdigest()
-
-async def stream_to_file_and_hash(resp, path: str, chunk_size: int = 1024 * 256) -> tuple[str, int]:
-    """Stream response body to disk while computing sha256, minimizing RAM usage.
-
-    Returns (sha256_hex, bytes_written).
-    """
-    h = hashlib.sha256()
-    n = 0
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    async with aiofiles.open(path, "wb") as f:
-        async for chunk in resp.content.iter_chunked(chunk_size):
-            if not chunk:
-                continue
-            h.update(chunk)
-            n += len(chunk)
-            await f.write(chunk)
-    return h.hexdigest(), n
-
-
-def ensure_dirs(store_dir: str) -> None:
-    os.makedirs(os.path.join(store_dir, "data"), exist_ok=True)
-    os.makedirs(os.path.join(store_dir, "meta"), exist_ok=True)
-    os.makedirs(os.path.join(store_dir, "index"), exist_ok=True)
-
-
-def url_key(url: str) -> str:
-    return hashlib.sha1(url.encode("utf-8")).hexdigest()
-
-
-def paths_for_url(store_dir: str, url: str) -> Tuple[str, str]:
-    k = url_key(url)
-    data_path = os.path.join(store_dir, "data", f"{k}.bin")
-    meta_path = os.path.join(store_dir, "meta", f"{k}.json")
-    return data_path, meta_path
-
-
-def index_path(store_dir: str, name: str) -> str:
-    return os.path.join(store_dir, "index", name)
-
-
-async def load_meta(meta_path: str) -> StoredMeta:
-    try:
-        if not await aiofiles.os.path.exists(meta_path):
-            return StoredMeta()
-        async with aiofiles.open(meta_path, "r", encoding="utf-8") as f:
-            return StoredMeta(**json.loads(await f.read()))
-    except Exception:
-        return StoredMeta()
-
-
-async def save_meta(meta_path: str, meta: StoredMeta) -> None:
-    os.makedirs(os.path.dirname(meta_path), exist_ok=True)
-    async with aiofiles.open(meta_path, "w", encoding="utf-8") as f:
-        await f.write(json.dumps(asdict(meta), ensure_ascii=False, indent=2))
-
-
-# -----------------------------
-# Errores y Retry-After
-# -----------------------------
-
-class RetryableHTTPError(RuntimeError):
-    def __init__(self, status: int, url: str, retry_after_s: float | None = None, msg: str | None = None):
-        super().__init__(msg or f"HTTP {status} retryable for {url}")
-        self.status = status
-        self.url = url
-        self.retry_after_s = retry_after_s
-
-
-class NonRetryableHTTPError(RuntimeError):
-    def __init__(self, status: int, url: str, msg: str | None = None):
-        super().__init__(msg or f"HTTP {status} for {url}")
-        self.status = status
-        self.url = url
-
-
-def parse_retry_after(value: str) -> float | None:
-    value = (value or "").strip()
-    if not value:
-        return None
-    if value.isdigit():
-        return float(value)
-    try:
-        dt = email.utils.parsedate_to_datetime(value)
-        if dt is None:
-            return None
-        if dt.tzinfo is None:
-            now = datetime.utcnow()
-            return max(0.0, (dt - now).total_seconds())
-        now = datetime.now(dt.tzinfo)
-        return max(0.0, (dt - now).total_seconds())
-    except Exception:
-        return None
-
-
-# -----------------------------
-# Métricas + Concurrencia AUTO (AIMD)
-# -----------------------------
-
-class RunStats:
-    def __init__(self) -> None:
-        self._lock = asyncio.Lock()
-        self.reset_window()
-        self.total_done = 0
-        self.total_ok = 0
-        self.total_skipped_304 = 0
-        self.total_errors = 0
-        self.total_http429 = 0
-        self.total_http5xx = 0
-        self.total_bytes = 0
-        self.max_concurrency_reached = 0
-        self.max_concurrency_configured = 0
-
-    def reset_window(self) -> None:
-        self.win_ok = 0
-        self.win_err = 0
-        self.win_429 = 0
-        self.win_5xx = 0
-        self.win_timeouts = 0
-        self.win_lat: list[float] = []
-        self.win_started = time.monotonic()
-
-    async def record(self, *, status: int | None, latency_s: float, nbytes: int, timeout: bool = False) -> None:
-        async with self._lock:
-            self.total_done += 1
-            if status == 304:
-                self.total_skipped_304 += 1
-            if status is not None and 200 <= status < 300:
-                self.total_ok += 1
-                self.win_ok += 1
-            else:
-                self.total_errors += 1
-                self.win_err += 1
-            if status == 429:
-                self.total_http429 += 1
-                self.win_429 += 1
-            if status is not None and status >= 500:
-                self.total_http5xx += 1
-                self.win_5xx += 1
-            if timeout:
-                self.win_timeouts += 1
-            self.total_bytes += max(0, nbytes)
-            self.win_lat.append(max(0.0, latency_s))
-
-    async def snapshot_window(self) -> dict[str, float]:
-        async with self._lock:
-            dur = max(0.001, time.monotonic() - self.win_started)
-            avg_lat = (sum(self.win_lat) / len(self.win_lat)) if self.win_lat else 0.0
-            rps = (self.win_ok + self.win_err) / dur
-            snap = {
-                "duration_s": dur,
-                "ok": self.win_ok,
-                "err": self.win_err,
-                "http429": self.win_429,
-                "http5xx": self.win_5xx,
-                "timeouts": self.win_timeouts,
-                "avg_latency_s": avg_lat,
-                "rps": rps,
-            }
-            self.reset_window()
-            return snap
-
-
-class AdaptiveLimiter:
-    """
-    Semáforo ajustable mediante 'reservas' (permite bajar/subir target en caliente).
-    """
-    def __init__(self, max_limit: int, initial: int) -> None:
-        self.max_limit = max(1, int(max_limit))
-        self._sem = asyncio.Semaphore(self.max_limit)
-        self._reserved = 0
-        self._target = max(1, min(self.max_limit, int(initial)))
-        self._lock = asyncio.Lock()
-
-    async def initialize(self) -> None:
-        await self.set_target(self._target)
-
-    async def _set_reserved(self, desired_reserved: int) -> None:
-        desired_reserved = max(0, min(self.max_limit - 1, int(desired_reserved)))
-        while self._reserved < desired_reserved:
-            await self._sem.acquire()
-            self._reserved += 1
-        while self._reserved > desired_reserved:
-            self._sem.release()
-            self._reserved -= 1
-
-    async def set_target(self, target: int) -> int:
-        target = max(1, min(self.max_limit, int(target)))
-        async with self._lock:
-            self._target = target
-            desired_reserved = self.max_limit - self._target
-        await self._set_reserved(desired_reserved)
-        return self._target
-
-    async def get_target(self) -> int:
-        async with self._lock:
-            return self._target
-
-    async def acquire(self) -> None:
-        await self._sem.acquire()
-
-    def release(self) -> None:
-        self._sem.release()
-
-
-async def autotune_concurrency(limiter: AdaptiveLimiter, stats: RunStats, *, start: int, max_limit: int, cpu_high: float, cpu_low: float, interval_s: float = 5.0) -> None:
-    baseline: float | None = None
-    await limiter.set_target(start)
-    while True:
-        await asyncio.sleep(interval_s)
-        snap = await stats.snapshot_window()
-        cur = await limiter.get_target()
-        cpu_val = (proc.cpu_percent(interval=None) if proc is not None else None)
-        cpu_pct = (f"{cpu_val:.1f}%" if cpu_val is not None else "n/a")
-        snap["cpu_val"] = cpu_val
-        rss_mb = (f"{(proc.memory_info().rss / 1024 / 1024):.1f}" if proc is not None else "n/a")
-
-        if snap["rps"] > 0 and baseline is None and snap["avg_latency_s"] > 0:
-            baseline = snap["avg_latency_s"]
-
-        congested = (snap["http429"] > 0) or (snap["http5xx"] > 0) or (snap["timeouts"] > 0)
-        cpu = snap.get("cpu_val")
-        if cpu is not None and cpu >= cpu_high:
-            congested = True
-        if baseline is not None and snap["avg_latency_s"] > 0 and snap["err"] > 0:
-            if snap["avg_latency_s"] >= 2.0 * baseline:
-                congested = True
-
-        if congested:
-            new = max(1, int(cur * 0.7))
-            await limiter.set_target(new)
-        else:
-            cpu = snap.get("cpu_val")
-            if cpu is not None and cpu > cpu_low:
-                # CPU alto: mantenemos concurrencia para no saturar el host
-                await limiter.set_target(cur)
-            else:
-                if cur < max_limit:
-                    await limiter.set_target(cur + 1)
-
-        tgt = await limiter.get_target()
-        stats.max_concurrency_reached = max(stats.max_concurrency_reached, tgt)
-
-
-# -----------------------------
-# HTTP fetch con caché + reintentos (decorrelated jitter)
-# -----------------------------
-
-
-async def fetch_with_cache(
-    session: ClientSession,
-    store_dir: str,
-    url: str,
-    accept: str,
-    *,
-    retries: int,
-    base_delay_s: float,
-    cap_delay_s: float,
-    jitter: str,
-    return_bytes: bool = False,
-    debug_http: bool = False,
-    debug_http_all: bool = False,
-    no_cache: bool = False,
-) -> Tuple[Optional[bytes], StoredMeta, int]:
-    """
-    Descarga una URL con caché en disco + validación condicional (ETag/Last-Modified).
-
-    Comportamiento clave (anti-problemas 304):
-      - SOLO enviamos If-None-Match / If-Modified-Since si existe un fichero cacheado real en disco.
-      - Si el servidor responde 304:
-          * Si hay caché local: devolvemos (bytes) desde disco si return_bytes=True; si no, devolvemos None.
-          * Si NO hay caché local (caso incoherente): reintentamos UNA VEZ sin cabeceras condicionales.
-      - Escritura atómica: descargamos a *.part y hacemos replace.
-
-    Parámetros:
-      - return_bytes:
-          * True  -> devuelve el contenido en memoria (útil para JSON/XML “pequeño”).
-          * False -> stream a disco para no consumir RAM (útil para XML full).
-      - debug_http:
-          imprime las cabeceras condicionales enviadas (útil para diagnosticar 304).
-      - no_cache:
-          desactiva caché condicional (no manda If-None-Match/If-Modified-Since). Sigue guardando en disco.
-    """
-    data_path, meta_path = paths_for_url(store_dir, url)
-    meta = await load_meta(meta_path)
-
-    def cache_exists() -> bool:
-        try:
-            return os.path.exists(data_path) and os.path.getsize(data_path) > 0
-        except OSError:
-            return False
-
-    def build_headers(*, conditional: bool) -> Dict[str, str]:
-        h: Dict[str, str] = {"Accept": accept}
-        if no_cache:
-            return h
-        # IMPORTANTÍSIMO: solo mandamos condicionales si existe caché local REAL.
-        if conditional and cache_exists():
-            if meta.etag:
-                h["If-None-Match"] = meta.etag
-            if meta.last_modified:
-                h["If-Modified-Since"] = meta.last_modified
-        return h
-
-    def debug_http_event(
-        *,
-        status: int,
-        req_headers: Dict[str, str],
-        resp_headers: Any,
-        note: Optional[str] = None,
-        body_snippet: Optional[bytes] = None,
-    ) -> None:
-        """Imprime debug HTTP.
-
-        - Si debug_http_all=True  -> imprime SIEMPRE.
-        - Si debug_http=True      -> imprime SOLO cuando status != 200.
-
-        En modo selectivo (NO-200) evitamos destruir rendimiento por stdout.
-        """
-        if not (debug_http or debug_http_all):
-            return
-        if (not debug_http_all) and status == 200:
-            return
-
-        print(f"\n[HTTP DEBUG] REQUEST GET {url}")
-        for k in sorted(req_headers.keys()):
-            print(f"  {k}: {req_headers[k]}")
-        print("[HTTP DEBUG] ----")
-
-        note_txt = f" ({note})" if note else ""
-        print(f"[HTTP DEBUG] RESPONSE {status}{note_txt} {url}")
-        preferred = ["Content-Type", "Content-Length", "ETag", "Last-Modified", "Cache-Control", "Age", "Retry-After", "Via"]
-        for k in preferred:
-            v = resp_headers.get(k)
-            if v is not None:
-                print(f"  {k}: {v}")
-        for k, v in sorted(resp_headers.items(), key=lambda kv: kv[0].lower()):
-            if k in preferred:
-                continue
-            print(f"  {k}: {v}")
-
-        if body_snippet is not None:
-            print(f"[HTTP DEBUG] BODY (first 200 bytes): {body_snippet[:200]!r}")
-        print("[HTTP DEBUG] ----\n")
-
-    async def read_cache_bytes() -> Optional[bytes]:
-        if not cache_exists():
-            return None
-        async with aiofiles.open(data_path, "rb") as f:
-            return await f.read()
-
-    # Primera petición: condicional si procede (y existe caché)
-    headers = build_headers(conditional=True)
-
-    use_decorrelated = (jitter == "decorrelated")
-    sleep_s = base_delay_s
-    last_exc: Exception | None = None
-
-    for attempt in range(1, retries + 1):
-        try:
-            async with session.get(url, headers=headers) as resp:
-                status = resp.status
-                # Debug HTTP (selectivo NO-200 o completo si debug_http_all)
-                debug_http_event(status=status, req_headers=headers, resp_headers=resp.headers)
-
-                # -----------------
-                # 304 Not Modified
-                # -----------------
-                if status == 304:
-                    cached = await read_cache_bytes()
-                    if cached is not None:
-                        # Caché OK: devolvemos bytes si se piden; si no, basta con "None".
-                        return (cached if return_bytes else None), meta, status
-
-                    # Caso incoherente: 304 pero sin caché local.
-                    # Solución robusta: reintentar una vez sin condicionales.
-                    if headers is not None and ("If-None-Match" in headers or "If-Modified-Since" in headers):
-                        headers = build_headers(conditional=False)
-                        async with session.get(url, headers=headers) as resp2:
-                            status2 = resp2.status
-                            debug_http_event(status=status2, req_headers=headers, resp_headers=resp2.headers, note="retry no-conditionals")
-                            if status2 >= 400:
-                                body2 = await resp2.read()
-                                debug_http_event(status=status2, req_headers=headers, resp_headers=resp2.headers, note="retry no-conditionals", body_snippet=body2)
-                                raise RuntimeError(
-                                    f"304 sin caché; reintento sin condicionales falló: HTTP {status2} body={body2[:200]!r}"
-                                )
-
-                            meta.etag = resp2.headers.get("ETag") or meta.etag
-                            meta.last_modified = resp2.headers.get("Last-Modified") or meta.last_modified
-                            meta.content_type = resp2.headers.get("Content-Type") or meta.content_type
-                            meta.fetched_at_utc = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-
-                            if return_bytes:
-                                content2 = await resp2.read()
-                                meta.sha256 = sha256_bytes(content2)
-                                os.makedirs(os.path.dirname(data_path), exist_ok=True)
-                                tmp = data_path + ".part"
-                                async with aiofiles.open(tmp, "wb") as f:
-                                    await f.write(content2)
-                                await aiofiles.os.replace(tmp, data_path)
-                                await save_meta(meta_path, meta)
-                                return content2, meta, status2
-
-                            tmp = data_path + ".part"
-                            sha, nbytes = await stream_to_file_and_hash(resp2, tmp)
-                            meta.sha256 = sha
-                            os.makedirs(os.path.dirname(data_path), exist_ok=True)
-                            await aiofiles.os.replace(tmp, data_path)
-                            await save_meta(meta_path, meta)
-                            return None, meta, status2
-
-                    # Si llegamos aquí, no había condicionales (o no_cache=True) y aun así recibimos 304.
-                    raise RuntimeError("Servidor devolvió 304 sin condicionales o sin caché local. Revisar proxy/caché intermedia.")
-
-                # -----------------
-                # Errores HTTP
-                # -----------------
-                if status >= 400:
-                    body = await resp.read()
-                    if debug_http:
-                        print(f"[HTTP DEBUG] ERROR BODY (first 200 bytes): {body[:200]!r}\n")
-                    if status in (429, 503) or status >= 500:
-                        ra = parse_retry_after(resp.headers.get("Retry-After", ""))
-                        raise RetryableHTTPError(
-                            status=status, url=url, retry_after_s=ra, msg=f"HTTP {status} retryable: {body[:200]!r}"
-                        )
-                    raise NonRetryableHTTPError(status=status, url=url, msg=f"HTTP {status}: {body[:200]!r}")
-
-                # -----------------
-                # 200 OK (u otros <400)
-                # -----------------
-                meta.etag = resp.headers.get("ETag") or meta.etag
-                meta.last_modified = resp.headers.get("Last-Modified") or meta.last_modified
-                meta.content_type = resp.headers.get("Content-Type") or meta.content_type
-                meta.fetched_at_utc = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-
-                if return_bytes:
-                    content = await resp.read()
-                    meta.sha256 = sha256_bytes(content)
-                    os.makedirs(os.path.dirname(data_path), exist_ok=True)
-                    tmp = data_path + ".part"
-                    async with aiofiles.open(tmp, "wb") as f:
-                        await f.write(content)
-                    await aiofiles.os.replace(tmp, data_path)
-                    await save_meta(meta_path, meta)
-                    return content, meta, status
-
-                # Stream a disco para no consumir RAM (importante en lotes grandes)
-                tmp_path = data_path + ".part"
-                sha, nbytes = await stream_to_file_and_hash(resp, tmp_path)
-                meta.sha256 = sha
-                os.makedirs(os.path.dirname(data_path), exist_ok=True)
-                await aiofiles.os.replace(tmp_path, data_path)
-                await save_meta(meta_path, meta)
-                return None, meta, status
-
-        except NonRetryableHTTPError:
-            raise
-        except RetryableHTTPError as e:
-            last_exc = e
-            if attempt >= retries:
-                break
-            if e.retry_after_s and e.retry_after_s > 0:
-                await asyncio.sleep(min(cap_delay_s, e.retry_after_s))
-                continue
-
-            # backoff + jitter
-            if use_decorrelated:
-                upper = min(cap_delay_s, sleep_s * 3.0)
-                sleep_s = random.uniform(base_delay_s, upper)
-            else:
-                backoff = min(cap_delay_s, base_delay_s * (2 ** (attempt - 1)))
-                sleep_s = random.uniform(0, backoff)
-            await asyncio.sleep(sleep_s)
-
-        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-            last_exc = e
-            if attempt >= retries:
-                break
-            if use_decorrelated:
-                upper = min(cap_delay_s, sleep_s * 3.0)
-                sleep_s = random.uniform(base_delay_s, upper)
-            else:
-                backoff = min(cap_delay_s, base_delay_s * (2 ** (attempt - 1)))
-                sleep_s = random.uniform(0, backoff)
-            await asyncio.sleep(sleep_s)
-
-        except Exception as e:
-            last_exc = e
-            if attempt >= retries:
-                break
-            await asyncio.sleep(min(cap_delay_s, base_delay_s * attempt))
-
-    raise RuntimeError(f"Failed fetching {url} after {retries} retries. Last error: {last_exc}")
-
 # -----------------------------
 # BOE helpers
 # -----------------------------
 
-# -----------------------------
 
-def is_eli_url(s: str | None) -> bool:
-    return bool(s) and s.strip().startswith(f"{BASE}/eli/")
+def is_eli_url(url: str | None) -> bool:
+    """Return True when the URL points to a BOE ELI resource."""
+    return bool(url) and (url or "").strip().startswith(f"{BASE}/eli/")
 
 
 def build_consolidated_id_url(doc_id: str, *, part: str) -> str:
-    # API: /datosabiertos/api/legislacion-consolidada/id/{identificador}[/{part}]
+    """Build the consolidated BOE API URL for a document identifier."""
     base = f"{LEGIS_API}/id/{doc_id}"
     if part and part != "full":
         return f"{base}/{part}"
@@ -633,21 +133,17 @@ def build_consolidated_id_url(doc_id: str, *, part: str) -> str:
 
 
 async def get_consolidated_list_json(
-    session: ClientSession,
+    options: "DownloadOptions",
     *,
     since_from: str | None,
     since_to: str | None,
-    store_dir: str,
-    retries: int,
-    base_delay: float,
-    cap_delay: float,
-    jitter: str,
-    debug_http: bool = False,
-    debug_http_all: bool = False,
-    no_cache: bool = False,
 ) -> List[Dict[str, Any]]:
+    """Fetch the consolidated catalog JSON list."""
+    session = options.io.session
+    if session is None:
+        raise RuntimeError("ClientSession no inicializada.")
     if since_from or since_to:
-        params = []
+        params: List[str] = []
         if since_from:
             params.append(f"from={since_from}")
         if since_to:
@@ -657,52 +153,64 @@ async def get_consolidated_list_json(
     else:
         url = f"{LEGIS_API}?limit=-1"
 
-    content, _meta, status = await fetch_with_cache(
-        session=session, store_dir=store_dir, url=url, accept="application/json",
-        retries=retries, base_delay_s=base_delay, cap_delay_s=cap_delay, jitter=jitter,
-        return_bytes=True, debug_http=debug_http, debug_http_all=debug_http_all, no_cache=no_cache
+    content, _meta, status, _headers = await fetch_with_cache(
+        session=session,
+        store_dir=options.io.store_dir,
+        url=url,
+        accept="application/json",
+        retries=options.retry.retries,
+        base_delay_s=options.retry.base_delay,
+        cap_delay_s=options.retry.cap_delay,
+        jitter=options.retry.jitter,
+        return_bytes=True,
+        debug_http=options.debug.debug_http,
+        debug_http_all=options.debug.debug_http_all,
+        no_cache=options.debug.no_cache,
     )
     if content is None:
-        # 304: devolvemos desde disco (fetch_with_cache ya lo hace cuando return_bytes=True).
-        data_path, _ = paths_for_url(store_dir, url)
+        data_path, _ = paths_for_url(options.io.store_dir, url)
         if os.path.exists(data_path):
             async with aiofiles.open(data_path, "rb") as f:
                 content = await f.read()
         else:
-            raise RuntimeError("Catálogo consolidado devolvió 304 pero no existe caché local (store inconsistente).")
+            raise RuntimeError("Catálogo consolidado devolvió 304 sin caché local.")
     if status >= 400:
         raise RuntimeError(f"Catálogo consolidado HTTP {status}")
-    d = json.loads(content.decode("utf-8"))
-    # el API devuelve {"data":[...]} o lista directa según versiones
-    if isinstance(d, dict) and "data" in d and isinstance(d["data"], list):
-        return d["data"]
-    if isinstance(d, list):
-        return d
+
+    data = json.loads(content.decode("utf-8"))
+    if isinstance(data, dict) and "data" in data and isinstance(data["data"], list):
+        return data["data"]
+    if isinstance(data, list):
+        return data
     raise RuntimeError("Formato JSON inesperado en catálogo consolidado.")
 
 
 async def get_sumario_xml(
-    session: ClientSession,
+    options: "DownloadOptions",
     *,
     fecha: str,
-    store_dir: str,
-    retries: int,
-    base_delay: float,
-    cap_delay: float,
-    jitter: str,
-    debug_http: bool = False,
-    debug_http_all: bool = False,
-    no_cache: bool = False,
 ) -> bytes:
+    """Fetch the BOE daily sumario XML payload."""
+    session = options.io.session
+    if session is None:
+        raise RuntimeError("ClientSession no inicializada.")
     url = f"{SUMARIO_API}/{fecha}"
-    content, _meta, status = await fetch_with_cache(
-        session=session, store_dir=store_dir, url=url, accept="application/xml",
-        retries=retries, base_delay_s=base_delay, cap_delay_s=cap_delay, jitter=jitter,
-        return_bytes=True, debug_http=debug_http, debug_http_all=debug_http_all, no_cache=no_cache
+    content, _meta, status, _headers = await fetch_with_cache(
+        session=session,
+        store_dir=options.io.store_dir,
+        url=url,
+        accept="application/xml",
+        retries=options.retry.retries,
+        base_delay_s=options.retry.base_delay,
+        cap_delay_s=options.retry.cap_delay,
+        jitter=options.retry.jitter,
+        return_bytes=True,
+        debug_http=options.debug.debug_http,
+        debug_http_all=options.debug.debug_http_all,
+        no_cache=options.debug.no_cache,
     )
     if content is None:
-        # si ya existe, recargamos de disco
-        data_path, _ = paths_for_url(store_dir, url)
+        data_path, _ = paths_for_url(options.io.store_dir, url)
         async with aiofiles.open(data_path, "rb") as f:
             return await f.read()
     if status >= 400:
@@ -710,369 +218,277 @@ async def get_sumario_xml(
     return content
 
 
-def extract_sumario_item_urls(xml_bytes: bytes) -> List[str]:
-    # parsing minimal sin lxml (para mantener dependencias); usamos regex por estabilidad en este caso.
-    # En el XML del sumario, url_xml suele aparecer como <url_xml>...</url_xml>
-    txt = xml_bytes.decode("utf-8", errors="ignore")
-    return [m.group(1).strip() for m in re.finditer(r"<url_xml>(.*?)</url_xml>", txt, flags=re.DOTALL)]
-
-
 # -----------------------------
-# UI Rich
-# -----------------------------
-
-def make_status_panel(*, run_id: str, cmd: str, stats: RunStats, concurrency: int, cpu_pct: str, rss_mb: str) -> Panel:
-    t = Table.grid(expand=True)
-    t.add_column(justify="left")
-    t.add_column(justify="right")
-    t.add_row("run_id", run_id)
-    t.add_row("cmd", cmd)
-    t.add_row("concurrency(target)", str(concurrency))
-    t.add_row("cpu", cpu_pct)
-    t.add_row("ram_rss_mb", rss_mb)
-    t.add_row("done", str(stats.total_done))
-    t.add_row("ok", str(stats.total_ok))
-    t.add_row("skipped_304", str(stats.total_skipped_304))
-    t.add_row("errors", str(stats.total_errors))
-    t.add_row("http_429", str(stats.total_http429))
-    t.add_row("http_5xx", str(stats.total_http5xx))
-    t.add_row("bytes", str(stats.total_bytes))
-    t.add_row("concurrency_max_cfg", str(stats.max_concurrency_configured))
-    t.add_row("max_concurrency_reached", str(stats.max_concurrency_reached))
-    return Panel(t, title="Estado", border_style="cyan")
 
 
 # -----------------------------
 # Pipelines
 # -----------------------------
 
-async def run_queue_download(
-    *,
-    session: ClientSession,
-    store_dir: str,
-    cmd: str,
+
+@dataclass
+class IOConfig:
+    """I/O configuration for downloads."""
+
+    session: ClientSession | None
+    store_dir: str
+
+
+@dataclass
+class RuntimeState:
+    """Runtime state shared across the download run."""
+
+    run_id: str
+    limiter: AdaptiveLimiter
+    stats: RunStats
+    web_state: WebState | None
+    db: DbCtx | None
+
+
+@dataclass
+class UiConfig:
+    """UI configuration for progress output."""
+
+    progress: bool
+    ui_refresh: int
+
+
+@dataclass
+class RetryConfig:
+    """Retry/backoff configuration."""
+
+    retries: int
+    base_delay: float
+    cap_delay: float
+    jitter: str
+
+
+@dataclass
+class DebugConfig:
+    """Debug and cache control flags."""
+
+    debug_http: bool
+    debug_http_all: bool
+    no_cache: bool
+
+
+@dataclass
+class DownloadOptions:
+    """Bundle runtime options for downloads."""
+
+    io: IOConfig
+    runtime: RuntimeState
+    ui: UiConfig
+    retry: RetryConfig
+    debug: DebugConfig
+
+
+@dataclass
+class RuntimeContext:
+    """Aggregated runtime context for a download run."""
+
+    timeout: aiohttp.ClientTimeout
+    connector: aiohttp.TCPConnector
+    options: DownloadOptions
+    start: int
+    max_limit: int
+
+
+async def run_with_status(
+    console: Console,
+    enabled: bool,
+    message: str,
+    func,
+    *args,
+    **kwargs,
+):
+    """Run a coroutine with an optional Rich status spinner."""
+    if enabled:
+        with console.status(message):
+            return await func(*args, **kwargs)
+    return await func(*args, **kwargs)
+
+
+async def load_eli_filter(eli_list_file: str | None) -> set[str] | None:
+    """Load an optional ELI allowlist from a file."""
+    if not eli_list_file:
+        return None
+    async with aiofiles.open(eli_list_file, "r", encoding="utf-8") as f:
+        return {ln.strip() for ln in (await f.read()).splitlines() if ln.strip()}
+
+
+def build_consolidated_targets(
     items: List[Dict[str, Any]],
-    accept: str,
-    manifest_file: str,
-    limiter: AdaptiveLimiter,
-    stats: RunStats,
-    run_id: str,
-    progress: bool,
-    ui_refresh: int,
-    retries: int,
-    base_delay: float,
-    cap_delay: float,
-    jitter: str,
-    debug_http: bool = False,
-        debug_http_all: bool = False,
-    no_cache: bool = False,
-) -> None:
-    """
-    items: cada elemento debe tener { "key": ..., "url": ..., ... } para manifest.
-    """
-    manifest_path = index_path(store_dir, manifest_file)
-    manifest_lock = asyncio.Lock()
-
-    async def append_manifest(obj: Dict[str, Any]) -> None:
-        obj = dict(obj)
-        obj["run_id"] = run_id
-        obj["cmd"] = cmd
-        obj["ts_utc"] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-        line = json.dumps(obj, ensure_ascii=False)
-        async with manifest_lock:
-            async with aiofiles.open(manifest_path, "a", encoding="utf-8") as f:
-                await f.write(line + "\n")
-
-    q: asyncio.Queue[Dict[str, Any]] = asyncio.Queue()
-    for it in items:
-        q.put_nowait(it)
-
-    # NOTE: Rich may disable advanced rendering when stdout is not a TTY (e.g., under some runners).
-    # We explicitly force terminal rendering when progress is enabled.
-    console = make_console(progress)
-    prog = Progress(
-        SpinnerColumn(),
-        TextColumn("[bold]Descargando[/bold]"),
-        BarColumn(),
-        TextColumn("{task.percentage:>3.0f}%"),
-        TextColumn("•"),
-        TextColumn("[dim]transcurrido[/dim]"),
-        TimeElapsedColumn(),
-        TextColumn("•"),
-        TextColumn("[dim]ETA[/dim]"),
-        TimeRemainingColumn(),
-        console=console,
-        refresh_per_second=ui_refresh,
-        transient=False,
-    )
-    task_id = prog.add_task("download", total=len(items))
-
-    async def handle_one(it: Dict[str, Any]) -> None:
-        url = it["url"]
-        key = it.get("key")
-        t0 = time.monotonic()
-        status: int | None = None
-        nbytes = 0
-        timeout = False
-        try:
-            content, meta, status = await fetch_with_cache(
-                session=session, store_dir=store_dir, url=url, accept=accept,
-                retries=retries, base_delay_s=base_delay, cap_delay_s=cap_delay, jitter=jitter,
-                return_bytes=False, debug_http=debug_http, debug_http_all=debug_http_all, no_cache=no_cache
-            )
-            if content is not None:
-                nbytes = len(content)
-            else:
-                data_path, _ = paths_for_url(store_dir, url)
-                try:
-                    st = await aiofiles.os.stat(data_path)
-                    nbytes = st.st_size
-                except FileNotFoundError:
-                    nbytes = 0
-
-            await append_manifest({
-                "key": key,
-                "url": url,
-                "ok": (status is not None and status < 400),
-                "status": status,
-                "content_type": meta.content_type,
-                "etag": meta.etag,
-                "last_modified": meta.last_modified,
-                "sha256": meta.sha256,
-                "fetched_at_utc": meta.fetched_at_utc,
-            })
-        except NonRetryableHTTPError as e:
-            status = e.status
-            await append_manifest({"key": key, "url": url, "ok": False, "status": status, "error": str(e)})
-        except asyncio.TimeoutError as e:
-            timeout = True
-            await append_manifest({"key": key, "url": url, "ok": False, "status": None, "error": f"timeout: {e}"})
-        except Exception as e:
-            await append_manifest({"key": key, "url": url, "ok": False, "status": status, "error": str(e)})
-        finally:
-            await stats.record(status=status, latency_s=(time.monotonic() - t0), nbytes=nbytes, timeout=timeout)
-            prog.update(task_id, advance=1)
-
-    async def worker() -> None:
-        while True:
-            try:
-                it = q.get_nowait()
-            except asyncio.QueueEmpty:
-                return
-            await limiter.acquire()
-            try:
-                await handle_one(it)
-            finally:
-                limiter.release()
-                q.task_done()
-
-
-    workers = [asyncio.create_task(worker()) for _ in range(limiter.max_limit)]
-
-    # Métricas de proceso para UI (CPU/RAM). psutil es opcional.
-    proc = psutil.Process() if psutil is not None else None  # type: ignore
-    if proc is not None:
-        try:
-            proc.cpu_percent(interval=None)  # warm-up
-        except Exception:
-            proc = None
-
-    if progress:
-        # UI: progreso + panel estado en vivo
-        with Live(console=console,
-        refresh_per_second=ui_refresh or 8) as live:
-            while not prog.finished:
-                cur = await limiter.get_target()
-                cpu_val = (proc.cpu_percent(interval=None) if proc is not None else None)
-                cpu_pct = (f"{cpu_val:.1f}%" if cpu_val is not None else "n/a")
-                # cpu_val calculado para UI (no se guarda en 'snap' aquí)
-                rss_mb = (f"{(proc.memory_info().rss / 1024 / 1024):.1f}" if proc is not None else "n/a")
-                grid = Table.grid(padding=(0, 1))
-                grid.add_row(
-                    Panel.fit(prog.get_renderable(), title="Progreso", border_style="green"),
-                    make_status_panel(run_id=run_id, cmd=cmd, stats=stats, concurrency=cur, cpu_pct=cpu_pct, rss_mb=rss_mb),
-                )
-                live.update(grid)
-                await asyncio.sleep(0.3)
-
-            cur = await limiter.get_target()
-            cpu_val = (proc.cpu_percent(interval=None) if proc is not None else None)
-            cpu_pct = (f"{cpu_val:.1f}%" if cpu_val is not None else "n/a")
-            # cpu_val calculado para UI (no se guarda en 'snap' aquí)
-            rss_mb = (f"{(proc.memory_info().rss / 1024 / 1024):.1f}" if proc is not None else "n/a")
-            grid = Table.grid(padding=(0, 1))
-            grid.add_row(
-                Panel.fit(prog.get_renderable(), title="Progreso", border_style="green"),
-                make_status_panel(run_id=run_id, cmd=cmd, stats=stats, concurrency=cur, cpu_pct=cpu_pct, rss_mb=rss_mb),
-            )
-            live.update(grid)
-
-    await q.join()
-
-    for w in workers:
-        w.cancel()
-    await asyncio.gather(*workers, return_exceptions=True)
-
-
-async def cmd_consolidada(
-    session: ClientSession,
-    *,
-    store_dir: str,
-    run_id: str,
-    accept: str,
     part: str,
-    manifest: str,
-    since_from: str | None,
-    since_to: str | None,
-    progress: bool,
-    ui_refresh: int,
-    limiter: AdaptiveLimiter,
-    stats: RunStats,
-    retries: int,
-    base_delay: float,
-    cap_delay: float,
-    jitter: str,
-    debug_http: bool = False,
-    debug_http_all: bool = False,
-    no_cache: bool = False,
-    eli_list_file: str | None,
-) -> None:
-
-    console = Console(force_terminal=True, force_interactive=True)
-    if progress:
-        with console.status("Preparando lista de URLs (catálogo consolidado)..."):
-            items = await get_consolidated_list_json(
-                session,
-                since_from=since_from,
-                since_to=since_to,
-                store_dir=store_dir,
-                retries=retries,
-                base_delay=base_delay,
-                cap_delay=cap_delay,
-                jitter=jitter,
-                debug_http=debug_http,
-                debug_http_all=debug_http_all,
-                no_cache=no_cache,
-            )
-    else:
-        items = await get_consolidated_list_json(
-            session,
-            since_from=since_from,
-            since_to=since_to,
-            store_dir=store_dir,
-            retries=retries,
-            base_delay=base_delay,
-            cap_delay=cap_delay,
-            jitter=jitter,
-            debug_http=debug_http,
-            debug_http_all=debug_http_all,
-            no_cache=no_cache,
-        )
-
-    # build targets (eli -> doc_id)
-    if eli_list_file:
-        async with aiofiles.open(eli_list_file, "r", encoding="utf-8") as f:
-            wanted = {ln.strip() for ln in (await f.read()).splitlines() if ln.strip()}
-    else:
-        wanted = None
-
+    wanted: set[str] | None,
+    fmt: str,
+    source_kind: str,
+) -> List[Dict[str, Any]]:
+    """Build download targets from consolidated catalog entries."""
     targets: List[Dict[str, Any]] = []
     for it in items:
         doc_id = it.get("identificador")
         eli = it.get("url_eli")
-        if not doc_id or not is_eli_url(eli):
+        if not doc_id or not isinstance(eli, str) or not is_eli_url(eli):
             continue
         eli = eli.strip()
         if wanted is not None and eli not in wanted:
             continue
         url = build_consolidated_id_url(doc_id, part=part)
-        targets.append({"key": eli, "doc_id": doc_id, "url": url})
+        targets.append(
+            {"key": eli, "doc_id": doc_id, "url": url, "fmt": fmt, "source_kind": source_kind}
+        )
+    return targets
 
-    await run_queue_download(
-        session=session, store_dir=store_dir, cmd="consolidada",
-        items=targets, accept=accept, manifest_file=manifest,
-        limiter=limiter, stats=stats, run_id=run_id, progress=progress,
-        ui_refresh=ui_refresh,
-        retries=retries,
-        base_delay=base_delay,
-        cap_delay=cap_delay,
-        jitter=jitter,
-        debug_http=debug_http,
-        debug_http_all=debug_http_all,
-        no_cache=no_cache,
+
+def build_sumario_targets(
+    urls: List[str],
+    fmt: str,
+    source_kind: str,
+) -> List[Dict[str, Any]]:
+    """Build download targets for sumario item URLs."""
+    return [
+        {"key": u, "url": u, "fmt": fmt, "source_kind": source_kind} for u in urls
+    ]
+
+
+async def fetch_consolidated_items(
+    options: DownloadOptions,
+    console: Console,
+    since_from: str | None,
+    since_to: str | None,
+) -> List[Dict[str, Any]]:
+    """Fetch and prepare consolidated catalog items."""
+    return await run_with_status(
+        console,
+        options.ui.progress,
+        "Preparando lista de URLs (catálogo consolidado)...",
+        get_consolidated_list_json,
+        options,
+        since_from=since_from,
+        since_to=since_to,
     )
 
 
-async def cmd_sumario(
-    session: ClientSession,
-    *,
-    store_dir: str,
-    run_id: str,
+async def fetch_sumario_xml(
+    options: DownloadOptions,
+    console: Console,
     fecha: str,
-    manifest: str,
-    progress: bool,
-    ui_refresh: int,
-    limiter: AdaptiveLimiter,
-    stats: RunStats,
-    retries: int,
-    base_delay: float,
-    cap_delay: float,
-    jitter: str,
-    debug_http: bool = False,
-        debug_http_all: bool = False,
-    no_cache: bool = False,
-) -> None:
+) -> bytes:
+    """Fetch the sumario XML payload for a date."""
+    return await run_with_status(
+        console,
+        options.ui.progress,
+        f"Preparando lista de URLs (sumario {fecha})...",
+        get_sumario_xml,
+        options,
+        fecha=fecha,
+    )
+
+
+async def cmd_consolidada(options: DownloadOptions, args: argparse.Namespace) -> None:
+    """Run the consolidated catalog download command."""
     console = Console(force_terminal=True, force_interactive=True)
-    if not re.fullmatch(r"\d{8}", fecha):
-        raise ValueError("fecha debe tener formato AAAAMMDD")
-    if progress:
-        with console.status(f"Preparando lista de URLs (sumario {fecha})..."):
-            sumario_xml = await get_sumario_xml(
-                session,
-                fecha=fecha,
-                store_dir=store_dir,
-                retries=retries,
-                base_delay=base_delay,
-                cap_delay=cap_delay,
-                jitter=jitter,
-                debug_http=debug_http,
-                debug_http_all=debug_http_all,
-                no_cache=no_cache,
+    formats = args.formats
+    if "xml" not in formats:
+        console.print("[yellow]Aviso: consolidada solo soporta XML en este script.[/yellow]")
+        return
+    fecha = args.fecha
+    since_from = args.since_from
+    since_to = args.since_to
+    if fecha:
+        if since_from or since_to:
+            raise ValueError("No combines --fecha con --since-from/--since-to")
+        normalized = normalize_fecha(fecha)
+        since_from = normalized
+        since_to = normalized
+    accept = args.accept
+    part = args.part
+    manifest = args.manifest
+    eli_list_file = args.eli_list
+
+    targets: List[Dict[str, Any]] = []
+    if fecha:
+        sumario_xml = await fetch_sumario_xml(options, console, since_from)
+        urls = extract_sumario_item_urls(sumario_xml)
+        for u in urls:
+            url_abs = u
+            if url_abs.startswith("/"):
+                url_abs = f"{BASE}{url_abs}"
+            match = BOE_ID_RE.search(url_abs)
+            key = match.group(0) if match else url_abs
+            targets.append(
+                {"key": key, "url": url_abs, "fmt": "xml", "source_kind": "consolidada_id"}
             )
     else:
-        sumario_xml = await get_sumario_xml(
-            session,
-            fecha=fecha,
-            store_dir=store_dir,
-            retries=retries,
-            base_delay=base_delay,
-            cap_delay=cap_delay,
-            jitter=jitter,
-            debug_http=debug_http,
-            debug_http_all=debug_http_all,
-            no_cache=no_cache,
+        items = await fetch_consolidated_items(options, console, since_from, since_to)
+        wanted = await load_eli_filter(eli_list_file)
+        targets = build_consolidated_targets(
+            items, part, wanted, fmt="xml", source_kind="consolidada_id"
         )
-    urls = extract_sumario_item_urls(sumario_xml)
-    targets = [{"key": u, "url": u} for u in urls]
+
     await run_queue_download(
-        session=session,
-        store_dir=store_dir,
+        session=options.io.session,
+        store_dir=options.io.store_dir,
+        cmd="consolidada",
+        items=targets,
+        accept=accept,
+        manifest_file=manifest,
+        limiter=options.runtime.limiter,
+        stats=options.runtime.stats,
+        run_id=options.runtime.run_id,
+        progress=options.ui.progress,
+        ui_refresh=options.ui.ui_refresh,
+        retries=options.retry.retries,
+        base_delay=options.retry.base_delay,
+        cap_delay=options.retry.cap_delay,
+        jitter=options.retry.jitter,
+        debug_http=options.debug.debug_http,
+        debug_http_all=options.debug.debug_http_all,
+        no_cache=options.debug.no_cache,
+        db=options.runtime.db,
+        web_state=options.runtime.web_state,
+    )
+
+
+async def cmd_sumario(options: DownloadOptions, args: argparse.Namespace) -> None:
+    """Run the daily sumario download command."""
+    console = Console(force_terminal=True, force_interactive=True)
+    formats = args.formats
+    if "xml" not in formats:
+        console.print("[yellow]Aviso: sumario requiere XML para extraer URLs.[/yellow]")
+        return
+    fecha = args.fecha
+    manifest = args.manifest
+
+    if not re.fullmatch(r"\d{8}", fecha):
+        raise ValueError("fecha debe tener formato AAAAMMDD")
+
+    sumario_xml = await fetch_sumario_xml(options, console, fecha)
+    urls = extract_sumario_item_urls(sumario_xml)
+    targets = build_sumario_targets(urls, fmt="xml", source_kind="sumario_item")
+
+    await run_queue_download(
+        session=options.io.session,
+        store_dir=options.io.store_dir,
         cmd="sumario",
         items=targets,
         accept="application/xml",
         manifest_file=manifest,
-        limiter=limiter,
-        stats=stats,
-        run_id=run_id,
-        progress=progress,
-        ui_refresh=ui_refresh,
-        retries=retries,
-        base_delay=base_delay,
-        cap_delay=cap_delay,
-        jitter=jitter,
-        debug_http=debug_http,
-        debug_http_all=debug_http_all,
-        no_cache=no_cache,
+        limiter=options.runtime.limiter,
+        stats=options.runtime.stats,
+        run_id=options.runtime.run_id,
+        progress=options.ui.progress,
+        ui_refresh=options.ui.ui_refresh,
+        retries=options.retry.retries,
+        base_delay=options.retry.base_delay,
+        cap_delay=options.retry.cap_delay,
+        jitter=options.retry.jitter,
+        debug_http=options.debug.debug_http,
+        debug_http_all=options.debug.debug_http_all,
+        no_cache=options.debug.no_cache,
+        db=options.runtime.db,
+        web_state=options.runtime.web_state,
     )
 
 
@@ -1080,7 +496,46 @@ async def cmd_sumario(
 # CLI
 # -----------------------------
 
+
+def parse_formats(value: str) -> set[str]:
+    """Parse the --formats CLI flag."""
+    fmts = {v.strip().lower() for v in value.split(",") if v.strip()}
+    if not fmts:
+        raise argparse.ArgumentTypeError("Debes indicar al menos un formato.")
+    invalid = fmts - {"xml", "json", "pdf"}
+    if invalid:
+        raise argparse.ArgumentTypeError(f"Formatos invalidos: {sorted(invalid)}")
+    return fmts
+
+
+def normalize_fecha(value: str) -> str:
+    """Normalize DD-MM-AAAA or AAAAMMDD into AAAAMMDD."""
+    v = value.strip()
+    if re.fullmatch(r"\d{8}", v):
+        return v
+    if re.fullmatch(r"\d{2}-\d{2}-\d{4}", v):
+        dd, mm, yyyy = v.split("-")
+        return f"{yyyy}{mm}{dd}"
+    raise ValueError("fecha debe tener formato DD-MM-AAAA o AAAAMMDD")
+
+
+def parse_web_port(value: str) -> int:
+    """Parse web port; empty or None falls back to 8000."""
+    if value is None:
+        return 8000
+    value = str(value).strip()
+    if not value:
+        return 8000
+    if not value.isdigit():
+        raise ValueError("web-port debe ser un entero valido")
+    port = int(value)
+    if port <= 0 or port > 65535:
+        raise ValueError("web-port fuera de rango (1-65535)")
+    return port
+
+
 def _parse_concurrency(value: str) -> str | int:
+    """Parse the concurrency CLI value."""
     v = value.strip().lower()
     if v in ("auto", "a"):
         return "auto"
@@ -1089,88 +544,331 @@ def _parse_concurrency(value: str) -> str | int:
         if n < 1:
             raise argparse.ArgumentTypeError("concurrency must be >= 1")
         return n
-    raise argparse.ArgumentTypeError("concurrency must be an integer (e.g. 25) or 'auto'")
+    raise argparse.ArgumentTypeError(
+        "concurrency must be an integer (e.g. 25) or 'auto'"
+    )
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
+    """Build the CLI argument parser."""
     p = argparse.ArgumentParser(
         prog="boe_downloader_eli_optimized.py",
-        description="Descarga BOE orientada a ELI (consolidada y sumario) con caché y concurrencia auto.",
+        description=(
+            "Descarga BOE orientada a ELI (consolidada y sumario) con caché "
+            "y concurrencia auto."
+        ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Ejemplos:\n"
-            "  python3 boe_downloader_eli_optimized.py --store ./boe_store --concurrency auto consolidada --since-from 20260101\n"
-            "  python3 boe_downloader_eli_optimized.py --concurrency 20 sumario --fecha 20260104\n"
+            "  python3 boe_downloader_eli_optimized.py --store ./boe_store "
+            "--concurrency auto consolidada --since-from 20260101\n"
+            "  python3 boe_downloader_eli_optimized.py --concurrency 20 sumario "
+            "--fecha 20260104\n"
         ),
     )
-    p.add_argument("--store", default=DEFAULT_STORE, metavar="DIR", help=f"Directorio base de almacenamiento. Default: {DEFAULT_STORE}")
-    p.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT_S, metavar="S", help=f"Timeout total por request (segundos). Default: {DEFAULT_TIMEOUT_S}")
-    p.add_argument("--retries", type=int, default=DEFAULT_RETRIES, metavar="N", help=f"Máximo reintentos por URL (429/5xx/transitorios). Default: {DEFAULT_RETRIES}")
-    p.add_argument("--concurrency", type=_parse_concurrency, default="auto", metavar="N|auto", help="Concurrencia fija N o auto (AIMD). Default: auto")
-    p.add_argument("--concurrency-start", type=int, default=DEFAULT_CONCURRENCY_START, metavar="N", help=f"Concurrencia inicial en auto. Default: {DEFAULT_CONCURRENCY_START}")
-    p.add_argument("--concurrency-max", type=int, default=DEFAULT_CONCURRENCY_MAX, metavar="N", help=f"Techo de concurrencia en auto. Default: {DEFAULT_CONCURRENCY_MAX}")
-    p.add_argument("--progress", action="store_true", help="Muestra barra de progreso y métricas en vivo (Rich).")
-    p.add_argument("--ui-refresh", type=int, default=DEFAULT_UI_REFRESH_PER_SECOND, metavar="N", help=f"Refresco UI Rich (veces/seg). Default: {DEFAULT_UI_REFRESH_PER_SECOND}")
+    p.add_argument(
+        "--store",
+        default=DEFAULT_STORE,
+        metavar="DIR",
+        help=f"Directorio base de almacenamiento. Default: {DEFAULT_STORE}",
+    )
+    p.add_argument(
+        "--db-dsn",
+        default=os.environ.get("BOE_DB_DSN"),
+        metavar="DSN",
+        help="PostgreSQL DSN (o BOE_DB_DSN).",
+    )
+    p.add_argument(
+        "--no-db",
+        action="store_true",
+        help="No usar Postgres para estados de descarga.",
+    )
+    p.add_argument(
+        "--formats",
+        type=parse_formats,
+        default={"xml"},
+        metavar="FMTs",
+        help="Formatos a descargar: xml,json,pdf (default: xml).",
+    )
+    p.add_argument(
+        "--timeout",
+        type=int,
+        default=DEFAULT_TIMEOUT_S,
+        metavar="S",
+        help=f"Timeout total por request (segundos). Default: {DEFAULT_TIMEOUT_S}",
+    )
+    p.add_argument(
+        "--retries",
+        type=int,
+        default=DEFAULT_RETRIES,
+        metavar="N",
+        help=(
+            f"Máximo reintentos por URL (429/5xx/transitorios). "
+            f"Default: {DEFAULT_RETRIES}"
+        ),
+    )
+    p.add_argument(
+        "--concurrency",
+        type=_parse_concurrency,
+        default="auto",
+        metavar="N|auto",
+        help="Concurrencia fija N o auto (AIMD). Default: auto",
+    )
+    p.add_argument(
+        "--concurrency-start",
+        type=int,
+        default=DEFAULT_CONCURRENCY_START,
+        metavar="N",
+        help=f"Concurrencia inicial en auto. Default: {DEFAULT_CONCURRENCY_START}",
+    )
+    p.add_argument(
+        "--concurrency-max",
+        type=int,
+        default=DEFAULT_CONCURRENCY_MAX,
+        metavar="N",
+        help=f"Techo de concurrencia en auto. Default: {DEFAULT_CONCURRENCY_MAX}",
+    )
+    p.add_argument(
+        "--progress",
+        action="store_true",
+        default=True,
+        help="Muestra barra de progreso y métricas en vivo (Rich).",
+    )
+    p.add_argument(
+        "--no-progress",
+        action="store_false",
+        dest="progress",
+        help="Desactiva la barra de progreso Rich.",
+    )
+    p.add_argument(
+        "--ui-refresh",
+        type=int,
+        default=DEFAULT_UI_REFRESH_PER_SECOND,
+        metavar="N",
+        help=f"Refresco UI Rich (veces/seg). Default: {DEFAULT_UI_REFRESH_PER_SECOND}",
+    )
     # Debug HTTP:
     #  - --debug-http       : modo selectivo (solo status != 200) para no degradar rendimiento
     #  - --debug-http-all   : imprime TODO (útil en sesiones cortas de diagnóstico)
     #  - --debug            : alias de --debug-http (compatibilidad)
-    p.add_argument("--debug-http", action="store_true", help="HTTP debug (modo NO-200): solo imprime peticiones/respuestas con status != 200.")
-    p.add_argument("--debug-http-all", action="store_true", help="HTTP debug (modo ALL): imprime TODAS las peticiones/respuestas (más lento).")
-    p.add_argument("--debug", action="store_true", help="Alias de --debug-http (compatibilidad).")
-    p.add_argument("--no-cache", action="store_true", help="Desactiva caché condicional (no envía If-None-Match/If-Modified-Since). Sigue guardando en disco.")
+    p.add_argument(
+        "--debug-http",
+        action="store_true",
+        help="HTTP debug (modo NO-200): solo imprime peticiones/respuestas con status != 200.",
+    )
+    p.add_argument(
+        "--debug-http-all",
+        action="store_true",
+        help="HTTP debug (modo ALL): imprime TODAS las peticiones/respuestas (más lento).",
+    )
+    p.add_argument(
+        "--debug", action="store_true", help="Alias de --debug-http (compatibilidad)."
+    )
+    p.add_argument(
+        "--no-cache",
+        action="store_true",
+        help=(
+            "Desactiva caché condicional (no envía If-None-Match/If-Modified-Since). "
+            "Sigue guardando en disco."
+        ),
+    )
 
-    p.add_argument("--cpu-high", type=float, default=DEFAULT_CPU_HIGH_PCT, metavar="PCT", help=f"En auto, si CPU del proceso supera este %, reduce concurrencia. Default: {DEFAULT_CPU_HIGH_PCT}")
-    p.add_argument("--cpu-low", type=float, default=DEFAULT_CPU_LOW_PCT, metavar="PCT", help=f"En auto, si CPU del proceso está por debajo de este % y no hay congestión, permite subir concurrencia. Default: {DEFAULT_CPU_LOW_PCT}")
-    p.add_argument("--jitter", choices=["decorrelated", "full"], default="decorrelated", help="Jitter para backoff de reintentos. Default: decorrelated")
-    p.add_argument("--base-delay", type=float, default=DEFAULT_BASE_DELAY, metavar="S", help=f"Delay base para backoff (segundos). Default: {DEFAULT_BASE_DELAY}")
-    p.add_argument("--cap-delay", type=float, default=DEFAULT_CAP_DELAY, metavar="S", help=f"Delay máximo para backoff (segundos). Default: {DEFAULT_CAP_DELAY}")
+    p.add_argument(
+        "--cpu-high",
+        type=float,
+        default=DEFAULT_CPU_HIGH_PCT,
+        metavar="PCT",
+        help=(
+            f"En auto, si CPU del proceso supera este %, reduce concurrencia. "
+            f"Default: {DEFAULT_CPU_HIGH_PCT}"
+        ),
+    )
+    p.add_argument(
+        "--cpu-low",
+        type=float,
+        default=DEFAULT_CPU_LOW_PCT,
+        metavar="PCT",
+        help=(
+            f"En auto, si CPU del proceso está por debajo de este % y no hay "
+            f"congestión, permite subir concurrencia. Default: {DEFAULT_CPU_LOW_PCT}"
+        ),
+    )
+    p.add_argument(
+        "--jitter",
+        choices=["decorrelated", "full"],
+        default="decorrelated",
+        help="Jitter para backoff de reintentos. Default: decorrelated",
+    )
+    p.add_argument(
+        "--base-delay",
+        type=float,
+        default=DEFAULT_BASE_DELAY,
+        metavar="S",
+        help=f"Delay base para backoff (segundos). Default: {DEFAULT_BASE_DELAY}",
+    )
+    p.add_argument(
+        "--open-web",
+        action="store_true",
+        help="Levanta el panel web y lo abre en el navegador local.",
+    )
+    p.add_argument(
+        "--web-host",
+        default="127.0.0.1",
+        help="Host para el panel web. Default: 127.0.0.1",
+    )
+    p.add_argument(
+        "--web-port",
+        default="8000",
+        help="Puerto para el panel web. Default: 8000",
+    )
+
+    p.add_argument(
+        "--cap-delay",
+        type=float,
+        default=DEFAULT_CAP_DELAY,
+        metavar="S",
+        help=f"Delay máximo para backoff (segundos). Default: {DEFAULT_CAP_DELAY}",
+    )
 
     sub = p.add_subparsers(dest="cmd", required=True)
 
-    pc = sub.add_parser("consolidada", help="Descarga legislación consolidada SOLO con url_eli.", formatter_class=argparse.RawDescriptionHelpFormatter)
-    pc.add_argument("--part", default="full", choices=["full", "metadatos", "analisis", "metadata-eli", "texto", "texto/indice"], help="Parte del documento. Default: full")
-    pc.add_argument("--accept", default="application/xml", metavar="MIME", help="Cabecera Accept. Default: application/xml")
-    pc.add_argument("--manifest", default="manifest_consolidada_eli.jsonl", metavar="FILE", help="Manifest JSONL en index/. Default: manifest_consolidada_eli.jsonl")
-    pc.add_argument("--since-from", default=None, metavar="AAAAMMDD", help="Filtra por fecha actualización desde AAAAMMDD.")
-    pc.add_argument("--since-to", default=None, metavar="AAAAMMDD", help="Filtra por fecha actualización hasta AAAAMMDD.")
-    pc.add_argument("--eli-list", default=None, metavar="FILE", help="Archivo con una ELI por línea (descarga solo esas).")
+    pc = sub.add_parser(
+        "consolidada",
+        help="Descarga legislación consolidada SOLO con url_eli.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    pc.add_argument(
+        "--part",
+        default="full",
+        choices=[
+            "full",
+            "metadatos",
+            "analisis",
+            "metadata-eli",
+            "texto",
+            "texto/indice",
+        ],
+        help="Parte del documento. Default: full",
+    )
+    pc.add_argument(
+        "--accept",
+        default="application/xml",
+        metavar="MIME",
+        help="Cabecera Accept. Default: application/xml",
+    )
+    pc.add_argument(
+        "--manifest",
+        default="manifest_consolidada_eli.jsonl",
+        metavar="FILE",
+        help="Manifest JSONL en index/. Default: manifest_consolidada_eli.jsonl",
+    )
+    pc.add_argument(
+        "--fecha",
+        default=None,
+        metavar="DD-MM-AAAA|AAAAMMDD",
+        help=(
+            "Fecha unica (equivale a --since-from/--since-to). "
+            "Formato DD-MM-AAAA o AAAAMMDD."
+        ),
+    )
+    pc.add_argument(
+        "--since-from",
+        default=None,
+        metavar="AAAAMMDD",
+        help="Filtra por fecha actualización desde AAAAMMDD.",
+    )
+    pc.add_argument(
+        "--since-to",
+        default=None,
+        metavar="AAAAMMDD",
+        help="Filtra por fecha actualización hasta AAAAMMDD.",
+    )
+    pc.add_argument(
+        "--eli-list",
+        default=None,
+        metavar="FILE",
+        help="Archivo con una ELI por línea (descarga solo esas).",
+    )
 
-    ps = sub.add_parser("sumario", help="Descarga sumario diario y XML de items.", formatter_class=argparse.RawDescriptionHelpFormatter)
-    ps.add_argument("--fecha", required=True, metavar="AAAAMMDD", help="Fecha AAAAMMDD.")
-    ps.add_argument("--manifest", default="manifest_sumario.jsonl", metavar="FILE", help="Manifest JSONL en index/. Default: manifest_sumario.jsonl")
+    ps = sub.add_parser(
+        "sumario",
+        help="Descarga sumario diario y XML de items.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    ps.add_argument(
+        "--fecha", required=True, metavar="AAAAMMDD", help="Fecha AAAAMMDD."
+    )
+    ps.add_argument(
+        "--manifest",
+        default="manifest_sumario.jsonl",
+        metavar="FILE",
+        help="Manifest JSONL en index/. Default: manifest_sumario.jsonl",
+    )
 
     return p
 
 
-async def amain(args: argparse.Namespace) -> None:
-    store_dir = args.store
-    ensure_dirs(store_dir)
+def compute_concurrency(args: argparse.Namespace) -> tuple[int, int]:
+    """Devuelve (max_limit, start) según args.concurrency."""
+    if args.concurrency == "auto":
+        return int(args.concurrency_max), int(args.concurrency_start)
+    return int(args.concurrency), int(args.concurrency)
 
-    run_id = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ") + f"-{random.randint(1000,9999)}"
-    console = make_console(args.progress)
-    console.print(f"[bold]run_id:[/bold] {run_id}")
 
-    # Debug HTTP
-    # --debug es alias de --debug-http (compatibilidad)
-    debug_http = bool(getattr(args, "debug_http", False) or getattr(args, "debug", False))
+def make_connector(max_limit: int) -> aiohttp.TCPConnector:
+    """Create the aiohttp connector for the desired concurrency."""
+    return aiohttp.TCPConnector(
+        limit=max_limit,
+        limit_per_host=max_limit,
+        ttl_dns_cache=300,
+    )
+
+
+def print_debug_http(console: Console, args: argparse.Namespace) -> tuple[bool, bool]:
+    """Emit HTTP debug status based on CLI flags."""
+    debug_http = bool(
+        getattr(args, "debug_http", False) or getattr(args, "debug", False)
+    )
     debug_http_all = bool(getattr(args, "debug_http_all", False))
     if debug_http:
         mode = "ALL" if debug_http_all else "NO-200"
-        console.print(f"[dim]HTTP debug activo (modo={mode}):[/dim] "
-                      f"{'imprime TODAS las peticiones/respuestas' if debug_http_all else 'solo imprime status != 200'}")
+        detail = (
+            "imprime TODAS las peticiones/respuestas"
+            if debug_http_all
+            else "solo imprime status != 200"
+        )
+        console.print(f"[dim]HTTP debug activo (modo={mode}):[/dim] {detail}")
+    return debug_http, debug_http_all
 
+
+def make_cpu_sampler():
+    """Return a callable that yields a warmed-up psutil.Process."""
+
+    def sample():
+        if psutil_module is None:
+            return None
+        proc = psutil_module.Process()
+        try:
+            proc.cpu_percent(interval=None)
+        except (RuntimeError, OSError):
+            return None
+        return proc
+
+    return sample
+
+
+async def build_runtime_context(
+    args: argparse.Namespace,
+    run_id: str,
+    debug_http: bool,
+    debug_http_all: bool,
+    web_state: WebState | None,
+    db: DbCtx | None,
+) -> RuntimeContext:
+    """Build runtime context with connector and options."""
     timeout = aiohttp.ClientTimeout(total=int(args.timeout))
-
-    # Conector: limit_per_host = concurrency_max (en auto) o concurrency fija
-    if args.concurrency == "auto":
-        max_limit = int(args.concurrency_max)
-        start = int(args.concurrency_start)
-    else:
-        max_limit = int(args.concurrency)
-        start = int(args.concurrency)
-
-    connector = aiohttp.TCPConnector(limit=max_limit, limit_per_host=max_limit, ttl_dns_cache=300)
+    max_limit, start = compute_concurrency(args)
+    connector = make_connector(max_limit)
 
     stats = RunStats()
     stats.max_concurrency_configured = max_limit
@@ -1178,83 +876,65 @@ async def amain(args: argparse.Namespace) -> None:
     await limiter.initialize()
     stats.max_concurrency_reached = max(stats.max_concurrency_reached, start)
 
-    tuner_task: asyncio.Task | None = None
-    if args.concurrency == "auto":
-        tuner_task = asyncio.create_task(autotune_concurrency(limiter, stats, start=start, max_limit=max_limit, cpu_high=float(args.cpu_high), cpu_low=float(args.cpu_low), interval_s=5.0))
+    options = DownloadOptions(
+        io=IOConfig(session=None, store_dir=args.store),
+        runtime=RuntimeState(
+            run_id=run_id,
+            limiter=limiter,
+            stats=stats,
+            web_state=web_state,
+            db=db,
+        ),
+        ui=UiConfig(progress=args.progress, ui_refresh=args.ui_refresh),
+        retry=RetryConfig(
+            retries=int(args.retries),
+            base_delay=float(args.base_delay),
+            cap_delay=float(args.cap_delay),
+            jitter=args.jitter,
+        ),
+        debug=DebugConfig(
+            debug_http=debug_http,
+            debug_http_all=debug_http_all,
+            no_cache=args.no_cache,
+        ),
+    )
 
-    try:
-        async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
-            if args.cmd == "consolidada":
-                await cmd_consolidada(
-                    session,
-                    store_dir=store_dir,
-                    run_id=run_id,
-                    accept=args.accept,
-                    part=args.part,
-                    manifest=args.manifest,
-                    since_from=args.since_from,
-                    since_to=args.since_to,
-                    progress=args.progress,
-                    limiter=limiter,
-                    ui_refresh=args.ui_refresh,
-                    stats=stats,
-                    retries=int(args.retries),
-                    base_delay=float(args.base_delay),
-                    cap_delay=float(args.cap_delay),
-				    jitter=args.jitter,
-				    debug_http=debug_http,
-				    debug_http_all=debug_http_all,
-                    no_cache=args.no_cache,
-                    eli_list_file=args.eli_list,
-                )
-            elif args.cmd == "sumario":
-                await cmd_sumario(
-                    session,
-                    store_dir=store_dir,
-                    run_id=run_id,
-                    fecha=args.fecha,
-                    manifest=args.manifest,
-                    progress=args.progress,
-                    limiter=limiter,
-                    stats=stats,
-                    retries=int(args.retries),
-                    base_delay=float(args.base_delay),
-                    cap_delay=float(args.cap_delay),
-                    jitter=args.jitter,
-				debug_http=debug_http,
-				debug_http_all=debug_http_all,
-				no_cache=args.no_cache,
-                )
-            else:
-                raise RuntimeError(f"Comando no reconocido: {args.cmd}")
+    return RuntimeContext(
+        timeout=timeout,
+        connector=connector,
+        options=options,
+        start=start,
+        max_limit=max_limit,
+    )
 
-    finally:
-        if tuner_task is not None:
-            tuner_task.cancel()
-            await asyncio.gather(tuner_task, return_exceptions=True)
 
-    # Resumen final
-    cur = await limiter.get_target()
-
-    # Para el resumen final, calculamos CPU/RAM una sola vez.
-    # (Evita dependencias de variables locales del bucle de progreso.)
-    proc = psutil.Process() if psutil is not None else None  # type: ignore
+async def print_final_status(
+    console: Console,
+    args: argparse.Namespace,
+    options: DownloadOptions,
+) -> None:
+    """Print the final status panel."""
+    cur = await options.runtime.limiter.get_target()
+    proc = psutil_module.Process() if psutil_module is not None else None  # type: ignore
     if proc is not None:
-        # Warm-up para que cpu_percent devuelva un valor significativo
         try:
             proc.cpu_percent(interval=None)
-        except Exception:
-            pass
+        except (RuntimeError, OSError):
+            proc = None
 
-    cpu_val = (proc.cpu_percent(interval=None) if proc is not None else None)
-    cpu_pct = (f"{cpu_val:.1f}%" if cpu_val is not None else "n/a")
-    rss_mb = (f"{(proc.memory_info().rss / 1024 / 1024):.1f}" if proc is not None else "n/a")
+    cpu_val = proc.cpu_percent(interval=None) if proc is not None else None
+    cpu_pct = f"{cpu_val:.1f}%" if cpu_val is not None else "n/a"
+    rss_mb = (
+        f"{(proc.memory_info().rss / 1024 / 1024):.1f} MB ({proc.memory_percent():.1f}%)"
+        if proc is not None
+        else "n/a"
+    )
 
     console.print(
         make_status_panel(
-            run_id=run_id,
+            run_id=options.runtime.run_id,
             cmd=args.cmd,
-            stats=stats,
+            stats=options.runtime.stats,
             concurrency=cur,
             cpu_pct=cpu_pct,
             rss_mb=rss_mb,
@@ -1262,7 +942,137 @@ async def amain(args: argparse.Namespace) -> None:
     )
 
 
+def maybe_start_tuner(
+    args: argparse.Namespace,
+    limiter: AdaptiveLimiter,
+    stats: RunStats,
+    start: int,
+    max_limit: int,
+) -> asyncio.Task | None:
+    """Start the adaptive concurrency tuner when enabled."""
+    if args.concurrency != "auto":
+        return None
+    return asyncio.create_task(
+        autotune_concurrency(
+            limiter,
+            stats,
+            start=start,
+            max_limit=max_limit,
+            cpu_high=float(args.cpu_high),
+            cpu_low=float(args.cpu_low),
+            interval_s=5.0,
+            cpu_sample=make_cpu_sampler(),
+        )
+    )
+
+
+async def run_command(options: DownloadOptions, args: argparse.Namespace) -> None:
+    """Dispatch the selected command."""
+    if args.cmd == "consolidada":
+        await cmd_consolidada(options, args)
+        return
+    if args.cmd == "sumario":
+        await cmd_sumario(options, args)
+        return
+    raise RuntimeError(f"Comando no reconocido: {args.cmd}")
+
+
+async def amain(args: argparse.Namespace) -> None:
+    """Async CLI entrypoint."""
+    store_dir = args.store
+    ensure_dirs(store_dir)
+
+    run_id = (
+        datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+        + f"-{(secrets.randbelow(9999 - 1000 + 1) + 1000)}"
+    )
+    console = make_console(args.progress)
+    console.print(f"[bold]run_id:[/bold] {run_id}")
+
+    web_state = WebState() if args.open_web else None
+    if web_state is not None:
+        web_state.set_run_info(run_id, args.cmd)
+        web_state.set_status("PREPARANDO")
+        web_state.set_timestamp()
+    prep_stop = asyncio.Event()
+    prep_task: asyncio.Task | None = None
+    if web_state is not None:
+        async def prep_loop() -> None:
+            while not prep_stop.is_set():
+                web_state.set_timestamp()
+                await asyncio.sleep(0.8)
+        prep_task = asyncio.create_task(prep_loop())
+    db_ctx: DbCtx | None = None
+    if not args.no_db:
+        dsn = args.db_dsn or os.environ.get("BOE_DB_DSN")
+        if not dsn:
+            print("Falta --db-dsn o BOE_DB_DSN (o usa --no-db).", file=sys.stderr)
+            raise SystemExit(2)
+        db_ctx = DbCtx(pool=await asyncpg.create_pool(dsn=dsn, min_size=1, max_size=5))
+    web_handle = None
+    if args.open_web and web_state is not None:
+        try:
+            web_handle = start_web_server(
+                web_state, host=args.web_host, port=parse_web_port(args.web_port)
+            )
+            console.print(f"[bold]Panel web:[/bold] {web_handle.url}")
+            try:
+                webbrowser.open(web_handle.url)
+            except OSError:
+                console.print(
+                    "[dim]No se pudo abrir el navegador automaticamente.[/dim]"
+                )
+        except RuntimeError as exc:
+            banner = (
+                "\n"
+                "===============================\n"
+                "PUERTO OCUPADO\n"
+                f"{exc}\n"
+                "Usa --web-port con otro puerto para continuar.\n"
+                "===============================\n"
+            )
+            console.print(banner)
+            raise SystemExit(2) from exc
+
+    debug_http, debug_http_all = print_debug_http(console, args)
+    context = await build_runtime_context(
+        args, run_id, debug_http, debug_http_all, web_state, db_ctx
+    )
+
+    tuner_task = maybe_start_tuner(
+        args,
+        context.options.runtime.limiter,
+        context.options.runtime.stats,
+        context.start,
+        context.max_limit,
+    )
+
+    try:
+        async with aiohttp.ClientSession(
+            timeout=context.timeout, connector=context.connector
+        ) as session:
+            context.options.io.session = session
+            await run_command(context.options, args)
+
+    finally:
+        if prep_task is not None:
+            prep_stop.set()
+            prep_task.cancel()
+            await asyncio.gather(prep_task, return_exceptions=True)
+        if tuner_task is not None:
+            tuner_task.cancel()
+            await asyncio.gather(tuner_task, return_exceptions=True)
+        if web_handle is not None:
+            stop_web_server(web_handle)
+        if db_ctx is not None:
+            await db_ctx.pool.close()
+
+    if not args.progress:
+        await print_final_status(console, args, context.options)
+
+
 def main() -> None:
+    """Sync CLI entrypoint."""
 
     parser = build_arg_parser()
     args = parser.parse_args()
@@ -1271,6 +1081,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-
-

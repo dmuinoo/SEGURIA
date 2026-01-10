@@ -1,0 +1,20 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-license-files
+        name: Verificar existencia de LICENSE y NOTICE
+        entry: bash -c '[ -f LICENSE ] && [ -f NOTICE ] || (echo "Faltan LICENSE o NOTICE"; exit 1)'
+        language: system
+
+      - id: check-file-headers
+        name: Verificar cabeceras en .py / .js / .md
+        entry: scripts/check_headers.sh
+        language: system
+        files: '\.(py|js|ts|md)$'
+
+      - id: add-headers
+        name: Añadir automáticamente cabeceras
+        entry: scripts/add_headers.py
+        language: python
+        stages: [manual]
+

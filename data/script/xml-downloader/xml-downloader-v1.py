@@ -20,7 +20,7 @@ python3 boe_downloader_eli.py consolidada --concurrency 25 --part full --accept 
 
 *Descargar por un eli concreto
 python3 boe_downloader_eli.py eli --value "https://www.boe.es/eli/es/l/2015/10/01/40"
-	Si quieres fforzar recostruccion del indice antes:
+        Si quieres fforzar recostruccion del indice antes:
 python3 boe_downloader_eli.py eli --rebuild-index --value "https://www.boe.es/eli/es/l/2015/10/01/40"
 
 *Descargar BOE por sumario (sin cambios)
@@ -63,13 +63,14 @@ DEFAULT_RETRIES = 4
 ELI_RE = re.compile(r"^https?://www\.boe\.es/eli/.*", re.IGNORECASE)
 
 # Nombres de ficheros de índice
-ELI_INDEX_FILE = "eli_index.json"         # mapa ELI->doc_id
+ELI_INDEX_FILE = "eli_index.json"  # mapa ELI->doc_id
 ELI_INDEX_META_FILE = "eli_index_meta.json"  # info de actualización del índice
 
 
 # -----------------------------
 # Persistencia
 # -----------------------------
+
 
 @dataclass
 class StoredMeta:
@@ -140,6 +141,7 @@ def save_json_file(path: str, obj: Any) -> None:
 # HTTP con caché
 # -----------------------------
 
+
 async def fetch_with_cache(
     session: ClientSession,
     url: str,
@@ -168,7 +170,9 @@ async def fetch_with_cache(
                 if status >= 400:
                     body = await resp.read()
                     if status == 429 or status >= 500:
-                        raise RuntimeError(f"HTTP {status} retryable for {url}: {body[:200]!r}")
+                        raise RuntimeError(
+                            f"HTTP {status} retryable for {url}: {body[:200]!r}"
+                        )
                     raise RuntimeError(f"HTTP {status} for {url}: {body[:200]!r}")
 
                 content = await resp.read()
@@ -188,7 +192,7 @@ async def fetch_with_cache(
         except Exception as e:
             last_exc = e
             if attempt < retries:
-                base_delay = 0.6 * (2 ** attempt)
+                base_delay = 0.6 * (2**attempt)
                 jitter = random.random() * 0.25
                 await asyncio.sleep(base_delay + jitter)
                 continue
@@ -200,6 +204,7 @@ async def fetch_with_cache(
 # -----------------------------
 # XML helpers
 # -----------------------------
+
 
 def parse_xml_bytes(xml_bytes: bytes) -> etree._Element:
     parser = etree.XMLParser(recover=True, resolve_entities=False, huge_tree=True)
@@ -216,6 +221,7 @@ def text_or_none(el: Optional[etree._Element]) -> Optional[str]:
 # -----------------------------
 # Legislación consolidada: índice ELI
 # -----------------------------
+
 
 async def get_consolidated_list_json(
     session: ClientSession,
@@ -238,7 +244,9 @@ async def get_consolidated_list_json(
     else:
         url = f"{LEGIS_API}?limit=-1"
 
-    content, _meta, _status = await fetch_with_cache(session, url, accept="application/json")
+    content, _meta, _status = await fetch_with_cache(
+        session, url, accept="application/json"
+    )
     if content is None:
         data_path, _ = paths_for_url(url)
         with open(data_path, "rb") as f:
@@ -290,7 +298,9 @@ async def build_or_update_eli_index(
     if not isinstance(existing, dict):
         existing = {}
 
-    items = await get_consolidated_list_json(session, since_from=since_from, since_to=since_to)
+    items = await get_consolidated_list_json(
+        session, since_from=since_from, since_to=since_to
+    )
 
     added = 0
     for it in items:
@@ -366,11 +376,15 @@ async def download_consolidated_by_eli(
 
         async with sem:
             try:
-                content, meta, status = await fetch_with_cache(session, url, accept=accept)
+                content, meta, status = await fetch_with_cache(
+                    session, url, accept=accept
+                )
 
                 # Validación rápida del XML si corresponde
                 parsed_ok = None
-                if accept.lower().startswith("application/xml") or accept.lower().startswith("text/xml"):
+                if accept.lower().startswith(
+                    "application/xml"
+                ) or accept.lower().startswith("text/xml"):
                     if content is None:
                         data_path, _ = paths_for_url(url)
                         with open(data_path, "rb") as f:
@@ -447,6 +461,7 @@ async def download_consolidated_catalog_only_eli(
 # Sumario diario
 # -----------------------------
 
+
 def extract_sumario_item_urls(sumario_root: etree._Element) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for it in sumario_root.xpath(".//item"):
@@ -480,7 +495,9 @@ async def download_sumario_day(
         raise ValueError("fecha debe ser AAAAMMDD (8 dígitos)")
 
     sumario_url = f"{SUMARIO_API}/{fecha}"
-    sum_bytes, _sum_meta, _status = await fetch_with_cache(session, sumario_url, accept=accept_sumario)
+    sum_bytes, _sum_meta, _status = await fetch_with_cache(
+        session, sumario_url, accept=accept_sumario
+    )
     if sum_bytes is None:
         data_path, _ = paths_for_url(sumario_url)
         with open(data_path, "rb") as f:
@@ -499,7 +516,9 @@ async def download_sumario_day(
         url = rec["url_xml"]
         async with sem:
             try:
-                content, meta, status = await fetch_with_cache(session, url, accept=accept_item_xml)
+                content, meta, status = await fetch_with_cache(
+                    session, url, accept=accept_item_xml
+                )
 
                 parsed_ok = False
                 if content is None:
@@ -546,13 +565,26 @@ async def download_sumario_day(
 # CLI
 # -----------------------------
 
+
 def build_arg_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         description="Descarga BOE orientada a ELI: consolidada (solo ELI) + sumario diario.",
     )
-    p.add_argument("--store", default=STORE_DIR, help="Directorio base (por defecto: ./boe_store)")
-    p.add_argument("--concurrency", type=int, default=DEFAULT_MAX_CONCURRENCY, help="Máximo de descargas concurrentes")
-    p.add_argument("--retries", type=int, default=DEFAULT_RETRIES, help="Reintentos por URL (backoff exponencial)")
+    p.add_argument(
+        "--store", default=STORE_DIR, help="Directorio base (por defecto: ./boe_store)"
+    )
+    p.add_argument(
+        "--concurrency",
+        type=int,
+        default=DEFAULT_MAX_CONCURRENCY,
+        help="Máximo de descargas concurrentes",
+    )
+    p.add_argument(
+        "--retries",
+        type=int,
+        default=DEFAULT_RETRIES,
+        help="Reintentos por URL (backoff exponencial)",
+    )
     p.add_argument(
         "--proxy-env",
         action="store_true",
@@ -563,11 +595,21 @@ def build_arg_parser() -> argparse.ArgumentParser:
     sub = p.add_subparsers(dest="cmd", required=True)
 
     # consolidada: descarga todo el catálogo pero filtrando por ELI
-    pc = sub.add_parser("consolidada", help="Descarga masiva de legislación consolidada SOLO con url_eli")
+    pc = sub.add_parser(
+        "consolidada",
+        help="Descarga masiva de legislación consolidada SOLO con url_eli",
+    )
     pc.add_argument(
         "--part",
         default="full",
-        choices=["full", "metadatos", "analisis", "metadata-eli", "texto", "texto/indice"],
+        choices=[
+            "full",
+            "metadatos",
+            "analisis",
+            "metadata-eli",
+            "texto",
+            "texto/indice",
+        ],
         help="Parte a descargar (por defecto: full)",
     )
     pc.add_argument(
@@ -575,28 +617,71 @@ def build_arg_parser() -> argparse.ArgumentParser:
         default="application/xml",
         help="Accept header (por defecto: application/xml). Para metadatos/analisis/indice puedes usar application/json.",
     )
-    pc.add_argument("--from", dest="since_from", default=None, help="Filtro AAAAMMDD por fecha de actualización (inicio)")
-    pc.add_argument("--to", dest="since_to", default=None, help="Filtro AAAAMMDD por fecha de actualización (fin)")
-    pc.add_argument("--manifest", default="manifest_consolidada_eli.jsonl", help="Nombre del manifest JSONL")
+    pc.add_argument(
+        "--from",
+        dest="since_from",
+        default=None,
+        help="Filtro AAAAMMDD por fecha de actualización (inicio)",
+    )
+    pc.add_argument(
+        "--to",
+        dest="since_to",
+        default=None,
+        help="Filtro AAAAMMDD por fecha de actualización (fin)",
+    )
+    pc.add_argument(
+        "--manifest",
+        default="manifest_consolidada_eli.jsonl",
+        help="Nombre del manifest JSONL",
+    )
 
     # eli: descarga por ELI individual (o lista)
-    pe = sub.add_parser("eli", help="Descarga norma consolidada resolviendo por URI ELI")
-    pe.add_argument("--value", help="ELI concreto (ej: https://www.boe.es/eli/es/l/2015/10/01/40)")
+    pe = sub.add_parser(
+        "eli", help="Descarga norma consolidada resolviendo por URI ELI"
+    )
+    pe.add_argument(
+        "--value", help="ELI concreto (ej: https://www.boe.es/eli/es/l/2015/10/01/40)"
+    )
     pe.add_argument("--file", help="Fichero de texto con un ELI por línea")
     pe.add_argument(
         "--part",
         default="full",
-        choices=["full", "metadatos", "analisis", "metadata-eli", "texto", "texto/indice"],
+        choices=[
+            "full",
+            "metadatos",
+            "analisis",
+            "metadata-eli",
+            "texto",
+            "texto/indice",
+        ],
         help="Parte a descargar (por defecto: full)",
     )
-    pe.add_argument("--accept", default="application/xml", help="Accept header (por defecto: application/xml)")
-    pe.add_argument("--manifest", default="manifest_eli_on_demand.jsonl", help="Nombre del manifest JSONL")
-    pe.add_argument("--rebuild-index", action="store_true", help="Reconstruye índice ELI->doc_id antes de resolver")
+    pe.add_argument(
+        "--accept",
+        default="application/xml",
+        help="Accept header (por defecto: application/xml)",
+    )
+    pe.add_argument(
+        "--manifest",
+        default="manifest_eli_on_demand.jsonl",
+        help="Nombre del manifest JSONL",
+    )
+    pe.add_argument(
+        "--rebuild-index",
+        action="store_true",
+        help="Reconstruye índice ELI->doc_id antes de resolver",
+    )
 
     # sumario
-    ps = sub.add_parser("sumario", help="Descarga BOE del día via sumario y baja XML de cada item")
+    ps = sub.add_parser(
+        "sumario", help="Descarga BOE del día via sumario y baja XML de cada item"
+    )
     ps.add_argument("--fecha", required=True, help="Fecha AAAAMMDD")
-    ps.add_argument("--manifest", default=None, help="Manifest JSONL (por defecto: manifest_sumario_AAAAMMDD.jsonl)")
+    ps.add_argument(
+        "--manifest",
+        default=None,
+        help="Manifest JSONL (por defecto: manifest_sumario_AAAAMMDD.jsonl)",
+    )
 
     return p
 
@@ -611,7 +696,9 @@ async def amain(args: argparse.Namespace) -> None:
     ensure_dirs()
 
     connector = aiohttp.TCPConnector(limit=0, ssl=False)
-    async with aiohttp.ClientSession(timeout=TIMEOUT, connector=connector, trust_env=bool(args.proxy_env)) as session:
+    async with aiohttp.ClientSession(
+        timeout=TIMEOUT, connector=connector, trust_env=bool(args.proxy_env)
+    ) as session:
         if args.cmd == "consolidada":
             await download_consolidated_catalog_only_eli(
                 session=session,
@@ -683,4 +770,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

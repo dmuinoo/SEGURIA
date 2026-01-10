@@ -1,20 +1,26 @@
 # POC IA + Research RAG (BOE)
 
-Esta carpeta contiene una **POC de una IA con research RAG** que devolverá una respuesta basada en documentos del BOE y una URL a los documentos originales. Por ahora solo se ha desarrollado el script de descarga y su runner de tests, pero el stack objetivo está definido y se describe más abajo.
+Esta carpeta contiene una **POC de una IA con research RAG** que devolvera una respuesta basada en documentos del BOE y una URL a los documentos originales. Por ahora solo se ha desarrollado el script de descarga y su runner de tests, pero el stack objetivo esta definido y se describe mas abajo.
 
 > [!NOTE]
 > Normativa aplicable: ver [NORMATIVA.md](data/normativa/NORMATIVA.md).  
-> Directrices de la IA Act y de las 16 guías de la AESIA.
+> Directrices de la IA Act y de las 16 guias de la AESIA.
 
-## Stack previsto (visión general)
+## Stack previsto (vision general)
 
-- **Script de descarga** (implementado): obtiene sumarios y documentos del BOE, guarda payloads y registra la ingesta.
+- **Scripts de descarga** (implementados):
+  - [`boe_downloader_eli.py`](data/script/xml-downloader/boe_downloader_eli.py): CLI y orquestacion general (argumentos, flujo, panel web).
+  - [`boe_downloader_http.py`](data/script/xml-downloader/boe_downloader_http.py): descargas HTTP con cache condicional y metadata.
+  - [`boe_downloader_pipeline.py`](data/script/xml-downloader/boe_downloader_pipeline.py): cola de descargas, Rich UI, escrituras y metricas.
+  - [`boe_downloader_parsing.py`](data/script/xml-downloader/boe_downloader_parsing.py): parsing del sumario XML y extraccion de URLs.
+  - [`boe_downloader_db.py`](data/script/xml-downloader/boe_downloader_db.py): escritura en `ingest.resource` e `ingest.attempt`.
+  - [`boe_downloader_web.py`](data/script/xml-downloader/boe_downloader_web.py): panel web FastAPI (estado en vivo).
 - **Postgres**: registra estado de ingesta, reintentos, hashes, ubicaciones de almacenamiento y metadatos.
-- **Script de introducción a Parquet con Polars** (pendiente): transforma lo descargado y lo deja listo para reindexación.
+- **Script de introduccion a Parquet con Polars** (pendiente): transforma lo descargado y lo deja listo para reindexacion.
 - **Script de embeddings y chunking** (pendiente): genera embeddings y carga en Qdrant (vectorial) y Neo4j (grafo).
-- **RAG** (pendiente): motor de recuperación y respuesta para maximizar exactitud y velocidad.
-- **Guardrails y seguridad** (pendiente): validación, trazabilidad y medidas de seguridad para la POC.
-- **LLM local** (pendiente): uso de modelos vía Ollama para la POC.
+- **RAG** (pendiente): motor de recuperacion y respuesta para maximizar exactitud y velocidad.
+- **Guardrails y seguridad** (pendiente): validacion, trazabilidad y medidas de seguridad para la POC.
+- **LLM local** (pendiente): uso de modelos via Ollama para la POC.
 
 ### Diagrama (alto nivel)
 
@@ -43,9 +49,9 @@ AGENTE
 LLM (Ollama)
 ```
 
-## Documentación adicional
+## Documentacion adicional
 
-Enlaces a archivos del downloader:
+Enlaces a documentacion del proyecto:
 
 - [README.md](data/normativa/README.md)
 - [ABOUT.md](data/normativa/ABOUT.md)
@@ -60,35 +66,35 @@ Ruta:
 
 - [data/script/xml-downloader/boe_downloader_eli.py](data/script/xml-downloader/boe_downloader_eli.py)
 
-### Qué hace
+### Que hace
 
 - Descarga documentos del BOE por fecha (sumario) y por BOE-A (consolidada).
-- Usa el sumario de una fecha para extraer URLs de cada BOE publicado ese día.
-- Descarga XML/PDF según los formatos indicados.
+- Usa el sumario XML de una fecha para extraer URLs de cada BOE publicado ese dia.
+- Descarga XML/PDF segun los formatos indicados.
 - Guarda payloads con sha256 en disco y registra el estado en Postgres (`ingest.resource`, `ingest.attempt`).
-- Opcionalmente puede parsear XML consolidado y poblar tablas `boe.*` con `--ingest-xml`.
-- Levanta un panel web en **FastAPI** para visualizar métricas en vivo (progreso, errores, bytes, etc.).
+- Muestra metricas en vivo con Rich (CLI) y un panel web **FastAPI** (progreso, errores, bytes, etc.).
 
 ### Panel web (FastAPI)
 
-El script levanta un panel web local con gráficos y métricas en tiempo real:
+El script puede levantar un panel web local con graficos y metricas en tiempo real:
 
-- URL fija: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- Se mantiene activo mientras el proceso está en ejecución.
-- Si el puerto 8000 está ocupado, el panel web **no** se inicia.
-- Si `fastapi` o `uvicorn` no están instalados, se muestra un aviso y se desactiva el panel web.
-- Con `--open-web` se abre automáticamente en el navegador del **equipo donde se ejecuta el script**.
+- URL por defecto: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- Se mantiene activo mientras el proceso esta en ejecucion.
+- Si el puerto esta ocupado, el script aborta antes de iniciar descargas y muestra un aviso.
+- Si `fastapi` o `uvicorn` no estan instalados, se muestra un aviso y se desactiva el panel web.
+- Con `--open-web` se abre automaticamente en el navegador del **equipo donde se ejecuta el script**.
+- Con `--web-port` puedes elegir otro puerto (default 8000).
 
-Vista rápida del panel:
+Vista rapida del panel:
 
-![Diagrama](docs/boe-dashboard.svg)
+![Panel FastAPI](docs/boe-dashboard.svg)
 
 > [!NOTE]
-> El panel web se sirve en el mismo host donde se ejecuta el script. En un servidor remoto no abrirá el navegador local automáticamente.
+> El panel web se sirve en el mismo host donde se ejecuta el script. En un servidor remoto no abrira el navegador local automaticamente.
 
-#### Túnel SSH (cuando ejecutas en remoto)
+#### Tunel SSH (cuando ejecutas en remoto)
 
-Si ejecutas el script en un servidor remoto, usa un túnel SSH para abrir el panel desde tu equipo:
+Si ejecutas el script en un servidor remoto, usa un tunel SSH para abrir el panel desde tu equipo:
 
 ```bash
 ssh -L 8000:127.0.0.1:8000 usuario@servidor
@@ -97,22 +103,7 @@ ssh -L 8000:127.0.0.1:8000 usuario@servidor
 Luego abre en tu navegador local:
 [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-El script puede imprimir una sugerencia automática de túnel si pasas `--ssh-host`:
-
-```bash
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --ssh-host servidor \
-  --ssh-user usuario \
-  --formats xml,pdf \
-  consolidada --fecha AAAAMMDD
-```
-
-> [!TIP]
-> Puedes ajustar el puerto del túnel con `--ssh-local-port` y `--ssh-remote-port`.
->
-> Para abrir el panel web automáticamente en local, añade `--open-web` (el script usa `open` en macOS, `start` en Windows y `xdg-open` en Linux).
-
-Diagrama rápido (FastAPI + túnel SSH):
+Diagrama rapido (FastAPI + tunel SSH):
 
 ```
 ┌───────────────────────┐            ┌──────────────────────────┐
@@ -120,38 +111,22 @@ Diagrama rápido (FastAPI + túnel SSH):
 │  boe_downloader_eli.py  │            │   Navegador web local     │
 │  FastAPI :8000          │            │   http://127.0.0.1:8000   │
 └───────────┬────────────┘            └───────────┬──────────────┘
-            │  Túnel SSH (port forward)           │
+            │  Tunel SSH (port forward)           │
             └──────────────┬──────────────────────┘
                            │
        ssh -L 8000:127.0.0.1:8000 usuario@servidor
 ```
 
-> [!IMPORTANT]
-> Comando de túnel recomendado:
->
-> ```bash
-> ssh -L 8000:127.0.0.1:8000 usuario@servidor
-> ```
+### Componentes principales (resumen)
 
-Ejemplo con ayuda automática del script:
+- `boe_downloader_eli.py`: CLI, orquestacion, validacion de argumentos y arranque del panel web.
+- `boe_downloader_http.py`: descargas HTTP con cache condicional y metadata.
+- `boe_downloader_pipeline.py`: cola de descargas, Rich UI, escrituras de payloads y metricas.
+- `boe_downloader_parsing.py`: parsing de sumario XML y extraccion de URLs.
+- `boe_downloader_db.py`: persistencia en `ingest.resource` e `ingest.attempt`.
+- `boe_downloader_web.py`: panel web FastAPI (estado en vivo y diseno del dashboard).
 
-```bash
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --ssh-host servidor \
-  --ssh-user usuario \
-  --formats xml,pdf \
-  consolidada --fecha AAAAMMDD
-```
-
-### Funciones principales (resumen)
-
-- `run_sumario(...)`: descarga el sumario por fecha y guarda JSON/XML/PDF según `--formats`.
-- `run_consolidada(...)`: usa el sumario XML para sacar URLs por BOE-A y descarga XML/PDF.
-- `download_one_format(...)`: descarga un formato concreto, guarda payloads, escribe metadata y registra en BD.
-- `extract_consolidada_urls_from_sumario_xml(...)`: parsea el sumario XML y devuelve IDs + URLs.
-- `parse_boe_xml_to_model(...)`: parsea XML consolidado a un modelo estructurado (solo si `--ingest-xml`).
-
-### Uso básico
+### Uso basico
 
 Global:
 
@@ -163,55 +138,31 @@ python3 data/script/xml-downloader/boe_downloader_eli.py --help
 Modo sumario:
 
 ```bash
-# JSON/XML del sumario por fecha
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --formats xml,json \
-  --no-db \
-  sumario --fecha AAAAMMDD
-
-# PDF del sumario (requiere URL exacta)
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --formats pdf \
-  --no-db \
-  sumario --fecha AAAAMMDD --pdf-url https://www.boe.es/boe/dias/AAAA/MM/DD/pdfs/BOE-S-AAAA-NNN.pdf
+# XML del sumario por fecha
+python3 data/script/xml-downloader/boe_downloader_eli.py   --formats xml   --no-db   sumario --fecha AAAAMMDD
 ```
 
 Modo consolidada:
 
 ```bash
 # Consolidadas por fecha (extrae URLs del sumario XML)
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --formats xml,pdf \
-  --db-dsn postgresql://USER:PASS@localhost:PORT/DB \
-  consolidada --fecha AAAAMMDD
-
-# Consolidadas por IDs (coma-separado)
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --formats xml \
-  --no-db \
-  consolidada --ids BOE-A-2025-00001,BOE-A-2025-00002
-
-# Consolidadas por archivo (una ID por línea o JSON array)
-python3 data/script/xml-downloader/boe_downloader_eli.py \
-  --formats xml \
-  --no-db \
-  consolidada --ids-file /ruta/ids.txt
+python3 data/script/xml-downloader/boe_downloader_eli.py   --formats xml,pdf   --db-dsn postgresql://USER:PASS@localhost:PORT/DB   consolidada --fecha AAAAMMDD
 ```
 
 > [!WARNING]
-> En consolidada, **JSON está desactivado** porque los endpoints consultados devuelven XML aunque se pida `Accept: application/json`.
+> En consolidada, **JSON esta desactivado** porque los endpoints consultados devuelven XML aunque se pida `Accept: application/json`.
 
 > [!IMPORTANT]
 > Los argumentos globales (`--formats`, `--db-dsn`, `--store`, etc.) deben ir **antes** del subcomando (`sumario` o `consolidada`).  
-> Si se pasan después, el parser los interpreta como argumentos del subcomando y devuelve error.
+> Si se pasan despues, el parser los interpreta como argumentos del subcomando y devuelve error.
 
 Notas:
 
-- Para insertar en `boe.*` se debe usar `--ingest-xml` junto con formato XML.
-- El almacenamiento por defecto es `./boe_store` (relativo al directorio de ejecución).
+- El almacenamiento por defecto es `./boe_store` (relativo al directorio de ejecucion).
 
 > [!TIP]
-> Para pruebas rápidas sin BD usa `--no-db` y limita la descarga a pocos IDs con `consolidada --ids`.
+> Para pruebas rapidas sin BD usa `--no-db` y una fecha concreta con `consolidada --fecha`.
+> Para ver un dashboard con los datos de las descargas `--open-web`.
 
 ### Argumentos principales
 
@@ -220,28 +171,39 @@ Globales:
 - `--store`: carpeta base de almacenamiento (default `./boe_store`).
 - `--timeout`: timeout total por request (segundos).
 - `--retries`: reintentos para 429/5xx/errores transitorios.
-- `--concurrency`: concurrencia fija.
+- `--concurrency`: concurrencia fija o `auto`.
+- `--concurrency-start`: concurrencia inicial en modo auto.
+- `--concurrency-max`: techo de concurrencia en modo auto.
 - `--formats`: `xml,json,pdf` (coma-separado).
 - `--db-dsn`: DSN Postgres para registrar en BD.
 - `--no-db`: desactiva escritura en BD.
-- `--ingest-xml`: parsea XML y pobla tablas `boe.*`.
-- `--ssh-host`: imprime una sugerencia de túnel SSH para el panel web.
-- `--ssh-user`: usuario SSH para el comando sugerido.
-- `--ssh-port`: puerto SSH remoto (default 22).
-- `--ssh-local-port`: puerto local del túnel (default 8000).
-- `--ssh-remote-port`: puerto remoto del panel (default 8000).
+- `--progress`: muestra barra de progreso Rich (default activo).
+- `--no-progress`: desactiva la barra Rich.
+- `--ui-refresh`: refresco de la UI Rich (veces/seg).
+- `--debug-http`: solo imprime HTTP con status != 200.
+- `--debug-http-all`: imprime todo el trafico HTTP (mas lento).
+- `--debug`: alias de `--debug-http`.
+- `--no-cache`: desactiva cache condicional (sin `If-None-Match`).
+- `--cpu-high`: umbral de CPU para bajar concurrencia en modo auto.
+- `--cpu-low`: umbral de CPU para subir concurrencia en modo auto.
+- `--jitter`: tipo de jitter para backoff (`decorrelated` o `full`).
+- `--base-delay`: delay base para backoff.
+- `--cap-delay`: delay maximo para backoff.
 - `--open-web`: abre el panel web en el navegador local si es posible.
+- `--web-host`: host del panel web (default `127.0.0.1`).
+- `--web-port`: puerto del panel web (default `8000`).
 
 Subcomando `sumario`:
 
 - `--fecha` (AAAAMMDD) **obligatorio**.
-- `--pdf-url` si se quiere descargar PDF del sumario.
+- `--manifest` para el JSONL de indices.
 
 Subcomando `consolidada`:
 
-- `--fecha` (AAAAMMDD) para obtener IDs desde el sumario.
-- `--ids` lista separada por comas.
-- `--ids-file` archivo con IDs (líneas o JSON array).
+- `--fecha` (DD-MM-AAAA o AAAAMMDD) para obtener IDs desde el sumario.
+- `--since-from` / `--since-to` para rango de fechas (AAAAMMDD).
+- `--eli-list` archivo con una ELI por linea.
+- `--part` y `--accept` para controlar la parte del documento y el Accept header.
 
 ## Script de tests
 
@@ -249,7 +211,7 @@ Ruta:
 
 - [data/script/xml-downloader/test_boe_downloader_eli.py](data/script/xml-downloader/test_boe_downloader_eli.py)
 
-### Qué hace
+### Que hace
 
 - Ejecuta pytest, coverage, ruff, mypy, pylint, bandit y black.
 - Tiene tests unitarios locales (sin red por defecto).
@@ -258,11 +220,11 @@ Ruta:
 ### Uso
 
 ```bash
-# usar el entorno del proyecto con extra de tests
-uv run --extra test python3 data/script/xml-downloader/test_boe_downloader_eli.py
+# usar el entorno del proyecto con grupo de tests
+uv run --group test python3 data/script/xml-downloader/test_boe_downloader_eli.py
 
 # ejecutar herramientas pesadas
-RUN_HEAVY=1 uv run --extra test python3 data/script/xml-downloader/test_boe_downloader_eli.py
+RUN_HEAVY=1 uv run --group test python3 data/script/xml-downloader/test_boe_downloader_eli.py
 ```
 
 > [!NOTE]
@@ -277,24 +239,24 @@ Tabla `ingest.resource` (snapshot por recurso):
 - `source_kind`: tipo de fuente (`sumario_dia`, `consolidada_id`, etc.).
 - `resource_key`: clave del recurso (fecha o BOE-A).
 - `url_xml`, `url_json`, `url_pdf`: URLs conocidas para cada formato.
-- `xml_downloaded`, `xml_downloaded_at`, `xml_http_status`, `xml_sha256`, `xml_storage_uri`, `xml_error`: estado del último intento XML.
-- `json_downloaded`, `json_downloaded_at`, `json_http_status`, `json_sha256`, `json_storage_uri`, `json_error`: estado del último intento JSON.
-- `pdf_downloaded`, `pdf_downloaded_at`, `pdf_http_status`, `pdf_sha256`, `pdf_storage_uri`, `pdf_error`: estado del último intento PDF.
-- `created_at`, `updated_at`: control de auditoría.
+- `xml_downloaded`, `xml_downloaded_at`, `xml_http_status`, `xml_sha256`, `xml_storage_uri`, `xml_error`: estado del ultimo intento XML.
+- `json_downloaded`, `json_downloaded_at`, `json_http_status`, `json_sha256`, `json_storage_uri`, `json_error`: estado del ultimo intento JSON.
+- `pdf_downloaded`, `pdf_downloaded_at`, `pdf_http_status`, `pdf_sha256`, `pdf_storage_uri`, `pdf_error`: estado del ultimo intento PDF.
+- `created_at`, `updated_at`: control de auditoria.
 
-Tabla `ingest.attempt` (histórico de intentos):
+Tabla `ingest.attempt` (historico de intentos):
 
 - `attempt_id`: UUID del intento.
 - `resource_id`: referencia al recurso.
 - `format`: formato (`xml`, `json`, `pdf`).
 - `request_url`: URL solicitada.
 - `accept_header`: valor del header Accept.
-- `requested_at`, `finished_at`, `duration_ms`: tiempos de ejecución.
+- `requested_at`, `finished_at`, `duration_ms`: tiempos de ejecucion.
 - `http_status`, `response_headers`, `content_type`, `content_length`: respuesta HTTP.
 - `sha256`, `storage_uri`: huella y ruta del payload guardado.
 - `error_type`, `error_detail`: error si fallo.
 
-### Consultas útiles
+### Consultas utiles
 
 ```sql
 -- Estado por formato en ingest.resource
@@ -319,30 +281,30 @@ Tabla `boe.document` (documento consolidado):
 - `document_id`: UUID del documento.
 - `boe_id`: identificador BOE-A.
 - `url_eli`, `url_html_consolidada`: enlaces a ELI/HTML.
-- `xml_sha256`, `xml_storage_uri`, `content_type`: huella y ubicación del XML.
+- `xml_sha256`, `xml_storage_uri`, `content_type`: huella y ubicacion del XML.
 - `fecha_actualizacion_utc`, `fecha_disposicion`, `fecha_publicacion`, `fecha_vigencia`: fechas clave.
-- `ambito_*`, `departamento_*`, `rango_*`: códigos y textos de metadatos.
+- `ambito_*`, `departamento_*`, `rango_*`: codigos y textos de metadatos.
 - `numero_oficial`, `titulo`, `diario`, `diario_numero`: metadatos principales.
 - `estatus_derogacion`, `estatus_anulacion`, `vigencia_agotada`, `estado_consolidacion_*`: estado normativo.
 - `metadatos_raw`, `analisis_raw`, `metadata_eli_raw`, `texto_raw`, `xml_raw`: payloads completos.
-- `created_at`: auditoría.
+- `created_at`: auditoria.
 
-Tabla `boe.materia`: catálogo de materias (código y texto).
-Tabla `boe.document_materia`: relación documento-materia.
+Tabla `boe.materia`: catalogo de materias (codigo y texto).
+Tabla `boe.document_materia`: relacion documento-materia.
 Tabla `boe.document_nota`: notas numeradas del documento.
-Tabla `boe.relacion_tipo`: tipos de relación normativa.
-Tabla `boe.document_referencia`: referencias anteriores/posteriores con texto y relación.
+Tabla `boe.relacion_tipo`: tipos de relacion normativa.
+Tabla `boe.document_referencia`: referencias anteriores/posteriores con texto y relacion.
 Tabla `boe.text_block`: bloques del texto estructurado.
 Tabla `boe.text_block_version`: versiones de cada bloque (vigencia).
-Tabla `boe.text_unit`: unidades de texto (párrafos) por versión.
+Tabla `boe.text_unit`: unidades de texto (parrafos) por version.
 
 ## Scripts futuros (pendientes)
 
-- **Carga a Parquet con Polars**: transformará los datos descargados a Parquet para reindexación rápida.
-- **Embeddings + chunking**: generará embeddings, ingesta en Qdrant (vectorial) y Neo4j (grafo).
-- **RAG**: pipeline de recuperación y respuesta para máxima exactitud y velocidad.
+- **Carga a Parquet con Polars**: transformara los datos descargados a Parquet para reindexacion rapida.
+- **Embeddings + chunking**: generara embeddings, ingesta en Qdrant (vectorial) y Neo4j (grafo).
+- **RAG**: pipeline de recuperacion y respuesta para maxima exactitud y velocidad.
 - **Guardrails y seguridad**: validaciones, filtrado y medidas defensivas con agentes IA.
-- **LLM local vía Ollama**: modelo local para la POC.
+- **LLM local via Ollama**: modelo local para la POC.
 
 ## Estructura de almacenamiento en disco (por defecto)
 
@@ -352,7 +314,7 @@ Tabla `boe.text_unit`: unidades de texto (párrafos) por versión.
 
 Cada payload se guarda como `sha256.ext` y su metadata como `sha256.meta.json`.
 
-## Operación diaria (propuesta)
+## Operacion diaria (propuesta)
 
 1. Ejecutar descarga por fecha con `--formats xml,pdf`.
 2. Verificar estado en `ingest.resource` y `ingest.attempt`.
@@ -362,39 +324,48 @@ Cada payload se guarda como `sha256.ext` y su metadata como `sha256.meta.json`.
 
 ## Glosario breve
 
-- **RAG**: técnica que combina recuperación de documentos y generación de respuestas.
-- **ELI**: identificador europeo de legislación (European Legislation Identifier).
-- **Chunking**: fragmentación de texto para mejorar la búsqueda y el embedding.
-- **Embedding**: vector numérico que representa el significado del texto.
-- **Qdrant**: base de datos vectorial para búsquedas semánticas.
+- **RAG**: tecnica que combina recuperacion de documentos y generacion de respuestas.
+- **ELI**: identificador europeo de legislacion (European Legislation Identifier).
+- **Chunking**: fragmentacion de texto para mejorar la busqueda y el embedding.
+- **Embedding**: vector numerico que representa el significado del texto.
+- **Qdrant**: base de datos vectorial para busquedas semanticas.
 - **Neo4j**: base de datos de grafos para relaciones y dependencias.
 
 ## Dependencias (descarga)
 
-- `aiofiles`: E/S de ficheros asíncrona para escribir payloads y metadata sin bloquear.
-- `aiohttp`: cliente HTTP asíncrono para descargar recursos en paralelo.
-- `asyncpg`: cliente Postgres asíncrono para registrar recursos e intentos.
+- `aiofiles`: E/S de ficheros asincrona para escribir payloads y metadata sin bloquear.
+- `aiohttp`: cliente HTTP asincrono para descargar recursos en paralelo.
+- `asyncpg`: cliente Postgres asincrono para registrar recursos e intentos.
+- `defusedxml`: parser seguro para XML de terceros.
+- `fastapi`: servidor web ligero para el dashboard.
 - `ijson`: parser JSON en streaming para extraer IDs sin cargar el archivo completo en memoria.
 - `lxml`: parser XML/HTML robusto para extraer URLs y procesar documentos.
-- `psutil`: utilidades del sistema (monitorización/diagnóstico si se necesitara).
-- `pygments`: resaltado de texto (útil si se usa en salidas enriquecidas).
+- `polars`: procesamiento columnar (futuro pipeline a Parquet).
+- `psutil`: utilidades del sistema (monitorizacion/diagnostico).
+- `psycopg`: driver PostgreSQL adicional (futuras tareas offline/ETL).
+- `pygments`: resaltado de texto (util si se usa en salidas enriquecidas).
 - `rich`: salida de terminal mejorada (logs/estilos si se activan).
-- `ruff`: linter rápido (usado en el runner de tests).
+- `ruff`: linter rapido (usado en el runner de tests).
+- `uvicorn`: servidor ASGI para levantar FastAPI.
 
 ## Dependencias de tests
 
 - `pytest`: framework principal de tests.
 - `pytest-asyncio`: soporte para tests async.
-- `pytest-cov` y `coverage`: medición de cobertura.
+- `pytest-cov` y `coverage`: medicion de cobertura.
 - `pytest-mock`: utilidades de mocking.
 - `hypothesis`: tests basados en propiedades.
-- `mypy`: chequeo estático de tipos.
-- `pylint`: análisis de estilo y calidad.
-- `bandit`: análisis de seguridad.
-- `black`: formateo automático.
+- `mypy`: chequeo estatico de tipos.
+- `pylint`: analisis de estilo y calidad.
+- `bandit`: analisis de seguridad.
+- `black`: formateo automatico.
 - `mutmut`: testing de mutaciones (solo con `RUN_HEAVY=1`).
 - `locust`: pruebas de carga (solo con `RUN_HEAVY=1`).
 - `httpx` y `requests`: clientes HTTP para tests.
 - `fastapi` y `pydantic`: utilidades de tests y tipado de modelos.
 - `testcontainers`: tests con contenedores.
 - `lxml-stubs` y `types-*`: stubs de tipos para mejorar mypy.
+
+## Historico de cambios
+
+- 2026-01-10: refactorizacion del codigo y separacion de `boe_downloader_eli.py` en modulos para facilitar el versionado y el mantenimiento.
